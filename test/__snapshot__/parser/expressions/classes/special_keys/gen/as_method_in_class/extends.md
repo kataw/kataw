@@ -77,7 +77,6 @@ class x {extends(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 19,
                                     "end": 19

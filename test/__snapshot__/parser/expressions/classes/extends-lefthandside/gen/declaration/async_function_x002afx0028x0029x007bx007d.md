@@ -88,7 +88,6 @@ class A extends async function *f(){} {}
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 36,
                             "end": 36

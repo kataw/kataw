@@ -76,7 +76,6 @@ x = { method(test) { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 16,
                                         "end": 16
@@ -91,8 +90,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 18
                     },
@@ -157,7 +155,6 @@ x = { method(test) { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 35,
                                         "end": 35
@@ -172,8 +169,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 27,
                         "end": 37
                     },
@@ -238,7 +234,6 @@ x = { method(test) { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 54,
                                         "end": 54
@@ -253,8 +248,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 46,
                         "end": 56
                     },
@@ -340,7 +334,6 @@ x = { method(test) { } }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 80,
                                             "end": 80
@@ -355,8 +348,7 @@ x = { method(test) { } }
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 65,
                             "end": 82
                         },
@@ -398,7 +390,6 @@ x = { method(test) { } }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 100,
                                                     "end": 100
@@ -413,8 +404,7 @@ x = { method(test) { } }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 88,
                                     "end": 101
                                 },
@@ -491,7 +481,6 @@ x = { method(test) { } }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 123,
                                             "end": 123
@@ -506,8 +495,7 @@ x = { method(test) { } }
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 112,
                             "end": 124
                         },
@@ -595,7 +583,6 @@ x = { method(test) { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 149,
                                         "end": 149
@@ -610,8 +597,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 134,
                         "end": 151
                     },

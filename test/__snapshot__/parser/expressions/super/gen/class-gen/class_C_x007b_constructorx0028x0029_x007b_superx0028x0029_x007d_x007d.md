@@ -173,7 +173,6 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                             "end": 56
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 47,
                                                                     "end": 56
@@ -200,7 +199,6 @@ class C { *method() { class C { constructor() { super(); } } } }
                                             "end": 60
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 60

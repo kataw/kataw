@@ -52,7 +52,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 8,
                                 "end": 8
@@ -68,7 +67,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 9,
                                 "end": 9
@@ -108,7 +106,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 19,
                                 "end": 19
@@ -132,7 +129,6 @@
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 33,
                                                 "end": 33
@@ -148,7 +144,6 @@
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 35,
                                                 "end": 35
@@ -162,7 +157,6 @@
                                         "end": 35
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 27,
                                 "end": 35
@@ -176,7 +170,6 @@
                         "end": 35
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 35

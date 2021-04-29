@@ -110,7 +110,6 @@ function f() { class C { await() { } } }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 34,
                                                     "end": 34
@@ -137,7 +136,6 @@ function f() { class C { await() { } } }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 38

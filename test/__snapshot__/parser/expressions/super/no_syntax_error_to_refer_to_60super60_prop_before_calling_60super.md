@@ -181,7 +181,6 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                             "end": 62
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 62

@@ -89,7 +89,6 @@ const {[x]} = z;
                                         "end": 10
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 7,

@@ -124,8 +124,7 @@ function *P(){
                             "end": 41
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 41
                 },

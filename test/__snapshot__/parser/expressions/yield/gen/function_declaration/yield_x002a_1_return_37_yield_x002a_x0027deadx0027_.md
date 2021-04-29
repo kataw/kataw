@@ -141,7 +141,6 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "end": 58
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 58

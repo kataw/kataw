@@ -88,8 +88,7 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
                                         "end": 32
                                     }
                                 ],
-                                "multiline": false,
-                                "flags": 32,
+                                "flags": 4194336,
                                 "start": 16,
                                 "end": 32
                             },

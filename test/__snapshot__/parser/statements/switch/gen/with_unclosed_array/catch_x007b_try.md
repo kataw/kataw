@@ -73,7 +73,6 @@ switch[ catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 19,
                                     "end": 19
@@ -89,7 +88,6 @@ switch[ catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 19,
                                     "end": 19
@@ -103,7 +101,6 @@ switch[ catch { try
                             "end": 19
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 19
@@ -119,7 +116,6 @@ switch[ catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 19,
                     "end": 19

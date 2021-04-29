@@ -68,7 +68,6 @@ result = { arrow = () => {} } = {}
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 26,
                                                 "end": 26
@@ -87,8 +86,7 @@ result = { arrow = () => {} } = {}
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 10,
                             "end": 27
                         },
@@ -108,8 +106,7 @@ result = { arrow = () => {} } = {}
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 33,
                             "end": 33
                         },

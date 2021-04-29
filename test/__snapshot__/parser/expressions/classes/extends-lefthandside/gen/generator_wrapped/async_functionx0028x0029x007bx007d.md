@@ -116,7 +116,6 @@ function *P(){
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 50,
                                             "end": 50
@@ -148,8 +147,7 @@ function *P(){
                             "end": 54
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 54
                 },

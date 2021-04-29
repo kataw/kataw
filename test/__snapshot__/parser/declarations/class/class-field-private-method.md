@@ -125,7 +125,6 @@ class C { #aaa; f() { this.#aaa } }
                                             "end": 31
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 31

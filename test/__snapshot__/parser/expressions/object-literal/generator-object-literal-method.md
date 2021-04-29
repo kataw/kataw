@@ -104,7 +104,6 @@ var x = { *test () { yield *v } };
                                                         "end": 29
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 20,
                                                 "end": 29
@@ -119,8 +118,7 @@ var x = { *test () { yield *v } };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 31
                             },

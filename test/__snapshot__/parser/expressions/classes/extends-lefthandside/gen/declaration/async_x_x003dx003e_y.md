@@ -114,7 +114,6 @@ x => y {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 30,
                 "end": 30

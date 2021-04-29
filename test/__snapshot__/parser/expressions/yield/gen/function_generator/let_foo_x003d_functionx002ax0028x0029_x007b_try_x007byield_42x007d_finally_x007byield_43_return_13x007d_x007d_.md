@@ -185,7 +185,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                             "end": 77
                                                                                         }
                                                                                     ],
-                                                                                    "multiLine": false,
                                                                                     "flags": 16,
                                                                                     "start": 69,
                                                                                     "end": 77
@@ -255,7 +254,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                             "end": 97
                                                                                         }
                                                                                     ],
-                                                                                    "multiLine": false,
                                                                                     "flags": 16,
                                                                                     "start": 88,
                                                                                     "end": 107
@@ -269,7 +267,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                             "end": 108
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 63,
                                                                     "end": 108
@@ -298,7 +295,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                             "end": 111
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 111
@@ -314,7 +310,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                             "end": 113
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 113

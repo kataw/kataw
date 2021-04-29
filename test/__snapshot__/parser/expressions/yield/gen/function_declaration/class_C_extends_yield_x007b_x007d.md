@@ -104,7 +104,6 @@ function not_gen() { class C extends yield { } }}
                             "end": 46
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 46

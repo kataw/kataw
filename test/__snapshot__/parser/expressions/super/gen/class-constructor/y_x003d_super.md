@@ -129,7 +129,6 @@ class C { constructor() { y = super } }
                                             "end": 35
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 35

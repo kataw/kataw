@@ -255,8 +255,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
-                                                                                                "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 16,
                                                                                                 "start": 65,
                                                                                                 "end": 80
                                                                                             },
@@ -291,7 +290,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                         "kind": 217,
                                                                         "directives": [],
                                                                         "statements": [],
-                                                                        "multiline": false,
                                                                         "flags": 32,
                                                                         "start": 84,
                                                                         "end": 84
@@ -318,7 +316,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                 "end": 86
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 86

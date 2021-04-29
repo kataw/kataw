@@ -32,7 +32,6 @@ try {} finally(x) { async try while { catch }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -53,7 +52,6 @@ try {} finally(x) { async try while { catch }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -118,7 +116,6 @@ try {} finally(x) { async try while { catch }
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 29,
                                 "end": 29
@@ -142,7 +139,6 @@ try {} finally(x) { async try while { catch }
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 43,
                                                 "end": 43
@@ -158,7 +154,6 @@ try {} finally(x) { async try while { catch }
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 45,
                                                 "end": 45
@@ -172,7 +167,6 @@ try {} finally(x) { async try while { catch }
                                         "end": 45
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 37,
                                 "end": 45
@@ -186,7 +180,6 @@ try {} finally(x) { async try while { catch }
                         "end": 45
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 19,
                 "end": 45

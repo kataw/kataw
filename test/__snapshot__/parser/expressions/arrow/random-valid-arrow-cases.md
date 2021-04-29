@@ -213,7 +213,6 @@ foo((x, y) => {});
                                         "end": 27
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 26,
@@ -494,8 +493,7 @@ foo((x, y) => {});
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 98,
                                     "end": 102
                                 },
@@ -742,7 +740,6 @@ foo((x, y) => {});
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 170,
                                 "end": 170
@@ -1041,7 +1038,6 @@ foo((x, y) => {});
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 243,
                         "end": 243
@@ -1206,7 +1202,6 @@ foo((x, y) => {});
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 284,
                             "end": 284
@@ -1537,8 +1532,7 @@ foo((x, y) => {});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 356,
                                             "end": 357
                                         },
@@ -1662,8 +1656,7 @@ foo((x, y) => {});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 379,
                                             "end": 385
                                         },
@@ -1945,7 +1938,6 @@ foo((x, y) => {});
                                 "end": 460
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 454,
                         "end": 460
@@ -2051,7 +2043,6 @@ foo((x, y) => {});
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 485,
                         "end": 485
@@ -2199,7 +2190,6 @@ foo((x, y) => {});
                                                 "end": 514
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 514,
                                         "end": 528
@@ -2314,7 +2304,6 @@ foo((x, y) => {});
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 558,
                                     "end": 558
@@ -2372,7 +2361,6 @@ foo((x, y) => {});
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 572,
                         "end": 572
@@ -2436,7 +2424,6 @@ foo((x, y) => {});
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 589,
                         "end": 589
@@ -2499,8 +2486,7 @@ foo((x, y) => {});
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 596,
                                         "end": 601
                                     },
@@ -2659,8 +2645,7 @@ foo((x, y) => {});
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 614,
                             "end": 631
                         },

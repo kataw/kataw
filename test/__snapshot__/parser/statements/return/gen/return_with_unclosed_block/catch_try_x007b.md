@@ -33,8 +33,7 @@ return {} return(x) { catch try {
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -85,7 +84,6 @@ return {} return(x) { catch try {
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 27,
                                 "end": 27
@@ -101,7 +99,6 @@ return {} return(x) { catch try {
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 33,
                                 "end": 33
@@ -115,7 +112,6 @@ return {} return(x) { catch try {
                         "end": 33
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 33

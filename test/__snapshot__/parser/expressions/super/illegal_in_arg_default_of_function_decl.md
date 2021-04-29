@@ -93,7 +93,6 @@ function f(x=super.foo){ }
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 24,
                     "end": 24

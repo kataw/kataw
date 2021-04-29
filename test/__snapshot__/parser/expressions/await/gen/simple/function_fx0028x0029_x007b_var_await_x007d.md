@@ -91,7 +91,6 @@ function f() { var await; }
                             "end": 25
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 25

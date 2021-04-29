@@ -82,7 +82,6 @@ class x {get break(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 21

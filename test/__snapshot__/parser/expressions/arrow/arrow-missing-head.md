@@ -20,7 +20,6 @@
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 4,
                 "end": 4

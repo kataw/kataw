@@ -44,7 +44,6 @@
                         "end": 2
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 2
@@ -99,7 +98,6 @@
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 18
@@ -132,7 +130,6 @@
                             "propertyList": {
                                 "kind": 213,
                                 "properties": [],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 26,

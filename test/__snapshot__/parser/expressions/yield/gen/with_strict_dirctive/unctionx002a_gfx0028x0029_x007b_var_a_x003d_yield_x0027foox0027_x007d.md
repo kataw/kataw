@@ -141,7 +141,6 @@
                         "end": 50
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 29,
                 "end": 50

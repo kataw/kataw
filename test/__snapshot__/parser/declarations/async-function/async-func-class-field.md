@@ -144,7 +144,6 @@ async function f() { class C { aaa = await } }
                             "end": 44
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 44

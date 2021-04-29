@@ -119,7 +119,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 32,
                                     "end": 32
@@ -227,7 +226,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 65,
                                     "end": 65
@@ -335,7 +333,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 99,
                                     "end": 99
@@ -457,7 +454,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 150,
                                     "end": 150
@@ -579,7 +575,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 196,
                                     "end": 196
@@ -682,7 +677,6 @@ class C { get name(private) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 234,
                                     "end": 234
@@ -734,7 +728,6 @@ class C { get name(private) {} }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 240,
                 "end": 240
@@ -835,7 +828,6 @@ class C { get name(private) {} }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 287,
                                             "end": 287
@@ -961,7 +953,6 @@ class C { get name(private) {} }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 334,
                                             "end": 334

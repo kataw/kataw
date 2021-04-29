@@ -67,8 +67,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 15,
                                             "end": 17
                                         },
@@ -90,8 +89,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 10,
                             "end": 19
                         },
@@ -149,8 +147,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 30,
                                             "end": 35
                                         },
@@ -172,8 +169,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 25,
                             "end": 37
                         },

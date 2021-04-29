@@ -64,7 +64,6 @@ x = { get() { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 13,
                                         "end": 13
@@ -79,8 +78,7 @@ x = { get() { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 15
                     },

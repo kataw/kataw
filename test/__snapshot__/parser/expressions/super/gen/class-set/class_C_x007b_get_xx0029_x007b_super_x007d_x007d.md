@@ -155,7 +155,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                             "end": 36
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 36
@@ -218,7 +217,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                         "end": 46
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 39,
                 "end": 46

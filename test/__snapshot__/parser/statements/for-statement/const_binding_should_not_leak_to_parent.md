@@ -58,7 +58,6 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "end": 14
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": true,
                                 "flags": 32,
                                 "start": 12,
@@ -103,8 +102,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 21,
                                 "end": 27
                             },
@@ -155,7 +153,6 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 41,
                     "end": 41
@@ -209,7 +206,6 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "end": 58
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": true,
                                 "flags": 32,
                                 "start": 56,
@@ -254,8 +250,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 65,
                                 "end": 71
                             },
@@ -306,7 +301,6 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 85,
                     "end": 85

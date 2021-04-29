@@ -98,7 +98,6 @@ function *g() { yield void x }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 28

@@ -132,7 +132,6 @@ class x extends y { constructor() { new super() }}
                                             "end": 47
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 47

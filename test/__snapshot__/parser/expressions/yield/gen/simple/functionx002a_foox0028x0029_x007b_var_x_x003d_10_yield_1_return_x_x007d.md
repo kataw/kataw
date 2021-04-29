@@ -151,7 +151,6 @@ function* foo() { var x = 10; yield 1; return x; }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 17,
                     "end": 48

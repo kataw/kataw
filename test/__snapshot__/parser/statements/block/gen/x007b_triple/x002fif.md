@@ -48,8 +48,7 @@
                                                 "end": 9
                                             }
                                         ],
-                                        "multiLine": false,
-                                        "flags": 16,
+                                        "flags": 2097168,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -58,7 +57,6 @@
                                     "end": 9
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 9
@@ -68,7 +66,6 @@
                         "end": 9
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 9

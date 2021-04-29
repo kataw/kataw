@@ -164,7 +164,6 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                             "end": 26
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 26,
                                     "end": 56

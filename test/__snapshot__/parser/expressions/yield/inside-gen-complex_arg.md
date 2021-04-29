@@ -102,7 +102,6 @@ function* f(){ yield x + y; }
                             "end": 27
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 27

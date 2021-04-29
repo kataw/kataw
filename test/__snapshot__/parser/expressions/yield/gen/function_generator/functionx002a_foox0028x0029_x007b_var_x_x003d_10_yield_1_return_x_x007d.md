@@ -222,7 +222,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "end": 78
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 57,
                                                     "end": 88
@@ -238,7 +237,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                             "end": 90
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 90
@@ -254,7 +252,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                             "end": 92
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 92

@@ -53,7 +53,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 14
@@ -119,7 +118,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 34,
                 "end": 34
@@ -180,7 +178,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 58,
                     "end": 58
@@ -276,7 +273,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 92,
                 "end": 92
@@ -337,7 +333,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 116,
                     "end": 116
@@ -485,7 +480,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 161,
                 "end": 161

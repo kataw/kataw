@@ -80,8 +80,7 @@ result = { x: x[yield] } = vals;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 12,
                                 "end": 18
                             },
@@ -169,8 +168,7 @@ result = { x: x[yield] } = vals;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 33,
                             "end": 45
                         },

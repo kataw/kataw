@@ -5,13 +5,12 @@ import { StatementNode } from '../stmt';
 export interface FunctionStatementList extends SyntaxNode {
   readonly directives: StringLiteral[];
   readonly statements: StatementNode[];
-  readonly multiline: boolean;
 }
 
 export function createFunctionStatementList(
   directives: StringLiteral[],
   statements: StatementNode[],
-  multiline: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): FunctionStatementList {
@@ -19,8 +18,7 @@ export function createFunctionStatementList(
     kind: SyntaxKind.FunctionStatementList,
     directives,
     statements,
-    multiline,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

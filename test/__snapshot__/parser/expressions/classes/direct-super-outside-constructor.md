@@ -108,7 +108,6 @@ class A {
                                             "end": 25
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 18,
                                     "end": 25

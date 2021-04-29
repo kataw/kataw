@@ -232,8 +232,7 @@ Object.defineProperty(this, "x", {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 69,
                                 "end": 102
                             },
@@ -485,8 +484,7 @@ Object.defineProperty(this, "x", {
                                                                         "end": 233
                                                                     }
                                                                 ],
-                                                                "multiline": true,
-                                                                "flags": 32,
+                                                                "flags": 33,
                                                                 "start": 177,
                                                                 "end": 233
                                                             },
@@ -539,8 +537,7 @@ Object.defineProperty(this, "x", {
                                         "end": 250
                                     }
                                 ],
-                                "multiline": true,
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 121,
                                 "end": 250
                             },

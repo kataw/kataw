@@ -81,7 +81,6 @@ if[ try { !xxx
                                 "end": 14
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 14
@@ -97,7 +96,6 @@ if[ try { !xxx
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 14,
                         "end": 14

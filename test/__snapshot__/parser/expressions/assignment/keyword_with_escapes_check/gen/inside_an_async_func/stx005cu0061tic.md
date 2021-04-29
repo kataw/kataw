@@ -77,8 +77,7 @@ async () => {  st\u0061tic = x  }
                             "end": 30
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 30
                 },

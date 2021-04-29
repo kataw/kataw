@@ -228,7 +228,6 @@ let {foo=3} = {};
                                         "end": 47
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 44,
@@ -273,8 +272,7 @@ let {foo=3} = {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 52,
                                 "end": 58
                             },
@@ -337,7 +335,6 @@ let {foo=3} = {};
                                         "end": 71
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 66,
@@ -355,8 +352,7 @@ let {foo=3} = {};
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 76,
                                 "end": 76
                             },

@@ -95,7 +95,6 @@ function not_gen() { await.b[c] => async }}
                             "end": 31
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 31

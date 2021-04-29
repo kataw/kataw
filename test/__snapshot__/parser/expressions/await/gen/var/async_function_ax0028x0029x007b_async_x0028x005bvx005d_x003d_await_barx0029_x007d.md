@@ -236,7 +236,6 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                 "end": 87
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 58,
                                                         "end": 87
@@ -252,7 +251,6 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                 "end": 93
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 93

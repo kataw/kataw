@@ -169,7 +169,6 @@ class C { *method() { var f = function*() { super(); } } }
                                                                             "end": 52
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 43,
                                                                     "end": 52
@@ -198,7 +197,6 @@ class C { *method() { var f = function*() { super(); } } }
                                             "end": 54
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 54

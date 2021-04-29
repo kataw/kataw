@@ -75,8 +75,7 @@
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 10,
                                             "end": 14
                                         },
@@ -98,8 +97,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 2,
                             "end": 15
                         },
@@ -164,8 +162,7 @@
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 36
                                         },
@@ -187,8 +184,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 27,
                             "end": 37
                         },
@@ -245,8 +241,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 49,
                                     "end": 50
                                 },
@@ -282,7 +277,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 62,
                         "end": 62

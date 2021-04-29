@@ -24,7 +24,6 @@ else {} if(x) { class x {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -86,7 +85,6 @@ else {} if(x) { class x {}
                             "end": 26
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 26

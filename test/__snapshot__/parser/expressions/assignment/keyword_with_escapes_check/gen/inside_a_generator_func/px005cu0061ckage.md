@@ -94,8 +94,7 @@ function *f(){
                             "end": 33
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 16417,
                     "start": 14,
                     "end": 33
                 },

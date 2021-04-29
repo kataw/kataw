@@ -220,7 +220,6 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 72,
                                                                     "end": 72
@@ -269,7 +268,6 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 82,
                             "end": 82

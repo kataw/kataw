@@ -92,7 +92,6 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 17,
                                     "end": 17
@@ -144,7 +143,6 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 27,
                                     "end": 27
@@ -196,7 +194,6 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 39

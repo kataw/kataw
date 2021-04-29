@@ -168,7 +168,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "kind": 217,
                                                                                 "directives": [],
                                                                                 "statements": [],
-                                                                                "multiline": false,
                                                                                 "flags": 32,
                                                                                 "start": 64,
                                                                                 "end": 64
@@ -207,7 +206,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "kind": 217,
                                                                                 "directives": [],
                                                                                 "statements": [],
-                                                                                "multiline": false,
                                                                                 "flags": 32,
                                                                                 "start": 73,
                                                                                 "end": 73
@@ -222,8 +220,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 16,
                                                                 "start": 50,
                                                                 "end": 74
                                                             },
@@ -255,7 +252,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                             "end": 82
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 42,
                                     "end": 82
@@ -271,7 +267,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "end": 87
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 87

@@ -177,7 +177,6 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                             "end": 34
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 61

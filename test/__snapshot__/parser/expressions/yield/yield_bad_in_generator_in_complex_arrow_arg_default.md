@@ -136,7 +136,6 @@ function *g() { (x = u + yield z) => {}; }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 38
@@ -154,7 +153,6 @@ function *g() { (x = u + yield z) => {}; }
                             "end": 40
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 40

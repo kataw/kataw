@@ -119,7 +119,6 @@ do[ =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 25,
                     "end": 25
@@ -135,7 +134,6 @@ do[ =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 31,
                     "end": 31

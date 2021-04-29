@@ -81,8 +81,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16400,
                                     "start": 9,
                                     "end": 27
                                 },
@@ -129,8 +128,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 33,
                                     "end": 47
                                 },

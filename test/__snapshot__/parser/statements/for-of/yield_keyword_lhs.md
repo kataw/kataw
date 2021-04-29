@@ -121,7 +121,6 @@ function *f(){ for (yield of obj); }
                             "end": 34
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 34

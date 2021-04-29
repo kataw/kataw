@@ -24,7 +24,6 @@ else {} if(x) { try { !xxx
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -94,7 +93,6 @@ else {} if(x) { try { !xxx
                                             "end": 26
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 21,
                                     "end": 26
@@ -110,7 +108,6 @@ else {} if(x) { try { !xxx
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 26,
                                     "end": 26
@@ -124,7 +121,6 @@ else {} if(x) { try { !xxx
                             "end": 26
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 26

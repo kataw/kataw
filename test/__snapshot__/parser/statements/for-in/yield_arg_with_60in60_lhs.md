@@ -147,7 +147,6 @@ function *f(){   for (yield x in y in z);   }
                             "end": 41
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 41

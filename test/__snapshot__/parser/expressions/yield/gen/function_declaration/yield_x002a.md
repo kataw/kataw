@@ -86,7 +86,6 @@ function not_gen() { yield * }}
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 28

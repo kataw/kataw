@@ -115,7 +115,6 @@ function* foo(a = {*bar() { yield b }}) {}
                                                         "end": 35
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 27,
                                                 "end": 35
@@ -130,8 +129,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 19,
                                 "end": 37
                             },
@@ -155,7 +153,6 @@ function* foo(a = {*bar() { yield b }}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 41,
                     "end": 41

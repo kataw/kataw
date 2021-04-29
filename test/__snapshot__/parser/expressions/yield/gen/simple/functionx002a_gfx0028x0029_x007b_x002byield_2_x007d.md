@@ -98,7 +98,6 @@ function* gf() { +yield 2; }
                             "end": 26
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 26

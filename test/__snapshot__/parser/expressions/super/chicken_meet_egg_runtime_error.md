@@ -133,7 +133,6 @@ class x extends y { constructor() { super(this); } }
                                             "end": 48
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 48

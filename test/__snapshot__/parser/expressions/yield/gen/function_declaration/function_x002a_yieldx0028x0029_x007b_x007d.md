@@ -90,7 +90,6 @@ function not_gen() { function * yield() { } }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 41,
                                     "end": 41
@@ -106,7 +105,6 @@ function not_gen() { function * yield() { } }}
                             "end": 43
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 43

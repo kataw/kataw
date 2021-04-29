@@ -124,7 +124,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                                             "end": 47
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 47
@@ -140,7 +139,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 47
@@ -189,7 +187,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                         "end": 58
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 52,
                 "end": 58

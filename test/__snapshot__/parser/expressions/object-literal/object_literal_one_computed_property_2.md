@@ -103,8 +103,7 @@ x({[a]:b, [15]:d}=obj);
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 3,
                                     "end": 16
                                 },

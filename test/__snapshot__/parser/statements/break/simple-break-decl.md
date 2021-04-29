@@ -67,7 +67,6 @@ loop: while (x) { break loop; }
                                 "end": 29
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 17,
                         "end": 29

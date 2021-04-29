@@ -32,7 +32,6 @@ try [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -48,7 +47,6 @@ try [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -69,7 +67,6 @@ try [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 10,
                     "end": 10
@@ -85,7 +82,6 @@ try [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 11,
                     "end": 11
@@ -119,7 +115,6 @@ try [catch] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 23,
                                     "end": 23
@@ -135,7 +130,6 @@ try [catch] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 23,
                                     "end": 23
@@ -149,7 +143,6 @@ try [catch] catch { try
                             "end": 23
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 19,
                     "end": 23
@@ -165,7 +158,6 @@ try [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 23,
                     "end": 23

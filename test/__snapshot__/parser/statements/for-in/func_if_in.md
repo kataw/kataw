@@ -124,7 +124,6 @@ for (function(){ if (a in b); }.prop in x);
                                     "end": 29
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 16,
                             "end": 29

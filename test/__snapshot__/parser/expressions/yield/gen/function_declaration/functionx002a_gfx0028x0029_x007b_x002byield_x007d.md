@@ -124,7 +124,6 @@ function not_gen() { function* gf() { +yield; } }}
                                             "end": 45
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 45
@@ -140,7 +139,6 @@ function not_gen() { function* gf() { +yield; } }}
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 47

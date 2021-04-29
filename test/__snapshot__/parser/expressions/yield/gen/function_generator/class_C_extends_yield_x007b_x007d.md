@@ -142,7 +142,6 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                             "end": 65
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 65
@@ -158,7 +157,6 @@ function * gen() { function not_gen() { class C extends yield { } }}
                             "end": 67
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 67

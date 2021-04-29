@@ -119,8 +119,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 5,
                             "end": 17
                         },
@@ -173,8 +172,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 23,
                             "end": 29
                         },
@@ -284,8 +282,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 38,
                             "end": 50
                         },
@@ -305,8 +302,7 @@ q = {"foo": super = x} = x;
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 56,
                             "end": 56
                         },
@@ -416,8 +412,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 64,
                             "end": 76
                         },
@@ -531,8 +526,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 82,
                             "end": 99
                         },
@@ -642,8 +636,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 108,
                             "end": 120
                         },
@@ -767,8 +760,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 141,
                             "end": 153
                         },
@@ -891,8 +883,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 169,
                             "end": 181
                         },
@@ -1016,8 +1007,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 195,
                             "end": 207
                         },
@@ -1140,8 +1130,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 224,
                             "end": 236
                         },
@@ -1265,8 +1254,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 249,
                             "end": 261
                         },
@@ -1312,8 +1300,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 267,
                             "end": 275
                         },
@@ -1370,8 +1357,7 @@ q = {"foo": super = x} = x;
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 291,
                                             "end": 291
                                         },
@@ -1417,8 +1403,7 @@ q = {"foo": super = x} = x;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 284,
                         "end": 297
                     },
@@ -1471,8 +1456,7 @@ q = {"foo": super = x} = x;
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 311,
                                             "end": 311
                                         },
@@ -1512,8 +1496,7 @@ q = {"foo": super = x} = x;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 306,
                         "end": 317
                     },
@@ -1572,8 +1555,7 @@ q = {"foo": super = x} = x;
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 331,
                                             "end": 331
                                         },
@@ -1607,8 +1589,7 @@ q = {"foo": super = x} = x;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 326,
                         "end": 336
                     },
@@ -1697,8 +1678,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 345,
                             "end": 361
                         },
@@ -1804,8 +1784,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 373,
                             "end": 388
                         },
@@ -1929,8 +1908,7 @@ q = {"foo": super = x} = x;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 400,
                             "end": 416
                         },

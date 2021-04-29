@@ -23,6 +23,7 @@ export {
   containsInvalidEscape,
   isAssignOp,
   isBinaryOp,
+  hasNewLine,
   isStatementStart,
   isExpressionStart,
   isPropertyOrCall,

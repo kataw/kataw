@@ -140,7 +140,6 @@ var await; var f = (async function() { await 5; });
                                                 "end": 47
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 47

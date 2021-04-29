@@ -47,7 +47,6 @@ else while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 14,
                         "end": 14
@@ -63,7 +62,6 @@ else while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 19,
                         "end": 19

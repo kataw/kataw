@@ -135,7 +135,6 @@ function* g(x) { yield x = yield 3; }
                             "end": 35
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 35

@@ -94,7 +94,6 @@ x = (a)?c:d=>{}=>{}
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 14,
                                 "end": 14
@@ -124,7 +123,6 @@ x = (a)?c:d=>{}=>{}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 18,
                 "end": 18

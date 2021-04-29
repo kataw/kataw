@@ -77,8 +77,7 @@ async () => {  \u0069nterface = x  }
                             "end": 33
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 33
                 },

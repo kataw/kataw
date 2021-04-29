@@ -111,7 +111,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 105,
                 "end": 105

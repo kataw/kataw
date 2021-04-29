@@ -76,7 +76,6 @@ for (() => { x in y };;);
                                 "end": 19
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 12,
                         "end": 19

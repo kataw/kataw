@@ -204,7 +204,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                             "end": 82
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 58,
                                                     "end": 82
@@ -220,7 +219,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                             "end": 84
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 84
@@ -236,7 +234,6 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                             "end": 86
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 86

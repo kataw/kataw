@@ -104,7 +104,6 @@ var {x = 10, y = 5, z = 1} = a;
                                         "end": 25
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

@@ -142,7 +142,6 @@ async function a(){     async ([v] = await bar);     }
                             "end": 48
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 48

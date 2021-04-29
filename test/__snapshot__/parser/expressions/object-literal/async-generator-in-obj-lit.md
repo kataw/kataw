@@ -81,8 +81,7 @@ const obj = {
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": true,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 43,
                                                 "end": 43
                                             },
@@ -96,8 +95,7 @@ const obj = {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 13,
                                 "end": 49
                             },

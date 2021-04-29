@@ -88,7 +88,6 @@ function a({x = 10}) {}
                                         "end": 18
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 12,
@@ -117,7 +116,6 @@ function a({x = 10}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 22,
                     "end": 22

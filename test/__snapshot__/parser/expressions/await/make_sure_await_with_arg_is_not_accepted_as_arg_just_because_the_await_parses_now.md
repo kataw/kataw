@@ -105,7 +105,6 @@ async function f(){  (await fail) => x  }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 38

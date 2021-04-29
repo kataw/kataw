@@ -1032,13 +1032,13 @@ function parseBlock(parser: ParserState, context: Context): Block {
     return createBlock(block, pos, parser.curPos);
   }
   // Empty list
-  return createBlock(createBlockStatement([], /* multiline */ false, pos, parser.curPos), pos, pos);
+  return createBlock(createBlockStatement([], NodeFlags.IsStatement, pos, parser.curPos), pos, pos);
 }
 
 function parseBlockStatement(parser: ParserState, context: Context): BlockStatement {
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
-  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
+  const flags = parser.nodeFlags;
   while (parser.token & 0b00010000100000011110000000000000) {
     const statement = parseStatementListItem(parser, context);
 
@@ -1046,7 +1046,7 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
       statements.push(statement);
     }
   }
-  return createBlockStatement(statements, multiline, curPos, parser.curPos);
+  return createBlockStatement(statements, flags | NodeFlags.IsStatement, curPos, parser.curPos);
 }
 
 function parseAssignmentExpression(
@@ -1775,7 +1775,7 @@ function parseObjectLiteralOrAssignmentExpression(
 function parsePropertyDefinitionList(parser: ParserState, context: Context, type: BindingType): PropertyDefinitionList {
   const pos = parser.curPos;
   const properties = [];
-  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
+  const flags = parser.nodeFlags;
   let trailingComma = false;
   let destructible = DestructibleKind.None;
   const prototypeCount = 0;
@@ -1794,7 +1794,7 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
   parser.destructible = destructible;
-  return createPropertyDefinitionList(properties, trailingComma, multiline, parser.nodeFlags, pos, parser.curPos);
+  return createPropertyDefinitionList(properties, trailingComma, flags | NodeFlags.IsStatement, pos, parser.curPos);
 }
 
 function parsePropertyDefinition(
@@ -3324,7 +3324,7 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   const pos = parser.curPos;
   const properties = [];
   let trailingComma = false;
-  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
+  const flags = parser.nodeFlags;
   while (
     parser.token &
     (SyntaxKind.IsPatternStart | SyntaxKind.IsEllipsis | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)
@@ -3341,7 +3341,13 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
 
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
-  return createBindingPropertyList(properties as any, multiline, trailingComma, pos, parser.curPos);
+  return createBindingPropertyList(
+    properties as any,
+    flags | NodeFlags.ExpressionNode,
+    trailingComma,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
@@ -3704,7 +3710,7 @@ function parseFunctionBody(
   parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
 
   // Empty list
-  return createFunctionBody(createFunctionStatementList([], [], false, pos, pos), pos, pos);
+  return createFunctionBody(createFunctionStatementList([], [], NodeFlags.ExpressionNode, pos, pos), pos, pos);
 }
 export function isValidDirective(state: ParserState): boolean {
   return (
@@ -3721,7 +3727,7 @@ function parseFunctionStatementList(
   const pos = parser.curPos;
   const statements = [];
   const directives = [];
-  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
+  const flags = parser.nodeFlags;
 
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
@@ -3759,7 +3765,7 @@ function parseFunctionStatementList(
   ) {
     statements.push(parseStatementListItem(parser, context));
   }
-  return createFunctionStatementList(directives, statements, multiline, pos, parser.curPos);
+  return createFunctionStatementList(directives, statements, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
 function parseFormalParameterList(parser: ParserState, context: Context): FormalParameterList {
@@ -4358,7 +4364,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const pos = parser.curPos;
   let trailingComma = false;
   nextToken(parser, context);
-  const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
+  const flags = parser.nodeFlags;
   const types: TypeNode[] = [];
   while (
     parser.token &
@@ -4376,7 +4382,7 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
   consume(parser, context, SyntaxKind.RightBracket);
-  return createTupleType(types, trailingComma, multiline, pos, parser.curPos);
+  return createTupleType(types, trailingComma, flags, pos, parser.curPos);
 }
 
 function parseFunctionType(parser: ParserState, context: Context): FunctionType {

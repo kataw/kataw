@@ -82,8 +82,7 @@ function *f(){ ({x} = yield) => {} }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -125,7 +124,6 @@ function *f(){ ({x} = yield) => {} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 33,
                                         "end": 33
@@ -143,7 +141,6 @@ function *f(){ ({x} = yield) => {} }
                             "end": 34
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 34

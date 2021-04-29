@@ -73,7 +73,6 @@ async function f(){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 11,
                     "end": 11
@@ -184,7 +183,6 @@ async function f(){}
                                                             "propertyList": {
                                                                 "kind": 213,
                                                                 "properties": [],
-                                                                "multiline": false,
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 55,
@@ -213,7 +211,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 56,
                                                     "end": 56
@@ -261,7 +258,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 70,
                                                     "end": 70
@@ -314,7 +310,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 92,
                                                     "end": 92
@@ -361,7 +356,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 104,
                                                     "end": 104
@@ -421,7 +415,6 @@ async function f(){}
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 110,
                                                 "end": 110
@@ -463,7 +456,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 126,
                                                     "end": 126
@@ -494,8 +486,7 @@ async function f(){}
                                                         "kind": 218,
                                                         "properties": [],
                                                         "trailingComma": false,
-                                                        "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 16,
                                                         "start": 128,
                                                         "end": 128
                                                     },
@@ -544,7 +535,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 142,
                                                     "end": 142
@@ -625,7 +615,6 @@ async function f(){}
                                                 "block": {
                                                     "kind": 124,
                                                     "statements": [],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 159,
                                                     "end": 159
@@ -648,7 +637,6 @@ async function f(){}
                                                     "block": {
                                                         "kind": 124,
                                                         "statements": [],
-                                                        "multiLine": false,
                                                         "flags": 16,
                                                         "start": 165,
                                                         "end": 165
@@ -719,8 +707,7 @@ async function f(){}
                                             "end": 175
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 41,
                                     "end": 175
                                 },
@@ -809,7 +796,6 @@ async function f(){}
                                                             "kind": 217,
                                                             "directives": [],
                                                             "statements": [],
-                                                            "multiline": false,
                                                             "flags": 32,
                                                             "start": 207,
                                                             "end": 207
@@ -865,7 +851,6 @@ async function f(){}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 222,
                                                     "end": 222
@@ -913,7 +898,6 @@ async function f(){}
                                                         "kind": 217,
                                                         "directives": [],
                                                         "statements": [],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 237,
                                                         "end": 237
@@ -940,7 +924,6 @@ async function f(){}
                                             "end": 237
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 191,
                                     "end": 237
@@ -956,8 +939,7 @@ async function f(){}
                             "end": 237
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 26,
                     "end": 237
                 },

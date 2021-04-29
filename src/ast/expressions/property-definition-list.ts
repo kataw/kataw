@@ -13,13 +13,11 @@ export type Properties = SpreadProperty | MethodDefinition | PropertyDefinition 
 export interface PropertyDefinitionList extends SyntaxNode {
   readonly properties: Properties[];
   readonly trailingComma: boolean;
-  readonly multiline: boolean;
 }
 
 export function createPropertyDefinitionList(
   properties: Properties[],
   trailingComma: boolean,
-  multiline: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -28,7 +26,6 @@ export function createPropertyDefinitionList(
     kind: SyntaxKind.PropertyDefinitionList,
     properties,
     trailingComma,
-    multiline,
     flags,
     start,
     end

@@ -76,7 +76,6 @@ foo(async => {})
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 14,
                                     "end": 14

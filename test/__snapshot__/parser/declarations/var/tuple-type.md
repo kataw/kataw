@@ -59,7 +59,6 @@ var x: [number, string] = [123, "aladdin"];
                                 "kind": 147,
                                 "types": [],
                                 "trailingComma": false,
-                                "multiline": false,
                                 "flags": 0,
                                 "start": 6,
                                 "end": 9
@@ -131,7 +130,6 @@ var x: [number, string] = [123, "aladdin"];
                                     }
                                 ],
                                 "trailingComma": true,
-                                "multiline": false,
                                 "flags": 0,
                                 "start": 23,
                                 "end": 33
@@ -243,7 +241,6 @@ var x: [number, string] = [123, "aladdin"];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
                                 "flags": 0,
                                 "start": 51,
                                 "end": 60
@@ -330,7 +327,6 @@ var x: [number, string] = [123, "aladdin"];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
                                 "flags": 0,
                                 "start": 77,
                                 "end": 94

@@ -71,7 +71,6 @@ bar ? (return => {}) : baz;
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 18,
                 "end": 18

@@ -42,8 +42,7 @@ do while [catch] catch { try
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 24,
                     "end": 28
                 },
@@ -82,7 +81,6 @@ do while [catch] catch { try
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -98,7 +96,6 @@ do while [catch] catch { try
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16

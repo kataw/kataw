@@ -265,8 +265,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "multiline": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 16,
                                                                                             "start": 79,
                                                                                             "end": 98
                                                                                         },
@@ -299,7 +298,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                             "end": 101
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 59,
                                                     "end": 101
@@ -315,7 +313,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                             "end": 101
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 101
@@ -331,7 +328,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                             "end": 101
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 101
@@ -351,7 +347,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 106,
                 "end": 106

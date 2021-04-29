@@ -130,7 +130,6 @@
                                         "end": 30
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 17,
                                 "end": 30
@@ -140,7 +139,6 @@
                             "end": 32
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 32

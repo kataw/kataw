@@ -100,7 +100,6 @@ var {x = 10, y: { z = 10}} = a;
                                                             "end": 24
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 17,
@@ -120,7 +119,6 @@ var {x = 10, y: { z = 10}} = a;
                                         "end": 25
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

@@ -93,7 +93,6 @@ for (a of b) async function *f(){}
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 33,
                             "end": 33

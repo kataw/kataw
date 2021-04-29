@@ -93,8 +93,7 @@ x = {arrow: (x, y) => ok};
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 21
                     },
@@ -196,8 +195,7 @@ x = {arrow: (x, y) => ok};
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 30,
                         "end": 49
                     },

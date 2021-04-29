@@ -114,7 +114,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                             "end": 37
                                                         }
                                                     ],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 29,
                                                     "end": 37
@@ -184,7 +183,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                             "end": 57
                                                         }
                                                     ],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 48,
                                                     "end": 67
@@ -198,7 +196,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                             "end": 68
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 23,
                                     "end": 68

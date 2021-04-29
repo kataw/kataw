@@ -27,7 +27,6 @@ catch /)finally finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -43,7 +42,6 @@ catch /)finally finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 23,
                     "end": 23

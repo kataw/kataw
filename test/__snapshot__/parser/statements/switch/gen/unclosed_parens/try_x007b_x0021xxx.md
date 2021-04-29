@@ -85,7 +85,6 @@ switch( try { !xxx case
                             "end": 18
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 13,
                     "end": 18
@@ -101,7 +100,6 @@ switch( try { !xxx case
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 23,
                     "end": 23

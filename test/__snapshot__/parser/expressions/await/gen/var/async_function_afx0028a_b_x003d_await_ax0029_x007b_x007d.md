@@ -207,7 +207,6 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                         "kind": 217,
                                                         "directives": [],
                                                         "statements": [],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 74,
                                                         "end": 74
@@ -223,7 +222,6 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                 "end": 76
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 76

@@ -93,7 +93,6 @@
                             "end": 43
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 34,
                     "end": 43

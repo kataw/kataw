@@ -80,8 +80,7 @@ do( async try while { catch } while
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 21,
                     "end": 27
                 },

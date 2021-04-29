@@ -192,7 +192,6 @@ const fn = async (a?: any): Promise<void> => {};
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 46,
                 "end": 46

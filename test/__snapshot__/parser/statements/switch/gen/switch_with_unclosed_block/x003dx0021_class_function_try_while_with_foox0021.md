@@ -33,8 +33,7 @@ switch {} default(x) { =! class function try while with foo!
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -79,7 +78,6 @@ switch {} default(x) { =! class function try while with foo!
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 22,
                                     "end": 22
@@ -161,7 +159,6 @@ switch {} default(x) { =! class function try while with foo!
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 40,
                                         "end": 40
@@ -189,7 +186,6 @@ switch {} default(x) { =! class function try while with foo!
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 44,
                                         "end": 44
@@ -205,7 +201,6 @@ switch {} default(x) { =! class function try while with foo!
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 50,
                                         "end": 50

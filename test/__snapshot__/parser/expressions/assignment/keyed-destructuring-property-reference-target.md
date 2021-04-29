@@ -280,8 +280,7 @@ function targetKey() {
                                                             "end": 119
                                                         }
                                                     ],
-                                                    "multiline": true,
-                                                    "flags": 32,
+                                                    "flags": 33,
                                                     "start": 90,
                                                     "end": 119
                                                 },
@@ -295,8 +294,7 @@ function targetKey() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": true,
-                                    "flags": 1,
+                                    "flags": 17,
                                     "start": 72,
                                     "end": 129
                                 },
@@ -309,8 +307,7 @@ function targetKey() {
                             "end": 59
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 35,
                     "end": 136
                 },
@@ -518,8 +515,7 @@ function targetKey() {
                                                             "end": 243
                                                         }
                                                     ],
-                                                    "multiline": true,
-                                                    "flags": 32,
+                                                    "flags": 33,
                                                     "start": 214,
                                                     "end": 243
                                                 },
@@ -533,8 +529,7 @@ function targetKey() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": true,
-                                    "flags": 1,
+                                    "flags": 17,
                                     "start": 195,
                                     "end": 253
                                 },
@@ -547,8 +542,7 @@ function targetKey() {
                             "end": 182
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 158,
                     "end": 260
                 },
@@ -762,8 +756,7 @@ function targetKey() {
                                                                 "end": 402
                                                             }
                                                         ],
-                                                        "multiline": true,
-                                                        "flags": 32,
+                                                        "flags": 33,
                                                         "start": 357,
                                                         "end": 426
                                                     },
@@ -791,8 +784,7 @@ function targetKey() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": true,
-                                    "flags": 1,
+                                    "flags": 17,
                                     "start": 326,
                                     "end": 436
                                 },
@@ -805,8 +797,7 @@ function targetKey() {
                             "end": 313
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 285,
                     "end": 443
                 },
@@ -1020,8 +1011,7 @@ function targetKey() {
                                                                 "end": 585
                                                             }
                                                         ],
-                                                        "multiline": true,
-                                                        "flags": 32,
+                                                        "flags": 33,
                                                         "start": 540,
                                                         "end": 609
                                                     },
@@ -1049,8 +1039,7 @@ function targetKey() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": true,
-                                    "flags": 1,
+                                    "flags": 17,
                                     "start": 509,
                                     "end": 619
                                 },
@@ -1063,8 +1052,7 @@ function targetKey() {
                             "end": 496
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 468,
                     "end": 626
                 },
@@ -1179,8 +1167,7 @@ function targetKey() {
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 633,
                             "end": 669
                         },

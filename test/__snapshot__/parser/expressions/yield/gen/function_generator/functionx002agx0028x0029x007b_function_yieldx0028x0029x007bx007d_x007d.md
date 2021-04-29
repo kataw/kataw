@@ -161,7 +161,6 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 71,
                                                                     "end": 71
@@ -183,7 +182,6 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                                             "end": 73
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 53,
                                                     "end": 73
@@ -199,7 +197,6 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                                             "end": 75
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 75
@@ -215,7 +212,6 @@ function * gen() { function not_gen() { function*g(){ function yield(){}; } }}
                             "end": 77
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 77

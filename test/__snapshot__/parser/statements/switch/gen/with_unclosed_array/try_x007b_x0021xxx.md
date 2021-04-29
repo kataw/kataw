@@ -92,7 +92,6 @@ switch[ try { !xxx
                             "end": 18
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 13,
                     "end": 18
@@ -108,7 +107,6 @@ switch[ try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 18,
                     "end": 18

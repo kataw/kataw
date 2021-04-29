@@ -83,7 +83,6 @@ x = x => { return x; } ;
                                     "end": 10
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 10,
                             "end": 20

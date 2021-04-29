@@ -59,7 +59,6 @@ return catch { try return
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 18,
                                     "end": 18
@@ -75,7 +74,6 @@ return catch { try return
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 25,
                                     "end": 25
@@ -89,7 +87,6 @@ return catch { try return
                             "end": 25
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 25
@@ -105,7 +102,6 @@ return catch { try return
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 25,
                     "end": 25

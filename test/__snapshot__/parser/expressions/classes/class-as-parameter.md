@@ -247,8 +247,7 @@ class A {
                                                                         "end": 100
                                                                     }
                                                                 ],
-                                                                "multiline": true,
-                                                                "flags": 32,
+                                                                "flags": 33,
                                                                 "start": 83,
                                                                 "end": 100
                                                             },
@@ -262,8 +261,7 @@ class A {
                                                     }
                                                 ],
                                                 "trailingComma": true,
-                                                "multiline": true,
-                                                "flags": 1,
+                                                "flags": 17,
                                                 "start": 61,
                                                 "end": 107
                                             },
@@ -286,8 +284,7 @@ class A {
                             "end": 32
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 32,
                     "end": 113
                 },

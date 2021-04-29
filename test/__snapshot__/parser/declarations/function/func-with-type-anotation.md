@@ -182,7 +182,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 66,
                     "end": 66

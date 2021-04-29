@@ -113,7 +113,6 @@ async function af(a, b = await a) { }
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 35,
                     "end": 35

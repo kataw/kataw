@@ -59,7 +59,6 @@ var {x}: {x: string; } = { x: "hello" };
                                         "end": 6
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -142,8 +141,7 @@ var {x}: {x: string; } = { x: "hello" };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 26,
                                 "end": 37
                             },

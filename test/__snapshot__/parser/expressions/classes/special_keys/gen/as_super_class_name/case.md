@@ -74,7 +74,6 @@ class x extends case {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 22,
                 "end": 22

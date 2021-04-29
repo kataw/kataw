@@ -564,7 +564,6 @@ class C { f(){ this.#a } #a; }
                                             "end": 142
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 134,
                                     "end": 142
@@ -674,7 +673,6 @@ class C { f(){ this.#a } #a; }
                                             "end": 170
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 162,
                                     "end": 170

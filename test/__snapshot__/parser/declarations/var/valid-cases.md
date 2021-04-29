@@ -268,7 +268,6 @@ var {get} = obj;
                                         "end": 50
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 49,
@@ -365,8 +364,7 @@ var {get} = obj;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 55,
                                 "end": 71
                             },
@@ -496,8 +494,7 @@ var {get} = obj;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 84,
                                 "end": 100
                             },
@@ -627,7 +624,6 @@ var {get} = obj;
                         "end": 141
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 130,
                 "end": 141
@@ -687,7 +683,6 @@ var {get} = obj;
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 157,
                     "end": 157
@@ -752,7 +747,6 @@ var {get} = obj;
                                 "end": 177
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 170,
                         "end": 177
@@ -859,8 +853,7 @@ var {get} = obj;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 191,
                                             "end": 200
                                         },
@@ -947,8 +940,7 @@ var {get} = obj;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 204,
                                             "end": 215
                                         },
@@ -966,7 +958,6 @@ var {get} = obj;
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 222,
                                     "end": 222
@@ -1105,8 +1096,7 @@ var {get} = obj;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 235,
                                         "end": 252
                                     },
@@ -1123,7 +1113,6 @@ var {get} = obj;
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 259,
                                     "end": 259
@@ -1353,7 +1342,6 @@ var {get} = obj;
                                         "end": 312
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 309,
@@ -1398,8 +1386,7 @@ var {get} = obj;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 317,
                                 "end": 323
                             },
@@ -1463,7 +1450,6 @@ var {get} = obj;
                                         "end": 337
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 332,
@@ -1481,8 +1467,7 @@ var {get} = obj;
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 342,
                                 "end": 342
                             },
@@ -1546,7 +1531,6 @@ var {get} = obj;
                                         "end": 369
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 351,
@@ -1622,7 +1606,6 @@ var {get} = obj;
                                         "end": 407
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 384,
@@ -1713,7 +1696,6 @@ var {get} = obj;
                                         "end": 455
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 422,
@@ -1782,7 +1764,6 @@ var {get} = obj;
                                         "end": 473
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 470,

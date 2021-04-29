@@ -42,8 +42,7 @@ async () => {  \u0065xtends = x  }
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 13
                 },

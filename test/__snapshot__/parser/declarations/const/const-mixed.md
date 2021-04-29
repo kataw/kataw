@@ -107,8 +107,7 @@ const map = {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 13,
                                 "end": 41
                             },

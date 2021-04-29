@@ -86,7 +86,6 @@ function* gf() { yield 'foo' }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 28

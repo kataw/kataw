@@ -134,7 +134,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 22,
                                     "end": 22
@@ -186,7 +185,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 37
@@ -238,7 +236,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 55,
                                     "end": 55
@@ -290,7 +287,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 72,
                                     "end": 72
@@ -342,7 +338,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 90,
                                     "end": 90
@@ -394,7 +389,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 107,
                                     "end": 107
@@ -446,7 +440,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 126,
                                     "end": 126
@@ -503,7 +496,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 151,
                                     "end": 151
@@ -560,7 +552,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 175,
                                     "end": 175
@@ -617,7 +608,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 202,
                                     "end": 202
@@ -674,7 +664,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 228,
                                     "end": 228
@@ -731,7 +720,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 250,
                                     "end": 250
@@ -788,7 +776,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 274,
                                     "end": 274
@@ -850,7 +837,6 @@ class A {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 308,
                                     "end": 308

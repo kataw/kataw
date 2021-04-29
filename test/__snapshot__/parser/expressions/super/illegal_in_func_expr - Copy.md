@@ -91,7 +91,6 @@ x = function(){ super.foo; }
                                     "end": 26
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 15,
                             "end": 26

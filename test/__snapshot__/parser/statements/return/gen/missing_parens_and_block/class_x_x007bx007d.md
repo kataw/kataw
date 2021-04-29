@@ -46,7 +46,6 @@ return catch class x {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 12,
                     "end": 12
@@ -62,7 +61,6 @@ return catch class x {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 18,
                     "end": 18
@@ -94,7 +92,6 @@ return catch class x {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 22,
                 "end": 22

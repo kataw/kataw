@@ -152,7 +152,6 @@ class C { foo() { this.#a = 1; }}
                                                         "end": 37
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 22,
                                                 "end": 37
@@ -271,7 +270,6 @@ class C { foo() { this.#a = 1; }}
                                                             "end": 62
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 62,
                                                     "end": 78
@@ -421,7 +419,6 @@ class C { foo() { this.#a = 1; }}
                                             "end": 113
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 113,
                                     "end": 129
@@ -551,7 +548,6 @@ class C { foo() { this.#a = 1; }}
                                             "end": 164
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 151,
                                     "end": 164

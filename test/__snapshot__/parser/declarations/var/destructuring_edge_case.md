@@ -80,7 +80,6 @@ var {[2]: y} = {2:3}
                                         "end": 11
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -125,8 +124,7 @@ var {[2]: y} = {2:3}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 16,
                                 "end": 19
                             },

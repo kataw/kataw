@@ -77,7 +77,6 @@ class x {new(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 15,
                                     "end": 15

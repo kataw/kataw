@@ -141,7 +141,6 @@ async function p(){
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 45,
                                 "end": 45
@@ -151,8 +150,7 @@ async function p(){
                             "end": 46
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 46
                 },

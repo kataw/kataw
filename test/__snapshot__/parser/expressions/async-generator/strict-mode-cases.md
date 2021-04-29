@@ -137,7 +137,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 34,
                     "end": 50
@@ -212,7 +211,6 @@ function * x() { "use strict";  yield: 34; }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 94,
                                     "end": 94
@@ -242,7 +240,6 @@ function * x() { "use strict";  yield: 34; }
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 112,
                                         "end": 112
@@ -262,7 +259,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 114
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 88,
                     "end": 114
@@ -357,7 +353,6 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 171,
                                     "end": 171
@@ -373,7 +368,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 173
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 152,
                     "end": 173
@@ -471,7 +465,6 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 230,
                                             "end": 230
@@ -495,7 +488,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 233
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 210,
                     "end": 233
@@ -609,7 +601,6 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 292,
                                     "end": 292
@@ -625,7 +616,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 294
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 270,
                     "end": 294
@@ -757,7 +747,6 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 358,
                                     "end": 358
@@ -773,7 +762,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 360
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 331,
                     "end": 360
@@ -873,7 +861,6 @@ function * x() { "use strict";  yield: 34; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 418,
                                     "end": 418
@@ -889,7 +876,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 420
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 397,
                     "end": 420
@@ -992,7 +978,6 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 479,
                                             "end": 479
@@ -1016,7 +1001,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 482
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 457,
                     "end": 482
@@ -1113,7 +1097,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 530
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 519,
                     "end": 530
@@ -1241,7 +1224,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 588
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 567,
                     "end": 588
@@ -1330,7 +1312,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 634
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 625,
                     "end": 634
@@ -1414,7 +1395,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 681
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 658,
                     "end": 681
@@ -1486,7 +1466,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 725
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 704,
                     "end": 725
@@ -1602,7 +1581,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 773
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 750,
                     "end": 773
@@ -1686,7 +1664,6 @@ function * x() { "use strict";  yield: 34; }
                             "end": 813
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 792,
                     "end": 813

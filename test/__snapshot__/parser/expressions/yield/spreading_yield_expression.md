@@ -101,8 +101,7 @@ function *f(){ return { ...(yield) } }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 23,
                                     "end": 34
                                 },
@@ -115,7 +114,6 @@ function *f(){ return { ...(yield) } }
                             "end": 14
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 36

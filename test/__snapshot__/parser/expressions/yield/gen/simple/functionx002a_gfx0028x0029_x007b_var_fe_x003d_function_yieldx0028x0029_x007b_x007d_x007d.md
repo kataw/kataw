@@ -113,7 +113,6 @@ function* gf() { var fe = function yield() { } }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 44,
                                                     "end": 44
@@ -142,7 +141,6 @@ function* gf() { var fe = function yield() { } }
                             "end": 46
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 46

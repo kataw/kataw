@@ -121,8 +121,7 @@ async ({ident: [foo, bar].join("")}) => x
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 8,
                             "end": 34
                         },

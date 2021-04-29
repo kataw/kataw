@@ -520,8 +520,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 133,
                                         "end": 133
                                     },
@@ -539,7 +538,6 @@ x ? ( (a, {}) => {} ) : baz;
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 140,
                                 "end": 140

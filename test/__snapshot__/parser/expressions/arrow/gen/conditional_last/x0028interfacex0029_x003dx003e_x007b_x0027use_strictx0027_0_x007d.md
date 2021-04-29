@@ -83,8 +83,7 @@ bar, (interface) => { 'use strict'; 0 };
                                         "end": 37
                                     }
                                 ],
-                                "multiline": false,
-                                "flags": 32,
+                                "flags": 4194336,
                                 "start": 21,
                                 "end": 37
                             },

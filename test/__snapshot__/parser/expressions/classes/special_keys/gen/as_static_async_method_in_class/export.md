@@ -87,7 +87,6 @@ class x {static async export(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 31,
                                     "end": 31

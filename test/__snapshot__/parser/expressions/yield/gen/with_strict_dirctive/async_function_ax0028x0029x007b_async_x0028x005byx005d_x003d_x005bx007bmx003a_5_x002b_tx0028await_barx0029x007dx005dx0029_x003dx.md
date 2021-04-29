@@ -203,8 +203,7 @@
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 53,
                                                             "end": 72
                                                         },
@@ -237,7 +236,6 @@
                             "end": 75
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 33,
                     "end": 75
@@ -257,7 +255,6 @@
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 80,
                 "end": 80

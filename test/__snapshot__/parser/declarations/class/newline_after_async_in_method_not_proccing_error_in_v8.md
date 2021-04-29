@@ -48,8 +48,7 @@ class K extends {} {;async\n async *1(){}}
                         "kind": 218,
                         "properties": [],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 17,
                         "end": 17
                     },
@@ -168,7 +167,6 @@ class K extends {} {;async\n async *1(){}}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 40,
                 "end": 40

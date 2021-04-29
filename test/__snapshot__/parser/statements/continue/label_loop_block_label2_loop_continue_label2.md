@@ -113,7 +113,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                 "end": 39
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 39

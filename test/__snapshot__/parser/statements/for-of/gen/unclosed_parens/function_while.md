@@ -32,7 +32,6 @@ try( function while
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -48,7 +47,6 @@ try( function while
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -93,7 +91,6 @@ try( function while
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 13

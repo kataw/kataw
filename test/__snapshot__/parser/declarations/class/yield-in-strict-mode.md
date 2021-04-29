@@ -130,7 +130,6 @@ function* f() { class C { aaa = yield } }
                             "end": 39
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 39

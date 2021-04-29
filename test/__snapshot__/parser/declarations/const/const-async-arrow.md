@@ -106,7 +106,6 @@ const a = async (foo: string = "") => {}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 39

@@ -114,7 +114,6 @@ function* bar() { yield /re/ }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 17,
                     "end": 28

@@ -82,7 +82,6 @@ let x = y, {z};
                                         "end": 13
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 12,

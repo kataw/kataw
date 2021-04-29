@@ -192,7 +192,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                             "end": 53
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 46,
                                                                     "end": 53
@@ -219,7 +218,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                             "end": 57
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 57

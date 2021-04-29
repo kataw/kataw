@@ -87,7 +87,6 @@ class x {static * protected(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 30,
                                     "end": 30

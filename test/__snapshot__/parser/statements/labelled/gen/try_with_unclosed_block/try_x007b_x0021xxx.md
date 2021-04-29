@@ -32,7 +32,6 @@ try {} finally(x) { try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -53,7 +52,6 @@ try {} finally(x) { try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -131,7 +129,6 @@ try {} finally(x) { try { !xxx
                                         "end": 30
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 25,
                                 "end": 30
@@ -147,7 +144,6 @@ try {} finally(x) { try { !xxx
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 30,
                                 "end": 30
@@ -161,7 +157,6 @@ try {} finally(x) { try { !xxx
                         "end": 30
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 19,
                 "end": 30

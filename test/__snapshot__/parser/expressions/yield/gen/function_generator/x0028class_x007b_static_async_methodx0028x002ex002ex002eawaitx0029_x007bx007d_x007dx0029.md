@@ -178,7 +178,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "kind": 217,
                                                                             "directives": [],
                                                                             "statements": [],
-                                                                            "multiline": false,
                                                                             "flags": 32,
                                                                             "start": 80,
                                                                             "end": 80
@@ -213,7 +212,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                             "end": 84
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 84
@@ -229,7 +227,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                             "end": 86
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 86

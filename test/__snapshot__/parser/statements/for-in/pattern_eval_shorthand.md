@@ -77,8 +77,7 @@ for ({ eval = 0 } in [{}]) ;
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 6,
                     "end": 15
                 },
@@ -97,8 +96,7 @@ for ({ eval = 0 } in [{}]) ;
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 23,
                                 "end": 23
                             },

@@ -52,7 +52,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 8,
                                 "end": 8
@@ -76,7 +75,6 @@
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 16,
                                                 "end": 16
@@ -92,7 +90,6 @@
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 16,
                                                 "end": 16
@@ -106,7 +103,6 @@
                                         "end": 16
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 11,
                                 "end": 16
@@ -120,7 +116,6 @@
                         "end": 16
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 16

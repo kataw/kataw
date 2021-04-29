@@ -51,7 +51,6 @@ x => { "use strict"; }
                             }
                         ],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 6,
                         "end": 20

@@ -165,7 +165,6 @@ async function f(){
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 50,
                                                                     "end": 50
@@ -223,7 +222,6 @@ async function f(){
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 59,
                                                                     "end": 59
@@ -262,7 +260,6 @@ async function f(){
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 67,
                                         "end": 67
@@ -280,8 +277,7 @@ async function f(){
                             "end": 68
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 68
                 },

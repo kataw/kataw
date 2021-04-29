@@ -111,8 +111,7 @@ function *P(){
                             "end": 35
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 35
                 },
@@ -145,7 +144,6 @@ function *P(){
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 40,
                 "end": 40

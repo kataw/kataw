@@ -106,8 +106,7 @@ function f(){ x({[new.target]:y}) }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 31
                                             },
@@ -130,7 +129,6 @@ function f(){ x({[new.target]:y}) }
                             "end": 33
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 33

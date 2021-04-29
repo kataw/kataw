@@ -97,7 +97,6 @@ let {[x]: y = z} = a;
                                         "end": 15
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

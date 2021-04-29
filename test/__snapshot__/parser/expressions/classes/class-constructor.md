@@ -92,7 +92,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 27,
                                             "end": 27
@@ -192,7 +191,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 67,
                                             "end": 67
@@ -297,7 +295,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 111,
                                             "end": 111
@@ -421,7 +418,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 156,
                                             "end": 156
@@ -526,7 +522,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 197,
                                             "end": 197

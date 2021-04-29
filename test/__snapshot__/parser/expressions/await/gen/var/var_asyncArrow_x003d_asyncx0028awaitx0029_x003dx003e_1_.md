@@ -233,7 +233,6 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                 "end": 74
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 74

@@ -46,7 +46,6 @@ do {} while (x) { while try this and !foo
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -92,7 +91,6 @@ do {} while (x) { while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 27,
                                     "end": 27
@@ -108,7 +106,6 @@ do {} while (x) { while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 32,
                                     "end": 32
@@ -166,7 +163,6 @@ do {} while (x) { while try this and !foo
                         "end": 41
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 41

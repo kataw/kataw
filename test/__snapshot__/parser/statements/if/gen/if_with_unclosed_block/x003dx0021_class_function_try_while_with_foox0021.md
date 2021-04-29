@@ -24,7 +24,6 @@ else {} if(x) { =! class function try while with foo!
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -54,7 +53,6 @@ else {} if(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 15
@@ -142,7 +140,6 @@ else {} if(x) { =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 33,
                     "end": 33
@@ -170,7 +167,6 @@ else {} if(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 37,
                     "end": 37
@@ -186,7 +182,6 @@ else {} if(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 43,
                     "end": 43

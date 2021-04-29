@@ -82,7 +82,6 @@ class x {async with(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 22,
                                     "end": 22

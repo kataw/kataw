@@ -122,8 +122,7 @@ async function* f() {
                             "end": 59
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 21,
                     "end": 59
                 },

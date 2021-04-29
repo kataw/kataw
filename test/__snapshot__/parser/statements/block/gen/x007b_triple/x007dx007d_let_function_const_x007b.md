@@ -34,7 +34,6 @@
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 5,
                                         "end": 5
@@ -44,7 +43,6 @@
                                     "end": 7
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 7
@@ -99,7 +97,6 @@
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 21,
                                 "end": 21
@@ -132,7 +129,6 @@
                                         "propertyList": {
                                             "kind": 213,
                                             "properties": [],
-                                            "multiline": false,
                                             "trailingComma": false,
                                             "flags": 32,
                                             "start": 29,
@@ -159,7 +155,6 @@
                         "end": 29
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 29

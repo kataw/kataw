@@ -74,7 +74,6 @@ a ? b : (): string => {}
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 20,
                                 "end": 20
@@ -184,7 +183,6 @@ a ? b : (): string => {}
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 55,
                             "end": 55
@@ -269,7 +267,6 @@ a ? b : (): string => {}
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 84,
                                 "end": 84
@@ -324,7 +321,6 @@ a ? b : (): string => {}
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 105,
                                 "end": 105
@@ -383,7 +379,6 @@ a ? b : (): string => {}
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 124,
                             "end": 124
@@ -468,7 +463,6 @@ a ? b : (): string => {}
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 151,
                                 "end": 151

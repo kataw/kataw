@@ -75,7 +75,6 @@ function f(){   return;return    };
                             "end": 23
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 29

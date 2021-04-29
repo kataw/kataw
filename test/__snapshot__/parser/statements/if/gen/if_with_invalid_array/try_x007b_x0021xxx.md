@@ -117,7 +117,6 @@ if [else] try { !xxx
                             "end": 20
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 20
@@ -133,7 +132,6 @@ if [else] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 20,
                     "end": 20

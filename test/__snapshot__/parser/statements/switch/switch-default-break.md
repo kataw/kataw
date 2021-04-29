@@ -98,7 +98,6 @@ switch(0) { default: function f(){ break; } }
                                                 "end": 41
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 34,
                                         "end": 41

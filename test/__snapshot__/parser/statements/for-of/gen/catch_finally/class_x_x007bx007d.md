@@ -27,7 +27,6 @@ catch class x {} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -43,7 +42,6 @@ catch class x {} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 11,
                     "end": 11
@@ -75,7 +73,6 @@ catch class x {} finally
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 15,
                 "end": 15
@@ -92,7 +89,6 @@ catch class x {} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 24,
                     "end": 24
@@ -108,7 +104,6 @@ catch class x {} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 24,
                     "end": 24

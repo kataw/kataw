@@ -103,7 +103,6 @@ async function f(){ async(await x); }
                             "end": 35
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 35

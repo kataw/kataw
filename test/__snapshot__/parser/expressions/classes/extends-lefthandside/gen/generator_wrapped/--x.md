@@ -123,8 +123,7 @@ function *P(){
                             "end": 39
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 39
                 },

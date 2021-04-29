@@ -89,8 +89,7 @@ result = { x: [y] } = { x: [321] };
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 10,
                             "end": 17
                         },
@@ -152,8 +151,7 @@ result = { x: [y] } = { x: [321] };
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 23,
                             "end": 32
                         },

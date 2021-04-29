@@ -129,7 +129,6 @@ function g(a:number=1, e:number=1) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 36,
                     "end": 36

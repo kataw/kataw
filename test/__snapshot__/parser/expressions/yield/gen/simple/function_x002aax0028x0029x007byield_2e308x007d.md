@@ -86,7 +86,6 @@ function *a(){yield 2e308}
                             "end": 25
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 25

@@ -319,8 +319,7 @@ var gen = async function *g() {
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
-                                                                                                    "multiline": false,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 16,
                                                                                                     "start": 155,
                                                                                                     "end": 163
                                                                                                 },
@@ -333,8 +332,7 @@ var gen = async function *g() {
                                                                                             "end": 136
                                                                                         }
                                                                                     ],
-                                                                                    "multiline": true,
-                                                                                    "flags": 32,
+                                                                                    "flags": 33,
                                                                                     "start": 109,
                                                                                     "end": 165
                                                                                 },
@@ -413,8 +411,7 @@ var gen = async function *g() {
                                                             }
                                                         ],
                                                         "trailingComma": true,
-                                                        "multiline": true,
-                                                        "flags": 1,
+                                                        "flags": 17,
                                                         "start": 59,
                                                         "end": 200
                                                     },
@@ -431,8 +428,7 @@ var gen = async function *g() {
                                             "end": 206
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 31,
                                     "end": 206
                                 },

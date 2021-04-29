@@ -89,8 +89,7 @@ wrap({1:b, 0:d});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 6,
                                 "end": 14
                             },

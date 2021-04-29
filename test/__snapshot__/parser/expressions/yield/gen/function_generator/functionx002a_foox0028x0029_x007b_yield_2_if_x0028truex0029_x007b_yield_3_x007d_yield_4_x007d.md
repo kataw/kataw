@@ -205,7 +205,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                                             "end": 86
                                                                         }
                                                                     ],
-                                                                    "multiLine": false,
                                                                     "flags": 16,
                                                                     "start": 78,
                                                                     "end": 86
@@ -255,7 +254,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                             "end": 97
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 57,
                                                     "end": 97
@@ -271,7 +269,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                             "end": 99
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 99
@@ -287,7 +284,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                             "end": 101
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 101

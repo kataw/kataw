@@ -24,7 +24,6 @@ else {} if(x) { async try while { catch }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -81,7 +80,6 @@ else {} if(x) { async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 25,
                                     "end": 25
@@ -105,7 +103,6 @@ else {} if(x) { async try while { catch }
                                                 "block": {
                                                     "kind": 124,
                                                     "statements": [],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 39,
                                                     "end": 39
@@ -121,7 +118,6 @@ else {} if(x) { async try while { catch }
                                                 "block": {
                                                     "kind": 124,
                                                     "statements": [],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 41,
                                                     "end": 41
@@ -135,7 +131,6 @@ else {} if(x) { async try while { catch }
                                             "end": 41
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 33,
                                     "end": 41
@@ -149,7 +144,6 @@ else {} if(x) { async try while { catch }
                             "end": 41
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 41

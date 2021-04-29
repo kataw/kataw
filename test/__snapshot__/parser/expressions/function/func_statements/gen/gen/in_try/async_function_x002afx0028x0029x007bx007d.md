@@ -78,7 +78,6 @@ try {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 28,
                                     "end": 28
@@ -94,8 +93,7 @@ try {
                             "end": 29
                         }
                     ],
-                    "multiLine": true,
-                    "flags": 16,
+                    "flags": 17,
                     "start": 5,
                     "end": 29
                 },
@@ -124,8 +122,7 @@ try {
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": true,
-                        "flags": 16,
+                        "flags": 17,
                         "start": 43,
                         "end": 43
                     },

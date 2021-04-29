@@ -84,7 +84,6 @@ async function f(){ await foo\n/foo/g }
                             "end": 29
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 29

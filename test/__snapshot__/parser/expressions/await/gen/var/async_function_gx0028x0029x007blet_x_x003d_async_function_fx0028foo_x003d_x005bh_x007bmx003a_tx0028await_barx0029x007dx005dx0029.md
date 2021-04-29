@@ -294,8 +294,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                     }
                                                                                                                 ],
                                                                                                                 "trailingComma": false,
-                                                                                                                "multiline": false,
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 16,
                                                                                                                 "start": 94,
                                                                                                                 "end": 109
                                                                                                             },
@@ -329,7 +328,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                         "kind": 217,
                                                                                         "directives": [],
                                                                                         "statements": [],
-                                                                                        "multiline": false,
                                                                                         "flags": 32,
                                                                                         "start": 113,
                                                                                         "end": 113
@@ -358,7 +356,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                 "end": 114
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 58,
                                                         "end": 114
@@ -374,7 +371,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                 "end": 119
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 119

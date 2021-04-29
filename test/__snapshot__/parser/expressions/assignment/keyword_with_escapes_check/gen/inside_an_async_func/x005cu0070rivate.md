@@ -77,8 +77,7 @@ async () => {  \u0070rivate = x  }
                             "end": 31
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 31
                 },

@@ -176,7 +176,6 @@ var await; var f = (async function() { call(await.foo) });
                                                 "end": 54
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 54

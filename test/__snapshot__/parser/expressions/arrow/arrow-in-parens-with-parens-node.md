@@ -89,7 +89,6 @@ var asserted1 = <any>((n) => { return n; });
                                                 "end": 30
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 30,
                                         "end": 40

@@ -46,7 +46,6 @@ return catch function while
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 12,
                     "end": 12
@@ -62,7 +61,6 @@ return catch function while
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 21,
                     "end": 21

@@ -133,7 +133,6 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                             "end": 50
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 50
@@ -149,7 +148,6 @@ function * gen() { function not_gen() { await.b[c] => async }}
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 50

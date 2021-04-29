@@ -67,7 +67,6 @@ async function f(){ return; }
                             "end": 19
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 27

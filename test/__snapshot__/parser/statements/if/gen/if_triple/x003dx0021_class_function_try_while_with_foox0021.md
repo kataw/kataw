@@ -143,7 +143,6 @@ if if if =! class function try while with foo!
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 26,
                                 "end": 26
@@ -189,7 +188,6 @@ if if if =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 30,
                     "end": 30
@@ -205,7 +203,6 @@ if if if =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 36,
                     "end": 36

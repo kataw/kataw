@@ -94,7 +94,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 42,
                                         "end": 42
@@ -156,7 +155,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 67,
                                         "end": 67

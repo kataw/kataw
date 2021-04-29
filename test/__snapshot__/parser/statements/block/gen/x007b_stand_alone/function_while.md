@@ -56,7 +56,6 @@
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 10,
                                 "end": 10
@@ -104,7 +103,6 @@
                         "end": 16
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 16

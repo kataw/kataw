@@ -102,7 +102,6 @@ for (function(){ a in b; };;);
                                 "end": 24
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 16,
                         "end": 24

@@ -176,7 +176,6 @@ switch switch switch =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 38,
                     "end": 38
@@ -204,7 +203,6 @@ switch switch switch =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 42,
                     "end": 42
@@ -220,7 +218,6 @@ switch switch switch =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 48,
                     "end": 48

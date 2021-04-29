@@ -77,8 +77,7 @@ async () => {  inte\u0072face = x  }
                             "end": 33
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 33
                 },

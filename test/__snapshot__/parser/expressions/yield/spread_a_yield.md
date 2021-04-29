@@ -102,7 +102,6 @@ function *g() { [...yield]; }
                             "end": 27
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 27

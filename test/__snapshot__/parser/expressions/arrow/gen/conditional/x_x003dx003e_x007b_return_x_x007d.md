@@ -70,7 +70,6 @@ x => { return x; } , bar;
                                         "end": 6
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 6,
                                 "end": 16

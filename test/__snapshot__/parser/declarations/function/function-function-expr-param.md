@@ -121,7 +121,6 @@ function* foo(a = function* foo() { yield b }) {}
                                             "end": 43
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 43
@@ -152,7 +151,6 @@ function* foo(a = function* foo() { yield b }) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 48,
                     "end": 48

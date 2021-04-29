@@ -179,7 +179,6 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                             "end": 77
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 77
@@ -195,7 +194,6 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "end": 79
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 79

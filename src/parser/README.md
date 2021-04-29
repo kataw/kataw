@@ -77,6 +77,7 @@ Multiple API methods exist to get info from the CST nodes
 | `containsInvalidEscape`              | True if the node contains invalid escape. e.g. `\uhello` |
 | `hasErrors`              | True if the node contains errors |
 | `isLexical`              | True if the node is a lexical declaration |
+| `hasNewLine`              | True if the node has a newline |
 
 ## Escaped keywords
 

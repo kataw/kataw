@@ -117,7 +117,6 @@ x = { foo(){ return x[super.foo]; }}
                                                 "end": 12
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 33
@@ -132,8 +131,7 @@ x = { foo(){ return x[super.foo]; }}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 35
                     },

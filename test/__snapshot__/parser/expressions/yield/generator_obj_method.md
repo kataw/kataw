@@ -88,7 +88,6 @@ let o = {*f(await){}}
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 19,
                                                 "end": 19
@@ -103,8 +102,7 @@ let o = {*f(await){}}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 20
                             },

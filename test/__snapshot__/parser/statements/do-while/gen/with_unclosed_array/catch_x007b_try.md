@@ -42,8 +42,7 @@ do[ catch { try
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 11,
                     "end": 15
                 },

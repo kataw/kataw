@@ -61,7 +61,6 @@
                                                     "block": {
                                                         "kind": 124,
                                                         "statements": [],
-                                                        "multiLine": false,
                                                         "flags": 16,
                                                         "start": 15,
                                                         "end": 15
@@ -85,7 +84,6 @@
                                                                     "block": {
                                                                         "kind": 124,
                                                                         "statements": [],
-                                                                        "multiLine": false,
                                                                         "flags": 16,
                                                                         "start": 29,
                                                                         "end": 29
@@ -101,7 +99,6 @@
                                                                     "block": {
                                                                         "kind": 124,
                                                                         "statements": [],
-                                                                        "multiLine": false,
                                                                         "flags": 16,
                                                                         "start": 31,
                                                                         "end": 31
@@ -115,7 +112,6 @@
                                                                 "end": 31
                                                             }
                                                         ],
-                                                        "multiLine": false,
                                                         "flags": 16,
                                                         "start": 23,
                                                         "end": 31
@@ -129,7 +125,6 @@
                                                 "end": 31
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 5,
                                         "end": 31
@@ -139,7 +134,6 @@
                                     "end": 31
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 31
@@ -149,7 +143,6 @@
                         "end": 31
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 31

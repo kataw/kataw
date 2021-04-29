@@ -77,8 +77,7 @@ function *f() { yield
                                                 "kind": 218,
                                                 "properties": [],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 23,
                                                 "end": 23
                                             },
@@ -131,7 +130,6 @@ function *f() { yield
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 28

@@ -100,8 +100,7 @@ async function p(){
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 45,
                                             "end": 45
                                         },
@@ -130,8 +129,7 @@ async function p(){
                             "end": 46
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 46
                 },

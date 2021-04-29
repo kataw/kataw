@@ -216,7 +216,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                         "end": 91
                                                                                     }
                                                                                 ],
-                                                                                "multiline": false,
                                                                                 "flags": 32,
                                                                                 "start": 57,
                                                                                 "end": 91
@@ -231,8 +230,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 16,
                                                                 "start": 49,
                                                                 "end": 93
                                                             },
@@ -254,7 +252,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                             "end": 95
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 95
@@ -270,7 +267,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             "end": 97
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 97

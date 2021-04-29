@@ -134,7 +134,6 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                             "end": 46
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 38,
                                     "end": 46
@@ -184,7 +183,6 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "end": 57
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 17,
                     "end": 57

@@ -130,7 +130,6 @@ function not_gen() { function* gf() { yield++; } }}
                                             "end": 46
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 46
@@ -146,7 +145,6 @@ function not_gen() { function* gf() { yield++; } }}
                             "end": 48
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 48

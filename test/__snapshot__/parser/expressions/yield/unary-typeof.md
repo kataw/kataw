@@ -100,7 +100,6 @@ function *f() {  return typeof yield foo;  }
                             "end": 15
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 41

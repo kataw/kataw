@@ -58,7 +58,6 @@ const {x,, y} = obj;
                                         "end": 8
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 7,

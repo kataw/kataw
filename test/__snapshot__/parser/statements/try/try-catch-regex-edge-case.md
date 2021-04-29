@@ -28,7 +28,6 @@ try/catch/finally/{
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -44,7 +43,6 @@ try/catch/finally/{
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17

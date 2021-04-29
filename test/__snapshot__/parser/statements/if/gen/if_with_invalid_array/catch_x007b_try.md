@@ -98,7 +98,6 @@ if [else] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 21,
                                     "end": 21
@@ -114,7 +113,6 @@ if [else] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 21,
                                     "end": 21
@@ -128,7 +126,6 @@ if [else] catch { try
                             "end": 21
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 21
@@ -144,7 +141,6 @@ if [else] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 21,
                     "end": 21

@@ -116,7 +116,6 @@ function* bar() { yield class {} }
                             "end": 32
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 17,
                     "end": 32

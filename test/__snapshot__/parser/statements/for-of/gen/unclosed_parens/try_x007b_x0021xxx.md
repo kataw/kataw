@@ -32,7 +32,6 @@ try( try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -48,7 +47,6 @@ try( try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -101,7 +99,6 @@ try( try { !xxx
                             "end": 15
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 10,
                     "end": 15
@@ -117,7 +114,6 @@ try( try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 15

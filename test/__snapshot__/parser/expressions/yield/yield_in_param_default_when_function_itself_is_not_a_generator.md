@@ -112,7 +112,6 @@ function *g() { function f(x = yield) {}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 39
@@ -134,7 +133,6 @@ function *g() { function f(x = yield) {}; }
                             "end": 41
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 41

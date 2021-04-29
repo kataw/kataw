@@ -38,8 +38,7 @@ throw {x} catch (x = y) {}
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 7,
                     "end": 8
                 },
@@ -59,7 +58,6 @@ throw {x} catch (x = y) {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 15
@@ -75,7 +73,6 @@ throw {x} catch (x = y) {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17
@@ -127,7 +124,6 @@ throw {x} catch (x = y) {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 25,
                 "end": 25

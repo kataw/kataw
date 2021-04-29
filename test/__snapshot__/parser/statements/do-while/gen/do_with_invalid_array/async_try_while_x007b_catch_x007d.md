@@ -65,7 +65,6 @@ do while [catch] async try while { catch }
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -81,7 +80,6 @@ do while [catch] async try while { catch }
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16
@@ -115,7 +113,6 @@ do while [catch] async try while { catch }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 26,
                     "end": 26
@@ -139,7 +136,6 @@ do while [catch] async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 40,
                                     "end": 40
@@ -155,7 +151,6 @@ do while [catch] async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 42,
                                     "end": 42
@@ -169,7 +164,6 @@ do while [catch] async try while { catch }
                             "end": 42
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 34,
                     "end": 42

@@ -133,7 +133,6 @@ function * gen() { (yield) ? yield : yield }
                             "end": 42
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 42

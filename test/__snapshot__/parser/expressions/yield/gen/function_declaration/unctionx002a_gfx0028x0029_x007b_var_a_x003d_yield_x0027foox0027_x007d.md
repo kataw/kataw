@@ -165,7 +165,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "end": 57
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 36,
                                 "end": 57
@@ -175,7 +174,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                             "end": 59
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 59

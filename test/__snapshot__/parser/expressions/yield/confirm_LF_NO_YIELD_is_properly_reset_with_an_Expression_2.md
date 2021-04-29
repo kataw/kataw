@@ -114,7 +114,6 @@ function *g(){ return x + (yield f); }
                             "end": 14
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 36

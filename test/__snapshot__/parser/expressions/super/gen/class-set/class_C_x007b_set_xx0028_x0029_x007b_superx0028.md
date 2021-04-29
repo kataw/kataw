@@ -216,7 +216,6 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                                             "end": 48
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 41,
                                                                     "end": 48
@@ -243,7 +242,6 @@ class C { set x(_) { class C { set x(_) { super( } }
                                             "end": 52
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 52

@@ -121,7 +121,6 @@ function* g(x) { yield x = 3; }
                             "end": 29
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 29

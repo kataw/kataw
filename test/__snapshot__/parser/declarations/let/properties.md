@@ -204,7 +204,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "end": 28
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

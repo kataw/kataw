@@ -46,7 +46,6 @@ return catch try { return
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 12,
                     "end": 12
@@ -76,7 +75,6 @@ return catch try { return
                             "end": 18
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 18,
                     "end": 25

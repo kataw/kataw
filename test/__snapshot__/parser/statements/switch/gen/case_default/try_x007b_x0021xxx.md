@@ -59,7 +59,6 @@ case try { !xxx default
                             "end": 15
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 10,
                     "end": 15
@@ -75,7 +74,6 @@ case try { !xxx default
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 23,
                     "end": 23

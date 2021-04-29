@@ -108,7 +108,6 @@ class A extends x in y {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 24,
                 "end": 24

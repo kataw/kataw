@@ -108,7 +108,6 @@ class x { static async *prototype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 33,
                                     "end": 33
@@ -197,7 +196,6 @@ class x { static async *prototype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 74,
                                     "end": 74
@@ -291,7 +289,6 @@ class x { static async *prototype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 112,
                                     "end": 112
@@ -390,7 +387,6 @@ class x { static async *prototype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 153,
                                     "end": 153

@@ -102,8 +102,7 @@ function *P(){
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 40,
                                             "end": 40
                                         },
@@ -132,8 +131,7 @@ function *P(){
                             "end": 41
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 41
                 },

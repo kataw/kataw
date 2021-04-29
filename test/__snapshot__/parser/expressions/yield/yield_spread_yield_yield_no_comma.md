@@ -113,8 +113,7 @@ function *g() {yield {     ...yield yield    };}
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 41
                                     },
@@ -131,7 +130,6 @@ function *g() {yield {     ...yield yield    };}
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 47

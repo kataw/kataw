@@ -61,7 +61,6 @@ async (x)=>{/x/}
                             "end": 15
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 12,
                     "end": 15

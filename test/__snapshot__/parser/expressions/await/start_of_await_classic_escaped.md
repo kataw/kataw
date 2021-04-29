@@ -77,7 +77,6 @@ async () => { var \u0061wait; }
                             "end": 29
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 29

@@ -207,7 +207,6 @@ var await; var f = (async function() { let [await f] = []; });
                                                 "end": 58
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 58

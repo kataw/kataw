@@ -74,8 +74,7 @@ function *f(){  ({yield} = x)  }
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 18,
                                             "end": 23
                                         },
@@ -110,7 +109,6 @@ function *f(){  ({yield} = x)  }
                             "end": 29
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 29

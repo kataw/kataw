@@ -87,7 +87,6 @@ class x {static async switch(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 31,
                                     "end": 31

@@ -166,7 +166,6 @@ function foo(callback: (_1:bool, _2:string) => number){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 55,
                     "end": 55

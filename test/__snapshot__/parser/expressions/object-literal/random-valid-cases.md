@@ -118,8 +118,7 @@ a = { y: x = 1 } = b;
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 8,
                                         "end": 8
                                     },
@@ -141,8 +140,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 2,
                         "end": 9
                     },
@@ -190,8 +188,7 @@ a = { y: x = 1 } = b;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -231,8 +228,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 15,
                         "end": 27
                     },
@@ -287,8 +283,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 33,
                             "end": 36
                         },
@@ -347,8 +342,7 @@ a = { y: x = 1 } = b;
                                                 "kind": 218,
                                                 "properties": [],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 51,
                                                 "end": 51
                                             },
@@ -414,8 +408,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 46,
                         "end": 62
                     },
@@ -483,8 +476,7 @@ a = { y: x = 1 } = b;
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 74,
                                                 "end": 81
                                             },
@@ -518,8 +510,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 69,
                             "end": 87
                         },
@@ -539,8 +530,7 @@ a = { y: x = 1 } = b;
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 93,
                             "end": 93
                         },
@@ -609,8 +599,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 99,
                         "end": 106
                     },
@@ -681,8 +670,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 113,
                         "end": 122
                     },
@@ -747,8 +735,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 129,
                         "end": 136
                     },
@@ -841,8 +828,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 143,
                         "end": 171
                     },
@@ -901,7 +887,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 189,
                                         "end": 189
@@ -916,8 +901,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 177,
                         "end": 190
                     },
@@ -990,8 +974,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 196,
                         "end": 208
                     },
@@ -1079,7 +1062,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 229,
                                         "end": 229
@@ -1094,8 +1076,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 214,
                         "end": 230
                     },
@@ -1146,7 +1127,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 242,
                                         "end": 242
@@ -1187,8 +1167,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 236,
                         "end": 249
                     },
@@ -1239,7 +1218,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 262,
                                         "end": 262
@@ -1278,7 +1256,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 274,
                                         "end": 274
@@ -1293,8 +1270,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 255,
                         "end": 275
                     },
@@ -1367,8 +1343,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 282,
                         "end": 290
                     },
@@ -1444,8 +1419,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 296,
                             "end": 304
                         },
@@ -1520,8 +1494,7 @@ a = { y: x = 1 } = b;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 321,
                                         "end": 325
                                     },
@@ -1543,8 +1516,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 315,
                         "end": 326
                     },
@@ -1648,8 +1620,7 @@ a = { y: x = 1 } = b;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 334,
                                     "end": 347
                                 },
@@ -1742,8 +1713,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 358,
                             "end": 368
                         },
@@ -1848,8 +1818,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 380,
                         "end": 387
                     },
@@ -1902,8 +1871,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 393,
                         "end": 398
                     },
@@ -1958,8 +1926,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 405,
                             "end": 410
                         },
@@ -2041,8 +2008,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 427,
                         "end": 438
                     },
@@ -2131,7 +2097,6 @@ a = { y: x = 1 } = b;
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 458,
                                                 "end": 458
@@ -2146,8 +2111,7 @@ a = { y: x = 1 } = b;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 445,
                                 "end": 459
                             },
@@ -2250,8 +2214,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 466,
                             "end": 483
                         },
@@ -2331,7 +2294,6 @@ a = { y: x = 1 } = b;
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 502,
                                                 "end": 502
@@ -2370,7 +2332,6 @@ a = { y: x = 1 } = b;
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 512,
                                                 "end": 512
@@ -2385,8 +2346,7 @@ a = { y: x = 1 } = b;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 496,
                                 "end": 513
                             },
@@ -2462,8 +2422,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 520,
                         "end": 529
                     },
@@ -2576,8 +2535,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 539,
                         "end": 556
                     },
@@ -2647,7 +2605,6 @@ a = { y: x = 1 } = b;
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 578,
                                                 "end": 578
@@ -2662,8 +2619,7 @@ a = { y: x = 1 } = b;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 563,
                                 "end": 579
                             },
@@ -2739,7 +2695,6 @@ a = { y: x = 1 } = b;
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 595,
                                                 "end": 595
@@ -2754,8 +2709,7 @@ a = { y: x = 1 } = b;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 587,
                                 "end": 596
                             },
@@ -2856,8 +2810,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 603,
                             "end": 621
                         },
@@ -2981,8 +2934,7 @@ a = { y: x = 1 } = b;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 648,
                                             "end": 660
                                         },
@@ -3067,8 +3019,7 @@ a = { y: x = 1 } = b;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 677,
                                             "end": 689
                                         },
@@ -3090,8 +3041,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 638,
                             "end": 690
                         },
@@ -3144,8 +3094,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 704,
                         "end": 705
                     },
@@ -3293,7 +3242,6 @@ a = { y: x = 1 } = b;
                                                 "end": 741
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 724,
                                         "end": 741
@@ -3308,8 +3256,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 712,
                         "end": 743
                     },
@@ -3378,8 +3325,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 753,
                             "end": 760
                         },
@@ -3440,7 +3386,6 @@ a = { y: x = 1 } = b;
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 777,
                                                     "end": 777
@@ -3455,8 +3400,7 @@ a = { y: x = 1 } = b;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 765,
                                     "end": 778
                                 },
@@ -3517,7 +3461,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 793,
                                         "end": 793
@@ -3532,8 +3475,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 785,
                         "end": 794
                     },
@@ -3584,7 +3526,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 812,
                                         "end": 812
@@ -3599,8 +3540,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 801,
                         "end": 813
                     },
@@ -3651,7 +3591,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 829,
                                         "end": 829
@@ -3666,8 +3605,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 820,
                         "end": 830
                     },
@@ -3720,8 +3658,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 837,
                         "end": 844
                     },
@@ -3774,8 +3711,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 851,
                         "end": 856
                     },
@@ -3826,7 +3762,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 873,
                                         "end": 873
@@ -3841,8 +3776,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 863,
                         "end": 874
                     },
@@ -3907,7 +3841,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 893,
                                         "end": 893
@@ -3922,8 +3855,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 884,
                         "end": 894
                     },
@@ -4007,7 +3939,6 @@ a = { y: x = 1 } = b;
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 914,
                                         "end": 914
@@ -4022,8 +3953,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 903,
                         "end": 915
                     },
@@ -4102,8 +4032,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 924,
                         "end": 937
                     },
@@ -4201,8 +4130,7 @@ a = { y: x = 1 } = b;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 952,
                                         "end": 960
                                     },
@@ -4224,8 +4152,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 946,
                         "end": 961
                     },
@@ -4302,8 +4229,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 970,
                             "end": 978
                         },
@@ -4412,8 +4338,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 992,
                             "end": 1002
                         },
@@ -4520,8 +4445,7 @@ a = { y: x = 1 } = b;
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 1015,
                             "end": 1024
                         },

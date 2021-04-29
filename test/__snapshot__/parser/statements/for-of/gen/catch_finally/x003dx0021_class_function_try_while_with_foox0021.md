@@ -27,7 +27,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -43,7 +42,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 7,
                     "end": 7
@@ -129,7 +127,6 @@ catch =! class function try while with foo! finally
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 23,
                     "end": 23
@@ -157,7 +154,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 27,
                     "end": 27
@@ -173,7 +169,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 33,
                     "end": 33
@@ -239,7 +234,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 51,
                     "end": 51
@@ -255,7 +249,6 @@ catch =! class function try while with foo! finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 51,
                     "end": 51

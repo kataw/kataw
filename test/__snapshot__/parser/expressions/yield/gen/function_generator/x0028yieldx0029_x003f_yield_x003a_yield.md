@@ -145,7 +145,6 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                             "end": 63
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 63
@@ -161,7 +160,6 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                             "end": 65
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 65

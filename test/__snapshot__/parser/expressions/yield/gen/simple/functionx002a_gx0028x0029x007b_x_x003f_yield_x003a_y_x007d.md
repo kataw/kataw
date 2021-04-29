@@ -113,7 +113,6 @@ function* g(){ x ? yield : y }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 28

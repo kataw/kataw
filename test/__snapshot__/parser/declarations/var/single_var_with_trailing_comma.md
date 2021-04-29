@@ -70,7 +70,6 @@ var {x,} = obj;
                                         "end": 6
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": true,
                                 "flags": 32,
                                 "start": 5,

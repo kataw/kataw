@@ -87,8 +87,7 @@ async function a(){     async ({r} = await bar);     }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 32,
                                                 "end": 33
                                             },
@@ -143,7 +142,6 @@ async function a(){     async ({r} = await bar);     }
                             "end": 48
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 48

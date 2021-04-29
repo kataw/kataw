@@ -201,7 +201,6 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                                 "kind": 217,
                                                                                 "directives": [],
                                                                                 "statements": [],
-                                                                                "multiline": false,
                                                                                 "flags": 32,
                                                                                 "start": 79,
                                                                                 "end": 79
@@ -236,7 +235,6 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                 "end": 83
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 83

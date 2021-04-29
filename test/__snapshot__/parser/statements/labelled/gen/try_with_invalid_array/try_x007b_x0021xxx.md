@@ -32,7 +32,6 @@ try [catch] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -48,7 +47,6 @@ try [catch] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -69,7 +67,6 @@ try [catch] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 10,
                     "end": 10
@@ -85,7 +82,6 @@ try [catch] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 11,
                     "end": 11
@@ -138,7 +134,6 @@ try [catch] try { !xxx
                             "end": 22
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 22
@@ -154,7 +149,6 @@ try [catch] try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 22,
                     "end": 22

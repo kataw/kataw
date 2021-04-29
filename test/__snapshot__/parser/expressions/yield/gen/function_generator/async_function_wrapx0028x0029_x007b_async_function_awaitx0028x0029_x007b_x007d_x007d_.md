@@ -166,7 +166,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 88,
                                                                     "end": 88
@@ -182,7 +181,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             "end": 90
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 63,
                                                     "end": 90
@@ -204,7 +202,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             "end": 93
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 93
@@ -220,7 +217,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             "end": 95
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 95

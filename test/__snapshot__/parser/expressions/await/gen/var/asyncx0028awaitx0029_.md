@@ -162,7 +162,6 @@ var await; var f = (async function() { async(await); });
                                                 "end": 52
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 52

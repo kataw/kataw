@@ -184,7 +184,6 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                             "end": 59
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 38,
                                     "end": 69
@@ -200,7 +199,6 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                             "end": 71
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 71

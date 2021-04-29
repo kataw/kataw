@@ -121,8 +121,7 @@ async function x() {
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 30,
                                             "end": 37
                                         },
@@ -178,8 +177,7 @@ async function x() {
                             "end": 45
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 20,
                     "end": 45
                 },

@@ -81,7 +81,6 @@ class x { \u0063onstructor(){}; constructor(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 29,
                                     "end": 29
@@ -139,7 +138,6 @@ class x { \u0063onstructor(){}; constructor(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 46,
                                     "end": 46

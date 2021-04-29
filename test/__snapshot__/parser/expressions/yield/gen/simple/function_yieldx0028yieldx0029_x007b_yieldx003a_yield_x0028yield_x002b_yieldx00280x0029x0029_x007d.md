@@ -86,7 +86,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                             "end": 29
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 23,
                     "end": 29

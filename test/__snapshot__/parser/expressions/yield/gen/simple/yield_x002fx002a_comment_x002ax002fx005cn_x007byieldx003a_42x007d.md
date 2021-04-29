@@ -67,7 +67,6 @@ yield /* comment */\n {yield: 42}
                         "end": 28
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 23,
                 "end": 28

@@ -33,8 +33,7 @@ switch {} default(x) { async try while { catch }
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -106,7 +105,6 @@ switch {} default(x) { async try while { catch }
                                                 "block": {
                                                     "kind": 124,
                                                     "statements": [],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 32,
                                                     "end": 32
@@ -130,7 +128,6 @@ switch {} default(x) { async try while { catch }
                                                                 "block": {
                                                                     "kind": 124,
                                                                     "statements": [],
-                                                                    "multiLine": false,
                                                                     "flags": 16,
                                                                     "start": 46,
                                                                     "end": 46
@@ -146,7 +143,6 @@ switch {} default(x) { async try while { catch }
                                                                 "block": {
                                                                     "kind": 124,
                                                                     "statements": [],
-                                                                    "multiLine": false,
                                                                     "flags": 16,
                                                                     "start": 48,
                                                                     "end": 48
@@ -160,7 +156,6 @@ switch {} default(x) { async try while { catch }
                                                             "end": 48
                                                         }
                                                     ],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 40,
                                                     "end": 48
@@ -174,7 +169,6 @@ switch {} default(x) { async try while { catch }
                                             "end": 48
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 22,
                                     "end": 48

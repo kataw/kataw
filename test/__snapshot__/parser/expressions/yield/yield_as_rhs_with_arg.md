@@ -150,7 +150,6 @@ function *g() { function f(x = x + yield y) {}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 45,
                                     "end": 45
@@ -172,7 +171,6 @@ function *g() { function f(x = x + yield y) {}; }
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 47

@@ -214,7 +214,6 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                                         "kind": 217,
                                                                         "directives": [],
                                                                         "statements": [],
-                                                                        "multiline": false,
                                                                         "flags": 32,
                                                                         "start": 73,
                                                                         "end": 73
@@ -241,7 +240,6 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                 "end": 75
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 75

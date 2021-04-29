@@ -134,7 +134,6 @@ class C { *method() { y = super } }
                                             "end": 31
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 31

@@ -139,7 +139,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                             "end": 59
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 47,
                                     "end": 59
@@ -155,7 +154,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "end": 61
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 61

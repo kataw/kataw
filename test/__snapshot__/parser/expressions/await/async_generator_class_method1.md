@@ -203,8 +203,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "multiline": false,
-                                                                            "flags": 0,
+                                                                            "flags": 16,
                                                                             "start": 48,
                                                                             "end": 63
                                                                         },
@@ -239,7 +238,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 67,
                                                     "end": 67
@@ -266,7 +264,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                             "end": 69
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 69

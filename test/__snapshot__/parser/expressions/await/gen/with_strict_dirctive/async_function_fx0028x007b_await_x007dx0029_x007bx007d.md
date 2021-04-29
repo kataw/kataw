@@ -80,7 +80,6 @@
                                         "end": 38
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 32,
@@ -109,7 +108,6 @@
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 43,
                     "end": 43

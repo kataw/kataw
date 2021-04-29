@@ -96,8 +96,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 10,
                             "end": 37
                         },
@@ -212,8 +211,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 61,
                                 "end": 88
                             },

@@ -53,8 +53,7 @@
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 16,
                                             "end": 16
                                         },
@@ -77,7 +76,6 @@
                         "end": 16
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 16

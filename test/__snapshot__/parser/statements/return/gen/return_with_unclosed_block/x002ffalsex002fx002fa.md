@@ -33,8 +33,7 @@ return {} return(x) { /false//a
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -111,7 +110,6 @@ return {} return(x) { /false//a
                         "end": 31
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 31

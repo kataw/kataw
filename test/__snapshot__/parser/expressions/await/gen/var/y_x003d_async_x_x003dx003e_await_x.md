@@ -200,7 +200,6 @@ var await; var f = (async function() { y = async x => await x });
                                                 "end": 61
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 61

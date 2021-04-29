@@ -172,7 +172,6 @@
                                             "end": 83
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 42,
                                     "end": 83

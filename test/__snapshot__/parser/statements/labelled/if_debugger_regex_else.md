@@ -101,8 +101,7 @@ function x(){
                             "end": 44
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 13,
                     "end": 44
                 },

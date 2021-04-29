@@ -753,8 +753,7 @@ var callCount = 0;
                                             "end": 350
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 70,
                                     "end": 350
                                 },

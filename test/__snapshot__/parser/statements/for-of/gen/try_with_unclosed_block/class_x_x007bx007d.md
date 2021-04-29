@@ -32,7 +32,6 @@ try {} finally(x) { class x {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -53,7 +52,6 @@ try {} finally(x) { class x {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -123,7 +121,6 @@ try {} finally(x) { class x {}
                         "end": 30
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 19,
                 "end": 30

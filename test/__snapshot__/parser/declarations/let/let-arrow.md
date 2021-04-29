@@ -188,8 +188,7 @@ hello();
                                             "end": 89
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 54,
                                     "end": 89
                                 },

@@ -36,7 +36,6 @@ try { } catch ([a = 0]) { }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -98,7 +97,6 @@ try { } catch ([a = 0]) { }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 25,
                         "end": 25

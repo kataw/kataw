@@ -177,8 +177,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 45,
                                                             "end": 61
                                                         },
@@ -212,7 +211,6 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 65,
                                     "end": 65
@@ -228,7 +226,6 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                             "end": 66
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 66

@@ -202,7 +202,6 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                     "end": 78
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 37,
                                             "end": 78
@@ -226,7 +225,6 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                             "end": 82
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 82

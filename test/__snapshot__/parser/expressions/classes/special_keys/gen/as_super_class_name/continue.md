@@ -93,7 +93,6 @@ class x extends continue {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 26,
                 "end": 26

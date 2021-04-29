@@ -75,7 +75,6 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 33,
                     "end": 33
@@ -474,8 +473,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                         "end": 219
                                     }
                                 ],
-                                "multiLine": true,
-                                "flags": 16,
+                                "flags": 17,
                                 "start": 187,
                                 "end": 219
                             },
@@ -513,8 +511,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         "end": 225
                     }
                 ],
-                "multiLine": true,
-                "flags": 16,
+                "flags": 17,
                 "start": 92,
                 "end": 261
             },

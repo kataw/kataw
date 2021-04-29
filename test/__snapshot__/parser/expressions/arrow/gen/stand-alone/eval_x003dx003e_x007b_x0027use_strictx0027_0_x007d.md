@@ -70,8 +70,7 @@ eval => { 'use strict'; 0 } ;
                                 "end": 25
                             }
                         ],
-                        "multiline": false,
-                        "flags": 32,
+                        "flags": 4194336,
                         "start": 9,
                         "end": 25
                     },

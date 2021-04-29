@@ -111,7 +111,6 @@ switch switch switch async try while { catch }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 30,
                     "end": 30
@@ -135,7 +134,6 @@ switch switch switch async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 44,
                                     "end": 44
@@ -151,7 +149,6 @@ switch switch switch async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 46,
                                     "end": 46
@@ -165,7 +162,6 @@ switch switch switch async try while { catch }
                             "end": 46
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 38,
                     "end": 46

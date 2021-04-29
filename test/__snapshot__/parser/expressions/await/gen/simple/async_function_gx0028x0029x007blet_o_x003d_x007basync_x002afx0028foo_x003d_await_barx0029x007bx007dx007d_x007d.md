@@ -149,7 +149,6 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                 "kind": 217,
                                                                 "directives": [],
                                                                 "statements": [],
-                                                                "multiline": false,
                                                                 "flags": 32,
                                                                 "start": 54,
                                                                 "end": 54
@@ -164,8 +163,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 28,
                                                 "end": 55
                                             },
@@ -187,7 +185,6 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                             "end": 56
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 56

@@ -83,7 +83,6 @@ switch (x) {
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 41,
                                         "end": 41

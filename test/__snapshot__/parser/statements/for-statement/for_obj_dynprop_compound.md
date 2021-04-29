@@ -41,8 +41,7 @@ for ({}.u |= c;;) x;
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 6,
                             "end": 6
                         },

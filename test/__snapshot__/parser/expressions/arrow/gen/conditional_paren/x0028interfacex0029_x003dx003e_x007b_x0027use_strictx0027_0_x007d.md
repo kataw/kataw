@@ -104,8 +104,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                         "end": 46
                                     }
                                 ],
-                                "multiline": false,
-                                "flags": 32,
+                                "flags": 4194336,
                                 "start": 30,
                                 "end": 46
                             },

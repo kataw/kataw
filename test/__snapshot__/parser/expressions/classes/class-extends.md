@@ -727,7 +727,6 @@
                         "end": 301
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 277,
                 "end": 301
@@ -835,7 +834,6 @@
                         "end": 349
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 320,
                 "end": 349
@@ -936,7 +934,6 @@
                         "end": 399
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 368,
                 "end": 399
@@ -1044,7 +1041,6 @@
                         "end": 454
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 418,
                 "end": 454

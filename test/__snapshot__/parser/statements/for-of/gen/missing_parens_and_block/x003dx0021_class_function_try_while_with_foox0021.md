@@ -32,7 +32,6 @@ try catch =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -55,7 +54,6 @@ try catch =! class function try while with foo!
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 9
@@ -147,7 +145,6 @@ try catch =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 27,
                     "end": 27
@@ -175,7 +172,6 @@ try catch =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 31,
                     "end": 31
@@ -191,7 +187,6 @@ try catch =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 37,
                     "end": 37

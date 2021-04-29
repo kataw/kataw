@@ -81,7 +81,6 @@ function f(){ return --a; }
                             "end": 13
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 25

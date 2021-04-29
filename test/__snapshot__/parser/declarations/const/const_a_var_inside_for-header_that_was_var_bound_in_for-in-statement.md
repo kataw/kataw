@@ -132,7 +132,6 @@ for (const x in obj) { var x = 13 }
                             "end": 33
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 22,
                     "end": 33

@@ -151,8 +151,7 @@ var x = {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 37,
                                 "end": 63
                             },

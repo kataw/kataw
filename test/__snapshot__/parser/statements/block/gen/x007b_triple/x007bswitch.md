@@ -66,7 +66,6 @@
                                                             "end": 13
                                                         }
                                                     ],
-                                                    "multiLine": false,
                                                     "flags": 16,
                                                     "start": 7,
                                                     "end": 13
@@ -76,7 +75,6 @@
                                                 "end": 13
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 5,
                                         "end": 13
@@ -86,7 +84,6 @@
                                     "end": 13
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 13
@@ -96,7 +93,6 @@
                         "end": 13
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 13

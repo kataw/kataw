@@ -139,7 +139,6 @@
                         "end": 33
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 33

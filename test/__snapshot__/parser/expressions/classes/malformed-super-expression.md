@@ -129,8 +129,7 @@ class A {
                                             "end": 33
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 18,
                                     "end": 33
                                 },

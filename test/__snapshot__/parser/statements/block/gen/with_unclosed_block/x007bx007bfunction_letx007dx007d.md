@@ -29,7 +29,6 @@
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 3
@@ -46,7 +45,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 12,
                                 "end": 12
@@ -62,7 +60,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 13,
                                 "end": 13
@@ -90,7 +87,6 @@
                         "end": 14
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 14
@@ -147,7 +143,6 @@
                                                         "kind": 217,
                                                         "directives": [],
                                                         "statements": [],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 32,
                                                         "end": 32
@@ -163,7 +158,6 @@
                                                 "end": 32
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 20,
                                         "end": 32
@@ -173,7 +167,6 @@
                                     "end": 33
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 19,
                             "end": 33
@@ -183,7 +176,6 @@
                         "end": 34
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 34

@@ -125,7 +125,6 @@ switch switch switch while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 30,
                         "end": 30
@@ -141,7 +140,6 @@ switch switch switch while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 35,
                         "end": 35

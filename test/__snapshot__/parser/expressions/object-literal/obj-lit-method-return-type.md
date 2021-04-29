@@ -83,7 +83,6 @@ x = { method(test: string): number { } };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 17,
                                         "end": 17
@@ -98,8 +97,7 @@ x = { method(test: string): number { } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 17
                     },
@@ -148,7 +146,6 @@ x = { method(test: string): number { } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 36,
                 "end": 36

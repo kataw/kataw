@@ -89,7 +89,6 @@ switch (0) {
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 41,
                                         "end": 41
@@ -151,7 +150,6 @@ switch (0) {
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 72,
                                         "end": 72

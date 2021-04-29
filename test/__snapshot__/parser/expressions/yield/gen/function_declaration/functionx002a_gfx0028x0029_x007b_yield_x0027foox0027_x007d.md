@@ -119,7 +119,6 @@ function not_gen() { function* gf() { yield 'foo' } }}
                                             "end": 49
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 49
@@ -135,7 +134,6 @@ function not_gen() { function* gf() { yield 'foo' } }}
                             "end": 51
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 51

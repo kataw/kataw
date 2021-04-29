@@ -68,7 +68,6 @@ function test({...{}}) {}
                                                 "propertyList": {
                                                     "kind": 213,
                                                     "properties": [],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 19,
@@ -88,7 +87,6 @@ function test({...{}}) {}
                                         "end": 20
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 15,
@@ -117,7 +115,6 @@ function test({...{}}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 24,
                     "end": 24

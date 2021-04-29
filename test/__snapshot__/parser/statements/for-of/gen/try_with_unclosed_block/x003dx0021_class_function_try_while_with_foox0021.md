@@ -32,7 +32,6 @@ try {} finally(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -53,7 +52,6 @@ try {} finally(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -91,7 +89,6 @@ try {} finally(x) { =! class function try while with foo!
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 19,
                 "end": 19
@@ -173,7 +170,6 @@ try {} finally(x) { =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 37,
                     "end": 37
@@ -201,7 +197,6 @@ try {} finally(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 41,
                     "end": 41
@@ -217,7 +212,6 @@ try {} finally(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 47,
                     "end": 47

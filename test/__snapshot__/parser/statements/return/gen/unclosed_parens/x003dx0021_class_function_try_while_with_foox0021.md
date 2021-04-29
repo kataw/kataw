@@ -123,7 +123,6 @@ return( =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 25,
                     "end": 25
@@ -151,7 +150,6 @@ return( =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 29,
                     "end": 29
@@ -167,7 +165,6 @@ return( =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 35,
                     "end": 35

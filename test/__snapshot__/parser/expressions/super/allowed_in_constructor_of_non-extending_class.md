@@ -106,7 +106,6 @@ class x { constructor(){ super.foo; }}
                                             "end": 35
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 35

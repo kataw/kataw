@@ -181,7 +181,6 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                 "end": 54
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 54,
                                                         "end": 78
@@ -201,7 +200,6 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                             "end": 34
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 80

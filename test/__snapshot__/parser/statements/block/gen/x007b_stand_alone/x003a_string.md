@@ -24,7 +24,6 @@
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 1

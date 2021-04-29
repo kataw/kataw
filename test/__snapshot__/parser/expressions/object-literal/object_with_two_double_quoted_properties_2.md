@@ -89,8 +89,7 @@ wrap({'a':b, 'c':d});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 4194320,
                                 "start": 6,
                                 "end": 18
                             },

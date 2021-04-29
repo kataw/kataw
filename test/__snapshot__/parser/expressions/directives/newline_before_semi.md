@@ -80,7 +80,6 @@
                                 "end": 33
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 7,
                         "end": 33

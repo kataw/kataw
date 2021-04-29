@@ -28,7 +28,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -216,7 +215,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "end": 43
                                             }
                                         ],
-                                        "multiline": false,
                                         "trailingComma": false,
                                         "flags": 32,
                                         "start": 21,
@@ -248,7 +246,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 48,
                         "end": 48

@@ -74,8 +74,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16400,
                                     "start": 9,
                                     "end": 25
                                 },
@@ -122,8 +121,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 31,
                                     "end": 43
                                 },

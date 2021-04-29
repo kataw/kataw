@@ -33,8 +33,7 @@ return {} return(x) { async try while { catch }
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -104,7 +103,6 @@ return {} return(x) { async try while { catch }
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 31,
                                 "end": 31
@@ -128,7 +126,6 @@ return {} return(x) { async try while { catch }
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 45,
                                                 "end": 45
@@ -144,7 +141,6 @@ return {} return(x) { async try while { catch }
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 47,
                                                 "end": 47
@@ -158,7 +154,6 @@ return {} return(x) { async try while { catch }
                                         "end": 47
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 39,
                                 "end": 47
@@ -172,7 +167,6 @@ return {} return(x) { async try while { catch }
                         "end": 47
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 47

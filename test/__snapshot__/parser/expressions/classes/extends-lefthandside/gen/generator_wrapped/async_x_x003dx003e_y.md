@@ -154,7 +154,6 @@ x => y {}
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 47,
                                 "end": 47
@@ -164,8 +163,7 @@ x => y {}
                             "end": 48
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 48
                 },

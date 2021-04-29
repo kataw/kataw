@@ -81,8 +81,7 @@ var x = {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 9,
                                 "end": 24
                             },

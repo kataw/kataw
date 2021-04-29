@@ -134,8 +134,7 @@ var { f\u0061lse } = {};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16400,
                                         "start": 30,
                                         "end": 40
                                     },
@@ -152,7 +151,6 @@ var { f\u0061lse } = {};
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 48,
                                     "end": 48
@@ -435,7 +433,6 @@ var { f\u0061lse } = {};
                             "propertyList": {
                                 "kind": 213,
                                 "properties": [],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 205,
@@ -564,8 +561,7 @@ var { f\u0061lse } = {};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16400,
                                         "start": 237,
                                         "end": 246
                                     },
@@ -582,7 +578,6 @@ var { f\u0061lse } = {};
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 254,
                                     "end": 254
@@ -657,8 +652,7 @@ var { f\u0061lse } = {};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16400,
                                         "start": 268,
                                         "end": 280
                                     },
@@ -675,7 +669,6 @@ var { f\u0061lse } = {};
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 288,
                                     "end": 288
@@ -864,9 +857,8 @@ var { f\u0061lse } = {};
                             "propertyList": {
                                 "kind": 213,
                                 "properties": [],
-                                "multiline": false,
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 16416,
                                 "start": 353,
                                 "end": 353
                             },
@@ -908,7 +900,6 @@ var { f\u0061lse } = {};
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 370,
                 "end": 370

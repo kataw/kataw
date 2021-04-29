@@ -66,8 +66,7 @@ x = {0b001001: y}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 524304,
                         "start": 5,
                         "end": 16
                     },

@@ -131,7 +131,6 @@ x {}
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 47,
                                 "end": 47
@@ -141,8 +140,7 @@ x {}
                             "end": 48
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 48
                 },

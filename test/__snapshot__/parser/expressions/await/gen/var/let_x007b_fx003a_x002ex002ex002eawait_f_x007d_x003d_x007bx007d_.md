@@ -184,7 +184,6 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                             "end": 58
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "trailingComma": false,
                                                                     "flags": 32,
                                                                     "start": 44,
@@ -202,8 +201,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                     "kind": 218,
                                                                     "properties": [],
                                                                     "trailingComma": false,
-                                                                    "multiline": false,
-                                                                    "flags": 0,
+                                                                    "flags": 16,
                                                                     "start": 64,
                                                                     "end": 64
                                                                 },
@@ -225,7 +223,6 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                 "end": 66
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 66

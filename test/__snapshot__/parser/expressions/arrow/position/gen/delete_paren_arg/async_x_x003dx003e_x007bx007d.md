@@ -73,7 +73,6 @@ delete (async x => {})
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 20,
                                 "end": 20

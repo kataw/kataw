@@ -66,7 +66,6 @@ async x => {}, a
                                 "kind": 217,
                                 "directives": [],
                                 "statements": [],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 12,
                                 "end": 12

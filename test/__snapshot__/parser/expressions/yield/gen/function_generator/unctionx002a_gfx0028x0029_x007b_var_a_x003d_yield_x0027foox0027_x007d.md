@@ -203,7 +203,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "end": 76
                                                     }
                                                 ],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 55,
                                                 "end": 76
@@ -213,7 +212,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                             "end": 78
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 78
@@ -229,7 +227,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                             "end": 80
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 80

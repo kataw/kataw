@@ -192,7 +192,6 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                             "end": 50
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 41,
                                                                     "end": 50
@@ -219,7 +218,6 @@ class C { set x(_) { class C { method() { super(); } } } }
                                             "end": 54
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 54

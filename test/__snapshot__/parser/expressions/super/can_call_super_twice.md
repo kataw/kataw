@@ -158,7 +158,6 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                             "end": 57
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 57

@@ -271,8 +271,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                 }
                                                                                                             ],
                                                                                                             "trailingComma": false,
-                                                                                                            "multiline": false,
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 16,
                                                                                                             "start": 95,
                                                                                                             "end": 110
                                                                                                         },
@@ -306,7 +305,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                     "kind": 217,
                                                                                     "directives": [],
                                                                                     "statements": [],
-                                                                                    "multiline": false,
                                                                                     "flags": 32,
                                                                                     "start": 114,
                                                                                     "end": 114
@@ -335,7 +333,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                             "end": 115
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 59,
                                                     "end": 115
@@ -351,7 +348,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                             "end": 120
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 120
@@ -367,7 +363,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                             "end": 122
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 122

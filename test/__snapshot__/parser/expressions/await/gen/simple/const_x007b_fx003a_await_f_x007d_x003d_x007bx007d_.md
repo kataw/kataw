@@ -85,7 +85,6 @@ const { f: await f } = {};
                                         "end": 18
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 7,
@@ -103,8 +102,7 @@ const { f: await f } = {};
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 24
                             },

@@ -162,7 +162,6 @@ class a { foo(){      class x extends super.foo {}    }}
                                             "end": 50
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 16,
                                     "end": 50

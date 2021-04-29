@@ -144,7 +144,6 @@ class x { constructor(){ return () => () => super.foo; }}
                                             "end": 24
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 54

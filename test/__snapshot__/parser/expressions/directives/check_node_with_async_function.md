@@ -62,7 +62,6 @@ async function f() { "use strict"; }
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 34

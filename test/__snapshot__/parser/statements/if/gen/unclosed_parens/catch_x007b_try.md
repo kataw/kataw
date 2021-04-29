@@ -55,7 +55,6 @@ if( catch { try
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 15,
                                         "end": 15
@@ -71,7 +70,6 @@ if( catch { try
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 15,
                                         "end": 15
@@ -85,7 +83,6 @@ if( catch { try
                                 "end": 15
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 11,
                         "end": 15
@@ -101,7 +98,6 @@ if( catch { try
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 15,
                         "end": 15

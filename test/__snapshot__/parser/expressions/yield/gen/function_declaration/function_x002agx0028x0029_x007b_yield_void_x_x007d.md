@@ -131,7 +131,6 @@ function not_gen() { function *g() { yield void x } }}
                                             "end": 49
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 36,
                                     "end": 49
@@ -147,7 +146,6 @@ function not_gen() { function *g() { yield void x } }}
                             "end": 51
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 51

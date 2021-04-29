@@ -131,7 +131,6 @@ for (;;) {}});
                                         "end": 27
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 19,
                                 "end": 27
@@ -224,7 +223,6 @@ for (;;) {}});
                                             "end": 59
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 49,
                                     "end": 59
@@ -328,7 +326,6 @@ for (;;) {}});
                                     "end": 94
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 83,
                             "end": 94
@@ -435,7 +432,6 @@ for (;;) {}});
                                     "end": 132
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 118,
                             "end": 132
@@ -552,7 +548,6 @@ for (;;) {}});
                                     "end": 173
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 155,
                             "end": 173
@@ -685,7 +680,6 @@ for (;;) {}});
                                     "end": 216
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 196,
                             "end": 216
@@ -828,7 +822,6 @@ for (;;) {}});
                                     "end": 263
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 239,
                             "end": 263
@@ -939,7 +932,6 @@ for (;;) {}});
                                     "end": 297
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 287,
                             "end": 304
@@ -1052,7 +1044,6 @@ for (;;) {}});
                                     "end": 335
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 327,
                             "end": 345
@@ -1170,7 +1161,6 @@ for (;;) {}});
                                     "end": 378
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 368,
                             "end": 388
@@ -1311,7 +1301,6 @@ for (;;) {}});
                                     "end": 444
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 411,
                             "end": 444
@@ -1462,7 +1451,6 @@ for (;;) {}});
                                     "end": 504
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 467,
                             "end": 504
@@ -1548,7 +1536,6 @@ for (;;) {}});
                                     "end": 534
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 528,
                             "end": 534
@@ -1634,7 +1621,6 @@ for (;;) {}});
                                     "end": 562
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 557,
                             "end": 562
@@ -1720,7 +1706,6 @@ for (;;) {}});
                                     "end": 590
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 585,
                             "end": 590
@@ -1812,7 +1797,6 @@ for (;;) {}});
                                     "end": 622
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 615,
                             "end": 622
@@ -1913,7 +1897,6 @@ for (;;) {}});
                                     "end": 652
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 645,
                             "end": 652
@@ -2004,7 +1987,6 @@ for (;;) {}});
                                                 "end": 681
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 676,
                                         "end": 681
@@ -2014,7 +1996,6 @@ for (;;) {}});
                                     "end": 682
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 675,
                             "end": 682
@@ -2123,7 +2104,6 @@ for (;;) {}});
                                     "end": 717
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 705,
                             "end": 717
@@ -2230,7 +2210,6 @@ for (;;) {}});
                                     "end": 752
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 740,
                             "end": 752
@@ -2370,7 +2349,6 @@ for (;;) {}});
                                     "end": 798
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 775,
                             "end": 798
@@ -2510,7 +2488,6 @@ for (;;) {}});
                                     "end": 845
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 821,
                             "end": 845
@@ -2611,7 +2588,6 @@ for (;;) {}});
                                         "block": {
                                             "kind": 124,
                                             "statements": [],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 960,
                                             "end": 960
@@ -2625,7 +2601,6 @@ for (;;) {}});
                                     "end": 961
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 944,
                             "end": 961
@@ -2772,7 +2747,6 @@ for (;;) {}});
                                     "end": 1013
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 985,
                             "end": 1013
@@ -2936,7 +2910,6 @@ for (;;) {}});
                                     "end": 1065
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 1036,
                             "end": 1065
@@ -3098,7 +3071,6 @@ for (;;) {}});
                                     "end": 1123
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 1088,
                             "end": 1123
@@ -3278,7 +3250,6 @@ for (;;) {}});
                                     "end": 1186
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 1146,
                             "end": 1186

@@ -77,8 +77,7 @@ async () => {  \u0069mplements = x  }
                             "end": 34
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 34
                 },

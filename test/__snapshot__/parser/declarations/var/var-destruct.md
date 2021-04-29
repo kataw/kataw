@@ -97,7 +97,6 @@ var {[a]: [b]} = c
                                         "end": 13
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

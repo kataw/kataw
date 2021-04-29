@@ -120,7 +120,6 @@ class C extends Base { set #arguments(test) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 45,
                                     "end": 45

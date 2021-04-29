@@ -87,7 +87,6 @@
                             }
                         ],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 17,
                         "end": 44

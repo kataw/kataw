@@ -32,7 +32,6 @@ try catch try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -55,7 +54,6 @@ try catch try { !xxx
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 9
@@ -114,7 +112,6 @@ try catch try { !xxx
                             "end": 20
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 20
@@ -130,7 +127,6 @@ try catch try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 20,
                     "end": 20

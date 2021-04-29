@@ -163,8 +163,7 @@ class Foo extends Base {
                                             "end": 63
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 39,
                                     "end": 63
                                 },

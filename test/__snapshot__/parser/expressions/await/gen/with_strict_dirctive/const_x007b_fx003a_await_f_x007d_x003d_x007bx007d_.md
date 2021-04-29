@@ -94,7 +94,6 @@
                                         "end": 32
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 21,
@@ -112,8 +111,7 @@
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 38,
                                 "end": 38
                             },

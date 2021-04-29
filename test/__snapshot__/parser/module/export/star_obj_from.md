@@ -70,7 +70,6 @@ export *, {bar} from 'bar';
                         "end": 14
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 11,
                 "end": 14

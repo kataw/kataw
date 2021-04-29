@@ -87,7 +87,6 @@ function f(){ foo + new.target }
                             "end": 30
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 30

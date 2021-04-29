@@ -98,7 +98,6 @@ function *a(){yield typeof 0}
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 28

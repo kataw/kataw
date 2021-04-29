@@ -63,8 +63,7 @@ do do do async try while { catch } while while while
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 26,
                         "end": 32
                     },

@@ -131,7 +131,6 @@ class C { constructor() { class C { get x) { super; } } } }
                                             "end": 41
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 41
@@ -194,7 +193,6 @@ class C { constructor() { class C { get x) { super; } } } }
                         "end": 51
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 44,
                 "end": 51

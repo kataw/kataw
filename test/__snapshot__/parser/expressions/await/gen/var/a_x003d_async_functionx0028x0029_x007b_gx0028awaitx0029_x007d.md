@@ -210,7 +210,6 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                                         "end": 70
                                                                     }
                                                                 ],
-                                                                "multiline": false,
                                                                 "flags": 32,
                                                                 "start": 61,
                                                                 "end": 70
@@ -234,7 +233,6 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                                 "end": 72
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 72

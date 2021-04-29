@@ -83,7 +83,6 @@ class C { test() {get #a() { }}}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 22,
                     "end": 22
@@ -118,7 +117,6 @@ class C { test() {get #a() { }}}
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 35,
                         "end": 35
@@ -167,7 +165,6 @@ class C { test() {get #a() { }}}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 51,
                     "end": 51
@@ -202,7 +199,6 @@ class C { test() {get #a() { }}}
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 64,
                         "end": 64
@@ -316,7 +312,6 @@ class C { test() {get #a() { }}}
                                             "end": 97
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 94,
                                     "end": 97
@@ -367,7 +362,6 @@ class C { test() {get #a() { }}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 104,
                                     "end": 104
@@ -468,7 +462,6 @@ class C { test() {get #a() { }}}
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 139,
                                         "end": 139
@@ -483,8 +476,7 @@ class C { test() {get #a() { }}}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 126,
                         "end": 141
                     },
@@ -548,7 +540,6 @@ class C { test() {get #a() { }}}
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 169,
                                         "end": 169
@@ -563,8 +554,7 @@ class C { test() {get #a() { }}}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 162,
                         "end": 171
                     },
@@ -624,7 +614,6 @@ class C { test() {get #a() { }}}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 190,
                                             "end": 190
@@ -639,8 +628,7 @@ class C { test() {get #a() { }}}
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 178,
                             "end": 192
                         },
@@ -660,8 +648,7 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 197,
                             "end": 197
                         },
@@ -725,7 +712,6 @@ class C { test() {get #a() { }}}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 217,
                                             "end": 217
@@ -740,8 +726,7 @@ class C { test() {get #a() { }}}
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 204,
                             "end": 219
                         },
@@ -761,8 +746,7 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 224,
                             "end": 224
                         },

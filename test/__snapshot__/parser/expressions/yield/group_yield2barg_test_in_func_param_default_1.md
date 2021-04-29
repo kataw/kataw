@@ -96,7 +96,6 @@ function f(x=(yield z)=y){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 22,
                     "end": 22
@@ -130,7 +129,6 @@ function f(x=(yield z)=y){}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 26,
                 "end": 26

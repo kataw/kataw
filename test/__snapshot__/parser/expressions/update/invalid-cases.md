@@ -517,7 +517,6 @@ new new foo().bar++;
                         "end": 133
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 129,
                 "end": 133

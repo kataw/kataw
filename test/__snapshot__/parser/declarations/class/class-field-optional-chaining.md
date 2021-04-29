@@ -198,7 +198,6 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                             "end": 32
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 22,
                                     "end": 32

@@ -46,7 +46,6 @@ do {} while (x) { async funcion switch!!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -137,7 +136,6 @@ do {} while (x) { async funcion switch!!
                         "end": 40
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 40

@@ -96,8 +96,7 @@ var x = {
                                                         "end": 23
                                                     }
                                                 ],
-                                                "multiline": true,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 23,
                                                 "end": 43
                                             },
@@ -111,8 +110,7 @@ var x = {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": true,
-                                "flags": 1,
+                                "flags": 17,
                                 "start": 9,
                                 "end": 49
                             },

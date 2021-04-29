@@ -97,8 +97,7 @@ for (true ? a in b : {}; false; ) ;
                         "kind": 218,
                         "properties": [],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 22,
                         "end": 22
                     },

@@ -87,7 +87,6 @@ class x {static async implements(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 35

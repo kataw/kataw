@@ -87,7 +87,6 @@ class x extends const {}
                             "propertyList": {
                                 "kind": 213,
                                 "properties": [],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 23,

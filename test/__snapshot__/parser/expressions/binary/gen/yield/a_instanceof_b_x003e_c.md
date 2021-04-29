@@ -128,8 +128,7 @@ function *f() {
                             "end": 42
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 15,
                     "end": 42
                 },

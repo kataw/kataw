@@ -64,7 +64,6 @@ x= { *prototype(){} }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 18,
                                         "end": 18
@@ -79,8 +78,7 @@ x= { *prototype(){} }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 4,
                         "end": 19
                     },

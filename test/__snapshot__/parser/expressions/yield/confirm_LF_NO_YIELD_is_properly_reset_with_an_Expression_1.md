@@ -131,7 +131,6 @@ function *g(){ return x + f(yield f); }
                             "end": 14
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 37

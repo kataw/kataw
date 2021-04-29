@@ -156,7 +156,6 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 36,
                                                     "end": 36
@@ -183,7 +182,6 @@ function *f(){  class x{*[yield](a){}}  }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 38

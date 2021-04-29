@@ -134,7 +134,6 @@ function *f(){ return [...yield x]; }
                             "end": 14
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 35

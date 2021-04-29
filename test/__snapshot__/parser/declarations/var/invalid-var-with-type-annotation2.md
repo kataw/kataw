@@ -193,8 +193,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 38,
                                 "end": 53
                             },

@@ -169,7 +169,6 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                             "end": 68
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 55,
                                                     "end": 68
@@ -185,7 +184,6 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                             "end": 70
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 70
@@ -201,7 +199,6 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                             "end": 72
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 72

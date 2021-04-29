@@ -89,7 +89,6 @@ function* g() { (function yield() {}) }
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 35,
                                             "end": 35
@@ -113,7 +112,6 @@ function* g() { (function yield() {}) }
                             "end": 37
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 37

@@ -88,7 +88,6 @@ function *g() { new yield }
                             "end": 25
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 25

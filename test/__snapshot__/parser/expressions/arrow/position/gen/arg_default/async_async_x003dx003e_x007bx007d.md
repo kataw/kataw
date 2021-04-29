@@ -96,7 +96,6 @@ function f(a = async async => {}) {}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 31,
                                     "end": 31
@@ -125,7 +124,6 @@ function f(a = async async => {}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 35,
                     "end": 35

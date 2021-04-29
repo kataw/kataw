@@ -106,7 +106,6 @@ class x {static set break(x){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 29,
                                     "end": 29

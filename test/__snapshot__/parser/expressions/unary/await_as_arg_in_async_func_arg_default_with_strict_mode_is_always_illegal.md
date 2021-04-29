@@ -150,7 +150,6 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         }
                                     ],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 55,
                                     "end": 69
@@ -166,7 +165,6 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             "end": 71
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 71

@@ -67,8 +67,7 @@ x = {
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": true,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 20,
                                         "end": 20
                                     },
@@ -82,8 +81,7 @@ x = {
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": true,
-                        "flags": 1,
+                        "flags": 17,
                         "start": 5,
                         "end": 26
                     },

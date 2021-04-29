@@ -118,7 +118,6 @@ function not_gen() { var foo = yield = 1; }}
                             "end": 41
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 41

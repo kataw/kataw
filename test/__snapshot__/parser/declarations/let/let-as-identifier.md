@@ -159,7 +159,6 @@ L: let
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 30,
                     "end": 30
@@ -189,7 +188,6 @@ L: let
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 46,
                         "end": 46
@@ -241,7 +239,6 @@ L: let
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 66,
                     "end": 66
@@ -292,7 +289,6 @@ L: let
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 87,
                             "end": 87
@@ -367,7 +363,6 @@ L: let
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 111,
                     "end": 111
@@ -452,7 +447,6 @@ L: let
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 139,
                     "end": 139
@@ -717,7 +711,6 @@ L: let
                                     "end": 222
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 214,
                             "end": 222
@@ -887,7 +880,6 @@ L: let
                             "end": 271
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 247,
                     "end": 271
@@ -941,8 +933,7 @@ L: let
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 277,
                             "end": 284
                         },
@@ -1003,7 +994,6 @@ L: let
                                                         "end": 305
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 303,
                                                 "end": 305
@@ -1018,8 +1008,7 @@ L: let
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 291,
                                 "end": 307
                             },
@@ -1168,7 +1157,6 @@ L: let
                         "end": 341
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 340,
                 "end": 341

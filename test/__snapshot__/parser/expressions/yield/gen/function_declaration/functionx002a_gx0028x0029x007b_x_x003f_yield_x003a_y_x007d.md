@@ -146,7 +146,6 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                             "end": 49
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 49
@@ -162,7 +161,6 @@ function not_gen() { function* g(){ x ? yield : y } }}
                             "end": 51
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 51

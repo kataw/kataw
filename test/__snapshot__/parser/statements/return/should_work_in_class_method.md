@@ -87,7 +87,6 @@ class x {foo(){ return }}
                                             "end": 15
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 15,
                                     "end": 22

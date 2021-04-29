@@ -134,7 +134,6 @@ gen = function*() {};
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 38,
                             "end": 38
@@ -205,7 +204,6 @@ gen = function*() {};
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 60,
                             "end": 60

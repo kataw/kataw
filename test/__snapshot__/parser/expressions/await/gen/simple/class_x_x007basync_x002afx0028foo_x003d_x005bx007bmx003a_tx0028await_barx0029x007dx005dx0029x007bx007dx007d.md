@@ -161,8 +161,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 26,
                                                             "end": 41
                                                         },
@@ -197,7 +196,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 45,
                                     "end": 45

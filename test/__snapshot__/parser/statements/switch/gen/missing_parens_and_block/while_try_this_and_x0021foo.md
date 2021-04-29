@@ -81,7 +81,6 @@ switch case while try this and !foo
                                         "block": {
                                             "kind": 124,
                                             "statements": [],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 21,
                                             "end": 21
@@ -97,7 +96,6 @@ switch case while try this and !foo
                                         "block": {
                                             "kind": 124,
                                             "statements": [],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 26,
                                             "end": 26

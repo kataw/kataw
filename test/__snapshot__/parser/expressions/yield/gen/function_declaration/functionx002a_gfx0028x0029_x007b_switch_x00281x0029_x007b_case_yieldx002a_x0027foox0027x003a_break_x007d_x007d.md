@@ -173,7 +173,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "end": 78
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 78
@@ -189,7 +188,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                             "end": 80
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 80

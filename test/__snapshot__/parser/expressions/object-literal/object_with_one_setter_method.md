@@ -94,7 +94,6 @@ wrap({set [foo](a){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 19,
                                                 "end": 19
@@ -109,8 +108,7 @@ wrap({set [foo](a){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 6,
                                 "end": 20
                             },

@@ -197,7 +197,6 @@ let x = { foo(){ super(); } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 60,
                 "end": 60
@@ -474,7 +473,6 @@ let x = { foo(){ super(); } };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 152,
                                     "end": 152
@@ -540,7 +538,6 @@ let x = { foo(){ super(); } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 163,
                 "end": 163
@@ -641,7 +638,6 @@ let x = { foo(){ super(); } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 190,
                 "end": 190
@@ -738,7 +734,6 @@ let x = { foo(){ super(); } };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 219,
                                     "end": 219
@@ -1023,7 +1018,6 @@ let x = { foo(){ super(); } };
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 297,
                                                 "end": 297
@@ -1033,7 +1027,6 @@ let x = { foo(){ super(); } };
                                             "end": 299
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 279,
                                     "end": 299
@@ -1211,7 +1204,6 @@ let x = { foo(){ super(); } };
                                             "block": {
                                                 "kind": 124,
                                                 "statements": [],
-                                                "multiLine": false,
                                                 "flags": 16,
                                                 "start": 359,
                                                 "end": 359
@@ -1221,7 +1213,6 @@ let x = { foo(){ super(); } };
                                             "end": 361
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 329,
                                     "end": 361
@@ -1412,7 +1403,6 @@ let x = { foo(){ super(); } };
                                             "end": 428
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 391,
                                     "end": 428
@@ -1560,7 +1550,6 @@ let x = { foo(){ super(); } };
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 473,
                                                                     "end": 473
@@ -1608,7 +1597,6 @@ let x = { foo(){ super(); } };
                                             "end": 478
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 458,
                                     "end": 478
@@ -1653,7 +1641,6 @@ let x = { foo(){ super(); } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 484,
                 "end": 484
@@ -1755,7 +1742,6 @@ let x = { foo(){ super(); } };
                                                     "end": 524
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 513,
                                             "end": 524
@@ -1784,8 +1770,7 @@ let x = { foo(){ super(); } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 496,
                         "end": 526
                     },
@@ -1895,7 +1880,6 @@ let x = { foo(){ super(); } };
                             "kind": 217,
                             "directives": [],
                             "statements": [],
-                            "multiline": false,
                             "flags": 32,
                             "start": 555,
                             "end": 555
@@ -2012,7 +1996,6 @@ let x = { foo(){ super(); } };
                                                     "end": 586
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 578,
                                             "end": 586
@@ -2041,8 +2024,7 @@ let x = { foo(){ super(); } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 562,
                         "end": 588
                     },
@@ -2146,7 +2128,6 @@ let x = { foo(){ super(); } };
                                                 "end": 617
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 608,
                                         "end": 617
@@ -2161,8 +2142,7 @@ let x = { foo(){ super(); } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 594,
                         "end": 619
                     },
@@ -2255,7 +2235,6 @@ let x = { foo(){ super(); } };
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 646,
                     "end": 646
@@ -2342,7 +2321,6 @@ let x = { foo(){ super(); } };
                             "end": 672
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 663,
                     "end": 672
@@ -2538,7 +2516,6 @@ let x = { foo(){ super(); } };
                                                         "end": 725
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 716,
                                                 "end": 725
@@ -2553,8 +2530,7 @@ let x = { foo(){ super(); } };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 709,
                                 "end": 727
                             },

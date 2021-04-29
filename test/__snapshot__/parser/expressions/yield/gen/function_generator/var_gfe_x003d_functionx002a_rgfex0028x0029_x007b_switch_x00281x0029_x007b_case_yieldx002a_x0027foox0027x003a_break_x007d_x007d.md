@@ -234,7 +234,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                             "end": 109
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 68,
                                                                     "end": 109
@@ -263,7 +262,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                             "end": 111
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 111
@@ -279,7 +277,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                             "end": 113
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 113

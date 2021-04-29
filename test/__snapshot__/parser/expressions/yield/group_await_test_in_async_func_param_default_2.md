@@ -155,7 +155,6 @@ async function f(){    async function g(x=(await z)=y){}   }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 55,
                                     "end": 55
@@ -171,7 +170,6 @@ async function f(){    async function g(x=(await z)=y){}   }
                             "end": 56
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 56

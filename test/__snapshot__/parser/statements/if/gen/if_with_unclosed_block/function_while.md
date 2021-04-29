@@ -24,7 +24,6 @@ else {} if(x) { function while
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -86,7 +85,6 @@ else {} if(x) { function while
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 24
@@ -134,7 +132,6 @@ else {} if(x) { function while
                             "end": 30
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 30

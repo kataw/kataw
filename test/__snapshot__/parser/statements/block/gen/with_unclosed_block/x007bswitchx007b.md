@@ -29,7 +29,6 @@
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 3
@@ -46,7 +45,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 12,
                                 "end": 12
@@ -62,7 +60,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 13,
                                 "end": 13
@@ -90,7 +87,6 @@
                         "end": 14
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 14
@@ -123,8 +119,7 @@
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 26,
                                             "end": 26
                                         },
@@ -144,7 +139,6 @@
                                     "end": 26
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 19,
                             "end": 26
@@ -154,7 +148,6 @@
                         "end": 26
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 26

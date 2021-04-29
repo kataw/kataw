@@ -156,7 +156,6 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                             "end": 60
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 60
@@ -172,7 +171,6 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                             "end": 62
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 62

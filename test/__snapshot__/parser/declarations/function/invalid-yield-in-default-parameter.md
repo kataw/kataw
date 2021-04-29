@@ -150,7 +150,6 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 48,
                                     "end": 48
@@ -166,7 +165,6 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                             "end": 49
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 49

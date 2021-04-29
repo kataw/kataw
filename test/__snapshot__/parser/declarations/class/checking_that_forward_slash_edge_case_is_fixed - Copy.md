@@ -139,7 +139,6 @@ class x { static / foo(){} }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 25,
                 "end": 25

@@ -52,7 +52,6 @@ let {a:{}} = 0
                                                 "propertyList": {
                                                     "kind": 213,
                                                     "properties": [],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 8,
@@ -72,7 +71,6 @@ let {a:{}} = 0
                                         "end": 9
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

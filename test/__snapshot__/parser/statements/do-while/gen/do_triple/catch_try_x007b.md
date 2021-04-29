@@ -75,7 +75,6 @@ do do do catch try { while while while
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 14,
                                 "end": 14
@@ -162,7 +161,6 @@ do do do catch try { while while while
                                         "end": 38
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 20,
                                 "end": 38

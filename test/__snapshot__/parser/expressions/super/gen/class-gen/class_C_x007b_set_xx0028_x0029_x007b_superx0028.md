@@ -197,7 +197,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                             "end": 49
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 42,
                                                                     "end": 49
@@ -224,7 +223,6 @@ class C { *method() { class C { set x(_) { super( } }
                                             "end": 53
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 53

@@ -131,8 +131,7 @@ function *f(){   s = {"foo": yield / x}   }
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 38
                                     },
@@ -149,7 +148,6 @@ function *f(){   s = {"foo": yield / x}   }
                             "end": 39
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 39

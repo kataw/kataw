@@ -111,8 +111,7 @@ function *f(){   s = {"foo": yield}   }
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 22,
                                         "end": 34
                                     },
@@ -129,7 +128,6 @@ function *f(){   s = {"foo": yield}   }
                             "end": 35
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 35

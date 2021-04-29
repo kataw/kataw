@@ -85,7 +85,6 @@ if (x) { "use strict"; with (x) y; }
                             "end": 34
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 8,
                     "end": 34

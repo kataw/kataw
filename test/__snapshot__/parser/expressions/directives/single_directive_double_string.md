@@ -59,8 +59,7 @@ function f(){
                         }
                     ],
                     "statements": [],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 13,
                     "end": 20
                 },

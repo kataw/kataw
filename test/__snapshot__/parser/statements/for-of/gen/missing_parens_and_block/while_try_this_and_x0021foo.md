@@ -32,7 +32,6 @@ try catch while try this and !foo
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 3,
                     "end": 3
@@ -55,7 +54,6 @@ try catch while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 9
@@ -102,7 +100,6 @@ try catch while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 19,
                         "end": 19
@@ -118,7 +115,6 @@ try catch while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 24,
                         "end": 24

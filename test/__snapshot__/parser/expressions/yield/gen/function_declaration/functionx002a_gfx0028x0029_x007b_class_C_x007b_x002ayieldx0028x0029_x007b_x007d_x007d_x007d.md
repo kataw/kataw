@@ -153,7 +153,6 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 58,
                                                                     "end": 58
@@ -180,7 +179,6 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                             "end": 62
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 62
@@ -196,7 +194,6 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                             "end": 64
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 64

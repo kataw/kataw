@@ -74,7 +74,6 @@ async () => {  \u0066unction = x  }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 28,
                                     "end": 28
@@ -90,8 +89,7 @@ async () => {  \u0066unction = x  }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 28
                 },

@@ -129,7 +129,6 @@ function not_gen() { function* gf() { var yield; } }}
                                             "end": 48
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 48
@@ -145,7 +144,6 @@ function not_gen() { function* gf() { var yield; } }}
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 50

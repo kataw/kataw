@@ -46,7 +46,6 @@ do {} while (x) { catch
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -72,7 +71,6 @@ do {} while (x) { catch
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 23,
                                 "end": 23
@@ -88,7 +86,6 @@ do {} while (x) { catch
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 23,
                                 "end": 23
@@ -102,7 +99,6 @@ do {} while (x) { catch
                         "end": 23
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 23

@@ -107,7 +107,6 @@
                             "end": 42
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 28,
                     "end": 42

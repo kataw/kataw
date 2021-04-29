@@ -4,13 +4,12 @@ import { TypeNode } from '.';
 export interface TupleType extends SyntaxNode {
   readonly types: TypeNode[];
   readonly trailingComma: boolean;
-  readonly multiline: boolean;
 }
 
 export function createTupleType(
   types: TypeNode[],
   trailingComma: boolean,
-  multiline: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TupleType {
@@ -18,8 +17,7 @@ export function createTupleType(
     kind: SyntaxKind.TupleType,
     types,
     trailingComma,
-    multiline,
-    flags: NodeFlags.None,
+    flags,
     start,
     end
   };

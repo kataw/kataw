@@ -136,7 +136,6 @@ class C { *method() { class C { get x) { super; } } } }
                                             "end": 37
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 37
@@ -199,7 +198,6 @@ class C { *method() { class C { get x) { super; } } } }
                         "end": 47
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 40,
                 "end": 47

@@ -190,8 +190,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "multiline": false,
-                                                                            "flags": 0,
+                                                                            "flags": 16,
                                                                             "start": 68,
                                                                             "end": 77
                                                                         },
@@ -211,8 +210,7 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                             "kind": 218,
                                                                             "properties": [],
                                                                             "trailingComma": false,
-                                                                            "multiline": false,
-                                                                            "flags": 0,
+                                                                            "flags": 16,
                                                                             "start": 82,
                                                                             "end": 82
                                                                         },
@@ -229,7 +227,6 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                                 "end": 59
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 59,
                                                         "end": 84
@@ -245,7 +242,6 @@ var await; var f = (async function() { async function f() { return {await = 0} =
                                                 "end": 86
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 86

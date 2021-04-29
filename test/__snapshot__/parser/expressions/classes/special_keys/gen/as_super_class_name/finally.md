@@ -77,7 +77,6 @@ class x extends finally {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 25,
                     "end": 25
@@ -93,7 +92,6 @@ class x extends finally {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 26,
                     "end": 26

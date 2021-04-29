@@ -115,7 +115,6 @@ class C {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 34
@@ -171,7 +170,6 @@ class C {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 54,
                                     "end": 54
@@ -365,8 +363,7 @@ class C {
                                             "end": 76
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 76,
                                     "end": 138
                                 },

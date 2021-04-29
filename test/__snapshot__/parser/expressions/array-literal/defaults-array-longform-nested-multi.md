@@ -173,7 +173,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "end": 31
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 21,
@@ -193,7 +192,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "end": 32
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

@@ -106,7 +106,6 @@ class x { foo(){ super.foo; }}
                                             "end": 27
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 16,
                                     "end": 27

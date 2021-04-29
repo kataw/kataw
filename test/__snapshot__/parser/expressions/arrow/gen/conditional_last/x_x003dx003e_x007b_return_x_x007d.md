@@ -78,7 +78,6 @@ bar, x => { return x; };
                                         "end": 11
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 11,
                                 "end": 21

@@ -189,8 +189,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 33,
                                                             "end": 52
                                                         },
@@ -221,7 +220,6 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 60,
                                         "end": 60
@@ -239,7 +237,6 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                             "end": 61
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 61

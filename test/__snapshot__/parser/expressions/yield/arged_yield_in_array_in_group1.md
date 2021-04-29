@@ -123,7 +123,6 @@ function *g(){ (x = [yield y]) }
                             "end": 30
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 30

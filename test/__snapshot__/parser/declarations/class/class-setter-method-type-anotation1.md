@@ -127,7 +127,6 @@ class Foo {set fooProp(value:number):void{}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 42,
                                     "end": 42

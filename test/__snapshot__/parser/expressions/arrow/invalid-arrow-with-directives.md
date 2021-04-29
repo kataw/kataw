@@ -102,7 +102,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 30,
                         "end": 30
@@ -222,7 +221,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 68,
                         "end": 68
@@ -280,7 +278,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 95,
                         "end": 95
@@ -340,7 +337,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 124,
                         "end": 124
@@ -420,7 +416,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 157,
                         "end": 157
@@ -495,7 +490,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 188,
                         "end": 188
@@ -590,7 +584,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 223,
                         "end": 223
@@ -677,7 +670,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 257,
                         "end": 257
@@ -753,8 +745,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 276,
                             "end": 284
                         },
@@ -771,7 +762,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 291,
                         "end": 291
@@ -829,8 +819,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 310,
                             "end": 315
                         },
@@ -847,7 +836,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 322,
                         "end": 322
@@ -919,8 +907,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 341,
                             "end": 350
                         },
@@ -937,7 +924,6 @@
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 357,
                         "end": 357
@@ -1162,7 +1148,6 @@
                                 "end": 455
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 440,
                         "end": 455
@@ -1299,7 +1284,6 @@
                                 "end": 500
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 480,
                         "end": 500
@@ -1389,7 +1373,6 @@
                                 "end": 536
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 525,
                         "end": 536
@@ -1486,7 +1469,6 @@
                                 "end": 576
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 561,
                         "end": 576
@@ -1614,7 +1596,6 @@
                                 "end": 619
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 601,
                         "end": 619
@@ -1749,7 +1730,6 @@
                                 "end": 666
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 644,
                         "end": 666
@@ -1882,7 +1862,6 @@
                                 "end": 712
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 691,
                         "end": 712
@@ -1984,7 +1963,6 @@
                                                             "end": 751
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 743,
@@ -2002,8 +1980,7 @@
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 756,
                                                     "end": 756
                                                 },
@@ -2025,7 +2002,6 @@
                                 "end": 758
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 737,
                         "end": 758
@@ -2112,7 +2088,6 @@
                                                             "end": 794
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 789,
@@ -2130,8 +2105,7 @@
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 799,
                                                     "end": 799
                                                 },
@@ -2153,7 +2127,6 @@
                                 "end": 801
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 783,
                         "end": 801
@@ -2247,7 +2220,6 @@
                                                             "end": 841
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 832,
@@ -2265,8 +2237,7 @@
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 846,
                                                     "end": 846
                                                 },
@@ -2288,7 +2259,6 @@
                                 "end": 848
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 826,
                         "end": 848
@@ -2377,7 +2347,6 @@
                                 "end": 884
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 873,
                         "end": 884
@@ -2473,7 +2442,6 @@
                                 "end": 924
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 909,
                         "end": 924
@@ -2600,7 +2568,6 @@
                                 "end": 967
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 949,
                         "end": 967
@@ -2734,7 +2701,6 @@
                                 "end": 1014
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 992,
                         "end": 1014
@@ -2866,7 +2832,6 @@
                                 "end": 1060
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 1039,
                         "end": 1060
@@ -2967,7 +2932,6 @@
                                                             "end": 1099
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 1091,
@@ -2985,8 +2949,7 @@
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 1104,
                                                     "end": 1104
                                                 },
@@ -3008,7 +2971,6 @@
                                 "end": 1106
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 1085,
                         "end": 1106
@@ -3094,7 +3056,6 @@
                                                             "end": 1142
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 1137,
@@ -3112,8 +3073,7 @@
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 1147,
                                                     "end": 1147
                                                 },
@@ -3135,7 +3095,6 @@
                                 "end": 1149
                             }
                         ],
-                        "multiline": false,
                         "flags": 32,
                         "start": 1131,
                         "end": 1149

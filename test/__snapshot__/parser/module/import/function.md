@@ -114,7 +114,6 @@ function f(){import {x} from "y";}
                             "end": 33
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 33

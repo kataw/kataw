@@ -92,7 +92,6 @@ class x {static async * import(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 33,
                                     "end": 33

@@ -190,7 +190,6 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                                                                 "end": 75
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 58,
                                                         "end": 75
@@ -206,7 +205,6 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                                                 "end": 77
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 77

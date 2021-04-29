@@ -80,7 +80,6 @@ switch[ while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 17,
                         "end": 17
@@ -96,7 +95,6 @@ switch[ while try this and !foo
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 22,
                         "end": 22

@@ -124,8 +124,7 @@ do throw function (v, h) {
                                 }
                             ],
                             "statements": [],
-                            "multiline": true,
-                            "flags": 32,
+                            "flags": 33,
                             "start": 26,
                             "end": 41
                         },

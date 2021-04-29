@@ -92,7 +92,6 @@ else =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 22,
                     "end": 22
@@ -120,7 +119,6 @@ else =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 26,
                     "end": 26
@@ -136,7 +134,6 @@ else =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 32,
                     "end": 32

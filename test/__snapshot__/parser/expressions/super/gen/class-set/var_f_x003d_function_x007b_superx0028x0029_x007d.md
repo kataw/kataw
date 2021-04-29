@@ -183,7 +183,6 @@ class C { set x(_) { var f = function { super(); } } }
                                                                             "end": 48
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 39,
                                                                     "end": 48
@@ -212,7 +211,6 @@ class C { set x(_) { var f = function { super(); } } }
                                             "end": 50
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 50

@@ -80,7 +80,6 @@ for (let {x: y = let};;) {}
                                         "end": 20
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 10,
@@ -109,7 +108,6 @@ for (let {x: y = let};;) {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 26,
                     "end": 26

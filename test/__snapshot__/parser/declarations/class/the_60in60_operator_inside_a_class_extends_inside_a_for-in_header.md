@@ -111,7 +111,6 @@ for (class x extends a in b {} in c);
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 29,
                     "end": 29

@@ -240,7 +240,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                     "end": 97
                                                                 }
                                                             ],
-                                                            "multiline": false,
                                                             "flags": 32,
                                                             "start": 56,
                                                             "end": 97
@@ -264,7 +263,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                             "end": 101
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 101
@@ -280,7 +278,6 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                             "end": 103
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 103

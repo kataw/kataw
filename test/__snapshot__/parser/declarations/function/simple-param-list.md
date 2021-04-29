@@ -109,7 +109,6 @@ function x({x}) { "use strict"; }
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 33
@@ -190,7 +189,6 @@ function x({x}) { "use strict"; }
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 55,
                     "end": 69
@@ -291,7 +289,6 @@ function x({x}) { "use strict"; }
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 90,
                     "end": 104
@@ -353,7 +350,6 @@ function x({x}) { "use strict"; }
                                         "end": 121
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 120,
@@ -391,7 +387,6 @@ function x({x}) { "use strict"; }
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 125,
                     "end": 139

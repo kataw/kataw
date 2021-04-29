@@ -85,7 +85,6 @@ bar ? (x => { return x; }) : baz;
                                         "end": 13
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 13,
                                 "end": 23

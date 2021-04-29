@@ -140,7 +140,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "kind": 217,
                                                             "directives": [],
                                                             "statements": [],
-                                                            "multiline": false,
                                                             "flags": 32,
                                                             "start": 61,
                                                             "end": 61
@@ -175,7 +174,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
                             "end": 65
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 65

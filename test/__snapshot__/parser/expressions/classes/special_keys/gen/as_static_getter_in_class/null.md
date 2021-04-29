@@ -87,7 +87,6 @@ class x {static get null(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 27,
                                     "end": 27

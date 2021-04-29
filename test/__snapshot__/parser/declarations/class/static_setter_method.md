@@ -121,7 +121,6 @@ class A {static set 10(x){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 26,
                                     "end": 26

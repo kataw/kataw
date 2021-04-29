@@ -67,7 +67,6 @@ function f(){ new . target }
                             "end": 26
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 26

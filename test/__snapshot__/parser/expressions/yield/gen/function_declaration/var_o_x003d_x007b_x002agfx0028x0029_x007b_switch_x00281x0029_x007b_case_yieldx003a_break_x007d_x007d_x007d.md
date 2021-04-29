@@ -178,7 +178,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                         "end": 72
                                                                     }
                                                                 ],
-                                                                "multiline": false,
                                                                 "flags": 32,
                                                                 "start": 38,
                                                                 "end": 72
@@ -193,8 +192,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 30,
                                                 "end": 74
                                             },
@@ -216,7 +214,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                             "end": 76
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 76

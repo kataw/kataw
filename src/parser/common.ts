@@ -231,49 +231,53 @@ export function containsInvalidEscape(node: SyntaxNode): boolean {
 }
 
 export function isAssignOp(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsAssignOp) === SyntaxKind.IsAssignOp;
+  return (node.kind & SyntaxKind.IsAssignOp) === SyntaxKind.IsAssignOp;
 }
 
 export function isBinaryOp(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsBinaryOp) === SyntaxKind.IsBinaryOp;
+  return (node.kind & SyntaxKind.IsBinaryOp) === SyntaxKind.IsBinaryOp;
 }
 
 export function isStatementStart(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsStatementStart) === SyntaxKind.IsStatementStart;
+  return (node.kind & SyntaxKind.IsStatementStart) === SyntaxKind.IsStatementStart;
 }
 
 export function isIdentifier(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsIdentifier) === SyntaxKind.IsIdentifier;
+  return (node.kind & SyntaxKind.IsIdentifier) === SyntaxKind.IsIdentifier;
 }
 
 export function isExpressionStart(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsExpressionStart) === SyntaxKind.IsExpressionStart;
+  return (node.kind & SyntaxKind.IsExpressionStart) === SyntaxKind.IsExpressionStart;
 }
 
 export function isPropertyOrCall(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsPropertyOrCall) === SyntaxKind.IsPropertyOrCall;
+  return (node.kind & SyntaxKind.IsPropertyOrCall) === SyntaxKind.IsPropertyOrCall;
 }
 
 export function isEllipsis(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsEllipsis) === SyntaxKind.IsEllipsis;
+  return (node.kind & SyntaxKind.IsEllipsis) === SyntaxKind.IsEllipsis;
 }
 
 export function isInOrOf(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsInOrOf) === SyntaxKind.IsInOrOf;
+  return (node.kind & SyntaxKind.IsInOrOf) === SyntaxKind.IsInOrOf;
 }
 
 export function isKeyword(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword;
+  return (node.kind & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword;
 }
 
 export function isFutureReserved(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsFutureReserved) === SyntaxKind.IsFutureReserved;
+  return (node.kind & SyntaxKind.IsFutureReserved) === SyntaxKind.IsFutureReserved;
 }
 
 export function isStartOfType(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsStartOfType) === SyntaxKind.IsStartOfType;
+  return (node.kind & SyntaxKind.IsStartOfType) === SyntaxKind.IsStartOfType;
 }
 
 export function isSemicolon(node: SyntaxNode): boolean {
-  return (node.flags & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
+  return (node.kind & SyntaxKind.IsSemicolon) === SyntaxKind.IsSemicolon;
+}
+
+export function hasNewLine(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.NewLine) === NodeFlags.NewLine;
 }

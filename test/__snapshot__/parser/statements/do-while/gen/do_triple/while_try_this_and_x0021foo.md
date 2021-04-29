@@ -118,7 +118,6 @@ do do do while try this and !foo while while while
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 18,
                                     "end": 18
@@ -134,7 +133,6 @@ do do do while try this and !foo while while while
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 23,
                                     "end": 23

@@ -81,8 +81,7 @@ bar, eval => { 'use strict'; 0 };
                                         "end": 30
                                     }
                                 ],
-                                "multiline": false,
-                                "flags": 32,
+                                "flags": 4194336,
                                 "start": 14,
                                 "end": 30
                             },

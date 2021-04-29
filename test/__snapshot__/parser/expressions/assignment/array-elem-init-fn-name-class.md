@@ -204,7 +204,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "kind": 217,
                                                                 "directives": [],
                                                                 "statements": [],
-                                                                "multiline": false,
                                                                 "flags": 32,
                                                                 "start": 77,
                                                                 "end": 77

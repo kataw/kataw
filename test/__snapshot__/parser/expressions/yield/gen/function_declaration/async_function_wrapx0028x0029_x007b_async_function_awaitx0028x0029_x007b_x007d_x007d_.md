@@ -128,7 +128,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 69,
                                                     "end": 69
@@ -144,7 +143,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             "end": 71
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 44,
                                     "end": 71
@@ -166,7 +164,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             "end": 74
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 74

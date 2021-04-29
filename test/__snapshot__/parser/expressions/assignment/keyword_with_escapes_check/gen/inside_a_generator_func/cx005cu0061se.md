@@ -59,8 +59,7 @@ function *f(){
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 16417,
                     "start": 14,
                     "end": 14
                 },

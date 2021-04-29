@@ -78,7 +78,6 @@ class X { ge\u0074 x() {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 24

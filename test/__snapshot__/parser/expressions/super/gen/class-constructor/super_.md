@@ -109,7 +109,6 @@ class C { constructor() { super; } }
                                             "end": 32
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 32

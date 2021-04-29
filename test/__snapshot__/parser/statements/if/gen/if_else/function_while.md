@@ -52,7 +52,6 @@ if function while else
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 11,
                         "end": 11

@@ -83,8 +83,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 32,
                                                 "end": 33
                                             },
@@ -191,8 +190,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 39,
                                                             "end": 58
                                                         },
@@ -231,7 +229,6 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                             "end": 62
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 62

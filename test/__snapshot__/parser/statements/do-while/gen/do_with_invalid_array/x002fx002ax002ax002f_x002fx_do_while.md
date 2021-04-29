@@ -65,7 +65,6 @@ do while [catch] /**/ /x do while
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -81,7 +80,6 @@ do while [catch] /**/ /x do while
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16

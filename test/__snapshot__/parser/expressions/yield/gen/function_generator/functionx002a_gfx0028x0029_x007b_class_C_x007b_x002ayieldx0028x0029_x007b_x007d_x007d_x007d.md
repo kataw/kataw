@@ -191,7 +191,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                                     "kind": 217,
                                                                                     "directives": [],
                                                                                     "statements": [],
-                                                                                    "multiline": false,
                                                                                     "flags": 32,
                                                                                     "start": 77,
                                                                                     "end": 77
@@ -218,7 +217,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                             "end": 81
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 56,
                                                     "end": 81
@@ -234,7 +232,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                             "end": 83
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 83
@@ -250,7 +247,6 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                             "end": 85
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 85

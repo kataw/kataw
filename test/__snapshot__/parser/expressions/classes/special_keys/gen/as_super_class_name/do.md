@@ -90,7 +90,6 @@ class x extends do {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 20,
                     "end": 20

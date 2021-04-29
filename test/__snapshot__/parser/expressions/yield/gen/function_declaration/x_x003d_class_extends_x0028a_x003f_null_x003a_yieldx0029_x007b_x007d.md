@@ -161,7 +161,6 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                             "end": 61
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 61

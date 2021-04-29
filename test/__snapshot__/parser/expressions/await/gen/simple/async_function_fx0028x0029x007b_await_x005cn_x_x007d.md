@@ -83,7 +83,6 @@ async function f(){ await \n x; }
                             "end": 25
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 25

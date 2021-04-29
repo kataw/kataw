@@ -78,8 +78,7 @@ async () => { aw\u{61}it: x }
                             "end": 27
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 8224,
                     "start": 13,
                     "end": 27
                 },

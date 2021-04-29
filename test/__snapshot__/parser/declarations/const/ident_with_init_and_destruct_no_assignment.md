@@ -82,7 +82,6 @@ const x = y, {z};
                                         "end": 15
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 14,

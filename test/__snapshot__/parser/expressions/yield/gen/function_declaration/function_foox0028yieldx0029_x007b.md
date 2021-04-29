@@ -104,7 +104,6 @@ function not_gen() { function foo(yield) { }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 42,
                                     "end": 42
@@ -120,7 +119,6 @@ function not_gen() { function foo(yield) { }}
                             "end": 44
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 44

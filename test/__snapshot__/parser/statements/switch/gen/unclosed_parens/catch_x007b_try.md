@@ -66,7 +66,6 @@ switch( catch { try case
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 19,
                                     "end": 19
@@ -82,7 +81,6 @@ switch( catch { try case
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 24,
                                     "end": 24
@@ -96,7 +94,6 @@ switch( catch { try case
                             "end": 24
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 24
@@ -112,7 +109,6 @@ switch( catch { try case
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 24,
                     "end": 24

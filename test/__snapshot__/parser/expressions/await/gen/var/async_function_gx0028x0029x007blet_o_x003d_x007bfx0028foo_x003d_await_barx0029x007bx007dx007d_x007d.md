@@ -249,7 +249,6 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "kind": 217,
                                                                                                     "directives": [],
                                                                                                     "statements": [],
-                                                                                                    "multiline": false,
                                                                                                     "flags": 32,
                                                                                                     "start": 86,
                                                                                                     "end": 86
@@ -264,8 +263,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "multiline": false,
-                                                                                    "flags": 0,
+                                                                                    "flags": 16,
                                                                                     "start": 67,
                                                                                     "end": 87
                                                                                 },
@@ -287,7 +285,6 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                 "end": 88
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 58,
                                                         "end": 88
@@ -303,7 +300,6 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                 "end": 93
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 93

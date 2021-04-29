@@ -82,7 +82,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 36,
                                         "end": 36
@@ -97,8 +96,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 2,
                         "end": 37
                     },
@@ -174,7 +172,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 74,
                                         "end": 74
@@ -189,8 +186,7 @@
                             }
                         ],
                         "trailingComma": true,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 44,
                         "end": 76
                     },
@@ -285,7 +281,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 118,
                                         "end": 118
@@ -300,8 +295,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 83,
                         "end": 119
                     },
@@ -377,7 +371,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 162,
                                         "end": 162
@@ -435,7 +428,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 182,
                                         "end": 182
@@ -450,8 +442,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 126,
                         "end": 183
                     },
@@ -527,7 +518,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 222,
                                         "end": 222
@@ -542,8 +532,7 @@
                             }
                         ],
                         "trailingComma": true,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 190,
                         "end": 224
                     },
@@ -638,7 +627,6 @@
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 268,
                                         "end": 268
@@ -653,8 +641,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 231,
                         "end": 269
                     },
@@ -714,8 +701,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 276,
                         "end": 305
                     },
@@ -758,8 +744,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 312,
                         "end": 333
                     },

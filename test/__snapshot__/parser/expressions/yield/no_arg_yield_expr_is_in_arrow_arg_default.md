@@ -112,7 +112,6 @@ function *f(){ async (x = yield) => {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 37,
                                     "end": 37
@@ -126,7 +125,6 @@ function *f(){ async (x = yield) => {} }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 38

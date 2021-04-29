@@ -212,8 +212,7 @@ function *foo() {
                             "end": 64
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 17,
                     "end": 64
                 },

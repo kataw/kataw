@@ -119,7 +119,6 @@ function not_gen() { function *a(){yield 2e308} }}
                                             "end": 46
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 46
@@ -135,7 +134,6 @@ function not_gen() { function *a(){yield 2e308} }}
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 47

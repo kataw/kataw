@@ -82,7 +82,6 @@ class x extends try {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 21,
                     "end": 21
@@ -98,7 +97,6 @@ class x extends try {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 22,
                     "end": 22

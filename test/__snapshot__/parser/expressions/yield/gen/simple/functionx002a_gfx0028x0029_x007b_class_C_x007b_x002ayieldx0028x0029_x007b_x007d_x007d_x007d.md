@@ -120,7 +120,6 @@ function* gf() { class C { *yield() { } } }
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 37,
                                                     "end": 37
@@ -147,7 +146,6 @@ function* gf() { class C { *yield() { } } }
                             "end": 41
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 41

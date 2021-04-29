@@ -105,7 +105,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                                             "end": 45
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 45
@@ -121,7 +120,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                             "end": 45
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 45
@@ -170,7 +168,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                         "end": 68
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 63,
                 "end": 68

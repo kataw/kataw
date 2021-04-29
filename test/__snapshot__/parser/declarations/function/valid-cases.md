@@ -200,7 +200,6 @@ function f({x:arg = (arg = 2)}) {}
                                             "end": 38
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 31,
                                     "end": 38
@@ -250,7 +249,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 45
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 17,
                     "end": 45
@@ -362,7 +360,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 73
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 67,
                     "end": 73
@@ -570,7 +567,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 137
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 104,
                     "end": 137
@@ -765,7 +761,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 193
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 160,
                     "end": 193
@@ -941,7 +936,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 237
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 213,
                     "end": 237
@@ -1120,7 +1114,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 289
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 257,
                     "end": 289
@@ -1307,7 +1300,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 337
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 309,
                     "end": 337
@@ -1508,7 +1500,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 386
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 362,
                     "end": 386
@@ -1707,7 +1698,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 436
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 412,
                     "end": 436
@@ -1890,7 +1880,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 482
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 458,
                     "end": 482
@@ -2075,8 +2064,7 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 540
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 4194336,
                     "start": 502,
                     "end": 540
                 },
@@ -2227,7 +2215,6 @@ function f({x:arg = (arg = 2)}) {}
                                         "end": 578
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 560,
@@ -2294,7 +2281,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 588
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 582,
                     "end": 588
@@ -2473,7 +2459,6 @@ function f({x:arg = (arg = 2)}) {}
                                                             "end": 638
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 630,
                                                     "end": 638
@@ -2540,7 +2525,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 648
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 608,
                     "end": 648
@@ -2755,7 +2739,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 701
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 668,
                     "end": 701
@@ -2973,7 +2956,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 762
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 721,
                     "end": 762
@@ -3157,7 +3139,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 817
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 785,
                     "end": 817
@@ -3347,7 +3328,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 870
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 837,
                     "end": 870
@@ -3526,7 +3506,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 918
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 890,
                     "end": 918
@@ -3705,7 +3684,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 979
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 938,
                     "end": 979
@@ -3934,7 +3912,6 @@ function f({x:arg = (arg = 2)}) {}
                             "end": 1041
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 999,
                     "end": 1041
@@ -4018,7 +3995,6 @@ function f({x:arg = (arg = 2)}) {}
                                         "end": 1065
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1056,
@@ -4108,7 +4084,6 @@ function f({x:arg = (arg = 2)}) {}
                                         "end": 1080
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1069,
@@ -4137,7 +4112,6 @@ function f({x:arg = (arg = 2)}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1084,
                     "end": 1084
@@ -4247,7 +4221,6 @@ function f({x:arg = (arg = 2)}) {}
                                         "end": 1116
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 1099,
@@ -4276,7 +4249,6 @@ function f({x:arg = (arg = 2)}) {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1120,
                     "end": 1120

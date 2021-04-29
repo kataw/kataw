@@ -105,7 +105,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 22,
                                             "end": 22
@@ -189,7 +188,6 @@
                                                     "end": 30
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 30,
                                             "end": 46
@@ -281,7 +279,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 73,
                                             "end": 73
@@ -371,7 +368,6 @@
                                                     "end": 93
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 82,
                                             "end": 93
@@ -463,7 +459,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 120,
                                             "end": 120
@@ -584,8 +579,7 @@
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "multiline": false,
-                                                                    "flags": 0,
+                                                                    "flags": 16,
                                                                     "start": 135,
                                                                     "end": 146
                                                                 },
@@ -620,7 +614,6 @@
                                                     "end": 156
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 132,
                                             "end": 156
@@ -707,7 +700,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 179,
                                             "end": 179
@@ -797,7 +789,6 @@
                                                     "end": 199
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 188,
                                             "end": 199

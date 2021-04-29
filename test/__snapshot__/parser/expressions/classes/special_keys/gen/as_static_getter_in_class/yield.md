@@ -87,7 +87,6 @@ class x {static get yield(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 28,
                                     "end": 28

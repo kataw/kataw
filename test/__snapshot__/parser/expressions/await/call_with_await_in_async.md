@@ -102,7 +102,6 @@ async function f(){  foo(await)  }
                             "end": 31
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 31

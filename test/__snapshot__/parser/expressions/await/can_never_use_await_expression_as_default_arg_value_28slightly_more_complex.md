@@ -116,7 +116,6 @@ function call(foo= 5 + (await bar())){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 33,
                     "end": 33
@@ -149,7 +148,6 @@ function call(foo= 5 + (await bar())){}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 38,
                 "end": 38

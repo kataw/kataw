@@ -67,7 +67,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 17,
                                         "end": 17
@@ -108,8 +107,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 32
                     },
@@ -174,7 +172,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 52,
                                         "end": 52
@@ -213,7 +210,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 67,
                                         "end": 67
@@ -228,8 +224,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 40,
                         "end": 68
                     },
@@ -294,7 +289,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 94,
                                         "end": 94
@@ -333,7 +327,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 110,
                                         "end": 110
@@ -348,8 +341,7 @@ x = {async __proto__(){}, *__proto__(){}};
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 76,
                         "end": 111
                     },
@@ -436,8 +428,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 116,
                             "end": 143
                         },
@@ -454,7 +445,6 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 151,
                         "end": 151

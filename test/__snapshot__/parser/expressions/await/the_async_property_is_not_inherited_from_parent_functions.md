@@ -138,7 +138,6 @@ async function f(){ let y = x => await x; }
                             "end": 41
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 41

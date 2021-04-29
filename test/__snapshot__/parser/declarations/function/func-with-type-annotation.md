@@ -109,8 +109,7 @@ function a<string>(x: string): string {
                             "end": 39
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 39,
                     "end": 51
                 },

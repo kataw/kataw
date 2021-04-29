@@ -150,8 +150,7 @@ var await; var f = (async function() { ({ await: async }) });
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 41,
                                                             "end": 54
                                                         },
@@ -168,7 +167,6 @@ var await; var f = (async function() { ({ await: async }) });
                                                 "end": 57
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 57

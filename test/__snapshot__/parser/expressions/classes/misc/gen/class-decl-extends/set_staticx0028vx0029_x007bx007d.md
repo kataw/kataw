@@ -121,7 +121,6 @@ class C extends Base { set static(v) {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 38,
                                     "end": 38

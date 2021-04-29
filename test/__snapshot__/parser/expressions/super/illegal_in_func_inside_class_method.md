@@ -139,7 +139,6 @@ class x { foo(){ function f(){ super.foo; } }}
                                                             "end": 41
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 30,
                                                     "end": 41
@@ -155,7 +154,6 @@ class x { foo(){ function f(){ super.foo; } }}
                                             "end": 43
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 16,
                                     "end": 43

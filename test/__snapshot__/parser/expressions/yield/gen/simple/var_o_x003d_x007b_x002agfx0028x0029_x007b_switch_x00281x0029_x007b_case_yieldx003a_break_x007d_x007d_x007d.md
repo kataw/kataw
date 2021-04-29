@@ -145,7 +145,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                         "end": 51
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 17,
                                                 "end": 51
@@ -160,8 +159,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 53
                             },

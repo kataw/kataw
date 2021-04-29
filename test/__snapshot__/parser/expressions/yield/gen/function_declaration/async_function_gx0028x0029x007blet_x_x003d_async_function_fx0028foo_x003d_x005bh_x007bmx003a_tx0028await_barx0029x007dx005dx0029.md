@@ -233,8 +233,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "multiline": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 16,
                                                                                             "start": 76,
                                                                                             "end": 91
                                                                                         },
@@ -268,7 +267,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 95,
                                                                     "end": 95
@@ -297,7 +295,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                             "end": 96
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 40,
                                     "end": 96
@@ -313,7 +310,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                             "end": 101
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 101

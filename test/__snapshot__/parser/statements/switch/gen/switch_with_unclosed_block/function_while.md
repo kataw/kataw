@@ -33,8 +33,7 @@ switch {} default(x) { function while
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -111,7 +110,6 @@ switch {} default(x) { function while
                                                     "kind": 217,
                                                     "directives": [],
                                                     "statements": [],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 31,
                                                     "end": 31
@@ -159,7 +157,6 @@ switch {} default(x) { function while
                                             "end": 37
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 22,
                                     "end": 37

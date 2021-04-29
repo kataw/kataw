@@ -322,7 +322,6 @@ const {x}: string = y;
                                         "end": 81
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 80,

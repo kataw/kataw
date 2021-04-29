@@ -87,7 +87,6 @@ class x {static get catch(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 28,
                                     "end": 28

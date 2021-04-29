@@ -81,7 +81,6 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "end": 16
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 10,
@@ -101,7 +100,6 @@ var { ...{ x = 5 } } = {x : 1};
                                         "end": 18
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -146,8 +144,7 @@ var { ...{ x = 5 } } = {x : 1};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 24,
                                 "end": 29
                             },

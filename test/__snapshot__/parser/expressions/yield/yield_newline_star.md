@@ -89,8 +89,7 @@ function *f() {
                             "end": 27
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 15,
                     "end": 27
                 },

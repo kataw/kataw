@@ -135,7 +135,6 @@ x; {}
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 48,
                                 "end": 48
@@ -145,8 +144,7 @@ x; {}
                             "end": 49
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 49
                 },

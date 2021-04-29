@@ -146,7 +146,6 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                             "kind": 217,
                                                             "directives": [],
                                                             "statements": [],
-                                                            "multiline": false,
                                                             "flags": 32,
                                                             "start": 47,
                                                             "end": 47
@@ -166,7 +165,6 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                 "end": 11
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 11,
                                         "end": 48
@@ -181,8 +179,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 3,
                         "end": 50
                     },

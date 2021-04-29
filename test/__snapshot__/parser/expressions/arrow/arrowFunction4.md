@@ -86,8 +86,7 @@ var v = (a, b) => {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 19,
                                     "end": 19
                                 },

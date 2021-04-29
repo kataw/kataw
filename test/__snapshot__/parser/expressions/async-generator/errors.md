@@ -185,7 +185,6 @@ async function * gen() {class C extends await { }}
                                         "end": 50
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 40,
                                 "end": 50
@@ -308,7 +307,6 @@ async function * gen() {class C extends await { }}
                             "end": 91
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 76,
                     "end": 91
@@ -422,7 +420,6 @@ async function * gen() {class C extends await { }}
                             "end": 132
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 117,
                     "end": 132
@@ -493,7 +490,6 @@ async function * gen() {class C extends await { }}
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 163,
                                     "end": 163
@@ -523,7 +519,6 @@ async function * gen() {class C extends await { }}
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 181,
                                         "end": 181
@@ -543,7 +538,6 @@ async function * gen() {class C extends await { }}
                             "end": 183
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 158,
                     "end": 183
@@ -614,7 +608,6 @@ async function * gen() {class C extends await { }}
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 214,
                                     "end": 214
@@ -644,7 +637,6 @@ async function * gen() {class C extends await { }}
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 232,
                                         "end": 232
@@ -664,7 +656,6 @@ async function * gen() {class C extends await { }}
                             "end": 234
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 209,
                     "end": 234
@@ -755,7 +746,6 @@ async function * gen() {class C extends await { }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 278,
                                     "end": 278
@@ -771,7 +761,6 @@ async function * gen() {class C extends await { }}
                             "end": 280
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 260,
                     "end": 280
@@ -862,7 +851,6 @@ async function * gen() {class C extends await { }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 324,
                                     "end": 324
@@ -878,7 +866,6 @@ async function * gen() {class C extends await { }}
                             "end": 326
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 306,
                     "end": 326
@@ -982,7 +969,6 @@ async function * gen() {class C extends await { }}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 496,
                                             "end": 496
@@ -1006,7 +992,6 @@ async function * gen() {class C extends await { }}
                             "end": 499
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 469,
                     "end": 499
@@ -1110,7 +1095,6 @@ async function * gen() {class C extends await { }}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 552,
                                             "end": 552
@@ -1134,7 +1118,6 @@ async function * gen() {class C extends await { }}
                             "end": 555
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 525,
                     "end": 555
@@ -1254,7 +1237,6 @@ async function * gen() {class C extends await { }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 684,
                                     "end": 684
@@ -1270,7 +1252,6 @@ async function * gen() {class C extends await { }}
                             "end": 686
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 655,
                     "end": 686
@@ -1393,7 +1374,6 @@ async function * gen() {class C extends await { }}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 742,
                                             "end": 742
@@ -1417,7 +1397,6 @@ async function * gen() {class C extends await { }}
                             "end": 745
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 712,
                     "end": 745
@@ -1537,7 +1516,6 @@ async function * gen() {class C extends await { }}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 800,
                                     "end": 800
@@ -1553,7 +1531,6 @@ async function * gen() {class C extends await { }}
                             "end": 802
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 771,
                     "end": 802
@@ -1676,7 +1653,6 @@ async function * gen() {class C extends await { }}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 858,
                                             "end": 858
@@ -1700,7 +1676,6 @@ async function * gen() {class C extends await { }}
                             "end": 861
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 828,
                     "end": 861
@@ -1800,7 +1775,6 @@ async function * gen() {class C extends await { }}
                             "end": 897
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 887,
                     "end": 897
@@ -1904,7 +1878,6 @@ async function * gen() {class C extends await { }}
                             "end": 933
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 923,
                     "end": 933
@@ -2035,7 +2008,6 @@ async function * gen() {class C extends await { }}
                             "end": 979
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 959,
                     "end": 979
@@ -2170,7 +2142,6 @@ async function * gen() {class C extends await { }}
                             "end": 1025
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1005,
                     "end": 1025
@@ -2262,7 +2233,6 @@ async function * gen() {class C extends await { }}
                             "end": 1059
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1051,
                     "end": 1059
@@ -2358,7 +2328,6 @@ async function * gen() {class C extends await { }}
                             "end": 1093
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1085,
                     "end": 1093
@@ -2456,7 +2425,6 @@ async function * gen() {class C extends await { }}
                             "end": 1127
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1119,
                     "end": 1127
@@ -2552,7 +2520,6 @@ async function * gen() {class C extends await { }}
                             "end": 1161
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1153,
                     "end": 1161
@@ -2643,7 +2610,6 @@ async function * gen() {class C extends await { }}
                             "end": 1194
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1187,
                     "end": 1194
@@ -2740,7 +2706,6 @@ async function * gen() {class C extends await { }}
                             "end": 1229
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1220,
                     "end": 1229
@@ -2861,7 +2826,6 @@ async function * gen() {class C extends await { }}
                             "end": 1371
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1353,
                     "end": 1371
@@ -2941,7 +2905,6 @@ async function * gen() {class C extends await { }}
                             "end": 1402
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1397,
                     "end": 1402
@@ -3069,7 +3032,6 @@ async function * gen() {class C extends await { }}
                             "end": 1445
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1432,
                     "end": 1445
@@ -3176,7 +3138,6 @@ async function * gen() {class C extends await { }}
                             "end": 1527
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1514,
                     "end": 1527
@@ -3268,7 +3229,6 @@ async function * gen() {class C extends await { }}
                             "end": 1560
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1553,
                     "end": 1560
@@ -3367,7 +3327,6 @@ async function * gen() {class C extends await { }}
                             "end": 1595
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1586,
                     "end": 1595
@@ -3447,7 +3406,6 @@ async function * gen() {class C extends await { }}
                             "end": 1683
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1678,
                     "end": 1683
@@ -3561,7 +3519,6 @@ async function * gen() {class C extends await { }}
                             "end": 1854
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1849,
                     "end": 1854
@@ -3610,7 +3567,6 @@ async function * gen() {class C extends await { }}
                         "end": 1862
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1857,
                 "end": 1862
@@ -3698,7 +3654,6 @@ async function * gen() {class C extends await { }}
                             "end": 1898
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1893,
                     "end": 1898
@@ -3747,7 +3702,6 @@ async function * gen() {class C extends await { }}
                         "end": 1921
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1916,
                 "end": 1921
@@ -3953,7 +3907,6 @@ async function * gen() {class C extends await { }}
                                                     "end": 2090
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 2071,
                                             "end": 2090
@@ -4105,7 +4058,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2135
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2116,
                                     "end": 2135
@@ -4214,7 +4166,6 @@ async function * gen() {class C extends await { }}
                                                                         "end": 2176
                                                                     }
                                                                 ],
-                                                                "multiline": false,
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 2166,
@@ -4259,8 +4210,7 @@ async function * gen() {class C extends await { }}
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 16,
                                                                 "start": 2181,
                                                                 "end": 2186
                                                             },
@@ -4282,7 +4232,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2188
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2161,
                                     "end": 2188
@@ -4391,7 +4340,6 @@ async function * gen() {class C extends await { }}
                                                                         "end": 2229
                                                                     }
                                                                 ],
-                                                                "multiline": false,
                                                                 "trailingComma": false,
                                                                 "flags": 32,
                                                                 "start": 2219,
@@ -4436,8 +4384,7 @@ async function * gen() {class C extends await { }}
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 16,
                                                                 "start": 2234,
                                                                 "end": 2239
                                                             },
@@ -4459,7 +4406,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2241
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2214,
                                     "end": 2241
@@ -4589,7 +4535,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2282
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2267,
                                     "end": 2282
@@ -4723,7 +4668,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2323
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2308,
                                     "end": 2323
@@ -4827,8 +4771,7 @@ async function * gen() {class C extends await { }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 2351,
                                                             "end": 2359
                                                         },
@@ -4875,8 +4818,7 @@ async function * gen() {class C extends await { }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 2364,
                                                             "end": 2369
                                                         },
@@ -4897,7 +4839,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2372
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2349,
                                     "end": 2372
@@ -5005,8 +4946,7 @@ async function * gen() {class C extends await { }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 2400,
                                                             "end": 2408
                                                         },
@@ -5053,8 +4993,7 @@ async function * gen() {class C extends await { }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 2413,
                                                             "end": 2418
                                                         },
@@ -5075,7 +5014,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2421
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2398,
                                     "end": 2421
@@ -5211,7 +5149,6 @@ async function * gen() {class C extends await { }}
                                             "end": 2517
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 2504,
                                     "end": 2517
@@ -5227,7 +5164,6 @@ async function * gen() {class C extends await { }}
                             "end": 2517
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 1952,
                     "end": 2517
@@ -5392,7 +5328,6 @@ async function * gen() {class C extends await { }}
                             "end": 2565
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2552,
                     "end": 2565
@@ -5530,7 +5465,6 @@ async function * gen() {class C extends await { }}
                                                         "end": 2615
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 2605,
@@ -5571,7 +5505,6 @@ async function * gen() {class C extends await { }}
                             "end": 2618
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2600,
                     "end": 2618
@@ -5620,7 +5553,6 @@ async function * gen() {class C extends await { }}
                         "end": 2628
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 2623,
                 "end": 2628
@@ -5729,7 +5661,6 @@ async function * gen() {class C extends await { }}
                                                         "end": 2671
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 2661,
@@ -5770,7 +5701,6 @@ async function * gen() {class C extends await { }}
                             "end": 2674
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2656,
                     "end": 2674
@@ -5819,7 +5749,6 @@ async function * gen() {class C extends await { }}
                         "end": 2684
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 2679,
                 "end": 2684
@@ -5956,7 +5885,6 @@ async function * gen() {class C extends await { }}
                             "end": 2730
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2712,
                     "end": 2730
@@ -6091,7 +6019,6 @@ async function * gen() {class C extends await { }}
                             "end": 2774
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2756,
                     "end": 2774
@@ -6202,8 +6129,7 @@ async function * gen() {class C extends await { }}
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 2802,
                                             "end": 2813
                                         },
@@ -6250,8 +6176,7 @@ async function * gen() {class C extends await { }}
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 2818,
                                             "end": 2823
                                         },
@@ -6272,7 +6197,6 @@ async function * gen() {class C extends await { }}
                             "end": 2826
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2800,
                     "end": 2826
@@ -6381,8 +6305,7 @@ async function * gen() {class C extends await { }}
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 2854,
                                             "end": 2865
                                         },
@@ -6429,8 +6352,7 @@ async function * gen() {class C extends await { }}
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 2870,
                                             "end": 2875
                                         },
@@ -6451,7 +6373,6 @@ async function * gen() {class C extends await { }}
                             "end": 2878
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2852,
                     "end": 2878
@@ -6551,8 +6472,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 2923,
                                     "end": 2923
                                 },
@@ -6571,7 +6491,6 @@ async function * gen() {class C extends await { }}
                             "end": 2926
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2904,
                     "end": 2926
@@ -6669,8 +6588,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 2971,
                                     "end": 2971
                                 },
@@ -6689,7 +6607,6 @@ async function * gen() {class C extends await { }}
                             "end": 2974
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 2952,
                     "end": 2974
@@ -6789,8 +6706,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 3019,
                                     "end": 3019
                                 },
@@ -6810,7 +6726,6 @@ async function * gen() {class C extends await { }}
                             "end": 3022
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3000,
                     "end": 3022
@@ -6908,8 +6823,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 3067,
                                     "end": 3067
                                 },
@@ -6929,7 +6843,6 @@ async function * gen() {class C extends await { }}
                             "end": 3070
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3048,
                     "end": 3070
@@ -7031,8 +6944,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 3115,
                                         "end": 3115
                                     },
@@ -7052,8 +6964,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 3121,
                                         "end": 3121
                                     },
@@ -7076,7 +6987,6 @@ async function * gen() {class C extends await { }}
                             "end": 3124
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3096,
                     "end": 3124
@@ -7176,8 +7086,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 3169,
                                         "end": 3169
                                     },
@@ -7197,8 +7106,7 @@ async function * gen() {class C extends await { }}
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 3175,
                                         "end": 3175
                                     },
@@ -7221,7 +7129,6 @@ async function * gen() {class C extends await { }}
                             "end": 3178
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3150,
                     "end": 3178
@@ -7321,8 +7228,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 3223,
                                     "end": 3223
                                 },
@@ -7353,7 +7259,6 @@ async function * gen() {class C extends await { }}
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 3229,
                                 "end": 3229
@@ -7363,7 +7268,6 @@ async function * gen() {class C extends await { }}
                             "end": 3230
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3204,
                     "end": 3230
@@ -7467,8 +7371,7 @@ async function * gen() {class C extends await { }}
                                     "kind": 218,
                                     "properties": [],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 3277,
                                     "end": 3277
                                 },
@@ -7499,7 +7402,6 @@ async function * gen() {class C extends await { }}
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 3283,
                                 "end": 3283
@@ -7509,7 +7411,6 @@ async function * gen() {class C extends await { }}
                             "end": 3284
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3258,
                     "end": 3284
@@ -7616,8 +7517,7 @@ async function * gen() {class C extends await { }}
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 3335,
                                             "end": 3335
                                         },
@@ -7646,7 +7546,6 @@ async function * gen() {class C extends await { }}
                             "end": 3337
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3312,
                     "end": 3337
@@ -7745,8 +7644,7 @@ async function * gen() {class C extends await { }}
                                             "kind": 218,
                                             "properties": [],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 3386,
                                             "end": 3386
                                         },
@@ -7775,7 +7673,6 @@ async function * gen() {class C extends await { }}
                             "end": 3388
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 3363,
                     "end": 3388

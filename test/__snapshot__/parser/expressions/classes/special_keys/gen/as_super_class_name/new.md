@@ -60,8 +60,7 @@ class x extends new {}
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 21,
                             "end": 21
                         },

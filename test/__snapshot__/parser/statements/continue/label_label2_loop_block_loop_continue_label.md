@@ -109,7 +109,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                     "end": 41
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 14,
                             "end": 41

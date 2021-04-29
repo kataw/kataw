@@ -97,7 +97,6 @@ function* gf() { yield++; }
                             "end": 25
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 16,
                     "end": 25

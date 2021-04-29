@@ -61,7 +61,6 @@ x({foo(){}, async bar(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 9,
                                                 "end": 9
@@ -100,7 +99,6 @@ x({foo(){}, async bar(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 24,
                                                 "end": 24
@@ -115,8 +113,7 @@ x({foo(){}, async bar(){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 3,
                                 "end": 25
                             },

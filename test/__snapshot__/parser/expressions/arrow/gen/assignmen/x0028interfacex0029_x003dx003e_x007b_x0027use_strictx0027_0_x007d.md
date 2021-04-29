@@ -88,8 +88,7 @@ x = (interface) => { 'use strict'; 0 } ;
                                     "end": 36
                                 }
                             ],
-                            "multiline": false,
-                            "flags": 32,
+                            "flags": 4194336,
                             "start": 20,
                             "end": 36
                         },

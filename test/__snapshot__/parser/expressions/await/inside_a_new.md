@@ -93,7 +93,6 @@ async function f(){ new await x; }
                             "end": 32
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 32

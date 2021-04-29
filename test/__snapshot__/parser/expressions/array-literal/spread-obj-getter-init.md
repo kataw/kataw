@@ -104,8 +104,7 @@ var callCount = 0;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 9,
                                 "end": 19
                             },
@@ -266,8 +265,7 @@ var callCount = 0;
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 88,
                                     "end": 88
                                 },
@@ -359,7 +357,6 @@ var callCount = 0;
                                                                 "kind": 217,
                                                                 "directives": [],
                                                                 "statements": [],
-                                                                "multiline": false,
                                                                 "flags": 32,
                                                                 "start": 120,
                                                                 "end": 120
@@ -374,8 +371,7 @@ var callCount = 0;
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 105,
                                                 "end": 121
                                             },

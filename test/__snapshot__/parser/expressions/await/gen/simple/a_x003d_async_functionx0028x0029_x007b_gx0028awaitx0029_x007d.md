@@ -116,7 +116,6 @@ a = async function() { g(await) }
                                     "end": 31
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 22,
                             "end": 31

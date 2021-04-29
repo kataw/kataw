@@ -83,7 +83,6 @@ class x { async *prot\u006ftype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 34

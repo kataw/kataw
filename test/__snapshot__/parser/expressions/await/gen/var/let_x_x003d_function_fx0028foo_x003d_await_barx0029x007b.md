@@ -212,7 +212,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                         "kind": 217,
                                                                         "directives": [],
                                                                         "statements": [],
-                                                                        "multiline": false,
                                                                         "flags": 32,
                                                                         "start": 75,
                                                                         "end": 75
@@ -241,7 +240,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                 "end": 77
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 77

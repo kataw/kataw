@@ -116,7 +116,6 @@ function *f() { 1 ? yield 2 : 3; }
                             "end": 32
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 32

@@ -24,7 +24,6 @@ else {} if(x) { while try this and !foo
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 6,
                 "end": 6
@@ -82,7 +81,6 @@ else {} if(x) { while try this and !foo
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 25,
                                         "end": 25
@@ -98,7 +96,6 @@ else {} if(x) { while try this and !foo
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 30,
                                         "end": 30
@@ -156,7 +153,6 @@ else {} if(x) { while try this and !foo
                             "end": 39
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 15,
                     "end": 39

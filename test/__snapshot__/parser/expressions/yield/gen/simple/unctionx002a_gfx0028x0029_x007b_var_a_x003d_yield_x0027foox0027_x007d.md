@@ -132,7 +132,6 @@ unction* gf() { var a = yield 'foo'; }
                         "end": 36
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 15,
                 "end": 36

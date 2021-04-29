@@ -45,8 +45,7 @@ async ({x} = y);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 8,
                                 "end": 9
                             },

@@ -59,8 +59,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 7,
                                 "end": 10
                             },
@@ -108,8 +107,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 14,
                             "end": 17
                         },
@@ -148,8 +146,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 21,
                                 "end": 24
                             },
@@ -169,8 +166,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 29,
                                 "end": 29
                             },

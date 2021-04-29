@@ -167,7 +167,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                             "end": 68
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 68

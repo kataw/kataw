@@ -153,7 +153,6 @@ class C { set x(_) { y = super } }
                                             "end": 30
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 30

@@ -180,8 +180,7 @@ class Foo {
                                             "end": 56
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 35,
                                     "end": 56
                                 },

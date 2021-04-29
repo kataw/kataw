@@ -35,8 +35,7 @@ try {
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": true,
-                    "flags": 16,
+                    "flags": 17,
                     "start": 5,
                     "end": 5
                 },
@@ -94,7 +93,6 @@ try {
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 39
@@ -110,8 +108,7 @@ try {
                             "end": 40
                         }
                     ],
-                    "multiLine": true,
-                    "flags": 16,
+                    "flags": 17,
                     "start": 17,
                     "end": 40
                 },

@@ -71,7 +71,6 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 26,
                     "end": 26
@@ -367,8 +366,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         "end": 118
                     }
                 ],
-                "multiLine": true,
-                "flags": 16,
+                "flags": 17,
                 "start": 87,
                 "end": 141
             },

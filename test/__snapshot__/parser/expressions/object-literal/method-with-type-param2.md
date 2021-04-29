@@ -153,7 +153,6 @@ a={*id<T>(x: T): T {}}
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 20,
                                         "end": 20
@@ -168,8 +167,7 @@ a={*id<T>(x: T): T {}}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 3,
                         "end": 21
                     },

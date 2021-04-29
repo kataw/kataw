@@ -106,7 +106,6 @@ let {a, [x]: y} = a;
                                         "end": 14
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

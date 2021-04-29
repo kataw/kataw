@@ -167,7 +167,6 @@ function * gen() { function not_gen() { function* gf() { var yield; } }}
                                                             "end": 67
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 56,
                                                     "end": 67
@@ -183,7 +182,6 @@ function * gen() { function not_gen() { function* gf() { var yield; } }}
                                             "end": 69
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 69
@@ -199,7 +197,6 @@ function * gen() { function not_gen() { function* gf() { var yield; } }}
                             "end": 71
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 71

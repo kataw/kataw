@@ -86,8 +86,7 @@ a={"b":c=d}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 3,
                         "end": 10
                     },

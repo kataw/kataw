@@ -115,7 +115,6 @@ function not_gen() { yield 3 + yield 4; }}
                             "end": 39
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 39

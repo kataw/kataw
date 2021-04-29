@@ -131,7 +131,6 @@ function not_gen() { function *a(){yield typeof 0} }}
                                             "end": 49
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 49
@@ -147,7 +146,6 @@ function not_gen() { function *a(){yield typeof 0} }}
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 50

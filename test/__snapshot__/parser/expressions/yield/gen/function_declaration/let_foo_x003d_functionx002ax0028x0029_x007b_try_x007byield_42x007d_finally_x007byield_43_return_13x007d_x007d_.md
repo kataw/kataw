@@ -147,7 +147,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                             "end": 58
                                                                         }
                                                                     ],
-                                                                    "multiLine": false,
                                                                     "flags": 16,
                                                                     "start": 50,
                                                                     "end": 58
@@ -217,7 +216,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                             "end": 78
                                                                         }
                                                                     ],
-                                                                    "multiLine": false,
                                                                     "flags": 16,
                                                                     "start": 69,
                                                                     "end": 88
@@ -231,7 +229,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                             "end": 89
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 44,
                                                     "end": 89
@@ -260,7 +257,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                             "end": 92
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 92

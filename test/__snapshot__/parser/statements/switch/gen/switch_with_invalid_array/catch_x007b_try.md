@@ -60,7 +60,6 @@ switch [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 13,
                     "end": 13
@@ -76,7 +75,6 @@ switch [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -110,7 +108,6 @@ switch [catch] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 26,
                                     "end": 26
@@ -126,7 +123,6 @@ switch [catch] catch { try
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 26,
                                     "end": 26
@@ -140,7 +136,6 @@ switch [catch] catch { try
                             "end": 26
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 22,
                     "end": 26
@@ -156,7 +151,6 @@ switch [catch] catch { try
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 26,
                     "end": 26

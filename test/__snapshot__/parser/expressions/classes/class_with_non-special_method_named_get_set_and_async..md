@@ -73,7 +73,6 @@ class A {set(){} get(){} async(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 15,
                                     "end": 15
@@ -125,7 +124,6 @@ class A {set(){} get(){} async(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 23,
                                     "end": 23
@@ -177,7 +175,6 @@ class A {set(){} get(){} async(){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 33,
                                     "end": 33

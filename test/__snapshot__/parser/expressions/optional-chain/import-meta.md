@@ -132,8 +132,7 @@ function f() {
                             "end": 14
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 54
                 },

@@ -120,7 +120,6 @@ async function f(){ await foo
                             "end": 35
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 35

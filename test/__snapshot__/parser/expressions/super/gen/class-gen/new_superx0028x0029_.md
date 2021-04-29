@@ -121,7 +121,6 @@ class C { *method() { new super(); } }
                                             "end": 34
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 21,
                                     "end": 34

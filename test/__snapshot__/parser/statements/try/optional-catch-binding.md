@@ -44,7 +44,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -67,7 +66,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 15,
                         "end": 15
@@ -99,7 +97,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 24,
                     "end": 24
@@ -122,7 +119,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 34,
                         "end": 34
@@ -146,7 +142,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 46,
                     "end": 46
@@ -210,7 +205,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 62
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 55,
                     "end": 62
@@ -271,7 +265,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 79
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 72,
                         "end": 79
@@ -341,7 +334,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 95
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 88,
                     "end": 95
@@ -402,7 +394,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 112
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 105,
                         "end": 112
@@ -464,7 +455,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 131
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 124,
                     "end": 131
@@ -504,7 +494,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 154,
                     "end": 154
@@ -527,7 +516,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 164,
                         "end": 164
@@ -572,7 +560,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 179,
                                     "end": 179
@@ -595,7 +582,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 189,
                                         "end": 189
@@ -619,7 +605,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 201,
                                     "end": 201
@@ -633,7 +618,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 203
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 173,
                     "end": 203
@@ -663,7 +647,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 217,
                         "end": 217
@@ -733,7 +716,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 233
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 226,
                     "end": 233
@@ -794,7 +776,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 250
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 243,
                         "end": 250
@@ -826,7 +807,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 259,
                     "end": 259
@@ -865,7 +845,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 270
                             }
                         ],
-                        "multiline": false,
                         "trailingComma": false,
                         "flags": 32,
                         "start": 269,
@@ -931,7 +910,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "end": 287
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 280,
                                         "end": 287
@@ -992,7 +970,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                     "end": 304
                                                 }
                                             ],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 297,
                                             "end": 304
@@ -1054,7 +1031,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "end": 323
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 316,
                                         "end": 323
@@ -1068,7 +1044,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "end": 325
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 274,
                         "end": 325
@@ -1171,7 +1146,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "end": 356
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 349,
                                     "end": 356
@@ -1232,7 +1206,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                 "end": 373
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 366,
                                         "end": 373
@@ -1294,7 +1267,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "end": 392
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 385,
                                     "end": 392
@@ -1308,7 +1280,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                             "end": 394
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 343,
                     "end": 394

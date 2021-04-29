@@ -51,7 +51,6 @@ eval => {"use strict"};
                             }
                         ],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 9,
                         "end": 21

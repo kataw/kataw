@@ -194,7 +194,6 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 59,
                                                                     "end": 59
@@ -221,7 +220,6 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                             "end": 62
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 62

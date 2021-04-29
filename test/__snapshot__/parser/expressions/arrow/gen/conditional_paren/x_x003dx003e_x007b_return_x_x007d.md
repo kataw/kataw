@@ -99,7 +99,6 @@ bar ? baz : ( x => { return x; } );
                                         "end": 20
                                     }
                                 ],
-                                "multiline": false,
                                 "flags": 32,
                                 "start": 20,
                                 "end": 30

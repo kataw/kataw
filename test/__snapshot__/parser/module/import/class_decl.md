@@ -94,7 +94,6 @@ class x { import {x} from "y"; }
                         "end": 19
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 18,
                 "end": 19

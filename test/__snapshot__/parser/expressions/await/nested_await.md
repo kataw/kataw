@@ -92,7 +92,6 @@ async function f(){ await await foo; }
                             "end": 36
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 36

@@ -152,7 +152,6 @@ x = { foo(){ [a = super.foo] = c; }}
                                                 "end": 33
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 33
@@ -167,8 +166,7 @@ x = { foo(){ [a = super.foo] = c; }}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 35
                     },

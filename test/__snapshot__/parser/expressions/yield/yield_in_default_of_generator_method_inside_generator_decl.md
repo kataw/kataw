@@ -121,7 +121,6 @@ function *f(){  ({*g(x=yield){}})  }
                                                         "kind": 217,
                                                         "directives": [],
                                                         "statements": [],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 30,
                                                         "end": 30
@@ -136,8 +135,7 @@ function *f(){  ({*g(x=yield){}})  }
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 18,
                                         "end": 31
                                     },
@@ -154,7 +152,6 @@ function *f(){  ({*g(x=yield){}})  }
                             "end": 33
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 33

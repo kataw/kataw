@@ -227,8 +227,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
-                                                                            "multiline": false,
-                                                                            "flags": 0,
+                                                                            "flags": 16,
                                                                             "start": 60,
                                                                             "end": 79
                                                                         },
@@ -261,7 +260,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                             "end": 82
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 40,
                                     "end": 82
@@ -277,7 +275,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "end": 82
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 82
@@ -297,7 +294,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 87,
                 "end": 87

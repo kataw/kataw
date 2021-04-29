@@ -89,7 +89,6 @@ class x { async *prototype(){} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 29,
                                     "end": 29

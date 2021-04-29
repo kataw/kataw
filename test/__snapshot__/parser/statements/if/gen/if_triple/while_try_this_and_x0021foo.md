@@ -92,7 +92,6 @@ if if if while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 18,
                                     "end": 18
@@ -108,7 +107,6 @@ if if if while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 23,
                                     "end": 23

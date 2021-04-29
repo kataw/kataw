@@ -90,7 +90,6 @@ function*g(){ function yield(){}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 31,
                                     "end": 31
@@ -112,7 +111,6 @@ function*g(){ function yield(){}; }
                             "end": 33
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 33

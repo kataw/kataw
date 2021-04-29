@@ -96,8 +96,7 @@ async function f() { return {await = 0} = {}; }
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 29,
                                         "end": 38
                                     },
@@ -117,8 +116,7 @@ async function f() { return {await = 0} = {}; }
                                         "kind": 218,
                                         "properties": [],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 43,
                                         "end": 43
                                     },
@@ -135,7 +133,6 @@ async function f() { return {await = 0} = {}; }
                             "end": 20
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 45

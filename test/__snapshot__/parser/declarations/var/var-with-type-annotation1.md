@@ -76,8 +76,7 @@ var x = ({ a } : any = 'foo') => {}
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -119,7 +118,6 @@ var x = ({ a } : any = 'foo') => {}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 34

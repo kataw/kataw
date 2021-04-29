@@ -48,7 +48,6 @@
                         "end": 20
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 15,
                 "end": 20

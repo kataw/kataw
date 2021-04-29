@@ -76,7 +76,6 @@
                         "end": 42
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 37,
                 "end": 42

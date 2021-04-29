@@ -106,8 +106,7 @@ function fn() {} fn( # );
                         }
                     ],
                     "statements": [],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 4194336,
                     "start": 15,
                     "end": 29
                 },

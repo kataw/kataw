@@ -76,7 +76,6 @@ return   }
                             "end": 22
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 29

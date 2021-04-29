@@ -189,7 +189,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                         "kind": 217,
                                                                         "directives": [],
                                                                         "statements": [],
-                                                                        "multiline": false,
                                                                         "flags": 32,
                                                                         "start": 87,
                                                                         "end": 87
@@ -205,7 +204,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                 "end": 89
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 62,
                                                         "end": 89
@@ -227,7 +225,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                 "end": 92
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 92

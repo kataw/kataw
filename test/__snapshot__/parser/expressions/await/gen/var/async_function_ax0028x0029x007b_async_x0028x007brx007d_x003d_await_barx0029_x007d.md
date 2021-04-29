@@ -181,8 +181,7 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                                                                         }
                                                                                     ],
                                                                                     "trailingComma": false,
-                                                                                    "multiline": false,
-                                                                                    "flags": 0,
+                                                                                    "flags": 16,
                                                                                     "start": 71,
                                                                                     "end": 72
                                                                                 },
@@ -237,7 +236,6 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                                                 "end": 87
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 58,
                                                         "end": 87
@@ -253,7 +251,6 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                                 "end": 93
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 93

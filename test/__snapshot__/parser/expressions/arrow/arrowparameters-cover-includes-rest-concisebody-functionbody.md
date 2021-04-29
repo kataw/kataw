@@ -149,7 +149,6 @@ var af = (x, ...y) => { return [x, y.length]; };
                                             "end": 23
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 23,
                                     "end": 45

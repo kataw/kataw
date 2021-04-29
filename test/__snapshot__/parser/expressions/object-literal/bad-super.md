@@ -155,8 +155,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 39,
                                                             "end": 51
                                                         },
@@ -184,7 +183,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                             "end": 58
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 33,
                                     "end": 58

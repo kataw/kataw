@@ -140,7 +140,6 @@ class C { set x(_) { new super(); } }
                                             "end": 33
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 33

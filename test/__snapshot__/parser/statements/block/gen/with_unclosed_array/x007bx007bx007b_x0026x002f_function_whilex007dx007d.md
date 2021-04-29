@@ -39,8 +39,7 @@
                                                 "kind": 218,
                                                 "properties": [],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 4,
                                                 "end": 4
                                             },
@@ -54,8 +53,7 @@
                                                 "kind": 218,
                                                 "properties": [],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 5,
                                                 "end": 5
                                             },
@@ -69,8 +67,7 @@
                                                 "kind": 218,
                                                 "properties": [],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 6,
                                                 "end": 6
                                             },
@@ -110,7 +107,6 @@
                         "end": 26
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 26

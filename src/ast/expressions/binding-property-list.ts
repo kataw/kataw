@@ -10,13 +10,12 @@ export type BindingProperties = BindingElement | BindingProperty;
 
 export interface BindingPropertyList extends SyntaxNode {
   readonly properties: BindingProperties[];
-  readonly multiline: boolean;
   readonly trailingComma: boolean;
 }
 
 export function createBindingPropertyList(
   properties: BindingProperties[],
-  multiline: boolean,
+  flags: NodeFlags,
   trailingComma: boolean,
   start: number,
   end: number
@@ -24,9 +23,8 @@ export function createBindingPropertyList(
   return {
     kind: SyntaxKind.BindingPropertyList,
     properties,
-    multiline,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

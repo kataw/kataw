@@ -381,7 +381,6 @@ switch (answer) { case 0: let a; };
                                             "end": 120
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 115,
                                     "end": 120
@@ -1420,7 +1419,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 485,
                                         "end": 485
@@ -2114,7 +2112,6 @@ switch (answer) { case 0: let a; };
                                             "end": 805
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 804,
                                     "end": 805
@@ -2224,8 +2221,7 @@ switch (answer) { case 0: let a; };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 835,
                                             "end": 839
                                         },
@@ -2506,7 +2502,6 @@ switch (answer) { case 0: let a; };
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 931,
                                                 "end": 931
@@ -2621,7 +2616,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 976,
                                         "end": 976
@@ -2688,7 +2682,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1007,
                                         "end": 1007
@@ -2818,7 +2811,6 @@ switch (answer) { case 0: let a; };
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 1050,
                                                 "end": 1050
@@ -2900,8 +2892,7 @@ switch (answer) { case 0: let a; };
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 1062,
                     "end": 1065
                 },
@@ -3031,8 +3022,7 @@ switch (answer) { case 0: let a; };
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 1096,
                     "end": 1099
                 },
@@ -3323,7 +3313,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1193,
                                         "end": 1193
@@ -3371,7 +3360,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1208,
                                         "end": 1208
@@ -3485,7 +3473,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1254,
                                         "end": 1254
@@ -3543,7 +3530,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1276,
                                         "end": 1276
@@ -3938,7 +3924,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1411,
                                         "end": 1411
@@ -4047,7 +4032,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1453,
                                         "end": 1453
@@ -4332,7 +4316,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1592,
                                         "end": 1592
@@ -4537,7 +4520,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1677,
                                         "end": 1677
@@ -4802,7 +4784,6 @@ switch (answer) { case 0: let a; };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 1802,
                                         "end": 1802

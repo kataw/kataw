@@ -86,7 +86,6 @@ x = { method(test: string) { } };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 20,
                                         "end": 20
@@ -101,8 +100,7 @@ x = { method(test: string) { } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 22
                     },
@@ -186,7 +184,6 @@ x = { method(test: string) { } };
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 44,
                                         "end": 44
@@ -201,8 +198,7 @@ x = { method(test: string) { } };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 32,
                         "end": 44
                     },
@@ -237,7 +233,6 @@ x = { method(test: string) { } };
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 55,
                 "end": 55

@@ -46,7 +46,6 @@ do {} while (x) { class x {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 4
@@ -96,7 +95,6 @@ do {} while (x) { class x {}
                         "end": 28
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 17,
                 "end": 28

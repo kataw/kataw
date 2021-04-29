@@ -93,7 +93,6 @@ function *f(){  (await) => x  }
                             "end": 28
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 28

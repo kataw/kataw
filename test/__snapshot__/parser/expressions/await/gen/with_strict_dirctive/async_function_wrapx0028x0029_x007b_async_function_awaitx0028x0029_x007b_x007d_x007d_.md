@@ -104,7 +104,6 @@
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 62,
                                     "end": 62
@@ -120,7 +119,6 @@
                             "end": 64
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 37,
                     "end": 64

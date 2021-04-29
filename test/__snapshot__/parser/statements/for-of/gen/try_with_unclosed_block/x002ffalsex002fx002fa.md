@@ -32,7 +32,6 @@ try {} finally(x) { /false//a
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -53,7 +52,6 @@ try {} finally(x) { /false//a
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 14,
                     "end": 14
@@ -125,7 +123,6 @@ try {} finally(x) { /false//a
                         "end": 29
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 19,
                 "end": 29

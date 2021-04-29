@@ -139,7 +139,6 @@ class x { fo(){ return function() { super.foo; } }}
                                                                 "end": 46
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 35,
                                                         "end": 46
@@ -159,7 +158,6 @@ class x { fo(){ return function() { super.foo; } }}
                                             "end": 15
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 15,
                                     "end": 48

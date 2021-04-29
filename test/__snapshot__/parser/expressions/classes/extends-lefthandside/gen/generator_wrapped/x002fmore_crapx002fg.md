@@ -110,8 +110,7 @@ function *P(){
                             "end": 48
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 14,
                     "end": 48
                 },

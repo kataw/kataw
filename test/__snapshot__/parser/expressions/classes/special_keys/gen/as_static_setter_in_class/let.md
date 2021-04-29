@@ -106,7 +106,6 @@ class x {static set let(x){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 27,
                                     "end": 27

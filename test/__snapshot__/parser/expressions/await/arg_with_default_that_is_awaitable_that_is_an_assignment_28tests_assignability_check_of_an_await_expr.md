@@ -99,7 +99,6 @@ function call(foo=await bar=10){}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 32,
                     "end": 32

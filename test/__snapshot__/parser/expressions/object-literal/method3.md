@@ -83,7 +83,6 @@ x = { method(test) { } }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 20,
                                         "end": 20
@@ -98,8 +97,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 22
                     },

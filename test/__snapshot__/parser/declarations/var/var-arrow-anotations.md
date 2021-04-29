@@ -567,7 +567,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 191,
                                         "end": 191
@@ -1224,7 +1223,6 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 444,
                                     "end": 444
@@ -1579,7 +1577,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 564
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 563,
@@ -1662,8 +1659,7 @@ class Array { concat(items:number | string) {}; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 583,
                                 "end": 594
                             },
@@ -1720,7 +1716,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 605
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 604,
@@ -1803,8 +1798,7 @@ class Array { concat(items:number | string) {}; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 625,
                                 "end": 636
                             },
@@ -2197,7 +2191,6 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 779,
                                     "end": 779

@@ -89,7 +89,6 @@ class A extends oh,no {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 23,
                 "end": 23

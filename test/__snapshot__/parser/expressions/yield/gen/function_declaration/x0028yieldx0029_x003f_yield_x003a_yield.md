@@ -107,7 +107,6 @@ function not_gen() { (yield) ? yield : yield }}
                             "end": 44
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 44

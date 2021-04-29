@@ -40,7 +40,6 @@ case catch { try default
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 16,
                                     "end": 16
@@ -56,7 +55,6 @@ case catch { try default
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 24,
                                     "end": 24
@@ -70,7 +68,6 @@ case catch { try default
                             "end": 24
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 12,
                     "end": 24
@@ -86,7 +83,6 @@ case catch { try default
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 24,
                     "end": 24

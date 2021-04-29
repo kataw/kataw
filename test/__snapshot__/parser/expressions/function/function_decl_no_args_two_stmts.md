@@ -77,7 +77,6 @@ function f(){foo;bar}
                             "end": 20
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 20

@@ -257,7 +257,6 @@ var p10 = ([{ value, done }]) => { };
                                             "end": 57
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 57,
                                     "end": 74
@@ -353,7 +352,6 @@ var p10 = ([{ value, done }]) => { };
                                             "end": 93
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 93,
                                     "end": 103
@@ -451,7 +449,6 @@ var p10 = ([{ value, done }]) => { };
                                             "end": 123
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 123,
                                     "end": 133
@@ -857,7 +854,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 240,
                                     "end": 240
@@ -961,7 +957,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 266,
                                     "end": 266
@@ -1059,7 +1054,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 291,
                                     "end": 291
@@ -1169,7 +1163,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 319,
                                     "end": 319
@@ -1281,7 +1274,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 346,
                                     "end": 346
@@ -1356,8 +1348,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 361,
                                         "end": 363
                                     },
@@ -1374,7 +1365,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 371,
                                     "end": 371
@@ -1460,8 +1450,7 @@ var p10 = ([{ value, done }]) => { };
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 16,
                                                         "start": 391,
                                                         "end": 393
                                                     },
@@ -1483,8 +1472,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 386,
                                         "end": 395
                                     },
@@ -1501,7 +1489,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 403,
                                     "end": 403
@@ -1590,8 +1577,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 418,
                                         "end": 424
                                     },
@@ -1608,7 +1594,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 432,
                                     "end": 432
@@ -1696,8 +1681,7 @@ var p10 = ([{ value, done }]) => { };
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 498,
                                                     "end": 510
                                                 },
@@ -1724,7 +1708,6 @@ var p10 = ([{ value, done }]) => { };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 519,
                                     "end": 519

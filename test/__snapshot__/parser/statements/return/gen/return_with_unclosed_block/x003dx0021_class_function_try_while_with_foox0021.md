@@ -33,8 +33,7 @@ return {} return(x) { =! class function try while with foo!
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -77,7 +76,6 @@ return {} return(x) { =! class function try while with foo!
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 21
@@ -159,7 +157,6 @@ return {} return(x) { =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 39,
                     "end": 39
@@ -187,7 +184,6 @@ return {} return(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 43,
                     "end": 43
@@ -203,7 +199,6 @@ return {} return(x) { =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 49,
                     "end": 49

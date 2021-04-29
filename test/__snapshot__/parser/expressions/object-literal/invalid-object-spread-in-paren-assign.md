@@ -62,8 +62,7 @@
                                 }
                             ],
                             "trailingComma": true,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 2,
                             "end": 10
                         },
@@ -130,8 +129,7 @@
                                 }
                             ],
                             "trailingComma": true,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 23,
                             "end": 31
                         },
@@ -198,8 +196,7 @@
                                 }
                             ],
                             "trailingComma": true,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 44,
                             "end": 49
                         },
@@ -219,8 +216,7 @@
                             "kind": 218,
                             "properties": [],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 54,
                             "end": 54
                         },
@@ -293,8 +289,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 61,
                             "end": 76
                         },
@@ -370,8 +365,7 @@
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 93,
                                             "end": 96
                                         },
@@ -385,8 +379,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 89,
                             "end": 97
                         },
@@ -476,8 +469,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 110,
                             "end": 118
                         },
@@ -567,8 +559,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 131,
                             "end": 140
                         },
@@ -644,8 +635,7 @@
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 155,
                                             "end": 159
                                         },
@@ -659,8 +649,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 151,
                             "end": 160
                         },

@@ -106,8 +106,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 16,
                                                         "start": 23,
                                                         "end": 33
                                                     },
@@ -152,7 +151,6 @@ function* g() {   [...{ x = yield }] = y   }
                             "end": 40
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 40

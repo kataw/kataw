@@ -170,8 +170,7 @@
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 16,
                                                             "start": 40,
                                                             "end": 55
                                                         },
@@ -206,7 +205,6 @@
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 59,
                                     "end": 59

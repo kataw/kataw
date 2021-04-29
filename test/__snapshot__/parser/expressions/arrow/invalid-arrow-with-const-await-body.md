@@ -155,7 +155,6 @@ let f = () => { const [...await f] = []; }
                                             "end": 40
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 15,
                                     "end": 40

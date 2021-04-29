@@ -218,8 +218,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 46,
                             "end": 48
                         },
@@ -266,8 +265,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 56,
                             "end": 61
                         },
@@ -339,7 +337,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "end": 91
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 86,
                 "end": 91
@@ -535,8 +532,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 143,
                             "end": 145
                         },
@@ -583,8 +579,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 }
                             ],
                             "trailingComma": false,
-                            "multiline": false,
-                            "flags": 0,
+                            "flags": 16,
                             "start": 153,
                             "end": 158
                         },
@@ -656,7 +651,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "end": 188
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 183,
                 "end": 188
@@ -739,8 +733,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 197,
                                 "end": 208
                             },
@@ -796,7 +789,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "end": 219
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 214,
                 "end": 219

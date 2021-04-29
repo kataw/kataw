@@ -59,7 +59,6 @@ a: { a: x }
                             "end": 9
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 4,
                     "end": 9

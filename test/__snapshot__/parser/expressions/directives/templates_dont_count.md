@@ -97,7 +97,6 @@ function f(){ `use strict`; with (x) y; }
                             "end": 39
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 13,
                     "end": 39

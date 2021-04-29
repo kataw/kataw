@@ -53,7 +53,6 @@ yield /* comment */ { yield: 12 }
                         "end": 27
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 27

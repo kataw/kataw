@@ -100,7 +100,6 @@
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 30,
                     "end": 38

@@ -28,7 +28,6 @@ try { } catch ([a] = []) { }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 5,
                     "end": 5
@@ -83,7 +82,6 @@ try { } catch ([a] = []) { }
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 18,
                         "end": 18
@@ -127,7 +125,6 @@ try { } catch ([a] = []) { }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 26,
                 "end": 26

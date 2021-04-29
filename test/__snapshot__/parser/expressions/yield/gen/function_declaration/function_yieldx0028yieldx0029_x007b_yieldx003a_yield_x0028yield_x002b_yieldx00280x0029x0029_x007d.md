@@ -119,7 +119,6 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                             "end": 50
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 44,
                                     "end": 50
@@ -135,7 +134,6 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 50

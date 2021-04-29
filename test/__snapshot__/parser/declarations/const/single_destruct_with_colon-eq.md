@@ -79,7 +79,6 @@ const {a:=c} = z;
                                         "end": 11
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 7,

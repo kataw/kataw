@@ -65,7 +65,6 @@ do while [catch] catch try {}
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -81,7 +80,6 @@ do while [catch] catch try {}
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16
@@ -115,7 +113,6 @@ do while [catch] catch try {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 28,
                     "end": 28
@@ -131,7 +128,6 @@ do while [catch] catch try {}
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 29,
                     "end": 29

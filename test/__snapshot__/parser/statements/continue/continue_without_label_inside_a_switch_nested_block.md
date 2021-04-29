@@ -70,7 +70,6 @@ switch (x) { case x: {continue;} }
                                             "end": 31
                                         }
                                     ],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 22,
                                     "end": 31

@@ -77,7 +77,6 @@ export let {...x} = y
                                         "end": 16
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 12,

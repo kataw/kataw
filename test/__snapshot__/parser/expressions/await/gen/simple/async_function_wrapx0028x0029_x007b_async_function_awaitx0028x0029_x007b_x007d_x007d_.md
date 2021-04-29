@@ -95,7 +95,6 @@ async function wrap() { async function await() { } };
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 48,
                                     "end": 48
@@ -111,7 +110,6 @@ async function wrap() { async function await() { } };
                             "end": 50
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 23,
                     "end": 50

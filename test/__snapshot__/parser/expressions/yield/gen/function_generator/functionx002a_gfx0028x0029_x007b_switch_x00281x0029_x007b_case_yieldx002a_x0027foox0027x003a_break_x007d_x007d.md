@@ -211,7 +211,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                             "end": 97
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "flags": 32,
                                                     "start": 56,
                                                     "end": 97
@@ -227,7 +226,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                             "end": 99
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 39,
                                     "end": 99
@@ -243,7 +241,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                             "end": 101
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 18,
                     "end": 101

@@ -92,7 +92,6 @@ var {x:y=z}, {a:b=c} = obj;
                                         "end": 10
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -155,7 +154,6 @@ var {x:y=z}, {a:b=c} = obj;
                                         "end": 19
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 14,

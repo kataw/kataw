@@ -78,8 +78,7 @@ x = { "a": {x} = y.z };
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -133,8 +132,7 @@ x = { "a": {x} = y.z };
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 20
                     },

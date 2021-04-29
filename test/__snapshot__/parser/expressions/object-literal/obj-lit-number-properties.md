@@ -169,8 +169,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 32784,
                                 "start": 3,
                                 "end": 39
                             },
@@ -238,7 +237,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 52,
                                                 "end": 52
@@ -277,7 +275,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 62,
                                                 "end": 62
@@ -316,7 +313,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 71,
                                                 "end": 71
@@ -355,7 +351,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 81,
                                                 "end": 81
@@ -394,7 +389,6 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 92,
                                                 "end": 92
@@ -409,8 +403,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 32784,
                                 "start": 47,
                                 "end": 93
                             },

@@ -127,8 +127,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 21,
                                                 "end": 31
                                             },
@@ -160,7 +159,6 @@ function *g(){ (x = {[yield]: 1}) => z }
                             "end": 38
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 38

@@ -102,7 +102,6 @@ x={ foo: function(){ super.foo; }}
                                                     "end": 31
                                                 }
                                             ],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 20,
                                             "end": 31
@@ -131,8 +130,7 @@ x={ foo: function(){ super.foo; }}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 3,
                         "end": 33
                     },

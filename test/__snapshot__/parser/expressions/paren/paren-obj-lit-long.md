@@ -57,8 +57,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 2,
                                     "end": 10
                                 },
@@ -119,8 +118,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 21,
                                     "end": 27
                                 },
@@ -195,8 +193,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 38,
                                     "end": 46
                                 },
@@ -251,8 +248,7 @@
                                                         "kind": 218,
                                                         "properties": [],
                                                         "trailingComma": false,
-                                                        "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 16,
                                                         "start": 61,
                                                         "end": 61
                                                     },
@@ -278,8 +274,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 57,
                                     "end": 64
                                 },
@@ -360,8 +355,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "multiline": false,
-                                    "flags": 0,
+                                    "flags": 16,
                                     "start": 75,
                                     "end": 82
                                 },

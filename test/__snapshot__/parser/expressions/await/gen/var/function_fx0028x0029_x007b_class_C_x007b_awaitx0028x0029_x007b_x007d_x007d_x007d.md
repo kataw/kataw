@@ -204,7 +204,6 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                                         "kind": 217,
                                                                                         "directives": [],
                                                                                         "statements": [],
-                                                                                        "multiline": false,
                                                                                         "flags": 32,
                                                                                         "start": 73,
                                                                                         "end": 73
@@ -231,7 +230,6 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                 "end": 77
                                                             }
                                                         ],
-                                                        "multiline": false,
                                                         "flags": 32,
                                                         "start": 53,
                                                         "end": 77
@@ -247,7 +245,6 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                 "end": 79
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 38,
                                         "end": 79

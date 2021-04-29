@@ -107,7 +107,6 @@ do try { !xxx while
                                 "end": 19
                             }
                         ],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 8,
                         "end": 19
@@ -123,7 +122,6 @@ do try { !xxx while
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 19,
                         "end": 19

@@ -33,8 +33,7 @@ return {} return(x) { while try this and !foo
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -105,7 +104,6 @@ return {} return(x) { while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 31,
                                     "end": 31
@@ -121,7 +119,6 @@ return {} return(x) { while try this and !foo
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 36,
                                     "end": 36
@@ -179,7 +176,6 @@ return {} return(x) { while try this and !foo
                         "end": 45
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 45

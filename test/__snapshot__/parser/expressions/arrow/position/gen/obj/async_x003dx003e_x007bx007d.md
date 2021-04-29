@@ -90,7 +90,6 @@ x = {arrow: async => {}}
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 22,
                                             "end": 22
@@ -117,8 +116,7 @@ x = {arrow: async => {}}
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 5,
                         "end": 23
                     },

@@ -81,7 +81,6 @@ class x { constructor(){}; "constructor"(){}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 24
@@ -139,7 +138,6 @@ class x { constructor(){}; "constructor"(){}; }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 43,
                                     "end": 43

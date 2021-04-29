@@ -67,7 +67,6 @@ function not_gen() { yield /* comment */ }}
                             "end": 26
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 26

@@ -38,8 +38,7 @@ throw {x} finally
                         }
                     ],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 7,
                     "end": 8
                 },
@@ -59,7 +58,6 @@ throw {x} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17
@@ -75,7 +73,6 @@ throw {x} finally
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17

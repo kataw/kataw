@@ -86,7 +86,6 @@ var { f: await f } = {};
                                         "end": 16
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -104,8 +103,7 @@ var { f: await f } = {};
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 22,
                                 "end": 22
                             },

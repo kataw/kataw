@@ -116,7 +116,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "end": 20
                                                         }
                                                     ],
-                                                    "multiline": false,
                                                     "trailingComma": false,
                                                     "flags": 32,
                                                     "start": 15,
@@ -136,7 +135,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "end": 22
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -218,8 +216,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "multiline": false,
-                                                "flags": 0,
+                                                "flags": 16,
                                                 "start": 41,
                                                 "end": 48
                                             },
@@ -241,8 +238,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 28,
                                 "end": 50
                             },

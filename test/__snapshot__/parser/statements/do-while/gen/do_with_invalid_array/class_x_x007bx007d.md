@@ -66,7 +66,6 @@ do while [catch] class x {}
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -82,7 +81,6 @@ do while [catch] class x {}
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16
@@ -108,7 +106,6 @@ do while [catch] class x {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 26,
                 "end": 26

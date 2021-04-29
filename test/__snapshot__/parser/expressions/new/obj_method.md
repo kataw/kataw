@@ -80,7 +80,6 @@ foo({bar(){ new.target }})
                                                         "end": 22
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 11,
                                                 "end": 22
@@ -95,8 +94,7 @@ foo({bar(){ new.target }})
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 5,
                                 "end": 24
                             },

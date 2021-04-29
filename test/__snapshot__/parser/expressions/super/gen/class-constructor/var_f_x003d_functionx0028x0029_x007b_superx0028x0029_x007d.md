@@ -159,7 +159,6 @@ class C { constructor() { var f = function() { super(); } } }
                                                                             "end": 55
                                                                         }
                                                                     ],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 46,
                                                                     "end": 55
@@ -188,7 +187,6 @@ class C { constructor() { var f = function() { super(); } } }
                                             "end": 57
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 25,
                                     "end": 57

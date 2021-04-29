@@ -49,7 +49,6 @@ if[ catch try {}
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 9,
                         "end": 9
@@ -65,7 +64,6 @@ if[ catch try {}
                     "block": {
                         "kind": 124,
                         "statements": [],
-                        "multiLine": false,
                         "flags": 16,
                         "start": 15,
                         "end": 15

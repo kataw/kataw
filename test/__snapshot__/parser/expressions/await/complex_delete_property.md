@@ -170,7 +170,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                             "end": 61
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 61
@@ -190,7 +189,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 66,
                 "end": 66

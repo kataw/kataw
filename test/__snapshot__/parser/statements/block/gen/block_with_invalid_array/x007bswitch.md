@@ -52,7 +52,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 8,
                                 "end": 8
@@ -95,7 +94,6 @@
                                         "end": 17
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 11,
                                 "end": 17
@@ -109,7 +107,6 @@
                         "end": 17
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 17

@@ -33,8 +33,7 @@ return {} return(x) { try { !xxx
                     "kind": 218,
                     "properties": [],
                     "trailingComma": false,
-                    "multiline": false,
-                    "flags": 0,
+                    "flags": 16,
                     "start": 8,
                     "end": 8
                 },
@@ -117,7 +116,6 @@ return {} return(x) { try { !xxx
                                         "end": 32
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 27,
                                 "end": 32
@@ -133,7 +131,6 @@ return {} return(x) { try { !xxx
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 32,
                                 "end": 32
@@ -147,7 +144,6 @@ return {} return(x) { try { !xxx
                         "end": 32
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 21,
                 "end": 32

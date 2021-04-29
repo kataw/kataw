@@ -94,7 +94,6 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 16,
                                                 "end": 16
@@ -166,7 +165,6 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 32,
                                                 "end": 32
@@ -181,8 +179,7 @@ x({set [foo](b){}, set [bar](d){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 3,
                                 "end": 33
                             },

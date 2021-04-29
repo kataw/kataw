@@ -71,7 +71,6 @@ foo: { while(z) continue foo }
                             "end": 28
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 6,
                     "end": 28

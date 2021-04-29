@@ -122,7 +122,6 @@ class Foo { bar():this { return this; }}
                                             "end": 24
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 37

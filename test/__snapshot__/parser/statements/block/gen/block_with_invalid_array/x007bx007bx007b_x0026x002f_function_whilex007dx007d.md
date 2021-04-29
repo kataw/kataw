@@ -52,7 +52,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 8,
                                 "end": 8
@@ -111,7 +110,6 @@
                                                                 "end": 33
                                                             }
                                                         ],
-                                                        "multiLine": false,
                                                         "flags": 16,
                                                         "start": 13,
                                                         "end": 33
@@ -121,7 +119,6 @@
                                                     "end": 33
                                                 }
                                             ],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 12,
                                             "end": 33
@@ -131,7 +128,6 @@
                                         "end": 33
                                     }
                                 ],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 11,
                                 "end": 33
@@ -145,7 +141,6 @@
                         "end": 33
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 33

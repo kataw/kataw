@@ -78,7 +78,6 @@ return try { !xxx
                             "end": 17
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 12,
                     "end": 17
@@ -94,7 +93,6 @@ return try { !xxx
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17

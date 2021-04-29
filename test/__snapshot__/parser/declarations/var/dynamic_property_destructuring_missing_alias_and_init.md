@@ -90,7 +90,6 @@ var {[x]};
                                         "end": 8
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

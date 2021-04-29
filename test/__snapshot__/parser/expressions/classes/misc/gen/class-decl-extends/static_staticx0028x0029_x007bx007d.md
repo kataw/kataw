@@ -102,7 +102,6 @@ class C extends Base { static static() {} }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 40,
                                     "end": 40

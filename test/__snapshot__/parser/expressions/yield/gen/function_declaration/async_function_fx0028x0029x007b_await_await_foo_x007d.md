@@ -129,7 +129,6 @@ function not_gen() { async function f(){ await await foo; } }}
                                             "end": 57
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 40,
                                     "end": 57
@@ -145,7 +144,6 @@ function not_gen() { async function f(){ await await foo; } }}
                             "end": 59
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 59

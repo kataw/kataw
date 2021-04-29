@@ -160,7 +160,6 @@
                             "end": 52
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 31,
                     "end": 62

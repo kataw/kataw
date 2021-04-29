@@ -86,7 +86,6 @@ yield * \n { yield: 12 }
                         "end": 18
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 12,
                 "end": 18

@@ -58,7 +58,6 @@ let [{a}] = 0
                                                         "end": 7
                                                     }
                                                 ],
-                                                "multiline": false,
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 6,

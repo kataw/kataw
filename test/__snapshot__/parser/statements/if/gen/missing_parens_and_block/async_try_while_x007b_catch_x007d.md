@@ -84,7 +84,6 @@ if else async try while { catch }
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 17,
                     "end": 17
@@ -108,7 +107,6 @@ if else async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 31,
                                     "end": 31
@@ -124,7 +122,6 @@ if else async try while { catch }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 33,
                                     "end": 33
@@ -138,7 +135,6 @@ if else async try while { catch }
                             "end": 33
                         }
                     ],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 25,
                     "end": 33

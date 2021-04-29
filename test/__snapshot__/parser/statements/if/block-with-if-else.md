@@ -40,7 +40,6 @@
                             "block": {
                                 "kind": 124,
                                 "statements": [],
-                                "multiLine": false,
                                 "flags": 16,
                                 "start": 14,
                                 "end": 14
@@ -66,7 +65,6 @@
                         "end": 22
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 2,
                 "end": 22

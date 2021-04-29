@@ -145,7 +145,6 @@
                                                                                 "end": 42
                                                                             }
                                                                         ],
-                                                                        "multiline": false,
                                                                         "flags": 32,
                                                                         "start": 33,
                                                                         "end": 42
@@ -172,7 +171,6 @@
                                                 "end": 46
                                             }
                                         ],
-                                        "multiline": false,
                                         "flags": 32,
                                         "start": 12,
                                         "end": 46
@@ -187,8 +185,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 2,
                         "end": 48
                     },

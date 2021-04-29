@@ -98,8 +98,7 @@ function *g() { yield {...(x),}}
                                             }
                                         ],
                                         "trailingComma": true,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 23,
                                         "end": 30
                                     },
@@ -116,7 +115,6 @@ function *g() { yield {...(x),}}
                             "end": 31
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 31

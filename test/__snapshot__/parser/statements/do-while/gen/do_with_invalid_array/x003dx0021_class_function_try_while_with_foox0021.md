@@ -93,7 +93,6 @@ do while [catch] =! class function try while with foo!
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 15,
                             "end": 15
@@ -109,7 +108,6 @@ do while [catch] =! class function try while with foo!
                         "block": {
                             "kind": 124,
                             "statements": [],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 16,
                             "end": 16
@@ -162,7 +160,6 @@ do while [catch] =! class function try while with foo!
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 34,
                     "end": 34
@@ -190,7 +187,6 @@ do while [catch] =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 38,
                     "end": 38
@@ -206,7 +202,6 @@ do while [catch] =! class function try while with foo!
                 "block": {
                     "kind": 124,
                     "statements": [],
-                    "multiLine": false,
                     "flags": 16,
                     "start": 44,
                     "end": 44

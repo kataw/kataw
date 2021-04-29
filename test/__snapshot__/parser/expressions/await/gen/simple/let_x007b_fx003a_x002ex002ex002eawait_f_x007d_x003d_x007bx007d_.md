@@ -90,7 +90,6 @@ let { f: ...await f } = {};
                                         "end": 19
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
@@ -108,8 +107,7 @@ let { f: ...await f } = {};
                                 "kind": 218,
                                 "properties": [],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 25,
                                 "end": 25
                             },

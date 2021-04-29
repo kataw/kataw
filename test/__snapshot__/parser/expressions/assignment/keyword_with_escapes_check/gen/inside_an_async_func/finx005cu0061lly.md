@@ -50,7 +50,6 @@ async () => {  fin\u0061lly = x  }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 27,
                                     "end": 27
@@ -66,7 +65,6 @@ async () => {  fin\u0061lly = x  }
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 29,
                                     "end": 29
@@ -94,8 +92,7 @@ async () => {  fin\u0061lly = x  }
                             "end": 31
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 31
                 },

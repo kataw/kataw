@@ -61,7 +61,6 @@ wrap({* foo(){},*bar(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 14,
                                                 "end": 14
@@ -100,7 +99,6 @@ wrap({* foo(){},*bar(){}});
                                                 "kind": 217,
                                                 "directives": [],
                                                 "statements": [],
-                                                "multiline": false,
                                                 "flags": 32,
                                                 "start": 23,
                                                 "end": 23
@@ -115,8 +113,7 @@ wrap({* foo(){},*bar(){}});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "multiline": false,
-                                "flags": 0,
+                                "flags": 16,
                                 "start": 6,
                                 "end": 24
                             },

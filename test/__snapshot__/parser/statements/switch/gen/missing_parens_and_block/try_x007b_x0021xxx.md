@@ -93,7 +93,6 @@ switch case try { !xxx
                                                 "end": 22
                                             }
                                         ],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 17,
                                         "end": 22
@@ -109,7 +108,6 @@ switch case try { !xxx
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 22,
                                         "end": 22

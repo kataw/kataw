@@ -135,8 +135,7 @@ class C extends (function B() {
                                                     "kind": 218,
                                                     "properties": [],
                                                     "trailingComma": false,
-                                                    "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 16,
                                                     "start": 49,
                                                     "end": 49
                                                 },
@@ -175,8 +174,7 @@ class C extends (function B() {
                                             "end": 52
                                         }
                                     ],
-                                    "multiline": true,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 39,
                                     "end": 64
                                 },

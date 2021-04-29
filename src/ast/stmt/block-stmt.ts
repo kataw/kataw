@@ -4,20 +4,18 @@ import { StatementNode } from '.';
 export interface BlockStatement extends SyntaxNode {
   readonly kind: SyntaxKind.BlockStatement;
   readonly statements: StatementNode[];
-  readonly multiLine: boolean;
 }
 
 export function createBlockStatement(
   statements: StatementNode[],
-  multiLine: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): BlockStatement {
   return {
     kind: SyntaxKind.BlockStatement,
     statements,
-    multiLine,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

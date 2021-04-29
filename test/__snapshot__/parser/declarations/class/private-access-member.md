@@ -165,7 +165,6 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                             "end": 34
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 24,
                                     "end": 34

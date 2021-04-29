@@ -123,7 +123,6 @@ function *f() { yield ? yield : yield ; }
                             "end": 39
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 39

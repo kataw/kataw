@@ -118,7 +118,6 @@ let x = function f(foo = await bar){
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 36,
                                     "end": 36

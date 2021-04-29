@@ -107,7 +107,6 @@ let y = async x => { await x; }
                                             "end": 29
                                         }
                                     ],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 20,
                                     "end": 29

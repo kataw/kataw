@@ -316,7 +316,6 @@ type T = <
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 113,
                     "end": 113
@@ -415,8 +414,7 @@ type T = <
                         "end": 173
                     }
                 ],
-                "multiLine": true,
-                "flags": 16,
+                "flags": 17,
                 "start": 150,
                 "end": 173
             },
@@ -758,7 +756,6 @@ type T = <
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 344,
                     "end": 344
@@ -857,8 +854,7 @@ type T = <
                         "end": 412
                     }
                 ],
-                "multiLine": true,
-                "flags": 16,
+                "flags": 17,
                 "start": 384,
                 "end": 412
             },

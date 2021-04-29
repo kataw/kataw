@@ -67,7 +67,6 @@ function *f(){
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 29,
                                     "end": 29
@@ -83,7 +82,6 @@ function *f(){
                                 "block": {
                                     "kind": 124,
                                     "statements": [],
-                                    "multiLine": false,
                                     "flags": 16,
                                     "start": 31,
                                     "end": 31
@@ -111,8 +109,7 @@ function *f(){
                             "end": 33
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 16417,
                     "start": 14,
                     "end": 33
                 },

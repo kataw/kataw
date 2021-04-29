@@ -138,8 +138,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
+                                            "flags": 16,
                                             "start": 28,
                                             "end": 46
                                         },
@@ -174,7 +173,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                             "end": 51
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 20,
                     "end": 51

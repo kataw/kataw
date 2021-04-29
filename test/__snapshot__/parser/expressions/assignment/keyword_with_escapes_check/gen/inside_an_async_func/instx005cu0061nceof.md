@@ -75,8 +75,7 @@ async () => {  inst\u0061nceof = x  }
                             "end": 30
                         }
                     ],
-                    "multiline": false,
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 13,
                     "end": 30
                 },

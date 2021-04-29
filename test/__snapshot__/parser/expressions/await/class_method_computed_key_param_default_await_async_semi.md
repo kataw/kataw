@@ -176,7 +176,6 @@ async function f(){
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 57,
                                                                     "end": 57
@@ -234,7 +233,6 @@ async function f(){
                                                                     "kind": 217,
                                                                     "directives": [],
                                                                     "statements": [],
-                                                                    "multiline": false,
                                                                     "flags": 32,
                                                                     "start": 70,
                                                                     "end": 70
@@ -273,8 +271,7 @@ async function f(){
                                         "kind": 217,
                                         "directives": [],
                                         "statements": [],
-                                        "multiline": true,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 81,
                                         "end": 81
                                     },
@@ -291,8 +288,7 @@ async function f(){
                             "end": 86
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 86
                 },

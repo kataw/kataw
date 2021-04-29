@@ -39,8 +39,7 @@ async in {}
                         "kind": 218,
                         "properties": [],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 10,
                         "end": 10
                     },

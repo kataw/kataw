@@ -67,7 +67,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "kind": 217,
                     "directives": [],
                     "statements": [],
-                    "multiline": false,
                     "flags": 32,
                     "start": 30,
                     "end": 30
@@ -115,7 +114,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 56,
                 "end": 56

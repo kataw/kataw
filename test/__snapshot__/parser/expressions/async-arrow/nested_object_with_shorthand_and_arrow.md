@@ -51,8 +51,7 @@ async ({ident: {x}}) => x
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 16,
                                         "end": 17
                                     },
@@ -74,8 +73,7 @@ async ({ident: {x}}) => x
                             }
                         ],
                         "trailingComma": false,
-                        "multiline": false,
-                        "flags": 0,
+                        "flags": 16,
                         "start": 8,
                         "end": 18
                     },

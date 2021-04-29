@@ -113,7 +113,6 @@ function *f(){ delete ("x"[(yield)]) }
                             "end": 36
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 36

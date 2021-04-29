@@ -103,7 +103,6 @@ fuction *f() {  return await yield;  }
                         "end": 35
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 14,
                 "end": 35

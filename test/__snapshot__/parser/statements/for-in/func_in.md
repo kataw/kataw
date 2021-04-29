@@ -110,7 +110,6 @@ for (function(){ a in b; }.prop in x);
                                     "end": 24
                                 }
                             ],
-                            "multiline": false,
                             "flags": 32,
                             "start": 16,
                             "end": 24

@@ -120,7 +120,6 @@ class x {async f(foo = await bar){}}
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 34,
                                     "end": 34

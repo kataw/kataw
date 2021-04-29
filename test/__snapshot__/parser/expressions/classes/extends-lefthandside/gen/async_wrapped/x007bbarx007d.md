@@ -101,8 +101,7 @@ async function p(){
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "multiline": false,
-                                        "flags": 0,
+                                        "flags": 16,
                                         "start": 39,
                                         "end": 42
                                     },
@@ -127,8 +126,7 @@ async function p(){
                             "end": 46
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 46
                 },

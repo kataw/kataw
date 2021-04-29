@@ -34,7 +34,6 @@
                                     "block": {
                                         "kind": 124,
                                         "statements": [],
-                                        "multiLine": false,
                                         "flags": 16,
                                         "start": 5,
                                         "end": 5
@@ -116,7 +115,6 @@
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 23,
                                             "end": 23
@@ -144,7 +142,6 @@
                                         "block": {
                                             "kind": 124,
                                             "statements": [],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 27,
                                             "end": 27
@@ -160,7 +157,6 @@
                                         "block": {
                                             "kind": 124,
                                             "statements": [],
-                                            "multiLine": false,
                                             "flags": 16,
                                             "start": 33,
                                             "end": 33
@@ -219,7 +215,6 @@
                                     "end": 43
                                 }
                             ],
-                            "multiLine": false,
                             "flags": 16,
                             "start": 3,
                             "end": 43
@@ -229,7 +224,6 @@
                         "end": 43
                     }
                 ],
-                "multiLine": false,
                 "flags": 16,
                 "start": 1,
                 "end": 43

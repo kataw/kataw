@@ -52,7 +52,6 @@ switch( function while case
                         "kind": 217,
                         "directives": [],
                         "statements": [],
-                        "multiline": false,
                         "flags": 32,
                         "start": 16,
                         "end": 16

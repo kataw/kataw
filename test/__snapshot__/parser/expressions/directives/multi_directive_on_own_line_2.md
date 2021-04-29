@@ -68,8 +68,7 @@ function f(){
                         }
                     ],
                     "statements": [],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 4194337,
                     "start": 13,
                     "end": 27
                 },

@@ -115,7 +115,6 @@ function* f(){ yield
                             "end": 26
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 14,
                     "end": 26

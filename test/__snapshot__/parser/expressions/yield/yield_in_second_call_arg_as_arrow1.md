@@ -178,7 +178,6 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                             "end": 47
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 15,
                     "end": 47

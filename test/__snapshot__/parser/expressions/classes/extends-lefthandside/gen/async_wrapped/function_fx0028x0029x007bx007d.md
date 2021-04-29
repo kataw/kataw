@@ -118,7 +118,6 @@ async function p(){
                                             "kind": 217,
                                             "directives": [],
                                             "statements": [],
-                                            "multiline": false,
                                             "flags": 32,
                                             "start": 51,
                                             "end": 51
@@ -150,8 +149,7 @@ async function p(){
                             "end": 55
                         }
                     ],
-                    "multiline": true,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 19,
                     "end": 55
                 },

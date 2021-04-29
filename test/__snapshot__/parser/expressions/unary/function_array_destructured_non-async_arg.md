@@ -111,7 +111,6 @@ async function f(){   function fh([+ await x]) { }   }
                                     "kind": 217,
                                     "directives": [],
                                     "statements": [],
-                                    "multiline": false,
                                     "flags": 32,
                                     "start": 35,
                                     "end": 35
@@ -165,7 +164,6 @@ async function f(){   function fh([+ await x]) { }   }
                             "end": 44
                         }
                     ],
-                    "multiline": false,
                     "flags": 32,
                     "start": 19,
                     "end": 44
@@ -185,7 +183,6 @@ async function f(){   function fh([+ await x]) { }   }
             "block": {
                 "kind": 124,
                 "statements": [],
-                "multiLine": false,
                 "flags": 16,
                 "start": 48,
                 "end": 48

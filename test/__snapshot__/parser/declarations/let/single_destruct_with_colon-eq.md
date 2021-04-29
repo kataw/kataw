@@ -79,7 +79,6 @@ let {a:=c} = z;
                                         "end": 9
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,

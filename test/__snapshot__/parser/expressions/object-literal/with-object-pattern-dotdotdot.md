@@ -87,7 +87,6 @@ let { ...x, y, z } = obj;
                                         "end": 16
                                     }
                                 ],
-                                "multiline": false,
                                 "trailingComma": false,
                                 "flags": 32,
                                 "start": 5,
