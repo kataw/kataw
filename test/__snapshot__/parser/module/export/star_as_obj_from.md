@@ -34,56 +34,67 @@ export * as foo, {bar} from 'bar';
             "exportFromClause": {
                 "kind": 259,
                 "moduleExportName": null,
-                "namedBinding": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 15
-                },
+                "namedBinding": null,
                 "flags": 16,
                 "start": 0,
-                "end": 15
+                "end": 8
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
-                "start": 15,
-                "end": 15
+                "kind": 134299649,
+                "text": "as",
+                "rawText": "as",
+                "flags": 96,
+                "start": 8,
+                "end": 11
             },
             "flags": 16,
             "start": 0,
-            "end": 15
+            "end": 11
         },
         {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+            "kind": 120,
+            "expression": {
+                "kind": 132,
+                "expressions": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 15
+                    },
+                    {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "bar",
+                                    "rawText": "bar",
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 21
+                                }
+                            ],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 16,
-                        "start": 18,
-                        "end": 21
+                        "flags": 32,
+                        "start": 16,
+                        "end": 22
                     }
                 ],
-                "multiLine": false,
-                "flags": 16,
-                "start": 18,
-                "end": 21
+                "flags": 32,
+                "start": 11,
+                "end": 22
             },
             "flags": 16,
-            "start": 16,
+            "start": 11,
             "end": 22
         },
         {
@@ -133,8 +144,6 @@ export * as foo, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 16
-✖ Statement expected - start: 15, end: 16
-
+✔ No errors
 ```
 

@@ -1,17 +1,17 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { Identifier } from './identifier-expr';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 /**
  * New target expression.
  */
 export interface NewTarget extends SyntaxNode {
-  readonly name: Identifier;
+  readonly targetKeyword: SyntaxToken<TokenSyntaxKind>;
 }
 
-export function createNewTarget(name: Identifier, start: number, end: number): NewTarget {
+export function createNewTarget(targetKeyword: SyntaxToken<TokenSyntaxKind>, start: number, end: number): NewTarget {
   return {
     kind: SyntaxKind.NewTarget,
-    name,
+    targetKeyword,
     flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end

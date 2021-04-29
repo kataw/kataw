@@ -245,15 +245,7 @@ export function parse(
   }
 
   while (parser.token !== SyntaxKind.EndOfFileToken) {
-    if (
-      parser.token &
-      (SyntaxKind.IsStatementStart |
-        SyntaxKind.IsExpressionStart |
-        SyntaxKind.IsIdentifier |
-        SyntaxKind.IsFutureReserved |
-        SyntaxKind.IsPatternStart |
-        SyntaxKind.IsBinaryOp)
-    ) {
+    if (parser.token & 0b00010000100000011110000000000000) {
       statements.push(moduleOrScript(parser, context));
       continue;
     }
@@ -1047,15 +1039,7 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
   const curPos = parser.curPos;
   const statements: StatementNode[] = [];
   const multiline = (parser.nodeFlags & NodeFlags.NewLine) !== 0;
-  while (
-    parser.token &
-    (SyntaxKind.IsStatementStart |
-      SyntaxKind.IsExpressionStart |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved |
-      SyntaxKind.IsPatternStart |
-      SyntaxKind.IsBinaryOp)
-  ) {
+  while (parser.token & 0b00010000100000011110000000000000) {
     const statement = parseStatementListItem(parser, context);
 
     if (statement) {
@@ -1420,21 +1404,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context |
-        Context.InAwaitContext |
-        Context.InTypes |
-        Context.InClassBody |
-        Context.InGeneratorContext |
-        Context.DisallowIn |
-        Context.InSwitch |
-        Context.InIteration) ^
-        (Context.InGeneratorContext |
-          Context.InClassBody |
-          Context.InAwaitContext |
-          Context.DisallowIn |
-          Context.InTypes |
-          Context.InSwitch |
-          Context.InIteration)) |
+      ((context | 0b00000001100000000001111010000000) ^ 0b00000001100000000001111010000000) |
         (asyncToken ? Context.InAwaitContext : Context.None)
     ),
     pos,
@@ -1525,8 +1495,7 @@ function parseConciseOrFunctionBody(parser: ParserState, context: Context): Func
   }
 
   if (
-    parser.token & SyntaxKind.IsStatementStart &&
-    parser.token !== SyntaxKind.Semicolon &&
+    parser.token & (SyntaxKind.IsSemicolon | SyntaxKind.IsStatementStart) &&
     parser.token !== SyntaxKind.FunctionKeyword &&
     parser.token !== SyntaxKind.ClassKeyword
   ) {
@@ -1557,16 +1526,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
 
-  while (
-    parser.token &
-    (SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved |
-      SyntaxKind.IsExpressionStart |
-      SyntaxKind.IsPropertyOrCall |
-      SyntaxKind.IsBinaryOp |
-      SyntaxKind.IsEllipsis |
-      SyntaxKind.IsComma)
-  ) {
+  while (parser.token & 0b00000000101010111100000000000000) {
     elements.push(parseArgumentOrArrayLiteralElement(parser, context));
 
     if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
@@ -2026,8 +1986,7 @@ function parseMethodDefinition(
   context |= Context.SuperProperty;
 
   context =
-    ((context | Context.InAwaitContext | Context.InGeneratorContext | Context.InTypes | Context.DisallowIn) ^
-      (Context.InGeneratorContext | Context.InAwaitContext | Context.DisallowIn | Context.InTypes)) |
+    ((context | 0b00000000100000000000011010000000) ^ 0b00000000100000000000011010000000) |
     (nodeFlags & NodeFlags.Async ? Context.InAwaitContext : Context.None) |
     (nodeFlags & NodeFlags.Generator ? Context.InGeneratorContext : Context.None);
 
@@ -2070,10 +2029,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
     const curpPos = parser.curPos;
     let trailingComma = false;
 
-    while (
-      parser.token &
-      (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved | SyntaxKind.IsEllipsis | SyntaxKind.IsPatternStart)
-    ) {
+    while (parser.token & 0b00010000100010000100000000000000) {
       if (nodeFlags & NodeFlags.Setter) {
         if (parser.token & SyntaxKind.IsEllipsis) {
           parser.onError(
@@ -2268,6 +2224,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
   const newToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.NewKeyword);
+
   if (newToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -2276,24 +2233,21 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
       parser.pos
     );
   }
+
   if (consumeOpt(parser, context, SyntaxKind.Period)) {
-    if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    const targetKeyword = consumeToken(parser, context, SyntaxKind.Target);
+    if (!targetKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Invalid_escaped_keyword],
-        parser.curPos,
-        parser.pos
-      );
-    } else if (parser.tokenRaw !== 'target') {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target],
+        diagnosticMap[
+          flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            ? DiagnosticCode.Invalid_escaped_keyword
+            : DiagnosticCode.The_only_valid_meta_property_for_new_is_new_target
+        ],
         parser.curPos,
         parser.pos
       );
     }
-
-    const target = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected) as Identifier;
 
     if ((context & Context.NewTarget) === 0) {
       parser.onError(
@@ -2305,7 +2259,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     }
 
     parser.assignable = false;
-    return createNewTarget(target, pos, parser.curPos);
+    return createNewTarget(targetKeyword, pos, parser.curPos);
   }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ true);
@@ -5297,9 +5251,9 @@ export function parseImportMeta(
     );
   }
 
-  nextToken(parser, context);
+  const metaKeyword = consumeToken(parser, context, SyntaxKind.Target);
+  if (metaKeyword && metaKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
 
-  if (parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode._import_meta_must_not_contain_escaped_characters],

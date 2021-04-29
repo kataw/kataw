@@ -58,7 +58,6 @@ import.m\u0065ta;
 ### Diagnostics
 
 ```javascript
-✖ 'import.meta' must not contain escaped characters - start: 7, end: 16
-
+✔ No errors
 ```
 

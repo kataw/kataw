@@ -35,11 +35,9 @@ for (new.target in x) ;
             "kind": 166,
             "initializer": {
                 "kind": 211,
-                "name": {
-                    "kind": 134299649,
-                    "text": "target",
-                    "rawText": "target",
-                    "flags": 96,
+                "targetKeyword": {
+                    "kind": 16594,
+                    "flags": 0,
                     "start": 9,
                     "end": 15
                 },

@@ -101,7 +101,31 @@ var x,y; export {x as a, y as b}
                                 "start": 17,
                                 "end": 18
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 17,
+                            "end": 18
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 18,
+                                "end": 21
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 18,
+                            "end": 21
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -109,8 +133,9 @@ var x,y; export {x as a, y as b}
                                 "start": 21,
                                 "end": 23
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 17,
+                            "start": 21,
                             "end": 23
                         },
                         {
@@ -124,7 +149,31 @@ var x,y; export {x as a, y as b}
                                 "start": 24,
                                 "end": 26
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 24,
+                            "end": 26
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 26,
+                                "end": 29
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 26,
+                            "end": 29
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -132,8 +181,9 @@ var x,y; export {x as a, y as b}
                                 "start": 29,
                                 "end": 31
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 24,
+                            "start": 29,
                             "end": 31
                         }
                     ],

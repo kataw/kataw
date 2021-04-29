@@ -50,24 +50,49 @@ import {bar as baz} from "foo";
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 8,
                                     "end": 11
                                 },
+                                "flags": 16,
+                                "start": 8,
+                                "end": 11
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 11,
+                                    "end": 14
+                                },
+                                "flags": 16,
+                                "start": 11,
+                                "end": 14
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "baz",
                                     "rawText": "baz",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "flags": 16,
-                                "start": 8,
+                                "start": 14,
                                 "end": 18
                             }
                         ],

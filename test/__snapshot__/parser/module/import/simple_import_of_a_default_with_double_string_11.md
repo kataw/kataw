@@ -66,24 +66,49 @@ import {x, z as b} from "y"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": {
+                                "name": null,
+                                "binding": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 10,
                                     "end": 12
                                 },
+                                "flags": 16,
+                                "start": 10,
+                                "end": 12
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "as",
+                                    "rawText": "as",
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 15
+                                },
+                                "flags": 16,
+                                "start": 12,
+                                "end": 15
+                            },
+                            {
+                                "kind": 264,
+                                "moduleExportName": null,
+                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 64,
                                     "start": 15,
                                     "end": 17
                                 },
                                 "flags": 16,
-                                "start": 10,
+                                "start": 15,
                                 "end": 17
                             }
                         ],

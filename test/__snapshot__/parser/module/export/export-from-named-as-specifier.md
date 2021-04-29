@@ -46,7 +46,31 @@ export {foo as bar} from "foo";
                                 "start": 8,
                                 "end": 11
                             },
-                            "binding": {
+                            "binding": null,
+                            "flags": 16,
+                            "start": 8,
+                            "end": 11
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "as",
+                                "rawText": "as",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 14
+                            },
+                            "binding": null,
+                            "flags": 16,
+                            "start": 11,
+                            "end": 14
+                        },
+                        {
+                            "kind": 260,
+                            "moduleExportName": null,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
@@ -54,8 +78,9 @@ export {foo as bar} from "foo";
                                 "start": 14,
                                 "end": 18
                             },
+                            "binding": null,
                             "flags": 16,
-                            "start": 8,
+                            "start": 14,
                             "end": 18
                         }
                     ],

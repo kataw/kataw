@@ -85,11 +85,9 @@ function f(){ x({[new.target]:y}) }
                                                             "kind": 194,
                                                             "expression": {
                                                                 "kind": 211,
-                                                                "name": {
-                                                                    "kind": 134299649,
-                                                                    "text": "target",
-                                                                    "rawText": "target",
-                                                                    "flags": 96,
+                                                                "targetKeyword": {
+                                                                    "kind": 16594,
+                                                                    "flags": 0,
                                                                     "start": 22,
                                                                     "end": 28
                                                                 },
