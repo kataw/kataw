@@ -124,7 +124,22 @@ export const enum DiagnosticCode {
   Escape_sequence_in_keyword_import = 122,
   The_only_valid_meta_property_for_new_is_new_target = 123,
   Invalid_escaped_keyword = 124,
-  _let_is_not_allowed_to_be_used_as_a_name_in_let_or_const_declarations = 125
+  _let_is_not_allowed_to_be_used_as_a_name_in_let_or_const_declarations = 125,
+  Duplicate_regular_expression_flag = 126,
+  Unterminated_regular_expression = 127,
+  Unknown_regular_expression_flag = 128,
+  An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal = 129,
+  Binary_integer_literal_like_sequence_containing_an_invalid_digit = 130,
+  Octal_integer_literal_like_sequence_containing_an_invalid_digit = 131,
+  Multiple_consecutive_numeric_separators_are_not_permitted = 132,
+  Binary_integer_literal_like_sequence_without_any_digits = 133,
+  Octal_integer_literal_like_sequence_without_any_digits = 134,
+  Hex_integer_literal_like_sequence_without_any_digits = 135,
+  Numeric_separators_are_not_allowed_at_the_end_of_numeric_literals = 136,
+  Numeric_separator_can_not_be_used_after_leading_0 = 137,
+  Invalid_BigInt_syntax = 138,
+  Non_number_after_exponent_indicator = 139,
+  Numeric_separators_not_allowed_here = 140
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -250,5 +265,20 @@ export const diagnosticMap: { [key: number]: string } = {
   [122]: 'Escape sequence in keyword import',
   [123]: "The only valid meta property for new is 'new.target",
   [124]: 'Invalid escaped keyword',
-  [125]: "'let' is not allowed to be used as a name in 'let' or 'const' declarations."
+  [125]: "'let' is not allowed to be used as a name in 'let' or 'const' declarations.",
+  [126]: 'Duplicate regular expression flag',
+  [127]: 'Unterminated regular expression',
+  [128]: 'Unknown regular expression flag',
+  [129]: 'An identifier or keyword cannot immediately follow a numeric literal',
+  [130]: 'Binary integer literal like sequence containing an invalid digit',
+  [131]: 'Octal integer literal like sequence containing an invalid digit',
+  [132]: 'Multiple consecutive numeric separators are not permitted',
+  [133]: 'Binary integer literal like sequence without any digits',
+  [134]: 'Octal integer literal like sequence without any digits',
+  [135]: 'Hex integer literal like sequence without any digits',
+  [136]: 'Numeric separators are not allowed at the end of numeric literals',
+  [137]: 'Numeric separator can not be used after leading_0',
+  [138]: 'Invalid BigInt syntax',
+  [139]: 'Non number after exponent indicator',
+  [140]: 'Numeric separators not allowed here'
 };

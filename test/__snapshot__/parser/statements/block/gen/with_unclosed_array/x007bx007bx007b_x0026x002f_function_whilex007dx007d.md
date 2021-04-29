@@ -141,7 +141,7 @@
 ✖ ',' expected - start: 4, end: 5
 ✖ ',' expected - start: 5, end: 6
 ✖ ',' expected - start: 6, end: 8
-✖ Unexpected token. - start: 8, end: 9
+✖ Unterminated regular expression - start: 8, end: 9
 
 ```
 

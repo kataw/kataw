@@ -89,12 +89,12 @@ try/catch/finally/{
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 3, end: 4
-✖ Unexpected token. - start: 3, end: 4
-✖ Unexpected token. - start: 3, end: 4
-✖ Unexpected token. - start: 3, end: 4
-✖ Unexpected token. - start: 3, end: 4
-✖ Unexpected token. - start: 17, end: 18
+✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unknown regular expression flag - start: 3, end: 4
+✖ Unterminated regular expression - start: 17, end: 18
 
 ```
 

@@ -133,7 +133,7 @@ try {} finally(x) { /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 19, end: 21
+✖ Unterminated regular expression - start: 19, end: 21
 
 ```
 

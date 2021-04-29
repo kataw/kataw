@@ -121,5 +121,20 @@
   "Escape sequence in keyword import": 122,
   "The only valid meta property for new is 'new.target": 123,
   "Invalid escaped keyword": 124,
-  "'let' is not allowed to be used as a name in 'let' or 'const' declarations.": 125
+  "'let' is not allowed to be used as a name in 'let' or 'const' declarations.": 125,
+  "Duplicate regular expression flag": 126,
+  "Unterminated regular expression": 127,
+  "Unknown regular expression flag": 128,
+  "An identifier or keyword cannot immediately follow a numeric literal": 129,
+  "Binary integer literal like sequence containing an invalid digit": 130,
+  "Octal integer literal like sequence containing an invalid digit": 131,
+  "Multiple consecutive numeric separators are not permitted": 132,
+  "Binary integer literal like sequence without any digits": 133,
+  "Octal integer literal like sequence without any digits": 134,
+  "Hex integer literal like sequence without any digits": 135,
+  "Numeric separators are not allowed at the end of numeric literals": 136,
+  "Numeric separator can not be used after leading_0": 137,
+  "Invalid BigInt syntax": 138,
+  "Non number after exponent indicator": 139,
+  "Numeric separators not allowed here": 140
 }

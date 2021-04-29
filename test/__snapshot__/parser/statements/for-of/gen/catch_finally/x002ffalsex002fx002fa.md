@@ -88,7 +88,7 @@ catch /false//a finally
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 13, end: 14
+✖ Unterminated regular expression - start: 13, end: 14
 
 ```
 

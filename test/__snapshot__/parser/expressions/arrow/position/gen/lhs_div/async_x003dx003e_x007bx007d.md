@@ -112,7 +112,7 @@ async => {} / x
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 11, end: 13
+✖ Unterminated regular expression - start: 11, end: 13
 
 ```
 

@@ -111,7 +111,7 @@ do do do /**/ /x do while while while while
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 8, end: 15
+✖ Unterminated regular expression - start: 8, end: 15
 ✖ Expression expected - start: 43, end: 43
 ✖ Expression expected - start: 43, end: 43
 ✖ Expression expected - start: 43, end: 43

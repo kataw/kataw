@@ -79,7 +79,7 @@ switch[ /)finally
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 7, end: 9
+✖ Unterminated regular expression - start: 7, end: 9
 ✖ ',' expected - start: 17, end: 17
 
 ```

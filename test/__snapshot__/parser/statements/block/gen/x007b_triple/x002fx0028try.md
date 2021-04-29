@@ -96,7 +96,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 5, end: 7
+✖ Unterminated regular expression - start: 5, end: 7
 
 ```
 

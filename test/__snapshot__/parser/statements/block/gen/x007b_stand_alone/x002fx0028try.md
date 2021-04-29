@@ -66,7 +66,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Unexpected token. - start: 1, end: 3
+✖ Unterminated regular expression - start: 1, end: 3
 
 ```
 

@@ -219,9 +219,9 @@ export function parse(
   }
 
   /*eslint-disable */
-
   const parser = create(source, onError ? onError : function () {});
   /*eslint-enable */
+
   nextToken(parser, context | Context.AllowRegExp);
 
   const moduleOrScript = isModule ? parseModuleItem : parseStatementListItem;
@@ -1817,9 +1817,7 @@ function parsePropertyDefinition(
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
-  let nodeFlags = generatorToken
-    ? NodeFlags.ExpressionNode | NodeFlags.Generator
-    : NodeFlags.ExpressionNode;
+  let nodeFlags = generatorToken ? NodeFlags.ExpressionNode | NodeFlags.Generator : NodeFlags.ExpressionNode;
 
   if (parser.token & 8404992) {
     const token = parser.token;
@@ -1859,7 +1857,7 @@ function parsePropertyDefinition(
           );
         }
 
-         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+        generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
         if (generatorToken) nodeFlags |= NodeFlags.Generator;
       } else if (token === SyntaxKind.GetKeyword) {
@@ -1965,7 +1963,16 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(generatorToken, asyncKeyword, getKeyword, setKeyword, left, key, pos, parser.curPos);
+    return createPropertyDefinition(
+      generatorToken,
+      asyncKeyword,
+      getKeyword,
+      setKeyword,
+      left,
+      key,
+      pos,
+      parser.curPos
+    );
   }
   if (parser.destructible & DestructibleKind.MustDestruct) {
     parser.onError(
@@ -5715,7 +5722,7 @@ export function parseClassElement(
     );
   }
 
-   generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+  generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   const key = parsePropertyName(parser, inheritedContext);
 
