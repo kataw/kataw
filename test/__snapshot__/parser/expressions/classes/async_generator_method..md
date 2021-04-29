@@ -42,6 +42,12 @@ class A {async * 34(){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 16
+                        },
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,

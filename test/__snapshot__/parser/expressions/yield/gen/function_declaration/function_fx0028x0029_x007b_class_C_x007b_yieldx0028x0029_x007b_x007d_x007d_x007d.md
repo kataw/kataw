@@ -112,6 +112,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
+                                                        "generatorToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,

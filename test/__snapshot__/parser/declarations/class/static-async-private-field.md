@@ -42,6 +42,12 @@ class C { static async*#aaa(){} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 22,
+                            "end": 23
+                        },
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

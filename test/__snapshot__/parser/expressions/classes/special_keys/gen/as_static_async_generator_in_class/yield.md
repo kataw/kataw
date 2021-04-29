@@ -46,6 +46,12 @@ class x {static async * yield(){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 23
+                        },
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

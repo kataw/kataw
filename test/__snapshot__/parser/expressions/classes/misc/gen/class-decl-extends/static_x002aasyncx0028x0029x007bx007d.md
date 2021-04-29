@@ -66,6 +66,12 @@ class C extends Base { static *async(){} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 29,
+                            "end": 31
+                        },
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

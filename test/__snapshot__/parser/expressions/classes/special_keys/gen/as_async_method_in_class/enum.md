@@ -46,6 +46,7 @@ class x {async enum(){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": {
                             "kind": 82031,

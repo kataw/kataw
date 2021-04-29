@@ -37,6 +37,7 @@ wrap({1:b, 0:d});
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -62,6 +63,7 @@ wrap({1:b, 0:d});
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

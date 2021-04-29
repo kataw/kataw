@@ -50,6 +50,7 @@ class X {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

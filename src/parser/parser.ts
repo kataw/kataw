@@ -1812,11 +1812,12 @@ function parsePropertyDefinition(
   let key: any;
   let destructible = DestructibleKind.None;
 
+  let generatorToken: SyntaxToken<TokenSyntaxKind> | null = consumeOptToken(parser, context, SyntaxKind.Multiply);
   let asyncKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
-  let nodeFlags = consumeOpt(parser, context, SyntaxKind.Multiply)
+  let nodeFlags = generatorToken
     ? NodeFlags.ExpressionNode | NodeFlags.Generator
     : NodeFlags.ExpressionNode;
 
@@ -1858,7 +1859,9 @@ function parsePropertyDefinition(
           );
         }
 
-        if (consumeOpt(parser, context, SyntaxKind.Multiply)) nodeFlags |= NodeFlags.Generator;
+         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+
+        if (generatorToken) nodeFlags |= NodeFlags.Generator;
       } else if (token === SyntaxKind.GetKeyword) {
         nodeFlags |= NodeFlags.Getter;
         getKeyword = createToken(SyntaxKind.GetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
@@ -1885,7 +1888,8 @@ function parsePropertyDefinition(
       }
 
       if (nodeFlags & (NodeFlags.Setter | NodeFlags.Getter | NodeFlags.Async)) {
-        if (consumeOpt(parser, context, SyntaxKind.Multiply)) nodeFlags |= NodeFlags.Generator;
+        generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+        if (generatorToken) nodeFlags |= NodeFlags.Generator;
         if (parser.token & ((parser.token & SyntaxKind.IsIdentifier) | SyntaxKind.IsFutureReserved)) {
           key = parsePropertyName(parser, context);
         }
@@ -1961,7 +1965,7 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(asyncKeyword, getKeyword, setKeyword, left, key, pos, parser.curPos);
+    return createPropertyDefinition(generatorToken, asyncKeyword, getKeyword, setKeyword, left, key, pos, parser.curPos);
   }
   if (parser.destructible & DestructibleKind.MustDestruct) {
     parser.onError(
@@ -5543,6 +5547,7 @@ export function parseClassElement(
 ): ClassElement | SemicolonClassElement | FieldDefinition {
   const pos = parser.curPos;
 
+  let generatorToken: SyntaxToken<TokenSyntaxKind> | null = null;
   let asyncKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
@@ -5601,7 +5606,8 @@ export function parseClassElement(
         case SyntaxKind.AsyncKeyword:
           nodeFlags |= NodeFlags.Async;
           asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
-          if (consumeOpt(parser, context, SyntaxKind.Multiply)) nodeFlags |= NodeFlags.Generator;
+          generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+          if (generatorToken) nodeFlags |= NodeFlags.Generator;
           break;
         case SyntaxKind.GetKeyword:
           nodeFlags |= NodeFlags.Getter;
@@ -5685,6 +5691,7 @@ export function parseClassElement(
       return createClassElement(
         declareKeyword,
         decorators,
+        generatorToken,
         staticKeyword,
         asyncKeyword,
         getKeyword,
@@ -5708,7 +5715,7 @@ export function parseClassElement(
     );
   }
 
-  const generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
+   generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
 
   const key = parsePropertyName(parser, inheritedContext);
 
@@ -5728,6 +5735,7 @@ export function parseClassElement(
     return createClassElement(
       declareKeyword,
       decorators,
+      generatorToken,
       staticKeyword,
       asyncKeyword,
       getKeyword,

@@ -46,6 +46,12 @@ class x {* default(){}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 9,
+                            "end": 10
+                        },
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

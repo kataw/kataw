@@ -37,6 +37,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -62,6 +63,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -87,6 +89,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -112,6 +115,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -137,6 +141,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

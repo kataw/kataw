@@ -48,6 +48,12 @@ class x{   static *static(){}    }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 17,
+                            "end": 19
+                        },
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

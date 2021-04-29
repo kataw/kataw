@@ -1636,6 +1636,7 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -1776,6 +1777,7 @@ class Array { concat(items:number | string) {}; }
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -2120,6 +2122,7 @@ class Array { concat(items:number | string) {}; }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

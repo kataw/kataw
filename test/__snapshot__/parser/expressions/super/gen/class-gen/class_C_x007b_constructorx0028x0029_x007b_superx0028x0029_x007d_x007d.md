@@ -46,6 +46,12 @@ class C { *method() { class C { constructor() { super(); } } } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 9,
+                            "end": 11
+                        },
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
@@ -103,6 +109,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
+                                                        "generatorToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,

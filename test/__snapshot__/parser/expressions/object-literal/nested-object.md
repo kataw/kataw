@@ -155,6 +155,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -180,6 +181,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     },
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -190,6 +192,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "properties": [
                                                     {
                                                         "kind": 219,
+                                                        "generatorToken": null,
                                                         "asyncKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,

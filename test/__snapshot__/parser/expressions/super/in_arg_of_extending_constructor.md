@@ -62,6 +62,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

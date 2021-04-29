@@ -77,6 +77,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
@@ -227,6 +228,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

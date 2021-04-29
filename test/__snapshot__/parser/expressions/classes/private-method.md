@@ -140,6 +140,7 @@ class x { #foo() {}}
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
@@ -218,6 +219,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -304,6 +306,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -395,6 +398,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -505,6 +509,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 101,
+                                    "end": 102
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -591,6 +601,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -682,6 +693,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 153,
+                                    "end": 155
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -773,6 +790,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -823,6 +841,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -909,6 +928,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -964,6 +984,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1074,6 +1095,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1129,6 +1151,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1184,6 +1207,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1294,6 +1318,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1349,6 +1374,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1404,6 +1430,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1478,6 +1505,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1588,6 +1616,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1662,6 +1691,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1772,6 +1802,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1827,6 +1858,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -1918,6 +1950,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -1968,6 +2001,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2060,6 +2094,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2110,6 +2145,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2197,6 +2233,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2247,6 +2284,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2298,6 +2336,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2390,6 +2429,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -2445,6 +2485,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -2501,6 +2542,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2598,6 +2640,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2672,6 +2715,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2747,6 +2791,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -2863,6 +2908,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -2913,6 +2959,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -3004,6 +3051,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3054,6 +3102,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -3145,6 +3194,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3195,6 +3245,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 737,
+                                    "end": 739
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -3286,6 +3342,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3372,6 +3429,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3458,6 +3516,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3544,6 +3603,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3630,6 +3690,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3716,6 +3777,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3802,6 +3864,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -3888,6 +3951,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -3979,6 +4043,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4070,6 +4135,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4161,6 +4227,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4252,6 +4319,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4343,6 +4411,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -4434,6 +4503,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4544,6 +4614,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4654,6 +4725,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4764,6 +4836,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4874,6 +4947,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -4984,6 +5058,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5094,6 +5169,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5185,6 +5261,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5276,6 +5353,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5367,6 +5445,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5458,6 +5537,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5549,6 +5629,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5640,6 +5721,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -5731,6 +5813,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1504,
+                                    "end": 1506
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5817,6 +5905,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1529,
+                                    "end": 1531
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5903,6 +5997,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1554,
+                                    "end": 1556
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -5989,6 +6089,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1579,
+                                    "end": 1581
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -6075,6 +6181,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1602,
+                                    "end": 1604
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -6161,6 +6273,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1625,
+                                    "end": 1627
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -6247,6 +6365,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1651,
+                                    "end": 1653
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -6333,6 +6457,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1686,
+                                    "end": 1688
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6424,6 +6554,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1717,
+                                    "end": 1719
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6515,6 +6651,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1748,
+                                    "end": 1750
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6606,6 +6748,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1779,
+                                    "end": 1781
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6697,6 +6845,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1808,
+                                    "end": 1810
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6788,6 +6942,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1837,
+                                    "end": 1839
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6879,6 +7039,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1869,
+                                    "end": 1871
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -6996,6 +7162,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -7108,6 +7275,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -7225,6 +7393,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -7361,6 +7530,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 1986,
+                                    "end": 1987
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -7473,6 +7648,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -7590,6 +7766,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2046,
+                                    "end": 2048
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -7714,6 +7896,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -7833,6 +8016,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -7957,6 +8141,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -8100,6 +8285,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2171,
+                                    "end": 2172
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -8219,6 +8410,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -8343,6 +8535,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2239,
+                                    "end": 2241
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -8461,6 +8659,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -8574,6 +8773,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -8692,6 +8892,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -8829,6 +9030,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2344,
+                                    "end": 2345
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -8942,6 +9149,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -9060,6 +9268,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2402,
+                                    "end": 2404
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -9185,6 +9399,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -9305,6 +9520,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": {
@@ -9430,6 +9646,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -9574,6 +9791,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2523,
+                                    "end": 2524
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -9694,6 +9917,7 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
@@ -9819,6 +10043,12 @@ class x { #foo() {}}
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2589,
+                                    "end": 2591
+                                },
                                 "staticKeyword": null,
                                 "asyncKeyword": {
                                     "kind": 82031,

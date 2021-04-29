@@ -62,6 +62,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": null,
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,

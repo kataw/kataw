@@ -61,6 +61,12 @@ class x { static *[expr](){} }
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 64,
+                            "start": 16,
+                            "end": 18
+                        },
                         "staticKeyword": {
                             "kind": 8388716,
                             "flags": 64,

@@ -120,6 +120,7 @@ var { ...{ x = 5 } } = {x : 1};
                                 "properties": [
                                     {
                                         "kind": 219,
+                                        "generatorToken": null,
                                         "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,

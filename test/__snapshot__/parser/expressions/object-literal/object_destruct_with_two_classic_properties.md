@@ -39,6 +39,7 @@ x({a:b, c:d}=obj);
                                     "properties": [
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
@@ -64,6 +65,7 @@ x({a:b, c:d}=obj);
                                         },
                                         {
                                             "kind": 219,
+                                            "generatorToken": null,
                                             "asyncKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,

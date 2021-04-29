@@ -146,6 +146,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                             "properties": [
                                                                                 {
                                                                                     "kind": 219,
+                                                                                    "generatorToken": null,
                                                                                     "asyncKeyword": null,
                                                                                     "getKeyword": null,
                                                                                     "setKeyword": null,

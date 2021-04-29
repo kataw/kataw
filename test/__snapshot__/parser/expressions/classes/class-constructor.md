@@ -61,6 +61,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
@@ -155,6 +156,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -254,6 +256,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -358,6 +361,7 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": null,
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
@@ -481,6 +485,12 @@
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 180,
+                                    "end": 182
+                                },
                                 "staticKeyword": {
                                     "kind": 8388716,
                                     "flags": 64,
