@@ -276,7 +276,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                         "start": 80,
                         "end": 83
                     },
-                    "flags": 32,
+                    "flags": 34,
                     "start": 3,
                     "end": 83
                 },

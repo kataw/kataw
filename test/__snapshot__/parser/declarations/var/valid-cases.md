@@ -1121,7 +1121,7 @@ var {get} = obj;
                                 "start": 257,
                                 "end": 260
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 232,
                             "end": 260
                         },

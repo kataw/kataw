@@ -2364,7 +2364,7 @@ foo ? bar : baz => {};
                     "start": 846,
                     "end": 849
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 799,
                 "end": 849
             },
@@ -2486,7 +2486,7 @@ foo ? bar : baz => {};
                     "start": 876,
                     "end": 879
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 865,
                 "end": 879
             },
@@ -2537,7 +2537,7 @@ foo ? bar : baz => {};
                     "start": 888,
                     "end": 891
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 880,
                 "end": 891
             },
@@ -2659,7 +2659,7 @@ foo ? bar : baz => {};
                     "start": 918,
                     "end": 921
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 907,
                 "end": 921
             },
@@ -2934,7 +2934,7 @@ foo ? bar : baz => {};
                     "start": 982,
                     "end": 985
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 973,
                 "end": 985
             },
@@ -3888,7 +3888,7 @@ foo ? bar : baz => {};
                     "start": 1209,
                     "end": 1212
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 1195,
                 "end": 1212
             },
@@ -3974,7 +3974,7 @@ foo ? bar : baz => {};
                     "start": 1227,
                     "end": 1230
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 1213,
                 "end": 1230
             },
@@ -4048,7 +4048,7 @@ foo ? bar : baz => {};
                     "start": 1245,
                     "end": 1248
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 1231,
                 "end": 1248
             },
@@ -4128,7 +4128,7 @@ foo ? bar : baz => {};
                     "start": 1262,
                     "end": 1265
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 1249,
                 "end": 1265
             },

@@ -453,7 +453,7 @@ x = {async __proto__(){}, *__proto__(){}};
                     "start": 149,
                     "end": 152
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 113,
                 "end": 152
             },

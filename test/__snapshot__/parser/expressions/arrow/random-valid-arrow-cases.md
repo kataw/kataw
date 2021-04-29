@@ -811,7 +811,7 @@ foo((x, y) => {});
                     "start": 183,
                     "end": 185
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 173,
                 "end": 185
             },
@@ -956,7 +956,7 @@ foo((x, y) => {});
                                 "start": 222,
                                 "end": 225
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 212,
                             "end": 225
                         }
@@ -1046,7 +1046,7 @@ foo((x, y) => {});
                     "start": 241,
                     "end": 244
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 227,
                 "end": 244
             },
@@ -1394,7 +1394,7 @@ foo((x, y) => {});
                     "start": 325,
                     "end": 327
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 306,
                 "end": 327
             },
@@ -1814,7 +1814,7 @@ foo((x, y) => {});
                                 "start": 421,
                                 "end": 423
                             },
-                            "flags": 32,
+                            "flags": 34,
                             "start": 405,
                             "end": 423
                         }
@@ -2515,7 +2515,7 @@ foo((x, y) => {});
                     "start": 607,
                     "end": 609
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 591,
                 "end": 609
             },
@@ -2664,7 +2664,7 @@ foo((x, y) => {});
                     "start": 635,
                     "end": 636
                 },
-                "flags": 32,
+                "flags": 34,
                 "start": 610,
                 "end": 636
             },

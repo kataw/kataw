@@ -90,7 +90,7 @@ async ([...x.y]) => z
                 "start": 19,
                 "end": 21
             },
-            "flags": 288,
+            "flags": 290,
             "start": 0,
             "end": 21
         }

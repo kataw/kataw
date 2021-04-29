@@ -5030,7 +5030,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 4884,
                                     "end": 4886
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 4866,
                                 "end": 4886
                             },
@@ -5164,7 +5164,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 4922,
                                     "end": 4924
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 4905,
                                 "end": 4924
                             },
@@ -5304,7 +5304,7 @@ try {} catch(e) { for(var e of 0); };
                                     "start": 4960,
                                     "end": 4962
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 4943,
                                 "end": 4962
                             },

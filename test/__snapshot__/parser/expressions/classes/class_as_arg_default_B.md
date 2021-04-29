@@ -125,7 +125,7 @@ f = ([xCls = class X {}]) => {}
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 32,
+                    "flags": 34,
                     "start": 3,
                     "end": 31
                 },

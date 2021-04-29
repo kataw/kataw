@@ -132,7 +132,7 @@ function *f(){ ({x} = yield) => {} }
                                     "start": 31,
                                     "end": 34
                                 },
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 14,
                                 "end": 34
                             },

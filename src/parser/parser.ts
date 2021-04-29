@@ -1411,7 +1411,8 @@ function parseArrowFunction(
     parseConciseOrFunctionBody(
       parser,
       ((context | 0b00000001100000000001111010000000) ^ 0b00000001100000000001111010000000) |
-        (asyncToken ? Context.InAwaitContext : Context.None)
+        (asyncToken ? Context.InAwaitContext : Context.None),
+        (flags & NodeFlags.NoneSimpleParamList) === 0,
     ),
     flags | NodeFlags.ExpressionNode,
     pos,
@@ -1419,13 +1420,13 @@ function parseArrowFunction(
   );
 }
 
-function parseConciseOrFunctionBody(parser: ParserState, context: Context): FunctionBody | ExpressionNode {
+function parseConciseOrFunctionBody(parser: ParserState, context: Context, isSimpleParameterList: boolean): FunctionBody | ExpressionNode {
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
       context,
       /* isDecl */ true,
-      /* isSimpleParameterList */ true,
+      /* isSimpleParameterList */ isSimpleParameterList,
       /* ignoreMissingOpenBrace */ false
     );
 
@@ -2932,10 +2933,10 @@ function parsentheizedExpression(parser: ParserState, context: Context): Parenth
         ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
         : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
+    flags |= NodeFlags.NoneSimpleParamList;
+
     if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
-
-      flags |= NodeFlags.NoneSimpleParamList;
 
       expression = createFormalParameter(
         /* ellipsisToken */ null,
@@ -6152,9 +6153,11 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         parser.token === SyntaxKind.LeftBracket
           ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
           : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
-      if (parser.token === SyntaxKind.Colon) {
+
+          flags |= NodeFlags.NoneSimpleParamList;
+
+          if (parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
-        flags |= NodeFlags.NoneSimpleParamList;
         expression = createFormalParameter(
           /* ellipsisToken */ null,
           /* binding */ expression as any,
@@ -6245,7 +6248,6 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           destructible = DestructibleKind.None;
 
-          //if ((parser.token as SyntaxKind) !== SyntaxKind.Comma && (parser.token as SyntaxKind) !== SyntaxKind.RightBrace) {
           if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
             destructible |= DestructibleKind.NotDestructible;
             argument = parseAssignmentExpression(parser, context, argument, pos);
