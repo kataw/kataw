@@ -142,7 +142,6 @@ bar ? (x => { return x; }) : baz;
 ### Diagnostics
 
 ```javascript
-✖ A return statement can only be used within a function_body - start: 13, end: 20
-
+✔ No errors
 ```
 

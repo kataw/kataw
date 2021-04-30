@@ -122,7 +122,6 @@ x = x => { return x; } ;
 ### Diagnostics
 
 ```javascript
-✖ A return statement can only be used within a function_body - start: 10, end: 17
-
+✔ No errors
 ```
 

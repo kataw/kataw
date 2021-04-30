@@ -4155,11 +4155,6 @@ foo ? bar : baz => {};
 ### Diagnostics
 
 ```javascript
-✖ A return statement can only be used within a function_body - start: 17, end: 24
-✖ A return statement can only be used within a function_body - start: 37, end: 44
-✖ A return statement can only be used within a function_body - start: 59, end: 66
-✖ A return statement can only be used within a function_body - start: 84, end: 91
-✖ A return statement can only be used within a function_body - start: 116, end: 123
-
+✔ No errors
 ```
 

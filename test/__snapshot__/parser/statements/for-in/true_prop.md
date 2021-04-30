@@ -6,25 +6,6 @@
 for (true.x in c) d;
 `````
 
-## Options
-
-### Parser Options
-
-`````js
-{}
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### Hybrid CST

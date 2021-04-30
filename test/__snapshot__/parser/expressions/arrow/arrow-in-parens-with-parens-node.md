@@ -137,7 +137,6 @@ var asserted1 = <any>((n) => { return n; });
 ### Diagnostics
 
 ```javascript
-✖ A return statement can only be used within a function_body - start: 30, end: 37
-
+✔ No errors
 ```
 
