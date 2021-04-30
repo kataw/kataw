@@ -260,7 +260,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 72, end: 77
+✖ `Await` expression cannot be used in function parameters - start: 72, end: 77
 
 ```
 

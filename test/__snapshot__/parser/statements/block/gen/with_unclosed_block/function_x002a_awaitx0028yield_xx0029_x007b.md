@@ -238,7 +238,6 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Statement expected - start: 14, end: 15
-✖ `Yield` expression cannot be used in function parameters - start: 35, end: 40
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 35, end: 40
 ✖ ',' expected - start: 40, end: 42
 ✖ Unexpected token. - start: 43, end: 45

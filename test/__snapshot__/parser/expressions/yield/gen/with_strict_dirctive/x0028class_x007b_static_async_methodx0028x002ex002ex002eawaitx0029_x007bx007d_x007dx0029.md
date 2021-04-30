@@ -168,7 +168,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 46, end: 51
+✖ `Await` expression cannot be used in function parameters - start: 46, end: 51
 
 ```
 

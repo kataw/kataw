@@ -276,7 +276,6 @@ var await; var f = (async function() { (class { async method(await) {} }) });
 
 ```javascript
 ✖ `Await` expression cannot be used in function parameters - start: 61, end: 66
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 61, end: 66
 
 ```
 

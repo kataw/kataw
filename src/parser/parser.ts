@@ -1046,7 +1046,11 @@ function parseIdentifier(
     if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode],
+        diagnosticMap[
+          context & Context.InFormalParameter
+            ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
+            : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+        ],
         parser.curPos,
         parser.pos
       );
@@ -1055,7 +1059,11 @@ function parseIdentifier(
     if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal],
+        diagnosticMap[
+          context & Context.InFormalParameter
+            ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
+            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+        ],
         parser.curPos,
         parser.pos
       );
@@ -1492,7 +1500,7 @@ function parseArrowFunction(
     returnType,
     parseConciseOrFunctionBody(
       parser,
-      ((context | 0b00000001100000000001111010000000) ^ 0b00000001100000000001111010000000) |
+      ((context | 0b00001001100000000001111010000000) ^ 0b00001001100000000001111010000000) |
         (asyncToken ? Context.InAwaitContext : Context.None),
       (flags & NodeFlags.NoneSimpleParamList) === 0
     ),
@@ -2222,7 +2230,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         }
       }
 
-      const parameter = parseFormalParameter(parser, context);
+      const parameter = parseFormalParameter(parser, context | Context.InFormalParameter);
 
       nodeFlags |= parameter.flags;
 
@@ -3103,7 +3111,7 @@ function parsentheizedExpression(
     }
   } else if (parser.token & SyntaxKind.IsEllipsis) {
     state = Tristate.True;
-    expression = parseFormalParameter(parser, context);
+    expression = parseFormalParameter(parser, context | Context.InFormalParameter);
   } else {
     state = Tristate.False;
     destructible |= DestructibleKind.NotDestructible;
@@ -3272,7 +3280,7 @@ function parsentheizedExpression(
         }
       } else if (parser.token & SyntaxKind.IsEllipsis) {
         state = Tristate.True;
-        expression = parseFormalParameter(parser, context);
+        expression = parseFormalParameter(parser, context | Context.InFormalParameter);
       } else {
         state = Tristate.False;
         destructible |= DestructibleKind.NotDestructible;
@@ -3700,11 +3708,14 @@ function parseFunctionExpression(
   const typeParameters = parseTypeParameters(parser, context);
 
   context =
-    ((context | 0b00000001100000110100011010000000) ^ 0b00000001100000110100011010000000) |
+    ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
     (asyncToken ? Context.InAwaitContext : Context.None) |
     (generatorToken ? Context.InGeneratorContext : Context.None);
 
-  const formalParameterList = parseFormalParameterList(parser, context | Context.Parameters);
+  const formalParameterList = parseFormalParameterList(
+    parser,
+    context | Context.Parameters | Context.InFormalParameter
+  );
   const returnType = parseTypeAnnotation(parser, context);
   const contents = parseFunctionBody(
     parser,
@@ -3850,7 +3861,7 @@ function parseFunctionDeclaration(
   const typeParameters = parseTypeParameters(parser, context);
 
   context =
-    ((context | 0b00000001100000110100011010000000) ^ 0b00000001100000110100011010000000) |
+    ((context | 0b00001001100000110100011010000000) ^ 0b00001001100000110100011010000000) |
     (asyncToken ? Context.InAwaitContext : Context.None) |
     (generatorToken ? Context.InGeneratorContext : Context.None);
 
@@ -4017,23 +4028,6 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
   const pos = parser.curPos;
   let nodeflags = NodeFlags.ExpressionNode;
   const token = parser.token;
-  if (context & Context.InAwaitContext && parser.token === SyntaxKind.AwaitKeyword) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters],
-      parser.curPos,
-      parser.pos
-    );
-  }
-
-  if (context & Context.InGeneratorContext && parser.token === SyntaxKind.YieldKeyword) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters],
-      parser.curPos,
-      parser.pos
-    );
-  }
 
   if (token === SyntaxKind.Ellipsis) {
     const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);

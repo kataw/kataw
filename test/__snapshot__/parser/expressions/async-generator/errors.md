@@ -7727,14 +7727,10 @@ async function * gen() {class C extends await { }}
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 314, end: 320
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 486, end: 492
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 542, end: 548
-✖ `Yield` expression cannot be used in function parameters - start: 676, end: 681
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 676, end: 681
 ✖ `Yield` expression cannot be used in function parameters - start: 734, end: 739
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 734, end: 739
-✖ `Await` expression cannot be used in function parameters - start: 792, end: 797
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 792, end: 797
 ✖ `Await` expression cannot be used in function parameters - start: 850, end: 855
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 850, end: 855
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
 ✖ Expression expected - start: 928, end: 930
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930

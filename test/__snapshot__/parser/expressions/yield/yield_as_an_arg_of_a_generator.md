@@ -105,7 +105,6 @@ function *f(yield){}
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 12, end: 17
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 12, end: 17
 
 ```

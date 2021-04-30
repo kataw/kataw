@@ -285,7 +285,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 71, end: 76
+✖ `Await` expression cannot be used in function parameters - start: 71, end: 76
 
 ```
 

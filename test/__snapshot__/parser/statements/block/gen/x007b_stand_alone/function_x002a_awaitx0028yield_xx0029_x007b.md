@@ -160,7 +160,6 @@
 ### Diagnostics
 
 ```javascript
-✖ `Yield` expression cannot be used in function parameters - start: 19, end: 24
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 19, end: 24
 ✖ ',' expected - start: 24, end: 26
 ✖ Unexpected token. - start: 27, end: 29
