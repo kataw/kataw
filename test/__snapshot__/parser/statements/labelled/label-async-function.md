@@ -32,52 +32,53 @@ label: async function () {}
                 "end": 6
             },
             "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 177,
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 12
-                    },
-                    "functionKeyword": {
-                        "kind": 37822554,
-                        "flags": 0,
-                        "start": 12,
-                        "end": 21
-                    },
-                    "generatorToken": null,
-                    "name": null,
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 21,
-                        "end": 24
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 26,
-                            "end": 26
-                        },
-                        "flags": 32,
-                        "start": 24,
-                        "end": 27
-                    },
-                    "typeParameters": null,
-                    "returnType": null,
-                    "flags": 160,
+                "kind": 176,
+                "declareKeyword": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
                     "start": 6,
+                    "end": 12
+                },
+                "functionKeyword": {
+                    "kind": 37822554,
+                    "flags": 0,
+                    "start": 12,
+                    "end": 21
+                },
+                "generatorToken": null,
+                "name": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 21,
+                    "end": 21
+                },
+                "formalParameters": {
+                    "kind": 214,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 21,
+                    "end": 24
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 26,
+                        "end": 26
+                    },
+                    "flags": 32,
+                    "start": 24,
                     "end": 27
                 },
-                "flags": 16,
+                "typeParameters": null,
+                "returnType": null,
+                "flags": 144,
                 "start": 6,
                 "end": 27
             },
@@ -104,6 +105,8 @@ label: async function () {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
+✖ Binding identifier expected - start: 21, end: 23
+
 ```
 

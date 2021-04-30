@@ -40,30 +40,24 @@ do async
                 "end": 19
             },
             "statement": {
-                "kind": 120,
+                "kind": 131,
                 "expression": {
-                    "kind": 131,
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 2,
-                        "end": 8
-                    },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 2,
-                        "end": 2
-                    },
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 2,
+                    "end": 8
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
                     "flags": 32,
                     "start": 2,
-                    "end": 12
+                    "end": 2
                 },
-                "flags": 16,
+                "flags": 32,
                 "start": 2,
                 "end": 12
             },
@@ -90,6 +84,7 @@ do async
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
+
 ```
 

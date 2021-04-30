@@ -25,6 +25,55 @@ do async ()
                 "end": 2
             },
             "expression": {
+                "kind": 16637,
+                "text": "",
+                "flags": 68,
+                "start": 18,
+                "end": 18
+            },
+            "whileKeyword": null,
+            "statement": {
+                "kind": 271,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 1,
+                    "start": 11,
+                    "end": 15
+                },
+                "typeParameters": null,
+                "parameters": [],
+                "asyncToken": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 2,
+                    "end": 8
+                },
+                "returnType": null,
+                "contents": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 15,
+                    "end": 17
+                },
+                "flags": 288,
+                "start": 2,
+                "end": 17
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 18
+        },
+        {
+            "kind": 154,
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 0,
+                "start": 18,
+                "end": 24
+            },
+            "expression": {
                 "kind": 134299649,
                 "text": "y",
                 "rawText": "y",
@@ -32,49 +81,21 @@ do async ()
                 "start": 25,
                 "end": 26
             },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 0,
-                "start": 18,
-                "end": 24
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 1,
-                        "start": 11,
-                        "end": 15
-                    },
-                    "typeParameters": null,
-                    "parameters": [],
-                    "asyncToken": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 8
-                    },
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 15,
-                        "end": 17
-                    },
-                    "flags": 288,
-                    "start": 2,
-                    "end": 17
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 27,
+                    "end": 27
                 },
                 "flags": 16,
-                "start": 2,
-                "end": 18
+                "start": 27,
+                "end": 27
             },
             "flags": 16,
-            "start": 0,
+            "start": 18,
             "end": 27
         }
     ],
@@ -96,7 +117,10 @@ do async ()
 ### Diagnostics
 
 ```javascript
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Line terminator not permitted before arrow - start: 11, end: 15
+✖ Expression expected - start: 18, end: 24
+✖ Expression expected - start: 27, end: 27
 
 ```
 

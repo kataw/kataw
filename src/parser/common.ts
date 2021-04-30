@@ -28,9 +28,7 @@ export const enum Context {
   InClassBody = 1 << 24,
   AllowImportMeta = 1 << 25,
   LexicalContext = 1 << 26,
-  InFormalParameter = 1 << 27,
-
-  asdds = 0b00000001100000000001111010000000 | Context.InFormalParameter
+  InFormalParameter = 1 << 27
 }
 
 export const enum DestructibleKind {

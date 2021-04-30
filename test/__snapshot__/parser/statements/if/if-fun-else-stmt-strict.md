@@ -1,13 +1,15 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: f
-> :: test: in if
-> :: case: async function *f(){}
+# Kataw parser test case
+
+## Options
+
+`````js
+{ impliedStrict: true }
+`````
+
 ## Input
 
 `````js
-if (x) async function *f(){}
+if (true) function f() {} else ;
 `````
 
 ## Output
@@ -28,49 +30,38 @@ if (x) async function *f(){}
                 "end": 2
             },
             "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "kind": 134,
+                "text": true,
                 "flags": 96,
                 "start": 4,
-                "end": 5
+                "end": 8
             },
             "consequent": {
                 "kind": 176,
                 "declareKeyword": null,
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 6,
-                    "end": 12
-                },
+                "asyncKeyword": null,
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 0,
-                    "start": 12,
-                    "end": 21
+                    "start": 9,
+                    "end": 18
                 },
-                "generatorToken": {
-                    "kind": 67143222,
-                    "flags": 64,
-                    "start": 21,
-                    "end": 23
-                },
+                "generatorToken": null,
                 "name": {
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
-                    "start": 23,
-                    "end": 24
+                    "start": 18,
+                    "end": 20
                 },
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 24,
-                    "end": 26
+                    "start": 20,
+                    "end": 22
                 },
                 "contents": {
                     "kind": 216,
@@ -79,32 +70,42 @@ if (x) async function *f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
-                        "start": 27,
-                        "end": 27
+                        "start": 24,
+                        "end": 24
                     },
                     "flags": 32,
-                    "start": 26,
-                    "end": 28
+                    "start": 22,
+                    "end": 25
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 400,
-                "start": 6,
-                "end": 28
+                "flags": 16,
+                "start": 9,
+                "end": 25
             },
-            "elseKeyword": null,
-            "alternate": null,
+            "elseKeyword": {
+                "kind": 4194389,
+                "flags": 64,
+                "start": 25,
+                "end": 30
+            },
+            "alternate": {
+                "kind": 168,
+                "flags": 16,
+                "start": 30,
+                "end": 32
+            },
             "flags": 16,
             "start": 0,
-            "end": 28
+            "end": 32
         }
     ],
     "isModule": false,
-    "source": "if (x) async function *f(){}",
+    "source": "if (true) function f() {} else ;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 28
+    "end": 32
 }
 ```
 
@@ -117,7 +118,7 @@ if (x) async function *f(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 9, end: 18
 
 ```
 

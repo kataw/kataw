@@ -1452,8 +1452,8 @@ function * x() { "use strict";  yield: 34; }
                     ],
                     "statements": [
                         {
-                            "kind": 120,
-                            "expression": {
+                            "kind": 163,
+                            "label": {
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
@@ -1461,38 +1461,44 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 718,
                                 "end": 725
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 725,
+                                "end": 726
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 201392130,
+                                    "text": 34,
+                                    "rawText": "34",
+                                    "flags": 96,
+                                    "start": 726,
+                                    "end": 729
+                                },
+                                "flags": 16,
+                                "start": 726,
+                                "end": 730
+                            },
                             "flags": 16,
                             "start": 718,
-                            "end": 725
+                            "end": 730
                         }
                     ],
                     "flags": 32,
                     "start": 704,
-                    "end": 725
+                    "end": 730
                 },
                 "flags": 32,
                 "start": 702,
-                "end": 725
+                "end": 732
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 683,
-            "end": 725
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 34,
-                "rawText": "34",
-                "flags": 96,
-                "start": 726,
-                "end": 729
-            },
-            "flags": 16,
-            "start": 726,
-            "end": 730
+            "end": 732
         },
         {
             "kind": 176,
@@ -1643,8 +1649,8 @@ function * x() { "use strict";  yield: 34; }
                     ],
                     "statements": [
                         {
-                            "kind": 120,
-                            "expression": {
+                            "kind": 163,
+                            "label": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
@@ -1659,38 +1665,44 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 806,
                                 "end": 813
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 813,
+                                "end": 814
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 201392130,
+                                    "text": 34,
+                                    "rawText": "34",
+                                    "flags": 96,
+                                    "start": 814,
+                                    "end": 817
+                                },
+                                "flags": 16,
+                                "start": 814,
+                                "end": 818
+                            },
                             "flags": 16,
                             "start": 806,
-                            "end": 813
+                            "end": 818
                         }
                     ],
                     "flags": 32,
                     "start": 792,
-                    "end": 813
+                    "end": 818
                 },
                 "flags": 32,
                 "start": 790,
-                "end": 813
+                "end": 820
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 775,
-            "end": 813
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 34,
-                "rawText": "34",
-                "flags": 96,
-                "start": 814,
-                "end": 817
-            },
-            "flags": 16,
-            "start": 814,
-            "end": 818
+            "end": 820
         }
     ],
     "isModule": false,
@@ -1732,11 +1744,9 @@ function * x() { "use strict";  yield: 34; }
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 628, end: 633
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 672, end: 678
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 718, end: 725
-✖ Statement expected - start: 725, end: 726
-✖ Statement expected - start: 730, end: 732
+✖ Identifier expected. Reserved word in strict mode - start: 718, end: 726
 ✖ Expression expected - start: 772, end: 773
-✖ Statement expected - start: 813, end: 814
-✖ Statement expected - start: 818, end: 820
+✖ Identifier expected. Reserved word in strict mode - start: 806, end: 814
 
 ```
 

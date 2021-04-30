@@ -144,7 +144,8 @@ export const enum DiagnosticCode {
   Without_web_compability_enabled_functions_can_not_be_declared_at_top_level_inside_a_block_or_as_the_body_of_an_if_statement = 142,
   _try_expected = 143,
   Expected_a = 144,
-  Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring = 145
+  Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring = 145,
+  Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords = 146
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -290,5 +291,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [142]: 'Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement',
   [143]: "'try' expected",
   [144]: 'Expected a `;`',
-  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring"
+  [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
+  [146]: 'Unicode escapes at the start of labels should not allow keywords'
 };

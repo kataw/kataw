@@ -116,7 +116,7 @@ async () => { \u{61}wait: x }
 
 ```javascript
 ✖ Expression expected - start: 24, end: 25
-✖ Identifier expected. Reserved word in strict mode - start: 24, end: 25
+✖ Unicode escapes at the start of labels should not allow keywords - start: 13, end: 25
 
 ```
 

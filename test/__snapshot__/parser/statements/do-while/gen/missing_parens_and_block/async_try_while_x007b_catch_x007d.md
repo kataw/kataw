@@ -139,6 +139,7 @@ do async try while { catch } while
 ### Diagnostics
 
 ```javascript
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expression expected - start: 12, end: 18
 ✖ Expression expected - start: 34, end: 34
 ✖ Expression expected - start: 34, end: 34

@@ -72,8 +72,8 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                 "kind": 124,
                                 "statements": [
                                     {
-                                        "kind": 120,
-                                        "expression": {
+                                        "kind": 163,
+                                        "label": {
                                             "kind": 134299649,
                                             "text": "yield",
                                             "rawText": "yield",
@@ -81,47 +81,53 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
                                             "start": 42,
                                             "end": 48
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 0,
+                                            "start": 48,
+                                            "end": 49
+                                        },
+                                        "statement": {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 201392130,
+                                                "text": 12,
+                                                "rawText": "12",
+                                                "flags": 96,
+                                                "start": 49,
+                                                "end": 52
+                                            },
+                                            "flags": 16,
+                                            "start": 49,
+                                            "end": 52
+                                        },
                                         "flags": 16,
                                         "start": 42,
-                                        "end": 48
+                                        "end": 52
                                     }
                                 ],
                                 "flags": 16,
                                 "start": 42,
-                                "end": 48
+                                "end": 52
                             },
                             "flags": 16,
                             "start": 26,
-                            "end": 48
+                            "end": 54
                         }
                     ],
                     "flags": 32,
                     "start": 20,
-                    "end": 48
+                    "end": 54
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 48
+                "end": 56
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
-            "end": 48
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 12,
-                "rawText": "12",
-                "flags": 96,
-                "start": 49,
-                "end": 52
-            },
-            "flags": 16,
-            "start": 49,
-            "end": 52
+            "end": 56
         }
     ],
     "isModule": false,
@@ -142,9 +148,6 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 48, end: 49
-✖ Statement expected - start: 52, end: 54
-✖ Statement expected - start: 54, end: 56
 ✖ Statement expected - start: 56, end: 57
 
 ```

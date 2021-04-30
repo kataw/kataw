@@ -1,13 +1,9 @@
-# Auto-generated test cases ( Kataw )
-- Regenerated: 2021-04-09
-- From: d
-- Path: f
-> :: test: in if
-> :: case: async function *f(){}
+# Kataw parser test case
+
 ## Input
 
 `````js
-if (x) async function *f(){}
+if (false) ; else async function* f() {  }
 `````
 
 ## Output
@@ -28,49 +24,60 @@ if (x) async function *f(){}
                 "end": 2
             },
             "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "kind": 134,
+                "text": false,
                 "flags": 96,
                 "start": 4,
-                "end": 5
+                "end": 9
             },
             "consequent": {
+                "kind": 168,
+                "flags": 16,
+                "start": 10,
+                "end": 12
+            },
+            "elseKeyword": {
+                "kind": 4194389,
+                "flags": 64,
+                "start": 12,
+                "end": 17
+            },
+            "alternate": {
                 "kind": 176,
                 "declareKeyword": null,
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
-                    "start": 6,
-                    "end": 12
+                    "start": 17,
+                    "end": 23
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 0,
-                    "start": 12,
-                    "end": 21
+                    "start": 23,
+                    "end": 32
                 },
                 "generatorToken": {
                     "kind": 67143222,
                     "flags": 64,
-                    "start": 21,
-                    "end": 23
+                    "start": 32,
+                    "end": 33
                 },
                 "name": {
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
-                    "start": 23,
-                    "end": 24
+                    "start": 33,
+                    "end": 35
                 },
                 "formalParameters": {
                     "kind": 214,
                     "formalParameterList": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 24,
-                    "end": 26
+                    "start": 35,
+                    "end": 37
                 },
                 "contents": {
                     "kind": 216,
@@ -79,32 +86,30 @@ if (x) async function *f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
-                        "start": 27,
-                        "end": 27
+                        "start": 39,
+                        "end": 39
                     },
                     "flags": 32,
-                    "start": 26,
-                    "end": 28
+                    "start": 37,
+                    "end": 42
                 },
                 "typeParameters": null,
                 "returnType": null,
                 "flags": 400,
-                "start": 6,
-                "end": 28
+                "start": 17,
+                "end": 42
             },
-            "elseKeyword": null,
-            "alternate": null,
             "flags": 16,
             "start": 0,
-            "end": 28
+            "end": 42
         }
     ],
     "isModule": false,
-    "source": "if (x) async function *f(){}",
+    "source": "if (false) ; else async function* f() {  }",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 28
+    "end": 42
 }
 ```
 
@@ -117,7 +122,7 @@ if (x) async function *f(){}
 ### Diagnostics
 
 ```javascript
-✖ Function declarations are not allowed in an arbitrary statement position. - start: 6, end: 12
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 17, end: 23
 
 ```
 

@@ -2884,8 +2884,8 @@ async function * gen() {class C extends await { }}
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 120,
-                            "expression": {
+                            "kind": 163,
+                            "label": {
                                 "kind": 229,
                                 "yieldKeyword": {
                                     "kind": 8454253,
@@ -2900,38 +2900,44 @@ async function * gen() {class C extends await { }}
                                 "start": 1397,
                                 "end": 1402
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 1402,
+                                "end": 1403
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 201392130,
+                                    "text": 34,
+                                    "rawText": "34",
+                                    "flags": 96,
+                                    "start": 1403,
+                                    "end": 1406
+                                },
+                                "flags": 16,
+                                "start": 1403,
+                                "end": 1406
+                            },
                             "flags": 16,
                             "start": 1397,
-                            "end": 1402
+                            "end": 1406
                         }
                     ],
                     "flags": 32,
                     "start": 1397,
-                    "end": 1402
+                    "end": 1406
                 },
                 "flags": 32,
                 "start": 1395,
-                "end": 1402
+                "end": 1407
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 1372,
-            "end": 1402
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 34,
-                "rawText": "34",
-                "flags": 96,
-                "start": 1403,
-                "end": 1406
-            },
-            "flags": 16,
-            "start": 1403,
-            "end": 1406
+            "end": 1407
         },
         {
             "kind": 176,
@@ -3553,8 +3559,8 @@ async function * gen() {class C extends await { }}
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -3562,32 +3568,38 @@ async function * gen() {class C extends await { }}
                             "start": 1857,
                             "end": 1862
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 1862,
+                            "end": 1863
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 42,
+                                "rawText": "42",
+                                "flags": 96,
+                                "start": 1863,
+                                "end": 1866
+                            },
+                            "flags": 16,
+                            "start": 1863,
+                            "end": 1866
+                        },
                         "flags": 16,
                         "start": 1857,
-                        "end": 1862
+                        "end": 1866
                     }
                 ],
                 "flags": 16,
                 "start": 1857,
-                "end": 1862
-            },
-            "flags": 16,
-            "start": 1856,
-            "end": 1862
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 42,
-                "rawText": "42",
-                "flags": 96,
-                "start": 1863,
                 "end": 1866
             },
             "flags": 16,
-            "start": 1863,
-            "end": 1866
+            "start": 1856,
+            "end": 1867
         },
         {
             "kind": 176,
@@ -3688,8 +3700,8 @@ async function * gen() {class C extends await { }}
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -3697,32 +3709,38 @@ async function * gen() {class C extends await { }}
                             "start": 1916,
                             "end": 1921
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 1921,
+                            "end": 1922
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 42,
+                                "rawText": "42",
+                                "flags": 96,
+                                "start": 1922,
+                                "end": 1925
+                            },
+                            "flags": 16,
+                            "start": 1922,
+                            "end": 1925
+                        },
                         "flags": 16,
                         "start": 1916,
-                        "end": 1921
+                        "end": 1925
                     }
                 ],
                 "flags": 16,
                 "start": 1916,
-                "end": 1921
-            },
-            "flags": 16,
-            "start": 1914,
-            "end": 1921
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 42,
-                "rawText": "42",
-                "flags": 96,
-                "start": 1922,
                 "end": 1925
             },
             "flags": 16,
-            "start": 1922,
-            "end": 1925
+            "start": 1914,
+            "end": 1926
         },
         {
             "kind": 176,
@@ -7745,8 +7763,6 @@ async function * gen() {class C extends await { }}
 ✖ Expression expected - start: 1194, end: 1195
 ✖ Expression expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1368, end: 1370
-✖ Statement expected - start: 1402, end: 1403
-✖ Statement expected - start: 1406, end: 1407
 ✖ Expected a `;` - start: 1527, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
@@ -7755,13 +7771,9 @@ async function * gen() {class C extends await { }}
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
 ✖ Statement expected - start: 1854, end: 1855
-✖ Statement expected - start: 1862, end: 1863
-✖ Statement expected - start: 1866, end: 1867
 ✖ Statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ Statement expected - start: 1898, end: 1913
-✖ Statement expected - start: 1921, end: 1922
-✖ Statement expected - start: 1925, end: 1926
 ✖ Statement expected - start: 1926, end: 1927
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2076, end: 2081
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2121, end: 2126

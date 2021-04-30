@@ -36,64 +36,59 @@ while (x) async function *f(){}
                 "end": 8
             },
             "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 177,
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 15
-                    },
-                    "functionKeyword": {
-                        "kind": 37822554,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 24
-                    },
-                    "generatorToken": {
-                        "kind": 67143222,
-                        "flags": 64,
-                        "start": 24,
-                        "end": 26
-                    },
-                    "name": {
-                        "kind": 134299649,
-                        "text": "f",
-                        "rawText": "f",
-                        "flags": 96,
-                        "start": 26,
-                        "end": 27
-                    },
-                    "formalParameters": {
-                        "kind": 214,
-                        "formalParameterList": [],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 27,
-                        "end": 29
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 30,
-                            "end": 30
-                        },
-                        "flags": 32,
-                        "start": 29,
-                        "end": 31
-                    },
-                    "typeParameters": null,
-                    "returnType": null,
-                    "flags": 416,
+                "kind": 176,
+                "declareKeyword": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
                     "start": 9,
+                    "end": 15
+                },
+                "functionKeyword": {
+                    "kind": 37822554,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 24
+                },
+                "generatorToken": {
+                    "kind": 67143222,
+                    "flags": 64,
+                    "start": 24,
+                    "end": 26
+                },
+                "name": {
+                    "kind": 134299649,
+                    "text": "f",
+                    "rawText": "f",
+                    "flags": 96,
+                    "start": 26,
+                    "end": 27
+                },
+                "formalParameters": {
+                    "kind": 214,
+                    "formalParameterList": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 27,
+                    "end": 29
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 30,
+                        "end": 30
+                    },
+                    "flags": 32,
+                    "start": 29,
                     "end": 31
                 },
-                "flags": 16,
+                "typeParameters": null,
+                "returnType": null,
+                "flags": 400,
                 "start": 9,
                 "end": 31
             },
@@ -120,6 +115,7 @@ while (x) async function *f(){}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 9, end: 15
+
 ```
 

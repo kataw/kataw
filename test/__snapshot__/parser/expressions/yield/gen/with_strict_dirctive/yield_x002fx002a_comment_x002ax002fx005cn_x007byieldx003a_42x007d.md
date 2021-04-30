@@ -62,8 +62,8 @@
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -71,32 +71,38 @@
                             "start": 37,
                             "end": 42
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 42,
+                            "end": 43
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 42,
+                                "rawText": "42",
+                                "flags": 96,
+                                "start": 43,
+                                "end": 46
+                            },
+                            "flags": 16,
+                            "start": 43,
+                            "end": 46
+                        },
                         "flags": 16,
                         "start": 37,
-                        "end": 42
+                        "end": 46
                     }
                 ],
                 "flags": 16,
                 "start": 37,
-                "end": 42
-            },
-            "flags": 16,
-            "start": 35,
-            "end": 42
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 42,
-                "rawText": "42",
-                "flags": 96,
-                "start": 43,
                 "end": 46
             },
             "flags": 16,
-            "start": 43,
-            "end": 46
+            "start": 35,
+            "end": 47
         }
     ],
     "isModule": false,
@@ -121,8 +127,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 19, end: 33
 ✖ Statement expected - start: 19, end: 34
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 42
-✖ Statement expected - start: 42, end: 43
-✖ Statement expected - start: 46, end: 47
+✖ Identifier expected. Reserved word in strict mode - start: 37, end: 43
 
 ```
 

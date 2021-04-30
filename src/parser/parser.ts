@@ -359,6 +359,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
       return parseSwitchStatement(parser, context);
     case SyntaxKind.WithKeyword:
       return parseWithStatement(parser, context);
+    case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       // FunctionDeclaration are only allowed as a StatementListItem, not in
       // an arbitrary Statement position.
@@ -713,11 +714,58 @@ export function parseLabelledStatement(
   context: Context,
   expr: Identifier,
   token: SyntaxKind,
+  flags: NodeFlags,
   allowFunction: boolean,
   pos: number
 ): LabelledStatement {
-  // Validate labeled identifier
-  validateIdentifier(parser, context, token);
+  // Unicode escapes at the start of labels should not allow keywords
+
+  if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords],
+      pos,
+      parser.pos
+    );
+  } else if (context & Context.Strict && (token === SyntaxKind.AsyncKeyword || token === SyntaxKind.YieldExpression)) {
+    if (context & (Context.InAwaitContext | Context.Module) && (token as SyntaxKind) === SyntaxKind.AwaitKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        pos,
+        parser.pos
+      );
+    }
+
+    if (context & (Context.InGeneratorContext | Context.Strict) && (token as SyntaxKind) === SyntaxKind.YieldKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        pos,
+        parser.pos
+      );
+    }
+  } else {
+    // a duplicate diagnostic will be generated without this 'else'
+    if (context & Context.Strict) {
+      if (token & SyntaxKind.IsFutureReserved) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+          pos,
+          parser.pos
+        );
+      }
+    }
+    if ((token & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        pos,
+        parser.pos
+      );
+    }
+  }
 
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
@@ -1010,11 +1058,10 @@ export function parseExpressionOrLabelledStatement(
   context: Context,
   allowFunction: boolean
 ): LabelledStatement | ExpressionStatement {
-  const { token, curPos } = parser;
+  const { token, curPos, nodeFlags } = parser;
   const expr = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
-
-  return token & SyntaxKind.IsIdentifier && parser.token === SyntaxKind.Colon
-    ? parseLabelledStatement(parser, context, expr as Identifier, token, allowFunction, curPos)
+  return token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier) && parser.token === SyntaxKind.Colon
+    ? parseLabelledStatement(parser, context, expr as Identifier, token, nodeFlags, allowFunction, curPos)
     : parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expr, curPos), curPos);
 }
 
@@ -3786,6 +3833,7 @@ function parseFunctionDeclaration(
           context,
           expression,
           SyntaxKind.AsyncKeyword,
+          NodeFlags.IsStatement,
           /* allowFunction */ true,
           pos
         );
@@ -4892,6 +4940,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       context,
       expr as Identifier,
       SyntaxKind.DeclareKeyword,
+      NodeFlags.IsStatement,
       /* allowFunction */ true,
       pos
     );
@@ -4959,6 +5008,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       context,
       expr as Identifier,
       SyntaxKind.TypeKeyword,
+      NodeFlags.IsStatement,
       /* allowFunction */ true,
       pos
     );
@@ -5023,6 +5073,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       context,
       expr as Identifier,
       SyntaxKind.LetKeyword,
+      NodeFlags.IsStatement,
       /* allowFunction */ true,
       pos
     );
@@ -6567,6 +6618,7 @@ function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: 
       context,
       expr as Identifier,
       SyntaxKind.OpaqueKeyword,
+      NodeFlags.IsStatement,
       /* allowFunction */ true,
       pos
     );

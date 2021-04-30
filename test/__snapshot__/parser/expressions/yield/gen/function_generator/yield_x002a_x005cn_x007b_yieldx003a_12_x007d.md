@@ -173,8 +173,8 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -182,32 +182,38 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             "start": 52,
                             "end": 58
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 58,
+                            "end": 59
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 12,
+                                "rawText": "12",
+                                "flags": 96,
+                                "start": 59,
+                                "end": 62
+                            },
+                            "flags": 16,
+                            "start": 59,
+                            "end": 62
+                        },
                         "flags": 16,
                         "start": 52,
-                        "end": 58
+                        "end": 62
                     }
                 ],
                 "flags": 16,
                 "start": 52,
-                "end": 58
-            },
-            "flags": 16,
-            "start": 50,
-            "end": 58
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 12,
-                "rawText": "12",
-                "flags": 96,
-                "start": 59,
                 "end": 62
             },
             "flags": 16,
-            "start": 59,
-            "end": 62
+            "start": 50,
+            "end": 64
         }
     ],
     "isModule": false,
@@ -231,8 +237,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 ✖ Invalid hexadecimal escape sequence - start: 47, end: 48
 ✖ Expression expected - start: 47, end: 49
 ✖ Statement expected - start: 47, end: 49
-✖ Statement expected - start: 58, end: 59
-✖ Statement expected - start: 62, end: 64
 ✖ Statement expected - start: 64, end: 66
 ✖ Statement expected - start: 66, end: 67
 

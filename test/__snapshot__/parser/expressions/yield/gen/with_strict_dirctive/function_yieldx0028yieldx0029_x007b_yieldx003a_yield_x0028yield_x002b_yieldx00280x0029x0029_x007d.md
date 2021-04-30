@@ -81,8 +81,8 @@
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 120,
-                            "expression": {
+                            "kind": 163,
+                            "label": {
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
@@ -90,104 +90,110 @@
                                 "start": 37,
                                 "end": 43
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 43,
+                                "end": 44
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 131,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 44,
+                                        "end": 50
+                                    },
+                                    "argumentList": {
+                                        "kind": 256,
+                                        "elements": [
+                                            {
+                                                "kind": 198,
+                                                "left": {
+                                                    "kind": 134299649,
+                                                    "text": "yield",
+                                                    "rawText": "yield",
+                                                    "flags": 96,
+                                                    "start": 52,
+                                                    "end": 57
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 34098,
+                                                    "flags": 64,
+                                                    "start": 57,
+                                                    "end": 59
+                                                },
+                                                "right": {
+                                                    "kind": 131,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "yield",
+                                                        "rawText": "yield",
+                                                        "flags": 96,
+                                                        "start": 59,
+                                                        "end": 65
+                                                    },
+                                                    "argumentList": {
+                                                        "kind": 256,
+                                                        "elements": [
+                                                            {
+                                                                "kind": 201392130,
+                                                                "text": 0,
+                                                                "rawText": "0",
+                                                                "flags": 96,
+                                                                "start": 66,
+                                                                "end": 67
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 66,
+                                                        "end": 67
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 59,
+                                                    "end": 68
+                                                },
+                                                "flags": 32,
+                                                "start": 52,
+                                                "end": 68
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 52,
+                                        "end": 68
+                                    },
+                                    "flags": 32,
+                                    "start": 44,
+                                    "end": 69
+                                },
+                                "flags": 16,
+                                "start": 44,
+                                "end": 70
+                            },
                             "flags": 16,
                             "start": 37,
-                            "end": 43
+                            "end": 70
                         }
                     ],
                     "flags": 32,
                     "start": 37,
-                    "end": 43
+                    "end": 70
                 },
                 "flags": 32,
                 "start": 35,
-                "end": 43
+                "end": 72
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 13,
-            "end": 43
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 96,
-                    "start": 44,
-                    "end": 50
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 198,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "yield",
-                                "rawText": "yield",
-                                "flags": 96,
-                                "start": 52,
-                                "end": 57
-                            },
-                            "operatorToken": {
-                                "kind": 34098,
-                                "flags": 64,
-                                "start": 57,
-                                "end": 59
-                            },
-                            "right": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 59,
-                                    "end": 65
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 66,
-                                            "end": 67
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 66,
-                                    "end": 67
-                                },
-                                "flags": 32,
-                                "start": 59,
-                                "end": 68
-                            },
-                            "flags": 32,
-                            "start": 52,
-                            "end": 68
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 52,
-                    "end": 68
-                },
-                "flags": 32,
-                "start": 44,
-                "end": 69
-            },
-            "flags": 16,
-            "start": 44,
-            "end": 70
+            "end": 72
         }
     ],
     "isModule": false,
@@ -213,11 +219,11 @@
 ✖ Identifier expected. Reserved word in strict mode - start: 29, end: 34
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 29, end: 34
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
-✖ Statement expected - start: 43, end: 44
+✖ Identifier expected. Reserved word in strict mode - start: 37, end: 44
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 44, end: 50
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 44, end: 50
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 52, end: 57
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 59, end: 65
-✖ Statement expected - start: 70, end: 72
 
 ```
 

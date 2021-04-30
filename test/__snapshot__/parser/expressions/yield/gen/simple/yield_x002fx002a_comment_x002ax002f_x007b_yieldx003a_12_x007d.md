@@ -39,8 +39,8 @@ yield /* comment */ { yield: 12 }
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -48,32 +48,38 @@ yield /* comment */ { yield: 12 }
                             "start": 21,
                             "end": 27
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 27,
+                            "end": 28
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 12,
+                                "rawText": "12",
+                                "flags": 96,
+                                "start": 28,
+                                "end": 31
+                            },
+                            "flags": 16,
+                            "start": 28,
+                            "end": 31
+                        },
                         "flags": 16,
                         "start": 21,
-                        "end": 27
+                        "end": 31
                     }
                 ],
                 "flags": 16,
                 "start": 21,
-                "end": 27
-            },
-            "flags": 16,
-            "start": 5,
-            "end": 27
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 12,
-                "rawText": "12",
-                "flags": 96,
-                "start": 28,
                 "end": 31
             },
             "flags": 16,
-            "start": 28,
-            "end": 31
+            "start": 5,
+            "end": 33
         }
     ],
     "isModule": false,
@@ -94,8 +100,6 @@ yield /* comment */ { yield: 12 }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 27, end: 28
-✖ Statement expected - start: 31, end: 33
-
+✔ No errors
 ```
 

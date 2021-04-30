@@ -121,6 +121,7 @@ do async
 ### Diagnostics
 
 ```javascript
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expression expected - start: 12, end: 13
 ✖ Expression expected - start: 26, end: 26
 

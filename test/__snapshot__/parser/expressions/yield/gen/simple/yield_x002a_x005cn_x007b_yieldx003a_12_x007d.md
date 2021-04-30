@@ -72,8 +72,8 @@ yield * \n { yield: 12 }
                 "kind": 124,
                 "statements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 163,
+                        "label": {
                             "kind": 134299649,
                             "text": "yield",
                             "rawText": "yield",
@@ -81,32 +81,38 @@ yield * \n { yield: 12 }
                             "start": 12,
                             "end": 18
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 0,
+                            "start": 18,
+                            "end": 19
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 12,
+                                "rawText": "12",
+                                "flags": 96,
+                                "start": 19,
+                                "end": 22
+                            },
+                            "flags": 16,
+                            "start": 19,
+                            "end": 22
+                        },
                         "flags": 16,
                         "start": 12,
-                        "end": 18
+                        "end": 22
                     }
                 ],
                 "flags": 16,
                 "start": 12,
-                "end": 18
-            },
-            "flags": 16,
-            "start": 10,
-            "end": 18
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392130,
-                "text": 12,
-                "rawText": "12",
-                "flags": 96,
-                "start": 19,
                 "end": 22
             },
             "flags": 16,
-            "start": 19,
-            "end": 22
+            "start": 10,
+            "end": 24
         }
     ],
     "isModule": false,
@@ -130,8 +136,6 @@ yield * \n { yield: 12 }
 ✖ Invalid hexadecimal escape sequence - start: 7, end: 8
 ✖ Expression expected - start: 7, end: 9
 ✖ Statement expected - start: 7, end: 9
-✖ Statement expected - start: 18, end: 19
-✖ Statement expected - start: 22, end: 24
 
 ```
 

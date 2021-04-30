@@ -72,8 +72,8 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                     "directives": [],
                     "statements": [
                         {
-                            "kind": 120,
-                            "expression": {
+                            "kind": 163,
+                            "label": {
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",
@@ -81,104 +81,110 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                 "start": 23,
                                 "end": 29
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 0,
+                                "start": 29,
+                                "end": 30
+                            },
+                            "statement": {
+                                "kind": 120,
+                                "expression": {
+                                    "kind": 131,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 30,
+                                        "end": 36
+                                    },
+                                    "argumentList": {
+                                        "kind": 256,
+                                        "elements": [
+                                            {
+                                                "kind": 198,
+                                                "left": {
+                                                    "kind": 134299649,
+                                                    "text": "yield",
+                                                    "rawText": "yield",
+                                                    "flags": 96,
+                                                    "start": 38,
+                                                    "end": 43
+                                                },
+                                                "operatorToken": {
+                                                    "kind": 34098,
+                                                    "flags": 64,
+                                                    "start": 43,
+                                                    "end": 45
+                                                },
+                                                "right": {
+                                                    "kind": 131,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "yield",
+                                                        "rawText": "yield",
+                                                        "flags": 96,
+                                                        "start": 45,
+                                                        "end": 51
+                                                    },
+                                                    "argumentList": {
+                                                        "kind": 256,
+                                                        "elements": [
+                                                            {
+                                                                "kind": 201392130,
+                                                                "text": 0,
+                                                                "rawText": "0",
+                                                                "flags": 96,
+                                                                "start": 52,
+                                                                "end": 53
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 52,
+                                                        "end": 53
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 45,
+                                                    "end": 54
+                                                },
+                                                "flags": 32,
+                                                "start": 38,
+                                                "end": 54
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 38,
+                                        "end": 54
+                                    },
+                                    "flags": 32,
+                                    "start": 30,
+                                    "end": 55
+                                },
+                                "flags": 16,
+                                "start": 30,
+                                "end": 56
+                            },
                             "flags": 16,
                             "start": 23,
-                            "end": 29
+                            "end": 56
                         }
                     ],
                     "flags": 32,
                     "start": 23,
-                    "end": 29
+                    "end": 56
                 },
                 "flags": 32,
                 "start": 21,
-                "end": 29
+                "end": 58
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 96,
-                    "start": 30,
-                    "end": 36
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 198,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "yield",
-                                "rawText": "yield",
-                                "flags": 96,
-                                "start": 38,
-                                "end": 43
-                            },
-                            "operatorToken": {
-                                "kind": 34098,
-                                "flags": 64,
-                                "start": 43,
-                                "end": 45
-                            },
-                            "right": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 45,
-                                    "end": 51
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 52,
-                                            "end": 53
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 52,
-                                    "end": 53
-                                },
-                                "flags": 32,
-                                "start": 45,
-                                "end": 54
-                            },
-                            "flags": 32,
-                            "start": 38,
-                            "end": 54
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 38,
-                    "end": 54
-                },
-                "flags": 32,
-                "start": 30,
-                "end": 55
-            },
-            "flags": 16,
-            "start": 30,
-            "end": 56
+            "end": 58
         }
     ],
     "isModule": false,
@@ -199,8 +205,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 29, end: 30
-✖ Statement expected - start: 56, end: 58
-
+✔ No errors
 ```
 

@@ -130,6 +130,7 @@ do async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expression expected - start: 25, end: 25
 ✖ Expression expected - start: 25, end: 25
 
