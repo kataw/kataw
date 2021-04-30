@@ -175,6 +175,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 43, end: 48
 ✖ Identifier expected. Reserved word in strict mode - start: 48, end: 50
 
 ```

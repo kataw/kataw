@@ -139,6 +139,7 @@
 
 ```javascript
 ✖ Identifier expected. Reserved word in strict mode - start: 34, end: 40
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 34, end: 40
 
 ```
 

@@ -7718,14 +7718,23 @@ async function * gen() {class C extends await { }}
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 43, end: 49
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 84, end: 90
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 125, end: 131
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 173, end: 178
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 224, end: 229
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 268, end: 274
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 314, end: 320
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 486, end: 492
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 542, end: 548
 ✖ `Yield` expression cannot be used in function parameters - start: 676, end: 681
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 676, end: 681
 ✖ `Yield` expression cannot be used in function parameters - start: 734, end: 739
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 734, end: 739
 ✖ `Await` expression cannot be used in function parameters - start: 792, end: 797
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 792, end: 797
 ✖ `Await` expression cannot be used in function parameters - start: 850, end: 855
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 850, end: 855
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 892, end: 894
 ✖ Expression expected - start: 928, end: 930
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 928, end: 930
@@ -7758,29 +7767,37 @@ async function * gen() {class C extends await { }}
 ✖ Statement expected - start: 1921, end: 1922
 ✖ Statement expected - start: 1925, end: 1926
 ✖ Statement expected - start: 1926, end: 1927
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2076, end: 2081
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2121, end: 2126
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2170, end: 2176
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2223, end: 2229
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2274, end: 2276
 ✖ Expression expected - start: 2314, end: 2315
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2315, end: 2317
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2360, end: 2362
 ✖ Expression expected - start: 2408, end: 2409
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2409, end: 2411
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2509, end: 2514
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Statement expected - start: 2517, end: 2518
 ✖ Statement expected - start: 2518, end: 2520
 ✖ Statement expected - start: 2526, end: 2527
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2557, end: 2562
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Statement expected - start: 2565, end: 2566
 ✖ Statement expected - start: 2566, end: 2568
 ✖ Statement expected - start: 2574, end: 2575
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2609, end: 2615
 ✖ ',' expected - start: 2615, end: 2618
 ✖ Missing initializer in destructuring declaration - start: 2615, end: 2618
 ✖ ',' expected - start: 2615, end: 2618
 ✖ Statement expected - start: 2619, end: 2621
 ✖ Statement expected - start: 2630, end: 2631
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
 ✖ Missing initializer in destructuring declaration - start: 2671, end: 2674
 ✖ ',' expected - start: 2671, end: 2674

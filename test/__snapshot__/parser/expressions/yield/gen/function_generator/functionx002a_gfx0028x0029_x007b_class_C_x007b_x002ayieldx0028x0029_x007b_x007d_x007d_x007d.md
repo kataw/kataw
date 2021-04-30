@@ -280,6 +280,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 68, end: 73
+
 ```
 

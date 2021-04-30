@@ -211,7 +211,12 @@
 ✖ Identifier expected. Reserved word in strict mode - start: 22, end: 28
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 22, end: 28
 ✖ Identifier expected. Reserved word in strict mode - start: 29, end: 34
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 29, end: 34
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
 ✖ Statement expected - start: 43, end: 44
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 44, end: 50
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 52, end: 57
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 59, end: 65
 ✖ Statement expected - start: 70, end: 72
 
 ```

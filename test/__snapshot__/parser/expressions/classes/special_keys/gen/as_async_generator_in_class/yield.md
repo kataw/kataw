@@ -131,6 +131,7 @@ class x {async * yield(){}}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 16, end: 22
+
 ```
 

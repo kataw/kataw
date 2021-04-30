@@ -161,6 +161,7 @@ class x{[yield](a){}}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 9, end: 14
+
 ```
 

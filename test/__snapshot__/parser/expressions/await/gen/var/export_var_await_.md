@@ -218,6 +218,7 @@ var await; var f = (async function() { export var await; });
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 38, end: 45
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 49, end: 55
 
 ```
 

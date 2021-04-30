@@ -119,6 +119,7 @@
 
 ```javascript
 ✖ `Yield` expression cannot be used in function parameters - start: 9, end: 14
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 9, end: 14
 
 ```
 

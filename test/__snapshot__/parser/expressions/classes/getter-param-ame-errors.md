@@ -1014,6 +1014,7 @@ class C { get name(private) {} }
 ✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
 ✖ Identifier expected. Reserved word in strict mode - start: 188, end: 193
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 188, end: 193
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Unexpected token. - start: 234, end: 237
 ✖ Statement expected - start: 237, end: 238

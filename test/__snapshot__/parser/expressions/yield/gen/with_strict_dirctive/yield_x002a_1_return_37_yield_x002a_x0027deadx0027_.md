@@ -135,7 +135,9 @@
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
 ✖ A return statement can only be used within a function_body - start: 24, end: 31
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 35, end: 41
 
 ```
 

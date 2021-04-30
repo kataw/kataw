@@ -122,6 +122,7 @@ class A {*yield() {}}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 10, end: 15
+
 ```
 

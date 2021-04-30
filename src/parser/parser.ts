@@ -1043,6 +1043,33 @@ function parseIdentifier(
       ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
       : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
   ) {
+    if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    // 'let' followed by '[' means a lexical declaration, which should not appear here.
+    if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
+        parser.curPos,
+        parser.pos
+      );
+    }
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }

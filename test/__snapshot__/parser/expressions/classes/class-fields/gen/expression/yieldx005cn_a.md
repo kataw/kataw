@@ -140,6 +140,7 @@ class C extends Base { yield\n a }
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 28
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 22, end: 28
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 28
 ✖ Statement expected - start: 28, end: 29
 ✖ Statement expected - start: 32, end: 34

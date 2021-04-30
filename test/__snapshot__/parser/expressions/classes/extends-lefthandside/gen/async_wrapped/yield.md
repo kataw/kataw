@@ -144,6 +144,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
+
 ```
 

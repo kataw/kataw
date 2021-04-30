@@ -118,6 +118,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 21
+
 ```
 

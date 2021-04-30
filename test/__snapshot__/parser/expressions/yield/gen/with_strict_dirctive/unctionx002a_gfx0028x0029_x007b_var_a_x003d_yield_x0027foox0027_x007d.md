@@ -168,6 +168,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
 ✖ ',' expected - start: 43, end: 49
 
 ```

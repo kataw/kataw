@@ -179,6 +179,7 @@ function* gf() { class C { *yield() { } } }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 28, end: 33
+
 ```
 

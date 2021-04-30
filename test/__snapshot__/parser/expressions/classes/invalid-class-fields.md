@@ -3390,8 +3390,10 @@
 ✖ Statement expected - start: 237, end: 238
 ✖ Unexpected token. - start: 256, end: 257
 ✖ Expression expected - start: 257, end: 258
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 270, end: 275
 ✖ Unexpected token. - start: 280, end: 281
 ✖ Expression expected - start: 281, end: 282
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 294, end: 299
 ✖ Statement expected - start: 302, end: 305
 ✖ Statement expected - start: 308, end: 309
 ✖ Statement expected - start: 309, end: 310

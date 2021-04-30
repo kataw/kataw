@@ -105,6 +105,7 @@ class x {yield: x}
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 9, end: 14
 ✖ Statement expected - start: 14, end: 15
 ✖ Statement expected - start: 17, end: 18
 

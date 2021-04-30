@@ -175,6 +175,7 @@
 
 ```javascript
 ✖ `Yield` expression cannot be used in function parameters - start: 20, end: 25
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 20, end: 25
 ✖ ',' expected - start: 25, end: 27
 ✖ Unexpected token. - start: 28, end: 30
 ✖ ',' expected - start: 28, end: 30

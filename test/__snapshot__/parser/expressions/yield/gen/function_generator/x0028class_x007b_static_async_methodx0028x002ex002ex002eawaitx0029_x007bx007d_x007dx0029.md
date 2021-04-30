@@ -260,6 +260,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 72, end: 77
+
 ```
 

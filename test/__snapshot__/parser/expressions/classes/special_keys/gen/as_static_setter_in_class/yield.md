@@ -150,6 +150,7 @@ class x {static set yield(x){}}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 19, end: 25
+
 ```
 

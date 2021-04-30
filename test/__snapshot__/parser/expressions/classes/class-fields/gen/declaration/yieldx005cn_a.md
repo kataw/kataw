@@ -120,6 +120,7 @@ class C { yield\n a }
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 15
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 9, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 15, end: 15
 ✖ Statement expected - start: 15, end: 16
 ✖ Statement expected - start: 19, end: 21

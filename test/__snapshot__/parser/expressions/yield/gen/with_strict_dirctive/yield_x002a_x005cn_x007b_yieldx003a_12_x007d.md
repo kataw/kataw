@@ -136,9 +136,11 @@
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 22
 ✖ Expression expected - start: 21, end: 23
 ✖ Statement expected - start: 21, end: 23
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 26, end: 32
 ✖ Statement expected - start: 32, end: 33
 ✖ Statement expected - start: 36, end: 38
 

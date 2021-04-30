@@ -150,6 +150,7 @@
 
 ```javascript
 ✖ `Await` expression cannot be used in function parameters - start: 22, end: 27
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 22, end: 27
 
 ```
 

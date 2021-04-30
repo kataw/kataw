@@ -217,6 +217,7 @@ var await; var f = (async function() { ({ await: async }) });
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 41, end: 47
+
 ```
 
