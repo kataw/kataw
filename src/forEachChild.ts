@@ -11,7 +11,7 @@ import { NodeFlags, SyntaxKind } from './ast/syntax-node';
  *
  */
 
-export function forEachChild(node: any, visitor: (node: Node) => Node): any {
+export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKind): any {
   const kind = node.kind;
 
   // Childless AST nodes - nodes without any children.
@@ -364,14 +364,14 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
   }
 }
 
-function visitNode(node: Node, parentNode: any, visitor: (node: Node, parentNode: Node) => Node): Node | undefined {
+function visitNode(node: SyntaxKind, parentNode: any, visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind): SyntaxKind | undefined {
   if (node === null) return node;
   return visitor(node, parentNode);
 }
 
 
 
-function visitNodes(nodes: any[], parentNode: Node, visitor: (node: Node, parentNode: Node) => Node): Node[] | void {
+function visitNodes(nodes: any[], parentNode: SyntaxKind, visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind): SyntaxKind[] | void {
 
   if (nodes === null || visitor === null) return nodes;
 
