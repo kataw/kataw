@@ -43,30 +43,38 @@ for (var r == y in x );
                 "end": 3
             },
             "initializer": {
-                "kind": 198,
-                "left": {
-                    "kind": 156,
-                    "declarations": [
-                        {
-                            "kind": 157,
-                            "binding": {
-                                "kind": 134299649,
-                                "text": "r",
-                                "rawText": "r",
-                                "flags": 96,
-                                "start": 8,
-                                "end": 10
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 16,
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "r",
+                            "rawText": "r",
+                            "flags": 96,
                             "start": 8,
                             "end": 10
-                        }
-                    ],
-                    "flags": 16,
-                    "start": 8,
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 16,
+                        "start": 8,
+                        "end": 10
+                    }
+                ],
+                "flags": 16,
+                "start": 8,
+                "end": 10
+            },
+            "condition": null,
+            "incrementor": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 10,
                     "end": 10
                 },
                 "operatorToken": {
@@ -104,15 +112,7 @@ for (var r == y in x );
                     "end": 20
                 },
                 "flags": 32,
-                "start": 0,
-                "end": 20
-            },
-            "condition": null,
-            "incrementor": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
-                "start": 20,
+                "start": 10,
                 "end": 20
             },
             "statement": {
@@ -145,7 +145,7 @@ for (var r == y in x );
 
 ```javascript
 ✖ ',' expected - start: 10, end: 13
-✖ Expression expected - start: 20, end: 22
+✖ Expression expected - start: 10, end: 13
 
 ```
 

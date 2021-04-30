@@ -90,7 +90,6 @@ async (x, ...a)=>0;
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 15, end: 17
-
+✔ No errors
 ```
 

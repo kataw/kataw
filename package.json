@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "An insane fast Javascript toolchain supporting both Javascript and Typescript",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",
@@ -21,12 +21,14 @@
   "keywords": [
     "lightweight",
     "es2021",
+    "es2022",
     "ast",
     "performance",
     "parsing",
+    "cst",
+    "concrete syntax",
     "parser",
     "ecmascript",
-    "typescript",
     "javascript",
     "minify",
     "transform"

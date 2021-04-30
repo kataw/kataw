@@ -132,7 +132,6 @@
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 46, end: 49
-
+✔ No errors
 ```
 

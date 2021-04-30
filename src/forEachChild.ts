@@ -364,15 +364,20 @@ export function forEachChild(node: any, visitor: (node: SyntaxKind) => SyntaxKin
   }
 }
 
-function visitNode(node: SyntaxKind, parentNode: any, visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind): SyntaxKind | undefined {
+function visitNode(
+  node: SyntaxKind,
+  parentNode: any,
+  visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind
+): SyntaxKind | undefined {
   if (node === null) return node;
   return visitor(node, parentNode);
 }
 
-
-
-function visitNodes(nodes: any[], parentNode: SyntaxKind, visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind): SyntaxKind[] | void {
-
+function visitNodes(
+  nodes: any[],
+  parentNode: SyntaxKind,
+  visitor: (node: SyntaxKind, parentNode: SyntaxKind) => SyntaxKind
+): SyntaxKind[] | void {
   if (nodes === null || visitor === null) return nodes;
 
   const length = nodes.length;
