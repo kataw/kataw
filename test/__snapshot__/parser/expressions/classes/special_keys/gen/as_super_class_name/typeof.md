@@ -107,6 +107,7 @@ class x extends typeof {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 22, end: 24
+
 ```
 

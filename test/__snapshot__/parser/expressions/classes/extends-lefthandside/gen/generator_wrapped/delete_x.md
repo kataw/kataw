@@ -156,6 +156,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
+✖ Expression expected - start: 39, end: 41
 ✖ 'delete' cannot be called on an identifier in strict mode. - start: 41, end: 43
 
 ```
