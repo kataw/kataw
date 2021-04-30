@@ -20,9 +20,9 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
   // Switch - Frequently used nodes first
   switch (kind) {
     case SyntaxKind.RootNode:
-      return visitNodes(node.directives, node, visitor) || visitNodes(node.statements, node, visitor);
+      return visitNodes(node.statements, node, visitor);
     case SyntaxKind.FunctionStatementList:
-      return visitNodes(node.directives, node, visitor) || visitNodes(node.statements, node, visitor);
+      return visitNodes(node.statements, node, visitor);
     case SyntaxKind.FunctionBody:
       return visitNode(node.functionStatementList, node, visitor);
     case SyntaxKind.FormalParameterList:
@@ -369,7 +369,10 @@ function visitNode(node: Node, parentNode: any, visitor: (node: Node, parentNode
   return visitor(node, parentNode);
 }
 
-function visitNodes(nodes: Node[], parentNode: Node, visitor: (node: Node, parentNode: Node) => Node): Node[] | void {
+
+
+function visitNodes(nodes: any[], parentNode: Node, visitor: (node: Node, parentNode: Node) => Node): Node[] | void {
+
   if (nodes === null || visitor === null) return nodes;
 
   const length = nodes.length;
