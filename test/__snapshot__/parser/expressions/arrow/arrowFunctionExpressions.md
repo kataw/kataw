@@ -1752,6 +1752,9 @@ var p10 = ([{ value, done }]) => { };
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A return statement can only be used within a function_body - start: 57, end: 64
+✖ A return statement can only be used within a function_body - start: 93, end: 100
+✖ A return statement can only be used within a function_body - start: 123, end: 130
+
 ```
 

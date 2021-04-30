@@ -133,29 +133,15 @@ a++ => {};
                 "asyncToken": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [
-                            {
-                                "kind": 168,
-                                "flags": 16,
-                                "start": 15,
-                                "end": 16
-                            }
-                        ],
-                        "flags": 32,
-                        "start": 15,
-                        "end": 16
-                    },
-                    "flags": 32,
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
                     "start": 15,
-                    "end": 16
+                    "end": 15
                 },
                 "flags": 32,
                 "start": 9,
-                "end": 16
+                "end": 15
             },
             "flags": 16,
             "start": 9,
@@ -3806,6 +3792,7 @@ a++ => {};
 ```javascript
 ✖ Statement expected - start: 0, end: 2
 ✖ Statement expected - start: 5, end: 8
+✖ Expression expected - start: 15, end: 16
 ✖ Statement expected - start: 16, end: 19
 ✖ Statement expected - start: 23, end: 25
 ✖ Statement expected - start: 25, end: 28

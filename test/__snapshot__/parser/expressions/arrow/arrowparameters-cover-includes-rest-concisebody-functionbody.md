@@ -193,6 +193,7 @@ var af = (x, ...y) => { return [x, y.length]; };
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A return statement can only be used within a function_body - start: 23, end: 30
+
 ```
 

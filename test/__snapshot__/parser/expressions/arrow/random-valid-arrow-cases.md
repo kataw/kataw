@@ -2691,6 +2691,7 @@ foo((x, y) => {});
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A return statement can only be used within a function_body - start: 514, end: 521
+
 ```
 

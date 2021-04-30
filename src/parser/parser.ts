@@ -693,6 +693,7 @@ function parseThrowStatement(parser: ParserState, context: Context): ThrowStatem
 }
 
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
+
   if ((context & Context.AllowReturn) === 0) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -1432,6 +1433,7 @@ function parseArrowFunction(
   flags: NodeFlags,
   pos: number
 ): any {
+
   if (parser.nodeFlags & NodeFlags.NewLine) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -1467,6 +1469,7 @@ function parseConciseOrFunctionBody(
   context: Context,
   isSimpleParameterList: boolean
 ): FunctionBody | ExpressionNode {
+
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
@@ -1549,7 +1552,8 @@ function parseConciseOrFunctionBody(
   }
 
   if (
-    parser.token & (SyntaxKind.IsSemicolon | SyntaxKind.IsStatementStart) &&
+    parser.token & SyntaxKind.IsStatementStart &&
+    parser.token !== SyntaxKind.Semicolon &&
     parser.token !== SyntaxKind.FunctionKeyword &&
     parser.token !== SyntaxKind.ClassKeyword
   ) {
@@ -1561,7 +1565,6 @@ function parseConciseOrFunctionBody(
       /* ignoreMissingOpenBrace */ true
     );
   }
-
   return parseExpression(parser, context);
 }
 
@@ -3713,7 +3716,7 @@ function parseFunctionExpression(parser: ParserState, context: Context, secondCo
   const returnType = parseTypeAnnotation(parser, context);
   const contents = parseFunctionBody(
     parser,
-    context | Context.NewTarget,
+    context | Context.NewTarget | Context.AllowReturn,
     /* isDecl */ false,
     /* isSimpleParameterList */ (formalParameterList.flags & NodeFlags.NoneSimpleParamList) === 0,
     /* ignoreMissingOpenBrace */ false
@@ -3899,7 +3902,7 @@ function parseFunctionBlockOrSemicolon(
     parseSemicolon(parser, context);
     return null;
   }
-  return parseFunctionBody(parser, context | Context.NewTarget, isDecl, isSimpleParameterList, ignoreMissingOpenBrace);
+  return parseFunctionBody(parser, context | Context.NewTarget | Context.AllowReturn, isDecl, isSimpleParameterList, ignoreMissingOpenBrace);
 }
 
 function parseFunctionBody(
@@ -3913,7 +3916,7 @@ function parseFunctionBody(
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace) || ignoreMissingOpenBrace) {
     const statementList = parseFunctionStatementList(
       parser,
-      (context | Context.InSwitch | Context.InIteration | Context.AllowReturn) ^
+      (context | Context.InSwitch | Context.InIteration) ^
         (Context.InSwitch | Context.InIteration),
       isSimpleParameterList
     );
