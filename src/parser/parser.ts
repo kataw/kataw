@@ -1473,7 +1473,7 @@ function parseConciseOrFunctionBody(
   if (parser.token === SyntaxKind.LeftBrace) {
     const body = parseFunctionBody(
       parser,
-      context,
+      context | Context.AllowReturn,
       /* isDecl */ true,
       /* isSimpleParameterList */ isSimpleParameterList,
       /* ignoreMissingOpenBrace */ false
