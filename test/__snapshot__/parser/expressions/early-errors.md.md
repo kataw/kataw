@@ -3620,7 +3620,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392131,
                     "text": "\\u{110000}",
-                    "rawText": "\\u{110000}",
+                    "rawText": "\"\\\\u{110000}\"",
                     "flags": 96,
                     "start": 4081,
                     "end": 4094
@@ -3640,7 +3640,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392131,
                     "text": "\\u{FFFFFFF}",
-                    "rawText": "\\u{FFFFFFF}",
+                    "rawText": "\"\\\\u{FFFFFFF}\"",
                     "flags": 96,
                     "start": 4098,
                     "end": 4112
@@ -3658,7 +3658,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n// 12.14.5.1\n// It is a Syntax Error if IsValidSimpleAssignmentTarget of IdentifierReference is false.\n\"use strict\"",
                 "flags": 97,
                 "start": 4114,
                 "end": 4231
@@ -3727,7 +3727,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4246,
                 "end": 4259
@@ -3810,7 +3810,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4278,
                 "end": 4291
@@ -3879,7 +3879,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4311,
                 "end": 4324

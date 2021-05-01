@@ -297,7 +297,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "constructor",
-                                        "rawText": "constructor",
+                                        "rawText": " 'constructor'",
                                         "flags": 4194400,
                                         "start": 88,
                                         "end": 102
@@ -507,7 +507,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
-                                        "rawText": "c\\u006fnstructor",
+                                        "rawText": " 'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 170,
                                         "end": 190
@@ -606,7 +606,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
-                                        "rawText": "c\\u006fnstructor",
+                                        "rawText": " 'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 215,
                                         "end": 235
@@ -724,7 +724,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
-                                        "rawText": "c\\u006fnstructor",
+                                        "rawText": "'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 259,
                                         "end": 278

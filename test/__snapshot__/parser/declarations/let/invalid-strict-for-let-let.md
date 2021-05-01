@@ -13,17 +13,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 96,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\"use strict\"",
+                "flags": 96,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 165,
             "forKeyword": {
@@ -127,7 +132,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 27, end: 31
-
+✔ No errors
 ```
 

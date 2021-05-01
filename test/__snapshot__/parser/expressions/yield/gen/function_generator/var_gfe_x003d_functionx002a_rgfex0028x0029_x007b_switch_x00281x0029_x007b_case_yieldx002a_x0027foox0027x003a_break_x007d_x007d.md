@@ -196,7 +196,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "expression": {
                                                                                                 "kind": 201392131,
                                                                                                 "text": "foo",
-                                                                                                "rawText": "foo",
+                                                                                                "rawText": " 'foo'",
                                                                                                 "flags": 4194400,
                                                                                                 "start": 93,
                                                                                                 "end": 99

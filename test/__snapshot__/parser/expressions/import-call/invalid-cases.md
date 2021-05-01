@@ -268,7 +268,7 @@ new import(x);
                 "expression": {
                     "kind": 201392131,
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "'x'",
                     "flags": 4194400,
                     "start": 72,
                     "end": 75
@@ -312,7 +312,7 @@ new import(x);
                         {
                             "kind": 201392131,
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": "'x'",
                             "flags": 4194400,
                             "start": 86,
                             "end": 89

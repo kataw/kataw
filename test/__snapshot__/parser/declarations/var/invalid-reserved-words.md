@@ -39,17 +39,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 97,
-            "start": 0,
-            "end": 13
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\n\"use strict\"",
+                "flags": 97,
+                "start": 0,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 14
+        },
         {
             "kind": 155,
             "declareKeyword": null,
@@ -93,7 +98,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 30,
                 "end": 44
@@ -179,7 +184,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 59,
                 "end": 73
@@ -262,7 +267,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 90,
                 "end": 104

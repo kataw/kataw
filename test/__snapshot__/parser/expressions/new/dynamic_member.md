@@ -38,7 +38,7 @@ new Foo["bar"]
                     "expression": {
                         "kind": 201392131,
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": "\"bar\"",
                         "flags": 96,
                         "start": 8,
                         "end": 13

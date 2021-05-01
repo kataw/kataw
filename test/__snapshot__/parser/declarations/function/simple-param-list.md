@@ -102,7 +102,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 19,
                             "end": 32
@@ -182,7 +182,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 55,
                             "end": 68
@@ -282,7 +282,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 90,
                             "end": 103
@@ -380,7 +380,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 125,
                             "end": 138
@@ -420,10 +420,6 @@ function x({x}) { "use strict"; }
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 32, end: 33
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 68, end: 69
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 103, end: 104
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 138, end: 139
-
+✔ No errors
 ```
 

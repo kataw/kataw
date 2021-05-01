@@ -72,7 +72,7 @@ function* gf() { yield 'foo' }
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " 'foo'",
                                     "flags": 4194400,
                                     "start": 22,
                                     "end": 28

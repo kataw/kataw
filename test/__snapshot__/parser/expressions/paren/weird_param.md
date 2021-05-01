@@ -41,7 +41,7 @@
                         {
                             "kind": 201392131,
                             "text": "c",
-                            "rawText": "c",
+                            "rawText": " \"c\"",
                             "flags": 96,
                             "start": 6,
                             "end": 10

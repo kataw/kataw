@@ -15,17 +15,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 163,
             "label": {
@@ -75,7 +80,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 20,
                 "end": 34
@@ -129,9 +134,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'let' is a reserved word in strict mode - start: 17, end: 18
-✖ Identifier expected. Reserved word in strict mode - start: 13, end: 18
-✖ Identifier expected. Reserved word in strict mode - start: 37, end: 47
-
+✔ No errors
 ```
 

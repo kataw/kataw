@@ -1057,7 +1057,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arg = 42",
-                                            "rawText": "arg = 42",
+                                            "rawText": "'arg = 42'",
                                             "flags": 4194400,
                                             "start": 270,
                                             "end": 280
@@ -1948,7 +1948,7 @@ function f({x:arg = (arg = 2)}) {}
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": "'use strict'",
                             "flags": 4194400,
                             "start": 502,
                             "end": 514
@@ -2885,7 +2885,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         {
                                                             "kind": 201392131,
                                                             "text": "arg = 42",
-                                                            "rawText": "arg = 42",
+                                                            "rawText": "'arg = 42'",
                                                             "flags": 4194400,
                                                             "start": 742,
                                                             "end": 752
@@ -3082,7 +3082,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arg = 42",
-                                            "rawText": "arg = 42",
+                                            "rawText": "'arg = 42'",
                                             "flags": 4194400,
                                             "start": 798,
                                             "end": 808
@@ -3627,7 +3627,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arguments[0] = 42",
-                                            "rawText": "arguments[0] = 42",
+                                            "rawText": "'arguments[0] = 42'",
                                             "flags": 4194400,
                                             "start": 951,
                                             "end": 970

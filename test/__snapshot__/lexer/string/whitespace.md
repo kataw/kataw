@@ -20,7 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\tstr\ting\t",
-                "rawText": "\tstr\ting\t",
+                "rawText": "\"\\u0009str\\u0009ing\\u0009\"",
                 "flags": 16480,
                 "start": 0,
                 "end": 26

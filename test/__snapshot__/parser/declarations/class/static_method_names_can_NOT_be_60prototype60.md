@@ -175,7 +175,7 @@ class x { static async *prototype(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "prototype",
-                                "rawText": "prototype",
+                                "rawText": " \"prot\\u006ftype\"",
                                 "flags": 16480,
                                 "start": 54,
                                 "end": 71

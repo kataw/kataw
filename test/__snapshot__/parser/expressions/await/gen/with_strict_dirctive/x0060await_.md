@@ -17,23 +17,28 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 120,
             "expression": {
                 "kind": 458761,
                 "text": "await;",
-                "rawText": "use strict",
+                "rawText": "'use strict'",
                 "flags": 96,
                 "start": 13,
                 "end": 21

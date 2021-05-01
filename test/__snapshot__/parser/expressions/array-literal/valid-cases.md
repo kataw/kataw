@@ -6863,7 +6863,7 @@
                                 "left": {
                                     "kind": 201392131,
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": "\"b\"",
                                     "flags": 96,
                                     "start": 1290,
                                     "end": 1293

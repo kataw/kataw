@@ -40,7 +40,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " \"__proto__\"",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 14

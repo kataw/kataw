@@ -36,7 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ",
-                "rawText": " a ",
+                "rawText": "\" a \"",
                 "flags": 96,
                 "start": 0,
                 "end": 5
@@ -78,7 +78,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ",
-                "rawText": " a ",
+                "rawText": "\n\" a \"",
                 "flags": 97,
                 "start": 11,
                 "end": 17
@@ -106,7 +106,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " c ",
-                "rawText": " c ",
+                "rawText": " \" c \"",
                 "flags": 96,
                 "start": 19,
                 "end": 25
@@ -120,7 +120,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ' b ",
-                "rawText": " a ' b ",
+                "rawText": "\n\" a ' b \"",
                 "flags": 97,
                 "start": 27,
                 "end": 37
@@ -134,7 +134,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ' b ' c ",
-                "rawText": " a ' b ' c ",
+                "rawText": "\n\" a ' b ' c \"",
                 "flags": 97,
                 "start": 39,
                 "end": 53
@@ -148,7 +148,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ` b ",
-                "rawText": " a ` b ",
+                "rawText": "\n\" a ` b \"",
                 "flags": 97,
                 "start": 55,
                 "end": 65
@@ -162,7 +162,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": " a ` b ` c ",
-                "rawText": " a ` b ` c ",
+                "rawText": "\n\" a ` b ` c \"",
                 "flags": 97,
                 "start": 67,
                 "end": 81

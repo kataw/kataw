@@ -44,7 +44,7 @@ eval => {"use strict"};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "rawText": "use strict",
+                                "rawText": "\"use strict\"",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21

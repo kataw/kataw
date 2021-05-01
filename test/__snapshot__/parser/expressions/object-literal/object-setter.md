@@ -42,7 +42,7 @@
                                     "expression": {
                                         "kind": 201392131,
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": "\"a\"",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 10
@@ -318,7 +318,7 @@
                                                             {
                                                                 "kind": 201392131,
                                                                 "text": "b",
-                                                                "rawText": "b",
+                                                                "rawText": "\"b\"",
                                                                 "flags": 96,
                                                                 "start": 63,
                                                                 "end": 66
@@ -480,7 +480,7 @@
                                                             {
                                                                 "kind": 201392131,
                                                                 "text": "1",
-                                                                "rawText": "1",
+                                                                "rawText": "\"1\"",
                                                                 "flags": 96,
                                                                 "start": 100,
                                                                 "end": 103

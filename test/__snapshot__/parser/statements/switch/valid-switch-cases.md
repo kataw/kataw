@@ -4071,7 +4071,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 1457,
                 "end": 1471
@@ -4225,7 +4225,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 1534,
                 "end": 1548
@@ -4392,7 +4392,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 1608,
                 "end": 1621
@@ -4559,7 +4559,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 1680,
                 "end": 1693
@@ -4693,7 +4693,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 1745,
                 "end": 1758
@@ -4854,7 +4854,7 @@ switch (answer) { case 0: let a; };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 1817,
                 "end": 1830

@@ -99,7 +99,7 @@ export *, {bar} from 'bar';
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " 'bar'",
                 "flags": 4194400,
                 "start": 20,
                 "end": 26

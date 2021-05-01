@@ -33,17 +33,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 97,
-            "start": 0,
-            "end": 13
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\n\"use strict\"",
+                "flags": 97,
+                "start": 0,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 14
+        },
         {
             "kind": 120,
             "expression": {
@@ -73,7 +78,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 27,
                 "end": 41
@@ -113,7 +118,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 52,
                 "end": 66
@@ -167,7 +172,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 81,
                 "end": 95
@@ -227,7 +232,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 110,
                 "end": 124
@@ -281,7 +286,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 141,
                 "end": 155
@@ -335,7 +340,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 173,
                 "end": 187
@@ -387,7 +392,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 202,
                 "end": 216
@@ -439,7 +444,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 231,
                 "end": 245
@@ -499,7 +504,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 264,
                 "end": 278

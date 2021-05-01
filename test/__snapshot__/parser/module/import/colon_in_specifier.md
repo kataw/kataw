@@ -106,7 +106,7 @@ import {a: b} from "bar";
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " \"bar\"",
                 "flags": 96,
                 "start": 18,
                 "end": 24

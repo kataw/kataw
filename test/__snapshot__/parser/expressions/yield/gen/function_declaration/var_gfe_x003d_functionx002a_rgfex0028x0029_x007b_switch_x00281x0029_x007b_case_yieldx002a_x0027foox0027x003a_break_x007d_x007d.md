@@ -158,7 +158,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                             "expression": {
                                                                                 "kind": 201392131,
                                                                                 "text": "foo",
-                                                                                "rawText": "foo",
+                                                                                "rawText": " 'foo'",
                                                                                 "flags": 4194400,
                                                                                 "start": 74,
                                                                                 "end": 80

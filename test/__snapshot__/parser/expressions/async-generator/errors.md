@@ -99,7 +99,7 @@ async function * gen() {class C extends await { }}
                     {
                         "kind": 201392131,
                         "text": "var yield;",
-                        "rawText": "var yield;",
+                        "rawText": "  \"var yield;\"",
                         "flags": 96,
                         "start": 0,
                         "end": 14
@@ -6692,7 +6692,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 2914,
                                     "end": 2918
@@ -6808,7 +6808,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 2962,
                                     "end": 2966
@@ -6926,7 +6926,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3010,
                                     "end": 3014
@@ -7043,7 +7043,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3058,
                                     "end": 3062
@@ -7162,7 +7162,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3106,
                                     "end": 3110
@@ -7304,7 +7304,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3160,
                                     "end": 3164
@@ -7448,7 +7448,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3214,
                                     "end": 3218
@@ -7591,7 +7591,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " 'x'",
                                     "flags": 4194400,
                                     "start": 3268,
                                     "end": 3272

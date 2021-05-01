@@ -80,7 +80,7 @@ f ^= 1;
                 "right": {
                     "kind": 201392131,
                     "text": "",
-                    "rawText": "",
+                    "rawText": " ''",
                     "flags": 4194400,
                     "start": 17,
                     "end": 20

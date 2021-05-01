@@ -351,7 +351,7 @@ var x: [number, string] = [123, "aladdin"];
                                     {
                                         "kind": 201392131,
                                         "text": "aladdin",
-                                        "rawText": "aladdin",
+                                        "rawText": " \"aladdin\"",
                                         "flags": 96,
                                         "start": 102,
                                         "end": 112

@@ -53,7 +53,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
-                    "rawText": "m.js",
+                    "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 22,
                     "end": 29
@@ -156,7 +156,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "n.js",
-                    "rawText": "n.js",
+                    "rawText": " 'n.js'",
                     "flags": 4194400,
                     "start": 45,
                     "end": 52
@@ -205,7 +205,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
-                    "rawText": "m.js",
+                    "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 77,
                     "end": 84
@@ -308,7 +308,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "n.js",
-                    "rawText": "n.js",
+                    "rawText": " 'n.js'",
                     "flags": 4194400,
                     "start": 100,
                     "end": 107
@@ -424,7 +424,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
-                    "rawText": "m.js",
+                    "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 132,
                     "end": 139
@@ -456,7 +456,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "bar.js",
-                    "rawText": "bar.js",
+                    "rawText": " 'bar.js'",
                     "flags": 4194400,
                     "start": 162,
                     "end": 171
@@ -518,7 +518,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
-                    "rawText": "m.js",
+                    "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 196,
                     "end": 203

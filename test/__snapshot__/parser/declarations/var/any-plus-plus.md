@@ -109,7 +109,7 @@ var z = x + x;
                 "right": {
                     "kind": 201392131,
                     "text": "hello",
-                    "rawText": "hello",
+                    "rawText": " \"hello\"",
                     "flags": 96,
                     "start": 20,
                     "end": 28

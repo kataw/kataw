@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "il}",
-                "rawText": "il}",
+                "rawText": "\"\\u{fail}\"",
                 "flags": 8288,
                 "start": 0,
                 "end": 10

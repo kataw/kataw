@@ -32,7 +32,7 @@ new 'foo'.__proto__.constructor
                         "expression": {
                             "kind": 201392131,
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " 'foo'",
                             "flags": 4194400,
                             "start": 3,
                             "end": 9

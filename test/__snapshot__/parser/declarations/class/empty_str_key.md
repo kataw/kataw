@@ -73,7 +73,7 @@ class X {
                             "name": {
                                 "kind": 201392131,
                                 "text": "",
-                                "rawText": "",
+                                "rawText": "\n  ''",
                                 "flags": 4194401,
                                 "start": 9,
                                 "end": 14

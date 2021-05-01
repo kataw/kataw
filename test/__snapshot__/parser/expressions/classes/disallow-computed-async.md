@@ -51,7 +51,7 @@ class A {
                             "expression": {
                                 "kind": 201392131,
                                 "text": "async",
-                                "rawText": "async",
+                                "rawText": "\"async\"",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 20

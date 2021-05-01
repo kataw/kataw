@@ -336,7 +336,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " \"__proto__\"",
                                     "flags": 96,
                                     "start": 126,
                                     "end": 138
@@ -483,7 +483,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " \"__proto__\"",
                                     "flags": 96,
                                     "start": 190,
                                     "end": 202
@@ -573,7 +573,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " \"__proto__\"",
                                     "flags": 96,
                                     "start": 231,
                                     "end": 243
@@ -682,7 +682,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " \"__proto__\"",
                                     "flags": 96,
                                     "start": 276,
                                     "end": 288

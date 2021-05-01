@@ -37,17 +37,22 @@ function * x() { "use strict";  yield: 34; }
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 96,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\"use strict\"",
+                "flags": 96,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 176,
             "declareKeyword": null,
@@ -156,7 +161,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 52,
                 "end": 66
@@ -278,7 +283,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 116,
                 "end": 130
@@ -387,7 +392,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 175,
                 "end": 188
@@ -507,7 +512,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 235,
                 "end": 248
@@ -635,7 +640,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 296,
                 "end": 309
@@ -781,7 +786,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 362,
                 "end": 375
@@ -895,7 +900,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 422,
                 "end": 435
@@ -1020,7 +1025,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 484,
                 "end": 497
@@ -1116,7 +1121,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 532,
                 "end": 545
@@ -1243,7 +1248,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 590,
                 "end": 603
@@ -1361,7 +1366,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 658,
                             "end": 671
@@ -1444,7 +1449,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 704,
                             "end": 717
@@ -1557,7 +1562,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 750,
                             "end": 763
@@ -1658,7 +1663,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 792,
                             "end": 805
@@ -1757,24 +1762,6 @@ function * x() { "use strict";  yield: 34; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 104, end: 109
-✖ Identifier expected. Reserved word in strict mode - start: 161, end: 167
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
-✖ Identifier expected. Reserved word in strict mode - start: 220, end: 226
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 284, end: 289
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 349, end: 355
-✖ Identifier expected. Reserved word in strict mode - start: 408, end: 414
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
-✖ Identifier expected. Reserved word in strict mode - start: 469, end: 475
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 469, end: 475
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 519, end: 525
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 577, end: 583
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 628, end: 633
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 672, end: 678
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 718, end: 725
-✖ Identifier expected. Reserved word in strict mode - start: 718, end: 726
 ✖ Expression expected - start: 772, end: 773
 ✖ Identifier expected. Reserved word in strict mode - start: 806, end: 814
 

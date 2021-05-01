@@ -160,7 +160,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "3",
-                                            "rawText": "3",
+                                            "rawText": " \"3\"",
                                             "flags": 96,
                                             "start": 31,
                                             "end": 35
@@ -197,7 +197,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                         "left": {
                                                             "kind": 201392131,
                                                             "text": "b",
-                                                            "rawText": "b",
+                                                            "rawText": " \"b\"",
                                                             "flags": 96,
                                                             "start": 44,
                                                             "end": 48

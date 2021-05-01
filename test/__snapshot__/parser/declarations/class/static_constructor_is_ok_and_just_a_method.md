@@ -76,7 +76,7 @@ class x { static "constructor"(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " \"constructor\"",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 30

@@ -169,7 +169,7 @@ Object.defineProperty(this, "x", {
                         {
                             "kind": 201392131,
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " \"x\"",
                             "flags": 96,
                             "start": 62,
                             "end": 66
@@ -287,7 +287,7 @@ Object.defineProperty(this, "x", {
                                     {
                                         "kind": 201392131,
                                         "text": "use strict",
-                                        "rawText": "use strict",
+                                        "rawText": "\n  \"use strict\"",
                                         "flags": 97,
                                         "start": 121,
                                         "end": 136

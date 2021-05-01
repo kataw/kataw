@@ -317,7 +317,7 @@ class A {
                             "name": {
                                 "kind": 201392131,
                                 "text": "get",
-                                "rawText": "get",
+                                "rawText": "\n\n\n  'get'",
                                 "flags": 4194401,
                                 "start": 73,
                                 "end": 83
@@ -368,7 +368,7 @@ class A {
                             "name": {
                                 "kind": 201392131,
                                 "text": "set",
-                                "rawText": "set",
+                                "rawText": "\n\n  'set'",
                                 "flags": 4194401,
                                 "start": 91,
                                 "end": 100
@@ -419,7 +419,7 @@ class A {
                             "name": {
                                 "kind": 201392131,
                                 "text": "async",
-                                "rawText": "async",
+                                "rawText": "\n\n  'async'",
                                 "flags": 4194401,
                                 "start": 108,
                                 "end": 119

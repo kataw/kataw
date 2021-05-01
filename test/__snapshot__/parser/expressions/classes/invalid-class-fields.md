@@ -1995,7 +1995,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 435,
                                             "end": 438
@@ -2108,7 +2108,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 463,
                                             "end": 466
@@ -2221,7 +2221,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 491,
                                             "end": 494
@@ -2353,7 +2353,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 519,
                                             "end": 522
@@ -2471,7 +2471,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 549,
                                             "end": 552
@@ -2875,7 +2875,7 @@
                                                     "expression": {
                                                         "kind": 201392131,
                                                         "text": "a",
-                                                        "rawText": "a",
+                                                        "rawText": "'a'",
                                                         "flags": 4194400,
                                                         "start": 655,
                                                         "end": 658
@@ -3256,7 +3256,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 738,
                                             "end": 741

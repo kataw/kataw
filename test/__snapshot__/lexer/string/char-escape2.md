@@ -36,7 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix '",
-                "rawText": "prefix '",
+                "rawText": "\"prefix \\'\"",
                 "flags": 96,
                 "start": 0,
                 "end": 11
@@ -50,7 +50,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\"",
-                "rawText": "prefix\"",
+                "rawText": "\n\"prefix\\\"\"",
                 "flags": 97,
                 "start": 13,
                 "end": 24
@@ -64,7 +64,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\\",
-                "rawText": "prefix\\",
+                "rawText": "\n\"prefix\\\\\"",
                 "flags": 97,
                 "start": 26,
                 "end": 37
@@ -78,7 +78,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\b",
-                "rawText": "prefix\b",
+                "rawText": "\n\"prefix\\b\"",
                 "flags": 97,
                 "start": 39,
                 "end": 50
@@ -92,7 +92,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\f",
-                "rawText": "prefix\f",
+                "rawText": "\n\"prefix\\f\"",
                 "flags": 97,
                 "start": 52,
                 "end": 63
@@ -106,7 +106,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\n",
-                "rawText": "prefix\n",
+                "rawText": "\n\"prefix\\n\"",
                 "flags": 97,
                 "start": 65,
                 "end": 76
@@ -120,7 +120,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\r",
-                "rawText": "prefix\r",
+                "rawText": "\n\"prefix\\r\"",
                 "flags": 97,
                 "start": 78,
                 "end": 89
@@ -134,7 +134,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\t",
-                "rawText": "prefix\t",
+                "rawText": "\n\"prefix\\t\"",
                 "flags": 97,
                 "start": 91,
                 "end": 102
@@ -148,7 +148,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\u000b",
-                "rawText": "prefix\u000b",
+                "rawText": "\n\"prefix\\v\"",
                 "flags": 97,
                 "start": 104,
                 "end": 115

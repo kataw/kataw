@@ -22,7 +22,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": "\"foo\"",
                 "flags": 96,
                 "start": 0,
                 "end": 5
@@ -36,7 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": "\n// stuff here\n\"bar\"",
                 "flags": 97,
                 "start": 5,
                 "end": 25

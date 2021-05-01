@@ -21,7 +21,7 @@ xyz*/"bar";
             "expression": {
                 "kind": 201392131,
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": "\"foo\"",
                 "flags": 96,
                 "start": 0,
                 "end": 5
@@ -35,7 +35,7 @@ xyz*/"bar";
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": "/*abc\nxyz*/\"bar\"",
                 "flags": 97,
                 "start": 6,
                 "end": 22

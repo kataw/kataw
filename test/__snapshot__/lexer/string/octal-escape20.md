@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "44",
-                "rawText": "44",
+                "rawText": "\"\\44\"",
                 "flags": 96,
                 "start": 0,
                 "end": 5

@@ -55,7 +55,7 @@ function x(){""[new.target]}
                                 "member": {
                                     "kind": 201392131,
                                     "text": "",
-                                    "rawText": "",
+                                    "rawText": "\"\"",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 15

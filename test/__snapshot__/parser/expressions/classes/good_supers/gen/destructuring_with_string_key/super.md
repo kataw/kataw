@@ -146,7 +146,7 @@ class x extends y {
                                                                     "right": {
                                                                         "kind": 201392131,
                                                                         "text": "foo",
-                                                                        "rawText": "foo",
+                                                                        "rawText": "\"foo\"",
                                                                         "flags": 96,
                                                                         "start": 44,
                                                                         "end": 49

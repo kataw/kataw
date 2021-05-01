@@ -52,7 +52,7 @@ wrap({"a":b});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "\"a\"",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 9

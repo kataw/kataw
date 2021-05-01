@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "0}",
-                "rawText": "0}",
+                "rawText": "\"\\u{110000}\"",
                 "flags": 8288,
                 "start": 0,
                 "end": 12

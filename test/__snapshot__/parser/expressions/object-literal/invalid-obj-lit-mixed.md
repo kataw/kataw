@@ -47,7 +47,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "string",
-                                            "rawText": "string",
+                                            "rawText": "\"string\"",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 14
@@ -191,7 +191,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "string",
-                                            "rawText": "string",
+                                            "rawText": "\"string\"",
                                             "flags": 96,
                                             "start": 61,
                                             "end": 69
@@ -824,7 +824,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "string",
-                                            "rawText": "string",
+                                            "rawText": "\"string\"",
                                             "flags": 96,
                                             "start": 508,
                                             "end": 516
@@ -1101,7 +1101,7 @@
                                             "expression": {
                                                 "kind": 201392131,
                                                 "text": "string",
-                                                "rawText": "string",
+                                                "rawText": "\"string\"",
                                                 "flags": 96,
                                                 "start": 575,
                                                 "end": 583
@@ -1389,7 +1389,7 @@
                                                     "expression": {
                                                         "kind": 201392131,
                                                         "text": "string",
-                                                        "rawText": "string",
+                                                        "rawText": "\"string\"",
                                                         "flags": 96,
                                                         "start": 644,
                                                         "end": 652

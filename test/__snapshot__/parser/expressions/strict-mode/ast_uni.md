@@ -1,0 +1,53 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+"use\x20strict";
+`````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\"use\\x20strict\"",
+                "flags": 96,
+                "start": 0,
+                "end": 15
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 16
+        }
+    ],
+    "isModule": false,
+    "source": "\"use\\x20strict\";",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 16
+}
+```
+
+### Printed
+
+```javascript
+✖ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+✔ No errors
+```
+

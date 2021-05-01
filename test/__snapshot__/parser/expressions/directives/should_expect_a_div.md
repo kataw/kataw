@@ -25,7 +25,7 @@
                     "left": {
                         "kind": 201392131,
                         "text": "ignore me",
-                        "rawText": "ignore me",
+                        "rawText": "\"ignore me\"",
                         "flags": 96,
                         "start": 0,
                         "end": 11

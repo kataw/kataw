@@ -48,7 +48,7 @@
                                 "member": {
                                     "kind": 201392131,
                                     "text": "X",
-                                    "rawText": "X",
+                                    "rawText": "\"X\"",
                                     "flags": 96,
                                     "start": 1,
                                     "end": 4

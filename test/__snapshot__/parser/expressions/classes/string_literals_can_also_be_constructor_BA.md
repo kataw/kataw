@@ -52,7 +52,7 @@ class x { "constructor"(){}; constructor(){}; }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " \"constructor\"",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 23

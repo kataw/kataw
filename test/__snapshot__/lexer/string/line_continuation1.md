@@ -38,7 +38,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "",
-                "rawText": "",
+                "rawText": "\"\\\n\"",
                 "flags": 96,
                 "start": 0,
                 "end": 4
@@ -52,7 +52,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre",
-                "rawText": "pre",
+                "rawText": "\n\"pre\\\n\"",
                 "flags": 97,
                 "start": 6,
                 "end": 14
@@ -66,7 +66,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "post",
-                "rawText": "post",
+                "rawText": "\n\"\\\npost\"",
                 "flags": 97,
                 "start": 16,
                 "end": 25
@@ -80,7 +80,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "prepost",
-                "rawText": "prepost",
+                "rawText": "\n\"pre\\\npost\"",
                 "flags": 97,
                 "start": 27,
                 "end": 39
@@ -94,7 +94,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "@{xd}@",
-                "rawText": "@{xd}@",
+                "rawText": "\n\"\\@{xd}@\"",
                 "flags": 97,
                 "start": 41,
                 "end": 51
@@ -108,7 +108,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre@{xd}@",
-                "rawText": "pre@{xd}@",
+                "rawText": "\n\"pre\\@{xd}@\"",
                 "flags": 97,
                 "start": 53,
                 "end": 66
@@ -122,7 +122,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "@{xd}@post",
-                "rawText": "@{xd}@post",
+                "rawText": "\n\"\\@{xd}@post\"",
                 "flags": 97,
                 "start": 68,
                 "end": 82
@@ -136,7 +136,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre@{xd}@post",
-                "rawText": "pre@{xd}@post",
+                "rawText": "\n\"pre\\@{xd}@post\"",
                 "flags": 97,
                 "start": 84,
                 "end": 101

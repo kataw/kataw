@@ -174,7 +174,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " 'foo'",
                                             "flags": 4194400,
                                             "start": 47,
                                             "end": 53

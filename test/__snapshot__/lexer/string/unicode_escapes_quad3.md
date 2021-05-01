@@ -42,7 +42,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
-                "rawText": "ģ",
+                "rawText": "\"\\u0123\"",
                 "flags": 16480,
                 "start": 0,
                 "end": 8
@@ -56,7 +56,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "䕧",
-                "rawText": "䕧",
+                "rawText": "\n\"\\u4567\"",
                 "flags": 16481,
                 "start": 10,
                 "end": 19
@@ -70,7 +70,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "覫",
-                "rawText": "覫",
+                "rawText": "\n\"\\u89ab\"",
                 "flags": 16481,
                 "start": 21,
                 "end": 30
@@ -84,7 +84,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "췯",
-                "rawText": "췯",
+                "rawText": "\n\"\\ucdef\"",
                 "flags": 16481,
                 "start": 32,
                 "end": 41
@@ -98,7 +98,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ꯍ",
-                "rawText": "ꯍ",
+                "rawText": "\n\"\\uABCD\"",
                 "flags": 16481,
                 "start": 43,
                 "end": 52
@@ -112,7 +112,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\ude00",
-                "rawText": "\ude00",
+                "rawText": "\n\"\\uDE00\"",
                 "flags": 16481,
                 "start": 54,
                 "end": 63
@@ -126,7 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix ģ",
-                "rawText": "prefix ģ",
+                "rawText": "\n\"prefix \\u0123\"",
                 "flags": 16481,
                 "start": 65,
                 "end": 81
@@ -140,7 +140,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ postfix",
-                "rawText": "ģ postfix",
+                "rawText": "\n\"\\u0123 postfix\"",
                 "flags": 16481,
                 "start": 83,
                 "end": 100
@@ -154,7 +154,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ䕧",
-                "rawText": "ģ䕧",
+                "rawText": "\n\"\\u0123\\u4567\"",
                 "flags": 16481,
                 "start": 102,
                 "end": 117

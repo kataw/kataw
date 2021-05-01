@@ -75,7 +75,7 @@ async ( { x}  ) => {
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": "\n  'use strict'",
                             "flags": 4194401,
                             "start": 20,
                             "end": 35
@@ -143,7 +143,7 @@ async ( { x}  ) => {
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": "\n  'use strict'",
                             "flags": 4194401,
                             "start": 60,
                             "end": 75
@@ -181,8 +181,6 @@ async ( { x}  ) => {
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 35, end: 36
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 75, end: 76
-
+✔ No errors
 ```
 

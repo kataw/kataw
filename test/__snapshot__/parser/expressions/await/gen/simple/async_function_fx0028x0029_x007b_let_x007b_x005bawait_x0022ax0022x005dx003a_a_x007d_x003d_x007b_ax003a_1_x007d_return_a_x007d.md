@@ -97,7 +97,7 @@ async function f() {
                                                                 "expression": {
                                                                     "kind": 201392131,
                                                                     "text": "a",
-                                                                    "rawText": "a",
+                                                                    "rawText": " \"a\"",
                                                                     "flags": 96,
                                                                     "start": 35,
                                                                     "end": 39

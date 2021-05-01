@@ -58,7 +58,7 @@ class x { "prot\u{6f}type"(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "prototype",
-                                "rawText": "prototype",
+                                "rawText": " \"prot\\u{6f}type\"",
                                 "flags": 8288,
                                 "start": 9,
                                 "end": 26

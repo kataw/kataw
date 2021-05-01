@@ -17,17 +17,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 120,
             "expression": {
@@ -152,14 +157,11 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 22
 ✖ Expression expected - start: 21, end: 23
 ✖ Expected a `;` - start: 21, end: 23
 ✖ Statement expected - start: 21, end: 23
 ✖ Expected a `;` - start: 24, end: 26
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 26, end: 32
-✖ Identifier expected. Reserved word in strict mode - start: 26, end: 33
 
 ```
 

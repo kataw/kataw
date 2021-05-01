@@ -1287,7 +1287,7 @@ for (;;) {}});
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "dead",
-                                            "rawText": "dead",
+                                            "rawText": " 'dead'",
                                             "flags": 4194400,
                                             "start": 436,
                                             "end": 443
@@ -1437,7 +1437,7 @@ for (;;) {}});
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "dead",
-                                            "rawText": "dead",
+                                            "rawText": " 'dead'",
                                             "flags": 4194400,
                                             "start": 496,
                                             "end": 503

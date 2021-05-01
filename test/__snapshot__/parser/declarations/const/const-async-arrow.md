@@ -83,7 +83,7 @@ const a = async (foo: string = "") => {}
                                     "initializer": {
                                         "kind": 201392131,
                                         "text": "",
-                                        "rawText": "",
+                                        "rawText": " \"\"",
                                         "flags": 96,
                                         "start": 30,
                                         "end": 33

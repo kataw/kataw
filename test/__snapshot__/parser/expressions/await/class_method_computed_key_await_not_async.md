@@ -142,7 +142,7 @@
                                             "name": {
                                                 "kind": 201392131,
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " \"x\"",
                                                 "flags": 96,
                                                 "start": 29,
                                                 "end": 33

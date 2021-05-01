@@ -62,7 +62,7 @@
                                     "right": {
                                         "kind": 201392131,
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": "\"a\"",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 5
@@ -231,7 +231,7 @@
                                             "right": {
                                                 "kind": 201392131,
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": "\"a\"",
                                                 "flags": 96,
                                                 "start": 39,
                                                 "end": 42
@@ -387,7 +387,7 @@
                                                 "right": {
                                                     "kind": 201392131,
                                                     "text": "a",
-                                                    "rawText": "a",
+                                                    "rawText": "\"a\"",
                                                     "flags": 96,
                                                     "start": 74,
                                                     "end": 77
@@ -573,7 +573,7 @@
                                             "right": {
                                                 "kind": 201392131,
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": "\"a\"",
                                                 "flags": 96,
                                                 "start": 115,
                                                 "end": 118

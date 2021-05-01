@@ -40,7 +40,7 @@ import { for } from "iteration"
                 "from": {
                     "kind": 201392131,
                     "text": "iteration",
-                    "rawText": "iteration",
+                    "rawText": " \"iteration\"",
                     "flags": 96,
                     "start": 19,
                     "end": 31

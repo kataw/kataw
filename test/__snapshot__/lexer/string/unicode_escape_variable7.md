@@ -36,7 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "}",
-                "rawText": "}",
+                "rawText": "\"\\u{1}\"",
                 "flags": 8288,
                 "start": 0,
                 "end": 7
@@ -50,7 +50,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u0012",
-                "rawText": "\u0012",
+                "rawText": "\n\"\\u{12}\"",
                 "flags": 8289,
                 "start": 9,
                 "end": 18
@@ -64,7 +64,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
-                "rawText": "ģ",
+                "rawText": "\n\"\\u{123}\"",
                 "flags": 8289,
                 "start": 20,
                 "end": 30
@@ -78,7 +78,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ሴ",
-                "rawText": "ሴ",
+                "rawText": "\n\"\\u{1234}\"",
                 "flags": 8289,
                 "start": 32,
                 "end": 43
@@ -92,7 +92,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅ",
-                "rawText": "Hͅ",
+                "rawText": "\n\"\\u{12345}\"",
                 "flags": 8289,
                 "start": 45,
                 "end": 57
@@ -106,7 +106,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ЍV",
-                "rawText": "ЍV",
+                "rawText": "\n\"\\u{103456}\"",
                 "flags": 8289,
                 "start": 59,
                 "end": 72

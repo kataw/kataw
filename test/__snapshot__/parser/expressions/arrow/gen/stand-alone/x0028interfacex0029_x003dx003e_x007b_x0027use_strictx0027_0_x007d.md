@@ -50,7 +50,7 @@
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "rawText": "use strict",
+                                "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 16,
                                 "end": 29

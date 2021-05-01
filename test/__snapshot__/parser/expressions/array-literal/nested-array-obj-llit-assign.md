@@ -136,7 +136,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30
@@ -286,7 +286,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 62,
                                                 "end": 68
@@ -436,7 +436,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 99,
                                                 "end": 105
@@ -572,7 +572,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 137,
                                                 "end": 143
@@ -722,7 +722,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 179,
                                                 "end": 185
@@ -872,7 +872,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 220,
                                                 "end": 226
@@ -1040,7 +1040,7 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " \"bar\"",
                                                 "flags": 96,
                                                 "start": 264,
                                                 "end": 270

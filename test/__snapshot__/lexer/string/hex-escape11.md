@@ -20,7 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "q",
-                "rawText": "q",
+                "rawText": "\"\\xdq\"",
                 "flags": 96,
                 "start": 0,
                 "end": 6

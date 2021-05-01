@@ -45,7 +45,7 @@
                                         "left": {
                                             "kind": 201392131,
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": "\"x\"",
                                             "flags": 96,
                                             "start": 3,
                                             "end": 6
@@ -59,7 +59,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " \"y\"",
                                             "flags": 96,
                                             "start": 8,
                                             "end": 12

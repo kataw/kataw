@@ -527,7 +527,7 @@
                                                     "right": {
                                                         "kind": 201392131,
                                                         "text": "foo",
-                                                        "rawText": "foo",
+                                                        "rawText": "\"foo\"",
                                                         "flags": 96,
                                                         "start": 89,
                                                         "end": 94
@@ -643,7 +643,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": "\"foo\"",
                                             "flags": 96,
                                             "start": 116,
                                             "end": 121
@@ -752,7 +752,7 @@
                                                 "right": {
                                                     "kind": 201392131,
                                                     "text": "foo",
-                                                    "rawText": "foo",
+                                                    "rawText": "\"foo\"",
                                                     "flags": 96,
                                                     "start": 143,
                                                     "end": 148
@@ -855,7 +855,7 @@
                                                     "right": {
                                                         "kind": 201392131,
                                                         "text": "foo",
-                                                        "rawText": "foo",
+                                                        "rawText": "\"foo\"",
                                                         "flags": 96,
                                                         "start": 167,
                                                         "end": 172

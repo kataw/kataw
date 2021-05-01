@@ -17,17 +17,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 120,
             "expression": {
@@ -131,7 +136,7 @@
                         "expression": {
                             "kind": 201392131,
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " 'foo'",
                             "flags": 4194400,
                             "start": 43,
                             "end": 49
@@ -169,7 +174,6 @@
 
 ```javascript
 ✖ Expected a `;` - start: 27, end: 29
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
 ✖ ',' expected - start: 43, end: 49
 ✖ Expected a `;` - start: 43, end: 49
 

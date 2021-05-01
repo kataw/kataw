@@ -135,7 +135,7 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "expression": {
                                                                 "kind": 201392131,
                                                                 "text": "foo",
-                                                                "rawText": "foo",
+                                                                "rawText": " 'foo'",
                                                                 "flags": 4194400,
                                                                 "start": 62,
                                                                 "end": 68

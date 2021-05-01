@@ -40,7 +40,7 @@ import * as foo from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 20,
                     "end": 26

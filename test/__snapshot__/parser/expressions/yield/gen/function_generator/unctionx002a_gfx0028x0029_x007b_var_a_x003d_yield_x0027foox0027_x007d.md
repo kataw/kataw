@@ -193,7 +193,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "expression": {
                                                             "kind": 201392131,
                                                             "text": "foo",
-                                                            "rawText": "foo",
+                                                            "rawText": " 'foo'",
                                                             "flags": 4194400,
                                                             "start": 69,
                                                             "end": 75

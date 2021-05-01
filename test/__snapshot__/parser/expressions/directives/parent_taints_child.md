@@ -50,7 +50,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": " \"use strict\"",
                             "flags": 96,
                             "start": 13,
                             "end": 26
@@ -187,7 +187,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
 ### Diagnostics
 
 ```javascript
-✖ 'with' statements are not allowed in strict mode. - start: 47, end: 52
-
+✔ No errors
 ```
 

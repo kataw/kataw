@@ -162,7 +162,7 @@ async function f(){
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": "\n  \"use strict\"",
                             "flags": 97,
                             "start": 68,
                             "end": 83
@@ -249,7 +249,6 @@ async function f(){
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 98, end: 103
-
+✔ No errors
 ```
 

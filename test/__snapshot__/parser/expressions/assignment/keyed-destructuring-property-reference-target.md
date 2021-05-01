@@ -170,7 +170,7 @@ function targetKey() {
                                         {
                                             "kind": 201392131,
                                             "text": "source",
-                                            "rawText": "source",
+                                            "rawText": "\"source\"",
                                             "flags": 96,
                                             "start": 49,
                                             "end": 57
@@ -260,7 +260,7 @@ function targetKey() {
                                                                         {
                                                                             "kind": 201392131,
                                                                             "text": "get",
-                                                                            "rawText": "get",
+                                                                            "rawText": "\"get\"",
                                                                             "flags": 96,
                                                                             "start": 112,
                                                                             "end": 117
@@ -386,7 +386,7 @@ function targetKey() {
                                         {
                                             "kind": 201392131,
                                             "text": "target",
-                                            "rawText": "target",
+                                            "rawText": "\"target\"",
                                             "flags": 96,
                                             "start": 172,
                                             "end": 180
@@ -495,7 +495,7 @@ function targetKey() {
                                                                         {
                                                                             "kind": 201392131,
                                                                             "text": "set",
-                                                                            "rawText": "set",
+                                                                            "rawText": "\"set\"",
                                                                             "flags": 96,
                                                                             "start": 236,
                                                                             "end": 241
@@ -621,7 +621,7 @@ function targetKey() {
                                         {
                                             "kind": 201392131,
                                             "text": "source-key",
-                                            "rawText": "source-key",
+                                            "rawText": "\"source-key\"",
                                             "flags": 96,
                                             "start": 299,
                                             "end": 311
@@ -716,7 +716,7 @@ function targetKey() {
                                                                             {
                                                                                 "kind": 201392131,
                                                                                 "text": "source-key-tostring",
-                                                                                "rawText": "source-key-tostring",
+                                                                                "rawText": "\"source-key-tostring\"",
                                                                                 "flags": 96,
                                                                                 "start": 379,
                                                                                 "end": 400
@@ -746,7 +746,7 @@ function targetKey() {
                                                                 "expression": {
                                                                     "kind": 201392131,
                                                                     "text": "p",
-                                                                    "rawText": "p",
+                                                                    "rawText": " \"p\"",
                                                                     "flags": 96,
                                                                     "start": 421,
                                                                     "end": 425
@@ -876,7 +876,7 @@ function targetKey() {
                                         {
                                             "kind": 201392131,
                                             "text": "target-key",
-                                            "rawText": "target-key",
+                                            "rawText": "\"target-key\"",
                                             "flags": 96,
                                             "start": 482,
                                             "end": 494
@@ -971,7 +971,7 @@ function targetKey() {
                                                                             {
                                                                                 "kind": 201392131,
                                                                                 "text": "target-key-tostring",
-                                                                                "rawText": "target-key-tostring",
+                                                                                "rawText": "\"target-key-tostring\"",
                                                                                 "flags": 96,
                                                                                 "start": 562,
                                                                                 "end": 583
@@ -1001,7 +1001,7 @@ function targetKey() {
                                                                 "expression": {
                                                                     "kind": 201392131,
                                                                     "text": "q",
-                                                                    "rawText": "q",
+                                                                    "rawText": " \"q\"",
                                                                     "flags": 96,
                                                                     "start": 604,
                                                                     "end": 608

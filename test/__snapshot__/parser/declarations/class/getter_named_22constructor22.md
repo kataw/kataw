@@ -65,7 +65,7 @@ class x { get "constructor"(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " \"constructor\"",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 27

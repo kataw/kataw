@@ -36,7 +36,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "",
-                "rawText": "",
+                "rawText": "\"\\\n\"",
                 "flags": 96,
                 "start": 0,
                 "end": 4
@@ -50,7 +50,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre",
-                "rawText": "pre",
+                "rawText": "\n\"pre\\\n\"",
                 "flags": 97,
                 "start": 6,
                 "end": 14
@@ -64,7 +64,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "post",
-                "rawText": "post",
+                "rawText": "\n\"\\\npost\"",
                 "flags": 97,
                 "start": 16,
                 "end": 25
@@ -78,7 +78,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "prepost",
-                "rawText": "prepost",
+                "rawText": "\n\"pre\\\npost\"",
                 "flags": 97,
                 "start": 27,
                 "end": 39

@@ -84,7 +84,7 @@ export * as x from "x" foo
             "expression": {
                 "kind": 201392131,
                 "text": "x",
-                "rawText": "x",
+                "rawText": " \"x\"",
                 "flags": 96,
                 "start": 18,
                 "end": 22

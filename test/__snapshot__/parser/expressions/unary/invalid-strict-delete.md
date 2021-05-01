@@ -19,17 +19,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 97,
-            "start": 0,
-            "end": 13
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "\n\"use strict\"",
+                "flags": 97,
+                "start": 0,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 14
+        },
         {
             "kind": 120,
             "expression": {
@@ -61,7 +66,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 26,
                 "end": 40
@@ -107,7 +112,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 55,
                 "end": 69
@@ -161,8 +166,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'delete' cannot be called on an identifier in strict mode. - start: 25, end: 26
-✖ 'delete' cannot be called on an identifier in strict mode. - start: 87, end: 88
-
+✔ No errors
 ```
 

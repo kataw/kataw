@@ -70,7 +70,7 @@ function *f(){ delete ("x"[(yield)]) }
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": "\"x\"",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 26

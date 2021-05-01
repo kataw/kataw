@@ -244,7 +244,6 @@ export function parse(
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
-
     if (isValidDirective(parser) && expr.text === expr.rawText && expr.text === 'use strict') {
       context |= Context.Strict;
       parseSemicolon(parser, context);
@@ -1081,6 +1080,74 @@ function parseExpressionStatement(
 ): ExpressionStatement {
   parseSemicolon(parser, context);
   return createExpressionStatement(expr, pos, parser.curPos);
+}
+
+function parseBindingIdentifier(
+  parser: ParserState,
+  context: Context,
+  diagnosticMessage?: DiagnosticCode,
+  allowKeywords?: boolean
+): Identifier | DummyIdentifier {
+  const { token, curPos, tokenValue, tokenRaw } = parser;
+  parser.assignable = true;
+
+  if (
+    token &
+    (allowKeywords
+      ? SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier
+      : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
+  ) {
+    if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          context & Context.InFormalParameter
+            ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
+            : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    } else if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          context & Context.InFormalParameter
+            ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
+            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    } else if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
+    // 'let' followed by '[' means a lexical declaration, which should not appear here.
+    if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
+        parser.curPos,
+        parser.pos
+      );
+    }
+    nextToken(parser, context);
+    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
+  }
+
+  parser.onError(
+    DiagnosticSource.Parser,
+    diagnosticMap[diagnosticMessage ? diagnosticMessage : DiagnosticCode.Expression_expected],
+    parser.curPos,
+    parser.pos
+  );
+  return createDummyIdentifier(curPos, curPos);
 }
 
 function parseIdentifier(
@@ -3481,7 +3548,7 @@ function parseIdentifierOrPattern(
       parser.pos
     );
   }
-  return parseIdentifier(parser, context, diagnosticMessage, true);
+  return parseBindingIdentifier(parser, context, diagnosticMessage, true);
 }
 
 function parseArrayBindingPattern(parser: ParserState, context: Context): ArrayBindingPattern {
@@ -4448,7 +4515,15 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
       namedBinding = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
     }
   }
-  return createExportFromClause(asteriskToken, asKeyword, namedBinding as Identifier, moduleExportName, flags, pos, parser.curPos);
+  return createExportFromClause(
+    asteriskToken,
+    asKeyword,
+    namedBinding as Identifier,
+    moduleExportName,
+    flags,
+    pos,
+    parser.curPos
+  );
 }
 
 // NamedExports :

@@ -70,7 +70,7 @@ import a, ** from 'f';
             "expression": {
                 "kind": 201392131,
                 "text": "f",
-                "rawText": "f",
+                "rawText": " 'f'",
                 "flags": 4194400,
                 "start": 17,
                 "end": 21

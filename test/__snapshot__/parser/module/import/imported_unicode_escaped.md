@@ -107,7 +107,7 @@ export {a \u0061s b} from "x";
                 "from": {
                     "kind": 201392131,
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " \"x\"",
                     "flags": 96,
                     "start": 25,
                     "end": 29

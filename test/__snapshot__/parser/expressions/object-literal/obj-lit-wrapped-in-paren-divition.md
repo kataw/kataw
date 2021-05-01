@@ -92,7 +92,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": " \"a\"",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 10
@@ -225,7 +225,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": " \"a\"",
                                             "flags": 96,
                                             "start": 34,
                                             "end": 38
@@ -358,7 +358,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": " \"a\"",
                                             "flags": 96,
                                             "start": 64,
                                             "end": 68
@@ -497,7 +497,7 @@
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": " \"a\"",
                                             "flags": 96,
                                             "start": 94,
                                             "end": 98

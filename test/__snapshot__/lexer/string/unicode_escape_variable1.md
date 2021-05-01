@@ -34,7 +34,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
-                "rawText": "ģ",
+                "rawText": "\"\\u{0123}\"",
                 "flags": 8288,
                 "start": 0,
                 "end": 10
@@ -48,7 +48,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "䕧",
-                "rawText": "䕧",
+                "rawText": "\n\"\\u{4567}\"",
                 "flags": 8289,
                 "start": 12,
                 "end": 23
@@ -62,7 +62,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Ȧʼ",
-                "rawText": "Ȧʼ",
+                "rawText": "\n\"\\u{89abc}\"",
                 "flags": 8289,
                 "start": 25,
                 "end": 37
@@ -76,7 +76,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ͻΫ",
-                "rawText": "ͻΫ",
+                "rawText": "\n\"\\u{defAB}\"",
                 "flags": 8289,
                 "start": 39,
                 "end": 51
@@ -90,7 +90,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "췯",
-                "rawText": "췯",
+                "rawText": "\n\"\\u{CDEF}\"",
                 "flags": 8289,
                 "start": 53,
                 "end": 64
@@ -104,7 +104,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix Hͅ",
-                "rawText": "prefix Hͅ",
+                "rawText": "\n\"prefix \\u{012345}\"",
                 "flags": 8289,
                 "start": 66,
                 "end": 86
@@ -118,7 +118,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅ postfix",
-                "rawText": "Hͅ postfix",
+                "rawText": "\n\"\\u{012345} postfix\"",
                 "flags": 8289,
                 "start": 88,
                 "end": 109
@@ -132,7 +132,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅƞ",
-                "rawText": "Hͅƞ",
+                "rawText": "\n\"\\u{012345}\\u{6789a}\"",
                 "flags": 8289,
                 "start": 111,
                 "end": 133

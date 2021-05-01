@@ -553,7 +553,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 201392131,
                     "text": "test",
-                    "rawText": "test",
+                    "rawText": " \"test\"",
                     "flags": 96,
                     "start": 116,
                     "end": 123

@@ -87,7 +87,7 @@ hello();
                                     "initializer": {
                                         "kind": 201392131,
                                         "text": " world",
-                                        "rawText": " world",
+                                        "rawText": " ' world'",
                                         "flags": 4194400,
                                         "start": 30,
                                         "end": 39
@@ -150,7 +150,7 @@ hello();
                                                             "left": {
                                                                 "kind": 201392131,
                                                                 "text": "hello",
-                                                                "rawText": "hello",
+                                                                "rawText": "'hello'",
                                                                 "flags": 4194400,
                                                                 "start": 69,
                                                                 "end": 76

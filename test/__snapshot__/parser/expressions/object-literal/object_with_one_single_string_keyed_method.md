@@ -40,7 +40,7 @@ wrap({'foo'(){}});
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": "'foo'",
                                             "flags": 4194400,
                                             "start": 6,
                                             "end": 11

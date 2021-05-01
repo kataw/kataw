@@ -38,7 +38,7 @@
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "rawText": "use strict",
+                                "rawText": " \"use strict\"",
                                 "flags": 96,
                                 "start": 7,
                                 "end": 20
@@ -115,7 +115,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'with' statements are not allowed in strict mode. - start: 22, end: 26
-
+✔ No errors
 ```
 

@@ -24,7 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "P",
-                "rawText": "P",
+                "rawText": "\"\\P\"",
                 "flags": 96,
                 "start": 0,
                 "end": 4
@@ -38,7 +38,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefixQ",
-                "rawText": "prefixQ",
+                "rawText": "\n\"prefix\\Q\"",
                 "flags": 97,
                 "start": 6,
                 "end": 17
@@ -52,7 +52,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Rsuffix",
-                "rawText": "Rsuffix",
+                "rawText": "\n\"\\Rsuffix\"",
                 "flags": 97,
                 "start": 19,
                 "end": 30

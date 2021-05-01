@@ -30,7 +30,7 @@ do throw function (v, h) {
                 "expression": {
                     "kind": 201392131,
                     "text": "",
-                    "rawText": "",
+                    "rawText": "\"\"",
                     "flags": 96,
                     "start": 52,
                     "end": 54
@@ -117,7 +117,7 @@ do throw function (v, h) {
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "rawText": "use strict",
+                                    "rawText": "\n  \"use strict\"",
                                     "flags": 97,
                                     "start": 26,
                                     "end": 41

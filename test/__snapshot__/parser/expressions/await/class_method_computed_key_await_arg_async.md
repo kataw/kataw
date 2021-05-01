@@ -194,7 +194,7 @@ async function f(){
                                                             "name": {
                                                                 "kind": 201392131,
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " \"x\"",
                                                                 "flags": 96,
                                                                 "start": 53,
                                                                 "end": 57

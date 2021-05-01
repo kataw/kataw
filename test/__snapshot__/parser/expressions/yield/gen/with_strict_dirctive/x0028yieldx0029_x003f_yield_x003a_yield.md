@@ -17,17 +17,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 120,
             "expression": {
@@ -101,9 +106,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 15, end: 20
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 23, end: 29
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 31, end: 37
-
+✔ No errors
 ```
 

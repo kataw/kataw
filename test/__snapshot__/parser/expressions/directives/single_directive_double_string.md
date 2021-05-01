@@ -52,7 +52,7 @@ function f(){
                         {
                             "kind": 201392131,
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": "\n\"foo\"",
                             "flags": 97,
                             "start": 13,
                             "end": 19

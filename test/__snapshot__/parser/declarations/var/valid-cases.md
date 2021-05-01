@@ -520,7 +520,7 @@ var {get} = obj;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 102,
                 "end": 116

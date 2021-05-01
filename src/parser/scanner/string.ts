@@ -178,8 +178,8 @@ export function scanString(parser: ParserState, context: Context, quote: number,
     } else {
       if (ch === quote) {
         result += source.substring(start, parser.pos);
-        parser.tokenRaw = result;
         parser.pos++;
+        parser.tokenRaw =  source.substring(parser.curPos, parser.pos);
         parser.tokenValue = result;
         return SyntaxKind.StringLiteral;
       }

@@ -392,7 +392,7 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 108,
                 "end": 122
@@ -497,7 +497,7 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 144,
                 "end": 158

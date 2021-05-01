@@ -32,7 +32,7 @@ f2`hello world`?.a;
                 "member": {
                     "kind": 201392131,
                     "text": "hello",
-                    "rawText": "hello",
+                    "rawText": "\"hello\"",
                     "flags": 96,
                     "start": 0,
                     "end": 7

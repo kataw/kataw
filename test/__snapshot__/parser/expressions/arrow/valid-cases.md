@@ -1113,7 +1113,7 @@ foo ? bar : baz => {};
                                     "right": {
                                         "kind": 201392131,
                                         "text": "value",
-                                        "rawText": "value",
+                                        "rawText": "'value'",
                                         "flags": 4194400,
                                         "start": 282,
                                         "end": 289

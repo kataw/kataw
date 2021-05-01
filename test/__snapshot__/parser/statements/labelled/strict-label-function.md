@@ -15,17 +15,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 163,
             "label": {
@@ -121,7 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 35,
                 "end": 49
@@ -234,9 +239,8 @@
 ### Diagnostics
 
 ```javascript
-✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 18, end: 27
+✖ Generators can only be declared at the top level or inside a block - start: 28, end: 30
 ✖ Duplicate label - start: 50, end: 55
-✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 55, end: 64
 
 ```
 

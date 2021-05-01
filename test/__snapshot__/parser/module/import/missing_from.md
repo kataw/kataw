@@ -35,7 +35,7 @@ import {a, b} fromx "c"
                 "from": {
                     "kind": 201392131,
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " \"c\"",
                     "flags": 96,
                     "start": 19,
                     "end": 23

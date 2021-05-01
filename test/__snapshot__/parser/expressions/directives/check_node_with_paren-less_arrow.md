@@ -44,7 +44,7 @@ x => { "use strict"; }
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "rawText": "use strict",
+                                "rawText": " \"use strict\"",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 19

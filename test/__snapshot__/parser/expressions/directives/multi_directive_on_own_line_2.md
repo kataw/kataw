@@ -53,7 +53,7 @@ function f(){
                         {
                             "kind": 201392131,
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": "\n'foo'",
                             "flags": 4194401,
                             "start": 13,
                             "end": 19
@@ -61,7 +61,7 @@ function f(){
                         {
                             "kind": 201392131,
                             "text": "bar",
-                            "rawText": "bar",
+                            "rawText": "\n'bar'",
                             "flags": 4194401,
                             "start": 20,
                             "end": 26

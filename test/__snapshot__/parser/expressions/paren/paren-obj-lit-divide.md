@@ -171,7 +171,7 @@
                     "right": {
                         "kind": 201392131,
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": " \"a\"",
                         "flags": 96,
                         "start": 29,
                         "end": 33
@@ -497,7 +497,7 @@
                                     "right": {
                                         "kind": 201392131,
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": "\"a\"",
                                         "flags": 96,
                                         "start": 94,
                                         "end": 97
@@ -639,7 +639,7 @@
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "\"a\"",
                                             "flags": 96,
                                             "start": 125,
                                             "end": 128

@@ -1513,7 +1513,7 @@ class Array { concat(items:number | string) {}; }
                                     {
                                         "kind": 201392131,
                                         "text": "hello",
-                                        "rawText": "hello",
+                                        "rawText": " \"hello\"",
                                         "flags": 96,
                                         "start": 545,
                                         "end": 553
@@ -1640,7 +1640,7 @@ class Array { concat(items:number | string) {}; }
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "rawText": "hello",
+                                            "rawText": " \"hello\"",
                                             "flags": 96,
                                             "start": 586,
                                             "end": 594
@@ -1779,7 +1779,7 @@ class Array { concat(items:number | string) {}; }
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "rawText": "hello",
+                                            "rawText": " \"hello\"",
                                             "flags": 96,
                                             "start": 628,
                                             "end": 636

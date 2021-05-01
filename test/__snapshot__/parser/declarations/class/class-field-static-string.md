@@ -60,7 +60,7 @@ class C { static '0' }
                         "key": {
                             "kind": 201392131,
                             "text": "0",
-                            "rawText": "0",
+                            "rawText": " '0'",
                             "flags": 4194400,
                             "start": 16,
                             "end": 20

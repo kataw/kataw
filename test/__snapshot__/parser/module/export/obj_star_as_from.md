@@ -133,7 +133,7 @@ export {bar}, * as foo from 'bar';
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " 'bar'",
                 "flags": 4194400,
                 "start": 27,
                 "end": 33

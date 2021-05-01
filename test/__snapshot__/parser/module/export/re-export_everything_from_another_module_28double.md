@@ -57,7 +57,7 @@ export * from "foo"
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 13,
                     "end": 19

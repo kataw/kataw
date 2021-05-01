@@ -74,7 +74,7 @@
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "rawText": "use strict",
+                                    "rawText": "\n  'use strict'",
                                     "flags": 4194401,
                                     "start": 14,
                                     "end": 29
@@ -143,7 +143,7 @@
                         "expression": {
                             "kind": 201392131,
                             "text": "use strict",
-                            "rawText": "use strict",
+                            "rawText": "\n  'use strict'",
                             "flags": 4194401,
                             "start": 48,
                             "end": 63
@@ -180,7 +180,6 @@
 ### Diagnostics
 
 ```javascript
-✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 29, end: 30
 ✖ Expected a `;` - start: 43, end: 46
 ✖ Statement expected - start: 43, end: 46
 

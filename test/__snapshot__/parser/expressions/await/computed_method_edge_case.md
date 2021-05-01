@@ -185,7 +185,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                         "name": {
                                                                             "kind": 201392131,
                                                                             "text": "x",
-                                                                            "rawText": "x",
+                                                                            "rawText": " \"x\"",
                                                                             "flags": 96,
                                                                             "start": 66,
                                                                             "end": 70

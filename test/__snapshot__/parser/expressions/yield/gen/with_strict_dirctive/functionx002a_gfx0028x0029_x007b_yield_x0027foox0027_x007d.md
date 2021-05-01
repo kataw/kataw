@@ -17,17 +17,22 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [
-        {
-            "kind": 201392131,
-            "text": "use strict",
-            "rawText": "use strict",
-            "flags": 4194400,
-            "start": 0,
-            "end": 12
-        }
-    ],
+    "directives": [],
     "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 201392131,
+                "text": "use strict",
+                "rawText": "'use strict'",
+                "flags": 4194400,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 13
+        },
         {
             "kind": 176,
             "declareKeyword": null,
@@ -81,7 +86,7 @@
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " 'foo'",
                                     "flags": 4194400,
                                     "start": 36,
                                     "end": 42

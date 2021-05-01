@@ -40,7 +40,7 @@ import {x, z,} from "y"
                 "from": {
                     "kind": 201392131,
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " \"y\"",
                     "flags": 96,
                     "start": 19,
                     "end": 23

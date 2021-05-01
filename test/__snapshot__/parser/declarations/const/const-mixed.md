@@ -62,7 +62,7 @@ const map = {
                                         "left": {
                                             "kind": 201392131,
                                             "text": "Too young",
-                                            "rawText": "Too young",
+                                            "rawText": " 'Too young'",
                                             "flags": 4194400,
                                             "start": 29,
                                             "end": 41

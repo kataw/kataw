@@ -63,7 +63,7 @@
                                     "right": {
                                         "kind": 201392131,
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": "\"x\"",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 5

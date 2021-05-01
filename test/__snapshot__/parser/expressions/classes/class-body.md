@@ -5222,7 +5222,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "str",
-                                        "rawText": "str",
+                                        "rawText": "\"str\"",
                                         "flags": 96,
                                         "start": 1399,
                                         "end": 1404

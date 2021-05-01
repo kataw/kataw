@@ -1667,7 +1667,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
-                                        "rawText": "foo",
+                                        "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 345,
                                         "end": 350
@@ -1773,7 +1773,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
-                                        "rawText": "foo",
+                                        "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 373,
                                         "end": 378
@@ -1897,7 +1897,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
-                                        "rawText": "foo",
+                                        "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 400,
                                         "end": 405

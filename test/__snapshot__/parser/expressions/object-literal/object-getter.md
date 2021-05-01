@@ -765,7 +765,7 @@ x({get 0o4567(){}});
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " \"foo\"",
                                             "flags": 96,
                                             "start": 166,
                                             "end": 172

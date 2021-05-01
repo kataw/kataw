@@ -69,7 +69,7 @@
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 3,
                                 "end": 6
@@ -140,7 +140,7 @@
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 26,
                                 "end": 29

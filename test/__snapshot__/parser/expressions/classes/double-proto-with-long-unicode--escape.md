@@ -52,7 +52,7 @@ class x { "construct\u{6f}r"(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " \"construct\\u{6f}r\"",
                                 "flags": 8288,
                                 "start": 9,
                                 "end": 28

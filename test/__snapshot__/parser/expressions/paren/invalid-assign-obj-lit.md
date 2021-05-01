@@ -1427,7 +1427,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "b",
-                "rawText": "b",
+                "rawText": " \"b\"",
                 "flags": 96,
                 "start": 291,
                 "end": 295
@@ -1509,7 +1509,7 @@
                             {
                                 "kind": 201392131,
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " \"b\"",
                                 "flags": 96,
                                 "start": 312,
                                 "end": 316
@@ -1613,7 +1613,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " \"b\"",
                                     "flags": 96,
                                     "start": 333,
                                     "end": 337

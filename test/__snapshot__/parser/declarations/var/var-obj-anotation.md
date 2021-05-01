@@ -122,7 +122,7 @@ var {x}: {x: string; } = { x: "hello" };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "rawText": "hello",
+                                            "rawText": " \"hello\"",
                                             "flags": 96,
                                             "start": 29,
                                             "end": 37

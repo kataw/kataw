@@ -363,7 +363,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 102,
                 "end": 116
@@ -484,7 +484,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 153,
                 "end": 167
@@ -605,7 +605,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 199,
                 "end": 213
@@ -741,7 +741,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 243,
                 "end": 257
@@ -866,7 +866,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 291,
                 "end": 305
@@ -1007,8 +1007,11 @@ class C { get name(private) {} }
 ```javascript
 ✖ A 'get' accessor cannot have parameters. - start: 20, end: 29
 ✖ A 'get' accessor cannot have parameters. - start: 56, end: 62
+✖ Identifier expected. Reserved word in strict mode - start: 56, end: 62
 ✖ A 'get' accessor cannot have parameters. - start: 89, end: 96
+✖ Identifier expected. Reserved word in strict mode - start: 89, end: 96
 ✖ A 'get' accessor cannot have parameters. - start: 137, end: 147
+✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
 ✖ `Yield` expression cannot be used in function parameters - start: 188, end: 193
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237

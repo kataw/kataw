@@ -165,7 +165,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "right": {
                                                     "kind": 201392131,
                                                     "text": "dead",
-                                                    "rawText": "dead",
+                                                    "rawText": " 'dead'",
                                                     "flags": 4194400,
                                                     "start": 69,
                                                     "end": 76

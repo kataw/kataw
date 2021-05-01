@@ -82,7 +82,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                     {
                                         "kind": 201392131,
                                         "text": "use strict",
-                                        "rawText": "use strict",
+                                        "rawText": " 'use strict'",
                                         "flags": 4194400,
                                         "start": 30,
                                         "end": 43

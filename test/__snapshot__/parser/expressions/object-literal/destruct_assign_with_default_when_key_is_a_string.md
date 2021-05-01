@@ -75,7 +75,7 @@ a={"b":c=d}
                                 "right": {
                                     "kind": 201392131,
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": "\"b\"",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 6

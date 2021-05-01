@@ -661,7 +661,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 260,
                 "end": 274
@@ -746,7 +746,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n'use strict'",
                 "flags": 4194401,
                 "start": 304,
                 "end": 317
@@ -853,7 +853,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n'use strict'",
                 "flags": 4194401,
                 "start": 352,
                 "end": 365
@@ -953,7 +953,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n'use strict'",
                 "flags": 4194401,
                 "start": 402,
                 "end": 415

@@ -56,7 +56,7 @@ function f(){ "use strict"
                                 "member": {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "rawText": "use strict",
+                                    "rawText": " \"use strict\"",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 26

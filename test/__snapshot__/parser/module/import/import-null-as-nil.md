@@ -40,7 +40,7 @@ import { null as nil } from "bar"
                 "from": {
                     "kind": 201392131,
                     "text": "bar",
-                    "rawText": "bar",
+                    "rawText": " \"bar\"",
                     "flags": 96,
                     "start": 27,
                     "end": 33

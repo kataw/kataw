@@ -52,7 +52,7 @@ wrap({'a':b, 'c':d});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 6,
                                             "end": 9
@@ -78,7 +78,7 @@ wrap({'a':b, 'c':d});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "c",
-                                            "rawText": "c",
+                                            "rawText": " 'c'",
                                             "flags": 4194400,
                                             "start": 12,
                                             "end": 16

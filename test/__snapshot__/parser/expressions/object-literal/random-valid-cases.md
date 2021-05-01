@@ -1332,7 +1332,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": "\"x\"",
                                     "flags": 96,
                                     "start": 282,
                                     "end": 285
@@ -1408,7 +1408,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": "\"x\"",
                                         "flags": 96,
                                         "start": 296,
                                         "end": 299
@@ -1505,7 +1505,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": "\"x\"",
                                     "flags": 96,
                                     "start": 315,
                                     "end": 318
@@ -1807,7 +1807,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 201392131,
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": "\"b\"",
                                     "flags": 96,
                                     "start": 380,
                                     "end": 383
@@ -1997,7 +1997,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 201392131,
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": "\"foo\"",
                                     "flags": 96,
                                     "start": 427,
                                     "end": 432
@@ -2057,7 +2057,7 @@ a = { y: x = 1 } = b;
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " \"foo\"",
                                             "flags": 96,
                                             "start": 448,
                                             "end": 454
@@ -3214,7 +3214,7 @@ a = { y: x = 1 } = b;
                                                             {
                                                                 "kind": 201392131,
                                                                 "text": "1",
-                                                                "rawText": "1",
+                                                                "rawText": "\"1\"",
                                                                 "flags": 96,
                                                                 "start": 733,
                                                                 "end": 736
@@ -3820,7 +3820,7 @@ a = { y: x = 1 } = b;
                                 "name": {
                                     "kind": 201392131,
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": "\"foo\"",
                                     "flags": 96,
                                     "start": 885,
                                     "end": 890
@@ -4141,7 +4141,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 201392131,
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": "\"x\"",
                                     "flags": 96,
                                     "start": 946,
                                     "end": 949

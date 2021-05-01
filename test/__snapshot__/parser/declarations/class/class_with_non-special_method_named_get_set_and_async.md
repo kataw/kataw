@@ -71,7 +71,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "set",
-                                "rawText": "set",
+                                "rawText": "\"set\"",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 14
@@ -122,7 +122,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "get",
-                                "rawText": "get",
+                                "rawText": " \"get\"",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 24
@@ -173,7 +173,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "async",
-                                "rawText": "async",
+                                "rawText": " \"async\"",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 36

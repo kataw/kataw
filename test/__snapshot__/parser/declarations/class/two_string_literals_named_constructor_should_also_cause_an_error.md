@@ -71,7 +71,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " 'constructor'",
                                 "flags": 4194400,
                                 "start": 9,
                                 "end": 23
@@ -128,7 +128,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " \"constructor\"",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 42

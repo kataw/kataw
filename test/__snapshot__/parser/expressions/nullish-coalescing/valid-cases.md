@@ -480,7 +480,7 @@ a ?? b ?? c ? d : e;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "rawText": "use strict",
+                "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 110,
                 "end": 124

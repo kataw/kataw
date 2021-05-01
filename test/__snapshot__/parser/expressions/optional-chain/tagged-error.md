@@ -108,7 +108,7 @@ a?.()``;
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 13,
                                 "end": 16

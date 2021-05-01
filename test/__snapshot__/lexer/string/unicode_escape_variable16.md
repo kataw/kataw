@@ -20,7 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
-                "rawText": "",
+                "rawText": "\"\\u{af\"",
                 "flags": 8288,
                 "start": 0,
                 "end": 7
