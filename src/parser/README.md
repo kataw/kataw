@@ -102,7 +102,12 @@ will become:  `"\n\"string\""`.
 
 If you need this *extra* information in a code generator, you can use the `rawText` instead of the `text` value.
 
-Comments will be kept as well as part of the `rawText`.
+
+## Comment extraction
+
+The `rawText` property will always contain the comments if they exist.
+
+For example
 
 ```ts
 
@@ -110,6 +115,29 @@ Comments will be kept as well as part of the `rawText`.
 ```
 
 will become:  `"\n/*  hello string */ \"string\""`.
+
+If you need to *extract* a comment, you can use the `start` and `end` values on each CST node and `kataw.extractComment()`
+
+For example if you are parsing this kind of code a `a = /* comment */  1;` you can extract both `leading` and `trailing` comments of `=` using 
+the CST ndoe ranges.
+
+```ts
+"operatorToken": {
+ "kind": 4125,
+ "flags": 64,
+ "start": 1,
+  "end": 3
+},
+```
+
+To get the trailing comment you have to do this:
+
+`kataw.extractComment(root.source, 3, /* trailing */ true)`
+
+It will skip all whitespace in the range from `3` to the start value of the next node.
+
+If there are line breaks in between it will stil find the comments within the same range.
+
 
 ## Location tracking
 
