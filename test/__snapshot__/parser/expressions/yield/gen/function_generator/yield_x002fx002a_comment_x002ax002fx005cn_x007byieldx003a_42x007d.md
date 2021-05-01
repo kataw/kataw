@@ -226,7 +226,9 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 45, end: 59
+✖ Expected a `;` - start: 45, end: 60
 ✖ Statement expected - start: 45, end: 60
+✖ Expected a `;` - start: 61, end: 63
 ✖ Statement expected - start: 73, end: 75
 ✖ Statement expected - start: 75, end: 76
 

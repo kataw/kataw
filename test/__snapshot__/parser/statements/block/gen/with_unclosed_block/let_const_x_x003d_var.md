@@ -206,9 +206,12 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
+✖ Expected a `;` - start: 21, end: 27
 ✖ Expression expected - start: 31, end: 35
 ✖ Lexical declaration expected - start: 31, end: 35
+✖ Expected a `;` - start: 31, end: 35
 
 ```
 

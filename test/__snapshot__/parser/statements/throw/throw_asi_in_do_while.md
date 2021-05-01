@@ -130,6 +130,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 30, end: 36
+
 ```
 

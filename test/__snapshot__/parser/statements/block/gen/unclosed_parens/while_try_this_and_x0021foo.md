@@ -171,7 +171,9 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 8
+✖ Expected a `;` - start: 2, end: 8
 ✖ Expression expected - start: 8, end: 12
+✖ Expected a `;` - start: 21, end: 23
 
 ```
 

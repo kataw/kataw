@@ -253,6 +253,7 @@
 ✖ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
 ✖ Invalid character - start: 38, end: 39
 ✖ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
+✖ Expected a `;` - start: 46, end: 54
 ✖ Unterminated template literal - start: 60, end: 85
 
 ```

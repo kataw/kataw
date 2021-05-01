@@ -95,6 +95,7 @@ class true {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
+✖ Expected a `;` - start: 10, end: 12
 
 ```
 

@@ -141,6 +141,7 @@ function *f(){
 ```javascript
 ✖ Expression expected - start: 14, end: 32
 ✖ Expression expected - start: 32, end: 34
+✖ Expected a `;` - start: 32, end: 34
 ✖ Statement expected - start: 32, end: 34
 ✖ Statement expected - start: 36, end: 38
 

@@ -210,6 +210,7 @@ do[ =! class function try while with foo!
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 12, end: 21
 ✖ Expression expected - start: 21, end: 25
 ✖ Expression expected - start: 41, end: 41
 

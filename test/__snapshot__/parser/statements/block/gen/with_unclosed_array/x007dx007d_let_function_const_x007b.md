@@ -176,6 +176,7 @@
 
 ```javascript
 ✖ Statement expected - start: 4, end: 5
+✖ Expected a `;` - start: 9, end: 18
 ✖ Binding identifier expected - start: 18, end: 24
 ✖ Unexpected token. - start: 18, end: 24
 ✖ Missing initializer in const declaration - start: 26, end: 26

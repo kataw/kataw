@@ -121,6 +121,8 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 15, end: 17
+✖ Expected a `;` - start: 17, end: 19
+
 ```
 

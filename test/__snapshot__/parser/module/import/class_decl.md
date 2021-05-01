@@ -149,6 +149,7 @@ class x { import {x} from "y"; }
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 25, end: 29
 ✖ Statement expected - start: 30, end: 32
 
 ```

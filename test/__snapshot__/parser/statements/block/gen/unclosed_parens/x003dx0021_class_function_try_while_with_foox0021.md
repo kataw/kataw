@@ -250,6 +250,7 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 4
+✖ Expected a `;` - start: 11, end: 20
 ✖ Binding identifier expected - start: 20, end: 24
 ✖ Unexpected token. - start: 20, end: 24
 ✖ Expression expected - start: 40, end: 40

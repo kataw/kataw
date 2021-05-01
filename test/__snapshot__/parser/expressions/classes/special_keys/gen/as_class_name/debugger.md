@@ -94,6 +94,7 @@ class debugger {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 14
+✖ Expected a `;` - start: 14, end: 16
 
 ```
 

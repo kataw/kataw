@@ -128,6 +128,7 @@ class A extends a + b {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 21, end: 23
+
 ```
 

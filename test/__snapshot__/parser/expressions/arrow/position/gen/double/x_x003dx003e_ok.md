@@ -112,6 +112,7 @@ x => ok x => ok
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 7, end: 9
+
 ```
 

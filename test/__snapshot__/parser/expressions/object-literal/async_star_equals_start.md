@@ -67,6 +67,7 @@
 ```javascript
 ✖ ',' expected - start: 7, end: 10
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 7, end: 10
+✖ Expected a `;` - start: 13, end: 14
 ✖ Statement expected - start: 15, end: 16
 ✖ Statement expected - start: 16, end: 17
 

@@ -183,6 +183,7 @@ for (class x extends a in b {} in c);
 ```javascript
 ✖ Invalid left-hand side in for-in loop - start: 25, end: 27
 ✖ Expression expected - start: 30, end: 33
+✖ Expected a `;` - start: 35, end: 36
 ✖ Statement expected - start: 35, end: 36
 
 ```

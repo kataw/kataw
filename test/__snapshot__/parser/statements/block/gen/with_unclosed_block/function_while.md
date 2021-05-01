@@ -207,6 +207,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
 ✖ Binding identifier expected - start: 26, end: 32
 ✖ Unexpected token. - start: 26, end: 32

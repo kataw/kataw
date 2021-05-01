@@ -393,15 +393,20 @@ declare function foo(): void
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 7, end: 16
 ✖ Unexpected token. - start: 20, end: 21
 ✖ Expression expected - start: 31, end: 32
+✖ Expected a `;` - start: 41, end: 50
 ✖ ',' expected - start: 56, end: 57
 ✖ Unexpected token. - start: 56, end: 57
 ✖ Statement expected - start: 56, end: 57
+✖ Expected a `;` - start: 67, end: 68
 ✖ Statement expected - start: 67, end: 68
+✖ Expected a `;` - start: 75, end: 76
 ✖ Statement expected - start: 75, end: 76
 ✖ Statement expected - start: 76, end: 77
 ✖ Expression expected - start: 82, end: 83
+✖ Expected a `;` - start: 92, end: 101
 ✖ Unexpected token. - start: 107, end: 108
 ✖ Statement expected - start: 107, end: 108
 ✖ Expression expected - start: 113, end: 114

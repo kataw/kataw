@@ -85,6 +85,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 4, end: 6
 ✖ Statement expected - start: 4, end: 6
 ✖ Statement expected - start: 8, end: 9
 ✖ Statement expected - start: 9, end: 10

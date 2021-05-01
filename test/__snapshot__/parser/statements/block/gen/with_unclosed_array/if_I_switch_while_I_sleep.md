@@ -154,6 +154,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 2, end: 5
 ✖ Expression expected - start: 14, end: 20
 
 ```

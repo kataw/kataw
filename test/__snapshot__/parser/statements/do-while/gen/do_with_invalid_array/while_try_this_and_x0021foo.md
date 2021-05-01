@@ -206,6 +206,7 @@ do while [catch] while try this and !foo
 ```javascript
 ✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 22, end: 26
+✖ Expected a `;` - start: 35, end: 37
 
 ```
 

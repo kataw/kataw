@@ -125,6 +125,7 @@ async async => {} + x
 
 ```javascript
 ✖ An arrow function can not be part of an operator to the right - start: 17, end: 19
+✖ Expected a `;` - start: 17, end: 19
 
 ```
 

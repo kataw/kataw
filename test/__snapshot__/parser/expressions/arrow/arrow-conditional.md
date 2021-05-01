@@ -506,6 +506,7 @@ a ? b : (): string => {}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 56, end: 59
 ✖ Statement expected - start: 56, end: 59
 
 ```

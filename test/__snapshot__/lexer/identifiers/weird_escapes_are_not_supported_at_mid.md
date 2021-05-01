@@ -64,6 +64,7 @@ xxx\Axxx
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 0, end: 3
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 3
+✖ Expected a `;` - start: 3, end: 4
 ✖ Statement expected - start: 3, end: 4
 
 ```

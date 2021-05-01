@@ -146,7 +146,9 @@ async function f(){ await \n x; }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 25, end: 26
 ✖ Expression expected - start: 25, end: 27
+✖ Expected a `;` - start: 25, end: 27
 ✖ Statement expected - start: 25, end: 27
+✖ Expected a `;` - start: 28, end: 30
 ✖ Statement expected - start: 31, end: 33
 
 ```

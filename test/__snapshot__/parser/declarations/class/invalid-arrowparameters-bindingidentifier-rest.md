@@ -117,6 +117,7 @@ var af = ...x => x;
 ```javascript
 ✖ Expression expected - start: 8, end: 12
 ✖ ',' expected - start: 8, end: 12
+✖ Expected a `;` - start: 8, end: 12
 ✖ Statement expected - start: 8, end: 12
 
 ```

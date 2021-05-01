@@ -145,6 +145,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 
 ```javascript
 ✖ ',' expected - start: 100, end: 103
+✖ Expected a `;` - start: 100, end: 103
 ✖ Statement expected - start: 100, end: 103
 ✖ Statement expected - start: 106, end: 112
 ✖ Statement expected - start: 112, end: 114

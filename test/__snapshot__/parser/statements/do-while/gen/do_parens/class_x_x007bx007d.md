@@ -105,6 +105,7 @@ do( class x {} while
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 14, end: 20
 ✖ Expression expected - start: 20, end: 20
 
 ```

@@ -78,6 +78,7 @@ do[ catch
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 3, end: 9
 ✖ Expression expected - start: 9, end: 9
 
 ```

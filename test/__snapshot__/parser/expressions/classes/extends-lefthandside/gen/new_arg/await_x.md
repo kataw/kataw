@@ -79,6 +79,7 @@ new await x
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 9, end: 11
+
 ```
 

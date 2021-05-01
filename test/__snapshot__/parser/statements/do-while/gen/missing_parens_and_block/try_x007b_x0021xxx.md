@@ -157,6 +157,7 @@ do try { !xxx while
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 13, end: 19
 ✖ Expression expected - start: 19, end: 19
 ✖ Expression expected - start: 19, end: 19
 ✖ Expression expected - start: 19, end: 19

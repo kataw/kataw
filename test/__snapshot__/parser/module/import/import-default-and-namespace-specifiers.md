@@ -112,6 +112,8 @@ import foo, * as bar from "foo";
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 20, end: 25
+✖ Expected a `;` - start: 25, end: 31
+
 ```
 

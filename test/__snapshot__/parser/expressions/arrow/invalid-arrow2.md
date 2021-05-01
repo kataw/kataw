@@ -1159,19 +1159,29 @@
 
 ```javascript
 ✖ The left hand side of the arrow is not destructible  - start: 11, end: 14
+✖ Expected a `;` - start: 31, end: 34
 ✖ Statement expected - start: 31, end: 34
 ✖ A rest element cannot have an initializer - start: 45, end: 47
+✖ Expected a `;` - start: 70, end: 71
 ✖ Statement expected - start: 70, end: 71
 ✖ Statement expected - start: 71, end: 74
 ✖ The left hand side of the arrow is not destructible  - start: 90, end: 94
 ✖ The left hand side of the arrow is not destructible  - start: 114, end: 117
+✖ Expected a `;` - start: 134, end: 137
 ✖ Statement expected - start: 134, end: 137
+✖ Expected a `;` - start: 157, end: 160
 ✖ Statement expected - start: 157, end: 160
+✖ Expected a `;` - start: 176, end: 179
 ✖ Statement expected - start: 176, end: 179
+✖ Expected a `;` - start: 198, end: 201
 ✖ Statement expected - start: 198, end: 201
+✖ Expected a `;` - start: 221, end: 224
 ✖ Statement expected - start: 221, end: 224
+✖ Expected a `;` - start: 247, end: 250
 ✖ Statement expected - start: 247, end: 250
 ✖ The left hand side of the arrow is not destructible  - start: 268, end: 271
+✖ Expected a `;` - start: 282, end: 284
+✖ Expected a `;` - start: 284, end: 286
 ✖ Statement expected - start: 284, end: 286
 ✖ Statement expected - start: 286, end: 287
 ✖ Statement expected - start: 287, end: 290

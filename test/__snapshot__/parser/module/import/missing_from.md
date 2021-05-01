@@ -129,6 +129,7 @@ import {a, b} fromx "c"
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 19, end: 23
+
 ```
 

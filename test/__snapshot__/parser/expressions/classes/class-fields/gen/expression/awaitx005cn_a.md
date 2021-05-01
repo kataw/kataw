@@ -142,6 +142,7 @@ class C extends Base { await\n a }
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 28
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 28
 ✖ Statement expected - start: 28, end: 29
+✖ Expected a `;` - start: 30, end: 32
 ✖ Statement expected - start: 32, end: 34
 
 ```

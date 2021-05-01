@@ -143,6 +143,9 @@ export * as foo, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 11, end: 15
+✖ Expected a `;` - start: 22, end: 27
+✖ Expected a `;` - start: 27, end: 33
+
 ```
 

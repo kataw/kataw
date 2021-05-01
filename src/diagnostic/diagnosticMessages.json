@@ -120,7 +120,7 @@
   "'import.meta' must not contain escaped characters": 121,
   "Escape sequence in keyword import": 122,
   "The only valid meta property for new is 'new.target": 123,
-  "Invalid escaped keyword": 124,
+  "Keywords cannot contain escape characters": 124,
   "'let' is not allowed to be used as a name in 'let' or 'const' declarations.": 125,
   "Duplicate regular expression flag": 126,
   "Unterminated regular expression": 127,

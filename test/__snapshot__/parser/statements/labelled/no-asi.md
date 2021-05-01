@@ -59,6 +59,7 @@ debugger /foo/
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 8, end: 14
+
 ```
 

@@ -159,7 +159,9 @@ unction* gf() { var a = yield 'foo'; }
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 13, end: 15
 ✖ ',' expected - start: 29, end: 35
+✖ Expected a `;` - start: 29, end: 35
 
 ```
 

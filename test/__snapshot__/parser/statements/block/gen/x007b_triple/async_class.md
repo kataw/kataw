@@ -124,6 +124,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 11, end: 17
 ✖ Binding identifier expected - start: 17, end: 17
 
 ```

@@ -3,26 +3,10 @@
 ## Input
 
 `````js
-class A {async get 7(){}}
-`````
-
-## Options
-
-### Parser Options
-
-`````js
-{}
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
+class A {
+  *[1]() {}
 }
+
 `````
 
 ## Output
@@ -58,36 +42,15 @@ class A {async get 7(){}}
                 "kind": 277,
                 "elements": [
                     {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 9,
-                            "end": 14
-                        },
-                        "key": {
-                            "kind": 134299649,
-                            "text": "get",
-                            "rawText": "get",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 18
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 9,
-                        "end": 18
-                    },
-                    {
                         "kind": 278,
                         "declareToken": null,
                         "decorators": null,
-                        "generatorToken": null,
+                        "generatorToken": {
+                            "kind": 67143222,
+                            "flags": 65,
+                            "start": 9,
+                            "end": 13
+                        },
                         "staticKeyword": null,
                         "asyncKeyword": null,
                         "setKeyword": null,
@@ -95,12 +58,18 @@ class A {async get 7(){}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 201392130,
-                                "text": 7,
-                                "rawText": "7",
-                                "flags": 96,
-                                "start": 18,
-                                "end": 20
+                                "kind": 194,
+                                "expression": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 15
+                                },
+                                "flags": 32,
+                                "start": 13,
+                                "end": 16
                             },
                             "typeParameters": null,
                             "formalParameters": {
@@ -108,8 +77,8 @@ class A {async get 7(){}}
                                 "formalParameterList": [],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "start": 21,
-                                "end": 22
+                                "start": 17,
+                                "end": 18
                             },
                             "type": null,
                             "contents": {
@@ -119,37 +88,37 @@ class A {async get 7(){}}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
-                                    "start": 23,
-                                    "end": 23
+                                    "start": 20,
+                                    "end": 20
                                 },
                                 "flags": 32,
-                                "start": 22,
-                                "end": 24
+                                "start": 18,
+                                "end": 21
                             },
                             "flags": 0,
-                            "start": 20,
-                            "end": 24
+                            "start": 16,
+                            "end": 21
                         },
                         "flags": 0,
-                        "start": 18,
-                        "end": 24
+                        "start": 9,
+                        "end": 21
                     }
                 ],
                 "flags": 32,
                 "start": 9,
-                "end": 25
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 25
+            "end": 23
         }
     ],
     "isModule": false,
-    "source": "class A {async get 7(){}}",
+    "source": "class A {\n  *[1]() {}\n}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 25
+    "end": 24
 }
 ```
 

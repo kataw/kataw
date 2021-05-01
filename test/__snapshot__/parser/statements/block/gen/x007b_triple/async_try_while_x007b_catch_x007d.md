@@ -170,6 +170,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 11, end: 15
 ✖ 'try' expected - start: 23, end: 29
 
 ```

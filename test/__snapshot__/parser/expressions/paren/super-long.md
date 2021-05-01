@@ -43962,127 +43962,215 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 172, end: 173
 ✖ Statement expected - start: 172, end: 173
+✖ Expected a `;` - start: 205, end: 206
 ✖ Statement expected - start: 205, end: 206
+✖ Expected a `;` - start: 335, end: 336
 ✖ Statement expected - start: 335, end: 336
+✖ Expected a `;` - start: 408, end: 409
 ✖ Statement expected - start: 408, end: 409
 ✖ Expression expected - start: 411, end: 412
+✖ Expected a `;` - start: 506, end: 507
 ✖ Statement expected - start: 506, end: 507
+✖ Expected a `;` - start: 679, end: 680
 ✖ Statement expected - start: 679, end: 680
+✖ Expected a `;` - start: 712, end: 713
 ✖ Statement expected - start: 712, end: 713
+✖ Expected a `;` - start: 842, end: 843
 ✖ Statement expected - start: 842, end: 843
+✖ Expected a `;` - start: 915, end: 916
 ✖ Statement expected - start: 915, end: 916
 ✖ Expression expected - start: 918, end: 919
+✖ Expected a `;` - start: 1124, end: 1125
 ✖ Statement expected - start: 1124, end: 1125
+✖ Expected a `;` - start: 1254, end: 1255
 ✖ Statement expected - start: 1254, end: 1255
+✖ Expected a `;` - start: 1327, end: 1328
 ✖ Statement expected - start: 1327, end: 1328
 ✖ Expression expected - start: 1330, end: 1331
+✖ Expected a `;` - start: 1333, end: 1334
 ✖ Statement expected - start: 1333, end: 1334
+✖ Expected a `;` - start: 1490, end: 1491
 ✖ Statement expected - start: 1490, end: 1491
 ✖ Statement expected - start: 1491, end: 1492
+✖ Expected a `;` - start: 1503, end: 1504
 ✖ Statement expected - start: 1503, end: 1504
 ✖ Statement expected - start: 1504, end: 1505
+✖ Expected a `;` - start: 1521, end: 1522
 ✖ Statement expected - start: 1521, end: 1522
+✖ Expected a `;` - start: 1674, end: 1675
 ✖ Statement expected - start: 1674, end: 1675
 ✖ Statement expected - start: 1675, end: 1676
+✖ Expected a `;` - start: 1687, end: 1688
 ✖ Statement expected - start: 1687, end: 1688
 ✖ Statement expected - start: 1688, end: 1689
+✖ Expected a `;` - start: 1838, end: 1839
 ✖ Statement expected - start: 1838, end: 1839
 ✖ Statement expected - start: 1839, end: 1840
+✖ Expected a `;` - start: 1853, end: 1854
 ✖ Statement expected - start: 1853, end: 1854
 ✖ Statement expected - start: 1854, end: 1855
+✖ Expected a `;` - start: 2014, end: 2015
 ✖ Statement expected - start: 2014, end: 2015
+✖ Expected a `;` - start: 2026, end: 2027
 ✖ Statement expected - start: 2026, end: 2027
 ✖ Statement expected - start: 2027, end: 2028
+✖ Expected a `;` - start: 2060, end: 2061
 ✖ Statement expected - start: 2060, end: 2061
+✖ Expected a `;` - start: 2190, end: 2191
 ✖ Statement expected - start: 2190, end: 2191
+✖ Expected a `;` - start: 2263, end: 2264
 ✖ Statement expected - start: 2263, end: 2264
 ✖ Expression expected - start: 2266, end: 2267
+✖ Expected a `;` - start: 2428, end: 2429
 ✖ Statement expected - start: 2428, end: 2429
+✖ Expected a `;` - start: 2440, end: 2441
 ✖ Statement expected - start: 2440, end: 2441
 ✖ Statement expected - start: 2441, end: 2442
+✖ Expected a `;` - start: 2615, end: 2616
 ✖ Statement expected - start: 2615, end: 2616
+✖ Expected a `;` - start: 2648, end: 2649
 ✖ Statement expected - start: 2648, end: 2649
+✖ Expected a `;` - start: 2778, end: 2779
 ✖ Statement expected - start: 2778, end: 2779
+✖ Expected a `;` - start: 2851, end: 2852
 ✖ Statement expected - start: 2851, end: 2852
 ✖ Expression expected - start: 2854, end: 2855
+✖ Expected a `;` - start: 2857, end: 2858
 ✖ Statement expected - start: 2857, end: 2858
+✖ Expected a `;` - start: 2869, end: 2870
 ✖ Statement expected - start: 2869, end: 2870
+✖ Expected a `;` - start: 3054, end: 3055
 ✖ Statement expected - start: 3054, end: 3055
 ✖ Statement expected - start: 3055, end: 3056
+✖ Expected a `;` - start: 3077, end: 3078
 ✖ Statement expected - start: 3077, end: 3078
+✖ Expected a `;` - start: 3236, end: 3237
 ✖ Statement expected - start: 3236, end: 3237
 ✖ Statement expected - start: 3237, end: 3238
+✖ Expected a `;` - start: 3251, end: 3252
 ✖ Statement expected - start: 3251, end: 3252
 ✖ Statement expected - start: 3252, end: 3253
+✖ Expected a `;` - start: 3426, end: 3427
 ✖ Statement expected - start: 3426, end: 3427
+✖ Expected a `;` - start: 3459, end: 3460
 ✖ Statement expected - start: 3459, end: 3460
+✖ Expected a `;` - start: 3589, end: 3590
 ✖ Statement expected - start: 3589, end: 3590
+✖ Expected a `;` - start: 3662, end: 3663
 ✖ Statement expected - start: 3662, end: 3663
 ✖ Expression expected - start: 3665, end: 3666
+✖ Expected a `;` - start: 3668, end: 3669
 ✖ Statement expected - start: 3668, end: 3669
+✖ Expected a `;` - start: 3883, end: 3884
 ✖ Statement expected - start: 3883, end: 3884
 ✖ Statement expected - start: 3884, end: 3885
+✖ Expected a `;` - start: 3898, end: 3899
 ✖ Statement expected - start: 3898, end: 3899
 ✖ Statement expected - start: 3899, end: 3900
+✖ Expected a `;` - start: 4188, end: 4189
 ✖ Statement expected - start: 4188, end: 4189
 ✖ Statement expected - start: 4189, end: 4190
+✖ Expected a `;` - start: 4201, end: 4202
 ✖ Statement expected - start: 4201, end: 4202
 ✖ Statement expected - start: 4202, end: 4203
+✖ Expected a `;` - start: 4421, end: 4422
 ✖ Statement expected - start: 4421, end: 4422
+✖ Expected a `;` - start: 4425, end: 4426
 ✖ Statement expected - start: 4425, end: 4426
+✖ Expected a `;` - start: 4587, end: 4588
 ✖ Statement expected - start: 4587, end: 4588
 ✖ Statement expected - start: 4588, end: 4589
+✖ Expected a `;` - start: 4600, end: 4601
 ✖ Statement expected - start: 4600, end: 4601
 ✖ Statement expected - start: 4601, end: 4602
+✖ Expected a `;` - start: 4619, end: 4620
 ✖ Statement expected - start: 4619, end: 4620
 ✖ Statement expected - start: 4620, end: 4621
+✖ Expected a `;` - start: 4649, end: 4650
 ✖ Statement expected - start: 4649, end: 4650
+✖ Expected a `;` - start: 4861, end: 4862
 ✖ Statement expected - start: 4861, end: 4862
+✖ Expected a `;` - start: 4873, end: 4874
 ✖ Statement expected - start: 4873, end: 4874
 ✖ Statement expected - start: 4874, end: 4875
+✖ Expected a `;` - start: 4907, end: 4908
 ✖ Statement expected - start: 4907, end: 4908
+✖ Expected a `;` - start: 5037, end: 5038
 ✖ Statement expected - start: 5037, end: 5038
+✖ Expected a `;` - start: 5110, end: 5111
 ✖ Statement expected - start: 5110, end: 5111
 ✖ Expression expected - start: 5113, end: 5114
+✖ Expected a `;` - start: 5275, end: 5276
 ✖ Statement expected - start: 5275, end: 5276
+✖ Expected a `;` - start: 5287, end: 5288
 ✖ Statement expected - start: 5287, end: 5288
 ✖ Statement expected - start: 5288, end: 5289
+✖ Expected a `;` - start: 5462, end: 5463
 ✖ Statement expected - start: 5462, end: 5463
+✖ Expected a `;` - start: 5495, end: 5496
 ✖ Statement expected - start: 5495, end: 5496
+✖ Expected a `;` - start: 5625, end: 5626
 ✖ Statement expected - start: 5625, end: 5626
+✖ Expected a `;` - start: 5698, end: 5699
 ✖ Statement expected - start: 5698, end: 5699
 ✖ Expression expected - start: 5701, end: 5702
+✖ Expected a `;` - start: 5704, end: 5705
 ✖ Statement expected - start: 5704, end: 5705
+✖ Expected a `;` - start: 5716, end: 5717
 ✖ Statement expected - start: 5716, end: 5717
+✖ Expected a `;` - start: 5738, end: 5739
 ✖ Statement expected - start: 5738, end: 5739
 ✖ Statement expected - start: 5739, end: 5740
+✖ Expected a `;` - start: 5744, end: 5745
 ✖ Statement expected - start: 5744, end: 5745
+✖ Expected a `;` - start: 5953, end: 5954
 ✖ Statement expected - start: 5953, end: 5954
+✖ Expected a `;` - start: 5965, end: 5966
 ✖ Statement expected - start: 5965, end: 5966
 ✖ Statement expected - start: 5966, end: 5967
+✖ Expected a `;` - start: 5999, end: 6000
 ✖ Statement expected - start: 5999, end: 6000
+✖ Expected a `;` - start: 6129, end: 6130
 ✖ Statement expected - start: 6129, end: 6130
+✖ Expected a `;` - start: 6202, end: 6203
 ✖ Statement expected - start: 6202, end: 6203
 ✖ Expression expected - start: 6205, end: 6206
+✖ Expected a `;` - start: 6367, end: 6368
 ✖ Statement expected - start: 6367, end: 6368
+✖ Expected a `;` - start: 6379, end: 6380
 ✖ Statement expected - start: 6379, end: 6380
 ✖ Statement expected - start: 6380, end: 6381
+✖ Expected a `;` - start: 6554, end: 6555
 ✖ Statement expected - start: 6554, end: 6555
+✖ Expected a `;` - start: 6587, end: 6588
 ✖ Statement expected - start: 6587, end: 6588
+✖ Expected a `;` - start: 6717, end: 6718
 ✖ Statement expected - start: 6717, end: 6718
+✖ Expected a `;` - start: 6790, end: 6791
 ✖ Statement expected - start: 6790, end: 6791
 ✖ Expression expected - start: 6793, end: 6794
+✖ Expected a `;` - start: 6796, end: 6797
 ✖ Statement expected - start: 6796, end: 6797
+✖ Expected a `;` - start: 6808, end: 6809
 ✖ Statement expected - start: 6808, end: 6809
+✖ Expected a `;` - start: 6851, end: 6852
 ✖ Statement expected - start: 6851, end: 6852
+✖ Expected a `;` - start: 6857, end: 6858
 ✖ Statement expected - start: 6857, end: 6858
+✖ Expected a `;` - start: 6863, end: 6864
 ✖ Statement expected - start: 6863, end: 6864
+✖ Expected a `;` - start: 6869, end: 6870
 ✖ Statement expected - start: 6869, end: 6870
 ✖ Statement expected - start: 6870, end: 6871
+✖ Expected a `;` - start: 6874, end: 6875
 ✖ Statement expected - start: 6874, end: 6875
+✖ Expected a `;` - start: 6879, end: 6880
 ✖ Statement expected - start: 6879, end: 6880
+✖ Expected a `;` - start: 6894, end: 6895
 ✖ Statement expected - start: 6894, end: 6895
+✖ Expected a `;` - start: 6899, end: 6900
 ✖ Statement expected - start: 6899, end: 6900
 ✖ Statement expected - start: 6900, end: 6901
 

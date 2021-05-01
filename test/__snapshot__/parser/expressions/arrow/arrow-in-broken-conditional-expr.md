@@ -97,6 +97,7 @@ bar ? (=> 0) : baz;
 
 ```javascript
 ✖ Expression expected - start: 7, end: 9
+✖ Expected a `;` - start: 11, end: 12
 ✖ Statement expected - start: 11, end: 12
 ✖ Statement expected - start: 12, end: 14
 

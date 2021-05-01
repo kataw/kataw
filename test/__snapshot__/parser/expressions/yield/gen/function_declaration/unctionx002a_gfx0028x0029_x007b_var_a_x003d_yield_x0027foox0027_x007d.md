@@ -207,7 +207,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 34, end: 36
 ✖ ',' expected - start: 50, end: 56
+✖ Expected a `;` - start: 50, end: 56
 ✖ Statement expected - start: 61, end: 62
 
 ```

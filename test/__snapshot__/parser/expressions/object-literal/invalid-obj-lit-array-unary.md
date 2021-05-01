@@ -66,6 +66,7 @@
 
 ```javascript
 ✖ ',' expected - start: 7, end: 8
+✖ Expected a `;` - start: 11, end: 13
 ✖ Statement expected - start: 14, end: 15
 ✖ Statement expected - start: 15, end: 16
 

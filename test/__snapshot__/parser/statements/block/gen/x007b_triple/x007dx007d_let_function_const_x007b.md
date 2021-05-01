@@ -182,6 +182,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 12, end: 21
 ✖ Binding identifier expected - start: 21, end: 27
 ✖ Unexpected token. - start: 21, end: 27
 ✖ Missing initializer in const declaration - start: 29, end: 29

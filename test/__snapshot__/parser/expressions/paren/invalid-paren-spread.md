@@ -699,6 +699,7 @@
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 55
 ✖ Expression expected - start: 55, end: 56
+✖ Expected a `;` - start: 55, end: 56
 ✖ Statement expected - start: 55, end: 56
 ✖ A rest parameter must be last in a parameter list - start: 65, end: 66
 ✖ A rest parameter must be last in a parameter list - start: 65, end: 66

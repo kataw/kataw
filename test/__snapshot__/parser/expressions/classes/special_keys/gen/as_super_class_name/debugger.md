@@ -114,6 +114,7 @@ class x extends debugger {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 24
+✖ Expected a `;` - start: 24, end: 26
 
 ```
 

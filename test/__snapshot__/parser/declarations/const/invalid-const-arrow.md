@@ -224,6 +224,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 ✖ ',' expected - start: 26, end: 33
 ✖ Missing initializer in const declaration - start: 33, end: 35
 ✖ ',' expected - start: 33, end: 35
+✖ Expected a `;` - start: 33, end: 35
 ✖ Statement expected - start: 33, end: 35
 ✖ Statement expected - start: 35, end: 38
 ✖ Expression expected - start: 43, end: 45

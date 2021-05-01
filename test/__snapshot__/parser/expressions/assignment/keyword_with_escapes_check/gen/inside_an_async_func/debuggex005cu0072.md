@@ -100,6 +100,7 @@ async () => {  debugge\u0072 = x  }
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 28, end: 30
 ✖ Statement expected - start: 28, end: 30
 ✖ Statement expected - start: 32, end: 35
 

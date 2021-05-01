@@ -283,6 +283,14 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 7, end: 14
+✖ Expected a `;` - start: 22, end: 25
+✖ Expected a `;` - start: 25, end: 33
+✖ Expected a `;` - start: 33, end: 36
+✖ Expected a `;` - start: 36, end: 41
+✖ Expected a `;` - start: 41, end: 48
+✖ Expected a `;` - start: 48, end: 54
+✖ Expected a `;` - start: 60, end: 64
 ✖ Expression expected - start: 71, end: 71
 ✖ Expression expected - start: 71, end: 71
 

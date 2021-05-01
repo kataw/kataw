@@ -147,6 +147,7 @@ do( function while while
 
 ```javascript
 ✖ Unexpected token. - start: 12, end: 18
+✖ Expected a `;` - start: 12, end: 18
 ✖ Expression expected - start: 18, end: 24
 ✖ Expression expected - start: 24, end: 24
 ✖ Expression expected - start: 24, end: 24

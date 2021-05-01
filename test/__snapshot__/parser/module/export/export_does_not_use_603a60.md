@@ -137,6 +137,7 @@ var x; export {x: a}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 16, end: 17
 ✖ Statement expected - start: 16, end: 17
 ✖ Statement expected - start: 19, end: 20
 

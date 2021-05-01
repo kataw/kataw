@@ -206,8 +206,10 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expression expected - start: 15, end: 19
+✖ Expected a `;` - start: 28, end: 30
 
 ```
 

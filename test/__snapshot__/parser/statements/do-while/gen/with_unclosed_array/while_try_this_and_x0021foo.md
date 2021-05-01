@@ -163,7 +163,9 @@ do[ while try this and !foo
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 3, end: 9
 ✖ Expression expected - start: 9, end: 13
+✖ Expected a `;` - start: 22, end: 24
 
 ```
 

@@ -141,8 +141,10 @@ import {a: b} from "bar";
 
 ```javascript
 ✖ Expression expected - start: 9, end: 10
+✖ Expected a `;` - start: 9, end: 10
 ✖ Statement expected - start: 9, end: 10
 ✖ Statement expected - start: 12, end: 13
+✖ Expected a `;` - start: 18, end: 24
 
 ```
 

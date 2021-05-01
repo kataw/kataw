@@ -144,8 +144,10 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ✖ ',' expected - start: 30, end: 31
 ✖ Unexpected token. - start: 30, end: 31
 ✖ Statement expected - start: 30, end: 31
+✖ Expected a `;` - start: 37, end: 38
 ✖ Statement expected - start: 37, end: 38
 ✖ Statement expected - start: 38, end: 39
+✖ Expected a `;` - start: 54, end: 56
 
 ```
 

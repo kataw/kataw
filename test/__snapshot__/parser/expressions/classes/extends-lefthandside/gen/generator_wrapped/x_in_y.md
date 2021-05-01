@@ -191,6 +191,7 @@ function *P(){
 
 ```javascript
 ✖ Expression expected - start: 34, end: 37
+✖ Expected a `;` - start: 39, end: 41
 
 ```
 

@@ -2,6 +2,7 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { nextToken } from './scanner/scanner';
 import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TokenSyntaxKind, createToken } from '../ast/token';
+import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 
 export const enum Context {
   None = 0,
@@ -98,7 +99,6 @@ export function consume<T extends TokenSyntaxKind>(parser: ParserState, context:
     nextToken(parser, context);
     return true;
   }
-  // parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   return false;
 }
 
@@ -121,7 +121,6 @@ export function consumeToken<T extends TokenSyntaxKind>(parser: ParserState, con
     nextToken(parser, context);
     return createToken(kind, flags, pos, parser.curPos);
   }
-  //parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   nextToken(parser, context);
   return null;
 }
@@ -133,7 +132,8 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
     // consume the semicolon if it was explicitly provided.
     return consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   }
-  return consume(parser, context, SyntaxKind.Semicolon);
+  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Expected_a], parser.curPos, parser.pos);
+  return false;
 }
 
 export function speculate(parser: ParserState, context: Context, callback: any, rollback: boolean) {

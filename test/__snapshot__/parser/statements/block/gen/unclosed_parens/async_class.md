@@ -100,6 +100,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 8, end: 14
 ✖ Binding identifier expected - start: 14, end: 14
 
 ```

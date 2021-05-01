@@ -3800,10 +3800,14 @@ a++ => {};
 ✖ Statement expected - start: 34, end: 37
 ✖ Expression expected - start: 43, end: 44
 ✖ Expression expected - start: 44, end: 45
+✖ Expected a `;` - start: 45, end: 48
 ✖ Statement expected - start: 45, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Expression expected - start: 59, end: 62
+✖ Expected a `;` - start: 59, end: 62
 ✖ Statement expected - start: 59, end: 62
+✖ Expected a `;` - start: 81, end: 82
+✖ Expected a `;` - start: 81, end: 82
 ✖ Statement expected - start: 81, end: 82
 ✖ Statement expected - start: 85, end: 86
 ✖ Statement expected - start: 87, end: 204
@@ -3812,54 +3816,87 @@ a++ => {};
 ✖ Expression expected - start: 220, end: 221
 ✖ Expression expected - start: 225, end: 226
 ✖ Expression expected - start: 300, end: 301
+✖ Expected a `;` - start: 301, end: 304
 ✖ Statement expected - start: 301, end: 304
+✖ Expected a `;` - start: 313, end: 316
 ✖ Statement expected - start: 313, end: 316
+✖ Expected a `;` - start: 328, end: 331
 ✖ Statement expected - start: 328, end: 331
+✖ Expected a `;` - start: 343, end: 346
 ✖ Statement expected - start: 343, end: 346
+✖ Expected a `;` - start: 361, end: 364
 ✖ Statement expected - start: 361, end: 364
+✖ Expected a `;` - start: 379, end: 382
 ✖ Statement expected - start: 379, end: 382
+✖ Expected a `;` - start: 397, end: 400
 ✖ Statement expected - start: 397, end: 400
+✖ Expected a `;` - start: 1306, end: 1309
 ✖ Statement expected - start: 1306, end: 1309
+✖ Expected a `;` - start: 1318, end: 1321
 ✖ Statement expected - start: 1318, end: 1321
+✖ Expected a `;` - start: 1333, end: 1336
 ✖ Statement expected - start: 1333, end: 1336
 ✖ Expression expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1343, end: 1346
+✖ Expected a `;` - start: 1343, end: 1346
 ✖ Statement expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1352, end: 1354
+✖ Expected a `;` - start: 1352, end: 1354
 ✖ Expression expected - start: 1354, end: 1355
 ✖ Expression expected - start: 1355, end: 1358
+✖ Expected a `;` - start: 1355, end: 1358
 ✖ Statement expected - start: 1355, end: 1358
+✖ Expected a `;` - start: 1366, end: 1369
 ✖ Expression expected - start: 1369, end: 1370
 ✖ Expression expected - start: 1370, end: 1373
+✖ Expected a `;` - start: 1370, end: 1373
 ✖ Statement expected - start: 1370, end: 1373
 ✖ Expected a `;` - start: 1383, end: 1386
+✖ Expected a `;` - start: 1398, end: 1401
 ✖ Statement expected - start: 1398, end: 1401
 ✖ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
+✖ Expected a `;` - start: 1434, end: 1437
 ✖ Statement expected - start: 1434, end: 1437
+✖ Expected a `;` - start: 1445, end: 1448
 ✖ Statement expected - start: 1445, end: 1448
+✖ Expected a `;` - start: 1458, end: 1461
 ✖ Statement expected - start: 1458, end: 1461
 ✖ Unterminated string literal - start: 1467, end: 1480
+✖ Expected a `;` - start: 1489, end: 1492
 ✖ Statement expected - start: 1489, end: 1492
+✖ Expected a `;` - start: 1511, end: 1514
 ✖ Statement expected - start: 1511, end: 1514
+✖ Expected a `;` - start: 1526, end: 1529
 ✖ Statement expected - start: 1526, end: 1529
+✖ Expected a `;` - start: 1540, end: 1541
 ✖ Statement expected - start: 1540, end: 1541
 ✖ Statement expected - start: 1541, end: 1544
 ✖ Statement expected - start: 1551, end: 1554
+✖ Expected a `;` - start: 1562, end: 1565
 ✖ Statement expected - start: 1562, end: 1565
+✖ Expected a `;` - start: 1575, end: 1578
 ✖ Statement expected - start: 1575, end: 1578
 ✖ The left hand side of the arrow is not destructible  - start: 1591, end: 1594
+✖ Expected a `;` - start: 1607, end: 1610
 ✖ Statement expected - start: 1607, end: 1610
+✖ Expected a `;` - start: 1617, end: 1620
 ✖ Statement expected - start: 1617, end: 1620
+✖ Expected a `;` - start: 1642, end: 1645
 ✖ Statement expected - start: 1642, end: 1645
+✖ Expected a `;` - start: 1670, end: 1673
 ✖ Statement expected - start: 1670, end: 1673
 ✖ The left hand side of the arrow is not destructible  - start: 1698, end: 1701
 ✖ The left hand side of the arrow is not destructible  - start: 1714, end: 1717
+✖ Expected a `;` - start: 1730, end: 1733
 ✖ Statement expected - start: 1730, end: 1733
 ✖ The left hand side of the arrow is not destructible  - start: 1749, end: 1752
+✖ Expected a `;` - start: 1768, end: 1771
 ✖ Statement expected - start: 1768, end: 1771
 ✖ A rest element cannot have an initializer - start: 1781, end: 1783
+✖ Expected a `;` - start: 1806, end: 1807
 ✖ Statement expected - start: 1806, end: 1807
 ✖ Statement expected - start: 1807, end: 1810
+✖ Expected a `;` - start: 1827, end: 1828
 ✖ Statement expected - start: 1827, end: 1828
 ✖ Statement expected - start: 1828, end: 1831
 

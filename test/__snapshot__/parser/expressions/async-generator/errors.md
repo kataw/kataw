@@ -7972,14 +7972,19 @@ async function * gen() {class C extends await { }}
 ✖ Expected a `;` - start: 1527, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
+✖ Expected a `;` - start: 1683, end: 1684
 ✖ Statement expected - start: 1683, end: 1684
 ✖ Statement expected - start: 1687, end: 1688
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
+✖ Expected a `;` - start: 1854, end: 1855
 ✖ Statement expected - start: 1854, end: 1855
+✖ Expected a `;` - start: 1856, end: 1857
 ✖ Statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
+✖ Expected a `;` - start: 1898, end: 1913
 ✖ Statement expected - start: 1898, end: 1913
+✖ Expected a `;` - start: 1914, end: 1916
 ✖ Duplicate label - start: 1916, end: 1922
 ✖ Statement expected - start: 1926, end: 1927
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2076, end: 2081
@@ -7996,6 +8001,8 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
 ✖ ',' expected - start: 2514, end: 2517
+✖ Expected a `;` - start: 2514, end: 2517
+✖ Expected a `;` - start: 2517, end: 2518
 ✖ Statement expected - start: 2517, end: 2518
 ✖ Statement expected - start: 2518, end: 2520
 ✖ Statement expected - start: 2526, end: 2527
@@ -8003,6 +8010,8 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
 ✖ ',' expected - start: 2562, end: 2565
+✖ Expected a `;` - start: 2562, end: 2565
+✖ Expected a `;` - start: 2565, end: 2566
 ✖ Statement expected - start: 2565, end: 2566
 ✖ Statement expected - start: 2566, end: 2568
 ✖ Statement expected - start: 2574, end: 2575
@@ -8010,12 +8019,14 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2615, end: 2618
 ✖ Missing initializer in destructuring declaration - start: 2615, end: 2618
 ✖ ',' expected - start: 2615, end: 2618
+✖ Expected a `;` - start: 2615, end: 2618
 ✖ Statement expected - start: 2619, end: 2621
 ✖ Statement expected - start: 2630, end: 2631
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
 ✖ Missing initializer in destructuring declaration - start: 2671, end: 2674
 ✖ ',' expected - start: 2671, end: 2674
+✖ Expected a `;` - start: 2671, end: 2674
 ✖ Statement expected - start: 2675, end: 2677
 ✖ Duplicate label - start: 2679, end: 2681
 ✖ Statement expected - start: 2686, end: 2687
@@ -8030,9 +8041,11 @@ async function * gen() {class C extends await { }}
 ✖ Invalid left-hand side in for-in loop - start: 3113, end: 3115
 ✖ Invalid left-hand side in for-in loop - start: 3167, end: 3169
 ✖ Invalid left-hand side in for-in loop - start: 3221, end: 3223
+✖ Expected a `;` - start: 3227, end: 3229
 ✖ Statement expected - start: 3230, end: 3231
 ✖ Statement expected - start: 3232, end: 3233
 ✖ Invalid left-hand side in for-in loop - start: 3275, end: 3277
+✖ Expected a `;` - start: 3281, end: 3283
 ✖ Statement expected - start: 3284, end: 3285
 ✖ Statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3333, end: 3335

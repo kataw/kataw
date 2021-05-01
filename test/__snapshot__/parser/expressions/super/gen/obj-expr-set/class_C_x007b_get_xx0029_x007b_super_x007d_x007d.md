@@ -222,6 +222,7 @@
 
 ```javascript
 ✖ ',' expected - start: 29, end: 30
+✖ Expected a `;` - start: 30, end: 32
 ✖ 'super' must be followed by an argument list or member access. - start: 38, end: 39
 ✖ Dot property must be an identifier - start: 38, end: 39
 ✖ Statement expected - start: 41, end: 43

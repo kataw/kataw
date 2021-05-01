@@ -227,9 +227,11 @@ const fn = async (a?: any): Promise<void> => {};
 ```javascript
 ✖ Expression expected - start: 20, end: 21
 ✖ ',' expected - start: 26, end: 27
+✖ Expected a `;` - start: 26, end: 27
 ✖ Statement expected - start: 26, end: 27
 ✖ Expression expected - start: 40, end: 41
 ✖ Expression expected - start: 41, end: 44
+✖ Expected a `;` - start: 41, end: 44
 ✖ Statement expected - start: 41, end: 44
 
 ```

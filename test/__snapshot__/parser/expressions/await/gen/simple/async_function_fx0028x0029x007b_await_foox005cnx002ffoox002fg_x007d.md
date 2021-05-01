@@ -173,6 +173,7 @@ async function f(){ await foo\n/foo/g }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 25, end: 29
 ✖ Invalid hexadecimal escape sequence - start: 29, end: 29
+✖ Expected a `;` - start: 29, end: 30
 ✖ Statement expected - start: 29, end: 30
 ✖ Statement expected - start: 37, end: 39
 

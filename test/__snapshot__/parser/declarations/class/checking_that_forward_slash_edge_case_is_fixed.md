@@ -167,6 +167,7 @@ class x { static / foo(){} }
 
 ```javascript
 ✖ Expression expected - start: 16, end: 18
+✖ Expected a `;` - start: 24, end: 25
 ✖ Statement expected - start: 26, end: 28
 
 ```

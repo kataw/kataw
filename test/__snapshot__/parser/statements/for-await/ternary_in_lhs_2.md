@@ -187,7 +187,11 @@ async function f(){
 ```javascript
 ✖ Expression expected - start: 38, end: 40
 ✖ Expression expected - start: 38, end: 40
+✖ Expected a `;` - start: 38, end: 40
 ✖ Statement expected - start: 38, end: 40
+✖ Expected a `;` - start: 42, end: 45
+✖ Expected a `;` - start: 45, end: 47
+✖ Expected a `;` - start: 47, end: 48
 ✖ Statement expected - start: 47, end: 48
 ✖ Statement expected - start: 49, end: 51
 

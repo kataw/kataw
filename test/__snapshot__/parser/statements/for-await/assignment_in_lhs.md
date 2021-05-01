@@ -145,6 +145,7 @@ async function f(){
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 43, end: 44
 ✖ Statement expected - start: 43, end: 44
 ✖ Statement expected - start: 45, end: 47
 

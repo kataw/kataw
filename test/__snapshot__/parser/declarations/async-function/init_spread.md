@@ -112,6 +112,7 @@ let x = ...y;
 ```javascript
 ✖ Expression expected - start: 7, end: 11
 ✖ ',' expected - start: 7, end: 11
+✖ Expected a `;` - start: 7, end: 11
 ✖ Statement expected - start: 7, end: 11
 
 ```

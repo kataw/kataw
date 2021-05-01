@@ -158,6 +158,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 26, end: 42
 ✖ Statement expected - start: 56, end: 57
 
 ```

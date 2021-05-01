@@ -96,6 +96,7 @@ import(x,y,,)
 ```javascript
 ✖ Expression expected - start: 11, end: 12
 ✖ Expression expected - start: 12, end: 13
+✖ Expected a `;` - start: 12, end: 13
 ✖ Statement expected - start: 12, end: 13
 
 ```

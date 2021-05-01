@@ -112,6 +112,7 @@ async => {} / x
 
 ```javascript
 ✖ Unterminated regular expression - start: 11, end: 13
+✖ Expected a `;` - start: 11, end: 15
 
 ```
 

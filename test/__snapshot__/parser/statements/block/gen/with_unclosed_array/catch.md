@@ -107,6 +107,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 2, end: 8
 ✖ 'try' expected - start: 2, end: 8
 
 ```

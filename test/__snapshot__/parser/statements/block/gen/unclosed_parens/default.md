@@ -72,6 +72,7 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 10
+✖ Expected a `;` - start: 2, end: 10
 ✖ Statement expected - start: 2, end: 10
 
 ```

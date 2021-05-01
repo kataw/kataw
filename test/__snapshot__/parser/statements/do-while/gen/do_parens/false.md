@@ -82,6 +82,7 @@ do( false while
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 9, end: 15
 ✖ Expression expected - start: 15, end: 15
 
 ```

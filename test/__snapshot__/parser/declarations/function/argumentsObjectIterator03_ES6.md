@@ -396,10 +396,14 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ✖ ',' expected - start: 26, end: 27
 ✖ Unexpected token. - start: 26, end: 27
 ✖ Statement expected - start: 26, end: 27
+✖ Expected a `;` - start: 37, end: 38
 ✖ Statement expected - start: 37, end: 38
+✖ Expected a `;` - start: 48, end: 49
 ✖ Statement expected - start: 48, end: 49
+✖ Expected a `;` - start: 57, end: 58
 ✖ Statement expected - start: 57, end: 58
 ✖ Statement expected - start: 58, end: 59
+✖ Expected a `;` - start: 85, end: 87
 ✖ A return statement can only be used within a function_body - start: 118, end: 130
 
 ```

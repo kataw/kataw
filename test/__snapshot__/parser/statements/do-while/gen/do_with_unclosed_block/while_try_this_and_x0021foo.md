@@ -191,6 +191,7 @@ do {} while (x) { while try this and !foo
 
 ```javascript
 ✖ Expression expected - start: 23, end: 27
+✖ Expected a `;` - start: 36, end: 38
 
 ```
 

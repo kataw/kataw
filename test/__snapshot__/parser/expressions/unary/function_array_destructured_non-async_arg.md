@@ -212,6 +212,7 @@ async function f(){   function fh([+ await x]) { }   }
 ```javascript
 ✖ ',' expected - start: 35, end: 36
 ✖ Unexpected token. - start: 35, end: 36
+✖ Expected a `;` - start: 44, end: 45
 ✖ Statement expected - start: 44, end: 45
 ✖ Statement expected - start: 45, end: 46
 ✖ Statement expected - start: 50, end: 54

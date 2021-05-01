@@ -113,6 +113,7 @@ async async => {}`foo`
 
 ```javascript
 ✖ Block body arrows can not be immediately tagged without a group - start: 17, end: 22
+✖ Expected a `;` - start: 17, end: 22
 
 ```
 

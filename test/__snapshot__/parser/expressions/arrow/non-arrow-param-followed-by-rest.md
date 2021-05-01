@@ -104,7 +104,9 @@
 
 ```javascript
 ✖ Expression expected - start: 5, end: 8
+✖ Expected a `;` - start: 5, end: 8
 ✖ Statement expected - start: 5, end: 8
+✖ Expected a `;` - start: 9, end: 10
 ✖ Statement expected - start: 9, end: 10
 ✖ Statement expected - start: 10, end: 13
 

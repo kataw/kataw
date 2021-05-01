@@ -113,6 +113,7 @@ async x => {}.x
 
 ```javascript
 ✖ Block body arrows can not be immediately accessed without a group - start: 13, end: 14
+✖ Expected a `;` - start: 13, end: 14
 ✖ Statement expected - start: 13, end: 14
 
 ```

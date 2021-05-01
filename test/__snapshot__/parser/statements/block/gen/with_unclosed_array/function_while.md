@@ -146,6 +146,7 @@
 ```javascript
 ✖ Unexpected token. - start: 11, end: 17
 ✖ ',' expected - start: 11, end: 17
+✖ Expected a `;` - start: 11, end: 17
 ✖ Expression expected - start: 17, end: 17
 ✖ Expression expected - start: 17, end: 17
 

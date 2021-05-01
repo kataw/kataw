@@ -173,6 +173,7 @@ x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 45, end: 47
+
 ```
 

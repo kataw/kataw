@@ -155,6 +155,7 @@ async function* f() {
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 48, end: 51
 ✖ Invalid left-hand side in for-of loop - start: 51, end: 56
 
 ```

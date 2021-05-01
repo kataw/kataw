@@ -154,6 +154,7 @@ try { } catch ([a] = []) { }
 ```javascript
 ✖ Catch clause variable cannot have an initializer - start: 18, end: 20
 ✖ Statement expected - start: 18, end: 20
+✖ Expected a `;` - start: 23, end: 24
 ✖ Statement expected - start: 23, end: 24
 
 ```

@@ -126,7 +126,9 @@ export *, {bar} from 'bar';
 
 ```javascript
 ✖ Expression expected - start: 8, end: 9
+✖ Expected a `;` - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
+✖ Expected a `;` - start: 20, end: 26
 
 ```
 

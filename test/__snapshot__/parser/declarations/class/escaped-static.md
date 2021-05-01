@@ -3,15 +3,9 @@
 ## Input
 
 `````js
-class X {    async constructor() {}   }
-`````
-
-## Options
-
-### Parser Options
-
-`````js
-{}
+class C {
+  st\u0061tic m() {}
+}
 `````
 
 ## Output
@@ -35,8 +29,8 @@ class X {    async constructor() {}   }
             },
             "name": {
                 "kind": 134299649,
-                "text": "X",
-                "rawText": "X",
+                "text": "C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,33 +45,33 @@ class X {    async constructor() {}   }
                         "declareToken": null,
                         "decorators": null,
                         "generatorToken": null,
-                        "staticKeyword": null,
-                        "asyncKeyword": {
-                            "kind": 82031,
+                        "staticKeyword": {
+                            "kind": 8388716,
                             "flags": 64,
                             "start": 9,
-                            "end": 18
+                            "end": 23
                         },
+                        "asyncKeyword": null,
                         "setKeyword": null,
                         "getKeyword": null,
                         "method": {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "text": "constructor",
-                                "rawText": "constructor",
+                                "text": "m",
+                                "rawText": "m",
                                 "flags": 96,
-                                "start": 18,
-                                "end": 30
+                                "start": 23,
+                                "end": 25
                             },
                             "typeParameters": null,
                             "formalParameters": {
                                 "kind": 214,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 2304,
-                                "start": 31,
-                                "end": 32
+                                "flags": 0,
+                                "start": 26,
+                                "end": 27
                             },
                             "type": null,
                             "contents": {
@@ -87,37 +81,37 @@ class X {    async constructor() {}   }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 34
+                                    "start": 29,
+                                    "end": 29
                                 },
                                 "flags": 32,
-                                "start": 32,
-                                "end": 35
+                                "start": 27,
+                                "end": 30
                             },
-                            "flags": 2304,
-                            "start": 30,
-                            "end": 35
+                            "flags": 0,
+                            "start": 25,
+                            "end": 30
                         },
-                        "flags": 2304,
-                        "start": 9,
-                        "end": 35
+                        "flags": 0,
+                        "start": 23,
+                        "end": 30
                     }
                 ],
                 "flags": 32,
                 "start": 9,
-                "end": 39
+                "end": 32
             },
             "flags": 16,
             "start": 0,
-            "end": 39
+            "end": 32
         }
     ],
     "isModule": false,
-    "source": "class X {    async constructor() {}   }",
+    "source": "class C {\n  st\\u0061tic m() {}\n}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 39
+    "end": 32
 }
 ```
 
@@ -130,7 +124,7 @@ class X {    async constructor() {}   }
 ### Diagnostics
 
 ```javascript
-✖ Class constructor may not be a accessor - start: 30, end: 31
+✖ Keywords cannot contain escape characters - start: 23, end: 25
 
 ```
 

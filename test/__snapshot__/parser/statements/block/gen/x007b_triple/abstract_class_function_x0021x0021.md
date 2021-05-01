@@ -207,6 +207,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 14, end: 20
 ✖ Binding identifier expected - start: 20, end: 29
 ✖ Binding identifier expected - start: 29, end: 31
 ✖ Unexpected token. - start: 29, end: 31

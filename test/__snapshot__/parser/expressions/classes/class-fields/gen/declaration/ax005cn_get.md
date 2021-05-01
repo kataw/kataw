@@ -122,6 +122,7 @@ class C { a\n get }
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 11
 ✖ Invalid hexadecimal escape sequence - start: 11, end: 11
 ✖ Statement expected - start: 11, end: 12
+✖ Expected a `;` - start: 13, end: 17
 ✖ Statement expected - start: 17, end: 19
 
 ```

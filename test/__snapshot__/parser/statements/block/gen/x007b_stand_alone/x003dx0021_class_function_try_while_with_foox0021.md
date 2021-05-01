@@ -224,6 +224,7 @@
 
 ```javascript
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 3, end: 4
+✖ Expected a `;` - start: 10, end: 19
 ✖ Binding identifier expected - start: 19, end: 23
 ✖ Unexpected token. - start: 19, end: 23
 ✖ Expression expected - start: 39, end: 39

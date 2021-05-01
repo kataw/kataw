@@ -137,6 +137,7 @@ do async funcion switch!! while
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expression expected - start: 25, end: 31
+✖ Expected a `;` - start: 25, end: 31
 ✖ Expression expected - start: 31, end: 31
 
 ```

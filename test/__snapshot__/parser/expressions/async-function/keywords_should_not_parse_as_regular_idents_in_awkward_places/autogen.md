@@ -143,6 +143,7 @@ property is valid assignment target so should work
 
 ```javascript
 ✖ Invalid character - start: 1, end: 3
+✖ Expected a `;` - start: 1, end: 3
 ✖ Private identifiers are not allowed outside class_bodies - start: 1, end: 3
 ✖ Statement expected - start: 3, end: 5
 

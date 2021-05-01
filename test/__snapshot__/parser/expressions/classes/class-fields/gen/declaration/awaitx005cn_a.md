@@ -122,6 +122,7 @@ class C { await\n a }
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 15, end: 15
 ✖ Statement expected - start: 15, end: 16
+✖ Expected a `;` - start: 17, end: 19
 ✖ Statement expected - start: 19, end: 21
 
 ```

@@ -162,6 +162,7 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
 
 ```

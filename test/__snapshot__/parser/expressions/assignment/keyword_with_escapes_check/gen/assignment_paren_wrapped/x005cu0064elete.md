@@ -89,7 +89,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Invalid escaped keyword - start: 12, end: 14
+✖ Keywords cannot contain escape characters - start: 12, end: 14
 ✖ Expression expected - start: 12, end: 14
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 14
 

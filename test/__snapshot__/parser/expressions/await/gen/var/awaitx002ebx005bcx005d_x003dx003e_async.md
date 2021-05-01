@@ -146,7 +146,9 @@ var await; var f = (async function() { await.b[c] => async });
 
 ```javascript
 ✖ Expression expected - start: 44, end: 45
+✖ Expected a `;` - start: 49, end: 52
 ✖ ',' expected - start: 49, end: 52
+✖ Expected a `;` - start: 49, end: 52
 ✖ Statement expected - start: 49, end: 52
 ✖ Statement expected - start: 58, end: 60
 ✖ Statement expected - start: 60, end: 61

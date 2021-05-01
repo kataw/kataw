@@ -143,6 +143,8 @@ do( try { !xxx while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 7
+✖ Expected a `;` - start: 3, end: 7
+✖ Expected a `;` - start: 14, end: 20
 ✖ Expression expected - start: 20, end: 20
 ✖ Expression expected - start: 20, end: 20
 

@@ -148,6 +148,8 @@ function not_gen() { yield 3 + yield 4; }}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 26, end: 28
+✖ Expected a `;` - start: 36, end: 38
 ✖ Statement expected - start: 41, end: 42
 
 ```

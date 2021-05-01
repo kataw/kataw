@@ -112,6 +112,7 @@ const x = ...y;
 ```javascript
 ✖ Expression expected - start: 9, end: 13
 ✖ ',' expected - start: 9, end: 13
+✖ Expected a `;` - start: 9, end: 13
 ✖ Statement expected - start: 9, end: 13
 
 ```

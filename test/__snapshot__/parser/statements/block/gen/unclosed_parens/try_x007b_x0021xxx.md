@@ -139,6 +139,7 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 6
+✖ Expected a `;` - start: 2, end: 6
 
 ```
 

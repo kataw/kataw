@@ -2364,6 +2364,7 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
 ✖ An element access expression should take an argument. - start: 258, end: 259
 ✖ Expression expected - start: 258, end: 259
+✖ Expected a `;` - start: 287, end: 288
 ✖ Statement expected - start: 290, end: 291
 ✖ Statement expected - start: 295, end: 296
 ✖ Statement expected - start: 296, end: 297

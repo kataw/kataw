@@ -149,7 +149,9 @@ for (const ...x in y){}
 ✖ Expression expected - start: 10, end: 14
 ✖ Expression expected - start: 10, end: 14
 ✖ Expression expected - start: 10, end: 14
+✖ Expected a `;` - start: 10, end: 14
 ✖ Statement expected - start: 10, end: 14
+✖ Expected a `;` - start: 20, end: 21
 ✖ Statement expected - start: 20, end: 21
 
 ```

@@ -84,7 +84,9 @@ import **= from 'f';
 
 ```javascript
 ✖ Unexpected token. - start: 6, end: 10
+✖ Expected a `;` - start: 6, end: 10
 ✖ Statement expected - start: 6, end: 10
+✖ Expected a `;` - start: 15, end: 19
 
 ```
 

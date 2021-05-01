@@ -126,6 +126,7 @@ async => {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 17, end: 19
+
 ```
 

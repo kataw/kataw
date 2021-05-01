@@ -136,6 +136,7 @@ do[ async try while { catch }
 
 ```javascript
 ✖ ',' expected - start: 9, end: 13
+✖ Expected a `;` - start: 9, end: 13
 ✖ Expression expected - start: 13, end: 19
 ✖ Expression expected - start: 29, end: 29
 

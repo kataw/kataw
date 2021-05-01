@@ -69,6 +69,7 @@ continue: x;
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 8
 ✖ Expression expected - start: 8, end: 9
+✖ Expected a `;` - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
 
 ```

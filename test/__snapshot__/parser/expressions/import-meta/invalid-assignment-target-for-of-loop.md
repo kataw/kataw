@@ -90,6 +90,7 @@ for (import.meta of null) ;
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 16, end: 19
 ✖ Invalid left-hand side in for-of loop - start: 19, end: 24
 
 ```

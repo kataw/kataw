@@ -142,6 +142,7 @@ wrap({async [foo""](){}});
 ✖ ',' expected - start: 16, end: 18
 ✖ ',' expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
+✖ Expected a `;` - start: 18, end: 19
 ✖ Statement expected - start: 18, end: 19
 ✖ Expression expected - start: 22, end: 23
 ✖ Statement expected - start: 22, end: 23

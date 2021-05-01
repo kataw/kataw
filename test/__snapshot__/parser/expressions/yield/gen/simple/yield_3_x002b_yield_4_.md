@@ -100,6 +100,8 @@ yield 3 + yield 4;
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 5, end: 7
+✖ Expected a `;` - start: 15, end: 17
+
 ```
 

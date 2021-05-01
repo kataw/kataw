@@ -187,7 +187,9 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 64, end: 68
 ✖ Invalid hexadecimal escape sequence - start: 68, end: 68
+✖ Expected a `;` - start: 68, end: 69
 ✖ ',' expected - start: 68, end: 69
+✖ Expected a `;` - start: 68, end: 69
 ✖ Statement expected - start: 68, end: 69
 ✖ Statement expected - start: 76, end: 78
 ✖ Statement expected - start: 78, end: 80

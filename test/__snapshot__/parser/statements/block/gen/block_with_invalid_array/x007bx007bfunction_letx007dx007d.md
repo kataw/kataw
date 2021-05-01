@@ -169,6 +169,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Unexpected token. - start: 24, end: 25
 

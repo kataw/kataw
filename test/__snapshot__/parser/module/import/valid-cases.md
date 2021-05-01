@@ -549,6 +549,8 @@ import { a as b } from 'm.js';
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 157, end: 162
+✖ Expected a `;` - start: 162, end: 171
+
 ```
 

@@ -88,6 +88,7 @@ import(x,y,z)
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 12, end: 13
 ✖ Statement expected - start: 12, end: 13
 
 ```

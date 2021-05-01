@@ -196,6 +196,7 @@ x => y {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 50, end: 52
+
 ```
 

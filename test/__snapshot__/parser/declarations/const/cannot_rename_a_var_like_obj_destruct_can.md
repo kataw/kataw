@@ -135,7 +135,9 @@ const [foo:bar] = obj;
 ✖ ',' expected - start: 10, end: 11
 ✖ Missing initializer in const declaration - start: 10, end: 11
 ✖ ',' expected - start: 10, end: 11
+✖ Expected a `;` - start: 10, end: 11
 ✖ Statement expected - start: 10, end: 11
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
 ✖ Statement expected - start: 15, end: 17
 

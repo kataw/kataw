@@ -119,6 +119,7 @@ function *f(){
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 30, end: 32
 ✖ Statement expected - start: 30, end: 32
 ✖ Statement expected - start: 34, end: 36
 

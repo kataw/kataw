@@ -190,6 +190,7 @@ do do do async try while { catch } while while while
 
 ```javascript
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 8, end: 14
+✖ Expected a `;` - start: 14, end: 18
 ✖ Expression expected - start: 18, end: 24
 ✖ Expression expected - start: 40, end: 46
 ✖ Expression expected - start: 46, end: 52

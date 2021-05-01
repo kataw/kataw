@@ -131,6 +131,7 @@ opaque Ident: Type = SuperType;
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 6, end: 12
+
 ```
 

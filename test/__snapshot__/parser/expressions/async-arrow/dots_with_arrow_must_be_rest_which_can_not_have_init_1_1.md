@@ -106,6 +106,7 @@ async (a, ...b+b=c) => a;
 
 ```javascript
 ✖ Statement expected - start: 16, end: 17
+✖ Expected a `;` - start: 18, end: 19
 ✖ Statement expected - start: 18, end: 19
 ✖ Statement expected - start: 19, end: 22
 

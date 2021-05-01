@@ -279,10 +279,12 @@ do do do =! class function try while with foo! while while while
 
 ```javascript
 ✖ Expression expected - start: 8, end: 10
+✖ Expected a `;` - start: 17, end: 26
 ✖ Expression expected - start: 26, end: 30
 ✖ Expression expected - start: 30, end: 36
 ✖ Expression expected - start: 36, end: 41
 ✖ Expression expected - start: 46, end: 52
+✖ Expected a `;` - start: 46, end: 52
 ✖ Expression expected - start: 52, end: 58
 ✖ Expression expected - start: 58, end: 64
 ✖ Expression expected - start: 64, end: 64

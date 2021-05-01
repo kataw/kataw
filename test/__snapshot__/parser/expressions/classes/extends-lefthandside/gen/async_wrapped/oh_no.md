@@ -172,6 +172,7 @@ async function p(){
 
 ```javascript
 ✖ Statement expected - start: 40, end: 41
+✖ Expected a `;` - start: 43, end: 45
 ✖ Statement expected - start: 46, end: 48
 
 ```

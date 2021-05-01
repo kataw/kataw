@@ -150,6 +150,7 @@ x = (a)?c:d=>{}=>{}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 15, end: 17
 ✖ Statement expected - start: 15, end: 17
 
 ```

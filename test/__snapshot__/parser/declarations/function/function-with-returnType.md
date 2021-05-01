@@ -129,6 +129,7 @@ function foo():number{}
 ```javascript
 ✖ Unexpected token. - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
+✖ Expected a `;` - start: 21, end: 22
 
 ```
 

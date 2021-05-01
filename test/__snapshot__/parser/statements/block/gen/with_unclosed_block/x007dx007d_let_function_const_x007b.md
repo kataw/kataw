@@ -231,8 +231,10 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
 ✖ Statement expected - start: 19, end: 20
+✖ Expected a `;` - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 39
 ✖ Unexpected token. - start: 33, end: 39
 ✖ Missing initializer in const declaration - start: 41, end: 41

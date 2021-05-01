@@ -1584,6 +1584,7 @@
 ✖ Dot property must be an identifier - start: 129, end: 130
 ✖ Dot property must be an identifier - start: 130, end: 131
 ✖ ',' expected - start: 130, end: 131
+✖ Expected a `;` - start: 130, end: 131
 ✖ Statement expected - start: 130, end: 131
 ✖ Statement expected - start: 131, end: 132
 ✖ Statement expected - start: 132, end: 133
@@ -1592,6 +1593,7 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 173, end: 175
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 192, end: 194
 ✖ ',' expected - start: 211, end: 212
+✖ Expected a `;` - start: 214, end: 217
 ✖ Statement expected - start: 214, end: 217
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 229, end: 231
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 247, end: 249

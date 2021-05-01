@@ -130,7 +130,9 @@ fuction *f() {  return await yield;  }
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 12, end: 14
 ✖ A return statement can only be used within a function_body - start: 14, end: 22
+✖ Expected a `;` - start: 28, end: 34
 
 ```
 

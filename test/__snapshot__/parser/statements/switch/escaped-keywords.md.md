@@ -178,8 +178,8 @@ switch (this.a) { c\u0061se 6: break; }
 ### Diagnostics
 
 ```javascript
-✖ Invalid escaped keyword - start: 30, end: 31
-✖ Invalid escaped keyword - start: 69, end: 71
+✖ Keywords cannot contain escape characters - start: 30, end: 31
+✖ Keywords cannot contain escape characters - start: 69, end: 71
 
 ```
 

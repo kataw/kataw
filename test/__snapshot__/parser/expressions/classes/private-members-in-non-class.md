@@ -794,10 +794,12 @@ class C { test() {get #a() { }}}
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Private identifiers are not allowed outside class_bodies - start: 51, end: 54
 ✖ Statement expected - start: 54, end: 55
+✖ Expected a `;` - start: 64, end: 67
 ✖ Private identifiers are not allowed outside class_bodies - start: 64, end: 67
 ✖ Expression expected - start: 71, end: 73
 ✖ Statement expected - start: 71, end: 73
 ✖ Statement expected - start: 73, end: 74
+✖ Expected a `;` - start: 97, end: 100
 ✖ Statement expected - start: 107, end: 108
 ✖ ',' expected - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class_bodies - start: 129, end: 132

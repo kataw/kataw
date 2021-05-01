@@ -105,6 +105,8 @@ import * as a from "y"
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 13, end: 18
+✖ Expected a `;` - start: 18, end: 22
+
 ```
 

@@ -117,6 +117,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 20, end: 23
 ✖ Statement expected - start: 20, end: 23
 
 ```

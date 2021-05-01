@@ -401,18 +401,23 @@ let {x}: string = y;
 
 ```javascript
 ✖ ',' expected - start: 5, end: 6
+✖ Expected a `;` - start: 5, end: 6
 ✖ Statement expected - start: 5, end: 6
 ✖ Missing initializer in destructuring declaration - start: 23, end: 24
 ✖ ',' expected - start: 23, end: 24
+✖ Expected a `;` - start: 23, end: 24
 ✖ Statement expected - start: 23, end: 24
 ✖ ',' expected - start: 44, end: 45
 ✖ Missing initializer in destructuring declaration - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
+✖ Expected a `;` - start: 44, end: 45
 ✖ Statement expected - start: 44, end: 45
+✖ Expected a `;` - start: 51, end: 52
 ✖ Statement expected - start: 51, end: 52
 ✖ Statement expected - start: 52, end: 53
 ✖ Missing initializer in destructuring declaration - start: 74, end: 75
 ✖ ',' expected - start: 74, end: 75
+✖ Expected a `;` - start: 74, end: 75
 ✖ Statement expected - start: 74, end: 75
 
 ```

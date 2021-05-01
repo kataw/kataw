@@ -106,6 +106,7 @@ const ...a = 1;
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 5, end: 9
 ✖ Statement expected - start: 5, end: 9
 
 ```

@@ -118,6 +118,7 @@ do a / b + c while (x);
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 12, end: 18
+
 ```
 

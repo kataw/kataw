@@ -122,6 +122,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 17, end: 22
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 22
 ✖ ',' expected - start: 22, end: 23
+✖ Expected a `;` - start: 22, end: 23
 ✖ Statement expected - start: 22, end: 23
 ✖ Invalid hexadecimal escape sequence - start: 23, end: 23
 ✖ Statement expected - start: 23, end: 24

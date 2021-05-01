@@ -127,8 +127,10 @@ var [..x] = obj;
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
 ✖ ',' expected - start: 5, end: 6
+✖ Expected a `;` - start: 5, end: 6
 ✖ Statement expected - start: 5, end: 6
 ✖ Statement expected - start: 6, end: 7
+✖ Expected a `;` - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
 ✖ Statement expected - start: 9, end: 11
 

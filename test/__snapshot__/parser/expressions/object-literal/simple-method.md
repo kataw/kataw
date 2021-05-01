@@ -269,7 +269,9 @@ x = { method(test: string) { } };
 ✖ ',' expected - start: 44, end: 45
 ✖ Unexpected token. - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
+✖ Expected a `;` - start: 44, end: 45
 ✖ Statement expected - start: 44, end: 45
+✖ Expected a `;` - start: 52, end: 53
 ✖ Statement expected - start: 52, end: 53
 ✖ Statement expected - start: 57, end: 59
 

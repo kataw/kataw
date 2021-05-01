@@ -82,6 +82,7 @@ do( async funcion switch!! while
 
 ```javascript
 ✖ Expression expected - start: 26, end: 32
+✖ Expected a `;` - start: 26, end: 32
 ✖ Expression expected - start: 32, end: 32
 
 ```

@@ -215,6 +215,7 @@ async function f(){
 
 ```javascript
 ✖ A 'for-await-of' statement is only allowed within an async function or async generator. - start: 50, end: 52
+✖ Expected a `;` - start: 69, end: 70
 ✖ Statement expected - start: 69, end: 70
 ✖ Statement expected - start: 71, end: 75
 ✖ Statement expected - start: 75, end: 77

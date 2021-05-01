@@ -151,7 +151,9 @@ throw {x} catch (x = y) {}
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 9, end: 15
 ✖ 'try' expected - start: 9, end: 15
+✖ Expected a `;` - start: 22, end: 23
 ✖ Statement expected - start: 22, end: 23
 
 ```

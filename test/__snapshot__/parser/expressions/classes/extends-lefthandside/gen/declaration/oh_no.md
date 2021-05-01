@@ -117,6 +117,7 @@ class A extends oh,no {}
 
 ```javascript
 ✖ Statement expected - start: 18, end: 19
+✖ Expected a `;` - start: 21, end: 23
 
 ```
 

@@ -211,6 +211,7 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 45, end: 61
+
 ```
 

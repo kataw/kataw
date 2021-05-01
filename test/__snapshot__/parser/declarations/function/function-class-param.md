@@ -213,6 +213,7 @@ function* foo(a = class {*bar() { yield b }}) {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 39, end: 41
+
 ```
 

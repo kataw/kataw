@@ -1678,6 +1678,7 @@
 ```javascript
 ✖ ',' expected - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
+✖ Expected a `;` - start: 46, end: 47
 ✖ Statement expected - start: 46, end: 47
 ✖ Statement expected - start: 47, end: 48
 ✖ Statement expected - start: 48, end: 49
@@ -1686,6 +1687,7 @@
 ✖ Statement expected - start: 52, end: 53
 ✖ ',' expected - start: 98, end: 99
 ✖ ',' expected - start: 99, end: 100
+✖ Expected a `;` - start: 101, end: 102
 ✖ Statement expected - start: 101, end: 102
 ✖ Statement expected - start: 102, end: 103
 ✖ Statement expected - start: 103, end: 104
@@ -1695,6 +1697,7 @@
 ✖ ',' expected - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
+✖ Expected a `;` - start: 164, end: 165
 ✖ Statement expected - start: 164, end: 165
 ✖ Statement expected - start: 165, end: 166
 ✖ Statement expected - start: 166, end: 167
@@ -1707,12 +1710,14 @@
 ✖ ',' expected - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
 ✖ Expression expected - start: 232, end: 233
+✖ Expected a `;` - start: 232, end: 233
 ✖ Statement expected - start: 232, end: 233
 ✖ Statement expected - start: 233, end: 235
 ✖ Statement expected - start: 235, end: 236
 ✖ ',' expected - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
+✖ Expected a `;` - start: 290, end: 291
 ✖ Statement expected - start: 290, end: 291
 ✖ Statement expected - start: 291, end: 292
 ✖ Statement expected - start: 292, end: 293
@@ -1724,8 +1729,10 @@
 ✖ ',' expected - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
+✖ Expected a `;` - start: 341, end: 342
 ✖ Statement expected - start: 341, end: 342
 ✖ Statement expected - start: 342, end: 344
+✖ Expected a `;` - start: 356, end: 357
 ✖ Statement expected - start: 356, end: 357
 ✖ Statement expected - start: 357, end: 358
 ✖ Statement expected - start: 358, end: 359
@@ -1738,8 +1745,10 @@
 ✖ ',' expected - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
+✖ Expected a `;` - start: 409, end: 410
 ✖ Statement expected - start: 409, end: 410
 ✖ Statement expected - start: 410, end: 412
+✖ Expected a `;` - start: 424, end: 425
 ✖ Statement expected - start: 424, end: 425
 ✖ Statement expected - start: 425, end: 426
 ✖ Statement expected - start: 426, end: 427
@@ -1751,8 +1760,10 @@
 ✖ ',' expected - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
+✖ Expected a `;` - start: 477, end: 478
 ✖ Statement expected - start: 477, end: 478
 ✖ Statement expected - start: 478, end: 480
+✖ Expected a `;` - start: 492, end: 493
 ✖ Statement expected - start: 492, end: 493
 ✖ Statement expected - start: 493, end: 494
 ✖ Statement expected - start: 494, end: 495
@@ -1761,6 +1772,7 @@
 ✖ Statement expected - start: 497, end: 499
 ✖ Statement expected - start: 499, end: 500
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 544, end: 546
+✖ Expected a `;` - start: 630, end: 632
 ✖ Statement expected - start: 630, end: 632
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
 

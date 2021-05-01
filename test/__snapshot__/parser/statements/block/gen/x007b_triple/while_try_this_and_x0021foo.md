@@ -180,6 +180,7 @@
 
 ```javascript
 ✖ Expression expected - start: 11, end: 15
+✖ Expected a `;` - start: 24, end: 26
 
 ```
 

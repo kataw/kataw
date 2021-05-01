@@ -123,6 +123,7 @@ async x => {}++
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 13, end: 15
 ✖ Expression expected - start: 15, end: 15
 
 ```

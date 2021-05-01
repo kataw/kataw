@@ -191,6 +191,7 @@ async function p(){
 
 ```javascript
 ✖ Expression expected - start: 39, end: 42
+✖ Expected a `;` - start: 44, end: 46
 
 ```
 

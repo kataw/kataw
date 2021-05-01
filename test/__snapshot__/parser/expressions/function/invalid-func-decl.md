@@ -977,8 +977,10 @@ async function f(){}
 ✖ Unexpected token. - start: 56, end: 65
 ✖ Binding identifier expected - start: 104, end: 106
 ✖ Unexpected token. - start: 104, end: 106
+✖ Expected a `;` - start: 109, end: 110
 ✖ Unexpected token. - start: 126, end: 127
 ✖ Unexpected token. - start: 142, end: 143
+✖ Expected a `;` - start: 144, end: 151
 ✖ Expression expected - start: 172, end: 173
 ✖ Expression expected - start: 175, end: 176
 ✖ Unexpected token. - start: 222, end: 228

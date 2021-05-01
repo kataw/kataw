@@ -110,7 +110,9 @@
 
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 13, end: 19
+✖ Expected a `;` - start: 19, end: 21
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 23, end: 29
+✖ Expected a `;` - start: 29, end: 31
 
 ```
 

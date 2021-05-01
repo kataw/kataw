@@ -86,6 +86,7 @@ let async => async
 
 ```javascript
 ✖ ',' expected - start: 9, end: 12
+✖ Expected a `;` - start: 9, end: 12
 ✖ Statement expected - start: 9, end: 12
 
 ```

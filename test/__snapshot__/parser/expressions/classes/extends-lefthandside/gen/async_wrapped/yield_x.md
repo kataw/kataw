@@ -174,6 +174,7 @@ x {}
 
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
+✖ Expected a `;` - start: 45, end: 47
 
 ```
 

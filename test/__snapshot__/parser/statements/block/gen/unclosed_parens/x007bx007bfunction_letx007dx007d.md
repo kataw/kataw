@@ -131,6 +131,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 4, end: 5
 ✖ Unexpected token. - start: 17, end: 18
 
 ```

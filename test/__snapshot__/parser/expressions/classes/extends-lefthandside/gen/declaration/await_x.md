@@ -116,6 +116,7 @@ class A extends await x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 23, end: 25
+
 ```
 

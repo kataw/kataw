@@ -165,6 +165,7 @@ do throw function (v, h) {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 43, end: 49
+
 ```
 

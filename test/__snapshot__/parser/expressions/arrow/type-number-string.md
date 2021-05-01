@@ -82,6 +82,7 @@ type number = string;
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 4, end: 11
+
 ```
 

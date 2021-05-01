@@ -128,6 +128,7 @@ export default async function *f(){} foo
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 36, end: 40
+
 ```
 

@@ -112,6 +112,8 @@ import x, * as a from "y"
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 16, end: 21
+✖ Expected a `;` - start: 21, end: 25
+
 ```
 

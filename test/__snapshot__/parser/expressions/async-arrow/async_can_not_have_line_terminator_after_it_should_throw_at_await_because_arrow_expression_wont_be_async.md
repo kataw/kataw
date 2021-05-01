@@ -130,6 +130,7 @@ g => await g
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 24, end: 26
+
 ```
 

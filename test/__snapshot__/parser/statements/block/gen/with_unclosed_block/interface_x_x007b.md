@@ -170,7 +170,10 @@
 
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
+✖ Expected a `;` - start: 27, end: 29
+✖ Expected a `;` - start: 29, end: 31
 
 ```
 

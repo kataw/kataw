@@ -125,7 +125,9 @@ yield /* comment */\n {yield: 42}
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 5, end: 19
+✖ Expected a `;` - start: 5, end: 20
 ✖ Statement expected - start: 5, end: 20
+✖ Expected a `;` - start: 21, end: 23
 
 ```
 

@@ -89,6 +89,7 @@ if (true) let x; else ;
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 13, end: 15
 ✖ Statement expected - start: 16, end: 21
 
 ```

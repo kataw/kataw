@@ -79,6 +79,7 @@ let foo,)
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 8, end: 9
 ✖ Statement expected - start: 8, end: 9
 
 ```

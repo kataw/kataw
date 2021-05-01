@@ -578,7 +578,9 @@
 ```javascript
 ✖ Dot property must be an identifier - start: 127, end: 128
 ✖ Expression expected - start: 133, end: 136
+✖ Expected a `;` - start: 133, end: 136
 ✖ Statement expected - start: 133, end: 136
+✖ Expected a `;` - start: 141, end: 142
 ✖ Statement expected - start: 141, end: 142
 
 ```

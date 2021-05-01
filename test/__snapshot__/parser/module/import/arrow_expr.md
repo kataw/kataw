@@ -147,6 +147,7 @@ let x = () => import {x} from "y"
 
 ```javascript
 ✖ Statement expected - start: 23, end: 24
+✖ Expected a `;` - start: 29, end: 33
 
 ```
 

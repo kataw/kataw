@@ -131,7 +131,9 @@
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 14
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
+✖ Expected a `;` - start: 14, end: 15
 ✖ Statement expected - start: 14, end: 15
+✖ Expected a `;` - start: 16, end: 18
 ✖ Statement expected - start: 18, end: 20
 ✖ Statement expected - start: 20, end: 21
 

@@ -2572,14 +2572,17 @@ let x = { foo(){ super(); } };
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
+✖ Expected a `;` - start: 58, end: 60
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 89, end: 90
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 125, end: 126
 ✖ ',' expected - start: 129, end: 131
 ✖ Unexpected token. - start: 152, end: 157
 ✖ Statement expected - start: 157, end: 158
+✖ Expected a `;` - start: 161, end: 162
 ✖ Statement expected - start: 161, end: 162
 ✖ Statement expected - start: 164, end: 166
 ✖ Statement expected - start: 183, end: 184
+✖ Expected a `;` - start: 189, end: 190
 ✖ Statement expected - start: 191, end: 193
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 211, end: 212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
@@ -2588,9 +2591,12 @@ let x = { foo(){ super(); } };
 ✖ Statement expected - start: 250, end: 251
 ✖ Statement expected - start: 251, end: 253
 ✖ Binding identifier expected - start: 285, end: 291
+✖ Expected a `;` - start: 295, end: 297
+✖ Expected a `;` - start: 357, end: 359
 ✖ ',' expected - start: 421, end: 423
 ✖ Unexpected token. - start: 473, end: 478
 ✖ Statement expected - start: 478, end: 479
+✖ Expected a `;` - start: 482, end: 483
 ✖ Statement expected - start: 482, end: 483
 ✖ Statement expected - start: 485, end: 487
 ✖ Statement expected - start: 487, end: 490
@@ -2599,6 +2605,7 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 551, end: 552
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 584, end: 585
 ✖ ',' expected - start: 588, end: 589
+✖ Expected a `;` - start: 588, end: 589
 ✖ Statement expected - start: 588, end: 589
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 614, end: 615
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 642, end: 643

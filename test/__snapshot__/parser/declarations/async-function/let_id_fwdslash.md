@@ -123,6 +123,7 @@ let p/
 
 ```javascript
 ✖ ',' expected - start: 5, end: 6
+✖ Expected a `;` - start: 5, end: 6
 ✖ Expression expected - start: 5, end: 6
 ✖ Expression expected - start: 6, end: 6
 

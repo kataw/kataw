@@ -71,6 +71,7 @@ c\u006fnst = x;
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 10, end: 12
 ✖ Statement expected - start: 10, end: 12
 
 ```

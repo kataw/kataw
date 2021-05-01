@@ -933,29 +933,40 @@ var { f\u0061lse } = {};
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 55, end: 65
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 65, end: 67
+✖ Expected a `;` - start: 75, end: 85
 ✖ Statement expected - start: 75, end: 85
 ✖ Statement expected - start: 85, end: 87
+✖ Expected a `;` - start: 97, end: 111
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 97, end: 111
 ✖ Expression expected - start: 111, end: 113
+✖ Expected a `;` - start: 111, end: 113
 ✖ Statement expected - start: 111, end: 113
+✖ Expected a `;` - start: 160, end: 191
 ✖ Expression expected - start: 191, end: 193
 ✖ Missing label - start: 191, end: 193
+✖ Expected a `;` - start: 191, end: 193
 ✖ Statement expected - start: 191, end: 193
 ✖ Missing initializer in destructuring declaration - start: 205, end: 208
 ✖ Variable declaration expected. - start: 205, end: 208
+✖ Expected a `;` - start: 205, end: 208
+✖ Expected a `;` - start: 208, end: 209
 ✖ Statement expected - start: 208, end: 209
-✖ Invalid escaped keyword - start: 217, end: 218
+✖ Keywords cannot contain escape characters - start: 217, end: 218
 ✖ Statement expected - start: 217, end: 218
 ✖ Statement expected - start: 218, end: 220
-✖ Invalid escaped keyword - start: 303, end: 304
+✖ Expected a `;` - start: 295, end: 303
+✖ Keywords cannot contain escape characters - start: 303, end: 304
 ✖ Expression expected - start: 303, end: 304
-✖ Invalid escaped keyword - start: 313, end: 324
-✖ Invalid escaped keyword - start: 330, end: 341
+✖ Keywords cannot contain escape characters - start: 313, end: 324
+✖ Expected a `;` - start: 330, end: 341
+✖ Keywords cannot contain escape characters - start: 330, end: 341
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 341, end: 343
 ✖ Missing initializer in destructuring declaration - start: 353, end: 364
 ✖ Variable declaration expected. - start: 353, end: 364
-✖ Invalid escaped keyword - start: 353, end: 364
+✖ Expected a `;` - start: 353, end: 364
+✖ Keywords cannot contain escape characters - start: 353, end: 364
 ✖ Statement expected - start: 364, end: 366
 ✖ Statement expected - start: 366, end: 368
 

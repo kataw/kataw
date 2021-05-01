@@ -126,6 +126,10 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 11, end: 13
+✖ Expected a `;` - start: 13, end: 18
+✖ Expected a `;` - start: 18, end: 22
+✖ Expected a `;` - start: 22, end: 26
+
 ```
 

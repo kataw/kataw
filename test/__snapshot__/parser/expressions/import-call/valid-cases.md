@@ -268,6 +268,7 @@ import(x).then();
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 69, end: 70
+
 ```
 

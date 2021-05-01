@@ -181,6 +181,7 @@ do {} while (x) { async try while { catch }
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 23, end: 27
 ✖ 'try' expected - start: 35, end: 41
 
 ```

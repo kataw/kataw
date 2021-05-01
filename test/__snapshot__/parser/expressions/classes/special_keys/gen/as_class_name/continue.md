@@ -103,6 +103,7 @@ class continue {}
 ✖ Binding identifier expected - start: 5, end: 14
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 5, end: 14
 ✖ Expression expected - start: 14, end: 16
+✖ Expected a `;` - start: 14, end: 16
 
 ```
 

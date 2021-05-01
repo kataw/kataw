@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-debugger
+break x;
 `````
 
 ## Output
@@ -16,12 +16,20 @@ debugger
     "directives": [],
     "statements": [
         {
-            "kind": 171,
-            "debuggerKeyword": {
-                "kind": 37757010,
+            "kind": 150,
+            "breakKeyword": {
+                "kind": 37757005,
                 "flags": 0,
                 "start": 0,
-                "end": 8
+                "end": 5
+            },
+            "label": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 5,
+                "end": 7
             },
             "flags": 16,
             "start": 0,
@@ -29,7 +37,7 @@ debugger
         }
     ],
     "isModule": false,
-    "source": "debugger",
+    "source": "break x;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
@@ -46,6 +54,7 @@ debugger
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Missing label - start: 7, end: 8
+
 ```
 

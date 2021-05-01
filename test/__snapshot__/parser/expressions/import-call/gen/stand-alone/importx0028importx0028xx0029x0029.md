@@ -82,6 +82,7 @@ import(import(x))
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 16, end: 17
+
 ```
 

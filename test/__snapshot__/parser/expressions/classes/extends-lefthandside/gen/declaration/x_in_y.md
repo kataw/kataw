@@ -136,6 +136,7 @@ class A extends x in y {}
 
 ```javascript
 ✖ Expression expected - start: 17, end: 20
+✖ Expected a `;` - start: 22, end: 24
 
 ```
 

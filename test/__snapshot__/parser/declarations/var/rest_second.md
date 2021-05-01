@@ -141,6 +141,7 @@ export var a, ...b = 1;
 
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
+✖ Expected a `;` - start: 13, end: 17
 ✖ Statement expected - start: 13, end: 17
 
 ```

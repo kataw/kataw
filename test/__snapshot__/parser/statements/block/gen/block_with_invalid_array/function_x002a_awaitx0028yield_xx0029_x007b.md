@@ -215,6 +215,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 27, end: 32
 ✖ ',' expected - start: 32, end: 34

@@ -94,6 +94,8 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 7, end: 13
+✖ Expected a `;` - start: 13, end: 15
+
 ```
 

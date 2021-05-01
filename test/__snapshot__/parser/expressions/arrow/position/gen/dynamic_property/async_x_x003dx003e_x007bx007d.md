@@ -128,6 +128,7 @@ async x => {}[foo]
 
 ```javascript
 ✖ Block body arrows can not be immediately invoked without a group - start: 13, end: 14
+✖ Expected a `;` - start: 13, end: 14
 
 ```
 
