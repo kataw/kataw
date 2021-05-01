@@ -100,7 +100,6 @@ export var let = x;
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 10, end: 14
-
+✔ No errors
 ```
 

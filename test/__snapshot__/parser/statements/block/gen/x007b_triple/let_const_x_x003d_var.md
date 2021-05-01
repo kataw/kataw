@@ -158,7 +158,7 @@
 
 ```javascript
 ✖ Expression expected - start: 19, end: 23
-✖ ',' expected - start: 19, end: 23
+✖ Lexical declaration expected - start: 19, end: 23
 
 ```
 

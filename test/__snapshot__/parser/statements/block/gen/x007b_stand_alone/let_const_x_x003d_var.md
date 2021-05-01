@@ -130,7 +130,7 @@
 
 ```javascript
 ✖ Expression expected - start: 15, end: 19
-✖ ',' expected - start: 15, end: 19
+✖ Lexical declaration expected - start: 15, end: 19
 
 ```
 

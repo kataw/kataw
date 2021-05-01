@@ -1007,13 +1007,9 @@ class C { get name(private) {} }
 ```javascript
 ✖ A 'get' accessor cannot have parameters. - start: 20, end: 29
 ✖ A 'get' accessor cannot have parameters. - start: 56, end: 62
-✖ Identifier expected. Reserved word in strict mode - start: 56, end: 62
 ✖ A 'get' accessor cannot have parameters. - start: 89, end: 96
-✖ Identifier expected. Reserved word in strict mode - start: 89, end: 96
 ✖ A 'get' accessor cannot have parameters. - start: 137, end: 147
-✖ Identifier expected. Reserved word in strict mode - start: 137, end: 147
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
-✖ Identifier expected. Reserved word in strict mode - start: 188, end: 193
 ✖ `Yield` expression cannot be used in function parameters - start: 188, end: 193
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Unexpected token. - start: 234, end: 237

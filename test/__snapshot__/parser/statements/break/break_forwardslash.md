@@ -103,6 +103,7 @@ for(x of 3)break/
 ```javascript
 ✖ Unterminated regular expression - start: 16, end: 17
 ✖ Expression expected - start: 16, end: 18
+✖ Missing label - start: 16, end: 18
 
 ```
 

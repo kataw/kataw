@@ -372,7 +372,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 18, end: 29
 ✖ Binding identifier expected - start: 58, end: 59
 ✖ Unexpected token. - start: 58, end: 59
 ✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90

@@ -558,7 +558,19 @@ function parseBreakStatement(parser: ParserState, context: Context): BreakStatem
     }
   } else {
     label = parseIdentifier(parser, context);
+    const labelledIdentfier = label.text;
+    let hasNoLabel = parser.labels.length === 0;
+
+    for (let i = 0; i < parser.labels.length; i++) {
+      if (parser.labels[i].label !== labelledIdentfier) {
+        hasNoLabel = true;
+      }
+    }
+    if (hasNoLabel) {
+      parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Missing_label], parser.curPos, parser.pos);
+    }
   }
+
   parseSemicolon(parser, context | Context.AllowRegExp);
   return createBreakStatement(breakToken, label as Identifier, pos, parser.curPos);
 }
@@ -3451,19 +3463,10 @@ function parsePropertyName(
 function parseIdentifierOrPattern(
   parser: ParserState,
   context: Context,
-  privateIdentifierDiagnosticMessage?: DiagnosticCode
+  diagnosticMessage?: DiagnosticCode
 ): Identifier | ArrayBindingPattern | ObjectBindingPattern | DummyIdentifier | any {
   if (parser.token === SyntaxKind.LeftBracket) return parseArrayBindingPattern(parser, context);
   if (parser.token === SyntaxKind.LeftBrace) return parseObjectBindingPattern(parser, context);
-
-  if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-      parser.curPos,
-      parser.pos
-    );
-  }
   if (context & Context.LexicalContext && parser.token === SyntaxKind.LetKeyword) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -3472,7 +3475,7 @@ function parseIdentifierOrPattern(
       parser.pos
     );
   }
-  return parseIdentifier(parser, context, privateIdentifierDiagnosticMessage);
+  return parseIdentifier(parser, context, diagnosticMessage, true);
 }
 
 function parseArrayBindingPattern(parser: ParserState, context: Context): ArrayBindingPattern {
@@ -4838,7 +4841,14 @@ function parseVariableDeclarationList(
       continue;
     }
 
-    parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[
+        parser.token & SyntaxKind.IsKeyword ? DiagnosticCode.Variable_declaration_expected : DiagnosticCode._expected
+      ],
+      parser.curPos,
+      parser.pos
+    );
   }
   if (inForStatement && declarations.length > 1 && parser.token & SyntaxKind.IsInOrOf) {
     parser.onError(
@@ -4871,7 +4881,7 @@ function parseInitializer(parser: ParserState, context: Context): ExpressionNode
 function parseVariableDeclaration(parser: ParserState, context: Context, inForStatement: boolean): VariableDeclaration {
   const pos = parser.curPos;
   const requireInitializer = !inForStatement && parser.token & SyntaxKind.IsPatternStart;
-  const binding = parseIdentifierOrPattern(parser, context);
+  const binding = parseIdentifierOrPattern(parser, context, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const type = parseTypeAnnotation(parser, context);
   if (requireInitializer && parser.token !== SyntaxKind.Assign) {
@@ -5118,7 +5128,14 @@ function parseBindingList(
       continue;
     }
 
-    parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[
+        parser.token & SyntaxKind.IsKeyword ? DiagnosticCode.Lexical_declaration_expected : DiagnosticCode._expected
+      ],
+      parser.curPos,
+      parser.pos
+    );
   }
 
   if (inForStatement && bindinglist.length > 1 && parser.token & SyntaxKind.IsInOrOf) {
@@ -5151,7 +5168,7 @@ function parseLexicalBinding(
     );
   }
 
-  const binding = parseIdentifierOrPattern(parser, context);
+  const binding = parseIdentifierOrPattern(parser, context, DiagnosticCode.Lexical_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const type = parseTypeAnnotation(parser, context);
 

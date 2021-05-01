@@ -122,6 +122,7 @@ class x extends break {}
 ```javascript
 ✖ Expression expected - start: 15, end: 21
 ✖ Expression expected - start: 21, end: 23
+✖ Missing label - start: 21, end: 23
 
 ```
 

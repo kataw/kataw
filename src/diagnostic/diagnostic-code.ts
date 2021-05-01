@@ -147,7 +147,9 @@ export const enum DiagnosticCode {
   Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring = 145,
   Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords = 146,
   Identifier_expected_await_is_a_reserved_word_in_module_goal = 147,
-  Duplicate_label = 148
+  Duplicate_label = 148,
+  Missing_label = 149,
+  Lexical_declaration_expected = 151
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -296,5 +298,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [145]: "Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring",
   [146]: 'Unicode escapes at the start of labels should not allow keywords',
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
-  [148]: 'Duplicate label'
+  [148]: 'Duplicate label',
+  [149]: 'Missing label',
+  [151]: 'Lexical declaration expected'
 };

@@ -940,9 +940,10 @@ var { f\u0061lse } = {};
 ✖ Expression expected - start: 111, end: 113
 ✖ Statement expected - start: 111, end: 113
 ✖ Expression expected - start: 191, end: 193
+✖ Missing label - start: 191, end: 193
 ✖ Statement expected - start: 191, end: 193
 ✖ Missing initializer in destructuring declaration - start: 205, end: 208
-✖ ',' expected - start: 205, end: 208
+✖ Variable declaration expected. - start: 205, end: 208
 ✖ Statement expected - start: 208, end: 209
 ✖ Invalid escaped keyword - start: 217, end: 218
 ✖ Statement expected - start: 217, end: 218
@@ -953,7 +954,7 @@ var { f\u0061lse } = {};
 ✖ Invalid escaped keyword - start: 330, end: 341
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 341, end: 343
 ✖ Missing initializer in destructuring declaration - start: 353, end: 364
-✖ ',' expected - start: 353, end: 364
+✖ Variable declaration expected. - start: 353, end: 364
 ✖ Invalid escaped keyword - start: 353, end: 364
 ✖ Statement expected - start: 364, end: 366
 ✖ Statement expected - start: 366, end: 368

@@ -1757,17 +1757,13 @@ function * x() { "use strict";  yield: 34; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. Reserved word in strict mode - start: 43, end: 49
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
-✖ Identifier expected. Reserved word in strict mode - start: 104, end: 109
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 104, end: 109
 ✖ Identifier expected. Reserved word in strict mode - start: 161, end: 167
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
 ✖ Identifier expected. Reserved word in strict mode - start: 220, end: 226
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
-✖ Identifier expected. Reserved word in strict mode - start: 284, end: 289
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 284, end: 289
-✖ Identifier expected. Reserved word in strict mode - start: 349, end: 355
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 349, end: 355
 ✖ Identifier expected. Reserved word in strict mode - start: 408, end: 414
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
