@@ -347,5 +347,7 @@ export const enum SyntaxKind {
   YieldKeyword = 8454253,
   EvalIdentifier = 16634,
   ArgumentsIdentifier = 16635,
-  Labels = 256
+  Labels = 256,
+  NameSpaceImport = 255,
+  FromClause = 256
 }

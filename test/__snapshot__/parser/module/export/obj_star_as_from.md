@@ -46,6 +46,7 @@ export {bar}, * as foo from 'bar';
                                 "start": 8,
                                 "end": 11
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,

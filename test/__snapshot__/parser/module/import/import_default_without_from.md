@@ -30,11 +30,18 @@ import foo;
                 "end": 6
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 11,
+                    "end": 11
+                },
+                "flags": 0,
                 "start": 10,
-                "end": 10
+                "end": 11
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -76,7 +83,7 @@ import foo;
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 10, end: 11
+✖ Expression expected - start: 11, end: 11
 
 ```
 

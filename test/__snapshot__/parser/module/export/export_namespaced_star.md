@@ -33,36 +33,36 @@ export * as x from "x" foo
             "namedExports": null,
             "exportFromClause": {
                 "kind": 259,
+                "asteriskToken": {
+                    "kind": 67143222,
+                    "flags": 0,
+                    "start": 6,
+                    "end": 8
+                },
+                "asKeyword": null,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 16,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "fromClause": {
-                "kind": 134299649,
-                "text": "as",
-                "rawText": "as",
-                "flags": 96,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 11,
+                    "end": 13
+                },
+                "flags": 0,
                 "start": 8,
-                "end": 11
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 11
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 11,
                 "end": 13
             },
             "flags": 16,
-            "start": 11,
+            "start": 0,
             "end": 13
         },
         {
@@ -126,7 +126,6 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 11, end: 13
 ✖ Expected a `;` - start: 13, end: 18
 ✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 26

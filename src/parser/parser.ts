@@ -2,30 +2,30 @@ import { SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
-import { createBlockStatement, BlockStatement } from '../ast/stmt/block-stmt';
-import { createBlock, Block } from '../ast/stmt/block';
-import { createLabelledStatement, LabelledStatement } from '../ast/stmt/labelled-stmt';
-import { createBreakStatement, BreakStatement } from '../ast/stmt/break-stmt';
-import { createContinueStatement, ContinueStatement } from '../ast/stmt/continue-stmt';
-import { createLabels, Labels } from '../ast/stmt/labelled-identifier';
-import { createCaseBlock, CaseBlock } from '../ast/stmt/case-block';
-import { createCaseClause, CaseClause } from '../ast/stmt/case-clause';
-import { createCatch, CatchClause } from '../ast/stmt/catch-stmt';
-import { createDebuggerStatement, DebuggerStatement } from '../ast/stmt/debugger-stmt';
-import { createTryStatement, TryStatement } from '../ast/stmt/try-stmt';
-import { createDefaultClause, DefaultClause } from '../ast/stmt/default-clause';
-import { createDoWhileStatement, DoWhileStatement } from '../ast/stmt/do-stmt';
-import { createEmptyStatement, EmptyStatement } from '../ast/stmt/empty-stmt';
-import { createForInStatement, ForInStatement } from '../ast/stmt/for-in-stmt';
-import { createForOfStatement, ForOfStatement } from '../ast/stmt/for-of-stmt';
-import { createForStatement, ForStatement } from '../ast/stmt/for-stmt';
-import { createIfStatement, IfStatement } from '../ast/stmt/if-stmt';
-import { createReturnStatement, ReturnStatement } from '../ast/stmt/return-stmt';
-import { createSwitchStatement, SwitchStatement } from '../ast/stmt/switch-stmt';
-import { createThrowStatement, ThrowStatement } from '../ast/stmt/throw-stmt';
-import { createWhileStatement, WhileStatement } from '../ast/stmt/while-stmt';
-import { createWithStatement, WithStatement } from '../ast/stmt/with-stmt';
-import { StatementNode } from '../ast/stmt';
+import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
+import { createBlock, Block } from '../ast/statements/block';
+import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
+import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
+import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
+import { createLabels, Labels } from '../ast/statements/labelled-identifier';
+import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
+import { createCaseClause, CaseClause } from '../ast/statements/case-clause';
+import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
+import { createDebuggerStatement, DebuggerStatement } from '../ast/statements/debugger-stmt';
+import { createTryStatement, TryStatement } from '../ast/statements/try-stmt';
+import { createDefaultClause, DefaultClause } from '../ast/statements/default-clause';
+import { createDoWhileStatement, DoWhileStatement } from '../ast/statements/do-stmt';
+import { createEmptyStatement, EmptyStatement } from '../ast/statements/empty-stmt';
+import { createForInStatement, ForInStatement } from '../ast/statements/for-in-stmt';
+import { createForOfStatement, ForOfStatement } from '../ast/statements/for-of-stmt';
+import { createForStatement, ForStatement } from '../ast/statements/for-stmt';
+import { createIfStatement, IfStatement } from '../ast/statements/if-stmt';
+import { createReturnStatement, ReturnStatement } from '../ast/statements/return-stmt';
+import { createSwitchStatement, SwitchStatement } from '../ast/statements/switch-stmt';
+import { createThrowStatement, ThrowStatement } from '../ast/statements/throw-stmt';
+import { createWhileStatement, WhileStatement } from '../ast/statements/while-stmt';
+import { createWithStatement, WithStatement } from '../ast/statements/with-stmt';
+import { StatementNode } from '../ast/statements';
 import { ExpressionNode } from '../ast/expressions';
 import { createSuper, Super } from '../ast/expressions/super';
 import { createIndexExpressionChain } from '../ast/expressions/index-expr-chain';
@@ -55,7 +55,9 @@ import { createMethodDefinition, MethodDefinition } from '../ast/expressions/met
 import { createArrowFunction, ArrowFunction } from '../ast/expressions/arrow-function';
 import { createSemicolonClassElement, SemicolonClassElement } from '../ast/expressions/semicolon-class-element';
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
-import { ExpressionStatement, createExpressionStatement } from '../ast/stmt/expression-stmt';
+import { ExpressionStatement, createExpressionStatement } from '../ast/statements/expression-stmt';
+import { createNameSpaceImport, NameSpaceImport } from '../ast/module/namespace-import';
+import { createFromClause, FromClause } from '../ast/module/from-clause';
 import { createExportDeclaration, ExportDeclaration } from '../ast/module/export-declaration';
 import { createExportDefault, ExportDefault } from '../ast/module/export-default';
 import { createExportFromClause, ExportFromClause } from '../ast/module/export-from-clause';
@@ -130,16 +132,16 @@ import { createTupleType, TupleType } from '../ast/types/tuple-type';
 import { createFunctionType, FunctionType } from '../ast/types/function-type';
 import { createFunctionTypeParameterList, FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
 import { createFunctionTypeParameters, FunctionTypeParameter } from '../ast/types/function-type-parameter';
-import { createBindingList, BindingList } from '../ast/stmt/binding-list';
-import { createVariableDeclarationList, VariableDeclarationList } from '../ast/stmt/variable-declarationList';
-import { createVariableStatement, VariableStatement } from '../ast/stmt/variable-stmt';
-import { createVariableDeclaration, VariableDeclaration } from '../ast/stmt/variable-declaration';
-import { createClassDeclaration, ClassDeclaration } from '../ast/stmt/class-declaration';
-import { createLexicalBinding, LexicalBinding } from '../ast/stmt/lexical-binding';
-import { createLexicalDeclaration, LexicalDeclaration } from '../ast/stmt/lexical-declaration';
+import { createBindingList, BindingList } from '../ast/statements/binding-list';
+import { createVariableDeclarationList, VariableDeclarationList } from '../ast/statements/variable-declarationList';
+import { createVariableStatement, VariableStatement } from '../ast/statements/variable-stmt';
+import { createVariableDeclaration, VariableDeclaration } from '../ast/statements/variable-declaration';
+import { createClassDeclaration, ClassDeclaration } from '../ast/statements/class-declaration';
+import { createLexicalBinding, LexicalBinding } from '../ast/statements/lexical-binding';
+import { createLexicalDeclaration, LexicalDeclaration } from '../ast/statements/lexical-declaration';
 import { createTypeAlias, TypeAlias } from '../ast/types/type-alias-declaration';
 import { createObjectTypeProperty, ObjectTypeProperty } from '../ast/types/object-type-property';
-import { createFunctionDeclaration, FunctionDeclaration } from '../ast/stmt/function-declaration';
+import { createFunctionDeclaration, FunctionDeclaration } from '../ast/statements/function-declaration';
 import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-identifier';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic';
@@ -296,7 +298,8 @@ function parseStatementListItem(parser: ParserState, context: Context): Statemen
         context,
         /* disallowGen*/ false,
         /* declareKeyword */ null,
-        /* isDefaultModifier */ false
+        /* isDefaultModifier */ false,
+        /* allowAsyncArrow */ true
       );
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
@@ -384,7 +387,8 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
         context,
         /* disallowGen*/ false,
         /* declareKeyword */ null,
-        /* isDefaultModifier */ false
+        /* isDefaultModifier */ false,
+        /* allowAsyncArrow */ true
       );
     case SyntaxKind.ClassKeyword:
       parser.onError(
@@ -625,7 +629,8 @@ function parseConsequentOrAlternative(parser: ParserState, context: Context): St
         context,
         /* disallowGen */ true,
         /* declareKeyword */ null,
-        /* isDefaultModifier */ false
+        /* isDefaultModifier */ false,
+        /* allowAsyncArrow */ true
       );
 }
 
@@ -819,7 +824,8 @@ export function parseLabelledStatement(
           context,
           /* disallowGen */ true,
           /* declareKeyword */ null,
-          /* isDefaultModifier */ false
+          /* isDefaultModifier */ false,
+          /* allowAsyncArrow */ true
         ),
     flags | NodeFlags.IsStatement,
     pos,
@@ -3801,7 +3807,8 @@ function parseFunctionDeclaration(
   context: Context,
   disallowGen: boolean,
   declareKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  isDefaultModifier: boolean
+  isDefaultModifier: boolean,
+  allowAsyncArrow: boolean
 ): FunctionDeclaration | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
@@ -3810,6 +3817,14 @@ function parseFunctionDeclaration(
       if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
         let expression!: ExpressionNode;
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsIdentifier)) {
+          if (!allowAsyncArrow) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode.An_async_arrow_without_the_default_modifier_can_not_be_exported],
+              parser.curPos,
+              parser.pos
+            );
+          }
           expression = createFormalParameter(
             /* ellipsisToken */ null,
             /* binding */ parseIdentifier(parser, context),
@@ -4192,7 +4207,7 @@ function parseImportDeclaration(
 ): ImportDeclaration | ExpressionStatement {
   let moduleSpecifier = null;
   let importClause = null;
-  let fromClause: StringLiteral | ExpressionNode | null = null;
+  let fromClause: FromClause | null = null;
 
   const importToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ImportKeyword);
 
@@ -4206,7 +4221,7 @@ function parseImportDeclaration(
     parser.token === SyntaxKind.LeftBrace // import {
   ) {
     let defaultBinding: Identifier | null = null;
-    let namespace: Identifier | null = null;
+    let namespace: NameSpaceImport | null = null;
     let namedImports: NamedImports | null = null;
     let isCommaSeparated = true;
 
@@ -4250,10 +4265,17 @@ function parseImportDeclaration(
 
 // NameSpaceImport :
 //   `*` `as` ImportedBinding
-function parseNameSpaceImport(parser: ParserState, context: Context): Identifier | any {
-  consume(parser, context, SyntaxKind.Multiply);
-  consume(parser, context, SyntaxKind.AsKeyword);
-  return parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
+function parseNameSpaceImport(parser: ParserState, context: Context): NameSpaceImport {
+  const pos = parser.curPos;
+  const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
+  const asKeyword = consumeToken(parser, context, SyntaxKind.AsKeyword);
+  return createNameSpaceImport(
+    asteriskToken,
+    asKeyword,
+    parseIdentifier(parser, context, DiagnosticCode.Identifier_expected),
+    pos,
+    parser.curPos
+  );
 }
 
 // NamedImports :
@@ -4313,15 +4335,20 @@ function parseModuleExportName(parser: ParserState, context: Context): StringLit
 
 // FromClause :
 //   `from` ModuleSpecifier
-function parseFromClause(parser: ParserState, context: Context): StringLiteral | ExpressionNode {
-  consume(parser, context, SyntaxKind.FromKeyword);
-  if (parser.token === SyntaxKind.StringLiteral) {
-    return parseStringLiteral(parser, context);
-  }
-  // We allow arbitrary expressions here, even though the grammar only allows string
-  // literals. We check to ensure that it is only a string literal later in the grammar
-  // check pass.
-  return parseExpression(parser, context);
+function parseFromClause(parser: ParserState, context: Context): FromClause {
+  const { curPos, nodeFlags } = parser;
+  const fromKeyword = consumeToken(parser, context, SyntaxKind.FromKeyword);
+  return createFromClause(
+    fromKeyword,
+    parser.token === SyntaxKind.StringLiteral
+      ? parseStringLiteral(parser, context)
+      : // We allow arbitrary expressions here due to error recovery, even though the grammar only allows string
+        // literals.
+        parseExpression(parser, context),
+    nodeFlags,
+    curPos,
+    parser.curPos
+  );
 }
 
 // ExportDeclaration :
@@ -4341,18 +4368,13 @@ function parseExportDeclaration(
   const pos = parser.curPos;
   const exportToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.ExportKeyword);
   let declaration: any = null;
-  let fromClause: StringLiteral | ExpressionNode | null = null;
+  let fromClause: FromClause | null = null;
   let namedExports: NamedExports | null = null;
   let exportFromClause: any | null = null;
 
   switch (parser.token) {
     case SyntaxKind.DefaultKeyword:
       return parseExportDefault(parser, context, exportToken, pos);
-    case SyntaxKind.LetKeyword:
-      break;
-    case SyntaxKind.ConstKeyword: {
-      break;
-    }
     case SyntaxKind.LeftBrace: {
       namedExports = parseNamedExports(parser, context);
       if ((parser.token as SyntaxKind) === SyntaxKind.FromKeyword) fromClause = parseFromClause(parser, context);
@@ -4369,19 +4391,26 @@ function parseExportDeclaration(
     case SyntaxKind.ClassKeyword:
       declaration = parseClassDeclaration(parser, context, /* declareKeyword */ null, /* isDefaultModifier */ false);
       break;
+    case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       declaration = parseFunctionDeclaration(
         parser,
         context,
         /* disallowGen*/ true,
         /* declareKeyword */ null,
-        /* isDefaultModifier */ false
+        /* isDefaultModifier */ false,
+        /* allowAsyncArrow */ false
       );
+      break;
+    case SyntaxKind.ConstKeyword:
+      declaration = parseLexicalDeclaration(parser, context, /* isConst */ true);
+      break;
+    case SyntaxKind.LetKeyword:
+      declaration = parseLetAsIdentifierOrLexicalDeclaration(parser, context);
       break;
     case SyntaxKind.VarKeyword:
       declaration = parseVariableStatement(parser, context, /* declareKeyword */ null);
       break;
-    case SyntaxKind.AsyncKeyword:
     default:
       parser.onError(
         DiagnosticSource.Parser,
@@ -4407,17 +4436,19 @@ function parseExportDeclaration(
 //   `*` as Identifier
 //   `*` as ModulemoduleExportName
 function parseExportFromClause(parser: ParserState, context: Context, pos: number): ExportFromClause {
-  nextToken(parser, context);
+  const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
   let moduleExportName: StringLiteral | null = null;
   let namedBinding: Identifier | DummyIdentifier | null = null;
-  if (consumeOpt(parser, context, SyntaxKind.AsKeyword)) {
+  let flags = parser.nodeFlags;
+  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+  if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
       namedBinding = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected);
     }
   }
-  return createExportFromClause(namedBinding as Identifier, moduleExportName, pos, parser.curPos);
+  return createExportFromClause(asteriskToken, asKeyword, namedBinding as Identifier, moduleExportName, flags, pos, parser.curPos);
 }
 
 // NamedExports :
@@ -4458,14 +4489,15 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
       ? parseModuleExportName(parser, context)
       : (parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true) as Identifier);
   let exportedName = null;
-  if (consumeOpt(parser, context, SyntaxKind.AsKeyword)) {
+  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+  if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
     } else {
       exportedName = parseIdentifier(parser, context) as Identifier;
     }
   }
-  return createExportSpecifier(localName, moduleExportName, exportedName, pos, parser.curPos);
+  return createExportSpecifier(moduleExportName, localName, asKeyword, exportedName, pos, parser.curPos);
 }
 
 // ExportDefault :
@@ -4490,20 +4522,21 @@ function parseExportDefault(
   let declaration!: StatementNode | ExpressionNode | any;
 
   switch (parser.token) {
+    case SyntaxKind.AsyncKeyword:
     case SyntaxKind.FunctionKeyword:
       declaration = parseFunctionDeclaration(
         parser,
         context,
         /* disallowGen*/ false,
         /* declareKeyword */ null,
-        /* isDefaultModifier */ true
+        /* isDefaultModifier */ true,
+        /* allowAsyncArrow */ true
       );
       break;
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       declaration = parseClassDeclaration(parser, context, /* declareKeyword */ null, /* isDefaultModifier */ true);
       break;
-    case SyntaxKind.AsyncKeyword:
     default:
       // export default {};
       // export default [];
@@ -4832,7 +4865,7 @@ function parseVariableStatement(
 ): VariableStatement {
   const pos = parser.curPos;
   const varKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.VarKeyword);
-  if (varKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+  if (varKeyword && varKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
@@ -4953,7 +4986,8 @@ function parseDeclareAsIdentifierOrDeclareStatement(
           context,
           /* disallowGen */ false,
           /* declareKeyword */ declareKeyword,
-          /* isDefaultModifier */ false
+          /* isDefaultModifier */ false,
+          /* allowAsyncArrow */ true
         );
       case SyntaxKind.ClassKeyword:
         return parseClassDeclaration(

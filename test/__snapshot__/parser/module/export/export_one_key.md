@@ -46,6 +46,7 @@ export {x}; var x;
                                 "start": 8,
                                 "end": 9
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,

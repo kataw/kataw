@@ -46,6 +46,7 @@ export {foo as default};
                                 "start": 8,
                                 "end": 11
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,
@@ -62,6 +63,7 @@ export {foo as default};
                                 "start": 11,
                                 "end": 14
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 11,
@@ -78,6 +80,7 @@ export {foo as default};
                                 "start": 14,
                                 "end": 22
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 14,

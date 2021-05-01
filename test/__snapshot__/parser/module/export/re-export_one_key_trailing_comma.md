@@ -46,6 +46,7 @@ export {x,} from "foo"
                                 "start": 8,
                                 "end": 9
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,
@@ -62,11 +63,23 @@ export {x,} from "foo"
             },
             "exportFromClause": null,
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 16,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 11,
+                    "end": 16
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 16,
+                    "end": 22
+                },
+                "flags": 0,
+                "start": 11,
                 "end": 22
             },
             "flags": 16,

@@ -30,21 +30,9 @@ import a, ** from 'f';
                 "end": 6
             },
             "fromClause": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 9,
-                    "end": 9
-                },
-                "operatorToken": {
-                    "kind": 35897,
-                    "flags": 64,
-                    "start": 9,
-                    "end": 12
-                },
-                "right": {
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
                     "kind": 134299649,
                     "text": "from",
                     "rawText": "from",
@@ -52,7 +40,7 @@ import a, ** from 'f';
                     "start": 12,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 9,
                 "end": 17
             },
@@ -111,7 +99,6 @@ import a, ** from 'f';
 
 ```javascript
 ✖ Unexpected token. - start: 9, end: 12
-✖ Expression expected - start: 9, end: 12
 ✖ Expected a `;` - start: 17, end: 21
 
 ```

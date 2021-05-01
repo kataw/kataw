@@ -9,7 +9,7 @@ interface ImportDeclaration <: Node {
   kind: NodeKind.ImportDeclaration;
   importKeyword: SyntaxToken<TokenSyntaxKind>;
   importClause: ImportClause | null
-  fromClause: StringLiteral | null;
+  fromClause: FromClause | null;
 }
 ```
 An import declaration, e.g., `import foo from 'mod;`.
@@ -64,7 +64,7 @@ interface ExportDeclaration <: Node {
   declaration: AssignmentExpression | VariableStatement | LexicalDeclaration | FunctionDeclaration | ClassDeclaration | null;
   namedExports: [ ExportSpecifier ];
   exportFromClause: ExportFromClause | null,
-  fromClause: StringLiteral | null;
+  fromClause: FromClause | null;
 }
 ```
 
@@ -82,6 +82,7 @@ interface NamedExports <: Node {
 ```js
 interface ExportFromClause <: Node {
   kind: NodeKind.ExportFromClause;
+  asKeyword: SyntaxToken<TokenSyntaxKind>;
   moduleExportName: StringLiteral | null;
   namedBinding: IdentifierName | null;
 }
@@ -97,7 +98,7 @@ interface ExportSpecifier <: Node {
 }
 ```
 
-### ExportDefault [MODIFIED]
+### ExportDefault
 
 ```js
 interface ExportDefault <: Node {
@@ -105,5 +106,26 @@ interface ExportDefault <: Node {
   exportKeyword: SyntaxToken<TokenSyntaxKind>;
   defaultKeyword: SyntaxToken<TokenSyntaxKind>;
   declaration: FunctionDeclaration | ClassDeclaration | Expression;
+}
+```
+
+### FromClause
+
+```js
+interface FromClause <: Node {
+  kind: NodeKind.FromClause;
+  fromKeyword: SyntaxToken<TokenSyntaxKind>;
+  from: ExpressionNode;
+}
+```
+
+### NameSpaceImport
+
+```js
+interface NameSpaceImport <: Node {
+  kind: NodeKind.NameSpaceImport;
+  asteriskToken: SyntaxToken<TokenSyntaxKind>;
+  asKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  binding: Identifier | DummyIdentifier | null;
 }
 ```

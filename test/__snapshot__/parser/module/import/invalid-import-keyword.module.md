@@ -30,11 +30,23 @@ import { for } from "iteration"
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "iteration",
-                "rawText": "iteration",
-                "flags": 96,
-                "start": 19,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 14,
+                    "end": 19
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "iteration",
+                    "rawText": "iteration",
+                    "flags": 96,
+                    "start": 19,
+                    "end": 31
+                },
+                "flags": 0,
+                "start": 14,
                 "end": 31
             },
             "moduleSpecifier": null,

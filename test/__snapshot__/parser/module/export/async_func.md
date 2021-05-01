@@ -36,7 +36,8 @@ export default async function f(){} foo
                 "end": 14
             },
             "declaration": {
-                "kind": 177,
+                "kind": 176,
+                "declareKeyword": null,
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
@@ -82,7 +83,7 @@ export default async function f(){} foo
                 },
                 "typeParameters": null,
                 "returnType": null,
-                "flags": 160,
+                "flags": 144,
                 "start": 14,
                 "end": 35
             },
@@ -123,7 +124,6 @@ export default async function f(){} foo
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 35, end: 39
-
+✔ No errors
 ```
 

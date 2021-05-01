@@ -46,6 +46,7 @@ export {a \u0061s b} from "x";
                                 "start": 8,
                                 "end": 9
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,
@@ -62,6 +63,7 @@ export {a \u0061s b} from "x";
                                 "start": 9,
                                 "end": 17
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 9,
@@ -78,6 +80,7 @@ export {a \u0061s b} from "x";
                                 "start": 17,
                                 "end": 19
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 17,
@@ -94,11 +97,23 @@ export {a \u0061s b} from "x";
             },
             "exportFromClause": null,
             "fromClause": {
-                "kind": 201392131,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 25,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 20,
+                    "end": 25
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 25,
+                    "end": 29
+                },
+                "flags": 0,
+                "start": 20,
                 "end": 29
             },
             "flags": 16,

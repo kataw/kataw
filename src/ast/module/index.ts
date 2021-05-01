@@ -1,5 +1,5 @@
 import { ExportDeclaration } from './export-declaration';
-import { StatementNode } from '../stmt';
+import { StatementNode } from '../statements';
 import { ImportDeclaration } from './import-declaration';
 import { ExportDefault } from './export-default';
 

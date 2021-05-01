@@ -46,6 +46,7 @@ export {foo as bar} from "foo";
                                 "start": 8,
                                 "end": 11
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,
@@ -62,6 +63,7 @@ export {foo as bar} from "foo";
                                 "start": 11,
                                 "end": 14
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 11,
@@ -78,6 +80,7 @@ export {foo as bar} from "foo";
                                 "start": 14,
                                 "end": 18
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 14,
@@ -94,11 +97,23 @@ export {foo as bar} from "foo";
             },
             "exportFromClause": null,
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 24,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 19,
+                    "end": 24
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 24,
+                    "end": 30
+                },
+                "flags": 0,
+                "start": 19,
                 "end": 30
             },
             "flags": 16,

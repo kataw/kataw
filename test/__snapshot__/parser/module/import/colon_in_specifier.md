@@ -30,11 +30,19 @@ import {a: b} from "bar";
                 "end": 6
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 134299649,
+                    "text": "b",
+                    "rawText": "b",
+                    "flags": 96,
+                    "start": 10,
+                    "end": 12
+                },
+                "flags": 0,
                 "start": 9,
-                "end": 9
+                "end": 12
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -77,20 +85,6 @@ import {a: b} from "bar";
             },
             "flags": 16,
             "start": 6,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "b",
-                "rawText": "b",
-                "flags": 96,
-                "start": 10,
-                "end": 12
-            },
-            "flags": 16,
-            "start": 10,
             "end": 12
         },
         {
@@ -140,9 +134,6 @@ import {a: b} from "bar";
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 9, end: 10
-✖ Expected a `;` - start: 9, end: 10
-✖ Statement expected - start: 9, end: 10
 ✖ Statement expected - start: 12, end: 13
 ✖ Expected a `;` - start: 18, end: 24
 

@@ -84,6 +84,7 @@ var x; export {x as a,}
                                 "start": 15,
                                 "end": 16
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 15,
@@ -100,6 +101,7 @@ var x; export {x as a,}
                                 "start": 16,
                                 "end": 19
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 16,
@@ -116,6 +118,7 @@ var x; export {x as a,}
                                 "start": 19,
                                 "end": 21
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 19,

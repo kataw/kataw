@@ -1,5 +1,5 @@
 import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
-import { StatementNode } from './stmt';
+import { StatementNode } from './statements';
 import { StringLiteral } from './expressions/string-literal';
 
 /**

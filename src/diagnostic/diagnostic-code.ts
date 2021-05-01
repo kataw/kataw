@@ -149,7 +149,8 @@ export const enum DiagnosticCode {
   Identifier_expected_await_is_a_reserved_word_in_module_goal = 147,
   Duplicate_label = 148,
   Missing_label = 149,
-  Lexical_declaration_expected = 151
+  Lexical_declaration_expected = 151,
+  An_async_arrow_without_the_default_modifier_can_not_be_exported = 152
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -300,5 +301,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [147]: "Identifier expected.  'await' is a reserved word in module goal",
   [148]: 'Duplicate label',
   [149]: 'Missing label',
-  [151]: 'Lexical declaration expected'
+  [151]: 'Lexical declaration expected',
+  [152]: "An async arrow without the 'default' modifier can not be exported"
 };

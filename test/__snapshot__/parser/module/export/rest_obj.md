@@ -29,84 +29,83 @@ export let {...x} = y
                 "start": 0,
                 "end": 6
             },
-            "declaration": null,
+            "declaration": {
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 80,
+                    "start": 6,
+                    "end": 10
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 222,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
+                                                "start": 12,
+                                                "end": 15
+                                            },
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 12,
+                                                "end": 16
+                                            },
+                                            "right": null,
+                                            "flags": 32,
+                                            "start": 12,
+                                            "end": 16
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 16
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 17
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 19,
+                                "end": 21
+                            },
+                            "flags": 16,
+                            "start": 10,
+                            "end": 21
+                        }
+                    ],
+                    "flags": 33554448,
+                    "start": 10,
+                    "end": 21
+                },
+                "flags": 33554448,
+                "start": 6,
+                "end": 21
+            },
             "namedExports": null,
             "exportFromClause": null,
             "fromClause": null,
             "flags": 16,
             "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 41951307,
-                "flags": 80,
-                "start": 6,
-                "end": 10
-            },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 222,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 12,
-                                            "end": 15
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 16
-                                        },
-                                        "right": null,
-                                        "flags": 32,
-                                        "start": 12,
-                                        "end": 16
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 12,
-                                "end": 16
-                            },
-                            "flags": 32,
-                            "start": 10,
-                            "end": 17
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 19,
-                            "end": 21
-                        },
-                        "flags": 16,
-                        "start": 10,
-                        "end": 21
-                    }
-                ],
-                "flags": 33554448,
-                "start": 10,
-                "end": 21
-            },
-            "flags": 33554448,
-            "start": 6,
             "end": 21
         }
     ],

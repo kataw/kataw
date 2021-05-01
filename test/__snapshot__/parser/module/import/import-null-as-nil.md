@@ -30,11 +30,23 @@ import { null as nil } from "bar"
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "bar",
-                "rawText": "bar",
-                "flags": 96,
-                "start": 27,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 22,
+                    "end": 27
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "bar",
+                    "rawText": "bar",
+                    "flags": 96,
+                    "start": 27,
+                    "end": 33
+                },
+                "flags": 0,
+                "start": 22,
                 "end": 33
             },
             "moduleSpecifier": null,

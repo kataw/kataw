@@ -92,6 +92,7 @@ export { \u0061bc }
                                 "start": 21,
                                 "end": 30
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 21,

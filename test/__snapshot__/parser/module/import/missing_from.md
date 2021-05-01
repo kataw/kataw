@@ -30,12 +30,19 @@ import {a, b} fromx "c"
                 "end": 6
             },
             "fromClause": {
-                "kind": 134299649,
-                "text": "fromx",
-                "rawText": "fromx",
-                "flags": 96,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 201392131,
+                    "text": "c",
+                    "rawText": "c",
+                    "flags": 96,
+                    "start": 19,
+                    "end": 23
+                },
+                "flags": 0,
                 "start": 13,
-                "end": 19
+                "end": 23
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -94,20 +101,6 @@ import {a, b} fromx "c"
             },
             "flags": 16,
             "start": 6,
-            "end": 19
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "c",
-                "rawText": "c",
-                "flags": 96,
-                "start": 19,
-                "end": 23
-            },
-            "flags": 16,
-            "start": 19,
             "end": 23
         }
     ],
@@ -129,7 +122,6 @@ import {a, b} fromx "c"
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 19, end: 23
-
+✔ No errors
 ```
 

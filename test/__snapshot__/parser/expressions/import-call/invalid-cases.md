@@ -955,11 +955,37 @@ new import(x);
                 "end": 284
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 120,
+                    "expression": {
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 1,
+                            "start": 286,
+                            "end": 294
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 295,
+                            "end": 296
+                        },
+                        "flags": 32,
+                        "start": 294,
+                        "end": 296
+                    },
+                    "flags": 16,
+                    "start": 294,
+                    "end": 297
+                },
+                "flags": 0,
                 "start": 285,
-                "end": 285
+                "end": 297
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -985,64 +1011,6 @@ new import(x);
             },
             "flags": 16,
             "start": 284,
-            "end": 286
-        },
-        {
-            "kind": 263,
-            "importKeyword": {
-                "kind": 37814364,
-                "flags": 1,
-                "start": 286,
-                "end": 294
-            },
-            "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
-                "start": 296,
-                "end": 296
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": null,
-                "namedImports": {
-                    "kind": 267,
-                    "importsList": {
-                        "kind": 265,
-                        "specifiers": [
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 64,
-                                    "start": 295,
-                                    "end": 296
-                                },
-                                "flags": 16,
-                                "start": 295,
-                                "end": 296
-                            }
-                        ],
-                        "flags": 0,
-                        "start": 295,
-                        "end": 296
-                    },
-                    "flags": 16,
-                    "start": 294,
-                    "end": 296
-                },
-                "flags": 16,
-                "start": 294,
-                "end": 296
-            },
-            "flags": 16,
-            "start": 294,
             "end": 297
         },
         {
@@ -1054,11 +1022,53 @@ new import(x);
                 "end": 305
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 120,
+                    "expression": {
+                        "kind": 132,
+                        "expressions": [
+                            {
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 1,
+                                    "start": 309,
+                                    "end": 317
+                                },
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 318,
+                                    "end": 319
+                                },
+                                "flags": 32,
+                                "start": 317,
+                                "end": 319
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 320,
+                                "end": 322
+                            }
+                        ],
+                        "flags": 32,
+                        "start": 317,
+                        "end": 322
+                    },
+                    "flags": 16,
+                    "start": 317,
+                    "end": 322
+                },
+                "flags": 0,
                 "start": 308,
-                "end": 308
+                "end": 322
             },
             "moduleSpecifier": null,
             "importClause": {
@@ -1101,48 +1111,6 @@ new import(x);
             },
             "flags": 16,
             "start": 305,
-            "end": 309
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
-                    {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 1,
-                            "start": 309,
-                            "end": 317
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 318,
-                            "end": 319
-                        },
-                        "flags": 32,
-                        "start": 317,
-                        "end": 319
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 320,
-                        "end": 322
-                    }
-                ],
-                "flags": 32,
-                "start": 317,
-                "end": 322
-            },
-            "flags": 16,
-            "start": 317,
             "end": 322
         },
         {
@@ -2081,9 +2049,7 @@ new import(x);
 ✖ Statement expected - start: 262, end: 263
 ✖ Unexpected token. - start: 272, end: 273
 ✖ Expected a `;` - start: 272, end: 273
-✖ Expression expected - start: 285, end: 286
-✖ Expression expected - start: 296, end: 297
-✖ Expression expected - start: 308, end: 309
+✖ Expected a `;` - start: 322, end: 323
 ✖ Expected a `;` - start: 322, end: 323
 ✖ Statement expected - start: 322, end: 323
 ✖ Expression expected - start: 333, end: 336

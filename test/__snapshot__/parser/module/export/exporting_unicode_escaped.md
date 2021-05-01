@@ -92,6 +92,7 @@ export { abc }
                                 "start": 26,
                                 "end": 30
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 26,

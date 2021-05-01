@@ -46,6 +46,7 @@ export {foo, bar};
                                 "start": 8,
                                 "end": 11
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 8,
@@ -62,6 +63,7 @@ export {foo, bar};
                                 "start": 12,
                                 "end": 16
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 12,

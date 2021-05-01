@@ -33,18 +33,37 @@ export * from "foo";
             "namedExports": null,
             "exportFromClause": {
                 "kind": 259,
+                "asteriskToken": {
+                    "kind": 67143222,
+                    "flags": 0,
+                    "start": 6,
+                    "end": 8
+                },
+                "asKeyword": null,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 16,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 13,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 8,
+                    "end": 13
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 13,
+                    "end": 19
+                },
+                "flags": 0,
+                "start": 8,
                 "end": 19
             },
             "flags": 16,

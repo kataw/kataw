@@ -30,11 +30,23 @@ import {} from "foo";
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 14,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 9,
+                    "end": 14
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 14,
+                    "end": 20
+                },
+                "flags": 0,
+                "start": 9,
                 "end": 20
             },
             "moduleSpecifier": null,

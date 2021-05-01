@@ -30,60 +30,57 @@ import * as foo from "foo";
                 "end": 6
             },
             "fromClause": {
-                "kind": 134299649,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 11,
-                "end": 15
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 15,
+                    "end": 20
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 20,
+                    "end": 26
+                },
+                "flags": 0,
+                "start": 15,
+                "end": 26
             },
             "moduleSpecifier": null,
             "importClause": {
                 "kind": 262,
                 "defaultBinding": null,
                 "nameSpaceImport": {
-                    "kind": 134299649,
-                    "text": "as",
-                    "rawText": "as",
-                    "flags": 96,
-                    "start": 8,
-                    "end": 11
+                    "kind": 255,
+                    "asteriskToken": {
+                        "kind": 67143222,
+                        "flags": 0,
+                        "start": 6,
+                        "end": 8
+                    },
+                    "asKeyword": null,
+                    "binding": {
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 15
+                    },
+                    "flags": 16,
+                    "start": 6,
+                    "end": 15
                 },
                 "namedImports": null,
                 "flags": 16,
                 "start": 6,
-                "end": 11
+                "end": 15
             },
             "flags": 16,
             "start": 6,
-            "end": 15
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "from",
-                "rawText": "from",
-                "flags": 96,
-                "start": 15,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 20
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 20,
-                "end": 26
-            },
-            "flags": 16,
-            "start": 20,
             "end": 27
         }
     ],
@@ -105,8 +102,6 @@ import * as foo from "foo";
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 15, end: 20
-✖ Expected a `;` - start: 20, end: 26
-
+✔ No errors
 ```
 

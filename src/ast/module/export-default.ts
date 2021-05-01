@@ -1,8 +1,8 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '../expressions';
-import { FunctionDeclaration } from '../stmt/function-declaration';
-import { ClassDeclaration } from '../stmt/class-declaration';
+import { FunctionDeclaration } from '../statements/function-declaration';
+import { ClassDeclaration } from '../statements/class-declaration';
 
 export interface ExportDefault extends SyntaxNode {
   readonly exportKeyword: SyntaxToken<TokenSyntaxKind>;

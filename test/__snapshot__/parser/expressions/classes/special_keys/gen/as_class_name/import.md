@@ -58,9 +58,16 @@ class import {}
                 "end": 12
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 15,
+                    "end": 15
+                },
+                "flags": 0,
                 "start": 15,
                 "end": 15
             },

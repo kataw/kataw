@@ -63,11 +63,23 @@ function f(){import {x} from "y";}
                                 "end": 19
                             },
                             "fromClause": {
-                                "kind": 201392131,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 28,
+                                "kind": 256,
+                                "fromKeyword": {
+                                    "kind": 16500,
+                                    "flags": 0,
+                                    "start": 23,
+                                    "end": 28
+                                },
+                                "from": {
+                                    "kind": 201392131,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 28,
+                                    "end": 32
+                                },
+                                "flags": 0,
+                                "start": 23,
                                 "end": 32
                             },
                             "moduleSpecifier": null,

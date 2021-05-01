@@ -101,6 +101,7 @@ var x,y; export {x as a, y as b}
                                 "start": 17,
                                 "end": 18
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 17,
@@ -117,6 +118,7 @@ var x,y; export {x as a, y as b}
                                 "start": 18,
                                 "end": 21
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 18,
@@ -133,6 +135,7 @@ var x,y; export {x as a, y as b}
                                 "start": 21,
                                 "end": 23
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 21,
@@ -149,6 +152,7 @@ var x,y; export {x as a, y as b}
                                 "start": 24,
                                 "end": 26
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 24,
@@ -165,6 +169,7 @@ var x,y; export {x as a, y as b}
                                 "start": 26,
                                 "end": 29
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 26,
@@ -181,6 +186,7 @@ var x,y; export {x as a, y as b}
                                 "start": 29,
                                 "end": 31
                             },
+                            "asKeyword": null,
                             "binding": null,
                             "flags": 16,
                             "start": 29,

@@ -30,11 +30,23 @@ import {bar as baz} from "foo";
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "foo",
-                "rawText": "foo",
-                "flags": 96,
-                "start": 24,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 19,
+                    "end": 24
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 24,
+                    "end": 30
+                },
+                "flags": 0,
+                "start": 19,
                 "end": 30
             },
             "moduleSpecifier": null,

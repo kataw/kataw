@@ -30,11 +30,23 @@ import {x, z,} from "y"
                 "end": 6
             },
             "fromClause": {
-                "kind": 201392131,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 19,
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 14,
+                    "end": 19
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 19,
+                    "end": 23
+                },
+                "flags": 0,
+                "start": 14,
                 "end": 23
             },
             "moduleSpecifier": null,

@@ -33,67 +33,64 @@ export * as foo, {bar} from 'bar';
             "namedExports": null,
             "exportFromClause": {
                 "kind": 259,
+                "asteriskToken": {
+                    "kind": 67143222,
+                    "flags": 0,
+                    "start": 6,
+                    "end": 8
+                },
+                "asKeyword": null,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 16,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "fromClause": {
-                "kind": 134299649,
-                "text": "as",
-                "rawText": "as",
-                "flags": 96,
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 11,
+                    "end": 15
+                },
+                "flags": 0,
                 "start": 8,
-                "end": 11
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 11
+            "end": 15
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 132,
-                "expressions": [
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [
                     {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 11,
-                        "end": 15
-                    },
-                    {
-                        "kind": 220,
-                        "propertyList": {
-                            "kind": 218,
-                            "properties": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "bar",
-                                    "rawText": "bar",
-                                    "flags": 96,
-                                    "start": 18,
-                                    "end": 21
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 16,
+                        "kind": 120,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
                             "start": 18,
                             "end": 21
                         },
-                        "flags": 32,
-                        "start": 16,
-                        "end": 22
+                        "flags": 16,
+                        "start": 18,
+                        "end": 21
                     }
                 ],
-                "flags": 32,
-                "start": 11,
-                "end": 22
+                "flags": 16,
+                "start": 18,
+                "end": 21
             },
             "flags": 16,
-            "start": 11,
+            "start": 16,
             "end": 22
         },
         {
@@ -143,8 +140,8 @@ export * as foo, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 11, end: 15
-✖ Expected a `;` - start: 22, end: 27
+✖ Expected a `;` - start: 15, end: 16
+✖ Statement expected - start: 15, end: 16
 ✖ Expected a `;` - start: 27, end: 33
 
 ```

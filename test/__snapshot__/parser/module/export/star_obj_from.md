@@ -33,49 +33,51 @@ export *, {bar} from 'bar';
             "namedExports": null,
             "exportFromClause": {
                 "kind": 259,
+                "asteriskToken": {
+                    "kind": 67143222,
+                    "flags": 0,
+                    "start": 6,
+                    "end": 8
+                },
+                "asKeyword": null,
                 "moduleExportName": null,
                 "namedBinding": null,
-                "flags": 16,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
             "fromClause": {
-                "kind": 16637,
-                "text": "",
-                "flags": 68,
-                "start": 8,
-                "end": 8
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 14
-                        },
+                "kind": 256,
+                "fromKeyword": null,
+                "from": {
+                    "kind": 220,
+                    "propertyList": {
+                        "kind": 218,
+                        "properties": [
+                            {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 14
+                            }
+                        ],
+                        "trailingComma": false,
                         "flags": 16,
                         "start": 11,
                         "end": 14
-                    }
-                ],
-                "flags": 16,
-                "start": 11,
-                "end": 14
+                    },
+                    "flags": 32,
+                    "start": 9,
+                    "end": 15
+                },
+                "flags": 0,
+                "start": 8,
+                "end": 15
             },
             "flags": 16,
-            "start": 9,
+            "start": 0,
             "end": 15
         },
         {
@@ -125,9 +127,7 @@ export *, {bar} from 'bar';
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 8, end: 9
-✖ Expected a `;` - start: 8, end: 9
-✖ Statement expected - start: 8, end: 9
+✖ Expected a `;` - start: 15, end: 20
 ✖ Expected a `;` - start: 20, end: 26
 
 ```

@@ -1,6 +1,6 @@
 import { StringLiteral } from './string-literal';
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { StatementNode } from '../stmt';
+import { StatementNode } from '../statements';
 
 export interface FunctionStatementList extends SyntaxNode {
   readonly directives: StringLiteral[];
