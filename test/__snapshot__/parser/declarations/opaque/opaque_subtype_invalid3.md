@@ -52,9 +52,8 @@ opaque stuff: Box<T> = Container<T>
                 {
                     "kind": 256,
                     "label": "stuff",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 6,
                     "end": 12
                 }

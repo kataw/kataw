@@ -696,36 +696,32 @@ L: let
                                         {
                                             "kind": 256,
                                             "label": "let",
-                                            "loop": false,
-                                            "isDuplicate": false,
-                                            "flags": 32,
+                                            "iterationStatement": false,
+                                            "flags": 16,
                                             "start": 214,
                                             "end": 218
                                         },
                                         {
                                             "kind": 256,
                                             "label": "let",
-                                            "loop": false,
-                                            "isDuplicate": true,
-                                            "flags": 32,
+                                            "iterationStatement": false,
+                                            "flags": 16,
                                             "start": 247,
                                             "end": 251
                                         },
                                         {
                                             "kind": 256,
                                             "label": "L",
-                                            "loop": false,
-                                            "isDuplicate": false,
-                                            "flags": 32,
+                                            "iterationStatement": false,
+                                            "flags": 17,
                                             "start": 320,
                                             "end": 323
                                         },
                                         {
                                             "kind": 256,
                                             "label": "L",
-                                            "loop": false,
-                                            "isDuplicate": true,
-                                            "flags": 32,
+                                            "iterationStatement": false,
+                                            "flags": 17,
                                             "start": 330,
                                             "end": 333
                                         }
@@ -843,36 +839,32 @@ L: let
                                 {
                                     "kind": 256,
                                     "label": "let",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 214,
                                     "end": 218
                                 },
                                 {
                                     "kind": 256,
                                     "label": "let",
-                                    "loop": false,
-                                    "isDuplicate": true,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 247,
                                     "end": 251
                                 },
                                 {
                                     "kind": 256,
                                     "label": "L",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 17,
                                     "start": 320,
                                     "end": 323
                                 },
                                 {
                                     "kind": 256,
                                     "label": "L",
-                                    "loop": false,
-                                    "isDuplicate": true,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 17,
                                     "start": 330,
                                     "end": 333
                                 }
@@ -1169,36 +1161,32 @@ L: let
                 {
                     "kind": 256,
                     "label": "let",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 214,
                     "end": 218
                 },
                 {
                     "kind": 256,
                     "label": "let",
-                    "loop": false,
-                    "isDuplicate": true,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 247,
                     "end": 251
                 },
                 {
                     "kind": 256,
                     "label": "L",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 17,
                     "start": 320,
                     "end": 323
                 },
                 {
                     "kind": 256,
                     "label": "L",
-                    "loop": false,
-                    "isDuplicate": true,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 17,
                     "start": 330,
                     "end": 333
                 }
@@ -1223,7 +1211,7 @@ L: let
                 "start": 324,
                 "end": 328
             },
-            "flags": 16,
+            "flags": 17,
             "start": 320,
             "end": 328
         },
@@ -1255,36 +1243,32 @@ L: let
                 {
                     "kind": 256,
                     "label": "let",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 214,
                     "end": 218
                 },
                 {
                     "kind": 256,
                     "label": "let",
-                    "loop": false,
-                    "isDuplicate": true,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 247,
                     "end": 251
                 },
                 {
                     "kind": 256,
                     "label": "L",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 17,
                     "start": 320,
                     "end": 323
                 },
                 {
                     "kind": 256,
                     "label": "L",
-                    "loop": false,
-                    "isDuplicate": true,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 17,
                     "start": 330,
                     "end": 333
                 }
@@ -1309,7 +1293,7 @@ L: let
                 "start": 334,
                 "end": 338
             },
-            "flags": 16,
+            "flags": 17,
             "start": 330,
             "end": 338
         },

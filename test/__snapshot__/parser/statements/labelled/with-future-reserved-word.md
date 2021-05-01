@@ -29,9 +29,8 @@ interface: x;
                 {
                     "kind": 256,
                     "label": "interface",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 9
                 }

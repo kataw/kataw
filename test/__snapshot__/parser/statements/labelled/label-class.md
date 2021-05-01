@@ -29,9 +29,8 @@ label: class x {}
                 {
                     "kind": 256,
                     "label": "label",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 5
                 }

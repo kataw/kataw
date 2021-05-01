@@ -29,9 +29,8 @@ foo: for (x of y) continue foo
                 {
                     "kind": 256,
                     "label": "foo",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 3
                 }

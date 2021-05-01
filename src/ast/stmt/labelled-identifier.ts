@@ -5,23 +5,21 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
  */
 export interface Labels extends SyntaxNode {
   readonly label: string;
-  readonly loop: boolean;
-  readonly isDuplicate: boolean;
+  readonly iterationStatement: boolean;
 }
 
 export function createLabels(
   label: string,
-  loop: boolean,
-  isDuplicate: boolean,
+  iterationStatement: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): Labels {
   return {
     kind: SyntaxKind.Labels,
     label,
-    loop,
-    isDuplicate,
-    flags: NodeFlags.ExpressionNode,
+    iterationStatement,
+    flags,
     start,
     end
   };

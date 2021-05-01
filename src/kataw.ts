@@ -21,6 +21,7 @@ export {
   isUnterminated,
   hexIntegerLiteral,
   containsInvalidEscape,
+  hasDuplicateLabels,
   isAssignOp,
   isBinaryOp,
   hasNewLine,

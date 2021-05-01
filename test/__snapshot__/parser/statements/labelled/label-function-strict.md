@@ -39,9 +39,8 @@ foo: function() {}
                 {
                     "kind": 256,
                     "label": "foo",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 17,
                     "start": 13,
                     "end": 17
                 }
@@ -98,7 +97,7 @@ foo: function() {}
                 "start": 18,
                 "end": 32
             },
-            "flags": 16,
+            "flags": 17,
             "start": 13,
             "end": 32
         }

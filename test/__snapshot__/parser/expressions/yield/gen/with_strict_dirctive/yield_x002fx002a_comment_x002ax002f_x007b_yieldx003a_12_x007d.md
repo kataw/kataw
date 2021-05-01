@@ -61,9 +61,8 @@
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 35,
                                 "end": 41
                             }

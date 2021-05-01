@@ -19,6 +19,7 @@ export function createLabelledStatement(
   labels: Labels[],
   colonToken: SyntaxToken<TokenSyntaxKind>,
   statement: StatementNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): LabelledStatement {
@@ -28,7 +29,7 @@ export function createLabelledStatement(
     labels,
     colonToken,
     statement,
-    flags: NodeFlags.IsStatement,
+    flags,
     start,
     end
   };

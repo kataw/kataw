@@ -62,9 +62,8 @@ opaque Ident: Type = SuperType;
                 {
                     "kind": 256,
                     "label": "Ident",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 6,
                     "end": 12
                 }

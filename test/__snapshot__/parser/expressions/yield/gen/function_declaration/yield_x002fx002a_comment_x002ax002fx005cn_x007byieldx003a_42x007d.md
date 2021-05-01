@@ -114,9 +114,8 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 44,
                                 "end": 49
                             }

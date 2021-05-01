@@ -2903,45 +2903,40 @@ async function * gen() {class C extends await { }}
                             "labels": [
                                 {
                                     "kind": 256,
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 1397,
                                     "end": 1402
                                 },
                                 {
                                     "kind": 256,
                                     "label": "yield",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 1857,
                                     "end": 1862
                                 },
                                 {
                                     "kind": 256,
                                     "label": "yield",
-                                    "loop": false,
-                                    "isDuplicate": true,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 1916,
                                     "end": 1921
                                 },
                                 {
                                     "kind": 256,
                                     "label": "a",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 2623,
                                     "end": 2624
                                 },
                                 {
                                     "kind": 256,
                                     "label": "a",
-                                    "loop": false,
-                                    "isDuplicate": true,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 2679,
                                     "end": 2680
                                 }
@@ -3617,45 +3612,40 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1397,
                                 "end": 1402
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1857,
                                 "end": 1862
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1916,
                                 "end": 1921
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2623,
                                 "end": 2624
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2679,
                                 "end": 2680
                             }
@@ -3804,45 +3794,40 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1397,
                                 "end": 1402
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1857,
                                 "end": 1862
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1916,
                                 "end": 1921
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2623,
                                 "end": 2624
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2679,
                                 "end": 2680
                             }
@@ -5693,45 +5678,40 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1397,
                                 "end": 1402
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1857,
                                 "end": 1862
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1916,
                                 "end": 1921
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2623,
                                 "end": 2624
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2679,
                                 "end": 2680
                             }
@@ -5941,45 +5921,40 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1397,
                                 "end": 1402
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1857,
                                 "end": 1862
                             },
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1916,
                                 "end": 1921
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2623,
                                 "end": 2624
                             },
                             {
                                 "kind": 256,
                                 "label": "a",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 2679,
                                 "end": 2680
                             }

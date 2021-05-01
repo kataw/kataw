@@ -154,6 +154,16 @@ export function speculate(parser: ParserState, context: Context, callback: any, 
   return result;
 }
 
+export function isIterationStatement(t: SyntaxKind): boolean {
+  // If encounter 'for', 'while', or 'do', it's an valid iteration statement start
+  //
+  // Examples:
+  //      for(...) {}
+  //      while(...) {}
+  //      do { } while(...)
+  return t === SyntaxKind.ForKeyword || t === SyntaxKind.WhileKeyword || t === SyntaxKind.DoKeyword;
+}
+
 export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
 }
@@ -282,4 +292,8 @@ export function isSemicolon(node: SyntaxNode): boolean {
 
 export function hasNewLine(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.NewLine) === NodeFlags.NewLine;
+}
+
+export function hasDuplicateLabels(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.DuplicateLabels) === NodeFlags.DuplicateLabels;
 }

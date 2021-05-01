@@ -3987,45 +3987,40 @@ try {} catch(e) { for(var e of 0); };
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4478,
                         "end": 4484
                     },
                     {
                         "kind": 256,
                         "label": "labelA",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4506,
                         "end": 4513
                     },
                     {
                         "kind": 256,
                         "label": "labelB",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4514,
                         "end": 4521
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4543,
                         "end": 4549
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4585,
                         "end": 4591
                     }
@@ -4123,45 +4118,40 @@ try {} catch(e) { for(var e of 0); };
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4478,
                         "end": 4484
                     },
                     {
                         "kind": 256,
                         "label": "labelA",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4506,
                         "end": 4513
                     },
                     {
                         "kind": 256,
                         "label": "labelB",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4514,
                         "end": 4521
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4543,
                         "end": 4549
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4585,
                         "end": 4591
                     }
@@ -4186,45 +4176,40 @@ try {} catch(e) { for(var e of 0); };
                         {
                             "kind": 256,
                             "label": "label",
-                            "loop": false,
-                            "isDuplicate": false,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 4478,
                             "end": 4484
                         },
                         {
                             "kind": 256,
                             "label": "labelA",
-                            "loop": false,
-                            "isDuplicate": false,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 4506,
                             "end": 4513
                         },
                         {
                             "kind": 256,
                             "label": "labelB",
-                            "loop": false,
-                            "isDuplicate": false,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 4514,
                             "end": 4521
                         },
                         {
                             "kind": 256,
                             "label": "label",
-                            "loop": false,
-                            "isDuplicate": true,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 4543,
                             "end": 4549
                         },
                         {
                             "kind": 256,
                             "label": "label",
-                            "loop": false,
-                            "isDuplicate": true,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 4585,
                             "end": 4591
                         }
@@ -4326,45 +4311,40 @@ try {} catch(e) { for(var e of 0); };
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4478,
                         "end": 4484
                     },
                     {
                         "kind": 256,
                         "label": "labelA",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4506,
                         "end": 4513
                     },
                     {
                         "kind": 256,
                         "label": "labelB",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4514,
                         "end": 4521
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4543,
                         "end": 4549
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4585,
                         "end": 4591
                     }
@@ -4484,45 +4464,40 @@ try {} catch(e) { for(var e of 0); };
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4478,
                         "end": 4484
                     },
                     {
                         "kind": 256,
                         "label": "labelA",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4506,
                         "end": 4513
                     },
                     {
                         "kind": 256,
                         "label": "labelB",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4514,
                         "end": 4521
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4543,
                         "end": 4549
                     },
                     {
                         "kind": 256,
                         "label": "label",
-                        "loop": false,
-                        "isDuplicate": true,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 4585,
                         "end": 4591
                     }

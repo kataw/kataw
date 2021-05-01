@@ -34,18 +34,16 @@
                             {
                                 "kind": 256,
                                 "label": "foo",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 1,
                                 "end": 5
                             },
                             {
                                 "kind": 256,
                                 "label": "bar",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 6,
                                 "end": 10
                             }
@@ -70,18 +68,16 @@
                                 {
                                     "kind": 256,
                                     "label": "foo",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 1,
                                     "end": 5
                                 },
                                 {
                                     "kind": 256,
                                     "label": "bar",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 6,
                                     "end": 10
                                 }

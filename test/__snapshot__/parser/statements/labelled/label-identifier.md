@@ -29,9 +29,8 @@ x: y;
                 {
                     "kind": 256,
                     "label": "x",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 1
                 }

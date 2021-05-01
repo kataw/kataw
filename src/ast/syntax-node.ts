@@ -35,7 +35,8 @@ export const enum NodeFlags {
   SingleQuote = 1 << 22,
   ContainsInvalidEscape = 1 << 23, // e.g. `\uhello`
   Const = 1 << 24, // Lexical declaration
-  Lexical = 1 << 25 // Lexical declaration
+  Lexical = 1 << 25, // Lexical declaration
+  DuplicateLabels = 1 << 26
 }
 
 /**

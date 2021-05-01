@@ -322,27 +322,24 @@ x({ x: x &&= 2 ] = { x: 2 });
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 86,
                                 "end": 88
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 183,
                                 "end": 185
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 214,
                                 "end": 216
                             }
@@ -671,27 +668,24 @@ x({ x: x &&= 2 ] = { x: 2 });
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 86,
                                 "end": 88
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 183,
                                 "end": 185
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 214,
                                 "end": 216
                             }
@@ -844,27 +838,24 @@ x({ x: x &&= 2 ] = { x: 2 });
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 86,
                                 "end": 88
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 183,
                                 "end": 185
                             },
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": true,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 214,
                                 "end": 216
                             }

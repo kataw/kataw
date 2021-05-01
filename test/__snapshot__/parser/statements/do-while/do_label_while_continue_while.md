@@ -51,9 +51,8 @@ do wow: while (x) continue wow; while (x)
                     {
                         "kind": 256,
                         "label": "wow",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 2,
                         "end": 6
                     }

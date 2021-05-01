@@ -29,18 +29,16 @@ a: { b: switch(x) {} }
                 {
                     "kind": 256,
                     "label": "a",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 1
                 },
                 {
                     "kind": 256,
                     "label": "b",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 4,
                     "end": 6
                 }
@@ -70,18 +68,16 @@ a: { b: switch(x) {} }
                                 {
                                     "kind": 256,
                                     "label": "a",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 0,
                                     "end": 1
                                 },
                                 {
                                     "kind": 256,
                                     "label": "b",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 4,
                                     "end": 6
                                 }

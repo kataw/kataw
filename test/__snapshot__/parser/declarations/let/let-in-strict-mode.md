@@ -40,9 +40,8 @@
                 {
                     "kind": 256,
                     "label": "let",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 13,
                     "end": 17
                 }

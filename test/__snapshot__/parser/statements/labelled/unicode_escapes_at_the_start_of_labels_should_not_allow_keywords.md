@@ -62,9 +62,8 @@ async () => { \u{61}wait: x }
                             "labels": [
                                 {
                                     "kind": 256,
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 8208,
                                     "start": 13,
                                     "end": 24
                                 }
@@ -89,7 +88,7 @@ async () => { \u{61}wait: x }
                                 "start": 25,
                                 "end": 27
                             },
-                            "flags": 16,
+                            "flags": 8208,
                             "start": 13,
                             "end": 27
                         }

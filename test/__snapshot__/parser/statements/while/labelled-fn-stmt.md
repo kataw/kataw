@@ -44,18 +44,16 @@ while (false) label1: label2: function f() {}
                     {
                         "kind": 256,
                         "label": "label1",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 13,
                         "end": 20
                     },
                     {
                         "kind": 256,
                         "label": "label2",
-                        "loop": false,
-                        "isDuplicate": false,
-                        "flags": 32,
+                        "iterationStatement": false,
+                        "flags": 16,
                         "start": 21,
                         "end": 28
                     }
@@ -80,18 +78,16 @@ while (false) label1: label2: function f() {}
                         {
                             "kind": 256,
                             "label": "label1",
-                            "loop": false,
-                            "isDuplicate": false,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 13,
                             "end": 20
                         },
                         {
                             "kind": 256,
                             "label": "label2",
-                            "loop": false,
-                            "isDuplicate": false,
-                            "flags": 32,
+                            "iterationStatement": false,
+                            "flags": 16,
                             "start": 21,
                             "end": 28
                         }

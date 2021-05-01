@@ -69,9 +69,8 @@ function * x () {
                                 {
                                     "kind": 256,
                                     "label": "y",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 17,
                                     "start": 17,
                                     "end": 23
                                 }
@@ -103,7 +102,7 @@ function * x () {
                                 "start": 24,
                                 "end": 31
                             },
-                            "flags": 16,
+                            "flags": 17,
                             "start": 17,
                             "end": 31
                         }

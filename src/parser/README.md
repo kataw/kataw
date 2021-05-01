@@ -78,6 +78,7 @@ Multiple API methods exist to get info from the CST nodes
 | `hasErrors`              | True if the node contains errors |
 | `isLexical`              | True if the node is a lexical declaration |
 | `hasNewLine`              | True if the node has a newline |
+| `hasDuplicateLabels`     | True if the node has duplicate labels |
 
 ## Escaped keywords
 

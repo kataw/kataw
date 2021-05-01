@@ -85,9 +85,8 @@ yield * \n { yield: 12 }
                             {
                                 "kind": 256,
                                 "label": "yield",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 12,
                                 "end": 18
                             }

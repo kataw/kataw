@@ -35,9 +35,8 @@ await: 1;
                 {
                     "kind": 256,
                     "label": "await",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 5
                 }

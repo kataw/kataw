@@ -164,7 +164,8 @@ import {
   parseSemicolon,
   DestructibleKind,
   BindingType,
-  speculate
+  speculate,
+  isIterationStatement
 } from './common';
 
 // prettier-ignore
@@ -769,22 +770,24 @@ export function parseLabelledStatement(
       }
   }
 
-  let labeli = expr.text;
-  let isDuplicate = false;
+  let labelledIdentfier = expr.text;
 
   for (let i = 0; i < parser.labels.length; i++) {
-    if (parser.labels[i].label === labeli) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Duplicate_label],
-        pos,
-        parser.pos
-      );
-      isDuplicate = true;
+    if (parser.labels[i].label === labelledIdentfier) {
+      parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Duplicate_label], pos, parser.pos);
+      flags | NodeFlags.DuplicateLabels;
     }
   }
 
-  parser.labels.push(createLabels(labeli, /*loop*/ false, isDuplicate, pos, parser.curPos));
+  parser.labels.push(
+    createLabels(
+      labelledIdentfier,
+      isIterationStatement(parser.token),
+      flags | NodeFlags.IsStatement,
+      pos,
+      parser.curPos
+    )
+  );
 
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
@@ -806,6 +809,7 @@ export function parseLabelledStatement(
           /* declareKeyword */ null,
           /* isDefaultModifier */ false
         ),
+    flags | NodeFlags.IsStatement,
     pos,
     parser.curPos
   );

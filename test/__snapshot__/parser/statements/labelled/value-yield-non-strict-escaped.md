@@ -35,9 +35,8 @@ yi\u0065ld: 1;
                 {
                     "kind": 256,
                     "label": "yield",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16400,
                     "start": 0,
                     "end": 10
                 }
@@ -62,7 +61,7 @@ yi\u0065ld: 1;
                 "start": 11,
                 "end": 14
             },
-            "flags": 16,
+            "flags": 16400,
             "start": 0,
             "end": 14
         }

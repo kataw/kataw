@@ -408,9 +408,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 {
                     "kind": 256,
                     "label": "foo",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 131,
                     "end": 134
                 }

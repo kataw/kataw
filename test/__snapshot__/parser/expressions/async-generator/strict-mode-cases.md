@@ -1465,17 +1465,15 @@ function * x() { "use strict";  yield: 34; }
                                 {
                                     "kind": 256,
                                     "label": "yield",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 718,
                                     "end": 725
                                 },
                                 {
                                     "kind": 256,
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 806,
                                     "end": 813
                                 }
@@ -1688,17 +1686,15 @@ function * x() { "use strict";  yield: 34; }
                                 {
                                     "kind": 256,
                                     "label": "yield",
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 718,
                                     "end": 725
                                 },
                                 {
                                     "kind": 256,
-                                    "loop": false,
-                                    "isDuplicate": false,
-                                    "flags": 32,
+                                    "iterationStatement": false,
+                                    "flags": 16,
                                     "start": 806,
                                     "end": 813
                                 }

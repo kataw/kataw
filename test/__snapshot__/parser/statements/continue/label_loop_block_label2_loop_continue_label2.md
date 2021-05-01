@@ -29,18 +29,16 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 {
                     "kind": 256,
                     "label": "foo",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 0,
                     "end": 3
                 },
                 {
                     "kind": 256,
                     "label": "bar",
-                    "loop": false,
-                    "isDuplicate": false,
-                    "flags": 32,
+                    "iterationStatement": false,
+                    "flags": 16,
                     "start": 9,
                     "end": 13
                 }
@@ -92,18 +90,16 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     {
                                         "kind": 256,
                                         "label": "foo",
-                                        "loop": false,
-                                        "isDuplicate": false,
-                                        "flags": 32,
+                                        "iterationStatement": false,
+                                        "flags": 16,
                                         "start": 0,
                                         "end": 3
                                     },
                                     {
                                         "kind": 256,
                                         "label": "bar",
-                                        "loop": false,
-                                        "isDuplicate": false,
-                                        "flags": 32,
+                                        "iterationStatement": false,
+                                        "flags": 16,
                                         "start": 9,
                                         "end": 13
                                     }

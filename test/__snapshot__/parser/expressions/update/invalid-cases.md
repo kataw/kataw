@@ -502,9 +502,8 @@ new new foo().bar++;
                             {
                                 "kind": 256,
                                 "label": "x",
-                                "loop": false,
-                                "isDuplicate": false,
-                                "flags": 32,
+                                "iterationStatement": false,
+                                "flags": 16,
                                 "start": 129,
                                 "end": 130
                             }
