@@ -3732,7 +3732,6 @@ function parseFunctionExpression(
   if (asyncToken) {
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
-        let expression!: ExpressionNode;
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsIdentifier)) {
           if (secondContext) {
             parser.onError(
@@ -3742,22 +3741,12 @@ function parseFunctionExpression(
               parser.pos
             );
           }
-          expression = createFormalParameter(
-            /* ellipsisToken */ null,
-            /* binding */ parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected),
-            /* optionalToken */ null,
-            /* type */ null,
-            /* initializer */ null,
-            NodeFlags.ExpressionNode,
-            pos,
-            parser.curPos
-          );
           return parseArrowFunction(
             parser,
             context,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ [expression],
+            /* params */ parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected),
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -3895,22 +3884,12 @@ function parseFunctionDeclaration(
               parser.pos
             );
           }
-          expression = createFormalParameter(
-            /* ellipsisToken */ null,
-            /* binding */ parseIdentifier(parser, context),
-            /* optionalToken */ null,
-            /* type */ null,
-            /* initializer */ null,
-            NodeFlags.ExpressionNode,
-            pos,
-            parser.curPos
-          );
           expression = parseArrowFunction(
             parser,
             context,
             /* typeParameters */ null,
             /* returnType */ null,
-            /* params */ [expression],
+            /* params */ parseIdentifier(parser, context),
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
