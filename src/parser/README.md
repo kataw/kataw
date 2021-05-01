@@ -94,8 +94,8 @@ Kataw skips whitespace by default. Instead this information is part of the rawTe
 For example the raw value of a string literal `foo` if the source code is like this:
 
 ```ts
-
-"foo
+// line terminator here
+"foo"
 ```
 
 will become:  `\n    "foo"`.
