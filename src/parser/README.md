@@ -87,10 +87,25 @@ you can check if the keyword is escaped like this:
 
 `kataw.hasUnicodeEscape(node)` or `kataw.hasExtendedUnicodeEscape(node)`
 
+## Whitespace and linebreak
+
+Kataw skips whitespace by default. Instead this information is part of the rawText value on the CST node. 
+
+For example the raw value of a string literal `foo` if the source code is like this:
+
+```ts
+
+"foo
+```
+
+will become:  `\n    "foo"`.
+
+If you need this *extra* information in a code generator, you can use the `rawText` instead of the `text` value.
+
+
 ## Location tracking
 
-Each CST node has a `start` and `end` property for where the AST node start and end. Kataw ignores whitespace, so the
-location values are calculated before any whitespace has been skipped.
+Each CST node has a `start` and `end` property for where the AST node start and end.
 
 ## Types
 
