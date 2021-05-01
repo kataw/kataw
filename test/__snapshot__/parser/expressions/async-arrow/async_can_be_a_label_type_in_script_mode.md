@@ -25,6 +25,17 @@ async: foo
                 "start": 0,
                 "end": 5
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "async",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 5
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

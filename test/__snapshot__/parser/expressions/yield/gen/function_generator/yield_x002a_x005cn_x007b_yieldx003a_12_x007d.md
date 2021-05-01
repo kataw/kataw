@@ -182,6 +182,17 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             "start": 52,
                             "end": 58
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 52,
+                                "end": 58
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

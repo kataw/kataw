@@ -2900,6 +2900,16 @@ async function * gen() {class C extends await { }}
                                 "start": 1397,
                                 "end": 1402
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 1397,
+                                    "end": 1402
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,
@@ -3568,6 +3578,17 @@ async function * gen() {class C extends await { }}
                             "start": 1857,
                             "end": 1862
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1857,
+                                "end": 1862
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -3709,6 +3730,17 @@ async function * gen() {class C extends await { }}
                             "start": 1916,
                             "end": 1921
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1916,
+                                "end": 1921
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -5552,6 +5584,17 @@ async function * gen() {class C extends await { }}
                             "start": 2623,
                             "end": 2624
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 2623,
+                                "end": 2624
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -5754,6 +5797,17 @@ async function * gen() {class C extends await { }}
                             "start": 2679,
                             "end": 2680
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 2679,
+                                "end": 2680
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -7763,6 +7817,7 @@ async function * gen() {class C extends await { }}
 ✖ Expression expected - start: 1194, end: 1195
 ✖ Expression expected - start: 1228, end: 1229
 ✖ Expected a `;` - start: 1368, end: 1370
+✖ Identifier expected. Reserved word in strict mode - start: 1397, end: 1403
 ✖ Expected a `;` - start: 1527, end: 1528
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683

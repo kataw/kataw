@@ -1461,6 +1461,17 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 718,
                                 "end": 725
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "yield",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 718,
+                                    "end": 725
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,
@@ -1665,6 +1676,16 @@ function * x() { "use strict";  yield: 34; }
                                 "start": 806,
                                 "end": 813
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 806,
+                                    "end": 813
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,

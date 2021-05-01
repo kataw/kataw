@@ -48,6 +48,17 @@ opaque stuff: Box<T> = Container<T>
                 "start": 6,
                 "end": 12
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "stuff",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 6,
+                    "end": 12
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

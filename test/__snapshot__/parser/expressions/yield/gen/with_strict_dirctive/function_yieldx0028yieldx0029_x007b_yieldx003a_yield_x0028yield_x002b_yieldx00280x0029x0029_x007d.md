@@ -90,6 +90,17 @@
                                 "start": 37,
                                 "end": 43
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "yield",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 37,
+                                    "end": 43
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,
@@ -220,7 +231,6 @@
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 29, end: 34
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 37, end: 43
 ✖ Identifier expected. Reserved word in strict mode - start: 37, end: 44
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 44, end: 50
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 44, end: 50
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 52, end: 57
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 59, end: 65

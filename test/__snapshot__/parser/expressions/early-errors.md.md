@@ -3983,6 +3983,17 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4478,
                     "end": 4484
                 },
+                "labels": [
+                    {
+                        "kind": 256,
+                        "label": "label",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 4478,
+                        "end": 4484
+                    }
+                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 0,
@@ -4072,6 +4083,17 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4506,
                     "end": 4513
                 },
+                "labels": [
+                    {
+                        "kind": 256,
+                        "label": "labelA",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 4506,
+                        "end": 4513
+                    }
+                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 0,
@@ -4088,6 +4110,17 @@ try {} catch(e) { for(var e of 0); };
                         "start": 4514,
                         "end": 4521
                     },
+                    "labels": [
+                        {
+                            "kind": 256,
+                            "label": "labelB",
+                            "loop": false,
+                            "isDuplicate": false,
+                            "flags": 32,
+                            "start": 4514,
+                            "end": 4521
+                        }
+                    ],
                     "colonToken": {
                         "kind": 21,
                         "flags": 0,
@@ -4181,6 +4214,17 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4543,
                     "end": 4549
                 },
+                "labels": [
+                    {
+                        "kind": 256,
+                        "label": "label",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 4543,
+                        "end": 4549
+                    }
+                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 0,
@@ -4292,6 +4336,17 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4585,
                     "end": 4591
                 },
+                "labels": [
+                    {
+                        "kind": 256,
+                        "label": "label",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 4585,
+                        "end": 4591
+                    }
+                ],
                 "colonToken": {
                     "kind": 21,
                     "flags": 0,

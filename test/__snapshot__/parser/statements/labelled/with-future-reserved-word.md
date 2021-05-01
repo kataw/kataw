@@ -25,6 +25,17 @@ interface: x;
                 "start": 0,
                 "end": 9
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "interface",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 9
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

@@ -90,6 +90,17 @@
                             "start": 26,
                             "end": 32
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 26,
+                                "end": 32
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

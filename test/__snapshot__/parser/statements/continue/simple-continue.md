@@ -25,6 +25,17 @@ loop: while (x) { break loop; }
                 "start": 0,
                 "end": 4
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "loop",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 4
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

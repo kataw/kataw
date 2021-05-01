@@ -25,6 +25,17 @@ a: { a: x }
                 "start": 0,
                 "end": 1
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "a",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 1
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,
@@ -46,6 +57,17 @@ a: { a: x }
                                 "start": 4,
                                 "end": 6
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "a",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 4,
+                                    "end": 6
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,

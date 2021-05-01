@@ -62,6 +62,17 @@ yield /* comment */\n {yield: 42}
                             "start": 23,
                             "end": 28
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 23,
+                                "end": 28
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

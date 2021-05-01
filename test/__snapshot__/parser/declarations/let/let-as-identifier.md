@@ -692,6 +692,17 @@ L: let
                                         "start": 214,
                                         "end": 218
                                     },
+                                    "labels": [
+                                        {
+                                            "kind": 256,
+                                            "label": "let",
+                                            "loop": false,
+                                            "isDuplicate": false,
+                                            "flags": 32,
+                                            "start": 214,
+                                            "end": 218
+                                        }
+                                    ],
                                     "colonToken": {
                                         "kind": 21,
                                         "flags": 0,
@@ -801,6 +812,17 @@ L: let
                                 "start": 247,
                                 "end": 251
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "let",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 247,
+                                    "end": 251
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,
@@ -1089,6 +1111,17 @@ L: let
                 "start": 320,
                 "end": 323
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "L",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 320,
+                    "end": 323
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,
@@ -1137,6 +1170,17 @@ L: let
                 "start": 330,
                 "end": 333
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "L",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 330,
+                    "end": 333
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

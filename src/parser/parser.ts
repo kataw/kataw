@@ -7,6 +7,7 @@ import { createBlock, Block } from '../ast/stmt/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/stmt/labelled-stmt';
 import { createBreakStatement, BreakStatement } from '../ast/stmt/break-stmt';
 import { createContinueStatement, ContinueStatement } from '../ast/stmt/continue-stmt';
+import { createLabels, Labels } from '../ast/stmt/labelled-identifier';
 import { createCaseBlock, CaseBlock } from '../ast/stmt/case-block';
 import { createCaseClause, CaseClause } from '../ast/stmt/case-clause';
 import { createCatch, CatchClause } from '../ast/stmt/catch-stmt';
@@ -718,37 +719,26 @@ export function parseLabelledStatement(
   allowFunction: boolean,
   pos: number
 ): LabelledStatement {
-  // Unicode escapes at the start of labels should not allow keywords
-
-  if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords],
-      pos,
-      parser.pos
-    );
-  } else if (context & Context.Strict && (token === SyntaxKind.AsyncKeyword || token === SyntaxKind.YieldExpression)) {
-    if (context & (Context.InAwaitContext | Context.Module) && (token as SyntaxKind) === SyntaxKind.AwaitKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-        pos,
-        parser.pos
-      );
-    }
-
-    if (context & (Context.InGeneratorContext | Context.Strict) && (token as SyntaxKind) === SyntaxKind.YieldKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-        pos,
-        parser.pos
-      );
-    }
-  } else {
-    // a duplicate diagnostic will be generated without this 'else'
-    if (context & Context.Strict) {
-      if (token & SyntaxKind.IsFutureReserved) {
+  switch (token) {
+    case SyntaxKind.AwaitKeyword:
+      if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Unicode_escapes_at_the_start_of_labels_should_not_allow_keywords],
+          pos,
+          parser.pos
+        );
+      } else if (context & Context.Module) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_module_goal],
+          pos,
+          parser.pos
+        );
+      }
+      break;
+    case SyntaxKind.YieldKeyword:
+      if (context & (Context.InGeneratorContext | Context.Strict)) {
         parser.onError(
           DiagnosticSource.Parser,
           diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
@@ -756,55 +746,51 @@ export function parseLabelledStatement(
           parser.pos
         );
       }
-    }
-    if ((token & SyntaxKind.IsKeyword) === SyntaxKind.IsKeyword) {
+      break;
+    case SyntaxKind.AwaitKeyword:
+      if (context & (Context.InAwaitContext | Context.Module)) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+          pos,
+          parser.pos
+        );
+      }
+      break;
+    default:
+      if (context & Context.Strict && token & SyntaxKind.IsFutureReserved) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+          pos,
+          parser.pos
+        );
+      }
+  }
+
+  let labels: Labels[] = [];
+  let labeli = expr.text;
+  let isDuplicate = false;
+
+  for (let i = 0; i < labels.length; i++) {
+    if (labels[i].label === labeli) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
+        diagnosticMap[DiagnosticCode.Duplicate_label],
         pos,
         parser.pos
       );
+      isDuplicate = true;
     }
   }
+
+  labels.push(createLabels(labeli, /*loop*/ false, isDuplicate, pos, parser.curPos));
 
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
-  if (parser.token & SyntaxKind.IsFutureReserved) {
-    switch (parser.token) {
-      case SyntaxKind.YieldKeyword:
-        if (context & (Context.Strict | Context.InGeneratorContext)) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        break;
-      case SyntaxKind.AwaitKeyword:
-        if (context & (Context.Module | Context.InAwaitContext)) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        break;
-      default:
-        if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
-            parser.curPos,
-            parser.pos
-          );
-        }
-    }
-  }
-
   return createLabelledStatement(
     expr,
+    labels,
     colonToken,
     !allowFunction ||
       // Per 13.13.1 it's a syntax error if LabelledItem: FunctionDeclaration

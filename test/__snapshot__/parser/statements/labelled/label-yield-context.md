@@ -65,6 +65,17 @@ function * x () {
                                 "start": 17,
                                 "end": 23
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "y",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 17,
+                                    "end": 23
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,
@@ -130,7 +141,6 @@ function * x () {
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 24, end: 30
-
+✔ No errors
 ```
 

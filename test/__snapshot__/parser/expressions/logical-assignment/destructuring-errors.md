@@ -318,6 +318,17 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 86,
                             "end": 88
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 86,
+                                "end": 88
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -638,6 +649,17 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 183,
                             "end": 185
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 183,
+                                "end": 185
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,
@@ -782,6 +804,17 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "start": 214,
                             "end": 216
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 214,
+                                "end": 216
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

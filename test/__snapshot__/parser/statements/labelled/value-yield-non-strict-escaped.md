@@ -1,9 +1,15 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ impliedStrict: false }
+`````
+
 ## Input
 
 `````js
-x: y;
+yi\u0065ld: 1;
 `````
 
 ## Output
@@ -19,54 +25,54 @@ x: y;
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "yield",
+                "rawText": "yi\\u0065ld",
                 "flags": 96,
                 "start": 0,
-                "end": 1
+                "end": 10
             },
             "labels": [
                 {
                     "kind": 256,
-                    "label": "x",
+                    "label": "yield",
                     "loop": false,
                     "isDuplicate": false,
                     "flags": 32,
                     "start": 0,
-                    "end": 1
+                    "end": 10
                 }
             ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,
-                "start": 1,
-                "end": 2
+                "start": 10,
+                "end": 11
             },
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
+                    "kind": 201392130,
+                    "text": 1,
+                    "rawText": "1",
                     "flags": 96,
-                    "start": 2,
-                    "end": 4
+                    "start": 11,
+                    "end": 13
                 },
                 "flags": 16,
-                "start": 2,
-                "end": 5
+                "start": 11,
+                "end": 14
             },
             "flags": 16,
             "start": 0,
-            "end": 5
+            "end": 14
         }
     ],
     "isModule": false,
-    "source": "x: y;",
+    "source": "yi\\u0065ld: 1;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 5
+    "end": 14
 }
 ```
 

@@ -71,6 +71,17 @@
                             "start": 37,
                             "end": 42
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 37,
+                                "end": 42
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

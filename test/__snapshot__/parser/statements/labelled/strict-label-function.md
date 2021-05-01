@@ -36,6 +36,17 @@
                 "start": 13,
                 "end": 17
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "bar",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 13,
+                    "end": 17
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,
@@ -122,6 +133,17 @@
                 "start": 50,
                 "end": 54
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "bar",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 50,
+                    "end": 54
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

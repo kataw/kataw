@@ -35,6 +35,17 @@ foo: function() {}
                 "start": 13,
                 "end": 17
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "foo",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 13,
+                    "end": 17
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

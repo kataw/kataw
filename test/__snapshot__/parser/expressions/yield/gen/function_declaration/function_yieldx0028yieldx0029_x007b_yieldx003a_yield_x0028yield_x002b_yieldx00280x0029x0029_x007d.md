@@ -114,6 +114,17 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                 "start": 44,
                                                 "end": 50
                                             },
+                                            "labels": [
+                                                {
+                                                    "kind": 256,
+                                                    "label": "yield",
+                                                    "loop": false,
+                                                    "isDuplicate": false,
+                                                    "flags": 32,
+                                                    "start": 44,
+                                                    "end": 50
+                                                }
+                                            ],
                                             "colonToken": {
                                                 "kind": 21,
                                                 "flags": 0,

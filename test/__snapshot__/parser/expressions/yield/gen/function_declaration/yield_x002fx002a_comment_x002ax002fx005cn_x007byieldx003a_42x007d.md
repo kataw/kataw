@@ -110,6 +110,17 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                             "start": 44,
                             "end": 49
                         },
+                        "labels": [
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 44,
+                                "end": 49
+                            }
+                        ],
                         "colonToken": {
                             "kind": 21,
                             "flags": 0,

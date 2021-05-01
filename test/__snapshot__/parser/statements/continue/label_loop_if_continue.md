@@ -25,6 +25,17 @@ foo: while(z) if (x) continue foo
                 "start": 0,
                 "end": 3
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "foo",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 3
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,

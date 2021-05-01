@@ -59,6 +59,16 @@ async () => { aw\u{61}it: x }
                                 "start": 13,
                                 "end": 24
                             },
+                            "labels": [
+                                {
+                                    "kind": 256,
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 13,
+                                    "end": 24
+                                }
+                            ],
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 0,

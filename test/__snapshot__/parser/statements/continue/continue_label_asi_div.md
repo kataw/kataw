@@ -26,6 +26,17 @@ x: for(;;) continue x
                 "start": 0,
                 "end": 1
             },
+            "labels": [
+                {
+                    "kind": 256,
+                    "label": "x",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 0,
+                    "end": 1
+                }
+            ],
             "colonToken": {
                 "kind": 21,
                 "flags": 0,
