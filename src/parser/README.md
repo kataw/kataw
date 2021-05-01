@@ -138,7 +138,7 @@ It will skip all whitespace in the range from `3` to the start value of the next
 
 If there are line breaks in between it will stil find the comments within the same range.
 
-**Note** Sometimes can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use a *list*. 
+**Note** There are situations where you can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use a *list*. 
 
 *Lists* are specied in the ECMA specs.
 
