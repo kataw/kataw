@@ -30,26 +30,14 @@ async x => ok ** x
                     "end": 10
                 },
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 7
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 7
-                    }
-                ],
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 5,
+                    "end": 7
+                },
                 "asyncToken": {
                     "kind": 82031,
                     "flags": 64,

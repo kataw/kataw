@@ -58,26 +58,14 @@
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 215,
-                                    "ellipsisToken": null,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 16,
-                                    "end": 24
-                                }
-                            ],
+                            "parameters": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 24
+                            },
                             "asyncToken": {
                                 "kind": 82031,
                                 "flags": 64,

@@ -46,26 +46,14 @@ x / async async => {}
                         "end": 18
                     },
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 215,
-                            "ellipsisToken": null,
-                            "binding": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 15
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 3,
-                            "end": 15
-                        }
-                    ],
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 96,
+                        "start": 9,
+                        "end": 15
+                    },
                     "asyncToken": {
                         "kind": 82031,
                         "flags": 64,

@@ -146,60 +146,48 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                     "end": 71
                                                                 },
                                                                 "typeParameters": null,
-                                                                "parameters": [
-                                                                    {
-                                                                        "kind": 215,
-                                                                        "ellipsisToken": null,
-                                                                        "binding": {
-                                                                            "kind": 131,
-                                                                            "expression": {
-                                                                                "kind": 134299649,
-                                                                                "text": "async",
-                                                                                "rawText": "async",
-                                                                                "flags": 96,
-                                                                                "start": 55,
-                                                                                "end": 61
-                                                                            },
-                                                                            "argumentList": {
-                                                                                "kind": 256,
-                                                                                "elements": [
-                                                                                    {
-                                                                                        "kind": 208,
-                                                                                        "awaitToken": {
-                                                                                            "kind": 82032,
-                                                                                            "flags": 0,
-                                                                                            "start": 62,
-                                                                                            "end": 67
-                                                                                        },
-                                                                                        "expression": {
-                                                                                            "kind": 16637,
-                                                                                            "text": "",
-                                                                                            "flags": 68,
-                                                                                            "start": 67,
-                                                                                            "end": 67
-                                                                                        },
-                                                                                        "flags": 32,
-                                                                                        "start": 62,
-                                                                                        "end": 67
-                                                                                    }
-                                                                                ],
-                                                                                "trailingComma": false,
+                                                                "parameters": {
+                                                                    "kind": 131,
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "async",
+                                                                        "rawText": "async",
+                                                                        "flags": 96,
+                                                                        "start": 55,
+                                                                        "end": 61
+                                                                    },
+                                                                    "argumentList": {
+                                                                        "kind": 256,
+                                                                        "elements": [
+                                                                            {
+                                                                                "kind": 208,
+                                                                                "awaitToken": {
+                                                                                    "kind": 82032,
+                                                                                    "flags": 0,
+                                                                                    "start": 62,
+                                                                                    "end": 67
+                                                                                },
+                                                                                "expression": {
+                                                                                    "kind": 16637,
+                                                                                    "text": "",
+                                                                                    "flags": 68,
+                                                                                    "start": 67,
+                                                                                    "end": 67
+                                                                                },
                                                                                 "flags": 32,
-                                                                                "start": 55,
-                                                                                "end": 55
-                                                                            },
-                                                                            "flags": 32,
-                                                                            "start": 55,
-                                                                            "end": 68
-                                                                        },
-                                                                        "optionalToken": null,
-                                                                        "type": null,
-                                                                        "initializer": null,
+                                                                                "start": 62,
+                                                                                "end": 67
+                                                                            }
+                                                                        ],
+                                                                        "trailingComma": false,
                                                                         "flags": 32,
                                                                         "start": 55,
-                                                                        "end": 68
-                                                                    }
-                                                                ],
+                                                                        "end": 55
+                                                                    },
+                                                                    "flags": 32,
+                                                                    "start": 55,
+                                                                    "end": 68
+                                                                },
                                                                 "asyncToken": {
                                                                     "kind": 82031,
                                                                     "flags": 64,

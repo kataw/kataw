@@ -30,26 +30,14 @@ async async => {} async async => {}
                     "end": 14
                 },
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 11
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 11
-                    }
-                ],
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 5,
+                    "end": 11
+                },
                 "asyncToken": {
                     "kind": 82031,
                     "flags": 64,
@@ -90,26 +78,14 @@ async async => {} async async => {}
                     "end": 32
                 },
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
-                            "flags": 96,
-                            "start": 23,
-                            "end": 29
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 17,
-                        "end": 29
-                    }
-                ],
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 23,
+                    "end": 29
+                },
                 "asyncToken": {
                     "kind": 82031,
                     "flags": 64,

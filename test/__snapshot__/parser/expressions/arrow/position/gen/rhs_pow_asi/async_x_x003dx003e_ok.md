@@ -47,26 +47,14 @@ x
                         "end": 15
                     },
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 215,
-                            "ellipsisToken": null,
-                            "binding": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 12
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 4,
-                            "end": 12
-                        }
-                    ],
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 10,
+                        "end": 12
+                    },
                     "asyncToken": {
                         "kind": 82031,
                         "flags": 64,

@@ -95,26 +95,14 @@ function *P(){
                                         "end": 43
                                     },
                                     "typeParameters": null,
-                                    "parameters": [
-                                        {
-                                            "kind": 215,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 38,
-                                                "end": 40
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 32,
-                                            "end": 40
-                                        }
-                                    ],
+                                    "parameters": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 38,
+                                        "end": 40
+                                    },
                                     "asyncToken": {
                                         "kind": 82031,
                                         "flags": 64,

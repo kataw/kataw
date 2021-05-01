@@ -30,15 +30,16 @@ new async (x, y) => ok
                     "end": 3
                 },
                 "expression": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 0,
-                        "start": 16,
-                        "end": 19
-                    },
-                    "typeParameters": null,
-                    "parameters": [
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 3,
+                    "end": 9
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
                         {
                             "kind": 134299649,
                             "text": "x",
@@ -56,32 +57,31 @@ new async (x, y) => ok
                             "end": 15
                         }
                     ],
-                    "asyncToken": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "ok",
-                        "rawText": "ok",
-                        "flags": 96,
-                        "start": 19,
-                        "end": 22
-                    },
-                    "flags": 288,
-                    "start": 3,
-                    "end": 22
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 11,
+                    "end": 15
                 },
-                "argumentList": null,
                 "flags": 32,
                 "start": 0,
-                "end": 22
+                "end": 16
             },
             "flags": 16,
             "start": 0,
+            "end": 16
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "ok",
+                "rawText": "ok",
+                "flags": 96,
+                "start": 19,
+                "end": 22
+            },
+            "flags": 16,
+            "start": 19,
             "end": 22
         }
     ],
@@ -103,6 +103,8 @@ new async (x, y) => ok
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 16, end: 19
+✖ Statement expected - start: 16, end: 19
+
 ```
 

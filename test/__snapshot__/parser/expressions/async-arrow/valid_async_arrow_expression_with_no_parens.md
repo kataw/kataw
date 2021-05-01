@@ -39,26 +39,14 @@ f(async foo=>c)
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 215,
-                                    "ellipsisToken": null,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 7,
-                                        "end": 11
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 11
-                                }
-                            ],
+                            "parameters": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 7,
+                                "end": 11
+                            },
                             "asyncToken": {
                                 "kind": 82031,
                                 "flags": 64,

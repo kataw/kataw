@@ -63,26 +63,14 @@ function f(a = async x => {}) {}
                                 "end": 25
                             },
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 215,
-                                    "ellipsisToken": null,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 20,
-                                        "end": 22
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 14,
-                                    "end": 22
-                                }
-                            ],
+                            "parameters": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 22
+                            },
                             "asyncToken": {
                                 "kind": 82031,
                                 "flags": 64,

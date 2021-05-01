@@ -140,26 +140,14 @@ var await; var f = (async function() { y = async x => await x });
                                                             "end": 53
                                                         },
                                                         "typeParameters": null,
-                                                        "parameters": [
-                                                            {
-                                                                "kind": 215,
-                                                                "ellipsisToken": null,
-                                                                "binding": {
-                                                                    "kind": 134299649,
-                                                                    "text": "x",
-                                                                    "rawText": "x",
-                                                                    "flags": 96,
-                                                                    "start": 48,
-                                                                    "end": 50
-                                                                },
-                                                                "optionalToken": null,
-                                                                "type": null,
-                                                                "initializer": null,
-                                                                "flags": 32,
-                                                                "start": 42,
-                                                                "end": 50
-                                                            }
-                                                        ],
+                                                        "parameters": {
+                                                            "kind": 134299649,
+                                                            "text": "x",
+                                                            "rawText": "x",
+                                                            "flags": 96,
+                                                            "start": 48,
+                                                            "end": 50
+                                                        },
                                                         "asyncToken": {
                                                             "kind": 82031,
                                                             "flags": 64,

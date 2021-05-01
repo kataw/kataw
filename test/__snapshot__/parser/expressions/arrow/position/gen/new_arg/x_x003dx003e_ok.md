@@ -88,6 +88,7 @@ new x => ok
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 5, end: 8
+
 ```
 

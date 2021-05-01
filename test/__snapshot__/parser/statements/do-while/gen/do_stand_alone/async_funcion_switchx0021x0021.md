@@ -41,26 +41,14 @@ do async funcion switch!!
                     "kind": 271,
                     "arrowToken": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 215,
-                            "ellipsisToken": null,
-                            "binding": {
-                                "kind": 134299649,
-                                "text": "funcion",
-                                "rawText": "funcion",
-                                "flags": 96,
-                                "start": 8,
-                                "end": 16
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "initializer": null,
-                            "flags": 32,
-                            "start": 2,
-                            "end": 16
-                        }
-                    ],
+                    "parameters": {
+                        "kind": 134299649,
+                        "text": "funcion",
+                        "rawText": "funcion",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 16
+                    },
                     "asyncToken": {
                         "kind": 82031,
                         "flags": 64,

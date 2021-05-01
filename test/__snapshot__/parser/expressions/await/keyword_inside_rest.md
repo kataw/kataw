@@ -26,26 +26,14 @@ async r => result = [...{ x = await x }] = y;
                     "end": 10
                 },
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 215,
-                        "ellipsisToken": null,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "r",
-                            "rawText": "r",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 7
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 7
-                    }
-                ],
+                "parameters": {
+                    "kind": 134299649,
+                    "text": "r",
+                    "rawText": "r",
+                    "flags": 96,
+                    "start": 5,
+                    "end": 7
+                },
                 "asyncToken": {
                     "kind": 82031,
                     "flags": 64,

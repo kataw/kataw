@@ -88,26 +88,14 @@ do do do async funcion switch!! while while while
                             "kind": 271,
                             "arrowToken": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 215,
-                                    "ellipsisToken": null,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "funcion",
-                                        "rawText": "funcion",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 22
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 8,
-                                    "end": 22
-                                }
-                            ],
+                            "parameters": {
+                                "kind": 134299649,
+                                "text": "funcion",
+                                "rawText": "funcion",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 22
+                            },
                             "asyncToken": {
                                 "kind": 82031,
                                 "flags": 64,
