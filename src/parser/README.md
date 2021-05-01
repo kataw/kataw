@@ -119,7 +119,7 @@ will become:  `"\n/*  hello string */ \"string\""`.
 If you need to *extract* a comment, you can use the `start` and `end` values on each CST node and `kataw.extractComment()`
 
 For example if you are parsing this kind of code a `a = /* comment */  1;` you can extract both `leading` and `trailing` comments of `=` using 
-the CST ndoe ranges.
+the CST node ranges.
 
 ```ts
 "operatorToken": {
