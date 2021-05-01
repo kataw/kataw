@@ -46,8 +46,9 @@ var x: [number, string] = [123, "aladdin"];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -110,8 +111,9 @@ var x: [number, string] = [123, "aladdin"];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 20,
                             "end": 22
@@ -146,6 +148,7 @@ var x: [number, string] = [123, "aladdin"];
                                     {
                                         "kind": 201392130,
                                         "text": 123,
+                                        "original": "123",
                                         "rawText": "123",
                                         "flags": 96,
                                         "start": 37,
@@ -190,8 +193,9 @@ var x: [number, string] = [123, "aladdin"];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 48,
                             "end": 50
@@ -206,6 +210,7 @@ var x: [number, string] = [123, "aladdin"];
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
+                                            "original": "Foo",
                                             "text": "Foo",
                                             "rawText": "Foo",
                                             "flags": 96,
@@ -219,6 +224,7 @@ var x: [number, string] = [123, "aladdin"];
                                                     "kind": 144,
                                                     "id": {
                                                         "kind": 134299649,
+                                                        "original": "T",
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
@@ -256,6 +262,7 @@ var x: [number, string] = [123, "aladdin"];
                                 "elements": [
                                     {
                                         "kind": 134299649,
+                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -301,8 +308,9 @@ var x: [number, string] = [123, "aladdin"];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 74,
                             "end": 76
@@ -343,6 +351,7 @@ var x: [number, string] = [123, "aladdin"];
                                     {
                                         "kind": 201392130,
                                         "text": 123,
+                                        "original": "123",
                                         "rawText": "123",
                                         "flags": 96,
                                         "start": 98,
@@ -351,6 +360,7 @@ var x: [number, string] = [123, "aladdin"];
                                     {
                                         "kind": 201392131,
                                         "text": "aladdin",
+                                        "original": "\"aladdin\"",
                                         "rawText": " \"aladdin\"",
                                         "flags": 96,
                                         "start": 102,

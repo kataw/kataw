@@ -31,8 +31,9 @@ class x {*f(foo = await bar){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,6 +61,7 @@ class x {*f(foo = await bar){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
@@ -75,6 +77,7 @@ class x {*f(foo = await bar){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -85,8 +88,9 @@ class x {*f(foo = await bar){}}
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "await",
                                             "text": "await",
-                                            "rawText": "await",
+                                            "rawText": " await",
                                             "flags": 96,
                                             "start": 17,
                                             "end": 23
@@ -100,8 +104,9 @@ class x {*f(foo = await bar){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 27

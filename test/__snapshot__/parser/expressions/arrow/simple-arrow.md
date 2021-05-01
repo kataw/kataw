@@ -29,6 +29,7 @@
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -40,8 +41,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 6,
                     "end": 8

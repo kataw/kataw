@@ -37,8 +37,9 @@ async function x() {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -75,8 +76,9 @@ async function x() {}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 38

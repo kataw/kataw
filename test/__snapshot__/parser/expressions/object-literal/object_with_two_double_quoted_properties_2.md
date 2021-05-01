@@ -21,6 +21,7 @@ wrap({'a':b, 'c':d});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -43,6 +44,7 @@ wrap({'a':b, 'c':d});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -52,6 +54,7 @@ wrap({'a':b, 'c':d});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
+                                            "original": "'a'",
                                             "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 6,
@@ -69,6 +72,7 @@ wrap({'a':b, 'c':d});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "d",
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
@@ -78,6 +82,7 @@ wrap({'a':b, 'c':d});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "c",
+                                            "original": "'c'",
                                             "rawText": " 'c'",
                                             "flags": 4194400,
                                             "start": 12,

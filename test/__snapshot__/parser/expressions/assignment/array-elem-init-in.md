@@ -21,6 +21,7 @@ result = [ x = 'x' in {} ] = vals;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -44,8 +45,9 @@ result = [ x = 'x' in {} ] = vals;
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12
@@ -61,6 +63,7 @@ result = [ x = 'x' in {} ] = vals;
                                         "left": {
                                             "kind": 201392131,
                                             "text": "x",
+                                            "original": "'x'",
                                             "rawText": " 'x'",
                                             "flags": 4194400,
                                             "start": 14,
@@ -112,8 +115,9 @@ result = [ x = 'x' in {} ] = vals;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "vals",
                         "text": "vals",
-                        "rawText": "vals",
+                        "rawText": " vals",
                         "flags": 96,
                         "start": 28,
                         "end": 33

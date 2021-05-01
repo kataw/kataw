@@ -32,6 +32,7 @@ for (oh,no in x) ;
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "oh",
                         "text": "oh",
                         "rawText": "oh",
                         "flags": 96,
@@ -42,6 +43,7 @@ for (oh,no in x) ;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "no",
                             "text": "no",
                             "rawText": "no",
                             "flags": 96,
@@ -56,8 +58,9 @@ for (oh,no in x) ;
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 13,
                             "end": 15

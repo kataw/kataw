@@ -52,7 +52,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "rawText": "1",
+                "original": "1",
+                "rawText": " 1",
                 "flags": 96,
                 "start": 18,
                 "end": 20
@@ -65,8 +66,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "z",
                 "text": "z",
-                "rawText": "z",
+                "rawText": " z",
                 "flags": 96,
                 "start": 25,
                 "end": 27

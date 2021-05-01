@@ -21,6 +21,7 @@ async + 10;
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
@@ -36,7 +37,8 @@ async + 10;
                 "right": {
                     "kind": 201392130,
                     "text": 10,
-                    "rawText": "10",
+                    "original": "10",
+                    "rawText": " 10",
                     "flags": 96,
                     "start": 7,
                     "end": 10

@@ -24,6 +24,7 @@ x = {
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -45,8 +46,9 @@ x = {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "get",
                                     "text": "get",
-                                    "rawText": "get",
+                                    "rawText": "\n    get",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 13

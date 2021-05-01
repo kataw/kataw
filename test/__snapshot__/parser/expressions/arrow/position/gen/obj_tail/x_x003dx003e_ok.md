@@ -25,6 +25,7 @@ x = {arrow: x => ok}.y
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -61,8 +62,9 @@ x = {arrow: x => ok}.y
                                         "typeParameters": null,
                                         "parameters": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 13
@@ -71,8 +73,9 @@ x = {arrow: x => ok}.y
                                         "returnType": null,
                                         "contents": {
                                             "kind": 134299649,
+                                            "original": "ok",
                                             "text": "ok",
-                                            "rawText": "ok",
+                                            "rawText": " ok",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 19
@@ -83,6 +86,7 @@ x = {arrow: x => ok}.y
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "arrow",
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 96,
@@ -105,6 +109,7 @@ x = {arrow: x => ok}.y
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,

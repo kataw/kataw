@@ -37,6 +37,7 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -57,6 +58,7 @@ x({*foo(){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -125,8 +127,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 16,
                     "end": 19
@@ -143,6 +146,7 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "get",
                                             "text": "get",
                                             "rawText": "get",
                                             "flags": 96,
@@ -207,8 +211,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 32,
                     "end": 35
@@ -226,6 +231,7 @@ x({*foo(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 123,
+                                            "original": "123",
                                             "rawText": "123",
                                             "flags": 96,
                                             "start": 38,
@@ -289,8 +295,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 48,
                     "end": 51
@@ -307,8 +314,9 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " foo",
                                             "flags": 96,
                                             "start": 58,
                                             "end": 62
@@ -345,8 +353,9 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 67,
                                             "end": 71
@@ -409,8 +418,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 78,
                     "end": 81
@@ -427,6 +437,7 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -465,8 +476,9 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 97,
                                             "end": 101
@@ -529,8 +541,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 108,
                     "end": 111
@@ -545,6 +558,7 @@ x({*foo(){}});
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "async",
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
@@ -556,6 +570,7 @@ x({*foo(){}});
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
+                                            "original": "\"foo\"",
                                             "rawText": " \"foo\"",
                                             "flags": 96,
                                             "start": 118,
@@ -619,8 +634,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 131,
                     "end": 134
@@ -635,6 +651,7 @@ x({*foo(){}});
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "async",
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
@@ -647,6 +664,7 @@ x({*foo(){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -715,8 +733,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 154,
                     "end": 157
@@ -733,6 +752,7 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -771,6 +791,7 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
@@ -835,8 +856,9 @@ x({*foo(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 179,
                     "end": 182
@@ -853,6 +875,7 @@ x({*foo(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,

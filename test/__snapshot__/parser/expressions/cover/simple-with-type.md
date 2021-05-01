@@ -37,8 +37,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "any",
                 "text": "any",
-                "rawText": "any",
+                "rawText": " any",
                 "flags": 96,
                 "start": 3,
                 "end": 7
@@ -51,8 +52,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 11,
                 "end": 13

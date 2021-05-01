@@ -37,6 +37,7 @@ for (fooo`bar` in x) ;
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
+                    "original": "fooo",
                     "text": "fooo",
                     "rawText": "fooo",
                     "flags": 96,
@@ -57,8 +58,9 @@ for (fooo`bar` in x) ;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 17,
                 "end": 19

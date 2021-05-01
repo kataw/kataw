@@ -21,6 +21,7 @@ s = {"foo": yield a = x} = x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "s",
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
@@ -48,8 +49,9 @@ s = {"foo": yield a = x} = x
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "yield",
                                         "text": "yield",
-                                        "rawText": "yield",
+                                        "rawText": " yield",
                                         "flags": 96,
                                         "start": 11,
                                         "end": 17
@@ -57,6 +59,7 @@ s = {"foo": yield a = x} = x
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
+                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 5,
@@ -70,16 +73,18 @@ s = {"foo": yield a = x} = x
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 17,
                                         "end": 19
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 21,
                                         "end": 23
@@ -106,8 +111,9 @@ s = {"foo": yield a = x} = x
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 26,
                         "end": 28

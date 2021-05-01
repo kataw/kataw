@@ -95,6 +95,7 @@ export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source:
   }
 
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+  parser.originalValue = source.slice(parser.tokenPos, parser.pos);
 
   const keyword = descKeywordTable[parser.tokenValue];
   if (keyword != undefined) return keyword;
@@ -113,6 +114,7 @@ export function scanIdentifier(parser: ParserState, cp: number, source: string):
     parser.tokenValue += scanIdentifierParts(parser, source);
   }
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+  parser.originalValue = source.slice(parser.tokenPos, parser.pos);
   return SyntaxKind.Identifier;
 }
 

@@ -25,6 +25,7 @@ switch(x) { default: default: case y: break; case z: break; }
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -70,8 +71,9 @@ switch(x) { default: default: case y: break; case z: break; }
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 34,
                             "end": 36
@@ -105,8 +107,9 @@ switch(x) { default: default: case y: break; case z: break; }
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 49,
                             "end": 51

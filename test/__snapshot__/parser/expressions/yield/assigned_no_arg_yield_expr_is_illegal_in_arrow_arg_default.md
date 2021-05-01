@@ -33,6 +33,7 @@ function *f(){ async (x = z = yield) => {} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -67,6 +68,7 @@ function *f(){ async (x = z = yield) => {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -83,8 +85,9 @@ function *f(){ async (x = z = yield) => {} }
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 27

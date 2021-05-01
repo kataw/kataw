@@ -35,8 +35,9 @@ function* g() {
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -89,7 +90,8 @@ function* g() {
                                 "right": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 27,
                                     "end": 29

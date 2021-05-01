@@ -19,6 +19,7 @@ async (a, ...b+b=c) => a;
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -30,6 +31,7 @@ async (a, ...b+b=c) => a;
                 "elements": [
                     {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -62,6 +64,7 @@ async (a, ...b+b=c) => a;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
@@ -76,8 +79,9 @@ async (a, ...b+b=c) => a;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 22,
                 "end": 24

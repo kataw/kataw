@@ -24,6 +24,7 @@ await
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "await",
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
@@ -38,8 +39,9 @@ await
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 8,
                         "end": 10
@@ -56,8 +58,9 @@ await
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
-                    "rawText": "g",
+                    "rawText": " g",
                     "flags": 96,
                     "start": 12,
                     "end": 14

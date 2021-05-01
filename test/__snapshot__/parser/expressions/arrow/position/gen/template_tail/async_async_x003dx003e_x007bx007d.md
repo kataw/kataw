@@ -54,8 +54,9 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "async",
                                                 "text": "async",
-                                                "rawText": "async",
+                                                "rawText": " async",
                                                 "flags": 96,
                                                 "start": 10,
                                                 "end": 16
@@ -116,6 +117,7 @@
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "length",
                     "text": "length",
                     "rawText": "length",
                     "flags": 96,

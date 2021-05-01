@@ -19,6 +19,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -53,8 +54,9 @@ foo: bar: do { do continue foo; while(z); } while(z)
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
-                    "rawText": "bar",
+                    "rawText": " bar",
                     "flags": 96,
                     "start": 4,
                     "end": 8
@@ -93,6 +95,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "z",
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
@@ -120,6 +123,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "z",
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
@@ -142,8 +146,9 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                         },
                                         "label": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " foo",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 30

@@ -53,8 +53,9 @@ export default async function f(){} foo
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
-                    "rawText": "f",
+                    "rawText": " f",
                     "flags": 96,
                     "start": 29,
                     "end": 31
@@ -95,8 +96,9 @@ export default async function f(){} foo
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 35,
                 "end": 39

@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -56,8 +57,9 @@
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 24
@@ -67,8 +69,9 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "await",
                                                 "text": "await",
-                                                "rawText": "await",
+                                                "rawText": " await",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30
@@ -87,8 +90,9 @@
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 32

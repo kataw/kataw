@@ -44,8 +44,9 @@ type T2 = number;
             },
             "name": {
                 "kind": 134299649,
+                "original": "C1",
                 "text": "C1",
-                "rawText": "C1",
+                "rawText": " C1",
                 "flags": 96,
                 "start": 13,
                 "end": 16
@@ -80,8 +81,9 @@ type T2 = number;
             },
             "name": {
                 "kind": 134299649,
+                "original": "T1",
                 "text": "T1",
-                "rawText": "T1",
+                "rawText": " T1",
                 "flags": 96,
                 "start": 33,
                 "end": 36
@@ -110,8 +112,9 @@ type T2 = number;
             },
             "name": {
                 "kind": 134299649,
+                "original": "T2",
                 "text": "T2",
-                "rawText": "T2",
+                "rawText": " T2",
                 "flags": 96,
                 "start": 52,
                 "end": 55

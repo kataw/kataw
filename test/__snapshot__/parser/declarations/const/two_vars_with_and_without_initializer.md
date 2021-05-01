@@ -57,6 +57,7 @@ const [foo=a, bar] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -67,6 +68,7 @@ const [foo=a, bar] = arr;
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -82,8 +84,9 @@ const [foo=a, bar] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 13,
                                             "end": 17
@@ -109,8 +112,9 @@ const [foo=a, bar] = arr;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "arr",
                             "text": "arr",
-                            "rawText": "arr",
+                            "rawText": " arr",
                             "flags": 96,
                             "start": 20,
                             "end": 24

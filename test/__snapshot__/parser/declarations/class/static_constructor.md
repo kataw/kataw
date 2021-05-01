@@ -46,8 +46,9 @@ class A {static constructor(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -75,8 +76,9 @@ class A {static constructor(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 27

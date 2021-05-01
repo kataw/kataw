@@ -27,6 +27,7 @@ something.#x
                 "kind": 129,
                 "member": {
                     "kind": 134299649,
+                    "original": "something",
                     "text": "something",
                     "rawText": "something",
                     "flags": 96,

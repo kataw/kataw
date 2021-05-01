@@ -35,6 +35,7 @@
                                 "left": {
                                     "kind": 201392131,
                                     "text": "b",
+                                    "original": "\"b\"",
                                     "rawText": " \"b\"",
                                     "flags": 96,
                                     "start": 6,
@@ -43,6 +44,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "a",
+                                    "original": "\"a\"",
                                     "rawText": "\"a\"",
                                     "flags": 96,
                                     "start": 2,
@@ -88,6 +90,7 @@
                                 "left": {
                                     "kind": 201392131,
                                     "text": "b",
+                                    "original": "\"b\"",
                                     "rawText": " \"b\"",
                                     "flags": 96,
                                     "start": 23,
@@ -98,6 +101,7 @@
                                     "expression": {
                                         "kind": 201392131,
                                         "text": "a",
+                                        "original": "\"a\"",
                                         "rawText": "\"a\"",
                                         "flags": 96,
                                         "start": 18,

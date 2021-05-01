@@ -53,6 +53,7 @@ for ("foo"[x] of c) d;
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": "\"foo\"",
                     "flags": 96,
                     "start": 5,
@@ -60,6 +61,7 @@ for ("foo"[x] of c) d;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -72,8 +74,9 @@ for ("foo"[x] of c) d;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
-                "rawText": "c",
+                "rawText": " c",
                 "flags": 96,
                 "start": 16,
                 "end": 18
@@ -82,8 +85,9 @@ for ("foo"[x] of c) d;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 19,
                     "end": 21

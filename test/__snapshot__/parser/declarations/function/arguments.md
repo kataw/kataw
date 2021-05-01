@@ -30,8 +30,9 @@ function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -66,8 +67,9 @@ function f() {
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -78,6 +80,7 @@ function f() {
                                             "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
+                                                "original": "arguments",
                                                 "text": "arguments",
                                                 "rawText": "arguments",
                                                 "flags": 96,
@@ -87,6 +90,7 @@ function f() {
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 12,
+                                                "original": "12",
                                                 "rawText": "12",
                                                 "flags": 96,
                                                 "start": 35,

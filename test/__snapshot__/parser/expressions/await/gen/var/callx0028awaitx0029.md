@@ -35,8 +35,9 @@ var await; var f = (async function() { call(await) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { call(await) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -119,8 +121,9 @@ var await; var f = (async function() { call(await) });
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "call",
                                                         "text": "call",
-                                                        "rawText": "call",
+                                                        "rawText": " call",
                                                         "flags": 96,
                                                         "start": 38,
                                                         "end": 43

@@ -41,8 +41,9 @@ x {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "p",
                 "text": "p",
-                "rawText": "p",
+                "rawText": " p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,8 +74,9 @@ x {}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29
@@ -90,8 +92,9 @@ x {}
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "yield",
                                     "text": "yield",
-                                    "rawText": "yield",
+                                    "rawText": " yield",
                                     "flags": 96,
                                     "start": 37,
                                     "end": 43
@@ -116,8 +119,9 @@ x {}
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": "\nx",
                                 "flags": 96,
                                 "start": 43,
                                 "end": 45

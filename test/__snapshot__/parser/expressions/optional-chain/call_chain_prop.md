@@ -35,6 +35,7 @@ c?.(d)?.[e]
                     },
                     "member": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
@@ -51,6 +52,7 @@ c?.(d)?.[e]
                                 "elements": [
                                     {
                                         "kind": 134299649,
+                                        "original": "d",
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
@@ -82,6 +84,7 @@ c?.(d)?.[e]
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
+                            "original": "e",
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,

@@ -31,8 +31,9 @@ class x {static get default(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {static get default(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "default",
                                 "text": "default",
-                                "rawText": "default",
+                                "rawText": " default",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 27

@@ -44,8 +44,9 @@
                                             "kind": 131,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "fail",
                                                 "text": "fail",
-                                                "rawText": "fail",
+                                                "rawText": " fail",
                                                 "flags": 96,
                                                 "start": 6,
                                                 "end": 11
@@ -70,8 +71,9 @@
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 17
@@ -82,6 +84,7 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -107,8 +110,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 22,
                     "end": 24

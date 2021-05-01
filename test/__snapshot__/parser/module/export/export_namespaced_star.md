@@ -51,8 +51,9 @@ export * as x from "x" foo
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 11,
                     "end": 13
@@ -69,8 +70,9 @@ export * as x from "x" foo
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 13,
                 "end": 18
@@ -84,6 +86,7 @@ export * as x from "x" foo
             "expression": {
                 "kind": 201392131,
                 "text": "x",
+                "original": "\"x\"",
                 "rawText": " \"x\"",
                 "flags": 96,
                 "start": 18,
@@ -97,8 +100,9 @@ export * as x from "x" foo
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 22,
                 "end": 26

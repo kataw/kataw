@@ -28,6 +28,7 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x0",
                                 "text": "x0",
                                 "rawText": "x0",
                                 "flags": 96,
@@ -42,8 +43,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x1",
                                 "text": "x1",
-                                "rawText": "x1",
+                                "rawText": " x1",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 8
@@ -62,8 +64,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x2",
                                 "text": "x2",
-                                "rawText": "x2",
+                                "rawText": " x2",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 13
@@ -76,8 +79,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x3",
                                 "text": "x3",
-                                "rawText": "x3",
+                                "rawText": " x3",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 19
@@ -98,8 +102,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x4",
                         "text": "x4",
-                        "rawText": "x4",
+                        "rawText": " x4",
                         "flags": 96,
                         "start": 22,
                         "end": 25
@@ -120,8 +125,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x5",
                             "text": "x5",
-                            "rawText": "x5",
+                            "rawText": " x5",
                             "flags": 96,
                             "start": 28,
                             "end": 31
@@ -136,8 +142,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x6",
                                 "text": "x6",
-                                "rawText": "x6",
+                                "rawText": " x6",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 36
@@ -152,8 +159,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x7",
                                     "text": "x7",
-                                    "rawText": "x7",
+                                    "rawText": " x7",
                                     "flags": 96,
                                     "start": 38,
                                     "end": 41
@@ -166,8 +174,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x8",
                                     "text": "x8",
-                                    "rawText": "x8",
+                                    "rawText": " x8",
                                     "flags": 96,
                                     "start": 44,
                                     "end": 47
@@ -194,8 +203,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x9",
                             "text": "x9",
-                            "rawText": "x9",
+                            "rawText": " x9",
                             "flags": 96,
                             "start": 49,
                             "end": 52
@@ -210,8 +220,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x10",
                                 "text": "x10",
-                                "rawText": "x10",
+                                "rawText": " x10",
                                 "flags": 96,
                                 "start": 55,
                                 "end": 59
@@ -224,8 +235,9 @@ x0 << x1 & x2 in x3 && x4 || x5 ^ x6 * x7 ** x8 | x9 != x10 - x
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 61,
                                 "end": 63

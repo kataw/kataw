@@ -39,8 +39,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 12
@@ -53,8 +54,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 33
@@ -91,8 +93,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 42,
                                     "end": 52
@@ -106,6 +109,7 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,

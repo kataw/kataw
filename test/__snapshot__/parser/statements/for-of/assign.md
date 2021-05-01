@@ -29,6 +29,7 @@ a = b
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -43,8 +44,9 @@ a = b
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 3,
                     "end": 5

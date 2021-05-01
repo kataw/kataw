@@ -32,8 +32,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": " method",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 9
@@ -66,8 +67,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "C",
                                                     "text": "C",
-                                                    "rawText": "C",
+                                                    "rawText": " C",
                                                     "flags": 96,
                                                     "start": 19,
                                                     "end": 21
@@ -90,8 +92,9 @@
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
-                                                                    "rawText": "constructor",
+                                                                    "rawText": " constructor",
                                                                     "flags": 96,
                                                                     "start": 23,
                                                                     "end": 35

@@ -31,8 +31,9 @@ class x {static get yield(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {static get yield(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "yield",
                                 "text": "yield",
-                                "rawText": "yield",
+                                "rawText": " yield",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 25

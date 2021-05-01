@@ -21,6 +21,7 @@ x = {5};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -41,6 +42,7 @@ x = {5};
                             {
                                 "kind": 201392130,
                                 "text": 5,
+                                "original": "5",
                                 "rawText": "5",
                                 "flags": 96,
                                 "start": 5,

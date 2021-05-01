@@ -31,14 +31,16 @@ o.attr = function() {};
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
+                        "original": "o",
                         "text": "o",
-                        "rawText": "o",
+                        "rawText": "\no",
                         "flags": 96,
                         "start": 0,
                         "end": 2
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "attr",
                         "text": "attr",
                         "rawText": "attr",
                         "flags": 96,

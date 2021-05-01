@@ -37,8 +37,9 @@ async async => ok
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
-                            "rawText": "async",
+                            "rawText": " async",
                             "flags": 96,
                             "start": 5,
                             "end": 11
@@ -64,8 +65,9 @@ async async => ok
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 14,
                             "end": 17
@@ -78,8 +80,9 @@ async async => ok
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 19,
                             "end": 21
@@ -96,8 +99,9 @@ async async => ok
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "g",
                         "text": "g",
-                        "rawText": "g",
+                        "rawText": " g",
                         "flags": 96,
                         "start": 23,
                         "end": 25

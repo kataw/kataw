@@ -30,8 +30,9 @@ let o = {f(await){}}
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "o",
                             "text": "o",
-                            "rawText": "o",
+                            "rawText": " o",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -47,6 +48,7 @@ let o = {f(await){}}
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
@@ -62,6 +64,7 @@ let o = {f(await){}}
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "await",
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,

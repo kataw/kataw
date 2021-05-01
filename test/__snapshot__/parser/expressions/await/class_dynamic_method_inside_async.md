@@ -35,8 +35,9 @@ async function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -67,8 +68,9 @@ async function f() {
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 30
@@ -93,6 +95,7 @@ async function f() {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -112,6 +115,7 @@ async function f() {
                                                         "ellipsisToken": null,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "await",
                                                             "text": "await",
                                                             "rawText": "await",
                                                             "flags": 96,

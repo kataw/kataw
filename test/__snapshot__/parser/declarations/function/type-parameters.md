@@ -83,8 +83,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "functionName",
                         "text": "functionName",
-                        "rawText": "functionName",
+                        "rawText": "\nfunctionName",
                         "flags": 96,
                         "start": 0,
                         "end": 13
@@ -97,6 +98,7 @@ type T = <
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "A",
                         "text": "A",
                         "rawText": "A",
                         "flags": 96,
@@ -143,8 +145,9 @@ type T = <
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 42,
                             "end": 44
@@ -173,8 +176,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "T",
                         "text": "T",
-                        "rawText": "T",
+                        "rawText": " T",
                         "flags": 96,
                         "start": 45,
                         "end": 47
@@ -222,7 +226,8 @@ type T = <
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "rawText": "1",
+                "original": "1",
+                "rawText": " 1",
                 "flags": 96,
                 "start": 64,
                 "end": 66
@@ -239,8 +244,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "functionName",
                         "text": "functionName",
-                        "rawText": "functionName",
+                        "rawText": "\n\nfunctionName",
                         "flags": 96,
                         "start": 67,
                         "end": 81
@@ -296,8 +302,9 @@ type T = <
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 109,
                 "end": 113
@@ -364,8 +371,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "interface",
                 "text": "interface",
-                "rawText": "interface",
+                "rawText": "\n\ninterface",
                 "flags": 96,
                 "start": 133,
                 "end": 144
@@ -378,8 +386,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "Foo",
                 "text": "Foo",
-                "rawText": "Foo",
+                "rawText": " Foo",
                 "flags": 96,
                 "start": 144,
                 "end": 148
@@ -399,6 +408,7 @@ type T = <
                             "kind": 121,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "arg",
                                 "text": "arg",
                                 "rawText": "arg",
                                 "flags": 96,
@@ -426,8 +436,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "any",
                 "text": "any",
-                "rawText": "any",
+                "rawText": " any",
                 "flags": 96,
                 "start": 174,
                 "end": 178
@@ -440,8 +451,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "type",
                 "text": "type",
-                "rawText": "type",
+                "rawText": "\n\ntype",
                 "flags": 96,
                 "start": 182,
                 "end": 188
@@ -456,8 +468,9 @@ type T = <
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "T",
                     "text": "T",
-                    "rawText": "T",
+                    "rawText": " T",
                     "flags": 96,
                     "start": 188,
                     "end": 190
@@ -486,6 +499,7 @@ type T = <
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -497,8 +511,9 @@ type T = <
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "any",
                         "text": "any",
-                        "rawText": "any",
+                        "rawText": " any",
                         "flags": 96,
                         "start": 216,
                         "end": 220
@@ -523,8 +538,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "functionName",
                         "text": "functionName",
-                        "rawText": "functionName",
+                        "rawText": "\n\n\n\nfunctionName",
                         "flags": 96,
                         "start": 221,
                         "end": 237
@@ -537,8 +553,9 @@ type T = <
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "A",
                         "text": "A",
-                        "rawText": "A",
+                        "rawText": "\n\n  A",
                         "flags": 96,
                         "start": 238,
                         "end": 243
@@ -583,8 +600,9 @@ type T = <
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 267,
                             "end": 269
@@ -613,8 +631,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "T",
                         "text": "T",
-                        "rawText": "T",
+                        "rawText": " T",
                         "flags": 96,
                         "start": 270,
                         "end": 272
@@ -662,7 +681,8 @@ type T = <
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "rawText": "1",
+                "original": "1",
+                "rawText": " 1",
                 "flags": 96,
                 "start": 292,
                 "end": 294
@@ -679,8 +699,9 @@ type T = <
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "functionName",
                         "text": "functionName",
-                        "rawText": "functionName",
+                        "rawText": "\n\nfunctionName",
                         "flags": 96,
                         "start": 295,
                         "end": 309
@@ -736,8 +757,9 @@ type T = <
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 340,
                 "end": 344
@@ -804,8 +826,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "interface",
                 "text": "interface",
-                "rawText": "interface",
+                "rawText": "\n\ninterface",
                 "flags": 96,
                 "start": 367,
                 "end": 378
@@ -818,8 +841,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "Foo",
                 "text": "Foo",
-                "rawText": "Foo",
+                "rawText": " Foo",
                 "flags": 96,
                 "start": 378,
                 "end": 382
@@ -839,6 +863,7 @@ type T = <
                             "kind": 121,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "arg",
                                 "text": "arg",
                                 "rawText": "arg",
                                 "flags": 96,
@@ -866,8 +891,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "any",
                 "text": "any",
-                "rawText": "any",
+                "rawText": " any",
                 "flags": 96,
                 "start": 413,
                 "end": 417
@@ -880,8 +906,9 @@ type T = <
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "type",
                 "text": "type",
-                "rawText": "type",
+                "rawText": "\n\ntype",
                 "flags": 96,
                 "start": 421,
                 "end": 427
@@ -896,8 +923,9 @@ type T = <
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "T",
                     "text": "T",
-                    "rawText": "T",
+                    "rawText": " T",
                     "flags": 96,
                     "start": 427,
                     "end": 429
@@ -926,6 +954,7 @@ type T = <
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -937,8 +966,9 @@ type T = <
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "any",
                         "text": "any",
-                        "rawText": "any",
+                        "rawText": " any",
                         "flags": 96,
                         "start": 458,
                         "end": 462

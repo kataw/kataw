@@ -26,6 +26,7 @@ bar
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -40,8 +41,9 @@ bar
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": "\nbar",
                 "flags": 96,
                 "start": 3,
                 "end": 7

@@ -29,8 +29,9 @@ function f(){ "use strict"
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -56,6 +57,7 @@ function f(){ "use strict"
                                 "member": {
                                     "kind": 201392131,
                                     "text": "use strict",
+                                    "original": "\"use strict\"",
                                     "rawText": " \"use strict\"",
                                     "flags": 96,
                                     "start": 13,
@@ -63,6 +65,7 @@ function f(){ "use strict"
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -83,8 +86,9 @@ function f(){ "use strict"
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "eval",
                                     "text": "eval",
-                                    "rawText": "eval",
+                                    "rawText": " eval",
                                     "flags": 96,
                                     "start": 48,
                                     "end": 53
@@ -98,7 +102,8 @@ function f(){ "use strict"
                                 "right": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 55,
                                     "end": 57

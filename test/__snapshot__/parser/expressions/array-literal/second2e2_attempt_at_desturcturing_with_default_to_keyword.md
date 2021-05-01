@@ -92,6 +92,7 @@
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -104,6 +105,7 @@
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
+                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -132,8 +134,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
-                                    "rawText": "c",
+                                    "rawText": " c",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 23

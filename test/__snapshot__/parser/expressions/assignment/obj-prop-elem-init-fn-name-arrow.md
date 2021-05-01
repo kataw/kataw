@@ -21,6 +21,7 @@ result = { x: arrow = () => {} } = {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -50,8 +51,9 @@ result = { x: arrow = () => {} } = {};
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "arrow",
                                             "text": "arrow",
-                                            "rawText": "arrow",
+                                            "rawText": " arrow",
                                             "flags": 96,
                                             "start": 13,
                                             "end": 19
@@ -98,8 +100,9 @@ result = { x: arrow = () => {} } = {};
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12

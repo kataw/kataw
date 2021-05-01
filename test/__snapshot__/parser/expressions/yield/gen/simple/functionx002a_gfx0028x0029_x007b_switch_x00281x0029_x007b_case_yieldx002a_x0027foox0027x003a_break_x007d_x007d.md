@@ -37,8 +37,9 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gf",
                 "text": "gf",
-                "rawText": "gf",
+                "rawText": " gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12
@@ -68,6 +69,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                             "expression": {
                                 "kind": 201392130,
                                 "text": 1,
+                                "original": "1",
                                 "rawText": "1",
                                 "flags": 96,
                                 "start": 25,
@@ -102,6 +104,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "expression": {
                                                 "kind": 201392131,
                                                 "text": "foo",
+                                                "original": "'foo'",
                                                 "rawText": " 'foo'",
                                                 "flags": 4194400,
                                                 "start": 41,

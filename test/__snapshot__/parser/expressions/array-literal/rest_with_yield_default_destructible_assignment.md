@@ -29,6 +29,7 @@ result = [...{ x = yield }] = y;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -65,16 +66,18 @@ result = [...{ x = yield }] = y;
                                                     "kind": 205,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
-                                                        "rawText": "x",
+                                                        "rawText": " x",
                                                         "flags": 96,
                                                         "start": 14,
                                                         "end": 16
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "yield",
                                                         "text": "yield",
-                                                        "rawText": "yield",
+                                                        "rawText": " yield",
                                                         "flags": 96,
                                                         "start": 18,
                                                         "end": 24
@@ -115,8 +118,9 @@ result = [...{ x = yield }] = y;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
-                        "rawText": "y",
+                        "rawText": " y",
                         "flags": 96,
                         "start": 29,
                         "end": 31

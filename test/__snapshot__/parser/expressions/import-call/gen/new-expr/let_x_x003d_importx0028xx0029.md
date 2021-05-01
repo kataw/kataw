@@ -34,8 +34,9 @@ let x = import(x)
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -54,6 +55,7 @@ let x = import(x)
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,

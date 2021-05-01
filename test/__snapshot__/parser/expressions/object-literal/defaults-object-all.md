@@ -39,6 +39,7 @@ var {x = 10, y = 5, z = 1} = a;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -48,7 +49,8 @@ var {x = 10, y = 5, z = 1} = a;
                                         "right": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "rawText": "10",
+                                            "original": "10",
+                                            "rawText": " 10",
                                             "flags": 96,
                                             "start": 8,
                                             "end": 11
@@ -62,8 +64,9 @@ var {x = 10, y = 5, z = 1} = a;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " y",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -71,7 +74,8 @@ var {x = 10, y = 5, z = 1} = a;
                                         "right": {
                                             "kind": 201392130,
                                             "text": 5,
-                                            "rawText": "5",
+                                            "original": "5",
+                                            "rawText": " 5",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 18
@@ -85,8 +89,9 @@ var {x = 10, y = 5, z = 1} = a;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 19,
                                             "end": 21
@@ -94,7 +99,8 @@ var {x = 10, y = 5, z = 1} = a;
                                         "right": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "rawText": "1",
+                                            "original": "1",
+                                            "rawText": " 1",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 25
@@ -117,8 +123,9 @@ var {x = 10, y = 5, z = 1} = a;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 28,
                             "end": 30

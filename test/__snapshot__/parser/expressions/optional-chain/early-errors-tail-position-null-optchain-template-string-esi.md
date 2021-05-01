@@ -42,6 +42,7 @@ null?.fn
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "fn",
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,

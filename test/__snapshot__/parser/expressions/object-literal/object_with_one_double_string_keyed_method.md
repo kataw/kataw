@@ -21,6 +21,7 @@ wrap({"foo"(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -40,6 +41,7 @@ wrap({"foo"(){}});
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
+                                            "original": "\"foo\"",
                                             "rawText": "\"foo\"",
                                             "flags": 96,
                                             "start": 6,

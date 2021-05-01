@@ -68,8 +68,9 @@ class A {
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -97,8 +98,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 19
@@ -153,8 +155,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 34,
                                 "end": 38
@@ -168,6 +171,7 @@ class A {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -223,8 +227,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": "\n\n  constructor",
                                 "flags": 96,
                                 "start": 47,
                                 "end": 62
@@ -274,8 +279,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n\n  a",
                                 "flags": 96,
                                 "start": 70,
                                 "end": 75
@@ -330,8 +336,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 88,
                                 "end": 92
@@ -391,8 +398,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 116,
                                 "end": 120
@@ -452,8 +460,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 144,
                                 "end": 148
@@ -467,6 +476,7 @@ class A {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -527,8 +537,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": "\n  constructor",
                                 "flags": 96,
                                 "start": 167,
                                 "end": 181
@@ -583,8 +594,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 199,
                                 "end": 203
@@ -644,8 +656,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": "\n  a",
                                 "flags": 96,
                                 "start": 225,
                                 "end": 229

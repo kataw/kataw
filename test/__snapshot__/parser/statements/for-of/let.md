@@ -49,8 +49,9 @@ let x: string;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -75,8 +76,9 @@ let x: string;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 6,
                 "end": 13

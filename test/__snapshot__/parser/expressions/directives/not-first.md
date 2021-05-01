@@ -31,8 +31,9 @@ var x; "use strict"; with (x) y;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -58,6 +59,7 @@ var x; "use strict"; with (x) y;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": " \"use strict\"",
                 "flags": 96,
                 "start": 6,
@@ -77,6 +79,7 @@ var x; "use strict"; with (x) y;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -87,8 +90,9 @@ var x; "use strict"; with (x) y;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 29,
                     "end": 31

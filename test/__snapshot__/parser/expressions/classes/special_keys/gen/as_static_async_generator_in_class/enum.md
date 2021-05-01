@@ -31,8 +31,9 @@ class x {static async * enum(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class x {static async * enum(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "enum",
                                 "text": "enum",
-                                "rawText": "enum",
+                                "rawText": " enum",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 28

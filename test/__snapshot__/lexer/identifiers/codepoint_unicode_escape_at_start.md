@@ -19,6 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "",
                 "text": "exxx",
                 "rawText": "",
                 "flags": 96,

@@ -23,6 +23,7 @@ foo(y,(y) => ok);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -45,6 +46,7 @@ foo(y,(y) => ok);
                                 [
                                     {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -53,8 +55,9 @@ foo(y,(y) => ok);
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 9
@@ -101,8 +104,9 @@ foo(y,(y) => ok);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": "\nfoo",
                     "flags": 96,
                     "start": 18,
                     "end": 22
@@ -112,6 +116,7 @@ foo(y,(y) => ok);
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -130,6 +135,7 @@ foo(y,(y) => ok);
                             "parameters": [
                                 {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
@@ -177,8 +183,9 @@ foo(y,(y) => ok);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": "\nfoo",
                     "flags": 96,
                     "start": 36,
                     "end": 40
@@ -188,6 +195,7 @@ foo(y,(y) => ok);
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
@@ -206,6 +214,7 @@ foo(y,(y) => ok);
                             "parameters": [
                                 {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
@@ -217,8 +226,9 @@ foo(y,(y) => ok);
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "ok",
                                 "text": "ok",
-                                "rawText": "ok",
+                                "rawText": " ok",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 52

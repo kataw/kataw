@@ -31,8 +31,9 @@ class public {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "public",
                 "text": "public",
-                "rawText": "public",
+                "rawText": " public",
                 "flags": 96,
                 "start": 5,
                 "end": 12

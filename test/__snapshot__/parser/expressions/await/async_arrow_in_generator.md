@@ -33,6 +33,7 @@ function *f(){  async (await) => x  }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -65,6 +66,7 @@ function *f(){  async (await) => x  }
                             "parameters": [
                                 {
                                     "kind": 134299649,
+                                    "original": "await",
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
@@ -81,8 +83,9 @@ function *f(){  async (await) => x  }
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 32,
                                 "end": 34

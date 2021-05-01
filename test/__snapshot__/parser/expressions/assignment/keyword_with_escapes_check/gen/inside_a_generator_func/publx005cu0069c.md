@@ -39,6 +39,7 @@ function *f(){
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -65,8 +66,9 @@ function *f(){
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "publ\\u0069c",
                                     "text": "public",
-                                    "rawText": "publ\\u0069c",
+                                    "rawText": "\n  publ\\u0069c",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 28
@@ -79,8 +81,9 @@ function *f(){
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 32

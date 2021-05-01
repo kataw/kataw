@@ -31,8 +31,9 @@ class A extends eval {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -48,8 +49,9 @@ class A extends eval {}
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "eval",
                     "text": "eval",
-                    "rawText": "eval",
+                    "rawText": " eval",
                     "flags": 96,
                     "start": 15,
                     "end": 20

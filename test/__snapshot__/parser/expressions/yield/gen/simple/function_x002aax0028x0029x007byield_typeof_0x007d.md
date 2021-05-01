@@ -37,6 +37,7 @@ function *a(){yield typeof 0}
             },
             "name": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -80,7 +81,8 @@ function *a(){yield typeof 0}
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "rawText": "0",
+                                        "original": "0",
+                                        "rawText": " 0",
                                         "flags": 96,
                                         "start": 26,
                                         "end": 28

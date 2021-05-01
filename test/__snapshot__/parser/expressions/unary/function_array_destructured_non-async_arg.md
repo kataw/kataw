@@ -33,8 +33,9 @@ async function f(){   function fh([+ await x]) { }   }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -66,8 +67,9 @@ async function f(){   function fh([+ await x]) { }   }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "fh",
                                 "text": "fh",
-                                "rawText": "fh",
+                                "rawText": " fh",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 33
@@ -145,8 +147,9 @@ async function f(){   function fh([+ await x]) { }   }
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 42,
                                         "end": 44

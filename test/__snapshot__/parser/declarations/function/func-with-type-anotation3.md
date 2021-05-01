@@ -47,8 +47,9 @@ function foo(callback: (_1:bool, _2:string) => number){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -61,6 +62,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "callback",
                             "text": "callback",
                             "rawText": "callback",
                             "flags": 96,
@@ -80,6 +82,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "_1",
                                                 "text": "_1",
                                                 "rawText": "_1",
                                                 "flags": 96,
@@ -91,6 +94,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
+                                                    "original": "bool",
                                                     "text": "bool",
                                                     "rawText": "bool",
                                                     "flags": 96,
@@ -111,8 +115,9 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "_2",
                                                 "text": "_2",
-                                                "rawText": "_2",
+                                                "rawText": " _2",
                                                 "flags": 96,
                                                 "start": 32,
                                                 "end": 35

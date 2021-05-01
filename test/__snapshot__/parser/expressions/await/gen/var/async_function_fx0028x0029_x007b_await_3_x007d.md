@@ -35,8 +35,9 @@ var await; var f = (async function() { async function f() { await 3; } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { async function f() { await 3; } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -131,8 +133,9 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "f",
                                                     "text": "f",
-                                                    "rawText": "f",
+                                                    "rawText": " f",
                                                     "flags": 96,
                                                     "start": 53,
                                                     "end": 55
@@ -164,7 +167,8 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                                     "expression": {
                                                                         "kind": 201392130,
                                                                         "text": 3,
-                                                                        "rawText": "3",
+                                                                        "original": "3",
+                                                                        "rawText": " 3",
                                                                         "flags": 96,
                                                                         "start": 65,
                                                                         "end": 67

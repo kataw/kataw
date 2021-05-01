@@ -46,8 +46,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
-                                                    "rawText": "x",
+                                                    "rawText": " x",
                                                     "flags": 96,
                                                     "start": 11,
                                                     "end": 13

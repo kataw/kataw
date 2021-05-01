@@ -19,6 +19,7 @@ xxx\Axxx
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "xxx",
                 "text": "xxx",
                 "rawText": "xxx",
                 "flags": 96,
@@ -33,6 +34,7 @@ xxx\Axxx
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "Axxx",
                 "text": "Axxx",
                 "rawText": "Axxx",
                 "flags": 96,

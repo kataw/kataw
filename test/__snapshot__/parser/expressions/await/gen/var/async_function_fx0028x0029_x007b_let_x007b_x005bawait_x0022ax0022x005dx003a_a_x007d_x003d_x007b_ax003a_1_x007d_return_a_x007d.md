@@ -41,8 +41,9 @@ var await; var f = (async function() { async function f() {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -79,8 +80,9 @@ var await; var f = (async function() { async function f() {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -137,8 +139,9 @@ var await; var f = (async function() { async function f() {
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "f",
                                                     "text": "f",
-                                                    "rawText": "f",
+                                                    "rawText": " f",
                                                     "flags": 96,
                                                     "start": 53,
                                                     "end": 55
@@ -191,6 +194,7 @@ var await; var f = (async function() { async function f() {
                                                                                                     "expression": {
                                                                                                         "kind": 201392131,
                                                                                                         "text": "a",
+                                                                                                        "original": "\"a\"",
                                                                                                         "rawText": " \"a\"",
                                                                                                         "flags": 96,
                                                                                                         "start": 74,
@@ -209,8 +213,9 @@ var await; var f = (async function() { async function f() {
                                                                                                 "ellipsisToken": null,
                                                                                                 "binding": {
                                                                                                     "kind": 134299649,
+                                                                                                    "original": "a",
                                                                                                     "text": "a",
-                                                                                                    "rawText": "a",
+                                                                                                    "rawText": " a",
                                                                                                     "flags": 96,
                                                                                                     "start": 80,
                                                                                                     "end": 82
@@ -250,15 +255,17 @@ var await; var f = (async function() { async function f() {
                                                                                             "left": {
                                                                                                 "kind": 201392130,
                                                                                                 "text": 1,
-                                                                                                "rawText": "1",
+                                                                                                "original": "1",
+                                                                                                "rawText": " 1",
                                                                                                 "flags": 96,
                                                                                                 "start": 91,
                                                                                                 "end": 93
                                                                                             },
                                                                                             "right": {
                                                                                                 "kind": 134299649,
+                                                                                                "original": "a",
                                                                                                 "text": "a",
-                                                                                                "rawText": "a",
+                                                                                                "rawText": " a",
                                                                                                 "flags": 96,
                                                                                                 "start": 88,
                                                                                                 "end": 90
@@ -300,8 +307,9 @@ var await; var f = (async function() { async function f() {
                                                                 },
                                                                 "expression": {
                                                                     "kind": 134299649,
+                                                                    "original": "a",
                                                                     "text": "a",
-                                                                    "rawText": "a",
+                                                                    "rawText": " a",
                                                                     "flags": 96,
                                                                     "start": 105,
                                                                     "end": 107

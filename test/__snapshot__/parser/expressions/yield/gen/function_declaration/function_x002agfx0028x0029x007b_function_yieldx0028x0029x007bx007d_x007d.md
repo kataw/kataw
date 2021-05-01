@@ -32,8 +32,9 @@ function not_gen() { function *gf(){ function yield(){}; } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -70,6 +71,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "gf",
                                 "text": "gf",
                                 "rawText": "gf",
                                 "flags": 96,
@@ -103,8 +105,9 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
-                                                "rawText": "yield",
+                                                "rawText": " yield",
                                                 "flags": 96,
                                                 "start": 45,
                                                 "end": 51

@@ -25,6 +25,7 @@ publ\u0069c = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "publ\\u0069c",
                     "text": "public",
                     "rawText": "publ\\u0069c",
                     "flags": 96,
@@ -39,8 +40,9 @@ publ\u0069c = x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 13,
                     "end": 15

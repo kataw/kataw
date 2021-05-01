@@ -41,8 +41,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "set",
                                     "text": "set",
-                                    "rawText": "set",
+                                    "rawText": " set",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 7
@@ -106,8 +107,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "get",
                                     "text": "get",
-                                    "rawText": "get",
+                                    "rawText": " get",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 23
@@ -171,8 +173,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "private",
                                     "text": "private",
-                                    "rawText": "private",
+                                    "rawText": " private",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 43
@@ -236,8 +239,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "readonly",
                                     "text": "readonly",
-                                    "rawText": "readonly",
+                                    "rawText": " readonly",
                                     "flags": 96,
                                     "start": 55,
                                     "end": 64
@@ -301,8 +305,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
-                                    "rawText": "async",
+                                    "rawText": " async",
                                     "flags": 96,
                                     "start": 76,
                                     "end": 82
@@ -366,8 +371,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "function",
                                     "text": "function",
-                                    "rawText": "function",
+                                    "rawText": " function",
                                     "flags": 96,
                                     "start": 94,
                                     "end": 103
@@ -431,8 +437,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "declare",
                                     "text": "declare",
-                                    "rawText": "declare",
+                                    "rawText": " declare",
                                     "flags": 96,
                                     "start": 115,
                                     "end": 123

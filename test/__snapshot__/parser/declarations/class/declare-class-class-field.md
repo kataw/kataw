@@ -44,8 +44,9 @@ declare class X {
             },
             "name": {
                 "kind": 134299649,
+                "original": "X",
                 "text": "X",
-                "rawText": "X",
+                "rawText": " X",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -63,8 +64,9 @@ declare class X {
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": "\n  a",
                             "flags": 96,
                             "start": 17,
                             "end": 21
@@ -106,8 +108,9 @@ declare class X {
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 39,
                             "end": 41
@@ -144,8 +147,9 @@ declare class X {
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
-                            "rawText": "c",
+                            "rawText": "\n  c",
                             "flags": 96,
                             "start": 50,
                             "end": 54

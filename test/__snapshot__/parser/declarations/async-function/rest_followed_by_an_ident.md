@@ -62,6 +62,7 @@ let [...foo, bar] = obj;
                                         },
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -80,8 +81,9 @@ let [...foo, bar] = obj;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 16
@@ -107,8 +109,9 @@ let [...foo, bar] = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "obj",
                             "text": "obj",
-                            "rawText": "obj",
+                            "rawText": " obj",
                             "flags": 96,
                             "start": 19,
                             "end": 23

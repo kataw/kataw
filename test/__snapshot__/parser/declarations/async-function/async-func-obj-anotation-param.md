@@ -41,8 +41,9 @@ async function foo({x}: { x: string; }) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 14,
                 "end": 18
@@ -63,6 +64,7 @@ async function foo({x}: { x: string; }) {}
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -94,8 +96,9 @@ async function foo({x}: { x: string; }) {}
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 27

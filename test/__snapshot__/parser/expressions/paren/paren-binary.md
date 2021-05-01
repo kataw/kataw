@@ -30,6 +30,7 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -44,8 +45,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 4,
                             "end": 6
@@ -66,8 +68,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -90,6 +93,7 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -104,8 +108,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 18,
                             "end": 20
@@ -126,8 +131,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 24,
                     "end": 26
@@ -150,6 +156,7 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -164,8 +171,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 32,
                             "end": 34
@@ -186,8 +194,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 38,
                     "end": 40
@@ -210,6 +219,7 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -224,8 +234,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 46,
                             "end": 48
@@ -246,8 +257,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 52,
                     "end": 54
@@ -270,6 +282,7 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -284,8 +297,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 60,
                             "end": 62
@@ -306,8 +320,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 66,
                     "end": 68
@@ -328,6 +343,7 @@
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -346,8 +362,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 75,
                     "end": 77

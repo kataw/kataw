@@ -19,6 +19,7 @@ xxx\u0065xxx
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "xxx\\u0065xxx",
                 "text": "xxxexxx",
                 "rawText": "xxx\\u0065xxx",
                 "flags": 96,

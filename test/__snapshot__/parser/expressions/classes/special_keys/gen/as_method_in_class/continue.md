@@ -31,8 +31,9 @@ class x {continue(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,6 +56,7 @@ class x {continue(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "continue",
                                 "text": "continue",
                                 "rawText": "continue",
                                 "flags": 96,

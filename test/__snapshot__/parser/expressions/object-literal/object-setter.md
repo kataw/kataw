@@ -29,6 +29,7 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -42,6 +43,7 @@
                                     "expression": {
                                         "kind": 201392131,
                                         "text": "a",
+                                        "original": "\"a\"",
                                         "rawText": "\"a\"",
                                         "flags": 96,
                                         "start": 7,
@@ -60,6 +62,7 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -127,6 +130,7 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -140,6 +144,7 @@
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 28,
@@ -158,6 +163,7 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -225,6 +231,7 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -238,6 +245,7 @@
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 47,
@@ -256,6 +264,7 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -302,6 +311,7 @@
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
+                                                            "original": "m",
                                                             "text": "m",
                                                             "rawText": "m",
                                                             "flags": 96,
@@ -318,6 +328,7 @@
                                                             {
                                                                 "kind": 201392131,
                                                                 "text": "b",
+                                                                "original": "\"b\"",
                                                                 "rawText": "\"b\"",
                                                                 "flags": 96,
                                                                 "start": 63,
@@ -325,8 +336,9 @@
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "v",
                                                                 "text": "v",
-                                                                "rawText": "v",
+                                                                "rawText": " v",
                                                                 "flags": 96,
                                                                 "start": 67,
                                                                 "end": 69
@@ -387,6 +399,7 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -400,6 +413,7 @@
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 84,
@@ -418,6 +432,7 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -464,6 +479,7 @@
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
+                                                            "original": "m",
                                                             "text": "m",
                                                             "rawText": "m",
                                                             "flags": 96,
@@ -480,6 +496,7 @@
                                                             {
                                                                 "kind": 201392131,
                                                                 "text": "1",
+                                                                "original": "\"1\"",
                                                                 "rawText": "\"1\"",
                                                                 "flags": 96,
                                                                 "start": 100,
@@ -487,8 +504,9 @@
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "v",
                                                                 "text": "v",
-                                                                "rawText": "v",
+                                                                "rawText": " v",
                                                                 "flags": 96,
                                                                 "start": 104,
                                                                 "end": 106

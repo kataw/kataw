@@ -35,6 +35,7 @@ new foo().bar++;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -63,14 +64,16 @@ new foo().bar++;
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": "\nfoo",
                         "flags": 96,
                         "start": 6,
                         "end": 10
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -103,14 +106,16 @@ new foo().bar++;
                     "kind": 130,
                     "member": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": "\nfoo",
                         "flags": 96,
                         "start": 17,
                         "end": 21
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -145,8 +150,9 @@ new foo().bar++;
                         "kind": 131,
                         "expression": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": "\nfoo",
                             "flags": 96,
                             "start": 29,
                             "end": 33
@@ -165,6 +171,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -199,8 +206,9 @@ new foo().bar++;
                         "kind": 131,
                         "expression": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": "\nfoo",
                             "flags": 96,
                             "start": 43,
                             "end": 47
@@ -219,6 +227,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -257,6 +266,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -295,6 +305,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -335,8 +346,9 @@ new foo().bar++;
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 85,
                             "end": 89
@@ -355,6 +367,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -395,8 +408,9 @@ new foo().bar++;
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 103,
                             "end": 107
@@ -415,6 +429,7 @@ new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,

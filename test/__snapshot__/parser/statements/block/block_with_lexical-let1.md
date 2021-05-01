@@ -51,8 +51,9 @@
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12

@@ -33,6 +33,7 @@ function *f(){  ({yield} = x)  }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -66,6 +67,7 @@ function *f(){  ({yield} = x)  }
                                             "properties": [
                                                 {
                                                     "kind": 134299649,
+                                                    "original": "yield",
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,
@@ -90,8 +92,9 @@ function *f(){  ({yield} = x)  }
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 26,
                                         "end": 28

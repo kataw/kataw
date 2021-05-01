@@ -21,6 +21,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -44,8 +45,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "xCls",
                                         "text": "xCls",
-                                        "rawText": "xCls",
+                                        "rawText": " xCls",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 15
@@ -67,8 +69,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 25
@@ -94,8 +97,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "cls",
                                         "text": "cls",
-                                        "rawText": "cls",
+                                        "rawText": " cls",
                                         "flags": 96,
                                         "start": 29,
                                         "end": 33
@@ -137,8 +141,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "xCls2",
                                         "text": "xCls2",
-                                        "rawText": "xCls2",
+                                        "rawText": " xCls2",
                                         "flags": 96,
                                         "start": 45,
                                         "end": 51
@@ -182,8 +187,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
+                                                            "original": "name",
                                                             "text": "name",
-                                                            "rawText": "name",
+                                                            "rawText": " name",
                                                             "flags": 96,
                                                             "start": 68,
                                                             "end": 73
@@ -251,8 +257,9 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "vals",
                         "text": "vals",
-                        "rawText": "vals",
+                        "rawText": " vals",
                         "flags": 96,
                         "start": 84,
                         "end": 89

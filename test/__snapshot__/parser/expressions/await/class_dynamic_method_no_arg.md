@@ -27,8 +27,9 @@ class x{[x](a=await){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -53,6 +54,7 @@ class x{[x](a=await){}}
                                 "kind": 194,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -72,6 +74,7 @@ class x{[x](a=await){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -82,6 +85,7 @@ class x{[x](a=await){}}
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "await",
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,

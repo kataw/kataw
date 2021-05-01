@@ -31,8 +31,9 @@ class C extends Base { async async(){} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -48,8 +49,9 @@ class C extends Base { async async(){} }
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "Base",
                     "text": "Base",
-                    "rawText": "Base",
+                    "rawText": " Base",
                     "flags": 96,
                     "start": 15,
                     "end": 20
@@ -80,8 +82,9 @@ class C extends Base { async async(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
-                                "rawText": "async",
+                                "rawText": " async",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 34

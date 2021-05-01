@@ -32,8 +32,9 @@ function not_gen() { function* g(){ x ? yield : y } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -70,8 +71,9 @@ function not_gen() { function* g(){ x ? yield : y } }}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "g",
                                 "text": "g",
-                                "rawText": "g",
+                                "rawText": " g",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 32
@@ -96,8 +98,9 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 "kind": 197,
                                                 "shortCircuit": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
-                                                    "rawText": "x",
+                                                    "rawText": " x",
                                                     "flags": 96,
                                                     "start": 35,
                                                     "end": 37
@@ -131,8 +134,9 @@ function not_gen() { function* g(){ x ? yield : y } }}
                                                 },
                                                 "alternate": {
                                                     "kind": 134299649,
+                                                    "original": "y",
                                                     "text": "y",
-                                                    "rawText": "y",
+                                                    "rawText": " y",
                                                     "flags": 96,
                                                     "start": 47,
                                                     "end": 49

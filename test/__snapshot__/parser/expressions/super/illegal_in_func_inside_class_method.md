@@ -27,8 +27,9 @@ class x { foo(){ function f(){ super.foo; } }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,8 +52,9 @@ class x { foo(){ function f(){ super.foo; } }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 13
@@ -86,8 +88,9 @@ class x { foo(){ function f(){ super.foo; } }}
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "f",
                                                 "text": "f",
-                                                "rawText": "f",
+                                                "rawText": " f",
                                                 "flags": 96,
                                                 "start": 25,
                                                 "end": 27
@@ -124,6 +127,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                 },
                                                                 "expression": {
                                                                     "kind": 134299649,
+                                                                    "original": "foo",
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 96,

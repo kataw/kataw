@@ -32,8 +32,9 @@ function f() { var await; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -68,8 +69,9 @@ function f() { var await; }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "await",
                                             "text": "await",
-                                            "rawText": "await",
+                                            "rawText": " await",
                                             "flags": 96,
                                             "start": 18,
                                             "end": 24

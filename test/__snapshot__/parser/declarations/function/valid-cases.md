@@ -90,8 +90,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -104,6 +105,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -142,8 +144,9 @@ function f({x:arg = (arg = 2)}) {}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "h",
                                 "text": "h",
-                                "rawText": "h",
+                                "rawText": " h",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 27
@@ -168,8 +171,9 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 131,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "g",
                                                     "text": "g",
-                                                    "rawText": "g",
+                                                    "rawText": " g",
                                                     "flags": 96,
                                                     "start": 31,
                                                     "end": 33
@@ -179,6 +183,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "arg",
                                                             "text": "arg",
                                                             "rawText": "arg",
                                                             "flags": 96,
@@ -226,8 +231,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "h",
                                     "text": "h",
-                                    "rawText": "h",
+                                    "rawText": " h",
                                     "flags": 96,
                                     "start": 41,
                                     "end": 43
@@ -276,8 +282,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 56,
                 "end": 58
@@ -290,6 +297,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -301,6 +309,7 @@ function f({x:arg = (arg = 2)}) {}
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 63,
@@ -328,6 +337,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -339,6 +349,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -387,8 +398,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 84,
                 "end": 86
@@ -401,6 +413,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -419,8 +432,9 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arguments",
                             "text": "arguments",
-                            "rawText": "arguments",
+                            "rawText": " arguments",
                             "flags": 96,
                             "start": 91,
                             "end": 101
@@ -450,6 +464,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -461,6 +476,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -489,8 +505,9 @@ function f({x:arg = (arg = 2)}) {}
                                     "kind": 130,
                                     "member": {
                                         "kind": 134299649,
+                                        "original": "arguments",
                                         "text": "arguments",
-                                        "rawText": "arguments",
+                                        "rawText": " arguments",
                                         "flags": 96,
                                         "start": 111,
                                         "end": 121
@@ -498,6 +515,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 122,
@@ -516,7 +534,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 126,
                                     "end": 129
@@ -535,8 +554,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 130,
                                     "end": 132
@@ -546,6 +566,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -594,8 +615,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 148,
                 "end": 150
@@ -613,6 +635,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -644,6 +667,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -655,6 +679,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -683,8 +708,9 @@ function f({x:arg = (arg = 2)}) {}
                                     "kind": 130,
                                     "member": {
                                         "kind": 134299649,
+                                        "original": "arguments",
                                         "text": "arguments",
-                                        "rawText": "arguments",
+                                        "rawText": " arguments",
                                         "flags": 96,
                                         "start": 167,
                                         "end": 177
@@ -692,6 +718,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 178,
@@ -710,7 +737,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 182,
                                     "end": 185
@@ -729,8 +757,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 186,
                                     "end": 188
@@ -740,6 +769,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -788,8 +818,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 204,
                 "end": 206
@@ -802,6 +833,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -833,6 +865,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -844,6 +877,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -870,8 +904,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "arg",
                                     "text": "arg",
-                                    "rawText": "arg",
+                                    "rawText": " arg",
                                     "flags": 96,
                                     "start": 220,
                                     "end": 224
@@ -885,7 +920,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 226,
                                     "end": 229
@@ -904,8 +940,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 230,
                                     "end": 232
@@ -915,6 +952,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -963,8 +1001,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 248,
                 "end": 250
@@ -977,6 +1016,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1008,6 +1048,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -1019,6 +1060,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1045,8 +1087,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "eval",
                                     "text": "eval",
-                                    "rawText": "eval",
+                                    "rawText": " eval",
                                     "flags": 96,
                                     "start": 264,
                                     "end": 269
@@ -1057,6 +1100,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arg = 42",
+                                            "original": "'arg = 42'",
                                             "rawText": "'arg = 42'",
                                             "flags": 4194400,
                                             "start": 270,
@@ -1082,8 +1126,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 282,
                                     "end": 284
@@ -1093,6 +1138,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1141,8 +1187,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 300,
                 "end": 302
@@ -1155,6 +1202,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1186,6 +1234,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -1197,6 +1246,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1233,8 +1283,9 @@ function f({x:arg = (arg = 2)}) {}
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
-                                            "rawText": "arg",
+                                            "rawText": " arg",
                                             "flags": 96,
                                             "start": 320,
                                             "end": 324
@@ -1244,7 +1295,8 @@ function f({x:arg = (arg = 2)}) {}
                                         "initializer": {
                                             "kind": 201392130,
                                             "text": 42,
-                                            "rawText": "42",
+                                            "original": "42",
+                                            "rawText": " 42",
                                             "flags": 96,
                                             "start": 326,
                                             "end": 329
@@ -1268,8 +1320,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 330,
                                     "end": 332
@@ -1279,6 +1332,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1327,8 +1381,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 348,
                 "end": 350
@@ -1341,6 +1396,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1359,8 +1415,9 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 355,
                             "end": 357
@@ -1370,6 +1427,7 @@ function f({x:arg = (arg = 2)}) {}
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 358,
@@ -1397,6 +1455,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -1408,6 +1467,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1434,8 +1494,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "arg",
                                     "text": "arg",
-                                    "rawText": "arg",
+                                    "rawText": " arg",
                                     "flags": 96,
                                     "start": 369,
                                     "end": 373
@@ -1449,7 +1510,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 375,
                                     "end": 378
@@ -1468,8 +1530,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 379,
                                     "end": 381
@@ -1479,6 +1542,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1527,8 +1591,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 397,
                 "end": 399
@@ -1541,6 +1606,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1564,6 +1630,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1595,6 +1662,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -1606,6 +1674,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1632,8 +1701,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "arg",
                                     "text": "arg",
-                                    "rawText": "arg",
+                                    "rawText": " arg",
                                     "flags": 96,
                                     "start": 419,
                                     "end": 423
@@ -1647,7 +1717,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 425,
                                     "end": 428
@@ -1666,8 +1737,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 429,
                                     "end": 431
@@ -1677,6 +1749,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1725,8 +1798,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 447,
                 "end": 449
@@ -1739,6 +1813,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1750,6 +1825,7 @@ function f({x:arg = (arg = 2)}) {}
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 454,
@@ -1777,6 +1853,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -1788,6 +1865,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1814,8 +1892,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "arg",
                                     "text": "arg",
-                                    "rawText": "arg",
+                                    "rawText": " arg",
                                     "flags": 96,
                                     "start": 465,
                                     "end": 469
@@ -1829,7 +1908,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 471,
                                     "end": 474
@@ -1848,8 +1928,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 475,
                                     "end": 477
@@ -1859,6 +1940,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1907,8 +1989,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 493,
                 "end": 495
@@ -1921,6 +2004,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -1948,6 +2032,7 @@ function f({x:arg = (arg = 2)}) {}
                         {
                             "kind": 201392131,
                             "text": "use strict",
+                            "original": "'use strict'",
                             "rawText": "'use strict'",
                             "flags": 4194400,
                             "start": 502,
@@ -1961,8 +2046,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 515,
                                     "end": 517
@@ -1972,6 +2058,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -1998,8 +2085,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "arg",
                                     "text": "arg",
-                                    "rawText": "arg",
+                                    "rawText": " arg",
                                     "flags": 96,
                                     "start": 523,
                                     "end": 527
@@ -2013,7 +2101,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 529,
                                     "end": 532
@@ -2032,8 +2121,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 533,
                                     "end": 535
@@ -2043,6 +2133,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2091,8 +2182,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 551,
                 "end": 553
@@ -2105,6 +2197,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -2131,6 +2224,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -2146,6 +2240,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "kind": 131,
                                                         "expression": {
                                                             "kind": 134299649,
+                                                            "original": "g",
                                                             "text": "g",
                                                             "rawText": "g",
                                                             "flags": 96,
@@ -2157,6 +2252,7 @@ function f({x:arg = (arg = 2)}) {}
                                                             "elements": [
                                                                 {
                                                                     "kind": 134299649,
+                                                                    "original": "arg",
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
@@ -2177,8 +2273,9 @@ function f({x:arg = (arg = 2)}) {}
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
+                                                            "original": "arg",
                                                             "text": "arg",
-                                                            "rawText": "arg",
+                                                            "rawText": " arg",
                                                             "flags": 96,
                                                             "start": 570,
                                                             "end": 574
@@ -2192,6 +2289,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "right": {
                                                             "kind": 201392130,
                                                             "text": 42,
+                                                            "original": "42",
                                                             "rawText": "42",
                                                             "flags": 96,
                                                             "start": 575,
@@ -2249,6 +2347,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -2260,6 +2359,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2308,8 +2408,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 599,
                 "end": 601
@@ -2322,6 +2423,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -2353,6 +2455,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -2364,6 +2467,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2390,8 +2494,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 615,
                                     "end": 617
@@ -2430,6 +2535,7 @@ function f({x:arg = (arg = 2)}) {}
                                                                 "kind": 125,
                                                                 "left": {
                                                                     "kind": 134299649,
+                                                                    "original": "arg",
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
@@ -2445,7 +2551,8 @@ function f({x:arg = (arg = 2)}) {}
                                                                 "right": {
                                                                     "kind": 201392130,
                                                                     "text": 42,
-                                                                    "rawText": "42",
+                                                                    "original": "42",
+                                                                    "rawText": " 42",
                                                                     "flags": 96,
                                                                     "start": 635,
                                                                     "end": 638
@@ -2493,8 +2600,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 641,
                                     "end": 643
@@ -2504,6 +2612,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2552,8 +2661,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 659,
                 "end": 661
@@ -2566,6 +2676,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -2597,6 +2708,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -2608,6 +2720,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2634,8 +2747,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 675,
                                     "end": 677
@@ -2659,8 +2773,9 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "arg",
                                                     "text": "arg",
-                                                    "rawText": "arg",
+                                                    "rawText": " arg",
                                                     "flags": 96,
                                                     "start": 683,
                                                     "end": 687
@@ -2674,7 +2789,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 42,
-                                                    "rawText": "42",
+                                                    "original": "42",
+                                                    "rawText": " 42",
                                                     "flags": 96,
                                                     "start": 689,
                                                     "end": 692
@@ -2707,8 +2823,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 694,
                                     "end": 696
@@ -2718,6 +2835,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2766,8 +2884,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 712,
                 "end": 714
@@ -2780,6 +2899,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -2811,6 +2931,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -2822,6 +2943,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2848,8 +2970,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 728,
                                     "end": 730
@@ -2873,8 +2996,9 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 131,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "eval",
                                                     "text": "eval",
-                                                    "rawText": "eval",
+                                                    "rawText": " eval",
                                                     "flags": 96,
                                                     "start": 736,
                                                     "end": 741
@@ -2885,6 +3009,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         {
                                                             "kind": 201392131,
                                                             "text": "arg = 42",
+                                                            "original": "'arg = 42'",
                                                             "rawText": "'arg = 42'",
                                                             "flags": 4194400,
                                                             "start": 742,
@@ -2924,8 +3049,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 755,
                                     "end": 757
@@ -2935,6 +3061,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -2983,8 +3110,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 773,
                 "end": 775
@@ -3002,6 +3130,7 @@ function f({x:arg = (arg = 2)}) {}
                         },
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -3033,6 +3162,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -3044,6 +3174,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3070,8 +3201,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "eval",
                                     "text": "eval",
-                                    "rawText": "eval",
+                                    "rawText": " eval",
                                     "flags": 96,
                                     "start": 792,
                                     "end": 797
@@ -3082,6 +3214,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arg = 42",
+                                            "original": "'arg = 42'",
                                             "rawText": "'arg = 42'",
                                             "flags": 4194400,
                                             "start": 798,
@@ -3107,8 +3240,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 810,
                                     "end": 812
@@ -3118,6 +3252,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3166,8 +3301,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 828,
                 "end": 830
@@ -3180,6 +3316,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -3211,6 +3348,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -3222,6 +3360,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3250,8 +3389,9 @@ function f({x:arg = (arg = 2)}) {}
                                     "kind": 130,
                                     "member": {
                                         "kind": 134299649,
+                                        "original": "arguments",
                                         "text": "arguments",
-                                        "rawText": "arguments",
+                                        "rawText": " arguments",
                                         "flags": 96,
                                         "start": 844,
                                         "end": 854
@@ -3259,6 +3399,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 0,
+                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 855,
@@ -3277,7 +3418,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 42,
-                                    "rawText": "42",
+                                    "original": "42",
+                                    "rawText": " 42",
                                     "flags": 96,
                                     "start": 859,
                                     "end": 862
@@ -3296,8 +3438,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 863,
                                     "end": 865
@@ -3307,6 +3450,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3355,8 +3499,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 881,
                 "end": 883
@@ -3369,6 +3514,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -3400,6 +3546,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -3411,6 +3558,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3437,8 +3585,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "h",
                                     "text": "h",
-                                    "rawText": "h",
+                                    "rawText": " h",
                                     "flags": 96,
                                     "start": 897,
                                     "end": 899
@@ -3448,6 +3597,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arguments",
                                             "text": "arguments",
                                             "rawText": "arguments",
                                             "flags": 96,
@@ -3474,8 +3624,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 911,
                                     "end": 913
@@ -3485,6 +3636,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3533,8 +3685,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 929,
                 "end": 931
@@ -3547,6 +3700,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -3578,6 +3732,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -3589,6 +3744,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3615,8 +3771,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "eval",
                                     "text": "eval",
-                                    "rawText": "eval",
+                                    "rawText": " eval",
                                     "flags": 96,
                                     "start": 945,
                                     "end": 950
@@ -3627,6 +3784,7 @@ function f({x:arg = (arg = 2)}) {}
                                         {
                                             "kind": 201392131,
                                             "text": "arguments[0] = 42",
+                                            "original": "'arguments[0] = 42'",
                                             "rawText": "'arguments[0] = 42'",
                                             "flags": 4194400,
                                             "start": 951,
@@ -3652,8 +3810,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 972,
                                     "end": 974
@@ -3663,6 +3822,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3711,8 +3871,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 990,
                 "end": 992
@@ -3725,6 +3886,7 @@ function f({x:arg = (arg = 2)}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arg",
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
@@ -3756,6 +3918,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
@@ -3767,6 +3930,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3793,8 +3957,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 1006,
                                     "end": 1008
@@ -3820,8 +3985,9 @@ function f({x:arg = (arg = 2)}) {}
                                                     "kind": 130,
                                                     "member": {
                                                         "kind": 134299649,
+                                                        "original": "arguments",
                                                         "text": "arguments",
-                                                        "rawText": "arguments",
+                                                        "rawText": " arguments",
                                                         "flags": 96,
                                                         "start": 1014,
                                                         "end": 1024
@@ -3829,6 +3995,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "expression": {
                                                         "kind": 201392130,
                                                         "text": 0,
+                                                        "original": "0",
                                                         "rawText": "0",
                                                         "flags": 96,
                                                         "start": 1025,
@@ -3847,7 +4014,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 42,
-                                                    "rawText": "42",
+                                                    "original": "42",
+                                                    "rawText": " 42",
                                                     "flags": 96,
                                                     "start": 1029,
                                                     "end": 1032
@@ -3880,8 +4048,9 @@ function f({x:arg = (arg = 2)}) {}
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "g",
                                     "text": "g",
-                                    "rawText": "g",
+                                    "rawText": " g",
                                     "flags": 96,
                                     "start": 1034,
                                     "end": 1036
@@ -3891,6 +4060,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,
@@ -3939,8 +4109,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 1052,
                 "end": 1054
@@ -3961,6 +4132,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -3972,6 +4144,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "arg",
                                                 "text": "arg",
                                                 "rawText": "arg",
                                                 "flags": 96,
@@ -3981,7 +4154,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 1,
-                                                "rawText": "1",
+                                                "original": "1",
+                                                "rawText": " 1",
                                                 "flags": 96,
                                                 "start": 1063,
                                                 "end": 1065
@@ -4024,6 +4198,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
@@ -4035,6 +4210,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
@@ -4047,6 +4223,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "arg",
                                                         "text": "arg",
                                                         "rawText": "arg",
                                                         "flags": 96,
@@ -4062,6 +4239,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "right": {
                                                         "kind": 201392130,
                                                         "text": 2,
+                                                        "original": "2",
                                                         "rawText": "2",
                                                         "flags": 96,
                                                         "start": 1078,
@@ -4139,8 +4317,9 @@ function f({x:arg = (arg = 2)}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 1095,
                 "end": 1097
@@ -4161,6 +4340,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -4172,6 +4352,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "arg",
                                                 "text": "arg",
                                                 "rawText": "arg",
                                                 "flags": 96,
@@ -4184,6 +4365,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "arg",
                                                         "text": "arg",
                                                         "rawText": "arg",
                                                         "flags": 96,
@@ -4199,7 +4381,8 @@ function f({x:arg = (arg = 2)}) {}
                                                     "right": {
                                                         "kind": 201392130,
                                                         "text": 2,
-                                                        "rawText": "2",
+                                                        "original": "2",
+                                                        "rawText": " 2",
                                                         "flags": 96,
                                                         "start": 1113,
                                                         "end": 1115

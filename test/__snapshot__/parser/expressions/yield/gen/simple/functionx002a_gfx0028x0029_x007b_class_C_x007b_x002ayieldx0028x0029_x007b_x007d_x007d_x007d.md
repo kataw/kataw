@@ -37,8 +37,9 @@ function* gf() { class C { *yield() { } } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gf",
                 "text": "gf",
-                "rawText": "gf",
+                "rawText": " gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12
@@ -69,8 +70,9 @@ function* gf() { class C { *yield() { } } }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 24
@@ -98,6 +100,7 @@ function* gf() { class C { *yield() { } } }
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,

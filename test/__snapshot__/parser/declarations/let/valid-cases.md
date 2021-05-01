@@ -43,8 +43,9 @@ let {foo=3} = {};
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -80,8 +81,9 @@ let {foo=3} = {};
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 12,
                             "end": 16
@@ -91,7 +93,8 @@ let {foo=3} = {};
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "rawText": "0",
+                            "original": "0",
+                            "rawText": " 0",
                             "flags": 96,
                             "start": 18,
                             "end": 20
@@ -132,6 +135,7 @@ let {foo=3} = {};
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -165,6 +169,7 @@ let {foo=3} = {};
                                     {
                                         "kind": 201392130,
                                         "text": 1,
+                                        "original": "1",
                                         "rawText": "1",
                                         "flags": 96,
                                         "start": 35,
@@ -216,6 +221,7 @@ let {foo=3} = {};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -253,13 +259,15 @@ let {foo=3} = {};
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,
-                                            "rawText": "2",
+                                            "original": "2",
+                                            "rawText": " 2",
                                             "flags": 96,
                                             "start": 56,
                                             "end": 58
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -316,6 +324,7 @@ let {foo=3} = {};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -325,6 +334,7 @@ let {foo=3} = {};
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
+                                            "original": "3",
                                             "rawText": "3",
                                             "flags": 96,
                                             "start": 70,

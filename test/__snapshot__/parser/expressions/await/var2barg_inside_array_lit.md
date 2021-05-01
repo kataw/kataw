@@ -28,6 +28,7 @@
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -47,6 +48,7 @@
                                         "elements": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "await",
                                                 "text": "await",
                                                 "rawText": "await",
                                                 "flags": 96,
@@ -55,8 +57,9 @@
                                             },
                                             {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15

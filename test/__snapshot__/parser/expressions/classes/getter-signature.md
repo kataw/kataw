@@ -35,8 +35,9 @@ class A {
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -64,8 +65,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "prop",
                                 "text": "prop",
-                                "rawText": "prop",
+                                "rawText": " prop",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 20
@@ -79,6 +81,7 @@ class A {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "arg",
                                             "text": "arg",
                                             "rawText": "arg",
                                             "flags": 96,

@@ -27,8 +27,9 @@ class x extends new A() {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -52,8 +53,9 @@ class x extends new A() {}
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "A",
                         "text": "A",
-                        "rawText": "A",
+                        "rawText": " A",
                         "flags": 96,
                         "start": 19,
                         "end": 21

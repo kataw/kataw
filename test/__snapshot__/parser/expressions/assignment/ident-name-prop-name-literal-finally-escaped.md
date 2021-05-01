@@ -31,8 +31,9 @@ var y = { \u0066inally: x } = { finally: 42 };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -54,16 +55,18 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "finally",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 22
@@ -102,15 +105,17 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 42,
-                                                "rawText": "42",
+                                                "original": "42",
+                                                "rawText": " 42",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 43
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "finally",
                                                 "text": "finally",
-                                                "rawText": "finally",
+                                                "rawText": " finally",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 39

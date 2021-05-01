@@ -35,8 +35,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -131,8 +133,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "af",
                                                     "text": "af",
-                                                    "rawText": "af",
+                                                    "rawText": " af",
                                                     "flags": 96,
                                                     "start": 53,
                                                     "end": 56
@@ -145,6 +148,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "a",
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
@@ -163,8 +167,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "b",
                                                                 "text": "b",
-                                                                "rawText": "b",
+                                                                "rawText": " b",
                                                                 "flags": 96,
                                                                 "start": 59,
                                                                 "end": 61
@@ -181,8 +186,9 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                                 },
                                                                 "expression": {
                                                                     "kind": 134299649,
+                                                                    "original": "a",
                                                                     "text": "a",
-                                                                    "rawText": "a",
+                                                                    "rawText": " a",
                                                                     "flags": 96,
                                                                     "start": 69,
                                                                     "end": 71

@@ -24,6 +24,7 @@ declare function foo(): void
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "declare",
                 "text": "declare",
                 "rawText": "declare",
                 "flags": 96,
@@ -47,8 +48,9 @@ declare function foo(): void
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 16,
                 "end": 20
@@ -93,6 +95,7 @@ declare function foo(): void
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "T",
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
@@ -143,8 +146,9 @@ declare function foo(): void
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "declare",
                 "text": "declare",
-                "rawText": "declare",
+                "rawText": "\n\ndeclare",
                 "flags": 96,
                 "start": 32,
                 "end": 41
@@ -166,8 +170,9 @@ declare function foo(): void
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 50,
                 "end": 54
@@ -180,6 +185,7 @@ declare function foo(): void
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -226,16 +232,18 @@ declare function foo(): void
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "number",
                         "text": "number",
-                        "rawText": "number",
+                        "rawText": " number",
                         "flags": 96,
                         "start": 57,
                         "end": 64
                     },
                     {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
-                        "rawText": "y",
+                        "rawText": " y",
                         "flags": 96,
                         "start": 65,
                         "end": 67
@@ -253,8 +261,9 @@ declare function foo(): void
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 68,
                 "end": 75
@@ -292,8 +301,9 @@ declare function foo(): void
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "declare",
                 "text": "declare",
-                "rawText": "declare",
+                "rawText": "\n\ndeclare",
                 "flags": 96,
                 "start": 83,
                 "end": 92
@@ -315,8 +325,9 @@ declare function foo(): void
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 101,
                 "end": 105

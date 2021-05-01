@@ -35,8 +35,9 @@ var await; var f = (async function() { function *f(await){} });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { function *f(await){} });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -131,6 +133,7 @@ var await; var f = (async function() { function *f(await){} });
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "f",
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
@@ -145,6 +148,7 @@ var await; var f = (async function() { function *f(await){} });
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "await",
                                                                 "text": "await",
                                                                 "rawText": "await",
                                                                 "flags": 96,

@@ -43,8 +43,9 @@ export var await;
                             "kind": 157,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "await",
                                 "text": "await",
-                                "rawText": "await",
+                                "rawText": " await",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 16

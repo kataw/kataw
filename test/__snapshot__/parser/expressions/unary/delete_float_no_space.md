@@ -28,6 +28,7 @@ delete.500
                 "expression": {
                     "kind": 201392130,
                     "text": 0.5,
+                    "original": ".500",
                     "rawText": ".500",
                     "flags": 32864,
                     "start": 6,

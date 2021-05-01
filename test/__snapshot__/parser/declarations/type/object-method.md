@@ -46,8 +46,9 @@ type T = { [[foo]](): X }
             },
             "name": {
                 "kind": 134299649,
+                "original": "T",
                 "text": "T",
-                "rawText": "T",
+                "rawText": " T",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -64,6 +65,7 @@ type T = { [[foo]](): X }
                         "kind": 248,
                         "name": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -84,8 +86,9 @@ type T = { [[foo]](): X }
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "X",
                                     "text": "X",
-                                    "rawText": "X",
+                                    "rawText": " X",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 23

@@ -40,8 +40,9 @@ var f: >x:int) => string;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -100,6 +101,7 @@ var f: >x:int) => string;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -118,6 +120,7 @@ var f: >x:int) => string;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "int",
                 "text": "int",
                 "rawText": "int",
                 "flags": 96,
@@ -132,8 +135,9 @@ var f: >x:int) => string;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 17,
                 "end": 24

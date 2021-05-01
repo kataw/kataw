@@ -43,6 +43,7 @@
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -51,6 +52,7 @@
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "list",
                                         "text": "list",
                                         "rawText": "list",
                                         "flags": 96,
@@ -83,8 +85,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " a",
                     "flags": 96,
                     "start": 13,
                     "end": 15

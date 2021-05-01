@@ -23,6 +23,7 @@ x = {arrow: (x, y) => ok};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -58,6 +59,7 @@ x = {arrow: (x, y) => ok};
                                     "parameters": [
                                         {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -69,8 +71,9 @@ x = {arrow: (x, y) => ok};
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
+                                        "original": "ok",
                                         "text": "ok",
-                                        "rawText": "ok",
+                                        "rawText": " ok",
                                         "flags": 96,
                                         "start": 18,
                                         "end": 21
@@ -81,6 +84,7 @@ x = {arrow: (x, y) => ok};
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "arrow",
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 96,
@@ -115,8 +119,9 @@ x = {arrow: (x, y) => ok};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 23,
                     "end": 26
@@ -151,6 +156,7 @@ x = {arrow: (x, y) => ok};
                                         [
                                             {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -159,8 +165,9 @@ x = {arrow: (x, y) => ok};
                                             },
                                             {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 42
@@ -171,8 +178,9 @@ x = {arrow: (x, y) => ok};
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
+                                        "original": "ok",
                                         "text": "ok",
-                                        "rawText": "ok",
+                                        "rawText": " ok",
                                         "flags": 96,
                                         "start": 46,
                                         "end": 49
@@ -183,6 +191,7 @@ x = {arrow: (x, y) => ok};
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "arrow",
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 96,

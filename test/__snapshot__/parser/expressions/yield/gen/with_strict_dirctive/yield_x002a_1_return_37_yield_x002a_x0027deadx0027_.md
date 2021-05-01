@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -39,8 +40,9 @@
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": " yield",
                     "flags": 96,
                     "start": 13,
                     "end": 19
@@ -54,7 +56,8 @@
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 21,
                     "end": 23
@@ -78,7 +81,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 37,
-                "rawText": "37",
+                "original": "37",
+                "rawText": " 37",
                 "flags": 96,
                 "start": 31,
                 "end": 34
@@ -93,8 +97,9 @@
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": " yield",
                     "flags": 96,
                     "start": 35,
                     "end": 41
@@ -108,6 +113,7 @@
                 "right": {
                     "kind": 201392131,
                     "text": "dead",
+                    "original": "'dead'",
                     "rawText": " 'dead'",
                     "flags": 4194400,
                     "start": 43,

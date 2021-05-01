@@ -33,8 +33,9 @@ async _ => {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "_",
                             "text": "_",
-                            "rawText": "_",
+                            "rawText": " _",
                             "flags": 96,
                             "start": 5,
                             "end": 7

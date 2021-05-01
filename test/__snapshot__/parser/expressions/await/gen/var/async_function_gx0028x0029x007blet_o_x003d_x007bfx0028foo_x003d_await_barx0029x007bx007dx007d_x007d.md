@@ -35,8 +35,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -131,8 +133,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "g",
                                                     "text": "g",
-                                                    "rawText": "g",
+                                                    "rawText": " g",
                                                     "flags": 96,
                                                     "start": 53,
                                                     "end": 55
@@ -166,8 +169,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                             "kind": 190,
                                                                             "binding": {
                                                                                 "kind": 134299649,
+                                                                                "original": "o",
                                                                                 "text": "o",
-                                                                                "rawText": "o",
+                                                                                "rawText": " o",
                                                                                 "flags": 96,
                                                                                 "start": 61,
                                                                                 "end": 63
@@ -183,6 +187,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                             "kind": 209,
                                                                                             "name": {
                                                                                                 "kind": 134299649,
+                                                                                                "original": "f",
                                                                                                 "text": "f",
                                                                                                 "rawText": "f",
                                                                                                 "flags": 96,
@@ -198,6 +203,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                         "ellipsisToken": null,
                                                                                                         "binding": {
                                                                                                             "kind": 134299649,
+                                                                                                            "original": "foo",
                                                                                                             "text": "foo",
                                                                                                             "rawText": "foo",
                                                                                                             "flags": 96,
@@ -208,8 +214,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                         "type": null,
                                                                                                         "initializer": {
                                                                                                             "kind": 134299649,
+                                                                                                            "original": "await",
                                                                                                             "text": "await",
-                                                                                                            "rawText": "await",
+                                                                                                            "rawText": " await",
                                                                                                             "flags": 96,
                                                                                                             "start": 74,
                                                                                                             "end": 80
@@ -223,8 +230,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                         "ellipsisToken": null,
                                                                                                         "binding": {
                                                                                                             "kind": 134299649,
+                                                                                                            "original": "bar",
                                                                                                             "text": "bar",
-                                                                                                            "rawText": "bar",
+                                                                                                            "rawText": " bar",
                                                                                                             "flags": 96,
                                                                                                             "start": 80,
                                                                                                             "end": 84

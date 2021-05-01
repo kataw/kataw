@@ -29,8 +29,9 @@ do while [catch] async funcion switch!!
             },
             "expression": {
                 "kind": 134299649,
+                "original": "funcion",
                 "text": "funcion",
-                "rawText": "funcion",
+                "rawText": " funcion",
                 "flags": 96,
                 "start": 22,
                 "end": 30

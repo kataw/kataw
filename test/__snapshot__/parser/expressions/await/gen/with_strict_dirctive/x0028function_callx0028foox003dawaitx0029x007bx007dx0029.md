@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -49,8 +50,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "call",
                         "text": "call",
-                        "rawText": "call",
+                        "rawText": " call",
                         "flags": 96,
                         "start": 23,
                         "end": 28
@@ -63,6 +65,7 @@
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -73,6 +76,7 @@
                                 "type": null,
                                 "initializer": {
                                     "kind": 134299649,
+                                    "original": "await",
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,

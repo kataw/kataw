@@ -42,7 +42,8 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "rawText": "1",
+                "original": "1",
+                "rawText": " 1",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -251,8 +252,9 @@ class C { test() {get #a() { }}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 81,
                 "end": 83
@@ -275,8 +277,9 @@ class C { test() {get #a() { }}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "test",
                                 "text": "test",
-                                "rawText": "test",
+                                "rawText": " test",
                                 "flags": 96,
                                 "start": 85,
                                 "end": 90
@@ -301,6 +304,7 @@ class C { test() {get #a() { }}}
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "get",
                                                 "text": "get",
                                                 "rawText": "get",
                                                 "flags": 96,
@@ -392,6 +396,7 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 108,
@@ -412,6 +417,7 @@ class C { test() {get #a() { }}}
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -436,6 +442,7 @@ class C { test() {get #a() { }}}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -497,6 +504,7 @@ class C { test() {get #a() { }}}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "\n\n'use strict'",
                 "flags": 4194401,
                 "start": 144,
@@ -583,6 +591,7 @@ class C { test() {get #a() { }}}
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -681,6 +690,7 @@ class C { test() {get #a() { }}}
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,

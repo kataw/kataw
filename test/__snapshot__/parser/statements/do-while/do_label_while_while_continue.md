@@ -35,8 +35,9 @@ do wow: while (x) while (x) continue wow;
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "wow",
                     "text": "wow",
-                    "rawText": "wow",
+                    "rawText": " wow",
                     "flags": 96,
                     "start": 2,
                     "end": 6
@@ -67,6 +68,7 @@ do wow: while (x) while (x) continue wow;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -83,6 +85,7 @@ do wow: while (x) while (x) continue wow;
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -99,8 +102,9 @@ do wow: while (x) while (x) continue wow;
                             },
                             "label": {
                                 "kind": 134299649,
+                                "original": "wow",
                                 "text": "wow",
-                                "rawText": "wow",
+                                "rawText": " wow",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 40

@@ -32,6 +32,7 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -66,8 +67,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "C",
                                                     "text": "C",
-                                                    "rawText": "C",
+                                                    "rawText": " C",
                                                     "flags": 96,
                                                     "start": 20,
                                                     "end": 22
@@ -90,8 +92,9 @@
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
-                                                                    "rawText": "constructor",
+                                                                    "rawText": " constructor",
                                                                     "flags": 96,
                                                                     "start": 24,
                                                                     "end": 36

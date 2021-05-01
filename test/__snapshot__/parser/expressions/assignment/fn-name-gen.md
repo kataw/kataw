@@ -40,8 +40,9 @@ gen = function*() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "xGen",
                             "text": "xGen",
-                            "rawText": "xGen",
+                            "rawText": " xGen",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -57,8 +58,9 @@ gen = function*() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "gen",
                             "text": "gen",
-                            "rawText": "gen",
+                            "rawText": " gen",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -85,8 +87,9 @@ gen = function*() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "xGen",
                     "text": "xGen",
-                    "rawText": "xGen",
+                    "rawText": "\n\nxGen",
                     "flags": 96,
                     "start": 14,
                     "end": 20
@@ -114,8 +117,9 @@ gen = function*() {};
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 32,
                         "end": 34
@@ -162,8 +166,9 @@ gen = function*() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "gen",
                     "text": "gen",
-                    "rawText": "gen",
+                    "rawText": "\ngen",
                     "flags": 96,
                     "start": 40,
                     "end": 44

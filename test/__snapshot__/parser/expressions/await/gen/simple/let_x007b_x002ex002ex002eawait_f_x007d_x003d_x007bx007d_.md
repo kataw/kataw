@@ -47,6 +47,7 @@ let { ...await f } = {};
                                         },
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "await",
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
@@ -63,8 +64,9 @@ let { ...await f } = {};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16

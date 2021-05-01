@@ -29,6 +29,7 @@ for (await x in x) ;
             },
             "initializer": {
                 "kind": 134299649,
+                "original": "await",
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
@@ -40,8 +41,9 @@ for (await x in x) ;
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -54,8 +56,9 @@ for (await x in x) ;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 15,
                     "end": 17

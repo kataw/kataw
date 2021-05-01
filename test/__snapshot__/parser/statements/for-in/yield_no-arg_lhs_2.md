@@ -52,6 +52,7 @@ function *f(){   for (yield in y);   }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -103,8 +104,9 @@ function *f(){   for (yield in y);   }
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 32

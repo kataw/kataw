@@ -43,6 +43,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u00000",
+                "original": "\"\\x000\"",
                 "rawText": "\"\\x000\"",
                 "flags": 96,
                 "start": 0,
@@ -57,6 +58,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u00128",
+                "original": "\"\\x128\"",
                 "rawText": "\n\"\\x128\"",
                 "flags": 97,
                 "start": 9,
@@ -71,6 +73,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "4a",
+                "original": "\"\\x34a\"",
                 "rawText": "\n\"\\x34a\"",
                 "flags": 97,
                 "start": 19,
@@ -85,6 +88,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "VX",
+                "original": "\"\\x56X\"",
                 "rawText": "\n\"\\x56X\"",
                 "flags": 97,
                 "start": 29,
@@ -99,6 +103,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "x{",
+                "original": "\"\\x78{\"",
                 "rawText": "\n\"\\x78{\"",
                 "flags": 97,
                 "start": 39,
@@ -113,6 +118,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
+                "original": "\"\\x9a\\\n\"",
                 "rawText": "\n\"\\x9a\\\n\"",
                 "flags": 97,
                 "start": 49,
@@ -127,6 +133,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "«@{x9}@",
+                "original": "\"\\xAb@{x9}@\"",
                 "rawText": "\n\"\\xAb@{x9}@\"",
                 "flags": 97,
                 "start": 60,
@@ -141,6 +148,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "¼ ",
+                "original": "\"\\xBc \"",
                 "rawText": "\n\"\\xBc \"",
                 "flags": 97,
                 "start": 75,
@@ -155,6 +163,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Í#",
+                "original": "\"\\xCd#\"",
                 "rawText": "\n\"\\xCd#\"",
                 "flags": 97,
                 "start": 85,
@@ -169,6 +178,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Þ\u0000",
+                "original": "\"\\xDe\\x00\"",
                 "rawText": "\n\"\\xDe\\x00\"",
                 "flags": 97,
                 "start": 95,
@@ -183,6 +193,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ïok",
+                "original": "\"\\xEfok\"",
                 "rawText": "\n\"\\xEfok\"",
                 "flags": 97,
                 "start": 108,
@@ -197,6 +208,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "preð",
+                "original": "\"pre\\xF0\"",
                 "rawText": "\n\"pre\\xF0\"",
                 "flags": 97,
                 "start": 119,

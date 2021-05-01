@@ -21,6 +21,7 @@ x = (a)?c:d=>{}=>{}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -39,6 +40,7 @@ x = (a)?c:d=>{}=>{}
                         "kind": 121,
                         "expression": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -57,6 +59,7 @@ x = (a)?c:d=>{}=>{}
                     },
                     "consequent": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
@@ -80,6 +83,7 @@ x = (a)?c:d=>{}=>{}
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
+                            "original": "d",
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,

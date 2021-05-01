@@ -44,6 +44,7 @@ do[ async try while { catch }
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -83,8 +84,9 @@ do[ async try while { catch }
                     "properties": [
                         {
                             "kind": 134299649,
+                            "original": "catch",
                             "text": "catch",
-                            "rawText": "catch",
+                            "rawText": " catch",
                             "flags": 96,
                             "start": 21,
                             "end": 27

@@ -48,6 +48,7 @@ async () => {  \u0070rotected = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "protected",
                                     "rawText": "async",
                                     "flags": 96,
@@ -62,8 +63,9 @@ async () => {  \u0070rotected = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 31,
                                     "end": 33

@@ -21,6 +21,7 @@ f(((a, b) => a + b));
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -45,6 +46,7 @@ f(((a, b) => a + b));
                                     [
                                         {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -53,8 +55,9 @@ f(((a, b) => a + b));
                                         },
                                         {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
-                                            "rawText": "b",
+                                            "rawText": " b",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 8
@@ -67,8 +70,9 @@ f(((a, b) => a + b));
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -81,8 +85,9 @@ f(((a, b) => a + b));
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 18

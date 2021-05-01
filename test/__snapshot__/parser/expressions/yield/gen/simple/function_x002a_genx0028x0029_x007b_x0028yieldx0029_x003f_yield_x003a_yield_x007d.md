@@ -37,8 +37,9 @@ function * gen() { (yield) ? yield : yield }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14

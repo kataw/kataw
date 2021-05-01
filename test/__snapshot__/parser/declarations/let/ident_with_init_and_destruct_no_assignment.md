@@ -38,8 +38,9 @@ let x = y, {z};
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -48,8 +49,9 @@ let x = y, {z};
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 7,
                             "end": 9
@@ -70,6 +72,7 @@ let x = y, {z};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,

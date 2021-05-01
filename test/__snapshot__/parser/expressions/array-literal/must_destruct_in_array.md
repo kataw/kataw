@@ -21,6 +21,7 @@ x = {x: [{a = b}] + x}.x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -62,6 +63,7 @@ x = {x: [{a = b}] + x}.x
                                                                     "kind": 205,
                                                                     "left": {
                                                                         "kind": 134299649,
+                                                                        "original": "a",
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
@@ -70,8 +72,9 @@ x = {x: [{a = b}] + x}.x
                                                                     },
                                                                     "right": {
                                                                         "kind": 134299649,
+                                                                        "original": "b",
                                                                         "text": "b",
-                                                                        "rawText": "b",
+                                                                        "rawText": " b",
                                                                         "flags": 96,
                                                                         "start": 13,
                                                                         "end": 15
@@ -108,8 +111,9 @@ x = {x: [{a = b}] + x}.x
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 19,
                                             "end": 21
@@ -120,6 +124,7 @@ x = {x: [{a = b}] + x}.x
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -142,6 +147,7 @@ x = {x: [{a = b}] + x}.x
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,

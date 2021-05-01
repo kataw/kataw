@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -64,8 +65,9 @@
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 22,
                                         "end": 24
@@ -87,8 +89,9 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29

@@ -32,8 +32,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -70,8 +71,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "gf",
                                 "text": "gf",
-                                "rawText": "gf",
+                                "rawText": " gf",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 33
@@ -106,8 +108,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "fe",
                                                             "text": "fe",
-                                                            "rawText": "fe",
+                                                            "rawText": " fe",
                                                             "flags": 96,
                                                             "start": 41,
                                                             "end": 44
@@ -126,8 +129,9 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
                                                             "generatorToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "yield",
                                                                 "text": "yield",
-                                                                "rawText": "yield",
+                                                                "rawText": " yield",
                                                                 "flags": 96,
                                                                 "start": 55,
                                                                 "end": 61

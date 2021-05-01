@@ -28,8 +28,9 @@ function f(x=(yield)=y){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -42,6 +43,7 @@ function f(x=(yield)=y){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -56,6 +58,7 @@ function f(x=(yield)=y){}
                                 "kind": 121,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -74,6 +77,7 @@ function f(x=(yield)=y){}
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,

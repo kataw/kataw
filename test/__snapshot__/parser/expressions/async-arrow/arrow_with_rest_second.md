@@ -27,6 +27,7 @@ async (a, ...b) => a;
             "parameters": [
                 {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -55,8 +56,9 @@ async (a, ...b) => a;
             "returnType": null,
             "contents": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 18,
                 "end": 20

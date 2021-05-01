@@ -35,8 +35,9 @@ var foo = yield = 1;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -47,8 +48,9 @@ var foo = yield = 1;
                             "kind": 125,
                             "left": {
                                 "kind": 134299649,
+                                "original": "yield",
                                 "text": "yield",
-                                "rawText": "yield",
+                                "rawText": " yield",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 15
@@ -62,7 +64,8 @@ var foo = yield = 1;
                             "right": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "rawText": "1",
+                                "original": "1",
+                                "rawText": " 1",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 19

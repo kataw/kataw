@@ -58,6 +58,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -69,8 +70,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 7,
                                                 "end": 9
@@ -89,8 +91,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " y",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 13
@@ -100,8 +103,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15
@@ -120,8 +124,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 19
@@ -139,8 +144,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
+                                                                "original": "a",
                                                                 "text": "a",
-                                                                "rawText": "a",
+                                                                "rawText": " a",
                                                                 "flags": 96,
                                                                 "start": 21,
                                                                 "end": 24
@@ -150,8 +156,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
+                                                                    "original": "a",
                                                                     "text": "a",
-                                                                    "rawText": "a",
+                                                                    "rawText": " a",
                                                                     "flags": 96,
                                                                     "start": 24,
                                                                     "end": 26
@@ -159,7 +166,8 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                                 "initializer": {
                                                                     "kind": 201392130,
                                                                     "text": 10,
-                                                                    "rawText": "10",
+                                                                    "original": "10",
+                                                                    "rawText": " 10",
                                                                     "flags": 96,
                                                                     "start": 28,
                                                                     "end": 31
@@ -205,8 +213,9 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 36,
                             "end": 38

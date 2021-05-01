@@ -36,6 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix '",
+                "original": "\"prefix \\'\"",
                 "rawText": "\"prefix \\'\"",
                 "flags": 96,
                 "start": 0,
@@ -50,6 +51,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\"",
+                "original": "\"prefix\\\"\"",
                 "rawText": "\n\"prefix\\\"\"",
                 "flags": 97,
                 "start": 13,
@@ -64,6 +66,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\\",
+                "original": "\"prefix\\\\\"",
                 "rawText": "\n\"prefix\\\\\"",
                 "flags": 97,
                 "start": 26,
@@ -78,6 +81,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\b",
+                "original": "\"prefix\\b\"",
                 "rawText": "\n\"prefix\\b\"",
                 "flags": 97,
                 "start": 39,
@@ -92,6 +96,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\f",
+                "original": "\"prefix\\f\"",
                 "rawText": "\n\"prefix\\f\"",
                 "flags": 97,
                 "start": 52,
@@ -106,6 +111,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\n",
+                "original": "\"prefix\\n\"",
                 "rawText": "\n\"prefix\\n\"",
                 "flags": 97,
                 "start": 65,
@@ -120,6 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\r",
+                "original": "\"prefix\\r\"",
                 "rawText": "\n\"prefix\\r\"",
                 "flags": 97,
                 "start": 78,
@@ -134,6 +141,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\t",
+                "original": "\"prefix\\t\"",
                 "rawText": "\n\"prefix\\t\"",
                 "flags": 97,
                 "start": 91,
@@ -148,6 +156,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\u000b",
+                "original": "\"prefix\\v\"",
                 "rawText": "\n\"prefix\\v\"",
                 "flags": 97,
                 "start": 104,

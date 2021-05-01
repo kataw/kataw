@@ -40,6 +40,7 @@ import {x, z as b} from "y"
                 "from": {
                     "kind": 201392131,
                     "text": "y",
+                    "original": "\"y\"",
                     "rawText": " \"y\"",
                     "flags": 96,
                     "start": 23,
@@ -65,6 +66,7 @@ import {x, z as b} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 64,
@@ -81,8 +83,9 @@ import {x, z as b} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "z",
                                     "text": "z",
-                                    "rawText": "z",
+                                    "rawText": " z",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 12
@@ -97,8 +100,9 @@ import {x, z as b} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 12,
                                     "end": 15
@@ -113,8 +117,9 @@ import {x, z as b} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 64,
                                     "start": 15,
                                     "end": 17

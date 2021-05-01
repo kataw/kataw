@@ -22,6 +22,7 @@ foo, bar, zoo
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -30,16 +31,18 @@ foo, bar, zoo
                     },
                     {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": " bar",
                         "flags": 96,
                         "start": 4,
                         "end": 8
                     },
                     {
                         "kind": 134299649,
+                        "original": "zoo",
                         "text": "zoo",
-                        "rawText": "zoo",
+                        "rawText": " zoo",
                         "flags": 96,
                         "start": 9,
                         "end": 13

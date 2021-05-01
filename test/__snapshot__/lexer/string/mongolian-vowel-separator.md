@@ -26,6 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "᠎",
+                "original": "\"\\u180E\"",
                 "rawText": "\"\\u180E\"",
                 "flags": 16480,
                 "start": 0,

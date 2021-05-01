@@ -31,8 +31,9 @@ class x {static: x}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,6 +51,7 @@ class x {static: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "static",
                             "text": "static",
                             "rawText": "static",
                             "flags": 96,
@@ -76,8 +78,9 @@ class x {static: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 16,
                 "end": 18

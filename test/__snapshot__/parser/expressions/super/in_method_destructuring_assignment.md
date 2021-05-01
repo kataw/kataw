@@ -21,6 +21,7 @@ x = { foo(){ [a = super.foo] = c; }}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -42,8 +43,9 @@ x = { foo(){ [a = super.foo] = c; }}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 9
@@ -77,6 +79,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                     "kind": 125,
                                                                     "left": {
                                                                         "kind": 134299649,
+                                                                        "original": "a",
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
@@ -105,6 +108,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                         },
                                                                         "expression": {
                                                                             "kind": 134299649,
+                                                                            "original": "foo",
                                                                             "text": "foo",
                                                                             "rawText": "foo",
                                                                             "flags": 96,
@@ -137,8 +141,9 @@ x = { foo(){ [a = super.foo] = c; }}
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "c",
                                                         "text": "c",
-                                                        "rawText": "c",
+                                                        "rawText": " c",
                                                         "flags": 96,
                                                         "start": 30,
                                                         "end": 32

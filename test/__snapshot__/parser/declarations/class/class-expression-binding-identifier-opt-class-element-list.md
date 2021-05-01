@@ -35,8 +35,9 @@ var A = class B {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "A",
                             "text": "A",
-                            "rawText": "A",
+                            "rawText": " A",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -54,8 +55,9 @@ var A = class B {
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "B",
                                 "text": "B",
-                                "rawText": "B",
+                                "rawText": " B",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 15
@@ -78,8 +80,9 @@ var A = class B {
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "method",
                                                 "text": "method",
-                                                "rawText": "method",
+                                                "rawText": "\n  method",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 26
@@ -134,8 +137,9 @@ var A = class B {
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "method",
                                                 "text": "method",
-                                                "rawText": "method",
+                                                "rawText": " method",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 47

@@ -45,8 +45,9 @@ export var bar;
                             "kind": 157,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 14

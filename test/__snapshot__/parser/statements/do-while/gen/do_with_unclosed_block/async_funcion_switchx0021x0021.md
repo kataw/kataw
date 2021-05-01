@@ -29,6 +29,7 @@ do {} while (x) { async funcion switch!!
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -75,8 +76,9 @@ do {} while (x) { async funcion switch!!
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "funcion",
                                         "text": "funcion",
-                                        "rawText": "funcion",
+                                        "rawText": " funcion",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 31

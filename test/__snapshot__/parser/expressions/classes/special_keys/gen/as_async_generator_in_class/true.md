@@ -31,8 +31,9 @@ class x {async * true(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {async * true(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "true",
                                 "text": "true",
-                                "rawText": "true",
+                                "rawText": " true",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21

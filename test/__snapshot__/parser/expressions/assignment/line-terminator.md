@@ -36,8 +36,9 @@ true;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 4,
                             "end": 6
@@ -64,8 +65,9 @@ true;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 7,
                     "end": 10

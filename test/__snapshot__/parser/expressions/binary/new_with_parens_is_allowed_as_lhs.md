@@ -29,8 +29,9 @@ new x() ** 2;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -56,7 +57,8 @@ new x() ** 2;
                 "right": {
                     "kind": 201392130,
                     "text": 2,
-                    "rawText": "2",
+                    "original": "2",
+                    "rawText": " 2",
                     "flags": 96,
                     "start": 10,
                     "end": 12

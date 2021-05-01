@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -53,14 +54,16 @@
                             "kind": 130,
                             "member": {
                                 "kind": 134299649,
+                                "original": "fooo",
                                 "text": "fooo",
-                                "rawText": "fooo",
+                                "rawText": " fooo",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,

@@ -21,6 +21,7 @@ x = {0b001001: y}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -46,8 +47,9 @@ x = {0b001001: y}
                                 "setKeyword": null,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 16
@@ -55,6 +57,7 @@ x = {0b001001: y}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 9,
+                                    "original": "0b001001",
                                     "rawText": "0b001001",
                                     "flags": 524384,
                                     "start": 5,

@@ -25,6 +25,7 @@ abc\uD835\uDFD0def
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "abc\\uD835\\uDFD0def",
                 "text": "abc𝟐def",
                 "rawText": "abc\\uD835\\uDFD0def",
                 "flags": 96,

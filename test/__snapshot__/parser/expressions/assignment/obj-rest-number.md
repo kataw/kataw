@@ -21,6 +21,7 @@ result = {...rest} = 69;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -50,6 +51,7 @@ result = {...rest} = 69;
                                     },
                                     "argument": {
                                         "kind": 134299649,
+                                        "original": "rest",
                                         "text": "rest",
                                         "rawText": "rest",
                                         "flags": 96,
@@ -79,7 +81,8 @@ result = {...rest} = 69;
                     "right": {
                         "kind": 201392130,
                         "text": 69,
-                        "rawText": "69",
+                        "original": "69",
+                        "rawText": " 69",
                         "flags": 96,
                         "start": 20,
                         "end": 23

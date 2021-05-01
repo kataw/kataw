@@ -21,6 +21,7 @@ s = {s: true = x} = x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "s",
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
@@ -63,8 +64,9 @@ s = {s: true = x} = x
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16
@@ -75,6 +77,7 @@ s = {s: true = x} = x
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "s",
                                         "text": "s",
                                         "rawText": "s",
                                         "flags": 96,
@@ -103,8 +106,9 @@ s = {s: true = x} = x
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 19,
                         "end": 21

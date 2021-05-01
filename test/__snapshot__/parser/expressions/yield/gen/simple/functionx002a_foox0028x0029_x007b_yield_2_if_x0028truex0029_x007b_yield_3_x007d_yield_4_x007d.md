@@ -37,8 +37,9 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             },
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -72,7 +73,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 2,
-                                    "rawText": "2",
+                                    "original": "2",
+                                    "rawText": " 2",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 25
@@ -120,7 +122,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "expression": {
                                                     "kind": 201392130,
                                                     "text": 3,
-                                                    "rawText": "3",
+                                                    "original": "3",
+                                                    "rawText": " 3",
                                                     "flags": 96,
                                                     "start": 44,
                                                     "end": 46
@@ -169,7 +172,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 4,
-                                    "rawText": "4",
+                                    "original": "4",
+                                    "rawText": " 4",
                                     "flags": 96,
                                     "start": 55,
                                     "end": 57

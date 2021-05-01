@@ -31,8 +31,9 @@ class x {get function(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {get function(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "function",
                                 "text": "function",
-                                "rawText": "function",
+                                "rawText": " function",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 21

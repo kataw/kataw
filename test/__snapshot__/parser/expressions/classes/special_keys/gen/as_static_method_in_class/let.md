@@ -31,8 +31,9 @@ class x {static let(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {static let(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "let",
                                 "text": "let",
-                                "rawText": "let",
+                                "rawText": " let",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 19

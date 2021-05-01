@@ -21,6 +21,7 @@ x({set [foo](b){}, set [bar](d){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -37,6 +38,7 @@ x({set [foo](b){}, set [bar](d){}});
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "set",
                                         "text": "set",
                                         "rawText": "set",
                                         "flags": 96,
@@ -49,6 +51,7 @@ x({set [foo](b){}, set [bar](d){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -68,6 +71,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "b",
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
@@ -108,8 +112,9 @@ x({set [foo](b){}, set [bar](d){}});
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "set",
                                         "text": "set",
-                                        "rawText": "set",
+                                        "rawText": " set",
                                         "flags": 96,
                                         "start": 18,
                                         "end": 22
@@ -120,6 +125,7 @@ x({set [foo](b){}, set [bar](d){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
@@ -139,6 +145,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "d",
                                                         "text": "d",
                                                         "rawText": "d",
                                                         "flags": 96,

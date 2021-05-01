@@ -32,8 +32,9 @@ function not_gen() { (yield) ? yield : yield }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -60,6 +61,7 @@ function not_gen() { (yield) ? yield : yield }}
                                     "kind": 121,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
@@ -78,8 +80,9 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "consequent": {
                                     "kind": 134299649,
+                                    "original": "yield",
                                     "text": "yield",
-                                    "rawText": "yield",
+                                    "rawText": " yield",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 36
@@ -92,8 +95,9 @@ function not_gen() { (yield) ? yield : yield }}
                                 },
                                 "alternate": {
                                     "kind": 134299649,
+                                    "original": "yield",
                                     "text": "yield",
-                                    "rawText": "yield",
+                                    "rawText": " yield",
                                     "flags": 96,
                                     "start": 38,
                                     "end": 44

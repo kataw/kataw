@@ -50,8 +50,9 @@ var a: -z
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -84,6 +85,7 @@ var a: -z
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,

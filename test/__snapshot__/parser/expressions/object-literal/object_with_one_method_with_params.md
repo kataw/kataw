@@ -21,6 +21,7 @@ wrap({foo(a,b,c){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -39,6 +40,7 @@ wrap({foo(a,b,c){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -54,6 +56,7 @@ wrap({foo(a,b,c){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
@@ -72,6 +75,7 @@ wrap({foo(a,b,c){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "b",
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
@@ -90,6 +94,7 @@ wrap({foo(a,b,c){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "c",
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,

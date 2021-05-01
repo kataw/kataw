@@ -41,8 +41,9 @@ var gen = async function *g() {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "gen",
                             "text": "gen",
-                            "rawText": "gen",
+                            "rawText": " gen",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -71,6 +72,7 @@ var gen = async function *g() {
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "g",
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 96,
@@ -97,8 +99,9 @@ var gen = async function *g() {
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "callCount",
                                                     "text": "callCount",
-                                                    "rawText": "callCount",
+                                                    "rawText": "\n  callCount",
                                                     "flags": 96,
                                                     "start": 31,
                                                     "end": 43
@@ -112,7 +115,8 @@ var gen = async function *g() {
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "rawText": "1",
+                                                    "original": "1",
+                                                    "rawText": " 1",
                                                     "flags": 96,
                                                     "start": 46,
                                                     "end": 48
@@ -214,6 +218,7 @@ var gen = async function *g() {
                                                                                         "ellipsisToken": null,
                                                                                         "binding": {
                                                                                             "kind": 134299649,
+                                                                                            "original": "arg",
                                                                                             "text": "arg",
                                                                                             "rawText": "arg",
                                                                                             "flags": 96,
@@ -255,8 +260,9 @@ var gen = async function *g() {
                                                                                                         "kind": 157,
                                                                                                         "binding": {
                                                                                                             "kind": 134299649,
+                                                                                                            "original": "yield",
                                                                                                             "text": "yield",
-                                                                                                            "rawText": "yield",
+                                                                                                            "rawText": " yield",
                                                                                                             "flags": 96,
                                                                                                             "start": 123,
                                                                                                             "end": 129
@@ -265,8 +271,9 @@ var gen = async function *g() {
                                                                                                         "type": null,
                                                                                                         "initializer": {
                                                                                                             "kind": 134299649,
+                                                                                                            "original": "arg",
                                                                                                             "text": "arg",
-                                                                                                            "rawText": "arg",
+                                                                                                            "rawText": " arg",
                                                                                                             "flags": 96,
                                                                                                             "start": 131,
                                                                                                             "end": 135
@@ -307,6 +314,7 @@ var gen = async function *g() {
                                                                                                             },
                                                                                                             "argument": {
                                                                                                                 "kind": 134299649,
+                                                                                                                "original": "yield",
                                                                                                                 "text": "yield",
                                                                                                                 "rawText": "yield",
                                                                                                                 "flags": 96,

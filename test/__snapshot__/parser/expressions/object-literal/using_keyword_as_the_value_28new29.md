@@ -21,6 +21,7 @@ s = {s: new}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "s",
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
@@ -66,6 +67,7 @@ s = {s: new}
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "s",
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,

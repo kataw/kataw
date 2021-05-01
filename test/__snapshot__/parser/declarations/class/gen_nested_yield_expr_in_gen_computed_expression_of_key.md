@@ -41,6 +41,7 @@ function *f(){  class x{*[yield](a){}}  }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -73,8 +74,9 @@ function *f(){  class x{*[yield](a){}}  }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 23
@@ -130,6 +132,7 @@ function *f(){  class x{*[yield](a){}}  }
                                                         "ellipsisToken": null,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,

@@ -45,6 +45,7 @@
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -63,6 +64,7 @@
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "z",
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
@@ -77,8 +79,9 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "arr",
                                         "text": "arr",
-                                        "rawText": "arr",
+                                        "rawText": " arr",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 14
@@ -93,8 +96,9 @@
                             },
                             {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 17
@@ -117,8 +121,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "obj",
                     "text": "obj",
-                    "rawText": "obj",
+                    "rawText": " obj",
                     "flags": 96,
                     "start": 20,
                     "end": 24

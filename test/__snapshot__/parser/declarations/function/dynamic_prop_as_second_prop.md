@@ -57,6 +57,7 @@ let {a, [x]: y} = a;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -75,6 +76,7 @@ let {a, [x]: y} = a;
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -90,8 +92,9 @@ let {a, [x]: y} = a;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 12,
                                                 "end": 14
@@ -119,8 +122,9 @@ let {a, [x]: y} = a;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 17,
                             "end": 19

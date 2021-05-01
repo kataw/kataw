@@ -26,6 +26,7 @@
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -39,6 +40,7 @@
                                     "properties": [
                                         {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -57,8 +59,9 @@
                             },
                             {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
-                                "rawText": "c",
+                                "rawText": " c",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 10
@@ -81,8 +84,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "obj",
                     "text": "obj",
-                    "rawText": "obj",
+                    "rawText": " obj",
                     "flags": 96,
                     "start": 13,
                     "end": 17

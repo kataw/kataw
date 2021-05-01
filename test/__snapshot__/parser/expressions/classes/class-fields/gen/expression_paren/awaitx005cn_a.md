@@ -46,8 +46,9 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "await",
                                     "text": "await",
-                                    "rawText": "await",
+                                    "rawText": " await",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 14
@@ -80,6 +81,7 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -94,8 +96,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 16,
                 "end": 18

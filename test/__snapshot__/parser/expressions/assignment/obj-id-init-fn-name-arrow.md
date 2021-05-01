@@ -21,6 +21,7 @@ result = { arrow = () => {} } = {}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -44,8 +45,9 @@ result = { arrow = () => {} } = {}
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "arrow",
                                         "text": "arrow",
-                                        "rawText": "arrow",
+                                        "rawText": " arrow",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 16

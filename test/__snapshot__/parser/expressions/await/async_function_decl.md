@@ -33,8 +33,9 @@ async function await(){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "await",
                 "text": "await",
-                "rawText": "await",
+                "rawText": " await",
                 "flags": 96,
                 "start": 14,
                 "end": 20

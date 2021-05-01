@@ -39,6 +39,7 @@ function *f(){
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -94,8 +95,9 @@ function *f(){
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 30,
                 "end": 32

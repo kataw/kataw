@@ -39,8 +39,9 @@
                             "kind": 125,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 1,
                                 "end": 3
@@ -53,8 +54,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 7
@@ -74,6 +76,7 @@
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
+                                    "original": "'use strict'",
                                     "rawText": "\n  'use strict'",
                                     "flags": 4194401,
                                     "start": 14,
@@ -103,8 +106,9 @@
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 37,
                                         "end": 39
@@ -143,6 +147,7 @@
                         "expression": {
                             "kind": 201392131,
                             "text": "use strict",
+                            "original": "'use strict'",
                             "rawText": "\n  'use strict'",
                             "flags": 4194401,
                             "start": 48,

@@ -29,6 +29,7 @@ a={get fooProp():number{}}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -50,8 +51,9 @@ a={get fooProp():number{}}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "fooProp",
                                     "text": "fooProp",
-                                    "rawText": "fooProp",
+                                    "rawText": " fooProp",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 14

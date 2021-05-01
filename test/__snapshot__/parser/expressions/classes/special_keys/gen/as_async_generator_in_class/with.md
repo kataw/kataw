@@ -31,8 +31,9 @@ class x {async * with(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {async * with(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "with",
                                 "text": "with",
-                                "rawText": "with",
+                                "rawText": " with",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21

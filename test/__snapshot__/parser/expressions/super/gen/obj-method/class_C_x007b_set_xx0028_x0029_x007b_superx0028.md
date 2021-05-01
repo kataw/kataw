@@ -32,8 +32,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": " method",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 9
@@ -66,8 +67,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "C",
                                                     "text": "C",
-                                                    "rawText": "C",
+                                                    "rawText": " C",
                                                     "flags": 96,
                                                     "start": 19,
                                                     "end": 21
@@ -95,8 +97,9 @@
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "x",
                                                                     "text": "x",
-                                                                    "rawText": "x",
+                                                                    "rawText": " x",
                                                                     "flags": 96,
                                                                     "start": 27,
                                                                     "end": 29
@@ -110,6 +113,7 @@
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
+                                                                                "original": "_",
                                                                                 "text": "_",
                                                                                 "rawText": "_",
                                                                                 "flags": 96,

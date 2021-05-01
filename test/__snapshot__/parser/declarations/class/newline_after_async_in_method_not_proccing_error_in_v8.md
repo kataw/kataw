@@ -27,8 +27,9 @@ class K extends {} {;async\n async *1(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "K",
                 "text": "K",
-                "rawText": "K",
+                "rawText": " K",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -78,6 +79,7 @@ class K extends {} {;async\n async *1(){}}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -104,6 +106,7 @@ class K extends {} {;async\n async *1(){}}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -120,6 +123,7 @@ class K extends {} {;async\n async *1(){}}
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
@@ -137,6 +141,7 @@ class K extends {} {;async\n async *1(){}}
                     "expression": {
                         "kind": 201392130,
                         "text": 1,
+                        "original": "1",
                         "rawText": "1",
                         "flags": 96,
                         "start": 36,

@@ -28,8 +28,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "abstract",
                             "text": "abstract",
-                            "rawText": "abstract",
+                            "rawText": " abstract",
                             "flags": 96,
                             "start": 1,
                             "end": 10

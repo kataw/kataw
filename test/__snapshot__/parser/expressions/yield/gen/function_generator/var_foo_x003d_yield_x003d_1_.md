@@ -37,8 +37,9 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -106,8 +108,9 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "foo",
                                                             "text": "foo",
-                                                            "rawText": "foo",
+                                                            "rawText": " foo",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 47
@@ -118,8 +121,9 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "kind": 125,
                                                             "left": {
                                                                 "kind": 134299649,
+                                                                "original": "yield",
                                                                 "text": "yield",
-                                                                "rawText": "yield",
+                                                                "rawText": " yield",
                                                                 "flags": 96,
                                                                 "start": 49,
                                                                 "end": 55
@@ -133,7 +137,8 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "right": {
                                                                 "kind": 201392130,
                                                                 "text": 1,
-                                                                "rawText": "1",
+                                                                "original": "1",
+                                                                "rawText": " 1",
                                                                 "flags": 96,
                                                                 "start": 57,
                                                                 "end": 59

@@ -40,6 +40,7 @@ class x{[yield](a){}}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -61,8 +62,9 @@ class x{[yield](a){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 19,
                 "end": 21
@@ -87,6 +89,7 @@ class x{[yield](a){}}
                                 "kind": 194,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -106,6 +109,7 @@ class x{[yield](a){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,

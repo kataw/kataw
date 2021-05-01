@@ -27,8 +27,9 @@ class C { #aaa = 0 }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -56,7 +57,8 @@ class C { #aaa = 0 }
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "rawText": "0",
+                            "original": "0",
+                            "rawText": " 0",
                             "flags": 96,
                             "start": 16,
                             "end": 18

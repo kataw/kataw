@@ -55,8 +55,9 @@ for (const x in obj) { var x = 13 }
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -75,8 +76,9 @@ for (const x in obj) { var x = 13 }
             },
             "expression": {
                 "kind": 134299649,
+                "original": "obj",
                 "text": "obj",
-                "rawText": "obj",
+                "rawText": " obj",
                 "flags": 96,
                 "start": 15,
                 "end": 19
@@ -102,8 +104,9 @@ for (const x in obj) { var x = 13 }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 28
@@ -113,7 +116,8 @@ for (const x in obj) { var x = 13 }
                                         "initializer": {
                                             "kind": 201392130,
                                             "text": 13,
-                                            "rawText": "13",
+                                            "original": "13",
+                                            "rawText": " 13",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 33

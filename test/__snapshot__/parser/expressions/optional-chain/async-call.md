@@ -27,6 +27,7 @@ async?.(foo)
                 },
                 "member": {
                     "kind": 134299649,
+                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
@@ -43,6 +44,7 @@ async?.(foo)
                             "elements": [
                                 {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,

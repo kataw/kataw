@@ -31,8 +31,9 @@ class x {async f(foo = await bar){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {async f(foo = await bar){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 16
@@ -75,6 +77,7 @@ class x {async f(foo = await bar){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -93,8 +96,9 @@ class x {async f(foo = await bar){}}
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "bar",
                                                 "text": "bar",
-                                                "rawText": "bar",
+                                                "rawText": " bar",
                                                 "flags": 96,
                                                 "start": 28,
                                                 "end": 32

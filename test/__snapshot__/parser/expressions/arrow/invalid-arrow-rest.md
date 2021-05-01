@@ -37,6 +37,7 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "NaN",
                 "text": "NaN",
                 "rawText": "NaN",
                 "flags": 96,

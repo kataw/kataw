@@ -32,8 +32,9 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -70,8 +71,9 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 34
@@ -106,8 +108,9 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "x",
                                                             "text": "x",
-                                                            "rawText": "x",
+                                                            "rawText": " x",
                                                             "flags": 96,
                                                             "start": 42,
                                                             "end": 44
@@ -117,7 +120,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                         "initializer": {
                                                             "kind": 201392130,
                                                             "text": 10,
-                                                            "rawText": "10",
+                                                            "original": "10",
+                                                            "rawText": " 10",
                                                             "flags": 96,
                                                             "start": 46,
                                                             "end": 49
@@ -150,7 +154,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                 "expression": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "rawText": "1",
+                                                    "original": "1",
+                                                    "rawText": " 1",
                                                     "flags": 96,
                                                     "start": 56,
                                                     "end": 58
@@ -173,8 +178,9 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 66,
                                                 "end": 68

@@ -21,6 +21,7 @@ async = 5 + 5;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
@@ -38,7 +39,8 @@ async = 5 + 5;
                     "left": {
                         "kind": 201392130,
                         "text": 5,
-                        "rawText": "5",
+                        "original": "5",
+                        "rawText": " 5",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -52,7 +54,8 @@ async = 5 + 5;
                     "right": {
                         "kind": 201392130,
                         "text": 5,
-                        "rawText": "5",
+                        "original": "5",
+                        "rawText": " 5",
                         "flags": 96,
                         "start": 11,
                         "end": 13

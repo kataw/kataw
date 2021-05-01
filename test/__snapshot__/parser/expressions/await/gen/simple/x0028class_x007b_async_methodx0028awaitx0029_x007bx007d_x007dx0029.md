@@ -56,8 +56,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "method",
                                         "text": "method",
-                                        "rawText": "method",
+                                        "rawText": " method",
                                         "flags": 96,
                                         "start": 14,
                                         "end": 21
@@ -71,6 +72,7 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "await",
                                                     "text": "await",
                                                     "rawText": "await",
                                                     "flags": 96,

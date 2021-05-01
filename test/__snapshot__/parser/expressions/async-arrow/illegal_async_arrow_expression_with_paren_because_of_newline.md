@@ -22,6 +22,7 @@ f(async
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -50,6 +51,7 @@ f(async
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,

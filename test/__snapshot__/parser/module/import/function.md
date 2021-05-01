@@ -34,8 +34,9 @@ function f(){import {x} from "y";}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -73,6 +74,7 @@ function f(){import {x} from "y";}
                                 "from": {
                                     "kind": 201392131,
                                     "text": "y",
+                                    "original": "\"y\"",
                                     "rawText": " \"y\"",
                                     "flags": 96,
                                     "start": 28,
@@ -98,6 +100,7 @@ function f(){import {x} from "y";}
                                                 "name": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 64,

@@ -27,8 +27,9 @@ class x{   static(){}   }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,8 +52,9 @@ class x{   static(){}   }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "static",
                                 "text": "static",
-                                "rawText": "static",
+                                "rawText": "   static",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 17

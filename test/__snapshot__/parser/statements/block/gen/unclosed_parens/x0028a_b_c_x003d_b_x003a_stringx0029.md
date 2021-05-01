@@ -55,8 +55,9 @@
                             "expressions": [
                                 {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 7
@@ -65,8 +66,9 @@
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
-                                        "rawText": "c",
+                                        "rawText": " c",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 10
@@ -79,8 +81,9 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -111,8 +114,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 16,
                 "end": 23

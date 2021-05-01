@@ -31,8 +31,9 @@ class x {catch: x}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,6 +51,7 @@ class x {catch: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "catch",
                             "text": "catch",
                             "rawText": "catch",
                             "flags": 96,
@@ -76,8 +78,9 @@ class x {catch: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 15,
                 "end": 17

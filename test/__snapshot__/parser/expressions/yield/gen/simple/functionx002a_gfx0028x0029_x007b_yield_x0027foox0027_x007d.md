@@ -37,8 +37,9 @@ function* gf() { yield 'foo' }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gf",
                 "text": "gf",
-                "rawText": "gf",
+                "rawText": " gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12
@@ -72,6 +73,7 @@ function* gf() { yield 'foo' }
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "foo",
+                                    "original": "'foo'",
                                     "rawText": " 'foo'",
                                     "flags": 4194400,
                                     "start": 22,

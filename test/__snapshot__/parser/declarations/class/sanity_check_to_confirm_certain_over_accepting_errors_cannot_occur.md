@@ -46,8 +46,9 @@ class x { async get foo(){ }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class x { async get foo(){ }}
                         },
                         "key": {
                             "kind": 134299649,
+                            "original": "get",
                             "text": "get",
-                            "rawText": "get",
+                            "rawText": " get",
                             "flags": 96,
                             "start": 15,
                             "end": 19
@@ -96,8 +98,9 @@ class x { async get foo(){ }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 23

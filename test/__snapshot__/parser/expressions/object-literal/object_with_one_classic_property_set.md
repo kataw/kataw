@@ -21,6 +21,7 @@ wrap({set:b});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -43,6 +44,7 @@ wrap({set:b});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -51,6 +53,7 @@ wrap({set:b});
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "set",
                                             "text": "set",
                                             "rawText": "set",
                                             "flags": 96,

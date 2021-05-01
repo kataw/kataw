@@ -35,8 +35,9 @@ var e = (await, f);
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "e",
                             "text": "e",
-                            "rawText": "e",
+                            "rawText": " e",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -50,6 +51,7 @@ var e = (await, f);
                                 "expressions": [
                                     {
                                         "kind": 134299649,
+                                        "original": "await",
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
@@ -58,8 +60,9 @@ var e = (await, f);
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "f",
                                         "text": "f",
-                                        "rawText": "f",
+                                        "rawText": " f",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 17

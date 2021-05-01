@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "il}",
+                "original": "\"\\u{0fail}\"",
                 "rawText": "\"\\u{0fail}\"",
                 "flags": 8288,
                 "start": 0,

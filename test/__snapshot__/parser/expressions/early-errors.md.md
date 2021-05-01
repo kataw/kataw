@@ -184,8 +184,9 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 205,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 79,
                                     "end": 81
@@ -193,7 +194,8 @@ try {} catch(e) { for(var e of 0); };
                                 "right": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 83,
                                     "end": 85
@@ -234,6 +236,7 @@ try {} catch(e) { for(var e of 0); };
                     },
                     "binding": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -264,6 +267,7 @@ try {} catch(e) { for(var e of 0); };
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -280,6 +284,7 @@ try {} catch(e) { for(var e of 0); };
                             },
                             "binding": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -324,6 +329,7 @@ try {} catch(e) { for(var e of 0); };
                             },
                             "binding": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -366,6 +372,7 @@ try {} catch(e) { for(var e of 0); };
                             "expressions": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -382,6 +389,7 @@ try {} catch(e) { for(var e of 0); };
                                     },
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -429,7 +437,8 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": "\n\n// 12.4.1\n// It is an early Reference Error if IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.\n0",
                     "flags": 97,
                     "start": 543,
                     "end": 659
@@ -455,7 +464,8 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": "\n0",
                     "flags": 97,
                     "start": 662,
                     "end": 664
@@ -481,6 +491,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
+                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 777,
@@ -507,6 +518,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
+                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 782,
@@ -540,13 +552,15 @@ try {} catch(e) { for(var e of 0); };
                                     "left": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "rawText": "0",
+                                        "original": "0",
+                                        "rawText": " 0",
                                         "flags": 96,
                                         "start": 1054,
                                         "end": 1056
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -576,7 +590,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 1059,
                         "end": 1061
@@ -608,8 +623,9 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 1069,
                                         "end": 1071
@@ -661,7 +677,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 1078,
                         "end": 1080
@@ -693,8 +710,9 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 1088,
                                         "end": 1090
@@ -708,6 +726,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "b",
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
@@ -765,7 +784,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 1098,
                         "end": 1100
@@ -797,6 +817,7 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -812,6 +833,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "b",
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
@@ -869,7 +891,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 1114,
                         "end": 1116
@@ -898,6 +921,7 @@ try {} catch(e) { for(var e of 0); };
                             {
                                 "kind": 201392130,
                                 "text": 0,
+                                "original": "0",
                                 "rawText": "0",
                                 "flags": 96,
                                 "start": 1120,
@@ -922,7 +946,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1124,
                     "end": 1126
@@ -948,7 +973,8 @@ try {} catch(e) { for(var e of 0); };
                 "left": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": "\n\n// It is an early Reference Error if LeftHandSideExpression is neither an ObjectLiteral nor an ArrayLiteral and\n // IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.\n0",
                     "flags": 97,
                     "start": 1128,
                     "end": 1313
@@ -962,7 +988,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1315,
                     "end": 1317
@@ -994,6 +1021,7 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -1023,7 +1051,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1431,
                     "end": 1433
@@ -1055,6 +1084,7 @@ try {} catch(e) { for(var e of 0); };
                             "elements": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -1084,7 +1114,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1443,
                     "end": 1445
@@ -1116,6 +1147,7 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -1141,7 +1173,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 1455,
                         "end": 1457
@@ -1175,6 +1208,7 @@ try {} catch(e) { for(var e of 0); };
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -1200,7 +1234,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1467,
                     "end": 1469
@@ -1226,7 +1261,8 @@ try {} catch(e) { for(var e of 0); };
                 "left": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": "\n0",
                     "flags": 97,
                     "start": 1471,
                     "end": 1473
@@ -1240,7 +1276,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1476,
                     "end": 1478
@@ -1290,13 +1327,15 @@ try {} catch(e) { for(var e of 0); };
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 0,
-                                                    "rawText": "0",
+                                                    "original": "0",
+                                                    "rawText": " 0",
                                                     "flags": 96,
                                                     "start": 1758,
                                                     "end": 1760
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
+                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -1340,7 +1379,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1764,
                     "end": 1766
@@ -1384,6 +1424,7 @@ try {} catch(e) { for(var e of 0); };
                                             {
                                                 "kind": 201392130,
                                                 "text": 0,
+                                                "original": "0",
                                                 "rawText": "0",
                                                 "flags": 96,
                                                 "start": 1774,
@@ -1422,7 +1463,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1779,
                     "end": 1781
@@ -1461,6 +1503,7 @@ try {} catch(e) { for(var e of 0); };
                                 "argument": {
                                     "kind": 201392130,
                                     "text": 0,
+                                    "original": "0",
                                     "rawText": "0",
                                     "flags": 96,
                                     "start": 1958,
@@ -1489,7 +1532,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1962,
                     "end": 1964
@@ -1535,8 +1579,9 @@ try {} catch(e) { for(var e of 0); };
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 1974,
                                         "end": 1976
@@ -1569,7 +1614,8 @@ try {} catch(e) { for(var e of 0); };
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 1979,
                     "end": 1981
@@ -1616,13 +1662,15 @@ try {} catch(e) { for(var e of 0); };
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
-                                "rawText": "0",
+                                "original": "0",
+                                "rawText": " 0",
                                 "flags": 96,
                                 "start": 2261,
                                 "end": 2263
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -1646,7 +1694,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2267,
                 "end": 2269
@@ -1683,6 +1732,7 @@ try {} catch(e) { for(var e of 0); };
                         {
                             "kind": 201392130,
                             "text": 0,
+                            "original": "0",
                             "rawText": "0",
                             "flags": 96,
                             "start": 2277,
@@ -1701,7 +1751,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2282,
                 "end": 2284
@@ -1744,13 +1795,15 @@ try {} catch(e) { for(var e of 0); };
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
-                                "rawText": "0",
+                                "original": "0",
+                                "rawText": " 0",
                                 "flags": 96,
                                 "start": 2294,
                                 "end": 2296
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -1774,7 +1827,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2300,
                 "end": 2302
@@ -1812,6 +1866,7 @@ try {} catch(e) { for(var e of 0); };
                         {
                             "kind": 201392130,
                             "text": 0,
+                            "original": "0",
                             "rawText": "0",
                             "flags": 96,
                             "start": 2310,
@@ -1830,7 +1885,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2315,
                 "end": 2317
@@ -1863,6 +1919,7 @@ try {} catch(e) { for(var e of 0); };
             "initializer": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 2418,
@@ -1871,7 +1928,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2422,
                 "end": 2424
@@ -1903,6 +1961,7 @@ try {} catch(e) { for(var e of 0); };
             "initializer": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 2431,
@@ -1911,7 +1970,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2435,
                 "end": 2437
@@ -1957,13 +2017,15 @@ try {} catch(e) { for(var e of 0); };
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 2770,
                                     "end": 2772
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -1991,7 +2053,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2777,
                 "end": 2779
@@ -2030,6 +2093,7 @@ try {} catch(e) { for(var e of 0); };
                             {
                                 "kind": 201392130,
                                 "text": 0,
+                                "original": "0",
                                 "rawText": "0",
                                 "flags": 96,
                                 "start": 2788,
@@ -2052,7 +2116,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2794,
                 "end": 2796
@@ -2097,13 +2162,15 @@ try {} catch(e) { for(var e of 0); };
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 2807,
                                     "end": 2809
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -2131,7 +2198,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2814,
                 "end": 2816
@@ -2171,6 +2239,7 @@ try {} catch(e) { for(var e of 0); };
                             {
                                 "kind": 201392130,
                                 "text": 0,
+                                "original": "0",
                                 "rawText": "0",
                                 "flags": 96,
                                 "start": 2825,
@@ -2193,7 +2262,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2831,
                 "end": 2833
@@ -2228,6 +2298,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
+                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 2841,
@@ -2240,7 +2311,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2846,
                 "end": 2848
@@ -2274,6 +2346,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
+                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 2856,
@@ -2286,7 +2359,8 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2861,
                 "end": 2863
@@ -2306,6 +2380,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "u",
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
@@ -2326,6 +2401,7 @@ try {} catch(e) { for(var e of 0); };
                         "expression": {
                             "kind": 201392130,
                             "text": 110000,
+                            "original": "110000",
                             "rawText": "110000",
                             "flags": 96,
                             "start": 2941,
@@ -2354,6 +2430,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "u",
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
@@ -2373,6 +2450,7 @@ try {} catch(e) { for(var e of 0); };
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "FFFFFFF",
                             "text": "FFFFFFF",
                             "rawText": "FFFFFFF",
                             "flags": 96,
@@ -2415,6 +2493,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "FFFFFFF",
                 "text": "i",
                 "rawText": "FFFFFFF",
                 "flags": 96,
@@ -2442,6 +2521,7 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "FFFFFFF",
                 "text": "i",
                 "rawText": "FFFFFFF",
                 "flags": 96,
@@ -2465,8 +2545,9 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 3165,
                                     "end": 3167
@@ -2563,8 +2644,9 @@ try {} catch(e) { for(var e of 0); };
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 3188,
                                     "end": 3190
@@ -2606,6 +2688,7 @@ try {} catch(e) { for(var e of 0); };
                                                                         "expression": {
                                                                             "kind": 201392130,
                                                                             "text": 0,
+                                                                            "original": "0",
                                                                             "rawText": "0",
                                                                             "flags": 96,
                                                                             "start": 3200,
@@ -2722,8 +2805,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 3232,
                 "end": 3234
@@ -2739,8 +2823,9 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "B",
                     "text": "B",
-                    "rawText": "B",
+                    "rawText": " B",
                     "flags": 96,
                     "start": 3242,
                     "end": 3244
@@ -2766,8 +2851,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 3246,
                                 "end": 3258
@@ -2807,6 +2893,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
                                                                     "rawText": "constructor",
                                                                     "flags": 96,
@@ -2930,8 +3017,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 3303,
                 "end": 3305
@@ -2947,8 +3035,9 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "B",
                     "text": "B",
-                    "rawText": "B",
+                    "rawText": " B",
                     "flags": 96,
                     "start": 3313,
                     "end": 3315
@@ -2974,8 +3063,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 3317,
                                 "end": 3329
@@ -3015,6 +3105,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
                                                                     "rawText": "constructor",
                                                                     "flags": 96,
@@ -3138,8 +3229,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 3375,
                 "end": 3377
@@ -3155,8 +3247,9 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "B",
                     "text": "B",
-                    "rawText": "B",
+                    "rawText": " B",
                     "flags": 96,
                     "start": 3385,
                     "end": 3387
@@ -3182,8 +3275,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 3389,
                                 "end": 3401
@@ -3223,8 +3317,9 @@ try {} catch(e) { for(var e of 0); };
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
-                                                                    "rawText": "constructor",
+                                                                    "rawText": " constructor",
                                                                     "flags": 96,
                                                                     "start": 3411,
                                                                     "end": 3423
@@ -3346,8 +3441,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 3450,
                 "end": 3452
@@ -3363,8 +3459,9 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "B",
                     "text": "B",
-                    "rawText": "B",
+                    "rawText": " B",
                     "flags": 96,
                     "start": 3460,
                     "end": 3462
@@ -3390,8 +3487,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 3464,
                                 "end": 3476
@@ -3431,8 +3529,9 @@ try {} catch(e) { for(var e of 0); };
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "constructor",
                                                                     "text": "constructor",
-                                                                    "rawText": "constructor",
+                                                                    "rawText": " constructor",
                                                                     "flags": 96,
                                                                     "start": 3486,
                                                                     "end": 3498
@@ -3446,6 +3545,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
+                                                                                "original": "a",
                                                                                 "text": "a",
                                                                                 "rawText": "a",
                                                                                 "flags": 96,
@@ -3577,8 +3677,9 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": "\n// It is a Syntax Error if SV(UnicodeEscapeSequence) is neither the UTF16Encoding (10.1.1) of a single Unicode code\n// point with the Unicode property @{x201c}@ID_Continue@{x201d}@ nor \"$\" or \"_\" nor the UTF16Encoding of either <ZWNJ> or <ZWJ>.\na",
                 "flags": 96,
                 "start": 3744,
                 "end": 3991
@@ -3597,8 +3698,9 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": "\na",
                 "flags": 96,
                 "start": 3999,
                 "end": 4001
@@ -3620,6 +3722,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392131,
                     "text": "\\u{110000}",
+                    "original": "\"\\\\u{110000}\"",
                     "rawText": "\"\\\\u{110000}\"",
                     "flags": 96,
                     "start": 4081,
@@ -3640,6 +3743,7 @@ try {} catch(e) { for(var e of 0); };
                 "expression": {
                     "kind": 201392131,
                     "text": "\\u{FFFFFFF}",
+                    "original": "\"\\\\u{FFFFFFF}\"",
                     "rawText": "\"\\\\u{FFFFFFF}\"",
                     "flags": 96,
                     "start": 4098,
@@ -3658,6 +3762,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\n\n// 12.14.5.1\n// It is a Syntax Error if IsValidSimpleAssignmentTarget of IdentifierReference is false.\n\"use strict\"",
                 "flags": 97,
                 "start": 4114,
@@ -3680,6 +3785,7 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "eval",
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
@@ -3705,7 +3811,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 4242,
                         "end": 4244
@@ -3727,6 +3834,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4246,
@@ -3751,6 +3859,7 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "eval",
                                         "text": "eval",
                                         "rawText": "eval",
                                         "flags": 96,
@@ -3760,7 +3869,8 @@ try {} catch(e) { for(var e of 0); };
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "rawText": "0",
+                                        "original": "0",
+                                        "rawText": " 0",
                                         "flags": 96,
                                         "start": 4269,
                                         "end": 4271
@@ -3788,7 +3898,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 4274,
                         "end": 4276
@@ -3810,6 +3921,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4278,
@@ -3832,6 +3944,7 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "arguments",
                                     "text": "arguments",
                                     "rawText": "arguments",
                                     "flags": 96,
@@ -3857,7 +3970,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 4307,
                         "end": 4309
@@ -3879,6 +3993,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\n\"use strict\"",
                 "flags": 97,
                 "start": 4311,
@@ -3903,6 +4018,7 @@ try {} catch(e) { for(var e of 0); };
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "arguments",
                                         "text": "arguments",
                                         "rawText": "arguments",
                                         "flags": 96,
@@ -3912,7 +4028,8 @@ try {} catch(e) { for(var e of 0); };
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "rawText": "0",
+                                        "original": "0",
+                                        "rawText": " 0",
                                         "flags": 96,
                                         "start": 4339,
                                         "end": 4341
@@ -3940,7 +4057,8 @@ try {} catch(e) { for(var e of 0); };
                     "right": {
                         "kind": 201392130,
                         "text": 0,
-                        "rawText": "0",
+                        "original": "0",
+                        "rawText": " 0",
                         "flags": 96,
                         "start": 4344,
                         "end": 4346
@@ -3968,6 +4086,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 4476,
@@ -3977,8 +4096,9 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "label",
                     "text": "label",
-                    "rawText": "label",
+                    "rawText": " label",
                     "flags": 96,
                     "start": 4478,
                     "end": 4484
@@ -4044,8 +4164,9 @@ try {} catch(e) { for(var e of 0); };
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 4494,
                         "end": 4496
@@ -4099,6 +4220,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 4504,
@@ -4108,8 +4230,9 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "labelA",
                     "text": "labelA",
-                    "rawText": "labelA",
+                    "rawText": " labelA",
                     "flags": 96,
                     "start": 4506,
                     "end": 4513
@@ -4166,8 +4289,9 @@ try {} catch(e) { for(var e of 0); };
                     "kind": 163,
                     "label": {
                         "kind": 134299649,
+                        "original": "labelB",
                         "text": "labelB",
-                        "rawText": "labelB",
+                        "rawText": " labelB",
                         "flags": 96,
                         "start": 4514,
                         "end": 4521
@@ -4233,8 +4357,9 @@ try {} catch(e) { for(var e of 0); };
                         "generatorToken": null,
                         "name": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 4531,
                             "end": 4533
@@ -4292,6 +4417,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 4541,
@@ -4301,8 +4427,9 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "label",
                     "text": "label",
-                    "rawText": "label",
+                    "rawText": " label",
                     "flags": 96,
                     "start": 4543,
                     "end": 4549
@@ -4368,8 +4495,9 @@ try {} catch(e) { for(var e of 0); };
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 4559,
                         "end": 4561
@@ -4433,6 +4561,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 4576,
@@ -4454,8 +4583,9 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
+                    "original": "label",
                     "text": "label",
-                    "rawText": "label",
+                    "rawText": " label",
                     "flags": 96,
                     "start": 4585,
                     "end": 4591
@@ -4521,8 +4651,9 @@ try {} catch(e) { for(var e of 0); };
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 4601,
                         "end": 4603
@@ -4581,8 +4712,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4705,
                 "end": 4707
@@ -4617,6 +4749,7 @@ try {} catch(e) { for(var e of 0); };
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -4654,7 +4787,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4725,
                                     "end": 4727
@@ -4706,8 +4840,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4741,
                 "end": 4743
@@ -4742,6 +4877,7 @@ try {} catch(e) { for(var e of 0); };
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -4766,8 +4902,9 @@ try {} catch(e) { for(var e of 0); };
                                             "asteriskToken": null,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
-                                                "rawText": "b",
+                                                "rawText": " b",
                                                 "flags": 96,
                                                 "start": 4757,
                                                 "end": 4759
@@ -4786,7 +4923,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4763,
                                     "end": 4765
@@ -4838,8 +4976,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4779,
                 "end": 4781
@@ -4874,6 +5013,7 @@ try {} catch(e) { for(var e of 0); };
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -4903,8 +5043,9 @@ try {} catch(e) { for(var e of 0); };
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
-                                                "rawText": "b",
+                                                "rawText": " b",
                                                 "flags": 96,
                                                 "start": 4796,
                                                 "end": 4798
@@ -4923,7 +5064,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4802,
                                     "end": 4804
@@ -4975,8 +5117,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4818,
                 "end": 4820
@@ -5011,6 +5154,7 @@ try {} catch(e) { for(var e of 0); };
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -5027,8 +5171,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 4828,
                                                 "end": 4830
@@ -5043,8 +5188,9 @@ try {} catch(e) { for(var e of 0); };
                                                 "kind": 131,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "f",
                                                     "text": "f",
-                                                    "rawText": "f",
+                                                    "rawText": " f",
                                                     "flags": 96,
                                                     "start": 4832,
                                                     "end": 4834
@@ -5091,7 +5237,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4845,
                                     "end": 4847
@@ -5143,8 +5290,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4861,
                 "end": 4863
@@ -5188,8 +5336,9 @@ try {} catch(e) { for(var e of 0); };
                                                     "setKeyword": null,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
-                                                        "rawText": "a",
+                                                        "rawText": " a",
                                                         "flags": 96,
                                                         "start": 4877,
                                                         "end": 4879
@@ -5235,7 +5384,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4884,
                                     "end": 4886
@@ -5287,8 +5437,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4900,
                 "end": 4902
@@ -5328,6 +5479,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 205,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
@@ -5369,7 +5521,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4922,
                                     "end": 4924
@@ -5421,8 +5574,9 @@ try {} catch(e) { for(var e of 0); };
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 4938,
                 "end": 4940
@@ -5462,6 +5616,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
@@ -5509,7 +5664,8 @@ try {} catch(e) { for(var e of 0); };
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 4960,
                                     "end": 4962
@@ -5560,8 +5716,9 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "0",
                 "text": "i",
-                "rawText": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 5062,
                 "end": 5068
@@ -5587,8 +5744,9 @@ try {} catch(e) { for(var e of 0); };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "0",
                 "text": "i",
-                "rawText": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 5074,
                 "end": 5080
@@ -5628,6 +5786,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "catchParameter": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
@@ -5654,8 +5813,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "e",
                                                 "text": "e",
-                                                "rawText": "e",
+                                                "rawText": " e",
                                                 "flags": 96,
                                                 "start": 5259,
                                                 "end": 5261
@@ -5732,6 +5892,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "catchParameter": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
@@ -5756,8 +5917,9 @@ try {} catch(e) { for(var e of 0); };
                                 "generatorToken": null,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "e",
                                     "text": "e",
-                                    "rawText": "e",
+                                    "rawText": " e",
                                     "flags": 96,
                                     "start": 5292,
                                     "end": 5294
@@ -5846,6 +6008,7 @@ try {} catch(e) { for(var e of 0); };
                 },
                 "catchParameter": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
@@ -5878,8 +6041,9 @@ try {} catch(e) { for(var e of 0); };
                                             "kind": 157,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "e",
                                                 "text": "e",
-                                                "rawText": "e",
+                                                "rawText": " e",
                                                 "flags": 96,
                                                 "start": 5607,
                                                 "end": 5609
@@ -5899,7 +6063,8 @@ try {} catch(e) { for(var e of 0); };
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 5612,
                                     "end": 5614

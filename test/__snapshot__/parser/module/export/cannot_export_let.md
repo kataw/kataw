@@ -45,8 +45,9 @@ export var let = x;
                             "kind": 157,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "let",
                                 "text": "let",
-                                "rawText": "let",
+                                "rawText": " let",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 14
@@ -55,8 +56,9 @@ export var let = x;
                             "type": null,
                             "initializer": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 18

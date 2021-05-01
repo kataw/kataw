@@ -125,8 +125,9 @@ class x { #foo() {}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -423,6 +424,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1002,6 +1004,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1222,6 +1225,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1442,6 +1446,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1516,6 +1521,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1626,6 +1632,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1700,6 +1707,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1992,8 +2000,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 454,
                                         "end": 456
@@ -2129,8 +2138,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 481,
                                         "end": 483
@@ -2266,8 +2276,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 508,
                                         "end": 510
@@ -2322,8 +2333,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 522,
                                         "end": 524
@@ -2469,8 +2481,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 557,
                                         "end": 559
@@ -2530,8 +2543,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 575,
                                         "end": 577
@@ -2636,6 +2650,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -2696,8 +2711,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 613,
                                         "end": 615
@@ -2711,6 +2727,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -2776,8 +2793,9 @@ class x { #foo() {}}
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 634,
                                         "end": 636
@@ -2791,6 +2809,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -4477,6 +4496,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -4587,6 +4607,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -4697,6 +4718,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -4807,6 +4829,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -4917,6 +4940,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -5027,6 +5051,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -7338,6 +7363,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -7790,7 +7816,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2073,
                                     "end": 2075
@@ -7909,7 +7936,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2101,
                                     "end": 2103
@@ -8033,7 +8061,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2133,
                                     "end": 2135
@@ -8080,6 +8109,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -8176,7 +8206,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2168,
                                     "end": 2170
@@ -8300,7 +8331,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2197,
                                     "end": 2199
@@ -8424,7 +8456,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2231,
                                     "end": 2233
@@ -8543,8 +8576,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2261,
                                     "end": 2263
@@ -8656,8 +8690,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2284,
                                     "end": 2286
@@ -8774,8 +8809,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2311,
                                     "end": 2313
@@ -8825,6 +8861,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -8911,8 +8948,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2341,
                                     "end": 2343
@@ -9029,8 +9067,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2365,
                                     "end": 2367
@@ -9147,8 +9186,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2394,
                                     "end": 2396
@@ -9270,8 +9310,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2424,
                                     "end": 2426
@@ -9281,7 +9322,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2428,
                                     "end": 2430
@@ -9390,8 +9432,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2451,
                                     "end": 2453
@@ -9401,7 +9444,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2455,
                                     "end": 2457
@@ -9515,8 +9559,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2482,
                                     "end": 2484
@@ -9526,7 +9571,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2486,
                                     "end": 2488
@@ -9573,6 +9619,7 @@ class x { #foo() {}}
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -9659,8 +9706,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2516,
                                     "end": 2518
@@ -9670,7 +9718,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2520,
                                     "end": 2522
@@ -9784,8 +9833,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2544,
                                     "end": 2546
@@ -9795,7 +9845,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2548,
                                     "end": 2550
@@ -9909,8 +9960,9 @@ class x { #foo() {}}
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 2577,
                                     "end": 2579
@@ -9920,7 +9972,8 @@ class x { #foo() {}}
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 2581,
                                     "end": 2583

@@ -27,8 +27,9 @@ class x extends y { f(){} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -44,8 +45,9 @@ class x extends y { f(){} }
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -71,8 +73,9 @@ class x extends y { f(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 21

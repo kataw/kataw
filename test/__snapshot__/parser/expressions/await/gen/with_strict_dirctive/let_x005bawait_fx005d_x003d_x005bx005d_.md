@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -56,6 +57,7 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "await",
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
@@ -74,8 +76,9 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 26

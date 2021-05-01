@@ -56,8 +56,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "set",
                                         "text": "set",
-                                        "rawText": "set",
+                                        "rawText": " set",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 19

@@ -50,6 +50,7 @@
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -58,6 +59,7 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -74,6 +76,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -86,8 +89,9 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -115,6 +119,7 @@
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -137,6 +142,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -149,8 +155,9 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 30,
                             "end": 32
@@ -186,6 +193,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -219,6 +227,7 @@
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -227,6 +236,7 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -243,6 +253,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -276,6 +287,7 @@
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -298,6 +310,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -339,6 +352,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -359,6 +373,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest1",
                                 "text": "rest1",
                                 "rawText": "rest1",
                                 "flags": 96,
@@ -392,6 +407,7 @@
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -400,6 +416,7 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -416,6 +433,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest",
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
@@ -436,6 +454,7 @@
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "rest1",
                                 "text": "rest1",
                                 "rawText": "rest1",
                                 "flags": 96,
@@ -476,6 +495,7 @@
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -511,6 +531,7 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "rest",
                             "text": "rest",
                             "rawText": "rest",
                             "flags": 96,
@@ -541,6 +562,7 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "rest1",
                 "text": "rest1",
                 "rawText": "rest1",
                 "flags": 96,

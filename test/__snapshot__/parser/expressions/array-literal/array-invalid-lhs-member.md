@@ -43,6 +43,7 @@
                                                 "kind": 205,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -52,7 +53,8 @@
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 0,
-                                                    "rawText": "0",
+                                                    "original": "0",
+                                                    "rawText": " 0",
                                                     "flags": 96,
                                                     "start": 5,
                                                     "end": 7
@@ -73,6 +75,7 @@
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,

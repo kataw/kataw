@@ -32,6 +32,7 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -66,8 +67,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "C",
                                                     "text": "C",
-                                                    "rawText": "C",
+                                                    "rawText": " C",
                                                     "flags": 96,
                                                     "start": 20,
                                                     "end": 22
@@ -85,8 +87,9 @@
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " x",
                                                                 "flags": 96,
                                                                 "start": 28,
                                                                 "end": 30

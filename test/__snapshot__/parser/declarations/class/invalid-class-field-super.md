@@ -42,8 +42,9 @@ class C { [super.bbb] = 0 };
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,8 +62,9 @@ class C { [super.bbb] = 0 };
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "aaa",
                             "text": "aaa",
-                            "rawText": "aaa",
+                            "rawText": " aaa",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -85,6 +87,7 @@ class C { [super.bbb] = 0 };
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "bbb",
                                 "text": "bbb",
                                 "rawText": "bbb",
                                 "flags": 96,
@@ -126,8 +129,9 @@ class C { [super.bbb] = 0 };
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 35,
                 "end": 37
@@ -145,8 +149,9 @@ class C { [super.bbb] = 0 };
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "aaa",
                             "text": "aaa",
-                            "rawText": "aaa",
+                            "rawText": " aaa",
                             "flags": 96,
                             "start": 39,
                             "end": 43
@@ -181,6 +186,7 @@ class C { [super.bbb] = 0 };
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "bbb",
                                     "text": "bbb",
                                     "rawText": "bbb",
                                     "flags": 96,
@@ -226,8 +232,9 @@ class C { [super.bbb] = 0 };
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 71,
                 "end": 73
@@ -245,8 +252,9 @@ class C { [super.bbb] = 0 };
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "aaa",
                             "text": "aaa",
-                            "rawText": "aaa",
+                            "rawText": " aaa",
                             "flags": 96,
                             "start": 75,
                             "end": 79
@@ -293,6 +301,7 @@ class C { [super.bbb] = 0 };
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "bbb",
                                         "text": "bbb",
                                         "rawText": "bbb",
                                         "flags": 96,
@@ -342,8 +351,9 @@ class C { [super.bbb] = 0 };
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 113,
                 "end": 115
@@ -377,6 +387,7 @@ class C { [super.bbb] = 0 };
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "bbb",
                                     "text": "bbb",
                                     "rawText": "bbb",
                                     "flags": 96,
@@ -396,7 +407,8 @@ class C { [super.bbb] = 0 };
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "rawText": "0",
+                            "original": "0",
+                            "rawText": " 0",
                             "flags": 96,
                             "start": 131,
                             "end": 133

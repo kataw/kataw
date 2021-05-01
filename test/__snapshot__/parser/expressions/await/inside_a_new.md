@@ -33,8 +33,9 @@ async function f(){ new await x; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,8 +74,9 @@ async function f(){ new await x; }
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 29,
                                         "end": 31

@@ -72,6 +72,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0e1",
                 "rawText": "0e1",
                 "flags": 96,
                 "start": 0,
@@ -86,7 +87,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 100,
-                "rawText": "1e2",
+                "original": "1e2",
+                "rawText": "\n1e2",
                 "flags": 97,
                 "start": 5,
                 "end": 9
@@ -100,7 +102,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 2000,
-                "rawText": "2e3",
+                "original": "2e3",
+                "rawText": "\n2e3",
                 "flags": 97,
                 "start": 11,
                 "end": 15
@@ -114,7 +117,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 30000,
-                "rawText": "3e4",
+                "original": "3e4",
+                "rawText": "\n3e4",
                 "flags": 97,
                 "start": 17,
                 "end": 21
@@ -128,7 +132,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 400000,
-                "rawText": "4e5",
+                "original": "4e5",
+                "rawText": "\n4e5",
                 "flags": 97,
                 "start": 23,
                 "end": 27
@@ -142,7 +147,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 5000000,
-                "rawText": "5e6",
+                "original": "5e6",
+                "rawText": "\n5e6",
                 "flags": 97,
                 "start": 29,
                 "end": 33
@@ -156,7 +162,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 60000000,
-                "rawText": "6e7",
+                "original": "6e7",
+                "rawText": "\n6e7",
                 "flags": 97,
                 "start": 35,
                 "end": 39
@@ -170,7 +177,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 700000000,
-                "rawText": "7e8",
+                "original": "7e8",
+                "rawText": "\n7e8",
                 "flags": 97,
                 "start": 41,
                 "end": 45
@@ -184,7 +192,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 8000000000,
-                "rawText": "8e9",
+                "original": "8e9",
+                "rawText": "\n8e9",
                 "flags": 97,
                 "start": 47,
                 "end": 51
@@ -198,7 +207,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 9,
-                "rawText": "9e0",
+                "original": "9e0",
+                "rawText": "\n9e0",
                 "flags": 97,
                 "start": 53,
                 "end": 57
@@ -212,7 +222,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 100000000000,
-                "rawText": "10e10",
+                "original": "10e10",
+                "rawText": "\n10e10",
                 "flags": 97,
                 "start": 59,
                 "end": 65
@@ -226,7 +237,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 2.1e+22,
-                "rawText": "21e21",
+                "original": "21e21",
+                "rawText": "\n21e21",
                 "flags": 97,
                 "start": 67,
                 "end": 73
@@ -240,7 +252,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 3.2e+33,
-                "rawText": "32e32",
+                "original": "32e32",
+                "rawText": "\n32e32",
                 "flags": 97,
                 "start": 75,
                 "end": 81
@@ -254,7 +267,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 4.3e+44,
-                "rawText": "43e43",
+                "original": "43e43",
+                "rawText": "\n43e43",
                 "flags": 97,
                 "start": 83,
                 "end": 89
@@ -268,7 +282,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 5.4e+55,
-                "rawText": "54e54",
+                "original": "54e54",
+                "rawText": "\n54e54",
                 "flags": 97,
                 "start": 91,
                 "end": 97
@@ -282,7 +297,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 6.5e+66,
-                "rawText": "65e65",
+                "original": "65e65",
+                "rawText": "\n65e65",
                 "flags": 97,
                 "start": 99,
                 "end": 105
@@ -296,7 +312,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 7.6e+80,
-                "rawText": "76e79",
+                "original": "76e79",
+                "rawText": "\n76e79",
                 "flags": 97,
                 "start": 107,
                 "end": 113
@@ -310,7 +327,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 8.7e+88,
-                "rawText": "87e87",
+                "original": "87e87",
+                "rawText": "\n87e87",
                 "flags": 97,
                 "start": 115,
                 "end": 121
@@ -324,7 +342,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 9.8e+99,
-                "rawText": "98e98",
+                "original": "98e98",
+                "rawText": "\n98e98",
                 "flags": 97,
                 "start": 123,
                 "end": 129
@@ -338,7 +357,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 190000000000000000000,
-                "rawText": "19e19",
+                "original": "19e19",
+                "rawText": "\n19e19",
                 "flags": 97,
                 "start": 131,
                 "end": 137
@@ -352,7 +372,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1.23e+125,
-                "rawText": "123e123",
+                "original": "123e123",
+                "rawText": "\n123e123",
                 "flags": 97,
                 "start": 139,
                 "end": 147
@@ -366,7 +387,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": null,
-                "rawText": "456e456",
+                "original": "456e456",
+                "rawText": "\n456e456",
                 "flags": 97,
                 "start": 149,
                 "end": 157
@@ -380,7 +402,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": null,
-                "rawText": "7890e789",
+                "original": "7890e789",
+                "rawText": "\n7890e789",
                 "flags": 97,
                 "start": 159,
                 "end": 168
@@ -394,7 +417,8 @@
             "expression": {
                 "kind": 201392130,
                 "text": null,
-                "rawText": "1234567890e1234567890",
+                "original": "1234567890e1234567890",
+                "rawText": "\n1234567890e1234567890",
                 "flags": 97,
                 "start": 170,
                 "end": 192

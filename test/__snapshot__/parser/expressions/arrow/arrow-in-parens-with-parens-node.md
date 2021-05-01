@@ -31,8 +31,9 @@ var asserted1 = <any>((n) => { return n; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "asserted1",
                             "text": "asserted1",
-                            "rawText": "asserted1",
+                            "rawText": " asserted1",
                             "flags": 96,
                             "start": 3,
                             "end": 13
@@ -53,6 +54,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "parameters": [
                                     {
                                         "kind": 134299649,
+                                        "original": "n",
                                         "text": "n",
                                         "rawText": "n",
                                         "flags": 96,
@@ -78,8 +80,9 @@ var asserted1 = <any>((n) => { return n; });
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "n",
                                                     "text": "n",
-                                                    "rawText": "n",
+                                                    "rawText": " n",
                                                     "flags": 96,
                                                     "start": 37,
                                                     "end": 39

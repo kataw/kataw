@@ -31,8 +31,9 @@ class private {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "private",
                 "text": "private",
-                "rawText": "private",
+                "rawText": " private",
                 "flags": 96,
                 "start": 5,
                 "end": 13

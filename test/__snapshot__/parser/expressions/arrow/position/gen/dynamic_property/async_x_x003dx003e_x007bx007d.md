@@ -36,8 +36,9 @@ async x => {}[foo]
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -88,6 +89,7 @@ async x => {}[foo]
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,

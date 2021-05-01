@@ -29,6 +29,7 @@ do a instanceof b > c while (x);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -49,8 +50,9 @@ do a instanceof b > c while (x);
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 2,
                             "end": 4
@@ -63,8 +65,9 @@ do a instanceof b > c while (x);
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 15,
                             "end": 17
@@ -81,8 +84,9 @@ do a instanceof b > c while (x);
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 19,
                         "end": 21

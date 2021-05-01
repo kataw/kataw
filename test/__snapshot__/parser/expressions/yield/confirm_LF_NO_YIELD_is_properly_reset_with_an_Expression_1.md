@@ -33,6 +33,7 @@ function *g(){ return x + f(yield f); }
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -65,8 +66,9 @@ function *g(){ return x + f(yield f); }
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 23
@@ -81,8 +83,9 @@ function *g(){ return x + f(yield f); }
                                     "kind": 131,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "f",
                                         "text": "f",
-                                        "rawText": "f",
+                                        "rawText": " f",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27
@@ -102,8 +105,9 @@ function *g(){ return x + f(yield f); }
                                                 "asteriskToken": null,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "f",
                                                     "text": "f",
-                                                    "rawText": "f",
+                                                    "rawText": " f",
                                                     "flags": 96,
                                                     "start": 33,
                                                     "end": 35

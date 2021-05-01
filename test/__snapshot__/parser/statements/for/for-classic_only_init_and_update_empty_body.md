@@ -44,6 +44,7 @@ for (a;;c);
             },
             "initializer": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -52,6 +53,7 @@ for (a;;c);
             },
             "condition": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,

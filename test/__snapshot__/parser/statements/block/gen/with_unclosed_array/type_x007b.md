@@ -33,8 +33,9 @@
                                 "elements": [
                                     {
                                         "kind": 134299649,
+                                        "original": "type",
                                         "text": "type",
-                                        "rawText": "type",
+                                        "rawText": " type",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 7

@@ -40,8 +40,9 @@ new x => ok
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -50,8 +51,9 @@ new x => ok
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "ok",
                         "text": "ok",
-                        "rawText": "ok",
+                        "rawText": " ok",
                         "flags": 96,
                         "start": 8,
                         "end": 11

@@ -41,6 +41,7 @@
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -49,8 +50,9 @@
                                                     },
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "bar",
                                                         "text": "bar",
-                                                        "rawText": "bar",
+                                                        "rawText": " bar",
                                                         "flags": 96,
                                                         "start": 14,
                                                         "end": 18
@@ -67,6 +69,7 @@
                                         },
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "join",
                                             "text": "join",
                                             "rawText": "join",
                                             "flags": 96,
@@ -83,6 +86,7 @@
                                             {
                                                 "kind": 201392131,
                                                 "text": "",
+                                                "original": "\"\"",
                                                 "rawText": "\"\"",
                                                 "flags": 96,
                                                 "start": 25,
@@ -100,6 +104,7 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "ident",
                                     "text": "ident",
                                     "rawText": "ident",
                                     "flags": 96,

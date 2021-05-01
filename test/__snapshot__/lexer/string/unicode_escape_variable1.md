@@ -34,6 +34,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
+                "original": "\"\\u{0123}\"",
                 "rawText": "\"\\u{0123}\"",
                 "flags": 8288,
                 "start": 0,
@@ -48,6 +49,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "䕧",
+                "original": "\"\\u{4567}\"",
                 "rawText": "\n\"\\u{4567}\"",
                 "flags": 8289,
                 "start": 12,
@@ -62,6 +64,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Ȧʼ",
+                "original": "\"\\u{89abc}\"",
                 "rawText": "\n\"\\u{89abc}\"",
                 "flags": 8289,
                 "start": 25,
@@ -76,6 +79,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ͻΫ",
+                "original": "\"\\u{defAB}\"",
                 "rawText": "\n\"\\u{defAB}\"",
                 "flags": 8289,
                 "start": 39,
@@ -90,6 +94,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "췯",
+                "original": "\"\\u{CDEF}\"",
                 "rawText": "\n\"\\u{CDEF}\"",
                 "flags": 8289,
                 "start": 53,
@@ -104,6 +109,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix Hͅ",
+                "original": "\"prefix \\u{012345}\"",
                 "rawText": "\n\"prefix \\u{012345}\"",
                 "flags": 8289,
                 "start": 66,
@@ -118,6 +124,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅ postfix",
+                "original": "\"\\u{012345} postfix\"",
                 "rawText": "\n\"\\u{012345} postfix\"",
                 "flags": 8289,
                 "start": 88,
@@ -132,6 +139,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅƞ",
+                "original": "\"\\u{012345}\\u{6789a}\"",
                 "rawText": "\n\"\\u{012345}\\u{6789a}\"",
                 "flags": 8289,
                 "start": 111,

@@ -77,8 +77,9 @@ function fn() {} fn( # );
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "fn",
                 "text": "fn",
-                "rawText": "fn",
+                "rawText": " fn",
                 "flags": 96,
                 "start": 8,
                 "end": 11
@@ -99,6 +100,7 @@ function fn() {} fn( # );
                         {
                             "kind": 201392131,
                             "text": "use strict",
+                            "original": "'use strict'",
                             "rawText": " 'use strict'",
                             "flags": 4194400,
                             "start": 15,
@@ -126,8 +128,9 @@ function fn() {} fn( # );
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "fn",
                     "text": "fn",
-                    "rawText": "fn",
+                    "rawText": " fn",
                     "flags": 96,
                     "start": 30,
                     "end": 33

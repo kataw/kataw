@@ -32,8 +32,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 8
@@ -66,8 +67,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "C",
                                                     "text": "C",
-                                                    "rawText": "C",
+                                                    "rawText": " C",
                                                     "flags": 96,
                                                     "start": 18,
                                                     "end": 20
@@ -95,8 +97,9 @@
                                                                 "kind": 209,
                                                                 "name": {
                                                                     "kind": 134299649,
+                                                                    "original": "x",
                                                                     "text": "x",
-                                                                    "rawText": "x",
+                                                                    "rawText": " x",
                                                                     "flags": 96,
                                                                     "start": 26,
                                                                     "end": 28
@@ -110,6 +113,7 @@
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
+                                                                                "original": "_",
                                                                                 "text": "_",
                                                                                 "rawText": "_",
                                                                                 "flags": 96,

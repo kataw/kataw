@@ -26,6 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\r\n",
+                "original": "\"\\r\\n\"",
                 "rawText": "\"\\r\\n\"",
                 "flags": 96,
                 "start": 0,
@@ -40,6 +41,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\r\n",
+                "original": "\"prefix\\r\\n\"",
                 "rawText": "\n\"prefix\\r\\n\"",
                 "flags": 97,
                 "start": 8,
@@ -54,6 +56,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\r\nsuffix",
+                "original": "\"\\r\\nsuffix\"",
                 "rawText": "\n\"\\r\\nsuffix\"",
                 "flags": 97,
                 "start": 23,
@@ -68,6 +71,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\rinfix\nsuffix",
+                "original": "\"\\rinfix\\nsuffix\"",
                 "rawText": "\n\"\\rinfix\\nsuffix\"",
                 "flags": 97,
                 "start": 38,

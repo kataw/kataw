@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "q",
+                "original": "\"\\x9q\"",
                 "rawText": "\"\\x9q\"",
                 "flags": 96,
                 "start": 0,
@@ -38,6 +39,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
+                "original": "\"\\x5\"",
                 "rawText": "\n\"\\x5\"",
                 "flags": 97,
                 "start": 8,

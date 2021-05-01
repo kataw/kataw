@@ -37,8 +37,9 @@ var x; export {x: a}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -78,6 +79,7 @@ var x; export {x: a}
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -109,8 +111,9 @@ var x; export {x: a}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 17,
                 "end": 19

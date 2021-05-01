@@ -47,8 +47,9 @@ do async funcion switch!!
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "funcion",
                                 "text": "funcion",
-                                "rawText": "funcion",
+                                "rawText": " funcion",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 16

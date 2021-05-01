@@ -31,8 +31,9 @@ class x {set default(x){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {set default(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "default",
                                 "text": "default",
-                                "rawText": "default",
+                                "rawText": " default",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 20
@@ -75,6 +77,7 @@ class x {set default(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

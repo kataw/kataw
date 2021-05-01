@@ -49,8 +49,9 @@ for(var i;;);
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "i",
                             "text": "i",
-                            "rawText": "i",
+                            "rawText": " i",
                             "flags": 96,
                             "start": 7,
                             "end": 9

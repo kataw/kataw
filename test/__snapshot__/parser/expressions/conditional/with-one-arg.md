@@ -30,6 +30,7 @@ z(x)?x:y;
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "z",
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
@@ -41,6 +42,7 @@ z(x)?x:y;
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -65,6 +67,7 @@ z(x)?x:y;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -79,6 +82,7 @@ z(x)?x:y;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,

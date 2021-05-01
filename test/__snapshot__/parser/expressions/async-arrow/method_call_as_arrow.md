@@ -19,6 +19,7 @@ async ({ident: [foo, bar].join("")}) => x
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -50,6 +51,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "foo",
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
@@ -58,8 +60,9 @@ async ({ident: [foo, bar].join("")}) => x
                                                         },
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "bar",
                                                             "text": "bar",
-                                                            "rawText": "bar",
+                                                            "rawText": " bar",
                                                             "flags": 96,
                                                             "start": 20,
                                                             "end": 24
@@ -76,6 +79,7 @@ async ({ident: [foo, bar].join("")}) => x
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "join",
                                                 "text": "join",
                                                 "rawText": "join",
                                                 "flags": 96,
@@ -92,6 +96,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                 {
                                                     "kind": 201392131,
                                                     "text": "",
+                                                    "original": "\"\"",
                                                     "rawText": "\"\"",
                                                     "flags": 96,
                                                     "start": 31,
@@ -109,6 +114,7 @@ async ({ident: [foo, bar].join("")}) => x
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "ident",
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
@@ -143,8 +149,9 @@ async ({ident: [foo, bar].join("")}) => x
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 39,
                 "end": 41

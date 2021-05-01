@@ -31,8 +31,9 @@ class C { constructor() { class C { method() { super(); } } } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,8 +56,9 @@ class C { constructor() { class C { method() { super(); } } } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -89,8 +91,9 @@ class C { constructor() { class C { method() { super(); } } } }
                                             },
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "C",
                                                 "text": "C",
-                                                "rawText": "C",
+                                                "rawText": " C",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 33
@@ -113,8 +116,9 @@ class C { constructor() { class C { method() { super(); } } } }
                                                             "kind": 209,
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "method",
                                                                 "text": "method",
-                                                                "rawText": "method",
+                                                                "rawText": " method",
                                                                 "flags": 96,
                                                                 "start": 35,
                                                                 "end": 42

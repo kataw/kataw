@@ -21,6 +21,7 @@ x = {a, c:d}=obj;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -42,6 +43,7 @@ x = {a, c:d}=obj;
                             "properties": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -56,6 +58,7 @@ x = {a, c:d}=obj;
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "d",
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
@@ -64,8 +67,9 @@ x = {a, c:d}=obj;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
-                                        "rawText": "c",
+                                        "rawText": " c",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 9
@@ -92,6 +96,7 @@ x = {a, c:d}=obj;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "obj",
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,

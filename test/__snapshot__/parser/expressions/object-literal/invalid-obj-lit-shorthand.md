@@ -23,6 +23,7 @@ f({x = 0});
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "obj",
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
@@ -44,6 +45,7 @@ f({x = 0});
                                 "kind": 205,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -53,7 +55,8 @@ f({x = 0});
                                 "right": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 10,
                                     "end": 12
@@ -86,8 +89,9 @@ f({x = 0});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
-                    "rawText": "f",
+                    "rawText": "\n\nf",
                     "flags": 96,
                     "start": 14,
                     "end": 17
@@ -104,6 +108,7 @@ f({x = 0});
                                         "kind": 205,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -113,7 +118,8 @@ f({x = 0});
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "rawText": "0",
+                                            "original": "0",
+                                            "rawText": " 0",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24

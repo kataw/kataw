@@ -39,8 +39,9 @@ async function p(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "p",
                 "text": "p",
-                "rawText": "p",
+                "rawText": " p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -71,8 +72,9 @@ async function p(){
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29
@@ -101,8 +103,9 @@ async function p(){
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": " a",
                                                 "flags": 96,
                                                 "start": 43,
                                                 "end": 45
@@ -124,8 +127,9 @@ async function p(){
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 48,
                                         "end": 50

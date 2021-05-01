@@ -37,8 +37,9 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -94,8 +96,9 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
-                                                "rawText": "yield",
+                                                "rawText": " yield",
                                                 "flags": 96,
                                                 "start": 39,
                                                 "end": 45
@@ -113,8 +116,9 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
                                                         "kind": 163,
                                                         "label": {
                                                             "kind": 134299649,
+                                                            "original": "yield",
                                                             "text": "yield",
-                                                            "rawText": "yield",
+                                                            "rawText": " yield",
                                                             "flags": 96,
                                                             "start": 61,
                                                             "end": 67
@@ -140,7 +144,8 @@ function * gen() { function not_gen() { yield /* comment */ { yield: 12 } }}
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 12,
-                                                                "rawText": "12",
+                                                                "original": "12",
+                                                                "rawText": " 12",
                                                                 "flags": 96,
                                                                 "start": 68,
                                                                 "end": 71

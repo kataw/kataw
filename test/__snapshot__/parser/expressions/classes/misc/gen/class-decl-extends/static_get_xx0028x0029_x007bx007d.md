@@ -31,8 +31,9 @@ class C extends Base { static get x() {} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -48,8 +49,9 @@ class C extends Base { static get x() {} }
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "Base",
                     "text": "Base",
-                    "rawText": "Base",
+                    "rawText": " Base",
                     "flags": 96,
                     "start": 15,
                     "end": 20
@@ -85,8 +87,9 @@ class C extends Base { static get x() {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 35

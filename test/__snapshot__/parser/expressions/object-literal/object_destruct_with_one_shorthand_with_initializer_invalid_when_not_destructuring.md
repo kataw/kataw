@@ -21,6 +21,7 @@ x({a=b}=c);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -41,6 +42,7 @@ x({a=b}=c);
                                             "kind": 205,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -49,6 +51,7 @@ x({a=b}=c);
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
@@ -77,6 +80,7 @@ x({a=b}=c);
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,

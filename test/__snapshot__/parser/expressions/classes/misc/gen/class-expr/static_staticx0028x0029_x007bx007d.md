@@ -56,8 +56,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "static",
                                         "text": "static",
-                                        "rawText": "static",
+                                        "rawText": " static",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 22

@@ -28,8 +28,9 @@
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -69,8 +70,9 @@
                                                     "kind": 157,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "f",
                                                         "text": "f",
-                                                        "rawText": "f",
+                                                        "rawText": " f",
                                                         "flags": 96,
                                                         "start": 21,
                                                         "end": 23
@@ -107,8 +109,9 @@
                                                     "kind": 157,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "f",
                                                         "text": "f",
-                                                        "rawText": "f",
+                                                        "rawText": " f",
                                                         "flags": 96,
                                                         "start": 28,
                                                         "end": 30

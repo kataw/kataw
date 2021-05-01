@@ -27,8 +27,9 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -44,8 +45,9 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -71,8 +73,9 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 31
@@ -115,6 +118,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -143,6 +147,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
+                                                                "original": "foo",
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
@@ -162,8 +167,9 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
+                                                    "original": "a",
                                                     "text": "a",
-                                                    "rawText": "a",
+                                                    "rawText": " a",
                                                     "flags": 96,
                                                     "start": 58,
                                                     "end": 60

@@ -28,6 +28,7 @@
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -44,8 +45,9 @@
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 6,
                                         "end": 8
@@ -58,8 +60,9 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "yield",
                                         "text": "yield",
-                                        "rawText": "yield",
+                                        "rawText": " yield",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 16

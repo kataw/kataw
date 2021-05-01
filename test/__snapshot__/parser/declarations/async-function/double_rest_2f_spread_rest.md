@@ -73,6 +73,7 @@ let [... ...foo] = obj;
                                         },
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -100,8 +101,9 @@ let [... ...foo] = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "obj",
                             "text": "obj",
-                            "rawText": "obj",
+                            "rawText": " obj",
                             "flags": 96,
                             "start": 18,
                             "end": 22

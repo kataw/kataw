@@ -33,6 +33,7 @@ function *g() { function f(x = yield) {}; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -66,8 +67,9 @@ function *g() { function f(x = yield) {}; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -80,6 +82,7 @@ function *g() { function f(x = yield) {}; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -90,8 +93,9 @@ function *g() { function f(x = yield) {}; }
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "yield",
                                             "text": "yield",
-                                            "rawText": "yield",
+                                            "rawText": " yield",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 36

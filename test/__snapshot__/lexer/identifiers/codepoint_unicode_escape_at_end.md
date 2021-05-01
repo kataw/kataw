@@ -25,6 +25,7 @@ xxx\u{65}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "xxx\\u{65}",
                 "text": "xxxe",
                 "rawText": "xxx\\u{65}",
                 "flags": 96,

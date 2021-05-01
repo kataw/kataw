@@ -31,6 +31,7 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
+                            "original": "fail",
                             "text": "fail",
                             "rawText": "fail",
                             "flags": 96,
@@ -54,8 +55,9 @@
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "A",
                                 "text": "A",
-                                "rawText": "A",
+                                "rawText": " A",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 15
@@ -80,6 +82,7 @@
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "await",
                                                     "text": "await",
                                                     "rawText": "await",
                                                     "flags": 96,
@@ -142,6 +145,7 @@
                                             "name": {
                                                 "kind": 201392131,
                                                 "text": "x",
+                                                "original": "\"x\"",
                                                 "rawText": " \"x\"",
                                                 "flags": 96,
                                                 "start": 29,

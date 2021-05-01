@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -51,6 +52,7 @@
             },
             "name": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -86,7 +88,8 @@
                                 "expression": {
                                     "kind": 201392130,
                                     "text": null,
-                                    "rawText": "2e308",
+                                    "original": "2e308",
+                                    "rawText": " 2e308",
                                     "flags": 96,
                                     "start": 33,
                                     "end": 39

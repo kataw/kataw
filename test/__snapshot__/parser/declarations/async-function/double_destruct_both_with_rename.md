@@ -57,6 +57,7 @@ let {x : y, z : a} = obj;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -68,8 +69,9 @@ let {x : y, z : a} = obj;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 8,
                                                 "end": 10
@@ -88,8 +90,9 @@ let {x : y, z : a} = obj;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 15
@@ -99,8 +102,9 @@ let {x : y, z : a} = obj;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": " a",
                                                 "flags": 96,
                                                 "start": 15,
                                                 "end": 17
@@ -128,8 +132,9 @@ let {x : y, z : a} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "obj",
                             "text": "obj",
-                            "rawText": "obj",
+                            "rawText": " obj",
                             "flags": 96,
                             "start": 20,
                             "end": 24

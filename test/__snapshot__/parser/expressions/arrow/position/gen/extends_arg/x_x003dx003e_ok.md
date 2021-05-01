@@ -31,8 +31,9 @@ class A extends x => ok {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -57,8 +58,9 @@ class A extends x => ok {}
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 15,
                         "end": 17
@@ -67,8 +69,9 @@ class A extends x => ok {}
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "ok",
                         "text": "ok",
-                        "rawText": "ok",
+                        "rawText": " ok",
                         "flags": 96,
                         "start": 20,
                         "end": 23

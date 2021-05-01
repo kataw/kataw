@@ -69,8 +69,9 @@ L: let
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "let",
                             "text": "let",
-                            "rawText": "let",
+                            "rawText": " let",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -107,8 +108,9 @@ L: let
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 13,
                             "end": 17
@@ -124,8 +126,9 @@ L: let
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "let",
                             "text": "let",
-                            "rawText": "let",
+                            "rawText": " let",
                             "flags": 96,
                             "start": 18,
                             "end": 22
@@ -177,6 +180,7 @@ L: let
                 },
                 "catchParameter": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
@@ -219,8 +223,9 @@ L: let
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "let",
                 "text": "let",
-                "rawText": "let",
+                "rawText": " let",
                 "flags": 96,
                 "start": 58,
                 "end": 62
@@ -269,8 +274,9 @@ L: let
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "let",
                         "text": "let",
-                        "rawText": "let",
+                        "rawText": " let",
                         "flags": 96,
                         "start": 79,
                         "end": 83
@@ -324,8 +330,9 @@ L: let
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 100,
                 "end": 104
@@ -338,6 +345,7 @@ L: let
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "let",
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
@@ -390,8 +398,9 @@ L: let
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 123,
                 "end": 127
@@ -404,6 +413,7 @@ L: let
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -422,8 +432,9 @@ L: let
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "let",
                             "text": "let",
-                            "rawText": "let",
+                            "rawText": " let",
                             "flags": 96,
                             "start": 132,
                             "end": 136
@@ -467,8 +478,9 @@ L: let
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": "\n\nlet",
                     "flags": 96,
                     "start": 141,
                     "end": 146
@@ -482,7 +494,8 @@ L: let
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 148,
                     "end": 150
@@ -511,8 +524,9 @@ L: let
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 156,
                             "end": 160
@@ -523,8 +537,9 @@ L: let
                             "kind": 125,
                             "left": {
                                 "kind": 134299649,
+                                "original": "let",
                                 "text": "let",
-                                "rawText": "let",
+                                "rawText": " let",
                                 "flags": 96,
                                 "start": 162,
                                 "end": 166
@@ -538,7 +553,8 @@ L: let
                             "right": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "rawText": "1",
+                                "original": "1",
+                                "rawText": " 1",
                                 "flags": 96,
                                 "start": 168,
                                 "end": 170
@@ -566,8 +582,9 @@ L: let
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": "\n\nlet",
                     "flags": 96,
                     "start": 171,
                     "end": 176
@@ -581,7 +598,8 @@ L: let
                 "right": {
                     "kind": 201392130,
                     "text": 2,
-                    "rawText": "2",
+                    "original": "2",
+                    "rawText": " 2",
                     "flags": 96,
                     "start": 178,
                     "end": 180
@@ -606,6 +624,7 @@ L: let
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
@@ -632,8 +651,9 @@ L: let
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": "\n\nlet",
                     "flags": 96,
                     "start": 189,
                     "end": 194
@@ -662,8 +682,9 @@ L: let
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 208,
                         "end": 210
@@ -686,8 +707,9 @@ L: let
                                     "kind": 163,
                                     "label": {
                                         "kind": 134299649,
+                                        "original": "let",
                                         "text": "let",
-                                        "rawText": "let",
+                                        "rawText": " let",
                                         "flags": 96,
                                         "start": 214,
                                         "end": 218
@@ -737,7 +759,8 @@ L: let
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 34,
-                                            "rawText": "34",
+                                            "original": "34",
+                                            "rawText": " 34",
                                             "flags": 96,
                                             "start": 219,
                                             "end": 222
@@ -786,8 +809,9 @@ L: let
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "let",
                 "text": "let",
-                "rawText": "let",
+                "rawText": " let",
                 "flags": 96,
                 "start": 236,
                 "end": 240
@@ -800,6 +824,7 @@ L: let
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "let",
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
@@ -829,8 +854,9 @@ L: let
                             "kind": 163,
                             "label": {
                                 "kind": 134299649,
+                                "original": "let",
                                 "text": "let",
-                                "rawText": "let",
+                                "rawText": " let",
                                 "flags": 96,
                                 "start": 247,
                                 "end": 251
@@ -881,8 +907,9 @@ L: let
                                     "kind": 131,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "let",
                                         "text": "let",
-                                        "rawText": "let",
+                                        "rawText": " let",
                                         "flags": 96,
                                         "start": 252,
                                         "end": 256
@@ -894,6 +921,7 @@ L: let
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "let",
                                                     "text": "let",
                                                     "rawText": "let",
                                                     "flags": 96,
@@ -910,8 +938,9 @@ L: let
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "let",
                                                         "text": "let",
-                                                        "rawText": "let",
+                                                        "rawText": " let",
                                                         "flags": 96,
                                                         "start": 262,
                                                         "end": 266
@@ -922,6 +951,7 @@ L: let
                                                             {
                                                                 "kind": 201392130,
                                                                 "text": 0,
+                                                                "original": "0",
                                                                 "rawText": "0",
                                                                 "flags": 96,
                                                                 "start": 267,
@@ -994,15 +1024,17 @@ L: let
                                     "left": {
                                         "kind": 201392130,
                                         "text": 1,
-                                        "rawText": "1",
+                                        "original": "1",
+                                        "rawText": " 1",
                                         "flags": 96,
                                         "start": 282,
                                         "end": 284
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "let",
                                         "text": "let",
-                                        "rawText": "let",
+                                        "rawText": " let",
                                         "flags": 96,
                                         "start": 277,
                                         "end": 281
@@ -1037,8 +1069,9 @@ L: let
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "let",
                                             "text": "let",
-                                            "rawText": "let",
+                                            "rawText": " let",
                                             "flags": 96,
                                             "start": 295,
                                             "end": 299
@@ -1064,7 +1097,8 @@ L: let
                                                         "expression": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "rawText": "1",
+                                                            "original": "1",
+                                                            "rawText": " 1",
                                                             "flags": 96,
                                                             "start": 303,
                                                             "end": 305
@@ -1116,8 +1150,9 @@ L: let
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": "\n\nlet",
                     "flags": 96,
                     "start": 310,
                     "end": 315
@@ -1128,6 +1163,7 @@ L: let
                         {
                             "kind": 201392130,
                             "text": 100,
+                            "original": "100",
                             "rawText": "100",
                             "flags": 96,
                             "start": 316,
@@ -1151,8 +1187,9 @@ L: let
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "L",
                 "text": "L",
-                "rawText": "L",
+                "rawText": "\n\nL",
                 "flags": 96,
                 "start": 320,
                 "end": 323
@@ -1201,8 +1238,9 @@ L: let
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": " let",
                     "flags": 96,
                     "start": 324,
                     "end": 328
@@ -1219,8 +1257,9 @@ L: let
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": "\nx",
                 "flags": 96,
                 "start": 328,
                 "end": 330
@@ -1233,8 +1272,9 @@ L: let
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "L",
                 "text": "L",
-                "rawText": "L",
+                "rawText": "\n\nL",
                 "flags": 96,
                 "start": 330,
                 "end": 333
@@ -1283,8 +1323,9 @@ L: let
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "let",
                     "text": "let",
-                    "rawText": "let",
+                    "rawText": " let",
                     "flags": 96,
                     "start": 334,
                     "end": 338
@@ -1306,6 +1347,7 @@ L: let
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,

@@ -21,6 +21,7 @@ async in {}
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,

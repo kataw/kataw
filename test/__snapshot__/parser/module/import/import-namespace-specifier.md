@@ -40,6 +40,7 @@ import * as foo from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 20,
@@ -64,8 +65,9 @@ import * as foo from "foo";
                     "asKeyword": null,
                     "binding": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": " foo",
                         "flags": 96,
                         "start": 11,
                         "end": 15

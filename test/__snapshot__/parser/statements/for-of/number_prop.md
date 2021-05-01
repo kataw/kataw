@@ -53,6 +53,7 @@ for (456..x of c) d;
                 "member": {
                     "kind": 201392130,
                     "text": 456,
+                    "original": "456.",
                     "rawText": "456.",
                     "flags": 96,
                     "start": 5,
@@ -60,6 +61,7 @@ for (456..x of c) d;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -72,8 +74,9 @@ for (456..x of c) d;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
-                "rawText": "c",
+                "rawText": " c",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -82,8 +85,9 @@ for (456..x of c) d;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 17,
                     "end": 19

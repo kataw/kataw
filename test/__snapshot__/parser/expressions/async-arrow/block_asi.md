@@ -60,6 +60,7 @@ async ()=>{}
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,

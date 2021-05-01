@@ -33,6 +33,7 @@ var _𐒦 = 10;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "var",
                             "text": "𫠝_",
                             "rawText": "var",
                             "flags": 96,
@@ -44,7 +45,8 @@ var _𐒦 = 10;
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "rawText": "10",
+                            "original": "10",
+                            "rawText": " 10",
                             "flags": 96,
                             "start": 9,
                             "end": 12
@@ -78,8 +80,9 @@ var _𐒦 = 10;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "_𐒦",
                             "text": "_𐒦",
-                            "rawText": "_𐒦",
+                            "rawText": " _𐒦",
                             "flags": 96,
                             "start": 18,
                             "end": 22
@@ -89,7 +92,8 @@ var _𐒦 = 10;
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "rawText": "10",
+                            "original": "10",
+                            "rawText": " 10",
                             "flags": 96,
                             "start": 24,
                             "end": 27

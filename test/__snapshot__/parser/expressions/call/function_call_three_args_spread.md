@@ -21,6 +21,7 @@ foo(a, b, ...c)
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -32,6 +33,7 @@ foo(a, b, ...c)
                     "elements": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -40,8 +42,9 @@ foo(a, b, ...c)
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 6,
                             "end": 8
@@ -56,6 +59,7 @@ foo(a, b, ...c)
                             },
                             "argument": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,

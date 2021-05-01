@@ -36,6 +36,7 @@
                                     },
                                     "argument": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -56,6 +57,7 @@
                                     },
                                     "argument": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -84,8 +86,9 @@
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 15,
                         "end": 17

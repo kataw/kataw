@@ -48,8 +48,9 @@ async () => {  st\u0061tic = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "st\\u0061tic",
                                     "text": "static",
-                                    "rawText": "st\\u0061tic",
+                                    "rawText": "  st\\u0061tic",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 26
@@ -62,8 +63,9 @@ async () => {  st\u0061tic = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 30

@@ -49,14 +49,16 @@
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
+                                                            "original": "y",
                                                             "text": "y",
-                                                            "rawText": "y",
+                                                            "rawText": " y",
                                                             "flags": 96,
                                                             "start": 5,
                                                             "end": 7
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
+                                                            "original": "z",
                                                             "text": "z",
                                                             "rawText": "z",
                                                             "flags": 96,
@@ -69,6 +71,7 @@
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -107,8 +110,9 @@
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -122,8 +126,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 19,
                     "end": 21

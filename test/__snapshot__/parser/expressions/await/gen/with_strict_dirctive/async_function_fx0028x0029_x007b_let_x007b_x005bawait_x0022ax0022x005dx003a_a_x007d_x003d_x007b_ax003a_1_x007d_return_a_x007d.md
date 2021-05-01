@@ -30,6 +30,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -57,8 +58,9 @@
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 28,
                 "end": 30
@@ -111,6 +113,7 @@
                                                                 "expression": {
                                                                     "kind": 201392131,
                                                                     "text": "a",
+                                                                    "original": "\"a\"",
                                                                     "rawText": " \"a\"",
                                                                     "flags": 96,
                                                                     "start": 49,
@@ -129,8 +132,9 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "a",
                                                                 "text": "a",
-                                                                "rawText": "a",
+                                                                "rawText": " a",
                                                                 "flags": 96,
                                                                 "start": 55,
                                                                 "end": 57
@@ -170,15 +174,17 @@
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "rawText": "1",
+                                                            "original": "1",
+                                                            "rawText": " 1",
                                                             "flags": 96,
                                                             "start": 66,
                                                             "end": 68
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
-                                                            "rawText": "a",
+                                                            "rawText": " a",
                                                             "flags": 96,
                                                             "start": 63,
                                                             "end": 65
@@ -220,8 +226,9 @@
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 80,
                                 "end": 82

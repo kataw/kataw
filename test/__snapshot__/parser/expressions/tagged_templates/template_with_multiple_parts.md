@@ -21,6 +21,7 @@ foo`x${a}y${b}z`
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -36,6 +37,7 @@ foo`x${a}y${b}z`
                             "text": "x",
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -52,6 +54,7 @@ foo`x${a}y${b}z`
                             "text": "y",
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,

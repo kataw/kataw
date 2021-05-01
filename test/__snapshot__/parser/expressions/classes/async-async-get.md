@@ -28,8 +28,9 @@ class x {    async async get f(x){}    }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -52,8 +53,9 @@ class x {    async async get f(x){}    }
                         },
                         "key": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
-                            "rawText": "async",
+                            "rawText": " async",
                             "flags": 96,
                             "start": 18,
                             "end": 24
@@ -83,8 +85,9 @@ class x {    async async get f(x){}    }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 30
@@ -98,6 +101,7 @@ class x {    async async get f(x){}    }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

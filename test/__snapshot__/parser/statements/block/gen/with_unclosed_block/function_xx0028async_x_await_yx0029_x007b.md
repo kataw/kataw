@@ -76,6 +76,7 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -113,8 +114,9 @@
                         "generatorToken": null,
                         "name": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 26,
                             "end": 28
@@ -127,6 +129,7 @@
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "async",
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
@@ -145,8 +148,9 @@
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 34,
                                         "end": 36
@@ -163,8 +167,9 @@
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "await",
                                         "text": "await",
-                                        "rawText": "await",
+                                        "rawText": " await",
                                         "flags": 96,
                                         "start": 37,
                                         "end": 43
@@ -181,8 +186,9 @@
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 43,
                                         "end": 45

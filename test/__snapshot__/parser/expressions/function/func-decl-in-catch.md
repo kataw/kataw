@@ -55,6 +55,7 @@ try {
                 },
                 "catchParameter": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,

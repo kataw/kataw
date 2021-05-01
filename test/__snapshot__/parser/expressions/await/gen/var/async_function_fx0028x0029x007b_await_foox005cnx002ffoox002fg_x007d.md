@@ -35,8 +35,9 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -114,6 +116,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "n",
                         "text": "n",
                         "rawText": "n",
                         "flags": 96,
@@ -128,6 +131,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -146,6 +150,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,

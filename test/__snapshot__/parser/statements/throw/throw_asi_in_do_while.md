@@ -30,8 +30,9 @@ function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -60,6 +61,7 @@ function f() {
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -82,8 +84,9 @@ function f() {
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "pass",
                                     "text": "pass",
-                                    "rawText": "pass",
+                                    "rawText": " pass",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 30

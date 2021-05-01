@@ -40,6 +40,7 @@ import {x, z,} from "y"
                 "from": {
                     "kind": 201392131,
                     "text": "y",
+                    "original": "\"y\"",
                     "rawText": " \"y\"",
                     "flags": 96,
                     "start": 19,
@@ -65,6 +66,7 @@ import {x, z,} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 64,
@@ -81,8 +83,9 @@ import {x, z,} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "z",
                                     "text": "z",
-                                    "rawText": "z",
+                                    "rawText": " z",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 12

@@ -35,8 +35,9 @@ new a.b.c.d()
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 5
@@ -48,6 +49,7 @@ new a.b.c.d()
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -60,6 +62,7 @@ new a.b.c.d()
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -72,6 +75,7 @@ new a.b.c.d()
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "d",
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,

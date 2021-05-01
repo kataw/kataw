@@ -27,8 +27,9 @@ class C { static delete() {} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -56,8 +57,9 @@ class C { static delete() {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "delete",
                                 "text": "delete",
-                                "rawText": "delete",
+                                "rawText": " delete",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 23

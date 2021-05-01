@@ -36,6 +36,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "}",
+                "original": "\"\\u{1}\"",
                 "rawText": "\"\\u{1}\"",
                 "flags": 8288,
                 "start": 0,
@@ -50,6 +51,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u0012",
+                "original": "\"\\u{12}\"",
                 "rawText": "\n\"\\u{12}\"",
                 "flags": 8289,
                 "start": 9,
@@ -64,6 +66,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
+                "original": "\"\\u{123}\"",
                 "rawText": "\n\"\\u{123}\"",
                 "flags": 8289,
                 "start": 20,
@@ -78,6 +81,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ሴ",
+                "original": "\"\\u{1234}\"",
                 "rawText": "\n\"\\u{1234}\"",
                 "flags": 8289,
                 "start": 32,
@@ -92,6 +96,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Hͅ",
+                "original": "\"\\u{12345}\"",
                 "rawText": "\n\"\\u{12345}\"",
                 "flags": 8289,
                 "start": 45,
@@ -106,6 +111,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ЍV",
+                "original": "\"\\u{103456}\"",
                 "rawText": "\n\"\\u{103456}\"",
                 "flags": 8289,
                 "start": 59,

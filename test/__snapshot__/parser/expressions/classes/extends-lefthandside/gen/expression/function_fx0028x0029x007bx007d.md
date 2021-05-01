@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -61,8 +62,9 @@
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 27

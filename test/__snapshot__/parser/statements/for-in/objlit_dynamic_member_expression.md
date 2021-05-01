@@ -66,6 +66,7 @@ for ({}[b] in c) d;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
@@ -78,8 +79,9 @@ for ({}[b] in c) d;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
-                "rawText": "c",
+                "rawText": " c",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -88,8 +90,9 @@ for ({}[b] in c) d;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 16,
                     "end": 18

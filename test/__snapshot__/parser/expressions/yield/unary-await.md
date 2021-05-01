@@ -21,6 +21,7 @@ fuction *f() {  return await yield;  }
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "fuction",
                     "text": "fuction",
                     "rawText": "fuction",
                     "flags": 96,
@@ -37,6 +38,7 @@ fuction *f() {  return await yield;  }
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
@@ -78,8 +80,9 @@ fuction *f() {  return await yield;  }
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 22,
                             "end": 28
@@ -92,8 +95,9 @@ fuction *f() {  return await yield;  }
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "yield",
                             "text": "yield",
-                            "rawText": "yield",
+                            "rawText": " yield",
                             "flags": 96,
                             "start": 28,
                             "end": 34

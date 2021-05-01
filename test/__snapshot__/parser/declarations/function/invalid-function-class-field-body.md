@@ -38,8 +38,9 @@ function* foo() {
             },
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -70,8 +71,9 @@ function* foo() {
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 27
@@ -89,8 +91,9 @@ function* foo() {
                                         "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "p",
                                             "text": "p",
-                                            "rawText": "p",
+                                            "rawText": "\n    // here yield is an identifier reference\n    p",
                                             "flags": 96,
                                             "start": 29,
                                             "end": 80
@@ -123,7 +126,8 @@ function* foo() {
                                             "right": {
                                                 "kind": 201392130,
                                                 "text": 42,
-                                                "rawText": "42",
+                                                "original": "42",
+                                                "rawText": " 42",
                                                 "flags": 96,
                                                 "start": 90,
                                                 "end": 93

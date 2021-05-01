@@ -41,8 +41,9 @@ export class x {} foo
                 },
                 "name": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 12,
                     "end": 14
@@ -71,8 +72,9 @@ export class x {} foo
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 17,
                 "end": 21

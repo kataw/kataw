@@ -34,8 +34,9 @@ import {a: b} from "bar";
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -60,6 +61,7 @@ import {a: b} from "bar";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 64,
@@ -91,8 +93,9 @@ import {a: b} from "bar";
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 13,
                 "end": 18
@@ -106,6 +109,7 @@ import {a: b} from "bar";
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
+                "original": "\"bar\"",
                 "rawText": " \"bar\"",
                 "flags": 96,
                 "start": 18,

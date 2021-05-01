@@ -57,6 +57,7 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "w",
                         "text": "w",
                         "rawText": "w",
                         "flags": 96,
@@ -75,8 +76,9 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "s",
                     "text": "s",
-                    "rawText": "s",
+                    "rawText": " s",
                     "flags": 96,
                     "start": 12,
                     "end": 14
@@ -91,8 +93,9 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 17,
                     "end": 19
@@ -133,6 +136,7 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -151,8 +155,9 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "p",
                     "text": "p",
-                    "rawText": "p",
+                    "rawText": " p",
                     "flags": 96,
                     "start": 36,
                     "end": 38
@@ -167,8 +172,9 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 41,
                     "end": 43
@@ -209,6 +215,7 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "u",
                         "text": "u",
                         "rawText": "u",
                         "flags": 96,
@@ -227,8 +234,9 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 58,
                     "end": 60
@@ -243,8 +251,9 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 63,
                     "end": 65
@@ -285,6 +294,7 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -303,8 +313,9 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 81,
                     "end": 83
@@ -319,8 +330,9 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 86,
                     "end": 88

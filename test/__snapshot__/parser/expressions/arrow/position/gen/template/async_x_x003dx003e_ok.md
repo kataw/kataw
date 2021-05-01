@@ -52,8 +52,9 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 12
@@ -75,8 +76,9 @@
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "ok",
                                     "text": "ok",
-                                    "rawText": "ok",
+                                    "rawText": " ok",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 18

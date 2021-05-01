@@ -21,6 +21,7 @@ x = {eval}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -40,6 +41,7 @@ x = {eval}
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "eval",
                                 "text": "eval",
                                 "rawText": "eval",
                                 "flags": 96,

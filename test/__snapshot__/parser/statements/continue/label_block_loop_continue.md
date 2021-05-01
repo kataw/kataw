@@ -19,6 +19,7 @@ foo: { while(z) continue foo }
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -56,6 +57,7 @@ foo: { while(z) continue foo }
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "z",
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
@@ -72,8 +74,9 @@ foo: { while(z) continue foo }
                                 },
                                 "label": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 96,
                                     "start": 24,
                                     "end": 28

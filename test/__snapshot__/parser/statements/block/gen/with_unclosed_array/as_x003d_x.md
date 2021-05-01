@@ -35,8 +35,9 @@
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "as",
                                             "text": "as",
-                                            "rawText": "as",
+                                            "rawText": " as",
                                             "flags": 96,
                                             "start": 2,
                                             "end": 5
@@ -49,8 +50,9 @@
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 9

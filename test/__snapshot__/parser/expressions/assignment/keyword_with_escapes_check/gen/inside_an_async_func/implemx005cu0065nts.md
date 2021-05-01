@@ -48,8 +48,9 @@ async () => {  implem\u0065nts = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "implem\\u0065nts",
                                     "text": "implements",
-                                    "rawText": "implem\\u0065nts",
+                                    "rawText": "  implem\\u0065nts",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 30
@@ -62,8 +63,9 @@ async () => {  implem\u0065nts = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 34

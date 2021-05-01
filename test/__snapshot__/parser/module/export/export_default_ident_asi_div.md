@@ -40,8 +40,9 @@ export default x
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 14,
                     "end": 16
@@ -54,6 +55,7 @@ export default x
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,

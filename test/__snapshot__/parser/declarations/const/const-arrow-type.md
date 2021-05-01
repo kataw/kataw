@@ -38,8 +38,9 @@ const fn = async (a?: any): Promise<void> => {};
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "fn",
                             "text": "fn",
-                            "rawText": "fn",
+                            "rawText": " fn",
                             "flags": 96,
                             "start": 5,
                             "end": 8
@@ -50,6 +51,7 @@ const fn = async (a?: any): Promise<void> => {};
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -63,6 +65,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "kind": 197,
                                         "shortCircuit": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -90,8 +93,9 @@ const fn = async (a?: any): Promise<void> => {};
                                         },
                                         "alternate": {
                                             "kind": 134299649,
+                                            "original": "any",
                                             "text": "any",
-                                            "rawText": "any",
+                                            "rawText": " any",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 25
@@ -131,8 +135,9 @@ const fn = async (a?: any): Promise<void> => {};
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "Promise",
                         "text": "Promise",
-                        "rawText": "Promise",
+                        "rawText": " Promise",
                         "flags": 96,
                         "start": 27,
                         "end": 35

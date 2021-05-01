@@ -62,8 +62,9 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " x",
                                                                 "flags": 96,
                                                                 "start": 10,
                                                                 "end": 12
@@ -71,7 +72,8 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "right": {
                                                                 "kind": 201392130,
                                                                 "text": 5,
-                                                                "rawText": "5",
+                                                                "original": "5",
+                                                                "rawText": " 5",
                                                                 "flags": 96,
                                                                 "start": 14,
                                                                 "end": 16
@@ -125,13 +127,15 @@ var { ...{ x = 5 } } = {x : 1};
                                         "left": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "rawText": "1",
+                                            "original": "1",
+                                            "rawText": " 1",
                                             "flags": 96,
                                             "start": 27,
                                             "end": 29
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

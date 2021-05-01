@@ -27,6 +27,7 @@ result = [,] = vals;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -70,8 +71,9 @@ result = [,] = vals;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "vals",
                         "text": "vals",
-                        "rawText": "vals",
+                        "rawText": " vals",
                         "flags": 96,
                         "start": 14,
                         "end": 19

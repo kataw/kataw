@@ -29,6 +29,7 @@ do {} while (x) { /false//a
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -82,6 +83,7 @@ do {} while (x) { /false//a
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,

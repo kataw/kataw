@@ -42,8 +42,9 @@ function* f() { class C { aaa = yield } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -74,8 +75,9 @@ function* f() { class C { aaa = yield } }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 23
@@ -93,8 +95,9 @@ function* f() { class C { aaa = yield } }
                                         "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "aaa",
                                             "text": "aaa",
-                                            "rawText": "aaa",
+                                            "rawText": " aaa",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 29

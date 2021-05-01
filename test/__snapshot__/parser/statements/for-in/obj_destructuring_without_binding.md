@@ -63,14 +63,16 @@ for ({a: b.c} in d) e
                                 "kind": 129,
                                 "member": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
@@ -83,6 +85,7 @@ for ({a: b.c} in d) e
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -105,8 +108,9 @@ for ({a: b.c} in d) e
             },
             "expression": {
                 "kind": 134299649,
+                "original": "d",
                 "text": "d",
-                "rawText": "d",
+                "rawText": " d",
                 "flags": 96,
                 "start": 16,
                 "end": 18
@@ -115,8 +119,9 @@ for ({a: b.c} in d) e
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
-                    "rawText": "e",
+                    "rawText": " e",
                     "flags": 96,
                     "start": 19,
                     "end": 21

@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -52,6 +53,7 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -62,8 +64,9 @@
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "let",
                                             "text": "let",
-                                            "rawText": "let",
+                                            "rawText": " let",
                                             "flags": 96,
                                             "start": 27,
                                             "end": 31

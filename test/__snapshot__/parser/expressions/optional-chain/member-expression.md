@@ -32,6 +32,7 @@ f2`hello world`?.a;
                 "member": {
                     "kind": 201392131,
                     "text": "hello",
+                    "original": "\"hello\"",
                     "rawText": "\"hello\"",
                     "flags": 96,
                     "start": 0,
@@ -44,6 +45,7 @@ f2`hello world`?.a;
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -80,14 +82,16 @@ f2`hello world`?.a;
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
+                        "original": "obj",
                         "text": "obj",
-                        "rawText": "obj",
+                        "rawText": "\n\nobj",
                         "flags": 96,
                         "start": 11,
                         "end": 16
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -105,6 +109,7 @@ f2`hello world`?.a;
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -141,8 +146,9 @@ f2`hello world`?.a;
                     "kind": 226,
                     "member": {
                         "kind": 134299649,
+                        "original": "f2",
                         "text": "f2",
-                        "rawText": "f2",
+                        "rawText": "\n\nf2",
                         "flags": 96,
                         "start": 22,
                         "end": 26
@@ -166,6 +172,7 @@ f2`hello world`?.a;
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,

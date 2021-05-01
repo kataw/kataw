@@ -62,6 +62,7 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -80,8 +81,9 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 13,
                     "end": 15
@@ -96,8 +98,9 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 18,
                     "end": 20

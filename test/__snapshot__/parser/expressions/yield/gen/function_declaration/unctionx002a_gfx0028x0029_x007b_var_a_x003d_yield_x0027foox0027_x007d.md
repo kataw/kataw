@@ -32,8 +32,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -58,8 +59,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "unction",
                                     "text": "unction",
-                                    "rawText": "unction",
+                                    "rawText": " unction",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 28
@@ -74,8 +76,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                     "kind": 131,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "gf",
                                         "text": "gf",
-                                        "rawText": "gf",
+                                        "rawText": " gf",
                                         "flags": 96,
                                         "start": 29,
                                         "end": 32
@@ -121,8 +124,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                     "kind": 157,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
-                                                        "rawText": "a",
+                                                        "rawText": " a",
                                                         "flags": 96,
                                                         "start": 40,
                                                         "end": 42
@@ -131,8 +135,9 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                     "type": null,
                                                     "initializer": {
                                                         "kind": 134299649,
+                                                        "original": "yield",
                                                         "text": "yield",
-                                                        "rawText": "yield",
+                                                        "rawText": " yield",
                                                         "flags": 96,
                                                         "start": 44,
                                                         "end": 50
@@ -155,6 +160,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "expression": {
                                             "kind": 201392131,
                                             "text": "foo",
+                                            "original": "'foo'",
                                             "rawText": " 'foo'",
                                             "flags": 4194400,
                                             "start": 50,

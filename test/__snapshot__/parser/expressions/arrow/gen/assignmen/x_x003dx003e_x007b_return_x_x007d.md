@@ -25,6 +25,7 @@ x = x => { return x; } ;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -48,8 +49,9 @@ x = x => { return x; } ;
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -72,8 +74,9 @@ x = x => { return x; } ;
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 17,
                                         "end": 19

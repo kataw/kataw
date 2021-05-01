@@ -35,8 +35,9 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "o",
                             "text": "o",
-                            "rawText": "o",
+                            "rawText": " o",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -52,6 +53,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "gf",
                                             "text": "gf",
                                             "rawText": "gf",
                                             "flags": 96,
@@ -85,6 +87,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                         "expression": {
                                                             "kind": 201392130,
                                                             "text": 1,
+                                                            "original": "1",
                                                             "rawText": "1",
                                                             "flags": 96,
                                                             "start": 26,

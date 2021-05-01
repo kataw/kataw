@@ -29,8 +29,9 @@ for (let a,b,c;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 8,
                             "end": 10
@@ -46,6 +47,7 @@ for (let a,b,c;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -63,6 +65,7 @@ for (let a,b,c;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,

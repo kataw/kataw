@@ -72,8 +72,9 @@ do( async try while { catch } while
                     "properties": [
                         {
                             "kind": 134299649,
+                            "original": "catch",
                             "text": "catch",
-                            "rawText": "catch",
+                            "rawText": " catch",
                             "flags": 96,
                             "start": 21,
                             "end": 27

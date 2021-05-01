@@ -25,6 +25,7 @@ x = {arrow: async => ok}.y
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -65,6 +66,7 @@ x = {arrow: async => ok}.y
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "async",
                                                     "text": "async",
                                                     "rawText": "async",
                                                     "flags": 96,
@@ -88,8 +90,9 @@ x = {arrow: async => ok}.y
                                         "returnType": null,
                                         "contents": {
                                             "kind": 134299649,
+                                            "original": "ok",
                                             "text": "ok",
-                                            "rawText": "ok",
+                                            "rawText": " ok",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 23
@@ -100,6 +103,7 @@ x = {arrow: async => ok}.y
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "arrow",
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 96,
@@ -122,6 +126,7 @@ x = {arrow: async => ok}.y
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,

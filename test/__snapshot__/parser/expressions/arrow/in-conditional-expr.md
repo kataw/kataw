@@ -24,6 +24,7 @@ x ? ( (a, {}) => {} ) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -51,6 +52,7 @@ x ? ( (a, {}) => {} ) : baz;
                             [
                                 {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -59,8 +61,9 @@ x ? ( (a, {}) => {} ) : baz;
                                 },
                                 {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 11
@@ -82,6 +85,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 [
                                     {
                                         "kind": 134299649,
+                                        "original": "u",
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 96,
@@ -90,8 +94,9 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "v",
                                         "text": "v",
-                                        "rawText": "v",
+                                        "rawText": " v",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 21
@@ -106,8 +111,9 @@ x ? ( (a, {}) => {} ) : baz;
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27
@@ -120,6 +126,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "u",
                                         "text": "u",
                                         "rawText": "u",
                                         "flags": 96,
@@ -140,8 +147,9 @@ x ? ( (a, {}) => {} ) : baz;
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 31,
                                         "end": 33
@@ -154,6 +162,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "v",
                                         "text": "v",
                                         "rawText": "v",
                                         "flags": 96,
@@ -188,8 +197,9 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "baz",
                     "text": "baz",
-                    "rawText": "baz",
+                    "rawText": " baz",
                     "flags": 96,
                     "start": 39,
                     "end": 43
@@ -208,8 +218,9 @@ x ? ( (a, {}) => {} ) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\nx",
                     "flags": 96,
                     "start": 44,
                     "end": 46
@@ -238,6 +249,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     [
                                         {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -246,8 +258,9 @@ x ? ( (a, {}) => {} ) : baz;
                                         },
                                         {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
-                                            "rawText": "b",
+                                            "rawText": " b",
                                             "flags": 96,
                                             "start": 54,
                                             "end": 56
@@ -259,7 +272,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 60,
                                     "end": 62
@@ -281,6 +295,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     [
                                         {
                                             "kind": 134299649,
+                                            "original": "c",
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
@@ -289,8 +304,9 @@ x ? ( (a, {}) => {} ) : baz;
                                         },
                                         {
                                             "kind": 134299649,
+                                            "original": "d",
                                             "text": "d",
-                                            "rawText": "d",
+                                            "rawText": " d",
                                             "flags": 96,
                                             "start": 67,
                                             "end": 69
@@ -302,7 +318,8 @@ x ? ( (a, {}) => {} ) : baz;
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 73,
                                     "end": 75
@@ -328,8 +345,9 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "baz",
                     "text": "baz",
-                    "rawText": "baz",
+                    "rawText": " baz",
                     "flags": 96,
                     "start": 79,
                     "end": 83
@@ -348,8 +366,9 @@ x ? ( (a, {}) => {} ) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\nx",
                     "flags": 96,
                     "start": 84,
                     "end": 86
@@ -369,6 +388,7 @@ x ? ( (a, {}) => {} ) : baz;
                             "expressions": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -382,6 +402,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "expressions": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -401,6 +422,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                     [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "b",
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
@@ -409,8 +431,9 @@ x ? ( (a, {}) => {} ) : baz;
                                                         },
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "c",
                                                             "text": "c",
-                                                            "rawText": "c",
+                                                            "rawText": " c",
                                                             "flags": 96,
                                                             "start": 102,
                                                             "end": 104
@@ -422,7 +445,8 @@ x ? ( (a, {}) => {} ) : baz;
                                                 "contents": {
                                                     "kind": 201392130,
                                                     "text": 0,
-                                                    "rawText": "0",
+                                                    "original": "0",
+                                                    "rawText": " 0",
                                                     "flags": 96,
                                                     "start": 108,
                                                     "end": 110
@@ -461,8 +485,9 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "baz",
                     "text": "baz",
-                    "rawText": "baz",
+                    "rawText": " baz",
                     "flags": 96,
                     "start": 116,
                     "end": 120
@@ -481,8 +506,9 @@ x ? ( (a, {}) => {} ) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\nx",
                     "flags": 96,
                     "start": 121,
                     "end": 123
@@ -508,6 +534,7 @@ x ? ( (a, {}) => {} ) : baz;
                             [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -562,8 +589,9 @@ x ? ( (a, {}) => {} ) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "baz",
                     "text": "baz",
-                    "rawText": "baz",
+                    "rawText": " baz",
                     "flags": 96,
                     "start": 145,
                     "end": 149

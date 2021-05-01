@@ -38,8 +38,9 @@
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "type",
                                                     "text": "type",
-                                                    "rawText": "type",
+                                                    "rawText": " type",
                                                     "flags": 96,
                                                     "start": 5,
                                                     "end": 10

@@ -29,6 +29,7 @@ async (x = z = yield) => {}
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -45,8 +46,9 @@ async (x = z = yield) => {}
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -59,8 +61,9 @@ async (x = z = yield) => {}
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "yield",
                             "text": "yield",
-                            "rawText": "yield",
+                            "rawText": " yield",
                             "flags": 96,
                             "start": 14,
                             "end": 20

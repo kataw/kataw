@@ -26,6 +26,7 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -36,8 +37,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "typeof",
                                     "text": "typeof",
-                                    "rawText": "typeof",
+                                    "rawText": " typeof",
                                     "flags": 96,
                                     "start": 7,
                                     "end": 14

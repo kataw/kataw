@@ -40,8 +40,9 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -56,8 +57,9 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 11
@@ -90,8 +92,9 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     "kind": 193,
                                                     "key": {
                                                         "kind": 134299649,
+                                                        "original": "y",
                                                         "text": "y",
-                                                        "rawText": "y",
+                                                        "rawText": " y",
                                                         "flags": 96,
                                                         "start": 20,
                                                         "end": 22
@@ -148,15 +151,17 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "left": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "rawText": "0",
+                                            "original": "0",
+                                            "rawText": " 0",
                                             "flags": 96,
                                             "start": 41,
                                             "end": 43
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 40
@@ -174,6 +179,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "foo",
+                                            "original": "'foo'",
                                             "rawText": " 'foo'",
                                             "flags": 4194400,
                                             "start": 47,
@@ -181,8 +187,9 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " y",
                                             "flags": 96,
                                             "start": 44,
                                             "end": 46

@@ -21,6 +21,7 @@ wrap({foo(){}, bar(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -39,6 +40,7 @@ wrap({foo(){}, bar(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -77,8 +79,9 @@ wrap({foo(){}, bar(){}});
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 18

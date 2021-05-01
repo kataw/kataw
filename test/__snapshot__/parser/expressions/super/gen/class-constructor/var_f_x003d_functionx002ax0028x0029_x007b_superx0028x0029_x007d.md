@@ -31,8 +31,9 @@ class C { constructor() { var f = function*() { super(); } } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,8 +56,9 @@ class C { constructor() { var f = function*() { super(); } } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -93,8 +95,9 @@ class C { constructor() { var f = function*() { super(); } } }
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "f",
                                                             "text": "f",
-                                                            "rawText": "f",
+                                                            "rawText": " f",
                                                             "flags": 96,
                                                             "start": 29,
                                                             "end": 31

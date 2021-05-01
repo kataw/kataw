@@ -28,6 +28,7 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "g1",
                                     "text": "g1",
                                     "rawText": "g1",
                                     "flags": 96,
@@ -86,6 +87,7 @@
                                                                 },
                                                                 "right": {
                                                                     "kind": 134299649,
+                                                                    "original": "x",
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,

@@ -25,6 +25,7 @@ p\u0061ckage = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "p\\u0061ckage",
                     "text": "package",
                     "rawText": "p\\u0061ckage",
                     "flags": 96,
@@ -39,8 +40,9 @@ p\u0061ckage = x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 14,
                     "end": 16

@@ -25,6 +25,7 @@
                     "left": {
                         "kind": 201392131,
                         "text": "ignore me",
+                        "original": "\"ignore me\"",
                         "rawText": "\"ignore me\"",
                         "flags": 96,
                         "start": 0,
@@ -38,6 +39,7 @@
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -56,6 +58,7 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,

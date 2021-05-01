@@ -81,6 +81,7 @@ let [..x] = obj;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -95,8 +96,9 @@ let [..x] = obj;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "obj",
                 "text": "obj",
-                "rawText": "obj",
+                "rawText": " obj",
                 "flags": 96,
                 "start": 11,
                 "end": 15

@@ -27,6 +27,7 @@ foo(x => ok).bar
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -47,6 +48,7 @@ foo(x => ok).bar
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -57,8 +59,9 @@ foo(x => ok).bar
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "ok",
                                     "text": "ok",
-                                    "rawText": "ok",
+                                    "rawText": " ok",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 11
@@ -79,6 +82,7 @@ foo(x => ok).bar
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,

@@ -24,8 +24,9 @@
                         "kind": 163,
                         "label": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 1,
                             "end": 5
@@ -58,8 +59,9 @@
                             "kind": 163,
                             "label": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 10
@@ -101,8 +103,9 @@
                                 "generatorToken": null,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "f",
                                     "text": "f",
-                                    "rawText": "f",
+                                    "rawText": " f",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 22

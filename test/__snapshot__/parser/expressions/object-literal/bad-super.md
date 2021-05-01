@@ -27,8 +27,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -44,8 +45,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -71,6 +73,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 96,
@@ -144,6 +147,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                     "right": {
                                                                         "kind": 201392131,
                                                                         "text": "foo",
+                                                                        "original": "\"foo\"",
                                                                         "rawText": "\"foo\"",
                                                                         "flags": 96,
                                                                         "start": 39,
@@ -168,8 +172,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
-                                                    "rawText": "x",
+                                                    "rawText": " x",
                                                     "flags": 96,
                                                     "start": 56,
                                                     "end": 58

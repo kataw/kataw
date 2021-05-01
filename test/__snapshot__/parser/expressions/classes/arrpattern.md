@@ -34,8 +34,9 @@ class n extends ([] = x) {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "n",
                 "text": "n",
-                "rawText": "n",
+                "rawText": " n",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -75,8 +76,9 @@ class n extends ([] = x) {}
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 21,
                             "end": 23

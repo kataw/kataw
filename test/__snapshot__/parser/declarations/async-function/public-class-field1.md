@@ -35,8 +35,9 @@ class C { aaa; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -54,8 +55,9 @@ class C { aaa; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "aaa",
                             "text": "aaa",
-                            "rawText": "aaa",
+                            "rawText": " aaa",
                             "flags": 96,
                             "start": 9,
                             "end": 13

@@ -27,6 +27,7 @@ y.)
                 "kind": 129,
                 "member": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,

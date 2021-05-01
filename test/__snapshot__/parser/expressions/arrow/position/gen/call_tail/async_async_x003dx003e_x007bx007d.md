@@ -27,6 +27,7 @@ foo(async async => {}).bar
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -51,8 +52,9 @@ foo(async async => {}).bar
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "async",
                                             "text": "async",
-                                            "rawText": "async",
+                                            "rawText": " async",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 15
@@ -102,6 +104,7 @@ foo(async async => {}).bar
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,

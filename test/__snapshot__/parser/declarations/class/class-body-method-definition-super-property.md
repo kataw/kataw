@@ -34,8 +34,9 @@ class A {
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -58,8 +59,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": "\n  constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 23
@@ -100,6 +102,7 @@ class A {
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "toString",
                                                         "text": "toString",
                                                         "rawText": "toString",
                                                         "flags": 96,
@@ -156,8 +159,9 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "dontDoThis",
                                 "text": "dontDoThis",
-                                "rawText": "dontDoThis",
+                                "rawText": "\n  dontDoThis",
                                 "flags": 96,
                                 "start": 53,
                                 "end": 66
@@ -198,6 +202,7 @@ class A {
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "makeBugs",
                                                         "text": "makeBugs",
                                                         "rawText": "makeBugs",
                                                         "flags": 96,
@@ -217,7 +222,8 @@ class A {
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "rawText": "1",
+                                                    "original": "1",
+                                                    "rawText": " 1",
                                                     "flags": 96,
                                                     "start": 91,
                                                     "end": 93

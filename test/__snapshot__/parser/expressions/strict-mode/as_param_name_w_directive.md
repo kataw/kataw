@@ -21,6 +21,7 @@ f = (interface) => { "use strict"; }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -45,6 +46,7 @@ f = (interface) => { "use strict"; }
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "interface",
                             "text": "interface",
                             "rawText": "interface",
                             "flags": 96,
@@ -62,6 +64,7 @@ f = (interface) => { "use strict"; }
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
+                                    "original": "\"use strict\"",
                                     "rawText": " \"use strict\"",
                                     "flags": 96,
                                     "start": 20,

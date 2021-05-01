@@ -31,8 +31,9 @@ class x {set enum(x){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {set enum(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "enum",
                                 "text": "enum",
-                                "rawText": "enum",
+                                "rawText": " enum",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 17
@@ -75,6 +77,7 @@ class x {set enum(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

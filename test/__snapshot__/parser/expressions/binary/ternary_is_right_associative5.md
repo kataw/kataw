@@ -23,6 +23,7 @@ typeof x;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -37,8 +38,9 @@ typeof x;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 3,
                     "end": 5
@@ -53,8 +55,9 @@ typeof x;
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -67,8 +70,9 @@ typeof x;
                     },
                     "consequent": {
                         "kind": 134299649,
+                        "original": "d",
                         "text": "d",
-                        "rawText": "d",
+                        "rawText": " d",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -83,8 +87,9 @@ typeof x;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "e",
                             "text": "e",
-                            "rawText": "e",
+                            "rawText": " e",
                             "flags": 96,
                             "start": 15,
                             "end": 17
@@ -97,8 +102,9 @@ typeof x;
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 19,
                             "end": 21
@@ -131,8 +137,9 @@ typeof x;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 29,
                     "end": 31

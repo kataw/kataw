@@ -47,6 +47,7 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -58,7 +59,8 @@ var [x = 10, y, z] = a;
                                         "initializer": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "rawText": "10",
+                                            "original": "10",
+                                            "rawText": " 10",
                                             "flags": 96,
                                             "start": 8,
                                             "end": 11
@@ -72,8 +74,9 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " y",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -90,8 +93,9 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 17
@@ -117,8 +121,9 @@ var [x = 10, y, z] = a;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 20,
                             "end": 22

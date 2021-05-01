@@ -31,8 +31,9 @@ var af = (x, ...y) => { return [x, y.length]; };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "af",
                             "text": "af",
-                            "rawText": "af",
+                            "rawText": " af",
                             "flags": 96,
                             "start": 3,
                             "end": 6
@@ -52,6 +53,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                 [
                                     {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -68,6 +70,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         },
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
@@ -106,6 +109,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "x",
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
@@ -116,14 +120,16 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
+                                                                "original": "length",
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,

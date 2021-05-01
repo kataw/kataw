@@ -36,8 +36,9 @@ class C extends (function B() {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "C",
                             "text": "C",
-                            "rawText": "C",
+                            "rawText": " C",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -70,8 +71,9 @@ class C extends (function B() {
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -101,8 +103,9 @@ class C extends (function B() {
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "B",
                                 "text": "B",
-                                "rawText": "B",
+                                "rawText": " B",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 35
@@ -163,8 +166,9 @@ class C extends (function B() {
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "B",
                                                 "text": "B",
-                                                "rawText": "B",
+                                                "rawText": " B",
                                                 "flags": 96,
                                                 "start": 61,
                                                 "end": 63

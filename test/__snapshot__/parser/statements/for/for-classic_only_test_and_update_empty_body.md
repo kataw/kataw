@@ -45,6 +45,7 @@ for (;b;c);
             "initializer": null,
             "condition": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
@@ -53,6 +54,7 @@ for (;b;c);
             },
             "incrementor": {
                 "kind": 134299649,
+                "original": "b",
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,

@@ -42,8 +42,9 @@ const { f: await f } = {};
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 10
@@ -53,8 +54,9 @@ const { f: await f } = {};
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "await",
                                                 "text": "await",
-                                                "rawText": "await",
+                                                "rawText": " await",
                                                 "flags": 96,
                                                 "start": 10,
                                                 "end": 16
@@ -73,8 +75,9 @@ const { f: await f } = {};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "f",
                                             "text": "f",
-                                            "rawText": "f",
+                                            "rawText": " f",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 18

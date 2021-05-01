@@ -44,8 +44,9 @@ export const x = 10, y = 20
                             "kind": 190,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 14
@@ -55,7 +56,8 @@ export const x = 10, y = 20
                             "initializer": {
                                 "kind": 201392130,
                                 "text": 10,
-                                "rawText": "10",
+                                "original": "10",
+                                "rawText": " 10",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 19
@@ -68,8 +70,9 @@ export const x = 10, y = 20
                             "kind": 190,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 22
@@ -79,7 +82,8 @@ export const x = 10, y = 20
                             "initializer": {
                                 "kind": 201392130,
                                 "text": 20,
-                                "rawText": "20",
+                                "original": "20",
+                                "rawText": " 20",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 27

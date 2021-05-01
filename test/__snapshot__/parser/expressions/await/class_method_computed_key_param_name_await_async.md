@@ -35,8 +35,9 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -71,6 +72,7 @@ async function f(){
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "fail",
                                             "text": "fail",
                                             "rawText": "fail",
                                             "flags": 96,
@@ -94,8 +96,9 @@ async function f(){
                                             },
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "A",
                                                 "text": "A",
-                                                "rawText": "A",
+                                                "rawText": " A",
                                                 "flags": 96,
                                                 "start": 35,
                                                 "end": 37
@@ -120,6 +123,7 @@ async function f(){
                                                                 "kind": 194,
                                                                 "expression": {
                                                                     "kind": 134299649,
+                                                                    "original": "x",
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
@@ -139,6 +143,7 @@ async function f(){
                                                                         "ellipsisToken": null,
                                                                         "binding": {
                                                                             "kind": 134299649,
+                                                                            "original": "await",
                                                                             "text": "await",
                                                                             "rawText": "await",
                                                                             "flags": 96,
@@ -201,6 +206,7 @@ async function f(){
                                                             "name": {
                                                                 "kind": 201392131,
                                                                 "text": "x",
+                                                                "original": "\"x\"",
                                                                 "rawText": " \"x\"",
                                                                 "flags": 96,
                                                                 "start": 52,

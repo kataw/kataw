@@ -36,8 +36,9 @@ function foo(numVal: any, otherVal: mixed){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -50,6 +51,7 @@ function foo(numVal: any, otherVal: mixed){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "numVal",
                             "text": "numVal",
                             "rawText": "numVal",
                             "flags": 96,
@@ -79,8 +81,9 @@ function foo(numVal: any, otherVal: mixed){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "otherVal",
                             "text": "otherVal",
-                            "rawText": "otherVal",
+                            "rawText": " otherVal",
                             "flags": 96,
                             "start": 25,
                             "end": 34
@@ -92,8 +95,9 @@ function foo(numVal: any, otherVal: mixed){}
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "mixed",
                                     "text": "mixed",
-                                    "rawText": "mixed",
+                                    "rawText": " mixed",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 41

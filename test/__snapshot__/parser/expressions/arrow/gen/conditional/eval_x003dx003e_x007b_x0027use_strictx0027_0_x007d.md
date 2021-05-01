@@ -35,6 +35,7 @@ eval => { 'use strict'; 0 } , bar;
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
+                            "original": "eval",
                             "text": "eval",
                             "rawText": "eval",
                             "flags": 96,
@@ -51,6 +52,7 @@ eval => { 'use strict'; 0 } , bar;
                                     {
                                         "kind": 201392131,
                                         "text": "use strict",
+                                        "original": "'use strict'",
                                         "rawText": " 'use strict'",
                                         "flags": 4194400,
                                         "start": 9,
@@ -63,7 +65,8 @@ eval => { 'use strict'; 0 } , bar;
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "rawText": "0",
+                                            "original": "0",
+                                            "rawText": " 0",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 25
@@ -87,8 +90,9 @@ eval => { 'use strict'; 0 } , bar;
                     },
                     {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": " bar",
                         "flags": 96,
                         "start": 29,
                         "end": 33

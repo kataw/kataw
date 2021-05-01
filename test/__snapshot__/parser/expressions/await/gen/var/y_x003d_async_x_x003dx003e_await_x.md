@@ -35,8 +35,9 @@ var await; var f = (async function() { y = async x => await x });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { y = async x => await x });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -119,8 +121,9 @@ var await; var f = (async function() { y = async x => await x });
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "y",
                                                         "text": "y",
-                                                        "rawText": "y",
+                                                        "rawText": " y",
                                                         "flags": 96,
                                                         "start": 38,
                                                         "end": 40
@@ -146,8 +149,9 @@ var await; var f = (async function() { y = async x => await x });
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
+                                                                    "original": "x",
                                                                     "text": "x",
-                                                                    "rawText": "x",
+                                                                    "rawText": " x",
                                                                     "flags": 96,
                                                                     "start": 48,
                                                                     "end": 50
@@ -177,8 +181,9 @@ var await; var f = (async function() { y = async x => await x });
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " x",
                                                                 "flags": 96,
                                                                 "start": 59,
                                                                 "end": 61

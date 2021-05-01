@@ -25,6 +25,7 @@ x = {
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -46,8 +47,9 @@ x = {
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": "\n    method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 16
@@ -61,6 +63,7 @@ x = {
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "test",
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,

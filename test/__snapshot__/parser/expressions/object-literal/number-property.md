@@ -21,6 +21,7 @@ x = {15:b}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -46,6 +47,7 @@ x = {15:b}
                                 "setKeyword": null,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
@@ -55,6 +57,7 @@ x = {15:b}
                                 "right": {
                                     "kind": 201392130,
                                     "text": 15,
+                                    "original": "15",
                                     "rawText": "15",
                                     "flags": 96,
                                     "start": 5,

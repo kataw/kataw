@@ -34,16 +34,18 @@ do( catch { try while
                     "properties": [
                         {
                             "kind": 134299649,
+                            "original": "try",
                             "text": "try",
-                            "rawText": "try",
+                            "rawText": " try",
                             "flags": 96,
                             "start": 11,
                             "end": 15
                         },
                         {
                             "kind": 134299649,
+                            "original": "while",
                             "text": "while",
-                            "rawText": "while",
+                            "rawText": " while",
                             "flags": 96,
                             "start": 15,
                             "end": 21

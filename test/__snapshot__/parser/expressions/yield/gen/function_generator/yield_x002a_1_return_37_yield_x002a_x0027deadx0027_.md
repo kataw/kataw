@@ -37,8 +37,9 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -96,8 +98,9 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "yield",
                                                     "text": "yield",
-                                                    "rawText": "yield",
+                                                    "rawText": " yield",
                                                     "flags": 96,
                                                     "start": 39,
                                                     "end": 45
@@ -111,7 +114,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "rawText": "1",
+                                                    "original": "1",
+                                                    "rawText": " 1",
                                                     "flags": 96,
                                                     "start": 47,
                                                     "end": 49
@@ -135,7 +139,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 37,
-                                                "rawText": "37",
+                                                "original": "37",
+                                                "rawText": " 37",
                                                 "flags": 96,
                                                 "start": 57,
                                                 "end": 60
@@ -150,8 +155,9 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "yield",
                                                     "text": "yield",
-                                                    "rawText": "yield",
+                                                    "rawText": " yield",
                                                     "flags": 96,
                                                     "start": 61,
                                                     "end": 67
@@ -165,6 +171,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                 "right": {
                                                     "kind": 201392131,
                                                     "text": "dead",
+                                                    "original": "'dead'",
                                                     "rawText": " 'dead'",
                                                     "flags": 4194400,
                                                     "start": 69,

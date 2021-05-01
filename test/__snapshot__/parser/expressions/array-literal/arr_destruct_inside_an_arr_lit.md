@@ -24,6 +24,7 @@
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -39,6 +40,7 @@
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
@@ -47,8 +49,9 @@
                                         },
                                         {
                                             "kind": 134299649,
+                                            "original": "baz",
                                             "text": "baz",
-                                            "rawText": "baz",
+                                            "rawText": " baz",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 15
@@ -71,8 +74,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "doo",
                                 "text": "doo",
-                                "rawText": "doo",
+                                "rawText": " doo",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 22

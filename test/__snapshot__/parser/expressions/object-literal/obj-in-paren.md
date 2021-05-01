@@ -34,16 +34,18 @@
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "text",
                                         "text": "text",
-                                        "rawText": "text",
+                                        "rawText": " text",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 21
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "responseText",
                                         "text": "responseText",
-                                        "rawText": "responseText",
+                                        "rawText": " responseText",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 15
@@ -70,8 +72,9 @@
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "res",
                         "text": "res",
-                        "rawText": "res",
+                        "rawText": " res",
                         "flags": 96,
                         "start": 25,
                         "end": 29

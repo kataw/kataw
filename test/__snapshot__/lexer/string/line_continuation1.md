@@ -38,6 +38,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "",
+                "original": "\"\\\n\"",
                 "rawText": "\"\\\n\"",
                 "flags": 96,
                 "start": 0,
@@ -52,6 +53,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre",
+                "original": "\"pre\\\n\"",
                 "rawText": "\n\"pre\\\n\"",
                 "flags": 97,
                 "start": 6,
@@ -66,6 +68,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "post",
+                "original": "\"\\\npost\"",
                 "rawText": "\n\"\\\npost\"",
                 "flags": 97,
                 "start": 16,
@@ -80,6 +83,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "prepost",
+                "original": "\"pre\\\npost\"",
                 "rawText": "\n\"pre\\\npost\"",
                 "flags": 97,
                 "start": 27,
@@ -94,6 +98,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "@{xd}@",
+                "original": "\"\\@{xd}@\"",
                 "rawText": "\n\"\\@{xd}@\"",
                 "flags": 97,
                 "start": 41,
@@ -108,6 +113,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre@{xd}@",
+                "original": "\"pre\\@{xd}@\"",
                 "rawText": "\n\"pre\\@{xd}@\"",
                 "flags": 97,
                 "start": 53,
@@ -122,6 +128,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "@{xd}@post",
+                "original": "\"\\@{xd}@post\"",
                 "rawText": "\n\"\\@{xd}@post\"",
                 "flags": 97,
                 "start": 68,
@@ -136,6 +143,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre@{xd}@post",
+                "original": "\"pre\\@{xd}@post\"",
                 "rawText": "\n\"pre\\@{xd}@post\"",
                 "flags": 97,
                 "start": 84,

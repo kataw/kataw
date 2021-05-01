@@ -68,8 +68,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": "//a ? (b) : c => d; // a ? b : (c => d)\na",
                     "flags": 96,
                     "start": 0,
                     "end": 41
@@ -92,6 +93,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -106,8 +108,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
-                                "rawText": "c",
+                                "rawText": " c",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 51
@@ -123,8 +126,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "contents": {
                         "kind": 134299649,
+                        "original": "d",
                         "text": "d",
-                        "rawText": "d",
+                        "rawText": " d",
                         "flags": 96,
                         "start": 54,
                         "end": 56
@@ -141,8 +145,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
-                    "rawText": "e",
+                    "rawText": " e",
                     "flags": 96,
                     "start": 58,
                     "end": 60
@@ -161,8 +166,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " // a ? ((b): c => d) : e\na",
                     "flags": 96,
                     "start": 61,
                     "end": 88
@@ -177,6 +183,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
@@ -205,6 +212,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -219,8 +227,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "d",
                                 "text": "d",
-                                "rawText": "d",
+                                "rawText": " d",
                                 "flags": 96,
                                 "start": 102,
                                 "end": 104
@@ -236,8 +245,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "contents": {
                         "kind": 134299649,
+                        "original": "e",
                         "text": "e",
-                        "rawText": "e",
+                        "rawText": " e",
                         "flags": 96,
                         "start": 107,
                         "end": 109
@@ -260,8 +270,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " // a ? b : ((c): d => e)\n\n//a ? (b = (c) => d) : e => f; // a ? (b = (c) => d) : (e => f)\na",
                     "flags": 96,
                     "start": 110,
                     "end": 202
@@ -286,6 +297,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 125,
                             "left": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -310,6 +322,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "parameters": [
                                     {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
@@ -321,8 +334,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "d",
                                     "text": "d",
-                                    "rawText": "d",
+                                    "rawText": " d",
                                     "flags": 96,
                                     "start": 216,
                                     "end": 218
@@ -343,8 +357,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "e",
                                 "text": "e",
-                                "rawText": "e",
+                                "rawText": " e",
                                 "flags": 96,
                                 "start": 221,
                                 "end": 223
@@ -360,8 +375,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "contents": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 226,
                         "end": 228
@@ -378,8 +394,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
-                    "rawText": "g",
+                    "rawText": " g",
                     "flags": 96,
                     "start": 230,
                     "end": 232
@@ -398,8 +415,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " // a ? ((b = (c) => d): e => f) : g\n\nb",
                     "flags": 96,
                     "start": 233,
                     "end": 272
@@ -414,8 +432,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 274,
                         "end": 276
@@ -438,6 +457,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "d",
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
@@ -452,8 +472,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "e",
                                     "text": "e",
-                                    "rawText": "e",
+                                    "rawText": " e",
                                     "flags": 96,
                                     "start": 284,
                                     "end": 286
@@ -471,6 +492,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 121,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
@@ -493,8 +515,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "alternate": {
                         "kind": 134299649,
+                        "original": "g",
                         "text": "g",
-                        "rawText": "g",
+                        "rawText": " g",
                         "flags": 96,
                         "start": 295,
                         "end": 297
@@ -511,8 +534,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "h",
                     "text": "h",
-                    "rawText": "h",
+                    "rawText": " h",
                     "flags": 96,
                     "start": 299,
                     "end": 301
@@ -531,8 +555,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " // b ? (c ? ((d): e => f) : g) : h\n//a ? b ? c ? (d) : e => (f) : g : h; // a ? (b ? (c ? d : (e => f)) : g) : h\n\na",
                     "flags": 96,
                     "start": 302,
                     "end": 418
@@ -547,8 +572,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 420,
                         "end": 422
@@ -563,6 +589,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "kind": 121,
                         "expression": {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -586,6 +613,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "d",
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
@@ -603,6 +631,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
+                                            "original": "e",
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 96,
@@ -619,8 +648,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
+                                        "original": "f",
                                         "text": "f",
-                                        "rawText": "f",
+                                        "rawText": " f",
                                         "flags": 96,
                                         "start": 443,
                                         "end": 445
@@ -641,8 +671,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         },
                         "contents": {
                             "kind": 134299649,
+                            "original": "g",
                             "text": "g",
-                            "rawText": "g",
+                            "rawText": " g",
                             "flags": 96,
                             "start": 447,
                             "end": 449
@@ -660,8 +691,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": " // a ? (b ? c : ((d): e => f)) : g\n\n// Multiple arrow functions\na",
                         "flags": 96,
                         "start": 450,
                         "end": 516
@@ -684,6 +716,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -698,8 +731,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
-                                    "rawText": "c",
+                                    "rawText": " c",
                                     "flags": 96,
                                     "start": 524,
                                     "end": 526
@@ -715,8 +749,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         },
                         "contents": {
                             "kind": 134299649,
+                            "original": "d",
                             "text": "d",
-                            "rawText": "d",
+                            "rawText": " d",
                             "flags": 96,
                             "start": 529,
                             "end": 531
@@ -743,6 +778,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "e",
                                 "text": "e",
                                 "rawText": "e",
                                 "flags": 96,
@@ -757,8 +793,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "f",
                                     "text": "f",
-                                    "rawText": "f",
+                                    "rawText": " f",
                                     "flags": 96,
                                     "start": 539,
                                     "end": 541
@@ -774,8 +811,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         },
                         "contents": {
                             "kind": 134299649,
+                            "original": "g",
                             "text": "g",
-                            "rawText": "g",
+                            "rawText": " g",
                             "flags": 96,
                             "start": 544,
                             "end": 546
@@ -802,8 +840,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " // a ? ((b): c => d) : ((e): f => g)\n\n// Multiple nested arrow functions (<T> is needed to avoid ambiguities)\na",
                     "flags": 96,
                     "start": 547,
                     "end": 659
@@ -826,6 +865,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -840,8 +880,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
-                                "rawText": "c",
+                                "rawText": " c",
                                 "flags": 96,
                                 "start": 667,
                                 "end": 669
@@ -867,6 +908,7 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "d",
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
@@ -881,8 +923,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "e",
                                     "text": "e",
-                                    "rawText": "e",
+                                    "rawText": " e",
                                     "flags": 96,
                                     "start": 678,
                                     "end": 680
@@ -898,8 +941,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         },
                         "contents": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 683,
                             "end": 685
@@ -920,8 +964,9 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
-                    "rawText": "g",
+                    "rawText": " g",
                     "flags": 96,
                     "start": 687,
                     "end": 689

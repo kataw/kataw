@@ -35,8 +35,9 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -136,8 +138,9 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                             "ellipsisToken": null,
                                                                             "key": {
                                                                                 "kind": 134299649,
+                                                                                "original": "f",
                                                                                 "text": "f",
-                                                                                "rawText": "f",
+                                                                                "rawText": " f",
                                                                                 "flags": 96,
                                                                                 "start": 44,
                                                                                 "end": 47
@@ -152,6 +155,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                                 },
                                                                                 "binding": {
                                                                                     "kind": 134299649,
+                                                                                    "original": "await",
                                                                                     "text": "await",
                                                                                     "rawText": "await",
                                                                                     "flags": 96,
@@ -172,8 +176,9 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                             "ellipsisToken": null,
                                                                             "left": {
                                                                                 "kind": 134299649,
+                                                                                "original": "f",
                                                                                 "text": "f",
-                                                                                "rawText": "f",
+                                                                                "rawText": " f",
                                                                                 "flags": 96,
                                                                                 "start": 56,
                                                                                 "end": 58

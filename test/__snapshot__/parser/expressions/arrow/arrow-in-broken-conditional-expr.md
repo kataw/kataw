@@ -21,6 +21,7 @@ bar ? (=> 0) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -50,7 +51,8 @@ bar ? (=> 0) : baz;
                 "alternate": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 9,
                     "end": 11
@@ -67,8 +69,9 @@ bar ? (=> 0) : baz;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "baz",
                 "text": "baz",
-                "rawText": "baz",
+                "rawText": " baz",
                 "flags": 96,
                 "start": 14,
                 "end": 18

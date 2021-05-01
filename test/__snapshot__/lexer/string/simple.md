@@ -28,6 +28,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
+                "original": "\"\"",
                 "rawText": "\"\"",
                 "flags": 96,
                 "start": 0,
@@ -42,6 +43,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "some content",
+                "original": "\"some content\"",
                 "rawText": "\n\"some content\"",
                 "flags": 97,
                 "start": 4,
@@ -56,6 +58,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "var",
+                "original": "\"var\"",
                 "rawText": "\n\"var\"",
                 "flags": 97,
                 "start": 21,
@@ -70,6 +73,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "x / y",
+                "original": "\"x / y\"",
                 "rawText": "\n\"x / y\"",
                 "flags": 97,
                 "start": 29,
@@ -84,6 +88,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "raw lower unicode @{x200}",
+                "original": "\"raw lower unicode @{x200}\"",
                 "rawText": "\n\"raw lower unicode @{x200}\"",
                 "flags": 97,
                 "start": 39,

@@ -33,6 +33,7 @@ function *g() { new yield }
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,

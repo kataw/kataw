@@ -49,6 +49,7 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -67,8 +68,9 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "y",
                                                     "text": "y",
-                                                    "rawText": "y",
+                                                    "rawText": " y",
                                                     "flags": 96,
                                                     "start": 15,
                                                     "end": 17
@@ -94,6 +96,7 @@
                                                 {
                                                     "kind": 201392131,
                                                     "text": "use strict",
+                                                    "original": "\"use strict\"",
                                                     "rawText": "\"use strict\"",
                                                     "flags": 96,
                                                     "start": 19,
@@ -117,6 +120,7 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,

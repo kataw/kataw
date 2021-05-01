@@ -25,6 +25,7 @@ x = {[ a + b instanceof c ]: y}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -50,8 +51,9 @@ x = {[ a + b instanceof c ]: y}
                                 "setKeyword": null,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 30
@@ -62,8 +64,9 @@ x = {[ a + b instanceof c ]: y}
                                         "kind": 198,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
-                                            "rawText": "a",
+                                            "rawText": " a",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 8
@@ -78,8 +81,9 @@ x = {[ a + b instanceof c ]: y}
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
-                                                "rawText": "b",
+                                                "rawText": " b",
                                                 "flags": 96,
                                                 "start": 10,
                                                 "end": 12
@@ -92,8 +96,9 @@ x = {[ a + b instanceof c ]: y}
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "c",
                                                 "text": "c",
-                                                "rawText": "c",
+                                                "rawText": " c",
                                                 "flags": 96,
                                                 "start": 23,
                                                 "end": 25

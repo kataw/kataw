@@ -32,8 +32,9 @@ async g => (x = [await y])
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "g",
                             "text": "g",
-                            "rawText": "g",
+                            "rawText": " g",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -59,6 +60,7 @@ async g => (x = [await y])
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -86,8 +88,9 @@ async g => (x = [await y])
                                         },
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
-                                            "rawText": "y",
+                                            "rawText": " y",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24

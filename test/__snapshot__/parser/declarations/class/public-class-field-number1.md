@@ -35,8 +35,9 @@ class C { 1e2 }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,7 +56,8 @@ class C { 1e2 }
                         "key": {
                             "kind": 201392130,
                             "text": 100,
-                            "rawText": "1e2",
+                            "original": "1e2",
+                            "rawText": " 1e2",
                             "flags": 96,
                             "start": 9,
                             "end": 13

@@ -42,6 +42,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u0000",
+                "original": "\"\\x00\"",
                 "rawText": "\"\\x00\"",
                 "flags": 96,
                 "start": 0,
@@ -56,6 +57,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u0012",
+                "original": "\"\\x12\"",
                 "rawText": "\n\"\\x12\"",
                 "flags": 97,
                 "start": 8,
@@ -70,6 +72,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "4",
+                "original": "\"\\x34\"",
                 "rawText": "\n\"\\x34\"",
                 "flags": 97,
                 "start": 17,
@@ -84,6 +87,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "V",
+                "original": "\"\\x56\"",
                 "rawText": "\n\"\\x56\"",
                 "flags": 97,
                 "start": 26,
@@ -98,6 +102,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "x",
+                "original": "\"\\x78\"",
                 "rawText": "\n\"\\x78\"",
                 "flags": 97,
                 "start": 35,
@@ -112,6 +117,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
+                "original": "\"\\x9a\"",
                 "rawText": "\n\"\\x9a\"",
                 "flags": 97,
                 "start": 44,
@@ -126,6 +132,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "«",
+                "original": "\"\\xAb\"",
                 "rawText": "\n\"\\xAb\"",
                 "flags": 97,
                 "start": 53,
@@ -140,6 +147,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "¼",
+                "original": "\"\\xBc\"",
                 "rawText": "\n\"\\xBc\"",
                 "flags": 97,
                 "start": 62,
@@ -154,6 +162,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Í",
+                "original": "\"\\xCd\"",
                 "rawText": "\n\"\\xCd\"",
                 "flags": 97,
                 "start": 71,
@@ -168,6 +177,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "Þ",
+                "original": "\"\\xDe\"",
                 "rawText": "\n\"\\xDe\"",
                 "flags": 97,
                 "start": 80,
@@ -182,6 +192,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ï",
+                "original": "\"\\xEf\"",
                 "rawText": "\n\"\\xEf\"",
                 "flags": 97,
                 "start": 89,
@@ -196,6 +207,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ð",
+                "original": "\"\\xF0\"",
                 "rawText": "\n\"\\xF0\"",
                 "flags": 97,
                 "start": 98,

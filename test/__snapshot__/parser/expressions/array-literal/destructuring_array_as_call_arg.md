@@ -40,6 +40,7 @@ foo([a, b] = arr);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -58,6 +59,7 @@ foo([a, b] = arr);
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -66,8 +68,9 @@ foo([a, b] = arr);
                                         },
                                         {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
-                                            "rawText": "b",
+                                            "rawText": " b",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 9
@@ -90,8 +93,9 @@ foo([a, b] = arr);
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "arr",
                                 "text": "arr",
-                                "rawText": "arr",
+                                "rawText": " arr",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 16

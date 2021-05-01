@@ -21,6 +21,7 @@ x = z();
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -37,8 +38,9 @@ x = z();
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "z",
                         "text": "z",
-                        "rawText": "z",
+                        "rawText": " z",
                         "flags": 96,
                         "start": 3,
                         "end": 5

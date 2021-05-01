@@ -44,8 +44,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "Base",
                             "text": "Base",
-                            "rawText": "Base",
+                            "rawText": " Base",
                             "flags": 96,
                             "start": 14,
                             "end": 19
@@ -66,8 +67,9 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
-                                    "rawText": "async",
+                                    "rawText": " async",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 27
@@ -77,7 +79,8 @@
                                 "initializer": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 29,
                                     "end": 31

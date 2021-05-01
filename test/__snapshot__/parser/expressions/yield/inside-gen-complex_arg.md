@@ -33,8 +33,9 @@ function* f(){ yield x + y; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -69,8 +70,9 @@ function* f(){ yield x + y; }
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 20,
                                         "end": 22
@@ -83,8 +85,9 @@ function* f(){ yield x + y; }
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 26

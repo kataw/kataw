@@ -46,8 +46,9 @@ class A {async get 7(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class A {async get 7(){}}
                         },
                         "key": {
                             "kind": 134299649,
+                            "original": "get",
                             "text": "get",
-                            "rawText": "get",
+                            "rawText": " get",
                             "flags": 96,
                             "start": 14,
                             "end": 18
@@ -97,7 +99,8 @@ class A {async get 7(){}}
                             "name": {
                                 "kind": 201392130,
                                 "text": 7,
-                                "rawText": "7",
+                                "original": "7",
+                                "rawText": " 7",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 20

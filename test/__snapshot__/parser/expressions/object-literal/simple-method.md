@@ -24,6 +24,7 @@ x = { method(test: string) { } };
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -45,8 +46,9 @@ x = { method(test: string) { } };
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": " method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 12
@@ -60,6 +62,7 @@ x = { method(test: string) { } };
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "test",
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,
@@ -122,8 +125,9 @@ x = { method(test: string) { } };
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\n\nx",
                     "flags": 96,
                     "start": 25,
                     "end": 28
@@ -143,8 +147,9 @@ x = { method(test: string) { } };
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": " method",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 39
@@ -158,6 +163,7 @@ x = { method(test: string) { } };
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "test",
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,
@@ -218,8 +224,9 @@ x = { method(test: string) { } };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 45,
                 "end": 52

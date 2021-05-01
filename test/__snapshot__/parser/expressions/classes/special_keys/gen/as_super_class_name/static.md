@@ -31,8 +31,9 @@ class x extends static {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -48,8 +49,9 @@ class x extends static {}
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "static",
                     "text": "static",
-                    "rawText": "static",
+                    "rawText": " static",
                     "flags": 96,
                     "start": 15,
                     "end": 22

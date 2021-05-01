@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -37,6 +38,7 @@
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -48,6 +50,7 @@
                 "elements": [
                     {
                         "kind": 134299649,
+                        "original": "await",
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,

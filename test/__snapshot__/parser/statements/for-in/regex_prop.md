@@ -59,6 +59,7 @@ for (/foo/.x in c) d;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -71,8 +72,9 @@ for (/foo/.x in c) d;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
-                "rawText": "c",
+                "rawText": " c",
                 "flags": 96,
                 "start": 15,
                 "end": 17
@@ -81,8 +83,9 @@ for (/foo/.x in c) d;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 18,
                     "end": 20

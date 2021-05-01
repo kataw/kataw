@@ -46,8 +46,9 @@ class v extends.foo {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "v",
                 "text": "v",
-                "rawText": "v",
+                "rawText": " v",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -72,6 +73,7 @@ class v extends.foo {}
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,

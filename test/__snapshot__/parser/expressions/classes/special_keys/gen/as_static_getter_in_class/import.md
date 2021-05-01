@@ -31,8 +31,9 @@ class x {static get import(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {static get import(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "import",
                                 "text": "import",
-                                "rawText": "import",
+                                "rawText": " import",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 26

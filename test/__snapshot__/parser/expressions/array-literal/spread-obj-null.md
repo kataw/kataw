@@ -43,6 +43,7 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "obj",
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 96,
@@ -84,6 +85,7 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "apply",
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,

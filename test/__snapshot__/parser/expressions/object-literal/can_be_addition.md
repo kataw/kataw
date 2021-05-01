@@ -21,6 +21,7 @@ x = {...a + b}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -50,6 +51,7 @@ x = {...a + b}
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -64,8 +66,9 @@ x = {...a + b}
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 11,
                                         "end": 13

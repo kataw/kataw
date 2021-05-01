@@ -31,8 +31,9 @@ class package {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "package",
                 "text": "package",
-                "rawText": "package",
+                "rawText": " package",
                 "flags": 96,
                 "start": 5,
                 "end": 13

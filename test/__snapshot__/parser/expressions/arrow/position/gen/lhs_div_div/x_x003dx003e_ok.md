@@ -33,6 +33,7 @@ x => ok
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -47,8 +48,9 @@ x => ok
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 4,
                             "end": 7
@@ -61,8 +63,9 @@ x => ok
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 9,
                             "end": 11
@@ -79,8 +82,9 @@ x => ok
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "g",
                         "text": "g",
-                        "rawText": "g",
+                        "rawText": " g",
                         "flags": 96,
                         "start": 13,
                         "end": 15

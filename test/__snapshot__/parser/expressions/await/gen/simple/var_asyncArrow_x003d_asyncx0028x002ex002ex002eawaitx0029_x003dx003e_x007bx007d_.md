@@ -35,8 +35,9 @@ var asyncArrow = async(...await) => {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "asyncArrow",
                             "text": "asyncArrow",
-                            "rawText": "asyncArrow",
+                            "rawText": " asyncArrow",
                             "flags": 96,
                             "start": 3,
                             "end": 14

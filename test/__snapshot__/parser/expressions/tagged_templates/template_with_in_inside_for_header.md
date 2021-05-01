@@ -27,6 +27,7 @@ for(t`${x in y}`;;);
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
+                    "original": "t",
                     "text": "t",
                     "rawText": "t",
                     "flags": 96,
@@ -44,6 +45,7 @@ for(t`${x in y}`;;);
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -58,8 +60,9 @@ for(t`${x in y}`;;);
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 12,
                                     "end": 14

@@ -33,8 +33,9 @@ class A {async **=f(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -52,6 +53,7 @@ class A {async **=f(){}}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -80,6 +82,7 @@ class A {async **=f(){}}
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,

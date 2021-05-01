@@ -30,8 +30,9 @@ let z = {...x}
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -53,6 +54,7 @@ let z = {...x}
                                         },
                                         "argument": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

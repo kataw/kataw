@@ -37,8 +37,9 @@ z; }
                                     "kind": 157,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 5,
                                         "end": 7
@@ -48,7 +49,8 @@ z; }
                                     "initializer": {
                                         "kind": 201392130,
                                         "text": 14,
-                                        "rawText": "14",
+                                        "original": "14",
+                                        "rawText": " 14",
                                         "flags": 96,
                                         "start": 9,
                                         "end": 12
@@ -61,8 +63,9 @@ z; }
                                     "kind": 157,
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 13,
                                         "end": 15
@@ -72,7 +75,8 @@ z; }
                                     "initializer": {
                                         "kind": 201392130,
                                         "text": 3,
-                                        "rawText": "3",
+                                        "original": "3",
+                                        "rawText": " 3",
                                         "flags": 96,
                                         "start": 17,
                                         "end": 19
@@ -94,8 +98,9 @@ z; }
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": "\nz",
                             "flags": 96,
                             "start": 19,
                             "end": 21

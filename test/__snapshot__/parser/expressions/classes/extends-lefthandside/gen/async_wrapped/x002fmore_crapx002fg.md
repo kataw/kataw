@@ -39,8 +39,9 @@ async function p(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "p",
                 "text": "p",
-                "rawText": "p",
+                "rawText": " p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -71,8 +72,9 @@ async function p(){
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29

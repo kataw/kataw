@@ -40,6 +40,7 @@ export {foo, bar};
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
@@ -57,8 +58,9 @@ export {foo, bar};
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 16

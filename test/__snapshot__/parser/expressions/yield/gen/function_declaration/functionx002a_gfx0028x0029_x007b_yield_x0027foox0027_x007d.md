@@ -32,8 +32,9 @@ function not_gen() { function* gf() { yield 'foo' } }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -70,8 +71,9 @@ function not_gen() { function* gf() { yield 'foo' } }}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "gf",
                                 "text": "gf",
-                                "rawText": "gf",
+                                "rawText": " gf",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 33
@@ -105,6 +107,7 @@ function not_gen() { function* gf() { yield 'foo' } }}
                                                 "expression": {
                                                     "kind": 201392131,
                                                     "text": "foo",
+                                                    "original": "'foo'",
                                                     "rawText": " 'foo'",
                                                     "flags": 4194400,
                                                     "start": 43,

@@ -21,6 +21,7 @@ a?.200
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -36,6 +37,7 @@ a?.200
                 "consequent": {
                     "kind": 201392130,
                     "text": 200,
+                    "original": "200",
                     "rawText": "200",
                     "flags": 96,
                     "start": 3,

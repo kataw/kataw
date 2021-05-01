@@ -34,6 +34,7 @@ async ({await = x}) => x
                                 "kind": 205,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "await",
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
@@ -42,8 +43,9 @@ async ({await = x}) => x
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 17
@@ -72,8 +74,9 @@ async ({await = x}) => x
             "returnType": null,
             "contents": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 22,
                 "end": 24

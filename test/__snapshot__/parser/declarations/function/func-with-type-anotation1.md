@@ -36,8 +36,9 @@ function g(a:number=1, e:number=1) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -50,6 +51,7 @@ function g(a:number=1, e:number=1) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -72,6 +74,7 @@ function g(a:number=1, e:number=1) {}
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 20,
@@ -86,8 +89,9 @@ function g(a:number=1, e:number=1) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "e",
                             "text": "e",
-                            "rawText": "e",
+                            "rawText": " e",
                             "flags": 96,
                             "start": 22,
                             "end": 24
@@ -108,6 +112,7 @@ function g(a:number=1, e:number=1) {}
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 32,

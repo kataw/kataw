@@ -30,6 +30,7 @@
                     "member": {
                         "kind": 201392130,
                         "text": 6,
+                        "original": "6",
                         "rawText": "6",
                         "flags": 96,
                         "start": 0,
@@ -48,6 +49,7 @@
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -58,6 +60,7 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
@@ -85,7 +88,8 @@
                 "right": {
                     "kind": 201392130,
                     "text": 3,
-                    "rawText": "3",
+                    "original": "3",
+                    "rawText": " 3",
                     "flags": 96,
                     "start": 11,
                     "end": 13

@@ -41,6 +41,7 @@ delete (((((foo(await)))))).bar
                                             "kind": 131,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -52,6 +53,7 @@ delete (((((foo(await)))))).bar
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "await",
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
@@ -90,6 +92,7 @@ delete (((((foo(await)))))).bar
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,

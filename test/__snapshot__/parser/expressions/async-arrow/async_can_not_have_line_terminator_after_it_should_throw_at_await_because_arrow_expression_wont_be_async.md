@@ -31,8 +31,9 @@ g => await g
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -41,6 +42,7 @@ g => await g
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -73,8 +75,9 @@ g => await g
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
-                    "rawText": "g",
+                    "rawText": "\ng",
                     "flags": 96,
                     "start": 13,
                     "end": 15
@@ -83,8 +86,9 @@ g => await g
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "await",
                     "text": "await",
-                    "rawText": "await",
+                    "rawText": " await",
                     "flags": 96,
                     "start": 18,
                     "end": 24
@@ -101,8 +105,9 @@ g => await g
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 24,
                 "end": 26

@@ -33,8 +33,9 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
-                "rawText": "g",
+                "rawText": " g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -68,8 +69,9 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "o",
                                             "text": "o",
-                                            "rawText": "o",
+                                            "rawText": " o",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -85,6 +87,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
+                                                            "original": "f",
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 96,
@@ -100,6 +103,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                     "ellipsisToken": null,
                                                                     "binding": {
                                                                         "kind": 134299649,
+                                                                        "original": "foo",
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
@@ -115,6 +119,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                             "elements": [
                                                                                 {
                                                                                     "kind": 134299649,
+                                                                                    "original": "h",
                                                                                     "text": "h",
                                                                                     "rawText": "h",
                                                                                     "flags": 96,
@@ -136,8 +141,9 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                     "kind": 131,
                                                                                                     "expression": {
                                                                                                         "kind": 134299649,
+                                                                                                        "original": "t",
                                                                                                         "text": "t",
-                                                                                                        "rawText": "t",
+                                                                                                        "rawText": " t",
                                                                                                         "flags": 96,
                                                                                                         "start": 44,
                                                                                                         "end": 46
@@ -147,6 +153,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                         "elements": [
                                                                                                             {
                                                                                                                 "kind": 134299649,
+                                                                                                                "original": "await",
                                                                                                                 "text": "await",
                                                                                                                 "rawText": "await",
                                                                                                                 "flags": 96,
@@ -155,8 +162,9 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                             },
                                                                                                             {
                                                                                                                 "kind": 134299649,
+                                                                                                                "original": "bar",
                                                                                                                 "text": "bar",
-                                                                                                                "rawText": "bar",
+                                                                                                                "rawText": " bar",
                                                                                                                 "flags": 96,
                                                                                                                 "start": 52,
                                                                                                                 "end": 56
@@ -173,6 +181,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                 },
                                                                                                 "right": {
                                                                                                     "kind": 134299649,
+                                                                                                    "original": "m",
                                                                                                     "text": "m",
                                                                                                     "rawText": "m",
                                                                                                     "flags": 96,

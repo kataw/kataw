@@ -38,6 +38,7 @@ export { abc }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "var",
                             "text": "abc",
                             "rawText": "var",
                             "flags": 96,
@@ -49,7 +50,8 @@ export { abc }
                         "initializer": {
                             "kind": 201392130,
                             "text": 5,
-                            "rawText": "5",
+                            "original": "5",
+                            "rawText": " 5",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -86,8 +88,9 @@ export { abc }
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "abc",
                                 "text": "abc",
-                                "rawText": "abc",
+                                "rawText": " abc",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 30

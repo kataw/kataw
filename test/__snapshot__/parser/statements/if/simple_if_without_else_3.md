@@ -25,6 +25,7 @@ if (foo) a; if (bar) b; else c;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -35,8 +36,9 @@ if (foo) a; if (bar) b; else c;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " a",
                     "flags": 96,
                     "start": 8,
                     "end": 10
@@ -61,6 +63,7 @@ if (foo) a; if (bar) b; else c;
             },
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
@@ -71,8 +74,9 @@ if (foo) a; if (bar) b; else c;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 20,
                     "end": 22
@@ -91,8 +95,9 @@ if (foo) a; if (bar) b; else c;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 28,
                     "end": 30

@@ -29,6 +29,7 @@ a++;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -55,8 +56,9 @@ a++;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": "\n\na",
                     "flags": 96,
                     "start": 4,
                     "end": 7

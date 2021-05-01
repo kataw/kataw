@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "9",
+                "original": "\"\\9\"",
                 "rawText": "\"\\9\"",
                 "flags": 96,
                 "start": 0,

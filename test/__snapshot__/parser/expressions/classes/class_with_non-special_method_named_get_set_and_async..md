@@ -27,8 +27,9 @@ class A {set(){} get(){} async(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,6 +52,7 @@ class A {set(){} get(){} async(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "set",
                                 "text": "set",
                                 "rawText": "set",
                                 "flags": 96,
@@ -102,8 +104,9 @@ class A {set(){} get(){} async(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "get",
                                 "text": "get",
-                                "rawText": "get",
+                                "rawText": " get",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 20
@@ -153,8 +156,9 @@ class A {set(){} get(){} async(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
-                                "rawText": "async",
+                                "rawText": " async",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 30

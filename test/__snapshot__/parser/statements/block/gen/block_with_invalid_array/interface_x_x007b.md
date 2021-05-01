@@ -83,8 +83,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "interface",
                             "text": "interface",
-                            "rawText": "interface",
+                            "rawText": " interface",
                             "flags": 96,
                             "start": 9,
                             "end": 19
@@ -97,8 +98,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 19,
                             "end": 21

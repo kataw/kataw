@@ -21,6 +21,7 @@ x = {0xabc(){}}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -43,6 +44,7 @@ x = {0xabc(){}}
                                 "name": {
                                     "kind": 201392130,
                                     "text": 2748,
+                                    "original": "0xabc",
                                     "rawText": "0xabc",
                                     "flags": 1048672,
                                     "start": 5,

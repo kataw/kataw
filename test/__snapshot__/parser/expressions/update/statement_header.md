@@ -34,8 +34,9 @@ a);
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": "\na",
                     "flags": 96,
                     "start": 6,
                     "end": 8

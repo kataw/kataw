@@ -25,6 +25,7 @@ x * (async => ok)
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -54,6 +55,7 @@ x * (async => ok)
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -77,8 +79,9 @@ x * (async => ok)
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 13,
                             "end": 16

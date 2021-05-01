@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "foo",
+                "original": "\"foo\"",
                 "rawText": "\"foo\"",
                 "flags": 96,
                 "start": 0,
@@ -34,6 +35,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
+                "original": "\"bar\"",
                 "rawText": "\"bar\"",
                 "flags": 96,
                 "start": 6,

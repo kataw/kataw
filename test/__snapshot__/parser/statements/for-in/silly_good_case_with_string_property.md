@@ -53,6 +53,7 @@ for ("foo".bar in obj);
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": "\"foo\"",
                     "flags": 96,
                     "start": 5,
@@ -60,6 +61,7 @@ for ("foo".bar in obj);
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -72,8 +74,9 @@ for ("foo".bar in obj);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "obj",
                 "text": "obj",
-                "rawText": "obj",
+                "rawText": " obj",
                 "flags": 96,
                 "start": 17,
                 "end": 21

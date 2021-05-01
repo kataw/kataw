@@ -32,8 +32,9 @@ function not_gen() { await.b[c] => async }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -60,14 +61,16 @@ function not_gen() { await.b[c] => async }}
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
+                                        "original": "await",
                                         "text": "await",
-                                        "rawText": "await",
+                                        "rawText": " await",
                                         "flags": 96,
                                         "start": 20,
                                         "end": 26
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -80,6 +83,7 @@ function not_gen() { await.b[c] => async }}
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
@@ -113,6 +117,7 @@ function not_gen() { await.b[c] => async }}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,

@@ -32,8 +32,9 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "not_gen",
                 "text": "not_gen",
-                "rawText": "not_gen",
+                "rawText": " not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -67,8 +68,9 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " foo",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 28
@@ -133,7 +135,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "expression": {
                                                                                     "kind": 201392130,
                                                                                     "text": 42,
-                                                                                    "rawText": "42",
+                                                                                    "original": "42",
+                                                                                    "rawText": " 42",
                                                                                     "flags": 96,
                                                                                     "start": 55,
                                                                                     "end": 58
@@ -182,7 +185,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                 "expression": {
                                                                                     "kind": 201392130,
                                                                                     "text": 43,
-                                                                                    "rawText": "43",
+                                                                                    "original": "43",
+                                                                                    "rawText": " 43",
                                                                                     "flags": 96,
                                                                                     "start": 74,
                                                                                     "end": 77
@@ -206,7 +210,8 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                             "expression": {
                                                                                 "kind": 201392130,
                                                                                 "text": 13,
-                                                                                "rawText": "13",
+                                                                                "original": "13",
+                                                                                "rawText": " 13",
                                                                                 "flags": 96,
                                                                                 "start": 85,
                                                                                 "end": 88

@@ -31,8 +31,9 @@ class A extends oh,no {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -48,8 +49,9 @@ class A extends oh,no {}
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "oh",
                     "text": "oh",
-                    "rawText": "oh",
+                    "rawText": " oh",
                     "flags": 96,
                     "start": 15,
                     "end": 18
@@ -74,6 +76,7 @@ class A extends oh,no {}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "no",
                 "text": "no",
                 "rawText": "no",
                 "flags": 96,

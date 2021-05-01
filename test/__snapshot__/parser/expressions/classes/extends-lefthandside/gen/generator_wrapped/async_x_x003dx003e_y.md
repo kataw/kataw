@@ -41,6 +41,7 @@ x => y {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "P",
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
@@ -73,8 +74,9 @@ x => y {}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "D",
                                 "text": "D",
-                                "rawText": "D",
+                                "rawText": " D",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 24
@@ -90,6 +92,7 @@ x => y {}
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -125,8 +128,9 @@ x => y {}
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": "\nx",
                                     "flags": 96,
                                     "start": 38,
                                     "end": 40
@@ -135,8 +139,9 @@ x => y {}
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 43,
                                     "end": 45

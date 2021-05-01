@@ -31,8 +31,9 @@ class x {while: x}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,6 +51,7 @@ class x {while: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "while",
                             "text": "while",
                             "rawText": "while",
                             "flags": 96,
@@ -76,8 +78,9 @@ class x {while: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 15,
                 "end": 17

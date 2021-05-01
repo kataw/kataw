@@ -33,8 +33,9 @@ for ( a > b instanceof c ;;);
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": " a",
                         "flags": 96,
                         "start": 5,
                         "end": 7
@@ -47,8 +48,9 @@ for ( a > b instanceof c ;;);
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 9,
                         "end": 11
@@ -65,8 +67,9 @@ for ( a > b instanceof c ;;);
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 22,
                     "end": 24

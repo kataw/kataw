@@ -31,8 +31,9 @@ class A extends fooo.bar {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,14 +51,16 @@ class A extends fooo.bar {}
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
+                        "original": "fooo",
                         "text": "fooo",
-                        "rawText": "fooo",
+                        "rawText": " fooo",
                         "flags": 96,
                         "start": 15,
                         "end": 20
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,

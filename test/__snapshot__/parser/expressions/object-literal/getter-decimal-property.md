@@ -26,8 +26,9 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "get",
                                 "text": "get",
-                                "rawText": "get",
+                                "rawText": " get",
                                 "flags": 96,
                                 "start": 2,
                                 "end": 6
@@ -37,7 +38,8 @@
                                 "name": {
                                     "kind": 201392130,
                                     "text": 5.2322341234123,
-                                    "rawText": "5.2322341234123",
+                                    "original": "5.2322341234123",
+                                    "rawText": " 5.2322341234123",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 22

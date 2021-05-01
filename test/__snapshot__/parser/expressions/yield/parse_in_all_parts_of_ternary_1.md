@@ -33,6 +33,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -72,7 +73,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "rawText": "1",
+                                            "original": "1",
+                                            "rawText": " 1",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -104,7 +106,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 2,
-                                        "rawText": "2",
+                                        "original": "2",
+                                        "rawText": " 2",
                                         "flags": 96,
                                         "start": 33,
                                         "end": 35
@@ -132,7 +135,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 3,
-                                        "rawText": "3",
+                                        "original": "3",
+                                        "rawText": " 3",
                                         "flags": 96,
                                         "start": 43,
                                         "end": 45

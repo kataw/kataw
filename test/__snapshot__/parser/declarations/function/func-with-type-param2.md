@@ -29,6 +29,7 @@ a=function<T,S>() {}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -81,6 +82,7 @@ a=function<T,S>() {}
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "T",
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
@@ -96,6 +98,7 @@ a=function<T,S>() {}
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
+                                    "original": "S",
                                     "text": "S",
                                     "rawText": "S",
                                     "flags": 96,

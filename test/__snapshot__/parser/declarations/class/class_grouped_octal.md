@@ -46,8 +46,9 @@ class x extends y{}(09)
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -63,8 +64,9 @@ class x extends y{}(09)
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -92,6 +94,7 @@ class x extends y{}(09)
                 "expression": {
                     "kind": 201392130,
                     "text": 9,
+                    "original": "09",
                     "rawText": "09",
                     "flags": 96,
                     "start": 20,

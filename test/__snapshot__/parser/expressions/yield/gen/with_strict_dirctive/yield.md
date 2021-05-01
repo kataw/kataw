@@ -24,6 +24,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -37,8 +38,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "yield",
                 "text": "yield",
-                "rawText": "yield",
+                "rawText": " yield",
                 "flags": 96,
                 "start": 13,
                 "end": 19

@@ -41,6 +41,7 @@
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "obj",
                                                     "text": "obj",
                                                     "rawText": "obj",
                                                     "flags": 96,
@@ -73,8 +74,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 17
@@ -106,6 +108,7 @@
                                             },
                                             "argument": {
                                                 "kind": 134299649,
+                                                "original": "obj",
                                                 "text": "obj",
                                                 "rawText": "obj",
                                                 "flags": 96,
@@ -134,8 +137,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 34
@@ -169,6 +173,7 @@
                                                 "kind": 129,
                                                 "member": {
                                                     "kind": 134299649,
+                                                    "original": "obj",
                                                     "text": "obj",
                                                     "rawText": "obj",
                                                     "flags": 96,
@@ -177,6 +182,7 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -209,8 +215,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 53
@@ -258,6 +265,7 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -290,8 +298,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 67,
                                 "end": 71
@@ -339,6 +348,7 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -371,8 +381,9 @@
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 85,
                                 "end": 89

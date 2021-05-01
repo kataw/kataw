@@ -40,8 +40,9 @@ import *= from 'f';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 9,
                 "end": 14
@@ -55,6 +56,7 @@ import *= from 'f';
             "expression": {
                 "kind": 201392131,
                 "text": "f",
+                "original": "'f'",
                 "rawText": " 'f'",
                 "flags": 4194400,
                 "start": 14,

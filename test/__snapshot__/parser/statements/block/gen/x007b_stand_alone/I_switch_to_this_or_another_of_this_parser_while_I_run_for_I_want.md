@@ -28,8 +28,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "I",
                             "text": "I",
-                            "rawText": "I",
+                            "rawText": " I",
                             "flags": 96,
                             "start": 1,
                             "end": 3
@@ -48,8 +49,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "to",
                             "text": "to",
-                            "rawText": "to",
+                            "rawText": " to",
                             "flags": 96,
                             "start": 10,
                             "end": 13
@@ -81,8 +83,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "or",
                             "text": "or",
-                            "rawText": "or",
+                            "rawText": " or",
                             "flags": 96,
                             "start": 18,
                             "end": 21
@@ -95,8 +98,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "another",
                             "text": "another",
-                            "rawText": "another",
+                            "rawText": " another",
                             "flags": 96,
                             "start": 21,
                             "end": 29
@@ -109,8 +113,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "of",
                             "text": "of",
-                            "rawText": "of",
+                            "rawText": " of",
                             "flags": 96,
                             "start": 29,
                             "end": 32
@@ -135,8 +140,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "parser",
                             "text": "parser",
-                            "rawText": "parser",
+                            "rawText": " parser",
                             "flags": 96,
                             "start": 37,
                             "end": 44
@@ -155,8 +161,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "I",
                             "text": "I",
-                            "rawText": "I",
+                            "rawText": " I",
                             "flags": 96,
                             "start": 50,
                             "end": 52
@@ -165,8 +172,9 @@
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "run",
                                 "text": "run",
-                                "rawText": "run",
+                                "rawText": " run",
                                 "flags": 96,
                                 "start": 52,
                                 "end": 56
@@ -189,8 +197,9 @@
                         },
                         "initializer": {
                             "kind": 134299649,
+                            "original": "I",
                             "text": "I",
-                            "rawText": "I",
+                            "rawText": " I",
                             "flags": 96,
                             "start": 60,
                             "end": 62
@@ -204,8 +213,9 @@
                         },
                         "incrementor": {
                             "kind": 134299649,
+                            "original": "want",
                             "text": "want",
-                            "rawText": "want",
+                            "rawText": " want",
                             "flags": 96,
                             "start": 62,
                             "end": 67

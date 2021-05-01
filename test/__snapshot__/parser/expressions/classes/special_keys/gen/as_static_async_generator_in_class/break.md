@@ -31,8 +31,9 @@ class x {static async * break(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class x {static async * break(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "break",
                                 "text": "break",
-                                "rawText": "break",
+                                "rawText": " break",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 29

@@ -35,8 +35,9 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -74,6 +75,7 @@ async function f(){
                                 "member": {
                                     "kind": 201392131,
                                     "text": "foo",
+                                    "original": "\"foo\"",
                                     "rawText": "\"foo\"",
                                     "flags": 96,
                                     "start": 33,
@@ -81,6 +83,7 @@ async function f(){
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -93,8 +96,9 @@ async function f(){
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
-                                "rawText": "c",
+                                "rawText": " c",
                                 "flags": 96,
                                 "start": 43,
                                 "end": 45
@@ -103,8 +107,9 @@ async function f(){
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "d",
                                     "text": "d",
-                                    "rawText": "d",
+                                    "rawText": " d",
                                     "flags": 96,
                                     "start": 46,
                                     "end": 48

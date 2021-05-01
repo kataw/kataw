@@ -21,6 +21,7 @@ x = {arguments}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -40,6 +41,7 @@ x = {arguments}
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "arguments",
                                 "text": "arguments",
                                 "rawText": "arguments",
                                 "flags": 96,

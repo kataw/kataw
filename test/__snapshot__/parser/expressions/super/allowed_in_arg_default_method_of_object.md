@@ -21,6 +21,7 @@ x={ foo(a = super.foo){ }}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -42,8 +43,9 @@ x={ foo(a = super.foo){ }}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 7
@@ -57,6 +59,7 @@ x={ foo(a = super.foo){ }}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -81,6 +84,7 @@ x={ foo(a = super.foo){ }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,

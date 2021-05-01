@@ -23,6 +23,7 @@ async(await);
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -34,6 +35,7 @@ async(await);
                 "elements": [
                     {
                         "kind": 134299649,
+                        "original": "await",
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,

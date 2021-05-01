@@ -36,8 +36,9 @@ for (const x in [1, 2, 3]) { x++ }
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -62,6 +63,7 @@ for (const x in [1, 2, 3]) { x++ }
                         {
                             "kind": 201392130,
                             "text": 1,
+                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 17,
@@ -70,7 +72,8 @@ for (const x in [1, 2, 3]) { x++ }
                         {
                             "kind": 201392130,
                             "text": 2,
-                            "rawText": "2",
+                            "original": "2",
+                            "rawText": " 2",
                             "flags": 96,
                             "start": 19,
                             "end": 21
@@ -78,7 +81,8 @@ for (const x in [1, 2, 3]) { x++ }
                         {
                             "kind": 201392130,
                             "text": 3,
-                            "rawText": "3",
+                            "original": "3",
+                            "rawText": " 3",
                             "flags": 96,
                             "start": 22,
                             "end": 24
@@ -110,8 +114,9 @@ for (const x in [1, 2, 3]) { x++ }
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 30

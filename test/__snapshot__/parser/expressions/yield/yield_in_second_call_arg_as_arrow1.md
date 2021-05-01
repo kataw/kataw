@@ -33,6 +33,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -69,6 +70,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -85,8 +87,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 20,
                                                 "end": 22
@@ -101,8 +104,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                 "kind": 131,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "foo",
                                                     "text": "foo",
-                                                    "rawText": "foo",
+                                                    "rawText": " foo",
                                                     "flags": 96,
                                                     "start": 24,
                                                     "end": 28
@@ -112,6 +116,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -130,8 +135,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                             "asteriskToken": null,
                                                             "expression": {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 37,
                                                                 "end": 39
@@ -163,8 +169,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 44,
                                     "end": 46

@@ -21,6 +21,7 @@ foo`H\x45Y`
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,

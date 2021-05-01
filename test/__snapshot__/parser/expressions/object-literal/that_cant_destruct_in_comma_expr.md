@@ -22,6 +22,7 @@ x, {x: foo + y, bar} = doo
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -45,8 +46,9 @@ x, {x: foo + y, bar} = doo
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
-                                                "rawText": "foo",
+                                                "rawText": " foo",
                                                 "flags": 96,
                                                 "start": 6,
                                                 "end": 10
@@ -59,8 +61,9 @@ x, {x: foo + y, bar} = doo
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 12,
                                                 "end": 14
@@ -71,6 +74,7 @@ x, {x: foo + y, bar} = doo
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -83,8 +87,9 @@ x, {x: foo + y, bar} = doo
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "bar",
                                         "text": "bar",
-                                        "rawText": "bar",
+                                        "rawText": " bar",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 19
@@ -107,8 +112,9 @@ x, {x: foo + y, bar} = doo
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "doo",
                             "text": "doo",
-                            "rawText": "doo",
+                            "rawText": " doo",
                             "flags": 96,
                             "start": 22,
                             "end": 26

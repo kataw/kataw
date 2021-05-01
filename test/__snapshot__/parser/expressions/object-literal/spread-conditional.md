@@ -37,6 +37,7 @@
                                     "kind": 197,
                                     "shortCircuit": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -51,8 +52,9 @@
                                     },
                                     "consequent": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 9,
                                         "end": 11
@@ -65,8 +67,9 @@
                                     },
                                     "alternate": {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
-                                        "rawText": "c",
+                                        "rawText": " c",
                                         "flags": 96,
                                         "start": 13,
                                         "end": 15
@@ -106,6 +109,7 @@
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -129,6 +133,7 @@
                                             "kind": 197,
                                             "shortCircuit": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -143,8 +148,9 @@
                                             },
                                             "consequent": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
-                                                "rawText": "b",
+                                                "rawText": " b",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 33
@@ -157,8 +163,9 @@
                                             },
                                             "alternate": {
                                                 "kind": 134299649,
+                                                "original": "c",
                                                 "text": "c",
-                                                "rawText": "c",
+                                                "rawText": " c",
                                                 "flags": 96,
                                                 "start": 35,
                                                 "end": 37

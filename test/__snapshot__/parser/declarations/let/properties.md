@@ -38,6 +38,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -54,6 +55,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -63,6 +65,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
+                                            "original": "0",
                                             "rawText": "0",
                                             "flags": 96,
                                             "start": 9,
@@ -77,6 +80,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "c",
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
@@ -88,6 +92,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "d",
                                                 "text": "d",
                                                 "rawText": "d",
                                                 "flags": 96,
@@ -108,6 +113,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "e",
                                             "text": "e",
                                             "rawText": "e",
                                             "flags": 96,
@@ -119,6 +125,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "f",
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 96,
@@ -128,6 +135,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 0,
+                                                "original": "0",
                                                 "rawText": "0",
                                                 "flags": 96,
                                                 "start": 19,
@@ -148,6 +156,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "g",
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
@@ -171,6 +180,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "h",
                                                                 "text": "h",
                                                                 "rawText": "h",
                                                                 "flags": 96,
@@ -218,6 +228,7 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
+                            "original": "0",
                             "rawText": "0",
                             "flags": 96,
                             "start": 30,

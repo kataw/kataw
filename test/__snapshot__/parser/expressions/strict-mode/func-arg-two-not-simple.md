@@ -28,8 +28,9 @@ function f(x, y){"use strict";}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -42,6 +43,7 @@ function f(x, y){"use strict";}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -60,8 +62,9 @@ function f(x, y){"use strict";}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -87,6 +90,7 @@ function f(x, y){"use strict";}
                         {
                             "kind": 201392131,
                             "text": "use strict",
+                            "original": "\"use strict\"",
                             "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 17,

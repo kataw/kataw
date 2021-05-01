@@ -34,8 +34,9 @@ new foo ++;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": " foo",
                     "flags": 96,
                     "start": 4,
                     "end": 8
@@ -53,8 +54,9 @@ new foo ++;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " bar",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -93,8 +95,9 @@ new foo ++;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 20,
                 "end": 24
@@ -123,6 +126,7 @@ new foo ++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -162,8 +166,9 @@ new foo ++;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": " foo",
                         "flags": 96,
                         "start": 42,
                         "end": 46

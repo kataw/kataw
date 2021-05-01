@@ -101,6 +101,7 @@ do do do /false//a while while while
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,

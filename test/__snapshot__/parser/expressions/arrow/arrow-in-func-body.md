@@ -35,8 +35,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 9,
                         "end": 11
@@ -70,6 +71,7 @@
                                             "typeParameters": null,
                                             "parameters": {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
@@ -143,8 +145,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 44,
                         "end": 46
@@ -180,6 +183,7 @@
                                                 [
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "yield",
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 96,
@@ -196,6 +200,7 @@
                                                         },
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -278,8 +283,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 87,
                         "end": 89
@@ -319,6 +325,7 @@
                                                         "elements": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -403,8 +410,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 126,
                         "end": 128
@@ -444,6 +452,7 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -528,8 +537,9 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 165,
                         "end": 167
@@ -564,6 +574,7 @@
                                             "parameters": [
                                                 {
                                                     "kind": 134299649,
+                                                    "original": "yield",
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,

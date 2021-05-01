@@ -33,6 +33,7 @@ function *g() { (x = u + yield z) => {}; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -69,6 +70,7 @@ function *g() { (x = u + yield z) => {}; }
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -85,8 +87,9 @@ function *g() { (x = u + yield z) => {}; }
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "u",
                                                 "text": "u",
-                                                "rawText": "u",
+                                                "rawText": " u",
                                                 "flags": 96,
                                                 "start": 20,
                                                 "end": 22
@@ -109,8 +112,9 @@ function *g() { (x = u + yield z) => {}; }
                                                 "asteriskToken": null,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "z",
                                                     "text": "z",
-                                                    "rawText": "z",
+                                                    "rawText": " z",
                                                     "flags": 96,
                                                     "start": 30,
                                                     "end": 32

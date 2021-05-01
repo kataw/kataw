@@ -35,8 +35,9 @@ class x { \u0063onstructor(){}; constructor(){} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -59,8 +60,9 @@ class x { \u0063onstructor(){}; constructor(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "constructor",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 26
@@ -116,8 +118,9 @@ class x { \u0063onstructor(){}; constructor(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 31,
                                 "end": 43

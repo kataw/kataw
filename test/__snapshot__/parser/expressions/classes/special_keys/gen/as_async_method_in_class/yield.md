@@ -31,8 +31,9 @@ class x {async yield(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {async yield(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "yield",
                                 "text": "yield",
-                                "rawText": "yield",
+                                "rawText": " yield",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 20

@@ -35,8 +35,9 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -65,6 +66,7 @@ async function f(){
                             },
                             "initializer": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -73,16 +75,18 @@ async function f(){
                             },
                             "condition": {
                                 "kind": 134299649,
+                                "original": "of",
                                 "text": "of",
-                                "rawText": "of",
+                                "rawText": " of",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 41
                             },
                             "incrementor": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 38
@@ -91,8 +95,9 @@ async function f(){
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 41,
                                     "end": 43

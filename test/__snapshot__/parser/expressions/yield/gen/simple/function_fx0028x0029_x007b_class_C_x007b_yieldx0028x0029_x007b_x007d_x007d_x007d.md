@@ -32,8 +32,9 @@ function f() { class C { yield() { } } }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -64,8 +65,9 @@ function f() { class C { yield() { } } }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 22
@@ -88,8 +90,9 @@ function f() { class C { yield() { } } }
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
-                                                "rawText": "yield",
+                                                "rawText": " yield",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30

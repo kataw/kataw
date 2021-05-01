@@ -21,6 +21,7 @@ wrap({set} = x);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -39,6 +40,7 @@ wrap({set} = x);
                                     "properties": [
                                         {
                                             "kind": 134299649,
+                                            "original": "set",
                                             "text": "set",
                                             "rawText": "set",
                                             "flags": 96,
@@ -63,8 +65,9 @@ wrap({set} = x);
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 14

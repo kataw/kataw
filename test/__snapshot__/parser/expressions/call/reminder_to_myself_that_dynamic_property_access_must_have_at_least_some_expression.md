@@ -21,6 +21,7 @@ foo(async[])
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -34,6 +35,7 @@ foo(async[])
                             "kind": 130,
                             "member": {
                                 "kind": 134299649,
+                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,

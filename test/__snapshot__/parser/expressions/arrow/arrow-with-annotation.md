@@ -48,6 +48,7 @@
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -77,8 +78,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 14,
                     "end": 16
@@ -106,6 +108,7 @@
                     [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -117,8 +120,9 @@
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 24
@@ -147,8 +151,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
-                    "rawText": "z",
+                    "rawText": " z",
                     "flags": 96,
                     "start": 36,
                     "end": 38
@@ -183,6 +188,7 @@
                                 "elements": [
                                     {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -222,8 +228,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 57,
                     "end": 59
@@ -258,6 +265,7 @@
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -297,8 +305,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 78,
                     "end": 80

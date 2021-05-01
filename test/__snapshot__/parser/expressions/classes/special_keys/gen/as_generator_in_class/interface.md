@@ -31,8 +31,9 @@ class x {* interface(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {* interface(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "interface",
                                 "text": "interface",
-                                "rawText": "interface",
+                                "rawText": " interface",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 20

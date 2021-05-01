@@ -60,6 +60,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 },
                                 "member": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -73,6 +74,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                         "chain": null,
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -98,6 +100,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
@@ -126,6 +129,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "elements": [
                                         {
                                             "kind": 134299649,
+                                            "original": "d",
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
@@ -159,6 +163,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "e",
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
@@ -175,6 +180,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
@@ -196,6 +202,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
+                            "original": "g",
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,

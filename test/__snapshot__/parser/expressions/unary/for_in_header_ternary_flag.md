@@ -46,6 +46,7 @@ for(delete((1)?y:x in y) in z)x
                             "expression": {
                                 "kind": 201392130,
                                 "text": 1,
+                                "original": "1",
                                 "rawText": "1",
                                 "flags": 96,
                                 "start": 12,
@@ -63,6 +64,7 @@ for(delete((1)?y:x in y) in z)x
                         },
                         "consequent": {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
@@ -79,6 +81,7 @@ for(delete((1)?y:x in y) in z)x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -93,8 +96,9 @@ for(delete((1)?y:x in y) in z)x
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 23
@@ -117,8 +121,9 @@ for(delete((1)?y:x in y) in z)x
             },
             "expression": {
                 "kind": 134299649,
+                "original": "z",
                 "text": "z",
-                "rawText": "z",
+                "rawText": " z",
                 "flags": 96,
                 "start": 27,
                 "end": 29
@@ -127,6 +132,7 @@ for(delete((1)?y:x in y) in z)x
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,

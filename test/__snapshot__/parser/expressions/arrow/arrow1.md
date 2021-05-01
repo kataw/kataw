@@ -44,6 +44,7 @@
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
@@ -81,8 +82,9 @@
                         },
                         "alternate": {
                             "kind": 134299649,
+                            "original": "string",
                             "text": "string",
-                            "rawText": "string",
+                            "rawText": " string",
                             "flags": 96,
                             "start": 6,
                             "end": 13
@@ -100,6 +102,7 @@
                         "kind": 226,
                         "member": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -142,8 +145,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "Options",
                 "text": "Options",
-                "rawText": "Options",
+                "rawText": " Options",
                 "flags": 96,
                 "start": 26,
                 "end": 34
@@ -156,8 +160,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "Parser",
                 "text": "Parser",
-                "rawText": "Parser",
+                "rawText": " Parser",
                 "flags": 96,
                 "start": 39,
                 "end": 46
@@ -176,8 +181,9 @@
                         "kind": 226,
                         "member": {
                             "kind": 134299649,
+                            "original": "Options",
                             "text": "Options",
-                            "rawText": "Options",
+                            "rawText": " Options",
                             "flags": 96,
                             "start": 46,
                             "end": 54

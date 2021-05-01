@@ -32,8 +32,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "method",
                                     "text": "method",
-                                    "rawText": "method",
+                                    "rawText": " method",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 9
@@ -60,8 +61,9 @@
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "y",
                                                         "text": "y",
-                                                        "rawText": "y",
+                                                        "rawText": " y",
                                                         "flags": 96,
                                                         "start": 13,
                                                         "end": 15

@@ -21,6 +21,7 @@ wrap({[foo](){}, set [bar](e){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -41,6 +42,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -81,8 +83,9 @@ wrap({[foo](){}, set [bar](e){}});
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "set",
                                         "text": "set",
-                                        "rawText": "set",
+                                        "rawText": " set",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 20
@@ -93,6 +96,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
@@ -112,6 +116,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "e",
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 96,

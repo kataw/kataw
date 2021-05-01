@@ -40,6 +40,7 @@ async ([a]:string)=>c;
                     "ellipsisToken": null,
                     "binding": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -74,6 +75,7 @@ async ([a]:string)=>c;
             "returnType": null,
             "contents": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
@@ -110,6 +112,7 @@ async ([a]:string)=>c;
                             "elements": [
                                 {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -154,6 +157,7 @@ async ([a]:string)=>c;
             "returnType": null,
             "contents": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,

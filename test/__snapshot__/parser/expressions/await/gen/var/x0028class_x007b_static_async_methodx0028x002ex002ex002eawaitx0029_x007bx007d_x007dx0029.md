@@ -35,8 +35,9 @@ var await; var f = (async function() { (class { static async method(...await) {}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { (class { static async method(...await) {}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -155,8 +157,9 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                         "kind": 209,
                                                                         "name": {
                                                                             "kind": 134299649,
+                                                                            "original": "method",
                                                                             "text": "method",
-                                                                            "rawText": "method",
+                                                                            "rawText": " method",
                                                                             "flags": 96,
                                                                             "start": 60,
                                                                             "end": 67
@@ -175,6 +178,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                                     },
                                                                                     "binding": {
                                                                                         "kind": 134299649,
+                                                                                        "original": "await",
                                                                                         "text": "await",
                                                                                         "rawText": "await",
                                                                                         "flags": 96,

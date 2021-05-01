@@ -39,8 +39,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "number",
                 "text": "number",
-                "rawText": "number",
+                "rawText": " number",
                 "flags": 96,
                 "start": 24,
                 "end": 31

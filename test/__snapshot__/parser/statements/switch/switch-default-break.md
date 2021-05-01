@@ -34,6 +34,7 @@ switch(0) { default: function f(){ break; } }
             "expression": {
                 "kind": 201392130,
                 "text": 0,
+                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 7,
@@ -64,8 +65,9 @@ switch(0) { default: function f(){ break; } }
                                 "generatorToken": null,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "f",
                                     "text": "f",
-                                    "rawText": "f",
+                                    "rawText": " f",
                                     "flags": 96,
                                     "start": 29,
                                     "end": 31

@@ -31,8 +31,9 @@ class C { await = 0; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,8 +51,9 @@ class C { await = 0; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 9,
                             "end": 15
@@ -61,7 +63,8 @@ class C { await = 0; }
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "rawText": "0",
+                            "original": "0",
+                            "rawText": " 0",
                             "flags": 96,
                             "start": 17,
                             "end": 19

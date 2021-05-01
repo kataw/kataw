@@ -41,8 +41,9 @@ var a : { <T>(x: T): number; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -117,8 +118,9 @@ var a : { <T>(x: T): number; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 28,
                             "end": 30
@@ -140,6 +142,7 @@ var a : { <T>(x: T): number; }
                                                     "kind": 144,
                                                     "id": {
                                                         "kind": 134299649,
+                                                        "original": "T",
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
@@ -164,6 +167,7 @@ var a : { <T>(x: T): number; }
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -175,8 +179,9 @@ var a : { <T>(x: T): number; }
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,
+                                                            "original": "T",
                                                             "text": "T",
-                                                            "rawText": "T",
+                                                            "rawText": " T",
                                                             "flags": 96,
                                                             "start": 41,
                                                             "end": 43

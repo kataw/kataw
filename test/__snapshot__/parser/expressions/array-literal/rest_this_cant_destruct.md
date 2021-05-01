@@ -79,8 +79,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "obj",
                     "text": "obj",
-                    "rawText": "obj",
+                    "rawText": " obj",
                     "flags": 96,
                     "start": 11,
                     "end": 15

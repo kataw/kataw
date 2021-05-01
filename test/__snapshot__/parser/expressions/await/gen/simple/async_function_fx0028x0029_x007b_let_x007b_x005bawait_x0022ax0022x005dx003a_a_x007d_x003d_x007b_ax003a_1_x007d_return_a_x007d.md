@@ -43,8 +43,9 @@ async function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -97,6 +98,7 @@ async function f() {
                                                                 "expression": {
                                                                     "kind": 201392131,
                                                                     "text": "a",
+                                                                    "original": "\"a\"",
                                                                     "rawText": " \"a\"",
                                                                     "flags": 96,
                                                                     "start": 35,
@@ -115,8 +117,9 @@ async function f() {
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "a",
                                                                 "text": "a",
-                                                                "rawText": "a",
+                                                                "rawText": " a",
                                                                 "flags": 96,
                                                                 "start": 41,
                                                                 "end": 43
@@ -156,15 +159,17 @@ async function f() {
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "rawText": "1",
+                                                            "original": "1",
+                                                            "rawText": " 1",
                                                             "flags": 96,
                                                             "start": 52,
                                                             "end": 54
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
-                                                            "rawText": "a",
+                                                            "rawText": " a",
                                                             "flags": 96,
                                                             "start": 49,
                                                             "end": 51
@@ -206,8 +211,9 @@ async function f() {
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 66,
                                 "end": 68

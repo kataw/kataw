@@ -63,8 +63,9 @@ for ({a: x + y} in obj);
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -77,8 +78,9 @@ for ({a: x + y} in obj);
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 12,
                                     "end": 14
@@ -89,6 +91,7 @@ for ({a: x + y} in obj);
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -111,8 +114,9 @@ for ({a: x + y} in obj);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "obj",
                 "text": "obj",
-                "rawText": "obj",
+                "rawText": " obj",
                 "flags": 96,
                 "start": 18,
                 "end": 22

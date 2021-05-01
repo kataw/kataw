@@ -26,6 +26,7 @@
                         "expressions": [
                             {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -42,6 +43,7 @@
                                 },
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -73,7 +75,8 @@
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 11,
                     "end": 13

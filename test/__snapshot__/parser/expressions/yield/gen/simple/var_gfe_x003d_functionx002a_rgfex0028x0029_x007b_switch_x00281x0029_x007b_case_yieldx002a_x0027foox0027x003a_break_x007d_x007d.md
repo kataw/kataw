@@ -35,8 +35,9 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "gfe",
                             "text": "gfe",
-                            "rawText": "gfe",
+                            "rawText": " gfe",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -60,8 +61,9 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "rgfe",
                                 "text": "rgfe",
-                                "rawText": "rgfe",
+                                "rawText": " rgfe",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 24
@@ -91,6 +93,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 1,
+                                                "original": "1",
                                                 "rawText": "1",
                                                 "flags": 96,
                                                 "start": 37,
@@ -125,6 +128,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                             "expression": {
                                                                 "kind": 201392131,
                                                                 "text": "foo",
+                                                                "original": "'foo'",
                                                                 "rawText": " 'foo'",
                                                                 "flags": 4194400,
                                                                 "start": 53,

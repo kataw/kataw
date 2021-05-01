@@ -103,7 +103,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 2,
                 "end": 4
@@ -320,6 +321,7 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392131,
                                     "text": "value",
+                                    "original": "'value'",
                                     "rawText": "'value'",
                                     "flags": 4194400,
                                     "start": 74,
@@ -351,7 +353,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 42,
-                "rawText": "42",
+                "original": "42",
+                "rawText": " 42",
                 "flags": 96,
                 "start": 82,
                 "end": 85
@@ -377,7 +380,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 210,
                 "end": 212
@@ -392,8 +396,9 @@ a++ => {};
                 "kind": 130,
                 "member": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": "\nfoo",
                     "flags": 96,
                     "start": 213,
                     "end": 217
@@ -450,7 +455,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 304,
                 "end": 306
@@ -467,6 +473,7 @@ a++ => {};
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -490,7 +497,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 316,
                 "end": 318
@@ -510,6 +518,7 @@ a++ => {};
                         "expressions": [
                             {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -518,8 +527,9 @@ a++ => {};
                             },
                             {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 324,
                                 "end": 326
@@ -546,7 +556,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 331,
                 "end": 333
@@ -564,6 +575,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -574,6 +586,7 @@ a++ => {};
                             "kind": 121,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
@@ -602,7 +615,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 346,
                 "end": 348
@@ -622,6 +636,7 @@ a++ => {};
                         "expressions": [
                             {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -630,16 +645,18 @@ a++ => {};
                             },
                             {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 354,
                                 "end": 356
                             },
                             {
                                 "kind": 134299649,
+                                "original": "z",
                                 "text": "z",
-                                "rawText": "z",
+                                "rawText": " z",
                                 "flags": 96,
                                 "start": 357,
                                 "end": 359
@@ -666,7 +683,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 364,
                 "end": 366
@@ -684,6 +702,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -697,6 +716,7 @@ a++ => {};
                                 "expressions": [
                                     {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
@@ -705,8 +725,9 @@ a++ => {};
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "z",
                                         "text": "z",
-                                        "rawText": "z",
+                                        "rawText": " z",
                                         "flags": 96,
                                         "start": 375,
                                         "end": 377
@@ -738,7 +759,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 382,
                 "end": 384
@@ -761,6 +783,7 @@ a++ => {};
                                 "expressions": [
                                     {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -769,8 +792,9 @@ a++ => {};
                                     },
                                     {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 390,
                                         "end": 392
@@ -786,8 +810,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 394,
                             "end": 396
@@ -810,7 +835,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "rawText": "0",
+                "original": "0",
+                "rawText": " 0",
                 "flags": 96,
                 "start": 400,
                 "end": 402
@@ -832,8 +858,9 @@ a++ => {};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "eval",
                     "text": "eval",
-                    "rawText": "eval",
+                    "rawText": "\n\n// Arrow function formal parameters are parsed as StrictFormalParameters,\n// which confusingly only implies that there are no duplicates.  Words\n// reserved in strict mode, and eval or arguments, are indeed valid in\n// sloppy mode.\neval",
                     "flags": 96,
                     "start": 403,
                     "end": 641
@@ -848,6 +875,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 646,
@@ -860,7 +888,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 660,
                                     "end": 662
@@ -899,8 +928,9 @@ a++ => {};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "arguments",
                     "text": "arguments",
-                    "rawText": "arguments",
+                    "rawText": "\narguments",
                     "flags": 96,
                     "start": 665,
                     "end": 675
@@ -915,6 +945,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 680,
@@ -927,7 +958,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 694,
                                     "end": 696
@@ -966,8 +998,9 @@ a++ => {};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": "\nyield",
                     "flags": 96,
                     "start": 699,
                     "end": 705
@@ -982,6 +1015,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 710,
@@ -994,7 +1028,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 724,
                                     "end": 726
@@ -1033,8 +1068,9 @@ a++ => {};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "interface",
                     "text": "interface",
-                    "rawText": "interface",
+                    "rawText": "\ninterface",
                     "flags": 96,
                     "start": 729,
                     "end": 739
@@ -1049,6 +1085,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 744,
@@ -1061,7 +1098,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 758,
                                     "end": 760
@@ -1101,6 +1139,7 @@ a++ => {};
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "eval",
                         "text": "eval",
                         "rawText": "eval",
                         "flags": 96,
@@ -1118,6 +1157,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 775,
@@ -1130,7 +1170,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 789,
                                     "end": 791
@@ -1170,6 +1211,7 @@ a++ => {};
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "arguments",
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
@@ -1187,6 +1229,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 811,
@@ -1199,7 +1242,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 825,
                                     "end": 827
@@ -1239,6 +1283,7 @@ a++ => {};
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "yield",
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
@@ -1256,6 +1301,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 843,
@@ -1268,7 +1314,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 857,
                                     "end": 859
@@ -1308,6 +1355,7 @@ a++ => {};
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "interface",
                         "text": "interface",
                         "rawText": "interface",
                         "flags": 96,
@@ -1325,6 +1373,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 879,
@@ -1337,7 +1386,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 893,
                                     "end": 895
@@ -1378,6 +1428,7 @@ a++ => {};
                     [
                         {
                             "kind": 134299649,
+                            "original": "eval",
                             "text": "eval",
                             "rawText": "eval",
                             "flags": 96,
@@ -1386,8 +1437,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
-                            "rawText": "bar",
+                            "rawText": " bar",
                             "flags": 96,
                             "start": 905,
                             "end": 909
@@ -1404,6 +1456,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 915,
@@ -1416,7 +1469,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 929,
                                     "end": 931
@@ -1457,6 +1511,7 @@ a++ => {};
                     [
                         {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -1465,8 +1520,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "eval",
                             "text": "eval",
-                            "rawText": "eval",
+                            "rawText": " eval",
                             "flags": 96,
                             "start": 940,
                             "end": 945
@@ -1483,6 +1539,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 951,
@@ -1495,7 +1552,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 965,
                                     "end": 967
@@ -1536,6 +1594,7 @@ a++ => {};
                     [
                         {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -1544,8 +1603,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "arguments",
                             "text": "arguments",
-                            "rawText": "arguments",
+                            "rawText": " arguments",
                             "flags": 96,
                             "start": 976,
                             "end": 986
@@ -1562,6 +1622,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 992,
@@ -1574,7 +1635,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 1006,
                                     "end": 1008
@@ -1615,6 +1677,7 @@ a++ => {};
                     [
                         {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -1623,8 +1686,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "yield",
                             "text": "yield",
-                            "rawText": "yield",
+                            "rawText": " yield",
                             "flags": 96,
                             "start": 1017,
                             "end": 1023
@@ -1641,6 +1705,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 1029,
@@ -1653,7 +1718,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 1043,
                                     "end": 1045
@@ -1694,6 +1760,7 @@ a++ => {};
                     [
                         {
                             "kind": 134299649,
+                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -1702,8 +1769,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "interface",
                             "text": "interface",
-                            "rawText": "interface",
+                            "rawText": " interface",
                             "flags": 96,
                             "start": 1054,
                             "end": 1064
@@ -1720,6 +1788,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "'use strict'",
                                 "rawText": " 'use strict'",
                                 "flags": 4194400,
                                 "start": 1070,
@@ -1732,7 +1801,8 @@ a++ => {};
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "rawText": "0",
+                                    "original": "0",
+                                    "rawText": " 0",
                                     "flags": 96,
                                     "start": 1084,
                                     "end": 1086
@@ -1763,7 +1833,8 @@ a++ => {};
             "expression": {
                 "kind": 201392130,
                 "text": 32,
-                "rawText": "32",
+                "original": "32",
+                "rawText": "\n    // TODO(aperez): Detecting duplicates does not work in PreParser.\n    // \"(bar, bar) => {};\n\n    // The parameter list is parsed as an expression, but only\n    // a comma-separated list of identifier is valid.\n32",
                 "flags": 97,
                 "start": 1089,
                 "end": 1306
@@ -1798,6 +1869,7 @@ a++ => {};
                 "expression": {
                     "kind": 201392130,
                     "text": 32,
+                    "original": "32",
                     "rawText": "32",
                     "flags": 96,
                     "start": 1315,
@@ -1839,6 +1911,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -1848,7 +1921,8 @@ a++ => {};
                         {
                             "kind": 201392130,
                             "text": 32,
-                            "rawText": "32",
+                            "original": "32",
+                            "rawText": " 32",
                             "flags": 96,
                             "start": 1329,
                             "end": 1332
@@ -2019,6 +2093,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -2097,8 +2172,9 @@ a++ => {};
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": "\na",
                     "flags": 96,
                     "start": 1377,
                     "end": 1379
@@ -2120,8 +2196,9 @@ a++ => {};
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 1381,
                         "end": 1383
@@ -2162,6 +2239,7 @@ a++ => {};
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -2176,8 +2254,9 @@ a++ => {};
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 1395,
                         "end": 1397
@@ -2230,6 +2309,7 @@ a++ => {};
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -2244,8 +2324,9 @@ a++ => {};
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 1410,
                                 "end": 1412
@@ -2256,8 +2337,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
-                            "rawText": "c",
+                            "rawText": " c",
                             "flags": 96,
                             "start": 1413,
                             "end": 1415
@@ -2297,6 +2379,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -2307,8 +2390,9 @@ a++ => {};
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 1427,
                                 "end": 1429
@@ -2321,8 +2405,9 @@ a++ => {};
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
-                                "rawText": "c",
+                                "rawText": " c",
                                 "flags": 96,
                                 "start": 1431,
                                 "end": 1433
@@ -2368,6 +2453,7 @@ a++ => {};
             "expression": {
                 "kind": 201392131,
                 "text": "a",
+                "original": "\"a\"",
                 "rawText": "\n\"a\"",
                 "flags": 97,
                 "start": 1441,
@@ -2403,6 +2489,7 @@ a++ => {};
                 "expression": {
                     "kind": 201392131,
                     "text": "a",
+                    "original": "\"a\"",
                     "rawText": "\"a\"",
                     "flags": 96,
                     "start": 1454,
@@ -2444,6 +2531,7 @@ a++ => {};
                     "expression": {
                         "kind": 201392131,
                         "text": "a; b) => {};",
+                        "original": "\"a; b) => {};",
                         "rawText": "\"a; b) => {};",
                         "flags": 2097248,
                         "start": 1467,
@@ -2454,6 +2542,7 @@ a++ => {};
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -2463,6 +2552,7 @@ a++ => {};
                             {
                                 "kind": 201392131,
                                 "text": "b",
+                                "original": "\"b\"",
                                 "rawText": " \"b\"",
                                 "flags": 96,
                                 "start": 1484,
@@ -2526,6 +2616,7 @@ a++ => {};
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -2574,6 +2665,7 @@ a++ => {};
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -2628,6 +2720,7 @@ a++ => {};
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -2640,8 +2733,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 1523,
                             "end": 1525
@@ -2689,6 +2783,7 @@ a++ => {};
                         "expressions": [
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -2712,6 +2807,7 @@ a++ => {};
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
@@ -2789,8 +2885,9 @@ a++ => {};
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": "\na",
                     "flags": 96,
                     "start": 1558,
                     "end": 1560
@@ -2836,6 +2933,7 @@ a++ => {};
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -2896,6 +2994,7 @@ a++ => {};
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -2908,8 +3007,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 1588,
                             "end": 1590
@@ -2949,6 +3049,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -2965,8 +3066,9 @@ a++ => {};
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 1602,
                                 "end": 1604
@@ -3054,6 +3156,7 @@ a++ => {};
                     "kind": 197,
                     "shortCircuit": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -3068,8 +3171,9 @@ a++ => {};
                     },
                     "consequent": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": " bar",
                         "flags": 96,
                         "start": 1631,
                         "end": 1635
@@ -3082,8 +3186,9 @@ a++ => {};
                     },
                     "alternate": {
                         "kind": 134299649,
+                        "original": "baz",
                         "text": "baz",
-                        "rawText": "baz",
+                        "rawText": " baz",
                         "flags": 96,
                         "start": 1637,
                         "end": 1641
@@ -3128,6 +3233,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -3138,8 +3244,9 @@ a++ => {};
                             "kind": 197,
                             "shortCircuit": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 1653,
                                 "end": 1657
@@ -3152,8 +3259,9 @@ a++ => {};
                             },
                             "consequent": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 1659,
                                 "end": 1663
@@ -3166,8 +3274,9 @@ a++ => {};
                             },
                             "alternate": {
                                 "kind": 134299649,
+                                "original": "baz",
                                 "text": "baz",
-                                "rawText": "baz",
+                                "rawText": " baz",
                                 "flags": 96,
                                 "start": 1665,
                                 "end": 1669
@@ -3225,6 +3334,7 @@ a++ => {};
                             "kind": 197,
                             "shortCircuit": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
@@ -3239,8 +3349,9 @@ a++ => {};
                             },
                             "consequent": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 1684,
                                 "end": 1688
@@ -3253,8 +3364,9 @@ a++ => {};
                             },
                             "alternate": {
                                 "kind": 134299649,
+                                "original": "baz",
                                 "text": "baz",
-                                "rawText": "baz",
+                                "rawText": " baz",
                                 "flags": 96,
                                 "start": 1690,
                                 "end": 1694
@@ -3265,8 +3377,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 1695,
                             "end": 1697
@@ -3314,6 +3427,7 @@ a++ => {};
                             "kind": 129,
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -3322,6 +3436,7 @@ a++ => {};
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -3334,8 +3449,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
-                            "rawText": "c",
+                            "rawText": " c",
                             "flags": 96,
                             "start": 1711,
                             "end": 1713
@@ -3375,6 +3491,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -3385,14 +3502,16 @@ a++ => {};
                             "kind": 129,
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 1725,
                                 "end": 1727
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -3452,6 +3571,7 @@ a++ => {};
                             "kind": 130,
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -3461,6 +3581,7 @@ a++ => {};
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
+                                "original": "'b'",
                                 "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 1741,
@@ -3472,8 +3593,9 @@ a++ => {};
                         },
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
-                            "rawText": "c",
+                            "rawText": " c",
                             "flags": 96,
                             "start": 1746,
                             "end": 1748
@@ -3513,6 +3635,7 @@ a++ => {};
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -3523,8 +3646,9 @@ a++ => {};
                             "kind": 130,
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 1760,
                                 "end": 1762
@@ -3532,6 +3656,7 @@ a++ => {};
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
+                                "original": "'b'",
                                 "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 1763,
@@ -3595,6 +3720,7 @@ a++ => {};
                         },
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -3605,8 +3731,9 @@ a++ => {};
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 1783,
                             "end": 1785
@@ -3620,8 +3747,9 @@ a++ => {};
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 1789,
                     "end": 1791
@@ -3658,8 +3786,9 @@ a++ => {};
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " a",
                     "flags": 96,
                     "start": 1804,
                     "end": 1806
@@ -3676,8 +3805,9 @@ a++ => {};
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "b",
                 "text": "b",
-                "rawText": "b",
+                "rawText": " b",
                 "flags": 96,
                 "start": 1810,
                 "end": 1812
@@ -3697,6 +3827,7 @@ a++ => {};
                         "expressions": [
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -3713,6 +3844,7 @@ a++ => {};
                                 },
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
@@ -3744,7 +3876,8 @@ a++ => {};
                 "right": {
                     "kind": 201392130,
                     "text": 10,
-                    "rawText": "10",
+                    "original": "10",
+                    "rawText": " 10",
                     "flags": 96,
                     "start": 1824,
                     "end": 1827
@@ -3761,8 +3894,9 @@ a++ => {};
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "b",
                 "text": "b",
-                "rawText": "b",
+                "rawText": " b",
                 "flags": 96,
                 "start": 1831,
                 "end": 1833

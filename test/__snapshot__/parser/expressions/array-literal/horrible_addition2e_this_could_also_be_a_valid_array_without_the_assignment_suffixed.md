@@ -26,6 +26,7 @@
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "please",
                                 "text": "please",
                                 "rawText": "please",
                                 "flags": 96,
@@ -45,8 +46,9 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "it",
                                                 "text": "it",
-                                                "rawText": "it",
+                                                "rawText": " it",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 20
@@ -55,6 +57,7 @@
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "make",
                                                     "text": "make",
                                                     "rawText": "make",
                                                     "flags": 96,
@@ -81,8 +84,9 @@
                             },
                             {
                                 "kind": 134299649,
+                                "original": "stop",
                                 "text": "stop",
-                                "rawText": "stop",
+                                "rawText": " stop",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 27
@@ -105,8 +109,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "bwahahahaha",
                     "text": "bwahahahaha",
-                    "rawText": "bwahahahaha",
+                    "rawText": " bwahahahaha",
                     "flags": 96,
                     "start": 30,
                     "end": 42

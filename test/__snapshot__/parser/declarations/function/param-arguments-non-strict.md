@@ -28,8 +28,9 @@ function foo(arguments){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -42,6 +43,7 @@ function foo(arguments){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "arguments",
                             "text": "arguments",
                             "rawText": "arguments",
                             "flags": 96,

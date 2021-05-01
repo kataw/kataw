@@ -44,8 +44,9 @@ export bar, * as foo from 'bar';
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": " bar",
                         "flags": 96,
                         "start": 6,
                         "end": 10
@@ -67,8 +68,9 @@ export bar, * as foo from 'bar';
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "as",
                             "text": "as",
-                            "rawText": "as",
+                            "rawText": " as",
                             "flags": 96,
                             "start": 13,
                             "end": 16
@@ -90,8 +92,9 @@ export bar, * as foo from 'bar';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 16,
                 "end": 20
@@ -104,8 +107,9 @@ export bar, * as foo from 'bar';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 20,
                 "end": 25
@@ -119,6 +123,7 @@ export bar, * as foo from 'bar';
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
+                "original": "'bar'",
                 "rawText": " 'bar'",
                 "flags": 4194400,
                 "start": 25,

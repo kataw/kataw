@@ -26,6 +26,7 @@ a, x => ok
                 "expressions": [
                     {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -43,8 +44,9 @@ a, x => ok
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 2,
                             "end": 4
@@ -53,8 +55,9 @@ a, x => ok
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 7,
                             "end": 10

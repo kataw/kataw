@@ -21,6 +21,7 @@ x({a}=obj);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -39,6 +40,7 @@ x({a}=obj);
                                     "properties": [
                                         {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -63,6 +65,7 @@ x({a}=obj);
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "obj",
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,

@@ -40,6 +40,7 @@
                                         "text": "foo ",
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -56,6 +57,7 @@
                                         "text": " and ",
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -72,6 +74,7 @@
                                         "text": " and ",
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "c",
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,

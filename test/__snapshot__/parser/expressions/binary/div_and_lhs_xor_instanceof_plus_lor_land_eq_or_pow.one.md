@@ -31,6 +31,7 @@ typeof x;
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x0",
                                     "text": "x0",
                                     "rawText": "x0",
                                     "flags": 96,
@@ -45,8 +46,9 @@ typeof x;
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x1",
                                     "text": "x1",
-                                    "rawText": "x1",
+                                    "rawText": " x1",
                                     "flags": 96,
                                     "start": 4,
                                     "end": 7
@@ -65,8 +67,9 @@ typeof x;
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x2",
                                     "text": "x2",
-                                    "rawText": "x2",
+                                    "rawText": " x2",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 12
@@ -79,8 +82,9 @@ typeof x;
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x3",
                                     "text": "x3",
-                                    "rawText": "x3",
+                                    "rawText": " x3",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 18
@@ -103,8 +107,9 @@ typeof x;
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x4",
                                 "text": "x4",
-                                "rawText": "x4",
+                                "rawText": " x4",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 23
@@ -117,8 +122,9 @@ typeof x;
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x5",
                                 "text": "x5",
-                                "rawText": "x5",
+                                "rawText": " x5",
                                 "flags": 96,
                                 "start": 34,
                                 "end": 37
@@ -139,8 +145,9 @@ typeof x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x6",
                         "text": "x6",
-                        "rawText": "x6",
+                        "rawText": " x6",
                         "flags": 96,
                         "start": 39,
                         "end": 42
@@ -159,8 +166,9 @@ typeof x;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "x7",
                         "text": "x7",
-                        "rawText": "x7",
+                        "rawText": " x7",
                         "flags": 96,
                         "start": 45,
                         "end": 48
@@ -177,8 +185,9 @@ typeof x;
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x8",
                                 "text": "x8",
-                                "rawText": "x8",
+                                "rawText": " x8",
                                 "flags": 96,
                                 "start": 51,
                                 "end": 54
@@ -191,8 +200,9 @@ typeof x;
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x9",
                                 "text": "x9",
-                                "rawText": "x9",
+                                "rawText": " x9",
                                 "flags": 96,
                                 "start": 57,
                                 "end": 60
@@ -211,8 +221,9 @@ typeof x;
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x10",
                                 "text": "x10",
-                                "rawText": "x10",
+                                "rawText": " x10",
                                 "flags": 96,
                                 "start": 62,
                                 "end": 66
@@ -225,8 +236,9 @@ typeof x;
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 69,
                                 "end": 71
@@ -263,8 +275,9 @@ typeof x;
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 79,
                     "end": 81

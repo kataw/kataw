@@ -30,6 +30,7 @@ else async function f(){}
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -40,8 +41,9 @@ else async function f(){}
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 6,
                     "end": 8
@@ -74,8 +76,9 @@ else async function f(){}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
-                    "rawText": "f",
+                    "rawText": " f",
                     "flags": 96,
                     "start": 29,
                     "end": 31

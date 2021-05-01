@@ -52,8 +52,9 @@
                                                 },
                                                 "name": {
                                                     "kind": 134299649,
+                                                    "original": "await",
                                                     "text": "await",
-                                                    "rawText": "await",
+                                                    "rawText": " await",
                                                     "flags": 96,
                                                     "start": 16,
                                                     "end": 22
@@ -66,6 +67,7 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -84,8 +86,9 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " x",
                                                                 "flags": 96,
                                                                 "start": 28,
                                                                 "end": 30

@@ -25,6 +25,7 @@ aw\u0061it: 1;
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "aw\\u0061it",
                 "text": "await",
                 "rawText": "aw\\u0061it",
                 "flags": 96,
@@ -52,7 +53,8 @@ aw\u0061it: 1;
                 "expression": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 11,
                     "end": 13

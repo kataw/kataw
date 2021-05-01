@@ -24,6 +24,7 @@
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -33,7 +34,8 @@
                         {
                             "kind": 201392130,
                             "text": 1,
-                            "rawText": "1",
+                            "original": "1",
+                            "rawText": " 1",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -41,6 +43,7 @@
                         {
                             "kind": 201392131,
                             "text": "c",
+                            "original": "\"c\"",
                             "rawText": " \"c\"",
                             "flags": 96,
                             "start": 6,
@@ -48,24 +51,27 @@
                         },
                         {
                             "kind": 134299649,
+                            "original": "d",
                             "text": "d",
-                            "rawText": "d",
+                            "rawText": " d",
                             "flags": 96,
                             "start": 11,
                             "end": 13
                         },
                         {
                             "kind": 134299649,
+                            "original": "e",
                             "text": "e",
-                            "rawText": "e",
+                            "rawText": " e",
                             "flags": 96,
                             "start": 14,
                             "end": 16
                         },
                         {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 17,
                             "end": 19

@@ -34,8 +34,9 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -55,8 +56,9 @@ var x = {
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
-                                            "rawText": "foo",
+                                            "rawText": " foo",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 24
@@ -65,6 +67,7 @@ var x = {
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,

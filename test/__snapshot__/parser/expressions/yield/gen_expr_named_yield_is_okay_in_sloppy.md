@@ -31,8 +31,9 @@ var g = function* yield() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "g",
                             "text": "g",
-                            "rawText": "g",
+                            "rawText": " g",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -56,8 +57,9 @@ var g = function* yield() {};
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "yield",
                                 "text": "yield",
-                                "rawText": "yield",
+                                "rawText": " yield",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 23

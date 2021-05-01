@@ -33,8 +33,9 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -71,8 +72,9 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "g",
                                 "text": "g",
-                                "rawText": "g",
+                                "rawText": " g",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 38
@@ -85,6 +87,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -111,8 +114,9 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
-                                                    "rawText": "x",
+                                                    "rawText": " x",
                                                     "flags": 96,
                                                     "start": 50,
                                                     "end": 52
@@ -143,6 +147,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                         {
                                             "kind": 201392131,
                                             "text": "use strict",
+                                            "original": "\"use strict\"",
                                             "rawText": " \"use strict\"",
                                             "flags": 96,
                                             "start": 55,

@@ -45,6 +45,7 @@ for (;;c);
             "initializer": null,
             "condition": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,

@@ -35,8 +35,9 @@ var foob\\u123r = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foob",
                             "text": "foob",
-                            "rawText": "foob",
+                            "rawText": " foob",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -63,6 +64,7 @@ var foob\\u123r = 0;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "u123r",
                     "text": "u123r",
                     "rawText": "u123r",
                     "flags": 96,
@@ -78,7 +80,8 @@ var foob\\u123r = 0;
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 17,
                     "end": 19

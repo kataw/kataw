@@ -35,6 +35,7 @@ for (a in b) function f(){}
             "kind": 166,
             "initializer": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -43,8 +44,9 @@ for (a in b) function f(){}
             },
             "expression": {
                 "kind": 134299649,
+                "original": "b",
                 "text": "b",
-                "rawText": "b",
+                "rawText": " b",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -62,8 +64,9 @@ for (a in b) function f(){}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
-                    "rawText": "f",
+                    "rawText": " f",
                     "flags": 96,
                     "start": 21,
                     "end": 23

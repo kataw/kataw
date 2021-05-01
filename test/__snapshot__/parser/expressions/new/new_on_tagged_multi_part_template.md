@@ -29,8 +29,9 @@ new Foo`a${b}c${c}e`
                     "kind": 226,
                     "member": {
                         "kind": 134299649,
+                        "original": "Foo",
                         "text": "Foo",
-                        "rawText": "Foo",
+                        "rawText": " Foo",
                         "flags": 96,
                         "start": 3,
                         "end": 7
@@ -44,6 +45,7 @@ new Foo`a${b}c${c}e`
                                 "text": "a",
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
@@ -60,6 +62,7 @@ new Foo`a${b}c${c}e`
                                 "text": "c",
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,

@@ -31,8 +31,9 @@ class A extends async (x, y) => ok {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -58,6 +59,7 @@ class A extends async (x, y) => ok {}
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -66,8 +68,9 @@ class A extends async (x, y) => ok {}
                         },
                         {
                             "kind": 134299649,
+                            "original": "y",
                             "text": "y",
-                            "rawText": "y",
+                            "rawText": " y",
                             "flags": 96,
                             "start": 25,
                             "end": 27
@@ -82,8 +85,9 @@ class A extends async (x, y) => ok {}
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "ok",
                         "text": "ok",
-                        "rawText": "ok",
+                        "rawText": " ok",
                         "flags": 96,
                         "start": 31,
                         "end": 34

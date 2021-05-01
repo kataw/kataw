@@ -37,8 +37,9 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -106,8 +108,9 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "gfe",
                                                             "text": "gfe",
-                                                            "rawText": "gfe",
+                                                            "rawText": " gfe",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 47
@@ -131,8 +134,9 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             },
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "rgfe",
                                                                 "text": "rgfe",
-                                                                "rawText": "rgfe",
+                                                                "rawText": " rgfe",
                                                                 "flags": 96,
                                                                 "start": 59,
                                                                 "end": 64
@@ -162,6 +166,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                             "expression": {
                                                                                 "kind": 201392130,
                                                                                 "text": 1,
+                                                                                "original": "1",
                                                                                 "rawText": "1",
                                                                                 "flags": 96,
                                                                                 "start": 77,
@@ -196,6 +201,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "expression": {
                                                                                                 "kind": 201392131,
                                                                                                 "text": "foo",
+                                                                                                "original": "'foo'",
                                                                                                 "rawText": " 'foo'",
                                                                                                 "flags": 4194400,
                                                                                                 "start": 93,

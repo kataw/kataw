@@ -36,8 +36,9 @@ let x = () => import {x} from "y"
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -68,6 +69,7 @@ let x = () => import {x} from "y"
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -103,8 +105,9 @@ let x = () => import {x} from "y"
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 24,
                 "end": 29
@@ -118,6 +121,7 @@ let x = () => import {x} from "y"
             "expression": {
                 "kind": 201392131,
                 "text": "y",
+                "original": "\"y\"",
                 "rawText": " \"y\"",
                 "flags": 96,
                 "start": 29,

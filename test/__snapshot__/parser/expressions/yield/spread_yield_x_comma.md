@@ -33,6 +33,7 @@ function *g() {x={     ...yield x,    };}
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -59,6 +60,7 @@ function *g() {x={     ...yield x,    };}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -96,8 +98,9 @@ function *g() {x={     ...yield x,    };}
                                                     "asteriskToken": null,
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
-                                                        "rawText": "x",
+                                                        "rawText": " x",
                                                         "flags": 96,
                                                         "start": 31,
                                                         "end": 33

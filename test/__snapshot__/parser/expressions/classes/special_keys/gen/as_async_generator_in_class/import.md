@@ -31,8 +31,9 @@ class x {async * import(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {async * import(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "import",
                                 "text": "import",
-                                "rawText": "import",
+                                "rawText": " import",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 23

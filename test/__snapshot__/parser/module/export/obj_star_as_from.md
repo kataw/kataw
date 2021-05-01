@@ -40,6 +40,7 @@ export {bar}, * as foo from 'bar';
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
@@ -86,8 +87,9 @@ export {bar}, * as foo from 'bar';
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "as",
                     "text": "as",
-                    "rawText": "as",
+                    "rawText": " as",
                     "flags": 96,
                     "start": 15,
                     "end": 18
@@ -104,8 +106,9 @@ export {bar}, * as foo from 'bar';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 18,
                 "end": 22
@@ -118,8 +121,9 @@ export {bar}, * as foo from 'bar';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "from",
                 "text": "from",
-                "rawText": "from",
+                "rawText": " from",
                 "flags": 96,
                 "start": 22,
                 "end": 27
@@ -133,6 +137,7 @@ export {bar}, * as foo from 'bar';
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
+                "original": "'bar'",
                 "rawText": " 'bar'",
                 "flags": 4194400,
                 "start": 27,

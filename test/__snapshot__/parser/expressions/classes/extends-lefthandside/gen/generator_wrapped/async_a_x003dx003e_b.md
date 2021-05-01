@@ -39,6 +39,7 @@ function *P(){
             },
             "name": {
                 "kind": 134299649,
+                "original": "P",
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
@@ -71,8 +72,9 @@ function *P(){
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "D",
                                 "text": "D",
-                                "rawText": "D",
+                                "rawText": " D",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 24
@@ -101,8 +103,9 @@ function *P(){
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": " a",
                                                 "flags": 96,
                                                 "start": 38,
                                                 "end": 40
@@ -124,8 +127,9 @@ function *P(){
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
-                                        "rawText": "b",
+                                        "rawText": " b",
                                         "flags": 96,
                                         "start": 43,
                                         "end": 45

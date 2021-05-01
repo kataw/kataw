@@ -29,6 +29,7 @@ a?.b * d
                     },
                     "member": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -42,6 +43,7 @@ a?.b * d
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -68,8 +70,9 @@ a?.b * d
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 6,
                     "end": 8

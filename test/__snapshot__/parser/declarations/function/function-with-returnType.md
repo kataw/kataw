@@ -47,8 +47,9 @@ function foo():number{}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -85,6 +86,7 @@ function foo():number{}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "number",
                 "text": "number",
                 "rawText": "number",
                 "flags": 96,

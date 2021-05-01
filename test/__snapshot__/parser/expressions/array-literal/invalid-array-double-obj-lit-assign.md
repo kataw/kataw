@@ -52,6 +52,7 @@
                                             "kind": 205,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -61,6 +62,7 @@
                                             "right": {
                                                 "kind": 201392130,
                                                 "text": 0,
+                                                "original": "0",
                                                 "rawText": "0",
                                                 "flags": 96,
                                                 "start": 4,
@@ -89,6 +91,7 @@
                                             "kind": 205,
                                             "left": {
                                                 "kind": 134299649,
+                                                "original": "b",
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
@@ -98,6 +101,7 @@
                                             "right": {
                                                 "kind": 201392130,
                                                 "text": 0,
+                                                "original": "0",
                                                 "rawText": "0",
                                                 "flags": 96,
                                                 "start": 10,
@@ -120,6 +124,7 @@
                             {
                                 "kind": 201392130,
                                 "text": 0,
+                                "original": "0",
                                 "rawText": "0",
                                 "flags": 96,
                                 "start": 13,
@@ -144,7 +149,8 @@
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 17,
                     "end": 19

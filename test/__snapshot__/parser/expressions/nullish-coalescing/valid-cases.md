@@ -35,6 +35,7 @@ a ?? b ?? c ? d : e;
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -49,8 +50,9 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "b",
                     "text": "b",
-                    "rawText": "b",
+                    "rawText": " b",
                     "flags": 96,
                     "start": 4,
                     "end": 6
@@ -71,8 +73,9 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": "\n\na",
                         "flags": 96,
                         "start": 7,
                         "end": 10
@@ -85,8 +88,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 12,
                         "end": 14
@@ -105,8 +109,9 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 17,
                         "end": 19
@@ -119,8 +124,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "d",
                         "text": "d",
-                        "rawText": "d",
+                        "rawText": " d",
                         "flags": 96,
                         "start": 21,
                         "end": 23
@@ -145,8 +151,9 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": "\n\na",
                         "flags": 96,
                         "start": 24,
                         "end": 27
@@ -159,8 +166,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 30,
                         "end": 32
@@ -177,8 +185,9 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 34,
                     "end": 36
@@ -191,8 +200,9 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 38,
                     "end": 40
@@ -215,6 +225,7 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -229,8 +240,9 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 48,
                             "end": 50
@@ -251,8 +263,9 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 54,
                     "end": 56
@@ -273,8 +286,9 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": "\n\na",
                         "flags": 96,
                         "start": 57,
                         "end": 60
@@ -287,8 +301,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 63,
                         "end": 65
@@ -305,8 +320,9 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 68,
                     "end": 70
@@ -327,8 +343,9 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": "\n\na",
                         "flags": 96,
                         "start": 71,
                         "end": 74
@@ -341,8 +358,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 77,
                         "end": 79
@@ -359,8 +377,9 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "c",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 81,
                     "end": 83
@@ -373,8 +392,9 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 85,
                     "end": 87
@@ -397,8 +417,9 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": "\n\na",
                             "flags": 96,
                             "start": 88,
                             "end": 91
@@ -411,8 +432,9 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 94,
                             "end": 96
@@ -429,8 +451,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 99,
                         "end": 101
@@ -447,8 +470,9 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 103,
                     "end": 105
@@ -461,8 +485,9 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
-                    "rawText": "e",
+                    "rawText": " e",
                     "flags": 96,
                     "start": 107,
                     "end": 109
@@ -480,6 +505,7 @@ a ?? b ?? c ? d : e;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\n\n\"use strict\"",
                 "flags": 97,
                 "start": 110,
@@ -499,8 +525,9 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 125,
                             "end": 127
@@ -513,8 +540,9 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
+                            "original": "b",
                             "text": "b",
-                            "rawText": "b",
+                            "rawText": " b",
                             "flags": 96,
                             "start": 130,
                             "end": 132
@@ -531,8 +559,9 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 135,
                         "end": 137
@@ -549,8 +578,9 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
-                    "rawText": "d",
+                    "rawText": " d",
                     "flags": 96,
                     "start": 139,
                     "end": 141
@@ -563,8 +593,9 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "e",
                     "text": "e",
-                    "rawText": "e",
+                    "rawText": " e",
                     "flags": 96,
                     "start": 143,
                     "end": 145

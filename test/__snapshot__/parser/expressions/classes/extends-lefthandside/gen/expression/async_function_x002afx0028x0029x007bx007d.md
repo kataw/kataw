@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -71,6 +72,7 @@
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,

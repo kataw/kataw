@@ -31,8 +31,9 @@ class x {export(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,6 +56,7 @@ class x {export(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "export",
                                 "text": "export",
                                 "rawText": "export",
                                 "flags": 96,

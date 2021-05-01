@@ -30,8 +30,9 @@ let async => async
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
-                            "rawText": "async",
+                            "rawText": " async",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -56,6 +57,7 @@ let async => async
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,

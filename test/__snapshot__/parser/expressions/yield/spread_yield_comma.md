@@ -33,6 +33,7 @@ function *g() {x={     ...yield,    };}
             },
             "name": {
                 "kind": 134299649,
+                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -59,6 +60,7 @@ function *g() {x={     ...yield,    };}
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,

@@ -31,8 +31,9 @@ class A extends function f(){} {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -58,8 +59,9 @@ class A extends function f(){} {}
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "f",
                         "text": "f",
-                        "rawText": "f",
+                        "rawText": " f",
                         "flags": 96,
                         "start": 24,
                         "end": 26

@@ -19,6 +19,7 @@ loop: while (x) { break loop; }
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "loop",
                 "text": "loop",
                 "rawText": "loop",
                 "flags": 96,
@@ -51,6 +52,7 @@ loop: while (x) { break loop; }
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -72,8 +74,9 @@ loop: while (x) { break loop; }
                                 },
                                 "label": {
                                     "kind": 134299649,
+                                    "original": "loop",
                                     "text": "loop",
-                                    "rawText": "loop",
+                                    "rawText": " loop",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 28

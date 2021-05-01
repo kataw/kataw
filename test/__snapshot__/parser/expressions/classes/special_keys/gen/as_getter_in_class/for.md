@@ -31,8 +31,9 @@ class x {get for(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {get for(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "for",
                                 "text": "for",
-                                "rawText": "for",
+                                "rawText": " for",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 16

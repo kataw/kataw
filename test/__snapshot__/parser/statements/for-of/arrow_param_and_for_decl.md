@@ -30,6 +30,7 @@ a => {
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -65,8 +66,9 @@ a => {
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "a",
                                                 "text": "a",
-                                                "rawText": "a",
+                                                "rawText": " a",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 19
@@ -85,8 +87,9 @@ a => {
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 24
@@ -95,8 +98,9 @@ a => {
                                     "kind": 120,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "c",
                                         "text": "c",
-                                        "rawText": "c",
+                                        "rawText": " c",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27

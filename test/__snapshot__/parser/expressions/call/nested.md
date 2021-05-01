@@ -21,6 +21,7 @@ z(z(z()));
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "z",
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
@@ -34,6 +35,7 @@ z(z(z()));
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "z",
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
@@ -47,6 +49,7 @@ z(z(z()));
                                         "kind": 131,
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,

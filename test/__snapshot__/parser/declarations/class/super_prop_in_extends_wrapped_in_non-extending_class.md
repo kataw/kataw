@@ -46,8 +46,9 @@ class a { foo(){      class x extends super.foo {}    }}
             },
             "name": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class a { foo(){      class x extends super.foo {}    }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 13
@@ -104,8 +106,9 @@ class a { foo(){      class x extends super.foo {}    }}
                                             },
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
-                                                "rawText": "x",
+                                                "rawText": " x",
                                                 "flags": 96,
                                                 "start": 27,
                                                 "end": 29
@@ -135,6 +138,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,

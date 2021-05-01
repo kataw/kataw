@@ -57,8 +57,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -101,8 +102,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 23,
                             "end": 25
@@ -126,8 +128,9 @@ var { f\u0061lse } = {};
                                         "properties": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "w\\u0069th",
                                                 "text": "with",
-                                                "rawText": "w\\u0069th",
+                                                "rawText": " w\\u0069th",
                                                 "flags": 96,
                                                 "start": 30,
                                                 "end": 40
@@ -216,7 +219,8 @@ var { f\u0061lse } = {};
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 67,
                     "end": 69
@@ -254,7 +258,8 @@ var { f\u0061lse } = {};
             "expression": {
                 "kind": 201392130,
                 "text": 123,
-                "rawText": "123",
+                "original": "123",
+                "rawText": " 123",
                 "flags": 96,
                 "start": 87,
                 "end": 91
@@ -307,7 +312,8 @@ var { f\u0061lse } = {};
             "expression": {
                 "kind": 201392130,
                 "text": 123,
-                "rawText": "123",
+                "original": "123",
+                "rawText": " 123",
                 "flags": 96,
                 "start": 113,
                 "end": 117
@@ -332,8 +338,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "var",
                             "text": "enum",
-                            "rawText": "var",
+                            "rawText": "\n\nvar",
                             "flags": 96,
                             "start": 123,
                             "end": 148
@@ -343,7 +350,8 @@ var { f\u0061lse } = {};
                         "initializer": {
                             "kind": 201392130,
                             "text": 123,
-                            "rawText": "123",
+                            "original": "123",
+                            "rawText": " 123",
                             "flags": 96,
                             "start": 150,
                             "end": 154
@@ -405,7 +413,8 @@ var { f\u0061lse } = {};
             "expression": {
                 "kind": 201392130,
                 "text": 123,
-                "rawText": "123",
+                "original": "123",
+                "rawText": " 123",
                 "flags": 96,
                 "start": 193,
                 "end": 197
@@ -502,8 +511,9 @@ var { f\u0061lse } = {};
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "obj",
                 "text": "obj",
-                "rawText": "obj",
+                "rawText": " obj",
                 "flags": 96,
                 "start": 220,
                 "end": 224
@@ -528,8 +538,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 230,
                             "end": 232
@@ -553,8 +564,9 @@ var { f\u0061lse } = {};
                                         "properties": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "tr\\u0079",
                                                 "text": "try",
-                                                "rawText": "tr\\u0079",
+                                                "rawText": " tr\\u0079",
                                                 "flags": 96,
                                                 "start": 237,
                                                 "end": 246
@@ -619,8 +631,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 261,
                             "end": 263
@@ -644,8 +657,9 @@ var { f\u0061lse } = {};
                                         "properties": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "typ\\u0065of",
                                                 "text": "typeof",
-                                                "rawText": "typ\\u0065of",
+                                                "rawText": " typ\\u0065of",
                                                 "flags": 96,
                                                 "start": 268,
                                                 "end": 280
@@ -757,8 +771,9 @@ var { f\u0061lse } = {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 309,
                             "end": 311
@@ -825,7 +840,8 @@ var { f\u0061lse } = {};
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 343,
                     "end": 345

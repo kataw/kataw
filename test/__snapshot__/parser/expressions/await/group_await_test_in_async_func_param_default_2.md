@@ -33,8 +33,9 @@ async function f(){    async function g(x=(await z)=y){}   }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -71,8 +72,9 @@ async function f(){    async function g(x=(await z)=y){}   }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "g",
                                 "text": "g",
-                                "rawText": "g",
+                                "rawText": " g",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 39
@@ -85,6 +87,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -107,8 +110,9 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "z",
                                                         "text": "z",
-                                                        "rawText": "z",
+                                                        "rawText": " z",
                                                         "flags": 96,
                                                         "start": 48,
                                                         "end": 50
@@ -129,6 +133,7 @@ async function f(){    async function g(x=(await z)=y){}   }
                                             },
                                             "right": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,

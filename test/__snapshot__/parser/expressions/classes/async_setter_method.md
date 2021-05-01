@@ -33,8 +33,9 @@ class A {async set 11(x){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -57,8 +58,9 @@ class A {async set 11(x){}}
                         },
                         "key": {
                             "kind": 134299649,
+                            "original": "set",
                             "text": "set",
-                            "rawText": "set",
+                            "rawText": " set",
                             "flags": 96,
                             "start": 14,
                             "end": 18
@@ -84,7 +86,8 @@ class A {async set 11(x){}}
                             "name": {
                                 "kind": 201392130,
                                 "text": 11,
-                                "rawText": "11",
+                                "original": "11",
+                                "rawText": " 11",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 21
@@ -98,6 +101,7 @@ class A {async set 11(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

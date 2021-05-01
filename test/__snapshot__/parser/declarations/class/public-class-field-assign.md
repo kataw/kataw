@@ -46,8 +46,9 @@ class C { aaa = bbb }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class C { aaa = bbb }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "aaa",
                             "text": "aaa",
-                            "rawText": "aaa",
+                            "rawText": " aaa",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -75,8 +77,9 @@ class C { aaa = bbb }
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "bbb",
                             "text": "bbb",
-                            "rawText": "bbb",
+                            "rawText": " bbb",
                             "flags": 96,
                             "start": 15,
                             "end": 19

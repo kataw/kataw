@@ -49,8 +49,9 @@ for (let of x) y
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "of",
                             "text": "of",
-                            "rawText": "of",
+                            "rawText": " of",
                             "flags": 96,
                             "start": 8,
                             "end": 11
@@ -66,8 +67,9 @@ for (let of x) y
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 11,
                             "end": 13
@@ -96,8 +98,9 @@ for (let of x) y
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 14,
                     "end": 16

@@ -76,6 +76,7 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -110,8 +111,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "I",
                             "text": "I",
-                            "rawText": "I",
+                            "rawText": " I",
                             "flags": 96,
                             "start": 20,
                             "end": 22
@@ -158,8 +160,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "I",
                             "text": "I",
-                            "rawText": "I",
+                            "rawText": " I",
                             "flags": 96,
                             "start": 35,
                             "end": 37
@@ -168,8 +171,9 @@
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "sleep",
                                 "text": "sleep",
-                                "rawText": "sleep",
+                                "rawText": " sleep",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 43

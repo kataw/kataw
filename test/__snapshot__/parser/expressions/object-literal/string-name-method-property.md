@@ -36,8 +36,9 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -54,6 +55,7 @@ var x = {
                                         "name": {
                                             "kind": 201392131,
                                             "text": "foo",
+                                            "original": "\"foo\"",
                                             "rawText": "\n    \"foo\"",
                                             "flags": 97,
                                             "start": 9,
@@ -85,8 +87,9 @@ var x = {
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
+                                                            "original": "bar",
                                                             "text": "bar",
-                                                            "rawText": "bar",
+                                                            "rawText": " bar",
                                                             "flags": 96,
                                                             "start": 38,
                                                             "end": 42

@@ -19,6 +19,7 @@ async (a = (...await) => {});
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -32,6 +33,7 @@ async (a = (...await) => {});
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -64,6 +66,7 @@ async (a = (...await) => {});
                                     },
                                     "binding": {
                                         "kind": 134299649,
+                                        "original": "await",
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,

@@ -35,8 +35,9 @@ var await; var f = (async function() { var { f: await f } = {}; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "await",
                             "text": "await",
-                            "rawText": "await",
+                            "rawText": " await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -73,8 +74,9 @@ var await; var f = (async function() { var { f: await f } = {}; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -137,8 +139,9 @@ var await; var f = (async function() { var { f: await f } = {}; });
                                                                             "ellipsisToken": null,
                                                                             "key": {
                                                                                 "kind": 134299649,
+                                                                                "original": "f",
                                                                                 "text": "f",
-                                                                                "rawText": "f",
+                                                                                "rawText": " f",
                                                                                 "flags": 96,
                                                                                 "start": 44,
                                                                                 "end": 47
@@ -148,8 +151,9 @@ var await; var f = (async function() { var { f: await f } = {}; });
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
+                                                                                    "original": "await",
                                                                                     "text": "await",
-                                                                                    "rawText": "await",
+                                                                                    "rawText": " await",
                                                                                     "flags": 96,
                                                                                     "start": 47,
                                                                                     "end": 53
@@ -168,8 +172,9 @@ var await; var f = (async function() { var { f: await f } = {}; });
                                                                             "ellipsisToken": null,
                                                                             "left": {
                                                                                 "kind": 134299649,
+                                                                                "original": "f",
                                                                                 "text": "f",
-                                                                                "rawText": "f",
+                                                                                "rawText": " f",
                                                                                 "flags": 96,
                                                                                 "start": 53,
                                                                                 "end": 55

@@ -40,6 +40,7 @@ import {default as foo} from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 28,
@@ -65,6 +66,7 @@ import {default as foo} from "foo";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "default",
                                     "text": "default",
                                     "rawText": "default",
                                     "flags": 64,
@@ -81,8 +83,9 @@ import {default as foo} from "foo";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 15,
                                     "end": 18
@@ -97,8 +100,9 @@ import {default as foo} from "foo";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 64,
                                     "start": 18,
                                     "end": 22

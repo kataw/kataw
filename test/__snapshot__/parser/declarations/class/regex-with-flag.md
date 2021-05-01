@@ -47,8 +47,9 @@ class x{}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -87,6 +88,7 @@ class x{}
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -105,6 +107,7 @@ class x{}
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,

@@ -31,8 +31,9 @@ class x {static async * else(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -70,8 +71,9 @@ class x {static async * else(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "else",
                                 "text": "else",
-                                "rawText": "else",
+                                "rawText": " else",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 28

@@ -28,8 +28,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "try",
                                     "text": "try",
-                                    "rawText": "try",
+                                    "rawText": " try",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 7

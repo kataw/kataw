@@ -23,6 +23,7 @@ yield 3 + yield 4;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "yield",
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
@@ -40,7 +41,8 @@ yield 3 + yield 4;
                 "left": {
                     "kind": 201392130,
                     "text": 3,
-                    "rawText": "3",
+                    "original": "3",
+                    "rawText": " 3",
                     "flags": 96,
                     "start": 5,
                     "end": 7
@@ -53,8 +55,9 @@ yield 3 + yield 4;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": " yield",
                     "flags": 96,
                     "start": 9,
                     "end": 15
@@ -72,7 +75,8 @@ yield 3 + yield 4;
             "expression": {
                 "kind": 201392130,
                 "text": 4,
-                "rawText": "4",
+                "original": "4",
+                "rawText": " 4",
                 "flags": 96,
                 "start": 15,
                 "end": 17

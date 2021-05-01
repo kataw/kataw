@@ -46,6 +46,7 @@ const {a:=c} = z;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -64,6 +65,7 @@ const {a:=c} = z;
                                             },
                                             "initializer": {
                                                 "kind": 134299649,
+                                                "original": "c",
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
@@ -92,8 +94,9 @@ const {a:=c} = z;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 14,
                             "end": 16

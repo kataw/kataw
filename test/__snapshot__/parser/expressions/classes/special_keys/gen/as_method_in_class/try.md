@@ -31,8 +31,9 @@ class x {try(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,6 +56,7 @@ class x {try(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "try",
                                 "text": "try",
                                 "rawText": "try",
                                 "flags": 96,

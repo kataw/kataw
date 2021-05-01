@@ -53,6 +53,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
+                    "original": "'m.js'",
                     "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 22,
@@ -78,8 +79,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 64,
                                     "start": 8,
                                     "end": 10
@@ -94,8 +96,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 13
@@ -110,8 +113,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 64,
                                     "start": 13,
                                     "end": 15
@@ -156,6 +160,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "n.js",
+                    "original": "'n.js'",
                     "rawText": " 'n.js'",
                     "flags": 4194400,
                     "start": 45,
@@ -170,8 +175,9 @@ import { a as b } from 'm.js';
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
+                    "original": "n",
                     "text": "n",
-                    "rawText": "n",
+                    "rawText": " n",
                     "flags": 96,
                     "start": 38,
                     "end": 40
@@ -205,6 +211,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
+                    "original": "'m.js'",
                     "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 77,
@@ -230,8 +237,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 64,
                                     "start": 63,
                                     "end": 65
@@ -246,8 +254,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 65,
                                     "end": 68
@@ -262,8 +271,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 64,
                                     "start": 68,
                                     "end": 70
@@ -308,6 +318,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "n.js",
+                    "original": "'n.js'",
                     "rawText": " 'n.js'",
                     "flags": 4194400,
                     "start": 100,
@@ -322,8 +333,9 @@ import { a as b } from 'm.js';
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
+                    "original": "n",
                     "text": "n",
-                    "rawText": "n",
+                    "rawText": " n",
                     "flags": 96,
                     "start": 93,
                     "end": 95
@@ -357,8 +369,9 @@ import { a as b } from 'm.js';
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 118,
                                 "end": 120
@@ -374,8 +387,9 @@ import { a as b } from 'm.js';
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "as",
                                 "text": "as",
-                                "rawText": "as",
+                                "rawText": " as",
                                 "flags": 96,
                                 "start": 120,
                                 "end": 123
@@ -391,8 +405,9 @@ import { a as b } from 'm.js';
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
-                                "rawText": "b",
+                                "rawText": " b",
                                 "flags": 96,
                                 "start": 123,
                                 "end": 125
@@ -424,6 +439,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
+                    "original": "'m.js'",
                     "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 132,
@@ -456,6 +472,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "bar.js",
+                    "original": "'bar.js'",
                     "rawText": " 'bar.js'",
                     "flags": 4194400,
                     "start": 162,
@@ -480,8 +497,9 @@ import { a as b } from 'm.js';
                     "asKeyword": null,
                     "binding": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": " foo",
                         "flags": 96,
                         "start": 153,
                         "end": 157
@@ -518,6 +536,7 @@ import { a as b } from 'm.js';
                 "from": {
                     "kind": 201392131,
                     "text": "m.js",
+                    "original": "'m.js'",
                     "rawText": " 'm.js'",
                     "flags": 4194400,
                     "start": 196,
@@ -543,8 +562,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 64,
                                     "start": 182,
                                     "end": 184
@@ -559,8 +579,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 184,
                                     "end": 187
@@ -575,8 +596,9 @@ import { a as b } from 'm.js';
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 64,
                                     "start": 187,
                                     "end": 189

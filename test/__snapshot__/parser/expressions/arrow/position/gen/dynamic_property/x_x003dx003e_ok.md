@@ -32,6 +32,7 @@ x => ok[foo]
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -44,14 +45,16 @@ x => ok[foo]
                     "kind": 130,
                     "member": {
                         "kind": 134299649,
+                        "original": "ok",
                         "text": "ok",
-                        "rawText": "ok",
+                        "rawText": " ok",
                         "flags": 96,
                         "start": 4,
                         "end": 7
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,

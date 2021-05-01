@@ -31,8 +31,9 @@ class static {}
             },
             "name": {
                 "kind": 134299649,
+                "original": "static",
                 "text": "static",
-                "rawText": "static",
+                "rawText": " static",
                 "flags": 96,
                 "start": 5,
                 "end": 12

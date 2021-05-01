@@ -36,8 +36,9 @@ async x => ok++
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -67,8 +68,9 @@ async x => ok++
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "ok",
                         "text": "ok",
-                        "rawText": "ok",
+                        "rawText": " ok",
                         "flags": 96,
                         "start": 10,
                         "end": 13

@@ -33,8 +33,9 @@ new fooo.bar
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "fooo",
                         "text": "fooo",
-                        "rawText": "fooo",
+                        "rawText": " fooo",
                         "flags": 96,
                         "start": 3,
                         "end": 8
@@ -46,6 +47,7 @@ new fooo.bar
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,

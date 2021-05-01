@@ -62,6 +62,7 @@ for ([].w ^= s;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
+                        "original": "w",
                         "text": "w",
                         "rawText": "w",
                         "flags": 96,
@@ -80,8 +81,9 @@ for ([].w ^= s;;) x;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "s",
                     "text": "s",
-                    "rawText": "s",
+                    "rawText": " s",
                     "flags": 96,
                     "start": 12,
                     "end": 14
@@ -96,8 +98,9 @@ for ([].w ^= s;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 17,
                     "end": 19

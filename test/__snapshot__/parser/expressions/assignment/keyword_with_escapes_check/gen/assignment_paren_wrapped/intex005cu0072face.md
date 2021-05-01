@@ -27,6 +27,7 @@
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
+                        "original": "inte\\u0072face",
                         "text": "interface",
                         "rawText": "inte\\u0072face",
                         "flags": 96,
@@ -41,8 +42,9 @@
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 17,
                         "end": 19

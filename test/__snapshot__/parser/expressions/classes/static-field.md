@@ -49,8 +49,9 @@ class {
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "field",
                             "text": "field",
-                            "rawText": "field",
+                            "rawText": " field",
                             "flags": 96,
                             "start": 21,
                             "end": 27
@@ -59,8 +60,9 @@ class {
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 29,
                             "end": 33

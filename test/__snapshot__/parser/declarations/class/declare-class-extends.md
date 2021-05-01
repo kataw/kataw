@@ -40,8 +40,9 @@ declare class A<T> extends B<T> { x: number }
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -53,6 +54,7 @@ declare class A<T> extends B<T> { x: number }
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
+                            "original": "T",
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
@@ -79,8 +81,9 @@ declare class A<T> extends B<T> { x: number }
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "B",
                     "text": "B",
-                    "rawText": "B",
+                    "rawText": " B",
                     "flags": 96,
                     "start": 26,
                     "end": 28
@@ -92,6 +95,7 @@ declare class A<T> extends B<T> { x: number }
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
+                                "original": "T",
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
@@ -123,8 +127,9 @@ declare class A<T> extends B<T> { x: number }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 33,
                             "end": 35

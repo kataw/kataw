@@ -62,6 +62,7 @@ let [...x=y] = z
                                         },
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -72,6 +73,7 @@ let [...x=y] = z
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "y",
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
@@ -96,8 +98,9 @@ let [...x=y] = z
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
-                            "rawText": "z",
+                            "rawText": " z",
                             "flags": 96,
                             "start": 14,
                             "end": 16

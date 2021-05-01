@@ -180,6 +180,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
         result += source.substring(start, parser.pos);
         parser.pos++;
         parser.tokenRaw = source.substring(parser.curPos, parser.pos);
+        parser.originalValue = source.slice(parser.tokenPos, parser.pos);
         parser.tokenValue = result;
         return SyntaxKind.StringLiteral;
       }
@@ -202,6 +203,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
 
   parser.tokenValue = result += source.substring(start, parser.pos);
   parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+  parser.originalValue = source.slice(parser.tokenPos, parser.pos);
   return SyntaxKind.StringLiteral;
 }
 

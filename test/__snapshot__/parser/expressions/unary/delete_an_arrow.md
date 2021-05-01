@@ -37,6 +37,7 @@ delete (foo)=>bar
                     "parameters": [
                         {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -48,6 +49,7 @@ delete (foo)=>bar
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,

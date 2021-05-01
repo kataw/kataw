@@ -31,8 +31,9 @@ class x {async switch(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {async switch(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "switch",
                                 "text": "switch",
-                                "rawText": "switch",
+                                "rawText": " switch",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 21

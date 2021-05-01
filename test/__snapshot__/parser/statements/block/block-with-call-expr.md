@@ -26,8 +26,9 @@
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 1,
                                 "end": 3
@@ -54,8 +55,9 @@
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "bt",
                                 "text": "bt",
-                                "rawText": "bt",
+                                "rawText": " bt",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 9

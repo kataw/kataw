@@ -31,8 +31,9 @@ class C { constructor() { class C { set x(_) { super( } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -55,8 +56,9 @@ class C { constructor() { class C { set x(_) { super( } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": " constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -89,8 +91,9 @@ class C { constructor() { class C { set x(_) { super( } }
                                             },
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "C",
                                                 "text": "C",
-                                                "rawText": "C",
+                                                "rawText": " C",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 33
@@ -118,8 +121,9 @@ class C { constructor() { class C { set x(_) { super( } }
                                                             "kind": 209,
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
-                                                                "rawText": "x",
+                                                                "rawText": " x",
                                                                 "flags": 96,
                                                                 "start": 39,
                                                                 "end": 41
@@ -133,6 +137,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                         "ellipsisToken": null,
                                                                         "binding": {
                                                                             "kind": 134299649,
+                                                                            "original": "_",
                                                                             "text": "_",
                                                                             "rawText": "_",
                                                                             "flags": 96,

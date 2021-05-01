@@ -44,8 +44,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "Base",
                             "text": "Base",
-                            "rawText": "Base",
+                            "rawText": " Base",
                             "flags": 96,
                             "start": 14,
                             "end": 19
@@ -76,8 +77,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "async",
                                         "text": "async",
-                                        "rawText": "async",
+                                        "rawText": " async",
                                         "flags": 96,
                                         "start": 26,
                                         "end": 32

@@ -40,8 +40,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " bar",
                 "flags": 96,
                 "start": 12,
                 "end": 16
@@ -91,8 +92,9 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
-                "rawText": "bar",
+                "rawText": " bar",
                 "flags": 96,
                 "start": 38,
                 "end": 42

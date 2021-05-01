@@ -28,6 +28,7 @@ eval => {"use strict"};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
+                    "original": "eval",
                     "text": "eval",
                     "rawText": "eval",
                     "flags": 96,
@@ -44,6 +45,7 @@ eval => {"use strict"};
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
+                                "original": "\"use strict\"",
                                 "rawText": "\"use strict\"",
                                 "flags": 96,
                                 "start": 9,

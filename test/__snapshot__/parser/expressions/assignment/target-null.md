@@ -41,7 +41,8 @@ null = 42;
                 "right": {
                     "kind": 201392130,
                     "text": 42,
-                    "rawText": "42",
+                    "original": "42",
+                    "rawText": " 42",
                     "flags": 96,
                     "start": 6,
                     "end": 9

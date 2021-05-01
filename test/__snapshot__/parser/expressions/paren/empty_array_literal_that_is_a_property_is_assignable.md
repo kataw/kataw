@@ -39,6 +39,7 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "length",
                             "text": "length",
                             "rawText": "length",
                             "flags": 96,
@@ -61,8 +62,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 13,
                     "end": 15

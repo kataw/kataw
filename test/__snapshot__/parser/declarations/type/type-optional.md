@@ -46,8 +46,9 @@ type a = ??string;
             },
             "name": {
                 "kind": 134299649,
+                "original": "a",
                 "text": "a",
-                "rawText": "a",
+                "rawText": " a",
                 "flags": 96,
                 "start": 4,
                 "end": 6

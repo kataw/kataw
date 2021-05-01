@@ -21,6 +21,7 @@ await[x]
                 "kind": 130,
                 "member": {
                     "kind": 134299649,
+                    "original": "await",
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
@@ -29,6 +30,7 @@ await[x]
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,

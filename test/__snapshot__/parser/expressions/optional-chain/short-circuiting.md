@@ -44,6 +44,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             },
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -67,6 +68,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -87,8 +89,9 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " // short-circuiting.\na",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 31
@@ -110,6 +113,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -126,6 +130,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
@@ -153,6 +158,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -175,6 +181,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
@@ -213,8 +220,9 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             },
                             "member": {
                                 "kind": 134299649,
+                                "original": "undefined",
                                 "text": "undefined",
-                                "rawText": "undefined",
+                                "rawText": " // long short-circuiting.\n\nundefined",
                                 "flags": 96,
                                 "start": 44,
                                 "end": 81
@@ -236,6 +244,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                             },
                                             "expression": {
                                                 "kind": 134299649,
+                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -256,8 +265,9 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "undefined",
                                     "text": "undefined",
-                                    "rawText": "undefined",
+                                    "rawText": " // short-circuiting.\nundefined",
                                     "flags": 96,
                                     "start": 88,
                                     "end": 119
@@ -279,6 +289,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -295,6 +306,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
@@ -322,6 +334,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -344,6 +357,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "d",
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,

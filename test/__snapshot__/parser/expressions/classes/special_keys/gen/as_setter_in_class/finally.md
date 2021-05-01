@@ -31,8 +31,9 @@ class x {set finally(x){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {set finally(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "finally",
                                 "text": "finally",
-                                "rawText": "finally",
+                                "rawText": " finally",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 20
@@ -75,6 +77,7 @@ class x {set finally(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

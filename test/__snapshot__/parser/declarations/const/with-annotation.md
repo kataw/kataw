@@ -45,8 +45,9 @@ const {x}: string = y;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -71,8 +72,9 @@ const {x}: string = y;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "string",
                 "text": "string",
-                "rawText": "string",
+                "rawText": " string",
                 "flags": 96,
                 "start": 8,
                 "end": 15
@@ -104,6 +106,7 @@ const {x}: string = y;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -149,8 +152,9 @@ const {x}: string = y;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "string",
                     "text": "string",
-                    "rawText": "string",
+                    "rawText": " string",
                     "flags": 96,
                     "start": 28,
                     "end": 35
@@ -163,8 +167,9 @@ const {x}: string = y;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 37,
                     "end": 39
@@ -200,6 +205,7 @@ const {x}: string = y;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -243,6 +249,7 @@ const {x}: string = y;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "symbol",
                 "text": "symbol",
                 "rawText": "symbol",
                 "flags": 96,
@@ -259,8 +266,9 @@ const {x}: string = y;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "string",
                     "text": "string",
-                    "rawText": "string",
+                    "rawText": " string",
                     "flags": 96,
                     "start": 59,
                     "end": 66
@@ -273,8 +281,9 @@ const {x}: string = y;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 68,
                     "end": 70
@@ -310,6 +319,7 @@ const {x}: string = y;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -353,8 +363,9 @@ const {x}: string = y;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "string",
                     "text": "string",
-                    "rawText": "string",
+                    "rawText": " string",
                     "flags": 96,
                     "start": 83,
                     "end": 90
@@ -367,8 +378,9 @@ const {x}: string = y;
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 92,
                     "end": 94

@@ -54,6 +54,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -72,6 +73,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
@@ -98,6 +100,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "c",
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 96,
@@ -114,8 +117,9 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
+                                                    "original": "d",
                                                     "text": "d",
-                                                    "rawText": "d",
+                                                    "rawText": " d",
                                                     "flags": 96,
                                                     "start": 23,
                                                     "end": 26
@@ -125,6 +129,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "e",
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 96,
@@ -134,6 +139,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "initializer": {
                                                         "kind": 201392130,
                                                         "text": 0,
+                                                        "original": "0",
                                                         "rawText": "0",
                                                         "flags": 96,
                                                         "start": 28,
@@ -154,6 +160,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "kind": 194,
                                                     "expression": {
                                                         "kind": 134299649,
+                                                        "original": "f",
                                                         "text": "f",
                                                         "rawText": "f",
                                                         "flags": 96,
@@ -169,6 +176,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
+                                                        "original": "g",
                                                         "text": "g",
                                                         "rawText": "g",
                                                         "flags": 96,
@@ -178,6 +186,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                     "initializer": {
                                                         "kind": 201392130,
                                                         "text": 0,
+                                                        "original": "0",
                                                         "rawText": "0",
                                                         "flags": 96,
                                                         "start": 37,
@@ -196,14 +205,16 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "ellipsisToken": null,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "h",
                                                     "text": "h",
-                                                    "rawText": "h",
+                                                    "rawText": " h",
                                                     "flags": 96,
                                                     "start": 39,
                                                     "end": 41
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
+                                                    "original": "i",
                                                     "text": "i",
                                                     "rawText": "i",
                                                     "flags": 96,

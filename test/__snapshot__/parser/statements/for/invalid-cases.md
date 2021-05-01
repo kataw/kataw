@@ -37,6 +37,7 @@ for ({x = y} ;;) {}
                             "kind": 205,
                             "left": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -45,6 +46,7 @@ for ({x = y} ;;) {}
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -94,6 +96,7 @@ for ({x = y} ;;) {}
                             "kind": 205,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -102,8 +105,9 @@ for ({x = y} ;;) {}
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 27
@@ -125,6 +129,7 @@ for ({x = y} ;;) {}
             "condition": {
                 "kind": 201392130,
                 "text": 1,
+                "original": "1",
                 "rawText": "1",
                 "flags": 96,
                 "start": 33,
@@ -133,6 +138,7 @@ for ({x = y} ;;) {}
             "incrementor": {
                 "kind": 201392130,
                 "text": 1,
+                "original": "1",
                 "rawText": "1",
                 "flags": 96,
                 "start": 30,
@@ -172,6 +178,7 @@ for ({x = y} ;;) {}
                             "kind": 205,
                             "left": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -180,8 +187,9 @@ for ({x = y} ;;) {}
                             },
                             "right": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 51

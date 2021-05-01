@@ -30,8 +30,9 @@ let f = () => { const [...await f] = []; }
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -84,6 +85,7 @@ let f = () => { const [...await f] = []; }
                                                                         },
                                                                         "binding": {
                                                                             "kind": 134299649,
+                                                                            "original": "await",
                                                                             "text": "await",
                                                                             "rawText": "await",
                                                                             "flags": 96,
@@ -102,8 +104,9 @@ let f = () => { const [...await f] = []; }
                                                                         "ellipsisToken": null,
                                                                         "binding": {
                                                                             "kind": 134299649,
+                                                                            "original": "f",
                                                                             "text": "f",
-                                                                            "rawText": "f",
+                                                                            "rawText": " f",
                                                                             "flags": 96,
                                                                             "start": 31,
                                                                             "end": 33

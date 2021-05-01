@@ -19,6 +19,7 @@ foo;bar;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -33,6 +34,7 @@ foo;bar;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "bar",
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,

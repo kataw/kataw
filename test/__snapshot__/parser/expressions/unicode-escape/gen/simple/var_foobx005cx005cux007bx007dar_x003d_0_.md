@@ -35,8 +35,9 @@ var foob\\u{}ar = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "foob",
                             "text": "foob",
-                            "rawText": "foob",
+                            "rawText": " foob",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -61,6 +62,7 @@ var foob\\u{}ar = 0;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "u",
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
@@ -90,6 +92,7 @@ var foob\\u{}ar = 0;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "ar",
                     "text": "ar",
                     "rawText": "ar",
                     "flags": 96,
@@ -105,7 +108,8 @@ var foob\\u{}ar = 0;
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "rawText": "0",
+                    "original": "0",
+                    "rawText": " 0",
                     "flags": 96,
                     "start": 17,
                     "end": 19

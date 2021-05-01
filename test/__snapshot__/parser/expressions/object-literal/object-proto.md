@@ -24,6 +24,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -45,6 +46,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
@@ -88,15 +90,17 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
-                                    "rawText": "2",
+                                    "original": "2",
+                                    "rawText": " 2",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 32
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 29
@@ -129,8 +133,9 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\nx",
                     "flags": 96,
                     "start": 34,
                     "end": 36
@@ -150,6 +155,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
@@ -188,8 +194,9 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 54,
                                     "end": 64
@@ -246,8 +253,9 @@ x = {async __proto__(){}, *__proto__(){}};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": "\nx",
                     "flags": 96,
                     "start": 70,
                     "end": 72
@@ -267,8 +275,9 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 81,
                                     "end": 91
@@ -305,6 +314,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
@@ -382,16 +392,18 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 127,
                                         "end": 129
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "__proto__",
                                         "text": "__proto__",
-                                        "rawText": "__proto__",
+                                        "rawText": " __proto__",
                                         "flags": 96,
                                         "start": 116,
                                         "end": 126
@@ -408,16 +420,18 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "y",
                                         "text": "y",
-                                        "rawText": "y",
+                                        "rawText": " y",
                                         "flags": 96,
                                         "start": 141,
                                         "end": 143
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "__proto__",
                                         "text": "__proto__",
-                                        "rawText": "__proto__",
+                                        "rawText": " __proto__",
                                         "flags": 96,
                                         "start": 130,
                                         "end": 140

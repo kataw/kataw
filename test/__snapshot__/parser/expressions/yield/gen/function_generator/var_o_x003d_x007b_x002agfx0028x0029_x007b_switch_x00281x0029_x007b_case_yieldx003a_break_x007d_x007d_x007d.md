@@ -37,8 +37,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -106,8 +108,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                         "kind": 157,
                                                         "binding": {
                                                             "kind": 134299649,
+                                                            "original": "o",
                                                             "text": "o",
-                                                            "rawText": "o",
+                                                            "rawText": " o",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 45
@@ -123,6 +126,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                         "kind": 209,
                                                                         "name": {
                                                                             "kind": 134299649,
+                                                                            "original": "gf",
                                                                             "text": "gf",
                                                                             "rawText": "gf",
                                                                             "flags": 96,
@@ -156,6 +160,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                         "expression": {
                                                                                             "kind": 201392130,
                                                                                             "text": 1,
+                                                                                            "original": "1",
                                                                                             "rawText": "1",
                                                                                             "flags": 96,
                                                                                             "start": 66,

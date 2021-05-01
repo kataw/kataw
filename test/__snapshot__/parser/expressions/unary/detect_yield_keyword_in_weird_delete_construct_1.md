@@ -33,6 +33,7 @@ function *f(){ delete ("x"[(yield)]) }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -70,6 +71,7 @@ function *f(){ delete ("x"[(yield)]) }
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
+                                            "original": "\"x\"",
                                             "rawText": "\"x\"",
                                             "flags": 96,
                                             "start": 23,

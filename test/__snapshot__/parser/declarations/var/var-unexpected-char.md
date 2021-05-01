@@ -35,8 +35,9 @@ var 𫠞_ = 12;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "_𖫵",
                             "text": "_𖫵",
-                            "rawText": "_𖫵",
+                            "rawText": " _𖫵",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -46,7 +47,8 @@ var 𫠞_ = 12;
                         "initializer": {
                             "kind": 201392130,
                             "text": 11,
-                            "rawText": "11",
+                            "original": "11",
+                            "rawText": " 11",
                             "flags": 96,
                             "start": 9,
                             "end": 12
@@ -80,8 +82,9 @@ var 𫠞_ = 12;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "var",
                             "text": "𫠝_",
-                            "rawText": "var",
+                            "rawText": "\n\nvar",
                             "flags": 96,
                             "start": 18,
                             "end": 22
@@ -91,7 +94,8 @@ var 𫠞_ = 12;
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "rawText": "10",
+                            "original": "10",
+                            "rawText": " 10",
                             "flags": 96,
                             "start": 24,
                             "end": 27
@@ -125,8 +129,9 @@ var 𫠞_ = 12;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "var",
                             "text": "𫠞_",
-                            "rawText": "var",
+                            "rawText": "\n\nvar",
                             "flags": 96,
                             "start": 33,
                             "end": 37
@@ -136,7 +141,8 @@ var 𫠞_ = 12;
                         "initializer": {
                             "kind": 201392130,
                             "text": 12,
-                            "rawText": "12",
+                            "original": "12",
+                            "rawText": " 12",
                             "flags": 96,
                             "start": 39,
                             "end": 42

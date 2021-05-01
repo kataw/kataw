@@ -41,8 +41,9 @@ x => y {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "p",
                 "text": "p",
-                "rawText": "p",
+                "rawText": " p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,8 +74,9 @@ x => y {}
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29
@@ -90,6 +92,7 @@ x => y {}
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -125,8 +128,9 @@ x => y {}
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": "\nx",
                                     "flags": 96,
                                     "start": 43,
                                     "end": 45
@@ -135,8 +139,9 @@ x => y {}
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 48,
                                     "end": 50

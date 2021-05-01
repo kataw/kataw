@@ -37,8 +37,9 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -108,8 +110,9 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "f",
                                                 "text": "f",
-                                                "rawText": "f",
+                                                "rawText": " f",
                                                 "flags": 96,
                                                 "start": 54,
                                                 "end": 56
@@ -148,8 +151,9 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
                                                                     },
                                                                     "expression": {
                                                                         "kind": 134299649,
+                                                                        "original": "foo",
                                                                         "text": "foo",
-                                                                        "rawText": "foo",
+                                                                        "rawText": " foo",
                                                                         "flags": 96,
                                                                         "start": 71,
                                                                         "end": 75

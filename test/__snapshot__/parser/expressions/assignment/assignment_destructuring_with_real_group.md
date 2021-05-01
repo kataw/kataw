@@ -47,6 +47,7 @@
                                                 "expressions": [
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "a",
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
@@ -55,6 +56,7 @@
                                                     },
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -79,7 +81,8 @@
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "rawText": "0",
+                                            "original": "0",
+                                            "rawText": " 0",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 13
@@ -90,6 +93,7 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -119,7 +123,8 @@
                     "right": {
                         "kind": 201392130,
                         "text": 1,
-                        "rawText": "1",
+                        "original": "1",
+                        "rawText": " 1",
                         "flags": 96,
                         "start": 16,
                         "end": 18

@@ -25,6 +25,7 @@ left@{xa0}@right
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "left",
                 "text": "left",
                 "rawText": "left",
                 "flags": 96,
@@ -48,6 +49,7 @@ left@{xa0}@right
             "classKeyword": null,
             "name": {
                 "kind": 134299649,
+                "original": "xa0",
                 "text": "xa0",
                 "rawText": "xa0",
                 "flags": 96,
@@ -77,6 +79,7 @@ left@{xa0}@right
                         "kind": 34611453,
                         "expression": {
                             "kind": 134299649,
+                            "original": "right",
                             "text": "right",
                             "rawText": "right",
                             "flags": 96,

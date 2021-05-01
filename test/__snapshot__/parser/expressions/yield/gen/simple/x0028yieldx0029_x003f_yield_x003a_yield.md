@@ -27,6 +27,7 @@
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
+                        "original": "yield",
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
@@ -45,8 +46,9 @@
                 },
                 "consequent": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": " yield",
                     "flags": 96,
                     "start": 9,
                     "end": 15
@@ -59,8 +61,9 @@
                 },
                 "alternate": {
                     "kind": 134299649,
+                    "original": "yield",
                     "text": "yield",
-                    "rawText": "yield",
+                    "rawText": " yield",
                     "flags": 96,
                     "start": 17,
                     "end": 23

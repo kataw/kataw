@@ -19,6 +19,7 @@ async ({ident: {x: y}})
             "kind": 131,
             "expression": {
                 "kind": 134299649,
+                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -52,14 +53,16 @@ async ({ident: {x: y}})
                                                     "setKeyword": null,
                                                     "left": {
                                                         "kind": 134299649,
+                                                        "original": "y",
                                                         "text": "y",
-                                                        "rawText": "y",
+                                                        "rawText": " y",
                                                         "flags": 96,
                                                         "start": 18,
                                                         "end": 20
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -82,6 +85,7 @@ async ({ident: {x: y}})
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "ident",
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,

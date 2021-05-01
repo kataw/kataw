@@ -38,7 +38,8 @@ export default 15;
             "declaration": {
                 "kind": 201392130,
                 "text": 15,
-                "rawText": "15",
+                "original": "15",
+                "rawText": " 15",
                 "flags": 96,
                 "start": 14,
                 "end": 17

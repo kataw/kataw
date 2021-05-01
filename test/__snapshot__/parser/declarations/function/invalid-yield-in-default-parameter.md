@@ -33,8 +33,9 @@ function* x() { function* foo(a = 1 + (yield)) {} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -71,8 +72,9 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
-                                "rawText": "foo",
+                                "rawText": " foo",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 29
@@ -85,6 +87,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -98,7 +101,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 1,
-                                                "rawText": "1",
+                                                "original": "1",
+                                                "rawText": " 1",
                                                 "flags": 96,
                                                 "start": 33,
                                                 "end": 35

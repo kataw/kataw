@@ -33,6 +33,7 @@ function *f(){   s = {"foo": yield}   }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -59,8 +60,9 @@ function *f(){   s = {"foo": yield}   }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "s",
                                     "text": "s",
-                                    "rawText": "s",
+                                    "rawText": "   s",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 18
@@ -100,6 +102,7 @@ function *f(){   s = {"foo": yield}   }
                                                 "right": {
                                                     "kind": 201392131,
                                                     "text": "foo",
+                                                    "original": "\"foo\"",
                                                     "rawText": "\"foo\"",
                                                     "flags": 96,
                                                     "start": 22,

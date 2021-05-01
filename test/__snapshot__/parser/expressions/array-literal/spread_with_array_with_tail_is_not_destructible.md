@@ -62,6 +62,7 @@
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
+                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -80,6 +81,7 @@
                                         },
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "map",
                                             "text": "map",
                                             "rawText": "map",
                                             "flags": 96,
@@ -95,6 +97,7 @@
                                         "elements": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
@@ -103,8 +106,9 @@
                                             },
                                             {
                                                 "kind": 134299649,
+                                                "original": "z",
                                                 "text": "z",
-                                                "rawText": "z",
+                                                "rawText": " z",
                                                 "flags": 96,
                                                 "start": 14,
                                                 "end": 16
@@ -141,8 +145,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " a",
                     "flags": 96,
                     "start": 20,
                     "end": 22

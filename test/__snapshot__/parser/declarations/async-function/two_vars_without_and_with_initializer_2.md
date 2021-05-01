@@ -46,6 +46,7 @@ let [foo=a, bar=b] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -56,6 +57,7 @@ let [foo=a, bar=b] = arr;
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -71,8 +73,9 @@ let [foo=a, bar=b] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "bar",
                                             "text": "bar",
-                                            "rawText": "bar",
+                                            "rawText": " bar",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 15
@@ -81,6 +84,7 @@ let [foo=a, bar=b] = arr;
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -105,8 +109,9 @@ let [foo=a, bar=b] = arr;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
+                            "original": "arr",
                             "text": "arr",
-                            "rawText": "arr",
+                            "rawText": " arr",
                             "flags": 96,
                             "start": 20,
                             "end": 24

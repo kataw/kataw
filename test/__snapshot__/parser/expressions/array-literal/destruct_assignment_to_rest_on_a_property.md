@@ -56,6 +56,7 @@
                                     "member": {
                                         "kind": 201392131,
                                         "text": "foo",
+                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 4,
@@ -63,6 +64,7 @@
                                     },
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
@@ -95,8 +97,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 16,
                     "end": 18

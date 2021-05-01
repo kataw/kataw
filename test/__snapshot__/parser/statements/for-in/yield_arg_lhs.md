@@ -52,6 +52,7 @@ function *f(){   for (yield x in y);   }
             },
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -98,8 +99,9 @@ function *f(){   for (yield x in y);   }
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 27,
                                     "end": 29
@@ -110,8 +112,9 @@ function *f(){   for (yield x in y);   }
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 32,
                                 "end": 34

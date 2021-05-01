@@ -64,8 +64,9 @@ for (;false;) const x = 1;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 19,
                             "end": 21
@@ -75,7 +76,8 @@ for (;false;) const x = 1;
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
-                            "rawText": "1",
+                            "original": "1",
+                            "rawText": " 1",
                             "flags": 96,
                             "start": 23,
                             "end": 25

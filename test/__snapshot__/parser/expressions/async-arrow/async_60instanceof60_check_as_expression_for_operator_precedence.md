@@ -21,6 +21,7 @@ f(a + async instanceof b)
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -34,6 +35,7 @@ f(a + async instanceof b)
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -50,6 +52,7 @@ f(a + async instanceof b)
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -64,8 +67,9 @@ f(a + async instanceof b)
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "b",
                                     "text": "b",
-                                    "rawText": "b",
+                                    "rawText": " b",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 24

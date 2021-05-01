@@ -37,8 +37,9 @@ function * gen() { function not_gen() { (class { static async method(...await) {
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -132,8 +134,9 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                     "kind": 209,
                                                                     "name": {
                                                                         "kind": 134299649,
+                                                                        "original": "method",
                                                                         "text": "method",
-                                                                        "rawText": "method",
+                                                                        "rawText": " method",
                                                                         "flags": 96,
                                                                         "start": 61,
                                                                         "end": 68
@@ -152,6 +155,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                 },
                                                                                 "binding": {
                                                                                     "kind": 134299649,
+                                                                                    "original": "await",
                                                                                     "text": "await",
                                                                                     "rawText": "await",
                                                                                     "flags": 96,

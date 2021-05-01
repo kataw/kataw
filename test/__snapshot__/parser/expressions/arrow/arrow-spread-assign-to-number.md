@@ -30,6 +30,7 @@
                     [
                         {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -46,6 +47,7 @@
                             },
                             "binding": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -57,7 +59,8 @@
                             "initializer": {
                                 "kind": 201392130,
                                 "text": 10,
-                                "rawText": "10",
+                                "original": "10",
+                                "rawText": " 10",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 13
@@ -72,8 +75,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 17,
                     "end": 19

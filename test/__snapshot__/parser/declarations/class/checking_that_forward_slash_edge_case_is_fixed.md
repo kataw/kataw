@@ -46,8 +46,9 @@ class x { static / foo(){} }
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x { static / foo(){} }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "static",
                             "text": "static",
-                            "rawText": "static",
+                            "rawText": " static",
                             "flags": 96,
                             "start": 9,
                             "end": 16
@@ -108,8 +110,9 @@ class x { static / foo(){} }
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
+                        "original": "foo",
                         "text": "foo",
-                        "rawText": "foo",
+                        "rawText": " foo",
                         "flags": 96,
                         "start": 18,
                         "end": 22

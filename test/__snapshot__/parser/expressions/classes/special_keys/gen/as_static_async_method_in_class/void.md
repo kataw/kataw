@@ -31,8 +31,9 @@ class x {static async void(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {static async void(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "void",
                                 "text": "void",
-                                "rawText": "void",
+                                "rawText": " void",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 26

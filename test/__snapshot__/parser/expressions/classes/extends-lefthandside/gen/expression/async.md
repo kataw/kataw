@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -51,6 +52,7 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,

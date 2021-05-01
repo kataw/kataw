@@ -40,6 +40,7 @@ export {default} from "foo";
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "default",
                                 "text": "default",
                                 "rawText": "default",
                                 "flags": 96,
@@ -73,6 +74,7 @@ export {default} from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 21,

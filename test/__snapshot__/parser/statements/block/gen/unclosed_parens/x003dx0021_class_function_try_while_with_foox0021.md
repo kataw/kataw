@@ -186,8 +186,9 @@
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "foo",
                             "text": "foo",
-                            "rawText": "foo",
+                            "rawText": " foo",
                             "flags": 96,
                             "start": 35,
                             "end": 39

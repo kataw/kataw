@@ -49,6 +49,7 @@
                                 {
                                     "kind": 201392131,
                                     "text": "asterisk: \u000052",
+                                    "original": "\"asterisk: \\052\"",
                                     "rawText": "\n  \"asterisk: \\052\"",
                                     "flags": 97,
                                     "start": 13,
@@ -57,6 +58,7 @@
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
+                                    "original": "\"use strict\"",
                                     "rawText": "\n  \"use strict\"",
                                     "flags": 97,
                                     "start": 33,

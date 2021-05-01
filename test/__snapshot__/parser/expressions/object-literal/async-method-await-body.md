@@ -28,8 +28,9 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -63,7 +64,8 @@
                                                     "expression": {
                                                         "kind": 201392130,
                                                         "text": 0,
-                                                        "rawText": "0",
+                                                        "original": "0",
+                                                        "rawText": " 0",
                                                         "flags": 96,
                                                         "start": 19,
                                                         "end": 21

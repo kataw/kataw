@@ -38,6 +38,7 @@
                                             "properties": [
                                                 {
                                                     "kind": 134299649,
+                                                    "original": "switch",
                                                     "text": "switch",
                                                     "rawText": "switch",
                                                     "flags": 96,

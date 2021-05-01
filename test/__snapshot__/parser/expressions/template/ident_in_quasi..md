@@ -35,6 +35,7 @@
                             "text": "",
                             "expression": {
                                 "kind": 134299649,
+                                "original": "n",
                                 "text": "n",
                                 "rawText": "n",
                                 "flags": 96,

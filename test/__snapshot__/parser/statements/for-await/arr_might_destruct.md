@@ -35,8 +35,9 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -83,6 +84,7 @@ async function f(){
                                                     "properties": [
                                                         {
                                                             "kind": 134299649,
+                                                            "original": "x",
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
@@ -99,6 +101,7 @@ async function f(){
                                                             },
                                                             "argument": {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -137,6 +140,7 @@ async function f(){
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -149,8 +153,9 @@ async function f(){
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 48,
                                 "end": 50

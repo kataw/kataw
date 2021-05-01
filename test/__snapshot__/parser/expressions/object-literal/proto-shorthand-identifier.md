@@ -26,8 +26,9 @@
                         "properties": [
                             {
                                 "kind": 134299649,
+                                "original": "__proto__",
                                 "text": "__proto__",
-                                "rawText": "__proto__",
+                                "rawText": " __proto__",
                                 "flags": 96,
                                 "start": 2,
                                 "end": 12
@@ -47,8 +48,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 23

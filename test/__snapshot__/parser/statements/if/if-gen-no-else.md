@@ -48,8 +48,9 @@ if (true) function* g() {  }
                 },
                 "name": {
                     "kind": 134299649,
+                    "original": "g",
                     "text": "g",
-                    "rawText": "g",
+                    "rawText": " g",
                     "flags": 96,
                     "start": 19,
                     "end": 21

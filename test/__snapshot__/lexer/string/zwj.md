@@ -19,6 +19,7 @@ left@{x200d}@right
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "left",
                 "text": "left",
                 "rawText": "left",
                 "flags": 96,
@@ -42,6 +43,7 @@ left@{x200d}@right
             "classKeyword": null,
             "name": {
                 "kind": 134299649,
+                "original": "x200d",
                 "text": "x200d",
                 "rawText": "x200d",
                 "flags": 96,
@@ -71,6 +73,7 @@ left@{x200d}@right
                         "kind": 34611453,
                         "expression": {
                             "kind": 134299649,
+                            "original": "right",
                             "text": "right",
                             "rawText": "right",
                             "flags": 96,

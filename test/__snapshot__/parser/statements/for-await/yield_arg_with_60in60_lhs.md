@@ -37,8 +37,9 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -75,6 +76,7 @@ async function f(){
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
@@ -115,8 +117,9 @@ async function f(){
                                                 "asteriskToken": null,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "x",
                                                     "text": "x",
-                                                    "rawText": "x",
+                                                    "rawText": " x",
                                                     "flags": 96,
                                                     "start": 57,
                                                     "end": 59
@@ -127,16 +130,18 @@ async function f(){
                                             },
                                             "condition": {
                                                 "kind": 134299649,
+                                                "original": "of",
                                                 "text": "of",
-                                                "rawText": "of",
+                                                "rawText": " of",
                                                 "flags": 96,
                                                 "start": 64,
                                                 "end": 67
                                             },
                                             "incrementor": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 62,
                                                 "end": 64
@@ -145,8 +150,9 @@ async function f(){
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 134299649,
+                                                    "original": "z",
                                                     "text": "z",
-                                                    "rawText": "z",
+                                                    "rawText": " z",
                                                     "flags": 96,
                                                     "start": 67,
                                                     "end": 69

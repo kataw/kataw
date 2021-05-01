@@ -31,8 +31,9 @@ a;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
-                            "rawText": "x",
+                            "rawText": " x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -61,8 +62,9 @@ a;
                                 },
                                 "expression": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": "\na",
                                     "flags": 96,
                                     "start": 16,
                                     "end": 18

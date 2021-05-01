@@ -31,8 +31,9 @@ class x {true: x}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -50,6 +51,7 @@ class x {true: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "true",
                             "text": "true",
                             "rawText": "true",
                             "flags": 96,
@@ -76,8 +78,9 @@ class x {true: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 14,
                 "end": 16

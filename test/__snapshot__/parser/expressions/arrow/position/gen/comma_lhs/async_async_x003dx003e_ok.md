@@ -39,8 +39,9 @@ async async => ok, a
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "async",
                                     "text": "async",
-                                    "rawText": "async",
+                                    "rawText": " async",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 11
@@ -62,8 +63,9 @@ async async => ok, a
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 14,
                             "end": 17
@@ -74,8 +76,9 @@ async async => ok, a
                     },
                     {
                         "kind": 134299649,
+                        "original": "a",
                         "text": "a",
-                        "rawText": "a",
+                        "rawText": " a",
                         "flags": 96,
                         "start": 18,
                         "end": 20

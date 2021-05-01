@@ -46,8 +46,9 @@ class x {[x]z){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -67,6 +68,7 @@ class x {[x]z){}}
                             "kind": 194,
                             "expression": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -92,6 +94,7 @@ class x {[x]z){}}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "z",
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,

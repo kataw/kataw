@@ -93,6 +93,7 @@ for (function(){ }[x in y] of x);
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -107,8 +108,9 @@ for (function(){ }[x in y] of x);
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
-                        "rawText": "y",
+                        "rawText": " y",
                         "flags": 96,
                         "start": 23,
                         "end": 25
@@ -123,8 +125,9 @@ for (function(){ }[x in y] of x);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 29,
                 "end": 31

@@ -47,6 +47,7 @@
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -61,8 +62,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "A",
                                     "text": "A",
-                                    "rawText": "A",
+                                    "rawText": " A",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 8
@@ -75,8 +77,9 @@
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "bar",
                                     "text": "bar",
-                                    "rawText": "bar",
+                                    "rawText": " bar",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 13
@@ -89,8 +92,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "B",
                                     "text": "B",
-                                    "rawText": "B",
+                                    "rawText": " B",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 17
@@ -117,8 +121,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "arr",
                     "text": "arr",
-                    "rawText": "arr",
+                    "rawText": " arr",
                     "flags": 96,
                     "start": 20,
                     "end": 24

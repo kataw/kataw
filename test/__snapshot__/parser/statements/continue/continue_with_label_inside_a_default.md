@@ -25,6 +25,7 @@ switch (x) { default: continue foo; }
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -53,8 +54,9 @@ switch (x) { default: continue foo; }
                                 },
                                 "label": {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 34

@@ -37,8 +37,9 @@ function* foo() { var x = 10; yield 1; return x; }
             },
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -73,8 +74,9 @@ function* foo() { var x = 10; yield 1; return x; }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
@@ -84,7 +86,8 @@ function* foo() { var x = 10; yield 1; return x; }
                                         "initializer": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "rawText": "10",
+                                            "original": "10",
+                                            "rawText": " 10",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 28
@@ -117,7 +120,8 @@ function* foo() { var x = 10; yield 1; return x; }
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "rawText": "1",
+                                    "original": "1",
+                                    "rawText": " 1",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 37
@@ -140,8 +144,9 @@ function* foo() { var x = 10; yield 1; return x; }
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
-                                "rawText": "x",
+                                "rawText": " x",
                                 "flags": 96,
                                 "start": 45,
                                 "end": 47

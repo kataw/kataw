@@ -49,8 +49,9 @@ for (var r == y in x );
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "r",
                             "text": "r",
-                            "rawText": "r",
+                            "rawText": " r",
                             "flags": 96,
                             "start": 8,
                             "end": 10
@@ -87,8 +88,9 @@ for (var r == y in x );
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "y",
                         "text": "y",
-                        "rawText": "y",
+                        "rawText": " y",
                         "flags": 96,
                         "start": 13,
                         "end": 15
@@ -101,8 +103,9 @@ for (var r == y in x );
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 18,
                         "end": 20

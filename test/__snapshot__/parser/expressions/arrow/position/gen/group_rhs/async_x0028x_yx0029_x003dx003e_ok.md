@@ -25,6 +25,7 @@ x * (async (x, y) => ok)
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -51,6 +52,7 @@ x * (async (x, y) => ok)
                         "parameters": [
                             {
                                 "kind": 134299649,
+                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -59,8 +61,9 @@ x * (async (x, y) => ok)
                             },
                             {
                                 "kind": 134299649,
+                                "original": "y",
                                 "text": "y",
-                                "rawText": "y",
+                                "rawText": " y",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 16
@@ -75,8 +78,9 @@ x * (async (x, y) => ok)
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,
+                            "original": "ok",
                             "text": "ok",
-                            "rawText": "ok",
+                            "rawText": " ok",
                             "flags": 96,
                             "start": 20,
                             "end": 23

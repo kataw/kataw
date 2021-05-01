@@ -39,6 +39,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -50,8 +51,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 7,
                                                 "end": 9
@@ -70,8 +72,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 13
@@ -89,8 +92,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
+                                                                "original": "a",
                                                                 "text": "a",
-                                                                "rawText": "a",
+                                                                "rawText": " a",
                                                                 "flags": 96,
                                                                 "start": 15,
                                                                 "end": 18
@@ -100,8 +104,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
+                                                                    "original": "b",
                                                                     "text": "b",
-                                                                    "rawText": "b",
+                                                                    "rawText": " b",
                                                                     "flags": 96,
                                                                     "start": 18,
                                                                     "end": 20
@@ -160,6 +165,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "3",
+                                            "original": "\"3\"",
                                             "rawText": " \"3\"",
                                             "flags": 96,
                                             "start": 31,
@@ -167,8 +173,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 28,
                                             "end": 30
@@ -197,6 +204,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                         "left": {
                                                             "kind": 201392131,
                                                             "text": "b",
+                                                            "original": "\"b\"",
                                                             "rawText": " \"b\"",
                                                             "flags": 96,
                                                             "start": 44,
@@ -204,8 +212,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
+                                                            "original": "a",
                                                             "text": "a",
-                                                            "rawText": "a",
+                                                            "rawText": " a",
                                                             "flags": 96,
                                                             "start": 41,
                                                             "end": 43
@@ -226,8 +235,9 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "z",
                                             "text": "z",
-                                            "rawText": "z",
+                                            "rawText": " z",
                                             "flags": 96,
                                             "start": 36,
                                             "end": 38

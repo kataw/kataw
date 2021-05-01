@@ -61,6 +61,7 @@ var {[2]: y = 1} = {2:3}
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 2,
+                                                "original": "2",
                                                 "rawText": "2",
                                                 "flags": 96,
                                                 "start": 6,
@@ -75,8 +76,9 @@ var {[2]: y = 1} = {2:3}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
+                                                "original": "y",
                                                 "text": "y",
-                                                "rawText": "y",
+                                                "rawText": " y",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 11
@@ -84,7 +86,8 @@ var {[2]: y = 1} = {2:3}
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 1,
-                                                "rawText": "1",
+                                                "original": "1",
+                                                "rawText": " 1",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15
@@ -123,6 +126,7 @@ var {[2]: y = 1} = {2:3}
                                         "left": {
                                             "kind": 201392130,
                                             "text": 3,
+                                            "original": "3",
                                             "rawText": "3",
                                             "flags": 96,
                                             "start": 22,
@@ -131,6 +135,7 @@ var {[2]: y = 1} = {2:3}
                                         "right": {
                                             "kind": 201392130,
                                             "text": 2,
+                                            "original": "2",
                                             "rawText": "2",
                                             "flags": 96,
                                             "start": 20,

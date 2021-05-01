@@ -33,7 +33,8 @@
                                 "left": {
                                     "kind": 201392130,
                                     "text": 10,
-                                    "rawText": "10",
+                                    "original": "10",
+                                    "rawText": " 10",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 9
@@ -42,6 +43,7 @@
                                     "kind": 194,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -65,15 +67,17 @@
                                 "left": {
                                     "kind": 201392130,
                                     "text": 20,
-                                    "rawText": "20",
+                                    "original": "20",
+                                    "rawText": " 20",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 16
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "y",
                                     "text": "y",
-                                    "rawText": "y",
+                                    "rawText": " y",
                                     "flags": 96,
                                     "start": 10,
                                     "end": 12

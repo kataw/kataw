@@ -21,6 +21,7 @@ wrap({async [foo""](){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -37,6 +38,7 @@ wrap({async [foo""](){}});
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "async",
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
@@ -47,6 +49,7 @@ wrap({async [foo""](){}});
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -60,6 +63,7 @@ wrap({async [foo""](){}});
                                     {
                                         "kind": 201392131,
                                         "text": "",
+                                        "original": "\"\"",
                                         "rawText": "\"\"",
                                         "flags": 96,
                                         "start": 16,

@@ -37,13 +37,15 @@
                                         "member": {
                                             "kind": 201392130,
                                             "text": 50,
-                                            "rawText": "50.",
+                                            "original": "50.",
+                                            "rawText": " 50.",
                                             "flags": 96,
                                             "start": 4,
                                             "end": 8
                                         },
                                         "expression": {
                                             "kind": 134299649,
+                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -56,6 +58,7 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "l",
                                         "text": "l",
                                         "rawText": "l",
                                         "flags": 96,
@@ -84,8 +87,9 @@
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 15,
                         "end": 17

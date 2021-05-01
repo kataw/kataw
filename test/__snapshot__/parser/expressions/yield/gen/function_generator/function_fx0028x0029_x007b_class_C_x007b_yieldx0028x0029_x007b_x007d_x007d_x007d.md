@@ -37,8 +37,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "gen",
                 "text": "gen",
-                "rawText": "gen",
+                "rawText": " gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -70,8 +71,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "not_gen",
                                 "text": "not_gen",
-                                "rawText": "not_gen",
+                                "rawText": " not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -103,8 +105,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "f",
                                                 "text": "f",
-                                                "rawText": "f",
+                                                "rawText": " f",
                                                 "flags": 96,
                                                 "start": 48,
                                                 "end": 50
@@ -135,8 +138,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                             },
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "C",
                                                                 "text": "C",
-                                                                "rawText": "C",
+                                                                "rawText": " C",
                                                                 "flags": 96,
                                                                 "start": 60,
                                                                 "end": 62
@@ -159,8 +163,9 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                             "kind": 209,
                                                                             "name": {
                                                                                 "kind": 134299649,
+                                                                                "original": "yield",
                                                                                 "text": "yield",
-                                                                                "rawText": "yield",
+                                                                                "rawText": " yield",
                                                                                 "flags": 96,
                                                                                 "start": 64,
                                                                                 "end": 70

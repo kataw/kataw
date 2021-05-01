@@ -34,8 +34,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "B",
                         "text": "B",
-                        "rawText": "B",
+                        "rawText": " B",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -56,6 +57,7 @@
                                 "properties": [
                                     {
                                         "kind": 134299649,
+                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,

@@ -35,8 +35,9 @@ class C { get; set; static; async }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -54,8 +55,9 @@ class C { get; set; static; async }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "get",
                             "text": "get",
-                            "rawText": "get",
+                            "rawText": " get",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -81,8 +83,9 @@ class C { get; set; static; async }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "set",
                             "text": "set",
-                            "rawText": "set",
+                            "rawText": " set",
                             "flags": 96,
                             "start": 14,
                             "end": 18
@@ -108,8 +111,9 @@ class C { get; set; static; async }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "static",
                             "text": "static",
-                            "rawText": "static",
+                            "rawText": " static",
                             "flags": 96,
                             "start": 19,
                             "end": 26
@@ -135,8 +139,9 @@ class C { get; set; static; async }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
+                            "original": "async",
                             "text": "async",
-                            "rawText": "async",
+                            "rawText": " async",
                             "flags": 96,
                             "start": 27,
                             "end": 33

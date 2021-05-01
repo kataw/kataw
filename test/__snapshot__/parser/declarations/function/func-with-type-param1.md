@@ -36,8 +36,9 @@ function foo<T,S>() {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": " foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -71,6 +72,7 @@ function foo<T,S>() {}
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
+                            "original": "T",
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
@@ -86,6 +88,7 @@ function foo<T,S>() {}
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
+                            "original": "S",
                             "text": "S",
                             "rawText": "S",
                             "flags": 96,

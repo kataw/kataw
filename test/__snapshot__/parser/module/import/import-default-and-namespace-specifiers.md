@@ -40,6 +40,7 @@ import foo, * as bar from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 25,
@@ -54,8 +55,9 @@ import foo, * as bar from "foo";
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
-                    "rawText": "foo",
+                    "rawText": " foo",
                     "flags": 96,
                     "start": 6,
                     "end": 10
@@ -71,8 +73,9 @@ import foo, * as bar from "foo";
                     "asKeyword": null,
                     "binding": {
                         "kind": 134299649,
+                        "original": "bar",
                         "text": "bar",
-                        "rawText": "bar",
+                        "rawText": " bar",
                         "flags": 96,
                         "start": 16,
                         "end": 20

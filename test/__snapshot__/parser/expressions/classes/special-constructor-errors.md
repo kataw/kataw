@@ -50,8 +50,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -79,8 +80,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "constructor",
                                         "text": "constructor",
-                                        "rawText": "constructor",
+                                        "rawText": " constructor",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 27
@@ -149,8 +151,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 43,
                         "end": 45
@@ -178,8 +181,9 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
+                                        "original": "constructor",
                                         "text": "constructor",
-                                        "rawText": "constructor",
+                                        "rawText": " constructor",
                                         "flags": 96,
                                         "start": 50,
                                         "end": 62
@@ -193,6 +197,7 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "_",
                                                     "text": "_",
                                                     "rawText": "_",
                                                     "flags": 96,
@@ -267,8 +272,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 80,
                         "end": 82
@@ -297,6 +303,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "constructor",
+                                        "original": "'constructor'",
                                         "rawText": " 'constructor'",
                                         "flags": 4194400,
                                         "start": 88,
@@ -366,8 +373,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 119,
                         "end": 121
@@ -385,8 +393,9 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
+                                    "original": "c",
                                     "text": "c",
-                                    "rawText": "c",
+                                    "rawText": " c",
                                     "flags": 96,
                                     "start": 127,
                                     "end": 129
@@ -421,8 +430,9 @@
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "c",
                     "text": "onstructor",
-                    "rawText": "c",
+                    "rawText": " c",
                     "flags": 96,
                     "start": 130,
                     "end": 145
@@ -477,8 +487,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 162,
                         "end": 164
@@ -507,6 +518,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
+                                        "original": "'c\\\\u006fnstructor'",
                                         "rawText": " 'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 170,
@@ -576,8 +588,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 207,
                         "end": 209
@@ -606,6 +619,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
+                                        "original": "'c\\\\u006fnstructor'",
                                         "rawText": " 'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 215,
@@ -620,6 +634,7 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
+                                                    "original": "_",
                                                     "text": "_",
                                                     "rawText": "_",
                                                     "flags": 96,
@@ -694,8 +709,9 @@
                     },
                     "name": {
                         "kind": 134299649,
+                        "original": "C",
                         "text": "C",
-                        "rawText": "C",
+                        "rawText": " C",
                         "flags": 96,
                         "start": 253,
                         "end": 255
@@ -724,6 +740,7 @@
                                     "name": {
                                         "kind": 201392131,
                                         "text": "c\\u006fnstructor",
+                                        "original": "'c\\\\u006fnstructor'",
                                         "rawText": "'c\\\\u006fnstructor'",
                                         "flags": 4194400,
                                         "start": 259,

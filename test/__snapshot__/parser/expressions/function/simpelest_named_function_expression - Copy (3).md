@@ -27,6 +27,7 @@ foo(function f(){})
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
+                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -48,8 +49,9 @@ foo(function f(){})
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
+                                "original": "f",
                                 "text": "f",
-                                "rawText": "f",
+                                "rawText": " f",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 14

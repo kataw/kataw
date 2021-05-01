@@ -34,8 +34,9 @@ import a, *= from 'f';
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
+                    "original": "from",
                     "text": "from",
-                    "rawText": "from",
+                    "rawText": " from",
                     "flags": 96,
                     "start": 12,
                     "end": 17
@@ -49,8 +50,9 @@ import a, *= from 'f';
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
-                    "rawText": "a",
+                    "rawText": " a",
                     "flags": 96,
                     "start": 6,
                     "end": 8
@@ -70,6 +72,7 @@ import a, *= from 'f';
             "expression": {
                 "kind": 201392131,
                 "text": "f",
+                "original": "'f'",
                 "rawText": " 'f'",
                 "flags": 4194400,
                 "start": 17,

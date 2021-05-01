@@ -48,8 +48,9 @@ async () => {  inte\u0072face = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
+                                    "original": "inte\\u0072face",
                                     "text": "interface",
-                                    "rawText": "inte\\u0072face",
+                                    "rawText": "  inte\\u0072face",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 29
@@ -62,8 +63,9 @@ async () => {  inte\u0072face = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "x",
                                     "text": "x",
-                                    "rawText": "x",
+                                    "rawText": " x",
                                     "flags": 96,
                                     "start": 31,
                                     "end": 33

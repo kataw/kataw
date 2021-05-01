@@ -52,8 +52,9 @@ async function f() { class C { aaa = await } }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
+                "original": "f",
                 "text": "f",
-                "rawText": "f",
+                "rawText": " f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -84,8 +85,9 @@ async function f() { class C { aaa = await } }
                             },
                             "name": {
                                 "kind": 134299649,
+                                "original": "C",
                                 "text": "C",
-                                "rawText": "C",
+                                "rawText": " C",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 28
@@ -103,8 +105,9 @@ async function f() { class C { aaa = await } }
                                         "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "aaa",
                                             "text": "aaa",
-                                            "rawText": "aaa",
+                                            "rawText": " aaa",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 34

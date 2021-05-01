@@ -32,8 +32,9 @@ class B extends A {
             },
             "name": {
                 "kind": 134299649,
+                "original": "A",
                 "text": "A",
-                "rawText": "A",
+                "rawText": " A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -63,8 +64,9 @@ class B extends A {
             },
             "name": {
                 "kind": 134299649,
+                "original": "B",
                 "text": "B",
-                "rawText": "B",
+                "rawText": " B",
                 "flags": 96,
                 "start": 16,
                 "end": 18
@@ -80,8 +82,9 @@ class B extends A {
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "A",
                     "text": "A",
-                    "rawText": "A",
+                    "rawText": " A",
                     "flags": 96,
                     "start": 26,
                     "end": 28
@@ -107,8 +110,9 @@ class B extends A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "constructor",
                                 "text": "constructor",
-                                "rawText": "constructor",
+                                "rawText": "\n  constructor",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 44

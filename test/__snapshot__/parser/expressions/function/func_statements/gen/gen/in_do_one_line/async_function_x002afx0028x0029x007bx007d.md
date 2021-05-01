@@ -29,6 +29,7 @@ do async function *f(){} while (x);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -64,6 +65,7 @@ do async function *f(){} while (x);
                 },
                 "name": {
                     "kind": 134299649,
+                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,

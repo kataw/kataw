@@ -40,8 +40,9 @@ const map = {
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "map",
                             "text": "map",
-                            "rawText": "map",
+                            "rawText": " map",
                             "flags": 96,
                             "start": 5,
                             "end": 9
@@ -62,6 +63,7 @@ const map = {
                                         "left": {
                                             "kind": 201392131,
                                             "text": "Too young",
+                                            "original": "'Too young'",
                                             "rawText": " 'Too young'",
                                             "flags": 4194400,
                                             "start": 29,
@@ -73,6 +75,7 @@ const map = {
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
+                                                    "original": "age",
                                                     "text": "age",
                                                     "rawText": "age",
                                                     "flags": 96,
@@ -88,7 +91,8 @@ const map = {
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 17,
-                                                    "rawText": "17",
+                                                    "original": "17",
+                                                    "rawText": " 17",
                                                     "flags": 96,
                                                     "start": 23,
                                                     "end": 26

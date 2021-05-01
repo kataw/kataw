@@ -31,8 +31,9 @@ new await
                 },
                 "expression": {
                     "kind": 134299649,
+                    "original": "await",
                     "text": "await",
-                    "rawText": "await",
+                    "rawText": " await",
                     "flags": 96,
                     "start": 3,
                     "end": 9

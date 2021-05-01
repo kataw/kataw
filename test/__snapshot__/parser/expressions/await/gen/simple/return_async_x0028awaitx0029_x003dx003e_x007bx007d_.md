@@ -39,6 +39,7 @@ return async (await) => {};
                 "parameters": [
                     {
                         "kind": 134299649,
+                        "original": "await",
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,

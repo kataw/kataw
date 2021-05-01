@@ -31,8 +31,9 @@ let f = async
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "f",
                             "text": "f",
-                            "rawText": "f",
+                            "rawText": " f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -53,6 +54,7 @@ let f = async
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
+                                        "original": "g",
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
@@ -67,8 +69,9 @@ let f = async
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "await",
                                         "text": "await",
-                                        "rawText": "await",
+                                        "rawText": " await",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 25
@@ -79,8 +82,9 @@ let f = async
                                 },
                                 {
                                     "kind": 134299649,
+                                    "original": "foo",
                                     "text": "foo",
-                                    "rawText": "foo",
+                                    "rawText": " foo",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 29
@@ -95,8 +99,9 @@ let f = async
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
+                                "original": "g",
                                 "text": "g",
-                                "rawText": "g",
+                                "rawText": " g",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 35

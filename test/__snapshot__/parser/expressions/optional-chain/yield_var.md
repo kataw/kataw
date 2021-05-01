@@ -31,6 +31,7 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -53,8 +54,9 @@
                             },
                             "member": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 4,
                                 "end": 6
@@ -69,6 +71,7 @@
                                         "elements": [
                                             {
                                                 "kind": 134299649,
+                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
@@ -102,8 +105,9 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
+                    "original": "y",
                     "text": "y",
-                    "rawText": "y",
+                    "rawText": " y",
                     "flags": 96,
                     "start": 19,
                     "end": 21

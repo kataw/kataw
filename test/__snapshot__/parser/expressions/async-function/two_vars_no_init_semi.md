@@ -26,6 +26,7 @@
                         "elements": [
                             {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
@@ -34,8 +35,9 @@
                             },
                             {
                                 "kind": 134299649,
+                                "original": "bar",
                                 "text": "bar",
-                                "rawText": "bar",
+                                "rawText": " bar",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 9
@@ -58,8 +60,9 @@
                 },
                 "right": {
                     "kind": 134299649,
+                    "original": "arr",
                     "text": "arr",
-                    "rawText": "arr",
+                    "rawText": " arr",
                     "flags": 96,
                     "start": 12,
                     "end": 16

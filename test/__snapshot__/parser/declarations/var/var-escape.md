@@ -31,8 +31,9 @@ var _\u{104A6} = 10;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "_\\u{104A6}",
                             "text": "_A¦",
-                            "rawText": "_\\u{104A6}",
+                            "rawText": " _\\u{104A6}",
                             "flags": 96,
                             "start": 3,
                             "end": 14
@@ -42,7 +43,8 @@ var _\u{104A6} = 10;
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "rawText": "10",
+                            "original": "10",
+                            "rawText": " 10",
                             "flags": 96,
                             "start": 16,
                             "end": 19

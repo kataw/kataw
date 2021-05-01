@@ -44,8 +44,9 @@ class C {
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -204,8 +205,9 @@ class C {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "isC",
                                 "text": "isC",
-                                "rawText": "isC",
+                                "rawText": " isC",
                                 "flags": 96,
                                 "start": 65,
                                 "end": 69
@@ -219,6 +221,7 @@ class C {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "obj",
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 96,
@@ -274,8 +277,9 @@ class C {
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
+                                                            "original": "obj",
                                                             "text": "obj",
-                                                            "rawText": "obj",
+                                                            "rawText": " obj",
                                                             "flags": 96,
                                                             "start": 97,
                                                             "end": 101
@@ -307,8 +311,9 @@ class C {
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
+                                                            "original": "obj",
                                                             "text": "obj",
-                                                            "rawText": "obj",
+                                                            "rawText": " obj",
                                                             "flags": 96,
                                                             "start": 115,
                                                             "end": 119
@@ -344,8 +349,9 @@ class C {
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
+                                                        "original": "obj",
                                                         "text": "obj",
-                                                        "rawText": "obj",
+                                                        "rawText": " obj",
                                                         "flags": 96,
                                                         "start": 133,
                                                         "end": 137

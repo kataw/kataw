@@ -34,8 +34,9 @@ fn = function() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "xFn",
                             "text": "xFn",
-                            "rawText": "xFn",
+                            "rawText": " xFn",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -51,8 +52,9 @@ fn = function() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "fn",
                             "text": "fn",
-                            "rawText": "fn",
+                            "rawText": " fn",
                             "flags": 96,
                             "start": 8,
                             "end": 11
@@ -79,8 +81,9 @@ fn = function() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "xFn",
                     "text": "xFn",
-                    "rawText": "xFn",
+                    "rawText": "\n\nxFn",
                     "flags": 96,
                     "start": 12,
                     "end": 17
@@ -103,8 +106,9 @@ fn = function() {};
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 28,
                         "end": 30
@@ -151,8 +155,9 @@ fn = function() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "fn",
                     "text": "fn",
-                    "rawText": "fn",
+                    "rawText": "\nfn",
                     "flags": 96,
                     "start": 36,
                     "end": 39

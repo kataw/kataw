@@ -40,6 +40,7 @@ import { null as nil } from "bar"
                 "from": {
                     "kind": 201392131,
                     "text": "bar",
+                    "original": "\"bar\"",
                     "rawText": " \"bar\"",
                     "flags": 96,
                     "start": 27,
@@ -65,8 +66,9 @@ import { null as nil } from "bar"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "null",
                                     "text": "null",
-                                    "rawText": "null",
+                                    "rawText": " null",
                                     "flags": 64,
                                     "start": 8,
                                     "end": 13
@@ -81,8 +83,9 @@ import { null as nil } from "bar"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "as",
                                     "text": "as",
-                                    "rawText": "as",
+                                    "rawText": " as",
                                     "flags": 64,
                                     "start": 13,
                                     "end": 16
@@ -97,8 +100,9 @@ import { null as nil } from "bar"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "nil",
                                     "text": "nil",
-                                    "rawText": "nil",
+                                    "rawText": " nil",
                                     "flags": 64,
                                     "start": 16,
                                     "end": 20

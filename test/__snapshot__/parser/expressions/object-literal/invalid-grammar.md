@@ -35,6 +35,7 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
                     "rawText": "q",
                     "flags": 96,
@@ -72,6 +73,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -80,8 +82,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 13,
                                                                 "end": 15
@@ -107,8 +110,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 5,
                                         "end": 7
@@ -160,8 +164,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 25
@@ -198,8 +203,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 32,
                     "end": 34
@@ -235,6 +241,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -243,8 +250,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 46,
                                                                 "end": 48
@@ -270,8 +278,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 38,
                                         "end": 40
@@ -328,8 +337,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 58,
                     "end": 60
@@ -365,6 +375,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -373,8 +384,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 72,
                                                                 "end": 74
@@ -400,8 +412,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 64,
                                         "end": 66
@@ -470,6 +483,7 @@ q = {"foo": super = x} = x;
                                                             "kind": 125,
                                                             "left": {
                                                                 "kind": 134299649,
+                                                                "original": "q",
                                                                 "text": "q",
                                                                 "rawText": "q",
                                                                 "flags": 96,
@@ -484,8 +498,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             "right": {
                                                                 "kind": 134299649,
+                                                                "original": "b",
                                                                 "text": "b",
-                                                                "rawText": "b",
+                                                                "rawText": " b",
                                                                 "flags": 96,
                                                                 "start": 95,
                                                                 "end": 97
@@ -515,7 +530,8 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392130,
                                         "text": 1,
-                                        "rawText": "1",
+                                        "original": "1",
+                                        "rawText": " 1",
                                         "flags": 96,
                                         "start": 82,
                                         "end": 84
@@ -552,8 +568,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 102,
                     "end": 104
@@ -589,6 +606,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -597,8 +615,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 116,
                                                                 "end": 118
@@ -624,8 +643,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 108,
                                         "end": 110
@@ -652,8 +672,9 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "undefined",
                         "text": "undefined",
-                        "rawText": "undefined",
+                        "rawText": " undefined",
                         "flags": 96,
                         "start": 124,
                         "end": 134
@@ -676,8 +697,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 135,
                     "end": 137
@@ -713,6 +735,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -721,8 +744,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 149,
                                                                 "end": 151
@@ -748,8 +772,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 141,
                                         "end": 143
@@ -799,8 +824,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 163,
                     "end": 165
@@ -836,6 +862,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -844,8 +871,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 177,
                                                                 "end": 179
@@ -871,8 +899,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 169,
                                         "end": 171
@@ -900,7 +929,8 @@ q = {"foo": super = x} = x;
                     "right": {
                         "kind": 201392130,
                         "text": 51,
-                        "rawText": "51",
+                        "original": "51",
+                        "rawText": " 51",
                         "flags": 96,
                         "start": 185,
                         "end": 188
@@ -923,8 +953,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 189,
                     "end": 191
@@ -960,6 +991,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -968,8 +1000,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 203,
                                                                 "end": 205
@@ -995,8 +1028,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 195,
                                         "end": 197
@@ -1046,8 +1080,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 218,
                     "end": 220
@@ -1083,6 +1118,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -1091,8 +1127,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 232,
                                                                 "end": 234
@@ -1118,8 +1155,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 224,
                                         "end": 226
@@ -1146,8 +1184,9 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 240,
                         "end": 242
@@ -1170,8 +1209,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 243,
                     "end": 245
@@ -1207,6 +1247,7 @@ q = {"foo": super = x} = x;
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -1215,8 +1256,9 @@ q = {"foo": super = x} = x;
                                                             },
                                                             {
                                                                 "kind": 134299649,
+                                                                "original": "y",
                                                                 "text": "y",
-                                                                "rawText": "y",
+                                                                "rawText": " y",
                                                                 "flags": 96,
                                                                 "start": 257,
                                                                 "end": 259
@@ -1242,8 +1284,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 249,
                                         "end": 251
@@ -1288,8 +1331,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "x",
                                         "text": "x",
-                                        "rawText": "x",
+                                        "rawText": " x",
                                         "flags": 96,
                                         "start": 267,
                                         "end": 269
@@ -1326,8 +1370,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 278,
                     "end": 280
@@ -1373,8 +1418,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 295,
                                         "end": 297
@@ -1387,6 +1433,7 @@ q = {"foo": super = x} = x;
                                     "kind": 194,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -1425,8 +1472,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 300,
                     "end": 302
@@ -1472,8 +1520,9 @@ q = {"foo": super = x} = x;
                                     },
                                     "right": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
-                                        "rawText": "a",
+                                        "rawText": " a",
                                         "flags": 96,
                                         "start": 315,
                                         "end": 317
@@ -1484,8 +1533,9 @@ q = {"foo": super = x} = x;
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 306,
                                     "end": 308
@@ -1518,8 +1568,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 320,
                     "end": 322
@@ -1569,8 +1620,9 @@ q = {"foo": super = x} = x;
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "a",
                                     "text": "a",
-                                    "rawText": "a",
+                                    "rawText": " a",
                                     "flags": 96,
                                     "start": 326,
                                     "end": 328
@@ -1581,6 +1633,7 @@ q = {"foo": super = x} = x;
                             },
                             {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -1611,8 +1664,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 339,
                     "end": 341
@@ -1640,8 +1694,9 @@ q = {"foo": super = x} = x;
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
+                                            "original": "falqe",
                                             "text": "falqe",
-                                            "rawText": "falqe",
+                                            "rawText": " falqe",
                                             "flags": 96,
                                             "start": 351,
                                             "end": 357
@@ -1654,8 +1709,9 @@ q = {"foo": super = x} = x;
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "q",
                                             "text": "q",
-                                            "rawText": "q",
+                                            "rawText": " q",
                                             "flags": 96,
                                             "start": 359,
                                             "end": 361
@@ -1667,6 +1723,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
+                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 345,
@@ -1694,8 +1751,9 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 364,
                         "end": 366
@@ -1718,8 +1776,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 367,
                     "end": 369
@@ -1760,8 +1819,9 @@ q = {"foo": super = x} = x;
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 386,
                                             "end": 388
@@ -1773,6 +1833,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
+                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 373,
@@ -1800,8 +1861,9 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 391,
                         "end": 393
@@ -1824,8 +1886,9 @@ q = {"foo": super = x} = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "q",
                     "text": "q",
-                    "rawText": "q",
+                    "rawText": "\nq",
                     "flags": 96,
                     "start": 394,
                     "end": 396
@@ -1884,8 +1947,9 @@ q = {"foo": super = x} = x;
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
-                                            "rawText": "x",
+                                            "rawText": " x",
                                             "flags": 96,
                                             "start": 414,
                                             "end": 416
@@ -1897,6 +1961,7 @@ q = {"foo": super = x} = x;
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
+                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 400,
@@ -1924,8 +1989,9 @@ q = {"foo": super = x} = x;
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "x",
                         "text": "x",
-                        "rawText": "x",
+                        "rawText": " x",
                         "flags": 96,
                         "start": 419,
                         "end": 421

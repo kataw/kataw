@@ -24,6 +24,7 @@
                     "expressions": [
                         {
                             "kind": 134299649,
+                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -34,8 +35,9 @@
                             "kind": 197,
                             "shortCircuit": {
                                 "kind": 134299649,
+                                "original": "a",
                                 "text": "a",
-                                "rawText": "a",
+                                "rawText": " a",
                                 "flags": 96,
                                 "start": 3,
                                 "end": 5
@@ -61,6 +63,7 @@
                             },
                             "alternate": {
                                 "kind": 134299649,
+                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,

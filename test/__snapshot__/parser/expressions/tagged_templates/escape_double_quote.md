@@ -21,6 +21,7 @@ tag`some \" quote`;
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
+                    "original": "tag",
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 96,

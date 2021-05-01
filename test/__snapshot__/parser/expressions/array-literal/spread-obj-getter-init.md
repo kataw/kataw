@@ -37,8 +37,9 @@ var callCount = 0;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "o",
                             "text": "o",
-                            "rawText": "o",
+                            "rawText": " o",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -59,13 +60,15 @@ var callCount = 0;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,
-                                            "rawText": "2",
+                                            "original": "2",
+                                            "rawText": " 2",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 13
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -85,15 +88,17 @@ var callCount = 0;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 3,
-                                            "rawText": "3",
+                                            "original": "3",
+                                            "rawText": " 3",
                                             "flags": 96,
                                             "start": 17,
                                             "end": 19
                                         },
                                         "right": {
                                             "kind": 134299649,
+                                            "original": "b",
                                             "text": "b",
-                                            "rawText": "b",
+                                            "rawText": " b",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16
@@ -140,8 +145,9 @@ var callCount = 0;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
+                            "original": "executedGetter",
                             "text": "executedGetter",
-                            "rawText": "executedGetter",
+                            "rawText": " executedGetter",
                             "flags": 96,
                             "start": 25,
                             "end": 40
@@ -184,8 +190,9 @@ var callCount = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "callCount",
                             "text": "callCount",
-                            "rawText": "callCount",
+                            "rawText": " callCount",
                             "flags": 96,
                             "start": 55,
                             "end": 65
@@ -195,7 +202,8 @@ var callCount = 0;
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "rawText": "0",
+                            "original": "0",
+                            "rawText": " 0",
                             "flags": 96,
                             "start": 67,
                             "end": 69
@@ -240,6 +248,7 @@ var callCount = 0;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "obj",
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 96,
@@ -281,6 +290,7 @@ var callCount = 0;
                         },
                         "expression": {
                             "kind": 134299649,
+                            "original": "apply",
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,
@@ -321,6 +331,7 @@ var callCount = 0;
                                                         },
                                                         "argument": {
                                                             "kind": 134299649,
+                                                            "original": "o",
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 96,
@@ -335,8 +346,9 @@ var callCount = 0;
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
+                                                            "original": "c",
                                                             "text": "c",
-                                                            "rawText": "c",
+                                                            "rawText": " c",
                                                             "flags": 96,
                                                             "start": 114,
                                                             "end": 116

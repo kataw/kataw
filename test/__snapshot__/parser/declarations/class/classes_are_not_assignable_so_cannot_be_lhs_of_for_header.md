@@ -48,8 +48,9 @@ for (class x { [a](){} } in c);
                 },
                 "name": {
                     "kind": 134299649,
+                    "original": "x",
                     "text": "x",
-                    "rawText": "x",
+                    "rawText": " x",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -74,6 +75,7 @@ for (class x { [a](){} } in c);
                                     "kind": 194,
                                     "expression": {
                                         "kind": 134299649,
+                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -127,8 +129,9 @@ for (class x { [a](){} } in c);
             },
             "expression": {
                 "kind": 134299649,
+                "original": "c",
                 "text": "c",
-                "rawText": "c",
+                "rawText": " c",
                 "flags": 96,
                 "start": 27,
                 "end": 29

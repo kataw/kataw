@@ -20,6 +20,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use\\u0020strict\"",
                 "rawText": "\"use\\u0020strict\"",
                 "flags": 16480,
                 "start": 0,

@@ -26,6 +26,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "пϿ",
+                "original": "\"\\u{10ffff}\"",
                 "rawText": "\"\\u{10ffff}\"",
                 "flags": 8288,
                 "start": 0,

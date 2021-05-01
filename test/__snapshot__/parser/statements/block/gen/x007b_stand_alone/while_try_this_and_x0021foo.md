@@ -87,8 +87,9 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
+                            "original": "and",
                             "text": "and",
-                            "rawText": "and",
+                            "rawText": " and",
                             "flags": 96,
                             "start": 16,
                             "end": 20
@@ -109,6 +110,7 @@
                             },
                             "expression": {
                                 "kind": 134299649,
+                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,

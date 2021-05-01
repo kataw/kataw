@@ -40,6 +40,7 @@ import {bar, baz,} from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
+                    "original": "\"foo\"",
                     "rawText": " \"foo\"",
                     "flags": 96,
                     "start": 23,
@@ -65,6 +66,7 @@ import {bar, baz,} from "foo";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 64,
@@ -81,8 +83,9 @@ import {bar, baz,} from "foo";
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
+                                    "original": "baz",
                                     "text": "baz",
-                                    "rawText": "baz",
+                                    "rawText": " baz",
                                     "flags": 64,
                                     "start": 12,
                                     "end": 16

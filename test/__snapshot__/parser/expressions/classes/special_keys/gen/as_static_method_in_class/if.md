@@ -31,8 +31,9 @@ class x {static if(){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,8 +61,9 @@ class x {static if(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "if",
                                 "text": "if",
-                                "rawText": "if",
+                                "rawText": " if",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 18

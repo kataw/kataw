@@ -31,8 +31,9 @@ class C { *method() { class C { method() { super(); } } } }
             },
             "name": {
                 "kind": 134299649,
+                "original": "C",
                 "text": "C",
-                "rawText": "C",
+                "rawText": " C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -60,6 +61,7 @@ class C { *method() { class C { method() { super(); } } } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "method",
                                 "text": "method",
                                 "rawText": "method",
                                 "flags": 96,
@@ -94,8 +96,9 @@ class C { *method() { class C { method() { super(); } } } }
                                             },
                                             "name": {
                                                 "kind": 134299649,
+                                                "original": "C",
                                                 "text": "C",
-                                                "rawText": "C",
+                                                "rawText": " C",
                                                 "flags": 96,
                                                 "start": 27,
                                                 "end": 29
@@ -118,8 +121,9 @@ class C { *method() { class C { method() { super(); } } } }
                                                             "kind": 209,
                                                             "name": {
                                                                 "kind": 134299649,
+                                                                "original": "method",
                                                                 "text": "method",
-                                                                "rawText": "method",
+                                                                "rawText": " method",
                                                                 "flags": 96,
                                                                 "start": 31,
                                                                 "end": 38

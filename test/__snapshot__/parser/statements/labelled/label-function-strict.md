@@ -21,6 +21,7 @@ foo: function() {}
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
+                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -34,8 +35,9 @@ foo: function() {}
             "kind": 163,
             "label": {
                 "kind": 134299649,
+                "original": "foo",
                 "text": "foo",
-                "rawText": "foo",
+                "rawText": "\nfoo",
                 "flags": 96,
                 "start": 13,
                 "end": 17

@@ -39,8 +39,9 @@ var a: {param1?: number; param2: string; param3: string;}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
+                            "original": "a",
                             "text": "a",
-                            "rawText": "a",
+                            "rawText": " a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -55,6 +56,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "param1",
                                             "text": "param1",
                                             "rawText": "param1",
                                             "flags": 96,
@@ -82,8 +84,9 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "param2",
                                             "text": "param2",
-                                            "rawText": "param2",
+                                            "rawText": " param2",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 31
@@ -104,8 +107,9 @@ var a: {param1?: number; param2: string; param3: string;}
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
+                                            "original": "param3",
                                             "text": "param3",
-                                            "rawText": "param3",
+                                            "rawText": " param3",
                                             "flags": 96,
                                             "start": 40,
                                             "end": 47

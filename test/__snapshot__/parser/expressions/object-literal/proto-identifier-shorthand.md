@@ -39,8 +39,9 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
+                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": "__proto__",
+                                    "rawText": " __proto__",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 12
@@ -51,8 +52,9 @@
                             },
                             {
                                 "kind": 134299649,
+                                "original": "__proto__",
                                 "text": "__proto__",
-                                "rawText": "__proto__",
+                                "rawText": " __proto__",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 29

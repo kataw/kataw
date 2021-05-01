@@ -25,6 +25,7 @@ a + b instanceof c
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -41,8 +42,9 @@ a + b instanceof c
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
+                        "original": "b",
                         "text": "b",
-                        "rawText": "b",
+                        "rawText": " b",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -55,8 +57,9 @@ a + b instanceof c
                     },
                     "right": {
                         "kind": 134299649,
+                        "original": "c",
                         "text": "c",
-                        "rawText": "c",
+                        "rawText": " c",
                         "flags": 96,
                         "start": 16,
                         "end": 18

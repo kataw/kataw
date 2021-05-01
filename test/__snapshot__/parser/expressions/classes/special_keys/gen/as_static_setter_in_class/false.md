@@ -31,8 +31,9 @@ class x {static set false(x){}}
             },
             "name": {
                 "kind": 134299649,
+                "original": "x",
                 "text": "x",
-                "rawText": "x",
+                "rawText": " x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -65,8 +66,9 @@ class x {static set false(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
+                                "original": "false",
                                 "text": "false",
-                                "rawText": "false",
+                                "rawText": " false",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 25
@@ -80,6 +82,7 @@ class x {static set false(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
+                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

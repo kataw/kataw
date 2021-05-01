@@ -38,6 +38,7 @@ let ...a = 1;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
+                "original": "let",
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
@@ -54,6 +55,7 @@ let ...a = 1;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
+                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -69,7 +71,8 @@ let ...a = 1;
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "rawText": "1",
+                    "original": "1",
+                    "rawText": " 1",
                     "flags": 96,
                     "start": 10,
                     "end": 12
