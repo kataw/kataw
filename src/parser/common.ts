@@ -82,6 +82,7 @@ export interface ParserState {
   assignable: boolean;
   tokenValue: any;
   tokenRaw: string;
+  labels: any[];
 }
 
 export function consumeOpt<T extends TokenSyntaxKind>(parser: ParserState, context: Context, token: T): boolean {

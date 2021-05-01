@@ -327,6 +327,24 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "flags": 32,
                                 "start": 86,
                                 "end": 88
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 183,
+                                "end": 185
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 214,
+                                "end": 216
                             }
                         ],
                         "colonToken": {
@@ -656,8 +674,26 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "loop": false,
                                 "isDuplicate": false,
                                 "flags": 32,
+                                "start": 86,
+                                "end": 88
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
                                 "start": 183,
                                 "end": 185
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 214,
+                                "end": 216
                             }
                         ],
                         "colonToken": {
@@ -811,6 +847,24 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "loop": false,
                                 "isDuplicate": false,
                                 "flags": 32,
+                                "start": 86,
+                                "end": 88
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 183,
+                                "end": 185
+                            },
+                            {
+                                "kind": 256,
+                                "label": "x",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
                                 "start": 214,
                                 "end": 216
                             }
@@ -886,11 +940,14 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ ',' expected - start: 177, end: 179
 ✖ Statement expected - start: 177, end: 179
 ✖ Statement expected - start: 179, end: 181
+✖ Duplicate label - start: 183, end: 186
 ✖ Statement expected - start: 190, end: 191
 ✖ ',' expected - start: 208, end: 210
 ✖ ',' expected - start: 208, end: 210
 ✖ Statement expected - start: 208, end: 210
 ✖ Statement expected - start: 210, end: 212
+✖ Duplicate label - start: 214, end: 217
+✖ Duplicate label - start: 214, end: 217
 ✖ Statement expected - start: 221, end: 222
 
 ```

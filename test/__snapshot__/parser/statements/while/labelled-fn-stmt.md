@@ -49,6 +49,15 @@ while (false) label1: label2: function f() {}
                         "flags": 32,
                         "start": 13,
                         "end": 20
+                    },
+                    {
+                        "kind": 256,
+                        "label": "label2",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 21,
+                        "end": 28
                     }
                 ],
                 "colonToken": {
@@ -68,6 +77,15 @@ while (false) label1: label2: function f() {}
                         "end": 28
                     },
                     "labels": [
+                        {
+                            "kind": 256,
+                            "label": "label1",
+                            "loop": false,
+                            "isDuplicate": false,
+                            "flags": 32,
+                            "start": 13,
+                            "end": 20
+                        },
                         {
                             "kind": 256,
                             "label": "label2",

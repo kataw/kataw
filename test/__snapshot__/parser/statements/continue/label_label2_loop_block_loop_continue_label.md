@@ -34,6 +34,15 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     "flags": 32,
                     "start": 0,
                     "end": 3
+                },
+                {
+                    "kind": 256,
+                    "label": "bar",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 4,
+                    "end": 8
                 }
             ],
             "colonToken": {
@@ -53,6 +62,15 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     "end": 8
                 },
                 "labels": [
+                    {
+                        "kind": 256,
+                        "label": "foo",
+                        "loop": false,
+                        "isDuplicate": false,
+                        "flags": 32,
+                        "start": 0,
+                        "end": 3
+                    },
                     {
                         "kind": 256,
                         "label": "bar",

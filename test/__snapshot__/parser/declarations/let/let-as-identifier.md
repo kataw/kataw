@@ -701,6 +701,33 @@ L: let
                                             "flags": 32,
                                             "start": 214,
                                             "end": 218
+                                        },
+                                        {
+                                            "kind": 256,
+                                            "label": "let",
+                                            "loop": false,
+                                            "isDuplicate": true,
+                                            "flags": 32,
+                                            "start": 247,
+                                            "end": 251
+                                        },
+                                        {
+                                            "kind": 256,
+                                            "label": "L",
+                                            "loop": false,
+                                            "isDuplicate": false,
+                                            "flags": 32,
+                                            "start": 320,
+                                            "end": 323
+                                        },
+                                        {
+                                            "kind": 256,
+                                            "label": "L",
+                                            "loop": false,
+                                            "isDuplicate": true,
+                                            "flags": 32,
+                                            "start": 330,
+                                            "end": 333
                                         }
                                     ],
                                     "colonToken": {
@@ -819,8 +846,35 @@ L: let
                                     "loop": false,
                                     "isDuplicate": false,
                                     "flags": 32,
+                                    "start": 214,
+                                    "end": 218
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "let",
+                                    "loop": false,
+                                    "isDuplicate": true,
+                                    "flags": 32,
                                     "start": 247,
                                     "end": 251
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "L",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 320,
+                                    "end": 323
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "L",
+                                    "loop": false,
+                                    "isDuplicate": true,
+                                    "flags": 32,
+                                    "start": 330,
+                                    "end": 333
                                 }
                             ],
                             "colonToken": {
@@ -1114,12 +1168,39 @@ L: let
             "labels": [
                 {
                     "kind": 256,
+                    "label": "let",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 214,
+                    "end": 218
+                },
+                {
+                    "kind": 256,
+                    "label": "let",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
+                    "start": 247,
+                    "end": 251
+                },
+                {
+                    "kind": 256,
                     "label": "L",
                     "loop": false,
                     "isDuplicate": false,
                     "flags": 32,
                     "start": 320,
                     "end": 323
+                },
+                {
+                    "kind": 256,
+                    "label": "L",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
+                    "start": 330,
+                    "end": 333
                 }
             ],
             "colonToken": {
@@ -1173,9 +1254,36 @@ L: let
             "labels": [
                 {
                     "kind": 256,
+                    "label": "let",
+                    "loop": false,
+                    "isDuplicate": false,
+                    "flags": 32,
+                    "start": 214,
+                    "end": 218
+                },
+                {
+                    "kind": 256,
+                    "label": "let",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
+                    "start": 247,
+                    "end": 251
+                },
+                {
+                    "kind": 256,
                     "label": "L",
                     "loop": false,
                     "isDuplicate": false,
+                    "flags": 32,
+                    "start": 320,
+                    "end": 323
+                },
+                {
+                    "kind": 256,
+                    "label": "L",
+                    "loop": false,
+                    "isDuplicate": true,
                     "flags": 32,
                     "start": 330,
                     "end": 333
@@ -1252,6 +1360,8 @@ L: let
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate label - start: 247, end: 252
+✖ Duplicate label - start: 330, end: 334
+
 ```
 

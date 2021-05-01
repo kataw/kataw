@@ -34,6 +34,15 @@ a: { a: x }
                     "flags": 32,
                     "start": 0,
                     "end": 1
+                },
+                {
+                    "kind": 256,
+                    "label": "a",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
+                    "start": 4,
+                    "end": 6
                 }
             ],
             "colonToken": {
@@ -63,6 +72,15 @@ a: { a: x }
                                     "label": "a",
                                     "loop": false,
                                     "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 0,
+                                    "end": 1
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "a",
+                                    "loop": false,
+                                    "isDuplicate": true,
                                     "flags": 32,
                                     "start": 4,
                                     "end": 6
@@ -124,6 +142,7 @@ a: { a: x }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Duplicate label - start: 4, end: 7
+
 ```
 

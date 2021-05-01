@@ -1470,6 +1470,14 @@ function * x() { "use strict";  yield: 34; }
                                     "flags": 32,
                                     "start": 718,
                                     "end": 725
+                                },
+                                {
+                                    "kind": 256,
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 806,
+                                    "end": 813
                                 }
                             ],
                             "colonToken": {
@@ -1677,6 +1685,15 @@ function * x() { "use strict";  yield: 34; }
                                 "end": 813
                             },
                             "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "yield",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 718,
+                                    "end": 725
+                                },
                                 {
                                     "kind": 256,
                                     "loop": false,

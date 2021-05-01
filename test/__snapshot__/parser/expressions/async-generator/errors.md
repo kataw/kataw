@@ -2908,6 +2908,42 @@ async function * gen() {class C extends await { }}
                                     "flags": 32,
                                     "start": 1397,
                                     "end": 1402
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "yield",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 1857,
+                                    "end": 1862
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "yield",
+                                    "loop": false,
+                                    "isDuplicate": true,
+                                    "flags": 32,
+                                    "start": 1916,
+                                    "end": 1921
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "a",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 2623,
+                                    "end": 2624
+                                },
+                                {
+                                    "kind": 256,
+                                    "label": "a",
+                                    "loop": false,
+                                    "isDuplicate": true,
+                                    "flags": 32,
+                                    "start": 2679,
+                                    "end": 2680
                                 }
                             ],
                             "colonToken": {
@@ -3581,12 +3617,47 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1397,
+                                "end": 1402
+                            },
+                            {
+                                "kind": 256,
                                 "label": "yield",
                                 "loop": false,
                                 "isDuplicate": false,
                                 "flags": 32,
                                 "start": 1857,
                                 "end": 1862
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 1916,
+                                "end": 1921
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 2623,
+                                "end": 2624
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 2679,
+                                "end": 2680
                             }
                         ],
                         "colonToken": {
@@ -3733,12 +3804,47 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1397,
+                                "end": 1402
+                            },
+                            {
+                                "kind": 256,
                                 "label": "yield",
                                 "loop": false,
                                 "isDuplicate": false,
                                 "flags": 32,
+                                "start": 1857,
+                                "end": 1862
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
                                 "start": 1916,
                                 "end": 1921
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 2623,
+                                "end": 2624
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 2679,
+                                "end": 2680
                             }
                         ],
                         "colonToken": {
@@ -5587,12 +5693,47 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1397,
+                                "end": 1402
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1857,
+                                "end": 1862
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 1916,
+                                "end": 1921
+                            },
+                            {
+                                "kind": 256,
                                 "label": "a",
                                 "loop": false,
                                 "isDuplicate": false,
                                 "flags": 32,
                                 "start": 2623,
                                 "end": 2624
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 2679,
+                                "end": 2680
                             }
                         ],
                         "colonToken": {
@@ -5800,9 +5941,44 @@ async function * gen() {class C extends await { }}
                         "labels": [
                             {
                                 "kind": 256,
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1397,
+                                "end": 1402
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 1857,
+                                "end": 1862
+                            },
+                            {
+                                "kind": 256,
+                                "label": "yield",
+                                "loop": false,
+                                "isDuplicate": true,
+                                "flags": 32,
+                                "start": 1916,
+                                "end": 1921
+                            },
+                            {
+                                "kind": 256,
                                 "label": "a",
                                 "loop": false,
                                 "isDuplicate": false,
+                                "flags": 32,
+                                "start": 2623,
+                                "end": 2624
+                            },
+                            {
+                                "kind": 256,
+                                "label": "a",
+                                "loop": false,
+                                "isDuplicate": true,
                                 "flags": 32,
                                 "start": 2679,
                                 "end": 2680
@@ -7829,6 +8005,7 @@ async function * gen() {class C extends await { }}
 ✖ Statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ Statement expected - start: 1898, end: 1913
+✖ Duplicate label - start: 1916, end: 1922
 ✖ Statement expected - start: 1926, end: 1927
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2076, end: 2081
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2121, end: 2126
@@ -7865,6 +8042,7 @@ async function * gen() {class C extends await { }}
 ✖ Missing initializer in destructuring declaration - start: 2671, end: 2674
 ✖ ',' expected - start: 2671, end: 2674
 ✖ Statement expected - start: 2675, end: 2677
+✖ Duplicate label - start: 2679, end: 2681
 ✖ Statement expected - start: 2686, end: 2687
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2766, end: 2768

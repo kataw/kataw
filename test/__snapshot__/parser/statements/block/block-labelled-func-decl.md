@@ -39,6 +39,15 @@
                                 "flags": 32,
                                 "start": 1,
                                 "end": 5
+                            },
+                            {
+                                "kind": 256,
+                                "label": "bar",
+                                "loop": false,
+                                "isDuplicate": false,
+                                "flags": 32,
+                                "start": 6,
+                                "end": 10
                             }
                         ],
                         "colonToken": {
@@ -58,6 +67,15 @@
                                 "end": 10
                             },
                             "labels": [
+                                {
+                                    "kind": 256,
+                                    "label": "foo",
+                                    "loop": false,
+                                    "isDuplicate": false,
+                                    "flags": 32,
+                                    "start": 1,
+                                    "end": 5
+                                },
                                 {
                                     "kind": 256,
                                     "label": "bar",

@@ -45,6 +45,15 @@
                     "flags": 32,
                     "start": 13,
                     "end": 17
+                },
+                {
+                    "kind": 256,
+                    "label": "bar",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
+                    "start": 50,
+                    "end": 54
                 }
             ],
             "colonToken": {
@@ -140,6 +149,15 @@
                     "loop": false,
                     "isDuplicate": false,
                     "flags": 32,
+                    "start": 13,
+                    "end": 17
+                },
+                {
+                    "kind": 256,
+                    "label": "bar",
+                    "loop": false,
+                    "isDuplicate": true,
+                    "flags": 32,
                     "start": 50,
                     "end": 54
                 }
@@ -221,6 +239,7 @@
 
 ```javascript
 ✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 18, end: 27
+✖ Duplicate label - start: 50, end: 55
 ✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 55, end: 64
 
 ```

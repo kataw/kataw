@@ -206,6 +206,7 @@ export function create(source: string, onError: OnError): ParserState {
     destructible: DestructibleKind.None,
     assignable: true,
     onError,
+    labels: [],
     tokenValue: undefined,
     tokenRaw: ''
   };
@@ -768,12 +769,11 @@ export function parseLabelledStatement(
       }
   }
 
-  let labels: Labels[] = [];
   let labeli = expr.text;
   let isDuplicate = false;
 
-  for (let i = 0; i < labels.length; i++) {
-    if (labels[i].label === labeli) {
+  for (let i = 0; i < parser.labels.length; i++) {
+    if (parser.labels[i].label === labeli) {
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode.Duplicate_label],
@@ -784,13 +784,13 @@ export function parseLabelledStatement(
     }
   }
 
-  labels.push(createLabels(labeli, /*loop*/ false, isDuplicate, pos, parser.curPos));
+  parser.labels.push(createLabels(labeli, /*loop*/ false, isDuplicate, pos, parser.curPos));
 
   const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon); // skip: ':'
 
   return createLabelledStatement(
     expr,
-    labels,
+    parser.labels,
     colonToken,
     !allowFunction ||
       // Per 13.13.1 it's a syntax error if LabelledItem: FunctionDeclaration
