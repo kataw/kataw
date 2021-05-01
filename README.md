@@ -14,7 +14,7 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 It's core is an CST parser that emits an ECMAScript friendly CST and allows you to
 parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
-The parser has build-in error recovery. It never throws an error unless a callback function has been provided as the parsers 3rd argument.
+The parser can be used already now, and it has build-in error recovery. It never throws an error unless a callback function has been provided as the parsers 3rd argument.
 
 Various public API methods exist to extract info from the CST nodes.
 
