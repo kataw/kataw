@@ -36,6 +36,15 @@ Various public API methods exist to extract info from the CST nodes.
 
 - Minify (_Like Terser_)
 
+## Performance 
+
+Performance is all about the memory and GC pressure, and it's commonly known that the ESTree and Babel AST is the real perf killer for parsers in Javascript.
+
+Kataw work around this with it's own AST that is optimized for performance.
+
+![kataw-perf](https://user-images.githubusercontent.com/31855118/116775569-3242ff80-aa96-11eb-86b2-238a10388c36.png)
+
+
 ## Current state
 
 Only the Kataw CST parser, walker, AST manipulation through global API is available as of now.
