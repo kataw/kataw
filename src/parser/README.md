@@ -94,7 +94,7 @@ Kataw skips whitespace by default. Instead this information is part of the rawTe
 For example the raw value of a string literal `foo` if the source code is like this:
 
 ```ts
-// line terminator here
+
 "foo"
 ```
 
@@ -105,7 +105,7 @@ If you need this *extra* information in a code generator, you can use the `rawTe
 Comments will be kept as well as part of the `rawText`.
 
 ```ts
-// line terminator here
+
 /*  hello string */ "string"
 ```
 
