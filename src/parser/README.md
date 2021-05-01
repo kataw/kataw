@@ -138,17 +138,16 @@ It will skip all whitespace in the range from `3` to the start value of the next
 
 If there are line breaks in between it will stil find the comments within the same range.
 
+**Note** Sometimes can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use a *list*. 
+
+*Lists* are specied in the ECMA specs.
+
+For example if you have an empty list like `()` - you are given the start and end values of the empty list and can extract the
+comments in the same way as with keyword and token CST nodes.
 
 ## Location tracking
 
 Each CST node has a `start` and `end` property for where the AST node start and end.
-
-Note that you sometimes can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use "list". 
-
-'Lists' are specied in the ECMA specs.
-
-For exaample if you have an empty list like `()` - you are given the start and end values of the empty list and can extract the
-comments in the same way as with keyword and token CST nodes.
 
 ## Types
 
