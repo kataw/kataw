@@ -340,7 +340,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
       }
       parser.pos = pos;
       parser.tokenValue = val;
-      parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+      parser.tokenRaw = source.slice(parser.curPos, parser.pos);
       return SyntaxKind.NumericLiteral;
     }
     // Scan a implicit octal, or "noctal" (a number starting with '0' that contains '8' or '9' and is
@@ -376,7 +376,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
       if (type === NumberKind.ImplicitOctal) {
         parser.pos = pos;
         parser.tokenValue = val;
-        parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+        parser.tokenRaw = source.slice(parser.curPos, parser.pos);
         return SyntaxKind.NumericLiteral;
       }
     }
@@ -400,7 +400,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
     type !== NumberKind.DecimalWithLeadingZero
   ) {
     parser.tokenValue = ret;
-    parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+    parser.tokenRaw = source.slice(parser.curPos, parser.pos);
     return SyntaxKind.NumericLiteral;
   }
 
@@ -464,7 +464,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
   if ((AsciiCharTypes[cp] & 0b00000000000000000000000000000011) > 0) {
     parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
   }
-  parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
   parser.tokenValue = parseFloat(value);
   return SyntaxKind.NumericLiteral;
 }
@@ -508,7 +508,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
     );
   }
   parser.pos = pos;
-  parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
   return ret + source.substring(start, pos);
 }
 
@@ -560,7 +560,7 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
   }
 
   parser.nodeFlags |= flag;
-  parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
   parser.tokenValue = parseFloat(ret);
   return SyntaxKind.NumericLiteral;
 }

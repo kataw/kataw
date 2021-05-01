@@ -2492,6 +2492,7 @@ function parseRegularExpression(parser: ParserState, context: Context): RegularE
 
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
   const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
+
   nextToken(parser, context);
   parser.assignable = false;
   return createNumericLiteral(

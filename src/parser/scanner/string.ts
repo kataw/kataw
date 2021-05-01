@@ -179,7 +179,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
       if (ch === quote) {
         result += source.substring(start, parser.pos);
         parser.pos++;
-        parser.tokenRaw =  source.substring(parser.curPos, parser.pos);
+        parser.tokenRaw = source.substring(parser.curPos, parser.pos);
         parser.tokenValue = result;
         return SyntaxKind.StringLiteral;
       }

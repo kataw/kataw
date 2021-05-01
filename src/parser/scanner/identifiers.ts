@@ -94,7 +94,7 @@ export function scanIdentifierOrKeyword(parser: ParserState, cp: number, source:
     parser.tokenValue += scanIdentifierParts(parser, source);
   }
 
-  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
 
   const keyword = descKeywordTable[parser.tokenValue];
   if (keyword != undefined) return keyword;
@@ -112,7 +112,7 @@ export function scanIdentifier(parser: ParserState, cp: number, source: string):
   if (cp === Char.Backslash || cp > 128) {
     parser.tokenValue += scanIdentifierParts(parser, source);
   }
-  parser.tokenRaw = source.substring(parser.tokenPos, parser.pos);
+  parser.tokenRaw = source.slice(parser.curPos, parser.pos);
   return SyntaxKind.Identifier;
 }
 
