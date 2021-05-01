@@ -150,7 +150,8 @@ export const enum DiagnosticCode {
   Duplicate_label = 148,
   Missing_label = 149,
   Lexical_declaration_expected = 151,
-  An_async_arrow_without_the_default_modifier_can_not_be_exported = 152
+  An_async_arrow_without_the_default_modifier_can_not_be_exported = 152,
+  Async_arrow_can_not_be_followed_by_new_expression = 153
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -302,5 +303,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [148]: 'Duplicate label',
   [149]: 'Missing label',
   [151]: 'Lexical declaration expected',
-  [152]: "An async arrow without the 'default' modifier can not be exported"
+  [152]: "An async arrow without the 'default' modifier can not be exported",
+  [153]: 'Async arrow can not be followed by new expression'
 };

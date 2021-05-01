@@ -1849,7 +1849,7 @@ function parsePrimaryExpression(
 ): any {
   if (parser.token & SyntaxKind.IsIdentifier) {
     if (parser.token === SyntaxKind.AsyncKeyword) {
-      return parseFunctionExpression(parser, context, secondContext);
+      return parseFunctionExpression(parser, context, inNewExpression, secondContext);
     }
     if (parser.token === SyntaxKind.ThisKeyword) {
       return parseThisExpression(parser, context);
@@ -1864,6 +1864,10 @@ function parsePrimaryExpression(
 
     if (parser.token === SyntaxKind.Arrow) {
       if (secondContext) {
+        parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Expected_a], parser.curPos, parser.pos);
+      }
+
+      if (inNewExpression) {
         parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Expected_a], parser.curPos, parser.pos);
       }
 
@@ -1903,7 +1907,7 @@ function parsePrimaryExpression(
     case SyntaxKind.YieldKeyword:
       return parseYieldIdentifierOrExpression(parser, context, secondContext);
     case SyntaxKind.FunctionKeyword:
-      return parseFunctionExpression(parser, context, secondContext);
+      return parseFunctionExpression(parser, context, inNewExpression, secondContext);
     case SyntaxKind.Decorator:
     case SyntaxKind.ClassKeyword:
       return parseClassExpression(parser, context);
@@ -3719,6 +3723,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 function parseFunctionExpression(
   parser: ParserState,
   context: Context,
+  inNewExpression: boolean,
   secondContext: LeftHandSide
 ): FunctionExpression {
   const pos = parser.curPos;
@@ -3762,27 +3767,25 @@ function parseFunctionExpression(
 
       let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
 
-      if (parser.token === SyntaxKind.LeftParen) {
+      if (!inNewExpression && parser.token === SyntaxKind.LeftParen) {
         expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, false, pos);
       }
 
       if (parser.token === SyntaxKind.Arrow) {
-        expression = createFormalParameter(
-          /* ellipsisToken */ null,
-          /* binding */ expression as any,
-          /* optionalToken */ null,
-          /* type */ null,
-          /* initializer */ null,
-          NodeFlags.ExpressionNode,
-          pos,
-          parser.curPos
-        );
+        if (inNewExpression) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Async_arrow_can_not_be_followed_by_new_expression],
+            parser.curPos,
+            parser.pos
+          );
+        }
         return parseArrowFunction(
           parser,
           context,
           /* typeParameters */ null,
           /* returnType */ null,
-          /* params */ [expression],
+          /* params */ expression,
           /* asyncToken */ asyncToken,
           /* nodeFlags */ NodeFlags.None,
           /* pos */ pos
@@ -3916,7 +3919,7 @@ function parseFunctionDeclaration(
           return parseExpressionStatement(parser, context, expression, pos);
         }
       }
-      let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
+      let expression = createIdentifier('async', 'async', pos, parser.curPos);
       if (parser.token === SyntaxKind.Colon) {
         return parseLabelledStatement(
           parser,
@@ -3929,22 +3932,12 @@ function parseFunctionDeclaration(
         );
       }
       if (parser.token === SyntaxKind.Arrow) {
-        expression = createFormalParameter(
-          /* ellipsisToken */ null,
-          /* binding */ expression as any,
-          /* optionalToken */ null,
-          /* type */ null,
-          /* initializer */ null,
-          NodeFlags.ExpressionNode,
-          pos,
-          parser.curPos
-        );
         expression = parseArrowFunction(
           parser,
           context,
           /* typeParameters */ null,
           /* returnType */ null,
-          /* params */ [expression],
+          /* params */ expression,
           /* asyncToken */ asyncToken,
           /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
@@ -3953,8 +3946,7 @@ function parseFunctionDeclaration(
         return parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, false, pos) as any;
       }
       parser.assignable = true;
-      expression = parseExpressionRest(parser, context, expression, pos);
-      return parseExpressionStatement(parser, context, expression, pos);
+      return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
     }
 
     if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
