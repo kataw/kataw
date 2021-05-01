@@ -76,7 +76,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "c",
-                                "rawText": " c",
+                                "rawText": "c",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 12
@@ -100,7 +100,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "obj",
-                    "rawText": " obj",
+                    "rawText": "obj",
                     "flags": 96,
                     "start": 15,
                     "end": 19

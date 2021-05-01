@@ -38,7 +38,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -109,7 +109,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "g",
-                                                "rawText": " g",
+                                                "rawText": "g",
                                                 "flags": 96,
                                                 "start": 54,
                                                 "end": 56
@@ -144,7 +144,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                         "binding": {
                                                                             "kind": 134299649,
                                                                             "text": "x",
-                                                                            "rawText": " x",
+                                                                            "rawText": "x",
                                                                             "flags": 96,
                                                                             "start": 62,
                                                                             "end": 64
@@ -169,7 +169,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "name": {
                                                                                 "kind": 134299649,
                                                                                 "text": "f",
-                                                                                "rawText": " f",
+                                                                                "rawText": "f",
                                                                                 "flags": 96,
                                                                                 "start": 81,
                                                                                 "end": 83
@@ -219,7 +219,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                         "expression": {
                                                                                                                             "kind": 134299649,
                                                                                                                             "text": "t",
-                                                                                                                            "rawText": " t",
+                                                                                                                            "rawText": "t",
                                                                                                                             "flags": 96,
                                                                                                                             "start": 97,
                                                                                                                             "end": 99
@@ -238,7 +238,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                     "expression": {
                                                                                                                                         "kind": 134299649,
                                                                                                                                         "text": "bar",
-                                                                                                                                        "rawText": " bar",
+                                                                                                                                        "rawText": "bar",
                                                                                                                                         "flags": 96,
                                                                                                                                         "start": 105,
                                                                                                                                         "end": 109

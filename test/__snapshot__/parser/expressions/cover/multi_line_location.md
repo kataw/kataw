@@ -44,7 +44,7 @@ a = (
                             {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": "\n  b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 5,
                                 "end": 9
@@ -52,7 +52,7 @@ a = (
                             {
                                 "kind": 134299649,
                                 "text": "c",
-                                "rawText": "\n  c",
+                                "rawText": "c",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 14

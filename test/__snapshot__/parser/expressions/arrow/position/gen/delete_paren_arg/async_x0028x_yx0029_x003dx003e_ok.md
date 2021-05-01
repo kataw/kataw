@@ -52,7 +52,7 @@ delete (async (x, y) => ok)
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 19
@@ -68,7 +68,7 @@ delete (async (x, y) => ok)
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
-                            "rawText": " ok",
+                            "rawText": "ok",
                             "flags": 96,
                             "start": 23,
                             "end": 26

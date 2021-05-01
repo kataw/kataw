@@ -55,7 +55,7 @@ class Foo { prop1:string; prop2:number; }
                         "key": {
                             "kind": 134299649,
                             "text": "prop1",
-                            "rawText": " prop1",
+                            "rawText": "prop1",
                             "flags": 96,
                             "start": 11,
                             "end": 17
@@ -93,7 +93,7 @@ class Foo { prop1:string; prop2:number; }
                         "key": {
                             "kind": 134299649,
                             "text": "prop2",
-                            "rawText": " prop2",
+                            "rawText": "prop2",
                             "flags": 96,
                             "start": 25,
                             "end": 31

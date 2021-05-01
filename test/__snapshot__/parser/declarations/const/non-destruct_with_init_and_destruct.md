@@ -50,7 +50,7 @@ const foo = arr, [bar] = arr2;
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 5,
                             "end": 9
@@ -60,7 +60,7 @@ const foo = arr, [bar] = arr2;
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr",
-                            "rawText": " arr",
+                            "rawText": "arr",
                             "flags": 96,
                             "start": 11,
                             "end": 15
@@ -109,7 +109,7 @@ const foo = arr, [bar] = arr2;
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr2",
-                            "rawText": " arr2",
+                            "rawText": "arr2",
                             "flags": 96,
                             "start": 24,
                             "end": 29

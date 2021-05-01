@@ -33,7 +33,7 @@
                     "expression": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 0,
                         "end": 2
@@ -81,7 +81,7 @@
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\n x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 24

@@ -42,7 +42,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "left": {
                                 "kind": 134299649,
                                 "text": "x1",
-                                "rawText": " x1",
+                                "rawText": "x1",
                                 "flags": 96,
                                 "start": 4,
                                 "end": 7
@@ -56,7 +56,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "right": {
                                 "kind": 134299649,
                                 "text": "x2",
-                                "rawText": " x2",
+                                "rawText": "x2",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 14
@@ -84,7 +84,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x3",
-                                    "rawText": " x3",
+                                    "rawText": "x3",
                                     "flags": 96,
                                     "start": 16,
                                     "end": 19
@@ -98,7 +98,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x4",
-                                    "rawText": " x4",
+                                    "rawText": "x4",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 25
@@ -116,7 +116,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "right": {
                                 "kind": 134299649,
                                 "text": "x5",
-                                "rawText": " x5",
+                                "rawText": "x5",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 30
@@ -134,7 +134,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                         "right": {
                             "kind": 134299649,
                             "text": "x6",
-                            "rawText": " x6",
+                            "rawText": "x6",
                             "flags": 96,
                             "start": 32,
                             "end": 35
@@ -158,7 +158,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                     "left": {
                         "kind": 134299649,
                         "text": "x7",
-                        "rawText": " x7",
+                        "rawText": "x7",
                         "flags": 96,
                         "start": 38,
                         "end": 41
@@ -176,7 +176,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "left": {
                                 "kind": 134299649,
                                 "text": "x8",
-                                "rawText": " x8",
+                                "rawText": "x8",
                                 "flags": 96,
                                 "start": 44,
                                 "end": 47
@@ -190,7 +190,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "right": {
                                 "kind": 134299649,
                                 "text": "x9",
-                                "rawText": " x9",
+                                "rawText": "x9",
                                 "flags": 96,
                                 "start": 58,
                                 "end": 61
@@ -210,7 +210,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "left": {
                                 "kind": 134299649,
                                 "text": "x10",
-                                "rawText": " x10",
+                                "rawText": "x10",
                                 "flags": 96,
                                 "start": 63,
                                 "end": 67
@@ -224,7 +224,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "right": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 70,
                                 "end": 72

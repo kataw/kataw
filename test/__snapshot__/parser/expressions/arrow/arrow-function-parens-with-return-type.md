@@ -40,7 +40,7 @@ var foo = ((foo)): string => {};
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -94,7 +94,7 @@ var foo = ((foo)): string => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 18,
                     "end": 25

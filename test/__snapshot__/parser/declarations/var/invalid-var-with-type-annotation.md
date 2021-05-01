@@ -41,7 +41,7 @@ var f: >x:int) => string;
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -133,7 +133,7 @@ var f: >x:int) => string;
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 17,
                 "end": 24

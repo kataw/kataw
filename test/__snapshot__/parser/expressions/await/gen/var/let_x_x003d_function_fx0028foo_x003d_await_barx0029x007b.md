@@ -36,7 +36,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                         "binding": {
                             "kind": 134299649,
                             "text": "await",
-                            "rawText": " await",
+                            "rawText": "await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -74,7 +74,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -129,7 +129,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 42,
                                                                 "end": 44
@@ -149,7 +149,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                 "name": {
                                                                     "kind": 134299649,
                                                                     "text": "f",
-                                                                    "rawText": " f",
+                                                                    "rawText": "f",
                                                                     "flags": 96,
                                                                     "start": 55,
                                                                     "end": 57
@@ -173,7 +173,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                             "initializer": {
                                                                                 "kind": 134299649,
                                                                                 "text": "await",
-                                                                                "rawText": " await",
+                                                                                "rawText": "await",
                                                                                 "flags": 96,
                                                                                 "start": 63,
                                                                                 "end": 69
@@ -188,7 +188,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                             "binding": {
                                                                                 "kind": 134299649,
                                                                                 "text": "bar",
-                                                                                "rawText": " bar",
+                                                                                "rawText": "bar",
                                                                                 "flags": 96,
                                                                                 "start": 69,
                                                                                 "end": 73

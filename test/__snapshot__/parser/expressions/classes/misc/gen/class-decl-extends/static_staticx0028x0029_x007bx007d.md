@@ -81,7 +81,7 @@ class C extends Base { static static() {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": " static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 29,
                                 "end": 36

@@ -38,7 +38,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13

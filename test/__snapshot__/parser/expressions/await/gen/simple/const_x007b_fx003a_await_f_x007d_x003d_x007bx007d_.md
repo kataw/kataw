@@ -43,7 +43,7 @@ const { f: await f } = {};
                                         "key": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 10
@@ -54,7 +54,7 @@ const { f: await f } = {};
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "await",
-                                                "rawText": " await",
+                                                "rawText": "await",
                                                 "flags": 96,
                                                 "start": 10,
                                                 "end": 16
@@ -74,7 +74,7 @@ const { f: await f } = {};
                                         "left": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 18

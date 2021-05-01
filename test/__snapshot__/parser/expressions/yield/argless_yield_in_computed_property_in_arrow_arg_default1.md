@@ -145,7 +145,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "z",
-                                    "rawText": " z",
+                                    "rawText": "z",
                                     "flags": 96,
                                     "start": 36,
                                     "end": 38

@@ -104,7 +104,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                         "left": {
                                             "kind": 134299649,
                                             "text": "xCls",
-                                            "rawText": " xCls",
+                                            "rawText": "xCls",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 26
@@ -154,7 +154,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                         "left": {
                                             "kind": 134299649,
                                             "text": "xCls2",
-                                            "rawText": " xCls2",
+                                            "rawText": "xCls2",
                                             "flags": 96,
                                             "start": 40,
                                             "end": 46
@@ -199,7 +199,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "name",
-                                                                "rawText": " name",
+                                                                "rawText": "name",
                                                                 "flags": 96,
                                                                 "start": 63,
                                                                 "end": 68

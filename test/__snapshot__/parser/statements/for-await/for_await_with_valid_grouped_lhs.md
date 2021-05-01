@@ -34,7 +34,7 @@ async function f() { for await ((x) of y) {} }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -84,7 +84,7 @@ async function f() { for await ((x) of y) {} }
                             "expression": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 40

@@ -46,7 +46,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "source",
-                            "rawText": " source",
+                            "rawText": "source",
                             "flags": 96,
                             "start": 3,
                             "end": 10
@@ -122,7 +122,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "target",
-                            "rawText": " target",
+                            "rawText": "target",
                             "flags": 96,
                             "start": 27,
                             "end": 34
@@ -160,7 +160,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "callCount",
-                            "rawText": " callCount",
+                            "rawText": "callCount",
                             "flags": 96,
                             "start": 40,
                             "end": 50
@@ -230,7 +230,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 70,
                                                         "end": 79
@@ -303,7 +303,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 111,
                                                         "end": 120
@@ -376,7 +376,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 148,
                                                         "end": 157
@@ -449,7 +449,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 185,
                                                         "end": 194
@@ -522,7 +522,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 222,
                                                         "end": 231
@@ -595,7 +595,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 259,
                                                         "end": 268
@@ -668,7 +668,7 @@ var callCount = 0;
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "assert",
-                                                        "rawText": "\n  assert",
+                                                        "rawText": "assert",
                                                         "flags": 96,
                                                         "start": 296,
                                                         "end": 305
@@ -699,7 +699,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 134299649,
                                                             "text": "source",
-                                                            "rawText": " source",
+                                                            "rawText": "source",
                                                             "flags": 96,
                                                             "start": 323,
                                                             "end": 330
@@ -725,7 +725,7 @@ var callCount = 0;
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "callCount",
-                                                    "rawText": "\n  callCount",
+                                                    "rawText": "callCount",
                                                     "flags": 96,
                                                     "start": 332,
                                                     "end": 344
@@ -837,7 +837,7 @@ var callCount = 0;
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "source",
-                                                    "rawText": " source",
+                                                    "rawText": "source",
                                                     "flags": 96,
                                                     "start": 383,
                                                     "end": 390

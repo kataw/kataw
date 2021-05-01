@@ -104,7 +104,7 @@ function *f(){ for (yield of obj); }
                             "expression": {
                                 "kind": 134299649,
                                 "text": "obj",
-                                "rawText": " obj",
+                                "rawText": "obj",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 32

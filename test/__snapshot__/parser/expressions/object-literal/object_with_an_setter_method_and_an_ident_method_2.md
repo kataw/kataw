@@ -82,7 +82,7 @@ wrap({[foo](){}, set [bar](e){}});
                                     {
                                         "kind": 134299649,
                                         "text": "set",
-                                        "rawText": " set",
+                                        "rawText": "set",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 20

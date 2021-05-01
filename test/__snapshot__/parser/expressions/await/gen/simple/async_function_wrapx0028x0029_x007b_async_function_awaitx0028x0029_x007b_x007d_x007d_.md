@@ -38,7 +38,7 @@ async function wrap() { async function await() { } };
             "name": {
                 "kind": 134299649,
                 "text": "wrap",
-                "rawText": " wrap",
+                "rawText": "wrap",
                 "flags": 96,
                 "start": 14,
                 "end": 19
@@ -76,7 +76,7 @@ async function wrap() { async function await() { } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",
-                                "rawText": " await",
+                                "rawText": "await",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 44

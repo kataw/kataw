@@ -32,7 +32,7 @@ var g = function* yield() {};
                         "binding": {
                             "kind": 134299649,
                             "text": "g",
-                            "rawText": " g",
+                            "rawText": "g",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -57,7 +57,7 @@ var g = function* yield() {};
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 23

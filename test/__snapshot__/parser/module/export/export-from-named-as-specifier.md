@@ -58,7 +58,7 @@ export {foo as bar} from "foo";
                             "name": {
                                 "kind": 134299649,
                                 "text": "as",
-                                "rawText": " as",
+                                "rawText": "as",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 14
@@ -75,7 +75,7 @@ export {foo as bar} from "foo";
                             "name": {
                                 "kind": 134299649,
                                 "text": "bar",
-                                "rawText": " bar",
+                                "rawText": "bar",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 18

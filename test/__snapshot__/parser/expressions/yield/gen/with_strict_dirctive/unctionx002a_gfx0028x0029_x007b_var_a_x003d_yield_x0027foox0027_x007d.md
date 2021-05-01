@@ -40,7 +40,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "unction",
-                    "rawText": " unction",
+                    "rawText": "unction",
                     "flags": 96,
                     "start": 13,
                     "end": 21
@@ -56,7 +56,7 @@
                     "expression": {
                         "kind": 134299649,
                         "text": "gf",
-                        "rawText": " gf",
+                        "rawText": "gf",
                         "flags": 96,
                         "start": 22,
                         "end": 25
@@ -103,7 +103,7 @@
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 33,
                                         "end": 35
@@ -113,7 +113,7 @@
                                     "initializer": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 37,
                                         "end": 43

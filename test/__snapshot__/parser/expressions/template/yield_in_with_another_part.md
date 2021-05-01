@@ -52,7 +52,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 15

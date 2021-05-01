@@ -124,7 +124,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 35,
                                                                 "end": 37

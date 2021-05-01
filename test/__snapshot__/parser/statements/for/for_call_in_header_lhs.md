@@ -74,7 +74,7 @@ for (x(x in t);;) x
                             "right": {
                                 "kind": 134299649,
                                 "text": "t",
-                                "rawText": " t",
+                                "rawText": "t",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 13
@@ -100,7 +100,7 @@ for (x(x in t);;) x
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 17,
                     "end": 19

@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "wrap",
-                "rawText": " wrap",
+                "rawText": "wrap",
                 "flags": 96,
                 "start": 28,
                 "end": 33
@@ -90,7 +90,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",
-                                "rawText": " await",
+                                "rawText": "await",
                                 "flags": 96,
                                 "start": 52,
                                 "end": 58

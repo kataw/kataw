@@ -169,7 +169,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "sleep",
-                                "rawText": " sleep",
+                                "rawText": "sleep",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 43

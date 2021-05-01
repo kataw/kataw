@@ -45,7 +45,7 @@
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 6,
                                         "end": 8
@@ -61,7 +61,7 @@
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 14
@@ -80,7 +80,7 @@
                                                 {
                                                     "kind": 134299649,
                                                     "text": "yield",
-                                                    "rawText": " yield",
+                                                    "rawText": "yield",
                                                     "flags": 96,
                                                     "start": 17,
                                                     "end": 23
@@ -88,7 +88,7 @@
                                                 {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 23,
                                                     "end": 25

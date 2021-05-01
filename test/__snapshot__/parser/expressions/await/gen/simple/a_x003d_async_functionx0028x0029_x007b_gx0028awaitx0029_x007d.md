@@ -74,7 +74,7 @@ a = async function() { g(await) }
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "g",
-                                            "rawText": " g",
+                                            "rawText": "g",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24

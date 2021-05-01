@@ -29,7 +29,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "name": {
                 "kind": 134299649,
                 "text": "createElement",
-                "rawText": " createElement",
+                "rawText": "createElement",
                 "flags": 96,
                 "start": 8,
                 "end": 22

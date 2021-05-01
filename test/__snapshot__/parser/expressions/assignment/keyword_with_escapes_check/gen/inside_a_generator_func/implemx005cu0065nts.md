@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "implements",
-                                    "rawText": "\n  implem\\u0065nts",
+                                    "rawText": "implem\\u0065nts",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 32
@@ -80,7 +80,7 @@ function *f(){
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 34,
                                     "end": 36

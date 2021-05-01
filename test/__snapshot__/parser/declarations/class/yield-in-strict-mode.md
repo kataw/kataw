@@ -43,7 +43,7 @@ function* f() { class C { aaa = yield } }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -94,7 +94,7 @@ function* f() { class C { aaa = yield } }
                                         "key": {
                                             "kind": 134299649,
                                             "text": "aaa",
-                                            "rawText": " aaa",
+                                            "rawText": "aaa",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 29

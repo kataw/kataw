@@ -32,7 +32,7 @@ class x {get default(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {get default(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "default",
-                                "rawText": " default",
+                                "rawText": "default",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 20

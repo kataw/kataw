@@ -41,7 +41,7 @@ import **= from 'f';
             "expression": {
                 "kind": 134299649,
                 "text": "from",
-                "rawText": " from",
+                "rawText": "from",
                 "flags": 96,
                 "start": 10,
                 "end": 15

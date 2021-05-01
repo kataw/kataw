@@ -40,7 +40,7 @@ opaque += 4;
                         "binding": {
                             "kind": 134299649,
                             "text": "opaque",
-                            "rawText": " opaque",
+                            "rawText": "opaque",
                             "flags": 96,
                             "start": 3,
                             "end": 10
@@ -75,7 +75,7 @@ opaque += 4;
                 "left": {
                     "kind": 134299649,
                     "text": "opaque",
-                    "rawText": "\nopaque",
+                    "rawText": "opaque",
                     "flags": 96,
                     "start": 15,
                     "end": 22

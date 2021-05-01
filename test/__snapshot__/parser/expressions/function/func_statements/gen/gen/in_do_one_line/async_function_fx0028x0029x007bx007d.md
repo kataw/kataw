@@ -60,7 +60,7 @@ do async function f(){} while (x);
                 "name": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": " f",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 17,
                     "end": 19

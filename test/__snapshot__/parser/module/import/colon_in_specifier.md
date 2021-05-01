@@ -35,7 +35,7 @@ import {a: b} from "bar";
                 "from": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -92,7 +92,7 @@ import {a: b} from "bar";
             "expression": {
                 "kind": 134299649,
                 "text": "from",
-                "rawText": " from",
+                "rawText": "from",
                 "flags": 96,
                 "start": 13,
                 "end": 18

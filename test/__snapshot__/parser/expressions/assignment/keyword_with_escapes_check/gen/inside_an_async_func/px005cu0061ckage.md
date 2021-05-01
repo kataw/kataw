@@ -49,7 +49,7 @@ async () => {  p\u0061ckage = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "package",
-                                    "rawText": "  p\\u0061ckage",
+                                    "rawText": "p\\u0061ckage",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 27
@@ -63,7 +63,7 @@ async () => {  p\u0061ckage = x  }
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 29,
                                     "end": 31

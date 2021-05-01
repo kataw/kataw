@@ -75,7 +75,7 @@ bar ? (x => { return x; }) : baz;
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 22
@@ -110,7 +110,7 @@ bar ? (x => { return x; }) : baz;
                 "alternate": {
                     "kind": 134299649,
                     "text": "baz",
-                    "rawText": " baz",
+                    "rawText": "baz",
                     "flags": 96,
                     "start": 28,
                     "end": 32

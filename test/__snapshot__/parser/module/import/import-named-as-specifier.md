@@ -82,7 +82,7 @@ import {bar as baz} from "foo";
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 11,
                                     "end": 14
@@ -98,7 +98,7 @@ import {bar as baz} from "foo";
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "baz",
-                                    "rawText": " baz",
+                                    "rawText": "baz",
                                     "flags": 64,
                                     "start": 14,
                                     "end": 18

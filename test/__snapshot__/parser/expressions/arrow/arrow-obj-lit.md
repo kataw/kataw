@@ -72,7 +72,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
-                    "rawText": " z",
+                    "rawText": "z",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -108,7 +108,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 22,
                 "end": 29
@@ -122,7 +122,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "z",
-                "rawText": " z",
+                "rawText": "z",
                 "flags": 96,
                 "start": 33,
                 "end": 35

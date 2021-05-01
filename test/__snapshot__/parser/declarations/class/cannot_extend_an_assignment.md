@@ -47,7 +47,7 @@ class x extends a = b {}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -64,7 +64,7 @@ class x extends a = b {}
                 "expression": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": " a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -90,7 +90,7 @@ class x extends a = b {}
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": " b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 19,
                 "end": 21

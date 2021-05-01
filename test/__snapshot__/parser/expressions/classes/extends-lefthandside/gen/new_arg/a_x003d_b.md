@@ -34,7 +34,7 @@ new a = b
                     "expression": {
                         "kind": 134299649,
                         "text": "a",
-                        "rawText": " a",
+                        "rawText": "a",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -53,7 +53,7 @@ new a = b
                 "right": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 7,
                     "end": 9

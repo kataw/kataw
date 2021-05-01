@@ -51,7 +51,7 @@ async (x--, y) => x;
                     {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -71,7 +71,7 @@ async (x--, y) => x;
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 17,
                 "end": 19

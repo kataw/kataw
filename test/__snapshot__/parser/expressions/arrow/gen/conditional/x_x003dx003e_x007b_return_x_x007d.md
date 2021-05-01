@@ -60,7 +60,7 @@ x => { return x; } , bar;
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 13,
                                             "end": 15
@@ -85,7 +85,7 @@ x => { return x; } , bar;
                     {
                         "kind": 134299649,
                         "text": "bar",
-                        "rawText": " bar",
+                        "rawText": "bar",
                         "flags": 96,
                         "start": 20,
                         "end": 24

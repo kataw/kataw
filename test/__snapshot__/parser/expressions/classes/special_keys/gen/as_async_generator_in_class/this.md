@@ -32,7 +32,7 @@ class x {async * this(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {async * this(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "this",
-                                "rawText": " this",
+                                "rawText": "this",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21

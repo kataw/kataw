@@ -92,7 +92,7 @@ for ([x.y] = z in obj);
                     "left": {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 12,
                         "end": 14
@@ -106,7 +106,7 @@ for ([x.y] = z in obj);
                     "right": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": " obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 17,
                         "end": 21

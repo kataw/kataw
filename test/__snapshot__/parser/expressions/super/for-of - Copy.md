@@ -66,7 +66,7 @@ for (a?.b of c);
                     "expression": {
                         "kind": 134299649,
                         "text": "of",
-                        "rawText": " of",
+                        "rawText": "of",
                         "flags": 96,
                         "start": 9,
                         "end": 12
@@ -83,7 +83,7 @@ for (a?.b of c);
             "incrementor": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 12,
                 "end": 14

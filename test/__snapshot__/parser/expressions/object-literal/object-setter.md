@@ -326,7 +326,7 @@
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "v",
-                                                                "rawText": " v",
+                                                                "rawText": "v",
                                                                 "flags": 96,
                                                                 "start": 67,
                                                                 "end": 69
@@ -488,7 +488,7 @@
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "v",
-                                                                "rawText": " v",
+                                                                "rawText": "v",
                                                                 "flags": 96,
                                                                 "start": 104,
                                                                 "end": 106

@@ -38,7 +38,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -117,7 +117,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                                 "consequent": {
                                                     "kind": 134299649,
                                                     "text": "yield",
-                                                    "rawText": " yield",
+                                                    "rawText": "yield",
                                                     "flags": 96,
                                                     "start": 49,
                                                     "end": 55
@@ -131,7 +131,7 @@ function * gen() { function not_gen() { (yield) ? yield : yield }}
                                                 "alternate": {
                                                     "kind": 134299649,
                                                     "text": "yield",
-                                                    "rawText": " yield",
+                                                    "rawText": "yield",
                                                     "flags": 96,
                                                     "start": 57,
                                                     "end": 63

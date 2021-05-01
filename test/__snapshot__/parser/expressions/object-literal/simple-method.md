@@ -46,7 +46,7 @@ x = { method(test: string) { } };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 12
@@ -123,7 +123,7 @@ x = { method(test: string) { } };
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 25,
                     "end": 28
@@ -144,7 +144,7 @@ x = { method(test: string) { } };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 39
@@ -219,7 +219,7 @@ x = { method(test: string) { } };
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 45,
                 "end": 52

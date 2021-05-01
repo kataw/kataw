@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arguments",
-                                    "rawText": "\n  a\\u0072guments",
+                                    "rawText": "a\\u0072guments",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 31
@@ -80,7 +80,7 @@ function *f(){
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 33,
                                     "end": 35

@@ -49,7 +49,7 @@ for ({a: x + y} = z in obj);
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 10
@@ -63,7 +63,7 @@ for ({a: x + y} = z in obj);
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -105,7 +105,7 @@ for ({a: x + y} = z in obj);
                     "left": {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 17,
                         "end": 19
@@ -119,7 +119,7 @@ for ({a: x + y} = z in obj);
                     "right": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": " obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 22,
                         "end": 26

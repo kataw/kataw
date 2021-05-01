@@ -58,7 +58,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "boo",
-                                    "rawText": " boo",
+                                    "rawText": "boo",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 17
@@ -84,7 +84,7 @@
                     "right": {
                         "kind": 134299649,
                         "text": "ding",
-                        "rawText": " ding",
+                        "rawText": "ding",
                         "flags": 96,
                         "start": 20,
                         "end": 25

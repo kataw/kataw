@@ -167,7 +167,7 @@ let {x:y=z}, {a:b=c} = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 22,
                             "end": 26

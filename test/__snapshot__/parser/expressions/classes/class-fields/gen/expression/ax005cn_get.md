@@ -71,7 +71,7 @@ class C extends Base { a\n get }
                         "key": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 22,
                             "end": 24
@@ -111,7 +111,7 @@ class C extends Base { a\n get }
             "expression": {
                 "kind": 134299649,
                 "text": "get",
-                "rawText": " get",
+                "rawText": "get",
                 "flags": 96,
                 "start": 26,
                 "end": 30

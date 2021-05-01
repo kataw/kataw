@@ -49,7 +49,7 @@ async (x = z = yield)
                             "left": {
                                 "kind": 134299649,
                                 "text": "z",
-                                "rawText": " z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 12
@@ -63,7 +63,7 @@ async (x = z = yield)
                             "right": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 20

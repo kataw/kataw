@@ -35,7 +35,7 @@ new oh,no
                         "expression": {
                             "kind": 134299649,
                             "text": "oh",
-                            "rawText": " oh",
+                            "rawText": "oh",
                             "flags": 96,
                             "start": 3,
                             "end": 6

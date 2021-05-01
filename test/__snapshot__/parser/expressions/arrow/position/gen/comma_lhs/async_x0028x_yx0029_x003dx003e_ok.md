@@ -40,7 +40,7 @@ async (x, y) => ok, a
                 {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 9,
                     "end": 11
@@ -56,7 +56,7 @@ async (x, y) => ok, a
             "contents": {
                 "kind": 134299649,
                 "text": "ok",
-                "rawText": " ok",
+                "rawText": "ok",
                 "flags": 96,
                 "start": 15,
                 "end": 18
@@ -70,7 +70,7 @@ async (x, y) => ok, a
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 19,
                 "end": 21

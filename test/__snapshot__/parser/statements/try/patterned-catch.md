@@ -115,7 +115,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "d",
-                                                    "rawText": " d",
+                                                    "rawText": "d",
                                                     "flags": 96,
                                                     "start": 23,
                                                     "end": 26
@@ -197,7 +197,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "h",
-                                                    "rawText": " h",
+                                                    "rawText": "h",
                                                     "flags": 96,
                                                     "start": 39,
                                                     "end": 41

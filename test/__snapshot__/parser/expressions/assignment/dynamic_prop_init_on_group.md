@@ -83,7 +83,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 11,
                                     "end": 13
@@ -111,7 +111,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "z",
-                    "rawText": " z",
+                    "rawText": "z",
                     "flags": 96,
                     "start": 17,
                     "end": 19

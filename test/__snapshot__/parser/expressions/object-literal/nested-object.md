@@ -51,7 +51,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 7,
                                                 "end": 9
@@ -71,7 +71,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "key": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 13
@@ -90,7 +90,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                             "key": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
-                                                                "rawText": " a",
+                                                                "rawText": "a",
                                                                 "flags": 96,
                                                                 "start": 15,
                                                                 "end": 18
@@ -101,7 +101,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
-                                                                    "rawText": " b",
+                                                                    "rawText": "b",
                                                                     "flags": 96,
                                                                     "start": 18,
                                                                     "end": 20
@@ -168,7 +168,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 28,
                                             "end": 30
@@ -205,7 +205,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                         "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
-                                                            "rawText": " a",
+                                                            "rawText": "a",
                                                             "flags": 96,
                                                             "start": 41,
                                                             "end": 43
@@ -227,7 +227,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 36,
                                             "end": 38

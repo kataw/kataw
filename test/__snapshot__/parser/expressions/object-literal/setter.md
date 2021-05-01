@@ -32,7 +32,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 6
@@ -121,7 +121,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 27
@@ -228,7 +228,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 47,
                                     "end": 51
@@ -360,7 +360,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 73,
                                     "end": 77

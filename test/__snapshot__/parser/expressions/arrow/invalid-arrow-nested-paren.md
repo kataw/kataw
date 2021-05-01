@@ -93,7 +93,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 16,
                     "end": 18
@@ -134,7 +134,7 @@
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 29,
                                             "end": 33
@@ -185,7 +185,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "baz",
-                    "rawText": " baz",
+                    "rawText": "baz",
                     "flags": 96,
                     "start": 40,
                     "end": 44

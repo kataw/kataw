@@ -54,7 +54,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                 "label": {
                     "kind": 134299649,
                     "text": "bar",
-                    "rawText": " bar",
+                    "rawText": "bar",
                     "flags": 96,
                     "start": 4,
                     "end": 8
@@ -143,7 +143,7 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                         "label": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 30

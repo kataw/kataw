@@ -38,7 +38,7 @@ a === b ? c : d % e;
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 5,
                         "end": 7
@@ -56,7 +56,7 @@ a === b ? c : d % e;
                 "consequent": {
                     "kind": 134299649,
                     "text": "c",
-                    "rawText": " c",
+                    "rawText": "c",
                     "flags": 96,
                     "start": 9,
                     "end": 11
@@ -72,7 +72,7 @@ a === b ? c : d % e;
                     "left": {
                         "kind": 134299649,
                         "text": "d",
-                        "rawText": " d",
+                        "rawText": "d",
                         "flags": 96,
                         "start": 13,
                         "end": 15
@@ -86,7 +86,7 @@ a === b ? c : d % e;
                     "right": {
                         "kind": 134299649,
                         "text": "e",
-                        "rawText": " e",
+                        "rawText": "e",
                         "flags": 96,
                         "start": 17,
                         "end": 19

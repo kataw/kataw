@@ -53,7 +53,7 @@ class x { static async *prototype(){} }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -87,7 +87,7 @@ class x { static async *prototype(){} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "prototype",
-                                "rawText": " prototype",
+                                "rawText": "prototype",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 30
@@ -146,7 +146,7 @@ class x { static async *prototype(){} }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 43,
                 "end": 45
@@ -234,7 +234,7 @@ class x { static async *prototype(){} }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 84,
                 "end": 86
@@ -268,7 +268,7 @@ class x { static async *prototype(){} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "prototype",
-                                "rawText": " prototype",
+                                "rawText": "prototype",
                                 "flags": 96,
                                 "start": 99,
                                 "end": 109
@@ -327,7 +327,7 @@ class x { static async *prototype(){} }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 122,
                 "end": 124

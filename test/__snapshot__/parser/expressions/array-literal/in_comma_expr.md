@@ -65,7 +65,7 @@ x, [foo, bar] = doo
                                     {
                                         "kind": 134299649,
                                         "text": "bar",
-                                        "rawText": " bar",
+                                        "rawText": "bar",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 12
@@ -89,7 +89,7 @@ x, [foo, bar] = doo
                         "right": {
                             "kind": 134299649,
                             "text": "doo",
-                            "rawText": " doo",
+                            "rawText": "doo",
                             "flags": 96,
                             "start": 15,
                             "end": 19

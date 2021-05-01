@@ -80,7 +80,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 27
@@ -179,7 +179,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 50,
                                         "end": 62
@@ -386,7 +386,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 127,
                                     "end": 129
@@ -422,7 +422,7 @@
                 "expression": {
                     "kind": 134299649,
                     "text": "onstructor",
-                    "rawText": " c",
+                    "rawText": "c",
                     "flags": 96,
                     "start": 130,
                     "end": 145

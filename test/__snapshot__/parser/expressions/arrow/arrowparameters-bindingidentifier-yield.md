@@ -33,7 +33,7 @@ var af = yield => 1;
                         "binding": {
                             "kind": 134299649,
                             "text": "af",
-                            "rawText": " af",
+                            "rawText": "af",
                             "flags": 96,
                             "start": 3,
                             "end": 6
@@ -52,7 +52,7 @@ var af = yield => 1;
                             "parameters": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 14

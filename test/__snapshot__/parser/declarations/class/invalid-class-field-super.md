@@ -62,7 +62,7 @@ class C { [super.bbb] = 0 };
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
-                            "rawText": " aaa",
+                            "rawText": "aaa",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -146,7 +146,7 @@ class C { [super.bbb] = 0 };
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
-                            "rawText": " aaa",
+                            "rawText": "aaa",
                             "flags": 96,
                             "start": 39,
                             "end": 43
@@ -246,7 +246,7 @@ class C { [super.bbb] = 0 };
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
-                            "rawText": " aaa",
+                            "rawText": "aaa",
                             "flags": 96,
                             "start": 75,
                             "end": 79

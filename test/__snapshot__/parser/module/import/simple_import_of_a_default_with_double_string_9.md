@@ -82,7 +82,7 @@ import {x, z,} from "y"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "z",
-                                    "rawText": " z",
+                                    "rawText": "z",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 12

@@ -40,7 +40,7 @@ var foo = (async (): number => bar);
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -80,7 +80,7 @@ var foo = (async (): number => bar);
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "bar",
-                                    "rawText": " bar",
+                                    "rawText": "bar",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 34

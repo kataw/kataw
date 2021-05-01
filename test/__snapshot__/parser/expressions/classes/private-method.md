@@ -126,7 +126,7 @@ class x { #foo() {}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -1993,7 +1993,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 454,
                                         "end": 456
@@ -2130,7 +2130,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 481,
                                         "end": 483
@@ -2267,7 +2267,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 508,
                                         "end": 510
@@ -2323,7 +2323,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 522,
                                         "end": 524
@@ -2470,7 +2470,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 557,
                                         "end": 559
@@ -2531,7 +2531,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 575,
                                         "end": 577
@@ -2697,7 +2697,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 613,
                                         "end": 615
@@ -2777,7 +2777,7 @@ class x { #foo() {}}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 634,
                                         "end": 636
@@ -8544,7 +8544,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2261,
                                     "end": 2263
@@ -8657,7 +8657,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2284,
                                     "end": 2286
@@ -8775,7 +8775,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2311,
                                     "end": 2313
@@ -8912,7 +8912,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2341,
                                     "end": 2343
@@ -9030,7 +9030,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2365,
                                     "end": 2367
@@ -9148,7 +9148,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2394,
                                     "end": 2396
@@ -9271,7 +9271,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2424,
                                     "end": 2426
@@ -9391,7 +9391,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2451,
                                     "end": 2453
@@ -9516,7 +9516,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2482,
                                     "end": 2484
@@ -9660,7 +9660,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2516,
                                     "end": 2518
@@ -9785,7 +9785,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2544,
                                     "end": 2546
@@ -9910,7 +9910,7 @@ class x { #foo() {}}
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 2577,
                                     "end": 2579

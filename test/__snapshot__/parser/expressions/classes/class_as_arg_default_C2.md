@@ -98,7 +98,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "name",
-                                                                "rawText": " name",
+                                                                "rawText": "name",
                                                                 "flags": 96,
                                                                 "start": 28,
                                                                 "end": 33

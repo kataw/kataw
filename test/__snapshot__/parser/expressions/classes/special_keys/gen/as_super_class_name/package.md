@@ -32,7 +32,7 @@ class x extends package {}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,7 +49,7 @@ class x extends package {}
                 "expression": {
                     "kind": 134299649,
                     "text": "package",
-                    "rawText": " package",
+                    "rawText": "package",
                     "flags": 96,
                     "start": 15,
                     "end": 23

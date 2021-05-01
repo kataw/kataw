@@ -32,7 +32,7 @@ g => await g
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -74,7 +74,7 @@ g => await g
                 "parameters": {
                     "kind": 134299649,
                     "text": "g",
-                    "rawText": "\ng",
+                    "rawText": "g",
                     "flags": 96,
                     "start": 13,
                     "end": 15
@@ -84,7 +84,7 @@ g => await g
                 "contents": {
                     "kind": 134299649,
                     "text": "await",
-                    "rawText": " await",
+                    "rawText": "await",
                     "flags": 96,
                     "start": 18,
                     "end": 24
@@ -102,7 +102,7 @@ g => await g
             "expression": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 24,
                 "end": 26

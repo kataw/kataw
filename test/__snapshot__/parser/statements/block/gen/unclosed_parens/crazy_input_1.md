@@ -47,7 +47,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "input",
-                            "rawText": " input",
+                            "rawText": "input",
                             "flags": 96,
                             "start": 8,
                             "end": 14

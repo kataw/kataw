@@ -32,7 +32,7 @@ class x {static * await(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {static * await(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",
-                                "rawText": " await",
+                                "rawText": "await",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 23

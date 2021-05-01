@@ -81,7 +81,7 @@ var 𫠞_ = 12;
                         "binding": {
                             "kind": 134299649,
                             "text": "𫠝_",
-                            "rawText": "\n\nvar",
+                            "rawText": "var",
                             "flags": 96,
                             "start": 18,
                             "end": 22
@@ -126,7 +126,7 @@ var 𫠞_ = 12;
                         "binding": {
                             "kind": 134299649,
                             "text": "𫠞_",
-                            "rawText": "\n\nvar",
+                            "rawText": "var",
                             "flags": 96,
                             "start": 33,
                             "end": 37

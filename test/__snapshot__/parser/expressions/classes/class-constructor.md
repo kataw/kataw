@@ -71,7 +71,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 11,
                                         "end": 23
@@ -170,7 +170,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 51,
                                         "end": 63
@@ -274,7 +274,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 95,
                                         "end": 107
@@ -378,7 +378,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "constructor",
-                                        "rawText": " constructor",
+                                        "rawText": "constructor",
                                         "flags": 96,
                                         "start": 139,
                                         "end": 151

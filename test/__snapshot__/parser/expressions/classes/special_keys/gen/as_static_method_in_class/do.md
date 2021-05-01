@@ -32,7 +32,7 @@ class x {static do(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {static do(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "do",
-                                "rawText": " do",
+                                "rawText": "do",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 18

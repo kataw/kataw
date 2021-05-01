@@ -130,7 +130,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 34,
                     "end": 36
@@ -247,7 +247,7 @@ x = {async __proto__(){}, *__proto__(){}};
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 70,
                     "end": 72
@@ -383,7 +383,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 127,
                                         "end": 129
@@ -409,7 +409,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 141,
                                         "end": 143

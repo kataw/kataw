@@ -33,7 +33,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 34
@@ -107,7 +107,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 42,
                                                             "end": 44
@@ -174,7 +174,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 66,
                                                 "end": 68

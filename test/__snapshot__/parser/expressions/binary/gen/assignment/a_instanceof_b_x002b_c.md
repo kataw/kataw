@@ -44,7 +44,7 @@ x = a instanceof b + c
                         "left": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -58,7 +58,7 @@ x = a instanceof b + c
                         "right": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 16,
                             "end": 18
@@ -76,7 +76,7 @@ x = a instanceof b + c
                     "right": {
                         "kind": 134299649,
                         "text": "c",
-                        "rawText": " c",
+                        "rawText": "c",
                         "flags": 96,
                         "start": 20,
                         "end": 22

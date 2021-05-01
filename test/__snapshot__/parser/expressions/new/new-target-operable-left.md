@@ -29,7 +29,7 @@ function f(){ new.target + foo }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -73,7 +73,7 @@ function f(){ new.target + foo }
                                 "right": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 26,
                                     "end": 30

@@ -33,7 +33,7 @@ function f(a = x => ok) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -66,7 +66,7 @@ function f(a = x => ok) {}
                             "parameters": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 16
@@ -76,7 +76,7 @@ function f(a = x => ok) {}
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",
-                                "rawText": " ok",
+                                "rawText": "ok",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 22

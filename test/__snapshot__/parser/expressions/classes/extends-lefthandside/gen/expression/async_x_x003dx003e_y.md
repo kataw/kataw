@@ -97,7 +97,7 @@ x => y {})
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 22,
                     "end": 24
@@ -107,7 +107,7 @@ x => y {})
                 "contents": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 27,
                     "end": 29

@@ -42,7 +42,7 @@ x {}
             "name": {
                 "kind": 134299649,
                 "text": "p",
-                "rawText": " p",
+                "rawText": "p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -91,7 +91,7 @@ x {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 37,
                                     "end": 43
@@ -117,7 +117,7 @@ x {}
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": "\nx",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 43,
                                 "end": 45

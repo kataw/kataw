@@ -39,7 +39,7 @@ for(let a, let;;);
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 7,
                             "end": 9
@@ -56,7 +56,7 @@ for(let a, let;;);
                         "binding": {
                             "kind": 134299649,
                             "text": "let",
-                            "rawText": " let",
+                            "rawText": "let",
                             "flags": 96,
                             "start": 10,
                             "end": 14

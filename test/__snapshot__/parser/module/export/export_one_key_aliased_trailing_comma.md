@@ -38,7 +38,7 @@ var x; export {x as a,}
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -96,7 +96,7 @@ var x; export {x as a,}
                             "name": {
                                 "kind": 134299649,
                                 "text": "as",
-                                "rawText": " as",
+                                "rawText": "as",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 19
@@ -113,7 +113,7 @@ var x; export {x as a,}
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 21

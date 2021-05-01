@@ -32,7 +32,7 @@ o.attr = function() {};
                     "member": {
                         "kind": 134299649,
                         "text": "o",
-                        "rawText": "\no",
+                        "rawText": "o",
                         "flags": 96,
                         "start": 0,
                         "end": 2

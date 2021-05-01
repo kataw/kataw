@@ -90,7 +90,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 17
@@ -273,7 +273,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "get",
-                                    "rawText": " get",
+                                    "rawText": "get",
                                     "flags": 96,
                                     "start": 63,
                                     "end": 67
@@ -299,7 +299,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 67,
                                         "end": 69
@@ -386,7 +386,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 91,
                                     "end": 95
@@ -412,7 +412,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 95,
                                         "end": 97
@@ -518,7 +518,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 120,
                                     "end": 122
@@ -595,7 +595,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 138,
                                     "end": 144
@@ -677,7 +677,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "static",
-                                    "rawText": " static",
+                                    "rawText": "static",
                                     "flags": 96,
                                     "start": 167,
                                     "end": 174
@@ -703,7 +703,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 174,
                                         "end": 176
@@ -816,7 +816,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 207,
                                         "end": 209
@@ -1009,7 +1009,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "get",
-                                    "rawText": " get",
+                                    "rawText": "get",
                                     "flags": 96,
                                     "start": 269,
                                     "end": 273
@@ -1035,7 +1035,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 273,
                                         "end": 275
@@ -1127,7 +1127,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 304,
                                     "end": 308
@@ -1153,7 +1153,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 308,
                                         "end": 310
@@ -1264,7 +1264,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 340,
                                     "end": 342
@@ -1346,7 +1346,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 365,
                                     "end": 371

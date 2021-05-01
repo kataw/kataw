@@ -34,7 +34,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "interface",
-                                        "rawText": " interface",
+                                        "rawText": "interface",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 12
@@ -42,7 +42,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14

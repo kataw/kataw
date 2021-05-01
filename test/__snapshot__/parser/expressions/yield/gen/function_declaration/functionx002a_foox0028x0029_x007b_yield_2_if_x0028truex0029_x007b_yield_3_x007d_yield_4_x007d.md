@@ -33,7 +33,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 34

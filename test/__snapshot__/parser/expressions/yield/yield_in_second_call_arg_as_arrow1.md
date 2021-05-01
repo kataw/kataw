@@ -86,7 +86,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 20,
                                                 "end": 22
@@ -102,7 +102,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "foo",
-                                                    "rawText": " foo",
+                                                    "rawText": "foo",
                                                     "flags": 96,
                                                     "start": 24,
                                                     "end": 28
@@ -131,7 +131,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "y",
-                                                                "rawText": " y",
+                                                                "rawText": "y",
                                                                 "flags": 96,
                                                                 "start": 37,
                                                                 "end": 39
@@ -164,7 +164,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 44,
                                     "end": 46

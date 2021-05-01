@@ -63,7 +63,7 @@ for (a * b + c * d;b;c);
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 8,
                         "end": 10
@@ -83,7 +83,7 @@ for (a * b + c * d;b;c);
                     "left": {
                         "kind": 134299649,
                         "text": "c",
-                        "rawText": " c",
+                        "rawText": "c",
                         "flags": 96,
                         "start": 12,
                         "end": 14
@@ -97,7 +97,7 @@ for (a * b + c * d;b;c);
                     "right": {
                         "kind": 134299649,
                         "text": "d",
-                        "rawText": " d",
+                        "rawText": "d",
                         "flags": 96,
                         "start": 16,
                         "end": 18

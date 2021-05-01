@@ -34,7 +34,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
             "name": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -133,7 +133,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                             "expression": {
                                                                                 "kind": 134299649,
                                                                                 "text": "t",
-                                                                                "rawText": " t",
+                                                                                "rawText": "t",
                                                                                 "flags": 96,
                                                                                 "start": 39,
                                                                                 "end": 41
@@ -152,7 +152,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                         "expression": {
                                                                                             "kind": 134299649,
                                                                                             "text": "bar",
-                                                                                            "rawText": " bar",
+                                                                                            "rawText": "bar",
                                                                                             "flags": 96,
                                                                                             "start": 47,
                                                                                             "end": 51

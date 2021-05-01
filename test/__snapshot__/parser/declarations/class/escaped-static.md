@@ -59,7 +59,7 @@ class C {
                             "name": {
                                 "kind": 134299649,
                                 "text": "m",
-                                "rawText": " m",
+                                "rawText": "m",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 25

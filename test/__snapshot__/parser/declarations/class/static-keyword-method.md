@@ -57,7 +57,7 @@ class C { static delete() {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "delete",
-                                "rawText": " delete",
+                                "rawText": "delete",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 23

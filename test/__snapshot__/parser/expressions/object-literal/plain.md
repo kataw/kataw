@@ -43,7 +43,7 @@ x= { prototype(){} }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "prototype",
-                                    "rawText": " prototype",
+                                    "rawText": "prototype",
                                     "flags": 96,
                                     "start": 4,
                                     "end": 14

@@ -36,7 +36,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 9,
                         "end": 11
@@ -144,7 +144,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 44,
                         "end": 46
@@ -279,7 +279,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 87,
                         "end": 89
@@ -404,7 +404,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 126,
                         "end": 128
@@ -529,7 +529,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 165,
                         "end": 167

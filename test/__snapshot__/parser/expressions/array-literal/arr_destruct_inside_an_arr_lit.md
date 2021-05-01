@@ -48,7 +48,7 @@
                                         {
                                             "kind": 134299649,
                                             "text": "baz",
-                                            "rawText": " baz",
+                                            "rawText": "baz",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 15
@@ -72,7 +72,7 @@
                             "right": {
                                 "kind": 134299649,
                                 "text": "doo",
-                                "rawText": " doo",
+                                "rawText": "doo",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 22

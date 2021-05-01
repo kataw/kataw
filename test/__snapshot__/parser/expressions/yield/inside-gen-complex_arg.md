@@ -34,7 +34,7 @@ function* f(){ yield x + y; }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -70,7 +70,7 @@ function* f(){ yield x + y; }
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 20,
                                         "end": 22
@@ -84,7 +84,7 @@ function* f(){ yield x + y; }
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 26

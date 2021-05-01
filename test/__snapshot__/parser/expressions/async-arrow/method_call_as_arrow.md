@@ -59,7 +59,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                         {
                                                             "kind": 134299649,
                                                             "text": "bar",
-                                                            "rawText": " bar",
+                                                            "rawText": "bar",
                                                             "flags": 96,
                                                             "start": 20,
                                                             "end": 24
@@ -144,7 +144,7 @@ async ({ident: [foo, bar].join("")}) => x
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 39,
                 "end": 41

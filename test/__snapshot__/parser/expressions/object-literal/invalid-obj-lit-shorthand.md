@@ -87,7 +87,7 @@ f({x = 0});
                 "expression": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\n\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 14,
                     "end": 17

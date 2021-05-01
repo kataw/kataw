@@ -47,7 +47,7 @@ class x { "constructor"(){}; constructor(){}; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -128,7 +128,7 @@ class x { "constructor"(){}; constructor(){}; }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 40

@@ -36,7 +36,7 @@ while (false) let // ASI
                 "expression": {
                     "kind": 134299649,
                     "text": "let",
-                    "rawText": " let",
+                    "rawText": "let",
                     "flags": 96,
                     "start": 13,
                     "end": 17

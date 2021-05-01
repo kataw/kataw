@@ -29,7 +29,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "try",
-                                    "rawText": " try",
+                                    "rawText": "try",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 7

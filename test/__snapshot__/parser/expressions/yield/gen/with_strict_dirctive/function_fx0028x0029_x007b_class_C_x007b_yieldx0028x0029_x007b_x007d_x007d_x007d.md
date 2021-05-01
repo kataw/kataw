@@ -47,7 +47,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 22,
                 "end": 24
@@ -103,7 +103,7 @@
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 38,
                                                 "end": 44

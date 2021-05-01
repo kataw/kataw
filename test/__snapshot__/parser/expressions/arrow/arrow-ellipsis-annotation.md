@@ -38,7 +38,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "symbol",
-                "rawText": " symbol",
+                "rawText": "symbol",
                 "flags": 96,
                 "start": 8,
                 "end": 15
@@ -52,7 +52,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 19,
                 "end": 21

@@ -32,7 +32,7 @@ class x {static get finally(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {static get finally(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "finally",
-                                "rawText": " finally",
+                                "rawText": "finally",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 27

@@ -37,7 +37,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -96,7 +96,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                         "binding": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 22,
                             "end": 24

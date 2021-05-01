@@ -38,7 +38,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -107,7 +107,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "foo",
-                                                            "rawText": " foo",
+                                                            "rawText": "foo",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 47
@@ -119,7 +119,7 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
-                                                                "rawText": " yield",
+                                                                "rawText": "yield",
                                                                 "flags": 96,
                                                                 "start": 49,
                                                                 "end": 55

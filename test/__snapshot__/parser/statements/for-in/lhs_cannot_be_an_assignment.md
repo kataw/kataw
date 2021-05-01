@@ -52,7 +52,7 @@ for (x = y in z) ;
                     "left": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 8,
                         "end": 10
@@ -66,7 +66,7 @@ for (x = y in z) ;
                     "right": {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 13,
                         "end": 15

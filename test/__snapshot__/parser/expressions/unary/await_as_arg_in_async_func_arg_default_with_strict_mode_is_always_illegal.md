@@ -34,7 +34,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -72,7 +72,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",
-                                "rawText": " g",
+                                "rawText": "g",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 38
@@ -112,7 +112,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "x",
-                                                    "rawText": " x",
+                                                    "rawText": "x",
                                                     "flags": 96,
                                                     "start": 50,
                                                     "end": 52

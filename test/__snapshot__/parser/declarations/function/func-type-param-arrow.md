@@ -34,7 +34,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -104,7 +104,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "expression": {
                 "kind": 134299649,
                 "text": "number",
-                "rawText": " number",
+                "rawText": "number",
                 "flags": 96,
                 "start": 26,
                 "end": 33
@@ -140,7 +140,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 45,
                 "end": 49
@@ -259,7 +259,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "expression": {
                 "kind": 134299649,
                 "text": "number",
-                "rawText": " number",
+                "rawText": "number",
                 "flags": 96,
                 "start": 83,
                 "end": 90
@@ -295,7 +295,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 103,
                 "end": 107
@@ -482,7 +482,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "expression": {
                 "kind": 134299649,
                 "text": "number",
-                "rawText": " number",
+                "rawText": "number",
                 "flags": 96,
                 "start": 152,
                 "end": 159

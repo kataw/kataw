@@ -185,7 +185,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "member": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": "\n\na",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 18
@@ -363,7 +363,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "member": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": "\n\nz",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 35,
                                             "end": 38
@@ -571,7 +571,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "member": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": "\n\nz",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 59,
                                             "end": 62

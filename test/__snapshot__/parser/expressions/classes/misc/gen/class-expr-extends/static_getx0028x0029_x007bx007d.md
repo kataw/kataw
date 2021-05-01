@@ -77,7 +77,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "get",
-                                        "rawText": " get",
+                                        "rawText": "get",
                                         "flags": 96,
                                         "start": 27,
                                         "end": 31

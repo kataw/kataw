@@ -33,7 +33,7 @@ function not_gen() { yield 3 + yield 4; }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -57,7 +57,7 @@ function not_gen() { yield 3 + yield 4; }}
                             "expression": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 26
@@ -87,7 +87,7 @@ function not_gen() { yield 3 + yield 4; }}
                                 "right": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 36

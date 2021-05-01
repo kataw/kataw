@@ -33,7 +33,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "wrap",
-                                "rawText": " wrap",
+                                "rawText": "wrap",
                                 "flags": 96,
                                 "start": 35,
                                 "end": 40
@@ -109,7 +109,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "await",
-                                                "rawText": " await",
+                                                "rawText": "await",
                                                 "flags": 96,
                                                 "start": 59,
                                                 "end": 65

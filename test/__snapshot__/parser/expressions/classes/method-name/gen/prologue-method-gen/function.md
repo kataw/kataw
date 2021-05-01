@@ -80,7 +80,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 28,
                                                 "end": 30

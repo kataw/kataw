@@ -51,7 +51,7 @@ x({get 0o4567(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 4,
                                             "end": 8
@@ -153,7 +153,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 24,
                     "end": 26
@@ -213,7 +213,7 @@ x({get 0o4567(){}});
                                     {
                                         "kind": 134299649,
                                         "text": "get",
-                                        "rawText": " get",
+                                        "rawText": "get",
                                         "flags": 96,
                                         "start": 38,
                                         "end": 42
@@ -293,7 +293,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 55,
                     "end": 57
@@ -389,7 +389,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 75,
                     "end": 77
@@ -457,7 +457,7 @@ x({get 0o4567(){}});
                                     {
                                         "kind": 134299649,
                                         "text": "get",
-                                        "rawText": " get",
+                                        "rawText": "get",
                                         "flags": 96,
                                         "start": 93,
                                         "end": 97
@@ -537,7 +537,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 110,
                     "end": 112
@@ -555,7 +555,7 @@ x({get 0o4567(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 117,
                                             "end": 121
@@ -619,7 +619,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 128,
                     "end": 130
@@ -637,7 +637,7 @@ x({get 0o4567(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 135,
                                             "end": 139
@@ -675,7 +675,7 @@ x({get 0o4567(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 148,
                                             "end": 152
@@ -739,7 +739,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 159,
                     "end": 161
@@ -829,7 +829,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 179,
                     "end": 181
@@ -919,7 +919,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 195,
                     "end": 197
@@ -1009,7 +1009,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 218,
                     "end": 220
@@ -1099,7 +1099,7 @@ x({get 0o4567(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 238,
                     "end": 240

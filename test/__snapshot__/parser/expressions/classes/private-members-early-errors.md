@@ -138,7 +138,7 @@ class C { foo() { this.#a = 1; }}
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "val",
-                                                                "rawText": " val",
+                                                                "rawText": "val",
                                                                 "flags": 96,
                                                                 "start": 32,
                                                                 "end": 36
@@ -481,7 +481,7 @@ class C { foo() { this.#a = 1; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 143,
                                 "end": 147

@@ -66,7 +66,7 @@ a => {
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 19
@@ -86,7 +86,7 @@ a => {
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 24
@@ -96,7 +96,7 @@ a => {
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27

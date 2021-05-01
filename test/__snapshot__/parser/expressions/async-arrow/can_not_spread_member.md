@@ -85,7 +85,7 @@ async ([...x.y]) => z
             "contents": {
                 "kind": 134299649,
                 "text": "z",
-                "rawText": " z",
+                "rawText": "z",
                 "flags": 96,
                 "start": 19,
                 "end": 21

@@ -54,7 +54,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 3,
                                 "end": 5
@@ -86,7 +86,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "arr",
-                                        "rawText": " arr",
+                                        "rawText": "arr",
                                         "flags": 96,
                                         "start": 13,
                                         "end": 17
@@ -118,7 +118,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 22

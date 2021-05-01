@@ -60,7 +60,7 @@
                 "consequent": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 23,
                     "end": 29
@@ -74,7 +74,7 @@
                 "alternate": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 31,
                     "end": 37

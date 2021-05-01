@@ -70,7 +70,7 @@ switch (0) {
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 37
@@ -131,7 +131,7 @@ switch (0) {
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 66,
                                     "end": 68

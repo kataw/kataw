@@ -125,7 +125,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "to",
-                            "rawText": " to",
+                            "rawText": "to",
                             "flags": 96,
                             "start": 26,
                             "end": 29
@@ -158,7 +158,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "or",
-                            "rawText": " or",
+                            "rawText": "or",
                             "flags": 96,
                             "start": 34,
                             "end": 37
@@ -172,7 +172,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "another",
-                            "rawText": " another",
+                            "rawText": "another",
                             "flags": 96,
                             "start": 37,
                             "end": 45
@@ -186,7 +186,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "of",
-                            "rawText": " of",
+                            "rawText": "of",
                             "flags": 96,
                             "start": 45,
                             "end": 48
@@ -212,7 +212,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "parser",
-                            "rawText": " parser",
+                            "rawText": "parser",
                             "flags": 96,
                             "start": 53,
                             "end": 60
@@ -242,7 +242,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "run",
-                                "rawText": " run",
+                                "rawText": "run",
                                 "flags": 96,
                                 "start": 68,
                                 "end": 72
@@ -281,7 +281,7 @@
                         "incrementor": {
                             "kind": 134299649,
                             "text": "want",
-                            "rawText": " want",
+                            "rawText": "want",
                             "flags": 96,
                             "start": 78,
                             "end": 83

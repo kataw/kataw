@@ -94,7 +94,7 @@ a});
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -127,7 +127,7 @@ a});
                         "initializer": {
                             "kind": 134299649,
                             "text": "bar",
-                            "rawText": " bar",
+                            "rawText": "bar",
                             "flags": 96,
                             "start": 23,
                             "end": 27
@@ -185,7 +185,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 48,
                                     "end": 50
@@ -267,7 +267,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 76,
                                     "end": 78
@@ -301,7 +301,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 83,
                                     "end": 85
@@ -370,7 +370,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 106,
                                     "end": 108
@@ -409,7 +409,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 113,
                                         "end": 115
@@ -503,7 +503,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 140,
                                     "end": 142
@@ -641,7 +641,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 175,
                                     "end": 177
@@ -780,7 +780,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 213,
                                     "end": 215
@@ -855,7 +855,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 237,
                                     "end": 239
@@ -882,7 +882,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 240,
                                     "end": 242
@@ -957,7 +957,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 264,
                                     "end": 266
@@ -989,7 +989,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 267,
                                         "end": 269
@@ -1083,7 +1083,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 294,
                                     "end": 296
@@ -1214,7 +1214,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 325,
                                     "end": 327
@@ -1474,7 +1474,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 402,
                                     "end": 404
@@ -1588,7 +1588,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 436,
                                         "end": 438
@@ -2085,7 +2085,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 579,
                                     "end": 581
@@ -2198,7 +2198,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 610,
                                         "end": 612
@@ -2553,7 +2553,7 @@ a});
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 708,
                             "end": 710
@@ -2648,7 +2648,7 @@ a});
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 744,
                             "end": 746
@@ -2736,7 +2736,7 @@ a});
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 776,
                             "end": 778
@@ -2831,7 +2831,7 @@ a});
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 814,
                             "end": 816
@@ -2933,7 +2933,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 852,
                                     "end": 858
@@ -3009,7 +3009,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 884,
                                     "end": 890
@@ -3030,7 +3030,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": "\n a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 890,
                                     "end": 893
@@ -3099,7 +3099,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 915,
                                     "end": 921
@@ -3174,7 +3174,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 943,
                                     "end": 949
@@ -3256,7 +3256,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 975,
                                     "end": 981
@@ -3325,7 +3325,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 1002,
                                     "end": 1008
@@ -3411,7 +3411,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": "\n a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 1040,
                                         "end": 1043
@@ -3510,7 +3510,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": "\na",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1122,
                                     "end": 1124
@@ -3579,7 +3579,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 1146,
                                     "end": 1152
@@ -3654,7 +3654,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 1174,
                                     "end": 1180
@@ -3736,7 +3736,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 1207,
                                     "end": 1213
@@ -3757,7 +3757,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": "\n a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1213,
                                     "end": 1216
@@ -3826,7 +3826,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 1238,
                                     "end": 1240
@@ -3867,7 +3867,7 @@ a});
                                     "right": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 1248,
                                         "end": 1250
@@ -3930,7 +3930,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1271,
                                     "end": 1273
@@ -3999,7 +3999,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1299,
                                     "end": 1301
@@ -4027,7 +4027,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 1305,
                                     "end": 1308
@@ -4089,7 +4089,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1329,
                                     "end": 1331
@@ -4122,7 +4122,7 @@ a});
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": "\n b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 1335,
                                         "end": 1338
@@ -4209,7 +4209,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1363,
                                     "end": 1365
@@ -4271,7 +4271,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1387,
                                     "end": 1389
@@ -4292,7 +4292,7 @@ a});
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 1389,
                                     "end": 1392

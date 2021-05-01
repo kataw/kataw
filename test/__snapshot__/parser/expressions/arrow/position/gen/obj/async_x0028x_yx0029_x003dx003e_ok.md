@@ -69,7 +69,7 @@ x = {arrow: async (x, y) => ok}
                                         {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
@@ -85,7 +85,7 @@ x = {arrow: async (x, y) => ok}
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 27,
                                         "end": 30

@@ -32,7 +32,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                         "binding": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -55,7 +55,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 23,
                                                 "end": 25
@@ -63,7 +63,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "finally",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 22
@@ -110,7 +110,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "finally",
-                                                "rawText": " finally",
+                                                "rawText": "finally",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 39

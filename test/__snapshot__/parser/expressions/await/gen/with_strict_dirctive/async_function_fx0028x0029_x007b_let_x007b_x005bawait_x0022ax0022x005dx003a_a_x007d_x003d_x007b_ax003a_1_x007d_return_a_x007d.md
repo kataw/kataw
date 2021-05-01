@@ -58,7 +58,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 28,
                 "end": 30
@@ -130,7 +130,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
-                                                                "rawText": " a",
+                                                                "rawText": "a",
                                                                 "flags": 96,
                                                                 "start": 55,
                                                                 "end": 57
@@ -178,7 +178,7 @@
                                                         "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
-                                                            "rawText": " a",
+                                                            "rawText": "a",
                                                             "flags": 96,
                                                             "start": 63,
                                                             "end": 65
@@ -221,7 +221,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 80,
                                 "end": 82

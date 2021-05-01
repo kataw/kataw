@@ -63,7 +63,7 @@ var {x = 10, y: { z = 10}} = a;
                                         "key": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 15
@@ -82,7 +82,7 @@ var {x = 10, y: { z = 10}} = a;
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "z",
-                                                                "rawText": " z",
+                                                                "rawText": "z",
                                                                 "flags": 96,
                                                                 "start": 17,
                                                                 "end": 19
@@ -133,7 +133,7 @@ var {x = 10, y: { z = 10}} = a;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 28,
                             "end": 30

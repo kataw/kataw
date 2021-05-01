@@ -47,7 +47,7 @@ class x{   async static static(){}    }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -71,7 +71,7 @@ class x{   async static static(){}    }
                         "key": {
                             "kind": 134299649,
                             "text": "static",
-                            "rawText": " static",
+                            "rawText": "static",
                             "flags": 96,
                             "start": 16,
                             "end": 23
@@ -97,7 +97,7 @@ class x{   async static static(){}    }
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": " static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 30

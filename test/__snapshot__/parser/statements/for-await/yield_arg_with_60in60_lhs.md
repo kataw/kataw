@@ -38,7 +38,7 @@ async function f(){
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -116,7 +116,7 @@ async function f(){
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "x",
-                                                    "rawText": " x",
+                                                    "rawText": "x",
                                                     "flags": 96,
                                                     "start": 57,
                                                     "end": 59
@@ -128,7 +128,7 @@ async function f(){
                                             "condition": {
                                                 "kind": 134299649,
                                                 "text": "of",
-                                                "rawText": " of",
+                                                "rawText": "of",
                                                 "flags": 96,
                                                 "start": 64,
                                                 "end": 67
@@ -136,7 +136,7 @@ async function f(){
                                             "incrementor": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 62,
                                                 "end": 64
@@ -146,7 +146,7 @@ async function f(){
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "z",
-                                                    "rawText": " z",
+                                                    "rawText": "z",
                                                     "flags": 96,
                                                     "start": 67,
                                                     "end": 69

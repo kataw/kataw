@@ -113,7 +113,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "get",
-                                "rawText": "\n  get",
+                                "rawText": "get",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 15
@@ -164,7 +164,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "set",
-                                "rawText": "\n\n  set",
+                                "rawText": "set",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 30
@@ -215,7 +215,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": "\n\n  static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 48
@@ -266,7 +266,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": "\n\n  async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 56,
                                 "end": 65
@@ -475,7 +475,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "get",
-                                "rawText": "\n  get",
+                                "rawText": "get",
                                 "flags": 96,
                                 "start": 138,
                                 "end": 144
@@ -531,7 +531,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "set",
-                                "rawText": "\n  set",
+                                "rawText": "set",
                                 "flags": 96,
                                 "start": 162,
                                 "end": 168
@@ -587,7 +587,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": "\n  static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 186,
                                 "end": 195
@@ -643,7 +643,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": "\n  async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 213,
                                 "end": 221
@@ -699,7 +699,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 239,
                                 "end": 243
@@ -755,7 +755,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": "\n  async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 259,
                                 "end": 267
@@ -816,7 +816,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": "\n  static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 292,
                                 "end": 301

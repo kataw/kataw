@@ -126,7 +126,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 16,
                     "end": 19
@@ -208,7 +208,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 32,
                     "end": 35
@@ -290,7 +290,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 48,
                     "end": 51
@@ -308,7 +308,7 @@ x({*foo(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 58,
                                             "end": 62
@@ -346,7 +346,7 @@ x({*foo(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 67,
                                             "end": 71
@@ -410,7 +410,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 78,
                     "end": 81
@@ -466,7 +466,7 @@ x({*foo(){}});
                                         "name": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 97,
                                             "end": 101
@@ -530,7 +530,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 108,
                     "end": 111
@@ -620,7 +620,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 131,
                     "end": 134
@@ -716,7 +716,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 154,
                     "end": 157
@@ -836,7 +836,7 @@ x({*foo(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 179,
                     "end": 182

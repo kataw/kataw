@@ -357,7 +357,7 @@ new import(x);
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 101,
                 "end": 103
@@ -1052,7 +1052,7 @@ new import(x);
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 320,
                                 "end": 322

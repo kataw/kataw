@@ -47,7 +47,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -122,7 +122,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 36,
                 "end": 38
@@ -183,7 +183,7 @@ let x = { foo(){ super(); } };
             "expression": {
                 "kind": 134299649,
                 "text": "y",
-                "rawText": " y",
+                "rawText": "y",
                 "flags": 96,
                 "start": 56,
                 "end": 58
@@ -224,7 +224,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 69,
                 "end": 71
@@ -243,7 +243,7 @@ let x = { foo(){ super(); } };
                     "expression": {
                         "kind": 134299649,
                         "text": "feh",
-                        "rawText": " feh",
+                        "rawText": "feh",
                         "flags": 96,
                         "start": 79,
                         "end": 83
@@ -322,7 +322,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 105,
                 "end": 107
@@ -341,7 +341,7 @@ let x = { foo(){ super(); } };
                     "expression": {
                         "kind": 134299649,
                         "text": "feh",
-                        "rawText": " feh",
+                        "rawText": "feh",
                         "flags": 96,
                         "start": 115,
                         "end": 119
@@ -378,7 +378,7 @@ let x = { foo(){ super(); } };
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 129,
                                 "end": 131
@@ -428,7 +428,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 143,
                 "end": 145
@@ -452,7 +452,7 @@ let x = { foo(){ super(); } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 147,
                                 "end": 151
@@ -565,7 +565,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 173,
                 "end": 175
@@ -584,7 +584,7 @@ let x = { foo(){ super(); } };
                         "key": {
                             "kind": 134299649,
                             "text": "super",
-                            "rawText": " super",
+                            "rawText": "super",
                             "flags": 96,
                             "start": 177,
                             "end": 183
@@ -665,7 +665,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 200,
                 "end": 202
@@ -778,7 +778,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 229,
                 "end": 231
@@ -842,7 +842,7 @@ let x = { foo(){ super(); } };
                         "key": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 244,
                             "end": 246
@@ -906,7 +906,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 260,
                 "end": 262
@@ -930,7 +930,7 @@ let x = { foo(){ super(); } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 264,
                                 "end": 276
@@ -1071,7 +1071,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 310,
                 "end": 312
@@ -1095,7 +1095,7 @@ let x = { foo(){ super(); } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 314,
                                 "end": 326
@@ -1129,7 +1129,7 @@ let x = { foo(){ super(); } };
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 335,
                                                 "end": 337
@@ -1190,7 +1190,7 @@ let x = { foo(){ super(); } };
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 355,
                                                 "end": 357
@@ -1257,7 +1257,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 372,
                 "end": 374
@@ -1281,7 +1281,7 @@ let x = { foo(){ super(); } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 376,
                                 "end": 388
@@ -1315,7 +1315,7 @@ let x = { foo(){ super(); } };
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 397,
                                                 "end": 399
@@ -1334,7 +1334,7 @@ let x = { foo(){ super(); } };
                                                     "expression": {
                                                         "kind": 134299649,
                                                         "text": "feh",
-                                                        "rawText": " feh",
+                                                        "rawText": "feh",
                                                         "flags": 96,
                                                         "start": 407,
                                                         "end": 411
@@ -1371,7 +1371,7 @@ let x = { foo(){ super(); } };
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "y",
-                                                                "rawText": " y",
+                                                                "rawText": "y",
                                                                 "flags": 96,
                                                                 "start": 421,
                                                                 "end": 423
@@ -1447,7 +1447,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 439,
                 "end": 441
@@ -1471,7 +1471,7 @@ let x = { foo(){ super(); } };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 443,
                                 "end": 455
@@ -1505,7 +1505,7 @@ let x = { foo(){ super(); } };
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 464,
                                                 "end": 466
@@ -1529,7 +1529,7 @@ let x = { foo(){ super(); } };
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "foo",
-                                                                "rawText": " foo",
+                                                                "rawText": "foo",
                                                                 "flags": 96,
                                                                 "start": 468,
                                                                 "end": 472
@@ -1662,7 +1662,7 @@ let x = { foo(){ super(); } };
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 492,
                     "end": 494
@@ -1759,7 +1759,7 @@ let x = { foo(){ super(); } };
                                 "right": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 496,
                                     "end": 500
@@ -1793,7 +1793,7 @@ let x = { foo(){ super(); } };
                 "left": {
                     "kind": 134299649,
                     "text": "g",
-                    "rawText": "\ng",
+                    "rawText": "g",
                     "flags": 96,
                     "start": 528,
                     "end": 530
@@ -1817,7 +1817,7 @@ let x = { foo(){ super(); } };
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 539,
                         "end": 541
@@ -1909,7 +1909,7 @@ let x = { foo(){ super(); } };
                 "left": {
                     "kind": 134299649,
                     "text": "g",
-                    "rawText": "\ng",
+                    "rawText": "g",
                     "flags": 96,
                     "start": 558,
                     "end": 560
@@ -1944,7 +1944,7 @@ let x = { foo(){ super(); } };
                                     "name": {
                                         "kind": 134299649,
                                         "text": "f",
-                                        "rawText": " f",
+                                        "rawText": "f",
                                         "flags": 96,
                                         "start": 573,
                                         "end": 575
@@ -2053,7 +2053,7 @@ let x = { foo(){ super(); } };
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 590,
                     "end": 592
@@ -2172,7 +2172,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 630,
                 "end": 632
@@ -2269,7 +2269,7 @@ let x = { foo(){ super(); } };
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 658,
                 "end": 660
@@ -2357,7 +2357,7 @@ let x = { foo(){ super(); } };
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 681,
                             "end": 683
@@ -2445,7 +2445,7 @@ let x = { foo(){ super(); } };
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 703,
                             "end": 705
@@ -2462,7 +2462,7 @@ let x = { foo(){ super(); } };
                                         "name": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 709,
                                             "end": 713

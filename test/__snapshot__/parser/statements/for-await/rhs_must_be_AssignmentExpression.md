@@ -56,7 +56,7 @@ for (let x of a,b) c
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 8,
                             "end": 10
@@ -76,7 +76,7 @@ for (let x of a,b) c
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -120,7 +120,7 @@ for (let x of a,b) c
             "expression": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 18,
                 "end": 20

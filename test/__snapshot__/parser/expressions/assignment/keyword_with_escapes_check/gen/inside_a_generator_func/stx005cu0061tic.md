@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "static",
-                                    "rawText": "\n  st\\u0061tic",
+                                    "rawText": "st\\u0061tic",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 28
@@ -80,7 +80,7 @@ function *f(){
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 32

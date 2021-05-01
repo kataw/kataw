@@ -53,7 +53,7 @@ switch(x) /* comment */ { case y: foo }
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 30,
                             "end": 32
@@ -64,7 +64,7 @@ switch(x) /* comment */ { case y: foo }
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 33,
                                     "end": 37

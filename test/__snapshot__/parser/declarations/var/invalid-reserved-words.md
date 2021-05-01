@@ -72,7 +72,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "implements",
-                            "rawText": " implements",
+                            "rawText": "implements",
                             "flags": 96,
                             "start": 18,
                             "end": 29
@@ -210,7 +210,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 78,
                             "end": 82
@@ -293,7 +293,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 109,
                             "end": 113

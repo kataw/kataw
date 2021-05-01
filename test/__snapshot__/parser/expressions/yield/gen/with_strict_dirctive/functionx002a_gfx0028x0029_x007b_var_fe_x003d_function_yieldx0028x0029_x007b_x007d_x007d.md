@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "gf",
-                "rawText": " gf",
+                "rawText": "gf",
                 "flags": 96,
                 "start": 23,
                 "end": 26
@@ -88,7 +88,7 @@
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "fe",
-                                            "rawText": " fe",
+                                            "rawText": "fe",
                                             "flags": 96,
                                             "start": 34,
                                             "end": 37
@@ -108,7 +108,7 @@
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 48,
                                                 "end": 54

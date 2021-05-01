@@ -35,7 +35,7 @@ const obj = {
                         "binding": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 5,
                             "end": 9
@@ -50,7 +50,7 @@ const obj = {
                                     {
                                         "kind": 134299649,
                                         "text": "async",
-                                        "rawText": "\n    async",
+                                        "rawText": "async",
                                         "flags": 96,
                                         "start": 13,
                                         "end": 23

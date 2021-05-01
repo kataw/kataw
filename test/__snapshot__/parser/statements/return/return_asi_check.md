@@ -30,7 +30,7 @@ function f(){   return
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -67,7 +67,7 @@ function f(){   return
                             "expression": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": "\n foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 27

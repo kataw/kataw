@@ -50,7 +50,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 17,
                             "end": 21
@@ -62,7 +62,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 29

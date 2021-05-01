@@ -53,7 +53,7 @@ switch (x) { case x: const y = x }
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 17,
                             "end": 19
@@ -75,7 +75,7 @@ switch (x) { case x: const y = x }
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 26,
                                                 "end": 28
@@ -85,7 +85,7 @@ switch (x) { case x: const y = x }
                                             "initializer": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 30,
                                                 "end": 32

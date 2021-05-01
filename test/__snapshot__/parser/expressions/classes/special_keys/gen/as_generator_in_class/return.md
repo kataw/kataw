@@ -32,7 +32,7 @@ class x {* return(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {* return(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "return",
-                                "rawText": " return",
+                                "rawText": "return",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 17

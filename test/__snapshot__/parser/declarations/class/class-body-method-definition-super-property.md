@@ -59,7 +59,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": "\n  constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 23
@@ -157,7 +157,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "dontDoThis",
-                                "rawText": "\n  dontDoThis",
+                                "rawText": "dontDoThis",
                                 "flags": 96,
                                 "start": 53,
                                 "end": 66

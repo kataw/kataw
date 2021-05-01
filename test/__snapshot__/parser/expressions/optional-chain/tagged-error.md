@@ -93,7 +93,7 @@ a?.()``;
                 "member": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 7,
                     "end": 10
@@ -154,7 +154,7 @@ a?.()``;
                 "member": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 20,
                     "end": 23

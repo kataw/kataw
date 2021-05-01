@@ -84,7 +84,7 @@ new new foo().bar++;
                     "expression": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": "\n\nfoo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 8,
                         "end": 13
@@ -135,7 +135,7 @@ new new foo().bar++;
                         "member": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": "\n\nfoo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 21,
                             "end": 26
@@ -189,7 +189,7 @@ new new foo().bar++;
                         "member": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": "\n\nfoo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 36,
                             "end": 41
@@ -385,7 +385,7 @@ new new foo().bar++;
                     "expression": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": " foo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 95,
                         "end": 99
@@ -441,7 +441,7 @@ new new foo().bar++;
                             "expression": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 113,
                                 "end": 117

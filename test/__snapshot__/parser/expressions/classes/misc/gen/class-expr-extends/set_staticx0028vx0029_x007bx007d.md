@@ -77,7 +77,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "static",
-                                        "rawText": " static",
+                                        "rawText": "static",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 31

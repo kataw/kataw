@@ -53,7 +53,7 @@ do[ async funcion switch!!
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "funcion",
-                                            "rawText": " funcion",
+                                            "rawText": "funcion",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 17

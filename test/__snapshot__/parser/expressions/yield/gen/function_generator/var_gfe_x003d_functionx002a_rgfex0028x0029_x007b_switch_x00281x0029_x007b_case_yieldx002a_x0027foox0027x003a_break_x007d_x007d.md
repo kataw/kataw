@@ -38,7 +38,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -107,7 +107,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "gfe",
-                                                            "rawText": " gfe",
+                                                            "rawText": "gfe",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 47
@@ -132,7 +132,7 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "rgfe",
-                                                                "rawText": " rgfe",
+                                                                "rawText": "rgfe",
                                                                 "flags": 96,
                                                                 "start": 59,
                                                                 "end": 64

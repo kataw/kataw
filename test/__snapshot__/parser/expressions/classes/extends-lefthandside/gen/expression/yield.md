@@ -52,7 +52,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 16,
                             "end": 22

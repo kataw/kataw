@@ -36,7 +36,7 @@ var e = (await, f);
                         "binding": {
                             "kind": 134299649,
                             "text": "e",
-                            "rawText": " e",
+                            "rawText": "e",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -59,7 +59,7 @@ var e = (await, f);
                                     {
                                         "kind": 134299649,
                                         "text": "f",
-                                        "rawText": " f",
+                                        "rawText": "f",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 17

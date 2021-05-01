@@ -46,7 +46,7 @@ x = {
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": "\n    method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 16

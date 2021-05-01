@@ -66,7 +66,7 @@ x = {arrow: async async => {}}.y
                                                 "binding": {
                                                     "kind": 134299649,
                                                     "text": "async",
-                                                    "rawText": " async",
+                                                    "rawText": "async",
                                                     "flags": 96,
                                                     "start": 17,
                                                     "end": 23

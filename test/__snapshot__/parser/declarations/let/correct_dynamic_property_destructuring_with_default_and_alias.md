@@ -75,7 +75,7 @@ let {[x]: y = z} = a;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 11
@@ -83,7 +83,7 @@ let {[x]: y = z} = a;
                                             "initializer": {
                                                 "kind": 134299649,
                                                 "text": "z",
-                                                "rawText": " z",
+                                                "rawText": "z",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15
@@ -111,7 +111,7 @@ let {[x]: y = z} = a;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 18,
                             "end": 20

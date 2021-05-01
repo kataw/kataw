@@ -46,7 +46,7 @@ let {x}: string = y;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -72,7 +72,7 @@ let {x}: string = y;
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 6,
                 "end": 13
@@ -150,7 +150,7 @@ let {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 24,
                     "end": 31
@@ -164,7 +164,7 @@ let {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 33,
                     "end": 35
@@ -260,7 +260,7 @@ let {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 53,
                     "end": 60
@@ -274,7 +274,7 @@ let {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 62,
                     "end": 64
@@ -354,7 +354,7 @@ let {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 75,
                     "end": 82
@@ -368,7 +368,7 @@ let {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 84,
                     "end": 86

@@ -61,7 +61,7 @@
                                         "member": {
                                             "kind": 134299649,
                                             "text": "obj",
-                                            "rawText": " obj",
+                                            "rawText": "obj",
                                             "flags": 96,
                                             "start": 5,
                                             "end": 9
@@ -81,7 +81,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 4
@@ -172,7 +172,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 25
@@ -293,7 +293,7 @@
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 56,
                         "end": 58
@@ -380,7 +380,7 @@
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 74,
                         "end": 76
@@ -993,7 +993,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 189,
                                         "end": 191
@@ -1058,7 +1058,7 @@
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 205,
                                         "end": 207
@@ -1131,7 +1131,7 @@
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 222,
                                         "end": 224
@@ -1223,7 +1223,7 @@
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "obj",
-                                                    "rawText": " obj",
+                                                    "rawText": "obj",
                                                     "flags": 96,
                                                     "start": 241,
                                                     "end": 245
@@ -1243,7 +1243,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 238,
                                                 "end": 240
@@ -1350,7 +1350,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 262,
                                                 "end": 264
@@ -1487,7 +1487,7 @@
                             "right": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 298,
                                 "end": 300
@@ -1590,7 +1590,7 @@
                             "right": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 319,
                                 "end": 321
@@ -2299,7 +2299,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 452,
                                                 "end": 454
@@ -2380,7 +2380,7 @@
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 471,
                                                 "end": 473
@@ -2469,7 +2469,7 @@
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 491,
                                                 "end": 493

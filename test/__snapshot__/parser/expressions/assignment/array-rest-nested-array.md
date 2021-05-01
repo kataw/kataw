@@ -100,7 +100,7 @@ result = [...[x]] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 19,
                         "end": 24

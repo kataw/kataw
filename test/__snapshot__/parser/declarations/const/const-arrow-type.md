@@ -39,7 +39,7 @@ const fn = async (a?: any): Promise<void> => {};
                         "binding": {
                             "kind": 134299649,
                             "text": "fn",
-                            "rawText": " fn",
+                            "rawText": "fn",
                             "flags": 96,
                             "start": 5,
                             "end": 8
@@ -91,7 +91,7 @@ const fn = async (a?: any): Promise<void> => {};
                                         "alternate": {
                                             "kind": 134299649,
                                             "text": "any",
-                                            "rawText": " any",
+                                            "rawText": "any",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 25

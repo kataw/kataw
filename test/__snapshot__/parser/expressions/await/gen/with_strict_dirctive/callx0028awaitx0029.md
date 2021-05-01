@@ -40,7 +40,7 @@
                 "expression": {
                     "kind": 134299649,
                     "text": "call",
-                    "rawText": " call",
+                    "rawText": "call",
                     "flags": 96,
                     "start": 13,
                     "end": 18

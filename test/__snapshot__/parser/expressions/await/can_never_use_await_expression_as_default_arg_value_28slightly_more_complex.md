@@ -29,7 +29,7 @@ function call(foo= 5 + (await bar())){}
             "name": {
                 "kind": 134299649,
                 "text": "call",
-                "rawText": " call",
+                "rawText": "call",
                 "flags": 96,
                 "start": 8,
                 "end": 13
@@ -92,7 +92,7 @@ function call(foo= 5 + (await bar())){}
                         "binding": {
                             "kind": 134299649,
                             "text": "bar",
-                            "rawText": " bar",
+                            "rawText": "bar",
                             "flags": 96,
                             "start": 29,
                             "end": 33

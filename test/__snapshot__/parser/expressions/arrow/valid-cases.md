@@ -180,7 +180,7 @@ foo ? bar : baz => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 30,
                     "end": 32
@@ -204,7 +204,7 @@ foo ? bar : baz => {};
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 44,
                                     "end": 46
@@ -270,7 +270,7 @@ foo ? bar : baz => {};
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 66,
                                     "end": 68
@@ -320,7 +320,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 76,
                             "end": 78
@@ -348,7 +348,7 @@ foo ? bar : baz => {};
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 91,
                                         "end": 93
@@ -362,7 +362,7 @@ foo ? bar : baz => {};
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 95,
                                         "end": 97
@@ -416,7 +416,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 105,
                             "end": 107
@@ -424,7 +424,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 108,
                             "end": 110
@@ -454,7 +454,7 @@ foo ? bar : baz => {};
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 123,
                                             "end": 125
@@ -468,7 +468,7 @@ foo ? bar : baz => {};
                                         "right": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 127,
                                             "end": 129
@@ -486,7 +486,7 @@ foo ? bar : baz => {};
                                     "right": {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 131,
                                         "end": 133
@@ -540,7 +540,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 141,
                             "end": 143
@@ -564,7 +564,7 @@ foo ? bar : baz => {};
                                         "member": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 149,
                                             "end": 151
@@ -590,7 +590,7 @@ foo ? bar : baz => {};
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 155,
                                         "end": 157
@@ -664,7 +664,7 @@ foo ? bar : baz => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 171,
                     "end": 173
@@ -674,7 +674,7 @@ foo ? bar : baz => {};
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 176,
                     "end": 178
@@ -701,7 +701,7 @@ foo ? bar : baz => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 179,
                     "end": 181
@@ -713,7 +713,7 @@ foo ? bar : baz => {};
                     "left": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 184,
                         "end": 186
@@ -727,7 +727,7 @@ foo ? bar : baz => {};
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 188,
                         "end": 190
@@ -770,7 +770,7 @@ foo ? bar : baz => {};
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 198,
                     "end": 200
@@ -811,7 +811,7 @@ foo ? bar : baz => {};
                     "left": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 208,
                         "end": 210
@@ -825,7 +825,7 @@ foo ? bar : baz => {};
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 212,
                         "end": 214
@@ -866,7 +866,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 219,
                             "end": 221
@@ -880,7 +880,7 @@ foo ? bar : baz => {};
                     "left": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 225,
                         "end": 227
@@ -894,7 +894,7 @@ foo ? bar : baz => {};
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 229,
                         "end": 231
@@ -938,7 +938,7 @@ foo ? bar : baz => {};
                                 {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 236,
                                     "end": 238
@@ -946,7 +946,7 @@ foo ? bar : baz => {};
                                 {
                                     "kind": 134299649,
                                     "text": "z",
-                                    "rawText": " z",
+                                    "rawText": "z",
                                     "flags": 96,
                                     "start": 239,
                                     "end": 241
@@ -958,7 +958,7 @@ foo ? bar : baz => {};
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 245,
                             "end": 247
@@ -970,7 +970,7 @@ foo ? bar : baz => {};
                     {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 248,
                         "end": 250
@@ -978,7 +978,7 @@ foo ? bar : baz => {};
                     {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 251,
                         "end": 253
@@ -1016,7 +1016,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 258,
                             "end": 260
@@ -1032,7 +1032,7 @@ foo ? bar : baz => {};
                         "member": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 264,
                             "end": 266
@@ -1058,7 +1058,7 @@ foo ? bar : baz => {};
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 270,
                         "end": 272
@@ -1158,7 +1158,7 @@ foo ? bar : baz => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 296,
                     "end": 298
@@ -1177,7 +1177,7 @@ foo ? bar : baz => {};
                     "parameters": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 301,
                         "end": 303
@@ -1189,7 +1189,7 @@ foo ? bar : baz => {};
                         "left": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 306,
                             "end": 308
@@ -1203,7 +1203,7 @@ foo ? bar : baz => {};
                         "right": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 310,
                             "end": 312
@@ -1248,7 +1248,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 317,
                             "end": 319
@@ -1279,7 +1279,7 @@ foo ? bar : baz => {};
                             {
                                 "kind": 134299649,
                                 "text": "v",
-                                "rawText": " v",
+                                "rawText": "v",
                                 "flags": 96,
                                 "start": 327,
                                 "end": 329
@@ -1295,7 +1295,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 333,
                                 "end": 335
@@ -1329,7 +1329,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 339,
                                 "end": 341
@@ -1392,7 +1392,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 348,
                             "end": 350
@@ -1413,7 +1413,7 @@ foo ? bar : baz => {};
                     "parameters": {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 354,
                         "end": 356
@@ -1425,7 +1425,7 @@ foo ? bar : baz => {};
                         "left": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 359,
                             "end": 361
@@ -1457,7 +1457,7 @@ foo ? bar : baz => {};
                                 "right": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 368,
                                     "end": 370
@@ -1500,7 +1500,7 @@ foo ? bar : baz => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 372,
                     "end": 374
@@ -1529,7 +1529,7 @@ foo ? bar : baz => {};
                             {
                                 "kind": 134299649,
                                 "text": "z",
-                                "rawText": " z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 381,
                                 "end": 383
@@ -1543,7 +1543,7 @@ foo ? bar : baz => {};
                         "left": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 387,
                             "end": 389
@@ -1575,7 +1575,7 @@ foo ? bar : baz => {};
                                 "right": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 396,
                                     "end": 398
@@ -1612,7 +1612,7 @@ foo ? bar : baz => {};
                     {
                         "kind": 134299649,
                         "text": "a",
-                        "rawText": "\n\n// Those are comma-separated expressions, with arrow functions as items.\n// They stress the code for validating arrow function parameter lists.\na",
+                        "rawText": "a",
                         "flags": 96,
                         "start": 400,
                         "end": 547
@@ -1629,7 +1629,7 @@ foo ? bar : baz => {};
                         "parameters": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 548,
                             "end": 550
@@ -1665,7 +1665,7 @@ foo ? bar : baz => {};
                     {
                         "kind": 134299649,
                         "text": "a",
-                        "rawText": "\na",
+                        "rawText": "a",
                         "flags": 96,
                         "start": 556,
                         "end": 558
@@ -1673,7 +1673,7 @@ foo ? bar : baz => {};
                     {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 559,
                         "end": 561
@@ -1700,7 +1700,7 @@ foo ? bar : baz => {};
                                 {
                                     "kind": 134299649,
                                     "text": "d",
-                                    "rawText": " d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 566,
                                     "end": 568
@@ -1748,7 +1748,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 579,
                             "end": 581
@@ -1775,7 +1775,7 @@ foo ? bar : baz => {};
                                     {
                                         "kind": 134299649,
                                         "text": "d",
-                                        "rawText": " d",
+                                        "rawText": "d",
                                         "flags": 96,
                                         "start": 586,
                                         "end": 588
@@ -1836,7 +1836,7 @@ foo ? bar : baz => {};
                                 {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 600,
                                     "end": 602
@@ -1879,7 +1879,7 @@ foo ? bar : baz => {};
                                 {
                                     "kind": 134299649,
                                     "text": "d",
-                                    "rawText": " d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 613,
                                     "end": 615
@@ -1936,7 +1936,7 @@ foo ? bar : baz => {};
                             "parameters": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 626,
                                 "end": 628
@@ -1973,7 +1973,7 @@ foo ? bar : baz => {};
                             "parameters": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 635,
                                 "end": 637
@@ -1985,7 +1985,7 @@ foo ? bar : baz => {};
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 640,
                                     "end": 642
@@ -2054,7 +2054,7 @@ foo ? bar : baz => {};
                                     {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 653,
                                         "end": 655
@@ -2107,7 +2107,7 @@ foo ? bar : baz => {};
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 669,
                                         "end": 671
@@ -2201,7 +2201,7 @@ foo ? bar : baz => {};
                                                 {
                                                     "kind": 134299649,
                                                     "text": "c",
-                                                    "rawText": " c",
+                                                    "rawText": "c",
                                                     "flags": 96,
                                                     "start": 690,
                                                     "end": 692
@@ -2251,7 +2251,7 @@ foo ? bar : baz => {};
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\n\n// Arrow has more precedence, this is the same as: foo ? bar : (baz = {})\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 701,
                     "end": 780
@@ -2265,7 +2265,7 @@ foo ? bar : baz => {};
                 "consequent": {
                     "kind": 134299649,
                     "text": "bar",
-                    "rawText": " bar",
+                    "rawText": "bar",
                     "flags": 96,
                     "start": 782,
                     "end": 786
@@ -2288,7 +2288,7 @@ foo ? bar : baz => {};
                     "parameters": {
                         "kind": 134299649,
                         "text": "baz",
-                        "rawText": " baz",
+                        "rawText": "baz",
                         "flags": 96,
                         "start": 788,
                         "end": 792
@@ -2463,7 +2463,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 870,
                             "end": 872
@@ -2636,7 +2636,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 912,
                             "end": 914
@@ -2698,7 +2698,7 @@ foo ? bar : baz => {};
                         "right": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 927,
                             "end": 929
@@ -2764,7 +2764,7 @@ foo ? bar : baz => {};
                             "right": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 942,
                                 "end": 944
@@ -2776,7 +2776,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 945,
                             "end": 947
@@ -2833,7 +2833,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 959,
                                 "end": 961
@@ -2847,7 +2847,7 @@ foo ? bar : baz => {};
                             "right": {
                                 "kind": 134299649,
                                 "text": "c",
-                                "rawText": " c",
+                                "rawText": "c",
                                 "flags": 96,
                                 "start": 963,
                                 "end": 965
@@ -3033,7 +3033,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 1005,
                                 "end": 1007
@@ -3126,7 +3126,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 1027,
                             "end": 1029
@@ -3183,7 +3183,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 1041,
                                 "end": 1043
@@ -3209,7 +3209,7 @@ foo ? bar : baz => {};
                         {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 1048,
                             "end": 1050
@@ -3266,7 +3266,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 1062,
                                 "end": 1064
@@ -3294,7 +3294,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "z",
-                                "rawText": " z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 1069,
                                 "end": 1071
@@ -3589,7 +3589,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 1139,
                                 "end": 1141
@@ -3687,7 +3687,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 1163,
                                 "end": 1165
@@ -3738,7 +3738,7 @@ foo ? bar : baz => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "z",
-                                "rawText": " z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 1175,
                                 "end": 1177

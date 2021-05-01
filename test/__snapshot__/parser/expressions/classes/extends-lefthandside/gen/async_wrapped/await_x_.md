@@ -42,7 +42,7 @@ x; {}
             "name": {
                 "kind": 134299649,
                 "text": "p",
-                "rawText": " p",
+                "rawText": "p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -99,7 +99,7 @@ x; {}
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": "\nx",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 43,
                                         "end": 45

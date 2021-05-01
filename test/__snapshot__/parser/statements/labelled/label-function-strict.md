@@ -35,7 +35,7 @@ foo: function() {}
             "label": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": "\nfoo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 13,
                 "end": 17

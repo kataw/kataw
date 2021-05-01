@@ -43,7 +43,7 @@ let { f: ...await f } = {};
                                         "key": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 5,
                                             "end": 8
@@ -79,7 +79,7 @@ let { f: ...await f } = {};
                                         "left": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 17,
                                             "end": 19

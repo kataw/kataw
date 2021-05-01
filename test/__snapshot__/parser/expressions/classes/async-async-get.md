@@ -29,7 +29,7 @@ class x {    async async get f(x){}    }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -53,7 +53,7 @@ class x {    async async get f(x){}    }
                         "key": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 18,
                             "end": 24
@@ -84,7 +84,7 @@ class x {    async async get f(x){}    }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 30

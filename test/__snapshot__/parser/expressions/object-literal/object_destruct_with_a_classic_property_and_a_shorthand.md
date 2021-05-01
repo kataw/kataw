@@ -69,7 +69,7 @@ x = {a:b, c} = obj;
                                 {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 11
@@ -93,7 +93,7 @@ x = {a:b, c} = obj;
                     "right": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": " obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 14,
                         "end": 18

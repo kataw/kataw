@@ -75,7 +75,7 @@ var {x, y} = obj;
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 9
@@ -100,7 +100,7 @@ var {x, y} = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 12,
                             "end": 16

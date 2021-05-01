@@ -41,7 +41,7 @@ var x = {
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -58,7 +58,7 @@ var x = {
                         "binding": {
                             "kind": 134299649,
                             "text": "get",
-                            "rawText": "\n    get",
+                            "rawText": "get",
                             "flags": 96,
                             "start": 8,
                             "end": 16
@@ -75,7 +75,7 @@ var x = {
                         "binding": {
                             "kind": 134299649,
                             "text": "set",
-                            "rawText": "\n    set",
+                            "rawText": "set",
                             "flags": 96,
                             "start": 17,
                             "end": 25
@@ -113,7 +113,7 @@ var x = {
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 31,
                             "end": 33
@@ -128,7 +128,7 @@ var x = {
                                     {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": "\n    foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 37,
                                         "end": 45
@@ -136,7 +136,7 @@ var x = {
                                     {
                                         "kind": 134299649,
                                         "text": "get",
-                                        "rawText": "\n    get",
+                                        "rawText": "get",
                                         "flags": 96,
                                         "start": 46,
                                         "end": 54
@@ -144,7 +144,7 @@ var x = {
                                     {
                                         "kind": 134299649,
                                         "text": "set",
-                                        "rawText": "\n    set",
+                                        "rawText": "set",
                                         "flags": 96,
                                         "start": 55,
                                         "end": 63

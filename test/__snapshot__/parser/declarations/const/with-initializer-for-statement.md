@@ -65,7 +65,7 @@ for (;false;) const x = 1;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 19,
                             "end": 21

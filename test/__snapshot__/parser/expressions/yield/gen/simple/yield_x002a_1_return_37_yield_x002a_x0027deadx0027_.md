@@ -80,7 +80,7 @@ yield * 1; return 37; yield * 'dead';
                 "left": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 21,
                     "end": 27

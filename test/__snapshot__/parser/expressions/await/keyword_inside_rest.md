@@ -33,7 +33,7 @@ async r => result = [...{ x = await x }] = y;
                         "binding": {
                             "kind": 134299649,
                             "text": "r",
-                            "rawText": " r",
+                            "rawText": "r",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -58,7 +58,7 @@ async r => result = [...{ x = await x }] = y;
                     "left": {
                         "kind": 134299649,
                         "text": "result",
-                        "rawText": " result",
+                        "rawText": "result",
                         "flags": 96,
                         "start": 10,
                         "end": 17
@@ -94,7 +94,7 @@ async r => result = [...{ x = await x }] = y;
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 25,
                                                             "end": 27
@@ -110,7 +110,7 @@ async r => result = [...{ x = await x }] = y;
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 35,
                                                                 "end": 37
@@ -156,7 +156,7 @@ async r => result = [...{ x = await x }] = y;
                         "right": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 42,
                             "end": 44

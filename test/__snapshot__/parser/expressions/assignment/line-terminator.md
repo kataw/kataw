@@ -37,7 +37,7 @@ true;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 4,
                             "end": 6
@@ -65,7 +65,7 @@ true;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 7,
                     "end": 10

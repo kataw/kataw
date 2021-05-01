@@ -43,7 +43,7 @@ opaque stuff: Box<T> = Container<T>
             "label": {
                 "kind": 134299649,
                 "text": "stuff",
-                "rawText": " stuff",
+                "rawText": "stuff",
                 "flags": 96,
                 "start": 6,
                 "end": 12

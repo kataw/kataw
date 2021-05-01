@@ -50,7 +50,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "gfe",
-                            "rawText": " gfe",
+                            "rawText": "gfe",
                             "flags": 96,
                             "start": 17,
                             "end": 21
@@ -75,7 +75,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "rgfe",
-                                "rawText": " rgfe",
+                                "rawText": "rgfe",
                                 "flags": 96,
                                 "start": 33,
                                 "end": 38

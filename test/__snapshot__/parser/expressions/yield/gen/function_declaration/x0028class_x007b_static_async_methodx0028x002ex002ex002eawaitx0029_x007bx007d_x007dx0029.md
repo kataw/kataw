@@ -33,7 +33,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -95,7 +95,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "method",
-                                                        "rawText": " method",
+                                                        "rawText": "method",
                                                         "flags": 96,
                                                         "start": 42,
                                                         "end": 49

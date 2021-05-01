@@ -38,7 +38,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -109,7 +109,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "wrap",
-                                                "rawText": " wrap",
+                                                "rawText": "wrap",
                                                 "flags": 96,
                                                 "start": 54,
                                                 "end": 59
@@ -147,7 +147,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "await",
-                                                                "rawText": " await",
+                                                                "rawText": "await",
                                                                 "flags": 96,
                                                                 "start": 78,
                                                                 "end": 84

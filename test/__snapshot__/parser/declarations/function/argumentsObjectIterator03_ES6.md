@@ -33,7 +33,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
             "name": {
                 "kind": 134299649,
                 "text": "asReversedTuple",
-                "rawText": " asReversedTuple",
+                "rawText": "asReversedTuple",
                 "flags": 96,
                 "start": 8,
                 "end": 24
@@ -93,7 +93,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     {
                         "kind": 134299649,
                         "text": "number",
-                        "rawText": " number",
+                        "rawText": "number",
                         "flags": 96,
                         "start": 27,
                         "end": 34
@@ -101,7 +101,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 35,
                         "end": 37
@@ -123,7 +123,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     {
                         "kind": 134299649,
                         "text": "string",
-                        "rawText": " string",
+                        "rawText": "string",
                         "flags": 96,
                         "start": 38,
                         "end": 45
@@ -131,7 +131,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                     {
                         "kind": 134299649,
                         "text": "c",
-                        "rawText": " c",
+                        "rawText": "c",
                         "flags": 96,
                         "start": 46,
                         "end": 48
@@ -150,7 +150,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
             "expression": {
                 "kind": 134299649,
                 "text": "boolean",
-                "rawText": " boolean",
+                "rawText": "boolean",
                 "flags": 96,
                 "start": 49,
                 "end": 57
@@ -177,7 +177,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         {
                             "kind": 134299649,
                             "text": "string",
-                            "rawText": " string",
+                            "rawText": "string",
                             "flags": 96,
                             "start": 69,
                             "end": 76
@@ -185,7 +185,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                         {
                             "kind": 134299649,
                             "text": "number",
-                            "rawText": " number",
+                            "rawText": "number",
                             "flags": 96,
                             "start": 77,
                             "end": 84
@@ -251,7 +251,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                                     "binding": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 99,
                                                         "end": 101
@@ -269,7 +269,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                                     "binding": {
                                                         "kind": 134299649,
                                                         "text": "z",
-                                                        "rawText": " z",
+                                                        "rawText": "z",
                                                         "flags": 96,
                                                         "start": 102,
                                                         "end": 104
@@ -296,7 +296,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                     "initializer": {
                                         "kind": 134299649,
                                         "text": "arguments",
-                                        "rawText": " arguments",
+                                        "rawText": "arguments",
                                         "flags": 96,
                                         "start": 107,
                                         "end": 117
@@ -338,7 +338,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                     {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 134,
                                         "end": 136
@@ -346,7 +346,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                                     {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 137,
                                         "end": 139

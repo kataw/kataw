@@ -31,7 +31,7 @@ foo, bar, zoo
                     {
                         "kind": 134299649,
                         "text": "bar",
-                        "rawText": " bar",
+                        "rawText": "bar",
                         "flags": 96,
                         "start": 4,
                         "end": 8
@@ -39,7 +39,7 @@ foo, bar, zoo
                     {
                         "kind": 134299649,
                         "text": "zoo",
-                        "rawText": " zoo",
+                        "rawText": "zoo",
                         "flags": 96,
                         "start": 9,
                         "end": 13

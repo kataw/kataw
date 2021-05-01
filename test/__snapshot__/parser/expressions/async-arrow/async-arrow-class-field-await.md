@@ -65,7 +65,7 @@ async( x = class { x = await });
                             "key": {
                                 "kind": 134299649,
                                 "text": "aaa",
-                                "rawText": " aaa",
+                                "rawText": "aaa",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 25
@@ -132,7 +132,7 @@ async( x = class { x = await });
                         "left": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 44,
                             "end": 46
@@ -167,7 +167,7 @@ async( x = class { x = await });
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 56,
                                             "end": 58
@@ -177,7 +177,7 @@ async( x = class { x = await });
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " await",
+                                            "rawText": "await",
                                             "flags": 96,
                                             "start": 60,
                                             "end": 66

@@ -68,7 +68,7 @@ async => ok++
                     "expression": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 8,
                         "end": 11

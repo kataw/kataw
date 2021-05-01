@@ -56,7 +56,7 @@ class C { constructor() { class C { get x) { super; } } } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -109,7 +109,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 39,
                                                             "end": 41

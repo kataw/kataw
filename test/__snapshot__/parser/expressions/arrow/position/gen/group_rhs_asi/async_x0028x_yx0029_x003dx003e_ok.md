@@ -61,7 +61,7 @@ x *
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 16
@@ -77,7 +77,7 @@ x *
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
-                            "rawText": " ok",
+                            "rawText": "ok",
                             "flags": 96,
                             "start": 20,
                             "end": 23

@@ -91,7 +91,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -143,7 +143,7 @@ function f({x:arg = (arg = 2)}) {}
                             "name": {
                                 "kind": 134299649,
                                 "text": "h",
-                                "rawText": " h",
+                                "rawText": "h",
                                 "flags": 96,
                                 "start": 25,
                                 "end": 27
@@ -169,7 +169,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "g",
-                                                    "rawText": " g",
+                                                    "rawText": "g",
                                                     "flags": 96,
                                                     "start": 31,
                                                     "end": 33
@@ -227,7 +227,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "h",
-                                    "rawText": " h",
+                                    "rawText": "h",
                                     "flags": 96,
                                     "start": 41,
                                     "end": 43
@@ -277,7 +277,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 56,
                 "end": 58
@@ -388,7 +388,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 84,
                 "end": 86
@@ -420,7 +420,7 @@ function f({x:arg = (arg = 2)}) {}
                         "binding": {
                             "kind": 134299649,
                             "text": "arguments",
-                            "rawText": " arguments",
+                            "rawText": "arguments",
                             "flags": 96,
                             "start": 91,
                             "end": 101
@@ -490,7 +490,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
-                                        "rawText": " arguments",
+                                        "rawText": "arguments",
                                         "flags": 96,
                                         "start": 111,
                                         "end": 121
@@ -536,7 +536,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 130,
                                     "end": 132
@@ -595,7 +595,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 148,
                 "end": 150
@@ -684,7 +684,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
-                                        "rawText": " arguments",
+                                        "rawText": "arguments",
                                         "flags": 96,
                                         "start": 167,
                                         "end": 177
@@ -730,7 +730,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 186,
                                     "end": 188
@@ -789,7 +789,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 204,
                 "end": 206
@@ -871,7 +871,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arg",
-                                    "rawText": " arg",
+                                    "rawText": "arg",
                                     "flags": 96,
                                     "start": 220,
                                     "end": 224
@@ -905,7 +905,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 230,
                                     "end": 232
@@ -964,7 +964,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 248,
                 "end": 250
@@ -1046,7 +1046,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "eval",
-                                    "rawText": " eval",
+                                    "rawText": "eval",
                                     "flags": 96,
                                     "start": 264,
                                     "end": 269
@@ -1083,7 +1083,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 282,
                                     "end": 284
@@ -1142,7 +1142,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 300,
                 "end": 302
@@ -1234,7 +1234,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "arg",
-                                            "rawText": " arg",
+                                            "rawText": "arg",
                                             "flags": 96,
                                             "start": 320,
                                             "end": 324
@@ -1269,7 +1269,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 330,
                                     "end": 332
@@ -1328,7 +1328,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 348,
                 "end": 350
@@ -1360,7 +1360,7 @@ function f({x:arg = (arg = 2)}) {}
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 355,
                             "end": 357
@@ -1435,7 +1435,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arg",
-                                    "rawText": " arg",
+                                    "rawText": "arg",
                                     "flags": 96,
                                     "start": 369,
                                     "end": 373
@@ -1469,7 +1469,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 379,
                                     "end": 381
@@ -1528,7 +1528,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 397,
                 "end": 399
@@ -1633,7 +1633,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arg",
-                                    "rawText": " arg",
+                                    "rawText": "arg",
                                     "flags": 96,
                                     "start": 419,
                                     "end": 423
@@ -1667,7 +1667,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 429,
                                     "end": 431
@@ -1726,7 +1726,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 447,
                 "end": 449
@@ -1815,7 +1815,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arg",
-                                    "rawText": " arg",
+                                    "rawText": "arg",
                                     "flags": 96,
                                     "start": 465,
                                     "end": 469
@@ -1849,7 +1849,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 475,
                                     "end": 477
@@ -1908,7 +1908,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 493,
                 "end": 495
@@ -1962,7 +1962,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 515,
                                     "end": 517
@@ -1999,7 +1999,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "arg",
-                                    "rawText": " arg",
+                                    "rawText": "arg",
                                     "flags": 96,
                                     "start": 523,
                                     "end": 527
@@ -2033,7 +2033,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 533,
                                     "end": 535
@@ -2092,7 +2092,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 551,
                 "end": 553
@@ -2178,7 +2178,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "arg",
-                                                            "rawText": " arg",
+                                                            "rawText": "arg",
                                                             "flags": 96,
                                                             "start": 570,
                                                             "end": 574
@@ -2309,7 +2309,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 599,
                 "end": 601
@@ -2391,7 +2391,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 615,
                                     "end": 617
@@ -2494,7 +2494,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 641,
                                     "end": 643
@@ -2553,7 +2553,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 659,
                 "end": 661
@@ -2635,7 +2635,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 675,
                                     "end": 677
@@ -2660,7 +2660,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "arg",
-                                                    "rawText": " arg",
+                                                    "rawText": "arg",
                                                     "flags": 96,
                                                     "start": 683,
                                                     "end": 687
@@ -2708,7 +2708,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 694,
                                     "end": 696
@@ -2767,7 +2767,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 712,
                 "end": 714
@@ -2849,7 +2849,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 728,
                                     "end": 730
@@ -2874,7 +2874,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "eval",
-                                                    "rawText": " eval",
+                                                    "rawText": "eval",
                                                     "flags": 96,
                                                     "start": 736,
                                                     "end": 741
@@ -2925,7 +2925,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 755,
                                     "end": 757
@@ -2984,7 +2984,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 773,
                 "end": 775
@@ -3071,7 +3071,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "eval",
-                                    "rawText": " eval",
+                                    "rawText": "eval",
                                     "flags": 96,
                                     "start": 792,
                                     "end": 797
@@ -3108,7 +3108,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 810,
                                     "end": 812
@@ -3167,7 +3167,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 828,
                 "end": 830
@@ -3251,7 +3251,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
-                                        "rawText": " arguments",
+                                        "rawText": "arguments",
                                         "flags": 96,
                                         "start": 844,
                                         "end": 854
@@ -3297,7 +3297,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 863,
                                     "end": 865
@@ -3356,7 +3356,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 881,
                 "end": 883
@@ -3438,7 +3438,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "h",
-                                    "rawText": " h",
+                                    "rawText": "h",
                                     "flags": 96,
                                     "start": 897,
                                     "end": 899
@@ -3475,7 +3475,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 911,
                                     "end": 913
@@ -3534,7 +3534,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 929,
                 "end": 931
@@ -3616,7 +3616,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "eval",
-                                    "rawText": " eval",
+                                    "rawText": "eval",
                                     "flags": 96,
                                     "start": 945,
                                     "end": 950
@@ -3653,7 +3653,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 972,
                                     "end": 974
@@ -3712,7 +3712,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 990,
                 "end": 992
@@ -3794,7 +3794,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 1006,
                                     "end": 1008
@@ -3821,7 +3821,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "arguments",
-                                                        "rawText": " arguments",
+                                                        "rawText": "arguments",
                                                         "flags": 96,
                                                         "start": 1014,
                                                         "end": 1024
@@ -3881,7 +3881,7 @@ function f({x:arg = (arg = 2)}) {}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "g",
-                                    "rawText": " g",
+                                    "rawText": "g",
                                     "flags": 96,
                                     "start": 1034,
                                     "end": 1036
@@ -3940,7 +3940,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 1052,
                 "end": 1054
@@ -4140,7 +4140,7 @@ function f({x:arg = (arg = 2)}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 1095,
                 "end": 1097

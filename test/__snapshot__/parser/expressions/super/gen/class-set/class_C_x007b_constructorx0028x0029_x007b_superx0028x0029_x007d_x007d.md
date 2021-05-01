@@ -61,7 +61,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 15
@@ -138,7 +138,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "constructor",
-                                                                "rawText": " constructor",
+                                                                "rawText": "constructor",
                                                                 "flags": 96,
                                                                 "start": 30,
                                                                 "end": 42

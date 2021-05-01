@@ -29,7 +29,7 @@ function f(x=(yield z)=y){}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -72,7 +72,7 @@ function f(x=(yield z)=y){}
                         "binding": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 19,
                             "end": 21

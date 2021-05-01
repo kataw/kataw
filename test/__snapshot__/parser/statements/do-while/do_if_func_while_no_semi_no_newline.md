@@ -67,7 +67,7 @@ do if(8)function s(){}while(y)
                     "name": {
                         "kind": 134299649,
                         "text": "s",
-                        "rawText": " s",
+                        "rawText": "s",
                         "flags": 96,
                         "start": 16,
                         "end": 18

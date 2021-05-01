@@ -39,7 +39,7 @@ export { \u0061bc }
                         "binding": {
                             "kind": 134299649,
                             "text": "abc",
-                            "rawText": " abc",
+                            "rawText": "abc",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -87,7 +87,7 @@ export { \u0061bc }
                             "name": {
                                 "kind": 134299649,
                                 "text": "abc",
-                                "rawText": "\nexport",
+                                "rawText": "export",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 30

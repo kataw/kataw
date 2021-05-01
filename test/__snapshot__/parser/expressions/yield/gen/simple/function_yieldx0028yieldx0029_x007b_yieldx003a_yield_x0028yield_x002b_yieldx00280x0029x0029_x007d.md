@@ -33,7 +33,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
             "name": {
                 "kind": 134299649,
                 "text": "yield",
-                "rawText": " yield",
+                "rawText": "yield",
                 "flags": 96,
                 "start": 8,
                 "end": 14
@@ -76,7 +76,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                             "label": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 29
@@ -104,7 +104,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 30,
                                         "end": 36
@@ -133,7 +133,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                     "expression": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 45,
                                                         "end": 51

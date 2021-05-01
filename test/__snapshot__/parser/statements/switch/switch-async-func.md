@@ -75,7 +75,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 36,
                                     "end": 38
@@ -136,7 +136,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 61,
                                     "end": 63

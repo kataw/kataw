@@ -28,7 +28,7 @@ new eval()
                 "expression": {
                     "kind": 134299649,
                     "text": "eval",
-                    "rawText": " eval",
+                    "rawText": "eval",
                     "flags": 96,
                     "start": 3,
                     "end": 8

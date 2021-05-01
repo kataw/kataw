@@ -56,7 +56,7 @@ async (a, ...b) => a;
             "contents": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 18,
                 "end": 20

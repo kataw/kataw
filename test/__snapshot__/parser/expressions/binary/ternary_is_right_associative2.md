@@ -36,7 +36,7 @@ a ? b : c ** x ? d : e
                 "consequent": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 3,
                     "end": 5
@@ -54,7 +54,7 @@ a ? b : c ** x ? d : e
                         "left": {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 7,
                             "end": 9
@@ -68,7 +68,7 @@ a ? b : c ** x ? d : e
                         "right": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 12,
                             "end": 14
@@ -86,7 +86,7 @@ a ? b : c ** x ? d : e
                     "consequent": {
                         "kind": 134299649,
                         "text": "d",
-                        "rawText": " d",
+                        "rawText": "d",
                         "flags": 96,
                         "start": 16,
                         "end": 18
@@ -100,7 +100,7 @@ a ? b : c ** x ? d : e
                     "alternate": {
                         "kind": 134299649,
                         "text": "e",
-                        "rawText": " e",
+                        "rawText": "e",
                         "flags": 96,
                         "start": 20,
                         "end": 22

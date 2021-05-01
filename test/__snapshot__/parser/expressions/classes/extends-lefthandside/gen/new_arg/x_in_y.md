@@ -34,7 +34,7 @@ new x in y
                     "expression": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -53,7 +53,7 @@ new x in y
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 8,
                     "end": 10

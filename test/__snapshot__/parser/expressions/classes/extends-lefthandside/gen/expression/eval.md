@@ -52,7 +52,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "eval",
-                            "rawText": " eval",
+                            "rawText": "eval",
                             "flags": 96,
                             "start": 16,
                             "end": 21

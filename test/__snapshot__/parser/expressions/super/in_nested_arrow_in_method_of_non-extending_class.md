@@ -28,7 +28,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -45,7 +45,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -72,7 +72,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 23

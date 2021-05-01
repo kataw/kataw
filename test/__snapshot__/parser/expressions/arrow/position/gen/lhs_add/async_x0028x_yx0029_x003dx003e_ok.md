@@ -40,7 +40,7 @@ async (x, y) => ok + x
                 {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 9,
                     "end": 11
@@ -58,7 +58,7 @@ async (x, y) => ok + x
                 "left": {
                     "kind": 134299649,
                     "text": "ok",
-                    "rawText": " ok",
+                    "rawText": "ok",
                     "flags": 96,
                     "start": 15,
                     "end": 18
@@ -72,7 +72,7 @@ async (x, y) => ok + x
                 "right": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 22

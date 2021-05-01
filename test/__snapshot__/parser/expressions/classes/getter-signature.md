@@ -65,7 +65,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "prop",
-                                "rawText": " prop",
+                                "rawText": "prop",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 20

@@ -77,7 +77,7 @@ x {}
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": "\nx",
+                "rawText": "x",
                 "flags": 96,
                 "start": 21,
                 "end": 23

@@ -81,7 +81,7 @@ class C extends Base { static get() {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "get",
-                                "rawText": " get",
+                                "rawText": "get",
                                 "flags": 96,
                                 "start": 29,
                                 "end": 33

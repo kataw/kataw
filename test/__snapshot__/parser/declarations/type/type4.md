@@ -398,7 +398,7 @@ type T27 = ArgumentType<never>;  // any
                                 "id": {
                                     "kind": 134299649,
                                     "text": "f1",
-                                    "rawText": " f1",
+                                    "rawText": "f1",
                                     "flags": 96,
                                     "start": 257,
                                     "end": 260

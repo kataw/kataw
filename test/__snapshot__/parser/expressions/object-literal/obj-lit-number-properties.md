@@ -198,7 +198,7 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 42,
                     "end": 45

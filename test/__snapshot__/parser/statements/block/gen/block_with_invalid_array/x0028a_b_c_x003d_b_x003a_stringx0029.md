@@ -105,7 +105,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 12,
                                     "end": 14
@@ -115,7 +115,7 @@
                                     "left": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 15,
                                         "end": 17
@@ -129,7 +129,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 21
@@ -161,7 +161,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 23,
                 "end": 30

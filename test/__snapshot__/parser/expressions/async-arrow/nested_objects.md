@@ -53,7 +53,7 @@ async ({ident: {x: y}})
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 18,
                                                         "end": 20

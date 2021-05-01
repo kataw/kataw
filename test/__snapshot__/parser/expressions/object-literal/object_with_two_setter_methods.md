@@ -109,7 +109,7 @@ x({set [foo](b){}, set [bar](d){}});
                                     {
                                         "kind": 134299649,
                                         "text": "set",
-                                        "rawText": " set",
+                                        "rawText": "set",
                                         "flags": 96,
                                         "start": 18,
                                         "end": 22

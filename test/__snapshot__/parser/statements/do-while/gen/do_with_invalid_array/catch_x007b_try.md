@@ -35,7 +35,7 @@ do while [catch] catch { try
                         {
                             "kind": 134299649,
                             "text": "try",
-                            "rawText": " try",
+                            "rawText": "try",
                             "flags": 96,
                             "start": 24,
                             "end": 28

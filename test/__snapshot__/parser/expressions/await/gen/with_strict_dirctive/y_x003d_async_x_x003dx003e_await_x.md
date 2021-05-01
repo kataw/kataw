@@ -40,7 +40,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 13,
                     "end": 15
@@ -67,7 +67,7 @@
                             "binding": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 25
@@ -98,7 +98,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 34,
                             "end": 36

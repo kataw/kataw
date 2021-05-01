@@ -40,7 +40,7 @@ async (x, y) => ok++
                 {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 9,
                     "end": 11
@@ -64,7 +64,7 @@ async (x, y) => ok++
                 "expression": {
                     "kind": 134299649,
                     "text": "ok",
-                    "rawText": " ok",
+                    "rawText": "ok",
                     "flags": 96,
                     "start": 15,
                     "end": 18

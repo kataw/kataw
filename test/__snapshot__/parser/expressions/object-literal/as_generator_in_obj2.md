@@ -36,7 +36,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "type",
-                                    "rawText": " type",
+                                    "rawText": "type",
                                     "flags": 96,
                                     "start": 4,
                                     "end": 9
@@ -101,7 +101,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "interface",
-                                    "rawText": " interface",
+                                    "rawText": "interface",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 31
@@ -166,7 +166,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "in",
-                                    "rawText": " in",
+                                    "rawText": "in",
                                     "flags": 96,
                                     "start": 43,
                                     "end": 46
@@ -231,7 +231,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "of",
-                                    "rawText": " of",
+                                    "rawText": "of",
                                     "flags": 96,
                                     "start": 58,
                                     "end": 61

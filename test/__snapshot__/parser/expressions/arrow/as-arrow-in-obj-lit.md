@@ -70,7 +70,7 @@ x = {arrow: (x, y) => ok};
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 18,
                                         "end": 21
@@ -116,7 +116,7 @@ x = {arrow: (x, y) => ok};
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 23,
                     "end": 26
@@ -160,7 +160,7 @@ x = {arrow: (x, y) => ok};
                                             {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 42
@@ -172,7 +172,7 @@ x = {arrow: (x, y) => ok};
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 46,
                                         "end": 49

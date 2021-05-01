@@ -33,7 +33,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -68,7 +68,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 28

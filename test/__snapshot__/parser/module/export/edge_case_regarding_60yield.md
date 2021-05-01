@@ -38,7 +38,7 @@ export default yield x
             "declaration": {
                 "kind": 134299649,
                 "text": "yield",
-                "rawText": " yield",
+                "rawText": "yield",
                 "flags": 96,
                 "start": 14,
                 "end": 20
@@ -52,7 +52,7 @@ export default yield x
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 20,
                 "end": 22

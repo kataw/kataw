@@ -74,7 +74,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12
@@ -101,7 +101,7 @@
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 19,
                                                 "end": 21
@@ -137,7 +137,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 25
@@ -161,7 +161,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "g",
-                    "rawText": " g",
+                    "rawText": "g",
                     "flags": 96,
                     "start": 28,
                     "end": 30

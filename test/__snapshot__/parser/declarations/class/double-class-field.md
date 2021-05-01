@@ -66,7 +66,7 @@ class C { aaa; bbb}
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
-                            "rawText": " aaa",
+                            "rawText": "aaa",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -93,7 +93,7 @@ class C { aaa; bbb}
                         "key": {
                             "kind": 134299649,
                             "text": "bbb",
-                            "rawText": " bbb",
+                            "rawText": "bbb",
                             "flags": 96,
                             "start": 14,
                             "end": 18

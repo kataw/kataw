@@ -50,7 +50,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "o",
-                            "rawText": " o",
+                            "rawText": "o",
                             "flags": 96,
                             "start": 17,
                             "end": 19

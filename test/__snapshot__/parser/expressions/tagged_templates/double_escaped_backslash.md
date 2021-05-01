@@ -51,7 +51,7 @@ tag`\\\ `;
                 "member": {
                     "kind": 134299649,
                     "text": "tag",
-                    "rawText": "\ntag",
+                    "rawText": "tag",
                     "flags": 96,
                     "start": 10,
                     "end": 14

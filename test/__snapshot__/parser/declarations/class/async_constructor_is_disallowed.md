@@ -65,7 +65,7 @@ class X {    async constructor() {}   }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 30

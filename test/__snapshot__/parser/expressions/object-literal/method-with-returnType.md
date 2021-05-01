@@ -51,7 +51,7 @@ a={get fooProp():number{}}
                                 "name": {
                                     "kind": 134299649,
                                     "text": "fooProp",
-                                    "rawText": " fooProp",
+                                    "rawText": "fooProp",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 14

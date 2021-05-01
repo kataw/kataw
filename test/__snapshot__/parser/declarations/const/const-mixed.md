@@ -41,7 +41,7 @@ const map = {
                         "binding": {
                             "kind": 134299649,
                             "text": "map",
-                            "rawText": " map",
+                            "rawText": "map",
                             "flags": 96,
                             "start": 5,
                             "end": 9

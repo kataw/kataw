@@ -54,7 +54,7 @@ export default async function f(){} foo
                 "name": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": " f",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 29,
                     "end": 31
@@ -96,7 +96,7 @@ export default async function f(){} foo
             "expression": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 35,
                 "end": 39

@@ -40,7 +40,7 @@ async function p(){
             "name": {
                 "kind": 134299649,
                 "text": "p",
-                "rawText": " p",
+                "rawText": "p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -89,7 +89,7 @@ async function p(){
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "arguments",
-                                    "rawText": " arguments",
+                                    "rawText": "arguments",
                                     "flags": 96,
                                     "start": 37,
                                     "end": 47

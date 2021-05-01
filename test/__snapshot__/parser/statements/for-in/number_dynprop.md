@@ -62,7 +62,7 @@ for (456[x] in c) d;
             "expression": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -72,7 +72,7 @@ for (456[x] in c) d;
                 "expression": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 17,
                     "end": 19

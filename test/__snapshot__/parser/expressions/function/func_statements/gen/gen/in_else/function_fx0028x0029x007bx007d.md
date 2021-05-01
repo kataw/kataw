@@ -41,7 +41,7 @@ else function f(){}
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 6,
                     "end": 8
@@ -70,7 +70,7 @@ else function f(){}
                 "name": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": " f",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 23,
                     "end": 25

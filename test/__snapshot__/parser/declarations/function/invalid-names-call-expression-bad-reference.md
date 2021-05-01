@@ -29,7 +29,7 @@ function fn() { (() => {})().#x }
             "name": {
                 "kind": 134299649,
                 "text": "fn",
-                "rawText": " fn",
+                "rawText": "fn",
                 "flags": 96,
                 "start": 8,
                 "end": 11

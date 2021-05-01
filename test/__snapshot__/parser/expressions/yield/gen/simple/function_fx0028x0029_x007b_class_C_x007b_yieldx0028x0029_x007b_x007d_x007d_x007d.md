@@ -33,7 +33,7 @@ function f() { class C { yield() { } } }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -89,7 +89,7 @@ function f() { class C { yield() { } } }
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30

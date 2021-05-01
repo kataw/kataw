@@ -253,7 +253,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 84,
                             "end": 86
@@ -335,7 +335,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 110,
                             "end": 112
@@ -367,7 +367,7 @@ switch (answer) { case 0: let a; };
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "b",
-                                                    "rawText": " b",
+                                                    "rawText": "b",
                                                     "flags": 96,
                                                     "start": 118,
                                                     "end": 120
@@ -439,7 +439,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 141,
                             "end": 143
@@ -471,7 +471,7 @@ switch (answer) { case 0: let a; };
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "b",
-                                                    "rawText": " b",
+                                                    "rawText": "b",
                                                     "flags": 96,
                                                     "start": 149,
                                                     "end": 151
@@ -557,7 +557,7 @@ switch (answer) { case 0: let a; };
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 177,
                                         "end": 179
@@ -690,7 +690,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "t",
-                                                "rawText": " t",
+                                                "rawText": "t",
                                                 "flags": 96,
                                                 "start": 238,
                                                 "end": 240
@@ -781,7 +781,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 273,
                             "end": 275
@@ -813,7 +813,7 @@ switch (answer) { case 0: let a; };
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "b",
-                                                    "rawText": " b",
+                                                    "rawText": "b",
                                                     "flags": 96,
                                                     "start": 281,
                                                     "end": 283
@@ -825,7 +825,7 @@ switch (answer) { case 0: let a; };
                                             {
                                                 "kind": 134299649,
                                                 "text": "c",
-                                                "rawText": " c",
+                                                "rawText": "c",
                                                 "flags": 96,
                                                 "start": 284,
                                                 "end": 286
@@ -908,7 +908,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 312,
                             "end": 314
@@ -919,7 +919,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 315,
                                     "end": 317
@@ -978,7 +978,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 337,
                             "end": 339
@@ -991,7 +991,7 @@ switch (answer) { case 0: let a; };
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 340,
                                         "end": 342
@@ -1071,7 +1071,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 367,
                             "end": 369
@@ -1084,7 +1084,7 @@ switch (answer) { case 0: let a; };
                                     "left": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 370,
                                         "end": 374
@@ -1195,7 +1195,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 403,
                             "end": 405
@@ -1206,7 +1206,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 406,
                                     "end": 410
@@ -1305,7 +1305,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 437,
                             "end": 439
@@ -1316,7 +1316,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 440,
                                     "end": 444
@@ -1375,7 +1375,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 465,
                             "end": 469
@@ -1483,7 +1483,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 507,
                             "end": 509
@@ -1559,7 +1559,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 536,
                             "end": 538
@@ -1583,7 +1583,7 @@ switch (answer) { case 0: let a; };
                                             {
                                                 "kind": 134299649,
                                                 "text": "bar",
-                                                "rawText": " bar",
+                                                "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 545,
                                                 "end": 549
@@ -1651,7 +1651,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 570,
                             "end": 572
@@ -1706,7 +1706,7 @@ switch (answer) { case 0: let a; };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 603,
                                             "end": 605
@@ -1773,7 +1773,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 625,
                             "end": 627
@@ -1784,7 +1784,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 628,
                                     "end": 632
@@ -1857,7 +1857,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 715,
                             "end": 717
@@ -1868,7 +1868,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 718,
                                     "end": 722
@@ -1947,7 +1947,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 744,
                             "end": 746
@@ -1958,7 +1958,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 747,
                                     "end": 751
@@ -2017,7 +2017,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 772,
                             "end": 774
@@ -2086,7 +2086,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 799,
                             "end": 801
@@ -2170,7 +2170,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 826,
                             "end": 828
@@ -2183,7 +2183,7 @@ switch (answer) { case 0: let a; };
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 829,
                                         "end": 831
@@ -2287,7 +2287,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 860,
                             "end": 862
@@ -2302,7 +2302,7 @@ switch (answer) { case 0: let a; };
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 863,
                                             "end": 867
@@ -2316,7 +2316,7 @@ switch (answer) { case 0: let a; };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 869,
                                             "end": 873
@@ -2417,7 +2417,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 903,
                             "end": 905
@@ -2432,7 +2432,7 @@ switch (answer) { case 0: let a; };
                                         "left": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 906,
                                             "end": 910
@@ -2446,7 +2446,7 @@ switch (answer) { case 0: let a; };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 912,
                                             "end": 916
@@ -2597,7 +2597,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 970,
                                     "end": 972
@@ -2663,7 +2663,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1001,
                                     "end": 1003
@@ -2746,7 +2746,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 1028,
                             "end": 1030
@@ -2759,7 +2759,7 @@ switch (answer) { case 0: let a; };
                                     "shortCircuit": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 1031,
                                         "end": 1035
@@ -2914,7 +2914,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 1074,
                             "end": 1076
@@ -3044,7 +3044,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 1108,
                             "end": 1110
@@ -3098,7 +3098,7 @@ switch (answer) { case 0: let a; };
                                     "right": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 1120,
                                         "end": 1122
@@ -3204,7 +3204,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 1147,
                             "end": 1149
@@ -3215,7 +3215,7 @@ switch (answer) { case 0: let a; };
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 1150,
                                     "end": 1154
@@ -3274,7 +3274,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 1176,
                             "end": 1178
@@ -3294,7 +3294,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1188,
                                     "end": 1190
@@ -3341,7 +3341,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1203,
                                     "end": 1205
@@ -3424,7 +3424,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 1230,
                             "end": 1232
@@ -3617,7 +3617,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 1305,
                                                 "end": 1307
@@ -3669,7 +3669,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 1321,
                                                 "end": 1323
@@ -3757,7 +3757,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 1351,
                                                 "end": 1353
@@ -3809,7 +3809,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 1367,
                                                 "end": 1369
@@ -3880,7 +3880,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 1391,
                             "end": 1393
@@ -3905,7 +3905,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1405,
                                     "end": 1407
@@ -3988,7 +3988,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 1433,
                             "end": 1435
@@ -4013,7 +4013,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1447,
                                     "end": 1449
@@ -4297,7 +4297,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1586,
                                     "end": 1588
@@ -4501,7 +4501,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1671,
                                     "end": 1673
@@ -4765,7 +4765,7 @@ switch (answer) { case 0: let a; };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 1796,
                                     "end": 1798
@@ -5048,7 +5048,7 @@ switch (answer) { case 0: let a; };
                         "expression": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 1912,
                             "end": 1914
@@ -5105,7 +5105,7 @@ switch (answer) { case 0: let a; };
                                             "initializer": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 1925,
                                                 "end": 1927
@@ -5195,7 +5195,7 @@ switch (answer) { case 0: let a; };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 1960,
                                                 "end": 1962

@@ -47,7 +47,7 @@ switch([x = y]) { case y: foo }
                             "right": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 11,
                                 "end": 13
@@ -80,7 +80,7 @@ switch([x = y]) { case y: foo }
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 22,
                             "end": 24
@@ -91,7 +91,7 @@ switch([x = y]) { case y: foo }
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 29

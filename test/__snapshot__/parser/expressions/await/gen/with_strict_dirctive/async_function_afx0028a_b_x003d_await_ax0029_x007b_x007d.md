@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "af",
-                "rawText": " af",
+                "rawText": "af",
                 "flags": 96,
                 "start": 28,
                 "end": 31
@@ -84,7 +84,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 34,
                             "end": 36
@@ -102,7 +102,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 44,
                                 "end": 46

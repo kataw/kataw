@@ -64,7 +64,7 @@ for ({a: x + y} in obj);
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -78,7 +78,7 @@ for ({a: x + y} in obj);
                                 "right": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 12,
                                     "end": 14
@@ -112,7 +112,7 @@ for ({a: x + y} in obj);
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
-                "rawText": " obj",
+                "rawText": "obj",
                 "flags": 96,
                 "start": 18,
                 "end": 22

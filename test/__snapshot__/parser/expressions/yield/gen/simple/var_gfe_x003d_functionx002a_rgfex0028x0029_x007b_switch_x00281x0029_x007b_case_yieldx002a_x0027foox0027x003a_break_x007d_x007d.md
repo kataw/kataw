@@ -36,7 +36,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                         "binding": {
                             "kind": 134299649,
                             "text": "gfe",
-                            "rawText": " gfe",
+                            "rawText": "gfe",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -61,7 +61,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "rgfe",
-                                "rawText": " rgfe",
+                                "rawText": "rgfe",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 24

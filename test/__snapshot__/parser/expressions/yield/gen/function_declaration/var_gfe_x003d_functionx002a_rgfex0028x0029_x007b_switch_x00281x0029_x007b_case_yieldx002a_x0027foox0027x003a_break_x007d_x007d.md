@@ -33,7 +33,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -69,7 +69,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "gfe",
-                                            "rawText": " gfe",
+                                            "rawText": "gfe",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 28
@@ -94,7 +94,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "rgfe",
-                                                "rawText": " rgfe",
+                                                "rawText": "rgfe",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 45

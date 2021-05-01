@@ -40,7 +40,7 @@ var { x: x = 10 } = x;
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 5,
                                             "end": 8
@@ -51,7 +51,7 @@ var { x: x = 10 } = x;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 8,
                                                 "end": 10
@@ -87,7 +87,7 @@ var { x: x = 10 } = x;
                         "initializer": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 19,
                             "end": 21

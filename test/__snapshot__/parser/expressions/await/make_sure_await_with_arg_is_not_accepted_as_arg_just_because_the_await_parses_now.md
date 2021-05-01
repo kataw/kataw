@@ -34,7 +34,7 @@ async function f(){  (await fail) => x  }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -76,7 +76,7 @@ async function f(){  (await fail) => x  }
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "fail",
-                                            "rawText": " fail",
+                                            "rawText": "fail",
                                             "flags": 96,
                                             "start": 27,
                                             "end": 32
@@ -91,7 +91,7 @@ async function f(){  (await fail) => x  }
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 36,
                                     "end": 38

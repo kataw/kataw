@@ -185,7 +185,7 @@ try {} catch(e) { for(var e of 0); };
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 79,
                                     "end": 81
@@ -609,7 +609,7 @@ try {} catch(e) { for(var e of 0); };
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 1069,
                                         "end": 1071
@@ -694,7 +694,7 @@ try {} catch(e) { for(var e of 0); };
                                     "name": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 1088,
                                         "end": 1090
@@ -1536,7 +1536,7 @@ try {} catch(e) { for(var e of 0); };
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 1974,
                                         "end": 1976
@@ -2466,7 +2466,7 @@ try {} catch(e) { for(var e of 0); };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 3165,
                                     "end": 3167
@@ -2564,7 +2564,7 @@ try {} catch(e) { for(var e of 0); };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 3188,
                                     "end": 3190
@@ -2767,7 +2767,7 @@ try {} catch(e) { for(var e of 0); };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 3246,
                                 "end": 3258
@@ -2975,7 +2975,7 @@ try {} catch(e) { for(var e of 0); };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 3317,
                                 "end": 3329
@@ -3183,7 +3183,7 @@ try {} catch(e) { for(var e of 0); };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 3389,
                                 "end": 3401
@@ -3224,7 +3224,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "name": {
                                                                     "kind": 134299649,
                                                                     "text": "constructor",
-                                                                    "rawText": " constructor",
+                                                                    "rawText": "constructor",
                                                                     "flags": 96,
                                                                     "start": 3411,
                                                                     "end": 3423
@@ -3391,7 +3391,7 @@ try {} catch(e) { for(var e of 0); };
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 3464,
                                 "end": 3476
@@ -3432,7 +3432,7 @@ try {} catch(e) { for(var e of 0); };
                                                                 "name": {
                                                                     "kind": 134299649,
                                                                     "text": "constructor",
-                                                                    "rawText": " constructor",
+                                                                    "rawText": "constructor",
                                                                     "flags": 96,
                                                                     "start": 3486,
                                                                     "end": 3498
@@ -3578,7 +3578,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": "\n// It is a Syntax Error if SV(UnicodeEscapeSequence) is neither the UTF16Encoding (10.1.1) of a single Unicode code\n// point with the Unicode property @{x201c}@ID_Continue@{x201d}@ nor \"$\" or \"_\" nor the UTF16Encoding of either <ZWNJ> or <ZWJ>.\na",
+                "rawText": "a",
                 "flags": 96,
                 "start": 3744,
                 "end": 3991
@@ -3598,7 +3598,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": "\na",
+                "rawText": "a",
                 "flags": 96,
                 "start": 3999,
                 "end": 4001
@@ -3978,7 +3978,7 @@ try {} catch(e) { for(var e of 0); };
                 "label": {
                     "kind": 134299649,
                     "text": "label",
-                    "rawText": " label",
+                    "rawText": "label",
                     "flags": 96,
                     "start": 4478,
                     "end": 4484
@@ -4045,7 +4045,7 @@ try {} catch(e) { for(var e of 0); };
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 4494,
                         "end": 4496
@@ -4109,7 +4109,7 @@ try {} catch(e) { for(var e of 0); };
                 "label": {
                     "kind": 134299649,
                     "text": "labelA",
-                    "rawText": " labelA",
+                    "rawText": "labelA",
                     "flags": 96,
                     "start": 4506,
                     "end": 4513
@@ -4167,7 +4167,7 @@ try {} catch(e) { for(var e of 0); };
                     "label": {
                         "kind": 134299649,
                         "text": "labelB",
-                        "rawText": " labelB",
+                        "rawText": "labelB",
                         "flags": 96,
                         "start": 4514,
                         "end": 4521
@@ -4234,7 +4234,7 @@ try {} catch(e) { for(var e of 0); };
                         "name": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 4531,
                             "end": 4533
@@ -4302,7 +4302,7 @@ try {} catch(e) { for(var e of 0); };
                 "label": {
                     "kind": 134299649,
                     "text": "label",
-                    "rawText": " label",
+                    "rawText": "label",
                     "flags": 96,
                     "start": 4543,
                     "end": 4549
@@ -4369,7 +4369,7 @@ try {} catch(e) { for(var e of 0); };
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 4559,
                         "end": 4561
@@ -4455,7 +4455,7 @@ try {} catch(e) { for(var e of 0); };
                 "label": {
                     "kind": 134299649,
                     "text": "label",
-                    "rawText": " label",
+                    "rawText": "label",
                     "flags": 96,
                     "start": 4585,
                     "end": 4591
@@ -4522,7 +4522,7 @@ try {} catch(e) { for(var e of 0); };
                     "name": {
                         "kind": 134299649,
                         "text": "f",
-                        "rawText": " f",
+                        "rawText": "f",
                         "flags": 96,
                         "start": 4601,
                         "end": 4603
@@ -4582,7 +4582,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4705,
                 "end": 4707
@@ -4707,7 +4707,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4741,
                 "end": 4743
@@ -4767,7 +4767,7 @@ try {} catch(e) { for(var e of 0); };
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "b",
-                                                "rawText": " b",
+                                                "rawText": "b",
                                                 "flags": 96,
                                                 "start": 4757,
                                                 "end": 4759
@@ -4839,7 +4839,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4779,
                 "end": 4781
@@ -4904,7 +4904,7 @@ try {} catch(e) { for(var e of 0); };
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "b",
-                                                "rawText": " b",
+                                                "rawText": "b",
                                                 "flags": 96,
                                                 "start": 4796,
                                                 "end": 4798
@@ -4976,7 +4976,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4818,
                 "end": 4820
@@ -5028,7 +5028,7 @@ try {} catch(e) { for(var e of 0); };
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 4828,
                                                 "end": 4830
@@ -5044,7 +5044,7 @@ try {} catch(e) { for(var e of 0); };
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "f",
-                                                    "rawText": " f",
+                                                    "rawText": "f",
                                                     "flags": 96,
                                                     "start": 4832,
                                                     "end": 4834
@@ -5144,7 +5144,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4861,
                 "end": 4863
@@ -5189,7 +5189,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",
-                                                        "rawText": " a",
+                                                        "rawText": "a",
                                                         "flags": 96,
                                                         "start": 4877,
                                                         "end": 4879
@@ -5288,7 +5288,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4900,
                 "end": 4902
@@ -5422,7 +5422,7 @@ try {} catch(e) { for(var e of 0); };
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 4938,
                 "end": 4940
@@ -5655,7 +5655,7 @@ try {} catch(e) { for(var e of 0); };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 5259,
                                                 "end": 5261
@@ -5757,7 +5757,7 @@ try {} catch(e) { for(var e of 0); };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "e",
-                                    "rawText": " e",
+                                    "rawText": "e",
                                     "flags": 96,
                                     "start": 5292,
                                     "end": 5294
@@ -5879,7 +5879,7 @@ try {} catch(e) { for(var e of 0); };
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 5607,
                                                 "end": 5609

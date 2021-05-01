@@ -34,7 +34,7 @@ async function f(){ let y = x => await x; }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -69,7 +69,7 @@ async function f(){ let y = x => await x; }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 25
@@ -88,7 +88,7 @@ async function f(){ let y = x => await x; }
                                             "parameters": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 27,
                                                 "end": 29
@@ -98,7 +98,7 @@ async function f(){ let y = x => await x; }
                                             "contents": {
                                                 "kind": 134299649,
                                                 "text": "await",
-                                                "rawText": " await",
+                                                "rawText": "await",
                                                 "flags": 96,
                                                 "start": 32,
                                                 "end": 38
@@ -116,7 +116,7 @@ async function f(){ let y = x => await x; }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 40

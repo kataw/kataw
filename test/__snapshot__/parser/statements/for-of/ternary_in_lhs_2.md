@@ -50,7 +50,7 @@ for (a ? b : c of x);
                 "consequent": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 8,
                     "end": 10
@@ -64,7 +64,7 @@ for (a ? b : c of x);
                 "alternate": {
                     "kind": 134299649,
                     "text": "c",
-                    "rawText": " c",
+                    "rawText": "c",
                     "flags": 96,
                     "start": 12,
                     "end": 14
@@ -76,7 +76,7 @@ for (a ? b : c of x);
             "condition": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 17,
                 "end": 19
@@ -84,7 +84,7 @@ for (a ? b : c of x);
             "incrementor": {
                 "kind": 134299649,
                 "text": "of",
-                "rawText": " of",
+                "rawText": "of",
                 "flags": 96,
                 "start": 14,
                 "end": 17

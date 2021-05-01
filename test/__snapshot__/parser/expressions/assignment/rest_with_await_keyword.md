@@ -39,7 +39,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                         "binding": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -62,7 +62,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 25,
                                                 "end": 27
@@ -70,7 +70,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "protected",
-                                                "rawText": " prot\\u0065cted",
+                                                "rawText": "prot\\u0065cted",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 24
@@ -117,7 +117,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "protected",
-                                                "rawText": " protected",
+                                                "rawText": "protected",
                                                 "flags": 96,
                                                 "start": 33,
                                                 "end": 43

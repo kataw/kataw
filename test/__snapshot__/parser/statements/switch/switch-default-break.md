@@ -65,7 +65,7 @@ switch(0) { default: function f(){ break; } }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 29,
                                     "end": 31

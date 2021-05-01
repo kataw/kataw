@@ -38,7 +38,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -133,7 +133,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                     "name": {
                                                                         "kind": 134299649,
                                                                         "text": "method",
-                                                                        "rawText": " method",
+                                                                        "rawText": "method",
                                                                         "flags": 96,
                                                                         "start": 61,
                                                                         "end": 68

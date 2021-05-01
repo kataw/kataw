@@ -40,7 +40,7 @@ async function f() {
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -90,7 +90,7 @@ async function f() {
                                         {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 40
@@ -106,7 +106,7 @@ async function f() {
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 44,
                                         "end": 47

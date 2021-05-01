@@ -36,7 +36,7 @@ type number = string;
                 "left": {
                     "kind": 134299649,
                     "text": "number",
-                    "rawText": " number",
+                    "rawText": "number",
                     "flags": 96,
                     "start": 4,
                     "end": 11
@@ -50,7 +50,7 @@ type number = string;
                 "right": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 13,
                     "end": 20

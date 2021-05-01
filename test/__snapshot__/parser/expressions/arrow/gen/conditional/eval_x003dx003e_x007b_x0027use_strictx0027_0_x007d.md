@@ -88,7 +88,7 @@ eval => { 'use strict'; 0 } , bar;
                     {
                         "kind": 134299649,
                         "text": "bar",
-                        "rawText": " bar",
+                        "rawText": "bar",
                         "flags": 96,
                         "start": 29,
                         "end": 33

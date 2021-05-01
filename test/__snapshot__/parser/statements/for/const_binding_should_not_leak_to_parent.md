@@ -47,7 +47,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -91,7 +91,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
@@ -125,7 +125,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": " a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 30,
                     "end": 32
@@ -195,7 +195,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 56,
                                             "end": 58
@@ -239,7 +239,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 65,
                                             "end": 67
@@ -273,7 +273,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": " a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 74,
                     "end": 76

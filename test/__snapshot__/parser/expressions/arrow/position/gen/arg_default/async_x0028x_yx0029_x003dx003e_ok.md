@@ -33,7 +33,7 @@ function f(a = async (x, y) => ok) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -75,7 +75,7 @@ function f(a = async (x, y) => ok) {}
                                 {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 24,
                                     "end": 26
@@ -91,7 +91,7 @@ function f(a = async (x, y) => ok) {}
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",
-                                "rawText": " ok",
+                                "rawText": "ok",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 33

@@ -35,7 +35,7 @@ fn = function() {};
                         "binding": {
                             "kind": 134299649,
                             "text": "xFn",
-                            "rawText": " xFn",
+                            "rawText": "xFn",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -52,7 +52,7 @@ fn = function() {};
                         "binding": {
                             "kind": 134299649,
                             "text": "fn",
-                            "rawText": " fn",
+                            "rawText": "fn",
                             "flags": 96,
                             "start": 8,
                             "end": 11
@@ -80,7 +80,7 @@ fn = function() {};
                 "left": {
                     "kind": 134299649,
                     "text": "xFn",
-                    "rawText": "\n\nxFn",
+                    "rawText": "xFn",
                     "flags": 96,
                     "start": 12,
                     "end": 17
@@ -104,7 +104,7 @@ fn = function() {};
                     "name": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 28,
                         "end": 30
@@ -152,7 +152,7 @@ fn = function() {};
                 "left": {
                     "kind": 134299649,
                     "text": "fn",
-                    "rawText": "\nfn",
+                    "rawText": "fn",
                     "flags": 96,
                     "start": 36,
                     "end": 39

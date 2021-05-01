@@ -50,7 +50,7 @@
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 11,
                             "end": 13
@@ -66,7 +66,7 @@
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 17,
                         "end": 20

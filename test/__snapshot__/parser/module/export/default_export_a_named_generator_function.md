@@ -54,7 +54,7 @@ export default function* f(){}
                 "name": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": " f",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 24,
                     "end": 26

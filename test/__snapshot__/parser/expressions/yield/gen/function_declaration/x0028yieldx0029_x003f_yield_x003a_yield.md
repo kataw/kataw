@@ -33,7 +33,7 @@ function not_gen() { (yield) ? yield : yield }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -79,7 +79,7 @@ function not_gen() { (yield) ? yield : yield }}
                                 "consequent": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 36
@@ -93,7 +93,7 @@ function not_gen() { (yield) ? yield : yield }}
                                 "alternate": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 38,
                                     "end": 44

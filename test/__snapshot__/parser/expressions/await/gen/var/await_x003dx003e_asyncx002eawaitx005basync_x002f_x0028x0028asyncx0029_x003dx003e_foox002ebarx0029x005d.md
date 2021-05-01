@@ -36,7 +36,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "binding": {
                             "kind": 134299649,
                             "text": "await",
-                            "rawText": " await",
+                            "rawText": "await",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -74,7 +74,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -176,7 +176,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 "member": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 79,
                                     "end": 83

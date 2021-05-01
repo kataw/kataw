@@ -60,7 +60,7 @@ f(((a) => a + b)(1, 4), 5);
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
-                                            "rawText": " a",
+                                            "rawText": "a",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 11
@@ -74,7 +74,7 @@ f(((a) => a + b)(1, 4), 5);
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 13,
                                             "end": 15

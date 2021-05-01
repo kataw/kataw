@@ -32,7 +32,7 @@ class protected {}
             "name": {
                 "kind": 134299649,
                 "text": "protected",
-                "rawText": " protected",
+                "rawText": "protected",
                 "flags": 96,
                 "start": 5,
                 "end": 15

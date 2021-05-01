@@ -111,7 +111,7 @@ class x extends y {
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -128,7 +128,7 @@ class x extends y {
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -155,7 +155,7 @@ class x extends y {
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": "\n  constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 33

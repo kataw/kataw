@@ -66,7 +66,7 @@ for ({a: b.c}.foo in d) e
                                     "member": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 10
@@ -120,7 +120,7 @@ for ({a: b.c}.foo in d) e
             "expression": {
                 "kind": 134299649,
                 "text": "d",
-                "rawText": " d",
+                "rawText": "d",
                 "flags": 96,
                 "start": 20,
                 "end": 22
@@ -130,7 +130,7 @@ for ({a: b.c}.foo in d) e
                 "expression": {
                     "kind": 134299649,
                     "text": "e",
-                    "rawText": " e",
+                    "rawText": "e",
                     "flags": 96,
                     "start": 23,
                     "end": 25

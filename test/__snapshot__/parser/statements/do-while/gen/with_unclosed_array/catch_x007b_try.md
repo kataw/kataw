@@ -35,7 +35,7 @@ do[ catch { try
                         {
                             "kind": 134299649,
                             "text": "try",
-                            "rawText": " try",
+                            "rawText": "try",
                             "flags": 96,
                             "start": 11,
                             "end": 15

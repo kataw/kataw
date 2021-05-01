@@ -41,7 +41,7 @@ obj.c\u0061se = 42;
                         "binding": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -84,7 +84,7 @@ obj.c\u0061se = 42;
                     "member": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": "\n\nobj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 13,
                         "end": 18

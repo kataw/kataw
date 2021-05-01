@@ -43,7 +43,7 @@ yield /* comment */ { yield: 12 }
                         "label": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 21,
                             "end": 27

@@ -71,7 +71,7 @@ result = [...[x, y]] = vals;
                                                 {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 16,
                                                     "end": 18
@@ -109,7 +109,7 @@ result = [...[x, y]] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 22,
                         "end": 27

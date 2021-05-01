@@ -46,7 +46,7 @@ while (true) { continue /* Multiline\nComment */there; }
                             "label": {
                                 "kind": 134299649,
                                 "text": "there",
-                                "rawText": " /* Multiline\\nComment */there",
+                                "rawText": "there",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 53

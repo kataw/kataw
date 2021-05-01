@@ -55,7 +55,7 @@ x = { a: a / b + c }
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
-                                            "rawText": " a",
+                                            "rawText": "a",
                                             "flags": 96,
                                             "start": 8,
                                             "end": 10
@@ -69,7 +69,7 @@ x = { a: a / b + c }
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -87,7 +87,7 @@ x = { a: a / b + c }
                                     "right": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 18
@@ -99,7 +99,7 @@ x = { a: a / b + c }
                                 "right": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 7

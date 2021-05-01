@@ -41,7 +41,7 @@ new x => ok
                     "parameters": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -51,7 +51,7 @@ new x => ok
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 8,
                         "end": 11

@@ -36,7 +36,7 @@ typeof a instanceof b + c
                         "expression": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 6,
                             "end": 8
@@ -54,7 +54,7 @@ typeof a instanceof b + c
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 19,
                         "end": 21
@@ -72,7 +72,7 @@ typeof a instanceof b + c
                 "right": {
                     "kind": 134299649,
                     "text": "c",
-                    "rawText": " c",
+                    "rawText": "c",
                     "flags": 96,
                     "start": 23,
                     "end": 25

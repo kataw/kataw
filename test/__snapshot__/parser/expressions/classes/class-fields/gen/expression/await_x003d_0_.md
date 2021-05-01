@@ -71,7 +71,7 @@ class C extends Base { await = 0; }
                         "key": {
                             "kind": 134299649,
                             "text": "await",
-                            "rawText": " await",
+                            "rawText": "await",
                             "flags": 96,
                             "start": 22,
                             "end": 28

@@ -38,7 +38,7 @@ var x,y; export {x as a, y as b}
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -113,7 +113,7 @@ var x,y; export {x as a, y as b}
                             "name": {
                                 "kind": 134299649,
                                 "text": "as",
-                                "rawText": " as",
+                                "rawText": "as",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 21
@@ -130,7 +130,7 @@ var x,y; export {x as a, y as b}
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 21,
                                 "end": 23
@@ -147,7 +147,7 @@ var x,y; export {x as a, y as b}
                             "name": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -164,7 +164,7 @@ var x,y; export {x as a, y as b}
                             "name": {
                                 "kind": 134299649,
                                 "text": "as",
-                                "rawText": " as",
+                                "rawText": "as",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 29
@@ -181,7 +181,7 @@ var x,y; export {x as a, y as b}
                             "name": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 29,
                                 "end": 31

@@ -91,7 +91,7 @@ function *P(){
                                     "member": {
                                         "kind": 134299649,
                                         "text": "fooo",
-                                        "rawText": " fooo",
+                                        "rawText": "fooo",
                                         "flags": 96,
                                         "start": 32,
                                         "end": 37

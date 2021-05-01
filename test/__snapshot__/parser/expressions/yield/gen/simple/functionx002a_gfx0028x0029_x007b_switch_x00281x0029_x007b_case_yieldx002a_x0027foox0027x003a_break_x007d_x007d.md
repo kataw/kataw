@@ -38,7 +38,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
             "name": {
                 "kind": 134299649,
                 "text": "gf",
-                "rawText": " gf",
+                "rawText": "gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12

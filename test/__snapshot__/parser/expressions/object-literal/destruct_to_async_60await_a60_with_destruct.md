@@ -34,7 +34,7 @@ async function g() {   s = {"foo": await a = x} = x   }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -60,7 +60,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "s",
-                                    "rawText": "   s",
+                                    "rawText": "s",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 24
@@ -97,7 +97,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
-                                                                "rawText": " a",
+                                                                "rawText": "a",
                                                                 "flags": 96,
                                                                 "start": 40,
                                                                 "end": 42
@@ -115,7 +115,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "right": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 44,
                                                             "end": 46
@@ -155,7 +155,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 49,
                                         "end": 51

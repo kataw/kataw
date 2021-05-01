@@ -33,7 +33,7 @@ function not_gen() { var foo = yield = 1; }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -69,7 +69,7 @@ function not_gen() { var foo = yield = 1; }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 28
@@ -81,7 +81,7 @@ function not_gen() { var foo = yield = 1; }}
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 30,
                                                 "end": 36

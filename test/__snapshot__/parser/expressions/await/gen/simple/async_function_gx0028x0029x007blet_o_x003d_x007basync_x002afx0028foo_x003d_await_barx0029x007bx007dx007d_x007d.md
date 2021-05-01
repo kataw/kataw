@@ -38,7 +38,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,7 +73,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "o",
-                                            "rawText": " o",
+                                            "rawText": "o",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -123,7 +123,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                         "expression": {
                                                                             "kind": 134299649,
                                                                             "text": "bar",
-                                                                            "rawText": " bar",
+                                                                            "rawText": "bar",
                                                                             "flags": 96,
                                                                             "start": 48,
                                                                             "end": 52

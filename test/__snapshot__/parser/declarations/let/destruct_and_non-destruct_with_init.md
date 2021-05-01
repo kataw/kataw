@@ -83,7 +83,7 @@ let {x} = a, y = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 9,
                             "end": 11
@@ -97,7 +97,7 @@ let {x} = a, y = obj;
                         "binding": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 12,
                             "end": 14
@@ -107,7 +107,7 @@ let {x} = a, y = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 16,
                             "end": 20

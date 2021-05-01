@@ -52,7 +52,7 @@ export * as foo, {bar} from 'bar';
                 "from": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": " foo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 11,
                     "end": 15
@@ -98,7 +98,7 @@ export * as foo, {bar} from 'bar';
             "expression": {
                 "kind": 134299649,
                 "text": "from",
-                "rawText": " from",
+                "rawText": "from",
                 "flags": 96,
                 "start": 22,
                 "end": 27

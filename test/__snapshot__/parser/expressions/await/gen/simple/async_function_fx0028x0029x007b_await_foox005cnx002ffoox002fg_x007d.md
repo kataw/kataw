@@ -38,7 +38,7 @@ async function f(){ await foo\n/foo/g }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -70,7 +70,7 @@ async function f(){ await foo\n/foo/g }
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 29

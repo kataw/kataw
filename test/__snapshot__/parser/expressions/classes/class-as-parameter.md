@@ -81,7 +81,7 @@ class A {
             "name": {
                 "kind": 134299649,
                 "text": "decorator",
-                "rawText": " decorator",
+                "rawText": "decorator",
                 "flags": 96,
                 "start": 16,
                 "end": 26
@@ -172,7 +172,7 @@ class A {
                                                         "name": {
                                                             "kind": 134299649,
                                                             "text": "finisher",
-                                                            "rawText": "\n    finisher",
+                                                            "rawText": "finisher",
                                                             "flags": 96,
                                                             "start": 61,
                                                             "end": 74

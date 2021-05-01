@@ -34,7 +34,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -72,7 +72,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 39
@@ -139,7 +139,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "expression": {
                                                                                     "kind": 134299649,
                                                                                     "text": "foo",
-                                                                                    "rawText": " foo",
+                                                                                    "rawText": "foo",
                                                                                     "flags": 96,
                                                                                     "start": 56,
                                                                                     "end": 60
@@ -238,7 +238,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "contents": {
                                                     "kind": 134299649,
                                                     "text": "a",
-                                                    "rawText": " a",
+                                                    "rawText": "a",
                                                     "flags": 96,
                                                     "start": 80,
                                                     "end": 82

@@ -48,7 +48,7 @@ do a + b instanceof c while (x);
                     "left": {
                         "kind": 134299649,
                         "text": "a",
-                        "rawText": " a",
+                        "rawText": "a",
                         "flags": 96,
                         "start": 2,
                         "end": 4
@@ -64,7 +64,7 @@ do a + b instanceof c while (x);
                         "left": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 6,
                             "end": 8
@@ -78,7 +78,7 @@ do a + b instanceof c while (x);
                         "right": {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 19,
                             "end": 21

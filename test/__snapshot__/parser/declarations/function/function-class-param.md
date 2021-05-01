@@ -34,7 +34,7 @@ function* foo(a = class {*bar() { yield b }}) {}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -115,7 +115,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
-                                                                "rawText": " yield",
+                                                                "rawText": "yield",
                                                                 "flags": 96,
                                                                 "start": 33,
                                                                 "end": 39
@@ -129,7 +129,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
-                                                                "rawText": " b",
+                                                                "rawText": "b",
                                                                 "flags": 96,
                                                                 "start": 39,
                                                                 "end": 41

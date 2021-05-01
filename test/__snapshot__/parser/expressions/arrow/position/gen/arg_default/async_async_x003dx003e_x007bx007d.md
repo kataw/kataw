@@ -33,7 +33,7 @@ function f(a = async async => {}) {}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -70,7 +70,7 @@ function f(a = async async => {}) {}
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "async",
-                                        "rawText": " async",
+                                        "rawText": "async",
                                         "flags": 96,
                                         "start": 20,
                                         "end": 26

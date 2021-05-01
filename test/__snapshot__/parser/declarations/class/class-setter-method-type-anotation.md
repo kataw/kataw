@@ -65,7 +65,7 @@ class Foo {set fooProp(value:number){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "fooProp",
-                                "rawText": " fooProp",
+                                "rawText": "fooProp",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 22

@@ -40,7 +40,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                 "consequent": {
                     "kind": 134299649,
                     "text": "baz",
-                    "rawText": " baz",
+                    "rawText": "baz",
                     "flags": 96,
                     "start": 5,
                     "end": 9

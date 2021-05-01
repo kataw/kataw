@@ -84,7 +84,7 @@ type T = <
                     "left": {
                         "kind": 134299649,
                         "text": "functionName",
-                        "rawText": "\nfunctionName",
+                        "rawText": "functionName",
                         "flags": 96,
                         "start": 0,
                         "end": 13
@@ -144,7 +144,7 @@ type T = <
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 42,
                             "end": 44
@@ -240,7 +240,7 @@ type T = <
                     "left": {
                         "kind": 134299649,
                         "text": "functionName",
-                        "rawText": "\n\nfunctionName",
+                        "rawText": "functionName",
                         "flags": 96,
                         "start": 67,
                         "end": 81
@@ -297,7 +297,7 @@ type T = <
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 109,
                 "end": 113
@@ -365,7 +365,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "interface",
-                "rawText": "\n\ninterface",
+                "rawText": "interface",
                 "flags": 96,
                 "start": 133,
                 "end": 144
@@ -427,7 +427,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "any",
-                "rawText": " any",
+                "rawText": "any",
                 "flags": 96,
                 "start": 174,
                 "end": 178
@@ -441,7 +441,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "type",
-                "rawText": "\n\ntype",
+                "rawText": "type",
                 "flags": 96,
                 "start": 182,
                 "end": 188
@@ -498,7 +498,7 @@ type T = <
                     "contents": {
                         "kind": 134299649,
                         "text": "any",
-                        "rawText": " any",
+                        "rawText": "any",
                         "flags": 96,
                         "start": 216,
                         "end": 220
@@ -524,7 +524,7 @@ type T = <
                     "left": {
                         "kind": 134299649,
                         "text": "functionName",
-                        "rawText": "\n\n\n\nfunctionName",
+                        "rawText": "functionName",
                         "flags": 96,
                         "start": 221,
                         "end": 237
@@ -584,7 +584,7 @@ type T = <
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 267,
                             "end": 269
@@ -680,7 +680,7 @@ type T = <
                     "left": {
                         "kind": 134299649,
                         "text": "functionName",
-                        "rawText": "\n\nfunctionName",
+                        "rawText": "functionName",
                         "flags": 96,
                         "start": 295,
                         "end": 309
@@ -737,7 +737,7 @@ type T = <
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 340,
                 "end": 344
@@ -805,7 +805,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "interface",
-                "rawText": "\n\ninterface",
+                "rawText": "interface",
                 "flags": 96,
                 "start": 367,
                 "end": 378
@@ -867,7 +867,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "any",
-                "rawText": " any",
+                "rawText": "any",
                 "flags": 96,
                 "start": 413,
                 "end": 417
@@ -881,7 +881,7 @@ type T = <
             "expression": {
                 "kind": 134299649,
                 "text": "type",
-                "rawText": "\n\ntype",
+                "rawText": "type",
                 "flags": 96,
                 "start": 421,
                 "end": 427
@@ -938,7 +938,7 @@ type T = <
                     "contents": {
                         "kind": 134299649,
                         "text": "any",
-                        "rawText": " any",
+                        "rawText": "any",
                         "flags": 96,
                         "start": 458,
                         "end": 462

@@ -77,7 +77,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 25
@@ -152,7 +152,7 @@
                                     "consequent": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 47,
                                         "end": 53
@@ -166,7 +166,7 @@
                                     "alternate": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 55,
                                         "end": 59
@@ -336,7 +336,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 104,
                                     "end": 108
@@ -407,7 +407,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 122,
                                 "end": 124
@@ -417,7 +417,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "z",
-                                    "rawText": " z",
+                                    "rawText": "z",
                                     "flags": 96,
                                     "start": 125,
                                     "end": 127
@@ -490,7 +490,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "delete",
-                                    "rawText": " delete",
+                                    "rawText": "delete",
                                     "flags": 96,
                                     "start": 144,
                                     "end": 151

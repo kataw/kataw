@@ -51,7 +51,7 @@ class A extends fooo.bar {}
                     "member": {
                         "kind": 134299649,
                         "text": "fooo",
-                        "rawText": " fooo",
+                        "rawText": "fooo",
                         "flags": 96,
                         "start": 15,
                         "end": 20

@@ -82,7 +82,7 @@ import {default as foo} from "foo";
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 15,
                                     "end": 18
@@ -98,7 +98,7 @@ import {default as foo} from "foo";
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 64,
                                     "start": 18,
                                     "end": 22

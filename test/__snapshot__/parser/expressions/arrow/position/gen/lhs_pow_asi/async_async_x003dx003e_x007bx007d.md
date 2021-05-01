@@ -38,7 +38,7 @@ async async => {}
                         "binding": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 5,
                             "end": 11
@@ -100,7 +100,7 @@ async async => {}
                 "right": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 22

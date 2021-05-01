@@ -44,7 +44,7 @@ do h(function(){});while(x)
                     "expression": {
                         "kind": 134299649,
                         "text": "h",
-                        "rawText": " h",
+                        "rawText": "h",
                         "flags": 96,
                         "start": 2,
                         "end": 4

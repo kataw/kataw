@@ -87,7 +87,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 9,
                                     "end": 11
@@ -103,7 +103,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 16
@@ -124,7 +124,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "d",
-                                "rawText": " d",
+                                "rawText": "d",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 18
@@ -140,7 +140,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 22
@@ -154,7 +154,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "d",
-                                    "rawText": " d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 27

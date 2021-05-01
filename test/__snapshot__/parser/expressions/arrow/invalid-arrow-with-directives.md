@@ -89,7 +89,7 @@
                         "right": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 18,
                             "end": 24
@@ -172,7 +172,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 51,
                                     "end": 57
@@ -270,7 +270,7 @@
                 "parameters": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 84,
                     "end": 90
@@ -731,7 +731,7 @@
                                     "left": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 278,
                                         "end": 284
@@ -976,7 +976,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 379,
                     "end": 385
@@ -1024,7 +1024,7 @@
                         "left": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 406,
                             "end": 412
@@ -1124,7 +1124,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 444,
                                                 "end": 446
@@ -1134,7 +1134,7 @@
                                             "initializer": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 448,
                                                 "end": 454
@@ -1220,7 +1220,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 484,
                                                 "end": 486
@@ -1234,7 +1234,7 @@
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 488,
                                                         "end": 494
@@ -1356,7 +1356,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 529,
                                                 "end": 535
@@ -1445,7 +1445,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 565,
                                                 "end": 571
@@ -1953,7 +1953,7 @@
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "yield",
-                                                                    "rawText": " yield",
+                                                                    "rawText": "yield",
                                                                     "flags": 96,
                                                                     "start": 745,
                                                                     "end": 751
@@ -2330,7 +2330,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 877,
                                                 "end": 883
@@ -2418,7 +2418,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 913,
                                                 "end": 919
@@ -2922,7 +2922,7 @@
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "yield",
-                                                                    "rawText": " yield",
+                                                                    "rawText": "yield",
                                                                     "flags": 96,
                                                                     "start": 1093,
                                                                     "end": 1099

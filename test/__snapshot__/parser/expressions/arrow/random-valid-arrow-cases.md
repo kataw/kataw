@@ -158,7 +158,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
-                    "rawText": " z",
+                    "rawText": "z",
                     "flags": 96,
                     "start": 17,
                     "end": 19
@@ -235,7 +235,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 32,
                     "end": 34
@@ -298,7 +298,7 @@ foo((x, y) => {});
                                                 {
                                                     "kind": 134299649,
                                                     "text": "c",
-                                                    "rawText": " c",
+                                                    "rawText": "c",
                                                     "flags": 96,
                                                     "start": 47,
                                                     "end": 49
@@ -452,7 +452,7 @@ foo((x, y) => {});
                     "expression": {
                         "kind": 134299649,
                         "text": "f10",
-                        "rawText": " f10",
+                        "rawText": "f10",
                         "flags": 96,
                         "start": 92,
                         "end": 96
@@ -590,7 +590,7 @@ foo((x, y) => {});
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 129,
                             "end": 131
@@ -621,7 +621,7 @@ foo((x, y) => {});
                             {
                                 "kind": 134299649,
                                 "text": "v",
-                                "rawText": " v",
+                                "rawText": "v",
                                 "flags": 96,
                                 "start": 139,
                                 "end": 141
@@ -637,7 +637,7 @@ foo((x, y) => {});
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 145,
                                 "end": 147
@@ -671,7 +671,7 @@ foo((x, y) => {});
                             "left": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 151,
                                 "end": 153
@@ -806,7 +806,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 183,
                     "end": 185
@@ -896,7 +896,7 @@ foo((x, y) => {});
                 "expression": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\n\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 206,
                     "end": 211
@@ -1104,7 +1104,7 @@ foo((x, y) => {});
                                                 {
                                                     "kind": 134299649,
                                                     "text": "c",
-                                                    "rawText": " c",
+                                                    "rawText": "c",
                                                     "flags": 96,
                                                     "start": 258,
                                                     "end": 260
@@ -1154,7 +1154,7 @@ foo((x, y) => {});
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 269,
                     "end": 272
@@ -1246,7 +1246,7 @@ foo((x, y) => {});
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 291,
                             "end": 293
@@ -1262,7 +1262,7 @@ foo((x, y) => {});
                         "member": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 297,
                             "end": 299
@@ -1288,7 +1288,7 @@ foo((x, y) => {});
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 303,
                         "end": 305
@@ -1340,7 +1340,7 @@ foo((x, y) => {});
                                                 {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 313,
                                                     "end": 315
@@ -1364,7 +1364,7 @@ foo((x, y) => {});
                                     "right": {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 318,
                                         "end": 320
@@ -1389,7 +1389,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 325,
                     "end": 327
@@ -1448,7 +1448,7 @@ foo((x, y) => {});
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 337,
                                 "end": 339
@@ -1478,7 +1478,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 347,
                     "end": 349
@@ -1498,7 +1498,7 @@ foo((x, y) => {});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 350,
                     "end": 353
@@ -1566,7 +1566,7 @@ foo((x, y) => {});
                                     {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 364,
                                         "end": 366
@@ -1578,7 +1578,7 @@ foo((x, y) => {});
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 370,
                                 "end": 372
@@ -1608,7 +1608,7 @@ foo((x, y) => {});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 374,
                     "end": 376
@@ -1690,7 +1690,7 @@ foo((x, y) => {});
                                     {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 392,
                                         "end": 394
@@ -1702,7 +1702,7 @@ foo((x, y) => {});
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 398,
                                 "end": 400
@@ -1732,7 +1732,7 @@ foo((x, y) => {});
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 402,
                     "end": 404
@@ -1797,7 +1797,7 @@ foo((x, y) => {});
                                     {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 415,
                                         "end": 417
@@ -1809,7 +1809,7 @@ foo((x, y) => {});
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 421,
                                 "end": 423
@@ -1859,7 +1859,7 @@ foo((x, y) => {});
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
-                            "rawText": " ok",
+                            "rawText": "ok",
                             "flags": 96,
                             "start": 440,
                             "end": 443
@@ -1916,7 +1916,7 @@ foo((x, y) => {});
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 458,
                                                 "end": 460
@@ -1989,7 +1989,7 @@ foo((x, y) => {});
                                 "left": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 469,
                                     "end": 475
@@ -2078,7 +2078,7 @@ foo((x, y) => {});
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 494,
                         "end": 497
@@ -2134,7 +2134,7 @@ foo((x, y) => {});
                                         {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 506,
                                             "end": 508
@@ -2162,7 +2162,7 @@ foo((x, y) => {});
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",
-                                                        "rawText": " a",
+                                                        "rawText": "a",
                                                         "flags": 96,
                                                         "start": 521,
                                                         "end": 523
@@ -2176,7 +2176,7 @@ foo((x, y) => {});
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "b",
-                                                        "rawText": " b",
+                                                        "rawText": "b",
                                                         "flags": 96,
                                                         "start": 525,
                                                         "end": 527
@@ -2259,7 +2259,7 @@ foo((x, y) => {});
                 "expression": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\n\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 541,
                     "end": 546
@@ -2289,7 +2289,7 @@ foo((x, y) => {});
                                     {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 550,
                                         "end": 552
@@ -2475,7 +2475,7 @@ foo((x, y) => {});
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 599,
                                                     "end": 601
@@ -2510,7 +2510,7 @@ foo((x, y) => {});
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
-                    "rawText": " z",
+                    "rawText": "z",
                     "flags": 96,
                     "start": 607,
                     "end": 609

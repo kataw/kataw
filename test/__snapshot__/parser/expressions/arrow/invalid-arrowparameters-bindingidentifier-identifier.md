@@ -32,7 +32,7 @@ var af = switch => 1;
                         "binding": {
                             "kind": 134299649,
                             "text": "af",
-                            "rawText": " af",
+                            "rawText": "af",
                             "flags": 96,
                             "start": 3,
                             "end": 6

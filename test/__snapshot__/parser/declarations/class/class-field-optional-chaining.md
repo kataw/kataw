@@ -97,7 +97,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 17
@@ -152,7 +152,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                     "expression": {
                                                         "kind": 134299649,
                                                         "text": "f",
-                                                        "rawText": " f",
+                                                        "rawText": "f",
                                                         "flags": 96,
                                                         "start": 22,
                                                         "end": 24

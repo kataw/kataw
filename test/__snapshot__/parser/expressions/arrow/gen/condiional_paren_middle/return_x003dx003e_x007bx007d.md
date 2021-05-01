@@ -84,7 +84,7 @@ bar ? (return => {}) : baz;
             "expression": {
                 "kind": 134299649,
                 "text": "baz",
-                "rawText": " baz",
+                "rawText": "baz",
                 "flags": 96,
                 "start": 22,
                 "end": 26

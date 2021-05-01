@@ -38,7 +38,7 @@ async function a(){     async ({r} = await bar);     }
             "name": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -112,7 +112,7 @@ async function a(){     async ({r} = await bar);     }
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "bar",
-                                                "rawText": " bar",
+                                                "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 42,
                                                 "end": 46

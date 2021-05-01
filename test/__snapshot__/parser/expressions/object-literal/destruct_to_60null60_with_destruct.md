@@ -64,7 +64,7 @@ s = {"foo": null = x} = x
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 18,
                                             "end": 20
@@ -104,7 +104,7 @@ s = {"foo": null = x} = x
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 23,
                         "end": 25

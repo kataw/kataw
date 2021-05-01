@@ -33,7 +33,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -66,7 +66,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 29,
                                 "end": 35
@@ -109,7 +109,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                             "label": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 44,
                                                 "end": 50
@@ -137,7 +137,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                     "expression": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 51,
                                                         "end": 57
@@ -166,7 +166,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                                     "expression": {
                                                                         "kind": 134299649,
                                                                         "text": "yield",
-                                                                        "rawText": " yield",
+                                                                        "rawText": "yield",
                                                                         "flags": 96,
                                                                         "start": 66,
                                                                         "end": 72

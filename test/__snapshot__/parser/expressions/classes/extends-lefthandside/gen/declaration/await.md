@@ -49,7 +49,7 @@ class A extends await {}
                 "expression": {
                     "kind": 134299649,
                     "text": "await",
-                    "rawText": " await",
+                    "rawText": "await",
                     "flags": 96,
                     "start": 15,
                     "end": 21

@@ -69,7 +69,7 @@ let {x : y, z : a} = obj;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 8,
                                                 "end": 10
@@ -89,7 +89,7 @@ let {x : y, z : a} = obj;
                                         "key": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 15
@@ -100,7 +100,7 @@ let {x : y, z : a} = obj;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 15,
                                                 "end": 17
@@ -129,7 +129,7 @@ let {x : y, z : a} = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 20,
                             "end": 24

@@ -38,7 +38,7 @@ async function g(){let o = {f(foo = await bar){}}    }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,7 +73,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "o",
-                                            "rawText": " o",
+                                            "rawText": "o",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -115,7 +115,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                     "initializer": {
                                                                         "kind": 134299649,
                                                                         "text": "await",
-                                                                        "rawText": " await",
+                                                                        "rawText": "await",
                                                                         "flags": 96,
                                                                         "start": 35,
                                                                         "end": 41
@@ -130,7 +130,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                     "binding": {
                                                                         "kind": 134299649,
                                                                         "text": "bar",
-                                                                        "rawText": " bar",
+                                                                        "rawText": "bar",
                                                                         "flags": 96,
                                                                         "start": 41,
                                                                         "end": 45

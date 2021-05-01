@@ -70,7 +70,7 @@ declare class A { static foo(): number; static x : string }
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 28
@@ -119,7 +119,7 @@ declare class A { static foo(): number; static x : string }
                         "key": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 46,
                             "end": 48

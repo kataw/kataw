@@ -66,7 +66,7 @@ for ({a: b.c}[x] of d) e
                                     "member": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 10
@@ -120,7 +120,7 @@ for ({a: b.c}[x] of d) e
             "expression": {
                 "kind": 134299649,
                 "text": "d",
-                "rawText": " d",
+                "rawText": "d",
                 "flags": 96,
                 "start": 19,
                 "end": 21
@@ -130,7 +130,7 @@ for ({a: b.c}[x] of d) e
                 "expression": {
                     "kind": 134299649,
                     "text": "e",
-                    "rawText": " e",
+                    "rawText": "e",
                     "flags": 96,
                     "start": 22,
                     "end": 24

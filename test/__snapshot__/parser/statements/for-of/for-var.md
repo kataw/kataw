@@ -50,7 +50,7 @@ for(var i;;);
                         "binding": {
                             "kind": 134299649,
                             "text": "i",
-                            "rawText": " i",
+                            "rawText": "i",
                             "flags": 96,
                             "start": 7,
                             "end": 9

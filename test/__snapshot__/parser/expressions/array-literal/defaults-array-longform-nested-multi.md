@@ -70,7 +70,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 7,
                                                 "end": 9
@@ -90,7 +90,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "key": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 13
@@ -101,7 +101,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15
@@ -121,7 +121,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                         "key": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 19
@@ -140,7 +140,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "key": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
-                                                                "rawText": " a",
+                                                                "rawText": "a",
                                                                 "flags": 96,
                                                                 "start": 21,
                                                                 "end": 24
@@ -151,7 +151,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
-                                                                    "rawText": " a",
+                                                                    "rawText": "a",
                                                                     "flags": 96,
                                                                     "start": 24,
                                                                     "end": 26
@@ -206,7 +206,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                         "initializer": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 36,
                             "end": 38

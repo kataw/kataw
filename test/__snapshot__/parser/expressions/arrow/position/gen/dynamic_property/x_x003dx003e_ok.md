@@ -45,7 +45,7 @@ x => ok[foo]
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 4,
                         "end": 7

@@ -37,7 +37,7 @@ function foo(numVal: any, otherVal: mixed){}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 8,
                 "end": 12
@@ -80,7 +80,7 @@ function foo(numVal: any, otherVal: mixed){}
                         "binding": {
                             "kind": 134299649,
                             "text": "otherVal",
-                            "rawText": " otherVal",
+                            "rawText": "otherVal",
                             "flags": 96,
                             "start": 25,
                             "end": 34
@@ -93,7 +93,7 @@ function foo(numVal: any, otherVal: mixed){}
                                 "id": {
                                     "kind": 134299649,
                                     "text": "mixed",
-                                    "rawText": " mixed",
+                                    "rawText": "mixed",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 41

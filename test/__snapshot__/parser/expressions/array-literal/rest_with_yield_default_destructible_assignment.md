@@ -66,7 +66,7 @@ result = [...{ x = yield }] = y;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "x",
-                                                        "rawText": " x",
+                                                        "rawText": "x",
                                                         "flags": 96,
                                                         "start": 14,
                                                         "end": 16
@@ -74,7 +74,7 @@ result = [...{ x = yield }] = y;
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 18,
                                                         "end": 24
@@ -116,7 +116,7 @@ result = [...{ x = yield }] = y;
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 29,
                         "end": 31

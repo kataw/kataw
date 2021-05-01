@@ -100,7 +100,7 @@ while(y
                     "expression": {
                         "kind": 134299649,
                         "text": "n",
-                        "rawText": " n",
+                        "rawText": "n",
                         "flags": 96,
                         "start": 17,
                         "end": 19

@@ -72,7 +72,7 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "expression": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 32,
                             "end": 34
@@ -107,7 +107,7 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                         "expression": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 47,
                             "end": 49

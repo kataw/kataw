@@ -29,7 +29,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -62,7 +62,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "expression": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 31
@@ -85,7 +85,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",
-                                "rawText": " g",
+                                "rawText": "g",
                                 "flags": 96,
                                 "start": 41,
                                 "end": 43
@@ -125,7 +125,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 56,
                                                     "end": 58

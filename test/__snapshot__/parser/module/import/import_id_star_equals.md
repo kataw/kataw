@@ -35,7 +35,7 @@ import a, *= from 'f';
                 "from": {
                     "kind": 134299649,
                     "text": "from",
-                    "rawText": " from",
+                    "rawText": "from",
                     "flags": 96,
                     "start": 12,
                     "end": 17
@@ -50,7 +50,7 @@ import a, *= from 'f';
                 "defaultBinding": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": " a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 6,
                     "end": 8

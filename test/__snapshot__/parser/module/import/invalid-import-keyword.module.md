@@ -66,7 +66,7 @@ import { for } from "iteration"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "for",
-                                    "rawText": " for",
+                                    "rawText": "for",
                                     "flags": 64,
                                     "start": 8,
                                     "end": 12

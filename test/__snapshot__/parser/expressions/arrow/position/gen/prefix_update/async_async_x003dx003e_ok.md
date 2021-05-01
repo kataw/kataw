@@ -45,7 +45,7 @@
                             "binding": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": " async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 7,
                                 "end": 13
@@ -68,7 +68,7 @@
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 16,
                         "end": 19

@@ -27,7 +27,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 1,
                                 "end": 3
@@ -55,7 +55,7 @@
                             "expression": {
                                 "kind": 134299649,
                                 "text": "bt",
-                                "rawText": " bt",
+                                "rawText": "bt",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 9

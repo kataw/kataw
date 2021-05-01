@@ -42,7 +42,7 @@ var a: { [a: number]: string; [b: number]: string; };
                         "binding": {
                             "kind": 134299649,
                             "text": "numVal",
-                            "rawText": " numVal",
+                            "rawText": "numVal",
                             "flags": 96,
                             "start": 3,
                             "end": 10
@@ -63,7 +63,7 @@ var a: { [a: number]: string; [b: number]: string; };
                         "initializer": {
                             "kind": 134299649,
                             "text": "otherNumVal",
-                            "rawText": " otherNumVal",
+                            "rawText": "otherNumVal",
                             "flags": 96,
                             "start": 19,
                             "end": 31
@@ -98,7 +98,7 @@ var a: { [a: number]: string; [b: number]: string; };
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 37,
                             "end": 39

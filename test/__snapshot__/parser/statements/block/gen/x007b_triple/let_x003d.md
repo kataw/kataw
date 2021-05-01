@@ -41,7 +41,7 @@
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "let",
-                                                        "rawText": " let",
+                                                        "rawText": "let",
                                                         "flags": 96,
                                                         "start": 5,
                                                         "end": 9

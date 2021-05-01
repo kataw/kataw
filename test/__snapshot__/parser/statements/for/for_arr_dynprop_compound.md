@@ -70,7 +70,7 @@ for ([][y] <<= p;;) x;
                 "right": {
                     "kind": 134299649,
                     "text": "p",
-                    "rawText": " p",
+                    "rawText": "p",
                     "flags": 96,
                     "start": 14,
                     "end": 16
@@ -86,7 +86,7 @@ for ([][y] <<= p;;) x;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 19,
                     "end": 21

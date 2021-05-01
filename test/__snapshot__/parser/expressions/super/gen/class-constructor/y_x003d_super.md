@@ -56,7 +56,7 @@ class C { constructor() { y = super } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -84,7 +84,7 @@ class C { constructor() { y = super } }
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 25,
                                                     "end": 27

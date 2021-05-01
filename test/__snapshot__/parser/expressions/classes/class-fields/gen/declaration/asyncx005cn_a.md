@@ -51,7 +51,7 @@ class C { async\n a }
                         "key": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 9,
                             "end": 15
@@ -91,7 +91,7 @@ class C { async\n a }
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 17,
                 "end": 19

@@ -58,7 +58,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -102,7 +102,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 23,
                             "end": 25
@@ -127,7 +127,7 @@ var { f\u0061lse } = {};
                                             {
                                                 "kind": 134299649,
                                                 "text": "with",
-                                                "rawText": " w\\u0069th",
+                                                "rawText": "w\\u0069th",
                                                 "flags": 96,
                                                 "start": 30,
                                                 "end": 40
@@ -333,7 +333,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "enum",
-                            "rawText": "\n\nvar",
+                            "rawText": "var",
                             "flags": 96,
                             "start": 123,
                             "end": 148
@@ -503,7 +503,7 @@ var { f\u0061lse } = {};
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
-                "rawText": " obj",
+                "rawText": "obj",
                 "flags": 96,
                 "start": 220,
                 "end": 224
@@ -529,7 +529,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 230,
                             "end": 232
@@ -554,7 +554,7 @@ var { f\u0061lse } = {};
                                             {
                                                 "kind": 134299649,
                                                 "text": "try",
-                                                "rawText": " tr\\u0079",
+                                                "rawText": "tr\\u0079",
                                                 "flags": 96,
                                                 "start": 237,
                                                 "end": 246
@@ -620,7 +620,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 261,
                             "end": 263
@@ -645,7 +645,7 @@ var { f\u0061lse } = {};
                                             {
                                                 "kind": 134299649,
                                                 "text": "typeof",
-                                                "rawText": " typ\\u0065of",
+                                                "rawText": "typ\\u0065of",
                                                 "flags": 96,
                                                 "start": 268,
                                                 "end": 280
@@ -758,7 +758,7 @@ var { f\u0061lse } = {};
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 309,
                             "end": 311

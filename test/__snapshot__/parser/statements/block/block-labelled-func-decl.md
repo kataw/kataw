@@ -25,7 +25,7 @@
                         "label": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 1,
                             "end": 5
@@ -59,7 +59,7 @@
                             "label": {
                                 "kind": 134299649,
                                 "text": "bar",
-                                "rawText": " bar",
+                                "rawText": "bar",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 10
@@ -102,7 +102,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 22

@@ -73,7 +73,7 @@ var [x = 10, y, z] = a;
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -91,7 +91,7 @@ var [x = 10, y, z] = a;
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 17
@@ -118,7 +118,7 @@ var [x = 10, y, z] = a;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 20,
                             "end": 22

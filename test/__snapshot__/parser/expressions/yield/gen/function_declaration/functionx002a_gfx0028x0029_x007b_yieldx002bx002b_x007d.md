@@ -33,7 +33,7 @@ function not_gen() { function* gf() { yield++; } }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { function* gf() { yield++; } }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gf",
-                                "rawText": " gf",
+                                "rawText": "gf",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 33

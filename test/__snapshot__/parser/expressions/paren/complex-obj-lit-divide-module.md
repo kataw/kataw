@@ -152,7 +152,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 30,
                                         "end": 32
@@ -321,7 +321,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 67,
                                                 "end": 69
@@ -477,7 +477,7 @@
                                                 "right": {
                                                     "kind": 134299649,
                                                     "text": "a",
-                                                    "rawText": " a",
+                                                    "rawText": "a",
                                                     "flags": 96,
                                                     "start": 102,
                                                     "end": 104
@@ -663,7 +663,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "a",
-                                                "rawText": " a",
+                                                "rawText": "a",
                                                 "flags": 96,
                                                 "start": 143,
                                                 "end": 145

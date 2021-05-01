@@ -86,7 +86,7 @@ function *g() { (x = u + yield z) => {}; }
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "u",
-                                                "rawText": " u",
+                                                "rawText": "u",
                                                 "flags": 96,
                                                 "start": 20,
                                                 "end": 22
@@ -110,7 +110,7 @@ function *g() { (x = u + yield z) => {}; }
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "z",
-                                                    "rawText": " z",
+                                                    "rawText": "z",
                                                     "flags": 96,
                                                     "start": 30,
                                                     "end": 32

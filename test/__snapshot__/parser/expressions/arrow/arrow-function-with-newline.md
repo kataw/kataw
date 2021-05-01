@@ -56,7 +56,7 @@ async (f)
                     "id": {
                         "kind": 134299649,
                         "text": "t",
-                        "rawText": " t",
+                        "rawText": "t",
                         "flags": 96,
                         "start": 11,
                         "end": 13

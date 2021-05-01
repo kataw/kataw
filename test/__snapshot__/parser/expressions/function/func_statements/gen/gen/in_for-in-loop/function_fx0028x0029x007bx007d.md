@@ -44,7 +44,7 @@ for (a in b) function f(){}
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": " b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -63,7 +63,7 @@ for (a in b) function f(){}
                 "name": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": " f",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 21,
                     "end": 23

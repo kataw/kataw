@@ -52,7 +52,7 @@ foo: break foo;
                 "label": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": " foo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 10,
                     "end": 14

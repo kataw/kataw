@@ -71,7 +71,7 @@ class A {async get 7(){}}
                         "key": {
                             "kind": 134299649,
                             "text": "get",
-                            "rawText": " get",
+                            "rawText": "get",
                             "flags": 96,
                             "start": 14,
                             "end": 18

@@ -57,7 +57,7 @@ class A {static a(x=new.target){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 17

@@ -34,7 +34,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -66,7 +66,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -146,7 +146,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                         "expression": {
                                                                                             "kind": 134299649,
                                                                                             "text": "t",
-                                                                                            "rawText": " t",
+                                                                                            "rawText": "t",
                                                                                             "flags": 96,
                                                                                             "start": 44,
                                                                                             "end": 46
@@ -165,7 +165,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                 {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "bar",
-                                                                                                    "rawText": " bar",
+                                                                                                    "rawText": "bar",
                                                                                                     "flags": 96,
                                                                                                     "start": 52,
                                                                                                     "end": 56

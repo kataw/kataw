@@ -105,7 +105,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "let",
-                            "rawText": " let",
+                            "rawText": "let",
                             "flags": 96,
                             "start": 17,
                             "end": 21
@@ -130,7 +130,7 @@
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 27,
                                         "end": 29

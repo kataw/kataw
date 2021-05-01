@@ -103,7 +103,7 @@ class A {set(){} get(){} async(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "get",
-                                "rawText": " get",
+                                "rawText": "get",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 20
@@ -154,7 +154,7 @@ class A {set(){} get(){} async(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": " async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 30

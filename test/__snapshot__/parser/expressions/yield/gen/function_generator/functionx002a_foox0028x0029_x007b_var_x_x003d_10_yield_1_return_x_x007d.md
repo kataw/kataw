@@ -38,7 +38,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -109,7 +109,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "foo",
-                                                "rawText": " foo",
+                                                "rawText": "foo",
                                                 "flags": 96,
                                                 "start": 49,
                                                 "end": 53
@@ -145,7 +145,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                         "binding": {
                                                                             "kind": 134299649,
                                                                             "text": "x",
-                                                                            "rawText": " x",
+                                                                            "rawText": "x",
                                                                             "flags": 96,
                                                                             "start": 61,
                                                                             "end": 63
@@ -212,7 +212,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             "expression": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 85,
                                                                 "end": 87

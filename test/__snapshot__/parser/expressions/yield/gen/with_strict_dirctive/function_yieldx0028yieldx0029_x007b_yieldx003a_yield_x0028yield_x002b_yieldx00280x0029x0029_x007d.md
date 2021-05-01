@@ -47,7 +47,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "yield",
-                "rawText": " yield",
+                "rawText": "yield",
                 "flags": 96,
                 "start": 22,
                 "end": 28
@@ -90,7 +90,7 @@
                             "label": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 43
@@ -118,7 +118,7 @@
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 44,
                                         "end": 50
@@ -147,7 +147,7 @@
                                                     "expression": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 59,
                                                         "end": 65

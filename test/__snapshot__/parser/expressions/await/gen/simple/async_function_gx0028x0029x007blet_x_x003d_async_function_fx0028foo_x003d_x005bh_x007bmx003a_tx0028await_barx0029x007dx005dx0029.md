@@ -38,7 +38,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -73,7 +73,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24
@@ -98,7 +98,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 41,
                                                 "end": 43
@@ -148,7 +148,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                                                         "expression": {
                                                                                             "kind": 134299649,
                                                                                             "text": "t",
-                                                                                            "rawText": " t",
+                                                                                            "rawText": "t",
                                                                                             "flags": 96,
                                                                                             "start": 57,
                                                                                             "end": 59
@@ -167,7 +167,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
                                                                                                     "expression": {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "bar",
-                                                                                                        "rawText": " bar",
+                                                                                                        "rawText": "bar",
                                                                                                         "flags": 96,
                                                                                                         "start": 65,
                                                                                                         "end": 69

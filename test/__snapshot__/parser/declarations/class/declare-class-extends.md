@@ -124,7 +124,7 @@ declare class A<T> extends B<T> { x: number }
                         "key": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 33,
                             "end": 35

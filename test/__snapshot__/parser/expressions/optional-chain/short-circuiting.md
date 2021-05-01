@@ -88,7 +88,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " // short-circuiting.\na",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 31
@@ -214,7 +214,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             "member": {
                                 "kind": 134299649,
                                 "text": "undefined",
-                                "rawText": " // long short-circuiting.\n\nundefined",
+                                "rawText": "undefined",
                                 "flags": 96,
                                 "start": 44,
                                 "end": 81
@@ -257,7 +257,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "undefined",
-                                    "rawText": " // short-circuiting.\nundefined",
+                                    "rawText": "undefined",
                                     "flags": 96,
                                     "start": 88,
                                     "end": 119

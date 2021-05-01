@@ -32,7 +32,7 @@ class x {*f(foo = await bar){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -86,7 +86,7 @@ class x {*f(foo = await bar){}}
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " await",
+                                            "rawText": "await",
                                             "flags": 96,
                                             "start": 17,
                                             "end": 23
@@ -101,7 +101,7 @@ class x {*f(foo = await bar){}}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 23,
                                             "end": 27

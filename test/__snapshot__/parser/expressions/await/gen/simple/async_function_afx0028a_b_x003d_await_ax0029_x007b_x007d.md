@@ -38,7 +38,7 @@ async function af(a, b = await a) { }
             "name": {
                 "kind": 134299649,
                 "text": "af",
-                "rawText": " af",
+                "rawText": "af",
                 "flags": 96,
                 "start": 14,
                 "end": 17
@@ -70,7 +70,7 @@ async function af(a, b = await a) { }
                         "binding": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 20,
                             "end": 22
@@ -88,7 +88,7 @@ async function af(a, b = await a) { }
                             "expression": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 32

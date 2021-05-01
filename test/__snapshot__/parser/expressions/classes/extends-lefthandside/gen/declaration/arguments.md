@@ -49,7 +49,7 @@ class A extends arguments {}
                 "expression": {
                     "kind": 134299649,
                     "text": "arguments",
-                    "rawText": " arguments",
+                    "rawText": "arguments",
                     "flags": 96,
                     "start": 15,
                     "end": 25

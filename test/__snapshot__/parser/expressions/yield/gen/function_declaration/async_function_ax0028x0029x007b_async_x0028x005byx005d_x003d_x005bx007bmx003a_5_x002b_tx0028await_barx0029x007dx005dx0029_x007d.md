@@ -33,7 +33,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 35,
                                 "end": 37
@@ -171,7 +171,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                             "expression": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "t",
-                                                                                                "rawText": " t",
+                                                                                                "rawText": "t",
                                                                                                 "flags": 96,
                                                                                                 "start": 66,
                                                                                                 "end": 68
@@ -190,7 +190,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                         "expression": {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "bar",
-                                                                                                            "rawText": " bar",
+                                                                                                            "rawText": "bar",
                                                                                                             "flags": 96,
                                                                                                             "start": 74,
                                                                                                             "end": 78

@@ -32,7 +32,7 @@ class x {set try(x){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {set try(x){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "try",
-                                "rawText": " try",
+                                "rawText": "try",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 16

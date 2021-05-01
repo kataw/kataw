@@ -102,7 +102,7 @@ for (function(){ if (a in b); }.prop in x);
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 27
@@ -153,7 +153,7 @@ for (function(){ if (a in b); }.prop in x);
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 39,
                 "end": 41

@@ -49,7 +49,7 @@ x ** x => ok
                     "parameters": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 4,
                         "end": 6
@@ -59,7 +59,7 @@ x ** x => ok
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 9,
                         "end": 12

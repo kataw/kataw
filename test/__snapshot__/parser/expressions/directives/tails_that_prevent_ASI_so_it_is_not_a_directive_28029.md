@@ -30,7 +30,7 @@ function f(){ "use strict"
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -84,7 +84,7 @@ function f(){ "use strict"
                                 "left": {
                                     "kind": 134299649,
                                     "text": "eval",
-                                    "rawText": " eval",
+                                    "rawText": "eval",
                                     "flags": 96,
                                     "start": 48,
                                     "end": 53

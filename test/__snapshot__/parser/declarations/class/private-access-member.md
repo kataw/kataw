@@ -78,7 +78,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 17
@@ -131,7 +131,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "obj",
-                                                    "rawText": " obj",
+                                                    "rawText": "obj",
                                                     "flags": 96,
                                                     "start": 24,
                                                     "end": 28

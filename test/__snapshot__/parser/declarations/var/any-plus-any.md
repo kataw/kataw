@@ -42,7 +42,7 @@ var z = x + x;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -83,7 +83,7 @@ var z = x + x;
                     "member": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": "\nx",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -139,7 +139,7 @@ var z = x + x;
                         "binding": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 33,
                             "end": 35
@@ -151,7 +151,7 @@ var z = x + x;
                             "left": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 37,
                                 "end": 39
@@ -165,7 +165,7 @@ var z = x + x;
                             "right": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 41,
                                 "end": 43

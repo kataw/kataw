@@ -44,7 +44,7 @@ result = [ x = yield ] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -89,7 +89,7 @@ result = [ x = yield ] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 18,
                             "end": 20
@@ -127,7 +127,7 @@ result = [ x = yield ] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "result",
-                            "rawText": " result",
+                            "rawText": "result",
                             "flags": 96,
                             "start": 26,
                             "end": 33
@@ -165,7 +165,7 @@ result = [ x = yield ] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "vals",
-                            "rawText": " vals",
+                            "rawText": "vals",
                             "flags": 96,
                             "start": 38,
                             "end": 43
@@ -206,7 +206,7 @@ result = [ x = yield ] = vals;
                 "left": {
                     "kind": 134299649,
                     "text": "result",
-                    "rawText": "\n\nresult",
+                    "rawText": "result",
                     "flags": 96,
                     "start": 49,
                     "end": 57
@@ -229,7 +229,7 @@ result = [ x = yield ] = vals;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 61,
                                         "end": 63
@@ -243,7 +243,7 @@ result = [ x = yield ] = vals;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 65,
                                         "end": 71
@@ -271,7 +271,7 @@ result = [ x = yield ] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 75,
                         "end": 80

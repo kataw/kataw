@@ -119,7 +119,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "constructor",
-                                                                "rawText": " constructor",
+                                                                "rawText": "constructor",
                                                                 "flags": 96,
                                                                 "start": 31,
                                                                 "end": 43

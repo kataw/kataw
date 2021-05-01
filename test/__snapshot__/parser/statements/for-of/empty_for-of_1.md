@@ -59,7 +59,7 @@ for (a of b);
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": " b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 9,
                 "end": 11

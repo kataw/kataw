@@ -58,7 +58,7 @@ class A {async set 11(x){}}
                         "key": {
                             "kind": 134299649,
                             "text": "set",
-                            "rawText": " set",
+                            "rawText": "set",
                             "flags": 96,
                             "start": 14,
                             "end": 18

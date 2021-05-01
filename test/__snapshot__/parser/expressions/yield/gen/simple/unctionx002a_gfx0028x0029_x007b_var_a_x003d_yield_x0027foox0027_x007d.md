@@ -42,7 +42,7 @@ unction* gf() { var a = yield 'foo'; }
                     "expression": {
                         "kind": 134299649,
                         "text": "gf",
-                        "rawText": " gf",
+                        "rawText": "gf",
                         "flags": 96,
                         "start": 8,
                         "end": 11
@@ -89,7 +89,7 @@ unction* gf() { var a = yield 'foo'; }
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 21
@@ -99,7 +99,7 @@ unction* gf() { var a = yield 'foo'; }
                                     "initializer": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 29

@@ -41,7 +41,7 @@ bar
             "expression": {
                 "kind": 134299649,
                 "text": "bar",
-                "rawText": "\nbar",
+                "rawText": "bar",
                 "flags": 96,
                 "start": 3,
                 "end": 7

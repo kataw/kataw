@@ -43,7 +43,7 @@ result = [[x]] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -81,7 +81,7 @@ result = [[x]] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "result",
-                            "rawText": " result",
+                            "rawText": "result",
                             "flags": 96,
                             "start": 11,
                             "end": 18
@@ -119,7 +119,7 @@ result = [[x]] = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "vals",
-                            "rawText": " vals",
+                            "rawText": "vals",
                             "flags": 96,
                             "start": 23,
                             "end": 28
@@ -184,7 +184,7 @@ result = [[x]] = vals;
                 "left": {
                     "kind": 134299649,
                     "text": "result",
-                    "rawText": "\n\nresult",
+                    "rawText": "result",
                     "flags": 96,
                     "start": 37,
                     "end": 45
@@ -244,7 +244,7 @@ result = [[x]] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 55,
                         "end": 60

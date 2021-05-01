@@ -92,7 +92,7 @@ function *f() {
                                         {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 33,
                                             "end": 35
@@ -108,7 +108,7 @@ function *f() {
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 39,
                                         "end": 42

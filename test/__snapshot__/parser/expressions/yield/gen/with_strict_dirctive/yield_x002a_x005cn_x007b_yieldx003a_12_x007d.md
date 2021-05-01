@@ -40,7 +40,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 13,
                     "end": 19
@@ -90,7 +90,7 @@
                         "label": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 26,
                             "end": 32

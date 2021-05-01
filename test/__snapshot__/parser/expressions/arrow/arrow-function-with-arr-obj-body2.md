@@ -32,7 +32,7 @@ var v = a => <any><any>{}
                         "binding": {
                             "kind": 134299649,
                             "text": "v",
-                            "rawText": " v",
+                            "rawText": "v",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -51,7 +51,7 @@ var v = a => <any><any>{}
                             "parameters": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 7,
                                 "end": 9

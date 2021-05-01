@@ -63,7 +63,7 @@ async (a, ...true=b) => a;
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 23,
                 "end": 25

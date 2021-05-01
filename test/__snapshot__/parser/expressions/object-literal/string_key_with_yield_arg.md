@@ -51,7 +51,7 @@ s = {"foo": yield /x/}
                                         "left": {
                                             "kind": 134299649,
                                             "text": "yield",
-                                            "rawText": " yield",
+                                            "rawText": "yield",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 17

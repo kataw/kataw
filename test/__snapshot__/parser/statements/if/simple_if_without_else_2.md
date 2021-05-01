@@ -36,7 +36,7 @@ if (foo) bar; else doo;
                 "expression": {
                     "kind": 134299649,
                     "text": "bar",
-                    "rawText": " bar",
+                    "rawText": "bar",
                     "flags": 96,
                     "start": 8,
                     "end": 12
@@ -56,7 +56,7 @@ if (foo) bar; else doo;
                 "expression": {
                     "kind": 134299649,
                     "text": "doo",
-                    "rawText": " doo",
+                    "rawText": "doo",
                     "flags": 96,
                     "start": 18,
                     "end": 22

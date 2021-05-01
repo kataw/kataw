@@ -39,7 +39,7 @@ for(const a = 1, let = 2;;);
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 9,
                             "end": 11
@@ -63,7 +63,7 @@ for(const a = 1, let = 2;;);
                         "binding": {
                             "kind": 134299649,
                             "text": "let",
-                            "rawText": " let",
+                            "rawText": "let",
                             "flags": 96,
                             "start": 16,
                             "end": 20

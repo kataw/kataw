@@ -32,7 +32,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 1,
                                     "end": 3
@@ -48,7 +48,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 8
@@ -69,7 +69,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "d",
-                                "rawText": " d",
+                                "rawText": "d",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 10
@@ -85,7 +85,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 12,
                                     "end": 14
@@ -99,7 +99,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "d",
-                                    "rawText": " d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 17,
                                     "end": 19

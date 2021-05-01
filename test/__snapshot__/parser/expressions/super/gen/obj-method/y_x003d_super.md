@@ -33,7 +33,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 9
@@ -61,7 +61,7 @@
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 13,
                                                         "end": 15

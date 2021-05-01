@@ -64,7 +64,7 @@ new foo().bar++;
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": "\nfoo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 6,
                         "end": 10
@@ -104,7 +104,7 @@ new foo().bar++;
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": "\nfoo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 17,
                         "end": 21
@@ -146,7 +146,7 @@ new foo().bar++;
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": "\nfoo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 29,
                             "end": 33
@@ -200,7 +200,7 @@ new foo().bar++;
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": "\nfoo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 43,
                             "end": 47
@@ -336,7 +336,7 @@ new foo().bar++;
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 85,
                             "end": 89
@@ -396,7 +396,7 @@ new foo().bar++;
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 103,
                             "end": 107

@@ -33,7 +33,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -69,7 +69,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "o",
-                                            "rawText": " o",
+                                            "rawText": "o",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 26

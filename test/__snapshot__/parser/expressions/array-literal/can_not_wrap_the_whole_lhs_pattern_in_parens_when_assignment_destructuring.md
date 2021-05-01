@@ -76,7 +76,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "arr",
-                    "rawText": " arr",
+                    "rawText": "arr",
                     "flags": 96,
                     "start": 9,
                     "end": 13

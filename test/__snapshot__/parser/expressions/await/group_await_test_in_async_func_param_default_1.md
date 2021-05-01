@@ -34,7 +34,7 @@ async function f(x=(await z)=y){}
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -70,7 +70,7 @@ async function f(x=(await z)=y){}
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27

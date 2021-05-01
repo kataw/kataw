@@ -83,7 +83,7 @@ var {,} = obj;
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
-                "rawText": " obj",
+                "rawText": "obj",
                 "flags": 96,
                 "start": 9,
                 "end": 13

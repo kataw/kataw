@@ -51,7 +51,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 21,
                                         "end": 23
@@ -77,7 +77,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 35,
                                         "end": 37
@@ -113,7 +113,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "right": {
                         "kind": 134299649,
                         "text": "value",
-                        "rawText": " value",
+                        "rawText": "value",
                         "flags": 96,
                         "start": 41,
                         "end": 47
@@ -137,7 +137,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                 "left": {
                     "kind": 134299649,
                     "text": "result",
-                    "rawText": "\n\nresult",
+                    "rawText": "result",
                     "flags": 96,
                     "start": 48,
                     "end": 56
@@ -166,7 +166,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 72,
                                             "end": 74
@@ -192,7 +192,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 86,
                                             "end": 88
@@ -228,7 +228,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "right": {
                             "kind": 134299649,
                             "text": "value",
-                            "rawText": " value",
+                            "rawText": "value",
                             "flags": 96,
                             "start": 92,
                             "end": 98

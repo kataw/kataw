@@ -100,7 +100,7 @@ for ([a.b]++ of c) d
             "expression": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 15,
                 "end": 17
@@ -110,7 +110,7 @@ for ([a.b]++ of c) d
                 "expression": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 18,
                     "end": 20

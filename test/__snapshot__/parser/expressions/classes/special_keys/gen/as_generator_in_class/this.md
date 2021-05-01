@@ -32,7 +32,7 @@ class x {* this(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {* this(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "this",
-                                "rawText": " this",
+                                "rawText": "this",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 15

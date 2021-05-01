@@ -46,7 +46,7 @@ const {x}: string = y;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -72,7 +72,7 @@ const {x}: string = y;
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 8,
                 "end": 15
@@ -150,7 +150,7 @@ const {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 28,
                     "end": 35
@@ -164,7 +164,7 @@ const {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 37,
                     "end": 39
@@ -260,7 +260,7 @@ const {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 59,
                     "end": 66
@@ -274,7 +274,7 @@ const {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 68,
                     "end": 70
@@ -354,7 +354,7 @@ const {x}: string = y;
                 "left": {
                     "kind": 134299649,
                     "text": "string",
-                    "rawText": " string",
+                    "rawText": "string",
                     "flags": 96,
                     "start": 83,
                     "end": 90
@@ -368,7 +368,7 @@ const {x}: string = y;
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 92,
                     "end": 94

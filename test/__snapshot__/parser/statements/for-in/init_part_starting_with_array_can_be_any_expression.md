@@ -69,7 +69,7 @@ for ([] + b in obj);
                     "left": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 9,
                         "end": 11
@@ -83,7 +83,7 @@ for ([] + b in obj);
                     "right": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": " obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 14,
                         "end": 18

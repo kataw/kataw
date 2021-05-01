@@ -135,7 +135,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "fn",
-                                        "rawText": " fn",
+                                        "rawText": "fn",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 26
@@ -309,7 +309,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "fn",
-                                        "rawText": " fn",
+                                        "rawText": "fn",
                                         "flags": 96,
                                         "start": 75,
                                         "end": 78
@@ -489,7 +489,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "fn",
-                                        "rawText": " fn",
+                                        "rawText": "fn",
                                         "flags": 96,
                                         "start": 122,
                                         "end": 125
@@ -568,7 +568,7 @@
                                                                             "right": {
                                                                                 "kind": 134299649,
                                                                                 "text": "y",
-                                                                                "rawText": " y",
+                                                                                "rawText": "y",
                                                                                 "flags": 96,
                                                                                 "start": 135,
                                                                                 "end": 137
@@ -596,7 +596,7 @@
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "obj",
-                                                                "rawText": " obj",
+                                                                "rawText": "obj",
                                                                 "flags": 96,
                                                                 "start": 150,
                                                                 "end": 154
@@ -730,7 +730,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "fn",
-                                        "rawText": " fn",
+                                        "rawText": "fn",
                                         "flags": 96,
                                         "start": 181,
                                         "end": 184

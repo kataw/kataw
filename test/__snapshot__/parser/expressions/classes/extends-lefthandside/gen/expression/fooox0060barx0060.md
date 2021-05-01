@@ -54,7 +54,7 @@
                             "member": {
                                 "kind": 134299649,
                                 "text": "fooo",
-                                "rawText": " fooo",
+                                "rawText": "fooo",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 21

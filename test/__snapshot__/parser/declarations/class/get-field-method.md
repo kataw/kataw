@@ -47,7 +47,7 @@ class C { get; #aaa(){} }
                         "key": {
                             "kind": 134299649,
                             "text": "get",
-                            "rawText": " get",
+                            "rawText": "get",
                             "flags": 96,
                             "start": 9,
                             "end": 13

@@ -28,7 +28,7 @@ new asc() => x
                 "expression": {
                     "kind": 134299649,
                     "text": "asc",
-                    "rawText": " asc",
+                    "rawText": "asc",
                     "flags": 96,
                     "start": 3,
                     "end": 7
@@ -54,7 +54,7 @@ new asc() => x
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 12,
                 "end": 14

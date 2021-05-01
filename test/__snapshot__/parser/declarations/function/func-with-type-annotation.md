@@ -39,7 +39,7 @@ function a<string>(x: string): string {
             "name": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -99,7 +99,7 @@ function a<string>(x: string): string {
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 48,
                                 "end": 50

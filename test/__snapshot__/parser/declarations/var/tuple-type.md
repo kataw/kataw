@@ -47,7 +47,7 @@ var x: [number, string] = [123, "aladdin"];
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -111,7 +111,7 @@ var x: [number, string] = [123, "aladdin"];
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 20,
                             "end": 22
@@ -191,7 +191,7 @@ var x: [number, string] = [123, "aladdin"];
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 48,
                             "end": 50
@@ -302,7 +302,7 @@ var x: [number, string] = [123, "aladdin"];
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 74,
                             "end": 76

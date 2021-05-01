@@ -38,7 +38,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -107,7 +107,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "o",
-                                                            "rawText": " o",
+                                                            "rawText": "o",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 45

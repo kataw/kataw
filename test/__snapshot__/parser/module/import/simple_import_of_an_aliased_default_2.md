@@ -55,7 +55,7 @@ import x, * as a from "y"
                 "defaultBinding": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 6,
                     "end": 8
@@ -72,7 +72,7 @@ import x, * as a from "y"
                     "binding": {
                         "kind": 134299649,
                         "text": "a",
-                        "rawText": " a",
+                        "rawText": "a",
                         "flags": 96,
                         "start": 14,
                         "end": 16

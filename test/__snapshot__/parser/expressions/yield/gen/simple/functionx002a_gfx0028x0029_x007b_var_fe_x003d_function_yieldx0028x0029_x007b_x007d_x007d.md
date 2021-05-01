@@ -38,7 +38,7 @@ function* gf() { var fe = function yield() { } }
             "name": {
                 "kind": 134299649,
                 "text": "gf",
-                "rawText": " gf",
+                "rawText": "gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12
@@ -74,7 +74,7 @@ function* gf() { var fe = function yield() { } }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "fe",
-                                            "rawText": " fe",
+                                            "rawText": "fe",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 23
@@ -94,7 +94,7 @@ function* gf() { var fe = function yield() { } }
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 34,
                                                 "end": 40

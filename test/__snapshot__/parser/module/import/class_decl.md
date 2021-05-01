@@ -34,7 +34,7 @@ class x { import {x} from "y"; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -53,7 +53,7 @@ class x { import {x} from "y"; }
                         "key": {
                             "kind": 134299649,
                             "text": "import",
-                            "rawText": " import",
+                            "rawText": "import",
                             "flags": 96,
                             "start": 9,
                             "end": 16
@@ -107,7 +107,7 @@ class x { import {x} from "y"; }
             "expression": {
                 "kind": 134299649,
                 "text": "from",
-                "rawText": " from",
+                "rawText": "from",
                 "flags": 96,
                 "start": 20,
                 "end": 25

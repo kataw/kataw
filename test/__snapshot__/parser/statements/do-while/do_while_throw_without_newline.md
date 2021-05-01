@@ -91,7 +91,7 @@ do throw function (v, h) {
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "h",
-                                    "rawText": " h",
+                                    "rawText": "h",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 23

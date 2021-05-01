@@ -37,7 +37,7 @@ async async => ok()
                         "binding": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 5,
                             "end": 11
@@ -62,7 +62,7 @@ async async => ok()
                     "expression": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 14,
                         "end": 17

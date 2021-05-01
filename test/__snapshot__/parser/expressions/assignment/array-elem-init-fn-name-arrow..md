@@ -52,7 +52,7 @@ result = [ arrow = () => {} ] = vals;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "arrow",
-                                        "rawText": " arrow",
+                                        "rawText": "arrow",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 16
@@ -116,7 +116,7 @@ result = [ arrow = () => {} ] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 31,
                         "end": 36

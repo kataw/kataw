@@ -47,7 +47,7 @@
                     "contents": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -103,7 +103,7 @@
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 25
@@ -164,7 +164,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 38,
                 "end": 40

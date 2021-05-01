@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "private",
-                                    "rawText": "\n  p\\u0072ivate",
+                                    "rawText": "p\\u0072ivate",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 29
@@ -80,7 +80,7 @@ function *f(){
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 31,
                                     "end": 33

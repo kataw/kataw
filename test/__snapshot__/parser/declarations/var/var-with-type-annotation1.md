@@ -41,7 +41,7 @@ var x = ({ a } : any = 'foo') => {}
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -69,7 +69,7 @@ var x = ({ a } : any = 'foo') => {}
                                                 {
                                                     "kind": 134299649,
                                                     "text": "a",
-                                                    "rawText": " a",
+                                                    "rawText": "a",
                                                     "flags": 96,
                                                     "start": 10,
                                                     "end": 12

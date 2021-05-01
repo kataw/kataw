@@ -47,7 +47,7 @@
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
-                            "rawText": " ok",
+                            "rawText": "ok",
                             "flags": 96,
                             "start": 5,
                             "end": 8
@@ -69,7 +69,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 11,
                     "end": 13

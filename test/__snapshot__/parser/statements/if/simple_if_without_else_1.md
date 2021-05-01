@@ -36,7 +36,7 @@ if (foo) bar;
                 "expression": {
                     "kind": 134299649,
                     "text": "bar",
-                    "rawText": " bar",
+                    "rawText": "bar",
                     "flags": 96,
                     "start": 8,
                     "end": 12

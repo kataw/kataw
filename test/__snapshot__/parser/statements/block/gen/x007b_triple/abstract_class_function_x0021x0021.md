@@ -39,7 +39,7 @@
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "abstract",
-                                                    "rawText": " abstract",
+                                                    "rawText": "abstract",
                                                     "flags": 96,
                                                     "start": 5,
                                                     "end": 14

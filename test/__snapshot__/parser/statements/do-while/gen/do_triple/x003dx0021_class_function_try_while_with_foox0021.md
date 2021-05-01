@@ -155,7 +155,7 @@ do do do =! class function try while with foo! while while while
             "expression": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 41,
                 "end": 45

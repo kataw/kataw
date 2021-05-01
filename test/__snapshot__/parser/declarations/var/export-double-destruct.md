@@ -94,7 +94,7 @@ export var [foo] = arr, [bar] = arr2;
                             "initializer": {
                                 "kind": 134299649,
                                 "text": "arr",
-                                "rawText": " arr",
+                                "rawText": "arr",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 22
@@ -143,7 +143,7 @@ export var [foo] = arr, [bar] = arr2;
                             "initializer": {
                                 "kind": 134299649,
                                 "text": "arr2",
-                                "rawText": " arr2",
+                                "rawText": "arr2",
                                 "flags": 96,
                                 "start": 31,
                                 "end": 36

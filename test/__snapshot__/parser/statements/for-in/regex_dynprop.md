@@ -72,7 +72,7 @@ for (/foo/[x] in c) d;
             "expression": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 16,
                 "end": 18
@@ -82,7 +82,7 @@ for (/foo/[x] in c) d;
                 "expression": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 19,
                     "end": 21

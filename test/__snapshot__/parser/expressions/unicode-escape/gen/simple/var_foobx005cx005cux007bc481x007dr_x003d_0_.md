@@ -36,7 +36,7 @@ var foob\\u{c481}r = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "foob",
-                            "rawText": " foob",
+                            "rawText": "foob",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -64,7 +64,7 @@ var foob\\u{c481}r = 0;
                 "left": {
                     "kind": 134299649,
                     "text": "쒁r",
-                    "rawText": " foob",
+                    "rawText": "foob",
                     "flags": 96,
                     "start": 9,
                     "end": 18

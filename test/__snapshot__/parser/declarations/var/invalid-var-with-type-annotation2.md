@@ -41,7 +41,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -57,7 +57,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 11
@@ -91,7 +91,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 20,
                                                         "end": 22
@@ -156,7 +156,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 40
@@ -182,7 +182,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "right": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 44,
                                             "end": 46

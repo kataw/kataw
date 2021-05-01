@@ -32,7 +32,7 @@ class x {* import(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {* import(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "import",
-                                "rawText": " import",
+                                "rawText": "import",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 17

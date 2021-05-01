@@ -34,7 +34,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "crazy",
-                                        "rawText": " crazy",
+                                        "rawText": "crazy",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 8
@@ -42,7 +42,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "input",
-                                        "rawText": " input",
+                                        "rawText": "input",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 14

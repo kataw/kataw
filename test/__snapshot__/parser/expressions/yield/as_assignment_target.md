@@ -27,7 +27,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 1,
                                 "end": 7

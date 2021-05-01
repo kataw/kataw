@@ -69,7 +69,7 @@ a?.b * d
                 "right": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 6,
                     "end": 8

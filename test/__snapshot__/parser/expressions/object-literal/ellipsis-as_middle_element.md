@@ -69,7 +69,7 @@ x = {a, ...y, b}
                             {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 15

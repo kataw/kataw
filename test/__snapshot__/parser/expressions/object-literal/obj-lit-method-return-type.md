@@ -43,7 +43,7 @@ x = { method(test: string): number { } };
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 12
@@ -118,7 +118,7 @@ x = { method(test: string): number { } };
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 18,
                 "end": 25
@@ -132,7 +132,7 @@ x = { method(test: string): number { } };
             "expression": {
                 "kind": 134299649,
                 "text": "number",
-                "rawText": " number",
+                "rawText": "number",
                 "flags": 96,
                 "start": 27,
                 "end": 34

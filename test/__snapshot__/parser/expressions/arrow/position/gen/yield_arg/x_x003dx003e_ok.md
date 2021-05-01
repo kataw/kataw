@@ -83,7 +83,7 @@ function *f() {
                                     "parameters": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 23,
                                         "end": 25
@@ -93,7 +93,7 @@ function *f() {
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 28,
                                         "end": 31

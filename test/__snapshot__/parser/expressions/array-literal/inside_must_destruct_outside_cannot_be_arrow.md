@@ -60,7 +60,7 @@
                                                         "right": {
                                                             "kind": 134299649,
                                                             "text": "b",
-                                                            "rawText": " b",
+                                                            "rawText": "b",
                                                             "flags": 96,
                                                             "start": 9,
                                                             "end": 11
@@ -88,7 +88,7 @@
                                         "right": {
                                             "kind": 134299649,
                                             "text": "c",
-                                            "rawText": " c",
+                                            "rawText": "c",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16
@@ -117,7 +117,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 21,
                     "end": 23

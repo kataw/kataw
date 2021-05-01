@@ -35,7 +35,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 3,
                                 "end": 5
@@ -79,7 +79,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "obj",
-                    "rawText": " obj",
+                    "rawText": "obj",
                     "flags": 96,
                     "start": 14,
                     "end": 18

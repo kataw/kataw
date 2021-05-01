@@ -60,7 +60,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                 {
                                                     "kind": 134299649,
                                                     "text": "y",
-                                                    "rawText": " y",
+                                                    "rawText": "y",
                                                     "flags": 96,
                                                     "start": 15,
                                                     "end": 17
@@ -78,7 +78,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12
@@ -136,7 +136,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 30,
                                                         "end": 32
@@ -158,7 +158,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27

@@ -55,7 +55,7 @@ x = { method(test) { } }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 12
@@ -113,7 +113,7 @@ x = { method(test) { } }
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 23
@@ -134,7 +134,7 @@ x = { method(test) { } }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "get",
-                                    "rawText": " get",
+                                    "rawText": "get",
                                     "flags": 96,
                                     "start": 27,
                                     "end": 31
@@ -192,7 +192,7 @@ x = { method(test) { } }
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 39,
                     "end": 42
@@ -213,7 +213,7 @@ x = { method(test) { } }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 46,
                                     "end": 50
@@ -271,7 +271,7 @@ x = { method(test) { } }
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 58,
                     "end": 61
@@ -294,7 +294,7 @@ x = { method(test) { } }
                                     "name": {
                                         "kind": 134299649,
                                         "text": "method",
-                                        "rawText": " method",
+                                        "rawText": "method",
                                         "flags": 96,
                                         "start": 65,
                                         "end": 72
@@ -369,7 +369,7 @@ x = { method(test) { } }
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "function",
-                                                "rawText": " function",
+                                                "rawText": "function",
                                                 "flags": 96,
                                                 "start": 88,
                                                 "end": 97
@@ -437,7 +437,7 @@ x = { method(test) { } }
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 104,
                     "end": 107
@@ -460,7 +460,7 @@ x = { method(test) { } }
                                     "name": {
                                         "kind": 134299649,
                                         "text": "declare",
-                                        "rawText": " declare",
+                                        "rawText": "declare",
                                         "flags": 96,
                                         "start": 112,
                                         "end": 120
@@ -522,7 +522,7 @@ x = { method(test) { } }
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 127,
                     "end": 130
@@ -543,7 +543,7 @@ x = { method(test) { } }
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 134,
                                     "end": 141

@@ -51,7 +51,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 4
@@ -123,7 +123,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 22,
                                         "end": 24
@@ -211,7 +211,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 46,
                                     "end": 48
@@ -254,7 +254,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 56,
                                         "end": 58
@@ -313,7 +313,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "label": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 86,
                             "end": 88
@@ -397,7 +397,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 99,
                                     "end": 101
@@ -469,7 +469,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 119,
                                         "end": 121
@@ -557,7 +557,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 143,
                                     "end": 145
@@ -600,7 +600,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 153,
                                         "end": 155
@@ -659,7 +659,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "label": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 183,
                             "end": 185
@@ -736,7 +736,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 192,
                     "end": 195
@@ -760,7 +760,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 200,
                                                 "end": 202
@@ -786,7 +786,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 197,
                                             "end": 199
@@ -829,7 +829,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                         "label": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 214,
                             "end": 216

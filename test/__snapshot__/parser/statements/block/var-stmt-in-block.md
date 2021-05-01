@@ -38,7 +38,7 @@ z; }
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 5,
                                         "end": 7
@@ -62,7 +62,7 @@ z; }
                                     "binding": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 13,
                                         "end": 15
@@ -95,7 +95,7 @@ z; }
                         "expression": {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": "\nz",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 19,
                             "end": 21

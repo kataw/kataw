@@ -47,7 +47,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -95,7 +95,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "get",
-                "rawText": " get",
+                "rawText": "get",
                 "flags": 96,
                 "start": 12,
                 "end": 16

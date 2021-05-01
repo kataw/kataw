@@ -76,7 +76,7 @@ class A {static constructor(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 27

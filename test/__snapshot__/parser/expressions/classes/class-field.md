@@ -128,7 +128,7 @@
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12
@@ -186,7 +186,7 @@
                                         "key": {
                                             "kind": 134299649,
                                             "text": "a",
-                                            "rawText": " a",
+                                            "rawText": "a",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 28
@@ -296,7 +296,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 51,
                                     "end": 53
@@ -392,7 +392,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 71,
                                         "end": 73
@@ -817,7 +817,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 158,
                                     "end": 160
@@ -912,7 +912,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 175,
                                         "end": 177
@@ -1349,7 +1349,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 270,
                                     "end": 272
@@ -1451,7 +1451,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 294,
                                         "end": 296
@@ -1900,7 +1900,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 397,
                                     "end": 399
@@ -2001,7 +2001,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 418,
                                         "end": 420
@@ -2692,7 +2692,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 583,
                                     "end": 586
@@ -2782,7 +2782,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": "\n b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 604,
                                         "end": 607
@@ -2942,7 +2942,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 640,
                                     "end": 643
@@ -3025,7 +3025,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": "\n b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 659,
                                         "end": 662
@@ -3438,7 +3438,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 758,
                                     "end": 761
@@ -3534,7 +3534,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": "\n b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 783,
                                         "end": 786
@@ -3706,7 +3706,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": "\n b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 827,
                                     "end": 830
@@ -3795,7 +3795,7 @@
                                     "name": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": "\n b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 850,
                                         "end": 853

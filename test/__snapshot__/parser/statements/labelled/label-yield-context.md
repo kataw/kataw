@@ -36,7 +36,7 @@ function * x () {
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 10,
                 "end": 12
@@ -60,7 +60,7 @@ function * x () {
                             "label": {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": "\n    y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 23

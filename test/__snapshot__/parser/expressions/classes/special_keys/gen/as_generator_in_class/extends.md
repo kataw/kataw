@@ -32,7 +32,7 @@ class x {* extends(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {* extends(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "extends",
-                                "rawText": " extends",
+                                "rawText": "extends",
                                 "flags": 96,
                                 "start": 10,
                                 "end": 18

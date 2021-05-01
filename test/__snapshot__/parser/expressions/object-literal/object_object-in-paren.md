@@ -49,7 +49,7 @@
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
-                                                "rawText": " b",
+                                                "rawText": "b",
                                                 "flags": 96,
                                                 "start": 8,
                                                 "end": 10

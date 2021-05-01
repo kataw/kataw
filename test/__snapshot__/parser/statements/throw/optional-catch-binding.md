@@ -183,7 +183,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "e",
-                                            "rawText": " e",
+                                            "rawText": "e",
                                             "flags": 96,
                                             "start": 59,
                                             "end": 61
@@ -243,7 +243,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 76,
                                                 "end": 78
@@ -312,7 +312,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "e",
-                                            "rawText": " e",
+                                            "rawText": "e",
                                             "flags": 96,
                                             "start": 92,
                                             "end": 94
@@ -372,7 +372,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 109,
                                                 "end": 111
@@ -433,7 +433,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "e",
-                                            "rawText": " e",
+                                            "rawText": "e",
                                             "flags": 96,
                                             "start": 128,
                                             "end": 130
@@ -694,7 +694,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "e",
-                                            "rawText": " e",
+                                            "rawText": "e",
                                             "flags": 96,
                                             "start": 230,
                                             "end": 232
@@ -754,7 +754,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "e",
-                                                "rawText": " e",
+                                                "rawText": "e",
                                                 "flags": 96,
                                                 "start": 247,
                                                 "end": 249
@@ -888,7 +888,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "e",
-                                                                "rawText": " e",
+                                                                "rawText": "e",
                                                                 "flags": 96,
                                                                 "start": 284,
                                                                 "end": 286
@@ -948,7 +948,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "e",
-                                                                    "rawText": " e",
+                                                                    "rawText": "e",
                                                                     "flags": 96,
                                                                     "start": 301,
                                                                     "end": 303
@@ -1009,7 +1009,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "e",
-                                                                "rawText": " e",
+                                                                "rawText": "e",
                                                                 "flags": 96,
                                                                 "start": 320,
                                                                 "end": 322
@@ -1076,7 +1076,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 337,
                 "end": 339
@@ -1124,7 +1124,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "e",
-                                                            "rawText": " e",
+                                                            "rawText": "e",
                                                             "flags": 96,
                                                             "start": 353,
                                                             "end": 355
@@ -1184,7 +1184,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "e",
-                                                                "rawText": " e",
+                                                                "rawText": "e",
                                                                 "flags": 96,
                                                                 "start": 370,
                                                                 "end": 372
@@ -1245,7 +1245,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "e",
-                                                            "rawText": " e",
+                                                            "rawText": "e",
                                                             "flags": 96,
                                                             "start": 389,
                                                             "end": 391

@@ -55,7 +55,7 @@ import foo, * as bar from "foo";
                 "defaultBinding": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": " foo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 6,
                     "end": 10
@@ -72,7 +72,7 @@ import foo, * as bar from "foo";
                     "binding": {
                         "kind": 134299649,
                         "text": "bar",
-                        "rawText": " bar",
+                        "rawText": "bar",
                         "flags": 96,
                         "start": 16,
                         "end": 20

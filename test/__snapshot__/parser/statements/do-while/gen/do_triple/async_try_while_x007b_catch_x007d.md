@@ -56,7 +56,7 @@ do do do async try while { catch } while while while
                             {
                                 "kind": 134299649,
                                 "text": "catch",
-                                "rawText": " catch",
+                                "rawText": "catch",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 32

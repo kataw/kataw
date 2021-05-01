@@ -32,7 +32,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                         "binding": {
                             "kind": 134299649,
                             "text": "af",
-                            "rawText": " af",
+                            "rawText": "af",
                             "flags": 96,
                             "start": 3,
                             "end": 6
@@ -117,7 +117,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "y",
-                                                                "rawText": " y",
+                                                                "rawText": "y",
                                                                 "flags": 96,
                                                                 "start": 34,
                                                                 "end": 36

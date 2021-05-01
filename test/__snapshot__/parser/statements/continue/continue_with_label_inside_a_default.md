@@ -54,7 +54,7 @@ switch (x) { default: continue foo; }
                                 "label": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 30,
                                     "end": 34

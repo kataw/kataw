@@ -127,7 +127,7 @@ async function * gen() {class C extends await { }}
                         "name": {
                             "kind": 134299649,
                             "text": "gen",
-                            "rawText": " gen",
+                            "rawText": "gen",
                             "flags": 96,
                             "start": 32,
                             "end": 36
@@ -163,7 +163,7 @@ async function * gen() {class C extends await { }}
                                                     "binding": {
                                                         "kind": 134299649,
                                                         "text": "await",
-                                                        "rawText": " await",
+                                                        "rawText": "await",
                                                         "flags": 96,
                                                         "start": 43,
                                                         "end": 49
@@ -232,7 +232,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 68,
                 "end": 72
@@ -268,7 +268,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 79,
                                             "end": 83
@@ -285,7 +285,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "yield",
-                                            "rawText": " yield",
+                                            "rawText": "yield",
                                             "flags": 96,
                                             "start": 84,
                                             "end": 90
@@ -345,7 +345,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 109,
                 "end": 113
@@ -381,7 +381,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 120,
                                             "end": 124
@@ -398,7 +398,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " await",
+                                            "rawText": "await",
                                             "flags": 96,
                                             "start": 125,
                                             "end": 131
@@ -458,7 +458,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 150,
                 "end": 154
@@ -576,7 +576,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 201,
                 "end": 205
@@ -694,7 +694,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 252,
                 "end": 256
@@ -727,7 +727,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 268,
                                 "end": 274
@@ -799,7 +799,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 298,
                 "end": 302
@@ -832,7 +832,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "await",
-                                "rawText": " await",
+                                "rawText": "await",
                                 "flags": 96,
                                 "start": 314,
                                 "end": 320
@@ -904,7 +904,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 461,
                 "end": 465
@@ -950,7 +950,7 @@ async function * gen() {class C extends await { }}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 486,
                                         "end": 492
@@ -1030,7 +1030,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 517,
                 "end": 521
@@ -1076,7 +1076,7 @@ async function * gen() {class C extends await { }}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "await",
-                                        "rawText": " await",
+                                        "rawText": "await",
                                         "flags": 96,
                                         "start": 542,
                                         "end": 548
@@ -1156,7 +1156,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 647,
                 "end": 651
@@ -1199,7 +1199,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 671,
                                 "end": 675
@@ -1290,7 +1290,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 704,
                 "end": 708
@@ -1336,7 +1336,7 @@ async function * gen() {class C extends await { }}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 729,
                                         "end": 733
@@ -1435,7 +1435,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 763,
                 "end": 767
@@ -1478,7 +1478,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 787,
                                 "end": 791
@@ -1569,7 +1569,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 820,
                 "end": 824
@@ -1615,7 +1615,7 @@ async function * gen() {class C extends await { }}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 845,
                                         "end": 849
@@ -1714,7 +1714,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 879,
                 "end": 883
@@ -1813,7 +1813,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 915,
                 "end": 919
@@ -1916,7 +1916,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 951,
                 "end": 955
@@ -1952,7 +1952,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 962,
                                             "end": 966
@@ -2046,7 +2046,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 997,
                 "end": 1001
@@ -2082,7 +2082,7 @@ async function * gen() {class C extends await { }}
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "foo",
-                                            "rawText": " foo",
+                                            "rawText": "foo",
                                             "flags": 96,
                                             "start": 1008,
                                             "end": 1012
@@ -2180,7 +2180,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1043,
                 "end": 1047
@@ -2271,7 +2271,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1077,
                 "end": 1081
@@ -2366,7 +2366,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1111,
                 "end": 1115
@@ -2463,7 +2463,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1145,
                 "end": 1149
@@ -2558,7 +2558,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1179,
                 "end": 1183
@@ -2648,7 +2648,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1212,
                 "end": 1216
@@ -2744,7 +2744,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1345,
                 "end": 1349
@@ -2864,7 +2864,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1389,
                 "end": 1393
@@ -3004,7 +3004,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1424,
                 "end": 1428
@@ -3117,7 +3117,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1506,
                 "end": 1510
@@ -3223,7 +3223,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1545,
                 "end": 1549
@@ -3314,7 +3314,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1578,
                 "end": 1582
@@ -3412,7 +3412,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1670,
                 "end": 1674
@@ -3525,7 +3525,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1841,
                 "end": 1845
@@ -3707,7 +3707,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1885,
                 "end": 1889
@@ -3889,7 +3889,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 1944,
                 "end": 1948
@@ -3943,7 +3943,7 @@ async function * gen() {class C extends await { }}
                                     "name": {
                                         "kind": 134299649,
                                         "text": "gen",
-                                        "rawText": " gen",
+                                        "rawText": "gen",
                                         "flags": 96,
                                         "start": 2063,
                                         "end": 2067
@@ -4094,7 +4094,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2108,
                                 "end": 2112
@@ -4237,7 +4237,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2153,
                                 "end": 2157
@@ -4292,7 +4292,7 @@ async function * gen() {class C extends await { }}
                                                                             "binding": {
                                                                                 "kind": 134299649,
                                                                                 "text": "yield",
-                                                                                "rawText": " yield",
+                                                                                "rawText": "yield",
                                                                                 "flags": 96,
                                                                                 "start": 2170,
                                                                                 "end": 2176
@@ -4411,7 +4411,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2206,
                                 "end": 2210
@@ -4466,7 +4466,7 @@ async function * gen() {class C extends await { }}
                                                                             "binding": {
                                                                                 "kind": 134299649,
                                                                                 "text": "await",
-                                                                                "rawText": " await",
+                                                                                "rawText": "await",
                                                                                 "flags": 96,
                                                                                 "start": 2223,
                                                                                 "end": 2229
@@ -4585,7 +4585,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2259,
                                 "end": 2263
@@ -4714,7 +4714,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2300,
                                 "end": 2304
@@ -4847,7 +4847,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2341,
                                 "end": 2345
@@ -5018,7 +5018,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2390,
                                 "end": 2394
@@ -5193,7 +5193,7 @@ async function * gen() {class C extends await { }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "gen",
-                                "rawText": " gen",
+                                "rawText": "gen",
                                 "flags": 96,
                                 "start": 2496,
                                 "end": 2500
@@ -5372,7 +5372,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2544,
                 "end": 2548
@@ -5536,7 +5536,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2592,
                 "end": 2596
@@ -5591,7 +5591,7 @@ async function * gen() {class C extends await { }}
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "yield",
-                                                                "rawText": " yield",
+                                                                "rawText": "yield",
                                                                 "flags": 96,
                                                                 "start": 2609,
                                                                 "end": 2615
@@ -5779,7 +5779,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2648,
                 "end": 2652
@@ -5834,7 +5834,7 @@ async function * gen() {class C extends await { }}
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "await",
-                                                                "rawText": " await",
+                                                                "rawText": "await",
                                                                 "flags": 96,
                                                                 "start": 2665,
                                                                 "end": 2671
@@ -6022,7 +6022,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2704,
                 "end": 2708
@@ -6158,7 +6158,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2748,
                 "end": 2752
@@ -6292,7 +6292,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2792,
                 "end": 2796
@@ -6470,7 +6470,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2844,
                 "end": 2848
@@ -6646,7 +6646,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2896,
                 "end": 2900
@@ -6764,7 +6764,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2944,
                 "end": 2948
@@ -6880,7 +6880,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 2992,
                 "end": 2996
@@ -6999,7 +6999,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3040,
                 "end": 3044
@@ -7116,7 +7116,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3088,
                 "end": 3092
@@ -7260,7 +7260,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3142,
                 "end": 3146
@@ -7402,7 +7402,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3196,
                 "end": 3200
@@ -7476,7 +7476,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "of",
-                                    "rawText": " of",
+                                    "rawText": "of",
                                     "flags": 96,
                                     "start": 3224,
                                     "end": 3227
@@ -7547,7 +7547,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3250,
                 "end": 3254
@@ -7619,7 +7619,7 @@ async function * gen() {class C extends await { }}
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "of",
-                                    "rawText": " of",
+                                    "rawText": "of",
                                     "flags": 96,
                                     "start": 3278,
                                     "end": 3281
@@ -7690,7 +7690,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3304,
                 "end": 3308
@@ -7819,7 +7819,7 @@ async function * gen() {class C extends await { }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 3355,
                 "end": 3359

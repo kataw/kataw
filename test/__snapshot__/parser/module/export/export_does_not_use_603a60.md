@@ -38,7 +38,7 @@ var x; export {x: a}
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -110,7 +110,7 @@ var x; export {x: a}
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 17,
                 "end": 19

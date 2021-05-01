@@ -32,7 +32,7 @@ class x {static * true(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {static * true(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "true",
-                                "rawText": " true",
+                                "rawText": "true",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 22

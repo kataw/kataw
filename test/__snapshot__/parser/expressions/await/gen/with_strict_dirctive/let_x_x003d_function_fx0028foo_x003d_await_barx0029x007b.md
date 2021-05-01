@@ -49,7 +49,7 @@
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 17,
                             "end": 19
@@ -69,7 +69,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 32
@@ -93,7 +93,7 @@
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " await",
+                                            "rawText": "await",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 44
@@ -108,7 +108,7 @@
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 44,
                                             "end": 48

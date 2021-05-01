@@ -90,7 +90,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 9,
                     "end": 11

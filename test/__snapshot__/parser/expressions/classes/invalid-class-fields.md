@@ -332,7 +332,7 @@
                                 "key": {
                                     "kind": 134299649,
                                     "text": "aaa",
-                                    "rawText": " aaa",
+                                    "rawText": "aaa",
                                     "flags": 96,
                                     "start": 63,
                                     "end": 67

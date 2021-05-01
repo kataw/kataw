@@ -67,7 +67,7 @@ class A extends async (x, y) => ok {}
                         {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 25,
                             "end": 27
@@ -83,7 +83,7 @@ class A extends async (x, y) => ok {}
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 31,
                         "end": 34

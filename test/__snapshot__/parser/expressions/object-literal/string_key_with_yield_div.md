@@ -60,7 +60,7 @@ function *f(){   s = {"foo": yield / x}   }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "s",
-                                    "rawText": "   s",
+                                    "rawText": "s",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 18
@@ -108,7 +108,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "x",
-                                                        "rawText": " x",
+                                                        "rawText": "x",
                                                         "flags": 96,
                                                         "start": 36,
                                                         "end": 38

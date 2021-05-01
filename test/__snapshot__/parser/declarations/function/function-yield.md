@@ -80,7 +80,7 @@ function *foo() {
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 27
@@ -156,7 +156,7 @@ function *foo() {
                                 "shortCircuit": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": "\n  x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 45,
                                     "end": 49
@@ -198,7 +198,7 @@ function *foo() {
                                 "alternate": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 61,
                                     "end": 63

@@ -56,7 +56,7 @@
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 12,
                                                         "end": 14
@@ -111,7 +111,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 20,
                     "end": 22
@@ -198,7 +198,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 42,
                     "end": 44
@@ -258,7 +258,7 @@
                             "right": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 53,
                                 "end": 55

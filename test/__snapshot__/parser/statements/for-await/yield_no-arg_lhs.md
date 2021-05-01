@@ -42,7 +42,7 @@ async function f(){
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -86,7 +86,7 @@ async function f(){
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 41,
                                 "end": 43
@@ -141,7 +141,7 @@ async function f(){
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 63,
                 "end": 65
@@ -194,7 +194,7 @@ async function f(){
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 106,
                                 "end": 108

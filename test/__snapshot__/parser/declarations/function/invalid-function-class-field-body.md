@@ -39,7 +39,7 @@ function* foo() {
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -90,7 +90,7 @@ function* foo() {
                                         "key": {
                                             "kind": 134299649,
                                             "text": "p",
-                                            "rawText": "\n    // here yield is an identifier reference\n    p",
+                                            "rawText": "p",
                                             "flags": 96,
                                             "start": 29,
                                             "end": 80

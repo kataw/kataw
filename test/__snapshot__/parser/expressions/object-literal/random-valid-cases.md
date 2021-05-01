@@ -205,7 +205,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27
@@ -371,7 +371,7 @@ a = { y: x = 1 } = b;
                                     "consequent": {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 56,
                                         "end": 58
@@ -385,7 +385,7 @@ a = { y: x = 1 } = b;
                                     "alternate": {
                                         "kind": 134299649,
                                         "text": "d",
-                                        "rawText": " d",
+                                        "rawText": "d",
                                         "flags": 96,
                                         "start": 60,
                                         "end": 62
@@ -499,7 +499,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 69,
                                         "end": 71
@@ -576,7 +576,7 @@ a = { y: x = 1 } = b;
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 104,
                                         "end": 106
@@ -641,7 +641,7 @@ a = { y: x = 1 } = b;
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 120,
                                         "end": 122
@@ -712,7 +712,7 @@ a = { y: x = 1 } = b;
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 134,
                                         "end": 136
@@ -791,7 +791,7 @@ a = { y: x = 1 } = b;
                                     "consequent": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 159,
                                         "end": 165
@@ -805,7 +805,7 @@ a = { y: x = 1 } = b;
                                     "alternate": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 167,
                                         "end": 171
@@ -937,7 +937,7 @@ a = { y: x = 1 } = b;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "bar",
-                                        "rawText": " bar",
+                                        "rawText": "bar",
                                         "flags": 96,
                                         "start": 200,
                                         "end": 204
@@ -951,7 +951,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 206,
                                         "end": 208
@@ -1004,7 +1004,7 @@ a = { y: x = 1 } = b;
                                 "name": {
                                     "kind": 134299649,
                                     "text": "typeof",
-                                    "rawText": " typeof",
+                                    "rawText": "typeof",
                                     "flags": 96,
                                     "start": 214,
                                     "end": 221
@@ -1037,7 +1037,7 @@ a = { y: x = 1 } = b;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 224,
                                                 "end": 226
@@ -1106,7 +1106,7 @@ a = { y: x = 1 } = b;
                                 "name": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 236,
                                     "end": 238
@@ -1156,7 +1156,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 244,
                                     "end": 246
@@ -1235,7 +1235,7 @@ a = { y: x = 1 } = b;
                                 "name": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 268,
                                     "end": 270
@@ -1306,7 +1306,7 @@ a = { y: x = 1 } = b;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 286,
                                         "end": 288
@@ -1433,7 +1433,7 @@ a = { y: x = 1 } = b;
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 309,
                     "end": 311
@@ -1475,7 +1475,7 @@ a = { y: x = 1 } = b;
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "z",
-                                                    "rawText": " z",
+                                                    "rawText": "z",
                                                     "flags": 96,
                                                     "start": 323,
                                                     "end": 325
@@ -1539,7 +1539,7 @@ a = { y: x = 1 } = b;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 329,
                     "end": 332
@@ -1730,7 +1730,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 371,
                         "end": 373
@@ -1754,7 +1754,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 375,
                     "end": 378
@@ -1966,7 +1966,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "s",
-                    "rawText": "\n\ns",
+                    "rawText": "s",
                     "flags": 96,
                     "start": 420,
                     "end": 423
@@ -2031,7 +2031,7 @@ a = { y: x = 1 } = b;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 440,
                     "end": 443
@@ -2149,7 +2149,7 @@ a = { y: x = 1 } = b;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 466,
                                         "end": 468
@@ -2177,7 +2177,7 @@ a = { y: x = 1 } = b;
                                         "member": {
                                             "kind": 134299649,
                                             "text": "c",
-                                            "rawText": " c",
+                                            "rawText": "c",
                                             "flags": 96,
                                             "start": 479,
                                             "end": 481
@@ -2231,7 +2231,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "e",
-                        "rawText": " e",
+                        "rawText": "e",
                         "flags": 96,
                         "start": 487,
                         "end": 489
@@ -2255,7 +2255,7 @@ a = { y: x = 1 } = b;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 491,
                     "end": 494
@@ -2401,7 +2401,7 @@ a = { y: x = 1 } = b;
                                             {
                                                 "kind": 134299649,
                                                 "text": "b",
-                                                "rawText": " b",
+                                                "rawText": "b",
                                                 "flags": 96,
                                                 "start": 526,
                                                 "end": 528
@@ -2445,7 +2445,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 532,
                     "end": 535
@@ -2478,7 +2478,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 539,
                                     "end": 541
@@ -2524,7 +2524,7 @@ a = { y: x = 1 } = b;
                                 "right": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 551,
                                     "end": 553
@@ -2558,7 +2558,7 @@ a = { y: x = 1 } = b;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 558,
                     "end": 561
@@ -2648,7 +2648,7 @@ a = { y: x = 1 } = b;
                 "expression": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 582,
                     "end": 585
@@ -2751,7 +2751,7 @@ a = { y: x = 1 } = b;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 613,
                                         "end": 615
@@ -2829,7 +2829,7 @@ a = { y: x = 1 } = b;
                         "expression": {
                             "kind": 134299649,
                             "text": "right",
-                            "rawText": " right",
+                            "rawText": "right",
                             "flags": 96,
                             "start": 624,
                             "end": 630
@@ -2889,7 +2889,7 @@ a = { y: x = 1 } = b;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "x1",
-                                                        "rawText": " x1",
+                                                        "rawText": "x1",
                                                         "flags": 96,
                                                         "start": 650,
                                                         "end": 653
@@ -2915,7 +2915,7 @@ a = { y: x = 1 } = b;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y1",
-                                                        "rawText": " y1",
+                                                        "rawText": "y1",
                                                         "flags": 96,
                                                         "start": 657,
                                                         "end": 660
@@ -2923,7 +2923,7 @@ a = { y: x = 1 } = b;
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 654,
                                                         "end": 656
@@ -2974,7 +2974,7 @@ a = { y: x = 1 } = b;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "x2",
-                                                        "rawText": " x2",
+                                                        "rawText": "x2",
                                                         "flags": 96,
                                                         "start": 679,
                                                         "end": 682
@@ -3000,7 +3000,7 @@ a = { y: x = 1 } = b;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y2",
-                                                        "rawText": " y2",
+                                                        "rawText": "y2",
                                                         "flags": 96,
                                                         "start": 686,
                                                         "end": 689
@@ -3008,7 +3008,7 @@ a = { y: x = 1 } = b;
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 683,
                                                         "end": 685
@@ -3030,7 +3030,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "bottomRight",
-                                        "rawText": " bottomRight",
+                                        "rawText": "bottomRight",
                                         "flags": 96,
                                         "start": 662,
                                         "end": 674
@@ -3058,7 +3058,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "rect",
-                        "rawText": " rect",
+                        "rawText": "rect",
                         "flags": 96,
                         "start": 693,
                         "end": 698
@@ -3222,7 +3222,7 @@ a = { y: x = 1 } = b;
                                                             {
                                                                 "kind": 134299649,
                                                                 "text": "v",
-                                                                "rawText": " v",
+                                                                "rawText": "v",
                                                                 "flags": 96,
                                                                 "start": 737,
                                                                 "end": 739
@@ -3279,7 +3279,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 746,
                     "end": 749
@@ -3346,7 +3346,7 @@ a = { y: x = 1 } = b;
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "foo",
-                                                "rawText": " foo",
+                                                "rawText": "foo",
                                                 "flags": 96,
                                                 "start": 768,
                                                 "end": 772
@@ -3799,7 +3799,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 877,
                     "end": 880
@@ -3878,7 +3878,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 896,
                     "end": 899
@@ -3899,7 +3899,7 @@ a = { y: x = 1 } = b;
                                 "name": {
                                     "kind": 134299649,
                                     "text": "get",
-                                    "rawText": " get",
+                                    "rawText": "get",
                                     "flags": 96,
                                     "start": 906,
                                     "end": 910
@@ -3976,7 +3976,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 917,
                     "end": 920
@@ -4009,7 +4009,7 @@ a = { y: x = 1 } = b;
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 935,
                                         "end": 937
@@ -4055,7 +4055,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 939,
                     "end": 942
@@ -4093,7 +4093,7 @@ a = { y: x = 1 } = b;
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "y",
-                                                        "rawText": " y",
+                                                        "rawText": "y",
                                                         "flags": 96,
                                                         "start": 954,
                                                         "end": 956
@@ -4107,7 +4107,7 @@ a = { y: x = 1 } = b;
                                                     "right": {
                                                         "kind": 134299649,
                                                         "text": "x",
-                                                        "rawText": " x",
+                                                        "rawText": "x",
                                                         "flags": 96,
                                                         "start": 958,
                                                         "end": 960
@@ -4175,7 +4175,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 963,
                     "end": 966
@@ -4196,7 +4196,7 @@ a = { y: x = 1 } = b;
                                 {
                                     "kind": 134299649,
                                     "text": "w",
-                                    "rawText": " w",
+                                    "rawText": "w",
                                     "flags": 96,
                                     "start": 970,
                                     "end": 972
@@ -4210,7 +4210,7 @@ a = { y: x = 1 } = b;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 976,
                                         "end": 978
@@ -4218,7 +4218,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 973,
                                         "end": 975
@@ -4246,7 +4246,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 982,
                         "end": 984
@@ -4270,7 +4270,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 985,
                     "end": 988
@@ -4355,7 +4355,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 1005,
                         "end": 1007
@@ -4379,7 +4379,7 @@ a = { y: x = 1 } = b;
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 1008,
                     "end": 1011
@@ -4408,7 +4408,7 @@ a = { y: x = 1 } = b;
                                         "left": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 1018,
                                             "end": 1020
@@ -4434,7 +4434,7 @@ a = { y: x = 1 } = b;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 1015,
                                         "end": 1017
@@ -4462,7 +4462,7 @@ a = { y: x = 1 } = b;
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 1028,
                         "end": 1030

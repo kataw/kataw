@@ -51,7 +51,7 @@ x => ok++
                     "expression": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 4,
                         "end": 7

@@ -41,7 +41,7 @@ delete x => ok
                     "parameters": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 6,
                         "end": 8
@@ -51,7 +51,7 @@ delete x => ok
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 11,
                         "end": 14

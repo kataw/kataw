@@ -53,7 +53,7 @@ f((async (a, b) => a + b));
                                     {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -71,7 +71,7 @@ f((async (a, b) => a + b));
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 18,
                                         "end": 20
@@ -85,7 +85,7 @@ f((async (a, b) => a + b));
                                     "right": {
                                         "kind": 134299649,
                                         "text": "b",
-                                        "rawText": " b",
+                                        "rawText": "b",
                                         "flags": 96,
                                         "start": 22,
                                         "end": 24

@@ -88,7 +88,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 6,
                     "end": 9
@@ -136,7 +136,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 14,
                     "end": 17
@@ -184,7 +184,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 22,
                     "end": 25
@@ -232,7 +232,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 30,
                     "end": 33
@@ -280,7 +280,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 38,
                     "end": 41
@@ -328,7 +328,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 46,
                     "end": 49
@@ -376,7 +376,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 54,
                     "end": 57
@@ -424,7 +424,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 62,
                     "end": 65
@@ -472,7 +472,7 @@ a?.9:b
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 70,
                     "end": 73

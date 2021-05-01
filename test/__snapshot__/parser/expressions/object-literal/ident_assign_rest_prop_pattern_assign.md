@@ -93,7 +93,7 @@ a = {...b.c} = d;
                     "right": {
                         "kind": 134299649,
                         "text": "d",
-                        "rawText": " d",
+                        "rawText": "d",
                         "flags": 96,
                         "start": 14,
                         "end": 16

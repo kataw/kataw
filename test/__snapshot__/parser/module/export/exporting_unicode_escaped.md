@@ -87,7 +87,7 @@ export { abc }
                             "name": {
                                 "kind": 134299649,
                                 "text": "abc",
-                                "rawText": " abc",
+                                "rawText": "abc",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 30

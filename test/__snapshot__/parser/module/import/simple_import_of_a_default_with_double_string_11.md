@@ -82,7 +82,7 @@ import {x, z as b} from "y"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "z",
-                                    "rawText": " z",
+                                    "rawText": "z",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 12
@@ -98,7 +98,7 @@ import {x, z as b} from "y"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 12,
                                     "end": 15
@@ -114,7 +114,7 @@ import {x, z as b} from "y"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 64,
                                     "start": 15,
                                     "end": 17

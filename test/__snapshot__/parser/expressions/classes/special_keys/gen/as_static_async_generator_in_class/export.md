@@ -32,7 +32,7 @@ class x {static async * export(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -71,7 +71,7 @@ class x {static async * export(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "export",
-                                "rawText": " export",
+                                "rawText": "export",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 30

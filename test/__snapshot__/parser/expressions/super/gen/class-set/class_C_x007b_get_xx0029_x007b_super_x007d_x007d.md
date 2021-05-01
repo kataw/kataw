@@ -61,7 +61,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 13,
                                 "end": 15
@@ -133,7 +133,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 34,
                                                             "end": 36

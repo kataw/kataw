@@ -83,7 +83,7 @@ const [foo=a, bar] = arr;
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 13,
                                             "end": 17
@@ -110,7 +110,7 @@ const [foo=a, bar] = arr;
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr",
-                            "rawText": " arr",
+                            "rawText": "arr",
                             "flags": 96,
                             "start": 20,
                             "end": 24

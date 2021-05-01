@@ -79,7 +79,7 @@ for ([].b in c) d;
             "expression": {
                 "kind": 134299649,
                 "text": "c",
-                "rawText": " c",
+                "rawText": "c",
                 "flags": 96,
                 "start": 12,
                 "end": 14
@@ -89,7 +89,7 @@ for ([].b in c) d;
                 "expression": {
                     "kind": 134299649,
                     "text": "d",
-                    "rawText": " d",
+                    "rawText": "d",
                     "flags": 96,
                     "start": 15,
                     "end": 17

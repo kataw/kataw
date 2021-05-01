@@ -41,7 +41,7 @@ gen = function*() {};
                         "binding": {
                             "kind": 134299649,
                             "text": "xGen",
-                            "rawText": " xGen",
+                            "rawText": "xGen",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -58,7 +58,7 @@ gen = function*() {};
                         "binding": {
                             "kind": 134299649,
                             "text": "gen",
-                            "rawText": " gen",
+                            "rawText": "gen",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -86,7 +86,7 @@ gen = function*() {};
                 "left": {
                     "kind": 134299649,
                     "text": "xGen",
-                    "rawText": "\n\nxGen",
+                    "rawText": "xGen",
                     "flags": 96,
                     "start": 14,
                     "end": 20
@@ -115,7 +115,7 @@ gen = function*() {};
                     "name": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 32,
                         "end": 34
@@ -163,7 +163,7 @@ gen = function*() {};
                 "left": {
                     "kind": 134299649,
                     "text": "gen",
-                    "rawText": "\ngen",
+                    "rawText": "gen",
                     "flags": 96,
                     "start": 40,
                     "end": 44

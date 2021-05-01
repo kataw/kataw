@@ -42,7 +42,7 @@
                                                         {
                                                             "kind": 134299649,
                                                             "text": "a",
-                                                            "rawText": " a",
+                                                            "rawText": "a",
                                                             "flags": 96,
                                                             "start": 5,
                                                             "end": 7
@@ -58,7 +58,7 @@
                                                         {
                                                             "kind": 134299649,
                                                             "text": "c",
-                                                            "rawText": " c",
+                                                            "rawText": "c",
                                                             "flags": 96,
                                                             "start": 10,
                                                             "end": 12
@@ -79,7 +79,7 @@
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "d",
-                                                        "rawText": " d",
+                                                        "rawText": "d",
                                                         "flags": 96,
                                                         "start": 12,
                                                         "end": 14
@@ -95,7 +95,7 @@
                                                         "left": {
                                                             "kind": 134299649,
                                                             "text": "y",
-                                                            "rawText": " y",
+                                                            "rawText": "y",
                                                             "flags": 96,
                                                             "start": 16,
                                                             "end": 18
@@ -109,7 +109,7 @@
                                                         "right": {
                                                             "kind": 134299649,
                                                             "text": "d",
-                                                            "rawText": " d",
+                                                            "rawText": "d",
                                                             "flags": 96,
                                                             "start": 21,
                                                             "end": 23

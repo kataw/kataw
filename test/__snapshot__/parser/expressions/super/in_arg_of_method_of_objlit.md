@@ -43,7 +43,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                 "name": {
                                     "kind": 134299649,
                                     "text": "dsda",
-                                    "rawText": " dsda",
+                                    "rawText": "dsda",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 8

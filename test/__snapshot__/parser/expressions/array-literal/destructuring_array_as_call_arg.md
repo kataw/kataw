@@ -67,7 +67,7 @@ foo([a, b] = arr);
                                         {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 7,
                                             "end": 9
@@ -91,7 +91,7 @@ foo([a, b] = arr);
                             "right": {
                                 "kind": 134299649,
                                 "text": "arr",
-                                "rawText": " arr",
+                                "rawText": "arr",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 16

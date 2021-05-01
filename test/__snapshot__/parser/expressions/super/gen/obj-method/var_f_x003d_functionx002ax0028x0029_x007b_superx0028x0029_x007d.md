@@ -33,7 +33,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "method",
-                                    "rawText": " method",
+                                    "rawText": "method",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 9
@@ -71,7 +71,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "f",
-                                                                "rawText": " f",
+                                                                "rawText": "f",
                                                                 "flags": 96,
                                                                 "start": 17,
                                                                 "end": 19

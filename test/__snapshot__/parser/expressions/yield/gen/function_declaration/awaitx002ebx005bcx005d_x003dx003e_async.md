@@ -33,7 +33,7 @@ function not_gen() { await.b[c] => async }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -61,7 +61,7 @@ function not_gen() { await.b[c] => async }}
                                     "member": {
                                         "kind": 134299649,
                                         "text": "await",
-                                        "rawText": " await",
+                                        "rawText": "await",
                                         "flags": 96,
                                         "start": 20,
                                         "end": 26

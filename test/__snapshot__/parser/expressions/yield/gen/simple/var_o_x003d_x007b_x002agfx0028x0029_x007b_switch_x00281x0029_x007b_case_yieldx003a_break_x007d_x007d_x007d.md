@@ -36,7 +36,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                         "binding": {
                             "kind": 134299649,
                             "text": "o",
-                            "rawText": " o",
+                            "rawText": "o",
                             "flags": 96,
                             "start": 3,
                             "end": 5

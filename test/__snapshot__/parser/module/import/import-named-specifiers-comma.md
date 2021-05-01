@@ -82,7 +82,7 @@ import {bar, baz,} from "foo";
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "baz",
-                                    "rawText": " baz",
+                                    "rawText": "baz",
                                     "flags": 64,
                                     "start": 12,
                                     "end": 16

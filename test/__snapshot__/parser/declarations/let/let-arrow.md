@@ -43,7 +43,7 @@ hello();
                         "binding": {
                             "kind": 134299649,
                             "text": "hello",
-                            "rawText": " hello",
+                            "rawText": "hello",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -125,7 +125,7 @@ hello();
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "console",
-                                                        "rawText": "\n  console",
+                                                        "rawText": "console",
                                                         "flags": 96,
                                                         "start": 54,
                                                         "end": 64
@@ -164,7 +164,7 @@ hello();
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "greeting",
-                                                                "rawText": " greeting",
+                                                                "rawText": "greeting",
                                                                 "flags": 96,
                                                                 "start": 78,
                                                                 "end": 87
@@ -220,7 +220,7 @@ hello();
                 "expression": {
                     "kind": 134299649,
                     "text": "hello",
-                    "rawText": "\n\nhello",
+                    "rawText": "hello",
                     "flags": 96,
                     "start": 92,
                     "end": 99

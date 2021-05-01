@@ -35,7 +35,7 @@ while (false) label1: label2: function f() {}
                 "label": {
                     "kind": 134299649,
                     "text": "label1",
-                    "rawText": " label1",
+                    "rawText": "label1",
                     "flags": 96,
                     "start": 13,
                     "end": 20
@@ -69,7 +69,7 @@ while (false) label1: label2: function f() {}
                     "label": {
                         "kind": 134299649,
                         "text": "label2",
-                        "rawText": " label2",
+                        "rawText": "label2",
                         "flags": 96,
                         "start": 21,
                         "end": 28
@@ -112,7 +112,7 @@ while (false) label1: label2: function f() {}
                         "name": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 38,
                             "end": 40

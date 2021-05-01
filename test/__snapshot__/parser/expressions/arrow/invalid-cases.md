@@ -393,7 +393,7 @@ a++ => {};
                 "member": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 213,
                     "end": 217
@@ -519,7 +519,7 @@ a++ => {};
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 324,
                                 "end": 326
@@ -631,7 +631,7 @@ a++ => {};
                             {
                                 "kind": 134299649,
                                 "text": "y",
-                                "rawText": " y",
+                                "rawText": "y",
                                 "flags": 96,
                                 "start": 354,
                                 "end": 356
@@ -639,7 +639,7 @@ a++ => {};
                             {
                                 "kind": 134299649,
                                 "text": "z",
-                                "rawText": " z",
+                                "rawText": "z",
                                 "flags": 96,
                                 "start": 357,
                                 "end": 359
@@ -706,7 +706,7 @@ a++ => {};
                                     {
                                         "kind": 134299649,
                                         "text": "z",
-                                        "rawText": " z",
+                                        "rawText": "z",
                                         "flags": 96,
                                         "start": 375,
                                         "end": 377
@@ -770,7 +770,7 @@ a++ => {};
                                     {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 390,
                                         "end": 392
@@ -787,7 +787,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "z",
-                            "rawText": " z",
+                            "rawText": "z",
                             "flags": 96,
                             "start": 394,
                             "end": 396
@@ -833,7 +833,7 @@ a++ => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "eval",
-                    "rawText": "\n\n// Arrow function formal parameters are parsed as StrictFormalParameters,\n// which confusingly only implies that there are no duplicates.  Words\n// reserved in strict mode, and eval or arguments, are indeed valid in\n// sloppy mode.\neval",
+                    "rawText": "eval",
                     "flags": 96,
                     "start": 403,
                     "end": 641
@@ -900,7 +900,7 @@ a++ => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "arguments",
-                    "rawText": "\narguments",
+                    "rawText": "arguments",
                     "flags": 96,
                     "start": 665,
                     "end": 675
@@ -967,7 +967,7 @@ a++ => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": "\nyield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 699,
                     "end": 705
@@ -1034,7 +1034,7 @@ a++ => {};
                 "parameters": {
                     "kind": 134299649,
                     "text": "interface",
-                    "rawText": "\ninterface",
+                    "rawText": "interface",
                     "flags": 96,
                     "start": 729,
                     "end": 739
@@ -1387,7 +1387,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "bar",
-                            "rawText": " bar",
+                            "rawText": "bar",
                             "flags": 96,
                             "start": 905,
                             "end": 909
@@ -1466,7 +1466,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "eval",
-                            "rawText": " eval",
+                            "rawText": "eval",
                             "flags": 96,
                             "start": 940,
                             "end": 945
@@ -1545,7 +1545,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "arguments",
-                            "rawText": " arguments",
+                            "rawText": "arguments",
                             "flags": 96,
                             "start": 976,
                             "end": 986
@@ -1624,7 +1624,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 1017,
                             "end": 1023
@@ -1703,7 +1703,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "interface",
-                            "rawText": " interface",
+                            "rawText": "interface",
                             "flags": 96,
                             "start": 1054,
                             "end": 1064
@@ -2098,7 +2098,7 @@ a++ => {};
                 "left": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 1377,
                     "end": 1379
@@ -2121,7 +2121,7 @@ a++ => {};
                     "parameters": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 1381,
                         "end": 1383
@@ -2177,7 +2177,7 @@ a++ => {};
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 1395,
                         "end": 1397
@@ -2245,7 +2245,7 @@ a++ => {};
                             "right": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 1410,
                                 "end": 1412
@@ -2257,7 +2257,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 1413,
                             "end": 1415
@@ -2308,7 +2308,7 @@ a++ => {};
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 1427,
                                 "end": 1429
@@ -2322,7 +2322,7 @@ a++ => {};
                             "right": {
                                 "kind": 134299649,
                                 "text": "c",
-                                "rawText": " c",
+                                "rawText": "c",
                                 "flags": 96,
                                 "start": 1431,
                                 "end": 1433
@@ -2641,7 +2641,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 1523,
                             "end": 1525
@@ -2790,7 +2790,7 @@ a++ => {};
                 "expression": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 1558,
                     "end": 1560
@@ -2909,7 +2909,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 1588,
                             "end": 1590
@@ -2966,7 +2966,7 @@ a++ => {};
                             "expression": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 1602,
                                 "end": 1604
@@ -3069,7 +3069,7 @@ a++ => {};
                     "consequent": {
                         "kind": 134299649,
                         "text": "bar",
-                        "rawText": " bar",
+                        "rawText": "bar",
                         "flags": 96,
                         "start": 1631,
                         "end": 1635
@@ -3083,7 +3083,7 @@ a++ => {};
                     "alternate": {
                         "kind": 134299649,
                         "text": "baz",
-                        "rawText": " baz",
+                        "rawText": "baz",
                         "flags": 96,
                         "start": 1637,
                         "end": 1641
@@ -3139,7 +3139,7 @@ a++ => {};
                             "shortCircuit": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 1653,
                                 "end": 1657
@@ -3153,7 +3153,7 @@ a++ => {};
                             "consequent": {
                                 "kind": 134299649,
                                 "text": "bar",
-                                "rawText": " bar",
+                                "rawText": "bar",
                                 "flags": 96,
                                 "start": 1659,
                                 "end": 1663
@@ -3167,7 +3167,7 @@ a++ => {};
                             "alternate": {
                                 "kind": 134299649,
                                 "text": "baz",
-                                "rawText": " baz",
+                                "rawText": "baz",
                                 "flags": 96,
                                 "start": 1665,
                                 "end": 1669
@@ -3240,7 +3240,7 @@ a++ => {};
                             "consequent": {
                                 "kind": 134299649,
                                 "text": "bar",
-                                "rawText": " bar",
+                                "rawText": "bar",
                                 "flags": 96,
                                 "start": 1684,
                                 "end": 1688
@@ -3254,7 +3254,7 @@ a++ => {};
                             "alternate": {
                                 "kind": 134299649,
                                 "text": "baz",
-                                "rawText": " baz",
+                                "rawText": "baz",
                                 "flags": 96,
                                 "start": 1690,
                                 "end": 1694
@@ -3266,7 +3266,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 1695,
                             "end": 1697
@@ -3335,7 +3335,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 1711,
                             "end": 1713
@@ -3386,7 +3386,7 @@ a++ => {};
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 1725,
                                 "end": 1727
@@ -3473,7 +3473,7 @@ a++ => {};
                         {
                             "kind": 134299649,
                             "text": "c",
-                            "rawText": " c",
+                            "rawText": "c",
                             "flags": 96,
                             "start": 1746,
                             "end": 1748
@@ -3524,7 +3524,7 @@ a++ => {};
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 1760,
                                 "end": 1762
@@ -3606,7 +3606,7 @@ a++ => {};
                         "initializer": {
                             "kind": 134299649,
                             "text": "b",
-                            "rawText": " b",
+                            "rawText": "b",
                             "flags": 96,
                             "start": 1783,
                             "end": 1785
@@ -3621,7 +3621,7 @@ a++ => {};
                 "contents": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 1789,
                     "end": 1791
@@ -3659,7 +3659,7 @@ a++ => {};
                 "right": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": " a",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 1804,
                     "end": 1806
@@ -3677,7 +3677,7 @@ a++ => {};
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": " b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 1810,
                 "end": 1812
@@ -3762,7 +3762,7 @@ a++ => {};
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": " b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 1831,
                 "end": 1833

@@ -73,7 +73,7 @@ loop: while (x) { break loop; }
                                 "label": {
                                     "kind": 134299649,
                                     "text": "loop",
-                                    "rawText": " loop",
+                                    "rawText": "loop",
                                     "flags": 96,
                                     "start": 23,
                                     "end": 28

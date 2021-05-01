@@ -49,7 +49,7 @@ x = x => { return x; } ;
                     "parameters": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -73,7 +73,7 @@ x = x => { return x; } ;
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 17,
                                         "end": 19

@@ -78,7 +78,7 @@ function fn() {} fn( # );
             "name": {
                 "kind": 134299649,
                 "text": "fn",
-                "rawText": " fn",
+                "rawText": "fn",
                 "flags": 96,
                 "start": 8,
                 "end": 11
@@ -127,7 +127,7 @@ function fn() {} fn( # );
                 "expression": {
                     "kind": 134299649,
                     "text": "fn",
-                    "rawText": " fn",
+                    "rawText": "fn",
                     "flags": 96,
                     "start": 30,
                     "end": 33

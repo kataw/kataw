@@ -38,7 +38,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -95,7 +95,7 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 39,
                                                 "end": 45

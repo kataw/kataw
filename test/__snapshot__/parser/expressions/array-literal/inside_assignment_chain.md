@@ -51,7 +51,7 @@ x = [a, b] = y
                                 {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 96,
                                     "start": 7,
                                     "end": 9
@@ -75,7 +75,7 @@ x = [a, b] = y
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 12,
                         "end": 14

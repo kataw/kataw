@@ -45,7 +45,7 @@ result = { arrow = () => {} } = {}
                                     "left": {
                                         "kind": 134299649,
                                         "text": "arrow",
-                                        "rawText": " arrow",
+                                        "rawText": "arrow",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 16

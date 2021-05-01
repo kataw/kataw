@@ -32,7 +32,7 @@ class x {get package(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {get package(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "package",
-                                "rawText": " package",
+                                "rawText": "package",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 20

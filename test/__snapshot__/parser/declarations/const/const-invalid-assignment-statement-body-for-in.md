@@ -37,7 +37,7 @@ for (const x in [1, 2, 3]) { x++ }
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -111,7 +111,7 @@ for (const x in [1, 2, 3]) { x++ }
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 30

@@ -50,7 +50,7 @@ x => y in x) ;
                 "parameters": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 10,
                     "end": 12
@@ -62,7 +62,7 @@ x => y in x) ;
                     "left": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 15,
                         "end": 17
@@ -76,7 +76,7 @@ x => y in x) ;
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 20,
                         "end": 22

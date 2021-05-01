@@ -42,7 +42,7 @@ async function foo({x}: { x: string; }) {}
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 14,
                 "end": 18
@@ -95,7 +95,7 @@ async function foo({x}: { x: string; }) {}
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 25,
                                             "end": 27

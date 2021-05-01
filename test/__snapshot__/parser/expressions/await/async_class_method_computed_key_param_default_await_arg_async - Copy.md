@@ -36,7 +36,7 @@ async function f(){
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -163,7 +163,7 @@ async function f(){
                                                                             "expression": {
                                                                                 "kind": 134299649,
                                                                                 "text": "z",
-                                                                                "rawText": " z",
+                                                                                "rawText": "z",
                                                                                 "flags": 96,
                                                                                 "start": 56,
                                                                                 "end": 58

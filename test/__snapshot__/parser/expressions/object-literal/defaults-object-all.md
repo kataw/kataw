@@ -63,7 +63,7 @@ var {x = 10, y = 5, z = 1} = a;
                                         "left": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -86,7 +86,7 @@ var {x = 10, y = 5, z = 1} = a;
                                         "left": {
                                             "kind": 134299649,
                                             "text": "z",
-                                            "rawText": " z",
+                                            "rawText": "z",
                                             "flags": 96,
                                             "start": 19,
                                             "end": 21
@@ -118,7 +118,7 @@ var {x = 10, y = 5, z = 1} = a;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 28,
                             "end": 30

@@ -57,7 +57,7 @@
                                         "key": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 24
@@ -68,7 +68,7 @@
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "await",
-                                                "rawText": " await",
+                                                "rawText": "await",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30
@@ -88,7 +88,7 @@
                                         "left": {
                                             "kind": 134299649,
                                             "text": "f",
-                                            "rawText": " f",
+                                            "rawText": "f",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 32

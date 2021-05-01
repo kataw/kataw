@@ -108,7 +108,7 @@ for (function(){ }[x in y] in x);
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 23,
                         "end": 25
@@ -124,7 +124,7 @@ for (function(){ }[x in y] in x);
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 29,
                 "end": 31

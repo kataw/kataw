@@ -262,7 +262,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "bar",
-                                    "rawText": " bar",
+                                    "rawText": "bar",
                                     "flags": 96,
                                     "start": 38,
                                     "end": 42
@@ -304,7 +304,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "arr",
-                    "rawText": " arr",
+                    "rawText": "arr",
                     "flags": 96,
                     "start": 49,
                     "end": 53

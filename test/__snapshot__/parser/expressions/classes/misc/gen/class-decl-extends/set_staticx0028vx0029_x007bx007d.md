@@ -81,7 +81,7 @@ class C extends Base { set static(v) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "static",
-                                "rawText": " static",
+                                "rawText": "static",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 33

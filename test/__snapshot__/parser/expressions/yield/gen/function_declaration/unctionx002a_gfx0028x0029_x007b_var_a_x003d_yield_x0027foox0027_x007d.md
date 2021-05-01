@@ -33,7 +33,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -59,7 +59,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                 "left": {
                                     "kind": 134299649,
                                     "text": "unction",
-                                    "rawText": " unction",
+                                    "rawText": "unction",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 28
@@ -75,7 +75,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "gf",
-                                        "rawText": " gf",
+                                        "rawText": "gf",
                                         "flags": 96,
                                         "start": 29,
                                         "end": 32
@@ -122,7 +122,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                     "binding": {
                                                         "kind": 134299649,
                                                         "text": "a",
-                                                        "rawText": " a",
+                                                        "rawText": "a",
                                                         "flags": 96,
                                                         "start": 40,
                                                         "end": 42
@@ -132,7 +132,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                     "initializer": {
                                                         "kind": 134299649,
                                                         "text": "yield",
-                                                        "rawText": " yield",
+                                                        "rawText": "yield",
                                                         "flags": 96,
                                                         "start": 44,
                                                         "end": 50

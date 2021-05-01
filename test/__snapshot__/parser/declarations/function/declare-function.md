@@ -48,7 +48,7 @@ declare function foo(): void
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 16,
                 "end": 20
@@ -144,7 +144,7 @@ declare function foo(): void
             "expression": {
                 "kind": 134299649,
                 "text": "declare",
-                "rawText": "\n\ndeclare",
+                "rawText": "declare",
                 "flags": 96,
                 "start": 32,
                 "end": 41
@@ -167,7 +167,7 @@ declare function foo(): void
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 50,
                 "end": 54
@@ -227,7 +227,7 @@ declare function foo(): void
                     {
                         "kind": 134299649,
                         "text": "number",
-                        "rawText": " number",
+                        "rawText": "number",
                         "flags": 96,
                         "start": 57,
                         "end": 64
@@ -235,7 +235,7 @@ declare function foo(): void
                     {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 65,
                         "end": 67
@@ -254,7 +254,7 @@ declare function foo(): void
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 68,
                 "end": 75
@@ -293,7 +293,7 @@ declare function foo(): void
             "expression": {
                 "kind": 134299649,
                 "text": "declare",
-                "rawText": "\n\ndeclare",
+                "rawText": "declare",
                 "flags": 96,
                 "start": 83,
                 "end": 92
@@ -316,7 +316,7 @@ declare function foo(): void
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 101,
                 "end": 105

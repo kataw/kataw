@@ -101,7 +101,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 17,
                                     "end": 19

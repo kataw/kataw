@@ -39,7 +39,7 @@
                         {
                             "kind": 134299649,
                             "text": "o",
-                            "rawText": " o",
+                            "rawText": "o",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -47,7 +47,7 @@
                         {
                             "kind": 134299649,
                             "text": "e",
-                            "rawText": " e",
+                            "rawText": "e",
                             "flags": 96,
                             "start": 6,
                             "end": 8
@@ -55,7 +55,7 @@
                         {
                             "kind": 134299649,
                             "text": "m",
-                            "rawText": " m",
+                            "rawText": "m",
                             "flags": 96,
                             "start": 9,
                             "end": 11

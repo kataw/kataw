@@ -36,7 +36,7 @@ a ? b : c
                 "consequent": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 3,
                     "end": 5
@@ -50,7 +50,7 @@ a ? b : c
                 "alternate": {
                     "kind": 134299649,
                     "text": "c",
-                    "rawText": " c",
+                    "rawText": "c",
                     "flags": 96,
                     "start": 7,
                     "end": 9

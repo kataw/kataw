@@ -33,7 +33,7 @@ delete foo.bar, z;
                             "member": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 10
@@ -57,7 +57,7 @@ delete foo.bar, z;
                     {
                         "kind": 134299649,
                         "text": "z",
-                        "rawText": " z",
+                        "rawText": "z",
                         "flags": 96,
                         "start": 15,
                         "end": 17

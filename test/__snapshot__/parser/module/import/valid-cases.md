@@ -79,7 +79,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 64,
                                     "start": 8,
                                     "end": 10
@@ -95,7 +95,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 13
@@ -111,7 +111,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 64,
                                     "start": 13,
                                     "end": 15
@@ -171,7 +171,7 @@ import { a as b } from 'm.js';
                 "defaultBinding": {
                     "kind": 134299649,
                     "text": "n",
-                    "rawText": " n",
+                    "rawText": "n",
                     "flags": 96,
                     "start": 38,
                     "end": 40
@@ -231,7 +231,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 64,
                                     "start": 63,
                                     "end": 65
@@ -247,7 +247,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 65,
                                     "end": 68
@@ -263,7 +263,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 64,
                                     "start": 68,
                                     "end": 70
@@ -323,7 +323,7 @@ import { a as b } from 'm.js';
                 "defaultBinding": {
                     "kind": 134299649,
                     "text": "n",
-                    "rawText": " n",
+                    "rawText": "n",
                     "flags": 96,
                     "start": 93,
                     "end": 95
@@ -358,7 +358,7 @@ import { a as b } from 'm.js';
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 118,
                                 "end": 120
@@ -375,7 +375,7 @@ import { a as b } from 'm.js';
                             "name": {
                                 "kind": 134299649,
                                 "text": "as",
-                                "rawText": " as",
+                                "rawText": "as",
                                 "flags": 96,
                                 "start": 120,
                                 "end": 123
@@ -392,7 +392,7 @@ import { a as b } from 'm.js';
                             "name": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 123,
                                 "end": 125
@@ -481,7 +481,7 @@ import { a as b } from 'm.js';
                     "binding": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": " foo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 153,
                         "end": 157
@@ -544,7 +544,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 64,
                                     "start": 182,
                                     "end": 184
@@ -560,7 +560,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 184,
                                     "end": 187
@@ -576,7 +576,7 @@ import { a as b } from 'm.js';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 64,
                                     "start": 187,
                                     "end": 189

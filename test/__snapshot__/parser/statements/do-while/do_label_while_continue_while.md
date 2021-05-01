@@ -42,7 +42,7 @@ do wow: while (x) continue wow; while (x)
                 "label": {
                     "kind": 134299649,
                     "text": "wow",
-                    "rawText": " wow",
+                    "rawText": "wow",
                     "flags": 96,
                     "start": 2,
                     "end": 6
@@ -90,7 +90,7 @@ do wow: while (x) continue wow; while (x)
                         "label": {
                             "kind": 134299649,
                             "text": "wow",
-                            "rawText": " wow",
+                            "rawText": "wow",
                             "flags": 96,
                             "start": 26,
                             "end": 30

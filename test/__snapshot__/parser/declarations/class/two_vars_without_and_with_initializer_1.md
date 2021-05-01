@@ -76,7 +76,7 @@ let [foo, bar=b] = arr;
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 13
@@ -110,7 +110,7 @@ let [foo, bar=b] = arr;
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr",
-                            "rawText": " arr",
+                            "rawText": "arr",
                             "flags": 96,
                             "start": 18,
                             "end": 22

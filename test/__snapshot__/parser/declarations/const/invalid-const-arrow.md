@@ -39,7 +39,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "binding": {
                             "kind": 134299649,
                             "text": "fn",
-                            "rawText": " fn",
+                            "rawText": "fn",
                             "flags": 96,
                             "start": 5,
                             "end": 8
@@ -164,7 +164,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             {
                                 "kind": 134299649,
                                 "text": "o1",
-                                "rawText": " o1",
+                                "rawText": "o1",
                                 "flags": 96,
                                 "start": 47,
                                 "end": 50
@@ -172,7 +172,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             {
                                 "kind": 134299649,
                                 "text": "o2",
-                                "rawText": " o2",
+                                "rawText": "o2",
                                 "flags": 96,
                                 "start": 51,
                                 "end": 54
@@ -184,7 +184,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "contents": {
                         "kind": 134299649,
                         "text": "o1",
-                        "rawText": " o1",
+                        "rawText": "o1",
                         "flags": 96,
                         "start": 60,
                         "end": 63

@@ -33,7 +33,7 @@ async g => (x = [await y])
                         "binding": {
                             "kind": 134299649,
                             "text": "g",
-                            "rawText": " g",
+                            "rawText": "g",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -87,7 +87,7 @@ async g => (x = [await y])
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 22,
                                             "end": 24

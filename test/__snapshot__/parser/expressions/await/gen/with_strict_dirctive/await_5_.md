@@ -38,7 +38,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "await",
-                "rawText": " await",
+                "rawText": "await",
                 "flags": 96,
                 "start": 13,
                 "end": 19

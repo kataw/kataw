@@ -42,7 +42,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "set",
-                                    "rawText": " set",
+                                    "rawText": "set",
                                     "flags": 96,
                                     "start": 3,
                                     "end": 7
@@ -107,7 +107,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "get",
-                                    "rawText": " get",
+                                    "rawText": "get",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 23
@@ -172,7 +172,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "private",
-                                    "rawText": " private",
+                                    "rawText": "private",
                                     "flags": 96,
                                     "start": 35,
                                     "end": 43
@@ -237,7 +237,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "readonly",
-                                    "rawText": " readonly",
+                                    "rawText": "readonly",
                                     "flags": 96,
                                     "start": 55,
                                     "end": 64
@@ -302,7 +302,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 76,
                                     "end": 82
@@ -367,7 +367,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "function",
-                                    "rawText": " function",
+                                    "rawText": "function",
                                     "flags": 96,
                                     "start": 94,
                                     "end": 103
@@ -432,7 +432,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "declare",
-                                    "rawText": " declare",
+                                    "rawText": "declare",
                                     "flags": 96,
                                     "start": 115,
                                     "end": 123

@@ -31,7 +31,7 @@ let f = () => { const [...await f] = []; }
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -103,7 +103,7 @@ let f = () => { const [...await f] = []; }
                                                                         "binding": {
                                                                             "kind": 134299649,
                                                                             "text": "f",
-                                                                            "rawText": " f",
+                                                                            "rawText": "f",
                                                                             "flags": 96,
                                                                             "start": 31,
                                                                             "end": 33

@@ -58,7 +58,7 @@ for ({ eval = 0 } in [{}]) ;
                             "left": {
                                 "kind": 134299649,
                                 "text": "eval",
-                                "rawText": " eval",
+                                "rawText": "eval",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 11

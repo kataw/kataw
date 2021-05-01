@@ -52,7 +52,7 @@ var q
                         "binding": {
                             "kind": 134299649,
                             "text": "q",
-                            "rawText": " q",
+                            "rawText": "q",
                             "flags": 96,
                             "start": 3,
                             "end": 5

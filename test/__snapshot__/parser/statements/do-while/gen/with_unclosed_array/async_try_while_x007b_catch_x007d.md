@@ -84,7 +84,7 @@ do[ async try while { catch }
                         {
                             "kind": 134299649,
                             "text": "catch",
-                            "rawText": " catch",
+                            "rawText": "catch",
                             "flags": 96,
                             "start": 21,
                             "end": 27

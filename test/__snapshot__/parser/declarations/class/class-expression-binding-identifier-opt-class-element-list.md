@@ -79,7 +79,7 @@ var A = class B {
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "method",
-                                                "rawText": "\n  method",
+                                                "rawText": "method",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 26
@@ -135,7 +135,7 @@ var A = class B {
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "method",
-                                                "rawText": " method",
+                                                "rawText": "method",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 47

@@ -77,7 +77,7 @@ class Foo<T> extends mixin(Bar) { }
                     "expression": {
                         "kind": 134299649,
                         "text": "mixin",
-                        "rawText": " mixin",
+                        "rawText": "mixin",
                         "flags": 96,
                         "start": 20,
                         "end": 26

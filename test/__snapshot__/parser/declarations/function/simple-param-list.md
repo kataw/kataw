@@ -55,7 +55,7 @@ function x({x}) { "use strict"; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -79,7 +79,7 @@ function x({x}) { "use strict"; }
                         "initializer": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -137,7 +137,7 @@ function x({x}) { "use strict"; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 45,
                 "end": 47
@@ -217,7 +217,7 @@ function x({x}) { "use strict"; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 81,
                 "end": 83
@@ -317,7 +317,7 @@ function x({x}) { "use strict"; }
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 116,
                 "end": 118

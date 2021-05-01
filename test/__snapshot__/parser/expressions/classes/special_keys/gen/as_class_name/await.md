@@ -32,7 +32,7 @@ class await {}
             "name": {
                 "kind": 134299649,
                 "text": "await",
-                "rawText": " await",
+                "rawText": "await",
                 "flags": 96,
                 "start": 5,
                 "end": 11

@@ -37,7 +37,7 @@
                                         "member": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 4,
                                             "end": 6
@@ -85,7 +85,7 @@
                     "right": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 11,
                         "end": 13

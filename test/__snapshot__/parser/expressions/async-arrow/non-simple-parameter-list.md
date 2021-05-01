@@ -36,7 +36,7 @@ async ( { x}  ) => {
                     "left": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -50,7 +50,7 @@ async ( { x}  ) => {
                     "right": {
                         "kind": 134299649,
                         "text": "y",
-                        "rawText": " y",
+                        "rawText": "y",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -112,7 +112,7 @@ async ( { x}  ) => {
                             {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 51

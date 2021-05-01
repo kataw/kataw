@@ -48,7 +48,7 @@ for (a + b in x) ;
                     "left": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 8,
                         "end": 10
@@ -62,7 +62,7 @@ for (a + b in x) ;
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 13,
                         "end": 15

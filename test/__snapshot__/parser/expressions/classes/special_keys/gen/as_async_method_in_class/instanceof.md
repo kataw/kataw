@@ -32,7 +32,7 @@ class x {async instanceof(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {async instanceof(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "instanceof",
-                                "rawText": " instanceof",
+                                "rawText": "instanceof",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 25

@@ -66,7 +66,7 @@ import { null as nil } from "bar"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "null",
-                                    "rawText": " null",
+                                    "rawText": "null",
                                     "flags": 64,
                                     "start": 8,
                                     "end": 13
@@ -82,7 +82,7 @@ import { null as nil } from "bar"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "as",
-                                    "rawText": " as",
+                                    "rawText": "as",
                                     "flags": 64,
                                     "start": 13,
                                     "end": 16
@@ -98,7 +98,7 @@ import { null as nil } from "bar"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "nil",
-                                    "rawText": " nil",
+                                    "rawText": "nil",
                                     "flags": 64,
                                     "start": 16,
                                     "end": 20

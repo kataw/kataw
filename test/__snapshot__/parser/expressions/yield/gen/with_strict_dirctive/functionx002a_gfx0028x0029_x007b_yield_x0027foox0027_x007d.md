@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "gf",
-                "rawText": " gf",
+                "rawText": "gf",
                 "flags": 96,
                 "start": 23,
                 "end": 26

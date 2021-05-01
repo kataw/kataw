@@ -33,7 +33,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 6,
                                     "end": 8
@@ -90,7 +90,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "f",
-                                                                "rawText": " f",
+                                                                "rawText": "f",
                                                                 "flags": 96,
                                                                 "start": 17,
                                                                 "end": 19

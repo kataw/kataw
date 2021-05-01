@@ -32,7 +32,7 @@ class x {set throw(x){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +61,7 @@ class x {set throw(x){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "throw",
-                                "rawText": " throw",
+                                "rawText": "throw",
                                 "flags": 96,
                                 "start": 12,
                                 "end": 18

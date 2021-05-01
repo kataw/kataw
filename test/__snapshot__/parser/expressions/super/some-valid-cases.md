@@ -59,7 +59,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -76,7 +76,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 15,
                     "end": 17
@@ -110,7 +110,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 28,
                 "end": 30
@@ -127,7 +127,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 38,
                     "end": 40
@@ -154,7 +154,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 42,
                                 "end": 44
@@ -213,7 +213,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 57,
                 "end": 59
@@ -230,7 +230,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 67,
                     "end": 69
@@ -257,7 +257,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 71,
                                 "end": 83
@@ -349,7 +349,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 107,
                 "end": 109
@@ -373,7 +373,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 111,
                                 "end": 123
@@ -465,7 +465,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 147,
                 "end": 149
@@ -489,7 +489,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 151,
                                 "end": 155
@@ -581,7 +581,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 179,
                 "end": 181
@@ -605,7 +605,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 183,
                                 "end": 187
@@ -702,7 +702,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 204,
                     "end": 207
@@ -723,7 +723,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 209,
                                     "end": 213
@@ -831,7 +831,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 239,
                 "end": 241
@@ -855,7 +855,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 243,
                                 "end": 255
@@ -947,7 +947,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 280,
                 "end": 282
@@ -971,7 +971,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 284,
                                 "end": 288
@@ -1063,7 +1063,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 313,
                 "end": 315
@@ -1087,7 +1087,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 317,
                                 "end": 321
@@ -1184,7 +1184,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 339,
                     "end": 342
@@ -1205,7 +1205,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 344,
                                     "end": 348
@@ -1296,7 +1296,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": "\n\nx",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 366,
                     "end": 369
@@ -1317,7 +1317,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": " foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 371,
                                     "end": 375
@@ -1425,7 +1425,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 402,
                 "end": 404
@@ -1442,7 +1442,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 412,
                     "end": 414
@@ -1469,7 +1469,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 416,
                                 "end": 428
@@ -1560,7 +1560,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "contents": {
                                                     "kind": 134299649,
                                                     "text": "a",
-                                                    "rawText": " a",
+                                                    "rawText": "a",
                                                     "flags": 96,
                                                     "start": 453,
                                                     "end": 455
@@ -1612,7 +1612,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 466,
                 "end": 468
@@ -1629,7 +1629,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 476,
                     "end": 478
@@ -1656,7 +1656,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 480,
                                 "end": 492
@@ -1770,7 +1770,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 530,
                 "end": 532
@@ -1794,7 +1794,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "fo",
-                                "rawText": " fo",
+                                "rawText": "fo",
                                 "flags": 96,
                                 "start": 534,
                                 "end": 537
@@ -1908,7 +1908,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 574,
                 "end": 576
@@ -1932,7 +1932,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "dsda",
-                                "rawText": " dsda",
+                                "rawText": "dsda",
                                 "flags": 96,
                                 "start": 578,
                                 "end": 583
@@ -2023,7 +2023,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "contents": {
                                                     "kind": 134299649,
                                                     "text": "a",
-                                                    "rawText": " a",
+                                                    "rawText": "a",
                                                     "flags": 96,
                                                     "start": 610,
                                                     "end": 612

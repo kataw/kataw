@@ -276,7 +276,7 @@ class C { test() {get #a() { }}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "test",
-                                "rawText": " test",
+                                "rawText": "test",
                                 "flags": 96,
                                 "start": 85,
                                 "end": 90

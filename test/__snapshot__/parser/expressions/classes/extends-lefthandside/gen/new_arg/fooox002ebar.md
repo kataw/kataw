@@ -34,7 +34,7 @@ new fooo.bar
                     "expression": {
                         "kind": 134299649,
                         "text": "fooo",
-                        "rawText": " fooo",
+                        "rawText": "fooo",
                         "flags": 96,
                         "start": 3,
                         "end": 8

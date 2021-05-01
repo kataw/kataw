@@ -47,7 +47,7 @@ delete (async async => {})
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "async",
-                                    "rawText": " async",
+                                    "rawText": "async",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 19

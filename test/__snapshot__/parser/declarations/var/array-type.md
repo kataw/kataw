@@ -51,7 +51,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -106,7 +106,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 21,
                             "end": 23
@@ -176,7 +176,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 47,
                             "end": 49
@@ -246,7 +246,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 71,
                             "end": 73
@@ -307,7 +307,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 91,
                             "end": 93
@@ -376,7 +376,7 @@ var a: (?number)[];
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 110,
                             "end": 112

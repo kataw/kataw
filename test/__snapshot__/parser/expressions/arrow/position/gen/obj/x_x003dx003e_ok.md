@@ -60,7 +60,7 @@ x = {arrow: x => ok}
                                     "parameters": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 11,
                                         "end": 13
@@ -70,7 +70,7 @@ x = {arrow: x => ok}
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 19

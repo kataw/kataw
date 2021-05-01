@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 28,
                 "end": 30
@@ -126,7 +126,7 @@
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "bar",
-                                                "rawText": " bar",
+                                                "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 56,
                                                 "end": 60

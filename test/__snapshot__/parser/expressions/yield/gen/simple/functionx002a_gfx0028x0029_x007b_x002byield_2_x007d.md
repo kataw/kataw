@@ -38,7 +38,7 @@ function* gf() { +yield 2; }
             "name": {
                 "kind": 134299649,
                 "text": "gf",
-                "rawText": " gf",
+                "rawText": "gf",
                 "flags": 96,
                 "start": 9,
                 "end": 12

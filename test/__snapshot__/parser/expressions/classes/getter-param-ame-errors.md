@@ -79,7 +79,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 19
@@ -186,7 +186,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 50,
                                 "end": 55
@@ -293,7 +293,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 83,
                                 "end": 88
@@ -414,7 +414,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 131,
                                 "end": 136
@@ -535,7 +535,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 182,
                                 "end": 187
@@ -656,7 +656,7 @@ class C { get name(private) {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "name",
-                                "rawText": " name",
+                                "rawText": "name",
                                 "flags": 96,
                                 "start": 228,
                                 "end": 233
@@ -788,7 +788,7 @@ class C { get name(private) {} }
                                     "name": {
                                         "kind": 134299649,
                                         "text": "name",
-                                        "rawText": " name",
+                                        "rawText": "name",
                                         "flags": 96,
                                         "start": 271,
                                         "end": 276
@@ -913,7 +913,7 @@ class C { get name(private) {} }
                                     "name": {
                                         "kind": 134299649,
                                         "text": "name",
-                                        "rawText": " name",
+                                        "rawText": "name",
                                         "flags": 96,
                                         "start": 319,
                                         "end": 324

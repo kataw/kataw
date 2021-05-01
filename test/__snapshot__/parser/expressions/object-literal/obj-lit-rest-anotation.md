@@ -97,7 +97,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "rest",
-                "rawText": " rest",
+                "rawText": "rest",
                 "flags": 96,
                 "start": 28,
                 "end": 33

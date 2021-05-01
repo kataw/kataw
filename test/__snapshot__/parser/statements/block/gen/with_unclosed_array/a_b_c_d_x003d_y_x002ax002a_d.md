@@ -34,7 +34,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 4
@@ -50,7 +50,7 @@
                                     {
                                         "kind": 134299649,
                                         "text": "c",
-                                        "rawText": " c",
+                                        "rawText": "c",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 9
@@ -60,7 +60,7 @@
                                         "left": {
                                             "kind": 134299649,
                                             "text": "d",
-                                            "rawText": " d",
+                                            "rawText": "d",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 11
@@ -76,7 +76,7 @@
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 13,
                                                 "end": 15
@@ -90,7 +90,7 @@
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "d",
-                                                "rawText": " d",
+                                                "rawText": "d",
                                                 "flags": 96,
                                                 "start": 18,
                                                 "end": 20

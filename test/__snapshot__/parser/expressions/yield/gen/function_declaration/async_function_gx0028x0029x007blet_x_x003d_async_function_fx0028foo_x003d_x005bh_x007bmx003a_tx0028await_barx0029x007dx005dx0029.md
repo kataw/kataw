@@ -33,7 +33,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
             "name": {
                 "kind": 134299649,
                 "text": "not_gen",
-                "rawText": " not_gen",
+                "rawText": "not_gen",
                 "flags": 96,
                 "start": 8,
                 "end": 16
@@ -71,7 +71,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                             "name": {
                                 "kind": 134299649,
                                 "text": "g",
-                                "rawText": " g",
+                                "rawText": "g",
                                 "flags": 96,
                                 "start": 35,
                                 "end": 37
@@ -106,7 +106,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "x",
-                                                            "rawText": " x",
+                                                            "rawText": "x",
                                                             "flags": 96,
                                                             "start": 43,
                                                             "end": 45
@@ -131,7 +131,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "f",
-                                                                "rawText": " f",
+                                                                "rawText": "f",
                                                                 "flags": 96,
                                                                 "start": 62,
                                                                 "end": 64
@@ -181,7 +181,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                         "expression": {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "t",
-                                                                                                            "rawText": " t",
+                                                                                                            "rawText": "t",
                                                                                                             "flags": 96,
                                                                                                             "start": 78,
                                                                                                             "end": 80
@@ -200,7 +200,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                     "expression": {
                                                                                                                         "kind": 134299649,
                                                                                                                         "text": "bar",
-                                                                                                                        "rawText": " bar",
+                                                                                                                        "rawText": "bar",
                                                                                                                         "flags": 96,
                                                                                                                         "start": 86,
                                                                                                                         "end": 90

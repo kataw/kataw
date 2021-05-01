@@ -29,7 +29,7 @@ function test({...{}}) {}
             "name": {
                 "kind": 134299649,
                 "text": "test",
-                "rawText": " test",
+                "rawText": "test",
                 "flags": 96,
                 "start": 8,
                 "end": 13

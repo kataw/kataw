@@ -53,7 +53,7 @@ async function f() { class C { aaa = await } }
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -104,7 +104,7 @@ async function f() { class C { aaa = await } }
                                         "key": {
                                             "kind": 134299649,
                                             "text": "aaa",
-                                            "rawText": " aaa",
+                                            "rawText": "aaa",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 34

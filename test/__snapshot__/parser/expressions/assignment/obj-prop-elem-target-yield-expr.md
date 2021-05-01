@@ -40,7 +40,7 @@ result = { x: x[yield] } = vals;
                         "binding": {
                             "kind": 134299649,
                             "text": "vals",
-                            "rawText": " vals",
+                            "rawText": "vals",
                             "flags": 96,
                             "start": 3,
                             "end": 8
@@ -69,7 +69,7 @@ result = { x: x[yield] } = vals;
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
@@ -108,7 +108,7 @@ result = { x: x[yield] } = vals;
                 "left": {
                     "kind": 134299649,
                     "text": "result",
-                    "rawText": "\n\nresult",
+                    "rawText": "result",
                     "flags": 96,
                     "start": 21,
                     "end": 29
@@ -137,7 +137,7 @@ result = { x: x[yield] } = vals;
                                         "member": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 36,
                                             "end": 38
@@ -157,7 +157,7 @@ result = { x: x[yield] } = vals;
                                     "right": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 33,
                                         "end": 35
@@ -185,7 +185,7 @@ result = { x: x[yield] } = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 49,
                         "end": 54

@@ -41,7 +41,7 @@ f ^= 1;
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\n\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 11,
                     "end": 14
@@ -100,7 +100,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 21,
                     "end": 23
@@ -134,7 +134,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 29,
                     "end": 31
@@ -168,7 +168,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 37,
                     "end": 39
@@ -202,7 +202,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 45,
                     "end": 47
@@ -236,7 +236,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 53,
                     "end": 55
@@ -270,7 +270,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 61,
                     "end": 63
@@ -304,7 +304,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 69,
                     "end": 71
@@ -338,7 +338,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 77,
                     "end": 79
@@ -372,7 +372,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 86,
                     "end": 88
@@ -406,7 +406,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 95,
                     "end": 97
@@ -440,7 +440,7 @@ f ^= 1;
                 "left": {
                     "kind": 134299649,
                     "text": "f",
-                    "rawText": "\nf",
+                    "rawText": "f",
                     "flags": 96,
                     "start": 105,
                     "end": 107

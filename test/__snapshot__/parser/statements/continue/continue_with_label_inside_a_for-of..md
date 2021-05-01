@@ -66,7 +66,7 @@ foo: for (x of y) continue foo
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 14,
                     "end": 16
@@ -82,7 +82,7 @@ foo: for (x of y) continue foo
                     "label": {
                         "kind": 134299649,
                         "text": "foo",
-                        "rawText": " foo",
+                        "rawText": "foo",
                         "flags": 96,
                         "start": 26,
                         "end": 30

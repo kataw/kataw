@@ -66,7 +66,7 @@ function *g(){ return x + f(yield f); }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 23
@@ -82,7 +82,7 @@ function *g(){ return x + f(yield f); }
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "f",
-                                        "rawText": " f",
+                                        "rawText": "f",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 27
@@ -103,7 +103,7 @@ function *g(){ return x + f(yield f); }
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "f",
-                                                    "rawText": " f",
+                                                    "rawText": "f",
                                                     "flags": 96,
                                                     "start": 33,
                                                     "end": 35

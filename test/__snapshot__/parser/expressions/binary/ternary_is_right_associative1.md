@@ -38,7 +38,7 @@ a * x ? b : c ? d : e
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 3,
                         "end": 5
@@ -56,7 +56,7 @@ a * x ? b : c ? d : e
                 "consequent": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 7,
                     "end": 9
@@ -72,7 +72,7 @@ a * x ? b : c ? d : e
                     "shortCircuit": {
                         "kind": 134299649,
                         "text": "c",
-                        "rawText": " c",
+                        "rawText": "c",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -86,7 +86,7 @@ a * x ? b : c ? d : e
                     "consequent": {
                         "kind": 134299649,
                         "text": "d",
-                        "rawText": " d",
+                        "rawText": "d",
                         "flags": 96,
                         "start": 15,
                         "end": 17
@@ -100,7 +100,7 @@ a * x ? b : c ? d : e
                     "alternate": {
                         "kind": 134299649,
                         "text": "e",
-                        "rawText": " e",
+                        "rawText": "e",
                         "flags": 96,
                         "start": 19,
                         "end": 21

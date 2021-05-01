@@ -54,7 +54,7 @@ yield 3 + yield 4;
                 "right": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 9,
                     "end": 15

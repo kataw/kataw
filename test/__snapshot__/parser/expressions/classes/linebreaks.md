@@ -98,7 +98,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 19
@@ -154,7 +154,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 34,
                                 "end": 38
@@ -224,7 +224,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": "\n\n  constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 47,
                                 "end": 62
@@ -275,7 +275,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 70,
                                 "end": 75
@@ -331,7 +331,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 88,
                                 "end": 92
@@ -392,7 +392,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 116,
                                 "end": 120
@@ -453,7 +453,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 144,
                                 "end": 148
@@ -528,7 +528,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": "\n  constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 167,
                                 "end": 181
@@ -584,7 +584,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 199,
                                 "end": 203
@@ -645,7 +645,7 @@ class A {
                             "name": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": "\n  a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 225,
                                 "end": 229

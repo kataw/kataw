@@ -32,7 +32,7 @@ let f = async
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -68,7 +68,7 @@ let f = async
                             "contents": {
                                 "kind": 134299649,
                                 "text": "g",
-                                "rawText": " g",
+                                "rawText": "g",
                                 "flags": 96,
                                 "start": 20,
                                 "end": 22

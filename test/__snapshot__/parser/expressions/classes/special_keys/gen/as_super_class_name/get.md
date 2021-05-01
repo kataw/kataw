@@ -32,7 +32,7 @@ class x extends get {}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,7 +49,7 @@ class x extends get {}
                 "expression": {
                     "kind": 134299649,
                     "text": "get",
-                    "rawText": " get",
+                    "rawText": "get",
                     "flags": 96,
                     "start": 15,
                     "end": 19

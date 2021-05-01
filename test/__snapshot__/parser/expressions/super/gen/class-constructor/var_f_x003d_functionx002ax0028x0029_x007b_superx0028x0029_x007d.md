@@ -56,7 +56,7 @@ class C { constructor() { var f = function*() { super(); } } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -94,7 +94,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "f",
-                                                            "rawText": " f",
+                                                            "rawText": "f",
                                                             "flags": 96,
                                                             "start": 29,
                                                             "end": 31

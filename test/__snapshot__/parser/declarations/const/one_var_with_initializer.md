@@ -92,7 +92,7 @@ const [foo=a] = arr;
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr",
-                            "rawText": " arr",
+                            "rawText": "arr",
                             "flags": 96,
                             "start": 15,
                             "end": 19

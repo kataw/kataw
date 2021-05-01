@@ -32,7 +32,7 @@ class x {static async * case(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -71,7 +71,7 @@ class x {static async * case(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "case",
-                                "rawText": " case",
+                                "rawText": "case",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 28

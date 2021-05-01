@@ -43,7 +43,7 @@ for (async a => b in x) ;
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -68,7 +68,7 @@ for (async a => b in x) ;
                     "left": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 15,
                         "end": 17
@@ -82,7 +82,7 @@ for (async a => b in x) ;
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 20,
                         "end": 22

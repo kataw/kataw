@@ -45,7 +45,7 @@ result = [ x = 'x' in {} ] = vals;
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 12
@@ -113,7 +113,7 @@ result = [ x = 'x' in {} ] = vals;
                     "right": {
                         "kind": 134299649,
                         "text": "vals",
-                        "rawText": " vals",
+                        "rawText": "vals",
                         "flags": 96,
                         "start": 28,
                         "end": 33

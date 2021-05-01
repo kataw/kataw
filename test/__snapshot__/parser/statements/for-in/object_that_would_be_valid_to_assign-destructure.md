@@ -64,7 +64,7 @@ for ({x: a.b} in obj);
                                 "member": {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 8,
                                     "end": 10
@@ -106,7 +106,7 @@ for ({x: a.b} in obj);
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
-                "rawText": " obj",
+                "rawText": "obj",
                 "flags": 96,
                 "start": 16,
                 "end": 20

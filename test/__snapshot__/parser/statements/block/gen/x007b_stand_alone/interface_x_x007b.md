@@ -29,7 +29,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "interface",
-                            "rawText": " interface",
+                            "rawText": "interface",
                             "flags": 96,
                             "start": 1,
                             "end": 11
@@ -43,7 +43,7 @@
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 11,
                             "end": 13

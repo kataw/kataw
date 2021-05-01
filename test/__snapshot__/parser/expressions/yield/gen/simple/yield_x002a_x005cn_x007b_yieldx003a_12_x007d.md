@@ -76,7 +76,7 @@ yield * \n { yield: 12 }
                         "label": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 12,
                             "end": 18

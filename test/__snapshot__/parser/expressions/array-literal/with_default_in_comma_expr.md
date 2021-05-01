@@ -61,7 +61,7 @@ x, [foo = y, bar] = doo
                                         "right": {
                                             "kind": 134299649,
                                             "text": "y",
-                                            "rawText": " y",
+                                            "rawText": "y",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 11
@@ -73,7 +73,7 @@ x, [foo = y, bar] = doo
                                     {
                                         "kind": 134299649,
                                         "text": "bar",
-                                        "rawText": " bar",
+                                        "rawText": "bar",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 16
@@ -97,7 +97,7 @@ x, [foo = y, bar] = doo
                         "right": {
                             "kind": 134299649,
                             "text": "doo",
-                            "rawText": " doo",
+                            "rawText": "doo",
                             "flags": 96,
                             "start": 19,
                             "end": 23

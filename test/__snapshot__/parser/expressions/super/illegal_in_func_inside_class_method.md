@@ -28,7 +28,7 @@ class x { foo(){ function f(){ super.foo; } }}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -52,7 +52,7 @@ class x { foo(){ function f(){ super.foo; } }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
-                                "rawText": " foo",
+                                "rawText": "foo",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 13
@@ -87,7 +87,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "f",
-                                                "rawText": " f",
+                                                "rawText": "f",
                                                 "flags": 96,
                                                 "start": 25,
                                                 "end": 27

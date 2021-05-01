@@ -56,7 +56,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " constructor",
+                                "rawText": "constructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 21
@@ -114,7 +114,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                             "name": {
                                                                 "kind": 134299649,
                                                                 "text": "constructor",
-                                                                "rawText": " constructor",
+                                                                "rawText": "constructor",
                                                                 "flags": 96,
                                                                 "start": 35,
                                                                 "end": 47

@@ -32,7 +32,7 @@ var asserted1 = <any>((n) => { return n; });
                         "binding": {
                             "kind": 134299649,
                             "text": "asserted1",
-                            "rawText": " asserted1",
+                            "rawText": "asserted1",
                             "flags": 96,
                             "start": 3,
                             "end": 13
@@ -79,7 +79,7 @@ var asserted1 = <any>((n) => { return n; });
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "n",
-                                                    "rawText": " n",
+                                                    "rawText": "n",
                                                     "flags": 96,
                                                     "start": 37,
                                                     "end": 39

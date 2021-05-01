@@ -40,7 +40,7 @@ bar ? baz : ( x => { return x; } );
                 "consequent": {
                     "kind": 134299649,
                     "text": "baz",
-                    "rawText": " baz",
+                    "rawText": "baz",
                     "flags": 96,
                     "start": 5,
                     "end": 9
@@ -65,7 +65,7 @@ bar ? baz : ( x => { return x; } );
                         "parameters": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -89,7 +89,7 @@ bar ? baz : ( x => { return x; } );
                                         "expression": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 27,
                                             "end": 29

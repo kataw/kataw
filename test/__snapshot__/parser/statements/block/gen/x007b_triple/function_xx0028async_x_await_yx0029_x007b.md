@@ -48,7 +48,7 @@
                                                 "name": {
                                                     "kind": 134299649,
                                                     "text": "x",
-                                                    "rawText": " x",
+                                                    "rawText": "x",
                                                     "flags": 96,
                                                     "start": 14,
                                                     "end": 16
@@ -80,7 +80,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 22,
                                                                 "end": 24
@@ -98,7 +98,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "await",
-                                                                "rawText": " await",
+                                                                "rawText": "await",
                                                                 "flags": 96,
                                                                 "start": 25,
                                                                 "end": 31
@@ -116,7 +116,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "y",
-                                                                "rawText": " y",
+                                                                "rawText": "y",
                                                                 "flags": 96,
                                                                 "start": 31,
                                                                 "end": 33

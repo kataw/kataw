@@ -50,7 +50,7 @@ async (/x/) => x
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 14,
                 "end": 16

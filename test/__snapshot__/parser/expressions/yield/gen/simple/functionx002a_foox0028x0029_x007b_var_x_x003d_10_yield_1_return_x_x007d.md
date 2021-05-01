@@ -38,7 +38,7 @@ function* foo() { var x = 10; yield 1; return x; }
             "name": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 9,
                 "end": 13
@@ -74,7 +74,7 @@ function* foo() { var x = 10; yield 1; return x; }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
@@ -141,7 +141,7 @@ function* foo() { var x = 10; yield 1; return x; }
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 45,
                                 "end": 47

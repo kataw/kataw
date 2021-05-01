@@ -57,7 +57,7 @@ class X { ge\u0074 x() {} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 20

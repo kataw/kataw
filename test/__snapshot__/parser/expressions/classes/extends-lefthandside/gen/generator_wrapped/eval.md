@@ -89,7 +89,7 @@ function *P(){
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "eval",
-                                    "rawText": " eval",
+                                    "rawText": "eval",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 37

@@ -45,7 +45,7 @@ new async a => {}
                             "binding": {
                                 "kind": 134299649,
                                 "text": "a",
-                                "rawText": " a",
+                                "rawText": "a",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 11

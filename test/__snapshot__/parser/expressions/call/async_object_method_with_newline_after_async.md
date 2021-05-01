@@ -30,7 +30,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "foo",
-                                    "rawText": "\n foo",
+                                    "rawText": "foo",
                                     "flags": 96,
                                     "start": 7,
                                     "end": 12

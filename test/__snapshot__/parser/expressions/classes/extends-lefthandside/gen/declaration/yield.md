@@ -49,7 +49,7 @@ class A extends yield {}
                 "expression": {
                     "kind": 134299649,
                     "text": "yield",
-                    "rawText": " yield",
+                    "rawText": "yield",
                     "flags": 96,
                     "start": 15,
                     "end": 21

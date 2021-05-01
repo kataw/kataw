@@ -78,7 +78,7 @@ class C { #aaa; f() { this.#aaa } }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 15,
                                 "end": 17

@@ -50,7 +50,7 @@ const foo = bar, zoo = boo
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 5,
                             "end": 9
@@ -60,7 +60,7 @@ const foo = bar, zoo = boo
                         "initializer": {
                             "kind": 134299649,
                             "text": "bar",
-                            "rawText": " bar",
+                            "rawText": "bar",
                             "flags": 96,
                             "start": 11,
                             "end": 15
@@ -74,7 +74,7 @@ const foo = bar, zoo = boo
                         "binding": {
                             "kind": 134299649,
                             "text": "zoo",
-                            "rawText": " zoo",
+                            "rawText": "zoo",
                             "flags": 96,
                             "start": 16,
                             "end": 20
@@ -84,7 +84,7 @@ const foo = bar, zoo = boo
                         "initializer": {
                             "kind": 134299649,
                             "text": "boo",
-                            "rawText": " boo",
+                            "rawText": "boo",
                             "flags": 96,
                             "start": 22,
                             "end": 26

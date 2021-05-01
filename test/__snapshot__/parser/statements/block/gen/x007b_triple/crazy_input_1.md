@@ -39,7 +39,7 @@
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "crazy",
-                                                    "rawText": " crazy",
+                                                    "rawText": "crazy",
                                                     "flags": 96,
                                                     "start": 5,
                                                     "end": 11
@@ -53,7 +53,7 @@
                                                 "expression": {
                                                     "kind": 134299649,
                                                     "text": "input",
-                                                    "rawText": " input",
+                                                    "rawText": "input",
                                                     "flags": 96,
                                                     "start": 11,
                                                     "end": 17

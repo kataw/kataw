@@ -54,7 +54,7 @@ foo(y,(y) => ok);
                                     {
                                         "kind": 134299649,
                                         "text": "y",
-                                        "rawText": " y",
+                                        "rawText": "y",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 9
@@ -102,7 +102,7 @@ foo(y,(y) => ok);
                 "expression": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 18,
                     "end": 22
@@ -178,7 +178,7 @@ foo(y,(y) => ok);
                 "expression": {
                     "kind": 134299649,
                     "text": "foo",
-                    "rawText": "\nfoo",
+                    "rawText": "foo",
                     "flags": 96,
                     "start": 36,
                     "end": 40
@@ -218,7 +218,7 @@ foo(y,(y) => ok);
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",
-                                "rawText": " ok",
+                                "rawText": "ok",
                                 "flags": 96,
                                 "start": 49,
                                 "end": 52

@@ -32,7 +32,7 @@ class x extends static {}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,7 +49,7 @@ class x extends static {}
                 "expression": {
                     "kind": 134299649,
                     "text": "static",
-                    "rawText": " static",
+                    "rawText": "static",
                     "flags": 96,
                     "start": 15,
                     "end": 22

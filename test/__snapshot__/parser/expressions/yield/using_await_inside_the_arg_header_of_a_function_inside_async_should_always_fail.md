@@ -31,7 +31,7 @@ let f = () => (y=await foo) => y;
                         "binding": {
                             "kind": 134299649,
                             "text": "f",
-                            "rawText": " f",
+                            "rawText": "f",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -75,7 +75,7 @@ let f = () => (y=await foo) => y;
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 22,
                             "end": 26
@@ -101,7 +101,7 @@ let f = () => (y=await foo) => y;
             "expression": {
                 "kind": 134299649,
                 "text": "y",
-                "rawText": " y",
+                "rawText": "y",
                 "flags": 96,
                 "start": 30,
                 "end": 32

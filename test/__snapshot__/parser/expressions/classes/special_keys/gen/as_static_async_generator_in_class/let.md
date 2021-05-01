@@ -32,7 +32,7 @@ class x {static async * let(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -71,7 +71,7 @@ class x {static async * let(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "let",
-                                "rawText": " let",
+                                "rawText": "let",
                                 "flags": 96,
                                 "start": 23,
                                 "end": 27

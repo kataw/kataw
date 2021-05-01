@@ -87,7 +87,7 @@ export {bar}, * as foo from 'bar';
                 "right": {
                     "kind": 134299649,
                     "text": "as",
-                    "rawText": " as",
+                    "rawText": "as",
                     "flags": 96,
                     "start": 15,
                     "end": 18
@@ -105,7 +105,7 @@ export {bar}, * as foo from 'bar';
             "expression": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 18,
                 "end": 22
@@ -119,7 +119,7 @@ export {bar}, * as foo from 'bar';
             "expression": {
                 "kind": 134299649,
                 "text": "from",
-                "rawText": " from",
+                "rawText": "from",
                 "flags": 96,
                 "start": 22,
                 "end": 27

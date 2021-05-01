@@ -55,7 +55,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "b",
-                                "rawText": " b",
+                                "rawText": "b",
                                 "flags": 96,
                                 "start": 7,
                                 "end": 9

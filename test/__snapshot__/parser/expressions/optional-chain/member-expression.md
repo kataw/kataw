@@ -81,7 +81,7 @@ f2`hello world`?.a;
                     "member": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": "\n\nobj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 11,
                         "end": 16
@@ -142,7 +142,7 @@ f2`hello world`?.a;
                     "member": {
                         "kind": 134299649,
                         "text": "f2",
-                        "rawText": "\n\nf2",
+                        "rawText": "f2",
                         "flags": 96,
                         "start": 22,
                         "end": 26

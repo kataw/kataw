@@ -87,7 +87,7 @@
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "g",
-                                                        "rawText": " g",
+                                                        "rawText": "g",
                                                         "flags": 96,
                                                         "start": 22,
                                                         "end": 24
@@ -251,7 +251,7 @@
                                                             "key": {
                                                                 "kind": 134299649,
                                                                 "text": "w",
-                                                                "rawText": " w",
+                                                                "rawText": "w",
                                                                 "flags": 96,
                                                                 "start": 84,
                                                                 "end": 87
@@ -288,7 +288,7 @@
                                                                                 "binding": {
                                                                                     "kind": 134299649,
                                                                                     "text": "y",
-                                                                                    "rawText": " y",
+                                                                                    "rawText": "y",
                                                                                     "flags": 96,
                                                                                     "start": 91,
                                                                                     "end": 93
@@ -306,7 +306,7 @@
                                                                                 "binding": {
                                                                                     "kind": 134299649,
                                                                                     "text": "z",
-                                                                                    "rawText": " z",
+                                                                                    "rawText": "z",
                                                                                     "flags": 96,
                                                                                     "start": 94,
                                                                                     "end": 96
@@ -485,7 +485,7 @@
                                                             "key": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 143,
                                                                 "end": 146
@@ -496,7 +496,7 @@
                                                                 "binding": {
                                                                     "kind": 134299649,
                                                                     "text": "y",
-                                                                    "rawText": " y",
+                                                                    "rawText": "y",
                                                                     "flags": 96,
                                                                     "start": 146,
                                                                     "end": 148
@@ -506,7 +506,7 @@
                                                                     "expression": {
                                                                         "kind": 134299649,
                                                                         "text": "thrower",
-                                                                        "rawText": " thrower",
+                                                                        "rawText": "thrower",
                                                                         "flags": 96,
                                                                         "start": 150,
                                                                         "end": 158
@@ -775,7 +775,7 @@
                                                             "binding": {
                                                                 "kind": 134299649,
                                                                 "text": "x",
-                                                                "rawText": " x",
+                                                                "rawText": "x",
                                                                 "flags": 96,
                                                                 "start": 230,
                                                                 "end": 232

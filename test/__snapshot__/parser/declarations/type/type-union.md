@@ -67,7 +67,7 @@ type overloads2 = {
             "name": {
                 "kind": 134299649,
                 "text": "union",
-                "rawText": " union",
+                "rawText": "union",
                 "flags": 96,
                 "start": 4,
                 "end": 10
@@ -167,7 +167,7 @@ type overloads2 = {
             "name": {
                 "kind": 134299649,
                 "text": "overloads",
-                "rawText": " overloads",
+                "rawText": "overloads",
                 "flags": 96,
                 "start": 50,
                 "end": 60
@@ -287,7 +287,7 @@ type overloads2 = {
             "name": {
                 "kind": 134299649,
                 "text": "union2",
-                "rawText": " union2",
+                "rawText": "union2",
                 "flags": 96,
                 "start": 126,
                 "end": 133
@@ -302,7 +302,7 @@ type overloads2 = {
                         "key": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": "\n  x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 137,
                             "end": 141
@@ -414,7 +414,7 @@ type overloads2 = {
             "name": {
                 "kind": 134299649,
                 "text": "overloads2",
-                "rawText": " overloads2",
+                "rawText": "overloads2",
                 "flags": 96,
                 "start": 187,
                 "end": 198
@@ -429,7 +429,7 @@ type overloads2 = {
                         "key": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": "\n  x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 202,
                             "end": 206

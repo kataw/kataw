@@ -89,7 +89,7 @@ x = {arrow: async => ok}.y
                                         "contents": {
                                             "kind": 134299649,
                                             "text": "ok",
-                                            "rawText": " ok",
+                                            "rawText": "ok",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 23

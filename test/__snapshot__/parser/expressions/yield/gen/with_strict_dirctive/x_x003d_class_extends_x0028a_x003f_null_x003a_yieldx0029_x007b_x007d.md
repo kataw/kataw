@@ -40,7 +40,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 13,
                     "end": 15
@@ -104,7 +104,7 @@
                                 "alternate": {
                                     "kind": 134299649,
                                     "text": "yield",
-                                    "rawText": " yield",
+                                    "rawText": "yield",
                                     "flags": 96,
                                     "start": 43,
                                     "end": 49

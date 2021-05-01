@@ -55,7 +55,7 @@ class C { get; set; static; async }
                         "key": {
                             "kind": 134299649,
                             "text": "get",
-                            "rawText": " get",
+                            "rawText": "get",
                             "flags": 96,
                             "start": 9,
                             "end": 13
@@ -82,7 +82,7 @@ class C { get; set; static; async }
                         "key": {
                             "kind": 134299649,
                             "text": "set",
-                            "rawText": " set",
+                            "rawText": "set",
                             "flags": 96,
                             "start": 14,
                             "end": 18
@@ -109,7 +109,7 @@ class C { get; set; static; async }
                         "key": {
                             "kind": 134299649,
                             "text": "static",
-                            "rawText": " static",
+                            "rawText": "static",
                             "flags": 96,
                             "start": 19,
                             "end": 26
@@ -136,7 +136,7 @@ class C { get; set; static; async }
                         "key": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 27,
                             "end": 33

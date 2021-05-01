@@ -80,7 +80,7 @@ x({a:b, c:d}=obj);
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "c",
-                                                "rawText": " c",
+                                                "rawText": "c",
                                                 "flags": 96,
                                                 "start": 7,
                                                 "end": 9

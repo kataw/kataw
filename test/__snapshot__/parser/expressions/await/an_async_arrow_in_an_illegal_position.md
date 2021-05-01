@@ -31,7 +31,7 @@ let y = typeof async x => await x
                         "binding": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -62,7 +62,7 @@ let y = typeof async x => await x
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 22
@@ -93,7 +93,7 @@ let y = typeof async x => await x
                                     "expression": {
                                         "kind": 134299649,
                                         "text": "x",
-                                        "rawText": " x",
+                                        "rawText": "x",
                                         "flags": 96,
                                         "start": 31,
                                         "end": 33

@@ -35,7 +35,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                         "binding": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 3,
                             "end": 7

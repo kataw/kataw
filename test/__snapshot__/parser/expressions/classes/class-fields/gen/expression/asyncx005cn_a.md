@@ -71,7 +71,7 @@ class C extends Base { async\n a }
                         "key": {
                             "kind": 134299649,
                             "text": "async",
-                            "rawText": " async",
+                            "rawText": "async",
                             "flags": 96,
                             "start": 22,
                             "end": 28
@@ -111,7 +111,7 @@ class C extends Base { async\n a }
             "expression": {
                 "kind": 134299649,
                 "text": "a",
-                "rawText": " a",
+                "rawText": "a",
                 "flags": 96,
                 "start": 30,
                 "end": 32

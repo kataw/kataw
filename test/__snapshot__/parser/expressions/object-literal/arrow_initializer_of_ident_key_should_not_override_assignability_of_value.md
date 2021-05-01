@@ -45,7 +45,7 @@
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "fail",
-                                                "rawText": " fail",
+                                                "rawText": "fail",
                                                 "flags": 96,
                                                 "start": 6,
                                                 "end": 11
@@ -71,7 +71,7 @@
                                         "right": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 17
@@ -108,7 +108,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
-                    "rawText": " x",
+                    "rawText": "x",
                     "flags": 96,
                     "start": 22,
                     "end": 24

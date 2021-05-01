@@ -40,7 +40,7 @@ async function p(){
             "name": {
                 "kind": 134299649,
                 "text": "p",
-                "rawText": " p",
+                "rawText": "p",
                 "flags": 96,
                 "start": 14,
                 "end": 16
@@ -99,7 +99,7 @@ async function p(){
                                     "name": {
                                         "kind": 134299649,
                                         "text": "f",
-                                        "rawText": " f",
+                                        "rawText": "f",
                                         "flags": 96,
                                         "start": 46,
                                         "end": 48

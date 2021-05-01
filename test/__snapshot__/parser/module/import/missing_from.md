@@ -77,7 +77,7 @@ import {a, b} fromx "c"
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
-                                    "rawText": " b",
+                                    "rawText": "b",
                                     "flags": 64,
                                     "start": 10,
                                     "end": 12

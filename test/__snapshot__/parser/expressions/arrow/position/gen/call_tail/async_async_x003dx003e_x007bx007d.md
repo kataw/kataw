@@ -52,7 +52,7 @@ foo(async async => {}).bar
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "async",
-                                            "rawText": " async",
+                                            "rawText": "async",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 15

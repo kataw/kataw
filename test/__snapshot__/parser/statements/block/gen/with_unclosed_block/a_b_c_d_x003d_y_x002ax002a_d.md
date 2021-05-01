@@ -108,7 +108,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "a",
-                                    "rawText": " a",
+                                    "rawText": "a",
                                     "flags": 96,
                                     "start": 17,
                                     "end": 19
@@ -124,7 +124,7 @@
                                 {
                                     "kind": 134299649,
                                     "text": "c",
-                                    "rawText": " c",
+                                    "rawText": "c",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 24
@@ -145,7 +145,7 @@
                             "left": {
                                 "kind": 134299649,
                                 "text": "d",
-                                "rawText": " d",
+                                "rawText": "d",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -161,7 +161,7 @@
                                 "left": {
                                     "kind": 134299649,
                                     "text": "y",
-                                    "rawText": " y",
+                                    "rawText": "y",
                                     "flags": 96,
                                     "start": 28,
                                     "end": 30
@@ -175,7 +175,7 @@
                                 "right": {
                                     "kind": 134299649,
                                     "text": "d",
-                                    "rawText": " d",
+                                    "rawText": "d",
                                     "flags": 96,
                                     "start": 33,
                                     "end": 35

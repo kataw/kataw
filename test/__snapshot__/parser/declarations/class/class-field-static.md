@@ -71,7 +71,7 @@ class C { static aaa }
                         "key": {
                             "kind": 134299649,
                             "text": "aaa",
-                            "rawText": " aaa",
+                            "rawText": "aaa",
                             "flags": 96,
                             "start": 16,
                             "end": 20

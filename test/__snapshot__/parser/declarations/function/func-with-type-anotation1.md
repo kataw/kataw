@@ -37,7 +37,7 @@ function g(a:number=1, e:number=1) {}
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -87,7 +87,7 @@ function g(a:number=1, e:number=1) {}
                         "binding": {
                             "kind": 134299649,
                             "text": "e",
-                            "rawText": " e",
+                            "rawText": "e",
                             "flags": 96,
                             "start": 22,
                             "end": 24

@@ -43,7 +43,7 @@ async ({await = x}) => x
                                 "right": {
                                     "kind": 134299649,
                                     "text": "x",
-                                    "rawText": " x",
+                                    "rawText": "x",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 17
@@ -73,7 +73,7 @@ async ({await = x}) => x
             "contents": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 22,
                 "end": 24

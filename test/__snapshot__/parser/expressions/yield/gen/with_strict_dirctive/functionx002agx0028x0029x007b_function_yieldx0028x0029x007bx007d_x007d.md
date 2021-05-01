@@ -85,7 +85,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "yield",
-                                "rawText": " yield",
+                                "rawText": "yield",
                                 "flags": 96,
                                 "start": 36,
                                 "end": 42

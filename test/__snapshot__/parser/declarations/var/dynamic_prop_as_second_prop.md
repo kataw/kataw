@@ -92,7 +92,7 @@ var {a, [x]: y} = a;
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "y",
-                                                "rawText": " y",
+                                                "rawText": "y",
                                                 "flags": 96,
                                                 "start": 12,
                                                 "end": 14
@@ -121,7 +121,7 @@ var {a, [x]: y} = a;
                         "initializer": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 17,
                             "end": 19

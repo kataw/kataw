@@ -34,7 +34,7 @@ function* g() { (function yield() {}) }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -70,7 +70,7 @@ function* g() { (function yield() {}) }
                                     "name": {
                                         "kind": 134299649,
                                         "text": "yield",
-                                        "rawText": " yield",
+                                        "rawText": "yield",
                                         "flags": 96,
                                         "start": 25,
                                         "end": 31

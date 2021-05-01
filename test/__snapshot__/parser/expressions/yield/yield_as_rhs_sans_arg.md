@@ -67,7 +67,7 @@ function *g() { function f(x = x + yield) {}; }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -93,7 +93,7 @@ function *g() { function f(x = x + yield) {}; }
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 30,
                                                 "end": 32
@@ -107,7 +107,7 @@ function *g() { function f(x = x + yield) {}; }
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "yield",
-                                                "rawText": " yield",
+                                                "rawText": "yield",
                                                 "flags": 96,
                                                 "start": 34,
                                                 "end": 40

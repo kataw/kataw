@@ -38,7 +38,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "o",
-                            "rawText": " o",
+                            "rawText": "o",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -93,7 +93,7 @@ var callCount = 0;
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16
@@ -141,7 +141,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "executedGetter",
-                            "rawText": " executedGetter",
+                            "rawText": "executedGetter",
                             "flags": 96,
                             "start": 25,
                             "end": 40
@@ -185,7 +185,7 @@ var callCount = 0;
                         "binding": {
                             "kind": 134299649,
                             "text": "callCount",
-                            "rawText": " callCount",
+                            "rawText": "callCount",
                             "flags": 96,
                             "start": 55,
                             "end": 65
@@ -336,7 +336,7 @@ var callCount = 0;
                                                         "name": {
                                                             "kind": 134299649,
                                                             "text": "c",
-                                                            "rawText": " c",
+                                                            "rawText": "c",
                                                             "flags": 96,
                                                             "start": 114,
                                                             "end": 116

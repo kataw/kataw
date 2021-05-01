@@ -50,7 +50,7 @@ let p/
                         "binding": {
                             "kind": 134299649,
                             "text": "p",
-                            "rawText": " p",
+                            "rawText": "p",
                             "flags": 96,
                             "start": 3,
                             "end": 5

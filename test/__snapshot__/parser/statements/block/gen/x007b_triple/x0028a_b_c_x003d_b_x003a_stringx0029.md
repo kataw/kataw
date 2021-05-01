@@ -60,7 +60,7 @@
                                                         {
                                                             "kind": 134299649,
                                                             "text": "b",
-                                                            "rawText": " b",
+                                                            "rawText": "b",
                                                             "flags": 96,
                                                             "start": 8,
                                                             "end": 10
@@ -70,7 +70,7 @@
                                                             "left": {
                                                                 "kind": 134299649,
                                                                 "text": "c",
-                                                                "rawText": " c",
+                                                                "rawText": "c",
                                                                 "flags": 96,
                                                                 "start": 11,
                                                                 "end": 13
@@ -84,7 +84,7 @@
                                                             "right": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
-                                                                "rawText": " b",
+                                                                "rawText": "b",
                                                                 "flags": 96,
                                                                 "start": 15,
                                                                 "end": 17
@@ -134,7 +134,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "string",
-                "rawText": " string",
+                "rawText": "string",
                 "flags": 96,
                 "start": 19,
                 "end": 26

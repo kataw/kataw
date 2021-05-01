@@ -38,7 +38,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
             "name": {
                 "kind": 134299649,
                 "text": "gen",
-                "rawText": " gen",
+                "rawText": "gen",
                 "flags": 96,
                 "start": 10,
                 "end": 14
@@ -71,7 +71,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                             "name": {
                                 "kind": 134299649,
                                 "text": "not_gen",
-                                "rawText": " not_gen",
+                                "rawText": "not_gen",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 35
@@ -109,7 +109,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                                             "name": {
                                                 "kind": 134299649,
                                                 "text": "g",
-                                                "rawText": " g",
+                                                "rawText": "g",
                                                 "flags": 96,
                                                 "start": 49,
                                                 "end": 51
@@ -135,7 +135,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                                                                 "shortCircuit": {
                                                                     "kind": 134299649,
                                                                     "text": "x",
-                                                                    "rawText": " x",
+                                                                    "rawText": "x",
                                                                     "flags": 96,
                                                                     "start": 54,
                                                                     "end": 56
@@ -170,7 +170,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                                                                 "alternate": {
                                                                     "kind": 134299649,
                                                                     "text": "y",
-                                                                    "rawText": " y",
+                                                                    "rawText": "y",
                                                                     "flags": 96,
                                                                     "start": 66,
                                                                     "end": 68

@@ -50,7 +50,7 @@
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "y",
-                                                            "rawText": " y",
+                                                            "rawText": "y",
                                                             "flags": 96,
                                                             "start": 5,
                                                             "end": 7
@@ -98,7 +98,7 @@
                                     "right": {
                                         "kind": 134299649,
                                         "text": "a",
-                                        "rawText": " a",
+                                        "rawText": "a",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -123,7 +123,7 @@
                 "contents": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 19,
                     "end": 21

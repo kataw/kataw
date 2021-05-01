@@ -102,7 +102,7 @@ class C { f(){ this.#a } #a; }
                         "key": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -179,7 +179,7 @@ class C { f(){ this.#a } #a; }
                         "key": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 39,
                             "end": 41
@@ -517,7 +517,7 @@ class C { f(){ this.#a } #a; }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 129,
                                 "end": 131
@@ -626,7 +626,7 @@ class C { f(){ this.#a } #a; }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 157,
                                 "end": 159

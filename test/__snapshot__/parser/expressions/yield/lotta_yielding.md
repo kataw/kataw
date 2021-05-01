@@ -42,7 +42,7 @@ var gen = async function *g() {
                         "binding": {
                             "kind": 134299649,
                             "text": "gen",
-                            "rawText": " gen",
+                            "rawText": "gen",
                             "flags": 96,
                             "start": 3,
                             "end": 7
@@ -98,7 +98,7 @@ var gen = async function *g() {
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "callCount",
-                                                    "rawText": "\n  callCount",
+                                                    "rawText": "callCount",
                                                     "flags": 96,
                                                     "start": 31,
                                                     "end": 43
@@ -256,7 +256,7 @@ var gen = async function *g() {
                                                                                                         "binding": {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "yield",
-                                                                                                            "rawText": " yield",
+                                                                                                            "rawText": "yield",
                                                                                                             "flags": 96,
                                                                                                             "start": 123,
                                                                                                             "end": 129
@@ -266,7 +266,7 @@ var gen = async function *g() {
                                                                                                         "initializer": {
                                                                                                             "kind": 134299649,
                                                                                                             "text": "arg",
-                                                                                                            "rawText": " arg",
+                                                                                                            "rawText": "arg",
                                                                                                             "flags": 96,
                                                                                                             "start": 131,
                                                                                                             "end": 135

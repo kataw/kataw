@@ -52,7 +52,7 @@
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 28,
                 "end": 30
@@ -87,7 +87,7 @@
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "o",
-                                            "rawText": " o",
+                                            "rawText": "o",
                                             "flags": 96,
                                             "start": 36,
                                             "end": 38
@@ -129,7 +129,7 @@
                                                                     "initializer": {
                                                                         "kind": 134299649,
                                                                         "text": "await",
-                                                                        "rawText": " await",
+                                                                        "rawText": "await",
                                                                         "flags": 96,
                                                                         "start": 49,
                                                                         "end": 55
@@ -144,7 +144,7 @@
                                                                     "binding": {
                                                                         "kind": 134299649,
                                                                         "text": "bar",
-                                                                        "rawText": " bar",
+                                                                        "rawText": "bar",
                                                                         "flags": 96,
                                                                         "start": 55,
                                                                         "end": 59

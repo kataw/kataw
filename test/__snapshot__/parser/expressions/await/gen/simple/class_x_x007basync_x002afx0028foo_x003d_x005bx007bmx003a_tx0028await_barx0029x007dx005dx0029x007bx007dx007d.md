@@ -32,7 +32,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -109,7 +109,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                         "expression": {
                                                                             "kind": 134299649,
                                                                             "text": "t",
-                                                                            "rawText": " t",
+                                                                            "rawText": "t",
                                                                             "flags": 96,
                                                                             "start": 28,
                                                                             "end": 30
@@ -128,7 +128,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                     "expression": {
                                                                                         "kind": 134299649,
                                                                                         "text": "bar",
-                                                                                        "rawText": " bar",
+                                                                                        "rawText": "bar",
                                                                                         "flags": 96,
                                                                                         "start": 36,
                                                                                         "end": 40

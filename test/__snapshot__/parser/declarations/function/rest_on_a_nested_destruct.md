@@ -89,7 +89,7 @@ let [...[foo, bar]] = obj;
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "bar",
-                                                            "rawText": " bar",
+                                                            "rawText": "bar",
                                                             "flags": 96,
                                                             "start": 13,
                                                             "end": 17
@@ -133,7 +133,7 @@ let [...[foo, bar]] = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 21,
                             "end": 25

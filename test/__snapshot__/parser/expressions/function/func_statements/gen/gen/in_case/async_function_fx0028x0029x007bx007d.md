@@ -52,7 +52,7 @@ switch (x) {
                         "expression": {
                             "kind": 134299649,
                             "text": "foo",
-                            "rawText": " foo",
+                            "rawText": "foo",
                             "flags": 96,
                             "start": 19,
                             "end": 23
@@ -77,7 +77,7 @@ switch (x) {
                                 "name": {
                                     "kind": 134299649,
                                     "text": "f",
-                                    "rawText": " f",
+                                    "rawText": "f",
                                     "flags": 96,
                                     "start": 43,
                                     "end": 45

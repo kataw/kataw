@@ -82,7 +82,7 @@ for (function(){ a in b; }.prop in x);
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
-                                            "rawText": " a",
+                                            "rawText": "a",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 18
@@ -96,7 +96,7 @@ for (function(){ a in b; }.prop in x);
                                         "right": {
                                             "kind": 134299649,
                                             "text": "b",
-                                            "rawText": " b",
+                                            "rawText": "b",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
@@ -139,7 +139,7 @@ for (function(){ a in b; }.prop in x);
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 34,
                 "end": 36

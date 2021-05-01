@@ -53,7 +53,7 @@ do async funcion switch!! while
                             "binding": {
                                 "kind": 134299649,
                                 "text": "funcion",
-                                "rawText": " funcion",
+                                "rawText": "funcion",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 16

@@ -29,7 +29,7 @@ function eval() { }
             "name": {
                 "kind": 134299649,
                 "text": "eval",
-                "rawText": " eval",
+                "rawText": "eval",
                 "flags": 96,
                 "start": 8,
                 "end": 13

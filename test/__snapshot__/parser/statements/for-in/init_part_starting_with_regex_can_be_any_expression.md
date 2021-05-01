@@ -62,7 +62,7 @@ for (/x/g + b in obj);
                     "left": {
                         "kind": 134299649,
                         "text": "b",
-                        "rawText": " b",
+                        "rawText": "b",
                         "flags": 96,
                         "start": 11,
                         "end": 13
@@ -76,7 +76,7 @@ for (/x/g + b in obj);
                     "right": {
                         "kind": 134299649,
                         "text": "obj",
-                        "rawText": " obj",
+                        "rawText": "obj",
                         "flags": 96,
                         "start": 16,
                         "end": 20

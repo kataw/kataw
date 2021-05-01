@@ -31,7 +31,7 @@ a ? b : (): string => {}
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 0,
                     "end": 2
@@ -61,7 +61,7 @@ a ? b : (): string => {}
                         "parameters": {
                             "kind": 134299649,
                             "text": "string",
-                            "rawText": " string",
+                            "rawText": "string",
                             "flags": 96,
                             "start": 8,
                             "end": 15
@@ -99,7 +99,7 @@ a ? b : (): string => {}
                 "alternate": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": "  b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 24,
                     "end": 27
@@ -119,7 +119,7 @@ a ? b : (): string => {}
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 28,
                     "end": 31
@@ -170,7 +170,7 @@ a ? b : (): string => {}
                     "parameters": {
                         "kind": 134299649,
                         "text": "string",
-                        "rawText": " string",
+                        "rawText": "string",
                         "flags": 96,
                         "start": 43,
                         "end": 50
@@ -208,7 +208,7 @@ a ? b : (): string => {}
             "expression": {
                 "kind": 134299649,
                 "text": "b",
-                "rawText": "  b",
+                "rawText": "b",
                 "flags": 96,
                 "start": 59,
                 "end": 62
@@ -224,7 +224,7 @@ a ? b : (): string => {}
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 63,
                     "end": 66
@@ -254,7 +254,7 @@ a ? b : (): string => {}
                         "parameters": {
                             "kind": 134299649,
                             "text": "string",
-                            "rawText": " string",
+                            "rawText": "string",
                             "flags": 96,
                             "start": 72,
                             "end": 79
@@ -308,7 +308,7 @@ a ? b : (): string => {}
                         "parameters": {
                             "kind": 134299649,
                             "text": "string",
-                            "rawText": " string",
+                            "rawText": "string",
                             "flags": 96,
                             "start": 93,
                             "end": 100
@@ -366,7 +366,7 @@ a ? b : (): string => {}
                     "parameters": {
                         "kind": 134299649,
                         "text": "string",
-                        "rawText": " string",
+                        "rawText": "string",
                         "flags": 96,
                         "start": 112,
                         "end": 119
@@ -406,7 +406,7 @@ a ? b : (): string => {}
                 "shortCircuit": {
                     "kind": 134299649,
                     "text": "a",
-                    "rawText": "\n\na",
+                    "rawText": "a",
                     "flags": 96,
                     "start": 126,
                     "end": 129
@@ -420,7 +420,7 @@ a ? b : (): string => {}
                 "consequent": {
                     "kind": 134299649,
                     "text": "b",
-                    "rawText": " b",
+                    "rawText": "b",
                     "flags": 96,
                     "start": 131,
                     "end": 133
@@ -450,7 +450,7 @@ a ? b : (): string => {}
                         "parameters": {
                             "kind": 134299649,
                             "text": "string",
-                            "rawText": " string",
+                            "rawText": "string",
                             "flags": 96,
                             "start": 139,
                             "end": 146

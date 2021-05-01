@@ -127,7 +127,7 @@ do {} while (x) { while try this and !foo
                         "expression": {
                             "kind": 134299649,
                             "text": "and",
-                            "rawText": " and",
+                            "rawText": "and",
                             "flags": 96,
                             "start": 32,
                             "end": 36

@@ -32,7 +32,7 @@ var af = (x = 1) => x;
                         "binding": {
                             "kind": 134299649,
                             "text": "af",
-                            "rawText": " af",
+                            "rawText": "af",
                             "flags": 96,
                             "start": 3,
                             "end": 6
@@ -83,7 +83,7 @@ var af = (x = 1) => x;
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 21

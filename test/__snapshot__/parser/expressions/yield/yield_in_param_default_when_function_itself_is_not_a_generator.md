@@ -67,7 +67,7 @@ function *g() { function f(x = yield) {}; }
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 24,
                                 "end": 26
@@ -91,7 +91,7 @@ function *g() { function f(x = yield) {}; }
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "yield",
-                                            "rawText": " yield",
+                                            "rawText": "yield",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 36

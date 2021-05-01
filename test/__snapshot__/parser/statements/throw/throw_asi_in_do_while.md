@@ -31,7 +31,7 @@ function f() {
             "name": {
                 "kind": 134299649,
                 "text": "f",
-                "rawText": " f",
+                "rawText": "f",
                 "flags": 96,
                 "start": 8,
                 "end": 10
@@ -83,7 +83,7 @@ function f() {
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "pass",
-                                    "rawText": " pass",
+                                    "rawText": "pass",
                                     "flags": 96,
                                     "start": 25,
                                     "end": 30

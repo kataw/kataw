@@ -74,7 +74,7 @@ for (var [foo] = arr, bar);
                         "initializer": {
                             "kind": 134299649,
                             "text": "arr",
-                            "rawText": " arr",
+                            "rawText": "arr",
                             "flags": 96,
                             "start": 16,
                             "end": 20
@@ -88,7 +88,7 @@ for (var [foo] = arr, bar);
                         "binding": {
                             "kind": 134299649,
                             "text": "bar",
-                            "rawText": " bar",
+                            "rawText": "bar",
                             "flags": 96,
                             "start": 21,
                             "end": 25

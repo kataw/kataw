@@ -209,7 +209,7 @@ do {} while (x) { =! class function try while with foo!
             "expression": {
                 "kind": 134299649,
                 "text": "foo",
-                "rawText": " foo",
+                "rawText": "foo",
                 "flags": 96,
                 "start": 50,
                 "end": 54

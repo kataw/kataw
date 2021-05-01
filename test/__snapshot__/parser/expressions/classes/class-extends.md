@@ -44,7 +44,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "name",
-                        "rawText": " name",
+                        "rawText": "name",
                         "flags": 96,
                         "start": 6,
                         "end": 11
@@ -141,7 +141,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "name",
-                        "rawText": " name",
+                        "rawText": "name",
                         "flags": 96,
                         "start": 45,
                         "end": 50
@@ -280,7 +280,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "name",
-                        "rawText": " name",
+                        "rawText": "name",
                         "flags": 96,
                         "start": 99,
                         "end": 104
@@ -434,7 +434,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "name",
-                        "rawText": " name",
+                        "rawText": "name",
                         "flags": 96,
                         "start": 160,
                         "end": 165
@@ -530,7 +530,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "base",
-                                "rawText": " base",
+                                "rawText": "base",
                                 "flags": 96,
                                 "start": 208,
                                 "end": 213
@@ -588,7 +588,7 @@
                     "name": {
                         "kind": 134299649,
                         "text": "name",
-                        "rawText": " name",
+                        "rawText": "name",
                         "flags": 96,
                         "start": 228,
                         "end": 233
@@ -614,7 +614,7 @@
                             "name": {
                                 "kind": 134299649,
                                 "text": "base",
-                                "rawText": " base",
+                                "rawText": "base",
                                 "flags": 96,
                                 "start": 247,
                                 "end": 252
@@ -688,7 +688,7 @@
                         "name": {
                             "kind": 134299649,
                             "text": "name",
-                            "rawText": " name",
+                            "rawText": "name",
                             "flags": 96,
                             "start": 283,
                             "end": 288
@@ -773,7 +773,7 @@
                         "name": {
                             "kind": 134299649,
                             "text": "name",
-                            "rawText": " name",
+                            "rawText": "name",
                             "flags": 96,
                             "start": 326,
                             "end": 331
@@ -880,7 +880,7 @@
                         "name": {
                             "kind": 134299649,
                             "text": "name",
-                            "rawText": " name",
+                            "rawText": "name",
                             "flags": 96,
                             "start": 374,
                             "end": 379
@@ -980,7 +980,7 @@
                         "name": {
                             "kind": 134299649,
                             "text": "name",
-                            "rawText": " name",
+                            "rawText": "name",
                             "flags": 96,
                             "start": 424,
                             "end": 429
@@ -1006,7 +1006,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "base",
-                                    "rawText": " base",
+                                    "rawText": "base",
                                     "flags": 96,
                                     "start": 443,
                                     "end": 448

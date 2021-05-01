@@ -38,7 +38,7 @@ async x => ok
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 5,
                             "end": 7
@@ -65,7 +65,7 @@ async x => ok
                         "left": {
                             "kind": 134299649,
                             "text": "ok",
-                            "rawText": " ok",
+                            "rawText": "ok",
                             "flags": 96,
                             "start": 10,
                             "end": 13
@@ -79,7 +79,7 @@ async x => ok
                         "right": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 15,
                             "end": 17
@@ -97,7 +97,7 @@ async x => ok
                     "right": {
                         "kind": 134299649,
                         "text": "g",
-                        "rawText": " g",
+                        "rawText": "g",
                         "flags": 96,
                         "start": 19,
                         "end": 21

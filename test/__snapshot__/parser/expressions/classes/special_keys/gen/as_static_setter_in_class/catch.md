@@ -32,7 +32,7 @@ class x {static set catch(x){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {static set catch(x){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "catch",
-                                "rawText": " catch",
+                                "rawText": "catch",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 25

@@ -47,7 +47,7 @@ class w {  t[x](){}  }
             "name": {
                 "kind": 134299649,
                 "text": "w",
-                "rawText": " w",
+                "rawText": "w",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class w {  t[x](){}  }
                         "key": {
                             "kind": 134299649,
                             "text": "t",
-                            "rawText": "  t",
+                            "rawText": "t",
                             "flags": 96,
                             "start": 9,
                             "end": 12

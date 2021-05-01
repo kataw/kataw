@@ -46,7 +46,7 @@
                         "right": {
                             "kind": 134299649,
                             "text": "yield",
-                            "rawText": " yield",
+                            "rawText": "yield",
                             "flags": 96,
                             "start": 4,
                             "end": 10

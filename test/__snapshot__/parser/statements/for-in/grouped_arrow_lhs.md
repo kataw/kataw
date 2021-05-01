@@ -96,7 +96,7 @@ for (((x)=>{}) in y);
             "expression": {
                 "kind": 134299649,
                 "text": "y",
-                "rawText": " y",
+                "rawText": "y",
                 "flags": 96,
                 "start": 17,
                 "end": 19

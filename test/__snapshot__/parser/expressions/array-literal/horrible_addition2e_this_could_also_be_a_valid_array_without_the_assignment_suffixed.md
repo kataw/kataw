@@ -46,7 +46,7 @@
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "it",
-                                                "rawText": " it",
+                                                "rawText": "it",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 20
@@ -82,7 +82,7 @@
                             {
                                 "kind": 134299649,
                                 "text": "stop",
-                                "rawText": " stop",
+                                "rawText": "stop",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 27
@@ -106,7 +106,7 @@
                 "right": {
                     "kind": 134299649,
                     "text": "bwahahahaha",
-                    "rawText": " bwahahahaha",
+                    "rawText": "bwahahahaha",
                     "flags": 96,
                     "start": 30,
                     "end": 42

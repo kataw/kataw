@@ -52,7 +52,7 @@ foo(async async => ok).bar
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "async",
-                                            "rawText": " async",
+                                            "rawText": "async",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 15
@@ -75,7 +75,7 @@ foo(async async => ok).bar
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "ok",
-                                    "rawText": " ok",
+                                    "rawText": "ok",
                                     "flags": 96,
                                     "start": 18,
                                     "end": 21

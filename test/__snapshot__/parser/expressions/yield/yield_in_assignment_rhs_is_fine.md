@@ -34,7 +34,7 @@ function* g() { let x = yield 3; }
             "name": {
                 "kind": 134299649,
                 "text": "g",
-                "rawText": " g",
+                "rawText": "g",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -69,7 +69,7 @@ function* g() { let x = yield 3; }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 19,
                                             "end": 21

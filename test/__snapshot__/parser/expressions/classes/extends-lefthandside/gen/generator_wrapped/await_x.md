@@ -89,7 +89,7 @@ function *P(){
                                 "expression": {
                                     "kind": 134299649,
                                     "text": "await",
-                                    "rawText": " await",
+                                    "rawText": "await",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 38
@@ -115,7 +115,7 @@ function *P(){
                             "expression": {
                                 "kind": 134299649,
                                 "text": "x",
-                                "rawText": " x",
+                                "rawText": "x",
                                 "flags": 96,
                                 "start": 38,
                                 "end": 40

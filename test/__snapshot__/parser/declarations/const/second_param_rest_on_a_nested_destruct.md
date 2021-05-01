@@ -107,7 +107,7 @@ const [x, ...[foo, bar]] = obj;
                                                         "binding": {
                                                             "kind": 134299649,
                                                             "text": "bar",
-                                                            "rawText": " bar",
+                                                            "rawText": "bar",
                                                             "flags": 96,
                                                             "start": 18,
                                                             "end": 22
@@ -151,7 +151,7 @@ const [x, ...[foo, bar]] = obj;
                         "initializer": {
                             "kind": 134299649,
                             "text": "obj",
-                            "rawText": " obj",
+                            "rawText": "obj",
                             "flags": 96,
                             "start": 26,
                             "end": 30

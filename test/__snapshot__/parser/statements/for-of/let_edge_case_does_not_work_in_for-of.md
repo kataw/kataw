@@ -50,7 +50,7 @@ for (let of x) y
                         "binding": {
                             "kind": 134299649,
                             "text": "of",
-                            "rawText": " of",
+                            "rawText": "of",
                             "flags": 96,
                             "start": 8,
                             "end": 11
@@ -67,7 +67,7 @@ for (let of x) y
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 11,
                             "end": 13
@@ -97,7 +97,7 @@ for (let of x) y
                 "expression": {
                     "kind": 134299649,
                     "text": "y",
-                    "rawText": " y",
+                    "rawText": "y",
                     "flags": 96,
                     "start": 14,
                     "end": 16

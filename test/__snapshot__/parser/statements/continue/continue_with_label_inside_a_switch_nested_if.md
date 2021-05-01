@@ -45,7 +45,7 @@ switch (x) { case x: if (foo) continue foo; }
                         "expression": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 17,
                             "end": 19
@@ -78,7 +78,7 @@ switch (x) { case x: if (foo) continue foo; }
                                     "label": {
                                         "kind": 134299649,
                                         "text": "foo",
-                                        "rawText": " foo",
+                                        "rawText": "foo",
                                         "flags": 96,
                                         "start": 38,
                                         "end": 42

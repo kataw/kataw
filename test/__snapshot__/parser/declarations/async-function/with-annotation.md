@@ -46,7 +46,7 @@ let {x}: string = y;
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -140,7 +140,7 @@ let {x}: string = y;
                         "initializer": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 33,
                             "end": 35
@@ -231,7 +231,7 @@ let {x}: string = y;
                         "initializer": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 62,
                             "end": 64
@@ -309,7 +309,7 @@ let {x}: string = y;
                         "initializer": {
                             "kind": 134299649,
                             "text": "y",
-                            "rawText": " y",
+                            "rawText": "y",
                             "flags": 96,
                             "start": 84,
                             "end": 86

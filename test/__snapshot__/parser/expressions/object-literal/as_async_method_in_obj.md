@@ -37,7 +37,7 @@
                                 "name": {
                                     "kind": 134299649,
                                     "text": "typeof",
-                                    "rawText": " typeof",
+                                    "rawText": "typeof",
                                     "flags": 96,
                                     "start": 7,
                                     "end": 14

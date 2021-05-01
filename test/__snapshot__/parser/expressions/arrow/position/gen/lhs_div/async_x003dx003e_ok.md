@@ -62,7 +62,7 @@ async => ok / x
                     "left": {
                         "kind": 134299649,
                         "text": "ok",
-                        "rawText": " ok",
+                        "rawText": "ok",
                         "flags": 96,
                         "start": 8,
                         "end": 11
@@ -76,7 +76,7 @@ async => ok / x
                     "right": {
                         "kind": 134299649,
                         "text": "x",
-                        "rawText": " x",
+                        "rawText": "x",
                         "flags": 96,
                         "start": 13,
                         "end": 15

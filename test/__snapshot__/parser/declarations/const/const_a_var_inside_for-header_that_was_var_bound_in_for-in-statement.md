@@ -56,7 +56,7 @@ for (const x in obj) { var x = 13 }
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -76,7 +76,7 @@ for (const x in obj) { var x = 13 }
             "expression": {
                 "kind": 134299649,
                 "text": "obj",
-                "rawText": " obj",
+                "rawText": "obj",
                 "flags": 96,
                 "start": 15,
                 "end": 19
@@ -103,7 +103,7 @@ for (const x in obj) { var x = 13 }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "x",
-                                            "rawText": " x",
+                                            "rawText": "x",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 28

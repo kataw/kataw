@@ -81,7 +81,7 @@ class C extends Base { async async(){} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "async",
-                                "rawText": " async",
+                                "rawText": "async",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 34

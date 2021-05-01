@@ -49,7 +49,7 @@ for (async a => {} in x) ;
                         "binding": {
                             "kind": 134299649,
                             "text": "a",
-                            "rawText": " a",
+                            "rawText": "a",
                             "flags": 96,
                             "start": 10,
                             "end": 12
@@ -90,7 +90,7 @@ for (async a => {} in x) ;
             "expression": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 21,
                 "end": 23

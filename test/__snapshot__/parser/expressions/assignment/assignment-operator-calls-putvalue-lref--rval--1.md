@@ -60,7 +60,7 @@ Object.defineProperty(this, "x", {
                         "binding": {
                             "kind": 134299649,
                             "text": "count",
-                            "rawText": " count",
+                            "rawText": "count",
                             "flags": 96,
                             "start": 3,
                             "end": 9
@@ -105,7 +105,7 @@ Object.defineProperty(this, "x", {
                         "binding": {
                             "kind": 134299649,
                             "text": "global",
-                            "rawText": " global",
+                            "rawText": "global",
                             "flags": 96,
                             "start": 18,
                             "end": 25
@@ -195,7 +195,7 @@ Object.defineProperty(this, "x", {
                                         "right": {
                                             "kind": 134299649,
                                             "text": "configurable",
-                                            "rawText": "\n  configurable",
+                                            "rawText": "configurable",
                                             "flags": 96,
                                             "start": 69,
                                             "end": 84
@@ -221,7 +221,7 @@ Object.defineProperty(this, "x", {
                                         "right": {
                                             "kind": 134299649,
                                             "text": "value",
-                                            "rawText": "\n  value",
+                                            "rawText": "value",
                                             "flags": 96,
                                             "start": 91,
                                             "end": 99
@@ -303,7 +303,7 @@ Object.defineProperty(this, "x", {
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "assert",
-                                                    "rawText": "\n  assert",
+                                                    "rawText": "assert",
                                                     "flags": 96,
                                                     "start": 137,
                                                     "end": 146
@@ -362,7 +362,7 @@ Object.defineProperty(this, "x", {
                                                                             "expression": {
                                                                                 "kind": 134299649,
                                                                                 "text": "count",
-                                                                                "rawText": "\n    count",
+                                                                                "rawText": "count",
                                                                                 "flags": 96,
                                                                                 "start": 177,
                                                                                 "end": 187
@@ -382,7 +382,7 @@ Object.defineProperty(this, "x", {
                                                                             "left": {
                                                                                 "kind": 134299649,
                                                                                 "text": "x",
-                                                                                "rawText": "\n    x",
+                                                                                "rawText": "x",
                                                                                 "flags": 96,
                                                                                 "start": 190,
                                                                                 "end": 196
@@ -411,7 +411,7 @@ Object.defineProperty(this, "x", {
                                                                                                 "member": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "global",
-                                                                                                    "rawText": " global",
+                                                                                                    "rawText": "global",
                                                                                                     "flags": 96,
                                                                                                     "start": 206,
                                                                                                     "end": 213
@@ -470,7 +470,7 @@ Object.defineProperty(this, "x", {
                                                                             "expression": {
                                                                                 "kind": 134299649,
                                                                                 "text": "count",
-                                                                                "rawText": "\n    count",
+                                                                                "rawText": "count",
                                                                                 "flags": 96,
                                                                                 "start": 220,
                                                                                 "end": 230
@@ -523,7 +523,7 @@ Object.defineProperty(this, "x", {
                                             "expression": {
                                                 "kind": 134299649,
                                                 "text": "count",
-                                                "rawText": "\n  count",
+                                                "rawText": "count",
                                                 "flags": 96,
                                                 "start": 239,
                                                 "end": 247

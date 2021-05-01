@@ -32,7 +32,7 @@ class x {static get while(){}}
             "name": {
                 "kind": 134299649,
                 "text": "x",
-                "rawText": " x",
+                "rawText": "x",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -66,7 +66,7 @@ class x {static get while(){}}
                             "name": {
                                 "kind": 134299649,
                                 "text": "while",
-                                "rawText": " while",
+                                "rawText": "while",
                                 "flags": 96,
                                 "start": 19,
                                 "end": 25

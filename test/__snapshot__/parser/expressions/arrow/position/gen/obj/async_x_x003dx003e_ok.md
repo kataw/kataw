@@ -64,7 +64,7 @@ x = {arrow: async x => ok}
                                             "binding": {
                                                 "kind": 134299649,
                                                 "text": "x",
-                                                "rawText": " x",
+                                                "rawText": "x",
                                                 "flags": 96,
                                                 "start": 17,
                                                 "end": 19
@@ -87,7 +87,7 @@ x = {arrow: async x => ok}
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
-                                        "rawText": " ok",
+                                        "rawText": "ok",
                                         "flags": 96,
                                         "start": 22,
                                         "end": 25

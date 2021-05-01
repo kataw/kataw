@@ -35,7 +35,7 @@ let x = function f(foo = await bar){
                         "binding": {
                             "kind": 134299649,
                             "text": "x",
-                            "rawText": " x",
+                            "rawText": "x",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -55,7 +55,7 @@ let x = function f(foo = await bar){
                             "name": {
                                 "kind": 134299649,
                                 "text": "f",
-                                "rawText": " f",
+                                "rawText": "f",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 18
@@ -79,7 +79,7 @@ let x = function f(foo = await bar){
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " await",
+                                            "rawText": "await",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 30
@@ -94,7 +94,7 @@ let x = function f(foo = await bar){
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "bar",
-                                            "rawText": " bar",
+                                            "rawText": "bar",
                                             "flags": 96,
                                             "start": 30,
                                             "end": 34
