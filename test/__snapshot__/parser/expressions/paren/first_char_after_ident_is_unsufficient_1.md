@@ -28,7 +28,6 @@
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -45,7 +44,6 @@
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "g",
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
@@ -62,7 +60,6 @@
                                         "kind": 129,
                                         "member": {
                                             "kind": 134299649,
-                                            "original": "m",
                                             "text": "m",
                                             "rawText": "m",
                                             "flags": 96,
@@ -71,7 +68,6 @@
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

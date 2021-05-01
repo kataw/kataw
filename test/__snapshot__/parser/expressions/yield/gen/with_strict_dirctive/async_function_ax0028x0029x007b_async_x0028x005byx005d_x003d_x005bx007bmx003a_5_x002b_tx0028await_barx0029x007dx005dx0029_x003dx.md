@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -52,7 +51,6 @@
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,
@@ -77,7 +75,6 @@
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -96,7 +93,6 @@
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -140,8 +136,7 @@
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 5,
-                                                                            "original": "5",
-                                                                            "rawText": " 5",
+                                                                            "rawText": "5",
                                                                             "flags": 96,
                                                                             "start": 55,
                                                                             "end": 57
@@ -156,7 +151,6 @@
                                                                             "kind": 131,
                                                                             "expression": {
                                                                                 "kind": 134299649,
-                                                                                "original": "t",
                                                                                 "text": "t",
                                                                                 "rawText": " t",
                                                                                 "flags": 96,
@@ -176,7 +170,6 @@
                                                                                         },
                                                                                         "expression": {
                                                                                             "kind": 134299649,
-                                                                                            "original": "bar",
                                                                                             "text": "bar",
                                                                                             "rawText": " bar",
                                                                                             "flags": 96,
@@ -203,7 +196,6 @@
                                                                     },
                                                                     "right": {
                                                                         "kind": 134299649,
-                                                                        "original": "m",
                                                                         "text": "m",
                                                                         "rawText": "m",
                                                                         "flags": 96,

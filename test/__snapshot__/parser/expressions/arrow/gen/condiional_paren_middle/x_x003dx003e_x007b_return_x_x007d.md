@@ -25,7 +25,6 @@ bar ? (x => { return x; }) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -51,7 +50,6 @@ bar ? (x => { return x; }) : baz;
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -76,7 +74,6 @@ bar ? (x => { return x; }) : baz;
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -112,7 +109,6 @@ bar ? (x => { return x; }) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "baz",
                     "text": "baz",
                     "rawText": " baz",
                     "flags": 96,

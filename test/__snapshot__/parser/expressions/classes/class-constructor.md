@@ -46,9 +46,8 @@
                     },
                     "name": {
                         "kind": 134299649,
-                        "original": "C",
                         "text": "C",
-                        "rawText": " C",
+                        "rawText": "C",
                         "flags": 96,
                         "start": 7,
                         "end": 9
@@ -71,7 +70,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "constructor",
                                         "text": "constructor",
                                         "rawText": " constructor",
                                         "flags": 96,
@@ -142,9 +140,8 @@
                     },
                     "name": {
                         "kind": 134299649,
-                        "original": "C",
                         "text": "C",
-                        "rawText": " C",
+                        "rawText": "C",
                         "flags": 96,
                         "start": 40,
                         "end": 42
@@ -172,7 +169,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "constructor",
                                         "text": "constructor",
                                         "rawText": " constructor",
                                         "flags": 96,
@@ -243,9 +239,8 @@
                     },
                     "name": {
                         "kind": 134299649,
-                        "original": "C",
                         "text": "C",
-                        "rawText": " C",
+                        "rawText": "C",
                         "flags": 96,
                         "start": 80,
                         "end": 82
@@ -278,7 +273,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "constructor",
                                         "text": "constructor",
                                         "rawText": " constructor",
                                         "flags": 96,
@@ -349,9 +343,8 @@
                     },
                     "name": {
                         "kind": 134299649,
-                        "original": "C",
                         "text": "C",
-                        "rawText": " C",
+                        "rawText": "C",
                         "flags": 96,
                         "start": 124,
                         "end": 126
@@ -384,7 +377,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "constructor",
                                         "text": "constructor",
                                         "rawText": " constructor",
                                         "flags": 96,
@@ -400,7 +392,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "_",
                                                     "text": "_",
                                                     "rawText": "_",
                                                     "flags": 96,
@@ -475,9 +466,8 @@
                     },
                     "name": {
                         "kind": 134299649,
-                        "original": "C",
                         "text": "C",
-                        "rawText": " C",
+                        "rawText": "C",
                         "flags": 96,
                         "start": 169,
                         "end": 171
@@ -510,7 +500,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "constructor",
                                         "text": "constructor",
                                         "rawText": "constructor",
                                         "flags": 96,

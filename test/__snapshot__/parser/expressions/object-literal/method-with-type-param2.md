@@ -29,7 +29,6 @@ a={*id<T>(x: T): T {}}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -51,7 +50,6 @@ a={*id<T>(x: T): T {}}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "id",
                                     "text": "id",
                                     "rawText": "id",
                                     "flags": 96,
@@ -65,7 +63,6 @@ a={*id<T>(x: T): T {}}
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "T",
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
@@ -90,7 +87,6 @@ a={*id<T>(x: T): T {}}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -104,9 +100,8 @@ a={*id<T>(x: T): T {}}
                                                     "kind": 144,
                                                     "id": {
                                                         "kind": 134299649,
-                                                        "original": "T",
                                                         "text": "T",
-                                                        "rawText": " T",
+                                                        "rawText": "T",
                                                         "flags": 96,
                                                         "start": 12,
                                                         "end": 14
@@ -137,9 +132,8 @@ a={*id<T>(x: T): T {}}
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
-                                            "original": "T",
                                             "text": "T",
-                                            "rawText": " T",
+                                            "rawText": "T",
                                             "flags": 96,
                                             "start": 16,
                                             "end": 18

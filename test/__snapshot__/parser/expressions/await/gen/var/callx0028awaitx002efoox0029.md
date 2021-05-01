@@ -35,7 +35,6 @@ var await; var f = (async function() { call(await.foo) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { call(await.foo) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -121,7 +119,6 @@ var await; var f = (async function() { call(await.foo) });
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "call",
                                                         "text": "call",
                                                         "rawText": " call",
                                                         "flags": 96,
@@ -150,7 +147,6 @@ var await; var f = (async function() { call(await.foo) });
                                                                     },
                                                                     "expression": {
                                                                         "kind": 134299649,
-                                                                        "original": "foo",
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,

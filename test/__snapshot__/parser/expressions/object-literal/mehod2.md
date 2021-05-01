@@ -33,7 +33,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -55,7 +54,6 @@ x = { method(test) { } }
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": " method",
                                     "flags": 96,
@@ -114,7 +112,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -136,7 +133,6 @@ x = { method(test) { } }
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "get",
                                     "text": "get",
                                     "rawText": " get",
                                     "flags": 96,
@@ -195,7 +191,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -217,7 +212,6 @@ x = { method(test) { } }
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "set",
                                     "text": "set",
                                     "rawText": " set",
                                     "flags": 96,
@@ -276,7 +270,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -300,7 +293,6 @@ x = { method(test) { } }
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "method",
                                         "text": "method",
                                         "rawText": " method",
                                         "flags": 96,
@@ -316,7 +308,6 @@ x = { method(test) { } }
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
@@ -377,7 +368,6 @@ x = { method(test) { } }
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "function",
                                                 "text": "function",
                                                 "rawText": " function",
                                                 "flags": 96,
@@ -446,7 +436,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -470,7 +459,6 @@ x = { method(test) { } }
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "declare",
                                         "text": "declare",
                                         "rawText": " declare",
                                         "flags": 96,
@@ -533,7 +521,6 @@ x = { method(test) { } }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -555,7 +542,6 @@ x = { method(test) { } }
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": " method",
                                     "flags": 96,
@@ -571,7 +557,6 @@ x = { method(test) { } }
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "test",
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,

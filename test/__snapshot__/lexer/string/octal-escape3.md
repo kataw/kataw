@@ -20,7 +20,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u0000121",
-                "original": "\"\\0121\"",
                 "rawText": "\"\\0121\"",
                 "flags": 96,
                 "start": 0,

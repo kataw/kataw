@@ -21,7 +21,6 @@ await - 25
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
@@ -37,8 +36,7 @@ await - 25
                 "right": {
                     "kind": 201392130,
                     "text": 25,
-                    "original": "25",
-                    "rawText": " 25",
+                    "rawText": "25",
                     "flags": 96,
                     "start": 7,
                     "end": 10

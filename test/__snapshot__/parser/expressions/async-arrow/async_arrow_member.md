@@ -19,7 +19,6 @@ async("foo".bar) => x
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -34,7 +33,6 @@ async("foo".bar) => x
                         "member": {
                             "kind": 201392131,
                             "text": "foo",
-                            "original": "\"foo\"",
                             "rawText": "\"foo\"",
                             "flags": 96,
                             "start": 6,
@@ -42,7 +40,6 @@ async("foo".bar) => x
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -67,7 +64,6 @@ async("foo".bar) => x
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

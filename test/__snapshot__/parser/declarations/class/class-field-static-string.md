@@ -35,9 +35,8 @@ class C { static '0' }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,8 +60,7 @@ class C { static '0' }
                         "key": {
                             "kind": 201392131,
                             "text": "0",
-                            "original": "'0'",
-                            "rawText": " '0'",
+                            "rawText": "'0'",
                             "flags": 4194400,
                             "start": 16,
                             "end": 20

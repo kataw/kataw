@@ -80,7 +80,6 @@ class C { foo() { this.#a = 1; }}
                                                     "ellipsisToken": null,
                                                     "binding": {
                                                         "kind": 134299649,
-                                                        "original": "val",
                                                         "text": "val",
                                                         "rawText": "val",
                                                         "flags": 96,
@@ -138,7 +137,6 @@ class C { foo() { this.#a = 1; }}
                                                             },
                                                             "right": {
                                                                 "kind": 134299649,
-                                                                "original": "val",
                                                                 "text": "val",
                                                                 "rawText": " val",
                                                                 "flags": 96,
@@ -323,9 +321,8 @@ class C { foo() { this.#a = 1; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 89,
                 "end": 91
@@ -341,9 +338,8 @@ class C { foo() { this.#a = 1; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "Base",
                     "text": "Base",
-                    "rawText": " Base",
+                    "rawText": "Base",
                     "flags": 96,
                     "start": 99,
                     "end": 104
@@ -369,7 +365,6 @@ class C { foo() { this.#a = 1; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
@@ -461,9 +456,8 @@ class C { foo() { this.#a = 1; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 139,
                 "end": 141
@@ -486,7 +480,6 @@ class C { foo() { this.#a = 1; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -541,8 +534,7 @@ class C { foo() { this.#a = 1; }}
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
-                                                    "rawText": " 1",
+                                                    "rawText": "1",
                                                     "flags": 96,
                                                     "start": 161,
                                                     "end": 163

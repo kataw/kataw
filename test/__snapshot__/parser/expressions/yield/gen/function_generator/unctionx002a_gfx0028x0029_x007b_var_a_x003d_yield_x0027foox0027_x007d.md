@@ -37,7 +37,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -98,7 +96,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "unction",
                                                     "text": "unction",
                                                     "rawText": " unction",
                                                     "flags": 96,
@@ -115,7 +112,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "gf",
                                                         "text": "gf",
                                                         "rawText": " gf",
                                                         "flags": 96,
@@ -163,7 +159,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                                     "kind": 157,
                                                                     "binding": {
                                                                         "kind": 134299649,
-                                                                        "original": "a",
                                                                         "text": "a",
                                                                         "rawText": " a",
                                                                         "flags": 96,
@@ -174,7 +169,6 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                                     "type": null,
                                                                     "initializer": {
                                                                         "kind": 134299649,
-                                                                        "original": "yield",
                                                                         "text": "yield",
                                                                         "rawText": " yield",
                                                                         "flags": 96,
@@ -199,8 +193,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "expression": {
                                                             "kind": 201392131,
                                                             "text": "foo",
-                                                            "original": "'foo'",
-                                                            "rawText": " 'foo'",
+                                                            "rawText": "'foo'",
                                                             "flags": 4194400,
                                                             "start": 69,
                                                             "end": 75

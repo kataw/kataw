@@ -40,9 +40,8 @@ declare class A { static foo(): number; static x : string }
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 13,
                 "end": 15
@@ -70,7 +69,6 @@ declare class A { static foo(): number; static x : string }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -120,7 +118,6 @@ declare class A { static foo(): number; static x : string }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,

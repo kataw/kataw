@@ -48,7 +48,6 @@ var [foo=a] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -59,7 +58,6 @@ var [foo=a] = arr;
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -84,7 +82,6 @@ var [foo=a] = arr;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "arr",
                             "text": "arr",
                             "rawText": " arr",
                             "flags": 96,

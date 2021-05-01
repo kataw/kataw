@@ -31,7 +31,6 @@ class x {const: x}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -51,7 +50,6 @@ class x {const: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "const",
                             "text": "const",
                             "rawText": "const",
                             "flags": 96,
@@ -78,7 +76,6 @@ class x {const: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

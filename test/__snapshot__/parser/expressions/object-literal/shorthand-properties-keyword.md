@@ -34,7 +34,6 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -50,7 +49,6 @@ var x = {
                                 "properties": [
                                     {
                                         "kind": 134299649,
-                                        "original": "this",
                                         "text": "this",
                                         "rawText": "\n    this",
                                         "flags": 96,

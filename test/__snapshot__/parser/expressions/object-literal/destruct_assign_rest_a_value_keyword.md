@@ -21,7 +21,6 @@ x={...true} = x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -78,7 +77,6 @@ x={...true} = x
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,

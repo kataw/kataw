@@ -25,7 +25,6 @@ x = {arrow: x => ok}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -60,7 +59,6 @@ x = {arrow: x => ok}
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -71,7 +69,6 @@ x = {arrow: x => ok}
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
-                                        "original": "ok",
                                         "text": "ok",
                                         "rawText": " ok",
                                         "flags": 96,
@@ -84,7 +81,6 @@ x = {arrow: x => ok}
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "arrow",
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 96,

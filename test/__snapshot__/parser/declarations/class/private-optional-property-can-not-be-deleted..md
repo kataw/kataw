@@ -51,9 +51,8 @@ class Foo {
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -102,7 +101,6 @@ class Foo {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": "\n  constructor",
                                 "flags": 96,

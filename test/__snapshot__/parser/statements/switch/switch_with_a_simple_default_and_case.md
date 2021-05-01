@@ -25,7 +25,6 @@ switch (A) {default: D; case B: C; }
             },
             "expression": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
@@ -48,9 +47,8 @@ switch (A) {default: D; case B: C; }
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "D",
                                     "text": "D",
-                                    "rawText": " D",
+                                    "rawText": "D",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 22
@@ -74,9 +72,8 @@ switch (A) {default: D; case B: C; }
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "B",
                             "text": "B",
-                            "rawText": " B",
+                            "rawText": "B",
                             "flags": 96,
                             "start": 28,
                             "end": 30
@@ -86,9 +83,8 @@ switch (A) {default: D; case B: C; }
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "C",
                                     "text": "C",
-                                    "rawText": " C",
+                                    "rawText": "C",
                                     "flags": 96,
                                     "start": 31,
                                     "end": 33

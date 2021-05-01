@@ -35,9 +35,8 @@ class Foo {get fooProp():number{}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -65,7 +64,6 @@ class Foo {get fooProp():number{}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "fooProp",
                                 "text": "fooProp",
                                 "rawText": " fooProp",
                                 "flags": 96,

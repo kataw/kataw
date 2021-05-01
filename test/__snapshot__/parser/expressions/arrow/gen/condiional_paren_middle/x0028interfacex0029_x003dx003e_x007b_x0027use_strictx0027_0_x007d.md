@@ -25,7 +25,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -52,7 +51,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "parameters": [
                             {
                                 "kind": 134299649,
-                                "original": "interface",
                                 "text": "interface",
                                 "rawText": "interface",
                                 "flags": 96,
@@ -70,8 +68,7 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                     {
                                         "kind": 201392131,
                                         "text": "use strict",
-                                        "original": "'use strict'",
-                                        "rawText": " 'use strict'",
+                                        "rawText": "'use strict'",
                                         "flags": 4194400,
                                         "start": 23,
                                         "end": 36
@@ -83,8 +80,7 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "original": "0",
-                                            "rawText": " 0",
+                                            "rawText": "0",
                                             "flags": 96,
                                             "start": 37,
                                             "end": 39
@@ -118,7 +114,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "baz",
                     "text": "baz",
                     "rawText": " baz",
                     "flags": 96,

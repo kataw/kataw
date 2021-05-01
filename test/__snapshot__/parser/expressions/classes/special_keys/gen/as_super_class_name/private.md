@@ -31,7 +31,6 @@ class x extends private {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends private {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "private",
                     "text": "private",
                     "rawText": " private",
                     "flags": 96,

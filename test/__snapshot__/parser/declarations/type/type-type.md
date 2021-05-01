@@ -35,9 +35,8 @@ type Foo<T> = Bar<T>
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 4,
                 "end": 8
@@ -50,7 +49,6 @@ type Foo<T> = Bar<T>
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
-                            "original": "T",
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
@@ -71,9 +69,8 @@ type Foo<T> = Bar<T>
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "Bar",
                     "text": "Bar",
-                    "rawText": " Bar",
+                    "rawText": "Bar",
                     "flags": 96,
                     "start": 13,
                     "end": 17
@@ -85,7 +82,6 @@ type Foo<T> = Bar<T>
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "original": "T",
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,

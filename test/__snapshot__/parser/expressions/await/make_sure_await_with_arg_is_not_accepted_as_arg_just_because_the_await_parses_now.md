@@ -33,7 +33,6 @@ async function f(){  (await fail) => x  }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -76,7 +75,6 @@ async function f(){  (await fail) => x  }
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "fail",
                                             "text": "fail",
                                             "rawText": " fail",
                                             "flags": 96,
@@ -92,7 +90,6 @@ async function f(){  (await fail) => x  }
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

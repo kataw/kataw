@@ -65,7 +65,6 @@ for ([a.b]++ of c) d
                                 "kind": 129,
                                 "member": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -74,7 +73,6 @@ for ([a.b]++ of c) d
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "b",
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
@@ -101,7 +99,6 @@ for ([a.b]++ of c) d
             },
             "expression": {
                 "kind": 134299649,
-                "original": "c",
                 "text": "c",
                 "rawText": " c",
                 "flags": 96,
@@ -112,7 +109,6 @@ for ([a.b]++ of c) d
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "d",
                     "text": "d",
                     "rawText": " d",
                     "flags": 96,

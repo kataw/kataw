@@ -39,7 +39,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x61ckage",
                 "text": "x61ckage",
                 "rawText": "x61ckage",
                 "flags": 96,
@@ -60,8 +59,7 @@
                         "expression": {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 17,
                             "end": 30
@@ -101,7 +99,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x61ckage",
                 "text": "x61ckage",
                 "rawText": "x61ckage",
                 "flags": 96,

@@ -27,7 +27,6 @@ class x extends y { constructor() { new super() }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -45,7 +44,6 @@ class x extends y { constructor() { new super() }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -73,7 +71,6 @@ class x extends y { constructor() { new super() }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,

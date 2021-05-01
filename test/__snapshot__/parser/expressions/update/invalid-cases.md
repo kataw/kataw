@@ -43,7 +43,6 @@ new new foo().bar++;
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -84,7 +83,6 @@ new new foo().bar++;
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "\n\nfoo",
                         "flags": 96,
@@ -96,7 +94,6 @@ new new foo().bar++;
                         "elements": [
                             {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
@@ -137,7 +134,6 @@ new new foo().bar++;
                         "kind": 130,
                         "member": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "\n\nfoo",
                             "flags": 96,
@@ -146,7 +142,6 @@ new new foo().bar++;
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -193,7 +188,6 @@ new new foo().bar++;
                         "kind": 129,
                         "member": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "\n\nfoo",
                             "flags": 96,
@@ -202,7 +196,6 @@ new new foo().bar++;
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -265,7 +258,6 @@ new new foo().bar++;
                                             },
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -278,7 +270,6 @@ new new foo().bar++;
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -291,7 +282,6 @@ new new foo().bar++;
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
@@ -326,7 +316,6 @@ new new foo().bar++;
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
@@ -345,7 +334,6 @@ new new foo().bar++;
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -396,7 +384,6 @@ new new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": " foo",
                         "flags": 96,
@@ -453,7 +440,6 @@ new new foo().bar++;
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -479,7 +465,6 @@ new new foo().bar++;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "bar",
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
@@ -507,7 +492,6 @@ new new foo().bar++;
                         "kind": 163,
                         "label": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -535,8 +519,7 @@ new new foo().bar++;
                             "expression": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "original": "1",
-                                "rawText": " 1",
+                                "rawText": "1",
                                 "flags": 96,
                                 "start": 131,
                                 "end": 133

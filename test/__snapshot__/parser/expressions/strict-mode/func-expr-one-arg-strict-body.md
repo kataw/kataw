@@ -37,7 +37,6 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
-                        "original": "f",
                         "text": "f",
                         "rawText": " f",
                         "flags": 96,
@@ -52,7 +51,6 @@
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -80,7 +78,6 @@
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "original": "\"use strict\"",
                                     "rawText": "\"use strict\"",
                                     "flags": 96,
                                     "start": 15,

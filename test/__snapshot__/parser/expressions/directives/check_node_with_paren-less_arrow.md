@@ -28,7 +28,6 @@ x => { "use strict"; }
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -45,8 +44,7 @@ x => { "use strict"; }
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "original": "\"use strict\"",
-                                "rawText": " \"use strict\"",
+                                "rawText": "\"use strict\"",
                                 "flags": 96,
                                 "start": 6,
                                 "end": 19

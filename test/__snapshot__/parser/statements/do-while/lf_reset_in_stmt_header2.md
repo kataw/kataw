@@ -26,7 +26,6 @@ while(y
             },
             "expression": {
                 "kind": 134299649,
-                "original": "y",
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
@@ -58,7 +57,6 @@ while(y
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -101,7 +99,6 @@ while(y
                     "kind": 120,
                     "expression": {
                         "kind": 134299649,
-                        "original": "n",
                         "text": "n",
                         "rawText": " n",
                         "flags": 96,

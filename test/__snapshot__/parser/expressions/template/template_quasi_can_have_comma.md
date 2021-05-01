@@ -38,7 +38,6 @@
                                 "expressions": [
                                     {
                                         "kind": 134299649,
-                                        "original": "y",
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
@@ -48,7 +47,6 @@
                                     {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "original": "0",
                                         "rawText": "0",
                                         "flags": 96,
                                         "start": 5,

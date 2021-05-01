@@ -31,7 +31,6 @@ class get {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "get",
                 "text": "get",
                 "rawText": " get",
                 "flags": 96,

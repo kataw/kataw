@@ -66,7 +66,6 @@ type overloads2 = {
             },
             "name": {
                 "kind": 134299649,
-                "original": "union",
                 "text": "union",
                 "rawText": " union",
                 "flags": 96,
@@ -85,7 +84,6 @@ type overloads2 = {
                                 "kind": 193,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "type",
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 96,
@@ -120,7 +118,6 @@ type overloads2 = {
                                 "kind": 193,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "type",
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 96,
@@ -169,7 +166,6 @@ type overloads2 = {
             },
             "name": {
                 "kind": 134299649,
-                "original": "overloads",
                 "text": "overloads",
                 "rawText": " overloads",
                 "flags": 96,
@@ -191,7 +187,6 @@ type overloads2 = {
                                     "ellipsisToken": null,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -236,7 +231,6 @@ type overloads2 = {
                                     "ellipsisToken": null,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -292,7 +286,6 @@ type overloads2 = {
             },
             "name": {
                 "kind": 134299649,
-                "original": "union2",
                 "text": "union2",
                 "rawText": " union2",
                 "flags": 96,
@@ -308,7 +301,6 @@ type overloads2 = {
                         "kind": 193,
                         "key": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "\n  x",
                             "flags": 96,
@@ -325,7 +317,6 @@ type overloads2 = {
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,
@@ -360,7 +351,6 @@ type overloads2 = {
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,
@@ -423,7 +413,6 @@ type overloads2 = {
             },
             "name": {
                 "kind": 134299649,
-                "original": "overloads2",
                 "text": "overloads2",
                 "rawText": " overloads2",
                 "flags": 96,
@@ -439,7 +428,6 @@ type overloads2 = {
                         "kind": 193,
                         "key": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "\n  x",
                             "flags": 96,
@@ -456,7 +444,6 @@ type overloads2 = {
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,
@@ -491,7 +478,6 @@ type overloads2 = {
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,

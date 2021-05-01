@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -49,7 +48,6 @@
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -75,7 +73,6 @@
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
@@ -90,7 +87,6 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -101,7 +97,6 @@
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
-                                            "original": "await",
                                             "text": "await",
                                             "rawText": " await",
                                             "flags": 96,

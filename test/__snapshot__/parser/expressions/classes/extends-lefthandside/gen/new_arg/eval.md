@@ -31,7 +31,6 @@ new eval
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "eval",
                     "text": "eval",
                     "rawText": " eval",
                     "flags": 96,

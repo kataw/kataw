@@ -31,7 +31,6 @@ class x {implements(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -56,7 +55,6 @@ class x {implements(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "implements",
                                 "text": "implements",
                                 "rawText": "implements",
                                 "flags": 96,

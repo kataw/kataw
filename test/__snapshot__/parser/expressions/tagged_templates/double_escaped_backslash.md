@@ -22,7 +22,6 @@ tag`\\\ `;
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
-                    "original": "tag",
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 96,
@@ -51,7 +50,6 @@ tag`\\\ `;
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
-                    "original": "tag",
                     "text": "tag",
                     "rawText": "\ntag",
                     "flags": 96,

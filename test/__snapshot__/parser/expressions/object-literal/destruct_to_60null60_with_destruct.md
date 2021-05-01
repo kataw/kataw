@@ -21,7 +21,6 @@ s = {"foo": null = x} = x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "s",
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
@@ -64,7 +63,6 @@ s = {"foo": null = x} = x
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -78,7 +76,6 @@ s = {"foo": null = x} = x
                                     "right": {
                                         "kind": 201392131,
                                         "text": "foo",
-                                        "original": "\"foo\"",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 5,
@@ -106,7 +103,6 @@ s = {"foo": null = x} = x
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,

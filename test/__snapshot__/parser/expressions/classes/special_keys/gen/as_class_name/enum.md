@@ -31,7 +31,6 @@ class enum {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "enum",
                 "text": "enum",
                 "rawText": " enum",
                 "flags": 96,

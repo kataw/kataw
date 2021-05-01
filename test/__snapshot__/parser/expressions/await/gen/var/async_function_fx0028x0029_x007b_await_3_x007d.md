@@ -35,7 +35,6 @@ var await; var f = (async function() { async function f() { await 3; } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { async function f() { await 3; } });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -133,7 +131,6 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
-                                                    "original": "f",
                                                     "text": "f",
                                                     "rawText": " f",
                                                     "flags": 96,
@@ -167,8 +164,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                                     "expression": {
                                                                         "kind": 201392130,
                                                                         "text": 3,
-                                                                        "original": "3",
-                                                                        "rawText": " 3",
+                                                                        "rawText": "3",
                                                                         "flags": 96,
                                                                         "start": 65,
                                                                         "end": 67

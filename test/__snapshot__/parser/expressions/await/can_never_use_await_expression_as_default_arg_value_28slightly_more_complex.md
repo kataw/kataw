@@ -28,7 +28,6 @@ function call(foo= 5 + (await bar())){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "call",
                 "text": "call",
                 "rawText": " call",
                 "flags": 96,
@@ -43,7 +42,6 @@ function call(foo= 5 + (await bar())){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -57,8 +55,7 @@ function call(foo= 5 + (await bar())){}
                             "left": {
                                 "kind": 201392130,
                                 "text": 5,
-                                "original": "5",
-                                "rawText": " 5",
+                                "rawText": "5",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 20
@@ -94,7 +91,6 @@ function call(foo= 5 + (await bar())){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": " bar",
                             "flags": 96,

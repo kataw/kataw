@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -46,7 +45,6 @@
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -81,7 +79,6 @@
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
@@ -97,7 +94,6 @@
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -126,7 +122,6 @@
                                                                         "kind": 131,
                                                                         "expression": {
                                                                             "kind": 134299649,
-                                                                            "original": "t",
                                                                             "text": "t",
                                                                             "rawText": " t",
                                                                             "flags": 96,
@@ -146,7 +141,6 @@
                                                                                     },
                                                                                     "expression": {
                                                                                         "kind": 134299649,
-                                                                                        "original": "bar",
                                                                                         "text": "bar",
                                                                                         "rawText": " bar",
                                                                                         "flags": 96,
@@ -169,7 +163,6 @@
                                                                     },
                                                                     "right": {
                                                                         "kind": 134299649,
-                                                                        "original": "m",
                                                                         "text": "m",
                                                                         "rawText": "m",
                                                                         "flags": 96,

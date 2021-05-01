@@ -46,7 +46,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": " a",
                                     "flags": 96,
@@ -81,7 +80,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -96,7 +94,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "get",
                 "text": "get",
                 "rawText": " get",
                 "flags": 96,

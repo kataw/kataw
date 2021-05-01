@@ -19,7 +19,6 @@ label: async function () {}
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "label",
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,

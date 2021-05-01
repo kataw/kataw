@@ -34,7 +34,6 @@ new oh,no
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "oh",
                             "text": "oh",
                             "rawText": " oh",
                             "flags": 96,
@@ -48,7 +47,6 @@ new oh,no
                     },
                     {
                         "kind": 134299649,
-                        "original": "no",
                         "text": "no",
                         "rawText": "no",
                         "flags": 96,

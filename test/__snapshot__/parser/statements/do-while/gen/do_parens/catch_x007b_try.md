@@ -34,7 +34,6 @@ do( catch { try while
                     "properties": [
                         {
                             "kind": 134299649,
-                            "original": "try",
                             "text": "try",
                             "rawText": " try",
                             "flags": 96,
@@ -43,7 +42,6 @@ do( catch { try while
                         },
                         {
                             "kind": 134299649,
-                            "original": "while",
                             "text": "while",
                             "rawText": " while",
                             "flags": 96,

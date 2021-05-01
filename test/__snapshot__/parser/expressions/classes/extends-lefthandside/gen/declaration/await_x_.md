@@ -33,9 +33,8 @@ x; {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,7 +50,6 @@ x; {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": " await",
                     "flags": 96,
@@ -78,7 +76,6 @@ x; {}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "\nx",
                 "flags": 96,

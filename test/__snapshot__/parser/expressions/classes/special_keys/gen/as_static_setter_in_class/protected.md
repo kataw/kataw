@@ -31,7 +31,6 @@ class x {static set protected(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static set protected(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "protected",
                                 "text": "protected",
                                 "rawText": " protected",
                                 "flags": 96,
@@ -82,7 +80,6 @@ class x {static set protected(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

@@ -87,7 +87,6 @@ for (function(){ if (a in b); }.prop in x);
                                         "kind": 198,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -102,7 +101,6 @@ for (function(){ if (a in b); }.prop in x);
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": " b",
                                             "flags": 96,
@@ -142,7 +140,6 @@ for (function(){ if (a in b); }.prop in x);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "prop",
                     "text": "prop",
                     "rawText": "prop",
                     "flags": 96,
@@ -155,7 +152,6 @@ for (function(){ if (a in b); }.prop in x);
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

@@ -32,7 +32,6 @@ await => async
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
@@ -43,7 +42,6 @@ await => async
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "async",
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,

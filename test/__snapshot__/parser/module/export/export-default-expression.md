@@ -42,7 +42,6 @@ export default (1 + 2);
                     "left": {
                         "kind": 201392130,
                         "text": 1,
-                        "original": "1",
                         "rawText": "1",
                         "flags": 96,
                         "start": 16,
@@ -57,8 +56,7 @@ export default (1 + 2);
                     "right": {
                         "kind": 201392130,
                         "text": 2,
-                        "original": "2",
-                        "rawText": " 2",
+                        "rawText": "2",
                         "flags": 96,
                         "start": 19,
                         "end": 21

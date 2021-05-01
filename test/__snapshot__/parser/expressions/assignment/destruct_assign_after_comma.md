@@ -28,7 +28,6 @@ x, [foo, bar] = doo;
                 "expressions": [
                     {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -44,7 +43,6 @@ x, [foo, bar] = doo;
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -53,7 +51,6 @@ x, [foo, bar] = doo;
                                     },
                                     {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": " bar",
                                         "flags": 96,
@@ -78,7 +75,6 @@ x, [foo, bar] = doo;
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "doo",
                             "text": "doo",
                             "rawText": " doo",
                             "flags": 96,

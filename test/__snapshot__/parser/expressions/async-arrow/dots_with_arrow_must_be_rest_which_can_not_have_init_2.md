@@ -19,7 +19,6 @@ async (a, ...true=b) => a;
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -31,7 +30,6 @@ async (a, ...true=b) => a;
                 "elements": [
                     {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -64,7 +62,6 @@ async (a, ...true=b) => a;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,

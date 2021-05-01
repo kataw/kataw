@@ -33,7 +33,6 @@ function* foo(a = function* foo() { yield b }) {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -48,7 +47,6 @@ function* foo(a = function* foo() { yield b }) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -74,7 +72,6 @@ function* foo(a = function* foo() { yield b }) {}
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -109,7 +106,6 @@ function* foo(a = function* foo() { yield b }) {}
                                                 "asteriskToken": null,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "b",
                                                     "text": "b",
                                                     "rawText": " b",
                                                     "flags": 96,

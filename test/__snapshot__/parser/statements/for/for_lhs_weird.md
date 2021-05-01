@@ -57,7 +57,6 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "w",
                         "text": "w",
                         "rawText": "w",
                         "flags": 96,
@@ -76,7 +75,6 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "s",
                     "text": "s",
                     "rawText": " s",
                     "flags": 96,
@@ -93,7 +91,6 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -136,7 +133,6 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -155,7 +151,6 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "p",
                     "text": "p",
                     "rawText": " p",
                     "flags": 96,
@@ -172,7 +167,6 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -215,7 +209,6 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "u",
                         "text": "u",
                         "rawText": "u",
                         "flags": 96,
@@ -234,7 +227,6 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -251,7 +243,6 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -294,7 +285,6 @@ for ({}[y] ^= x;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -313,7 +303,6 @@ for ({}[y] ^= x;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -330,7 +319,6 @@ for ({}[y] ^= x;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

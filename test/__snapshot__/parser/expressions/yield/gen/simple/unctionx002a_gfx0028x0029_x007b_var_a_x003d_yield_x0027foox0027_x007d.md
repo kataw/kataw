@@ -25,7 +25,6 @@ unction* gf() { var a = yield 'foo'; }
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "unction",
                     "text": "unction",
                     "rawText": "unction",
                     "flags": 96,
@@ -42,7 +41,6 @@ unction* gf() { var a = yield 'foo'; }
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "gf",
                         "text": "gf",
                         "rawText": " gf",
                         "flags": 96,
@@ -90,7 +88,6 @@ unction* gf() { var a = yield 'foo'; }
                                     "kind": 157,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": " a",
                                         "flags": 96,
@@ -101,7 +98,6 @@ unction* gf() { var a = yield 'foo'; }
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,
@@ -126,8 +122,7 @@ unction* gf() { var a = yield 'foo'; }
                         "expression": {
                             "kind": 201392131,
                             "text": "foo",
-                            "original": "'foo'",
-                            "rawText": " 'foo'",
+                            "rawText": "'foo'",
                             "flags": 4194400,
                             "start": 29,
                             "end": 35

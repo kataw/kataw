@@ -427,7 +427,6 @@ x = # ;
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -461,7 +460,6 @@ x = # ;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "baz",
                     "text": "baz",
                     "rawText": " baz",
                     "flags": 96,

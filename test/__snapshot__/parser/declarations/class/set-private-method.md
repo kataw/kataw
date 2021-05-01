@@ -35,9 +35,8 @@ class C { set #aaa(x){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -79,7 +78,6 @@ class C { set #aaa(x){} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

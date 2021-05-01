@@ -35,7 +35,6 @@
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
-                        "original": "call",
                         "text": "call",
                         "rawText": " call",
                         "flags": 96,
@@ -50,7 +49,6 @@
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -61,7 +59,6 @@
                                 "type": null,
                                 "initializer": {
                                     "kind": 134299649,
-                                    "original": "await",
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,

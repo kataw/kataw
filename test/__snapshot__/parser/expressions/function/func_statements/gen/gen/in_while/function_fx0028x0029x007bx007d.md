@@ -29,7 +29,6 @@ while (x) function f(){}
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -49,7 +48,6 @@ while (x) function f(){}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": " f",
                     "flags": 96,

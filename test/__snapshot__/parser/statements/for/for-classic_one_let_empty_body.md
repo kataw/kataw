@@ -38,7 +38,6 @@ for (let a;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,

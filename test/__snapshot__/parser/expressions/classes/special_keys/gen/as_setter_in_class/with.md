@@ -31,7 +31,6 @@ class x {set with(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {set with(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "with",
                                 "text": "with",
                                 "rawText": " with",
                                 "flags": 96,
@@ -77,7 +75,6 @@ class x {set with(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

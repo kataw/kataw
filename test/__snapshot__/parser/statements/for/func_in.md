@@ -73,7 +73,6 @@ for (function(){ a in b; };;);
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": " a",
                                         "flags": 96,
@@ -88,7 +87,6 @@ for (function(){ a in b; };;);
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": " b",
                                         "flags": 96,

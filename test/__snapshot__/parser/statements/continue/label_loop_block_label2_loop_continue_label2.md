@@ -19,7 +19,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -60,7 +59,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "z",
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
@@ -82,7 +80,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                 "kind": 163,
                                 "label": {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": " bar",
                                     "flags": 96,
@@ -123,7 +120,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "z",
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
@@ -146,7 +142,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         },
                                         "label": {
                                             "kind": 134299649,
-                                            "original": "bar",
                                             "text": "bar",
                                             "rawText": " bar",
                                             "flags": 96,

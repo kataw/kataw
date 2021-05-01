@@ -29,7 +29,6 @@
                 "parameters": [
                     {
                         "kind": 134299649,
-                        "original": "static",
                         "text": "static",
                         "rawText": "static",
                         "flags": 96,
@@ -41,7 +40,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,

@@ -45,9 +45,8 @@ async( x = class { x = await });
                 },
                 "name": {
                     "kind": 134299649,
-                    "original": "C",
                     "text": "C",
-                    "rawText": " C",
+                    "rawText": "C",
                     "flags": 96,
                     "start": 17,
                     "end": 19
@@ -65,7 +64,6 @@ async( x = class { x = await });
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
-                                "original": "aaa",
                                 "text": "aaa",
                                 "rawText": " aaa",
                                 "flags": 96,
@@ -120,7 +118,6 @@ async( x = class { x = await });
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -134,7 +131,6 @@ async( x = class { x = await });
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -170,7 +166,6 @@ async( x = class { x = await });
                                         "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -181,7 +176,6 @@ async( x = class { x = await });
                                         "type": null,
                                         "initializer": {
                                             "kind": 134299649,
-                                            "original": "await",
                                             "text": "await",
                                             "rawText": " await",
                                             "flags": 96,

@@ -42,7 +42,6 @@ result = [[x]] = vals;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -81,7 +80,6 @@ result = [[x]] = vals;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "result",
                             "text": "result",
                             "rawText": " result",
                             "flags": 96,
@@ -120,7 +118,6 @@ result = [[x]] = vals;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "vals",
                             "text": "vals",
                             "rawText": " vals",
                             "flags": 96,
@@ -142,7 +139,6 @@ result = [[x]] = vals;
                                                 {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
                                                     "rawText": "1",
                                                     "flags": 96,
                                                     "start": 33,
@@ -187,7 +183,6 @@ result = [[x]] = vals;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "\n\nresult",
                     "flags": 96,
@@ -214,7 +209,6 @@ result = [[x]] = vals;
                                         "elements": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -249,7 +243,6 @@ result = [[x]] = vals;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "vals",
                         "text": "vals",
                         "rawText": " vals",
                         "flags": 96,

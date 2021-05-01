@@ -21,7 +21,6 @@ x[super.foo]
                 "kind": 130,
                 "member": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -44,7 +43,6 @@ x[super.foo]
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,

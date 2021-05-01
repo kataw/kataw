@@ -31,7 +31,6 @@ for (x of y) continue
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -40,7 +39,6 @@ for (x of y) continue
             },
             "expression": {
                 "kind": 134299649,
-                "original": "y",
                 "text": "y",
                 "rawText": " y",
                 "flags": 96,

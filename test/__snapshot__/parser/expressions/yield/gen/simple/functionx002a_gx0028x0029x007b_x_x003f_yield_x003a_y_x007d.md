@@ -37,7 +37,6 @@ function* g(){ x ? yield : y }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": " g",
                 "flags": 96,
@@ -64,7 +63,6 @@ function* g(){ x ? yield : y }
                                 "kind": 197,
                                 "shortCircuit": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -100,7 +98,6 @@ function* g(){ x ? yield : y }
                                 },
                                 "alternate": {
                                     "kind": 134299649,
-                                    "original": "y",
                                     "text": "y",
                                     "rawText": " y",
                                     "flags": 96,

@@ -28,7 +28,6 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
-                            "original": "crazy",
                             "text": "crazy",
                             "rawText": " crazy",
                             "flags": 96,
@@ -43,7 +42,6 @@
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
-                            "original": "input",
                             "text": "input",
                             "rawText": " input",
                             "flags": 96,
@@ -59,8 +57,7 @@
                         "expression": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
-                            "rawText": " 1",
+                            "rawText": "1",
                             "flags": 96,
                             "start": 13,
                             "end": 15

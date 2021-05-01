@@ -62,7 +62,6 @@ const [...foo] = obj;
                                         },
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -90,7 +89,6 @@ const [...foo] = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,

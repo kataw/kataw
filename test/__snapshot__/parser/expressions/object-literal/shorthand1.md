@@ -21,7 +21,6 @@ x = { y, z }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -41,7 +40,6 @@ x = { y, z }
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "y",
                                 "text": "y",
                                 "rawText": " y",
                                 "flags": 96,
@@ -50,7 +48,6 @@ x = { y, z }
                             },
                             {
                                 "kind": 134299649,
-                                "original": "z",
                                 "text": "z",
                                 "rawText": " z",
                                 "flags": 96,

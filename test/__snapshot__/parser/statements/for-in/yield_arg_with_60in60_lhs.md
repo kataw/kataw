@@ -52,7 +52,6 @@ function *f(){   for (yield x in y in z);   }
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -99,7 +98,6 @@ function *f(){   for (yield x in y in z);   }
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -114,7 +112,6 @@ function *f(){   for (yield x in y in z);   }
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "y",
                                     "text": "y",
                                     "rawText": " y",
                                     "flags": 96,
@@ -129,7 +126,6 @@ function *f(){   for (yield x in y in z);   }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "z",
                                     "text": "z",
                                     "rawText": " z",
                                     "flags": 96,

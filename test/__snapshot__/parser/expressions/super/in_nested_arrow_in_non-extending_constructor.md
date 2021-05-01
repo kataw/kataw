@@ -27,7 +27,6 @@ class x { constructor(){ return () => () => super.foo; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -52,7 +51,6 @@ class x { constructor(){ return () => () => super.foo; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -123,7 +121,6 @@ class x { constructor(){ return () => () => super.foo; }}
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
-                                                            "original": "foo",
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,

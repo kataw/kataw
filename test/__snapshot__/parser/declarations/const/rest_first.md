@@ -59,7 +59,6 @@ const ...a = 1;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -75,8 +74,7 @@ const ...a = 1;
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "original": "1",
-                    "rawText": " 1",
+                    "rawText": "1",
                     "flags": 96,
                     "start": 12,
                     "end": 14

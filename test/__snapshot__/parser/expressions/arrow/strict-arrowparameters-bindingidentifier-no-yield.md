@@ -20,7 +20,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -46,7 +45,6 @@
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -66,7 +64,6 @@
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
-                                "original": "yield",
                                 "text": "yield",
                                 "rawText": " yield",
                                 "flags": 96,
@@ -78,8 +75,7 @@
                             "contents": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "original": "1",
-                                "rawText": " 1",
+                                "rawText": "1",
                                 "flags": 96,
                                 "start": 30,
                                 "end": 32

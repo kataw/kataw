@@ -29,7 +29,6 @@ function f(x=super.foo){ }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -44,7 +43,6 @@ function f(x=super.foo){ }
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -69,7 +67,6 @@ function f(x=super.foo){ }
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,

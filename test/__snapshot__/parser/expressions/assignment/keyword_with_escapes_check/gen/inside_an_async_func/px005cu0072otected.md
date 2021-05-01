@@ -48,7 +48,6 @@ async () => {  p\u0072otected = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "p\\u0072otected",
                                     "text": "protected",
                                     "rawText": "  p\\u0072otected",
                                     "flags": 96,
@@ -63,7 +62,6 @@ async () => {  p\u0072otected = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

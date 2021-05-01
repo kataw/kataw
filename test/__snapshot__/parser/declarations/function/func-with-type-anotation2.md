@@ -36,7 +36,6 @@ function foo(numVal: any, otherVal: mixed){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -51,7 +50,6 @@ function foo(numVal: any, otherVal: mixed){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "numVal",
                             "text": "numVal",
                             "rawText": "numVal",
                             "flags": 96,
@@ -81,7 +79,6 @@ function foo(numVal: any, otherVal: mixed){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "otherVal",
                             "text": "otherVal",
                             "rawText": " otherVal",
                             "flags": 96,
@@ -95,7 +92,6 @@ function foo(numVal: any, otherVal: mixed){}
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "mixed",
                                     "text": "mixed",
                                     "rawText": " mixed",
                                     "flags": 96,

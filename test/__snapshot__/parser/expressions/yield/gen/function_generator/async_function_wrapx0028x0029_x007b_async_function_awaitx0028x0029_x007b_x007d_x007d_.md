@@ -37,7 +37,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -110,7 +108,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "wrap",
                                                 "text": "wrap",
                                                 "rawText": " wrap",
                                                 "flags": 96,
@@ -149,7 +146,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                             "generatorToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
-                                                                "original": "await",
                                                                 "text": "await",
                                                                 "rawText": " await",
                                                                 "flags": 96,

@@ -31,7 +31,6 @@ test
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "test",
                     "text": "test",
                     "rawText": "test",
                     "flags": 96,
@@ -59,7 +58,6 @@ test
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -73,9 +71,8 @@ test
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "original": "T",
                                         "text": "T",
-                                        "rawText": " T",
+                                        "rawText": "T",
                                         "flags": 96,
                                         "start": 12,
                                         "end": 14
@@ -102,9 +99,8 @@ test
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "original": "U",
                                 "text": "U",
-                                "rawText": " U",
+                                "rawText": "U",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 18
@@ -120,7 +116,6 @@ test
                     },
                     "contents": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": " y",
                         "flags": 96,
@@ -139,7 +134,6 @@ test
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "z",
                     "text": "z",
                     "rawText": " z",
                     "flags": 96,

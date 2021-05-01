@@ -38,7 +38,6 @@
                                             "properties": [
                                                 {
                                                     "kind": 134299649,
-                                                    "original": "if",
                                                     "text": "if",
                                                     "rawText": "if",
                                                     "flags": 96,

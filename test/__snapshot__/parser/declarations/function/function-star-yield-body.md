@@ -33,7 +33,6 @@ function* bar() { yield /re/ }
             },
             "name": {
                 "kind": 134299649,
-                "original": "bar",
                 "text": "bar",
                 "rawText": " bar",
                 "flags": 96,
@@ -83,7 +82,6 @@ function* bar() { yield /re/ }
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "re",
                                         "text": "re",
                                         "rawText": "re",
                                         "flags": 96,

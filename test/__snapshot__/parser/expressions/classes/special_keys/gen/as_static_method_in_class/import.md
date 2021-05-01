@@ -31,7 +31,6 @@ class x {static import(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {static import(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "import",
                                 "text": "import",
                                 "rawText": " import",
                                 "flags": 96,

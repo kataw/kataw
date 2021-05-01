@@ -47,7 +47,6 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -59,8 +58,7 @@ var [x = 10, y, z] = a;
                                         "initializer": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "original": "10",
-                                            "rawText": " 10",
+                                            "rawText": "10",
                                             "flags": 96,
                                             "start": 8,
                                             "end": 11
@@ -74,7 +72,6 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "y",
                                             "text": "y",
                                             "rawText": " y",
                                             "flags": 96,
@@ -93,7 +90,6 @@ var [x = 10, y, z] = a;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "z",
                                             "text": "z",
                                             "rawText": " z",
                                             "flags": 96,
@@ -121,7 +117,6 @@ var [x = 10, y, z] = a;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,

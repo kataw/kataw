@@ -22,8 +22,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "// one comment\n/* two\n comment */ \"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 0,
                 "end": 46
@@ -42,7 +41,6 @@
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -53,7 +51,6 @@
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,

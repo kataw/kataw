@@ -30,7 +30,6 @@ wrap({0o4432(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -50,7 +49,6 @@ wrap({0o4432(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "original": "0",
                                             "rawText": "0",
                                             "flags": 96,
                                             "start": 6,
@@ -114,7 +112,6 @@ wrap({0o4432(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "\n\nwrap",
                     "flags": 96,
@@ -134,7 +131,6 @@ wrap({0o4432(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "original": "1",
                                             "rawText": "1",
                                             "flags": 96,
                                             "start": 22,
@@ -198,7 +194,6 @@ wrap({0o4432(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "\n\nwrap",
                     "flags": 96,
@@ -218,7 +213,6 @@ wrap({0o4432(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 2310709,
-                                            "original": "0x234235",
                                             "rawText": "0x234235",
                                             "flags": 1048672,
                                             "start": 38,
@@ -282,7 +276,6 @@ wrap({0o4432(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "\n\nwrap",
                     "flags": 96,
@@ -302,7 +295,6 @@ wrap({0o4432(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "original": "0b01010",
                                             "rawText": "0b01010",
                                             "flags": 524384,
                                             "start": 61,
@@ -366,7 +358,6 @@ wrap({0o4432(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "\n\nwrap",
                     "flags": 96,
@@ -386,7 +377,6 @@ wrap({0o4432(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 2330,
-                                            "original": "0o4432",
                                             "rawText": "0o4432",
                                             "flags": 262240,
                                             "start": 83,

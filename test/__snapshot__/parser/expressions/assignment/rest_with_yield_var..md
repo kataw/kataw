@@ -34,7 +34,6 @@
                                 },
                                 "argument": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -63,7 +62,6 @@
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "obj",
                     "text": "obj",
                     "rawText": " obj",
                     "flags": 96,

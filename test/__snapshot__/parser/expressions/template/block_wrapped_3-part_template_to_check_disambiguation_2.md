@@ -40,7 +40,6 @@
                                         "text": "foo ",
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -57,7 +56,6 @@
                                         "text": " and ",
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -90,7 +88,6 @@
                                                         "text": "w ",
                                                         "expression": {
                                                             "kind": 134299649,
-                                                            "original": "d",
                                                             "text": "d",
                                                             "rawText": "d",
                                                             "flags": 96,
@@ -107,7 +104,6 @@
                                                         "text": " x ",
                                                         "expression": {
                                                             "kind": 134299649,
-                                                            "original": "e",
                                                             "text": "e",
                                                             "rawText": "e",
                                                             "flags": 96,
@@ -124,7 +120,6 @@
                                                         "text": " y ",
                                                         "expression": {
                                                             "kind": 134299649,
-                                                            "original": "f",
                                                             "text": "f",
                                                             "rawText": "f",
                                                             "flags": 96,

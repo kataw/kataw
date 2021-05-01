@@ -31,7 +31,6 @@
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "t",
                             "text": "t",
                             "rawText": "t",
                             "flags": 96,
@@ -48,7 +47,6 @@
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,

@@ -21,7 +21,6 @@ x = {a:b, c} = obj;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -49,7 +48,6 @@ x = {a:b, c} = obj;
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -58,7 +56,6 @@ x = {a:b, c} = obj;
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -71,7 +68,6 @@ x = {a:b, c} = obj;
                                 },
                                 {
                                     "kind": 134299649,
-                                    "original": "c",
                                     "text": "c",
                                     "rawText": " c",
                                     "flags": 96,
@@ -96,7 +92,6 @@ x = {a:b, c} = obj;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "obj",
                         "text": "obj",
                         "rawText": " obj",
                         "flags": 96,

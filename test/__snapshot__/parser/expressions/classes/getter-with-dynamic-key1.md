@@ -33,7 +33,6 @@ class x {static *[y](){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -70,7 +69,6 @@ class x {static *[y](){}}
                                 "kind": 194,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "y",
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,

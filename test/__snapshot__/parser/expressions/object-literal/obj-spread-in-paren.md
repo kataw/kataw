@@ -30,7 +30,6 @@
                             "properties": [
                                 {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -47,7 +46,6 @@
                                     },
                                     "argument": {
                                         "kind": 134299649,
-                                        "original": "obj",
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
@@ -76,7 +74,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": " foo",
                         "flags": 96,
@@ -114,7 +111,6 @@
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -123,7 +119,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -144,7 +139,6 @@
                                     },
                                     "argument": {
                                         "kind": 134299649,
-                                        "original": "obj",
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
@@ -173,7 +167,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": " foo",
                         "flags": 96,

@@ -28,7 +28,6 @@ do {} while ((""));
                 "expression": {
                     "kind": 201392131,
                     "text": "",
-                    "original": "\"\"",
                     "rawText": "\"\"",
                     "flags": 96,
                     "start": 14,

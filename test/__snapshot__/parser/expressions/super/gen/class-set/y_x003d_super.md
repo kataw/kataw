@@ -31,9 +31,8 @@ class C { set x(_) { y = super } }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -61,7 +60,6 @@ class C { set x(_) { y = super } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -77,7 +75,6 @@ class C { set x(_) { y = super } }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "_",
                                             "text": "_",
                                             "rawText": "_",
                                             "flags": 96,
@@ -110,7 +107,6 @@ class C { set x(_) { y = super } }
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "y",
                                                     "text": "y",
                                                     "rawText": " y",
                                                     "flags": 96,

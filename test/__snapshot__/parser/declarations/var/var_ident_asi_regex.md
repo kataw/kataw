@@ -51,7 +51,6 @@ var q
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "q",
                             "text": "q",
                             "rawText": " q",
                             "flags": 96,
@@ -95,7 +94,6 @@ var q
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "d",
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,

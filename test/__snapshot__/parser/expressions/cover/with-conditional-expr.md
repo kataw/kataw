@@ -37,7 +37,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,

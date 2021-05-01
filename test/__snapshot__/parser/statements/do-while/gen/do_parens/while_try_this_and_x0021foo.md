@@ -107,7 +107,6 @@ do( while try this and !foo while
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "and",
                 "text": "and",
                 "rawText": " and",
                 "flags": 96,
@@ -130,7 +129,6 @@ do( while try this and !foo while
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,

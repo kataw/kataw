@@ -51,7 +51,6 @@ for ([][y] <<= p;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -70,7 +69,6 @@ for ([][y] <<= p;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "p",
                     "text": "p",
                     "rawText": " p",
                     "flags": 96,
@@ -87,7 +85,6 @@ for ([][y] <<= p;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

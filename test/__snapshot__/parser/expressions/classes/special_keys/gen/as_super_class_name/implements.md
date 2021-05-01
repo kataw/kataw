@@ -31,7 +31,6 @@ class x extends implements {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends implements {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "implements",
                     "text": "implements",
                     "rawText": " implements",
                     "flags": 96,

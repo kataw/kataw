@@ -25,7 +25,6 @@ yi\u0065ld: 1;
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "yi\\u0065ld",
                 "text": "yield",
                 "rawText": "yi\\u0065ld",
                 "flags": 96,
@@ -53,8 +52,7 @@ yi\u0065ld: 1;
                 "expression": {
                     "kind": 201392130,
                     "text": 1,
-                    "original": "1",
-                    "rawText": " 1",
+                    "rawText": "1",
                     "flags": 96,
                     "start": 11,
                     "end": 13

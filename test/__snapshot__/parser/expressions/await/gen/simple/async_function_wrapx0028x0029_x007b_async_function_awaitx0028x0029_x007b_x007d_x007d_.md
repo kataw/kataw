@@ -37,7 +37,6 @@ async function wrap() { async function await() { } };
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "wrap",
                 "text": "wrap",
                 "rawText": " wrap",
                 "flags": 96,
@@ -76,7 +75,6 @@ async function wrap() { async function await() { } };
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "await",
                                 "text": "await",
                                 "rawText": " await",
                                 "flags": 96,

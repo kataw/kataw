@@ -41,7 +41,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
@@ -82,7 +81,6 @@
                     },
                     "binding": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -95,7 +93,6 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -110,7 +107,6 @@
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -150,7 +146,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
@@ -194,7 +189,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
@@ -246,7 +240,6 @@
                                 },
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "abc",
                                     "text": "abc",
                                     "rawText": "abc",
                                     "flags": 96,
@@ -313,7 +306,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
@@ -425,7 +417,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,
@@ -553,7 +544,6 @@
                     },
                     "binding": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -566,7 +556,6 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
@@ -581,7 +570,6 @@
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "c",
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
@@ -621,7 +609,6 @@
                             },
                             "binding": {
                                 "kind": 134299649,
-                                "original": "abc",
                                 "text": "abc",
                                 "rawText": "abc",
                                 "flags": 96,

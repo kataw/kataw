@@ -66,7 +66,6 @@ var {} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,

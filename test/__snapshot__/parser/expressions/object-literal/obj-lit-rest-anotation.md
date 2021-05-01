@@ -47,9 +47,8 @@
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "Array",
                         "text": "Array",
-                        "rawText": " Array",
+                        "rawText": "Array",
                         "flags": 96,
                         "start": 10,
                         "end": 16
@@ -62,7 +61,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "number",
                         "text": "number",
                         "rawText": "number",
                         "flags": 96,
@@ -98,7 +96,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "rest",
                 "text": "rest",
                 "rawText": " rest",
                 "flags": 96,

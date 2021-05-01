@@ -19,7 +19,6 @@ async ({x} = y);
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -38,7 +37,6 @@ async ({x} = y);
                                 "properties": [
                                     {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -63,7 +61,6 @@ async ({x} = y);
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": " y",
                             "flags": 96,

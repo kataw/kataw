@@ -30,7 +30,6 @@ let x = async function f(foo = await){}
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -56,7 +55,6 @@ let x = async function f(foo = await){}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -71,7 +69,6 @@ let x = async function f(foo = await){}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,

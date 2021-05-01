@@ -25,7 +25,6 @@ x = {arrow: async (x, y) => ok}.y
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -63,7 +62,6 @@ x = {arrow: async (x, y) => ok}.y
                                         "parameters": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -72,7 +70,6 @@ x = {arrow: async (x, y) => ok}.y
                                             },
                                             {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": " y",
                                                 "flags": 96,
@@ -89,7 +86,6 @@ x = {arrow: async (x, y) => ok}.y
                                         "returnType": null,
                                         "contents": {
                                             "kind": 134299649,
-                                            "original": "ok",
                                             "text": "ok",
                                             "rawText": " ok",
                                             "flags": 96,
@@ -102,7 +98,6 @@ x = {arrow: async (x, y) => ok}.y
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "arrow",
                                         "text": "arrow",
                                         "rawText": "arrow",
                                         "flags": 96,
@@ -125,7 +120,6 @@ x = {arrow: async (x, y) => ok}.y
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,

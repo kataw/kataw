@@ -30,7 +30,6 @@
                             "elements": [
                                 {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -92,7 +91,6 @@
                             "properties": [
                                 {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,

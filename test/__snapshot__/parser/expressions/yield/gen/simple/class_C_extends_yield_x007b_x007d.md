@@ -31,9 +31,8 @@ class C extends yield { }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,7 +48,6 @@ class C extends yield { }
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": " yield",
                     "flags": 96,

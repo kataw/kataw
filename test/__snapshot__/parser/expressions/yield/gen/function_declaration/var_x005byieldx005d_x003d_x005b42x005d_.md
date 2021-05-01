@@ -32,7 +32,6 @@ function not_gen() { var [yield] = [42]; }}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -77,7 +76,6 @@ function not_gen() { var [yield] = [42]; }}
                                                         "ellipsisToken": null,
                                                         "binding": {
                                                             "kind": 134299649,
-                                                            "original": "yield",
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,
@@ -111,7 +109,6 @@ function not_gen() { var [yield] = [42]; }}
                                                     {
                                                         "kind": 201392130,
                                                         "text": 42,
-                                                        "original": "42",
                                                         "rawText": "42",
                                                         "flags": 96,
                                                         "start": 36,

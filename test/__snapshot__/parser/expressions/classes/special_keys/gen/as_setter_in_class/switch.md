@@ -31,7 +31,6 @@ class x {set switch(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {set switch(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "switch",
                                 "text": "switch",
                                 "rawText": " switch",
                                 "flags": 96,
@@ -77,7 +75,6 @@ class x {set switch(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

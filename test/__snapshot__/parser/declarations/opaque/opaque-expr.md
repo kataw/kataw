@@ -39,7 +39,6 @@ opaque += 4;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "opaque",
                             "text": "opaque",
                             "rawText": " opaque",
                             "flags": 96,
@@ -51,8 +50,7 @@ opaque += 4;
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 12,
                             "end": 14
@@ -76,7 +74,6 @@ opaque += 4;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "opaque",
                     "text": "opaque",
                     "rawText": "\nopaque",
                     "flags": 96,
@@ -92,8 +89,7 @@ opaque += 4;
                 "right": {
                     "kind": 201392130,
                     "text": 4,
-                    "original": "4",
-                    "rawText": " 4",
+                    "rawText": "4",
                     "flags": 96,
                     "start": 25,
                     "end": 27

@@ -40,7 +40,6 @@ for ({bar} in x) ;
                     "properties": [
                         {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -59,7 +58,6 @@ for ({bar} in x) ;
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

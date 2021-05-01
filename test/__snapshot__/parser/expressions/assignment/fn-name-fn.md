@@ -34,7 +34,6 @@ fn = function() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "xFn",
                             "text": "xFn",
                             "rawText": " xFn",
                             "flags": 96,
@@ -52,7 +51,6 @@ fn = function() {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "fn",
                             "text": "fn",
                             "rawText": " fn",
                             "flags": 96,
@@ -81,7 +79,6 @@ fn = function() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "xFn",
                     "text": "xFn",
                     "rawText": "\n\nxFn",
                     "flags": 96,
@@ -106,7 +103,6 @@ fn = function() {};
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,
@@ -155,7 +151,6 @@ fn = function() {};
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "fn",
                     "text": "fn",
                     "rawText": "\nfn",
                     "flags": 96,

@@ -33,7 +33,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -70,7 +69,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "fail",
                                             "text": "fail",
                                             "rawText": "fail",
                                             "flags": 96,
@@ -94,9 +92,8 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "A",
                                                 "text": "A",
-                                                "rawText": " A",
+                                                "rawText": "A",
                                                 "flags": 96,
                                                 "start": 36,
                                                 "end": 38
@@ -120,7 +117,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": " foo",
                                                         "flags": 96,
@@ -156,7 +152,6 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "fail",
                                     "text": "fail",
                                     "rawText": " fail",
                                     "flags": 96,

@@ -20,7 +20,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "@{x200}@",
-                "original": "\"\\@{x200}@\"",
                 "rawText": "\"\\@{x200}@\"",
                 "flags": 96,
                 "start": 0,

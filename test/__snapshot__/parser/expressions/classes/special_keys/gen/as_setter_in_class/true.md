@@ -31,7 +31,6 @@ class x {set true(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {set true(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "true",
                                 "text": "true",
                                 "rawText": " true",
                                 "flags": 96,
@@ -77,7 +75,6 @@ class x {set true(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

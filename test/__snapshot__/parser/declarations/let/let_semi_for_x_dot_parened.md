@@ -48,7 +48,6 @@ for ((let).foo;;);
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
-                        "original": "let",
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
@@ -61,7 +60,6 @@ for ((let).foo;;);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,

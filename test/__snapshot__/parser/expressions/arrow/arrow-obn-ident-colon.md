@@ -55,7 +55,6 @@
                                                     "setKeyword": null,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": " y",
                                                         "flags": 96,
@@ -64,7 +63,6 @@
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
-                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -87,7 +85,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "ident",
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
@@ -113,7 +110,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -158,7 +154,6 @@
                                             "properties": [
                                                 {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -177,7 +172,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "ident",
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
@@ -203,7 +197,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -240,7 +233,6 @@
                                     "properties": [
                                         {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -265,7 +257,6 @@
                             },
                             "right": {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": " b",
                                 "flags": 96,

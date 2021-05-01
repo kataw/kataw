@@ -34,7 +34,6 @@ import(x,undefined)
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -47,7 +46,6 @@ import(x,undefined)
                     },
                     {
                         "kind": 134299649,
-                        "original": "undefined",
                         "text": "undefined",
                         "rawText": "undefined",
                         "flags": 96,

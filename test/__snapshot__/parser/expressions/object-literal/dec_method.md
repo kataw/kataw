@@ -21,7 +21,6 @@ x = {10(){}}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -44,7 +43,6 @@ x = {10(){}}
                                 "name": {
                                     "kind": 201392130,
                                     "text": 10,
-                                    "original": "10",
                                     "rawText": "10",
                                     "flags": 96,
                                     "start": 5,

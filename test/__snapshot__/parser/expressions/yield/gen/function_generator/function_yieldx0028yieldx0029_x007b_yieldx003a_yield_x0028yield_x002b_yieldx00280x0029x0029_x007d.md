@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -105,7 +103,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -120,7 +117,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                         "ellipsisToken": null,
                                                         "binding": {
                                                             "kind": 134299649,
-                                                            "original": "yield",
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,
@@ -150,7 +146,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                             "kind": 163,
                                                             "label": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": " yield",
                                                                 "flags": 96,
@@ -179,7 +174,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                     "kind": 131,
                                                                     "expression": {
                                                                         "kind": 134299649,
-                                                                        "original": "yield",
                                                                         "text": "yield",
                                                                         "rawText": " yield",
                                                                         "flags": 96,
@@ -193,7 +187,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                 "kind": 198,
                                                                                 "left": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "yield",
                                                                                     "text": "yield",
                                                                                     "rawText": "yield",
                                                                                     "flags": 96,
@@ -210,7 +203,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                     "kind": 131,
                                                                                     "expression": {
                                                                                         "kind": 134299649,
-                                                                                        "original": "yield",
                                                                                         "text": "yield",
                                                                                         "rawText": " yield",
                                                                                         "flags": 96,
@@ -223,7 +215,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                             {
                                                                                                 "kind": 201392130,
                                                                                                 "text": 0,
-                                                                                                "original": "0",
                                                                                                 "rawText": "0",
                                                                                                 "flags": 96,
                                                                                                 "start": 92,

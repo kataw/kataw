@@ -31,7 +31,6 @@ class x {static set this(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static set this(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "this",
                                 "text": "this",
                                 "rawText": " this",
                                 "flags": 96,
@@ -82,7 +80,6 @@ class x {static set this(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

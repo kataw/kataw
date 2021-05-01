@@ -37,7 +37,6 @@ function* gf() { +yield; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "gf",
                 "text": "gf",
                 "rawText": " gf",
                 "flags": 96,

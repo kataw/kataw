@@ -35,7 +35,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -133,7 +131,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                 "generatorToken": null,
                                                 "name": {
                                                     "kind": 134299649,
-                                                    "original": "g",
                                                     "text": "g",
                                                     "rawText": " g",
                                                     "flags": 96,
@@ -169,7 +166,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                             "kind": 190,
                                                                             "binding": {
                                                                                 "kind": 134299649,
-                                                                                "original": "o",
                                                                                 "text": "o",
                                                                                 "rawText": " o",
                                                                                 "flags": 96,
@@ -187,7 +183,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                             "kind": 209,
                                                                                             "name": {
                                                                                                 "kind": 134299649,
-                                                                                                "original": "f",
                                                                                                 "text": "f",
                                                                                                 "rawText": "f",
                                                                                                 "flags": 96,
@@ -203,7 +198,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                         "ellipsisToken": null,
                                                                                                         "binding": {
                                                                                                             "kind": 134299649,
-                                                                                                            "original": "foo",
                                                                                                             "text": "foo",
                                                                                                             "rawText": "foo",
                                                                                                             "flags": 96,
@@ -222,7 +216,6 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                             },
                                                                                                             "expression": {
                                                                                                                 "kind": 134299649,
-                                                                                                                "original": "bar",
                                                                                                                 "text": "bar",
                                                                                                                 "rawText": " bar",
                                                                                                                 "flags": 96,

@@ -31,7 +31,6 @@ class set {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "set",
                 "text": "set",
                 "rawText": " set",
                 "flags": 96,

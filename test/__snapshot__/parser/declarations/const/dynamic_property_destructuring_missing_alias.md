@@ -59,7 +59,6 @@ const {[x]} = z;
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -103,7 +102,6 @@ const {[x]} = z;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "z",
                             "text": "z",
                             "rawText": " z",
                             "flags": 96,

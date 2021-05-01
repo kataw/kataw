@@ -33,7 +33,6 @@ async function f(){ async(await x); }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -58,7 +57,6 @@ async function f(){ async(await x); }
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -78,7 +76,6 @@ async function f(){ async(await x); }
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,

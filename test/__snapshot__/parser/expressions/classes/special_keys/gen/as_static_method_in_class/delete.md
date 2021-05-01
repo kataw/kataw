@@ -31,7 +31,6 @@ class x {static delete(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {static delete(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "delete",
                                 "text": "delete",
                                 "rawText": " delete",
                                 "flags": 96,

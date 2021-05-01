@@ -81,7 +81,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -137,7 +136,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -151,9 +149,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "Map",
                                     "text": "Map",
-                                    "rawText": " Map",
+                                    "rawText": "Map",
                                     "flags": 96,
                                     "start": 24,
                                     "end": 28
@@ -171,9 +168,8 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "Array",
                                                 "text": "Array",
-                                                "rawText": " Array",
+                                                "rawText": "Array",
                                                 "flags": 96,
                                                 "start": 36,
                                                 "end": 42
@@ -239,7 +235,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -253,9 +248,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "Map",
                                     "text": "Map",
-                                    "rawText": " Map",
+                                    "rawText": "Map",
                                     "flags": 96,
                                     "start": 60,
                                     "end": 64
@@ -273,9 +267,8 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "Array",
                                                 "text": "Array",
-                                                "rawText": " Array",
+                                                "rawText": "Array",
                                                 "flags": 96,
                                                 "start": 72,
                                                 "end": 78
@@ -341,7 +334,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -357,9 +349,8 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "original": "Y",
                                         "text": "Y",
-                                        "rawText": " Y",
+                                        "rawText": "Y",
                                         "flags": 96,
                                         "start": 104,
                                         "end": 106
@@ -379,9 +370,8 @@ class Array { concat(items:number | string) {}; }
                         },
                         "initializer": {
                             "kind": 134299649,
-                            "original": "Y",
                             "text": "Y",
-                            "rawText": " Y",
+                            "rawText": "Y",
                             "flags": 96,
                             "start": 108,
                             "end": 110
@@ -415,7 +405,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -481,7 +470,6 @@ class Array { concat(items:number | string) {}; }
                         },
                         "initializer": {
                             "kind": 134299649,
-                            "original": "fn",
                             "text": "fn",
                             "rawText": " fn",
                             "flags": 96,
@@ -517,7 +505,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -530,7 +517,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 197,
                             "shortCircuit": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,
@@ -555,7 +541,6 @@ class Array { concat(items:number | string) {}; }
                                 "parameters": [
                                     {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -602,7 +587,6 @@ class Array { concat(items:number | string) {}; }
                             },
                             "alternate": {
                                 "kind": 134299649,
-                                "original": "baz",
                                 "text": "baz",
                                 "rawText": " baz",
                                 "flags": 96,
@@ -642,7 +626,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -659,7 +642,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "numVal",
                                             "text": "numVal",
                                             "rawText": "numVal",
                                             "flags": 96,
@@ -720,7 +702,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -733,7 +714,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 197,
                             "shortCircuit": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,
@@ -750,7 +730,6 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 121,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -769,7 +748,6 @@ class Array { concat(items:number | string) {}; }
                             },
                             "alternate": {
                                 "kind": 134299649,
-                                "original": "number",
                                 "text": "number",
                                 "rawText": " number",
                                 "flags": 96,
@@ -809,7 +787,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -832,7 +809,6 @@ class Array { concat(items:number | string) {}; }
                                 "parameters": [
                                     {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
@@ -855,7 +831,6 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": " bar",
                                     "flags": 96,
@@ -899,7 +874,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -935,7 +909,6 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": " bar",
                                     "flags": 96,
@@ -979,7 +952,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1000,7 +972,6 @@ class Array { concat(items:number | string) {}; }
                             "parameters": [
                                 {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
@@ -1028,7 +999,6 @@ class Array { concat(items:number | string) {}; }
                             },
                             "contents": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,
@@ -1068,7 +1038,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1107,7 +1076,6 @@ class Array { concat(items:number | string) {}; }
                             },
                             "contents": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,
@@ -1147,7 +1115,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1171,7 +1138,6 @@ class Array { concat(items:number | string) {}; }
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -1185,7 +1151,6 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,
@@ -1211,7 +1176,6 @@ class Array { concat(items:number | string) {}; }
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": " bar",
                                         "flags": 96,
@@ -1225,7 +1189,6 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": " foo",
                                                 "flags": 96,
@@ -1301,7 +1264,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1335,7 +1297,6 @@ class Array { concat(items:number | string) {}; }
                             },
                             "contents": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,
@@ -1375,7 +1336,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -1392,7 +1352,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "param1",
                                             "text": "param1",
                                             "rawText": "param1",
                                             "flags": 96,
@@ -1415,7 +1374,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "param2",
                                             "text": "param2",
                                             "rawText": " param2",
                                             "flags": 96,
@@ -1489,7 +1447,6 @@ class Array { concat(items:number | string) {}; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1520,9 +1477,8 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "Array",
                                     "text": "Array",
-                                    "rawText": " Array",
+                                    "rawText": "Array",
                                     "flags": 96,
                                     "start": 527,
                                     "end": 533
@@ -1557,8 +1513,7 @@ class Array { concat(items:number | string) {}; }
                                     {
                                         "kind": 201392131,
                                         "text": "hello",
-                                        "original": "\"hello\"",
-                                        "rawText": " \"hello\"",
+                                        "rawText": "\"hello\"",
                                         "flags": 96,
                                         "start": 545,
                                         "end": 553
@@ -1610,7 +1565,6 @@ class Array { concat(items:number | string) {}; }
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1642,7 +1596,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1687,15 +1640,13 @@ class Array { concat(items:number | string) {}; }
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "original": "\"hello\"",
-                                            "rawText": " \"hello\"",
+                                            "rawText": "\"hello\"",
                                             "flags": 96,
                                             "start": 586,
                                             "end": 594
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -1753,7 +1704,6 @@ class Array { concat(items:number | string) {}; }
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1785,7 +1735,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1830,15 +1779,13 @@ class Array { concat(items:number | string) {}; }
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "original": "\"hello\"",
-                                            "rawText": " \"hello\"",
+                                            "rawText": "\"hello\"",
                                             "flags": 96,
                                             "start": 628,
                                             "end": 636
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -1888,7 +1835,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -1907,7 +1853,6 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "numVal",
                                                 "text": "numVal",
                                                 "rawText": "numVal",
                                                 "flags": 96,
@@ -1972,7 +1917,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -1991,9 +1935,8 @@ class Array { concat(items:number | string) {}; }
                                             "kind": 144,
                                             "id": {
                                                 "kind": 134299649,
-                                                "original": "Y",
                                                 "text": "Y",
-                                                "rawText": " Y",
+                                                "rawText": "Y",
                                                 "flags": 96,
                                                 "start": 681,
                                                 "end": 683
@@ -2024,9 +1967,8 @@ class Array { concat(items:number | string) {}; }
                         },
                         "initializer": {
                             "kind": 134299649,
-                            "original": "Y",
                             "text": "Y",
-                            "rawText": " Y",
+                            "rawText": "Y",
                             "flags": 96,
                             "start": 694,
                             "end": 696
@@ -2060,7 +2002,6 @@ class Array { concat(items:number | string) {}; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -2077,7 +2018,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "subObj",
                                             "text": "subObj",
                                             "rawText": "subObj",
                                             "flags": 96,
@@ -2091,7 +2031,6 @@ class Array { concat(items:number | string) {}; }
                                                     "kind": 193,
                                                     "key": {
                                                         "kind": 134299649,
-                                                        "original": "strVal",
                                                         "text": "strVal",
                                                         "rawText": "strVal",
                                                         "flags": 96,
@@ -2162,9 +2101,8 @@ class Array { concat(items:number | string) {}; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "Array",
                 "text": "Array",
-                "rawText": " Array",
+                "rawText": "Array",
                 "flags": 96,
                 "start": 739,
                 "end": 745
@@ -2187,7 +2125,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "concat",
                                 "text": "concat",
                                 "rawText": " concat",
                                 "flags": 96,
@@ -2203,7 +2140,6 @@ class Array { concat(items:number | string) {}; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "items",
                                             "text": "items",
                                             "rawText": "items",
                                             "flags": 96,

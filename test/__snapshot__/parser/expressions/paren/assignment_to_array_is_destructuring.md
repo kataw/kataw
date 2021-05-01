@@ -26,7 +26,6 @@
                         "elements": [
                             {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -35,7 +34,6 @@
                             },
                             {
                                 "kind": 134299649,
-                                "original": "y",
                                 "text": "y",
                                 "rawText": " y",
                                 "flags": 96,
@@ -60,7 +58,6 @@
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "z",
                     "text": "z",
                     "rawText": " z",
                     "flags": 96,

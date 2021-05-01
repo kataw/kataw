@@ -48,7 +48,6 @@ for (a * b + c * d;b;c);
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -63,7 +62,6 @@ for (a * b + c * d;b;c);
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -84,7 +82,6 @@ for (a * b + c * d;b;c);
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "c",
                         "text": "c",
                         "rawText": " c",
                         "flags": 96,
@@ -99,7 +96,6 @@ for (a * b + c * d;b;c);
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "d",
                         "text": "d",
                         "rawText": " d",
                         "flags": 96,
@@ -116,7 +112,6 @@ for (a * b + c * d;b;c);
             },
             "condition": {
                 "kind": 134299649,
-                "original": "c",
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
@@ -125,7 +120,6 @@ for (a * b + c * d;b;c);
             },
             "incrementor": {
                 "kind": 134299649,
-                "original": "b",
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,

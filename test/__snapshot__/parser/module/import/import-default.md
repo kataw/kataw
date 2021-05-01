@@ -40,8 +40,7 @@ import foo from "foo";
                 "from": {
                     "kind": 201392131,
                     "text": "foo",
-                    "original": "\"foo\"",
-                    "rawText": " \"foo\"",
+                    "rawText": "\"foo\"",
                     "flags": 96,
                     "start": 15,
                     "end": 21
@@ -55,7 +54,6 @@ import foo from "foo";
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": " foo",
                     "flags": 96,

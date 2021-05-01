@@ -46,7 +46,6 @@ const [foo:bar] = obj;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -90,7 +89,6 @@ const [foo:bar] = obj;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "bar",
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
@@ -105,7 +103,6 @@ const [foo:bar] = obj;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "obj",
                 "text": "obj",
                 "rawText": " obj",
                 "flags": 96,

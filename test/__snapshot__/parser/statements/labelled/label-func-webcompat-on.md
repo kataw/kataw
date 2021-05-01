@@ -25,7 +25,6 @@ foo: function x() {}
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -61,7 +60,6 @@ foo: function x() {}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

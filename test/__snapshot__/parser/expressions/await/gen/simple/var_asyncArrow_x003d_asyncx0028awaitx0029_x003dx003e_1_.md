@@ -35,7 +35,6 @@ var asyncArrow = async(await) => 1;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "asyncArrow",
                             "text": "asyncArrow",
                             "rawText": " asyncArrow",
                             "flags": 96,
@@ -56,7 +55,6 @@ var asyncArrow = async(await) => 1;
                             "parameters": [
                                 {
                                     "kind": 134299649,
-                                    "original": "await",
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
@@ -74,8 +72,7 @@ var asyncArrow = async(await) => 1;
                             "contents": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "original": "1",
-                                "rawText": " 1",
+                                "rawText": "1",
                                 "flags": 96,
                                 "start": 32,
                                 "end": 34

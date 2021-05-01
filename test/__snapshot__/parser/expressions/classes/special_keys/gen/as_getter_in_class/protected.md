@@ -31,7 +31,6 @@ class x {get protected(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {get protected(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "protected",
                                 "text": "protected",
                                 "rawText": " protected",
                                 "flags": 96,

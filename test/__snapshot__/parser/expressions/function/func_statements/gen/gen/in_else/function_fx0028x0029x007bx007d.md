@@ -30,7 +30,6 @@ else function f(){}
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -41,7 +40,6 @@ else function f(){}
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -71,7 +69,6 @@ else function f(){}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": " f",
                     "flags": 96,

@@ -33,7 +33,6 @@ function *g() { function f(x = x + yield y) {}; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -67,7 +66,6 @@ function *g() { function f(x = x + yield y) {}; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -82,7 +80,6 @@ function *g() { function f(x = x + yield y) {}; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -95,7 +92,6 @@ function *g() { function f(x = x + yield y) {}; }
                                             "kind": 198,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,
@@ -110,7 +106,6 @@ function *g() { function f(x = x + yield y) {}; }
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -130,7 +125,6 @@ function *g() { function f(x = x + yield y) {}; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "y",
                                             "text": "y",
                                             "rawText": " y",
                                             "flags": 96,

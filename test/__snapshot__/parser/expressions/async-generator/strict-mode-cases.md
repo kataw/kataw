@@ -44,7 +44,6 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -67,7 +66,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -104,7 +102,6 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": " foo",
                                             "flags": 96,
@@ -122,7 +119,6 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "yield",
                                             "text": "yield",
                                             "rawText": " yield",
                                             "flags": 96,
@@ -165,8 +161,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 52,
                 "end": 66
@@ -188,7 +183,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -240,7 +234,6 @@ function * x() { "use strict";  yield: 34; }
                                 },
                                 "catchParameter": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -290,8 +283,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 116,
                 "end": 130
@@ -313,7 +305,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -347,7 +338,6 @@ function * x() { "use strict";  yield: 34; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "yield",
                                 "text": "yield",
                                 "rawText": " yield",
                                 "flags": 96,
@@ -402,8 +392,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 175,
                 "end": 188
@@ -425,7 +414,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -462,7 +450,6 @@ function * x() { "use strict";  yield: 34; }
                                     "generatorToken": null,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,
@@ -525,8 +512,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 235,
                 "end": 248
@@ -548,7 +534,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -582,7 +567,6 @@ function * x() { "use strict";  yield: 34; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -597,7 +581,6 @@ function * x() { "use strict";  yield: 34; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "yield",
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
@@ -657,8 +640,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 296,
                 "end": 309
@@ -680,7 +662,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -714,7 +695,6 @@ function * x() { "use strict";  yield: 34; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -729,7 +709,6 @@ function * x() { "use strict";  yield: 34; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "bar",
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
@@ -748,7 +727,6 @@ function * x() { "use strict";  yield: 34; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "yield",
                                             "text": "yield",
                                             "rawText": " yield",
                                             "flags": 96,
@@ -808,8 +786,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 362,
                 "end": 375
@@ -831,7 +808,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -870,7 +846,6 @@ function * x() { "use strict";  yield: 34; }
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "yield",
                                 "text": "yield",
                                 "rawText": " yield",
                                 "flags": 96,
@@ -925,8 +900,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 422,
                 "end": 435
@@ -948,7 +922,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -990,7 +963,6 @@ function * x() { "use strict";  yield: 34; }
                                     },
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,
@@ -1053,8 +1025,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 484,
                 "end": 497
@@ -1076,7 +1047,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -1103,7 +1073,6 @@ function * x() { "use strict";  yield: 34; }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,
@@ -1119,8 +1088,7 @@ function * x() { "use strict";  yield: 34; }
                                 "right": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "original": "1",
-                                    "rawText": " 1",
+                                    "rawText": "1",
                                     "flags": 96,
                                     "start": 527,
                                     "end": 529
@@ -1153,8 +1121,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 532,
                 "end": 545
@@ -1176,7 +1143,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -1213,7 +1179,6 @@ function * x() { "use strict";  yield: 34; }
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": " foo",
                                             "flags": 96,
@@ -1226,7 +1191,6 @@ function * x() { "use strict";  yield: 34; }
                                             "kind": 125,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -1242,8 +1206,7 @@ function * x() { "use strict";  yield: 34; }
                                             "right": {
                                                 "kind": 201392130,
                                                 "text": 1,
-                                                "original": "1",
-                                                "rawText": " 1",
+                                                "rawText": "1",
                                                 "flags": 96,
                                                 "start": 585,
                                                 "end": 587
@@ -1285,8 +1248,7 @@ function * x() { "use strict";  yield: 34; }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 590,
                 "end": 603
@@ -1308,7 +1270,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -1341,7 +1302,6 @@ function * x() { "use strict";  yield: 34; }
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -1384,7 +1344,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -1407,8 +1366,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 658,
                             "end": 671
@@ -1427,7 +1385,6 @@ function * x() { "use strict";  yield: 34; }
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,
@@ -1470,7 +1427,6 @@ function * x() { "use strict";  yield: 34; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -1493,8 +1449,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 704,
                             "end": 717
@@ -1505,7 +1460,6 @@ function * x() { "use strict";  yield: 34; }
                             "kind": 163,
                             "label": {
                                 "kind": 134299649,
-                                "original": "yield",
                                 "text": "yield",
                                 "rawText": "  yield",
                                 "flags": 96,
@@ -1540,8 +1494,7 @@ function * x() { "use strict";  yield: 34; }
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 34,
-                                    "original": "34",
-                                    "rawText": " 34",
+                                    "rawText": "34",
                                     "flags": 96,
                                     "start": 726,
                                     "end": 729
@@ -1587,7 +1540,6 @@ function * x() { "use strict";  yield: 34; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1610,8 +1562,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 750,
                             "end": 763
@@ -1690,7 +1641,6 @@ function * x() { "use strict";  yield: 34; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1713,8 +1663,7 @@ function * x() { "use strict";  yield: 34; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 792,
                             "end": 805
@@ -1766,8 +1715,7 @@ function * x() { "use strict";  yield: 34; }
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 34,
-                                    "original": "34",
-                                    "rawText": " 34",
+                                    "rawText": "34",
                                     "flags": 96,
                                     "start": 814,
                                     "end": 817

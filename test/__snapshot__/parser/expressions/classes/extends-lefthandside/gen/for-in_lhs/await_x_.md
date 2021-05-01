@@ -31,7 +31,6 @@ x; in x) ;
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "await",
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
@@ -55,7 +54,6 @@ x; in x) ;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -68,7 +66,6 @@ x; in x) ;
             },
             "incrementor": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "\nx",
                 "flags": 96,

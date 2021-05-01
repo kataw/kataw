@@ -25,7 +25,6 @@ do;while(j)try{}finally{}
             },
             "expression": {
                 "kind": 134299649,
-                "original": "j",
                 "text": "j",
                 "rawText": "j",
                 "flags": 96,

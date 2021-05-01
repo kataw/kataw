@@ -43,7 +43,6 @@
                                             "kind": 131,
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -64,7 +63,6 @@
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -94,7 +92,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -136,7 +133,6 @@
                                         "kind": 131,
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "bar",
                                             "text": "bar",
                                             "rawText": " bar",
                                             "flags": 96,
@@ -159,7 +155,6 @@
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -189,7 +184,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "baz",
                     "text": "baz",
                     "rawText": " baz",
                     "flags": 96,

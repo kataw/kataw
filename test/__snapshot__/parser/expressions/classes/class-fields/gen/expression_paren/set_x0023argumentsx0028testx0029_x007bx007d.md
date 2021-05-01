@@ -70,7 +70,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,

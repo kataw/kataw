@@ -31,7 +31,6 @@ a?.()``;
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -47,7 +46,6 @@ a?.()``;
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -94,7 +92,6 @@ a?.()``;
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\n\na",
                     "flags": 96,
@@ -111,7 +108,6 @@ a?.()``;
                             "expression": {
                                 "kind": 201392131,
                                 "text": "b",
-                                "original": "'b'",
                                 "rawText": "'b'",
                                 "flags": 4194400,
                                 "start": 13,
@@ -157,7 +153,6 @@ a?.()``;
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\n\na",
                     "flags": 96,

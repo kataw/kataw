@@ -35,7 +35,6 @@ class x { constructor(){}; "constructor"(){}; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -60,7 +59,6 @@ class x { constructor(){}; "constructor"(){}; }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -119,8 +117,7 @@ class x { constructor(){}; "constructor"(){}; }
                             "name": {
                                 "kind": 201392131,
                                 "text": "constructor",
-                                "original": "\"constructor\"",
-                                "rawText": " \"constructor\"",
+                                "rawText": "\"constructor\"",
                                 "flags": 96,
                                 "start": 26,
                                 "end": 40

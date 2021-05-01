@@ -36,7 +36,6 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "",
-                "original": "\"\\\n\"",
                 "rawText": "\"\\\n\"",
                 "flags": 96,
                 "start": 0,
@@ -51,8 +50,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "pre",
-                "original": "\"pre\\\n\"",
-                "rawText": "\n\"pre\\\n\"",
+                "rawText": "\"pre\\\n\"",
                 "flags": 97,
                 "start": 6,
                 "end": 14
@@ -66,8 +64,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "post",
-                "original": "\"\\\npost\"",
-                "rawText": "\n\"\\\npost\"",
+                "rawText": "\"\\\npost\"",
                 "flags": 97,
                 "start": 16,
                 "end": 25
@@ -81,8 +78,7 @@ post"
             "expression": {
                 "kind": 201392131,
                 "text": "prepost",
-                "original": "\"pre\\\npost\"",
-                "rawText": "\n\"pre\\\npost\"",
+                "rawText": "\"pre\\\npost\"",
                 "flags": 97,
                 "start": 27,
                 "end": 39

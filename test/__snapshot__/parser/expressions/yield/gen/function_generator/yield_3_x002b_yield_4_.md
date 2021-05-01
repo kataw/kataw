@@ -37,7 +37,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -96,7 +94,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -114,8 +111,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 3,
-                                                    "original": "3",
-                                                    "rawText": " 3",
+                                                    "rawText": "3",
                                                     "flags": 96,
                                                     "start": 45,
                                                     "end": 47
@@ -128,7 +124,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
-                                                    "original": "yield",
                                                     "text": "yield",
                                                     "rawText": " yield",
                                                     "flags": 96,
@@ -148,8 +143,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 4,
-                                                "original": "4",
-                                                "rawText": " 4",
+                                                "rawText": "4",
                                                 "flags": 96,
                                                 "start": 55,
                                                 "end": 57

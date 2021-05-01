@@ -21,7 +21,6 @@ x= { *prototype(){} }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -43,7 +42,6 @@ x= { *prototype(){} }
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "prototype",
                                     "text": "prototype",
                                     "rawText": "prototype",
                                     "flags": 96,

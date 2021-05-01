@@ -40,7 +40,6 @@ var x = ({ a } : any = 'foo') => {}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -69,7 +68,6 @@ var x = ({ a } : any = 'foo') => {}
                                             "properties": [
                                                 {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,
@@ -102,8 +100,7 @@ var x = ({ a } : any = 'foo') => {}
                                     "initializer": {
                                         "kind": 201392131,
                                         "text": "foo",
-                                        "original": "'foo'",
-                                        "rawText": " 'foo'",
+                                        "rawText": "'foo'",
                                         "flags": 4194400,
                                         "start": 22,
                                         "end": 28

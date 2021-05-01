@@ -30,7 +30,6 @@ do throw function (v, h) {
                 "expression": {
                     "kind": 201392131,
                     "text": "",
-                    "original": "\"\"",
                     "rawText": "\"\"",
                     "flags": 96,
                     "start": 52,
@@ -73,7 +72,6 @@ do throw function (v, h) {
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "v",
                                     "text": "v",
                                     "rawText": "v",
                                     "flags": 96,
@@ -92,7 +90,6 @@ do throw function (v, h) {
                                 "ellipsisToken": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "h",
                                     "text": "h",
                                     "rawText": " h",
                                     "flags": 96,
@@ -120,8 +117,7 @@ do throw function (v, h) {
                                 {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "original": "\"use strict\"",
-                                    "rawText": "\n  \"use strict\"",
+                                    "rawText": "\"use strict\"",
                                     "flags": 97,
                                     "start": 26,
                                     "end": 41

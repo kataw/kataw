@@ -40,7 +40,6 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -58,7 +57,6 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "get",
                             "text": "get",
                             "rawText": "\n    get",
                             "flags": 96,
@@ -76,7 +74,6 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "set",
                             "text": "set",
                             "rawText": "\n    set",
                             "flags": 96,
@@ -115,7 +112,6 @@ var x = {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -131,7 +127,6 @@ var x = {
                                 "properties": [
                                     {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "\n    foo",
                                         "flags": 96,
@@ -140,7 +135,6 @@ var x = {
                                     },
                                     {
                                         "kind": 134299649,
-                                        "original": "get",
                                         "text": "get",
                                         "rawText": "\n    get",
                                         "flags": 96,
@@ -149,7 +143,6 @@ var x = {
                                     },
                                     {
                                         "kind": 134299649,
-                                        "original": "set",
                                         "text": "set",
                                         "rawText": "\n    set",
                                         "flags": 96,

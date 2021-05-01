@@ -28,7 +28,6 @@ function f(){   return 15;    }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -60,8 +59,7 @@ function f(){   return 15;    }
                             "expression": {
                                 "kind": 201392130,
                                 "text": 15,
-                                "original": "15",
-                                "rawText": " 15",
+                                "rawText": "15",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 25

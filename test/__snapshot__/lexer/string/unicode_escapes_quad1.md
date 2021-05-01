@@ -26,7 +26,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "abc",
-                "original": "\"\\uabc",
                 "rawText": "\"\\uabc",
                 "flags": 2113632,
                 "start": 0,

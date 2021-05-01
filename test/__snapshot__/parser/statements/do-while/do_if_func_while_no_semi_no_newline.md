@@ -25,7 +25,6 @@ do if(8)function s(){}while(y)
             },
             "expression": {
                 "kind": 134299649,
-                "original": "y",
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
@@ -49,7 +48,6 @@ do if(8)function s(){}while(y)
                 "expression": {
                     "kind": 201392130,
                     "text": 8,
-                    "original": "8",
                     "rawText": "8",
                     "flags": 96,
                     "start": 6,
@@ -68,7 +66,6 @@ do if(8)function s(){}while(y)
                     "generatorToken": null,
                     "name": {
                         "kind": 134299649,
-                        "original": "s",
                         "text": "s",
                         "rawText": " s",
                         "flags": 96,

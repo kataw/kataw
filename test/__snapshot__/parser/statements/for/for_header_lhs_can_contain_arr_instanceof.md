@@ -66,7 +66,6 @@ for ([] instanceof obj;;);
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "obj",
                     "text": "obj",
                     "rawText": " obj",
                     "flags": 96,

@@ -47,7 +47,6 @@ var {x}: {x: string; } = { x: "hello" };
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -79,7 +78,6 @@ var {x}: {x: string; } = { x: "hello" };
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -124,15 +122,13 @@ var {x}: {x: string; } = { x: "hello" };
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
-                                            "original": "\"hello\"",
-                                            "rawText": " \"hello\"",
+                                            "rawText": "\"hello\"",
                                             "flags": 96,
                                             "start": 29,
                                             "end": 37
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,

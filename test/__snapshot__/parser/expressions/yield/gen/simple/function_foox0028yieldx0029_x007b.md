@@ -32,7 +32,6 @@ function foo(yield) {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -47,7 +46,6 @@ function foo(yield) {
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,

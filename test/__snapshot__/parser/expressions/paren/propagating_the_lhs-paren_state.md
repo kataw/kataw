@@ -25,7 +25,6 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -44,7 +43,6 @@
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
@@ -59,7 +57,6 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "boo",
                                     "text": "boo",
                                     "rawText": " boo",
                                     "flags": 96,
@@ -86,7 +83,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "ding",
                         "text": "ding",
                         "rawText": " ding",
                         "flags": 96,

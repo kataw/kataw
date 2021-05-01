@@ -46,7 +46,6 @@ true ? async.waterfall() : null;
                         "kind": 129,
                         "member": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -55,7 +54,6 @@ true ? async.waterfall() : null;
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "waterfall",
                             "text": "waterfall",
                             "rawText": "waterfall",
                             "flags": 96,

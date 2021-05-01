@@ -35,7 +35,6 @@ function *f() { yield
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -95,7 +94,6 @@ function *f() { yield
                                         "right": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "original": "1",
                                             "rawText": "1",
                                             "flags": 96,
                                             "start": 25,
@@ -113,7 +111,6 @@ function *f() { yield
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "g",
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,

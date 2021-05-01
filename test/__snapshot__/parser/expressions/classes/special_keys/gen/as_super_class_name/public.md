@@ -31,7 +31,6 @@ class x extends public {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends public {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "public",
                     "text": "public",
                     "rawText": " public",
                     "flags": 96,

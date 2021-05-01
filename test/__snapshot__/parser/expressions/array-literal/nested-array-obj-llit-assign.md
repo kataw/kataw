@@ -67,7 +67,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar4",
                                                 "text": "bar4",
                                                 "rawText": " bar4",
                                                 "flags": 96,
@@ -78,7 +77,6 @@
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -138,15 +136,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 24,
                                                 "end": 30
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
@@ -207,7 +203,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar5",
                                                 "text": "bar5",
                                                 "rawText": " bar5",
                                                 "flags": 96,
@@ -220,7 +215,6 @@
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo2",
                                                         "text": "foo2",
                                                         "rawText": "foo2",
                                                         "flags": 96,
@@ -292,15 +286,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 62,
                                                 "end": 68
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
@@ -361,7 +353,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar4",
                                                 "text": "bar4",
                                                 "rawText": " bar4",
                                                 "flags": 96,
@@ -374,7 +365,6 @@
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -446,15 +436,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 99,
                                                 "end": 105
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
@@ -515,7 +503,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar4",
                                                 "text": "bar4",
                                                 "rawText": " bar4",
                                                 "flags": 96,
@@ -526,7 +513,6 @@
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -586,15 +572,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 137,
                                                 "end": 143
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,
@@ -655,7 +639,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar5",
                                                 "text": "bar5",
                                                 "rawText": " bar5",
                                                 "flags": 96,
@@ -668,7 +651,6 @@
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo2",
                                                         "text": "foo2",
                                                         "rawText": "foo2",
                                                         "flags": 96,
@@ -740,15 +722,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 179,
                                                 "end": 185
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,
@@ -809,7 +789,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar4",
                                                 "text": "bar4",
                                                 "rawText": " bar4",
                                                 "flags": 96,
@@ -822,7 +801,6 @@
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -894,15 +872,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 220,
                                                 "end": 226
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,
@@ -963,7 +939,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "bar4",
                                                 "text": "bar4",
                                                 "rawText": " bar4",
                                                 "flags": 96,
@@ -979,7 +954,6 @@
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "original": "1",
                                                             "rawText": "1",
                                                             "flags": 96,
                                                             "start": 237,
@@ -1066,15 +1040,13 @@
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
-                                                "original": "\"bar\"",
-                                                "rawText": " \"bar\"",
+                                                "rawText": "\"bar\"",
                                                 "flags": 96,
                                                 "start": 264,
                                                 "end": 270
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,
@@ -1132,7 +1104,6 @@
                                 },
                                 "argument": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -1161,7 +1132,6 @@
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "it",
                     "text": "it",
                     "rawText": " it",
                     "flags": 96,
@@ -1192,7 +1162,6 @@
                                     "elements": [
                                         {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -1266,7 +1235,6 @@
                         "elements": [
                             {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -1330,7 +1298,6 @@
                                 },
                                 "argument": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -1400,7 +1367,6 @@
                                     "kind": 130,
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -1409,7 +1375,6 @@
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,

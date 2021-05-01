@@ -51,7 +51,6 @@ do async
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -76,7 +75,6 @@ do async
             },
             "expression": {
                 "kind": 134299649,
-                "original": "y",
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,

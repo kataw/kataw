@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -40,7 +39,6 @@
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "unction",
                     "text": "unction",
                     "rawText": " unction",
                     "flags": 96,
@@ -57,7 +55,6 @@
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "gf",
                         "text": "gf",
                         "rawText": " gf",
                         "flags": 96,
@@ -105,7 +102,6 @@
                                     "kind": 157,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": " a",
                                         "flags": 96,
@@ -116,7 +112,6 @@
                                     "type": null,
                                     "initializer": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,
@@ -141,8 +136,7 @@
                         "expression": {
                             "kind": 201392131,
                             "text": "foo",
-                            "original": "'foo'",
-                            "rawText": " 'foo'",
+                            "rawText": "'foo'",
                             "flags": 4194400,
                             "start": 43,
                             "end": 49

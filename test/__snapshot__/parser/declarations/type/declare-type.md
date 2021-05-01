@@ -51,7 +51,6 @@ declare type bool = any;
             },
             "name": {
                 "kind": 134299649,
-                "original": "bool",
                 "text": "bool",
                 "rawText": " bool",
                 "flags": 96,

@@ -19,7 +19,6 @@ foo: for (x in y) continue foo
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -58,7 +57,6 @@ foo: for (x in y) continue foo
                 "kind": 166,
                 "initializer": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -67,7 +65,6 @@ foo: for (x in y) continue foo
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -84,7 +81,6 @@ foo: for (x in y) continue foo
                     },
                     "label": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": " foo",
                         "flags": 96,

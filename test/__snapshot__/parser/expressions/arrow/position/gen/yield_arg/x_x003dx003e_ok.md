@@ -39,7 +39,6 @@ function *f() {
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -83,7 +82,6 @@ function *f() {
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -94,7 +92,6 @@ function *f() {
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
-                                        "original": "ok",
                                         "text": "ok",
                                         "rawText": " ok",
                                         "flags": 96,

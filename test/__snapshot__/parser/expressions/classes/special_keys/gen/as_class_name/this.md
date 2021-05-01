@@ -31,7 +31,6 @@ class this {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "this",
                 "text": "this",
                 "rawText": " this",
                 "flags": 96,

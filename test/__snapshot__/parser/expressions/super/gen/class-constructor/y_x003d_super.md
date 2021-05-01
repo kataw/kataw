@@ -31,9 +31,8 @@ class C { constructor() { y = super } }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -56,7 +55,6 @@ class C { constructor() { y = super } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -85,7 +83,6 @@ class C { constructor() { y = super } }
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "y",
                                                     "text": "y",
                                                     "rawText": " y",
                                                     "flags": 96,

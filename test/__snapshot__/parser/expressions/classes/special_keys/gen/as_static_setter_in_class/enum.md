@@ -31,7 +31,6 @@ class x {static set enum(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static set enum(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "enum",
                                 "text": "enum",
                                 "rawText": " enum",
                                 "flags": 96,
@@ -82,7 +80,6 @@ class x {static set enum(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

@@ -56,9 +56,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -102,7 +101,6 @@ class C { f(){ this.#a } #a; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -161,9 +159,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 35,
                 "end": 37
@@ -181,7 +178,6 @@ class C { f(){ this.#a } #a; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -266,9 +262,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 65,
                 "end": 67
@@ -369,9 +364,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 93,
                 "end": 95
@@ -472,9 +466,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 121,
                 "end": 123
@@ -523,7 +516,6 @@ class C { f(){ this.#a } #a; }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -609,9 +601,8 @@ class C { f(){ this.#a } #a; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 153,
                 "end": 155
@@ -634,7 +625,6 @@ class C { f(){ this.#a } #a; }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,

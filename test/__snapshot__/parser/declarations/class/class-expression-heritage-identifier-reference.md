@@ -28,9 +28,8 @@ var B = class extends A {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -64,9 +63,8 @@ var B = class extends A {}
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "B",
                             "text": "B",
-                            "rawText": " B",
+                            "rawText": "B",
                             "flags": 96,
                             "start": 14,
                             "end": 16
@@ -94,9 +92,8 @@ var B = class extends A {}
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "A",
                                     "text": "A",
-                                    "rawText": " A",
+                                    "rawText": "A",
                                     "flags": 96,
                                     "start": 32,
                                     "end": 34

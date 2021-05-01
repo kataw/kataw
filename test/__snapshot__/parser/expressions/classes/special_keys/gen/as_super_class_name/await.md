@@ -31,7 +31,6 @@ class x extends await {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends await {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": " await",
                     "flags": 96,

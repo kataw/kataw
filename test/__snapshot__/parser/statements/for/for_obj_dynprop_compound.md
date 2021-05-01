@@ -51,7 +51,6 @@ for ({}.u |= c;;) x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "u",
                         "text": "u",
                         "rawText": "u",
                         "flags": 96,
@@ -70,7 +69,6 @@ for ({}.u |= c;;) x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -87,7 +85,6 @@ for ({}.u |= c;;) x;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

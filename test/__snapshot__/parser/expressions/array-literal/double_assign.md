@@ -57,7 +57,6 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "n",
                             "text": "n",
                             "rawText": "n",
                             "flags": 96,
@@ -72,7 +71,6 @@
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
@@ -95,7 +93,6 @@
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "v",
                     "text": "v",
                     "rawText": "v",
                     "flags": 96,

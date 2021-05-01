@@ -31,7 +31,6 @@ class x {static set for(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static set for(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "for",
                                 "text": "for",
                                 "rawText": " for",
                                 "flags": 96,
@@ -82,7 +80,6 @@ class x {static set for(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

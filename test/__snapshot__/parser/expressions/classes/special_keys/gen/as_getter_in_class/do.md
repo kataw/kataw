@@ -31,7 +31,6 @@ class x {get do(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {get do(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "do",
                                 "text": "do",
                                 "rawText": " do",
                                 "flags": 96,

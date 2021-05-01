@@ -25,7 +25,6 @@ y = async x => await x
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
@@ -53,7 +52,6 @@ y = async x => await x
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -85,7 +83,6 @@ y = async x => await x
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,

@@ -37,7 +37,6 @@ function *gf(){ function yield(){}; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "gf",
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
@@ -71,7 +70,6 @@ function *gf(){ function yield(){}; }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "yield",
                                 "text": "yield",
                                 "rawText": " yield",
                                 "flags": 96,

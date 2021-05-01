@@ -27,9 +27,8 @@ new Foo()
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "Foo",
                     "text": "Foo",
-                    "rawText": " Foo",
+                    "rawText": "Foo",
                     "flags": 96,
                     "start": 3,
                     "end": 7

@@ -38,7 +38,6 @@ export { \u0061bc }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "abc",
                             "text": "abc",
                             "rawText": " abc",
                             "flags": 96,
@@ -50,8 +49,7 @@ export { \u0061bc }
                         "initializer": {
                             "kind": 201392130,
                             "text": 5,
-                            "original": "5",
-                            "rawText": " 5",
+                            "rawText": "5",
                             "flags": 96,
                             "start": 9,
                             "end": 11
@@ -88,7 +86,6 @@ export { \u0061bc }
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "export",
                                 "text": "abc",
                                 "rawText": "\nexport",
                                 "flags": 96,

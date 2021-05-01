@@ -27,7 +27,6 @@ arr?.[i + 1]
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "arr",
                     "text": "arr",
                     "rawText": "arr",
                     "flags": 96,
@@ -43,7 +42,6 @@ arr?.[i + 1]
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
-                                "original": "i",
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 96,
@@ -59,8 +57,7 @@ arr?.[i + 1]
                             "right": {
                                 "kind": 201392130,
                                 "text": 1,
-                                "original": "1",
-                                "rawText": " 1",
+                                "rawText": "1",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 11

@@ -29,7 +29,6 @@ function f(){ "use strict"
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -57,15 +56,13 @@ function f(){ "use strict"
                                 "member": {
                                     "kind": 201392131,
                                     "text": "use strict",
-                                    "original": "\"use strict\"",
-                                    "rawText": " \"use strict\"",
+                                    "rawText": "\"use strict\"",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 26
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -86,7 +83,6 @@ function f(){ "use strict"
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "eval",
                                     "text": "eval",
                                     "rawText": " eval",
                                     "flags": 96,
@@ -102,8 +98,7 @@ function f(){ "use strict"
                                 "right": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "original": "1",
-                                    "rawText": " 1",
+                                    "rawText": "1",
                                     "flags": 96,
                                     "start": 55,
                                     "end": 57

@@ -25,7 +25,6 @@ x = class extends (a ? null : yield) { }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -63,7 +62,6 @@ x = class extends (a ? null : yield) { }
                                 "kind": 197,
                                 "shortCircuit": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -91,7 +89,6 @@ x = class extends (a ? null : yield) { }
                                 },
                                 "alternate": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,

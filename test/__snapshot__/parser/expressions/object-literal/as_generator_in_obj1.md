@@ -41,7 +41,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "set",
                                     "text": "set",
                                     "rawText": " set",
                                     "flags": 96,
@@ -107,7 +106,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "get",
                                     "text": "get",
                                     "rawText": " get",
                                     "flags": 96,
@@ -173,7 +171,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "private",
                                     "text": "private",
                                     "rawText": " private",
                                     "flags": 96,
@@ -239,7 +236,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "readonly",
                                     "text": "readonly",
                                     "rawText": " readonly",
                                     "flags": 96,
@@ -305,7 +301,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": " async",
                                     "flags": 96,
@@ -371,7 +366,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "function",
                                     "text": "function",
                                     "rawText": " function",
                                     "flags": 96,
@@ -437,7 +431,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "declare",
                                     "text": "declare",
                                     "rawText": " declare",
                                     "flags": 96,

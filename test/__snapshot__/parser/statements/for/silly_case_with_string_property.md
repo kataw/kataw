@@ -47,7 +47,6 @@ for ("foo".bar;;);
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
-                    "original": "\"foo\"",
                     "rawText": "\"foo\"",
                     "flags": 96,
                     "start": 5,
@@ -55,7 +54,6 @@ for ("foo".bar;;);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,

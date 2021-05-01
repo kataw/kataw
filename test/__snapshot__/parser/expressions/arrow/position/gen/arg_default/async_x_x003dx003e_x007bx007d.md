@@ -32,7 +32,6 @@ function f(a = async x => {}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -47,7 +46,6 @@ function f(a = async x => {}) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -71,7 +69,6 @@ function f(a = async x => {}) {}
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,

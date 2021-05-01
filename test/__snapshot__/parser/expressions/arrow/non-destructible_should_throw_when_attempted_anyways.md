@@ -35,7 +35,6 @@
                                 {
                                     "kind": 201392130,
                                     "text": 0,
-                                    "original": "0",
                                     "rawText": "0",
                                     "flags": 96,
                                     "start": 2,
@@ -57,7 +56,6 @@
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 7,

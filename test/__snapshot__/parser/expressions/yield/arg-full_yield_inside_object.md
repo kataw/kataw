@@ -28,7 +28,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "g1",
                                     "text": "g1",
                                     "rawText": "g1",
                                     "flags": 96,
@@ -83,8 +82,7 @@
                                                                     "expression": {
                                                                         "kind": 201392130,
                                                                         "text": 1,
-                                                                        "original": "1",
-                                                                        "rawText": " 1",
+                                                                        "rawText": "1",
                                                                         "flags": 96,
                                                                         "start": 29,
                                                                         "end": 31
@@ -95,7 +93,6 @@
                                                                 },
                                                                 "right": {
                                                                     "kind": 134299649,
-                                                                    "original": "x",
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,

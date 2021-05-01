@@ -31,7 +31,6 @@ var af = ({x = 1}) => x;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "af",
                             "text": "af",
                             "rawText": " af",
                             "flags": 96,
@@ -59,7 +58,6 @@ var af = ({x = 1}) => x;
                                                 "kind": 205,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -69,8 +67,7 @@ var af = ({x = 1}) => x;
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
-                                                    "rawText": " 1",
+                                                    "rawText": "1",
                                                     "flags": 96,
                                                     "start": 14,
                                                     "end": 16
@@ -94,7 +91,6 @@ var af = ({x = 1}) => x;
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,

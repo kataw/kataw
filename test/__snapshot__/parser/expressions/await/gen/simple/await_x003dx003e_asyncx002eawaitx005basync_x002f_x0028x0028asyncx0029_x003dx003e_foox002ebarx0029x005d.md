@@ -32,7 +32,6 @@ await => async.await[async / ((async) => foo.bar)]
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
@@ -47,7 +46,6 @@ await => async.await[async / ((async) => foo.bar)]
                         "kind": 129,
                         "member": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -56,7 +54,6 @@ await => async.await[async / ((async) => foo.bar)]
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
@@ -71,7 +68,6 @@ await => async.await[async / ((async) => foo.bar)]
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
@@ -98,7 +94,6 @@ await => async.await[async / ((async) => foo.bar)]
                                 "parameters": [
                                     {
                                         "kind": 134299649,
-                                        "original": "async",
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
@@ -112,7 +107,6 @@ await => async.await[async / ((async) => foo.bar)]
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": " foo",
                                         "flags": 96,
@@ -121,7 +115,6 @@ await => async.await[async / ((async) => foo.bar)]
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "bar",
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,

@@ -46,7 +46,6 @@ for (x(x in t);;) x
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -60,7 +59,6 @@ for (x(x in t);;) x
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -75,7 +73,6 @@ for (x(x in t);;) x
                             },
                             "right": {
                                 "kind": 134299649,
-                                "original": "t",
                                 "text": "t",
                                 "rawText": " t",
                                 "flags": 96,
@@ -102,7 +99,6 @@ for (x(x in t);;) x
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

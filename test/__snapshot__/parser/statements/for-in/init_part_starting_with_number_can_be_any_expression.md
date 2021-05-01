@@ -47,7 +47,6 @@ for (2 + b in obj);
                 "left": {
                     "kind": 201392130,
                     "text": 2,
-                    "original": "2",
                     "rawText": "2",
                     "flags": 96,
                     "start": 5,
@@ -63,7 +62,6 @@ for (2 + b in obj);
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -78,7 +76,6 @@ for (2 + b in obj);
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "obj",
                         "text": "obj",
                         "rawText": " obj",
                         "flags": 96,

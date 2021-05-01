@@ -79,7 +79,6 @@ do do do while try this and !foo while while while
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,

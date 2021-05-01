@@ -36,7 +36,6 @@ async async => ok[foo]
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": " async",
                             "flags": 96,
@@ -62,7 +61,6 @@ async async => ok[foo]
                     "kind": 130,
                     "member": {
                         "kind": 134299649,
-                        "original": "ok",
                         "text": "ok",
                         "rawText": " ok",
                         "flags": 96,
@@ -71,7 +69,6 @@ async async => ok[foo]
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,

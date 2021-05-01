@@ -39,7 +39,6 @@ var x = y, {z};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -50,7 +49,6 @@ var x = y, {z};
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": " y",
                             "flags": 96,
@@ -73,7 +71,6 @@ var x = y, {z};
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "z",
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,

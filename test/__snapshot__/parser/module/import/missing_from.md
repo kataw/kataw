@@ -35,8 +35,7 @@ import {a, b} fromx "c"
                 "from": {
                     "kind": 201392131,
                     "text": "c",
-                    "original": "\"c\"",
-                    "rawText": " \"c\"",
+                    "rawText": "\"c\"",
                     "flags": 96,
                     "start": 19,
                     "end": 23
@@ -61,7 +60,6 @@ import {a, b} fromx "c"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 64,
@@ -78,7 +76,6 @@ import {a, b} fromx "c"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "b",
                                     "text": "b",
                                     "rawText": " b",
                                     "flags": 64,

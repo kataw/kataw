@@ -39,7 +39,6 @@ var a: -0x7B
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -94,7 +93,6 @@ var a: -0x7B
                 "expression": {
                     "kind": 201392130,
                     "text": 123,
-                    "original": "0x7B",
                     "rawText": "0x7B",
                     "flags": 1048672,
                     "start": 8,

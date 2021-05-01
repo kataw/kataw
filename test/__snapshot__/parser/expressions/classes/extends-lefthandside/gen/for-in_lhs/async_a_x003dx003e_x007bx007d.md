@@ -48,7 +48,6 @@ for (async a => {} in x) ;
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -90,7 +89,6 @@ for (async a => {} in x) ;
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

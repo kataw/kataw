@@ -44,9 +44,8 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "I",
                                                     "text": "I",
-                                                    "rawText": " I",
+                                                    "rawText": "I",
                                                     "flags": 96,
                                                     "start": 8,
                                                     "end": 10
@@ -93,9 +92,8 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "I",
                                                     "text": "I",
-                                                    "rawText": " I",
+                                                    "rawText": "I",
                                                     "flags": 96,
                                                     "start": 23,
                                                     "end": 25
@@ -104,7 +102,6 @@
                                                     "kind": 120,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sleep",
                                                         "text": "sleep",
                                                         "rawText": " sleep",
                                                         "flags": 96,

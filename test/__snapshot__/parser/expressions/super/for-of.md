@@ -34,7 +34,6 @@ for (a?.b of c);
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -50,7 +49,6 @@ for (a?.b of c);
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
@@ -67,7 +65,6 @@ for (a?.b of c);
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "of",
                         "text": "of",
                         "rawText": " of",
                         "flags": 96,
@@ -85,7 +82,6 @@ for (a?.b of c);
             "condition": null,
             "incrementor": {
                 "kind": 134299649,
-                "original": "c",
                 "text": "c",
                 "rawText": " c",
                 "flags": 96,

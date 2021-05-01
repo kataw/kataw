@@ -21,7 +21,6 @@ x = [a, b] = y
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -43,7 +42,6 @@ x = [a, b] = y
                             "elements": [
                                 {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -52,7 +50,6 @@ x = [a, b] = y
                                 },
                                 {
                                     "kind": 134299649,
-                                    "original": "b",
                                     "text": "b",
                                     "rawText": " b",
                                     "flags": 96,
@@ -77,7 +74,6 @@ x = [a, b] = y
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": " y",
                         "flags": 96,

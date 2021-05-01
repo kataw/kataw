@@ -33,7 +33,6 @@ x
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": " yield",
                     "flags": 96,
@@ -53,7 +52,6 @@ x
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "\nx",
                 "flags": 96,

@@ -42,7 +42,6 @@ hello();
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "hello",
                             "text": "hello",
                             "rawText": " hello",
                             "flags": 96,
@@ -66,7 +65,6 @@ hello();
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "greeting",
                                         "text": "greeting",
                                         "rawText": "greeting",
                                         "flags": 96,
@@ -89,8 +87,7 @@ hello();
                                     "initializer": {
                                         "kind": 201392131,
                                         "text": " world",
-                                        "original": "' world'",
-                                        "rawText": " ' world'",
+                                        "rawText": "' world'",
                                         "flags": 4194400,
                                         "start": 30,
                                         "end": 39
@@ -127,7 +124,6 @@ hello();
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "console",
                                                         "text": "console",
                                                         "rawText": "\n  console",
                                                         "flags": 96,
@@ -136,7 +132,6 @@ hello();
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "log",
                                                         "text": "log",
                                                         "rawText": "log",
                                                         "flags": 96,
@@ -155,7 +150,6 @@ hello();
                                                             "left": {
                                                                 "kind": 201392131,
                                                                 "text": "hello",
-                                                                "original": "'hello'",
                                                                 "rawText": "'hello'",
                                                                 "flags": 4194400,
                                                                 "start": 69,
@@ -169,7 +163,6 @@ hello();
                                                             },
                                                             "right": {
                                                                 "kind": 134299649,
-                                                                "original": "greeting",
                                                                 "text": "greeting",
                                                                 "rawText": " greeting",
                                                                 "flags": 96,
@@ -226,7 +219,6 @@ hello();
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "hello",
                     "text": "hello",
                     "rawText": "\n\nhello",
                     "flags": 96,

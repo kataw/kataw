@@ -47,7 +47,6 @@
                                     "right": {
                                         "kind": 201392130,
                                         "text": 790,
-                                        "original": "790",
                                         "rawText": "790",
                                         "flags": 96,
                                         "start": 2,
@@ -72,7 +71,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

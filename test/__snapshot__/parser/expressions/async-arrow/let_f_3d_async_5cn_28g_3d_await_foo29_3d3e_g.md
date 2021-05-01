@@ -31,7 +31,6 @@ let f = async
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -54,7 +53,6 @@ let f = async
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "g",
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
@@ -69,7 +67,6 @@ let f = async
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "await",
                                         "text": "await",
                                         "rawText": " await",
                                         "flags": 96,
@@ -82,7 +79,6 @@ let f = async
                                 },
                                 {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -99,7 +95,6 @@ let f = async
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
-                                "original": "g",
                                 "text": "g",
                                 "rawText": " g",
                                 "flags": 96,

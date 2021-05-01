@@ -38,8 +38,7 @@ export default "foo";
             "declaration": {
                 "kind": 201392131,
                 "text": "foo",
-                "original": "\"foo\"",
-                "rawText": " \"foo\"",
+                "rawText": "\"foo\"",
                 "flags": 96,
                 "start": 14,
                 "end": 20

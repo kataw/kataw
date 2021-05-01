@@ -36,7 +36,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -51,7 +50,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "callback",
                             "text": "callback",
                             "rawText": "callback",
                             "flags": 96,
@@ -71,7 +69,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "_1",
                                                 "text": "_1",
                                                 "rawText": "_1",
                                                 "flags": 96,
@@ -83,7 +80,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
-                                                    "original": "bool",
                                                     "text": "bool",
                                                     "rawText": "bool",
                                                     "flags": 96,
@@ -109,7 +105,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -121,7 +116,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
-                                                    "original": "Array",
                                                     "text": "Array",
                                                     "rawText": "Array",
                                                     "flags": 96,

@@ -38,7 +38,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "fn",
                             "text": "fn",
                             "rawText": " fn",
                             "flags": 96,
@@ -55,9 +54,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
-                                            "original": "Object",
                                             "text": "Object",
-                                            "rawText": " Object",
+                                            "rawText": "Object",
                                             "flags": 96,
                                             "start": 11,
                                             "end": 18
@@ -72,9 +70,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "original": "Object",
                                         "text": "Object",
-                                        "rawText": " Object",
+                                        "rawText": "Object",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 26
@@ -102,9 +99,8 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "Object",
                             "text": "Object",
-                            "rawText": " Object",
+                            "rawText": "Object",
                             "flags": 96,
                             "start": 26,
                             "end": 33
@@ -167,7 +163,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         [
                             {
                                 "kind": 134299649,
-                                "original": "o1",
                                 "text": "o1",
                                 "rawText": " o1",
                                 "flags": 96,
@@ -176,7 +171,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             },
                             {
                                 "kind": 134299649,
-                                "original": "o2",
                                 "text": "o2",
                                 "rawText": " o2",
                                 "flags": 96,
@@ -189,7 +183,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
-                        "original": "o1",
                         "text": "o1",
                         "rawText": " o1",
                         "flags": 96,

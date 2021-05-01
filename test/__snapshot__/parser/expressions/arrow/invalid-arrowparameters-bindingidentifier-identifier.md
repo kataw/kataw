@@ -31,7 +31,6 @@ var af = switch => 1;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "af",
                             "text": "af",
                             "rawText": " af",
                             "flags": 96,
@@ -91,8 +90,7 @@ var af = switch => 1;
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "original": "1",
-                "rawText": " 1",
+                "rawText": "1",
                 "flags": 96,
                 "start": 18,
                 "end": 20

@@ -33,8 +33,7 @@
                 "contents": {
                     "kind": 201392130,
                     "text": 42,
-                    "original": "42",
-                    "rawText": " 42",
+                    "rawText": "42",
                     "flags": 96,
                     "start": 5,
                     "end": 8

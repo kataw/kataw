@@ -31,7 +31,6 @@ class arguments {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "arguments",
                 "text": "arguments",
                 "rawText": " arguments",
                 "flags": 96,

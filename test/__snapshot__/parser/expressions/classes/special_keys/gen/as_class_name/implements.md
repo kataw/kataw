@@ -31,7 +31,6 @@ class implements {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "implements",
                 "text": "implements",
                 "rawText": " implements",
                 "flags": 96,

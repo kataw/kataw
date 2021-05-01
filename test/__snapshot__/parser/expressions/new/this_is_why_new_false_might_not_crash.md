@@ -43,7 +43,6 @@ new false.__proto__.constructor
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "__proto__",
                         "text": "__proto__",
                         "rawText": "__proto__",
                         "flags": 96,
@@ -56,7 +55,6 @@ new false.__proto__.constructor
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "constructor",
                     "text": "constructor",
                     "rawText": "constructor",
                     "flags": 96,

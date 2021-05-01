@@ -39,7 +39,6 @@ function *f() {
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -78,7 +77,6 @@ function *f() {
                                         "kind": 198,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": " a",
                                             "flags": 96,
@@ -93,7 +91,6 @@ function *f() {
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": " b",
                                             "flags": 96,
@@ -112,7 +109,6 @@ function *f() {
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "c",
                                         "text": "c",
                                         "rawText": " c",
                                         "flags": 96,

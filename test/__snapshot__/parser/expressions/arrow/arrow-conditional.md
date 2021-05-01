@@ -30,7 +30,6 @@ a ? b : (): string => {}
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\na",
                     "flags": 96,
@@ -61,7 +60,6 @@ a ? b : (): string => {}
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "string",
                             "text": "string",
                             "rawText": " string",
                             "flags": 96,
@@ -100,7 +98,6 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "b",
                     "text": "b",
                     "rawText": "  b",
                     "flags": 96,
@@ -121,7 +118,6 @@ a ? b : (): string => {}
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\n\na",
                     "flags": 96,
@@ -138,7 +134,6 @@ a ? b : (): string => {}
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "async",
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
@@ -174,7 +169,6 @@ a ? b : (): string => {}
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
-                        "original": "string",
                         "text": "string",
                         "rawText": " string",
                         "flags": 96,
@@ -213,7 +207,6 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "b",
                 "text": "b",
                 "rawText": "  b",
                 "flags": 96,
@@ -230,7 +223,6 @@ a ? b : (): string => {}
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\n\na",
                     "flags": 96,
@@ -261,7 +253,6 @@ a ? b : (): string => {}
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "string",
                             "text": "string",
                             "rawText": " string",
                             "flags": 96,
@@ -316,7 +307,6 @@ a ? b : (): string => {}
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "string",
                             "text": "string",
                             "rawText": " string",
                             "flags": 96,
@@ -375,7 +365,6 @@ a ? b : (): string => {}
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
-                        "original": "string",
                         "text": "string",
                         "rawText": " string",
                         "flags": 96,
@@ -416,7 +405,6 @@ a ? b : (): string => {}
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\n\na",
                     "flags": 96,
@@ -431,7 +419,6 @@ a ? b : (): string => {}
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "b",
                     "text": "b",
                     "rawText": " b",
                     "flags": 96,
@@ -462,7 +449,6 @@ a ? b : (): string => {}
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "string",
                             "text": "string",
                             "rawText": " string",
                             "flags": 96,

@@ -43,7 +43,6 @@ var x:
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -82,8 +81,7 @@ var x:
                         "initializer": {
                             "kind": 201392130,
                             "text": 2,
-                            "original": "2",
-                            "rawText": " 2",
+                            "rawText": "2",
                             "flags": 96,
                             "start": 18,
                             "end": 20

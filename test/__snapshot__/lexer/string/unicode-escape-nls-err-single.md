@@ -26,7 +26,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "_639}",
-                "original": "'\\u{1F_639}'",
                 "rawText": "'\\u{1F_639}'",
                 "flags": 4202592,
                 "start": 0,

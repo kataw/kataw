@@ -33,7 +33,6 @@ function *f(yield){}
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -48,7 +47,6 @@ function *f(yield){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,

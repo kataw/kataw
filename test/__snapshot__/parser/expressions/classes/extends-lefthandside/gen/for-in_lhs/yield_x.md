@@ -31,7 +31,6 @@ x in x) ;
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "yield",
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
@@ -43,7 +42,6 @@ x in x) ;
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\nx",
                     "flags": 96,
@@ -58,7 +56,6 @@ x in x) ;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

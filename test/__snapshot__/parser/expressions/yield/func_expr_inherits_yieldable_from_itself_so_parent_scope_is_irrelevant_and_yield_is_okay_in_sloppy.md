@@ -33,7 +33,6 @@ function* g() { (function yield() {}) }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": " g",
                 "flags": 96,
@@ -70,7 +69,6 @@ function* g() { (function yield() {}) }
                                     "generatorToken": null,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,

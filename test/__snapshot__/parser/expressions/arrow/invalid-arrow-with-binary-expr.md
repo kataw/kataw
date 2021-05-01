@@ -23,7 +23,6 @@
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "original": "localVar",
                         "text": "localVar",
                         "rawText": "localVar",
                         "flags": 96,
@@ -38,7 +37,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "defaultValue",
                         "text": "defaultValue",
                         "rawText": " defaultValue",
                         "flags": 96,

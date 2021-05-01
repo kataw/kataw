@@ -182,7 +182,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "e",
                                             "text": "e",
                                             "rawText": " e",
                                             "flags": 96,
@@ -243,7 +242,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "e",
                                                 "text": "e",
                                                 "rawText": " e",
                                                 "flags": 96,
@@ -313,7 +311,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "e",
                                             "text": "e",
                                             "rawText": " e",
                                             "flags": 96,
@@ -374,7 +371,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "e",
                                                 "text": "e",
                                                 "rawText": " e",
                                                 "flags": 96,
@@ -436,7 +432,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "e",
                                             "text": "e",
                                             "rawText": " e",
                                             "flags": 96,
@@ -477,8 +472,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 133,
                 "end": 147
@@ -642,7 +636,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 },
                 "catchParameter": {
                     "kind": 134299649,
-                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
@@ -700,7 +693,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "e",
                                             "text": "e",
                                             "rawText": " e",
                                             "flags": 96,
@@ -761,7 +753,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "e",
                                                 "text": "e",
                                                 "rawText": " e",
                                                 "flags": 96,
@@ -842,7 +833,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                 "ellipsisToken": null,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "e",
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
@@ -897,7 +887,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "kind": 190,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "e",
                                                                 "text": "e",
                                                                 "rawText": " e",
                                                                 "flags": 96,
@@ -958,7 +947,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                                 "kind": 190,
                                                                 "binding": {
                                                                     "kind": 134299649,
-                                                                    "original": "e",
                                                                     "text": "e",
                                                                     "rawText": " e",
                                                                     "flags": 96,
@@ -1020,7 +1008,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "kind": 190,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "e",
                                                                 "text": "e",
                                                                 "rawText": " e",
                                                                 "flags": 96,
@@ -1088,7 +1075,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -1137,7 +1123,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "kind": 190,
                                                         "binding": {
                                                             "kind": 134299649,
-                                                            "original": "e",
                                                             "text": "e",
                                                             "rawText": " e",
                                                             "flags": 96,
@@ -1198,7 +1183,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                             "kind": 190,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "e",
                                                                 "text": "e",
                                                                 "rawText": " e",
                                                                 "flags": 96,
@@ -1260,7 +1244,6 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                                                         "kind": 190,
                                                         "binding": {
                                                             "kind": 134299649,
-                                                            "original": "e",
                                                             "text": "e",
                                                             "rawText": " e",
                                                             "flags": 96,

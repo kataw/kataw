@@ -19,7 +19,6 @@ async({a=1}. {b=2}, {c=3} = {}))
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -40,7 +39,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "kind": 205,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -50,7 +48,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "right": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "original": "1",
                                             "rawText": "1",
                                             "flags": 96,
                                             "start": 9,
@@ -90,7 +87,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -100,7 +96,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "right": {
                                         "kind": 201392130,
                                         "text": 2,
-                                        "original": "2",
                                         "rawText": "2",
                                         "flags": 96,
                                         "start": 16,
@@ -131,7 +126,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "kind": 205,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "c",
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
@@ -141,7 +135,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
-                                            "original": "3",
                                             "rawText": "3",
                                             "flags": 96,
                                             "start": 23,

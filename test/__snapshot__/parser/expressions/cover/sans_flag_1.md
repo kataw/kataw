@@ -36,7 +36,6 @@ _ => _
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "_",
                     "text": "_",
                     "rawText": "_",
                     "flags": 96,
@@ -51,9 +50,8 @@ _ => _
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "_",
                             "text": "_",
-                            "rawText": " _",
+                            "rawText": "_",
                             "flags": 96,
                             "start": 4,
                             "end": 6
@@ -66,7 +64,6 @@ _ => _
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,

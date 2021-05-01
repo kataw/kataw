@@ -31,7 +31,6 @@ class x {* eval(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {* eval(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "eval",
                                 "text": "eval",
                                 "rawText": " eval",
                                 "flags": 96,

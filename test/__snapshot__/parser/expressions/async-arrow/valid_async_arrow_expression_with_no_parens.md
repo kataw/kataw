@@ -21,7 +21,6 @@ f(async foo=>c)
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -46,7 +45,6 @@ f(async foo=>c)
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": " foo",
                                         "flags": 96,
@@ -70,7 +68,6 @@ f(async foo=>c)
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
-                                "original": "c",
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,

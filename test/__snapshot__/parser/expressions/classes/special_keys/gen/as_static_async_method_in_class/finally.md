@@ -31,7 +31,6 @@ class x {static async finally(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static async finally(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "finally",
                                 "text": "finally",
                                 "rawText": " finally",
                                 "flags": 96,

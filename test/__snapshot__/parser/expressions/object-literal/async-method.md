@@ -32,7 +32,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -56,7 +55,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -88,7 +86,6 @@
                                                     "kind": 130,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "g",
                                                         "text": "g",
                                                         "rawText": " g",
                                                         "flags": 96,
@@ -99,7 +96,6 @@
                                                         "kind": 129,
                                                         "member": {
                                                             "kind": 134299649,
-                                                            "original": "Symbol",
                                                             "text": "Symbol",
                                                             "rawText": "Symbol",
                                                             "flags": 96,
@@ -108,7 +104,6 @@
                                                         },
                                                         "expression": {
                                                             "kind": 134299649,
-                                                            "original": "iterator",
                                                             "text": "iterator",
                                                             "rawText": "iterator",
                                                             "flags": 96,
@@ -232,7 +227,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -256,7 +250,6 @@
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
-                                                                "original": "w",
                                                                 "text": "w",
                                                                 "rawText": " w",
                                                                 "flags": 96,
@@ -276,7 +269,6 @@
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "x",
                                                                                     "text": "x",
                                                                                     "rawText": "x",
                                                                                     "flags": 96,
@@ -295,7 +287,6 @@
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "y",
                                                                                     "text": "y",
                                                                                     "rawText": " y",
                                                                                     "flags": 96,
@@ -314,7 +305,6 @@
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "z",
                                                                                     "text": "z",
                                                                                     "rawText": " z",
                                                                                     "flags": 96,
@@ -346,7 +336,6 @@
                                                                             {
                                                                                 "kind": 201392130,
                                                                                 "text": 4,
-                                                                                "original": "4",
                                                                                 "rawText": "4",
                                                                                 "flags": 96,
                                                                                 "start": 101,
@@ -355,8 +344,7 @@
                                                                             {
                                                                                 "kind": 201392130,
                                                                                 "text": 5,
-                                                                                "original": "5",
-                                                                                "rawText": " 5",
+                                                                                "rawText": "5",
                                                                                 "flags": 96,
                                                                                 "start": 103,
                                                                                 "end": 105
@@ -364,8 +352,7 @@
                                                                             {
                                                                                 "kind": 201392130,
                                                                                 "text": 6,
-                                                                                "original": "6",
-                                                                                "rawText": " 6",
+                                                                                "rawText": "6",
                                                                                 "flags": 96,
                                                                                 "start": 106,
                                                                                 "end": 108
@@ -474,7 +461,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -498,7 +484,6 @@
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": " x",
                                                                 "flags": 96,
@@ -510,7 +495,6 @@
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
-                                                                    "original": "y",
                                                                     "text": "y",
                                                                     "rawText": " y",
                                                                     "flags": 96,
@@ -521,7 +505,6 @@
                                                                     "kind": 131,
                                                                     "expression": {
                                                                         "kind": 134299649,
-                                                                        "original": "thrower",
                                                                         "text": "thrower",
                                                                         "rawText": " thrower",
                                                                         "flags": 96,
@@ -634,7 +617,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -658,7 +640,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -670,8 +651,7 @@
                                                             "initializer": {
                                                                 "kind": 201392130,
                                                                 "text": 23,
-                                                                "original": "23",
-                                                                "rawText": " 23",
+                                                                "rawText": "23",
                                                                 "flags": 96,
                                                                 "start": 197,
                                                                 "end": 200
@@ -753,7 +733,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -777,7 +756,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "_",
                                                                 "text": "_",
                                                                 "rawText": "_",
                                                                 "flags": 96,
@@ -796,7 +774,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": " x",
                                                                 "flags": 96,

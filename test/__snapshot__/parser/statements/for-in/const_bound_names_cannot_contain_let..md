@@ -63,7 +63,6 @@ for (const [let] in obj);
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "let",
                                             "text": "let",
                                             "rawText": "let",
                                             "flags": 96,
@@ -101,7 +100,6 @@ for (const [let] in obj);
             },
             "expression": {
                 "kind": 134299649,
-                "original": "obj",
                 "text": "obj",
                 "rawText": " obj",
                 "flags": 96,

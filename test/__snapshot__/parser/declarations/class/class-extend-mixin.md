@@ -35,9 +35,8 @@ class Foo<T> extends mixin(Bar) { }
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -49,7 +48,6 @@ class Foo<T> extends mixin(Bar) { }
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
-                            "original": "T",
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
@@ -78,7 +76,6 @@ class Foo<T> extends mixin(Bar) { }
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "mixin",
                         "text": "mixin",
                         "rawText": " mixin",
                         "flags": 96,
@@ -90,7 +87,6 @@ class Foo<T> extends mixin(Bar) { }
                         "elements": [
                             {
                                 "kind": 134299649,
-                                "original": "Bar",
                                 "text": "Bar",
                                 "rawText": "Bar",
                                 "flags": 96,

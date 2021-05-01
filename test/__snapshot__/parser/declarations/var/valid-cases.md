@@ -75,7 +75,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -114,7 +113,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -126,8 +124,7 @@ var {get} = obj;
                         "initializer": {
                             "kind": 201392130,
                             "text": 5,
-                            "original": "5",
-                            "rawText": " 5",
+                            "rawText": "5",
                             "flags": 96,
                             "start": 15,
                             "end": 17
@@ -161,7 +158,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -173,8 +169,7 @@ var {get} = obj;
                         "initializer": {
                             "kind": 201392130,
                             "text": 4,
-                            "original": "4",
-                            "rawText": " 4",
+                            "rawText": "4",
                             "flags": 96,
                             "start": 27,
                             "end": 29
@@ -208,7 +203,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -220,8 +214,7 @@ var {get} = obj;
                         "initializer": {
                             "kind": 201392130,
                             "text": 5,
-                            "original": "5",
-                            "rawText": " 5",
+                            "rawText": "5",
                             "flags": 96,
                             "start": 39,
                             "end": 41
@@ -263,7 +256,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -301,15 +293,13 @@ var {get} = obj;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
-                                            "original": "4",
-                                            "rawText": " 4",
+                                            "rawText": "4",
                                             "flags": 96,
                                             "start": 57,
                                             "end": 59
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -332,7 +322,6 @@ var {get} = obj;
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -348,8 +337,7 @@ var {get} = obj;
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 5,
-                                                    "original": "5",
-                                                    "rawText": " 5",
+                                                    "rawText": "5",
                                                     "flags": 96,
                                                     "start": 68,
                                                     "end": 70
@@ -364,7 +352,6 @@ var {get} = obj;
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": " b",
                                             "flags": 96,
@@ -414,7 +401,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -437,15 +423,13 @@ var {get} = obj;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
-                                            "original": "4",
-                                            "rawText": " 4",
+                                            "rawText": "4",
                                             "flags": 96,
                                             "start": 86,
                                             "end": 88
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -468,7 +452,6 @@ var {get} = obj;
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -484,8 +467,7 @@ var {get} = obj;
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 5,
-                                                    "original": "5",
-                                                    "rawText": " 5",
+                                                    "rawText": "5",
                                                     "flags": 96,
                                                     "start": 97,
                                                     "end": 99
@@ -500,7 +482,6 @@ var {get} = obj;
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": " b",
                                             "flags": 96,
@@ -539,8 +520,7 @@ var {get} = obj;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 102,
                 "end": 116
@@ -565,7 +545,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -577,8 +556,7 @@ var {get} = obj;
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 125,
                             "end": 127
@@ -616,7 +594,6 @@ var {get} = obj;
                                     "kind": 190,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -628,8 +605,7 @@ var {get} = obj;
                                     "initializer": {
                                         "kind": 201392130,
                                         "text": 6,
-                                        "original": "6",
-                                        "rawText": " 6",
+                                        "rawText": "6",
                                         "flags": 96,
                                         "start": 138,
                                         "end": 140
@@ -672,7 +648,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -726,7 +701,6 @@ var {get} = obj;
                 },
                 "catchParameter": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -744,7 +718,6 @@ var {get} = obj;
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -760,8 +733,7 @@ var {get} = obj;
                                     "right": {
                                         "kind": 201392130,
                                         "text": 5,
-                                        "original": "5",
-                                        "rawText": " 5",
+                                        "rawText": "5",
                                         "flags": 96,
                                         "start": 174,
                                         "end": 176
@@ -809,7 +781,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -844,7 +815,6 @@ var {get} = obj;
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "arg",
                                                             "text": "arg",
                                                             "rawText": "arg",
                                                             "flags": 96,
@@ -860,8 +830,7 @@ var {get} = obj;
                                                         "right": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "original": "1",
-                                                            "rawText": " 1",
+                                                            "rawText": "1",
                                                             "flags": 96,
                                                             "start": 198,
                                                             "end": 200
@@ -872,7 +841,6 @@ var {get} = obj;
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
-                                                        "original": "x",
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
@@ -908,7 +876,6 @@ var {get} = obj;
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "b",
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
@@ -927,7 +894,6 @@ var {get} = obj;
                                                                 "kind": 125,
                                                                 "left": {
                                                                     "kind": 134299649,
-                                                                    "original": "arg",
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
@@ -943,7 +909,6 @@ var {get} = obj;
                                                                 "right": {
                                                                     "kind": 201392130,
                                                                     "text": 2,
-                                                                    "original": "2",
                                                                     "rawText": "2",
                                                                     "flags": 96,
                                                                     "start": 213,
@@ -963,7 +928,6 @@ var {get} = obj;
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -1035,7 +999,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -1069,7 +1032,6 @@ var {get} = obj;
                                                     "kind": 125,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "original": "arg",
                                                         "text": "arg",
                                                         "rawText": "arg",
                                                         "flags": 96,
@@ -1088,7 +1050,6 @@ var {get} = obj;
                                                             "kind": 125,
                                                             "left": {
                                                                 "kind": 134299649,
-                                                                "original": "arg",
                                                                 "text": "arg",
                                                                 "rawText": "arg",
                                                                 "flags": 96,
@@ -1104,8 +1065,7 @@ var {get} = obj;
                                                             "right": {
                                                                 "kind": 201392130,
                                                                 "text": 2,
-                                                                "original": "2",
-                                                                "rawText": " 2",
+                                                                "rawText": "2",
                                                                 "flags": 96,
                                                                 "start": 249,
                                                                 "end": 251
@@ -1124,7 +1084,6 @@ var {get} = obj;
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
@@ -1195,7 +1154,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1234,7 +1192,6 @@ var {get} = obj;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -1246,8 +1203,7 @@ var {get} = obj;
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 281,
                             "end": 283
@@ -1289,7 +1245,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -1323,7 +1278,6 @@ var {get} = obj;
                                     {
                                         "kind": 201392130,
                                         "text": 1,
-                                        "original": "1",
                                         "rawText": "1",
                                         "flags": 96,
                                         "start": 299,
@@ -1376,7 +1330,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -1414,15 +1367,13 @@ var {get} = obj;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,
-                                            "original": "2",
-                                            "rawText": " 2",
+                                            "rawText": "2",
                                             "flags": 96,
                                             "start": 321,
                                             "end": 323
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -1480,7 +1431,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -1490,7 +1440,6 @@ var {get} = obj;
                                         "right": {
                                             "kind": 201392130,
                                             "text": 3,
-                                            "original": "3",
                                             "rawText": "3",
                                             "flags": 96,
                                             "start": 336,
@@ -1563,7 +1512,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "get",
                                             "text": "get",
                                             "rawText": "get",
                                             "flags": 96,
@@ -1572,7 +1520,6 @@ var {get} = obj;
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "defaultValue",
                                             "text": "defaultValue",
                                             "rawText": " defaultValue",
                                             "flags": 96,
@@ -1597,7 +1544,6 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,
@@ -1641,7 +1587,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "propName",
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
@@ -1650,7 +1595,6 @@ var {get} = obj;
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "defaultValue",
                                             "text": "defaultValue",
                                             "rawText": " defaultValue",
                                             "flags": 96,
@@ -1675,7 +1619,6 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,
@@ -1719,7 +1662,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "propName",
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
@@ -1731,7 +1673,6 @@ var {get} = obj;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "localVar",
                                                 "text": "localVar",
                                                 "rawText": " localVar",
                                                 "flags": 96,
@@ -1740,7 +1681,6 @@ var {get} = obj;
                                             },
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "defaultValue",
                                                 "text": "defaultValue",
                                                 "rawText": " defaultValue",
                                                 "flags": 96,
@@ -1769,7 +1709,6 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,
@@ -1813,7 +1752,6 @@ var {get} = obj;
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "get",
                                             "text": "get",
                                             "rawText": "get",
                                             "flags": 96,
@@ -1839,7 +1777,6 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,

@@ -52,7 +52,6 @@ class x { static async *prototype(){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -87,7 +86,6 @@ class x { static async *prototype(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "prototype",
                                 "text": "prototype",
                                 "rawText": " prototype",
                                 "flags": 96,
@@ -147,7 +145,6 @@ class x { static async *prototype(){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -178,8 +175,7 @@ class x { static async *prototype(){} }
                             "name": {
                                 "kind": 201392131,
                                 "text": "prototype",
-                                "original": "\"prot\\u006ftype\"",
-                                "rawText": " \"prot\\u006ftype\"",
+                                "rawText": "\"prot\\u006ftype\"",
                                 "flags": 16480,
                                 "start": 54,
                                 "end": 71
@@ -237,7 +233,6 @@ class x { static async *prototype(){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -272,7 +267,6 @@ class x { static async *prototype(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "prototype",
                                 "text": "prototype",
                                 "rawText": " prototype",
                                 "flags": 96,
@@ -332,7 +326,6 @@ class x { static async *prototype(){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -372,7 +365,6 @@ class x { static async *prototype(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "prototype",
                                 "text": "prototype",
                                 "rawText": "prototype",
                                 "flags": 96,

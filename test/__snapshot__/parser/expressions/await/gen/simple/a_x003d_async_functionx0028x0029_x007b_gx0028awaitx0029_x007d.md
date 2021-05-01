@@ -25,7 +25,6 @@ a = async function() { g(await) }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -74,7 +73,6 @@ a = async function() { g(await) }
                                         "kind": 131,
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "g",
                                             "text": "g",
                                             "rawText": " g",
                                             "flags": 96,

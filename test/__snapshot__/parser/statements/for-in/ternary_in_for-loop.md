@@ -49,8 +49,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                 "consequent": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
-                    "rawText": " 0",
+                    "rawText": "0",
                     "flags": 96,
                     "start": 11,
                     "end": 13
@@ -66,8 +65,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                     "left": {
                         "kind": 201392130,
                         "text": 0,
-                        "original": "0",
-                        "rawText": " 0",
+                        "rawText": "0",
                         "flags": 96,
                         "start": 15,
                         "end": 17

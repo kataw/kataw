@@ -59,7 +59,6 @@
                                                                     },
                                                                     "expression": {
                                                                         "kind": 134299649,
-                                                                        "original": "xxx",
                                                                         "text": "xxx",
                                                                         "rawText": "xxx",
                                                                         "flags": 96,

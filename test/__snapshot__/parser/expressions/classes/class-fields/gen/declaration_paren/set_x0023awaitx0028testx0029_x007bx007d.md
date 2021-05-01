@@ -44,9 +44,8 @@
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "Base",
                             "text": "Base",
-                            "rawText": " Base",
+                            "rawText": "Base",
                             "flags": 96,
                             "start": 14,
                             "end": 19
@@ -91,7 +90,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "test",
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,

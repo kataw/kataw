@@ -31,7 +31,6 @@ class x extends enum {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends enum {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "enum",
                     "text": "enum",
                     "rawText": " enum",
                     "flags": 96,

@@ -31,7 +31,6 @@ class x {static async * while(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -71,7 +70,6 @@ class x {static async * while(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "while",
                                 "text": "while",
                                 "rawText": " while",
                                 "flags": 96,

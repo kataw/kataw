@@ -35,9 +35,8 @@ class Foo {set fooProp(value:number):void{}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -65,7 +64,6 @@ class Foo {set fooProp(value:number):void{}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "fooProp",
                                 "text": "fooProp",
                                 "rawText": " fooProp",
                                 "flags": 96,
@@ -81,7 +79,6 @@ class Foo {set fooProp(value:number):void{}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "value",
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,

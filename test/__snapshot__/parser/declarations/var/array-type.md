@@ -50,7 +50,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -106,7 +105,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -177,7 +175,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -248,7 +245,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -310,7 +306,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -380,7 +375,6 @@ var a: (?number)[];
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,

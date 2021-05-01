@@ -23,7 +23,6 @@ b
                 "kind": 226,
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -50,7 +49,6 @@ b
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "b",
                 "text": "b",
                 "rawText": "\nb",
                 "flags": 96,

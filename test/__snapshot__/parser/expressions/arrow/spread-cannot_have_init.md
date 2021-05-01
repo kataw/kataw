@@ -39,7 +39,6 @@
                         },
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -50,7 +49,6 @@
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": " y",
                             "flags": 96,
@@ -66,7 +64,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -103,7 +100,6 @@
                         },
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -115,8 +111,7 @@
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "original": "10",
-                            "rawText": " 10",
+                            "rawText": "10",
                             "flags": 96,
                             "start": 25,
                             "end": 28

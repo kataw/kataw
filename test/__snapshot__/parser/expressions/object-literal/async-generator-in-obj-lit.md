@@ -34,7 +34,6 @@ const obj = {
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,
@@ -50,7 +49,6 @@ const obj = {
                                 "properties": [
                                     {
                                         "kind": 134299649,
-                                        "original": "async",
                                         "text": "async",
                                         "rawText": "\n    async",
                                         "flags": 96,
@@ -61,7 +59,6 @@ const obj = {
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "generator",
                                             "text": "generator",
                                             "rawText": "generator",
                                             "flags": 96,

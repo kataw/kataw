@@ -19,7 +19,6 @@ async (yield x)
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -31,7 +30,6 @@ async (yield x)
                 "elements": [
                     {
                         "kind": 134299649,
-                        "original": "yield",
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
@@ -40,7 +38,6 @@ async (yield x)
                     },
                     {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,

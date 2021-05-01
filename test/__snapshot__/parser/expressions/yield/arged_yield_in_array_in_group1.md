@@ -33,7 +33,6 @@ function *g(){ (x = [yield y]) }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -62,7 +61,6 @@ function *g(){ (x = [yield y]) }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -92,7 +90,6 @@ function *g(){ (x = [yield y]) }
                                                     "asteriskToken": null,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": " y",
                                                         "flags": 96,

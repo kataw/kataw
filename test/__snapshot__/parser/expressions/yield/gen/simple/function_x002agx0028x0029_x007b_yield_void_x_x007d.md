@@ -37,7 +37,6 @@ function *g() { yield void x }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -80,7 +79,6 @@ function *g() { yield void x }
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,

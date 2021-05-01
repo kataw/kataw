@@ -19,7 +19,6 @@ async (a=/i/) = /i/
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -33,7 +32,6 @@ async (a=/i/) = /i/
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,

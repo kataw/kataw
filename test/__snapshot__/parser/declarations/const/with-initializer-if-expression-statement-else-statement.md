@@ -81,7 +81,6 @@ if (true) {} else const x = 1;
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -93,8 +92,7 @@ if (true) {} else const x = 1;
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
-                            "rawText": " 1",
+                            "rawText": "1",
                             "flags": 96,
                             "start": 27,
                             "end": 29

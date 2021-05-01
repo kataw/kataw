@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -50,7 +49,6 @@
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foob",
                             "text": "foob",
                             "rawText": " foob",
                             "flags": 96,
@@ -77,7 +75,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "u",
                 "text": "u",
                 "rawText": "u",
                 "flags": 96,
@@ -107,7 +104,6 @@
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "ar",
                     "text": "ar",
                     "rawText": "ar",
                     "flags": 96,
@@ -123,8 +119,7 @@
                 "right": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
-                    "rawText": " 0",
+                    "rawText": "0",
                     "flags": 96,
                     "start": 31,
                     "end": 33

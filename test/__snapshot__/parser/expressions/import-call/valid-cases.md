@@ -39,7 +39,6 @@ import(x).then();
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -66,7 +65,6 @@ import(x).then();
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -94,7 +92,6 @@ import(x).then();
                 "expression": {
                     "kind": 201392130,
                     "text": 1,
-                    "original": "1",
                     "rawText": "1",
                     "flags": 96,
                     "start": 34,
@@ -122,7 +119,6 @@ import(x).then();
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -137,7 +133,6 @@ import(x).then();
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -178,7 +173,6 @@ import(x).then();
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -217,7 +211,6 @@ import(x).then();
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -230,7 +223,6 @@ import(x).then();
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "then",
                         "text": "then",
                         "rawText": "then",
                         "flags": 96,

@@ -37,7 +37,6 @@ async function f(){ await foo\n/foo/g }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -70,7 +69,6 @@ async function f(){ await foo\n/foo/g }
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -108,7 +106,6 @@ async function f(){ await foo\n/foo/g }
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "n",
                         "text": "n",
                         "rawText": "n",
                         "flags": 96,
@@ -123,7 +120,6 @@ async function f(){ await foo\n/foo/g }
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -142,7 +138,6 @@ async function f(){ await foo\n/foo/g }
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "g",
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,

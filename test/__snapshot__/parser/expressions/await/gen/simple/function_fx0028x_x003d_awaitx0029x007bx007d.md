@@ -32,7 +32,6 @@ function f(x = await){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -47,7 +46,6 @@ function f(x = await){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -58,7 +56,6 @@ function f(x = await){}
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,

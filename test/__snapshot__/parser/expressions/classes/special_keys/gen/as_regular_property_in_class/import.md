@@ -31,7 +31,6 @@ class x {import: x}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -51,7 +50,6 @@ class x {import: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "import",
                             "text": "import",
                             "rawText": "import",
                             "flags": 96,
@@ -78,7 +76,6 @@ class x {import: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

@@ -46,7 +46,6 @@ for (let {x: y = let};;) {}
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -58,7 +57,6 @@ for (let {x: y = let};;) {}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": " y",
                                                 "flags": 96,
@@ -67,7 +65,6 @@ for (let {x: y = let};;) {}
                                             },
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "let",
                                                 "text": "let",
                                                 "rawText": " let",
                                                 "flags": 96,

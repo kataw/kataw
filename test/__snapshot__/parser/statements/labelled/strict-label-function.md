@@ -22,7 +22,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -36,7 +35,6 @@
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "bar",
                 "text": "bar",
                 "rawText": " bar",
                 "flags": 96,
@@ -85,7 +83,6 @@
                 },
                 "name": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -129,8 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 35,
                 "end": 49
@@ -143,7 +139,6 @@
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "bar",
                 "text": "bar",
                 "rawText": " bar",
                 "flags": 96,
@@ -187,7 +182,6 @@
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

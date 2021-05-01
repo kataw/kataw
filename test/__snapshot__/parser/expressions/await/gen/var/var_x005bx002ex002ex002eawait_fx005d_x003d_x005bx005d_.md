@@ -35,7 +35,6 @@ var await; var f = (async function() { var [...await f] = []; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { var [...await f] = []; });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -144,7 +142,6 @@ var await; var f = (async function() { var [...await f] = []; });
                                                                             },
                                                                             "binding": {
                                                                                 "kind": 134299649,
-                                                                                "original": "await",
                                                                                 "text": "await",
                                                                                 "rawText": "await",
                                                                                 "flags": 96,
@@ -163,7 +160,6 @@ var await; var f = (async function() { var [...await f] = []; });
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
-                                                                                "original": "f",
                                                                                 "text": "f",
                                                                                 "rawText": " f",
                                                                                 "flags": 96,

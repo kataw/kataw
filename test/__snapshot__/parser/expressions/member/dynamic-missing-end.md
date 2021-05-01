@@ -27,7 +27,6 @@ x[a
                 "kind": 130,
                 "member": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -36,7 +35,6 @@ x[a
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,

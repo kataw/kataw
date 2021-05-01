@@ -28,7 +28,6 @@ opaque stuff: Box<T> = Container<T>
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "opaque",
                 "text": "opaque",
                 "rawText": "opaque",
                 "flags": 96,
@@ -43,7 +42,6 @@ opaque stuff: Box<T> = Container<T>
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "stuff",
                 "text": "stuff",
                 "rawText": " stuff",
                 "flags": 96,
@@ -74,9 +72,8 @@ opaque stuff: Box<T> = Container<T>
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "Box",
                             "text": "Box",
-                            "rawText": " Box",
+                            "rawText": "Box",
                             "flags": 96,
                             "start": 13,
                             "end": 17
@@ -89,7 +86,6 @@ opaque stuff: Box<T> = Container<T>
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "T",
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
@@ -133,9 +129,8 @@ opaque stuff: Box<T> = Container<T>
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "Container",
                         "text": "Container",
-                        "rawText": " Container",
+                        "rawText": "Container",
                         "flags": 96,
                         "start": 22,
                         "end": 32
@@ -148,7 +143,6 @@ opaque stuff: Box<T> = Container<T>
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "T",
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,

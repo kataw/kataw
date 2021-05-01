@@ -26,7 +26,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "afail",
-                "original": "\"\\uafail\"",
                 "rawText": "\"\\uafail\"",
                 "flags": 16480,
                 "start": 0,

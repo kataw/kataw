@@ -35,7 +35,6 @@ async ( { x}  ) => {
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,
@@ -50,7 +49,6 @@ async ( { x}  ) => {
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": " y",
                         "flags": 96,
@@ -77,8 +75,7 @@ async ( { x}  ) => {
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "'use strict'",
-                            "rawText": "\n  'use strict'",
+                            "rawText": "'use strict'",
                             "flags": 4194401,
                             "start": 20,
                             "end": 35
@@ -114,7 +111,6 @@ async ( { x}  ) => {
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -147,8 +143,7 @@ async ( { x}  ) => {
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "'use strict'",
-                            "rawText": "\n  'use strict'",
+                            "rawText": "'use strict'",
                             "flags": 4194401,
                             "start": 60,
                             "end": 75

@@ -26,7 +26,6 @@
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "   async",
                                 "flags": 96,
@@ -41,7 +40,6 @@
                                         "kind": 198,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "ha",
                                             "text": "ha",
                                             "rawText": "ha",
                                             "flags": 96,
@@ -56,7 +54,6 @@
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "ha",
                                             "text": "ha",
                                             "rawText": "ha",
                                             "flags": 96,

@@ -31,7 +31,6 @@ class x {static get return(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static get return(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "return",
                                 "text": "return",
                                 "rawText": " return",
                                 "flags": 96,

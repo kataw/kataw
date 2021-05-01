@@ -49,9 +49,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 6,
                 "end": 8
@@ -79,7 +78,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -95,7 +93,6 @@ class C { get name(private) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "interface",
                                             "text": "interface",
                                             "rawText": "interface",
                                             "flags": 96,
@@ -159,9 +156,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 42,
                 "end": 44
@@ -189,7 +185,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -205,7 +200,6 @@ class C { get name(private) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "public",
                                             "text": "public",
                                             "rawText": "public",
                                             "flags": 96,
@@ -269,9 +263,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 75,
                 "end": 77
@@ -299,7 +292,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -315,7 +307,6 @@ class C { get name(private) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "private",
                                             "text": "private",
                                             "rawText": "private",
                                             "flags": 96,
@@ -372,8 +363,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 102,
                 "end": 116
@@ -394,9 +384,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 123,
                 "end": 125
@@ -424,7 +413,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -440,7 +428,6 @@ class C { get name(private) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "implements",
                                             "text": "implements",
                                             "rawText": "implements",
                                             "flags": 96,
@@ -497,8 +484,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 153,
                 "end": 167
@@ -519,9 +505,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 174,
                 "end": 176
@@ -549,7 +534,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -565,7 +549,6 @@ class C { get name(private) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "yield",
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
@@ -622,8 +605,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 199,
                 "end": 213
@@ -644,9 +626,8 @@ class C { get name(private) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 220,
                 "end": 222
@@ -674,7 +655,6 @@ class C { get name(private) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "name",
                                 "text": "name",
                                 "rawText": " name",
                                 "flags": 96,
@@ -721,7 +701,6 @@ class C { get name(private) {} }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "var",
                             "text": "var",
                             "rawText": "var",
                             "flags": 96,
@@ -762,8 +741,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 243,
                 "end": 257
@@ -809,7 +787,6 @@ class C { get name(private) {} }
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "name",
                                         "text": "name",
                                         "rawText": " name",
                                         "flags": 96,
@@ -825,7 +802,6 @@ class C { get name(private) {} }
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "package",
                                                     "text": "package",
                                                     "rawText": "package",
                                                     "flags": 96,
@@ -890,8 +866,7 @@ class C { get name(private) {} }
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 291,
                 "end": 305
@@ -937,7 +912,6 @@ class C { get name(private) {} }
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "name",
                                         "text": "name",
                                         "rawText": " name",
                                         "flags": 96,
@@ -953,7 +927,6 @@ class C { get name(private) {} }
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "static",
                                                     "text": "static",
                                                     "rawText": "static",
                                                     "flags": 96,

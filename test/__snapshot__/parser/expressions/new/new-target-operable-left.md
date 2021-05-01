@@ -28,7 +28,6 @@ function f(){ new.target + foo }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -73,7 +72,6 @@ function f(){ new.target + foo }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,

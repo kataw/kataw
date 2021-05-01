@@ -31,7 +31,6 @@ var af = ...x => x;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "af",
                             "text": "af",
                             "rawText": " af",
                             "flags": 96,
@@ -73,7 +72,6 @@ var af = ...x => x;
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -84,7 +82,6 @@ var af = ...x => x;
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

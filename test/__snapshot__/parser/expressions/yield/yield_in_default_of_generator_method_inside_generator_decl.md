@@ -33,7 +33,6 @@ function *f(){  ({*g(x=yield){}})  }
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -67,7 +66,6 @@ function *f(){  ({*g(x=yield){}})  }
                                                 "kind": 209,
                                                 "name": {
                                                     "kind": 134299649,
-                                                    "original": "g",
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 96,
@@ -83,7 +81,6 @@ function *f(){  ({*g(x=yield){}})  }
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,

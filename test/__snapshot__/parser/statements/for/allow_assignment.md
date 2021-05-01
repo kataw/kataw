@@ -35,7 +35,6 @@ for (foo=10;;);
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -51,7 +50,6 @@ for (foo=10;;);
                 "right": {
                     "kind": 201392130,
                     "text": 10,
-                    "original": "10",
                     "rawText": "10",
                     "flags": 96,
                     "start": 9,

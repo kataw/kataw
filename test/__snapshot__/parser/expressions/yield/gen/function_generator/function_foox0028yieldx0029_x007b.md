@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function foo(yield) { }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function foo(yield) { }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -105,7 +103,6 @@ function * gen() { function not_gen() { function foo(yield) { }}
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": " foo",
                                                 "flags": 96,
@@ -120,7 +117,6 @@ function * gen() { function not_gen() { function foo(yield) { }}
                                                         "ellipsisToken": null,
                                                         "binding": {
                                                             "kind": 134299649,
-                                                            "original": "yield",
                                                             "text": "yield",
                                                             "rawText": "yield",
                                                             "flags": 96,

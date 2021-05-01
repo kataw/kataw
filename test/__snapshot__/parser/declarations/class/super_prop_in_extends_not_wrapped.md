@@ -35,7 +35,6 @@ class x extends super.foo {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -67,7 +66,6 @@ class x extends super.foo {}
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,

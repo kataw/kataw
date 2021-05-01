@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -110,7 +108,6 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -154,8 +151,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                                     "expression": {
                                                                         "kind": 201392130,
                                                                         "text": 0,
-                                                                        "original": "0",
-                                                                        "rawText": " 0",
+                                                                        "rawText": "0",
                                                                         "flags": 96,
                                                                         "start": 66,
                                                                         "end": 68

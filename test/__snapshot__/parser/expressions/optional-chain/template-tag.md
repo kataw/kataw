@@ -27,7 +27,6 @@ a?.`x`
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,

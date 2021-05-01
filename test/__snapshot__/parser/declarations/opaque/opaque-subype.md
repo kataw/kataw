@@ -39,9 +39,8 @@ opaque type Counter: Box<T> = Container<T>;
             },
             "name": {
                 "kind": 134299649,
-                "original": "Counter",
                 "text": "Counter",
-                "rawText": " Counter",
+                "rawText": "Counter",
                 "flags": 96,
                 "start": 11,
                 "end": 19
@@ -52,9 +51,8 @@ opaque type Counter: Box<T> = Container<T>;
                     "kind": 144,
                     "id": {
                         "kind": 134299649,
-                        "original": "Box",
                         "text": "Box",
-                        "rawText": " Box",
+                        "rawText": "Box",
                         "flags": 96,
                         "start": 20,
                         "end": 24
@@ -66,7 +64,6 @@ opaque type Counter: Box<T> = Container<T>;
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "T",
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
@@ -96,9 +93,8 @@ opaque type Counter: Box<T> = Container<T>;
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "Container",
                     "text": "Container",
-                    "rawText": " Container",
+                    "rawText": "Container",
                     "flags": 96,
                     "start": 29,
                     "end": 39
@@ -110,7 +106,6 @@ opaque type Counter: Box<T> = Container<T>;
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "original": "T",
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,

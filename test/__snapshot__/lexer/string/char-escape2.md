@@ -36,7 +36,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix '",
-                "original": "\"prefix \\'\"",
                 "rawText": "\"prefix \\'\"",
                 "flags": 96,
                 "start": 0,
@@ -51,8 +50,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\"",
-                "original": "\"prefix\\\"\"",
-                "rawText": "\n\"prefix\\\"\"",
+                "rawText": "\"prefix\\\"\"",
                 "flags": 97,
                 "start": 13,
                 "end": 24
@@ -66,8 +64,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\\",
-                "original": "\"prefix\\\\\"",
-                "rawText": "\n\"prefix\\\\\"",
+                "rawText": "\"prefix\\\\\"",
                 "flags": 97,
                 "start": 26,
                 "end": 37
@@ -81,8 +78,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\b",
-                "original": "\"prefix\\b\"",
-                "rawText": "\n\"prefix\\b\"",
+                "rawText": "\"prefix\\b\"",
                 "flags": 97,
                 "start": 39,
                 "end": 50
@@ -96,8 +92,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\f",
-                "original": "\"prefix\\f\"",
-                "rawText": "\n\"prefix\\f\"",
+                "rawText": "\"prefix\\f\"",
                 "flags": 97,
                 "start": 52,
                 "end": 63
@@ -111,8 +106,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\n",
-                "original": "\"prefix\\n\"",
-                "rawText": "\n\"prefix\\n\"",
+                "rawText": "\"prefix\\n\"",
                 "flags": 97,
                 "start": 65,
                 "end": 76
@@ -126,8 +120,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\r",
-                "original": "\"prefix\\r\"",
-                "rawText": "\n\"prefix\\r\"",
+                "rawText": "\"prefix\\r\"",
                 "flags": 97,
                 "start": 78,
                 "end": 89
@@ -141,8 +134,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\t",
-                "original": "\"prefix\\t\"",
-                "rawText": "\n\"prefix\\t\"",
+                "rawText": "\"prefix\\t\"",
                 "flags": 97,
                 "start": 91,
                 "end": 102
@@ -156,8 +148,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix\u000b",
-                "original": "\"prefix\\v\"",
-                "rawText": "\n\"prefix\\v\"",
+                "rawText": "\"prefix\\v\"",
                 "flags": 97,
                 "start": 104,
                 "end": 115

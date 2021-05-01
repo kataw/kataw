@@ -82,7 +82,6 @@ export interface ParserState {
   destructible: DestructibleKind;
   assignable: boolean;
   tokenValue: any;
-  originalValue: string;
   tokenRaw: string;
   labels: any[];
 }

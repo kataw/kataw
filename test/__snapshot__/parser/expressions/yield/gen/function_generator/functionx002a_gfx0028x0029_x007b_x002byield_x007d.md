@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -110,7 +108,6 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "gf",
                                                 "text": "gf",
                                                 "rawText": " gf",
                                                 "flags": 96,

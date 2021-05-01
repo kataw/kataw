@@ -35,7 +35,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -130,7 +128,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                             "kind": 190,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": " x",
                                                                 "flags": 96,
@@ -151,7 +148,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                 "generatorToken": null,
                                                                 "name": {
                                                                     "kind": 134299649,
-                                                                    "original": "f",
                                                                     "text": "f",
                                                                     "rawText": " f",
                                                                     "flags": 96,
@@ -166,7 +162,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
-                                                                                "original": "foo",
                                                                                 "text": "foo",
                                                                                 "rawText": "foo",
                                                                                 "flags": 96,
@@ -177,7 +172,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                             "type": null,
                                                                             "initializer": {
                                                                                 "kind": 134299649,
-                                                                                "original": "await",
                                                                                 "text": "await",
                                                                                 "rawText": " await",
                                                                                 "flags": 96,
@@ -193,7 +187,6 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
                                                                             "ellipsisToken": null,
                                                                             "binding": {
                                                                                 "kind": 134299649,
-                                                                                "original": "bar",
                                                                                 "text": "bar",
                                                                                 "rawText": " bar",
                                                                                 "flags": 96,

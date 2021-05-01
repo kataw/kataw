@@ -34,7 +34,6 @@ import a, *= from 'f';
                 "fromKeyword": null,
                 "from": {
                     "kind": 134299649,
-                    "original": "from",
                     "text": "from",
                     "rawText": " from",
                     "flags": 96,
@@ -50,7 +49,6 @@ import a, *= from 'f';
                 "kind": 262,
                 "defaultBinding": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": " a",
                     "flags": 96,
@@ -72,8 +70,7 @@ import a, *= from 'f';
             "expression": {
                 "kind": 201392131,
                 "text": "f",
-                "original": "'f'",
-                "rawText": " 'f'",
+                "rawText": "'f'",
                 "flags": 4194400,
                 "start": 17,
                 "end": 21

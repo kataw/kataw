@@ -40,7 +40,6 @@ export {a \u0061s b} from "x";
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -58,7 +57,6 @@ export {a \u0061s b} from "x";
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "as",
                                 "rawText": "a",
                                 "flags": 96,
@@ -76,7 +74,6 @@ export {a \u0061s b} from "x";
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": " b",
                                 "flags": 96,
@@ -110,8 +107,7 @@ export {a \u0061s b} from "x";
                 "from": {
                     "kind": 201392131,
                     "text": "x",
-                    "original": "\"x\"",
-                    "rawText": " \"x\"",
+                    "rawText": "\"x\"",
                     "flags": 96,
                     "start": 25,
                     "end": 29

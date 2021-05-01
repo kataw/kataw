@@ -52,7 +52,6 @@
                                     },
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
@@ -66,7 +65,6 @@
                                             "chain": null,
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,

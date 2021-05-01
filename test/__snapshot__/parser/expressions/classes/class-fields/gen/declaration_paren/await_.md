@@ -44,9 +44,8 @@
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "Base",
                             "text": "Base",
-                            "rawText": " Base",
+                            "rawText": "Base",
                             "flags": 96,
                             "start": 14,
                             "end": 19
@@ -67,7 +66,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "await",
                                     "text": "await",
                                     "rawText": " await",
                                     "flags": 96,

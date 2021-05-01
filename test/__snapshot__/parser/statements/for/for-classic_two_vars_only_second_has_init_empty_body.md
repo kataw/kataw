@@ -49,7 +49,6 @@ for (var a, b=1;;);
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -67,7 +66,6 @@ for (var a, b=1;;);
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -79,7 +77,6 @@ for (var a, b=1;;);
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 14,

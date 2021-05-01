@@ -21,7 +21,6 @@ x({[new A()]:y})
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -44,7 +43,6 @@ x({[new A()]:y})
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "y",
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
@@ -63,9 +61,8 @@ x({[new A()]:y})
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "A",
                                                     "text": "A",
-                                                    "rawText": " A",
+                                                    "rawText": "A",
                                                     "flags": 96,
                                                     "start": 7,
                                                     "end": 9

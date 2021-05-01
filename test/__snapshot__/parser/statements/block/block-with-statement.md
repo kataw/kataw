@@ -24,7 +24,6 @@
                         "kind": 163,
                         "label": {
                             "kind": 134299649,
-                            "original": "length",
                             "text": "length",
                             "rawText": "length",
                             "flags": 96,
@@ -52,8 +51,7 @@
                             "expression": {
                                 "kind": 201392130,
                                 "text": 3000,
-                                "original": "3000",
-                                "rawText": " 3000",
+                                "rawText": "3000",
                                 "flags": 96,
                                 "start": 8,
                                 "end": 13

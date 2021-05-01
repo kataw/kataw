@@ -25,7 +25,6 @@ foo[ a > b instanceof c ]
                 "kind": 130,
                 "member": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -38,7 +37,6 @@ foo[ a > b instanceof c ]
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -53,7 +51,6 @@ foo[ a > b instanceof c ]
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -72,7 +69,6 @@ foo[ a > b instanceof c ]
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "c",
                         "text": "c",
                         "rawText": " c",
                         "flags": 96,

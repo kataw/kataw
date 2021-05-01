@@ -45,9 +45,8 @@ declare opaque type Foo
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 19,
                 "end": 23

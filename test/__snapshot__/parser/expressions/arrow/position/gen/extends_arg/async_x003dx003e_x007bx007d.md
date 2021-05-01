@@ -31,9 +31,8 @@ class A extends async => {} {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -62,7 +61,6 @@ class A extends async => {} {}
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,

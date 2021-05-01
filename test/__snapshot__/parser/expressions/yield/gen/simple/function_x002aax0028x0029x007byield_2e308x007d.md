@@ -37,7 +37,6 @@ function *a(){yield 2e308}
             },
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -73,8 +72,7 @@ function *a(){yield 2e308}
                                 "expression": {
                                     "kind": 201392130,
                                     "text": null,
-                                    "original": "2e308",
-                                    "rawText": " 2e308",
+                                    "rawText": "2e308",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 25

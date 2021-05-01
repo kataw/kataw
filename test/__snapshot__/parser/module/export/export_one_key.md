@@ -40,7 +40,6 @@ export {x}; var x;
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -84,7 +83,6 @@ export {x}; var x;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,

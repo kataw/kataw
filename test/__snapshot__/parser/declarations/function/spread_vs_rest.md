@@ -57,7 +57,6 @@ let [a=[...b], ...c] = obj;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -81,7 +80,6 @@ let [a=[...b], ...c] = obj;
                                                         },
                                                         "argument": {
                                                             "kind": 134299649,
-                                                            "original": "b",
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
@@ -116,7 +114,6 @@ let [a=[...b], ...c] = obj;
                                         },
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "c",
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
@@ -144,7 +141,6 @@ let [a=[...b], ...c] = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,

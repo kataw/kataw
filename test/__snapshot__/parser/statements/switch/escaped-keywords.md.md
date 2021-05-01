@@ -35,7 +35,6 @@ switch (this.a) { c\u0061se 6: break; }
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -103,7 +102,6 @@ switch (this.a) { c\u0061se 6: break; }
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -128,8 +126,7 @@ switch (this.a) { c\u0061se 6: break; }
                         "expression": {
                             "kind": 201392130,
                             "text": 6,
-                            "original": "6",
-                            "rawText": " 6",
+                            "rawText": "6",
                             "flags": 96,
                             "start": 69,
                             "end": 71

@@ -31,7 +31,6 @@ class x {async function(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {async function(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "function",
                                 "text": "function",
                                 "rawText": " function",
                                 "flags": 96,

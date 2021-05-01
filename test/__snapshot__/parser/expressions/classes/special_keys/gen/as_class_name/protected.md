@@ -31,7 +31,6 @@ class protected {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "protected",
                 "text": "protected",
                 "rawText": " protected",
                 "flags": 96,

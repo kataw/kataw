@@ -36,7 +36,6 @@
                             "properties": [
                                 {
                                     "kind": 134299649,
-                                    "original": "const",
                                     "text": "const",
                                     "rawText": "const",
                                     "flags": 96,
@@ -58,7 +57,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -92,7 +90,6 @@
                             "properties": [
                                 {
                                     "kind": 134299649,
-                                    "original": "debugger",
                                     "text": "debugger",
                                     "rawText": "debugger",
                                     "flags": 96,
@@ -114,7 +111,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

@@ -31,7 +31,6 @@ class x {static * extends(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static * extends(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "extends",
                                 "text": "extends",
                                 "rawText": " extends",
                                 "flags": 96,

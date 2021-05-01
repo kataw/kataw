@@ -38,7 +38,6 @@ const a = async (foo: string = "") => {}
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -62,7 +61,6 @@ const a = async (foo: string = "") => {}
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
@@ -85,8 +83,7 @@ const a = async (foo: string = "") => {}
                                     "initializer": {
                                         "kind": 201392131,
                                         "text": "",
-                                        "original": "\"\"",
-                                        "rawText": " \"\"",
+                                        "rawText": "\"\"",
                                         "flags": 96,
                                         "start": 30,
                                         "end": 33

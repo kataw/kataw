@@ -35,7 +35,6 @@ for (a of b) async function f(){}
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -44,7 +43,6 @@ for (a of b) async function f(){}
             },
             "expression": {
                 "kind": 134299649,
-                "original": "b",
                 "text": "b",
                 "rawText": " b",
                 "flags": 96,
@@ -69,7 +67,6 @@ for (a of b) async function f(){}
                 "generatorToken": null,
                 "name": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": " f",
                     "flags": 96,

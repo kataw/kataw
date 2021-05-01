@@ -32,7 +32,6 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "not_gen",
                 "text": "not_gen",
                 "rawText": " not_gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -107,8 +105,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "expression": {
                                                     "kind": 201392130,
                                                     "text": 2,
-                                                    "original": "2",
-                                                    "rawText": " 2",
+                                                    "rawText": "2",
                                                     "flags": 96,
                                                     "start": 44,
                                                     "end": 46
@@ -156,8 +153,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                                 "expression": {
                                                                     "kind": 201392130,
                                                                     "text": 3,
-                                                                    "original": "3",
-                                                                    "rawText": " 3",
+                                                                    "rawText": "3",
                                                                     "flags": 96,
                                                                     "start": 65,
                                                                     "end": 67
@@ -206,8 +202,7 @@ function not_gen() { function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                                                 "expression": {
                                                     "kind": 201392130,
                                                     "text": 4,
-                                                    "original": "4",
-                                                    "rawText": " 4",
+                                                    "rawText": "4",
                                                     "flags": 96,
                                                     "start": 76,
                                                     "end": 78

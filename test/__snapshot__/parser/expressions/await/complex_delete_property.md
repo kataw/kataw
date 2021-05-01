@@ -33,7 +33,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,
@@ -58,7 +57,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -77,7 +75,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -116,7 +113,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                         "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
-                                                            "original": "foo",
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
@@ -133,7 +129,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": " x",
                                                                 "flags": 96,

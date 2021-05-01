@@ -28,7 +28,6 @@ function f(){ x({[new.target]:y}) }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -55,7 +54,6 @@ function f(){ x({[new.target]:y}) }
                                 "kind": 131,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -78,7 +76,6 @@ function f(){ x({[new.target]:y}) }
                                                         "setKeyword": null,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "y",
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,

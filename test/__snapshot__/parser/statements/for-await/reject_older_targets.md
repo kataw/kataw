@@ -35,7 +35,6 @@ async function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -72,7 +71,6 @@ async function f() {
                             },
                             "initializer": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
@@ -81,7 +79,6 @@ async function f() {
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": " b",
                                 "flags": 96,

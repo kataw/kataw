@@ -31,7 +31,6 @@ var x = { *test () { yield *v } };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -49,7 +48,6 @@ var x = { *test () { yield *v } };
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "test",
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 96,
@@ -91,7 +89,6 @@ var x = { *test () { yield *v } };
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "original": "v",
                                                                 "text": "v",
                                                                 "rawText": "v",
                                                                 "flags": 96,

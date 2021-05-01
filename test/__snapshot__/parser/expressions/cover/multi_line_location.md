@@ -24,7 +24,6 @@ a = (
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -44,7 +43,6 @@ a = (
                         "expressions": [
                             {
                                 "kind": 134299649,
-                                "original": "b",
                                 "text": "b",
                                 "rawText": "\n  b",
                                 "flags": 96,
@@ -53,7 +51,6 @@ a = (
                             },
                             {
                                 "kind": 134299649,
-                                "original": "c",
                                 "text": "c",
                                 "rawText": "\n  c",
                                 "flags": 96,

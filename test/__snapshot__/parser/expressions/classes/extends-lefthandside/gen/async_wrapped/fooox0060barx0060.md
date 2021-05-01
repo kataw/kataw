@@ -39,7 +39,6 @@ async function p(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "p",
                 "text": "p",
                 "rawText": " p",
                 "flags": 96,
@@ -72,9 +71,8 @@ async function p(){
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "C",
                                 "text": "C",
-                                "rawText": " C",
+                                "rawText": "C",
                                 "flags": 96,
                                 "start": 27,
                                 "end": 29
@@ -92,7 +90,6 @@ async function p(){
                                     "kind": 226,
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "fooo",
                                         "text": "fooo",
                                         "rawText": " fooo",
                                         "flags": 96,

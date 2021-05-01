@@ -47,7 +47,6 @@
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -56,7 +55,6 @@
                                                     },
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "bar",
                                                         "text": "bar",
                                                         "rawText": " bar",
                                                         "flags": 96,
@@ -81,7 +79,6 @@
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -94,7 +91,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "ident",
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
@@ -120,7 +116,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

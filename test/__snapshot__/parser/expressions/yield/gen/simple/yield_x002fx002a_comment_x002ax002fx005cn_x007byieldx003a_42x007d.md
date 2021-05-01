@@ -23,7 +23,6 @@ yield /* comment */\n {yield: 42}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "yield",
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
@@ -38,7 +37,6 @@ yield /* comment */\n {yield: 42}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -58,7 +56,6 @@ yield /* comment */\n {yield: 42}
                         "kind": 163,
                         "label": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
@@ -86,8 +83,7 @@ yield /* comment */\n {yield: 42}
                             "expression": {
                                 "kind": 201392130,
                                 "text": 42,
-                                "original": "42",
-                                "rawText": " 42",
+                                "rawText": "42",
                                 "flags": 96,
                                 "start": 29,
                                 "end": 32

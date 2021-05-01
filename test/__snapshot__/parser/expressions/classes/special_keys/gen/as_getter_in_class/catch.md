@@ -31,7 +31,6 @@ class x {get catch(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {get catch(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "catch",
                                 "text": "catch",
                                 "rawText": " catch",
                                 "flags": 96,

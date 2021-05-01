@@ -28,7 +28,6 @@ function call(foo=await bar=10){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "call",
                 "text": "call",
                 "rawText": " call",
                 "flags": 96,
@@ -43,7 +42,6 @@ function call(foo=await bar=10){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
@@ -54,7 +52,6 @@ function call(foo=await bar=10){}
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
@@ -70,7 +67,6 @@ function call(foo=await bar=10){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": " bar",
                             "flags": 96,
@@ -82,7 +78,6 @@ function call(foo=await bar=10){}
                         "initializer": {
                             "kind": 201392130,
                             "text": 10,
-                            "original": "10",
                             "rawText": "10",
                             "flags": 96,
                             "start": 28,

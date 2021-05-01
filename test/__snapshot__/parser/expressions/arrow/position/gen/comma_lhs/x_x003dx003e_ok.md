@@ -35,7 +35,6 @@ x => ok, a
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -46,7 +45,6 @@ x => ok, a
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,
-                            "original": "ok",
                             "text": "ok",
                             "rawText": " ok",
                             "flags": 96,
@@ -59,7 +57,6 @@ x => ok, a
                     },
                     {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": " a",
                         "flags": 96,

@@ -34,7 +34,6 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -101,8 +100,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "expression": {
                                                                     "kind": 201392130,
                                                                     "text": 42,
-                                                                    "original": "42",
-                                                                    "rawText": " 42",
+                                                                    "rawText": "42",
                                                                     "flags": 96,
                                                                     "start": 34,
                                                                     "end": 37
@@ -151,8 +149,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                                 "expression": {
                                                                     "kind": 201392130,
                                                                     "text": 43,
-                                                                    "original": "43",
-                                                                    "rawText": " 43",
+                                                                    "rawText": "43",
                                                                     "flags": 96,
                                                                     "start": 53,
                                                                     "end": 56
@@ -176,8 +173,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 13,
-                                                                "original": "13",
-                                                                "rawText": " 13",
+                                                                "rawText": "13",
                                                                 "flags": 96,
                                                                 "start": 64,
                                                                 "end": 67

@@ -23,7 +23,6 @@ await 5;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "await",
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
@@ -39,8 +38,7 @@ await 5;
             "expression": {
                 "kind": 201392130,
                 "text": 5,
-                "original": "5",
-                "rawText": " 5",
+                "rawText": "5",
                 "flags": 96,
                 "start": 5,
                 "end": 7

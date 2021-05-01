@@ -54,9 +54,8 @@ type B = Foo<
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -67,9 +66,8 @@ type B = Foo<
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "Foo",
                     "text": "Foo",
-                    "rawText": " Foo",
+                    "rawText": "Foo",
                     "flags": 96,
                     "start": 8,
                     "end": 12
@@ -87,7 +85,6 @@ type B = Foo<
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,
@@ -122,7 +119,6 @@ type B = Foo<
                                             "kind": 193,
                                             "key": {
                                                 "kind": 134299649,
-                                                "original": "type",
                                                 "text": "type",
                                                 "rawText": "type",
                                                 "flags": 96,
@@ -180,9 +176,8 @@ type B = Foo<
             },
             "name": {
                 "kind": 134299649,
-                "original": "B",
                 "text": "B",
-                "rawText": " B",
+                "rawText": "B",
                 "flags": 96,
                 "start": 54,
                 "end": 56
@@ -196,9 +191,8 @@ type B = Foo<
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
-                            "original": "Foo",
                             "text": "Foo",
-                            "rawText": " Foo",
+                            "rawText": "Foo",
                             "flags": 96,
                             "start": 58,
                             "end": 62
@@ -221,7 +215,6 @@ type B = Foo<
                                 "kind": 193,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "type",
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 96,
@@ -256,7 +249,6 @@ type B = Foo<
                                 "kind": 193,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "type",
                                     "text": "type",
                                     "rawText": "type",
                                     "flags": 96,

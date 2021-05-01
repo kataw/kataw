@@ -25,7 +25,6 @@ switch (A) {default: B; break;}
             },
             "expression": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
@@ -48,9 +47,8 @@ switch (A) {default: B; break;}
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "B",
                                     "text": "B",
-                                    "rawText": " B",
+                                    "rawText": "B",
                                     "flags": 96,
                                     "start": 20,
                                     "end": 22

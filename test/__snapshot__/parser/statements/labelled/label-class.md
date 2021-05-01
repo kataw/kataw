@@ -19,7 +19,6 @@ label: class x {}
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "label",
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,
@@ -54,7 +53,6 @@ label: class x {}
                 },
                 "name": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

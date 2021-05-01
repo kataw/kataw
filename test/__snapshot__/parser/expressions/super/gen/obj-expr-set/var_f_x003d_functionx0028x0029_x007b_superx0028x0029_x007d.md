@@ -32,7 +32,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -48,7 +47,6 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "_",
                                                 "text": "_",
                                                 "rawText": "_",
                                                 "flags": 96,
@@ -91,7 +89,6 @@
                                                             "kind": 157,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "f",
                                                                 "text": "f",
                                                                 "rawText": " f",
                                                                 "flags": 96,

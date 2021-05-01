@@ -35,7 +35,6 @@ x => { return x; } , bar;
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -60,7 +59,6 @@ x => { return x; } , bar;
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -86,7 +84,6 @@ x => { return x; } , bar;
                     },
                     {
                         "kind": 134299649,
-                        "original": "bar",
                         "text": "bar",
                         "rawText": " bar",
                         "flags": 96,

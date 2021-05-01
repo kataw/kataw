@@ -25,7 +25,6 @@ x@{x9}@+@{x9}@y
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -49,7 +48,6 @@ x@{x9}@+@{x9}@y
             "classKeyword": null,
             "name": {
                 "kind": 134299649,
-                "original": "x9",
                 "text": "x9",
                 "rawText": "x9",
                 "flags": 96,
@@ -113,7 +111,6 @@ x@{x9}@+@{x9}@y
             "classKeyword": null,
             "name": {
                 "kind": 134299649,
-                "original": "x9",
                 "text": "x9",
                 "rawText": "x9",
                 "flags": 96,
@@ -143,7 +140,6 @@ x@{x9}@+@{x9}@y
                         "kind": 34611453,
                         "expression": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,

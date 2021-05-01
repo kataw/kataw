@@ -36,7 +36,6 @@ async (f)
             "parameters": [
                 {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -56,7 +55,6 @@ async (f)
                     "kind": 144,
                     "id": {
                         "kind": 134299649,
-                        "original": "t",
                         "text": "t",
                         "rawText": " t",
                         "flags": 96,

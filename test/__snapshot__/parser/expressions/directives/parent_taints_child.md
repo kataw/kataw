@@ -28,7 +28,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -51,8 +50,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 13,
                             "end": 26
@@ -63,7 +61,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -87,7 +84,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "g",
                                 "text": "g",
                                 "rawText": " g",
                                 "flags": 96,
@@ -118,7 +114,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                             },
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -129,7 +124,6 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "y",
                                                     "text": "y",
                                                     "rawText": " y",
                                                     "flags": 96,

@@ -30,7 +30,6 @@
                     [
                         {
                             "kind": 134299649,
-                            "original": "w",
                             "text": "w",
                             "rawText": "w",
                             "flags": 96,
@@ -39,7 +38,6 @@
                         },
                         {
                             "kind": 134299649,
-                            "original": "o",
                             "text": "o",
                             "rawText": " o",
                             "flags": 96,
@@ -48,7 +46,6 @@
                         },
                         {
                             "kind": 134299649,
-                            "original": "e",
                             "text": "e",
                             "rawText": " e",
                             "flags": 96,
@@ -57,7 +54,6 @@
                         },
                         {
                             "kind": 134299649,
-                            "original": "m",
                             "text": "m",
                             "rawText": " m",
                             "flags": 96,
@@ -76,8 +72,7 @@
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "original": "\"use strict\"",
-                                "rawText": " \"use strict\"",
+                                "rawText": "\"use strict\"",
                                 "flags": 96,
                                 "start": 17,
                                 "end": 30
@@ -85,8 +80,7 @@
                             {
                                 "kind": 201392131,
                                 "text": "use strict",
-                                "original": "\"use strict\"",
-                                "rawText": " \"use strict\"",
+                                "rawText": "\"use strict\"",
                                 "flags": 96,
                                 "start": 31,
                                 "end": 44

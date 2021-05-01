@@ -43,7 +43,6 @@ async ({ident: {x}}) => x
                                         "properties": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
@@ -62,7 +61,6 @@ async ({ident: {x}}) => x
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "ident",
                                     "text": "ident",
                                     "rawText": "ident",
                                     "flags": 96,
@@ -93,7 +91,6 @@ async ({ident: {x}}) => x
             "returnType": null,
             "contents": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

@@ -34,7 +34,6 @@ while (false) label1: label2: function f() {}
                 "kind": 163,
                 "label": {
                     "kind": 134299649,
-                    "original": "label1",
                     "text": "label1",
                     "rawText": " label1",
                     "flags": 96,
@@ -69,7 +68,6 @@ while (false) label1: label2: function f() {}
                     "kind": 163,
                     "label": {
                         "kind": 134299649,
-                        "original": "label2",
                         "text": "label2",
                         "rawText": " label2",
                         "flags": 96,
@@ -113,7 +111,6 @@ while (false) label1: label2: function f() {}
                         "generatorToken": null,
                         "name": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,

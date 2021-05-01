@@ -49,7 +49,6 @@ const foo = bar, zoo = boo
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -60,7 +59,6 @@ const foo = bar, zoo = boo
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": " bar",
                             "flags": 96,
@@ -75,7 +73,6 @@ const foo = bar, zoo = boo
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "zoo",
                             "text": "zoo",
                             "rawText": " zoo",
                             "flags": 96,
@@ -86,7 +83,6 @@ const foo = bar, zoo = boo
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "boo",
                             "text": "boo",
                             "rawText": " boo",
                             "flags": 96,

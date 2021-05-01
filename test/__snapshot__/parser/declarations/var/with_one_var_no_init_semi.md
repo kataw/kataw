@@ -57,7 +57,6 @@ let [foo] = arr;
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
@@ -85,7 +84,6 @@ let [foo] = arr;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "arr",
                             "text": "arr",
                             "rawText": " arr",
                             "flags": 96,

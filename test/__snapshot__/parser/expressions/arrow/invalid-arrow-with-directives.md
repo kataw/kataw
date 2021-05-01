@@ -49,7 +49,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
                 "rawText": "\"use strict\"",
                 "flags": 96,
                 "start": 0,
@@ -75,7 +74,6 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -90,7 +88,6 @@
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": " yield",
                             "flags": 96,
@@ -131,8 +128,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 32,
                 "end": 45
@@ -157,7 +153,6 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -176,7 +171,6 @@
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,
@@ -191,7 +185,6 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -210,7 +203,6 @@
                             },
                             "right": {
                                 "kind": 134299649,
-                                "original": "g",
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 96,
@@ -255,8 +247,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 70,
                 "end": 83
@@ -278,7 +269,6 @@
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": " yield",
                     "flags": 96,
@@ -314,8 +304,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 97,
                 "end": 110
@@ -338,7 +327,6 @@
                 "parameters": [
                     {
                         "kind": 134299649,
-                        "original": "yield",
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
@@ -375,8 +363,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 126,
                 "end": 139
@@ -401,7 +388,6 @@
                         "kind": 125,
                         "left": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
@@ -417,8 +403,7 @@
                         "right": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 149,
                             "end": 151
@@ -457,8 +442,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 159,
                 "end": 172
@@ -486,7 +470,6 @@
                             "elements": [
                                 {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -533,8 +516,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 190,
                 "end": 203
@@ -564,7 +546,6 @@
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
@@ -580,8 +561,7 @@
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "original": "0",
-                                        "rawText": " 0",
+                                        "rawText": "0",
                                         "flags": 96,
                                         "start": 214,
                                         "end": 216
@@ -630,8 +610,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 225,
                 "end": 238
@@ -667,7 +646,6 @@
                                     },
                                     "argument": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
@@ -718,8 +696,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 259,
                 "end": 272
@@ -753,7 +730,6 @@
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": " yield",
                                         "flags": 96,
@@ -762,7 +738,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -813,8 +788,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 293,
                 "end": 306
@@ -842,7 +816,6 @@
                             "properties": [
                                 {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
@@ -889,8 +862,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 324,
                 "end": 337
@@ -920,7 +892,6 @@
                                     "kind": 205,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
@@ -930,8 +901,7 @@
                                     "right": {
                                         "kind": 201392130,
                                         "text": 0,
-                                        "original": "0",
-                                        "rawText": " 0",
+                                        "rawText": "0",
                                         "flags": 96,
                                         "start": 348,
                                         "end": 350
@@ -980,8 +950,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 359,
                 "end": 372
@@ -1006,7 +975,6 @@
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": " yield",
                     "flags": 96,
@@ -1026,8 +994,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 386,
                 "end": 399
@@ -1056,7 +1023,6 @@
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": " yield",
                             "flags": 96,
@@ -1071,7 +1037,6 @@
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -1090,7 +1055,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "g",
                         "text": "g",
                         "rawText": "g",
                         "flags": 96,
@@ -1114,8 +1078,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 418,
                 "end": 431
@@ -1160,7 +1123,6 @@
                                             "kind": 157,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,
@@ -1171,7 +1133,6 @@
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -1213,8 +1174,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 458,
                 "end": 471
@@ -1259,7 +1219,6 @@
                                             "kind": 157,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,
@@ -1274,7 +1233,6 @@
                                                     "kind": 198,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "original": "yield",
                                                         "text": "yield",
                                                         "rawText": " yield",
                                                         "flags": 96,
@@ -1289,7 +1247,6 @@
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
-                                                        "original": "a",
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
@@ -1308,7 +1265,6 @@
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
-                                                    "original": "g",
                                                     "text": "g",
                                                     "rawText": "g",
                                                     "flags": 96,
@@ -1354,8 +1310,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 503,
                 "end": 516
@@ -1400,7 +1355,6 @@
                                             "kind": 157,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -1445,8 +1399,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 539,
                 "end": 552
@@ -1491,7 +1444,6 @@
                                             "kind": 157,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -1503,8 +1455,7 @@
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 0,
-                                                "original": "0",
-                                                "rawText": " 0",
+                                                "rawText": "0",
                                                 "flags": 96,
                                                 "start": 573,
                                                 "end": 575
@@ -1544,8 +1495,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 579,
                 "end": 592
@@ -1598,7 +1548,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -1673,8 +1622,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 622,
                 "end": 635
@@ -1727,7 +1675,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -1739,8 +1686,7 @@
                                                             "initializer": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
-                                                                "original": "0",
-                                                                "rawText": " 0",
+                                                                "rawText": "0",
                                                                 "flags": 96,
                                                                 "start": 657,
                                                                 "end": 659
@@ -1810,8 +1756,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 669,
                 "end": 682
@@ -1869,7 +1814,6 @@
                                                             },
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -1944,8 +1888,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 715,
                 "end": 728
@@ -1998,7 +1941,6 @@
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
-                                                                "original": "a",
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
@@ -2010,7 +1952,6 @@
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
-                                                                    "original": "yield",
                                                                     "text": "yield",
                                                                     "rawText": " yield",
                                                                     "flags": 96,
@@ -2087,8 +2028,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 761,
                 "end": 774
@@ -2141,7 +2081,6 @@
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -2214,8 +2153,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 804,
                 "end": 817
@@ -2268,7 +2206,6 @@
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -2278,8 +2215,7 @@
                                                             "right": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
-                                                                "original": "0",
-                                                                "rawText": " 0",
+                                                                "rawText": "0",
                                                                 "flags": 96,
                                                                 "start": 839,
                                                                 "end": 841
@@ -2349,8 +2285,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 851,
                 "end": 864
@@ -2394,7 +2329,6 @@
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -2439,8 +2373,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 887,
                 "end": 900
@@ -2484,7 +2417,6 @@
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,
@@ -2496,8 +2428,7 @@
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 0,
-                                                "original": "0",
-                                                "rawText": " 0",
+                                                "rawText": "0",
                                                 "flags": 96,
                                                 "start": 921,
                                                 "end": 923
@@ -2537,8 +2468,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 927,
                 "end": 940
@@ -2590,7 +2520,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -2665,8 +2594,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 970,
                 "end": 983
@@ -2718,7 +2646,6 @@
                                                             "ellipsisToken": null,
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -2730,8 +2657,7 @@
                                                             "initializer": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
-                                                                "original": "0",
-                                                                "rawText": " 0",
+                                                                "rawText": "0",
                                                                 "flags": 96,
                                                                 "start": 1005,
                                                                 "end": 1007
@@ -2801,8 +2727,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 1017,
                 "end": 1030
@@ -2859,7 +2784,6 @@
                                                             },
                                                             "binding": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,
@@ -2934,8 +2858,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 1063,
                 "end": 1076
@@ -2987,7 +2910,6 @@
                                                             "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
-                                                                "original": "a",
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
@@ -2999,7 +2921,6 @@
                                                                 "ellipsisToken": null,
                                                                 "binding": {
                                                                     "kind": 134299649,
-                                                                    "original": "yield",
                                                                     "text": "yield",
                                                                     "rawText": " yield",
                                                                     "flags": 96,
@@ -3076,8 +2997,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 1109,
                 "end": 1122
@@ -3129,7 +3049,6 @@
                                                             "ellipsisToken": null,
                                                             "left": {
                                                                 "kind": 134299649,
-                                                                "original": "yield",
                                                                 "text": "yield",
                                                                 "rawText": "yield",
                                                                 "flags": 96,

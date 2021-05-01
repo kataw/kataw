@@ -39,7 +39,6 @@ function *P(){
             },
             "name": {
                 "kind": 134299649,
-                "original": "P",
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
@@ -72,9 +71,8 @@ function *P(){
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "D",
                                 "text": "D",
-                                "rawText": " D",
+                                "rawText": "D",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 24
@@ -90,7 +88,6 @@ function *P(){
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "oh",
                                     "text": "oh",
                                     "rawText": " oh",
                                     "flags": 96,
@@ -132,7 +129,6 @@ function *P(){
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "no",
                 "text": "no",
                 "rawText": "no",
                 "flags": 96,

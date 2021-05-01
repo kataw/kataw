@@ -33,7 +33,6 @@ switch (x) { case x: const y = x }
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -53,7 +52,6 @@ switch (x) { case x: const y = x }
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -76,7 +74,6 @@ switch (x) { case x: const y = x }
                                             "kind": 190,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": " y",
                                                 "flags": 96,
@@ -87,7 +84,6 @@ switch (x) { case x: const y = x }
                                             "type": null,
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,

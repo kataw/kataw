@@ -42,7 +42,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ",
-                "original": "\"\\u0123\"",
                 "rawText": "\"\\u0123\"",
                 "flags": 16480,
                 "start": 0,
@@ -57,8 +56,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "䕧",
-                "original": "\"\\u4567\"",
-                "rawText": "\n\"\\u4567\"",
+                "rawText": "\"\\u4567\"",
                 "flags": 16481,
                 "start": 10,
                 "end": 19
@@ -72,8 +70,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "覫",
-                "original": "\"\\u89ab\"",
-                "rawText": "\n\"\\u89ab\"",
+                "rawText": "\"\\u89ab\"",
                 "flags": 16481,
                 "start": 21,
                 "end": 30
@@ -87,8 +84,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "췯",
-                "original": "\"\\ucdef\"",
-                "rawText": "\n\"\\ucdef\"",
+                "rawText": "\"\\ucdef\"",
                 "flags": 16481,
                 "start": 32,
                 "end": 41
@@ -102,8 +98,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ꯍ",
-                "original": "\"\\uABCD\"",
-                "rawText": "\n\"\\uABCD\"",
+                "rawText": "\"\\uABCD\"",
                 "flags": 16481,
                 "start": 43,
                 "end": 52
@@ -117,8 +112,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\ude00",
-                "original": "\"\\uDE00\"",
-                "rawText": "\n\"\\uDE00\"",
+                "rawText": "\"\\uDE00\"",
                 "flags": 16481,
                 "start": 54,
                 "end": 63
@@ -132,8 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "prefix ģ",
-                "original": "\"prefix \\u0123\"",
-                "rawText": "\n\"prefix \\u0123\"",
+                "rawText": "\"prefix \\u0123\"",
                 "flags": 16481,
                 "start": 65,
                 "end": 81
@@ -147,8 +140,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ postfix",
-                "original": "\"\\u0123 postfix\"",
-                "rawText": "\n\"\\u0123 postfix\"",
+                "rawText": "\"\\u0123 postfix\"",
                 "flags": 16481,
                 "start": 83,
                 "end": 100
@@ -162,8 +154,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "ģ䕧",
-                "original": "\"\\u0123\\u4567\"",
-                "rawText": "\n\"\\u0123\\u4567\"",
+                "rawText": "\"\\u0123\\u4567\"",
                 "flags": 16481,
                 "start": 102,
                 "end": 117

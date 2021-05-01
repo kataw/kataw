@@ -35,7 +35,6 @@
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "let",
                                             "text": "let",
                                             "rawText": " let",
                                             "flags": 96,

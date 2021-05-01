@@ -21,7 +21,6 @@ pa\u0073s();
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "pa\\u0073s",
                     "text": "pass",
                     "rawText": "pa\\u0073s",
                     "flags": 96,

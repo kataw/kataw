@@ -29,7 +29,6 @@ foo?.bar *= x
                     },
                     "member": {
                         "kind": 134299649,
-                        "original": "foo",
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
@@ -43,7 +42,6 @@ foo?.bar *= x
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
@@ -70,7 +68,6 @@ foo?.bar *= x
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

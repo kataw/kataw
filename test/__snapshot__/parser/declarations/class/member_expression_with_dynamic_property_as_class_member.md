@@ -46,7 +46,6 @@ class w {  t[x](){}  }
             },
             "name": {
                 "kind": 134299649,
-                "original": "w",
                 "text": "w",
                 "rawText": " w",
                 "flags": 96,
@@ -66,7 +65,6 @@ class w {  t[x](){}  }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "t",
                             "text": "t",
                             "rawText": "  t",
                             "flags": 96,
@@ -95,7 +93,6 @@ class w {  t[x](){}  }
                                 "kind": 194,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,

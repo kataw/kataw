@@ -25,7 +25,6 @@
                         "shortCircuit": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
                             "rawText": "1",
                             "flags": 96,
                             "start": 0,
@@ -40,8 +39,7 @@
                         "consequent": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 3,
                             "end": 5
@@ -63,7 +61,6 @@
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": " a",
                                 "flags": 96,
@@ -97,8 +94,7 @@
                     {
                         "kind": 201392130,
                         "text": 17,
-                        "original": "17",
-                        "rawText": " 17",
+                        "rawText": "17",
                         "flags": 96,
                         "start": 16,
                         "end": 19
@@ -106,8 +102,7 @@
                     {
                         "kind": 201392130,
                         "text": 42,
-                        "original": "42",
-                        "rawText": " 42",
+                        "rawText": "42",
                         "flags": 96,
                         "start": 20,
                         "end": 23

@@ -32,7 +32,6 @@ function f(a = x => ok) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -47,7 +46,6 @@ function f(a = x => ok) {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -67,7 +65,6 @@ function f(a = x => ok) {}
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -78,7 +75,6 @@ function f(a = x => ok) {}
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
-                                "original": "ok",
                                 "text": "ok",
                                 "rawText": " ok",
                                 "flags": 96,

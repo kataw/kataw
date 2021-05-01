@@ -34,7 +34,6 @@ a);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "\na",
                     "flags": 96,

@@ -35,7 +35,6 @@ if (false) let // ASI
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "let",
                     "text": "let",
                     "rawText": " let",
                     "flags": 96,

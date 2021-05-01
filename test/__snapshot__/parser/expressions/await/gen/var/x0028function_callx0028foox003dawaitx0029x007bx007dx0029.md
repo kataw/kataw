@@ -35,7 +35,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -131,7 +129,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                         "generatorToken": null,
                                                         "name": {
                                                             "kind": 134299649,
-                                                            "original": "call",
                                                             "text": "call",
                                                             "rawText": " call",
                                                             "flags": 96,
@@ -146,7 +143,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                     "ellipsisToken": null,
                                                                     "binding": {
                                                                         "kind": 134299649,
-                                                                        "original": "foo",
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
@@ -157,7 +153,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                     "type": null,
                                                                     "initializer": {
                                                                         "kind": 134299649,
-                                                                        "original": "await",
                                                                         "text": "await",
                                                                         "rawText": "await",
                                                                         "flags": 96,

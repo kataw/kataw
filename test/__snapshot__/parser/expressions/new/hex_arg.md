@@ -32,8 +32,7 @@ new 0x2.__proto__.constructor
                         "expression": {
                             "kind": 201392130,
                             "text": 2,
-                            "original": "0x2",
-                            "rawText": " 0x2",
+                            "rawText": "0x2",
                             "flags": 1048672,
                             "start": 3,
                             "end": 7
@@ -45,7 +44,6 @@ new 0x2.__proto__.constructor
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "__proto__",
                         "text": "__proto__",
                         "rawText": "__proto__",
                         "flags": 96,
@@ -58,7 +56,6 @@ new 0x2.__proto__.constructor
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "constructor",
                     "text": "constructor",
                     "rawText": "constructor",
                     "flags": 96,

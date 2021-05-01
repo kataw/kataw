@@ -31,7 +31,6 @@ class x {static implements(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {static implements(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "implements",
                                 "text": "implements",
                                 "rawText": " implements",
                                 "flags": 96,

@@ -38,7 +38,6 @@ for(const a = 1, let = 2;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -50,8 +49,7 @@ for(const a = 1, let = 2;;);
                         "initializer": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
-                            "rawText": " 1",
+                            "rawText": "1",
                             "flags": 96,
                             "start": 13,
                             "end": 15
@@ -64,7 +62,6 @@ for(const a = 1, let = 2;;);
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "let",
                             "text": "let",
                             "rawText": " let",
                             "flags": 96,
@@ -76,8 +73,7 @@ for(const a = 1, let = 2;;);
                         "initializer": {
                             "kind": 201392130,
                             "text": 2,
-                            "original": "2",
-                            "rawText": " 2",
+                            "rawText": "2",
                             "flags": 96,
                             "start": 22,
                             "end": 24

@@ -47,9 +47,8 @@ type T1 = number;
             },
             "name": {
                 "kind": 134299649,
-                "original": "T1",
                 "text": "T1",
-                "rawText": " T1",
+                "rawText": "T1",
                 "flags": 96,
                 "start": 4,
                 "end": 7
@@ -78,9 +77,8 @@ type T1 = number;
             },
             "name": {
                 "kind": 134299649,
-                "original": "T1",
                 "text": "T1",
-                "rawText": " T1",
+                "rawText": "T1",
                 "flags": 96,
                 "start": 22,
                 "end": 25

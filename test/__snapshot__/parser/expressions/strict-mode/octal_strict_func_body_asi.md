@@ -31,7 +31,6 @@ function f() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -54,8 +53,7 @@ function f() {
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": "\n  \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 97,
                             "start": 14,
                             "end": 29
@@ -67,8 +65,7 @@ function f() {
                             "expression": {
                                 "kind": 201392130,
                                 "text": 511,
-                                "original": "0777",
-                                "rawText": "\n  0777",
+                                "rawText": "0777",
                                 "flags": 131169,
                                 "start": 29,
                                 "end": 36

@@ -58,7 +58,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -76,7 +75,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -111,7 +109,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -129,7 +126,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -157,7 +153,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -217,7 +212,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -235,7 +229,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -263,7 +256,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -356,7 +348,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -381,7 +372,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -422,7 +412,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -475,7 +464,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -500,7 +488,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -541,7 +528,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -594,7 +580,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -619,7 +604,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -635,7 +619,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -660,7 +643,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             },
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -719,7 +701,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -741,7 +722,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -757,7 +737,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -782,7 +761,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -852,7 +830,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -877,7 +854,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -918,7 +894,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -971,7 +946,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -996,7 +970,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -1037,7 +1010,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1090,7 +1062,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1115,7 +1086,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -1131,7 +1101,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1156,7 +1125,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             },
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
@@ -1215,7 +1183,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -1237,7 +1204,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -1278,7 +1244,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -1330,7 +1295,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\n\nx",
                     "flags": 96,
@@ -1352,7 +1316,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -1368,7 +1331,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -1393,7 +1355,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
@@ -1463,7 +1424,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1481,7 +1441,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -1509,7 +1468,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -1554,7 +1512,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -1602,7 +1559,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,
@@ -1655,7 +1611,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1673,7 +1628,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": " y",
                     "flags": 96,
@@ -1701,7 +1655,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": " constructor",
                                 "flags": 96,
@@ -1760,7 +1713,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -1817,7 +1769,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1842,7 +1793,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "fo",
                                 "text": "fo",
                                 "rawText": " fo",
                                 "flags": 96,
@@ -1901,7 +1851,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "foo",
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
@@ -1958,7 +1907,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -1983,7 +1931,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "dsda",
                                 "text": "dsda",
                                 "rawText": " dsda",
                                 "flags": 96,
@@ -2028,7 +1975,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -2057,7 +2003,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "original": "foo",
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
@@ -2077,7 +2022,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,

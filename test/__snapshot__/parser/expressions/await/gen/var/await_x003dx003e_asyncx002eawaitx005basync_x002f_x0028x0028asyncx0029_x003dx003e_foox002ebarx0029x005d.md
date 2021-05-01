@@ -35,7 +35,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -74,7 +73,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -116,7 +114,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
-                        "original": "async",
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
@@ -125,7 +122,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "await",
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
@@ -140,7 +136,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "async",
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
@@ -167,7 +162,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "parameters": [
                                 {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -181,7 +175,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 "kind": 129,
                                 "member": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": " foo",
                                     "flags": 96,
@@ -190,7 +183,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "bar",
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,

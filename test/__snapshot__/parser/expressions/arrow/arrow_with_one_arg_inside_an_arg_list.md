@@ -21,7 +21,6 @@ f(((a) => a + b)(1, 4), 5);
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -47,7 +46,6 @@ f(((a) => a + b)(1, 4), 5);
                                     "parameters": [
                                         {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -61,7 +59,6 @@ f(((a) => a + b)(1, 4), 5);
                                         "kind": 198,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": " a",
                                             "flags": 96,
@@ -76,7 +73,6 @@ f(((a) => a + b)(1, 4), 5);
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": " b",
                                             "flags": 96,
@@ -101,7 +97,6 @@ f(((a) => a + b)(1, 4), 5);
                                     {
                                         "kind": 201392130,
                                         "text": 1,
-                                        "original": "1",
                                         "rawText": "1",
                                         "flags": 96,
                                         "start": 17,
@@ -110,8 +105,7 @@ f(((a) => a + b)(1, 4), 5);
                                     {
                                         "kind": 201392130,
                                         "text": 4,
-                                        "original": "4",
-                                        "rawText": " 4",
+                                        "rawText": "4",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 21
@@ -129,8 +123,7 @@ f(((a) => a + b)(1, 4), 5);
                         {
                             "kind": 201392130,
                             "text": 5,
-                            "original": "5",
-                            "rawText": " 5",
+                            "rawText": "5",
                             "flags": 96,
                             "start": 23,
                             "end": 25

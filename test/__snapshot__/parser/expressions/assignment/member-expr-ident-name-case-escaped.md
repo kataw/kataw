@@ -40,7 +40,6 @@ obj.c\u0061se = 42;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,
@@ -84,7 +83,6 @@ obj.c\u0061se = 42;
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
-                        "original": "obj",
                         "text": "obj",
                         "rawText": "\n\nobj",
                         "flags": 96,
@@ -93,7 +91,6 @@ obj.c\u0061se = 42;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "c\\u0061se",
                         "text": "case",
                         "rawText": "c\\u0061se",
                         "flags": 96,
@@ -113,8 +110,7 @@ obj.c\u0061se = 42;
                 "right": {
                     "kind": 201392130,
                     "text": 42,
-                    "original": "42",
-                    "rawText": " 42",
+                    "rawText": "42",
                     "flags": 96,
                     "start": 30,
                     "end": 33

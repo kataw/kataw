@@ -26,7 +26,6 @@
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "const",
                                 "text": "const",
                                 "rawText": "const",
                                 "flags": 96,

@@ -48,9 +48,8 @@ class X {
             },
             "name": {
                 "kind": 134299649,
-                "original": "X",
                 "text": "X",
-                "rawText": " X",
+                "rawText": "X",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -74,8 +73,7 @@ class X {
                             "name": {
                                 "kind": 201392131,
                                 "text": "",
-                                "original": "''",
-                                "rawText": "\n  ''",
+                                "rawText": "''",
                                 "flags": 4194401,
                                 "start": 9,
                                 "end": 14

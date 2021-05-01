@@ -28,7 +28,6 @@ function foo() { return {eval} }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -64,7 +63,6 @@ function foo() { return {eval} }
                                     "properties": [
                                         {
                                             "kind": 134299649,
-                                            "original": "eval",
                                             "text": "eval",
                                             "rawText": "eval",
                                             "flags": 96,

@@ -20,7 +20,6 @@ x: for(;;) continue x
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -64,7 +63,6 @@ x: for(;;) continue x
                     },
                     "label": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,
@@ -102,7 +100,6 @@ x: for(;;) continue x
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "y",
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,

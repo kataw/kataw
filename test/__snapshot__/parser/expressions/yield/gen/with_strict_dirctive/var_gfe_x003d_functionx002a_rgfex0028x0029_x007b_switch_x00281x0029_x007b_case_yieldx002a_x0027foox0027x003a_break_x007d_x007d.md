@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -50,7 +49,6 @@
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "gfe",
                             "text": "gfe",
                             "rawText": " gfe",
                             "flags": 96,
@@ -76,7 +74,6 @@
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "rgfe",
                                 "text": "rgfe",
                                 "rawText": " rgfe",
                                 "flags": 96,
@@ -108,7 +105,6 @@
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 1,
-                                                "original": "1",
                                                 "rawText": "1",
                                                 "flags": 96,
                                                 "start": 51,
@@ -143,8 +139,7 @@
                                                             "expression": {
                                                                 "kind": 201392131,
                                                                 "text": "foo",
-                                                                "original": "'foo'",
-                                                                "rawText": " 'foo'",
+                                                                "rawText": "'foo'",
                                                                 "flags": 4194400,
                                                                 "start": 67,
                                                                 "end": 73

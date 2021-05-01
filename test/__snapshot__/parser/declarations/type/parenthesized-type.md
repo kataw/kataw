@@ -35,9 +35,8 @@ type Foo = (string | number)
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 4,
                 "end": 8

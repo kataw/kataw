@@ -29,7 +29,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -45,7 +44,6 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "public",
                                                 "text": "public",
                                                 "rawText": "public",
                                                 "flags": 96,
@@ -115,7 +113,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 96,
@@ -131,7 +128,6 @@
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "protected",
                                                 "text": "protected",
                                                 "rawText": "protected",
                                                 "flags": 96,

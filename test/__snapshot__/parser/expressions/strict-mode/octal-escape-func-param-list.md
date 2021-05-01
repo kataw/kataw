@@ -28,7 +28,6 @@ function foo(p\141ckage) { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": " foo",
                 "flags": 96,
@@ -43,7 +42,6 @@ function foo(p\141ckage) { "use strict"; }
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p",
                             "text": "p",
                             "rawText": "p",
                             "flags": 96,
@@ -88,7 +86,6 @@ function foo(p\141ckage) { "use strict"; }
             "expression": {
                 "kind": 201392130,
                 "text": 141,
-                "original": "141",
                 "rawText": "141",
                 "flags": 96,
                 "start": 15,
@@ -102,7 +99,6 @@ function foo(p\141ckage) { "use strict"; }
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "ckage",
                 "text": "ckage",
                 "rawText": "ckage",
                 "flags": 96,
@@ -123,8 +119,7 @@ function foo(p\141ckage) { "use strict"; }
                         "expression": {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 26,
                             "end": 39

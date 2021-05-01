@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -110,7 +108,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "gf",
                                                 "text": "gf",
                                                 "rawText": " gf",
                                                 "flags": 96,
@@ -142,7 +139,6 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 1,
-                                                                "original": "1",
                                                                 "rawText": "1",
                                                                 "flags": 96,
                                                                 "start": 65,
@@ -177,8 +173,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                             "expression": {
                                                                                 "kind": 201392131,
                                                                                 "text": "foo",
-                                                                                "original": "'foo'",
-                                                                                "rawText": " 'foo'",
+                                                                                "rawText": "'foo'",
                                                                                 "flags": 4194400,
                                                                                 "start": 81,
                                                                                 "end": 87

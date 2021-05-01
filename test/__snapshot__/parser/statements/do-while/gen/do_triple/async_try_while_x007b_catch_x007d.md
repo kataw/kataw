@@ -55,7 +55,6 @@ do do do async try while { catch } while while while
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "catch",
                                 "text": "catch",
                                 "rawText": " catch",
                                 "flags": 96,
@@ -98,7 +97,6 @@ do do do async try while { catch } while while while
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,

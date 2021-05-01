@@ -30,7 +30,6 @@ let o = {await(){}}
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "o",
                             "text": "o",
                             "rawText": " o",
                             "flags": 96,
@@ -48,7 +47,6 @@ let o = {await(){}}
                                         "kind": 209,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "await",
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,

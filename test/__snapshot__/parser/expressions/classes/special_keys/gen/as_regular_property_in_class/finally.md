@@ -31,7 +31,6 @@ class x {finally: x}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -51,7 +50,6 @@ class x {finally: x}
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "finally",
                             "text": "finally",
                             "rawText": "finally",
                             "flags": 96,
@@ -78,7 +76,6 @@ class x {finally: x}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

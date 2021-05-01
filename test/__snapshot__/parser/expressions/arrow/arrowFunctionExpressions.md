@@ -61,7 +61,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -85,7 +84,6 @@ var p10 = ([{ value, done }]) => { };
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "p",
                                         "text": "p",
                                         "rawText": "p",
                                         "flags": 96,
@@ -117,7 +115,6 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 129,
                                 "member": {
                                     "kind": 134299649,
-                                    "original": "p",
                                     "text": "p",
                                     "rawText": " p",
                                     "flags": 96,
@@ -126,7 +123,6 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "length",
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 96,
@@ -170,7 +166,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -194,7 +189,6 @@ var p10 = ([{ value, done }]) => { };
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "p",
                                         "text": "p",
                                         "rawText": "p",
                                         "flags": 96,
@@ -240,7 +234,6 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 129,
                                                 "member": {
                                                     "kind": 134299649,
-                                                    "original": "p",
                                                     "text": "p",
                                                     "rawText": " p",
                                                     "flags": 96,
@@ -249,7 +242,6 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "length",
                                                     "text": "length",
                                                     "rawText": "length",
                                                     "flags": 96,
@@ -306,7 +298,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -326,7 +317,6 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
-                                "original": "j",
                                 "text": "j",
                                 "rawText": " j",
                                 "flags": 96,
@@ -352,8 +342,7 @@ var p10 = ([{ value, done }]) => { };
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 0,
-                                                "original": "0",
-                                                "rawText": " 0",
+                                                "rawText": "0",
                                                 "flags": 96,
                                                 "start": 100,
                                                 "end": 102
@@ -404,7 +393,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -425,7 +413,6 @@ var p10 = ([{ value, done }]) => { };
                             "parameters": [
                                 {
                                     "kind": 134299649,
-                                    "original": "j",
                                     "text": "j",
                                     "rawText": "j",
                                     "flags": 96,
@@ -452,8 +439,7 @@ var p10 = ([{ value, done }]) => { };
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 0,
-                                                "original": "0",
-                                                "rawText": " 0",
+                                                "rawText": "0",
                                                 "flags": 96,
                                                 "start": 130,
                                                 "end": 132
@@ -504,7 +490,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "c",
                             "text": "c",
                             "rawText": " c",
                             "flags": 96,
@@ -554,7 +539,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "d",
                             "text": "d",
                             "rawText": " d",
                             "flags": 96,
@@ -574,7 +558,6 @@ var p10 = ([{ value, done }]) => { };
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
-                                "original": "n",
                                 "text": "n",
                                 "rawText": " n",
                                 "flags": 96,
@@ -587,7 +570,6 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "c",
                                     "text": "c",
                                     "rawText": " c",
                                     "flags": 96,
@@ -602,7 +584,6 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "n",
                                     "text": "n",
                                     "rawText": " n",
                                     "flags": 96,
@@ -646,7 +627,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "d",
                             "text": "d",
                             "rawText": " d",
                             "flags": 96,
@@ -667,7 +647,6 @@ var p10 = ([{ value, done }]) => { };
                             "parameters": [
                                 {
                                     "kind": 134299649,
-                                    "original": "n",
                                     "text": "n",
                                     "rawText": "n",
                                     "flags": 96,
@@ -681,7 +660,6 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "c",
                                     "text": "c",
                                     "rawText": " c",
                                     "flags": 96,
@@ -696,7 +674,6 @@ var p10 = ([{ value, done }]) => { };
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "n",
                                     "text": "n",
                                     "rawText": " n",
                                     "flags": 96,
@@ -740,7 +717,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "d",
                             "text": "d",
                             "rawText": " d",
                             "flags": 96,
@@ -760,7 +736,6 @@ var p10 = ([{ value, done }]) => { };
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "n",
                                                 "text": "n",
                                                 "rawText": "n",
                                                 "flags": 96,
@@ -829,7 +804,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p1",
                             "text": "p1",
                             "rawText": " p1",
                             "flags": 96,
@@ -855,7 +829,6 @@ var p10 = ([{ value, done }]) => { };
                                         "elements": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -922,7 +895,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p2",
                             "text": "p2",
                             "rawText": " p2",
                             "flags": 96,
@@ -956,7 +928,6 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "argument": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -1027,7 +998,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p3",
                             "text": "p3",
                             "rawText": " p3",
                             "flags": 96,
@@ -1059,7 +1029,6 @@ var p10 = ([{ value, done }]) => { };
                                             },
                                             {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": " a",
                                                 "flags": 96,
@@ -1126,7 +1095,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p4",
                             "text": "p4",
                             "rawText": " p4",
                             "flags": 96,
@@ -1166,7 +1134,6 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "argument": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -1237,7 +1204,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p5",
                             "text": "p5",
                             "rawText": " p5",
                             "flags": 96,
@@ -1265,7 +1231,6 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
@@ -1281,8 +1246,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
-                                                    "rawText": " 1",
+                                                    "rawText": "1",
                                                     "flags": 96,
                                                     "start": 337,
                                                     "end": 339
@@ -1351,7 +1315,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p6",
                             "text": "p6",
                             "rawText": " p6",
                             "flags": 96,
@@ -1377,7 +1340,6 @@ var p10 = ([{ value, done }]) => { };
                                         "properties": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": " a",
                                                 "flags": 96,
@@ -1444,7 +1406,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p7",
                             "text": "p7",
                             "rawText": " p7",
                             "flags": 96,
@@ -1481,7 +1442,6 @@ var p10 = ([{ value, done }]) => { };
                                                         "properties": [
                                                             {
                                                                 "kind": 134299649,
-                                                                "original": "b",
                                                                 "text": "b",
                                                                 "rawText": " b",
                                                                 "flags": 96,
@@ -1500,7 +1460,6 @@ var p10 = ([{ value, done }]) => { };
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,
@@ -1571,7 +1530,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p8",
                             "text": "p8",
                             "rawText": " p8",
                             "flags": 96,
@@ -1599,7 +1557,6 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 205,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,
@@ -1609,8 +1566,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
-                                                    "rawText": " 1",
+                                                    "rawText": "1",
                                                     "flags": 96,
                                                     "start": 422,
                                                     "end": 424
@@ -1679,7 +1635,6 @@ var p10 = ([{ value, done }]) => { };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p10",
                             "text": "p10",
                             "rawText": " p10",
                             "flags": 96,
@@ -1710,7 +1665,6 @@ var p10 = ([{ value, done }]) => { };
                                                     "properties": [
                                                         {
                                                             "kind": 134299649,
-                                                            "original": "value",
                                                             "text": "value",
                                                             "rawText": " value",
                                                             "flags": 96,
@@ -1719,7 +1673,6 @@ var p10 = ([{ value, done }]) => { };
                                                         },
                                                         {
                                                             "kind": 134299649,
-                                                            "original": "done",
                                                             "text": "done",
                                                             "rawText": " done",
                                                             "flags": 96,

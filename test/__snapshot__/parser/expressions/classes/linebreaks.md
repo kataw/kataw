@@ -68,9 +68,8 @@ class A {
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -98,7 +97,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -155,7 +153,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -171,7 +168,6 @@ class A {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -227,7 +223,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": "\n\n  constructor",
                                 "flags": 96,
@@ -279,7 +274,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n\n  a",
                                 "flags": 96,
@@ -336,7 +330,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -398,7 +391,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -460,7 +452,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -476,7 +467,6 @@ class A {
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -537,7 +527,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "constructor",
                                 "text": "constructor",
                                 "rawText": "\n  constructor",
                                 "flags": 96,
@@ -594,7 +583,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -656,7 +644,6 @@ class A {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,

@@ -63,7 +63,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -90,7 +89,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -274,7 +272,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "get",
                                     "text": "get",
                                     "rawText": " get",
                                     "flags": 96,
@@ -301,7 +298,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -389,7 +385,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "set",
                                     "text": "set",
                                     "rawText": " set",
                                     "flags": 96,
@@ -416,7 +411,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -432,7 +426,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "y",
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
@@ -524,7 +517,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -560,8 +552,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
-                "rawText": " 0",
+                "rawText": "0",
                 "flags": 96,
                 "start": 124,
                 "end": 126
@@ -603,7 +594,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": " async",
                                     "flags": 96,
@@ -639,8 +629,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
-                "rawText": " 0",
+                "rawText": "0",
                 "flags": 96,
                 "start": 146,
                 "end": 148
@@ -687,7 +676,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "static",
                                     "text": "static",
                                     "rawText": " static",
                                     "flags": 96,
@@ -714,7 +702,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -802,7 +789,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
@@ -829,7 +815,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -1023,7 +1008,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "get",
                                     "text": "get",
                                     "rawText": " get",
                                     "flags": 96,
@@ -1050,7 +1034,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -1143,7 +1126,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "set",
                                     "text": "set",
                                     "rawText": " set",
                                     "flags": 96,
@@ -1170,7 +1152,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -1186,7 +1167,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "y",
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
@@ -1283,7 +1263,6 @@
                                 },
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,
@@ -1319,8 +1298,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
-                "rawText": " 0",
+                "rawText": "0",
                 "flags": 96,
                 "start": 344,
                 "end": 346
@@ -1367,7 +1345,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "async",
                                     "rawText": " async",
                                     "flags": 96,
@@ -1403,8 +1380,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
-                "rawText": " 0",
+                "rawText": "0",
                 "flags": 96,
                 "start": 373,
                 "end": 375

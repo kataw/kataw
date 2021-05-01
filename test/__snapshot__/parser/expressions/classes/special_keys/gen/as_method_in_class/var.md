@@ -31,7 +31,6 @@ class x {var(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -56,7 +55,6 @@ class x {var(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "var",
                                 "text": "var",
                                 "rawText": "var",
                                 "flags": 96,

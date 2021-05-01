@@ -28,7 +28,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "createElement",
                 "text": "createElement",
                 "rawText": " createElement",
                 "flags": 96,
@@ -43,7 +42,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "tagName",
                             "text": "tagName",
                             "rawText": "tagName",
                             "flags": 96,
@@ -88,8 +86,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "expression": {
                 "kind": 201392131,
                 "text": "div",
-                "original": "\"div\"",
-                "rawText": " \"div\"",
+                "rawText": "\"div\"",
                 "flags": 96,
                 "start": 31,
                 "end": 37
@@ -102,9 +99,8 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "HTMLDivElement",
                 "text": "HTMLDivElement",
-                "rawText": " HTMLDivElement",
+                "rawText": "HTMLDivElement",
                 "flags": 96,
                 "start": 39,
                 "end": 54

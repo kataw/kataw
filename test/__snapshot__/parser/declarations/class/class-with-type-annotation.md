@@ -46,9 +46,8 @@ class Foo { bar():this { return this; }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -71,7 +70,6 @@ class Foo { bar():this { return this; }}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": " bar",
                                 "flags": 96,

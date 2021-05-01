@@ -38,7 +38,6 @@ opaque Ident: Type = SuperType;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "opaque",
                 "text": "opaque",
                 "rawText": "opaque",
                 "flags": 96,
@@ -53,9 +52,8 @@ opaque Ident: Type = SuperType;
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "Ident",
                 "text": "Ident",
-                "rawText": " Ident",
+                "rawText": "Ident",
                 "flags": 96,
                 "start": 6,
                 "end": 12
@@ -82,9 +80,8 @@ opaque Ident: Type = SuperType;
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "original": "Type",
                         "text": "Type",
-                        "rawText": " Type",
+                        "rawText": "Type",
                         "flags": 96,
                         "start": 13,
                         "end": 18
@@ -97,9 +94,8 @@ opaque Ident: Type = SuperType;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "SuperType",
                         "text": "SuperType",
-                        "rawText": " SuperType",
+                        "rawText": "SuperType",
                         "flags": 96,
                         "start": 20,
                         "end": 30

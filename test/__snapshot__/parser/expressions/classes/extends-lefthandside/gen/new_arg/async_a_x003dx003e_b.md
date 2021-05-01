@@ -44,7 +44,6 @@ new async a => b
                             "ellipsisToken": null,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": " a",
                                 "flags": 96,
@@ -68,7 +67,6 @@ new async a => b
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,

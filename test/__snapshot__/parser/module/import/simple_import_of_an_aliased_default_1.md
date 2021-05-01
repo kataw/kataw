@@ -40,8 +40,7 @@ import * as a from "y"
                 "from": {
                     "kind": 201392131,
                     "text": "y",
-                    "original": "\"y\"",
-                    "rawText": " \"y\"",
+                    "rawText": "\"y\"",
                     "flags": 96,
                     "start": 18,
                     "end": 22
@@ -65,7 +64,6 @@ import * as a from "y"
                     "asKeyword": null,
                     "binding": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": " a",
                         "flags": 96,

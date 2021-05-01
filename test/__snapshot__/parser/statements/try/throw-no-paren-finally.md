@@ -30,7 +30,6 @@ throw {x} finally
                     "properties": [
                         {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,

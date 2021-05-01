@@ -21,7 +21,6 @@ wrap({1:b, 0:d});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -44,7 +43,6 @@ wrap({1:b, 0:d});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -54,7 +52,6 @@ wrap({1:b, 0:d});
                                         "right": {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "original": "1",
                                             "rawText": "1",
                                             "flags": 96,
                                             "start": 6,
@@ -72,7 +69,6 @@ wrap({1:b, 0:d});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "d",
                                             "text": "d",
                                             "rawText": "d",
                                             "flags": 96,
@@ -82,8 +78,7 @@ wrap({1:b, 0:d});
                                         "right": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "original": "0",
-                                            "rawText": " 0",
+                                            "rawText": "0",
                                             "flags": 96,
                                             "start": 10,
                                             "end": 12

@@ -31,7 +31,6 @@ class x {static get typeof(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static get typeof(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "typeof",
                                 "text": "typeof",
                                 "rawText": " typeof",
                                 "flags": 96,

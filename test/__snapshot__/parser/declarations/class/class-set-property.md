@@ -49,9 +49,8 @@ class C {
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -99,7 +98,6 @@ class C {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "aaa",
                                 "text": "aaa",
                                 "rawText": "aaa",
                                 "flags": 96,

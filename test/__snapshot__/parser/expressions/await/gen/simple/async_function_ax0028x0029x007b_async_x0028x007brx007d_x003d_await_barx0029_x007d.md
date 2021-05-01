@@ -37,7 +37,6 @@ async function a(){     async ({r} = await bar);     }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,
@@ -62,7 +61,6 @@ async function a(){     async ({r} = await bar);     }
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -81,7 +79,6 @@ async function a(){     async ({r} = await bar);     }
                                                 "properties": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "r",
                                                         "text": "r",
                                                         "rawText": "r",
                                                         "flags": 96,
@@ -114,7 +111,6 @@ async function a(){     async ({r} = await bar);     }
                                             },
                                             "expression": {
                                                 "kind": 134299649,
-                                                "original": "bar",
                                                 "text": "bar",
                                                 "rawText": " bar",
                                                 "flags": 96,

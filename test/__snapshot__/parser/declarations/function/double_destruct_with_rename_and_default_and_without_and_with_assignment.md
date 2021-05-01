@@ -57,7 +57,6 @@ let {x:y=z}, {a:b=c} = obj;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -69,7 +68,6 @@ let {x:y=z}, {a:b=c} = obj;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
@@ -78,7 +76,6 @@ let {x:y=z}, {a:b=c} = obj;
                                             },
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "z",
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 96,
@@ -122,7 +119,6 @@ let {x:y=z}, {a:b=c} = obj;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -134,7 +130,6 @@ let {x:y=z}, {a:b=c} = obj;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "b",
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
@@ -143,7 +138,6 @@ let {x:y=z}, {a:b=c} = obj;
                                             },
                                             "initializer": {
                                                 "kind": 134299649,
-                                                "original": "c",
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
@@ -172,7 +166,6 @@ let {x:y=z}, {a:b=c} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "obj",
                             "text": "obj",
                             "rawText": " obj",
                             "flags": 96,

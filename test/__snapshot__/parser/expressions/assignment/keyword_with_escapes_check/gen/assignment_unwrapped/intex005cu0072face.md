@@ -25,7 +25,6 @@ inte\u0072face = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "inte\\u0072face",
                     "text": "interface",
                     "rawText": "inte\\u0072face",
                     "flags": 96,
@@ -40,7 +39,6 @@ inte\u0072face = x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,

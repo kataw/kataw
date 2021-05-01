@@ -21,7 +21,6 @@ log({foo: [bar]});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "log",
                     "text": "log",
                     "rawText": "log",
                     "flags": 96,
@@ -49,7 +48,6 @@ log({foo: [bar]});
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "bar",
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
@@ -68,7 +66,6 @@ log({foo: [bar]});
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "foo",
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,

@@ -27,7 +27,6 @@ left|right
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "left",
                     "text": "left",
                     "rawText": "left",
                     "flags": 96,
@@ -42,7 +41,6 @@ left|right
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "right",
                     "text": "right",
                     "rawText": "right",
                     "flags": 96,

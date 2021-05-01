@@ -21,7 +21,6 @@ s = {s: true}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "s",
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
@@ -54,7 +53,6 @@ s = {s: true}
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "s",
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,

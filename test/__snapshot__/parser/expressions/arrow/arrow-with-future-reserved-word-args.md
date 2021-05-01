@@ -30,7 +30,6 @@
                     [
                         {
                             "kind": 134299649,
-                            "original": "interface",
                             "text": "interface",
                             "rawText": "interface",
                             "flags": 96,
@@ -39,7 +38,6 @@
                         },
                         {
                             "kind": 134299649,
-                            "original": "eval",
                             "text": "eval",
                             "rawText": " eval",
                             "flags": 96,

@@ -29,7 +29,6 @@
                                 {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "original": "1",
                                     "rawText": "1",
                                     "flags": 96,
                                     "start": 2,

@@ -32,7 +32,6 @@ delete foo.bar, z;
                             "kind": 129,
                             "member": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": " foo",
                                 "flags": 96,
@@ -41,7 +40,6 @@ delete foo.bar, z;
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
@@ -58,7 +56,6 @@ delete foo.bar, z;
                     },
                     {
                         "kind": 134299649,
-                        "original": "z",
                         "text": "z",
                         "rawText": " z",
                         "flags": 96,

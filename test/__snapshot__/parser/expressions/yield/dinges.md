@@ -33,7 +33,6 @@ function *g() { yield {...(x,y),}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -86,7 +85,6 @@ function *g() { yield {...(x,y),}}
                                                         "expressions": [
                                                             {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
@@ -95,7 +93,6 @@ function *g() { yield {...(x,y),}}
                                                             },
                                                             {
                                                                 "kind": 134299649,
-                                                                "original": "y",
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,

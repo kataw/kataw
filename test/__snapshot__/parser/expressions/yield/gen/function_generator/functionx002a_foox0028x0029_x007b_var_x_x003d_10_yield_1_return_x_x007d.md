@@ -37,7 +37,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -110,7 +108,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                             },
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "foo",
                                                 "text": "foo",
                                                 "rawText": " foo",
                                                 "flags": 96,
@@ -147,7 +144,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                         "kind": 157,
                                                                         "binding": {
                                                                             "kind": 134299649,
-                                                                            "original": "x",
                                                                             "text": "x",
                                                                             "rawText": " x",
                                                                             "flags": 96,
@@ -159,8 +155,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                         "initializer": {
                                                                             "kind": 201392130,
                                                                             "text": 10,
-                                                                            "original": "10",
-                                                                            "rawText": " 10",
+                                                                            "rawText": "10",
                                                                             "flags": 96,
                                                                             "start": 65,
                                                                             "end": 68
@@ -193,8 +188,7 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                                 "expression": {
                                                                     "kind": 201392130,
                                                                     "text": 1,
-                                                                    "original": "1",
-                                                                    "rawText": " 1",
+                                                                    "rawText": "1",
                                                                     "flags": 96,
                                                                     "start": 75,
                                                                     "end": 77
@@ -217,7 +211,6 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "original": "x",
                                                                 "text": "x",
                                                                 "rawText": " x",
                                                                 "flags": 96,

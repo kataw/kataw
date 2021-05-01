@@ -33,7 +33,6 @@ class x { async *prototype(){} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -68,7 +67,6 @@ class x { async *prototype(){} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "prototype",
                                 "text": "prototype",
                                 "rawText": "prototype",
                                 "flags": 96,

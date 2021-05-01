@@ -42,7 +42,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "'",
-                "original": "\"\\'\"",
                 "rawText": "\"\\'\"",
                 "flags": 96,
                 "start": 0,
@@ -57,8 +56,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\"",
-                "original": "\"\\\"\"",
-                "rawText": "\n\"\\\"\"",
+                "rawText": "\"\\\"\"",
                 "flags": 97,
                 "start": 6,
                 "end": 11
@@ -72,8 +70,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\\",
-                "original": "\"\\\\\"",
-                "rawText": "\n\"\\\\\"",
+                "rawText": "\"\\\\\"",
                 "flags": 97,
                 "start": 13,
                 "end": 18
@@ -87,8 +84,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\b",
-                "original": "\"\\b\"",
-                "rawText": "\n\"\\b\"",
+                "rawText": "\"\\b\"",
                 "flags": 97,
                 "start": 20,
                 "end": 25
@@ -102,8 +98,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\f",
-                "original": "\"\\f\"",
-                "rawText": "\n\"\\f\"",
+                "rawText": "\"\\f\"",
                 "flags": 97,
                 "start": 27,
                 "end": 32
@@ -117,8 +112,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\n",
-                "original": "\"\\n\"",
-                "rawText": "\n\"\\n\"",
+                "rawText": "\"\\n\"",
                 "flags": 97,
                 "start": 34,
                 "end": 39
@@ -132,8 +126,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\r",
-                "original": "\"\\r\"",
-                "rawText": "\n\"\\r\"",
+                "rawText": "\"\\r\"",
                 "flags": 97,
                 "start": 41,
                 "end": 46
@@ -147,8 +140,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\t",
-                "original": "\"\\t\"",
-                "rawText": "\n\"\\t\"",
+                "rawText": "\"\\t\"",
                 "flags": 97,
                 "start": 48,
                 "end": 53
@@ -162,8 +154,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "\u000b",
-                "original": "\"\\v\"",
-                "rawText": "\n\"\\v\"",
+                "rawText": "\"\\v\"",
                 "flags": 97,
                 "start": 55,
                 "end": 60

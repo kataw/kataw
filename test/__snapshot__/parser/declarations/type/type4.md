@@ -70,9 +70,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T10",
                 "text": "T10",
-                "rawText": " T10",
+                "rawText": "T10",
                 "flags": 96,
                 "start": 4,
                 "end": 8
@@ -83,9 +82,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 10,
                     "end": 21
@@ -139,9 +137,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T11",
                 "text": "T11",
-                "rawText": " T11",
+                "rawText": "T11",
                 "flags": 96,
                 "start": 52,
                 "end": 56
@@ -152,9 +149,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 58,
                     "end": 69
@@ -172,7 +168,6 @@ type T27 = ArgumentType<never>;  // any
                                         "ellipsisToken": null,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "s",
                                             "text": "s",
                                             "rawText": "s",
                                             "flags": 96,
@@ -232,9 +227,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T12",
                 "text": "T12",
-                "rawText": " T12",
+                "rawText": "T12",
                 "flags": 96,
                 "start": 105,
                 "end": 109
@@ -245,9 +239,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 111,
                     "end": 122
@@ -286,7 +279,6 @@ type T27 = ArgumentType<never>;  // any
                                         "kind": 144,
                                         "id": {
                                             "kind": 134299649,
-                                            "original": "T",
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
@@ -324,9 +316,8 @@ type T27 = ArgumentType<never>;  // any
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "T",
                 "text": "T",
-                "rawText": " T",
+                "rawText": "T",
                 "flags": 96,
                 "start": 132,
                 "end": 134
@@ -379,9 +370,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T14",
                 "text": "T14",
-                "rawText": " T14",
+                "rawText": "T14",
                 "flags": 96,
                 "start": 233,
                 "end": 237
@@ -392,9 +382,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 239,
                     "end": 250
@@ -408,7 +397,6 @@ type T27 = ArgumentType<never>;  // any
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "f1",
                                     "text": "f1",
                                     "rawText": " f1",
                                     "flags": 96,
@@ -449,9 +437,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T15",
                 "text": "T15",
-                "rawText": " T15",
+                "rawText": "T15",
                 "flags": 96,
                 "start": 297,
                 "end": 301
@@ -462,9 +449,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 303,
                     "end": 314
@@ -478,9 +464,8 @@ type T27 = ArgumentType<never>;  // any
                                 "kind": 144,
                                 "id": {
                                     "kind": 134299649,
-                                    "original": "C",
                                     "text": "C",
-                                    "rawText": " C",
+                                    "rawText": "C",
                                     "flags": 96,
                                     "start": 321,
                                     "end": 323
@@ -519,9 +504,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T16",
                 "text": "T16",
-                "rawText": " T16",
+                "rawText": "T16",
                 "flags": 96,
                 "start": 336,
                 "end": 340
@@ -532,9 +516,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 342,
                     "end": 353
@@ -573,9 +556,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T17",
                 "text": "T17",
-                "rawText": " T17",
+                "rawText": "T17",
                 "flags": 96,
                 "start": 373,
                 "end": 377
@@ -586,9 +568,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 379,
                     "end": 390
@@ -627,9 +608,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T18",
                 "text": "T18",
-                "rawText": " T18",
+                "rawText": "T18",
                 "flags": 96,
                 "start": 411,
                 "end": 415
@@ -640,9 +620,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 417,
                     "end": 428
@@ -681,9 +660,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T19",
                 "text": "T19",
-                "rawText": " T19",
+                "rawText": "T19",
                 "flags": 96,
                 "start": 452,
                 "end": 456
@@ -694,9 +672,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ReturnType",
                     "text": "ReturnType",
-                    "rawText": " ReturnType",
+                    "rawText": "ReturnType",
                     "flags": 96,
                     "start": 458,
                     "end": 469
@@ -708,7 +685,6 @@ type T27 = ArgumentType<never>;  // any
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "original": "Function",
                                 "text": "Function",
                                 "rawText": "Function",
                                 "flags": 96,
@@ -745,9 +721,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T20",
                 "text": "T20",
-                "rawText": " T20",
+                "rawText": "T20",
                 "flags": 96,
                 "start": 494,
                 "end": 498
@@ -758,9 +733,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 500,
                     "end": 513
@@ -814,9 +788,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T21",
                 "text": "T21",
-                "rawText": " T21",
+                "rawText": "T21",
                 "flags": 96,
                 "start": 541,
                 "end": 545
@@ -827,9 +800,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 547,
                     "end": 560
@@ -847,7 +819,6 @@ type T27 = ArgumentType<never>;  // any
                                         "ellipsisToken": null,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -907,9 +878,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T22",
                 "text": "T22",
-                "rawText": " T22",
+                "rawText": "T22",
                 "flags": 96,
                 "start": 600,
                 "end": 604
@@ -920,9 +890,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 606,
                     "end": 619
@@ -940,7 +909,6 @@ type T27 = ArgumentType<never>;  // any
                                         "ellipsisToken": null,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -1005,9 +973,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T23",
                 "text": "T23",
-                "rawText": " T23",
+                "rawText": "T23",
                 "flags": 96,
                 "start": 672,
                 "end": 676
@@ -1018,9 +985,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 678,
                     "end": 691
@@ -1043,7 +1009,6 @@ type T27 = ArgumentType<never>;  // any
                                         },
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "args",
                                             "text": "args",
                                             "rawText": "args",
                                             "flags": 96,
@@ -1109,9 +1074,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T25",
                 "text": "T25",
-                "rawText": " T25",
+                "rawText": "T25",
                 "flags": 96,
                 "start": 810,
                 "end": 814
@@ -1122,9 +1086,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 816,
                     "end": 829
@@ -1136,7 +1099,6 @@ type T27 = ArgumentType<never>;  // any
                             "kind": 144,
                             "id": {
                                 "kind": 134299649,
-                                "original": "Function",
                                 "text": "Function",
                                 "rawText": "Function",
                                 "flags": 96,
@@ -1173,9 +1135,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T26",
                 "text": "T26",
-                "rawText": " T26",
+                "rawText": "T26",
                 "flags": 96,
                 "start": 855,
                 "end": 859
@@ -1186,9 +1147,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 861,
                     "end": 874
@@ -1227,9 +1187,8 @@ type T27 = ArgumentType<never>;  // any
             },
             "name": {
                 "kind": 134299649,
-                "original": "T27",
                 "text": "T27",
-                "rawText": " T27",
+                "rawText": "T27",
                 "flags": 96,
                 "start": 893,
                 "end": 897
@@ -1240,9 +1199,8 @@ type T27 = ArgumentType<never>;  // any
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "ArgumentType",
                     "text": "ArgumentType",
-                    "rawText": " ArgumentType",
+                    "rawText": "ArgumentType",
                     "flags": 96,
                     "start": 899,
                     "end": 912

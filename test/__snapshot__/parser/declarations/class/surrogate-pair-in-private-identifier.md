@@ -35,9 +35,8 @@ class C { #@{x29e3d}@ }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -89,7 +88,6 @@ class C { #@{x29e3d}@ }
             "classKeyword": null,
             "name": {
                 "kind": 134299649,
-                "original": "x29e3d",
                 "text": "x29e3d",
                 "rawText": "x29e3d",
                 "flags": 96,

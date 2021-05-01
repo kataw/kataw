@@ -31,7 +31,6 @@ x => y in x) ;
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -50,7 +49,6 @@ x => y in x) ;
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "\nx",
                     "flags": 96,
@@ -63,7 +61,6 @@ x => y in x) ;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": " y",
                         "flags": 96,
@@ -78,7 +75,6 @@ x => y in x) ;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,

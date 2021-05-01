@@ -31,9 +31,8 @@ class C extends (
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -54,7 +53,6 @@ class C extends (
                         "expressions": [
                             {
                                 "kind": 134299649,
-                                "original": "a",
                                 "text": "a",
                                 "rawText": "\n  a",
                                 "flags": 96,
@@ -63,7 +61,6 @@ class C extends (
                             },
                             {
                                 "kind": 134299649,
-                                "original": "c",
                                 "text": "c",
                                 "rawText": "\n  c",
                                 "flags": 96,

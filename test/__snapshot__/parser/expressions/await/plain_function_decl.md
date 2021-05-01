@@ -28,7 +28,6 @@ function f(await){}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -43,7 +42,6 @@ function f(await){}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,

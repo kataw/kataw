@@ -31,9 +31,8 @@ class C { await\n a }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -51,7 +50,6 @@ class C { await\n a }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "await",
                             "text": "await",
                             "rawText": " await",
                             "flags": 96,
@@ -78,7 +76,6 @@ class C { await\n a }
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -93,7 +90,6 @@ class C { await\n a }
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,

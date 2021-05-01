@@ -26,7 +26,6 @@
                         "elements": [
                             {
                                 "kind": 134299649,
-                                "original": "please",
                                 "text": "please",
                                 "rawText": "please",
                                 "flags": 96,
@@ -46,7 +45,6 @@
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "it",
                                                 "text": "it",
                                                 "rawText": " it",
                                                 "flags": 96,
@@ -57,7 +55,6 @@
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "make",
                                                     "text": "make",
                                                     "rawText": "make",
                                                     "flags": 96,
@@ -84,7 +81,6 @@
                             },
                             {
                                 "kind": 134299649,
-                                "original": "stop",
                                 "text": "stop",
                                 "rawText": " stop",
                                 "flags": 96,
@@ -109,7 +105,6 @@
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "bwahahahaha",
                     "text": "bwahahahaha",
                     "rawText": " bwahahahaha",
                     "flags": 96,

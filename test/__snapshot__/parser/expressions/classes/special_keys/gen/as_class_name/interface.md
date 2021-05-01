@@ -31,7 +31,6 @@ class interface {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "interface",
                 "text": "interface",
                 "rawText": " interface",
                 "flags": 96,

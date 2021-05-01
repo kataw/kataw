@@ -46,7 +46,6 @@ class l\u0065t {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "l\\u0065t",
                 "text": "let",
                 "rawText": " l\\u0065t",
                 "flags": 96,

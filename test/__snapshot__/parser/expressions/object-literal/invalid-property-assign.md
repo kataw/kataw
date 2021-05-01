@@ -41,7 +41,6 @@
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "dest",
                                                         "text": "dest",
                                                         "rawText": "dest",
                                                         "flags": 96,
@@ -64,7 +63,6 @@
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "src",
                                         "text": "src",
                                         "rawText": " src",
                                         "flags": 96,
@@ -93,7 +91,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "obj",
                         "text": "obj",
                         "rawText": " obj",
                         "flags": 96,

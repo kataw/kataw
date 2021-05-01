@@ -39,7 +39,6 @@ var foo = ((foo)): string => {};
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "foo",
                             "text": "foo",
                             "rawText": " foo",
                             "flags": 96,
@@ -54,7 +53,6 @@ var foo = ((foo)): string => {};
                                 "kind": 121,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "foo",
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
@@ -95,7 +93,6 @@ var foo = ((foo)): string => {};
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "string",
                     "text": "string",
                     "rawText": " string",
                     "flags": 96,

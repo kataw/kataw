@@ -46,9 +46,8 @@ class A {"set"(){} "get"(){} "async"(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -72,7 +71,6 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "set",
-                                "original": "\"set\"",
                                 "rawText": "\"set\"",
                                 "flags": 96,
                                 "start": 9,
@@ -124,8 +122,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "get",
-                                "original": "\"get\"",
-                                "rawText": " \"get\"",
+                                "rawText": "\"get\"",
                                 "flags": 96,
                                 "start": 18,
                                 "end": 24
@@ -176,8 +173,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "name": {
                                 "kind": 201392131,
                                 "text": "async",
-                                "original": "\"async\"",
-                                "rawText": " \"async\"",
+                                "rawText": "\"async\"",
                                 "flags": 96,
                                 "start": 28,
                                 "end": 36

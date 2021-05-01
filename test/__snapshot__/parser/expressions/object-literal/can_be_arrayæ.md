@@ -21,7 +21,6 @@ x = {...[a, b]}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -54,7 +53,6 @@ x = {...[a, b]}
                                         "elements": [
                                             {
                                                 "kind": 134299649,
-                                                "original": "a",
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
@@ -63,7 +61,6 @@ x = {...[a, b]}
                                             },
                                             {
                                                 "kind": 134299649,
-                                                "original": "b",
                                                 "text": "b",
                                                 "rawText": " b",
                                                 "flags": 96,

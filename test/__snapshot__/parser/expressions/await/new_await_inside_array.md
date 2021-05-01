@@ -33,7 +33,6 @@ async function f(){ [new await foo] }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -79,7 +78,6 @@ async function f(){ [new await foo] }
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "foo",
                                                     "text": "foo",
                                                     "rawText": " foo",
                                                     "flags": 96,

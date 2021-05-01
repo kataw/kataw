@@ -21,7 +21,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -45,7 +44,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "xCls",
                                         "text": "xCls",
                                         "rawText": " xCls",
                                         "flags": 96,
@@ -69,7 +67,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         },
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -97,7 +94,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "cls",
                                         "text": "cls",
                                         "rawText": " cls",
                                         "flags": 96,
@@ -141,7 +137,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "xCls2",
                                         "text": "xCls2",
                                         "rawText": " xCls2",
                                         "flags": 96,
@@ -187,7 +182,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                         "kind": 209,
                                                         "name": {
                                                             "kind": 134299649,
-                                                            "original": "name",
                                                             "text": "name",
                                                             "rawText": " name",
                                                             "flags": 96,
@@ -257,7 +251,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "vals",
                         "text": "vals",
                         "rawText": " vals",
                         "flags": 96,

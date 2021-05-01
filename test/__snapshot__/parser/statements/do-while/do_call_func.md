@@ -25,7 +25,6 @@ do h(function(){});while(x)
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -44,7 +43,6 @@ do h(function(){});while(x)
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
-                        "original": "h",
                         "text": "h",
                         "rawText": " h",
                         "flags": 96,

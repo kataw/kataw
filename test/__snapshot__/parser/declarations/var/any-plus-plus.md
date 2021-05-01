@@ -41,7 +41,6 @@ var z = x + x;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,
@@ -83,7 +82,6 @@ var z = x + x;
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "\nx",
                         "flags": 96,
@@ -92,7 +90,6 @@ var z = x + x;
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "name",
                         "text": "name",
                         "rawText": "name",
                         "flags": 96,
@@ -112,8 +109,7 @@ var z = x + x;
                 "right": {
                     "kind": 201392131,
                     "text": "hello",
-                    "original": "\"hello\"",
-                    "rawText": " \"hello\"",
+                    "rawText": "\"hello\"",
                     "flags": 96,
                     "start": 20,
                     "end": 28
@@ -142,7 +138,6 @@ var z = x + x;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "z",
                             "text": "z",
                             "rawText": " z",
                             "flags": 96,
@@ -155,7 +150,6 @@ var z = x + x;
                             "kind": 198,
                             "left": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -170,7 +164,6 @@ var z = x + x;
                             },
                             "right": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,

@@ -33,7 +33,6 @@ function *f() { 1 ? 2 : yield 3; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -61,8 +60,7 @@ function *f() { 1 ? 2 : yield 3; }
                                 "shortCircuit": {
                                     "kind": 201392130,
                                     "text": 1,
-                                    "original": "1",
-                                    "rawText": " 1",
+                                    "rawText": "1",
                                     "flags": 96,
                                     "start": 15,
                                     "end": 17
@@ -76,8 +74,7 @@ function *f() { 1 ? 2 : yield 3; }
                                 "consequent": {
                                     "kind": 201392130,
                                     "text": 2,
-                                    "original": "2",
-                                    "rawText": " 2",
+                                    "rawText": "2",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 21
@@ -101,8 +98,7 @@ function *f() { 1 ? 2 : yield 3; }
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 3,
-                                        "original": "3",
-                                        "rawText": " 3",
+                                        "rawText": "3",
                                         "flags": 96,
                                         "start": 29,
                                         "end": 31

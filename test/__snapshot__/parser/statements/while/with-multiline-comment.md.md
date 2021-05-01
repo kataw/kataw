@@ -56,7 +56,6 @@ there; }
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "there",
                                 "text": "there",
                                 "rawText": " /* Multiline\nComment */there",
                                 "flags": 96,
@@ -117,7 +116,6 @@ there; }
                             "kind": 120,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "there",
                                 "text": "there",
                                 "rawText": " // Comment\nthere",
                                 "flags": 96,

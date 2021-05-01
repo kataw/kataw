@@ -48,7 +48,6 @@ async () => {  a\u0072guments = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "a\\u0072guments",
                                     "text": "arguments",
                                     "rawText": "  a\\u0072guments",
                                     "flags": 96,
@@ -63,7 +62,6 @@ async () => {  a\u0072guments = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

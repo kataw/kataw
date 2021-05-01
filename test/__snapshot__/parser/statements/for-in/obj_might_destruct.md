@@ -51,7 +51,6 @@ for ({x,...x}=x in x) ;
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -68,7 +67,6 @@ for ({x,...x}=x in x) ;
                                 },
                                 "argument": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -99,7 +97,6 @@ for ({x,...x}=x in x) ;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
@@ -114,7 +111,6 @@ for ({x,...x}=x in x) ;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": " x",
                         "flags": 96,

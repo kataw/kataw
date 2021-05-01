@@ -35,9 +35,8 @@ class C { [0] }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -58,7 +57,6 @@ class C { [0] }
                             "expression": {
                                 "kind": 201392130,
                                 "text": 0,
-                                "original": "0",
                                 "rawText": "0",
                                 "flags": 96,
                                 "start": 11,

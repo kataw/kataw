@@ -33,7 +33,6 @@ function* g() { let x = yield 3; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": " g",
                 "flags": 96,
@@ -69,7 +68,6 @@ function* g() { let x = yield 3; }
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -91,8 +89,7 @@ function* g() { let x = yield 3; }
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 3,
-                                                "original": "3",
-                                                "rawText": " 3",
+                                                "rawText": "3",
                                                 "flags": 96,
                                                 "start": 29,
                                                 "end": 31

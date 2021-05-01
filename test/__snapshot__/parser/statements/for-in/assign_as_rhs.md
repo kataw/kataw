@@ -50,7 +50,6 @@ for (a in b=c);
             "kind": 166,
             "initializer": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
@@ -61,7 +60,6 @@ for (a in b=c);
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "b",
                     "text": "b",
                     "rawText": " b",
                     "flags": 96,
@@ -76,7 +74,6 @@ for (a in b=c);
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,

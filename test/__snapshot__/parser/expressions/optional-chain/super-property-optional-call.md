@@ -31,9 +31,8 @@ class Foo extends Base {
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -49,9 +48,8 @@ class Foo extends Base {
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "Base",
                     "text": "Base",
-                    "rawText": " Base",
+                    "rawText": "Base",
                     "flags": 96,
                     "start": 17,
                     "end": 22
@@ -77,7 +75,6 @@ class Foo extends Base {
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "method",
                                 "text": "method",
                                 "rawText": "\n    method",
                                 "flags": 96,
@@ -126,7 +123,6 @@ class Foo extends Base {
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "method",
                                                         "text": "method",
                                                         "rawText": "method",
                                                         "flags": 96,

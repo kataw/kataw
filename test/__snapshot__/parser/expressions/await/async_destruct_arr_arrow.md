@@ -33,7 +33,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,
@@ -58,7 +57,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                             "kind": 131,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "async",
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
@@ -77,7 +75,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -121,8 +118,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 5,
-                                                                            "original": "5",
-                                                                            "rawText": " 5",
+                                                                            "rawText": "5",
                                                                             "flags": 96,
                                                                             "start": 41,
                                                                             "end": 43
@@ -137,7 +133,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                             "kind": 131,
                                                                             "expression": {
                                                                                 "kind": 134299649,
-                                                                                "original": "t",
                                                                                 "text": "t",
                                                                                 "rawText": " t",
                                                                                 "flags": 96,
@@ -157,7 +152,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                                         },
                                                                                         "expression": {
                                                                                             "kind": 134299649,
-                                                                                            "original": "bar",
                                                                                             "text": "bar",
                                                                                             "rawText": " bar",
                                                                                             "flags": 96,
@@ -184,7 +178,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                     },
                                                                     "right": {
                                                                         "kind": 134299649,
-                                                                        "original": "m",
                                                                         "text": "m",
                                                                         "rawText": "m",
                                                                         "flags": 96,

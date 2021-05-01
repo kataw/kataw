@@ -25,7 +25,6 @@ yield * 1; return 37; yield * 'dead';
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
@@ -41,8 +40,7 @@ yield * 1; return 37; yield * 'dead';
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "original": "1",
-                    "rawText": " 1",
+                    "rawText": "1",
                     "flags": 96,
                     "start": 7,
                     "end": 9
@@ -66,8 +64,7 @@ yield * 1; return 37; yield * 'dead';
             "expression": {
                 "kind": 201392130,
                 "text": 37,
-                "original": "37",
-                "rawText": " 37",
+                "rawText": "37",
                 "flags": 96,
                 "start": 17,
                 "end": 20
@@ -82,7 +79,6 @@ yield * 1; return 37; yield * 'dead';
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "yield",
                     "text": "yield",
                     "rawText": " yield",
                     "flags": 96,
@@ -98,8 +94,7 @@ yield * 1; return 37; yield * 'dead';
                 "right": {
                     "kind": 201392131,
                     "text": "dead",
-                    "original": "'dead'",
-                    "rawText": " 'dead'",
+                    "rawText": "'dead'",
                     "flags": 4194400,
                     "start": 29,
                     "end": 36

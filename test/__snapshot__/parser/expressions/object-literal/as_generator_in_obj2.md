@@ -35,7 +35,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "type",
                                     "text": "type",
                                     "rawText": " type",
                                     "flags": 96,
@@ -101,7 +100,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "interface",
                                     "text": "interface",
                                     "rawText": " interface",
                                     "flags": 96,
@@ -167,7 +165,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "in",
                                     "text": "in",
                                     "rawText": " in",
                                     "flags": 96,
@@ -233,7 +230,6 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "of",
                                     "text": "of",
                                     "rawText": " of",
                                     "flags": 96,

@@ -39,7 +39,6 @@ result = { x: x[yield] } = vals;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "vals",
                             "text": "vals",
                             "rawText": " vals",
                             "flags": 96,
@@ -62,15 +61,13 @@ result = { x: x[yield] } = vals;
                                         "left": {
                                             "kind": 201392130,
                                             "text": 23,
-                                            "original": "23",
-                                            "rawText": " 23",
+                                            "rawText": "23",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 18
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -110,7 +107,6 @@ result = { x: x[yield] } = vals;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "\n\nresult",
                     "flags": 96,
@@ -140,7 +136,6 @@ result = { x: x[yield] } = vals;
                                         "kind": 130,
                                         "member": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -149,7 +144,6 @@ result = { x: x[yield] } = vals;
                                         },
                                         "expression": {
                                             "kind": 134299649,
-                                            "original": "yield",
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
@@ -162,7 +156,6 @@ result = { x: x[yield] } = vals;
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -191,7 +184,6 @@ result = { x: x[yield] } = vals;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "vals",
                         "text": "vals",
                         "rawText": " vals",
                         "flags": 96,

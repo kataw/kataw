@@ -33,7 +33,6 @@ async function f() { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -56,8 +55,7 @@ async function f() { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 20,
                             "end": 33

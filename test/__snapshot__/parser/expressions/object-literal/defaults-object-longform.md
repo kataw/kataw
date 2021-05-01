@@ -39,7 +39,6 @@ var { x: x = 10 } = x;
                                         "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -51,7 +50,6 @@ var { x: x = 10 } = x;
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,
@@ -61,8 +59,7 @@ var { x: x = 10 } = x;
                                             "initializer": {
                                                 "kind": 201392130,
                                                 "text": 10,
-                                                "original": "10",
-                                                "rawText": " 10",
+                                                "rawText": "10",
                                                 "flags": 96,
                                                 "start": 12,
                                                 "end": 15
@@ -89,7 +86,6 @@ var { x: x = 10 } = x;
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": " x",
                             "flags": 96,

@@ -44,7 +44,6 @@ function *foo() {
             },
             "name": {
                 "kind": 134299649,
-                "original": "foo",
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
@@ -80,7 +79,6 @@ function *foo() {
                                         "kind": 190,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -107,8 +105,7 @@ function *foo() {
                                                     "expression": {
                                                         "kind": 201392130,
                                                         "text": 5,
-                                                        "original": "5",
-                                                        "rawText": " 5",
+                                                        "rawText": "5",
                                                         "flags": 96,
                                                         "start": 36,
                                                         "end": 38
@@ -158,7 +155,6 @@ function *foo() {
                                 "kind": 197,
                                 "shortCircuit": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "\n  x",
                                     "flags": 96,
@@ -184,8 +180,7 @@ function *foo() {
                                     "expression": {
                                         "kind": 201392130,
                                         "text": 1,
-                                        "original": "1",
-                                        "rawText": " 1",
+                                        "rawText": "1",
                                         "flags": 96,
                                         "start": 57,
                                         "end": 59
@@ -202,7 +197,6 @@ function *foo() {
                                 },
                                 "alternate": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

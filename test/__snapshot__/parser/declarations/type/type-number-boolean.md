@@ -35,9 +35,8 @@ type A = { [string | boolean]: number };
             },
             "name": {
                 "kind": 134299649,
-                "original": "A",
                 "text": "A",
-                "rawText": " A",
+                "rawText": "A",
                 "flags": 96,
                 "start": 4,
                 "end": 6

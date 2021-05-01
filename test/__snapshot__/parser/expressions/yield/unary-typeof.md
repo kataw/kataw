@@ -33,7 +33,6 @@ function *f() {  return typeof yield foo;  }
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -82,7 +81,6 @@ function *f() {  return typeof yield foo;  }
                                     "asteriskToken": null,
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "foo",
                                         "text": "foo",
                                         "rawText": " foo",
                                         "flags": 96,

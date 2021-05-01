@@ -46,9 +46,8 @@ type T<U> = U;
             },
             "name": {
                 "kind": 134299649,
-                "original": "T",
                 "text": "T",
-                "rawText": " T",
+                "rawText": "T",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -61,7 +60,6 @@ type T<U> = U;
                         "kind": 144,
                         "id": {
                             "kind": 134299649,
-                            "original": "U",
                             "text": "U",
                             "rawText": "U",
                             "flags": 96,
@@ -82,9 +80,8 @@ type T<U> = U;
                 "kind": 144,
                 "id": {
                     "kind": 134299649,
-                    "original": "U",
                     "text": "U",
-                    "rawText": " U",
+                    "rawText": "U",
                     "flags": 96,
                     "start": 11,
                     "end": 13

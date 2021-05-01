@@ -35,7 +35,6 @@ for (await in x) ;
             "kind": 166,
             "initializer": {
                 "kind": 134299649,
-                "original": "await",
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
@@ -44,7 +43,6 @@ for (await in x) ;
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

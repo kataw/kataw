@@ -61,7 +61,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "method",
                                         "text": "method",
                                         "rawText": " method",
                                         "flags": 96,
@@ -82,7 +81,6 @@
                                                 },
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "await",
                                                     "text": "await",
                                                     "rawText": "await",
                                                     "flags": 96,

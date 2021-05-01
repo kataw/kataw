@@ -48,7 +48,6 @@ async () => {  p\u0072ivate = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "p\\u0072ivate",
                                     "text": "private",
                                     "rawText": "  p\\u0072ivate",
                                     "flags": 96,
@@ -63,7 +62,6 @@ async () => {  p\u0072ivate = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

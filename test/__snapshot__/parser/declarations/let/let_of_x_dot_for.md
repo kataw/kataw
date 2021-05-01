@@ -52,7 +52,6 @@ for (let.foo of x);
                 "kind": 129,
                 "member": {
                     "kind": 134299649,
-                    "original": "let",
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
@@ -61,7 +60,6 @@ for (let.foo of x);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -74,7 +72,6 @@ for (let.foo of x);
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

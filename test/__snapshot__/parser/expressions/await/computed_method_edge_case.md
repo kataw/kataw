@@ -33,7 +33,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -72,7 +71,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -109,7 +107,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -141,7 +138,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 },
                                                                                 "expression": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "foo",
                                                                                     "text": "foo",
                                                                                     "rawText": " foo",
                                                                                     "flags": 96,
@@ -189,8 +185,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                         "name": {
                                                                             "kind": 201392131,
                                                                             "text": "x",
-                                                                            "original": "\"x\"",
-                                                                            "rawText": " \"x\"",
+                                                                            "rawText": "\"x\"",
                                                                             "flags": 96,
                                                                             "start": 66,
                                                                             "end": 70
@@ -242,7 +237,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
-                                                    "original": "a",
                                                     "text": "a",
                                                     "rawText": " a",
                                                     "flags": 96,

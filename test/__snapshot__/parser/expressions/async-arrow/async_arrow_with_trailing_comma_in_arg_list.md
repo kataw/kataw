@@ -27,7 +27,6 @@ async(x,) => x
             "parameters": [
                 {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -44,7 +43,6 @@ async(x,) => x
             "returnType": null,
             "contents": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

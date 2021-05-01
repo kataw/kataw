@@ -40,7 +40,6 @@ export {foo as default};
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "foo",
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
@@ -58,7 +57,6 @@ export {foo as default};
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "as",
                                 "text": "as",
                                 "rawText": " as",
                                 "flags": 96,
@@ -76,7 +74,6 @@ export {foo as default};
                             "moduleExportName": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "default",
                                 "text": "default",
                                 "rawText": " default",
                                 "flags": 96,

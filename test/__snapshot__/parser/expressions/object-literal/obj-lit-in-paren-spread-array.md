@@ -35,7 +35,6 @@
                                                 "kind": 209,
                                                 "name": {
                                                     "kind": 134299649,
-                                                    "original": "constructor",
                                                     "text": "constructor",
                                                     "rawText": "constructor",
                                                     "flags": 96,
@@ -98,7 +97,6 @@
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,

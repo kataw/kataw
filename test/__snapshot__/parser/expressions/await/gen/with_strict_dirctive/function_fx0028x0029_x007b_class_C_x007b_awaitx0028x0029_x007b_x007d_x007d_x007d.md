@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -47,7 +46,6 @@
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -80,9 +78,8 @@
                             },
                             "name": {
                                 "kind": 134299649,
-                                "original": "C",
                                 "text": "C",
-                                "rawText": " C",
+                                "rawText": "C",
                                 "flags": 96,
                                 "start": 34,
                                 "end": 36
@@ -105,7 +102,6 @@
                                             "kind": 209,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "await",
                                                 "text": "await",
                                                 "rawText": " await",
                                                 "flags": 96,

@@ -37,7 +37,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -98,7 +96,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "x",
                                                     "text": "x",
                                                     "rawText": " x",
                                                     "flags": 96,
@@ -136,7 +133,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 "kind": 197,
                                                                 "shortCircuit": {
                                                                     "kind": 134299649,
-                                                                    "original": "a",
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 96,
@@ -164,7 +160,6 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "alternate": {
                                                                     "kind": 134299649,
-                                                                    "original": "yield",
                                                                     "text": "yield",
                                                                     "rawText": " yield",
                                                                     "flags": 96,

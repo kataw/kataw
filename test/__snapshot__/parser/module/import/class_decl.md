@@ -33,7 +33,6 @@ class x { import {x} from "y"; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -53,7 +52,6 @@ class x { import {x} from "y"; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "import",
                             "text": "import",
                             "rawText": " import",
                             "flags": 96,
@@ -85,7 +83,6 @@ class x { import {x} from "y"; }
                         "kind": 120,
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -109,7 +106,6 @@ class x { import {x} from "y"; }
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "from",
                 "text": "from",
                 "rawText": " from",
                 "flags": 96,
@@ -125,8 +121,7 @@ class x { import {x} from "y"; }
             "expression": {
                 "kind": 201392131,
                 "text": "y",
-                "original": "\"y\"",
-                "rawText": " \"y\"",
+                "rawText": "\"y\"",
                 "flags": 96,
                 "start": 25,
                 "end": 29

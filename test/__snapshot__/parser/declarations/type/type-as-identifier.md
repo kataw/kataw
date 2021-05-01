@@ -23,7 +23,6 @@ type = x;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "type",
                 "text": "type",
                 "rawText": "type",
                 "flags": 96,
@@ -40,7 +39,6 @@ type = x;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "type",
                     "text": "type",
                     "rawText": "\n\ntype",
                     "flags": 96,
@@ -55,7 +53,6 @@ type = x;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -76,7 +73,6 @@ type = x;
                 "kind": 121,
                 "expression": {
                     "kind": 134299649,
-                    "original": "type",
                     "text": "type",
                     "rawText": "type",
                     "flags": 96,

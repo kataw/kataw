@@ -50,7 +50,6 @@ var {[2]: y} = {2:3}
                                             "expression": {
                                                 "kind": 201392130,
                                                 "text": 2,
-                                                "original": "2",
                                                 "rawText": "2",
                                                 "flags": 96,
                                                 "start": 6,
@@ -65,7 +64,6 @@ var {[2]: y} = {2:3}
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "y",
                                                 "rawText": " y",
                                                 "flags": 96,
@@ -107,7 +105,6 @@ var {[2]: y} = {2:3}
                                         "left": {
                                             "kind": 201392130,
                                             "text": 3,
-                                            "original": "3",
                                             "rawText": "3",
                                             "flags": 96,
                                             "start": 18,
@@ -116,7 +113,6 @@ var {[2]: y} = {2:3}
                                         "right": {
                                             "kind": 201392130,
                                             "text": 2,
-                                            "original": "2",
                                             "rawText": "2",
                                             "flags": 96,
                                             "start": 16,

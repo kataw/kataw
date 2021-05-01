@@ -19,7 +19,6 @@ type number = string;
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "type",
                 "text": "type",
                 "rawText": "type",
                 "flags": 96,
@@ -36,7 +35,6 @@ type number = string;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "number",
                     "text": "number",
                     "rawText": " number",
                     "flags": 96,
@@ -51,7 +49,6 @@ type number = string;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "string",
                     "text": "string",
                     "rawText": " string",
                     "flags": 96,

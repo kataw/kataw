@@ -53,7 +53,6 @@ try {
                 },
                 "catchParameter": {
                     "kind": 134299649,
-                    "original": "e",
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
@@ -78,7 +77,6 @@ try {
                                 "generatorToken": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "f",
                                     "text": "f",
                                     "rawText": " f",
                                     "flags": 96,

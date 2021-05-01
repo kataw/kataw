@@ -46,9 +46,8 @@ class C { #aaa; f(f) { f()?.#aaa } }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -97,7 +96,6 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "f",
                                 "text": "f",
                                 "rawText": " f",
                                 "flags": 96,
@@ -113,7 +111,6 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "f",
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
@@ -154,7 +151,6 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "f",
                                                         "text": "f",
                                                         "rawText": " f",
                                                         "flags": 96,

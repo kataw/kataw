@@ -51,9 +51,8 @@ opaque type ID = number;
             },
             "name": {
                 "kind": 134299649,
-                "original": "ID",
                 "text": "ID",
-                "rawText": " ID",
+                "rawText": "ID",
                 "flags": 96,
                 "start": 11,
                 "end": 14

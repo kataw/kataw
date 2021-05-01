@@ -31,7 +31,6 @@ class x {static set throw(x){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static set throw(x){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "throw",
                                 "text": "throw",
                                 "rawText": " throw",
                                 "flags": 96,
@@ -82,7 +80,6 @@ class x {static set throw(x){}}
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,

@@ -242,7 +242,6 @@ new import(x);
                 "expression": {
                     "kind": 201392131,
                     "text": "x;",
-                    "original": "'x;",
                     "rawText": "'x;",
                     "flags": 6291552,
                     "start": 60,
@@ -269,7 +268,6 @@ new import(x);
                 "expression": {
                     "kind": 201392131,
                     "text": "x",
-                    "original": "'x'",
                     "rawText": "'x'",
                     "flags": 4194400,
                     "start": 72,
@@ -314,7 +312,6 @@ new import(x);
                         {
                             "kind": 201392131,
                             "text": "x",
-                            "original": "'x'",
                             "rawText": "'x'",
                             "flags": 4194400,
                             "start": 86,
@@ -359,7 +356,6 @@ new import(x);
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -385,7 +381,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -437,7 +432,6 @@ new import(x);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -473,7 +467,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -521,7 +514,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -569,7 +561,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -582,7 +573,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -633,7 +623,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -646,7 +635,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -655,7 +643,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "z",
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
@@ -692,7 +679,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -705,7 +691,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -736,7 +721,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -749,7 +733,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -787,7 +770,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -802,7 +784,6 @@ new import(x);
                         "kind": 131,
                         "expression": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
@@ -945,7 +926,6 @@ new import(x);
                     "elements": [
                         {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -989,7 +969,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1060,7 +1039,6 @@ new import(x);
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
@@ -1073,7 +1051,6 @@ new import(x);
                             },
                             {
                                 "kind": 134299649,
-                                "original": "y",
                                 "text": "y",
                                 "rawText": " y",
                                 "flags": 96,
@@ -1109,7 +1086,6 @@ new import(x);
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 64,
@@ -1172,7 +1148,6 @@ new import(x);
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "y",
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
@@ -1204,7 +1179,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1309,7 +1283,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -1401,7 +1374,6 @@ new import(x);
                                 "properties": [
                                     {
                                         "kind": 134299649,
-                                        "original": "import",
                                         "text": "import",
                                         "rawText": "import",
                                         "flags": 96,
@@ -1492,8 +1464,7 @@ new import(x);
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "original": "1",
-                "rawText": " 1",
+                "rawText": "1",
                 "flags": 96,
                 "start": 431,
                 "end": 433
@@ -1535,7 +1506,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1587,7 +1557,6 @@ new import(x);
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -1623,7 +1592,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1671,7 +1639,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1719,7 +1686,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1732,7 +1698,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -1783,7 +1748,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1796,7 +1760,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -1805,7 +1768,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "z",
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
@@ -1842,7 +1804,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1855,7 +1816,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -1886,7 +1846,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1899,7 +1858,6 @@ new import(x);
                     },
                     {
                         "kind": 134299649,
-                        "original": "y",
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
@@ -1937,7 +1895,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -1952,7 +1909,6 @@ new import(x);
                         "kind": 131,
                         "expression": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
@@ -2002,7 +1958,6 @@ new import(x);
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,

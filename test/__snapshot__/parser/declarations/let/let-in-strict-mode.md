@@ -22,7 +22,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -36,7 +35,6 @@
             "kind": 163,
             "label": {
                 "kind": 134299649,
-                "original": "let",
                 "text": "let",
                 "rawText": " let",
                 "flags": 96,
@@ -64,7 +62,6 @@
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 18,
@@ -83,8 +80,7 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
-                "rawText": "\n\n'use strict'",
+                "rawText": "'use strict'",
                 "flags": 4194401,
                 "start": 20,
                 "end": 34
@@ -105,7 +101,6 @@
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "implements",
                     "text": "implements",
                     "rawText": "implements",
                     "flags": 96,

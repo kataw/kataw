@@ -47,7 +47,6 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,

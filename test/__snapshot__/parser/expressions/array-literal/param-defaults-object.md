@@ -47,7 +47,6 @@ function a({x = 10}) {}
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,
@@ -70,7 +69,6 @@ function a({x = 10}) {}
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -80,8 +78,7 @@ function a({x = 10}) {}
                                         "right": {
                                             "kind": 201392130,
                                             "text": 10,
-                                            "original": "10",
-                                            "rawText": " 10",
+                                            "rawText": "10",
                                             "flags": 96,
                                             "start": 15,
                                             "end": 18

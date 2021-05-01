@@ -21,7 +21,6 @@ result = [x[yield]] = vals;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -45,7 +44,6 @@ result = [x[yield]] = vals;
                                     "kind": 130,
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -54,7 +52,6 @@ result = [x[yield]] = vals;
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "yield",
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
@@ -83,7 +80,6 @@ result = [x[yield]] = vals;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "vals",
                         "text": "vals",
                         "rawText": " vals",
                         "flags": 96,

@@ -31,7 +31,6 @@ var y = { \u0066inally: x } = { finally: 42 };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": " y",
                             "flags": 96,
@@ -55,7 +54,6 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "original": "x",
                                                 "text": "x",
                                                 "rawText": " x",
                                                 "flags": 96,
@@ -64,7 +62,6 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "y",
                                                 "text": "finally",
                                                 "rawText": " y",
                                                 "flags": 96,
@@ -105,15 +102,13 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 42,
-                                                "original": "42",
-                                                "rawText": " 42",
+                                                "rawText": "42",
                                                 "flags": 96,
                                                 "start": 40,
                                                 "end": 43
                                             },
                                             "right": {
                                                 "kind": 134299649,
-                                                "original": "finally",
                                                 "text": "finally",
                                                 "rawText": " finally",
                                                 "flags": 96,

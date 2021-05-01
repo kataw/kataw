@@ -35,7 +35,6 @@ async function f(){
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -109,7 +108,6 @@ async function f(){
                                                         "kind": 198,
                                                         "left": {
                                                             "kind": 134299649,
-                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
@@ -124,7 +122,6 @@ async function f(){
                                                         },
                                                         "right": {
                                                             "kind": 134299649,
-                                                            "original": "b",
                                                             "text": "b",
                                                             "rawText": " b",
                                                             "flags": 96,
@@ -164,7 +161,6 @@ async function f(){
                                 },
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "prop",
                                     "text": "prop",
                                     "rawText": "prop",
                                     "flags": 96,
@@ -177,7 +173,6 @@ async function f(){
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,

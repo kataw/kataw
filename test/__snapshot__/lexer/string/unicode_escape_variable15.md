@@ -32,7 +32,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "",
-                "original": "\"\\u{a",
                 "rawText": "\"\\u{a",
                 "flags": 2105440,
                 "start": 0,

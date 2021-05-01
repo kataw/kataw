@@ -24,7 +24,6 @@
                     "ellipsisToken": null,
                     "binding": {
                         "kind": 134299649,
-                        "original": "true",
                         "text": "true",
                         "rawText": "true",
                         "flags": 96,

@@ -31,9 +31,8 @@ class C extends Base { set #await(test) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,9 +48,8 @@ class C extends Base { set #await(test) {} }
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "Base",
                     "text": "Base",
-                    "rawText": " Base",
+                    "rawText": "Base",
                     "flags": 96,
                     "start": 15,
                     "end": 20
@@ -96,7 +94,6 @@ class C extends Base { set #await(test) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "test",
                                             "text": "test",
                                             "rawText": "test",
                                             "flags": 96,

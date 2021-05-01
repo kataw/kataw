@@ -56,7 +56,6 @@ export *, {bar} from 'bar';
                         "properties": [
                             {
                                 "kind": 134299649,
-                                "original": "bar",
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
@@ -85,7 +84,6 @@ export *, {bar} from 'bar';
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "from",
                 "text": "from",
                 "rawText": " from",
                 "flags": 96,
@@ -101,8 +99,7 @@ export *, {bar} from 'bar';
             "expression": {
                 "kind": 201392131,
                 "text": "bar",
-                "original": "'bar'",
-                "rawText": " 'bar'",
+                "rawText": "'bar'",
                 "flags": 4194400,
                 "start": 20,
                 "end": 26

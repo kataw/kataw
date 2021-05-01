@@ -30,7 +30,6 @@ let f = a + b + async()=>d
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "original": "f",
                             "text": "f",
                             "rawText": " f",
                             "flags": 96,
@@ -45,7 +44,6 @@ let f = a + b + async()=>d
                                 "kind": 198,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": " a",
                                     "flags": 96,
@@ -60,7 +58,6 @@ let f = a + b + async()=>d
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "b",
                                     "text": "b",
                                     "rawText": " b",
                                     "flags": 96,
@@ -96,7 +93,6 @@ let f = a + b + async()=>d
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "d",
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,

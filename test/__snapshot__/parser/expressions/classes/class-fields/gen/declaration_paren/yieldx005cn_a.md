@@ -44,9 +44,8 @@
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "Base",
                             "text": "Base",
-                            "rawText": " Base",
+                            "rawText": "Base",
                             "flags": 96,
                             "start": 14,
                             "end": 19
@@ -67,7 +66,6 @@
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,
@@ -102,7 +100,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -117,7 +114,6 @@
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "a",
                 "text": "a",
                 "rawText": " a",
                 "flags": 96,

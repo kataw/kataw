@@ -35,9 +35,8 @@ class C { \\u0041 }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -59,9 +58,8 @@ class C { \\u0041 }
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "A",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 11,
                 "end": 17

@@ -41,7 +41,6 @@ var a: { [a: number]: string; [b: number]: string; };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "numVal",
                             "text": "numVal",
                             "rawText": " numVal",
                             "flags": 96,
@@ -63,7 +62,6 @@ var a: { [a: number]: string; [b: number]: string; };
                         },
                         "initializer": {
                             "kind": 134299649,
-                            "original": "otherNumVal",
                             "text": "otherNumVal",
                             "rawText": " otherNumVal",
                             "flags": 96,
@@ -99,7 +97,6 @@ var a: { [a: number]: string; [b: number]: string; };
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -117,7 +114,6 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "kind": 195,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "a",
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
@@ -145,7 +141,6 @@ var a: { [a: number]: string; [b: number]: string; };
                                         "kind": 195,
                                         "name": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,

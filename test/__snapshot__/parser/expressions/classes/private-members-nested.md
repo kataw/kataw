@@ -97,9 +97,8 @@
                                                     },
                                                     "name": {
                                                         "kind": 134299649,
-                                                        "original": "C",
                                                         "text": "C",
-                                                        "rawText": " C",
+                                                        "rawText": "C",
                                                         "flags": 96,
                                                         "start": 24,
                                                         "end": 26
@@ -272,9 +271,8 @@
                                                     },
                                                     "name": {
                                                         "kind": 134299649,
-                                                        "original": "C",
                                                         "text": "C",
-                                                        "rawText": " C",
+                                                        "rawText": "C",
                                                         "flags": 96,
                                                         "start": 69,
                                                         "end": 71
@@ -433,7 +431,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "val",
                                                     "text": "val",
                                                     "rawText": "val",
                                                     "flags": 96,
@@ -527,9 +524,8 @@
                                                     },
                                                     "name": {
                                                         "kind": 134299649,
-                                                        "original": "C",
                                                         "text": "C",
-                                                        "rawText": " C",
+                                                        "rawText": "C",
                                                         "flags": 96,
                                                         "start": 134,
                                                         "end": 136
@@ -626,7 +622,6 @@
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "val",
                                                                                     "text": "val",
                                                                                     "rawText": "val",
                                                                                     "flags": 96,
@@ -777,9 +772,8 @@
                                                     },
                                                     "name": {
                                                         "kind": 134299649,
-                                                        "original": "C",
                                                         "text": "C",
-                                                        "rawText": " C",
+                                                        "rawText": "C",
                                                         "flags": 96,
                                                         "start": 195,
                                                         "end": 197
@@ -821,7 +815,6 @@
                                                                                 "ellipsisToken": null,
                                                                                 "binding": {
                                                                                     "kind": 134299649,
-                                                                                    "original": "val",
                                                                                     "text": "val",
                                                                                     "rawText": "val",
                                                                                     "flags": 96,

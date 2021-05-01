@@ -52,7 +52,6 @@ function *f(){ for (yield of obj); }
             },
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
@@ -104,7 +103,6 @@ function *f(){ for (yield of obj); }
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "obj",
                                 "text": "obj",
                                 "rawText": " obj",
                                 "flags": 96,

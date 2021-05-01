@@ -40,8 +40,7 @@
                                 "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
-                                    "original": "\"__proto__\"",
-                                    "rawText": " \"__proto__\"",
+                                    "rawText": "\"__proto__\"",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 14
@@ -54,9 +53,8 @@
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "__proto__",
                                     "text": "__proto__",
-                                    "rawText": " __proto__",
+                                    "rawText": "__proto__",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 31

@@ -29,7 +29,6 @@ with (x) y; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "f",
                 "text": "f",
                 "rawText": " f",
                 "flags": 96,
@@ -52,8 +51,7 @@ with (x) y; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 13,
                             "end": 26
@@ -70,7 +68,6 @@ with (x) y; }
                             },
                             "expression": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
@@ -81,7 +78,6 @@ with (x) y; }
                                 "kind": 120,
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "y",
                                     "text": "y",
                                     "rawText": " y",
                                     "flags": 96,

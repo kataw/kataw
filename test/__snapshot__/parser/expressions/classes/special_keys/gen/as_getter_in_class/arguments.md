@@ -31,7 +31,6 @@ class x {get arguments(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {get arguments(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "arguments",
                                 "text": "arguments",
                                 "rawText": " arguments",
                                 "flags": 96,

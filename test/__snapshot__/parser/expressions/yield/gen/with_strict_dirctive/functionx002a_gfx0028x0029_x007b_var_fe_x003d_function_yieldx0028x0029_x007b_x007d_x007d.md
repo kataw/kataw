@@ -24,7 +24,6 @@
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "'use strict'",
                 "rawText": "'use strict'",
                 "flags": 4194400,
                 "start": 0,
@@ -52,7 +51,6 @@
             },
             "name": {
                 "kind": 134299649,
-                "original": "gf",
                 "text": "gf",
                 "rawText": " gf",
                 "flags": 96,
@@ -89,7 +87,6 @@
                                         "kind": 157,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "fe",
                                             "text": "fe",
                                             "rawText": " fe",
                                             "flags": 96,
@@ -110,7 +107,6 @@
                                             "generatorToken": null,
                                             "name": {
                                                 "kind": 134299649,
-                                                "original": "yield",
                                                 "text": "yield",
                                                 "rawText": " yield",
                                                 "flags": 96,

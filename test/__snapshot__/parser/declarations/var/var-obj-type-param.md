@@ -39,7 +39,6 @@ var a: { id<T>(x: T): T; }
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -56,7 +55,6 @@ var a: { id<T>(x: T): T; }
                                         "kind": 193,
                                         "key": {
                                             "kind": 134299649,
-                                            "original": "id",
                                             "text": "id",
                                             "rawText": " id",
                                             "flags": 96,
@@ -73,7 +71,6 @@ var a: { id<T>(x: T): T; }
                                                         "ellipsisToken": null,
                                                         "name": {
                                                             "kind": 134299649,
-                                                            "original": "x",
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
@@ -85,9 +82,8 @@ var a: { id<T>(x: T): T; }
                                                             "kind": 144,
                                                             "id": {
                                                                 "kind": 134299649,
-                                                                "original": "T",
                                                                 "text": "T",
-                                                                "rawText": " T",
+                                                                "rawText": "T",
                                                                 "flags": 96,
                                                                 "start": 17,
                                                                 "end": 19
@@ -111,9 +107,8 @@ var a: { id<T>(x: T): T; }
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
-                                                    "original": "T",
                                                     "text": "T",
-                                                    "rawText": " T",
+                                                    "rawText": "T",
                                                     "flags": 96,
                                                     "start": 21,
                                                     "end": 23
@@ -130,7 +125,6 @@ var a: { id<T>(x: T): T; }
                                                         "kind": 144,
                                                         "id": {
                                                             "kind": 134299649,
-                                                            "original": "T",
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 96,

@@ -50,7 +50,6 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0e-100",
                 "rawText": "0e-100",
                 "flags": 96,
                 "start": 0,
@@ -65,8 +64,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-100,
-                "original": "1e-100",
-                "rawText": "\n1e-100",
+                "rawText": "1e-100",
                 "flags": 97,
                 "start": 8,
                 "end": 15
@@ -80,8 +78,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0E-100",
-                "rawText": "\n0E-100",
+                "rawText": "0E-100",
                 "flags": 97,
                 "start": 17,
                 "end": 24
@@ -95,8 +92,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-100,
-                "original": "1E-100",
-                "rawText": "\n1E-100",
+                "rawText": "1E-100",
                 "flags": 97,
                 "start": 26,
                 "end": 33
@@ -110,8 +106,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0.e-100",
-                "rawText": "\n0.e-100",
+                "rawText": "0.e-100",
                 "flags": 97,
                 "start": 35,
                 "end": 43
@@ -125,8 +120,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-100,
-                "original": "1.e-100",
-                "rawText": "\n1.e-100",
+                "rawText": "1.e-100",
                 "flags": 97,
                 "start": 45,
                 "end": 53
@@ -140,8 +134,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0.E-100",
-                "rawText": "\n0.E-100",
+                "rawText": "0.E-100",
                 "flags": 97,
                 "start": 55,
                 "end": 63
@@ -155,8 +148,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-100,
-                "original": "1.E-100",
-                "rawText": "\n1.E-100",
+                "rawText": "1.E-100",
                 "flags": 97,
                 "start": 65,
                 "end": 73
@@ -170,8 +162,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-101,
-                "original": "0.1e-100",
-                "rawText": "\n0.1e-100",
+                "rawText": "0.1e-100",
                 "flags": 97,
                 "start": 75,
                 "end": 84
@@ -185,8 +176,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1.1e-100,
-                "original": "1.1e-100",
-                "rawText": "\n1.1e-100",
+                "rawText": "1.1e-100",
                 "flags": 97,
                 "start": 86,
                 "end": 95
@@ -200,8 +190,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-101,
-                "original": "0.1E-100",
-                "rawText": "\n0.1E-100",
+                "rawText": "0.1E-100",
                 "flags": 97,
                 "start": 97,
                 "end": 106
@@ -215,8 +204,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1.1e-100,
-                "original": "1.1E-100",
-                "rawText": "\n1.1E-100",
+                "rawText": "1.1E-100",
                 "flags": 97,
                 "start": 108,
                 "end": 117
@@ -230,8 +218,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": ".0e-100",
-                "rawText": "\n.0e-100",
+                "rawText": ".0e-100",
                 "flags": 32865,
                 "start": 119,
                 "end": 127
@@ -245,8 +232,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-101,
-                "original": ".1e-100",
-                "rawText": "\n.1e-100",
+                "rawText": ".1e-100",
                 "flags": 32865,
                 "start": 129,
                 "end": 137
@@ -260,8 +246,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": ".0E-100",
-                "rawText": "\n.0E-100",
+                "rawText": ".0E-100",
                 "flags": 32865,
                 "start": 139,
                 "end": 147
@@ -275,8 +260,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1e-101,
-                "original": ".1E-100",
-                "rawText": "\n.1E-100",
+                "rawText": ".1E-100",
                 "flags": 32865,
                 "start": 149,
                 "end": 157

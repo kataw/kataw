@@ -31,7 +31,6 @@ class x {* break(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {* break(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "break",
                                 "text": "break",
                                 "rawText": " break",
                                 "flags": 96,

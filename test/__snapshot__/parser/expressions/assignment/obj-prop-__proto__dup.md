@@ -23,7 +23,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
@@ -51,7 +50,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -60,9 +58,8 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "__proto__",
                                         "text": "__proto__",
-                                        "rawText": " __proto__",
+                                        "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 20
@@ -79,7 +76,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "y",
                                         "text": "y",
                                         "rawText": " y",
                                         "flags": 96,
@@ -88,9 +84,8 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     },
                                     "right": {
                                         "kind": 134299649,
-                                        "original": "__proto__",
                                         "text": "__proto__",
-                                        "rawText": " __proto__",
+                                        "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 34
@@ -117,7 +112,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "value",
                         "text": "value",
                         "rawText": " value",
                         "flags": 96,
@@ -142,7 +136,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "result",
                     "text": "result",
                     "rawText": "\n\nresult",
                     "flags": 96,
@@ -172,7 +165,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -181,9 +173,8 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "__proto__",
                                             "text": "__proto__",
-                                            "rawText": " __proto__",
+                                            "rawText": "__proto__",
                                             "flags": 96,
                                             "start": 61,
                                             "end": 71
@@ -200,7 +191,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "y",
                                             "text": "y",
                                             "rawText": " y",
                                             "flags": 96,
@@ -209,9 +199,8 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         },
                                         "right": {
                                             "kind": 134299649,
-                                            "original": "__proto__",
                                             "text": "__proto__",
-                                            "rawText": " __proto__",
+                                            "rawText": "__proto__",
                                             "flags": 96,
                                             "start": 75,
                                             "end": 85
@@ -238,7 +227,6 @@ result = ({ __proto__: x, __proto__: y } = value);
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "value",
                             "text": "value",
                             "rawText": " value",
                             "flags": 96,

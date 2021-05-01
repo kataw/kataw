@@ -65,7 +65,6 @@ for ({a: b.c}.foo of d) e
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": " b",
                                         "flags": 96,
@@ -74,7 +73,6 @@ for ({a: b.c}.foo of d) e
                                     },
                                     "expression": {
                                         "kind": 134299649,
-                                        "original": "c",
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
@@ -87,7 +85,6 @@ for ({a: b.c}.foo of d) e
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "a",
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
@@ -110,7 +107,6 @@ for ({a: b.c}.foo of d) e
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
@@ -123,7 +119,6 @@ for ({a: b.c}.foo of d) e
             },
             "expression": {
                 "kind": 134299649,
-                "original": "d",
                 "text": "d",
                 "rawText": " d",
                 "flags": 96,
@@ -134,7 +129,6 @@ for ({a: b.c}.foo of d) e
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "e",
                     "text": "e",
                     "rawText": " e",
                     "flags": 96,

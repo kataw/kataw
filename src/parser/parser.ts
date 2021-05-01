@@ -211,7 +211,6 @@ export function create(source: string, onError: OnError): ParserState {
     onError,
     labels: [],
     tokenValue: undefined,
-    originalValue: '',
     tokenRaw: ''
   };
 }
@@ -245,7 +244,7 @@ export function parse(
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
-    if (isValidDirective(parser) && expr.text === expr.original && expr.text === 'use strict') {
+    if (isValidDirective(parser) && expr.text === expr.rawText && expr.text === 'use strict') {
       context |= Context.Strict;
       parseSemicolon(parser, context);
       directives.push(expr);
@@ -1089,7 +1088,7 @@ function parseBindingIdentifier(
   diagnosticMessage?: DiagnosticCode,
   allowKeywords?: boolean
 ): Identifier | DummyIdentifier {
-  const { token, curPos, tokenValue, tokenRaw, originalValue } = parser;
+  const { token, curPos, tokenValue, tokenRaw } = parser;
   parser.assignable = true;
 
   if (
@@ -1139,7 +1138,7 @@ function parseBindingIdentifier(
       );
     }
     nextToken(parser, context);
-    return createIdentifier(tokenValue, originalValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
 
   parser.onError(
@@ -1157,7 +1156,7 @@ function parseIdentifier(
   diagnosticMessage?: DiagnosticCode,
   allowKeywords?: boolean
 ): Identifier | DummyIdentifier {
-  const { token, curPos, originalValue, tokenValue, tokenRaw } = parser;
+  const { token, curPos, tokenValue, tokenRaw } = parser;
   parser.assignable = true;
 
   if (
@@ -1202,7 +1201,7 @@ function parseIdentifier(
       );
     }
     nextToken(parser, context);
-    return createIdentifier(tokenValue, originalValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
 
   parser.onError(
@@ -1797,7 +1796,7 @@ function parseIdentifierReference(
   context: Context,
   diagnosticMessage?: DiagnosticCode
 ): Identifier {
-  const { token, curPos, originalValue, tokenValue, tokenRaw } = parser;
+  const { token, curPos, tokenValue, tokenRaw } = parser;
   parser.assignable = true;
 
   if (token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
@@ -1829,7 +1828,7 @@ function parseIdentifierReference(
       );
     }
     nextToken(parser, context);
-    return createIdentifier(tokenValue, originalValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
 
   parser.onError(
@@ -2492,13 +2491,11 @@ function parseRegularExpression(parser: ParserState, context: Context): RegularE
 }
 
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
-  const { curPos, tokenValue, originalValue, tokenRaw, nodeFlags } = parser;
-
+  const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
   parser.assignable = false;
   return createNumericLiteral(
     tokenValue,
-    originalValue,
     tokenRaw,
     nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     curPos,
@@ -2507,19 +2504,18 @@ function parseNumericLiteral(parser: ParserState, context: Context): NumericLite
 }
 
 function parseBigIntLiteral(parser: ParserState, context: Context): BigIntLiteral {
-  const { curPos, tokenValue, originalValue, tokenRaw } = parser;
+  const { curPos, tokenValue, tokenRaw } = parser;
   nextToken(parser, context);
   parser.assignable = false;
-  return createBigIntLiteral(tokenValue, originalValue, tokenRaw, curPos, parser.curPos);
+  return createBigIntLiteral(tokenValue, tokenRaw, curPos, parser.curPos);
 }
 
 function parseStringLiteral(parser: ParserState, context: Context): StringLiteral {
-  const { curPos, tokenValue, originalValue, tokenRaw, nodeFlags } = parser;
+  const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
   parser.assignable = false;
   return createStringLiteral(
     tokenValue,
-    originalValue,
     tokenRaw,
     nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     curPos,
@@ -3667,7 +3663,6 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
     const tokenValue = parser.tokenValue;
-    const originalValue = parser.originalValue;
     const tokenRaw = parser.tokenRaw;
     const token = parser.token;
 
@@ -3675,7 +3670,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
     if (consumeOpt(parser, context, SyntaxKind.Colon)) {
       return createBindingProperty(
         ellipsisToken,
-        createIdentifier(tokenValue, originalValue, tokenRaw, pos, parser.curPos),
+        createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
         parseBindingElement(parser, context),
         pos,
         parser.curPos
@@ -3701,7 +3696,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 
     return createSingleNameBinding(
       ellipsisToken,
-      createIdentifier(tokenValue, originalValue, tokenRaw, pos, parser.curPos),
+      createIdentifier(tokenValue, tokenRaw, pos, parser.curPos),
       parseInitializer(parser, context),
       pos,
       parser.curPos
@@ -3765,7 +3760,7 @@ function parseFunctionExpression(
         }
       }
 
-      let expression: any = createIdentifier('async', 'async', 'async', pos, parser.curPos);
+      let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
 
       if (parser.token === SyntaxKind.LeftParen) {
         expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, false, pos);
@@ -3921,7 +3916,7 @@ function parseFunctionDeclaration(
           return parseExpressionStatement(parser, context, expression, pos);
         }
       }
-      let expression: any = createIdentifier('async', 'async', 'async', pos, parser.curPos);
+      let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
       if (parser.token === SyntaxKind.Colon) {
         return parseLabelledStatement(
           parser,
@@ -4118,7 +4113,7 @@ function parseFunctionStatementList(
     const expr: any = parseStringLiteral(parser, context);
 
     if (isValidDirective(parser)) {
-      if (expr.text === expr.original && expr.text === 'use strict') {
+      if (expr.text === expr.rawText && expr.text === 'use strict') {
         if (!isSimpleParameterList) {
           parser.onError(
             DiagnosticSource.Parser,
@@ -5096,7 +5091,7 @@ function parseDeclareAsIdentifierOrDeclareStatement(
       context,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('declare', 'declare', 'declare', pos, parser.curPos),
+      /* params */ createIdentifier('declare', 'declare', pos, parser.curPos),
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.None,
       pos
@@ -5164,7 +5159,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       context,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('type', 'type', 'type', pos, parser.curPos),
+      /* params */ createIdentifier('type', 'type', pos, parser.curPos),
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.None,
       pos
@@ -5224,7 +5219,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       context,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('let', 'let', 'let', pos, parser.curPos),
+      /* params */ createIdentifier('let', 'let', pos, parser.curPos),
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.None,
       pos
@@ -5354,7 +5349,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
         properties.push(
           createObjectTypeProperty(
-            /* key  */ createIdentifier('static', 'static', 'static', pos, parser.curPos),
+            /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
             /* value */ parseFunctionType(parser, context),
             /* optionalToken */ null,
             /* staticKeyword */ null,
@@ -5365,7 +5360,7 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
       } else if (consumeOpt(parser, context, SyntaxKind.Colon)) {
         properties.push(
           createObjectTypeProperty(
-            /* key  */ createIdentifier('static', 'static', 'static', pos, parser.curPos),
+            /* key  */ createIdentifier('static', 'static', pos, parser.curPos),
             /* value */ parseType(parser, context),
             /* optionalToken */ null,
             /* staticKeyword */ null,

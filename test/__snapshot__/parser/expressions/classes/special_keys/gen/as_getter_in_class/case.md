@@ -31,7 +31,6 @@ class x {get case(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {get case(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "case",
                                 "text": "case",
                                 "rawText": " case",
                                 "flags": 96,

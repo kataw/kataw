@@ -21,7 +21,6 @@ wrap({*123(){}});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -41,7 +40,6 @@ wrap({*123(){}});
                                         "name": {
                                             "kind": 201392130,
                                             "text": 123,
-                                            "original": "123",
                                             "rawText": "123",
                                             "flags": 96,
                                             "start": 7,

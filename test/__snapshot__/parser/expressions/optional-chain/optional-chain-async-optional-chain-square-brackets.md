@@ -35,7 +35,6 @@ async function x() {
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -93,7 +92,6 @@ async function x() {
                                                                 {
                                                                     "kind": 201392130,
                                                                     "text": 11,
-                                                                    "original": "11",
                                                                     "rawText": "11",
                                                                     "flags": 96,
                                                                     "start": 34,
@@ -111,7 +109,6 @@ async function x() {
                                                     },
                                                     "right": {
                                                         "kind": 134299649,
-                                                        "original": "y",
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
@@ -141,7 +138,6 @@ async function x() {
                                                 "chain": null,
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "z",
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 96,
@@ -159,7 +155,6 @@ async function x() {
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "original": "0",
                                             "rawText": "0",
                                             "flags": 96,
                                             "start": 42,

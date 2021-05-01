@@ -33,7 +33,6 @@ function *g(){ (x = {[yield]: 1}) => z }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
@@ -70,7 +69,6 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -97,8 +95,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "original": "1",
-                                                            "rawText": " 1",
+                                                            "rawText": "1",
                                                             "flags": 96,
                                                             "start": 29,
                                                             "end": 31
@@ -147,7 +144,6 @@ function *g(){ (x = {[yield]: 1}) => z }
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,
-                                    "original": "z",
                                     "text": "z",
                                     "rawText": " z",
                                     "flags": 96,

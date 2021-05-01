@@ -31,9 +31,8 @@ class C extends Base { set static(v) {} }
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 5,
                 "end": 7
@@ -49,9 +48,8 @@ class C extends Base { set static(v) {} }
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "Base",
                     "text": "Base",
-                    "rawText": " Base",
+                    "rawText": "Base",
                     "flags": 96,
                     "start": 15,
                     "end": 20
@@ -82,7 +80,6 @@ class C extends Base { set static(v) {} }
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "static",
                                 "text": "static",
                                 "rawText": " static",
                                 "flags": 96,
@@ -98,7 +95,6 @@ class C extends Base { set static(v) {} }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "v",
                                             "text": "v",
                                             "rawText": "v",
                                             "flags": 96,

@@ -35,7 +35,6 @@ x = 1;
                 "kind": 120,
                 "expression": {
                     "kind": 134299649,
-                    "original": "let",
                     "text": "let",
                     "rawText": " let",
                     "flags": 96,
@@ -56,7 +55,6 @@ x = 1;
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " // ASI\nx",
                     "flags": 96,
@@ -72,8 +70,7 @@ x = 1;
                 "right": {
                     "kind": 201392130,
                     "text": 1,
-                    "original": "1",
-                    "rawText": " 1",
+                    "rawText": "1",
                     "flags": 96,
                     "start": 28,
                     "end": 30

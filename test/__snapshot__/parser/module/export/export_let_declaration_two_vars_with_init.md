@@ -44,7 +44,6 @@ export let x = 10, y = 20
                             "kind": 190,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "x",
                                 "text": "x",
                                 "rawText": " x",
                                 "flags": 96,
@@ -56,8 +55,7 @@ export let x = 10, y = 20
                             "initializer": {
                                 "kind": 201392130,
                                 "text": 10,
-                                "original": "10",
-                                "rawText": " 10",
+                                "rawText": "10",
                                 "flags": 96,
                                 "start": 14,
                                 "end": 17
@@ -70,7 +68,6 @@ export let x = 10, y = 20
                             "kind": 190,
                             "binding": {
                                 "kind": 134299649,
-                                "original": "y",
                                 "text": "y",
                                 "rawText": " y",
                                 "flags": 96,
@@ -82,8 +79,7 @@ export let x = 10, y = 20
                             "initializer": {
                                 "kind": 201392130,
                                 "text": 20,
-                                "original": "20",
-                                "rawText": " 20",
+                                "rawText": "20",
                                 "flags": 96,
                                 "start": 22,
                                 "end": 25

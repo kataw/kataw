@@ -22,7 +22,6 @@ wrap({'a':b});
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "wrap",
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
@@ -45,7 +44,6 @@ wrap({'a':b});
                                         "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "b",
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
@@ -55,7 +53,6 @@ wrap({'a':b});
                                         "right": {
                                             "kind": 201392131,
                                             "text": "a",
-                                            "original": "'a'",
                                             "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 6,

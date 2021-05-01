@@ -35,9 +35,8 @@ class Foo { prop1:string; prop2:number; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "Foo",
                 "text": "Foo",
-                "rawText": " Foo",
+                "rawText": "Foo",
                 "flags": 96,
                 "start": 5,
                 "end": 9
@@ -55,7 +54,6 @@ class Foo { prop1:string; prop2:number; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "prop1",
                             "text": "prop1",
                             "rawText": " prop1",
                             "flags": 96,
@@ -94,7 +92,6 @@ class Foo { prop1:string; prop2:number; }
                         "asyncKeyword": null,
                         "key": {
                             "kind": 134299649,
-                            "original": "prop2",
                             "text": "prop2",
                             "rawText": " prop2",
                             "flags": 96,

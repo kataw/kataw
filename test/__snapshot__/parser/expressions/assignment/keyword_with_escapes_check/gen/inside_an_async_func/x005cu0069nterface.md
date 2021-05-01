@@ -48,7 +48,6 @@ async () => {  \u0069nterface = x  }
                                 "kind": 125,
                                 "left": {
                                     "kind": 134299649,
-                                    "original": "async",
                                     "text": "interface",
                                     "rawText": "async",
                                     "flags": 96,
@@ -63,7 +62,6 @@ async () => {  \u0069nterface = x  }
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": " x",
                                     "flags": 96,

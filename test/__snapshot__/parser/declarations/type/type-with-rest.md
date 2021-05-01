@@ -35,9 +35,8 @@ type C = { ...A&B };
             },
             "name": {
                 "kind": 134299649,
-                "original": "C",
                 "text": "C",
-                "rawText": " C",
+                "rawText": "C",
                 "flags": 96,
                 "start": 4,
                 "end": 6
@@ -62,7 +61,6 @@ type C = { ...A&B };
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "original": "A",
                                         "text": "A",
                                         "rawText": "A",
                                         "flags": 96,
@@ -78,7 +76,6 @@ type C = { ...A&B };
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "original": "B",
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,

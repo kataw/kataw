@@ -31,7 +31,6 @@ class x {static async set(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static async set(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "set",
                                 "text": "set",
                                 "rawText": " set",
                                 "flags": 96,

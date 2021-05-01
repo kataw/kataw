@@ -50,7 +50,6 @@ var p/
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "p",
                             "text": "p",
                             "rawText": " p",
                             "flags": 96,

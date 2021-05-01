@@ -50,7 +50,6 @@
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -61,7 +60,6 @@
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
-                                        "original": "ok",
                                         "text": "ok",
                                         "rawText": " ok",
                                         "flags": 96,
@@ -95,7 +93,6 @@
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "length",
                     "text": "length",
                     "rawText": "length",
                     "flags": 96,

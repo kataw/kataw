@@ -34,7 +34,6 @@
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 0,
@@ -61,8 +60,7 @@
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
-                    "rawText": "\n\n0",
+                    "rawText": "0",
                     "flags": 97,
                     "start": 4,
                     "end": 7
@@ -88,7 +86,6 @@
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 14,
@@ -115,7 +112,6 @@
                 "expression": {
                     "kind": 201392130,
                     "text": 0,
-                    "original": "0",
                     "rawText": "0",
                     "flags": 96,
                     "start": 20,

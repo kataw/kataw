@@ -54,7 +54,6 @@ for (yield[g]--;;);
                     "kind": 130,
                     "member": {
                         "kind": 134299649,
-                        "original": "yield",
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
@@ -63,7 +62,6 @@ for (yield[g]--;;);
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "g",
                         "text": "g",
                         "rawText": "g",
                         "flags": 96,

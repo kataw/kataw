@@ -37,7 +37,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
             },
             "name": {
                 "kind": 134299649,
-                "original": "gen",
                 "text": "gen",
                 "rawText": " gen",
                 "flags": 96,
@@ -71,7 +70,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             "generatorToken": null,
                             "name": {
                                 "kind": 134299649,
-                                "original": "not_gen",
                                 "text": "not_gen",
                                 "rawText": " not_gen",
                                 "flags": 96,
@@ -98,7 +96,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                                                 "kind": 198,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "yield",
                                                     "text": "yield",
                                                     "rawText": " yield",
                                                     "flags": 96,
@@ -160,7 +157,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "n",
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
@@ -180,7 +176,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                         "kind": 163,
                         "label": {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": " yield",
                             "flags": 96,
@@ -208,8 +203,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                             "expression": {
                                 "kind": 201392130,
                                 "text": 12,
-                                "original": "12",
-                                "rawText": " 12",
+                                "rawText": "12",
                                 "flags": 96,
                                 "start": 59,
                                 "end": 62

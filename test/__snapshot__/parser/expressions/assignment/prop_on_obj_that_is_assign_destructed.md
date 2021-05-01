@@ -53,15 +53,13 @@
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 1,
-                                                                    "original": "1",
-                                                                    "rawText": " 1",
+                                                                    "rawText": "1",
                                                                     "flags": 96,
                                                                     "start": 11,
                                                                     "end": 13
                                                                 },
                                                                 "right": {
                                                                     "kind": 134299649,
-                                                                    "original": "prop",
                                                                     "text": "prop",
                                                                     "rawText": "prop",
                                                                     "flags": 96,
@@ -84,7 +82,6 @@
                                                 },
                                                 "expression": {
                                                     "kind": 134299649,
-                                                    "original": "prop",
                                                     "text": "prop",
                                                     "rawText": "prop",
                                                     "flags": 96,

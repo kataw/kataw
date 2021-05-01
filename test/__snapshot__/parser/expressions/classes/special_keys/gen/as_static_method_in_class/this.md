@@ -31,7 +31,6 @@ class x {static this(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -61,7 +60,6 @@ class x {static this(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "this",
                                 "text": "this",
                                 "rawText": " this",
                                 "flags": 96,

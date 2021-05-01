@@ -40,8 +40,7 @@ import {x} from "y"
                 "from": {
                     "kind": 201392131,
                     "text": "y",
-                    "original": "\"y\"",
-                    "rawText": " \"y\"",
+                    "rawText": "\"y\"",
                     "flags": 96,
                     "start": 15,
                     "end": 19
@@ -66,7 +65,6 @@ import {x} from "y"
                                 "name": null,
                                 "binding": {
                                     "kind": 134299649,
-                                    "original": "x",
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 64,

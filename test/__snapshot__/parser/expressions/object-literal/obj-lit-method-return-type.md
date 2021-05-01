@@ -21,7 +21,6 @@ x = { method(test: string): number { } };
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -43,7 +42,6 @@ x = { method(test: string): number { } };
                                 "kind": 209,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "method",
                                     "text": "method",
                                     "rawText": " method",
                                     "flags": 96,
@@ -59,7 +57,6 @@ x = { method(test: string): number { } };
                                             "ellipsisToken": null,
                                             "binding": {
                                                 "kind": 134299649,
-                                                "original": "test",
                                                 "text": "test",
                                                 "rawText": "test",
                                                 "flags": 96,
@@ -120,7 +117,6 @@ x = { method(test: string): number { } };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "string",
                 "text": "string",
                 "rawText": " string",
                 "flags": 96,
@@ -135,7 +131,6 @@ x = { method(test: string): number { } };
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "number",
                 "text": "number",
                 "rawText": " number",
                 "flags": 96,

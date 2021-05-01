@@ -21,7 +21,6 @@ f = ([xCls2 = class { static name() {} }]) => {}
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "f",
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
@@ -53,7 +52,6 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "xCls2",
                                             "text": "xCls2",
                                             "rawText": "xCls2",
                                             "flags": 96,
@@ -99,7 +97,6 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                             "kind": 209,
                                                             "name": {
                                                                 "kind": 134299649,
-                                                                "original": "name",
                                                                 "text": "name",
                                                                 "rawText": " name",
                                                                 "flags": 96,

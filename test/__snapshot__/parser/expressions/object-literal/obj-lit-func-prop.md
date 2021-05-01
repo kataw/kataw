@@ -78,7 +78,6 @@
                                                 "kind": 144,
                                                 "id": {
                                                     "kind": 134299649,
-                                                    "original": "T",
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
@@ -102,7 +101,6 @@
                                 },
                                 "right": {
                                     "kind": 134299649,
-                                    "original": "f",
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,

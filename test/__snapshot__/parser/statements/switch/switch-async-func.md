@@ -26,7 +26,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 8,
@@ -46,8 +45,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                         "expression": {
                             "kind": 201392130,
                             "text": 1,
-                            "original": "1",
-                            "rawText": " 1",
+                            "rawText": "1",
                             "flags": 96,
                             "start": 17,
                             "end": 19
@@ -76,7 +74,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 },
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "f",
                                     "text": "f",
                                     "rawText": " f",
                                     "flags": 96,
@@ -138,7 +135,6 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
                                 "generatorToken": null,
                                 "name": {
                                     "kind": 134299649,
-                                    "original": "f",
                                     "text": "f",
                                     "rawText": " f",
                                     "flags": 96,

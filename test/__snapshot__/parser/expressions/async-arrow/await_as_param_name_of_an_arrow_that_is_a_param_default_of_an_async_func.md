@@ -29,7 +29,6 @@ async(a = (await) => {}) => {};
                     "kind": 125,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
@@ -54,7 +53,6 @@ async(a = (await) => {}) => {};
                         "parameters": [
                             {
                                 "kind": 134299649,
-                                "original": "await",
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,

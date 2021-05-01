@@ -37,7 +37,6 @@ async async => {}
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "async",
                             "text": "async",
                             "rawText": " async",
                             "flags": 96,
@@ -98,7 +97,6 @@ async async => {}
             "kind": 120,
             "expression": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": " g",
                 "flags": 96,

@@ -59,7 +59,6 @@ for (class x extends a in b {} in c);
                 },
                 "name": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": " x",
                     "flags": 96,
@@ -77,7 +76,6 @@ for (class x extends a in b {} in c);
                     },
                     "expression": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": " a",
                         "flags": 96,
@@ -102,7 +100,6 @@ for (class x extends a in b {} in c);
             },
             "expression": {
                 "kind": 134299649,
-                "original": "b",
                 "text": "b",
                 "rawText": " b",
                 "flags": 96,
@@ -145,7 +142,6 @@ for (class x extends a in b {} in c);
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,

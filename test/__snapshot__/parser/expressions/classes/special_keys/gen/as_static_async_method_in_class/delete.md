@@ -31,7 +31,6 @@ class x {static async delete(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {static async delete(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "delete",
                                 "text": "delete",
                                 "rawText": " delete",
                                 "flags": 96,

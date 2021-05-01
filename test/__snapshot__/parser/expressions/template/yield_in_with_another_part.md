@@ -21,7 +21,6 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                 "kind": 125,
                 "left": {
                     "kind": 134299649,
-                    "original": "x",
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
@@ -52,7 +51,6 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "text": "1 ",
                                 "expression": {
                                     "kind": 134299649,
-                                    "original": "yield",
                                     "text": "yield",
                                     "rawText": " yield",
                                     "flags": 96,
@@ -70,8 +68,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                                 "expression": {
                                     "kind": 201392130,
                                     "text": 3,
-                                    "original": "3",
-                                    "rawText": " 3",
+                                    "rawText": "3",
                                     "flags": 96,
                                     "start": 22,
                                     "end": 24

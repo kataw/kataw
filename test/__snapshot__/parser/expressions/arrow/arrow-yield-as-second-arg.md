@@ -30,7 +30,6 @@
                     [
                         {
                             "kind": 134299649,
-                            "original": "bar",
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
@@ -39,7 +38,6 @@
                         },
                         {
                             "kind": 134299649,
-                            "original": "yield",
                             "text": "yield",
                             "rawText": " yield",
                             "flags": 96,

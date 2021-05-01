@@ -30,7 +30,6 @@
                     "expression": {
                         "kind": 201392130,
                         "text": 3,
-                        "original": "3",
                         "rawText": "3",
                         "flags": 96,
                         "start": 1,
@@ -49,8 +48,7 @@
                 "right": {
                     "kind": 201392130,
                     "text": 2,
-                    "original": "2",
-                    "rawText": " 2",
+                    "rawText": "2",
                     "flags": 96,
                     "start": 5,
                     "end": 7

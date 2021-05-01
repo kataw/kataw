@@ -25,7 +25,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "bar",
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
@@ -40,7 +39,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "baz",
                     "text": "baz",
                     "rawText": " baz",
                     "flags": 96,
@@ -67,7 +65,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "parameters": [
                             {
                                 "kind": 134299649,
-                                "original": "interface",
                                 "text": "interface",
                                 "rawText": "interface",
                                 "flags": 96,
@@ -85,8 +82,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                     {
                                         "kind": 201392131,
                                         "text": "use strict",
-                                        "original": "'use strict'",
-                                        "rawText": " 'use strict'",
+                                        "rawText": "'use strict'",
                                         "flags": 4194400,
                                         "start": 30,
                                         "end": 43
@@ -98,8 +94,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 0,
-                                            "original": "0",
-                                            "rawText": " 0",
+                                            "rawText": "0",
                                             "flags": 96,
                                             "start": 44,
                                             "end": 46

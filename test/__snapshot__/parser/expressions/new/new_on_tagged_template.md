@@ -29,9 +29,8 @@ new Foo`bar`
                     "kind": 226,
                     "member": {
                         "kind": 134299649,
-                        "original": "Foo",
                         "text": "Foo",
-                        "rawText": " Foo",
+                        "rawText": "Foo",
                         "flags": 96,
                         "start": 3,
                         "end": 7

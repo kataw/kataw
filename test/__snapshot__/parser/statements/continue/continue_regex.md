@@ -31,7 +31,6 @@ for (x of 3) continue/x/
             },
             "initializer": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
@@ -41,8 +40,7 @@ for (x of 3) continue/x/
             "expression": {
                 "kind": 201392130,
                 "text": 3,
-                "original": "3",
-                "rawText": " 3",
+                "rawText": "3",
                 "flags": 96,
                 "start": 9,
                 "end": 11
@@ -92,7 +90,6 @@ for (x of 3) continue/x/
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "x",
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,

@@ -21,7 +21,6 @@ await()
                 "kind": 131,
                 "expression": {
                     "kind": 134299649,
-                    "original": "await",
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,

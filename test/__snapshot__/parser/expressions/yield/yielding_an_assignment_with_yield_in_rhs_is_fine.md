@@ -33,7 +33,6 @@ function* g(x) { yield x = yield 3; }
             },
             "name": {
                 "kind": 134299649,
-                "original": "g",
                 "text": "g",
                 "rawText": " g",
                 "flags": 96,
@@ -48,7 +47,6 @@ function* g(x) { yield x = yield 3; }
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -90,7 +88,6 @@ function* g(x) { yield x = yield 3; }
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
-                                        "original": "x",
                                         "text": "x",
                                         "rawText": " x",
                                         "flags": 96,
@@ -116,8 +113,7 @@ function* g(x) { yield x = yield 3; }
                                         "expression": {
                                             "kind": 201392130,
                                             "text": 3,
-                                            "original": "3",
-                                            "rawText": " 3",
+                                            "rawText": "3",
                                             "flags": 96,
                                             "start": 32,
                                             "end": 34

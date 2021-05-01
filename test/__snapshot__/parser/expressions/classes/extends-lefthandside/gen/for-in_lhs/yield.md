@@ -35,7 +35,6 @@ for (yield in x) ;
             "kind": 166,
             "initializer": {
                 "kind": 134299649,
-                "original": "yield",
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
@@ -44,7 +43,6 @@ for (yield in x) ;
             },
             "expression": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,

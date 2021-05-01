@@ -35,7 +35,6 @@ a ?? b ?? c ? d : e;
                 "kind": 198,
                 "left": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -50,7 +49,6 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "b",
                     "text": "b",
                     "rawText": " b",
                     "flags": 96,
@@ -73,7 +71,6 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "\n\na",
                         "flags": 96,
@@ -88,7 +85,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -109,7 +105,6 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "c",
                         "text": "c",
                         "rawText": " c",
                         "flags": 96,
@@ -124,7 +119,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "d",
                         "text": "d",
                         "rawText": " d",
                         "flags": 96,
@@ -151,7 +145,6 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "\n\na",
                         "flags": 96,
@@ -166,7 +159,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -185,7 +177,6 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -200,7 +191,6 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "d",
                     "text": "d",
                     "rawText": " d",
                     "flags": 96,
@@ -225,7 +215,6 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
@@ -240,7 +229,6 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -263,7 +251,6 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -286,7 +273,6 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "\n\na",
                         "flags": 96,
@@ -301,7 +287,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -320,7 +305,6 @@ a ?? b ?? c ? d : e;
                 },
                 "right": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -343,7 +327,6 @@ a ?? b ?? c ? d : e;
                     "kind": 198,
                     "left": {
                         "kind": 134299649,
-                        "original": "a",
                         "text": "a",
                         "rawText": "\n\na",
                         "flags": 96,
@@ -358,7 +341,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "b",
                         "text": "b",
                         "rawText": " b",
                         "flags": 96,
@@ -377,7 +359,6 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -392,7 +373,6 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "d",
                     "text": "d",
                     "rawText": " d",
                     "flags": 96,
@@ -417,7 +397,6 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": "\n\na",
                             "flags": 96,
@@ -432,7 +411,6 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -451,7 +429,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "c",
                         "text": "c",
                         "rawText": " c",
                         "flags": 96,
@@ -470,7 +447,6 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "d",
                     "text": "d",
                     "rawText": " d",
                     "flags": 96,
@@ -485,7 +461,6 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "e",
                     "text": "e",
                     "rawText": " e",
                     "flags": 96,
@@ -505,8 +480,7 @@ a ?? b ?? c ? d : e;
             "expression": {
                 "kind": 201392131,
                 "text": "use strict",
-                "original": "\"use strict\"",
-                "rawText": "\n\n\"use strict\"",
+                "rawText": "\"use strict\"",
                 "flags": 97,
                 "start": 110,
                 "end": 124
@@ -525,7 +499,6 @@ a ?? b ?? c ? d : e;
                         "kind": 198,
                         "left": {
                             "kind": 134299649,
-                            "original": "a",
                             "text": "a",
                             "rawText": " a",
                             "flags": 96,
@@ -540,7 +513,6 @@ a ?? b ?? c ? d : e;
                         },
                         "right": {
                             "kind": 134299649,
-                            "original": "b",
                             "text": "b",
                             "rawText": " b",
                             "flags": 96,
@@ -559,7 +531,6 @@ a ?? b ?? c ? d : e;
                     },
                     "right": {
                         "kind": 134299649,
-                        "original": "c",
                         "text": "c",
                         "rawText": " c",
                         "flags": 96,
@@ -578,7 +549,6 @@ a ?? b ?? c ? d : e;
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "d",
                     "text": "d",
                     "rawText": " d",
                     "flags": 96,
@@ -593,7 +563,6 @@ a ?? b ?? c ? d : e;
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "e",
                     "text": "e",
                     "rawText": " e",
                     "flags": 96,

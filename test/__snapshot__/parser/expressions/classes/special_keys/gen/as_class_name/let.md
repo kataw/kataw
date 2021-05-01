@@ -31,7 +31,6 @@ class let {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "let",
                 "text": "let",
                 "rawText": " let",
                 "flags": 96,

@@ -29,7 +29,6 @@ _ => {}
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
-                    "original": "_",
                     "text": "_",
                     "rawText": "_",
                     "flags": 96,

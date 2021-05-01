@@ -41,7 +41,6 @@ var v = (a, b) => {
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "v",
                             "text": "v",
                             "rawText": " v",
                             "flags": 96,
@@ -63,7 +62,6 @@ var v = (a, b) => {
                                 [
                                     {
                                         "kind": 134299649,
-                                        "original": "a",
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
@@ -72,7 +70,6 @@ var v = (a, b) => {
                                     },
                                     {
                                         "kind": 134299649,
-                                        "original": "b",
                                         "text": "b",
                                         "rawText": " b",
                                         "flags": 96,

@@ -31,7 +31,6 @@ class x {async * enum(){}}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -66,7 +65,6 @@ class x {async * enum(){}}
                             "kind": 209,
                             "name": {
                                 "kind": 134299649,
-                                "original": "enum",
                                 "text": "enum",
                                 "rawText": " enum",
                                 "flags": 96,

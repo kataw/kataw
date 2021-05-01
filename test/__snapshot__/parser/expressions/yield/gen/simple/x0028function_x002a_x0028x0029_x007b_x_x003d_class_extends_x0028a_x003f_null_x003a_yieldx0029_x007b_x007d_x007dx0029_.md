@@ -59,7 +59,6 @@
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": " x",
                                             "flags": 96,
@@ -97,7 +96,6 @@
                                                         "kind": 197,
                                                         "shortCircuit": {
                                                             "kind": 134299649,
-                                                            "original": "a",
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,

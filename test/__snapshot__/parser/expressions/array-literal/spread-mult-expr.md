@@ -45,7 +45,6 @@ var callCount = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "source",
                             "text": "source",
                             "rawText": " source",
                             "flags": 96,
@@ -62,7 +61,6 @@ var callCount = 0;
                                     {
                                         "kind": 201392130,
                                         "text": 3,
-                                        "original": "3",
                                         "rawText": "3",
                                         "flags": 96,
                                         "start": 14,
@@ -71,8 +69,7 @@ var callCount = 0;
                                     {
                                         "kind": 201392130,
                                         "text": 4,
-                                        "original": "4",
-                                        "rawText": " 4",
+                                        "rawText": "4",
                                         "flags": 96,
                                         "start": 16,
                                         "end": 18
@@ -80,8 +77,7 @@ var callCount = 0;
                                     {
                                         "kind": 201392130,
                                         "text": 5,
-                                        "original": "5",
-                                        "rawText": " 5",
+                                        "rawText": "5",
                                         "flags": 96,
                                         "start": 19,
                                         "end": 21
@@ -125,7 +121,6 @@ var callCount = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "target",
                             "text": "target",
                             "rawText": " target",
                             "flags": 96,
@@ -164,7 +159,6 @@ var callCount = 0;
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "callCount",
                             "text": "callCount",
                             "rawText": " callCount",
                             "flags": 96,
@@ -176,8 +170,7 @@ var callCount = 0;
                         "initializer": {
                             "kind": 201392130,
                             "text": 0,
-                            "original": "0",
-                            "rawText": " 0",
+                            "rawText": "0",
                             "flags": 96,
                             "start": 52,
                             "end": 54
@@ -236,7 +229,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -245,7 +237,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -263,7 +254,6 @@ var callCount = 0;
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -272,7 +262,6 @@ var callCount = 0;
                                                             },
                                                             "expression": {
                                                                 "kind": 134299649,
-                                                                "original": "length",
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
@@ -286,8 +275,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 5,
-                                                            "original": "5",
-                                                            "rawText": " 5",
+                                                            "rawText": "5",
                                                             "flags": 96,
                                                             "start": 107,
                                                             "end": 109
@@ -314,7 +302,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -323,7 +310,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -341,7 +327,6 @@ var callCount = 0;
                                                             "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -351,7 +336,6 @@ var callCount = 0;
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 0,
-                                                                "original": "0",
                                                                 "rawText": "0",
                                                                 "flags": 96,
                                                                 "start": 141,
@@ -364,8 +348,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 1,
-                                                            "original": "1",
-                                                            "rawText": " 1",
+                                                            "rawText": "1",
                                                             "flags": 96,
                                                             "start": 144,
                                                             "end": 146
@@ -392,7 +375,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -401,7 +383,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -419,7 +400,6 @@ var callCount = 0;
                                                             "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -429,7 +409,6 @@ var callCount = 0;
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 1,
-                                                                "original": "1",
                                                                 "rawText": "1",
                                                                 "flags": 96,
                                                                 "start": 178,
@@ -442,8 +421,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 2,
-                                                            "original": "2",
-                                                            "rawText": " 2",
+                                                            "rawText": "2",
                                                             "flags": 96,
                                                             "start": 181,
                                                             "end": 183
@@ -470,7 +448,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -479,7 +456,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -497,7 +473,6 @@ var callCount = 0;
                                                             "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -507,7 +482,6 @@ var callCount = 0;
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 2,
-                                                                "original": "2",
                                                                 "rawText": "2",
                                                                 "flags": 96,
                                                                 "start": 215,
@@ -520,8 +494,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 3,
-                                                            "original": "3",
-                                                            "rawText": " 3",
+                                                            "rawText": "3",
                                                             "flags": 96,
                                                             "start": 218,
                                                             "end": 220
@@ -548,7 +521,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -557,7 +529,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -575,7 +546,6 @@ var callCount = 0;
                                                             "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -585,7 +555,6 @@ var callCount = 0;
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 3,
-                                                                "original": "3",
                                                                 "rawText": "3",
                                                                 "flags": 96,
                                                                 "start": 252,
@@ -598,8 +567,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 4,
-                                                            "original": "4",
-                                                            "rawText": " 4",
+                                                            "rawText": "4",
                                                             "flags": 96,
                                                             "start": 255,
                                                             "end": 257
@@ -626,7 +594,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -635,7 +602,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -653,7 +619,6 @@ var callCount = 0;
                                                             "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
-                                                                "original": "arguments",
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
@@ -663,7 +628,6 @@ var callCount = 0;
                                                             "expression": {
                                                                 "kind": 201392130,
                                                                 "text": 4,
-                                                                "original": "4",
                                                                 "rawText": "4",
                                                                 "flags": 96,
                                                                 "start": 289,
@@ -676,8 +640,7 @@ var callCount = 0;
                                                         {
                                                             "kind": 201392130,
                                                             "text": 5,
-                                                            "original": "5",
-                                                            "rawText": " 5",
+                                                            "rawText": "5",
                                                             "flags": 96,
                                                             "start": 292,
                                                             "end": 294
@@ -704,7 +667,6 @@ var callCount = 0;
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
-                                                        "original": "assert",
                                                         "text": "assert",
                                                         "rawText": "\n  assert",
                                                         "flags": 96,
@@ -713,7 +675,6 @@ var callCount = 0;
                                                     },
                                                     "expression": {
                                                         "kind": 134299649,
-                                                        "original": "sameValue",
                                                         "text": "sameValue",
                                                         "rawText": "sameValue",
                                                         "flags": 96,
@@ -729,7 +690,6 @@ var callCount = 0;
                                                     "elements": [
                                                         {
                                                             "kind": 134299649,
-                                                            "original": "target",
                                                             "text": "target",
                                                             "rawText": "target",
                                                             "flags": 96,
@@ -738,7 +698,6 @@ var callCount = 0;
                                                         },
                                                         {
                                                             "kind": 134299649,
-                                                            "original": "source",
                                                             "text": "source",
                                                             "rawText": " source",
                                                             "flags": 96,
@@ -765,7 +724,6 @@ var callCount = 0;
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "callCount",
                                                     "text": "callCount",
                                                     "rawText": "\n  callCount",
                                                     "flags": 96,
@@ -781,8 +739,7 @@ var callCount = 0;
                                                 "right": {
                                                     "kind": 201392130,
                                                     "text": 1,
-                                                    "original": "1",
-                                                    "rawText": " 1",
+                                                    "rawText": "1",
                                                     "flags": 96,
                                                     "start": 347,
                                                     "end": 349
@@ -812,7 +769,6 @@ var callCount = 0;
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "apply",
                             "text": "apply",
                             "rawText": "apply",
                             "flags": 96,
@@ -841,7 +797,6 @@ var callCount = 0;
                                         {
                                             "kind": 201392130,
                                             "text": 1,
-                                            "original": "1",
                                             "rawText": "1",
                                             "flags": 96,
                                             "start": 366,
@@ -850,8 +805,7 @@ var callCount = 0;
                                         {
                                             "kind": 201392130,
                                             "text": 2,
-                                            "original": "2",
-                                            "rawText": " 2",
+                                            "rawText": "2",
                                             "flags": 96,
                                             "start": 368,
                                             "end": 370
@@ -868,7 +822,6 @@ var callCount = 0;
                                                 "kind": 125,
                                                 "left": {
                                                     "kind": 134299649,
-                                                    "original": "target",
                                                     "text": "target",
                                                     "rawText": "target",
                                                     "flags": 96,
@@ -883,7 +836,6 @@ var callCount = 0;
                                                 },
                                                 "right": {
                                                     "kind": 134299649,
-                                                    "original": "source",
                                                     "text": "source",
                                                     "rawText": " source",
                                                     "flags": 96,

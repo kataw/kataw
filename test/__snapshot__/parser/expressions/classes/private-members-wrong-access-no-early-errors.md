@@ -79,7 +79,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "val",
                                                     "text": "val",
                                                     "rawText": "val",
                                                     "flags": 96,
@@ -135,7 +134,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "fn",
                                         "text": "fn",
                                         "rawText": " fn",
                                         "flags": 96,
@@ -310,7 +308,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "fn",
                                         "text": "fn",
                                         "rawText": " fn",
                                         "flags": 96,
@@ -491,7 +488,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "fn",
                                         "text": "fn",
                                         "rawText": " fn",
                                         "flags": 96,
@@ -507,7 +503,6 @@
                                                 "ellipsisToken": null,
                                                 "binding": {
                                                     "kind": 134299649,
-                                                    "original": "obj",
                                                     "text": "obj",
                                                     "rawText": "obj",
                                                     "flags": 96,
@@ -572,7 +567,6 @@
                                                                             },
                                                                             "right": {
                                                                                 "kind": 134299649,
-                                                                                "original": "y",
                                                                                 "text": "y",
                                                                                 "rawText": " y",
                                                                                 "flags": 96,
@@ -601,7 +595,6 @@
                                                             },
                                                             "right": {
                                                                 "kind": 134299649,
-                                                                "original": "obj",
                                                                 "text": "obj",
                                                                 "rawText": " obj",
                                                                 "flags": 96,
@@ -736,7 +729,6 @@
                                     "kind": 209,
                                     "name": {
                                         "kind": 134299649,
-                                        "original": "fn",
                                         "text": "fn",
                                         "rawText": " fn",
                                         "flags": 96,

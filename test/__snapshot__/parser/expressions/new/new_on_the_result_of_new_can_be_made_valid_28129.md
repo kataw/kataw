@@ -37,9 +37,8 @@ new new A().foo
                         },
                         "expression": {
                             "kind": 134299649,
-                            "original": "A",
                             "text": "A",
-                            "rawText": " A",
+                            "rawText": "A",
                             "flags": 96,
                             "start": 7,
                             "end": 9
@@ -63,7 +62,6 @@ new new A().foo
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "foo",
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,

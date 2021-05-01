@@ -32,7 +32,6 @@ var af = ()
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "original": "af",
                             "text": "af",
                             "rawText": " af",
                             "flags": 96,

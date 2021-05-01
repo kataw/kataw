@@ -54,7 +54,6 @@ function x({x}) { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -69,7 +68,6 @@ function x({x}) { "use strict"; }
                         "ellipsisToken": null,
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -80,7 +78,6 @@ function x({x}) { "use strict"; }
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "original": "y",
                             "text": "y",
                             "rawText": " y",
                             "flags": 96,
@@ -105,8 +102,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 19,
                             "end": 32
@@ -140,7 +136,6 @@ function x({x}) { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -160,7 +155,6 @@ function x({x}) { "use strict"; }
                         },
                         "binding": {
                             "kind": 134299649,
-                            "original": "x",
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
@@ -188,8 +182,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 55,
                             "end": 68
@@ -223,7 +216,6 @@ function x({x}) { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -246,7 +238,6 @@ function x({x}) { "use strict"; }
                                         "ellipsisToken": null,
                                         "binding": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -291,8 +282,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 90,
                             "end": 103
@@ -326,7 +316,6 @@ function x({x}) { "use strict"; }
             "generatorToken": null,
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -349,7 +338,6 @@ function x({x}) { "use strict"; }
                                         "ellipsisToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "original": "x",
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
@@ -392,8 +380,7 @@ function x({x}) { "use strict"; }
                         {
                             "kind": 201392131,
                             "text": "use strict",
-                            "original": "\"use strict\"",
-                            "rawText": " \"use strict\"",
+                            "rawText": "\"use strict\"",
                             "flags": 96,
                             "start": 125,
                             "end": 138

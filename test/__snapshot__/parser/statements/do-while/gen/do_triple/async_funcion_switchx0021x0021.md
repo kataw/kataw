@@ -94,7 +94,6 @@ do do do async funcion switch!! while while while
                                     "ellipsisToken": null,
                                     "binding": {
                                         "kind": 134299649,
-                                        "original": "funcion",
                                         "text": "funcion",
                                         "rawText": " funcion",
                                         "flags": 96,

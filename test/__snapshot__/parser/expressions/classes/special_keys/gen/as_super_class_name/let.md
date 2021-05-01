@@ -31,7 +31,6 @@ class x extends let {}
             },
             "name": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -49,7 +48,6 @@ class x extends let {}
                 },
                 "expression": {
                     "kind": 134299649,
-                    "original": "let",
                     "text": "let",
                     "rawText": " let",
                     "flags": 96,

@@ -27,7 +27,6 @@ a?.fn`hello`;
                 },
                 "member": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -43,7 +42,6 @@ a?.fn`hello`;
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
-                                "original": "fn",
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,

@@ -35,7 +35,6 @@ for (a ? b : c of x);
                 "kind": 197,
                 "shortCircuit": {
                     "kind": 134299649,
-                    "original": "a",
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
@@ -50,7 +49,6 @@ for (a ? b : c of x);
                 },
                 "consequent": {
                     "kind": 134299649,
-                    "original": "b",
                     "text": "b",
                     "rawText": " b",
                     "flags": 96,
@@ -65,7 +63,6 @@ for (a ? b : c of x);
                 },
                 "alternate": {
                     "kind": 134299649,
-                    "original": "c",
                     "text": "c",
                     "rawText": " c",
                     "flags": 96,
@@ -78,7 +75,6 @@ for (a ? b : c of x);
             },
             "condition": {
                 "kind": 134299649,
-                "original": "x",
                 "text": "x",
                 "rawText": " x",
                 "flags": 96,
@@ -87,7 +83,6 @@ for (a ? b : c of x);
             },
             "incrementor": {
                 "kind": 134299649,
-                "original": "of",
                 "text": "of",
                 "rawText": " of",
                 "flags": 96,

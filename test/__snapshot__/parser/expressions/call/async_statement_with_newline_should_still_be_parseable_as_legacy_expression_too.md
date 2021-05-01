@@ -20,7 +20,6 @@ async
             "kind": 131,
             "expression": {
                 "kind": 134299649,
-                "original": "async",
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
@@ -33,7 +32,6 @@ async
                     {
                         "kind": 201392130,
                         "text": 2,
-                        "original": "2",
                         "rawText": "2",
                         "flags": 96,
                         "start": 7,

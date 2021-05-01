@@ -66,7 +66,6 @@
             "expression": {
                 "kind": 201392130,
                 "text": 0,
-                "original": "0",
                 "rawText": "0",
                 "flags": 96,
                 "start": 0,
@@ -81,8 +80,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1,
-                "original": "1",
-                "rawText": "\n1",
+                "rawText": "1",
                 "flags": 97,
                 "start": 3,
                 "end": 5
@@ -96,8 +94,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 2,
-                "original": "2",
-                "rawText": "\n2",
+                "rawText": "2",
                 "flags": 97,
                 "start": 7,
                 "end": 9
@@ -111,8 +108,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 3,
-                "original": "3",
-                "rawText": "\n3",
+                "rawText": "3",
                 "flags": 97,
                 "start": 11,
                 "end": 13
@@ -126,8 +122,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 4,
-                "original": "4",
-                "rawText": "\n4",
+                "rawText": "4",
                 "flags": 97,
                 "start": 15,
                 "end": 17
@@ -141,8 +136,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 5,
-                "original": "5",
-                "rawText": "\n5",
+                "rawText": "5",
                 "flags": 97,
                 "start": 19,
                 "end": 21
@@ -156,8 +150,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 6,
-                "original": "6",
-                "rawText": "\n6",
+                "rawText": "6",
                 "flags": 97,
                 "start": 23,
                 "end": 25
@@ -171,8 +164,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 7,
-                "original": "7",
-                "rawText": "\n7",
+                "rawText": "7",
                 "flags": 97,
                 "start": 27,
                 "end": 29
@@ -186,8 +178,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 8,
-                "original": "8",
-                "rawText": "\n8",
+                "rawText": "8",
                 "flags": 97,
                 "start": 31,
                 "end": 33
@@ -201,8 +192,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 9,
-                "original": "9",
-                "rawText": "\n9",
+                "rawText": "9",
                 "flags": 97,
                 "start": 35,
                 "end": 37
@@ -216,8 +206,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 10,
-                "original": "1_0",
-                "rawText": "\n1_0",
+                "rawText": "1_0",
                 "flags": 65633,
                 "start": 39,
                 "end": 43
@@ -231,8 +220,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 21,
-                "original": "21",
-                "rawText": "\n21",
+                "rawText": "21",
                 "flags": 97,
                 "start": 45,
                 "end": 48
@@ -246,8 +234,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 32,
-                "original": "32",
-                "rawText": "\n32",
+                "rawText": "32",
                 "flags": 97,
                 "start": 50,
                 "end": 53
@@ -261,8 +248,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 43,
-                "original": "43",
-                "rawText": "\n43",
+                "rawText": "43",
                 "flags": 97,
                 "start": 55,
                 "end": 58
@@ -276,8 +262,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 54,
-                "original": "54",
-                "rawText": "\n54",
+                "rawText": "54",
                 "flags": 97,
                 "start": 60,
                 "end": 63
@@ -291,8 +276,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 65,
-                "original": "65",
-                "rawText": "\n65",
+                "rawText": "65",
                 "flags": 97,
                 "start": 65,
                 "end": 68
@@ -306,8 +290,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 76,
-                "original": "76",
-                "rawText": "\n76",
+                "rawText": "76",
                 "flags": 97,
                 "start": 70,
                 "end": 73
@@ -321,8 +304,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 87,
-                "original": "87",
-                "rawText": "\n87",
+                "rawText": "87",
                 "flags": 97,
                 "start": 75,
                 "end": 78
@@ -336,8 +318,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 98,
-                "original": "98",
-                "rawText": "\n98",
+                "rawText": "98",
                 "flags": 97,
                 "start": 80,
                 "end": 83
@@ -351,8 +332,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 19,
-                "original": "19",
-                "rawText": "\n19",
+                "rawText": "19",
                 "flags": 97,
                 "start": 85,
                 "end": 88
@@ -366,8 +346,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 123,
-                "original": "12_3",
-                "rawText": "\n12_3",
+                "rawText": "12_3",
                 "flags": 65633,
                 "start": 90,
                 "end": 95
@@ -381,8 +360,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 456,
-                "original": "456",
-                "rawText": "\n456",
+                "rawText": "456",
                 "flags": 97,
                 "start": 97,
                 "end": 101
@@ -396,8 +374,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 7890,
-                "original": "7890",
-                "rawText": "\n7890",
+                "rawText": "7890",
                 "flags": 97,
                 "start": 103,
                 "end": 108
@@ -411,8 +388,7 @@
             "expression": {
                 "kind": 201392130,
                 "text": 1234567890,
-                "original": "123_4_5_67890",
-                "rawText": "\n123_4_5_67890",
+                "rawText": "123_4_5_67890",
                 "flags": 65633,
                 "start": 110,
                 "end": 124
