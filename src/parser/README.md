@@ -87,7 +87,7 @@ you can check if the keyword is escaped like this:
 
 `kataw.hasUnicodeEscape(node)` or `kataw.hasExtendedUnicodeEscape(node)`
 
-## Whitespace and linebreak
+## Whitespace, linebreak and comments
 
 Kataw skips whitespace by default. Instead this information is part of the rawText value on the CST node. 
 
@@ -98,10 +98,18 @@ For example the raw value of a string literal `foo` if the source code is like t
 "foo"
 ```
 
-will become:  `\n    "foo"`.
+will become:  `"\n\"string\""`.
 
 If you need this *extra* information in a code generator, you can use the `rawText` instead of the `text` value.
 
+Comments will be kept as well as part of the `rawText`.
+
+```ts
+// line terminator here
+/*  hello string */ "string"
+```
+
+will become:  `"\n/*  hello string */ \"string\""`.
 
 ## Location tracking
 
