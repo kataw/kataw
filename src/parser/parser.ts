@@ -245,7 +245,7 @@ export function parse(
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
-    if (isValidDirective(parser) && expr.text === expr.rawText && expr.text === 'use strict') {
+    if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
       context |= Context.Strict;
       parseSemicolon(parser, context);
       directives.push(expr);
@@ -4156,20 +4156,9 @@ function parseFunctionStatementList(
 
   while (parser.token === SyntaxKind.StringLiteral) {
     const start = parser.curPos;
-    const expr: any = parseStringLiteral(parser, context);
-
-    if (isValidDirective(parser)) {
-      if (expr.text === expr.rawText && expr.text === 'use strict') {
-        if (!isSimpleParameterList) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode._use_strict_directive_cannot_be_used_with_non_simple_parameter_list],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        context |= Context.Strict;
-      }
+    const expr = parseStringLiteral(parser, context);
+    if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
+      context |= Context.Strict;
       parseSemicolon(parser, context);
       directives.push(expr);
     } else {

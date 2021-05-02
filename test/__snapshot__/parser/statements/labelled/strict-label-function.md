@@ -15,22 +15,17 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [],
-    "statements": [
+    "directives": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "'use strict'",
-                "flags": 4194400,
-                "start": 0,
-                "end": 12
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "'use strict'",
+            "flags": 4194400,
             "start": 0,
-            "end": 13
-        },
+            "end": 12
+        }
+    ],
+    "statements": [
         {
             "kind": 163,
             "label": {
@@ -239,8 +234,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Generators can only be declared at the top level or inside a block - start: 28, end: 30
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 18, end: 27
 ✖ Duplicate label - start: 50, end: 55
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 55, end: 64
 
 ```
 

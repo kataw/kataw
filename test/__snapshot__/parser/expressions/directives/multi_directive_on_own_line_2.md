@@ -49,25 +49,37 @@ function f(){
                 "kind": 216,
                 "functionStatementList": {
                     "kind": 217,
-                    "directives": [
+                    "directives": [],
+                    "statements": [
                         {
-                            "kind": 201392131,
-                            "text": "foo",
-                            "rawText": "'foo'",
-                            "flags": 4194401,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392131,
+                                "text": "foo",
+                                "rawText": "'foo'",
+                                "flags": 4194401,
+                                "start": 13,
+                                "end": 19
+                            },
+                            "flags": 16,
                             "start": 13,
-                            "end": 19
+                            "end": 20
                         },
                         {
-                            "kind": 201392131,
-                            "text": "bar",
-                            "rawText": "'bar'",
-                            "flags": 4194401,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392131,
+                                "text": "bar",
+                                "rawText": "'bar'",
+                                "flags": 4194401,
+                                "start": 20,
+                                "end": 26
+                            },
+                            "flags": 16,
                             "start": 20,
-                            "end": 26
+                            "end": 27
                         }
                     ],
-                    "statements": [],
                     "flags": 4194337,
                     "start": 13,
                     "end": 27

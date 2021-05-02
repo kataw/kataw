@@ -37,22 +37,17 @@ function * x() { "use strict";  yield: 34; }
 ```javascript
 {
     "kind": 122,
-    "directives": [],
-    "statements": [
+    "directives": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "\"use strict\"",
-                "flags": 96,
-                "start": 0,
-                "end": 12
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "\"use strict\"",
+            "flags": 96,
             "start": 0,
-            "end": 13
-        },
+            "end": 12
+        }
+    ],
+    "statements": [
         {
             "kind": 176,
             "declareKeyword": null,
@@ -1762,6 +1757,24 @@ function * x() { "use strict";  yield: 34; }
 ### Diagnostics
 
 ```javascript
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 43, end: 49
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 104, end: 109
+✖ Identifier expected. Reserved word in strict mode - start: 161, end: 167
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 161, end: 167
+✖ Identifier expected. Reserved word in strict mode - start: 220, end: 226
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 220, end: 226
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 284, end: 289
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 349, end: 355
+✖ Identifier expected. Reserved word in strict mode - start: 408, end: 414
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 408, end: 414
+✖ Identifier expected. Reserved word in strict mode - start: 469, end: 475
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 469, end: 475
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 519, end: 525
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 577, end: 583
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 628, end: 633
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 672, end: 678
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 718, end: 725
+✖ Identifier expected. Reserved word in strict mode - start: 718, end: 726
 ✖ Expression expected - start: 772, end: 773
 ✖ Identifier expected. Reserved word in strict mode - start: 806, end: 814
 

@@ -14,22 +14,17 @@ foo: function() {}
 ```javascript
 {
     "kind": 122,
-    "directives": [],
-    "statements": [
+    "directives": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "\"use strict\"",
-                "flags": 96,
-                "start": 0,
-                "end": 12
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "\"use strict\"",
+            "flags": 96,
             "start": 0,
-            "end": 13
-        },
+            "end": 12
+        }
+    ],
+    "statements": [
         {
             "kind": 163,
             "label": {
@@ -125,6 +120,7 @@ foo: function() {}
 ### Diagnostics
 
 ```javascript
+✖ In strict mode code or without web compability enabled, functions can only be declared at top level or inside a block - start: 18, end: 27
 ✖ Binding identifier expected - start: 27, end: 28
 
 ```

@@ -187,6 +187,7 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'with' statements are not allowed in strict mode. - start: 47, end: 52
+
 ```
 

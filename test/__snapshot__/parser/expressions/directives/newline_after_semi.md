@@ -126,6 +126,7 @@ with (x) y; }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'with' statements are not allowed in strict mode. - start: 27, end: 32
+
 ```
 

@@ -48,17 +48,23 @@ function f(){
                 "kind": 216,
                 "functionStatementList": {
                     "kind": 217,
-                    "directives": [
+                    "directives": [],
+                    "statements": [
                         {
-                            "kind": 201392131,
-                            "text": "foo",
-                            "rawText": "\"foo\"",
-                            "flags": 97,
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392131,
+                                "text": "foo",
+                                "rawText": "\"foo\"",
+                                "flags": 97,
+                                "start": 13,
+                                "end": 19
+                            },
+                            "flags": 16,
                             "start": 13,
-                            "end": 19
+                            "end": 20
                         }
                     ],
-                    "statements": [],
                     "flags": 33,
                     "start": 13,
                     "end": 20

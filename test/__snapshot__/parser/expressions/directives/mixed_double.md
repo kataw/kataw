@@ -20,36 +20,25 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [],
-    "statements": [
+    "directives": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "\"use strict\"",
-                "flags": 96,
-                "start": 0,
-                "end": 12
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "\"use strict\"",
+            "flags": 96,
             "start": 0,
-            "end": 13
+            "end": 12
         },
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "'use strict'",
-                "flags": 4194400,
-                "start": 13,
-                "end": 26
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "'use strict'",
+            "flags": 4194400,
             "start": 13,
-            "end": 27
-        },
+            "end": 26
+        }
+    ],
+    "statements": [
         {
             "kind": 153,
             "withKeyword": {

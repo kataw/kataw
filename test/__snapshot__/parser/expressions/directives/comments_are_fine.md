@@ -15,22 +15,17 @@
 ```javascript
 {
     "kind": 122,
-    "directives": [],
-    "statements": [
+    "directives": [
         {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "use strict",
-                "rawText": "\"use strict\"",
-                "flags": 97,
-                "start": 0,
-                "end": 46
-            },
-            "flags": 16,
+            "kind": 201392131,
+            "text": "use strict",
+            "rawText": "\"use strict\"",
+            "flags": 97,
             "start": 0,
-            "end": 47
-        },
+            "end": 46
+        }
+    ],
+    "statements": [
         {
             "kind": 153,
             "withKeyword": {
@@ -84,6 +79,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'with' statements are not allowed in strict mode. - start: 47, end: 52
+
 ```
 

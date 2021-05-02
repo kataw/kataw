@@ -48,14 +48,6 @@
                             "directives": [
                                 {
                                     "kind": 201392131,
-                                    "text": "asterisk: \u000052",
-                                    "rawText": "\"asterisk: \\052\"",
-                                    "flags": 97,
-                                    "start": 13,
-                                    "end": 32
-                                },
-                                {
-                                    "kind": 201392131,
                                     "text": "use strict",
                                     "rawText": "\"use strict\"",
                                     "flags": 97,
@@ -63,7 +55,22 @@
                                     "end": 48
                                 }
                             ],
-                            "statements": [],
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 201392131,
+                                        "text": "asterisk: \u000052",
+                                        "rawText": "\"asterisk: \\052\"",
+                                        "flags": 97,
+                                        "start": 13,
+                                        "end": 32
+                                    },
+                                    "flags": 16,
+                                    "start": 13,
+                                    "end": 33
+                                }
+                            ],
                             "flags": 33,
                             "start": 13,
                             "end": 49
