@@ -119,6 +119,7 @@
 
 ```javascript
 ✖ ',' expected - start: 4, end: 5
+✖ Property assignment expected - start: 13, end: 17
 ✖ ',' expected - start: 13, end: 17
 ✖ ',' expected - start: 18, end: 19
 

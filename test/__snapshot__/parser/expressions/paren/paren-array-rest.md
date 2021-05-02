@@ -53,7 +53,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 129,
                                         "member": {
@@ -144,7 +143,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 129,
                                         "member": {
@@ -422,7 +420,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 0,
@@ -642,7 +639,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 0,
@@ -971,7 +967,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "z",
@@ -1042,7 +1037,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -1113,7 +1107,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -1201,7 +1194,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 129,
                                                 "member": {
@@ -1308,7 +1300,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 129,
                                                 "member": {
@@ -1634,7 +1625,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 0,
@@ -1886,7 +1876,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 0,
@@ -2263,7 +2252,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "z",
@@ -2350,7 +2338,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "y",
@@ -2437,7 +2424,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "a",

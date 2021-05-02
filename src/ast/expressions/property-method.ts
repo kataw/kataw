@@ -24,8 +24,8 @@ export function createPropertyMethod(
 ): PropertyMethod {
   return {
     kind: SyntaxKind.PropertyMethod,
-    generatorToken,
     asyncKeyword,
+    generatorToken,
     getKeyword,
     setKeyword,
     method,

@@ -53,7 +53,6 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,
@@ -77,7 +76,6 @@ var callCount = 0;
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 3,
@@ -329,8 +327,8 @@ var callCount = 0;
                                                     },
                                                     {
                                                         "kind": 257,
-                                                        "generatorToken": null,
                                                         "asyncKeyword": null,
+                                                        "generatorToken": null,
                                                         "getKeyword": {
                                                             "kind": 16498,
                                                             "flags": 64,

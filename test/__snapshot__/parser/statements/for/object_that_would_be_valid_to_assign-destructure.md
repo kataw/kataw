@@ -50,7 +50,6 @@ for ({x: a.b};;);
                         {
                             "kind": 219,
                             "generatorToken": null,
-                            "asyncKeyword": null,
                             "left": {
                                 "kind": 129,
                                 "member": {

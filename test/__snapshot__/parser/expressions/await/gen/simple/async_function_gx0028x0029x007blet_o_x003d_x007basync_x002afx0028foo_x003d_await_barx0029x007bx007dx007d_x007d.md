@@ -87,12 +87,17 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "properties": [
                                                     {
                                                         "kind": 257,
-                                                        "generatorToken": null,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 64,
                                                             "start": 28,
                                                             "end": 33
+                                                        },
+                                                        "generatorToken": {
+                                                            "kind": 67143222,
+                                                            "flags": 64,
+                                                            "start": 33,
+                                                            "end": 35
                                                         },
                                                         "getKeyword": null,
                                                         "setKeyword": null,

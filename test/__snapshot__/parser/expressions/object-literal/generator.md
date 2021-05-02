@@ -40,13 +40,13 @@ x= { *prototype(){} }
                         "properties": [
                             {
                                 "kind": 257,
+                                "asyncKeyword": null,
                                 "generatorToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 4,
                                     "end": 6
                                 },
-                                "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {

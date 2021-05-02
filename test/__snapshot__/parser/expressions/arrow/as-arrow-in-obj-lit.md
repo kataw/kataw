@@ -43,7 +43,6 @@ x = {arrow: (x, y) => ok};
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 271,
                                     "arrowToken": {
@@ -133,7 +132,6 @@ x = {arrow: (x, y) => ok};
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 271,
                                     "arrowToken": {

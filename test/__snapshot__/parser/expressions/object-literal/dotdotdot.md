@@ -119,7 +119,6 @@ var { ...{ x = 5 } } = {x : 1};
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 1,

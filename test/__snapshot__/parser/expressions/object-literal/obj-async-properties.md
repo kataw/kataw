@@ -71,7 +71,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "await",
@@ -122,7 +121,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 197,
                                     "shortCircuit": {
@@ -213,7 +211,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 134,
                                     "text": true,
@@ -262,8 +259,8 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -337,13 +334,13 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 99,
                                     "end": 104
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -433,8 +430,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -516,8 +513,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -591,13 +588,13 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 162,
                                     "end": 167
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -677,13 +674,13 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 183,
                                     "end": 188
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -765,6 +762,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 144, end: 151
 ✖ ',' expected - start: 144, end: 151
 
 ```

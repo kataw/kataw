@@ -57,13 +57,13 @@ const obj = {
                                     },
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 65,
                                             "start": 24,
                                             "end": 30
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

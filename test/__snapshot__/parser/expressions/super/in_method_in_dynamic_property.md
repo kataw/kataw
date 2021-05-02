@@ -40,8 +40,8 @@ x = { foo(){ return x[super.foo]; }}
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {

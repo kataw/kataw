@@ -55,7 +55,6 @@ result = { x: x[yield] } = vals;
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 23,
@@ -127,7 +126,6 @@ result = { x: x[yield] } = vals;
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 130,
                                         "member": {

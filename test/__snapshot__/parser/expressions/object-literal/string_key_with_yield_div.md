@@ -79,7 +79,6 @@ function *f(){   s = {"foo": yield / x}   }
                                             {
                                                 "kind": 219,
                                                 "generatorToken": null,
-                                                "asyncKeyword": null,
                                                 "left": {
                                                     "kind": 198,
                                                     "left": {

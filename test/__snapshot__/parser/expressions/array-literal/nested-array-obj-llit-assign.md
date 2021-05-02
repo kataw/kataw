@@ -62,7 +62,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar4",
@@ -128,7 +127,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -194,7 +192,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar5",
@@ -274,7 +271,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -340,7 +336,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar4",
@@ -420,7 +415,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -486,7 +480,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar4",
@@ -552,7 +545,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -618,7 +610,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar5",
@@ -698,7 +689,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -764,7 +754,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar4",
@@ -844,7 +833,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",
@@ -910,7 +898,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "bar4",
@@ -1008,7 +995,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392131,
                                                 "text": "bar",

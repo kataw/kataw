@@ -177,7 +177,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -345,7 +344,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -913,7 +911,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 220,
                                         "propertyList": {
@@ -1019,7 +1016,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 125,
                                     "left": {

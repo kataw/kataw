@@ -126,8 +126,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                 "properties": [
                                                                     {
                                                                         "kind": 257,
-                                                                        "generatorToken": null,
                                                                         "asyncKeyword": null,
+                                                                        "generatorToken": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {
@@ -192,8 +192,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                     },
                                                                     {
                                                                         "kind": 257,
-                                                                        "generatorToken": null,
                                                                         "asyncKeyword": null,
+                                                                        "generatorToken": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {

@@ -42,13 +42,13 @@ x = {
                         "properties": [
                             {
                                 "kind": 257,
+                                "asyncKeyword": null,
                                 "generatorToken": {
                                     "kind": 67143222,
                                     "flags": 65,
                                     "start": 5,
                                     "end": 9
                                 },
-                                "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {

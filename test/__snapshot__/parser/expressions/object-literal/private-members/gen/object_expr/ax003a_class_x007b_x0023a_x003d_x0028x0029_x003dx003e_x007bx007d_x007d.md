@@ -31,7 +31,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 189,
                                     "decorators": null,

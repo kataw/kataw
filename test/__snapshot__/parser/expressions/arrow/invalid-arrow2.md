@@ -314,7 +314,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 135,
                                         "flags": 96,
@@ -390,7 +389,6 @@
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 129,
                                             "member": {
@@ -752,7 +750,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -842,7 +839,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "y",
@@ -931,8 +927,8 @@
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": null,
+                                    "generatorToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
@@ -1088,7 +1084,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 16637,
                                         "text": "",
@@ -1192,6 +1187,7 @@
 ✖ Statement expected - start: 287, end: 290
 ✖ Expression expected - start: 300, end: 306
 ✖ ',' expected - start: 300, end: 306
+✖ Property assignment expected - start: 306, end: 307
 ✖ The left hand side of the arrow is not destructible  - start: 308, end: 311
 
 ```

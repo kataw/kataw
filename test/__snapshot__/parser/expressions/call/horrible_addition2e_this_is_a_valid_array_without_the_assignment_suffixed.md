@@ -38,7 +38,6 @@ log({foo: [bar]});
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 119,
                                             "elementList": {

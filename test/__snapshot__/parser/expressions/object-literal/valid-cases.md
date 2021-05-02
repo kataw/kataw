@@ -71,7 +71,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -94,8 +93,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -175,7 +174,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -198,8 +196,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -298,7 +296,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -321,8 +318,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -402,7 +399,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -425,8 +421,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -525,7 +521,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -548,8 +543,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -629,7 +624,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -652,8 +646,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -751,8 +745,8 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -804,8 +798,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -884,8 +878,8 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -956,8 +950,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1056,7 +1050,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1079,8 +1072,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -1160,7 +1153,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1183,8 +1175,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1282,8 +1274,8 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1358,7 +1350,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -1409,7 +1400,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 4,
@@ -1459,13 +1449,13 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 345,
                                     "end": 351
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1540,7 +1530,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 5,
@@ -1590,13 +1579,13 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 386,
                                     "end": 392
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1671,7 +1660,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -1735,13 +1723,13 @@
                         "properties": [
                             {
                                 "kind": 257,
+                                "asyncKeyword": null,
                                 "generatorToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 440,
                                     "end": 442
                                 },
-                                "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1829,8 +1817,8 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -1924,7 +1912,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -1947,8 +1934,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2047,7 +2034,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2070,8 +2056,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2170,7 +2156,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2193,8 +2178,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 64,
@@ -2274,7 +2259,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2297,8 +2281,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2397,7 +2381,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 1,
@@ -2421,7 +2404,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,

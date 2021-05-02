@@ -123,6 +123,7 @@ do async try while { catch }
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expected a `;` - start: 8, end: 12
 ✖ Expression expected - start: 12, end: 18
+✖ Property assignment expected - start: 26, end: 28
 ✖ Expression expected - start: 28, end: 28
 
 ```

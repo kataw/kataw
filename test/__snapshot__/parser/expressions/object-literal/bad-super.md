@@ -113,7 +113,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 203,
                                                                         "chain": {

@@ -534,7 +534,6 @@ try {} catch(e) { for(var e of 0); };
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 0,
@@ -604,8 +603,8 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": null,
+                                    "generatorToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
@@ -704,8 +703,8 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": null,
+                                    "generatorToken": null,
                                     "getKeyword": null,
                                     "setKeyword": {
                                         "kind": 16499,
@@ -823,8 +822,8 @@ try {} catch(e) { for(var e of 0); };
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": null,
+                                    "generatorToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -1322,7 +1321,6 @@ try {} catch(e) { for(var e of 0); };
                                             {
                                                 "kind": 219,
                                                 "generatorToken": null,
-                                                "asyncKeyword": null,
                                                 "left": {
                                                     "kind": 201392130,
                                                     "text": 0,
@@ -1646,7 +1644,6 @@ try {} catch(e) { for(var e of 0); };
                         {
                             "kind": 219,
                             "generatorToken": null,
-                            "asyncKeyword": null,
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
@@ -1772,7 +1769,6 @@ try {} catch(e) { for(var e of 0); };
                         {
                             "kind": 219,
                             "generatorToken": null,
-                            "asyncKeyword": null,
                             "left": {
                                 "kind": 201392130,
                                 "text": 0,
@@ -1983,7 +1979,6 @@ try {} catch(e) { for(var e of 0); };
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -2121,7 +2116,6 @@ try {} catch(e) { for(var e of 0); };
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -2491,8 +2485,8 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2599,8 +2593,8 @@ try {} catch(e) { for(var e of 0); };
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2853,8 +2847,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "properties": [
                                                             {
                                                                 "kind": 257,
-                                                                "generatorToken": null,
                                                                 "asyncKeyword": null,
+                                                                "generatorToken": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "method": {
@@ -3071,13 +3065,13 @@ try {} catch(e) { for(var e of 0); };
                                                         "properties": [
                                                             {
                                                                 "kind": 257,
+                                                                "asyncKeyword": null,
                                                                 "generatorToken": {
                                                                     "kind": 67143222,
                                                                     "flags": 64,
                                                                     "start": 3336,
                                                                     "end": 3337
                                                                 },
-                                                                "asyncKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "method": {
@@ -3294,8 +3288,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "properties": [
                                                             {
                                                                 "kind": 257,
-                                                                "generatorToken": null,
                                                                 "asyncKeyword": null,
+                                                                "generatorToken": null,
                                                                 "getKeyword": {
                                                                     "kind": 16498,
                                                                     "flags": 64,
@@ -3517,8 +3511,8 @@ try {} catch(e) { for(var e of 0); };
                                                         "properties": [
                                                             {
                                                                 "kind": 257,
-                                                                "generatorToken": null,
                                                                 "asyncKeyword": null,
+                                                                "generatorToken": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": {
                                                                     "kind": 16499,
@@ -5286,7 +5280,6 @@ try {} catch(e) { for(var e of 0); };
                                                 {
                                                     "kind": 219,
                                                     "generatorToken": null,
-                                                    "asyncKeyword": null,
                                                     "left": {
                                                         "kind": 134299649,
                                                         "text": "a",

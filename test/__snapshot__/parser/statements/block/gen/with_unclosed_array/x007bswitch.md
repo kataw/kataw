@@ -96,6 +96,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 10, end: 10
 ✖ ',' expected - start: 10, end: 10
 ✖ ',' expected - start: 10, end: 10
 

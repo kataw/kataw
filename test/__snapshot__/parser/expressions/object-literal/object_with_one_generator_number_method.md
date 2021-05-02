@@ -37,13 +37,13 @@ wrap({*123(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 6,
                                             "end": 7
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

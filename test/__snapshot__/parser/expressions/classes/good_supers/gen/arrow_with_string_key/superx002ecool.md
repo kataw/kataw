@@ -121,7 +121,6 @@ class x extends y {
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 129,
                                                                         "member": {

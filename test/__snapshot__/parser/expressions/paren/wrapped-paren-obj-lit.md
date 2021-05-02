@@ -41,7 +41,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 129,
                                                             "member": {
@@ -93,7 +92,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 129,
                                                             "member": {
@@ -166,7 +164,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 201,
@@ -190,7 +187,6 @@
                                                     {
                                                         "kind": 219,
                                                         "generatorToken": null,
-                                                        "asyncKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 301,
@@ -280,7 +276,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 129,
                                                                     "member": {
@@ -332,7 +327,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 129,
                                                                     "member": {
@@ -405,7 +399,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 201,
@@ -429,7 +422,6 @@
                                                             {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
-                                                                "asyncKeyword": null,
                                                                 "left": {
                                                                     "kind": 201392130,
                                                                     "text": 301,
@@ -506,7 +498,6 @@
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 129,
                                                                         "member": {
@@ -558,7 +549,6 @@
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 129,
                                                                         "member": {
@@ -631,7 +621,6 @@
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 201,
@@ -655,7 +644,6 @@
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 301,

@@ -41,7 +41,6 @@ s = {s: true}
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 134,
                                     "text": true,

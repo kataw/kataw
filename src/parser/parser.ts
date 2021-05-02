@@ -2102,7 +2102,7 @@ function parsePropertyDefinition(
 
   let nodeFlags = generatorToken ? NodeFlags.ExpressionNode | NodeFlags.Generator : NodeFlags.ExpressionNode;
 
-  if (parser.token & 8404992) {
+  if (parser.token & 0b00000000100000000100000000000000) {
     const token = parser.token;
     key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
 
@@ -2139,9 +2139,6 @@ function parsePropertyDefinition(
             parser.pos
           );
         }
-
-        generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-        if (generatorToken) nodeFlags |= NodeFlags.Generator;
       } else if (token === SyntaxKind.GetKeyword) {
         nodeFlags |= NodeFlags.Getter;
         getKeyword = createToken(SyntaxKind.GetKeyword, NodeFlags.ChildLess, pos, parser.curPos);
@@ -2193,7 +2190,7 @@ function parsePropertyDefinition(
 
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
     let left: any;
-    if (parser.token & 12599296) {
+    if (parser.token & 0b00000000110000000100000000000000) {
       left = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
       const token = parser.token;
@@ -2253,16 +2250,16 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(generatorToken, asyncKeyword, left, key, pos, parser.curPos);
+    return createPropertyDefinition(generatorToken, left, key, pos, parser.curPos);
   }
-  if (parser.destructible & DestructibleKind.MustDestruct) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[DiagnosticCode.Invalid_optional_chain_from_new_expression],
-      parser.curPos,
-      parser.pos
-    );
-  }
+
+  parser.onError(
+    DiagnosticSource.Parser,
+    diagnosticMap[DiagnosticCode.Property_assignment_expected],
+    parser.curPos,
+    parser.pos
+  );
+
   return key;
 }
 

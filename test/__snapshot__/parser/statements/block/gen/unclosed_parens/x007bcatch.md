@@ -70,6 +70,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 9, end: 9
 ✖ ',' expected - start: 9, end: 9
 
 ```

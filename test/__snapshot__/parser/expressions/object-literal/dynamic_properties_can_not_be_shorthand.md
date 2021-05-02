@@ -92,6 +92,7 @@ call({[x]})
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Property assignment expected - start: 9, end: 10
+
 ```
 

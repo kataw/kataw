@@ -46,8 +46,8 @@ wrap({0o4432(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -138,8 +138,8 @@ wrap({0o4432(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -230,8 +230,8 @@ wrap({0o4432(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -322,8 +322,8 @@ wrap({0o4432(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -414,8 +414,8 @@ wrap({0o4432(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

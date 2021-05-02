@@ -412,8 +412,8 @@ class C { test() {get #a() { }}}
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -524,13 +524,13 @@ class C { test() {get #a() { }}}
                         "properties": [
                             {
                                 "kind": 257,
+                                "asyncKeyword": null,
                                 "generatorToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 162,
                                     "end": 163
                                 },
-                                "asyncKeyword": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -605,13 +605,13 @@ class C { test() {get #a() { }}}
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 178,
                                         "end": 183
                                     },
+                                    "generatorToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -710,12 +710,17 @@ class C { test() {get #a() { }}}
                             "properties": [
                                 {
                                     "kind": 257,
-                                    "generatorToken": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 204,
                                         "end": 209
+                                    },
+                                    "generatorToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 209,
+                                        "end": 211
                                     },
                                     "getKeyword": null,
                                     "setKeyword": null,

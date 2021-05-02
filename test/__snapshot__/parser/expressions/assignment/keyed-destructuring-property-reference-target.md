@@ -204,8 +204,8 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 257,
-                                            "generatorToken": null,
                                             "asyncKeyword": null,
+                                            "generatorToken": null,
                                             "getKeyword": {
                                                 "kind": 16498,
                                                 "flags": 64,
@@ -435,8 +435,8 @@ function targetKey() {
                                     "properties": [
                                         {
                                             "kind": 257,
-                                            "generatorToken": null,
                                             "asyncKeyword": null,
+                                            "generatorToken": null,
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
@@ -686,7 +686,6 @@ function targetKey() {
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
@@ -939,7 +938,6 @@ function targetKey() {
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
@@ -1106,7 +1104,6 @@ function targetKey() {
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 130,
                                         "member": {

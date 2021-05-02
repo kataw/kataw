@@ -69,6 +69,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Property assignment expected - start: 7, end: 8
+
 ```
 

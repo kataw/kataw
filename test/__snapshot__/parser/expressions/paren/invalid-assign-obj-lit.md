@@ -101,7 +101,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 1,
@@ -218,7 +217,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 1,
@@ -349,7 +347,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 1,
@@ -486,7 +483,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 1,
@@ -671,7 +667,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -963,7 +958,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -1159,7 +1153,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 220,
                                     "propertyList": {
@@ -1271,7 +1264,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 220,
                                     "propertyList": {
@@ -1438,7 +1430,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 220,
                                     "propertyList": {
@@ -1526,7 +1517,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 220,
                                     "propertyList": {
@@ -1579,7 +1569,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -2346,7 +2335,7 @@
 ✖ Statement expected - start: 290, end: 291
 ✖ Statement expected - start: 295, end: 296
 ✖ Statement expected - start: 296, end: 297
-✖ Invalid optional chain from new expression - start: 316, end: 317
+✖ Property assignment expected - start: 316, end: 317
 ✖ Dot property must be an identifier - start: 347, end: 348
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 365, end: 367
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 392, end: 394
@@ -2355,6 +2344,7 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 476, end: 478
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 501, end: 503
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
+✖ Property assignment expected - start: 528, end: 529
 ✖ Statement expected - start: 529, end: 530
 ✖ Statement expected - start: 530, end: 531
 

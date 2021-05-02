@@ -62,7 +62,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 129,
                                         "member": {
@@ -486,7 +485,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 130,
                                         "member": {
@@ -579,7 +577,6 @@
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 129,
                                             "member": {
@@ -1063,7 +1060,6 @@
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 130,
                                             "member": {

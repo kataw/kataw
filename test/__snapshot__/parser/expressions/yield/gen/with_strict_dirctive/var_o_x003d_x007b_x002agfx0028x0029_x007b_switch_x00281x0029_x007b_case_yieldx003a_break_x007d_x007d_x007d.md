@@ -64,13 +64,13 @@
                                 "properties": [
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

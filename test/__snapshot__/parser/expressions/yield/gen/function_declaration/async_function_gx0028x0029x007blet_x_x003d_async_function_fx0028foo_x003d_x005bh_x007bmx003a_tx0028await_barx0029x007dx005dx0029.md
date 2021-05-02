@@ -173,7 +173,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                 {
                                                                                                     "kind": 219,
                                                                                                     "generatorToken": null,
-                                                                                                    "asyncKeyword": null,
                                                                                                     "left": {
                                                                                                         "kind": 131,
                                                                                                         "expression": {

@@ -240,7 +240,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 2,
@@ -584,7 +583,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 2,
@@ -748,7 +746,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     {
                                         "kind": 219,
                                         "generatorToken": null,
-                                        "asyncKeyword": null,
                                         "left": {
                                             "kind": 125,
                                             "left": {

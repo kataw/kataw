@@ -48,13 +48,13 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 3,
                                             "end": 4
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -101,13 +101,13 @@ x({get 0o4567(){}});
                                     },
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 13,
                                             "end": 14
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -198,8 +198,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -252,8 +252,8 @@ x({get 0o4567(){}});
                                     },
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -355,8 +355,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -458,8 +458,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -517,8 +517,8 @@ x({get 0o4567(){}});
                                     },
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -620,8 +620,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -717,8 +717,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -770,8 +770,8 @@ x({get 0o4567(){}});
                                     },
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -867,8 +867,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -964,8 +964,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -1061,8 +1061,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -1158,8 +1158,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,
@@ -1255,8 +1255,8 @@ x({get 0o4567(){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,

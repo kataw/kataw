@@ -47,7 +47,6 @@ x = {arrow: async async => ok}.y
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 271,
                                         "arrowToken": {

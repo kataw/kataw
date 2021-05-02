@@ -933,6 +933,7 @@ var { f\u0061lse } = {};
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 40, end: 42
 ✖ Expected a `;` - start: 55, end: 65
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 65, end: 67
 ✖ Expected a `;` - start: 75, end: 85
@@ -956,6 +957,8 @@ var { f\u0061lse } = {};
 ✖ Keywords cannot contain escape characters - start: 217, end: 218
 ✖ Statement expected - start: 217, end: 218
 ✖ Statement expected - start: 218, end: 220
+✖ Property assignment expected - start: 246, end: 248
+✖ Property assignment expected - start: 280, end: 282
 ✖ Expected a `;` - start: 295, end: 303
 ✖ Keywords cannot contain escape characters - start: 303, end: 304
 ✖ Expression expected - start: 303, end: 304

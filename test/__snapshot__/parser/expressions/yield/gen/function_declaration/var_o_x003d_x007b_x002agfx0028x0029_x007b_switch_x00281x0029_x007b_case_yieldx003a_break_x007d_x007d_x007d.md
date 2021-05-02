@@ -83,13 +83,13 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                 "properties": [
                                                     {
                                                         "kind": 257,
+                                                        "asyncKeyword": null,
                                                         "generatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
                                                             "start": 30,
                                                             "end": 32
                                                         },
-                                                        "asyncKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "method": {

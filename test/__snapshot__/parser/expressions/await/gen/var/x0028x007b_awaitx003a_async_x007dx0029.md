@@ -125,7 +125,6 @@ var await; var f = (async function() { ({ await: async }) });
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 134299649,
                                                                         "text": "async",

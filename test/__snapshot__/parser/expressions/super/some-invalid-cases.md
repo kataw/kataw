@@ -1681,7 +1681,6 @@ let x = { foo(){ super(); } };
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,
@@ -1926,7 +1925,6 @@ let x = { foo(){ super(); } };
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,
@@ -2067,8 +2065,8 @@ let x = { foo(){ super(); } };
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2465,8 +2463,8 @@ let x = { foo(){ super(); } };
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

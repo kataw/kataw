@@ -988,7 +988,6 @@ L: let
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 201392130,
                                         "text": 1,
@@ -1033,8 +1032,8 @@ L: let
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 64,

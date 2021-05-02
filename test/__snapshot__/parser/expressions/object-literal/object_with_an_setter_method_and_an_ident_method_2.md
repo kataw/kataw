@@ -37,8 +37,8 @@ wrap({[foo](){}, set [bar](e){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -91,8 +91,8 @@ wrap({[foo](){}, set [bar](e){}});
                                     },
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,

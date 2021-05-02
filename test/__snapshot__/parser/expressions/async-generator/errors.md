@@ -4326,7 +4326,6 @@ async function * gen() {class C extends await { }}
                                                                     {
                                                                         "kind": 219,
                                                                         "generatorToken": null,
-                                                                        "asyncKeyword": null,
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 42,
@@ -4498,7 +4497,6 @@ async function * gen() {class C extends await { }}
                                                                     {
                                                                         "kind": 219,
                                                                         "generatorToken": null,
-                                                                        "asyncKeyword": null,
                                                                         "left": {
                                                                             "kind": 201392130,
                                                                             "text": 42,
@@ -4876,7 +4874,6 @@ async function * gen() {class C extends await { }}
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
@@ -4928,7 +4925,6 @@ async function * gen() {class C extends await { }}
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 42,
@@ -5043,7 +5039,6 @@ async function * gen() {class C extends await { }}
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 208,
                                                                         "awaitToken": {
@@ -5099,7 +5094,6 @@ async function * gen() {class C extends await { }}
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 201392130,
                                                                         "text": 42,
@@ -6313,7 +6307,6 @@ async function * gen() {class C extends await { }}
                                                 {
                                                     "kind": 219,
                                                     "generatorToken": null,
-                                                    "asyncKeyword": null,
                                                     "left": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
@@ -6372,7 +6365,6 @@ async function * gen() {class C extends await { }}
                                                 {
                                                     "kind": 219,
                                                     "generatorToken": null,
-                                                    "asyncKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 42,
@@ -6487,7 +6479,6 @@ async function * gen() {class C extends await { }}
                                                 {
                                                     "kind": 219,
                                                     "generatorToken": null,
-                                                    "asyncKeyword": null,
                                                     "left": {
                                                         "kind": 208,
                                                         "awaitToken": {
@@ -6544,7 +6535,6 @@ async function * gen() {class C extends await { }}
                                                 {
                                                     "kind": 219,
                                                     "generatorToken": null,
-                                                    "asyncKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 42,

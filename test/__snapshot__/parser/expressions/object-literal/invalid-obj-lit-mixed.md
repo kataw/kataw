@@ -37,7 +37,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 198,
                                     "left": {
@@ -179,7 +178,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 198,
                                     "left": {
@@ -810,7 +808,6 @@
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 198,
                                     "left": {
@@ -1085,7 +1082,6 @@
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 198,
                                         "left": {
@@ -1371,7 +1367,6 @@
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 198,
                                                 "left": {
@@ -1666,6 +1661,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 43, end: 44
 ✖ ',' expected - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a `;` - start: 46, end: 47
@@ -1675,6 +1671,7 @@
 ✖ Statement expected - start: 49, end: 50
 ✖ Statement expected - start: 50, end: 52
 ✖ Statement expected - start: 52, end: 53
+✖ Property assignment expected - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
 ✖ ',' expected - start: 99, end: 100
 ✖ Expected a `;` - start: 101, end: 102

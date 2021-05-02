@@ -110,7 +110,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                                                 {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
-                                                                    "asyncKeyword": null,
                                                                     "left": {
                                                                         "kind": 198,
                                                                         "left": {

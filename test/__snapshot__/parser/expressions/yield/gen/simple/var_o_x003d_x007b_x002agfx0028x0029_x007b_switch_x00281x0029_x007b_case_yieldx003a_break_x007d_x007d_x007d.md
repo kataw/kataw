@@ -50,13 +50,13 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                 "properties": [
                                     {
                                         "kind": 257,
+                                        "asyncKeyword": null,
                                         "generatorToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 9,
                                             "end": 11
                                         },
-                                        "asyncKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

@@ -34,13 +34,13 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 8,
                                     "end": 14
                                 },
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -122,6 +122,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 8, end: 14
 ✖ ',' expected - start: 8, end: 14
 
 ```

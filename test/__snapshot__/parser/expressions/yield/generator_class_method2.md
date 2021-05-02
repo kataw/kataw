@@ -138,7 +138,6 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                 {
                                                                                     "kind": 219,
                                                                                     "generatorToken": null,
-                                                                                    "asyncKeyword": null,
                                                                                     "left": {
                                                                                         "kind": 131,
                                                                                         "expression": {

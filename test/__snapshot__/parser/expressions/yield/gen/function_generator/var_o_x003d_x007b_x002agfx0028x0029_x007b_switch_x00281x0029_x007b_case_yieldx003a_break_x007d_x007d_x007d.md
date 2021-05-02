@@ -121,13 +121,13 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "properties": [
                                                                     {
                                                                         "kind": 257,
+                                                                        "asyncKeyword": null,
                                                                         "generatorToken": {
                                                                             "kind": 67143222,
                                                                             "flags": 64,
                                                                             "start": 49,
                                                                             "end": 51
                                                                         },
-                                                                        "asyncKeyword": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {

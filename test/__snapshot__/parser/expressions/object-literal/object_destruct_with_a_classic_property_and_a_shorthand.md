@@ -43,7 +43,6 @@ x = {a:b, c} = obj;
                                 {
                                     "kind": 219,
                                     "generatorToken": null,
-                                    "asyncKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "b",

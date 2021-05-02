@@ -37,8 +37,8 @@ x({set [foo](b){}, set [bar](d){}});
                                 "properties": [
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -115,8 +115,8 @@ x({set [foo](b){}, set [bar](d){}});
                                     },
                                     {
                                         "kind": 257,
-                                        "generatorToken": null,
                                         "asyncKeyword": null,
+                                        "generatorToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,

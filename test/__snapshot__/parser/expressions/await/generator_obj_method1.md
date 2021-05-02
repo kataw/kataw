@@ -83,13 +83,13 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                 "properties": [
                                                     {
                                                         "kind": 257,
+                                                        "asyncKeyword": null,
                                                         "generatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
                                                             "start": 28,
                                                             "end": 29
                                                         },
-                                                        "asyncKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "method": {
@@ -140,7 +140,6 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                 {
                                                                                                     "kind": 219,
                                                                                                     "generatorToken": null,
-                                                                                                    "asyncKeyword": null,
                                                                                                     "left": {
                                                                                                         "kind": 131,
                                                                                                         "expression": {

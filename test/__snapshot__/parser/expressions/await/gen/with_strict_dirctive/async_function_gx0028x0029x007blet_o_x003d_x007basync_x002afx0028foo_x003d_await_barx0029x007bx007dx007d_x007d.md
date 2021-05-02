@@ -101,12 +101,17 @@
                                                 "properties": [
                                                     {
                                                         "kind": 257,
-                                                        "generatorToken": null,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 64,
                                                             "start": 42,
                                                             "end": 47
+                                                        },
+                                                        "generatorToken": {
+                                                            "kind": 67143222,
+                                                            "flags": 64,
+                                                            "start": 47,
+                                                            "end": 49
                                                         },
                                                         "getKeyword": null,
                                                         "setKeyword": null,

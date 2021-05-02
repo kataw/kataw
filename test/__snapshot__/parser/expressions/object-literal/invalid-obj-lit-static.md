@@ -34,8 +34,8 @@
                             },
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": null,
+                                "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -117,6 +117,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 8, end: 10
 ✖ ',' expected - start: 8, end: 10
 
 ```

@@ -65,6 +65,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 7, end: 8
 ✖ ',' expected - start: 7, end: 8
 ✖ Expected a `;` - start: 11, end: 13
 ✖ Statement expected - start: 14, end: 15

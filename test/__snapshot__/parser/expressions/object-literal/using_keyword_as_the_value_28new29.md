@@ -41,7 +41,6 @@ s = {s: new}
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 210,
                                     "newKeyword": {

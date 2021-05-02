@@ -47,7 +47,6 @@ for ({a: b.c}() of d) e
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 129,
                                     "member": {

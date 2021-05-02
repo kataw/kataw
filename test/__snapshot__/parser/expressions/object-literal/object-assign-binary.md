@@ -58,7 +58,6 @@ x = { "a": {x} = y.z };
                             {
                                 "kind": 219,
                                 "generatorToken": null,
-                                "asyncKeyword": null,
                                 "left": {
                                     "kind": 125,
                                     "left": {

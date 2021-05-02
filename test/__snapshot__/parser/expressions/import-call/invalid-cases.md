@@ -2071,6 +2071,7 @@ new import(x);
 ✖ Statement expected - start: 387, end: 388
 ✖ Expression expected - start: 399, end: 400
 ✖ ',' expected - start: 400, end: 403
+✖ Property assignment expected - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
 ✖ Unexpected token. - start: 419, end: 420
 ✖ Expected a `;` - start: 419, end: 420

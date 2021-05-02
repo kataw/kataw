@@ -130,7 +130,9 @@ wrap({async [foo""](){}});
 ### Diagnostics
 
 ```javascript
+✖ Property assignment expected - start: 16, end: 18
 ✖ ',' expected - start: 16, end: 18
+✖ Property assignment expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ Expected a `;` - start: 18, end: 19

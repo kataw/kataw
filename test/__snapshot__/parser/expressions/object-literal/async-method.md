@@ -30,12 +30,17 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 2,
                                     "end": 8
+                                },
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 10
                                 },
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -240,12 +245,17 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 68,
                                     "end": 74
+                                },
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 74,
+                                    "end": 76
                                 },
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -489,12 +499,17 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 127,
                                     "end": 133
+                                },
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 133,
+                                    "end": 135
                                 },
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -660,12 +675,17 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 178,
                                     "end": 184
+                                },
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 184,
+                                    "end": 186
                                 },
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -791,12 +811,17 @@
                         "properties": [
                             {
                                 "kind": 257,
-                                "generatorToken": null,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 212,
                                     "end": 218
+                                },
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 218,
+                                    "end": 220
                                 },
                                 "getKeyword": null,
                                 "setKeyword": null,

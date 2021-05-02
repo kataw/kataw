@@ -40,7 +40,6 @@ x({[a]:b, [15]:d}=obj);
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -70,7 +69,6 @@ x({[a]:b, [15]:d}=obj);
                                         {
                                             "kind": 219,
                                             "generatorToken": null,
-                                            "asyncKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "d",
