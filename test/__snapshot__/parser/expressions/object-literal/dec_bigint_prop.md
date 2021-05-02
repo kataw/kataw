@@ -37,37 +37,47 @@ x = {10n: y}
                     "kind": 220,
                     "propertyList": {
                         "kind": 218,
-                        "properties": [],
+                        "properties": [
+                            {
+                                "kind": 219,
+                                "generatorToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 11
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "10",
+                                    "rawText": "10",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 8
+                                },
+                                "flags": 32,
+                                "start": 5,
+                                "end": 11
+                            }
+                        ],
                         "trailingComma": false,
                         "flags": 16,
                         "start": 5,
-                        "end": 5
+                        "end": 11
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 5
+                    "end": 12
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 5
+                "end": 12
             },
             "flags": 16,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 9,
-                "end": 11
-            },
-            "flags": 16,
-            "start": 9,
-            "end": 11
+            "end": 12
         }
     ],
     "isModule": false,
@@ -88,10 +98,6 @@ x = {10n: y}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 8
-✖ Statement expected - start: 5, end: 8
-✖ Statement expected - start: 8, end: 9
-✖ Statement expected - start: 11, end: 12
-
+✔ No errors
 ```
 

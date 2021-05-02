@@ -37,47 +37,72 @@ x = {0xeban(){}}
                     "kind": 220,
                     "propertyList": {
                         "kind": 218,
-                        "properties": [],
+                        "properties": [
+                            {
+                                "kind": 257,
+                                "asyncKeyword": null,
+                                "generatorToken": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": 3770,
+                                        "rawText": "",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 11
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 14,
+                                            "end": 14
+                                        },
+                                        "flags": 32,
+                                        "start": 13,
+                                        "end": 15
+                                    },
+                                    "flags": 32,
+                                    "start": 11,
+                                    "end": 15
+                                },
+                                "flags": 32,
+                                "start": 5,
+                                "end": 15
+                            }
+                        ],
                         "trailingComma": false,
                         "flags": 1048592,
                         "start": 5,
-                        "end": 5
+                        "end": 15
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 5
+                    "end": 16
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 5
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 271,
-                "arrowToken": null,
-                "typeParameters": null,
-                "parameters": [],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 14,
-                    "end": 14
-                },
-                "flags": 32,
-                "start": 11,
-                "end": 14
-            },
-            "flags": 16,
-            "start": 11,
-            "end": 14
+            "end": 16
         }
     ],
     "isModule": false,
@@ -98,11 +123,6 @@ x = {0xeban(){}}
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 5, end: 11
-✖ Statement expected - start: 5, end: 11
-✖ Expression expected - start: 14, end: 15
-✖ Statement expected - start: 14, end: 15
-✖ Statement expected - start: 15, end: 16
-
+✔ No errors
 ```
 
