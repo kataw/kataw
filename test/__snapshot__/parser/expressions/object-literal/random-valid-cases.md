@@ -854,14 +854,6 @@ a = { y: x = 1 } = b;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 177,
-                                "end": 182
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -876,7 +868,7 @@ a = { y: x = 1 } = b;
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 187,
                                     "end": 188
                                 },
@@ -895,7 +887,7 @@ a = { y: x = 1 } = b;
                                     "start": 188,
                                     "end": 190
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 186,
                                 "end": 190
                             }
@@ -2045,14 +2037,6 @@ a = { y: x = 1 } = b;
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "set",
-                                        "rawText": "set",
-                                        "flags": 96,
-                                        "start": 445,
-                                        "end": 448
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392131,
@@ -2086,7 +2070,7 @@ a = { y: x = 1 } = b;
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 455,
                                             "end": 457
                                         },
@@ -2105,7 +2089,7 @@ a = { y: x = 1 } = b;
                                             "start": 457,
                                             "end": 459
                                         },
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 454,
                                         "end": 459
                                     }
@@ -2572,14 +2556,6 @@ a = { y: x = 1 } = b;
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "get",
-                                        "rawText": "get",
-                                        "flags": 96,
-                                        "start": 563,
-                                        "end": 566
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -2594,7 +2570,7 @@ a = { y: x = 1 } = b;
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 1056,
                                             "start": 576,
                                             "end": 577
                                         },
@@ -2613,7 +2589,7 @@ a = { y: x = 1 } = b;
                                             "start": 577,
                                             "end": 579
                                         },
-                                        "flags": 32,
+                                        "flags": 1056,
                                         "start": 575,
                                         "end": 579
                                     }
@@ -2662,14 +2638,6 @@ a = { y: x = 1 } = b;
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "get",
-                                        "rawText": "get",
-                                        "flags": 96,
-                                        "start": 587,
-                                        "end": 590
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392130,
@@ -2684,7 +2652,7 @@ a = { y: x = 1 } = b;
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 1056,
                                             "start": 593,
                                             "end": 594
                                         },
@@ -2703,7 +2671,7 @@ a = { y: x = 1 } = b;
                                             "start": 594,
                                             "end": 596
                                         },
-                                        "flags": 32,
+                                        "flags": 1056,
                                         "start": 592,
                                         "end": 596
                                     }
@@ -3120,14 +3088,6 @@ a = { y: x = 1 } = b;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 712,
-                                "end": 715
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 194,
@@ -3167,7 +3127,7 @@ a = { y: x = 1 } = b;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 720,
                                     "end": 722
                                 },
@@ -3250,7 +3210,7 @@ a = { y: x = 1 } = b;
                                     "start": 722,
                                     "end": 743
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 719,
                                 "end": 743
                             }
@@ -4498,12 +4458,7 @@ a = { y: x = 1 } = b;
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 182, end: 186
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 369, end: 371
-✖ ',' expected - start: 448, end: 454
-✖ ',' expected - start: 566, end: 575
-✖ ',' expected - start: 590, end: 592
-✖ ',' expected - start: 715, end: 717
 
 ```
 

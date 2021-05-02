@@ -296,14 +296,6 @@
                                 "end": 68
                             },
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 69,
-                                "end": 73
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -318,7 +310,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 80,
                                     "end": 81
                                 },
@@ -337,7 +329,7 @@
                                     "start": 81,
                                     "end": 84
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 79,
                                 "end": 84
                             }
@@ -395,14 +387,6 @@
                                 "end": 99
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 100,
-                                "end": 104
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -436,7 +420,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 111,
                                     "end": 113
                                 },
@@ -455,7 +439,7 @@
                                     "start": 113,
                                     "end": 116
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 110,
                                 "end": 116
                             }
@@ -513,14 +497,6 @@
                                 "end": 127
                             },
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 128,
-                                "end": 132
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -535,7 +511,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 135,
                                     "end": 136
                                 },
@@ -554,7 +530,7 @@
                                     "start": 136,
                                     "end": 139
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 134,
                                 "end": 139
                             }
@@ -612,14 +588,6 @@
                                 "end": 150
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 151,
-                                "end": 155
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -653,7 +621,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 158,
                                     "end": 160
                                 },
@@ -672,7 +640,7 @@
                                     "start": 160,
                                     "end": 163
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 157,
                                 "end": 163
                             }
@@ -974,14 +942,6 @@
                                 "end": 245
                             },
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 246,
-                                "end": 250
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -996,7 +956,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 257,
                                     "end": 258
                                 },
@@ -1015,7 +975,7 @@
                                     "start": 258,
                                     "end": 261
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 256,
                                 "end": 261
                             }
@@ -1073,14 +1033,6 @@
                                 "end": 275
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 276,
-                                "end": 280
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -1114,7 +1066,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 287,
                                     "end": 289
                                 },
@@ -1133,7 +1085,7 @@
                                     "start": 289,
                                     "end": 292
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 286,
                                 "end": 292
                             }
@@ -1336,14 +1288,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 345,
-                                "end": 351
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -1358,7 +1302,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 354,
                                     "end": 355
                                 },
@@ -1377,7 +1321,7 @@
                                     "start": 355,
                                     "end": 357
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 353,
                                 "end": 357
                             }
@@ -1673,14 +1617,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 472,
-                                "end": 476
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -1695,7 +1631,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 479,
                                     "end": 480
                                 },
@@ -1714,7 +1650,7 @@
                                     "start": 480,
                                     "end": 483
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 478,
                                 "end": 483
                             }
@@ -1896,14 +1832,6 @@
                                 "end": 539
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 540,
-                                "end": 544
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -1937,7 +1865,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 547,
                                     "end": 549
                                 },
@@ -1956,7 +1884,7 @@
                                     "start": 549,
                                     "end": 552
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 546,
                                 "end": 552
                             }
@@ -2277,15 +2205,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 73, end: 79
-✖ ',' expected - start: 104, end: 110
-✖ ',' expected - start: 132, end: 134
-✖ ',' expected - start: 155, end: 157
-✖ ',' expected - start: 250, end: 256
-✖ ',' expected - start: 280, end: 286
-✖ ',' expected - start: 351, end: 353
-✖ ',' expected - start: 476, end: 478
-✖ ',' expected - start: 544, end: 546
-
+✔ No errors
 ```
 

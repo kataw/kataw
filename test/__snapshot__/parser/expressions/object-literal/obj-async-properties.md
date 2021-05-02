@@ -551,14 +551,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 162,
-                                "end": 167
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 194,
@@ -579,7 +571,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 174,
                                     "end": 175
                                 },
@@ -598,7 +590,7 @@
                                     "start": 175,
                                     "end": 177
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 173,
                                 "end": 177
                             }
@@ -630,14 +622,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 183,
-                                "end": 188
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -652,7 +636,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 193,
                                     "end": 194
                                 },
@@ -671,7 +655,7 @@
                                     "start": 194,
                                     "end": 196
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 192,
                                 "end": 196
                             }
@@ -713,8 +697,6 @@
 
 ```javascript
 ✖ ',' expected - start: 144, end: 151
-✖ ',' expected - start: 167, end: 169
-✖ ',' expected - start: 188, end: 192
 
 ```
 

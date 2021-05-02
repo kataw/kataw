@@ -36,14 +36,6 @@ x({set [foo](b){}, set [bar](d){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "set",
-                                        "rawText": "set",
-                                        "flags": 96,
-                                        "start": 3,
-                                        "end": 6
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -83,7 +75,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 13,
                                             "end": 15
                                         },
@@ -102,17 +94,9 @@ x({set [foo](b){}, set [bar](d){}});
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 12,
                                         "end": 17
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "set",
-                                        "rawText": "set",
-                                        "flags": 96,
-                                        "start": 18,
-                                        "end": 22
                                     },
                                     {
                                         "kind": 209,
@@ -154,7 +138,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 29,
                                             "end": 31
                                         },
@@ -173,7 +157,7 @@ x({set [foo](b){}, set [bar](d){}});
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 28,
                                         "end": 33
                                     }
@@ -220,8 +204,6 @@ x({set [foo](b){}, set [bar](d){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 6, end: 8
-✖ ',' expected - start: 22, end: 24
-
+✔ No errors
 ```
 

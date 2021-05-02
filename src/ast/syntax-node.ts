@@ -349,5 +349,5 @@ export const enum SyntaxKind {
   ArgumentsIdentifier = 16635,
   Labels = 256,
   NameSpaceImport = 255,
-  FromClause = 256
+  FromClause = 256,
 }

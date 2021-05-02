@@ -151,7 +151,9 @@ export const enum DiagnosticCode {
   Missing_label = 149,
   Lexical_declaration_expected = 151,
   An_async_arrow_without_the_default_modifier_can_not_be_exported = 152,
-  Async_arrow_can_not_be_followed_by_new_expression = 153
+  Async_arrow_can_not_be_followed_by_new_expression = 153,
+  _await_keyword_must_not_contain_escaped_characters = 154,
+  _yield_keyword_must_not_contain_escaped_characters = 155
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -304,5 +306,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [149]: 'Missing label',
   [151]: 'Lexical declaration expected',
   [152]: "An async arrow without the 'default' modifier can not be exported",
-  [153]: 'Async arrow can not be followed by new expression'
+  [153]: 'Async arrow can not be followed by new expression',
+  [154]: "'await' keyword must not contain escaped characters",
+  [155]: "'yield' keyword must not contain escaped characters"
 };

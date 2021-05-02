@@ -36,14 +36,6 @@ wrap({async [foo""](){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 6,
-                                        "end": 11
-                                    },
-                                    {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 134299649,
@@ -138,7 +130,6 @@ wrap({async [foo""](){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 11, end: 13
 ✖ ',' expected - start: 16, end: 18
 ✖ ',' expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19

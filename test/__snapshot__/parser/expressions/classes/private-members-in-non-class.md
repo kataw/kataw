@@ -411,14 +411,6 @@ class C { test() {get #a() { }}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 126,
-                                "end": 129
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 67109115,
@@ -451,7 +443,7 @@ class C { test() {get #a() { }}}
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 133,
                                     "end": 137
                                 },
@@ -470,7 +462,7 @@ class C { test() {get #a() { }}}
                                     "start": 137,
                                     "end": 141
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 132,
                                 "end": 141
                             }
@@ -582,14 +574,6 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 178,
-                                    "end": 183
-                                },
-                                {
                                     "kind": 209,
                                     "name": {
                                         "kind": 67109115,
@@ -603,7 +587,7 @@ class C { test() {get #a() { }}}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 187,
                                         "end": 188
                                     },
@@ -622,7 +606,7 @@ class C { test() {get #a() { }}}
                                         "start": 188,
                                         "end": 192
                                     },
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 186,
                                     "end": 192
                                 }
@@ -680,14 +664,6 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 204,
-                                    "end": 209
-                                },
-                                {
                                     "kind": 209,
                                     "name": {
                                         "kind": 67109115,
@@ -701,7 +677,7 @@ class C { test() {get #a() { }}}
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 416,
                                         "start": 214,
                                         "end": 215
                                     },
@@ -720,7 +696,7 @@ class C { test() {get #a() { }}}
                                         "start": 215,
                                         "end": 219
                                     },
-                                    "flags": 32,
+                                    "flags": 416,
                                     "start": 213,
                                     "end": 219
                                 }
@@ -801,13 +777,10 @@ class C { test() {get #a() { }}}
 ✖ Statement expected - start: 73, end: 74
 ✖ Expected a `;` - start: 97, end: 100
 ✖ Statement expected - start: 107, end: 108
-✖ ',' expected - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class_bodies - start: 129, end: 132
 ✖ Private identifiers are not allowed outside class_bodies - start: 163, end: 165
-✖ ',' expected - start: 183, end: 186
 ✖ Private identifiers are not allowed outside class_bodies - start: 183, end: 186
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 193, end: 195
-✖ ',' expected - start: 211, end: 213
 ✖ Private identifiers are not allowed outside class_bodies - start: 211, end: 213
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 220, end: 222
 

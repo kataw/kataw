@@ -80,14 +80,6 @@ wrap({[foo](){}, set [bar](e){}});
                                         "end": 15
                                     },
                                     {
-                                        "kind": 134299649,
-                                        "text": "set",
-                                        "rawText": "set",
-                                        "flags": 96,
-                                        "start": 16,
-                                        "end": 20
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -127,7 +119,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 544,
                                             "start": 27,
                                             "end": 29
                                         },
@@ -146,7 +138,7 @@ wrap({[foo](){}, set [bar](e){}});
                                             "start": 29,
                                             "end": 31
                                         },
-                                        "flags": 32,
+                                        "flags": 544,
                                         "start": 26,
                                         "end": 31
                                     }
@@ -193,7 +185,6 @@ wrap({[foo](){}, set [bar](e){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 20, end: 22
-
+✔ No errors
 ```
 

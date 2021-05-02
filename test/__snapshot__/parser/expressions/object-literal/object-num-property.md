@@ -60,14 +60,6 @@
                                 "end": 6
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 11
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -101,7 +93,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -120,7 +112,7 @@
                                     "start": 16,
                                     "end": 19
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 13,
                                 "end": 19
                             }
@@ -178,14 +170,6 @@
                                 "end": 29
                             },
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 30,
-                                "end": 34
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -200,7 +184,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 37,
                                     "end": 38
                                 },
@@ -219,7 +203,7 @@
                                     "start": 38,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 36,
                                 "end": 41
                             }
@@ -277,14 +261,6 @@
                                 "end": 51
                             },
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 52,
-                                "end": 56
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392131,
@@ -318,7 +294,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 61,
                                     "end": 63
                                 },
@@ -337,7 +313,7 @@
                                     "start": 63,
                                     "end": 66
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 60,
                                 "end": 66
                             }
@@ -676,14 +652,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 145,
-                                "end": 148
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -717,7 +685,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 151,
                                     "end": 153
                                 },
@@ -736,7 +704,7 @@
                                     "start": 153,
                                     "end": 156
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 150,
                                 "end": 156
                             }
@@ -885,14 +853,6 @@
                                 "end": 192
                             },
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 193,
-                                "end": 197
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -907,7 +867,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 200,
                                     "end": 201
                                 },
@@ -926,7 +886,7 @@
                                     "start": 201,
                                     "end": 204
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 199,
                                 "end": 204
                             }
@@ -967,11 +927,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 11, end: 13
-✖ ',' expected - start: 34, end: 36
-✖ ',' expected - start: 56, end: 60
-✖ ',' expected - start: 148, end: 150
-✖ ',' expected - start: 197, end: 199
-
+✔ No errors
 ```
 

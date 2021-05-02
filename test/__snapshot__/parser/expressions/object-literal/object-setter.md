@@ -28,14 +28,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 5
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 194,
@@ -75,7 +67,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 12,
                                     "end": 14
                                 },
@@ -94,7 +86,7 @@
                                     "start": 14,
                                     "end": 17
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 11,
                                 "end": 17
                             }
@@ -125,14 +117,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 26
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -173,7 +157,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 31,
                                     "end": 33
                                 },
@@ -192,7 +176,7 @@
                                     "start": 33,
                                     "end": 36
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 30,
                                 "end": 36
                             }
@@ -223,14 +207,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 42,
-                                "end": 45
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -271,7 +247,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 50,
                                     "end": 52
                                 },
@@ -354,7 +330,7 @@
                                     "start": 52,
                                     "end": 73
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 49,
                                 "end": 73
                             }
@@ -385,14 +361,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 79,
-                                "end": 82
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -433,7 +401,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 87,
                                     "end": 89
                                 },
@@ -516,7 +484,7 @@
                                     "start": 89,
                                     "end": 110
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 86,
                                 "end": 110
                             }
@@ -557,10 +525,6 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 5, end: 7
-✖ ',' expected - start: 26, end: 28
-✖ ',' expected - start: 45, end: 47
-✖ ',' expected - start: 82, end: 84
-
+✔ No errors
 ```
 

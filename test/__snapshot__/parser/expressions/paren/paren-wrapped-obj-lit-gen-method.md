@@ -544,14 +544,6 @@ x({*foo(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 113,
-                                        "end": 118
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 201392131,
@@ -566,7 +558,7 @@ x({*foo(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 125,
                                             "end": 126
                                         },
@@ -585,7 +577,7 @@ x({*foo(){}});
                                             "start": 126,
                                             "end": 128
                                         },
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 124,
                                         "end": 128
                                     }
@@ -634,14 +626,6 @@ x({*foo(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 136,
-                                        "end": 141
-                                    },
-                                    {
                                         "kind": 209,
                                         "name": {
                                             "kind": 194,
@@ -662,7 +646,7 @@ x({*foo(){}});
                                             "kind": 214,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 288,
                                             "start": 148,
                                             "end": 149
                                         },
@@ -681,7 +665,7 @@ x({*foo(){}});
                                             "start": 149,
                                             "end": 151
                                         },
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 147,
                                         "end": 151
                                     }
@@ -930,8 +914,6 @@ x({*foo(){}});
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 118, end: 124
-✖ ',' expected - start: 141, end: 143
-
+✔ No errors
 ```
 

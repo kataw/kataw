@@ -3049,14 +3049,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 651,
-                                "end": 657
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 194,
@@ -3077,7 +3069,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 664,
                                     "end": 665
                                 },
@@ -3096,7 +3088,7 @@
                                     "start": 665,
                                     "end": 668
                                 },
-                                "flags": 32,
+                                "flags": 288,
                                 "start": 663,
                                 "end": 668
                             }
@@ -3128,14 +3120,6 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "get",
-                                "rawText": "get",
-                                "flags": 96,
-                                "start": 675,
-                                "end": 679
-                            },
-                            {
                                 "kind": 209,
                                 "name": {
                                     "kind": 201392130,
@@ -3150,7 +3134,7 @@
                                     "kind": 214,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 1056,
                                     "start": 684,
                                     "end": 685
                                 },
@@ -3169,7 +3153,7 @@
                                     "start": 685,
                                     "end": 688
                                 },
-                                "flags": 32,
+                                "flags": 1056,
                                 "start": 683,
                                 "end": 688
                             }
@@ -3200,14 +3184,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 695,
-                                "end": 699
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -3242,7 +3218,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 704,
                                     "end": 706
                                 },
@@ -3261,7 +3237,7 @@
                                     "start": 706,
                                     "end": 709
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 703,
                                 "end": 709
                             }
@@ -3292,14 +3268,6 @@
                     "propertyList": {
                         "kind": 218,
                         "properties": [
-                            {
-                                "kind": 134299649,
-                                "text": "set",
-                                "rawText": "set",
-                                "flags": 96,
-                                "start": 716,
-                                "end": 720
-                            },
                             {
                                 "kind": 209,
                                 "name": {
@@ -3340,7 +3308,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 544,
                                     "start": 727,
                                     "end": 729
                                 },
@@ -3359,7 +3327,7 @@
                                     "start": 729,
                                     "end": 732
                                 },
-                                "flags": 32,
+                                "flags": 544,
                                 "start": 726,
                                 "end": 732
                             }
@@ -3977,10 +3945,6 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 548, end: 550
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 574, end: 576
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 601, end: 603
-✖ ',' expected - start: 657, end: 659
-✖ ',' expected - start: 679, end: 683
-✖ ',' expected - start: 699, end: 703
-✖ ',' expected - start: 720, end: 722
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 753, end: 755
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 775, end: 777
 
