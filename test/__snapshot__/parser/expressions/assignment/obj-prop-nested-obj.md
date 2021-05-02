@@ -50,8 +50,6 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 220,
                                         "propertyList": {
@@ -112,8 +110,6 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 220,
                                         "propertyList": {
@@ -123,8 +119,6 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "asyncKeyword": null,
-                                                    "getKeyword": null,
-                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 201392130,
                                                         "text": 2,

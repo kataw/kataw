@@ -43,60 +43,70 @@ x = {
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "method",
-                                    "rawText": "method",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 16
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 215,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "test",
-                                                "rawText": "test",
-                                                "flags": 96,
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "method",
+                                        "rawText": "method",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 16
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 215,
+                                                "ellipsisToken": null,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "test",
+                                                    "rawText": "test",
+                                                    "flags": 96,
+                                                    "start": 17,
+                                                    "end": 21
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 32,
                                                 "start": 17,
                                                 "end": 21
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 32,
-                                            "start": 17,
-                                            "end": 21
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 17,
-                                    "end": 22
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "flags": 33,
-                                        "start": 24,
-                                        "end": 24
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 17,
+                                        "end": 22
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 33,
+                                            "start": 24,
+                                            "end": 24
+                                        },
+                                        "flags": 32,
+                                        "start": 22,
+                                        "end": 31
                                     },
                                     "flags": 32,
-                                    "start": 22,
+                                    "start": 16,
                                     "end": 31
                                 },
                                 "flags": 32,
-                                "start": 16,
+                                "start": 5,
                                 "end": 31
                             }
                         ],

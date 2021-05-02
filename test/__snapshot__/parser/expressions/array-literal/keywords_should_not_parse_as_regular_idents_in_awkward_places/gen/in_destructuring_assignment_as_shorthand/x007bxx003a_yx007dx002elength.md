@@ -39,8 +39,6 @@
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "asyncKeyword": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 134299649,
                                                     "text": "y",

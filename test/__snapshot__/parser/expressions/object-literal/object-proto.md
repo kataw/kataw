@@ -42,49 +42,57 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 14
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 14
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
                                         "flags": 32,
-                                        "start": 17,
-                                        "end": 17
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 17,
+                                            "end": 17
+                                        },
+                                        "flags": 32,
+                                        "start": 16,
+                                        "end": 18
                                     },
                                     "flags": 32,
-                                    "start": 16,
+                                    "start": 14,
                                     "end": 18
                                 },
                                 "flags": 32,
-                                "start": 14,
+                                "start": 5,
                                 "end": 18
                             },
                             {
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -147,79 +155,99 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 40,
-                                    "end": 49
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 50,
-                                    "end": 51
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 40,
+                                        "end": 49
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
                                         "flags": 32,
-                                        "start": 52,
-                                        "end": 52
+                                        "start": 50,
+                                        "end": 51
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 52,
+                                            "end": 52
+                                        },
+                                        "flags": 32,
+                                        "start": 51,
+                                        "end": 53
                                     },
                                     "flags": 32,
-                                    "start": 51,
+                                    "start": 49,
                                     "end": 53
                                 },
                                 "flags": 32,
-                                "start": 49,
+                                "start": 40,
                                 "end": 53
                             },
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 54,
-                                    "end": 64
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 65,
-                                    "end": 66
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 54,
+                                        "end": 64
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
                                         "flags": 32,
-                                        "start": 67,
-                                        "end": 67
+                                        "start": 65,
+                                        "end": 66
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 67,
+                                            "end": 67
+                                        },
+                                        "flags": 32,
+                                        "start": 66,
+                                        "end": 68
                                     },
                                     "flags": 32,
-                                    "start": 66,
+                                    "start": 64,
                                     "end": 68
                                 },
                                 "flags": 32,
-                                "start": 64,
+                                "start": 54,
                                 "end": 68
                             }
                         ],
@@ -264,79 +292,109 @@ x = {async __proto__(){}, *__proto__(){}};
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 81,
-                                    "end": 91
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "start": 76,
+                                    "end": 81
                                 },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 288,
-                                    "start": 92,
-                                    "end": 93
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "flags": 32,
-                                        "start": 94,
-                                        "end": 94
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 81,
+                                        "end": 91
                                     },
-                                    "flags": 32,
-                                    "start": 93,
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 288,
+                                        "start": 92,
+                                        "end": 93
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 94,
+                                            "end": 94
+                                        },
+                                        "flags": 32,
+                                        "start": 93,
+                                        "end": 95
+                                    },
+                                    "flags": 288,
+                                    "start": 91,
                                     "end": 95
                                 },
-                                "flags": 288,
-                                "start": 91,
+                                "flags": 32,
+                                "start": 76,
                                 "end": 95
                             },
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 98,
-                                    "end": 107
+                                "kind": 257,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 96,
+                                    "end": 98
                                 },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 160,
-                                    "start": 108,
-                                    "end": 109
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "flags": 32,
-                                        "start": 110,
-                                        "end": 110
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 98,
+                                        "end": 107
                                     },
-                                    "flags": 32,
-                                    "start": 109,
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 160,
+                                        "start": 108,
+                                        "end": 109
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 110,
+                                            "end": 110
+                                        },
+                                        "flags": 32,
+                                        "start": 109,
+                                        "end": 111
+                                    },
+                                    "flags": 160,
+                                    "start": 107,
                                     "end": 111
                                 },
-                                "flags": 160,
-                                "start": 107,
+                                "flags": 32,
+                                "start": 96,
                                 "end": 111
                             }
                         ],
@@ -378,8 +436,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -404,8 +460,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "y",

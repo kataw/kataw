@@ -235,8 +235,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                         "kind": 219,
                                                                                                                         "generatorToken": null,
                                                                                                                         "asyncKeyword": null,
-                                                                                                                        "getKeyword": null,
-                                                                                                                        "setKeyword": null,
                                                                                                                         "left": {
                                                                                                                             "kind": 131,
                                                                                                                             "expression": {

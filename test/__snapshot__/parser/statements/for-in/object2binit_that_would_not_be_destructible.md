@@ -42,8 +42,6 @@ for ({a: x + y} = z in obj);
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 198,
                                     "left": {

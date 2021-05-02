@@ -58,8 +58,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -142,8 +140,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -221,8 +217,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -351,8 +345,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -435,8 +427,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -575,8 +565,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -699,8 +687,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -822,8 +808,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -946,8 +930,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -1069,8 +1051,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -1193,8 +1173,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {
@@ -1277,8 +1255,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 269,
                                         "text": null,
@@ -1347,8 +1323,6 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 125,
                                     "left": {
@@ -1446,8 +1420,6 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 125,
                                     "left": {
@@ -1539,8 +1511,6 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 127,
                                     "operandToken": {
@@ -1634,8 +1604,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -1741,8 +1709,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {
@@ -1847,8 +1813,6 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 125,
                                         "left": {

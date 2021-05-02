@@ -25,67 +25,82 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 198,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "ha",
-                                            "rawText": "ha",
-                                            "flags": 96,
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 10
+                                },
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 198,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "ha",
+                                                "rawText": "ha",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 15
+                                            },
+                                            "operatorToken": {
+                                                "kind": 34098,
+                                                "flags": 64,
+                                                "start": 15,
+                                                "end": 16
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "ha",
+                                                "rawText": "ha",
+                                                "flags": 96,
+                                                "start": 16,
+                                                "end": 18
+                                            },
+                                            "flags": 32,
                                             "start": 13,
-                                            "end": 15
-                                        },
-                                        "operatorToken": {
-                                            "kind": 34098,
-                                            "flags": 64,
-                                            "start": 15,
-                                            "end": 16
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "ha",
-                                            "rawText": "ha",
-                                            "flags": 96,
-                                            "start": 16,
                                             "end": 18
                                         },
                                         "flags": 32,
-                                        "start": 13,
-                                        "end": 18
+                                        "start": 12,
+                                        "end": 19
                                     },
-                                    "flags": 32,
-                                    "start": 12,
-                                    "end": 19
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 416,
-                                    "start": 20,
-                                    "end": 21
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 416,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 22,
+                                            "end": 22
+                                        },
                                         "flags": 32,
-                                        "start": 22,
-                                        "end": 22
+                                        "start": 21,
+                                        "end": 23
                                     },
-                                    "flags": 32,
-                                    "start": 21,
+                                    "flags": 416,
+                                    "start": 19,
                                     "end": 23
                                 },
-                                "flags": 416,
-                                "start": 19,
+                                "flags": 32,
+                                "start": 2,
                                 "end": 23
                             }
                         ],

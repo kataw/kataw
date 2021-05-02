@@ -777,8 +777,6 @@ interface PropertyDefinition <: ExpressionNode {
   kind: NodeKind.PropertyDefinition;
   generatorToken: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  getKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   right: AssignmentExpression | BindingElement | Identifier | ExpressionNode;
 }
@@ -830,5 +828,18 @@ interface SingleNameBinding <: ExpressionNode {
 ```js
 interface OmittedExpression <: ExpressionNode {
   kind: NodeKind.OmittedExpression;
+}
+```
+
+### PropertyMethod
+
+```js
+interface PropertyMethod <: ExpressionNode {
+  kind: NodeKind.PropertyMethod;
+  generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  setKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  method: MethodDefinition;
 }
 ```

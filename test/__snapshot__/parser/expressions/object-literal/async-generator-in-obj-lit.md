@@ -56,41 +56,56 @@ const obj = {
                                         "end": 23
                                     },
                                     {
-                                        "kind": 209,
-                                        "name": {
-                                            "kind": 134299649,
-                                            "text": "generator",
-                                            "rawText": "generator",
-                                            "flags": 96,
-                                            "start": 30,
-                                            "end": 39
+                                        "kind": 257,
+                                        "generatorToken": {
+                                            "kind": 67143222,
+                                            "flags": 65,
+                                            "start": 24,
+                                            "end": 30
                                         },
-                                        "typeParameters": null,
-                                        "formalParameters": {
-                                            "kind": 214,
-                                            "formalParameterList": [],
-                                            "trailingComma": false,
-                                            "flags": 160,
-                                            "start": 40,
-                                            "end": 41
-                                        },
-                                        "type": null,
-                                        "contents": {
-                                            "kind": 216,
-                                            "functionStatementList": {
-                                                "kind": 217,
-                                                "directives": [],
-                                                "statements": [],
-                                                "flags": 33,
-                                                "start": 43,
-                                                "end": 43
+                                        "asyncKeyword": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
+                                        "method": {
+                                            "kind": 209,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "generator",
+                                                "rawText": "generator",
+                                                "flags": 96,
+                                                "start": 30,
+                                                "end": 39
                                             },
-                                            "flags": 32,
-                                            "start": 41,
+                                            "typeParameters": null,
+                                            "formalParameters": {
+                                                "kind": 214,
+                                                "formalParameterList": [],
+                                                "trailingComma": false,
+                                                "flags": 160,
+                                                "start": 40,
+                                                "end": 41
+                                            },
+                                            "type": null,
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 33,
+                                                    "start": 43,
+                                                    "end": 43
+                                                },
+                                                "flags": 32,
+                                                "start": 41,
+                                                "end": 49
+                                            },
+                                            "flags": 160,
+                                            "start": 39,
                                             "end": 49
                                         },
-                                        "flags": 160,
-                                        "start": 39,
+                                        "flags": 32,
+                                        "start": 24,
                                         "end": 49
                                     }
                                 ],

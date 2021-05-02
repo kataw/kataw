@@ -469,8 +469,6 @@ foo((x, y) => {});
                                             "kind": 219,
                                             "generatorToken": null,
                                             "asyncKeyword": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 6,
@@ -2574,8 +2572,6 @@ foo((x, y) => {});
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 134299649,
                                         "text": "c",
@@ -2600,8 +2596,6 @@ foo((x, y) => {});
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 119,
                                         "elementList": {

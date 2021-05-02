@@ -719,85 +719,95 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 209,
-                                    "end": 213
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 215,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 214,
-                                                "end": 215
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": {
-                                                "kind": 129,
-                                                "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 0,
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 209,
+                                        "end": 213
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 215,
+                                                "ellipsisToken": null,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 214,
+                                                    "end": 215
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": {
+                                                    "kind": 129,
+                                                    "member": {
+                                                        "kind": 225,
+                                                        "superKeyword": {
+                                                            "kind": 4259935,
+                                                            "flags": 0,
+                                                            "start": 217,
+                                                            "end": 223
+                                                        },
+                                                        "flags": 96,
                                                         "start": 217,
                                                         "end": 223
                                                     },
-                                                    "flags": 96,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 224,
+                                                        "end": 227
+                                                    },
+                                                    "flags": 32,
                                                     "start": 217,
-                                                    "end": 223
-                                                },
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "foo",
-                                                    "rawText": "foo",
-                                                    "flags": 96,
-                                                    "start": 224,
                                                     "end": 227
                                                 },
-                                                "flags": 32,
-                                                "start": 217,
+                                                "flags": 34,
+                                                "start": 214,
                                                 "end": 227
-                                            },
-                                            "flags": 34,
-                                            "start": 214,
-                                            "end": 227
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 34,
-                                    "start": 214,
-                                    "end": 228
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 34,
+                                        "start": 214,
+                                        "end": 228
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 229,
+                                            "end": 229
+                                        },
                                         "flags": 32,
-                                        "start": 229,
-                                        "end": 229
+                                        "start": 228,
+                                        "end": 231
                                     },
                                     "flags": 32,
-                                    "start": 228,
+                                    "start": 213,
                                     "end": 231
                                 },
                                 "flags": 32,
-                                "start": 213,
+                                "start": 209,
                                 "end": 231
                             }
                         ],
@@ -1201,74 +1211,84 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 344,
-                                    "end": 348
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 349,
-                                    "end": 350
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [
-                                            {
-                                                "kind": 120,
-                                                "expression": {
-                                                    "kind": 130,
-                                                    "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 0,
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 344,
+                                        "end": 348
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 349,
+                                        "end": 350
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [
+                                                {
+                                                    "kind": 120,
+                                                    "expression": {
+                                                        "kind": 130,
+                                                        "member": {
+                                                            "kind": 225,
+                                                            "superKeyword": {
+                                                                "kind": 4259935,
+                                                                "flags": 0,
+                                                                "start": 351,
+                                                                "end": 357
+                                                            },
+                                                            "flags": 96,
                                                             "start": 351,
                                                             "end": 357
                                                         },
-                                                        "flags": 96,
+                                                        "expression": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 358,
+                                                            "end": 361
+                                                        },
+                                                        "flags": 32,
                                                         "start": 351,
-                                                        "end": 357
+                                                        "end": 362
                                                     },
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 358,
-                                                        "end": 361
-                                                    },
-                                                    "flags": 32,
+                                                    "flags": 16,
                                                     "start": 351,
-                                                    "end": 362
-                                                },
-                                                "flags": 16,
-                                                "start": 351,
-                                                "end": 363
-                                            }
-                                        ],
+                                                    "end": 363
+                                                }
+                                            ],
+                                            "flags": 32,
+                                            "start": 351,
+                                            "end": 363
+                                        },
                                         "flags": 32,
-                                        "start": 351,
-                                        "end": 363
+                                        "start": 350,
+                                        "end": 365
                                     },
                                     "flags": 32,
-                                    "start": 350,
+                                    "start": 348,
                                     "end": 365
                                 },
                                 "flags": 32,
-                                "start": 348,
+                                "start": 344,
                                 "end": 365
                             }
                         ],
@@ -1313,85 +1333,95 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 371,
-                                    "end": 375
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 215,
-                                            "ellipsisToken": null,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
-                                                "start": 376,
-                                                "end": 377
-                                            },
-                                            "optionalToken": null,
-                                            "type": null,
-                                            "initializer": {
-                                                "kind": 130,
-                                                "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 0,
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 371,
+                                        "end": 375
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 215,
+                                                "ellipsisToken": null,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 376,
+                                                    "end": 377
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": {
+                                                    "kind": 130,
+                                                    "member": {
+                                                        "kind": 225,
+                                                        "superKeyword": {
+                                                            "kind": 4259935,
+                                                            "flags": 0,
+                                                            "start": 379,
+                                                            "end": 385
+                                                        },
+                                                        "flags": 96,
                                                         "start": 379,
                                                         "end": 385
                                                     },
-                                                    "flags": 96,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 386,
+                                                        "end": 389
+                                                    },
+                                                    "flags": 32,
                                                     "start": 379,
-                                                    "end": 385
+                                                    "end": 390
                                                 },
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "foo",
-                                                    "rawText": "foo",
-                                                    "flags": 96,
-                                                    "start": 386,
-                                                    "end": 389
-                                                },
-                                                "flags": 32,
-                                                "start": 379,
+                                                "flags": 34,
+                                                "start": 376,
                                                 "end": 390
-                                            },
-                                            "flags": 34,
-                                            "start": 376,
-                                            "end": 390
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 34,
-                                    "start": 376,
-                                    "end": 391
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 34,
+                                        "start": 376,
+                                        "end": 391
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 392,
+                                            "end": 392
+                                        },
                                         "flags": 32,
-                                        "start": 392,
-                                        "end": 392
+                                        "start": 391,
+                                        "end": 394
                                     },
                                     "flags": 32,
-                                    "start": 391,
+                                    "start": 375,
                                     "end": 394
                                 },
                                 "flags": 32,
-                                "start": 375,
+                                "start": 371,
                                 "end": 394
                             }
                         ],

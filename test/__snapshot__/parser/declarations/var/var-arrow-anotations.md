@@ -1635,8 +1635,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",
@@ -1774,8 +1772,6 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",

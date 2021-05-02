@@ -350,4 +350,5 @@ export const enum SyntaxKind {
   Labels = 256,
   NameSpaceImport = 255,
   FromClause = 256,
+  PropertyMethod = 257
 }

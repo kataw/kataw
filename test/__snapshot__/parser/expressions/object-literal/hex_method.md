@@ -39,41 +39,51 @@ x = {0xabc(){}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 201392130,
-                                    "text": 2748,
-                                    "rawText": "0xabc",
-                                    "flags": 1048672,
-                                    "start": 5,
-                                    "end": 10
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 201392130,
+                                        "text": 2748,
+                                        "rawText": "0xabc",
+                                        "flags": 1048672,
+                                        "start": 5,
+                                        "end": 10
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
                                         "flags": 32,
-                                        "start": 13,
-                                        "end": 13
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 13,
+                                            "end": 13
+                                        },
+                                        "flags": 32,
+                                        "start": 12,
+                                        "end": 14
                                     },
                                     "flags": 32,
-                                    "start": 12,
+                                    "start": 10,
                                     "end": 14
                                 },
                                 "flags": 32,
-                                "start": 10,
+                                "start": 5,
                                 "end": 14
                             }
                         ],

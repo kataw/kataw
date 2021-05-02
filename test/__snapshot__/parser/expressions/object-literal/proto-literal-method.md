@@ -28,8 +28,6 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "asyncKeyword": null,
-                                "getKeyword": null,
-                                "setKeyword": null,
                                 "left": {
                                     "kind": 269,
                                     "text": null,
@@ -50,41 +48,51 @@
                                 "end": 20
                             },
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "__proto__",
-                                    "rawText": "__proto__",
-                                    "flags": 96,
-                                    "start": 21,
-                                    "end": 31
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 32,
-                                    "end": 33
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "__proto__",
+                                        "rawText": "__proto__",
+                                        "flags": 96,
+                                        "start": 21,
+                                        "end": 31
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
                                         "flags": 32,
-                                        "start": 34,
-                                        "end": 34
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 34,
+                                            "end": 34
+                                        },
+                                        "flags": 32,
+                                        "start": 33,
+                                        "end": 35
                                     },
                                     "flags": 32,
-                                    "start": 33,
+                                    "start": 31,
                                     "end": 35
                                 },
                                 "flags": 32,
-                                "start": 31,
+                                "start": 21,
                                 "end": 35
                             }
                         ],

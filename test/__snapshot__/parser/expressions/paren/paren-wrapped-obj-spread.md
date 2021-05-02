@@ -1167,8 +1167,6 @@
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "asyncKeyword": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 0,
@@ -1287,8 +1285,6 @@
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "asyncKeyword": null,
-                                                        "getKeyword": null,
-                                                        "setKeyword": null,
                                                         "left": {
                                                             "kind": 201392130,
                                                             "text": 0,

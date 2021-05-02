@@ -39,8 +39,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -65,8 +63,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -91,8 +87,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "c",
@@ -117,8 +111,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "d",
@@ -143,8 +135,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "e",

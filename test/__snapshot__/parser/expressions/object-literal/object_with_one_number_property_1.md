@@ -39,8 +39,6 @@ wrap({15:b});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 134299649,
                                             "text": "b",

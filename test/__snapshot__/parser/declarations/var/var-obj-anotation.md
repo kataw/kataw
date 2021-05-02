@@ -117,8 +117,6 @@ var {x}: {x: string; } = { x: "hello" };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392131,
                                             "text": "hello",

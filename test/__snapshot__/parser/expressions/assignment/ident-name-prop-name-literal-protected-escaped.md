@@ -57,8 +57,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "kind": 219,
                                             "generatorToken": null,
                                             "asyncKeyword": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -104,8 +102,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "kind": 219,
                                             "generatorToken": null,
                                             "asyncKeyword": null,
-                                            "getKeyword": null,
-                                            "setKeyword": null,
                                             "left": {
                                                 "kind": 201392130,
                                                 "text": 42,

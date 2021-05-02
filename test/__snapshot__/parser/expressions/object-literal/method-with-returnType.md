@@ -47,52 +47,67 @@ a={get fooProp():number{}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "fooProp",
-                                    "rawText": "fooProp",
-                                    "flags": 96,
-                                    "start": 6,
-                                    "end": 14
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": {
+                                    "kind": 16498,
+                                    "flags": 64,
+                                    "start": 3,
+                                    "end": 6
                                 },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 1056,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                "type": {
-                                    "kind": 139,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "fooProp",
+                                        "rawText": "fooProp",
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 14
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 1056,
+                                        "start": 15,
+                                        "end": 16
+                                    },
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 64,
-                                        "start": 17,
+                                        "kind": 139,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 64,
+                                            "start": 17,
+                                            "end": 23
+                                        },
+                                        "flags": 0,
+                                        "start": 16,
                                         "end": 23
                                     },
-                                    "flags": 0,
-                                    "start": 16,
-                                    "end": 23
-                                },
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 24,
+                                            "end": 24
+                                        },
                                         "flags": 32,
-                                        "start": 24,
-                                        "end": 24
+                                        "start": 23,
+                                        "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 23,
+                                    "flags": 1056,
+                                    "start": 14,
                                     "end": 25
                                 },
-                                "flags": 1056,
-                                "start": 14,
+                                "flags": 32,
+                                "start": 3,
                                 "end": 25
                             }
                         ],

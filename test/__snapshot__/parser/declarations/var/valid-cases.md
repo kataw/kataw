@@ -288,8 +288,6 @@ var {get} = obj;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
@@ -314,8 +312,6 @@ var {get} = obj;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -418,8 +414,6 @@ var {get} = obj;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 4,
@@ -444,8 +438,6 @@ var {get} = obj;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 121,
                                             "expression": {
@@ -809,8 +801,6 @@ var {get} = obj;
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "asyncKeyword": null,
-                                                    "getKeyword": null,
-                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 125,
                                                         "left": {
@@ -870,8 +860,6 @@ var {get} = obj;
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "asyncKeyword": null,
-                                                    "getKeyword": null,
-                                                    "setKeyword": null,
                                                     "left": {
                                                         "kind": 125,
                                                         "left": {
@@ -1026,8 +1014,6 @@ var {get} = obj;
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "asyncKeyword": null,
-                                                "getKeyword": null,
-                                                "setKeyword": null,
                                                 "left": {
                                                     "kind": 125,
                                                     "left": {
@@ -1362,8 +1348,6 @@ var {get} = obj;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "asyncKeyword": null,
-                                        "getKeyword": null,
-                                        "setKeyword": null,
                                         "left": {
                                             "kind": 201392130,
                                             "text": 2,

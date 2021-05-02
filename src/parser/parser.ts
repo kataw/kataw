@@ -49,6 +49,7 @@ import { createTaggedTemplate } from '../ast/expressions/tagged-template';
 import { createAwaitExpression, AwaitExpression } from '../ast/expressions/await-expr';
 import { createObjectLiteral, ObjectLiteral } from '../ast/expressions/object-literal';
 import { createPropertyDefinition, PropertyDefinition } from '../ast/expressions/property-definition';
+import { createPropertyMethod, PropertyMethod } from '../ast/expressions/property-method';
 import { createSpreadProperty, SpreadProperty } from '../ast/expressions/spread-property';
 import { createCoverInitializedName, CoverInitializedName } from '../ast/expressions/cover-initialized-name';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
@@ -1978,11 +1979,7 @@ function parseObjectLiteralOrAssignmentExpression(
 ): ObjectLiteral | AssignmentExpression {
   const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
-  const propertyDefinitionList = parsePropertyDefinitionList(
-    parser,
-    context,
-    type
-  );
+  const propertyDefinitionList = parsePropertyDefinitionList(parser, context, type);
   consume(parser, context, SyntaxKind.RightBrace);
   const node = createObjectLiteral(propertyDefinitionList, pos, parser.curPos);
   if (parser.token & SyntaxKind.IsAssignOp) {
@@ -2087,7 +2084,7 @@ function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
   type: BindingType
-): PropertyDefinition | SpreadProperty | MethodDefinition | Identifier | CoverInitializedName {
+): PropertyDefinition | SpreadProperty | MethodDefinition | Identifier | CoverInitializedName | PropertyMethod | any {
   const pos = parser.curPos;
 
   if (parser.token & SyntaxKind.IsEllipsis) {
@@ -2131,7 +2128,6 @@ function parsePropertyDefinition(
       return key;
     }
     if (parser.token & 0b00000100110000000100000000000000) {
-
       if (token === SyntaxKind.AsyncKeyword) {
         nodeFlags |= NodeFlags.Async;
         asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
@@ -2145,7 +2141,6 @@ function parsePropertyDefinition(
         }
 
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
-
         if (generatorToken) nodeFlags |= NodeFlags.Generator;
       } else if (token === SyntaxKind.GetKeyword) {
         nodeFlags |= NodeFlags.Getter;
@@ -2175,7 +2170,7 @@ function parsePropertyDefinition(
       if (nodeFlags & (NodeFlags.Setter | NodeFlags.Getter | NodeFlags.Async)) {
         generatorToken = consumeOptToken(parser, context, SyntaxKind.Multiply);
         if (generatorToken) nodeFlags |= NodeFlags.Generator;
-        if (  parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsProperty | SyntaxKind.IsFutureReserved)) {
+        if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsProperty | SyntaxKind.IsFutureReserved)) {
           key = parsePropertyName(parser, context);
         }
       }
@@ -2185,7 +2180,15 @@ function parsePropertyDefinition(
   }
 
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-    return parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags);
+    return createPropertyMethod(
+      generatorToken,
+      asyncKeyword,
+      getKeyword,
+      setKeyword,
+      parseMethodDefinition(parser, context, /* isDeclared*/ false, key, nodeFlags),
+      pos,
+      parser.curPos
+    );
   }
 
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
@@ -2250,16 +2253,7 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(
-      generatorToken,
-      asyncKeyword,
-      getKeyword,
-      setKeyword,
-      left,
-      key,
-      pos,
-      parser.curPos
-    );
+    return createPropertyDefinition(generatorToken, asyncKeyword, left, key, pos, parser.curPos);
   }
   if (parser.destructible & DestructibleKind.MustDestruct) {
     parser.onError(

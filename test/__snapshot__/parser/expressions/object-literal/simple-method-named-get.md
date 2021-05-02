@@ -42,41 +42,51 @@ x = {
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 209,
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "get",
-                                    "rawText": "get",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 13
-                                },
-                                "typeParameters": null,
-                                "formalParameters": {
-                                    "kind": 214,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 14,
-                                    "end": 15
-                                },
-                                "type": null,
-                                "contents": {
-                                    "kind": 216,
-                                    "functionStatementList": {
-                                        "kind": 217,
-                                        "directives": [],
-                                        "statements": [],
-                                        "flags": 33,
-                                        "start": 17,
-                                        "end": 17
+                                "kind": 257,
+                                "generatorToken": null,
+                                "asyncKeyword": null,
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "get",
+                                        "rawText": "get",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 13
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 33,
+                                            "start": 17,
+                                            "end": 17
+                                        },
+                                        "flags": 32,
+                                        "start": 15,
+                                        "end": 23
                                     },
                                     "flags": 32,
-                                    "start": 15,
+                                    "start": 13,
                                     "end": 23
                                 },
                                 "flags": 32,
-                                "start": 13,
+                                "start": 5,
                                 "end": 23
                             }
                         ],

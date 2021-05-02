@@ -37,8 +37,6 @@ async ({ident: [foo, bar].join("")}) => x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "asyncKeyword": null,
-                                    "getKeyword": null,
-                                    "setKeyword": null,
                                     "left": {
                                         "kind": 131,
                                         "expression": {
