@@ -168,10 +168,15 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expression expected - start: 13, end: 15
 ✖ Unterminated regular expression - start: 15, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
 
 ```
 

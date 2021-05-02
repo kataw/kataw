@@ -114,9 +114,9 @@ var foob\\U1234r = 0;
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 8
 ✖ ',' expected - start: 8, end: 9
 ✖ Expected a `;` - start: 8, end: 9
-✖ Statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 8, end: 9
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 9
-✖ Statement expected - start: 9, end: 10
+✖ Declaration or statement expected - start: 9, end: 10
 
 ```
 

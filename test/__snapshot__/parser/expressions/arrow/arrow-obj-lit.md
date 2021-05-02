@@ -151,10 +151,10 @@
 
 ```javascript
 ✖ Expected a `;` - start: 21, end: 22
-✖ Statement expected - start: 21, end: 22
+✖ Declaration or statement expected - start: 21, end: 22
 ✖ Expected a `;` - start: 29, end: 30
-✖ Statement expected - start: 29, end: 30
-✖ Statement expected - start: 30, end: 33
+✖ Declaration or statement expected - start: 29, end: 30
+✖ Declaration or statement expected - start: 30, end: 33
 
 ```
 

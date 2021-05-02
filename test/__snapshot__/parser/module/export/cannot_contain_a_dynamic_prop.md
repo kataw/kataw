@@ -136,7 +136,7 @@ var foo; export {[foo]}
 
 ```javascript
 ✖ Expected a `;` - start: 17, end: 18
-✖ Statement expected - start: 22, end: 23
+✖ Declaration or statement expected - start: 22, end: 23
 
 ```
 

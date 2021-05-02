@@ -68,8 +68,8 @@
 ✖ Property assignment expected - start: 7, end: 10
 ✖ ',' expected - start: 7, end: 10
 ✖ Expected a `;` - start: 13, end: 14
-✖ Statement expected - start: 15, end: 16
-✖ Statement expected - start: 16, end: 17
+✖ Declaration or statement expected - start: 15, end: 16
+✖ Declaration or statement expected - start: 16, end: 17
 
 ```
 

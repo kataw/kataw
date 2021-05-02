@@ -102,6 +102,8 @@
 ```javascript
 ✖ Expression expected - start: 5, end: 5
 ✖ Expression expected - start: 5, end: 5
+✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 5
+✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 5
 
 ```
 

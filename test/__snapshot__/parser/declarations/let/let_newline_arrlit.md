@@ -43,11 +43,11 @@ let
                                 "kind": 202,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 5
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 3,
                             "end": 6
                         },

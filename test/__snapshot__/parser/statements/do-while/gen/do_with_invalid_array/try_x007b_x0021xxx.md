@@ -152,6 +152,7 @@ do while [catch] try { !xxx
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 
 ```

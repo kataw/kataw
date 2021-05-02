@@ -134,6 +134,8 @@
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 8, end: 9
 ✖ ',' expected - start: 14, end: 14
+✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 14
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
 
 ```
 

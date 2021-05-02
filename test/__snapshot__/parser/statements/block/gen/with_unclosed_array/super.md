@@ -101,6 +101,8 @@
 ✖ 'super' must be followed by an argument list or member access. - start: 8, end: 8
 ✖ Dot property must be an identifier - start: 8, end: 8
 ✖ ',' expected - start: 8, end: 8
+✖ Did you forgot a ']' to match the `[` token? - start: 8, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 8
 
 ```
 

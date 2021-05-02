@@ -77,7 +77,7 @@ const [...x] = y
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 11
                             },

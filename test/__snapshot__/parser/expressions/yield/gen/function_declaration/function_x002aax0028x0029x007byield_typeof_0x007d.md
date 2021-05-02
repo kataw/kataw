@@ -179,7 +179,7 @@ function not_gen() { function *a(){yield typeof 0} }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 52, end: 53
+✖ Declaration or statement expected - start: 52, end: 53
 
 ```
 

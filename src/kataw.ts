@@ -36,6 +36,8 @@ export {
   isStartOfType,
   isSemicolon
 } from './parser/common';
+export { getTrailingComments, getLeadingComment } from './parser/scanner/comments';
+
 export { forEachChild } from './forEachChild';
 
 export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {

@@ -88,8 +88,8 @@ class C { \\u0041 }
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 10
-✖ Statement expected - start: 9, end: 11
-✖ Statement expected - start: 17, end: 19
+✖ Declaration or statement expected - start: 9, end: 11
+✖ Declaration or statement expected - start: 17, end: 19
 
 ```
 

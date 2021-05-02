@@ -116,7 +116,7 @@ class A extends oh,no {}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 18, end: 19
+✖ Declaration or statement expected - start: 18, end: 19
 ✖ Expected a `;` - start: 21, end: 23
 
 ```

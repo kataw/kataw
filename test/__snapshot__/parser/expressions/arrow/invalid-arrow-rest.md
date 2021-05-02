@@ -88,10 +88,10 @@
 ✖ A rest element cannot have an initializer - start: 8, end: 10
 ✖ Expression expected - start: 10, end: 14
 ✖ Expected a `;` - start: 10, end: 14
-✖ Statement expected - start: 10, end: 14
+✖ Declaration or statement expected - start: 10, end: 14
 ✖ Expected a `;` - start: 17, end: 18
-✖ Statement expected - start: 17, end: 18
-✖ Statement expected - start: 18, end: 21
+✖ Declaration or statement expected - start: 17, end: 18
+✖ Declaration or statement expected - start: 18, end: 21
 
 ```
 

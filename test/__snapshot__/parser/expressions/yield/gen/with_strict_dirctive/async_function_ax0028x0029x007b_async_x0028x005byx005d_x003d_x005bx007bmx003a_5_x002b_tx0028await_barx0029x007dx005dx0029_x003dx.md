@@ -279,8 +279,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 75, end: 78
-✖ Statement expected - start: 81, end: 87
+✖ Declaration or statement expected - start: 75, end: 78
+✖ Declaration or statement expected - start: 81, end: 87
 
 ```
 

@@ -430,8 +430,8 @@ class A {
 ```javascript
 ✖ Binding identifier expected - start: 145, end: 146
 ✖ Expression expected - start: 149, end: 150
-✖ Statement expected - start: 149, end: 150
-✖ Statement expected - start: 150, end: 152
+✖ Declaration or statement expected - start: 149, end: 150
+✖ Declaration or statement expected - start: 150, end: 152
 
 ```
 

@@ -192,6 +192,7 @@ do {} while (x) { while try this and !foo
 ```javascript
 ✖ Expression expected - start: 23, end: 27
 ✖ Expected a `;` - start: 36, end: 38
+✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
 
 ```
 

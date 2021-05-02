@@ -195,9 +195,9 @@ x@{x9}@+@{x9}@y
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 5, end: 6
+✖ Declaration or statement expected - start: 5, end: 6
 ✖ Binding identifier expected - start: 8, end: 9
-✖ Statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 12, end: 13
 ✖ Binding identifier expected - start: 15, end: 15
 
 ```

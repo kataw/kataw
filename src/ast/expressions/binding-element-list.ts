@@ -16,6 +16,7 @@ export interface BindingElementList extends SyntaxNode {
 export function createBindingElementList(
   elements: BindingListElements[],
   trailingComma: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): BindingElementList {
@@ -23,7 +24,7 @@ export function createBindingElementList(
     kind: SyntaxKind.BindingElementList,
     elements,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

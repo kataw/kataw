@@ -117,7 +117,7 @@ let f = () => { const [...await f] = []; }
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 23,
                                                                 "end": 33
                                                             },

@@ -149,9 +149,9 @@ var await; var f = (async function() { await => async });
 ✖ Expected a `;` - start: 44, end: 47
 ✖ ',' expected - start: 44, end: 47
 ✖ Expected a `;` - start: 44, end: 47
-✖ Statement expected - start: 44, end: 47
-✖ Statement expected - start: 53, end: 55
-✖ Statement expected - start: 55, end: 56
+✖ Declaration or statement expected - start: 44, end: 47
+✖ Declaration or statement expected - start: 53, end: 55
+✖ Declaration or statement expected - start: 55, end: 56
 
 ```
 

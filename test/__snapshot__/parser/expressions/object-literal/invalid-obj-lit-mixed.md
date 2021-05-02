@@ -1665,102 +1665,105 @@
 ✖ ',' expected - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a `;` - start: 46, end: 47
-✖ Statement expected - start: 46, end: 47
-✖ Statement expected - start: 47, end: 48
-✖ Statement expected - start: 48, end: 49
-✖ Statement expected - start: 49, end: 50
-✖ Statement expected - start: 50, end: 52
-✖ Statement expected - start: 52, end: 53
+✖ Declaration or statement expected - start: 46, end: 47
+✖ Declaration or statement expected - start: 47, end: 48
+✖ Declaration or statement expected - start: 48, end: 49
+✖ Declaration or statement expected - start: 49, end: 50
+✖ Declaration or statement expected - start: 50, end: 52
+✖ Declaration or statement expected - start: 52, end: 53
 ✖ Property assignment expected - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
 ✖ ',' expected - start: 99, end: 100
 ✖ Expected a `;` - start: 101, end: 102
-✖ Statement expected - start: 101, end: 102
-✖ Statement expected - start: 102, end: 103
-✖ Statement expected - start: 103, end: 104
-✖ Statement expected - start: 104, end: 105
-✖ Statement expected - start: 105, end: 107
-✖ Statement expected - start: 107, end: 108
+✖ Declaration or statement expected - start: 101, end: 102
+✖ Declaration or statement expected - start: 102, end: 103
+✖ Declaration or statement expected - start: 103, end: 104
+✖ Declaration or statement expected - start: 104, end: 105
+✖ Declaration or statement expected - start: 105, end: 107
+✖ Declaration or statement expected - start: 107, end: 108
 ✖ ',' expected - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
 ✖ Expected a `;` - start: 164, end: 165
-✖ Statement expected - start: 164, end: 165
-✖ Statement expected - start: 165, end: 166
-✖ Statement expected - start: 166, end: 167
-✖ Statement expected - start: 167, end: 168
-✖ Statement expected - start: 168, end: 169
-✖ Statement expected - start: 169, end: 170
-✖ Statement expected - start: 170, end: 172
-✖ Statement expected - start: 172, end: 173
+✖ Declaration or statement expected - start: 164, end: 165
+✖ Declaration or statement expected - start: 165, end: 166
+✖ Declaration or statement expected - start: 166, end: 167
+✖ Declaration or statement expected - start: 167, end: 168
+✖ Declaration or statement expected - start: 168, end: 169
+✖ Declaration or statement expected - start: 169, end: 170
+✖ Declaration or statement expected - start: 170, end: 172
+✖ Declaration or statement expected - start: 172, end: 173
 ✖ ',' expected - start: 230, end: 232
 ✖ ',' expected - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
 ✖ Expression expected - start: 232, end: 233
 ✖ Expected a `;` - start: 232, end: 233
-✖ Statement expected - start: 232, end: 233
-✖ Statement expected - start: 233, end: 235
-✖ Statement expected - start: 235, end: 236
+✖ Declaration or statement expected - start: 232, end: 233
+✖ Declaration or statement expected - start: 233, end: 235
+✖ Declaration or statement expected - start: 235, end: 236
 ✖ ',' expected - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
 ✖ Expected a `;` - start: 290, end: 291
-✖ Statement expected - start: 290, end: 291
-✖ Statement expected - start: 291, end: 292
-✖ Statement expected - start: 292, end: 293
-✖ Statement expected - start: 293, end: 294
-✖ Statement expected - start: 294, end: 295
-✖ Statement expected - start: 295, end: 297
-✖ Statement expected - start: 297, end: 298
+✖ Declaration or statement expected - start: 290, end: 291
+✖ Declaration or statement expected - start: 291, end: 292
+✖ Declaration or statement expected - start: 292, end: 293
+✖ Declaration or statement expected - start: 293, end: 294
+✖ Declaration or statement expected - start: 294, end: 295
+✖ Declaration or statement expected - start: 295, end: 297
+✖ Declaration or statement expected - start: 297, end: 298
 ✖ ',' expected - start: 336, end: 339
+✖ Did you forgot a ']' to match the `[` token? - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
 ✖ Expected a `;` - start: 341, end: 342
-✖ Statement expected - start: 341, end: 342
-✖ Statement expected - start: 342, end: 344
+✖ Declaration or statement expected - start: 341, end: 342
+✖ Declaration or statement expected - start: 342, end: 344
 ✖ Expected a `;` - start: 356, end: 357
-✖ Statement expected - start: 356, end: 357
-✖ Statement expected - start: 357, end: 358
-✖ Statement expected - start: 358, end: 359
-✖ Statement expected - start: 359, end: 360
-✖ Statement expected - start: 360, end: 361
-✖ Statement expected - start: 361, end: 363
-✖ Statement expected - start: 363, end: 364
+✖ Declaration or statement expected - start: 356, end: 357
+✖ Declaration or statement expected - start: 357, end: 358
+✖ Declaration or statement expected - start: 358, end: 359
+✖ Declaration or statement expected - start: 359, end: 360
+✖ Declaration or statement expected - start: 360, end: 361
+✖ Declaration or statement expected - start: 361, end: 363
+✖ Declaration or statement expected - start: 363, end: 364
 ✖ Dot property must be an identifier - start: 401, end: 402
 ✖ ',' expected - start: 404, end: 407
+✖ Did you forgot a ']' to match the `[` token? - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
 ✖ Expected a `;` - start: 409, end: 410
-✖ Statement expected - start: 409, end: 410
-✖ Statement expected - start: 410, end: 412
+✖ Declaration or statement expected - start: 409, end: 410
+✖ Declaration or statement expected - start: 410, end: 412
 ✖ Expected a `;` - start: 424, end: 425
-✖ Statement expected - start: 424, end: 425
-✖ Statement expected - start: 425, end: 426
-✖ Statement expected - start: 426, end: 427
-✖ Statement expected - start: 427, end: 428
-✖ Statement expected - start: 428, end: 429
-✖ Statement expected - start: 429, end: 431
-✖ Statement expected - start: 431, end: 432
+✖ Declaration or statement expected - start: 424, end: 425
+✖ Declaration or statement expected - start: 425, end: 426
+✖ Declaration or statement expected - start: 426, end: 427
+✖ Declaration or statement expected - start: 427, end: 428
+✖ Declaration or statement expected - start: 428, end: 429
+✖ Declaration or statement expected - start: 429, end: 431
+✖ Declaration or statement expected - start: 431, end: 432
 ✖ ',' expected - start: 472, end: 475
+✖ Did you forgot a ']' to match the `[` token? - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
 ✖ Expected a `;` - start: 477, end: 478
-✖ Statement expected - start: 477, end: 478
-✖ Statement expected - start: 478, end: 480
+✖ Declaration or statement expected - start: 477, end: 478
+✖ Declaration or statement expected - start: 478, end: 480
 ✖ Expected a `;` - start: 492, end: 493
-✖ Statement expected - start: 492, end: 493
-✖ Statement expected - start: 493, end: 494
-✖ Statement expected - start: 494, end: 495
-✖ Statement expected - start: 495, end: 496
-✖ Statement expected - start: 496, end: 497
-✖ Statement expected - start: 497, end: 499
-✖ Statement expected - start: 499, end: 500
+✖ Declaration or statement expected - start: 492, end: 493
+✖ Declaration or statement expected - start: 493, end: 494
+✖ Declaration or statement expected - start: 494, end: 495
+✖ Declaration or statement expected - start: 495, end: 496
+✖ Declaration or statement expected - start: 496, end: 497
+✖ Declaration or statement expected - start: 497, end: 499
+✖ Declaration or statement expected - start: 499, end: 500
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 544, end: 546
 ✖ Expected a `;` - start: 630, end: 632
-✖ Statement expected - start: 630, end: 632
+✖ Declaration or statement expected - start: 630, end: 632
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
 
 ```

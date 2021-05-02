@@ -129,7 +129,7 @@ x; {})
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 28, end: 29
+✖ Declaration or statement expected - start: 28, end: 29
 
 ```
 

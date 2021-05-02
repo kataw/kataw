@@ -109,8 +109,8 @@ class x {foo: x}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 12, end: 13
-✖ Statement expected - start: 15, end: 16
+✖ Declaration or statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 15, end: 16
 
 ```
 

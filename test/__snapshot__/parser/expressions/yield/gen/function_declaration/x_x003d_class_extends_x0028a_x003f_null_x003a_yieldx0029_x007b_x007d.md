@@ -194,7 +194,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 63, end: 64
+✖ Declaration or statement expected - start: 63, end: 64
 
 ```
 

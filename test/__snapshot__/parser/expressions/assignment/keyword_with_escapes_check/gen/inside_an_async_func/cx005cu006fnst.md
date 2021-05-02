@@ -108,8 +108,8 @@ async () => {  c\u006fnst = x  }
 
 ```javascript
 ✖ Expected a `;` - start: 25, end: 27
-✖ Statement expected - start: 25, end: 27
-✖ Statement expected - start: 29, end: 32
+✖ Declaration or statement expected - start: 25, end: 27
+✖ Declaration or statement expected - start: 29, end: 32
 
 ```
 

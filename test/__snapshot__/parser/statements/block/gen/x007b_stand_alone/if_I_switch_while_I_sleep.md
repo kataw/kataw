@@ -135,6 +135,7 @@
 
 ```javascript
 ✖ Expression expected - start: 13, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
 
 ```
 

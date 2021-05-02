@@ -87,9 +87,9 @@ async () => {  \u0064efault = x  }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 13, end: 27
-✖ Statement expected - start: 27, end: 29
-✖ Statement expected - start: 31, end: 34
+✖ Declaration or statement expected - start: 13, end: 27
+✖ Declaration or statement expected - start: 27, end: 29
+✖ Declaration or statement expected - start: 31, end: 34
 
 ```
 

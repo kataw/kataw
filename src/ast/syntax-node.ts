@@ -349,5 +349,9 @@ export const enum SyntaxKind {
   Labels = 256,
   NameSpaceImport = 255,
   FromClause = 256,
-  PropertyMethod = 257
+  PropertyMethod = 257,
+  SingleLineComment = 258,
+  MultiLineComment = 259,
+  HTMLOpenComment = 260,
+  HTMLCloseComment = 261
 }

@@ -144,8 +144,10 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ Statement expected - start: 14, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
+✖ Declaration or statement expected - start: 14, end: 15
 ✖ Unexpected token. - start: 23, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 27
 
 ```
 

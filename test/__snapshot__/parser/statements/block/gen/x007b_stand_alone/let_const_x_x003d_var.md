@@ -133,6 +133,7 @@
 ✖ Expression expected - start: 15, end: 19
 ✖ Lexical declaration expected - start: 15, end: 19
 ✖ Expected a `;` - start: 15, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 
 ```
 

@@ -109,6 +109,7 @@
 ✖ Expression expected - start: 2, end: 8
 ✖ Expected a `;` - start: 2, end: 8
 ✖ 'try' expected - start: 2, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 8, end: 8
 
 ```
 

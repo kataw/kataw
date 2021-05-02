@@ -75,7 +75,7 @@ let [await f] = [];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 12
                             },

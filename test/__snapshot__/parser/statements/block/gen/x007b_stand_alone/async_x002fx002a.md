@@ -67,6 +67,7 @@
 
 ```javascript
 ✖ Unexpected token. - start: 7, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 11
 
 ```
 

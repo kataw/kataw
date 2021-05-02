@@ -130,7 +130,7 @@ var [x = 10, y = 5, z = 1] = a;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 25
                             },

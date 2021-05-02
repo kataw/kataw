@@ -147,7 +147,7 @@ let {foo=3} = {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 27,
                                 "end": 30
                             },

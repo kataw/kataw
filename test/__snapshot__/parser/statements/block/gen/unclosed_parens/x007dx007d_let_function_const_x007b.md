@@ -175,7 +175,7 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 4
-✖ Statement expected - start: 4, end: 5
+✖ Declaration or statement expected - start: 4, end: 5
 ✖ Expected a `;` - start: 9, end: 18
 ✖ Binding identifier expected - start: 18, end: 24
 ✖ Unexpected token. - start: 18, end: 24

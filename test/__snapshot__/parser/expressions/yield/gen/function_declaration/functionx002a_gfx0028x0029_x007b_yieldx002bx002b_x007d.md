@@ -179,7 +179,7 @@ function not_gen() { function* gf() { yield++; } }}
 
 ```javascript
 ✖ Expression expected - start: 45, end: 46
-✖ Statement expected - start: 50, end: 51
+✖ Declaration or statement expected - start: 50, end: 51
 
 ```
 

@@ -106,9 +106,9 @@ class A {*=f(){}}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 9, end: 11
+✖ Declaration or statement expected - start: 9, end: 11
 ✖ Expected a `;` - start: 14, end: 15
-✖ Statement expected - start: 16, end: 17
+✖ Declaration or statement expected - start: 16, end: 17
 
 ```
 

@@ -5086,7 +5086,7 @@ switch (answer) { case 0: let a; };
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 1921,
                                                     "end": 1922
                                                 },

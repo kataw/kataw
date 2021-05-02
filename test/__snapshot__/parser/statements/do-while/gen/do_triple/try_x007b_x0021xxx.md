@@ -240,6 +240,7 @@ do do do try { !xxx while while while
 ✖ Expression expected - start: 31, end: 37
 ✖ Expression expected - start: 37, end: 37
 ✖ Expression expected - start: 37, end: 37
+✖ The parser expected to find a '}' to match the '{' token here - start: 37, end: 37
 ✖ Expression expected - start: 37, end: 37
 ✖ Expression expected - start: 37, end: 37
 ✖ Expression expected - start: 37, end: 37

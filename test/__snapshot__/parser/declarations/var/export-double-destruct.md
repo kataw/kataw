@@ -81,7 +81,7 @@ export var [foo] = arr, [bar] = arr2;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 12,
                                     "end": 15
                                 },
@@ -130,7 +130,7 @@ export var [foo] = arr, [bar] = arr2;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 25,
                                     "end": 28
                                 },

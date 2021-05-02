@@ -105,8 +105,8 @@ class x {debugger: x}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 17, end: 18
-✖ Statement expected - start: 20, end: 21
+✖ Declaration or statement expected - start: 17, end: 18
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

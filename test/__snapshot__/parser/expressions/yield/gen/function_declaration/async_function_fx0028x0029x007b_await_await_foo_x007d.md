@@ -177,7 +177,7 @@ function not_gen() { async function f(){ await await foo; } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 61, end: 62
+✖ Declaration or statement expected - start: 61, end: 62
 
 ```
 

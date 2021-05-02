@@ -140,7 +140,7 @@ function not_gen() { (yield) ? yield : yield }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 46, end: 47
+✖ Declaration or statement expected - start: 46, end: 47
 
 ```
 

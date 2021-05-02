@@ -54,7 +54,7 @@ var []
                                 "kind": 202,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 5
                             },

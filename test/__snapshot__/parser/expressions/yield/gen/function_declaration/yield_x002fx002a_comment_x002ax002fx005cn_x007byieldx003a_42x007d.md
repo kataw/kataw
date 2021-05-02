@@ -174,10 +174,10 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 26, end: 40
 ✖ Expected a `;` - start: 26, end: 41
-✖ Statement expected - start: 26, end: 41
+✖ Declaration or statement expected - start: 26, end: 41
 ✖ Expected a `;` - start: 42, end: 44
-✖ Statement expected - start: 54, end: 56
-✖ Statement expected - start: 56, end: 57
+✖ Declaration or statement expected - start: 54, end: 56
+✖ Declaration or statement expected - start: 56, end: 57
 
 ```
 

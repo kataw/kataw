@@ -66,7 +66,7 @@ const [,,] = x;
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 9
                             },

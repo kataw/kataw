@@ -167,7 +167,7 @@ function not_gen() { function* gf() { yield 'foo' } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 53, end: 54
+✖ Declaration or statement expected - start: 53, end: 54
 
 ```
 

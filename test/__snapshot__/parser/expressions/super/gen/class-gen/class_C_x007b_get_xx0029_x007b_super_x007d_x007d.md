@@ -225,12 +225,12 @@ class C { *method() { class C { get x) { super; } } } }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 37, end: 38
+✖ Declaration or statement expected - start: 37, end: 38
 ✖ 'super' must be followed by an argument list or member access. - start: 46, end: 47
 ✖ Dot property must be an identifier - start: 46, end: 47
-✖ Statement expected - start: 49, end: 51
-✖ Statement expected - start: 51, end: 53
-✖ Statement expected - start: 53, end: 55
+✖ Declaration or statement expected - start: 49, end: 51
+✖ Declaration or statement expected - start: 51, end: 53
+✖ Declaration or statement expected - start: 53, end: 55
 
 ```
 

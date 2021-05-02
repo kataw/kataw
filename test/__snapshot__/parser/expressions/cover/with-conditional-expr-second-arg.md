@@ -118,8 +118,8 @@
 ```javascript
 ✖ Expression expected - start: 6, end: 7
 ✖ Expected a `;` - start: 8, end: 9
-✖ Statement expected - start: 8, end: 9
-✖ Statement expected - start: 11, end: 12
+✖ Declaration or statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 11, end: 12
 
 ```
 

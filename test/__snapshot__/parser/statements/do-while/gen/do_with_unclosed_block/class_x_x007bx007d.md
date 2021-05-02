@@ -122,6 +122,7 @@ do {} while (x) { class x {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+
 ```
 

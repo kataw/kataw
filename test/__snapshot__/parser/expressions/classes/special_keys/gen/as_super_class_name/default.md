@@ -102,7 +102,7 @@ class x extends default {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 23
-✖ Statement expected - start: 15, end: 23
+✖ Declaration or statement expected - start: 15, end: 23
 
 ```
 

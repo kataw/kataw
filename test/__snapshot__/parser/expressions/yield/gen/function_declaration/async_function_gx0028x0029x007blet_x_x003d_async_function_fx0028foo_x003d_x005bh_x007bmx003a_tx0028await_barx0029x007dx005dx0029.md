@@ -340,7 +340,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 103, end: 104
+✖ Declaration or statement expected - start: 103, end: 104
 
 ```
 

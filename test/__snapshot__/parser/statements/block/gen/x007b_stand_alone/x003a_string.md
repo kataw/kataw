@@ -65,7 +65,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 1, end: 3
+✖ The parser expected to find a '}' to match the '{' token here - start: 1, end: 3
+✖ Declaration or statement expected - start: 1, end: 3
 
 ```
 

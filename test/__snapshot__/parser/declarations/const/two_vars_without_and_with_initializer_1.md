@@ -97,7 +97,7 @@ const [foo, bar=b] = arr;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 17
                             },

@@ -242,9 +242,9 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
 ✖ Expected a `;` - start: 44, end: 47
 ✖ ',' expected - start: 44, end: 47
 ✖ Expected a `;` - start: 44, end: 47
-✖ Statement expected - start: 44, end: 47
-✖ Statement expected - start: 89, end: 91
-✖ Statement expected - start: 91, end: 92
+✖ Declaration or statement expected - start: 44, end: 47
+✖ Declaration or statement expected - start: 89, end: 91
+✖ Declaration or statement expected - start: 91, end: 92
 
 ```
 

@@ -53,7 +53,7 @@ const []
                                 "kind": 202,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 7
                             },

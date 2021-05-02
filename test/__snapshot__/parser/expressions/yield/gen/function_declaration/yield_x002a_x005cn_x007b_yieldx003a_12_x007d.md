@@ -194,10 +194,10 @@ function not_gen() { yield * \n { yield: 12 } }}
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 29
 ✖ Expression expected - start: 28, end: 30
 ✖ Expected a `;` - start: 28, end: 30
-✖ Statement expected - start: 28, end: 30
+✖ Declaration or statement expected - start: 28, end: 30
 ✖ Expected a `;` - start: 31, end: 33
-✖ Statement expected - start: 45, end: 47
-✖ Statement expected - start: 47, end: 48
+✖ Declaration or statement expected - start: 45, end: 47
+✖ Declaration or statement expected - start: 47, end: 48
 
 ```
 

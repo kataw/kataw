@@ -111,6 +111,7 @@ do[ try { !xxx
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 7
 ✖ Expected a `;` - start: 3, end: 7
 
 ```

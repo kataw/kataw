@@ -72,7 +72,7 @@ c\u006fnst = x;
 
 ```javascript
 ✖ Expected a `;` - start: 10, end: 12
-✖ Statement expected - start: 10, end: 12
+✖ Declaration or statement expected - start: 10, end: 12
 
 ```
 

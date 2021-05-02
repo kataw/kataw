@@ -272,6 +272,9 @@ export function scanEscapeSequence(
           parser.pos
         );
       }
+
+      parser.nodeFlags |= NodeFlags.OctalIntegerLiteral;
+
       return String.fromCharCode(ch);
     }
 
@@ -284,6 +287,9 @@ export function scanEscapeSequence(
         parser.curPos,
         parser.pos
       );
+
+      parser.nodeFlags |= NodeFlags.ContainsInvalidEscape;
+
       return String.fromCharCode(ch);
 
     case EscapeChars.Unicode:

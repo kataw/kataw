@@ -215,11 +215,14 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 27, end: 32
 ✖ ',' expected - start: 32, end: 34
 ✖ Unexpected token. - start: 35, end: 37
+✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
+✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
 
 ```
 

@@ -82,7 +82,7 @@ class case {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Statement expected - start: 5, end: 10
+✖ Declaration or statement expected - start: 5, end: 10
 
 ```
 

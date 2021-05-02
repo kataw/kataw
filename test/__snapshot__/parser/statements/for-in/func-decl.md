@@ -102,7 +102,7 @@ function x(a, [x]) {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 15,
                                 "end": 16
                             },

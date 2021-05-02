@@ -100,7 +100,7 @@ import(x,import(y))
 ```javascript
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Expected a `;` - start: 18, end: 19
-✖ Statement expected - start: 18, end: 19
+✖ Declaration or statement expected - start: 18, end: 19
 
 ```
 

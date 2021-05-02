@@ -99,6 +99,8 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 10
+
 ```
 

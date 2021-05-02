@@ -89,7 +89,7 @@ let foo, [bar];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 13
                             },

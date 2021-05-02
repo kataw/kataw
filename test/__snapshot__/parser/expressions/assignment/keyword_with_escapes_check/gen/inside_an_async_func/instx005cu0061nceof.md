@@ -123,8 +123,8 @@ async () => {  inst\u0061nceof = x  }
 ✖ Expression expected - start: 13, end: 30
 ✖ Expression expected - start: 30, end: 32
 ✖ Expected a `;` - start: 30, end: 32
-✖ Statement expected - start: 30, end: 32
-✖ Statement expected - start: 34, end: 37
+✖ Declaration or statement expected - start: 30, end: 32
+✖ Declaration or statement expected - start: 34, end: 37
 
 ```
 

@@ -3353,46 +3353,46 @@
 
 ```javascript
 ✖ Invalid character - start: 11, end: 13
-✖ Statement expected - start: 17, end: 19
-✖ Statement expected - start: 19, end: 20
+✖ Declaration or statement expected - start: 17, end: 19
+✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 33, end: 35
-✖ Statement expected - start: 43, end: 44
+✖ Declaration or statement expected - start: 43, end: 44
 ✖ Binding identifier expected - start: 47, end: 48
-✖ Statement expected - start: 47, end: 48
+✖ Declaration or statement expected - start: 47, end: 48
 ✖ Invalid character - start: 61, end: 63
 ✖ Unexpected token. - start: 106, end: 108
 ✖ Expected a `;` - start: 106, end: 108
-✖ Statement expected - start: 106, end: 108
-✖ Statement expected - start: 110, end: 111
-✖ Statement expected - start: 111, end: 112
+✖ Declaration or statement expected - start: 106, end: 108
+✖ Declaration or statement expected - start: 110, end: 111
+✖ Declaration or statement expected - start: 111, end: 112
 ✖ Unexpected token. - start: 126, end: 128
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 126, end: 128
 ✖ Expression expected - start: 128, end: 129
-✖ Statement expected - start: 128, end: 129
-✖ Statement expected - start: 129, end: 130
+✖ Declaration or statement expected - start: 128, end: 129
+✖ Declaration or statement expected - start: 129, end: 130
 ✖ Unexpected token. - start: 144, end: 147
 ✖ Expected a `;` - start: 144, end: 147
-✖ Statement expected - start: 144, end: 147
-✖ Statement expected - start: 150, end: 151
-✖ Statement expected - start: 151, end: 152
+✖ Declaration or statement expected - start: 144, end: 147
+✖ Declaration or statement expected - start: 150, end: 151
+✖ Declaration or statement expected - start: 151, end: 152
 ✖ Expected a `;` - start: 164, end: 167
-✖ Statement expected - start: 164, end: 167
-✖ Statement expected - start: 170, end: 171
-✖ Statement expected - start: 171, end: 172
+✖ Declaration or statement expected - start: 164, end: 167
+✖ Declaration or statement expected - start: 170, end: 171
+✖ Declaration or statement expected - start: 171, end: 172
 ✖ Unexpected token. - start: 187, end: 189
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 187, end: 189
-✖ Statement expected - start: 191, end: 192
-✖ Statement expected - start: 192, end: 193
+✖ Declaration or statement expected - start: 191, end: 192
+✖ Declaration or statement expected - start: 192, end: 193
 ✖ Unexpected token. - start: 208, end: 211
 ✖ Expected a `;` - start: 208, end: 211
-✖ Statement expected - start: 208, end: 211
-✖ Statement expected - start: 213, end: 214
-✖ Statement expected - start: 214, end: 215
+✖ Declaration or statement expected - start: 208, end: 211
+✖ Declaration or statement expected - start: 213, end: 214
+✖ Declaration or statement expected - start: 214, end: 215
 ✖ Unexpected token. - start: 230, end: 233
 ✖ Expected a `;` - start: 230, end: 233
-✖ Statement expected - start: 230, end: 233
-✖ Statement expected - start: 236, end: 237
-✖ Statement expected - start: 237, end: 238
+✖ Declaration or statement expected - start: 230, end: 233
+✖ Declaration or statement expected - start: 236, end: 237
+✖ Declaration or statement expected - start: 237, end: 238
 ✖ Unexpected token. - start: 256, end: 257
 ✖ Expression expected - start: 257, end: 258
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 270, end: 275
@@ -3400,17 +3400,17 @@
 ✖ Expression expected - start: 281, end: 282
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 294, end: 299
 ✖ Expected a `;` - start: 302, end: 305
-✖ Statement expected - start: 302, end: 305
-✖ Statement expected - start: 308, end: 309
-✖ Statement expected - start: 309, end: 310
+✖ Declaration or statement expected - start: 302, end: 305
+✖ Declaration or statement expected - start: 308, end: 309
+✖ Declaration or statement expected - start: 309, end: 310
 ✖ Unexpected token. - start: 330, end: 332
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 330, end: 332
-✖ Statement expected - start: 334, end: 335
-✖ Statement expected - start: 335, end: 336
+✖ Declaration or statement expected - start: 334, end: 335
+✖ Declaration or statement expected - start: 335, end: 336
 ✖ Expected a `;` - start: 354, end: 357
-✖ Statement expected - start: 354, end: 357
-✖ Statement expected - start: 360, end: 361
-✖ Statement expected - start: 361, end: 362
+✖ Declaration or statement expected - start: 354, end: 357
+✖ Declaration or statement expected - start: 360, end: 361
+✖ Declaration or statement expected - start: 361, end: 362
 ✖ Invalid character - start: 433, end: 434
 ✖ Invalid character - start: 460, end: 462
 ✖ Invalid character - start: 488, end: 490

@@ -61,7 +61,7 @@ let [[]]=0
                                                 "kind": 202,
                                                 "elements": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 6,
                                                 "end": 6
                                             },
@@ -78,7 +78,7 @@ let [[]]=0
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 7
                             },

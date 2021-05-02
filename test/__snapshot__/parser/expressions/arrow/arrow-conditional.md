@@ -507,7 +507,7 @@ a ? b : (): string => {}
 
 ```javascript
 ✖ Expected a `;` - start: 56, end: 59
-✖ Statement expected - start: 56, end: 59
+✖ Declaration or statement expected - start: 56, end: 59
 
 ```
 

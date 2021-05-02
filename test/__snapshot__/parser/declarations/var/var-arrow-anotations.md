@@ -1462,7 +1462,7 @@ class Array { concat(items:number | string) {}; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 524,
                                 "end": 525
                             },

@@ -125,9 +125,11 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Cannot use 'import.meta' outside a module - start: 21, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```
 

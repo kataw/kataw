@@ -1416,22 +1416,22 @@
 ```javascript
 ✖ Binding identifier expected - start: 41, end: 42
 ✖ Expected a `;` - start: 122, end: 124
-✖ Statement expected - start: 122, end: 124
-✖ Statement expected - start: 126, end: 127
-✖ Statement expected - start: 127, end: 128
+✖ Declaration or statement expected - start: 122, end: 124
+✖ Declaration or statement expected - start: 126, end: 127
+✖ Declaration or statement expected - start: 127, end: 128
 ✖ Expected a `;` - start: 144, end: 146
-✖ Statement expected - start: 144, end: 146
-✖ Statement expected - start: 148, end: 149
-✖ Statement expected - start: 149, end: 150
+✖ Declaration or statement expected - start: 144, end: 146
+✖ Declaration or statement expected - start: 148, end: 149
+✖ Declaration or statement expected - start: 149, end: 150
 ✖ Binding identifier expected - start: 240, end: 241
 ✖ Expected a `;` - start: 342, end: 344
-✖ Statement expected - start: 342, end: 344
-✖ Statement expected - start: 346, end: 347
-✖ Statement expected - start: 347, end: 348
+✖ Declaration or statement expected - start: 342, end: 344
+✖ Declaration or statement expected - start: 346, end: 347
+✖ Declaration or statement expected - start: 347, end: 348
 ✖ Expected a `;` - start: 371, end: 373
-✖ Statement expected - start: 371, end: 373
-✖ Statement expected - start: 375, end: 376
-✖ Statement expected - start: 376, end: 377
+✖ Declaration or statement expected - start: 371, end: 373
+✖ Declaration or statement expected - start: 375, end: 376
+✖ Declaration or statement expected - start: 376, end: 377
 
 ```
 

@@ -68,7 +68,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 5, end: 8
-✖ Statement expected - start: 5, end: 8
+✖ Declaration or statement expected - start: 5, end: 8
 
 ```
 

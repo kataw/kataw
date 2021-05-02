@@ -111,8 +111,8 @@ const {,} = obj;
 
 ```javascript
 ✖ Missing initializer in const declaration - start: 7, end: 8
-✖ Statement expected - start: 8, end: 9
-✖ Statement expected - start: 9, end: 11
+✖ Declaration or statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 9, end: 11
 
 ```
 

@@ -95,7 +95,7 @@ await.b[c] => async
 
 ```javascript
 ✖ Expected a `;` - start: 10, end: 13
-✖ Statement expected - start: 10, end: 13
+✖ Declaration or statement expected - start: 10, end: 13
 
 ```
 

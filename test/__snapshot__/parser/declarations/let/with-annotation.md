@@ -119,7 +119,7 @@ let {x}: string = y;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 21,
                                 "end": 22
                             },
@@ -215,7 +215,7 @@ let {x}: string = y;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 43,
                                 "end": 44
                             },
@@ -402,23 +402,24 @@ let {x}: string = y;
 ```javascript
 ✖ ',' expected - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
-✖ Statement expected - start: 5, end: 6
+✖ Declaration or statement expected - start: 5, end: 6
 ✖ Missing initializer in destructuring declaration - start: 23, end: 24
 ✖ ',' expected - start: 23, end: 24
 ✖ Expected a `;` - start: 23, end: 24
-✖ Statement expected - start: 23, end: 24
+✖ Declaration or statement expected - start: 23, end: 24
 ✖ ',' expected - start: 44, end: 45
+✖ Did you forgot a ']' to match the `[` token? - start: 44, end: 45
 ✖ Missing initializer in destructuring declaration - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a `;` - start: 44, end: 45
-✖ Statement expected - start: 44, end: 45
+✖ Declaration or statement expected - start: 44, end: 45
 ✖ Expected a `;` - start: 51, end: 52
-✖ Statement expected - start: 51, end: 52
-✖ Statement expected - start: 52, end: 53
+✖ Declaration or statement expected - start: 51, end: 52
+✖ Declaration or statement expected - start: 52, end: 53
 ✖ Missing initializer in destructuring declaration - start: 74, end: 75
 ✖ ',' expected - start: 74, end: 75
 ✖ Expected a `;` - start: 74, end: 75
-✖ Statement expected - start: 74, end: 75
+✖ Declaration or statement expected - start: 74, end: 75
 
 ```
 

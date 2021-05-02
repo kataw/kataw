@@ -17,6 +17,7 @@ export interface ElementList extends SyntaxNode {
 export function createElementList(
   elements: ListElements[],
   trailingComma: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ElementList {
@@ -24,7 +25,7 @@ export function createElementList(
     kind: SyntaxKind.ElementList,
     elements,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

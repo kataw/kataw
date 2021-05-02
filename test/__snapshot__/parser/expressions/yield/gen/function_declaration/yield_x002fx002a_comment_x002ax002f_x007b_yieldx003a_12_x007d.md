@@ -159,7 +159,7 @@ function not_gen() { yield /* comment */ { yield: 12 } }}
 
 ```javascript
 ✖ Expected a `;` - start: 26, end: 42
-✖ Statement expected - start: 56, end: 57
+✖ Declaration or statement expected - start: 56, end: 57
 
 ```
 

@@ -160,6 +160,7 @@ do try { !xxx while
 ✖ Expected a `;` - start: 13, end: 19
 ✖ Expression expected - start: 19, end: 19
 ✖ Expression expected - start: 19, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 ✖ Expression expected - start: 19, end: 19
 
 ```

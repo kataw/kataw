@@ -96,6 +96,8 @@
 ```javascript
 ✖ ',' expected - start: 4, end: 11
 ✖ ',' expected - start: 11, end: 11
+✖ Did you forgot a ']' to match the `[` token? - start: 11, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 11
 
 ```
 

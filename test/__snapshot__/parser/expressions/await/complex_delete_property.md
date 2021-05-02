@@ -222,8 +222,8 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 61, end: 64
-✖ Statement expected - start: 68, end: 74
+✖ Declaration or statement expected - start: 61, end: 64
+✖ Declaration or statement expected - start: 68, end: 74
 
 ```
 

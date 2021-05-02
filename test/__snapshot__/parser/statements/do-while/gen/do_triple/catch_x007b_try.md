@@ -229,6 +229,7 @@ do do do catch { try while while while
 ✖ Expression expected - start: 32, end: 38
 ✖ Expression expected - start: 38, end: 38
 ✖ Expression expected - start: 38, end: 38
+✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 38
 ✖ Expression expected - start: 38, end: 38
 ✖ Expression expected - start: 38, end: 38
 ✖ Expression expected - start: 38, end: 38

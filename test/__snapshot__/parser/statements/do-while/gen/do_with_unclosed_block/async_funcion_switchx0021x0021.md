@@ -152,6 +152,7 @@ do {} while (x) { async funcion switch!!
 
 ```javascript
 ✖ Expression expected - start: 40, end: 40
+✖ The parser expected to find a '}' to match the '{' token here - start: 40, end: 40
 
 ```
 

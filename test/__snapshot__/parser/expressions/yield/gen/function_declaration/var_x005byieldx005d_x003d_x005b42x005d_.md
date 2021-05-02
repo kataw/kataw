@@ -91,7 +91,7 @@ function not_gen() { var [yield] = [42]; }}
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 26,
                                                 "end": 31
                                             },
@@ -171,7 +171,7 @@ function not_gen() { var [yield] = [42]; }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 42, end: 43
+✖ Declaration or statement expected - start: 42, end: 43
 
 ```
 

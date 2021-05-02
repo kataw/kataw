@@ -333,7 +333,8 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ Statement expected - start: 14, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
+✖ Declaration or statement expected - start: 14, end: 15
 ✖ Expected a `;` - start: 19, end: 26
 ✖ Expected a `;` - start: 34, end: 37
 ✖ Expected a `;` - start: 37, end: 45
@@ -344,6 +345,7 @@
 ✖ Expected a `;` - start: 72, end: 76
 ✖ Expression expected - start: 83, end: 83
 ✖ Expression expected - start: 83, end: 83
+✖ The parser expected to find a '}' to match the '{' token here - start: 83, end: 83
 
 ```
 

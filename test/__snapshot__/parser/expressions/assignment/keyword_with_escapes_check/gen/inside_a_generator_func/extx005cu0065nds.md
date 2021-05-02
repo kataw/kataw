@@ -106,9 +106,9 @@ function *f(){
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 14, end: 29
-✖ Statement expected - start: 29, end: 31
-✖ Statement expected - start: 33, end: 35
+✖ Declaration or statement expected - start: 14, end: 29
+✖ Declaration or statement expected - start: 29, end: 31
+✖ Declaration or statement expected - start: 33, end: 35
 
 ```
 

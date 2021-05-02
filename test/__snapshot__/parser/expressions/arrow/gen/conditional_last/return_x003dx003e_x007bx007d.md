@@ -110,7 +110,7 @@ bar, return => {};
 ✖ A return statement can only be used within a function_body - start: 4, end: 11
 ✖ Expression expected - start: 11, end: 14
 ✖ Expected a `;` - start: 11, end: 14
-✖ Statement expected - start: 11, end: 14
+✖ Declaration or statement expected - start: 11, end: 14
 
 ```
 

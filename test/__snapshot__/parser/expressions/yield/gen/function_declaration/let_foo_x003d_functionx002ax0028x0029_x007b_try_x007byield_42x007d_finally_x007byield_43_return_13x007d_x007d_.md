@@ -290,7 +290,7 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 94, end: 95
+✖ Declaration or statement expected - start: 94, end: 95
 
 ```
 

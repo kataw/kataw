@@ -150,7 +150,7 @@ for (let x of a,b) c
 ```javascript
 ✖ Expression expected - start: 15, end: 16
 ✖ Expected a `;` - start: 17, end: 18
-✖ Statement expected - start: 17, end: 18
+✖ Declaration or statement expected - start: 17, end: 18
 
 ```
 

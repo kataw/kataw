@@ -107,9 +107,11 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
-✖ Statement expected - start: 9, end: 17
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 17
+✖ Declaration or statement expected - start: 9, end: 17
 
 ```
 

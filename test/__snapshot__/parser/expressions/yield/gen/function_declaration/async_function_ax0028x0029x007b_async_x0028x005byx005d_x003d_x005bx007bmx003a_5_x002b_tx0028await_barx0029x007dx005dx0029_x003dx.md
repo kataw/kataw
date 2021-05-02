@@ -318,10 +318,10 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 82, end: 85
-✖ Statement expected - start: 88, end: 94
-✖ Statement expected - start: 94, end: 96
-✖ Statement expected - start: 96, end: 97
+✖ Declaration or statement expected - start: 82, end: 85
+✖ Declaration or statement expected - start: 88, end: 94
+✖ Declaration or statement expected - start: 94, end: 96
+✖ Declaration or statement expected - start: 96, end: 97
 
 ```
 

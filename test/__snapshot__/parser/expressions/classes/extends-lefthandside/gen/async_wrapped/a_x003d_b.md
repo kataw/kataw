@@ -171,9 +171,9 @@ async function p(){
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 39, end: 41
+✖ Declaration or statement expected - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 45
-✖ Statement expected - start: 46, end: 48
+✖ Declaration or statement expected - start: 46, end: 48
 
 ```
 

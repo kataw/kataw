@@ -82,10 +82,10 @@
 ```javascript
 ✖ Expected a `;` - start: 9, end: 11
 ✖ Expected a `;` - start: 11, end: 12
-✖ Statement expected - start: 11, end: 12
-✖ Statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 13
 ✖ Expected a `;` - start: 14, end: 15
-✖ Statement expected - start: 14, end: 15
+✖ Declaration or statement expected - start: 14, end: 15
 
 ```
 

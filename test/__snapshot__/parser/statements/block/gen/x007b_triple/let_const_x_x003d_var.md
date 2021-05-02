@@ -161,6 +161,9 @@
 ✖ Expression expected - start: 19, end: 23
 ✖ Lexical declaration expected - start: 19, end: 23
 ✖ Expected a `;` - start: 19, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
 
 ```
 

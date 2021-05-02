@@ -106,7 +106,7 @@ var [x = 10, [ z ]] = a;
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
@@ -123,7 +123,7 @@ var [x = 10, [ z ]] = a;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 18
                             },

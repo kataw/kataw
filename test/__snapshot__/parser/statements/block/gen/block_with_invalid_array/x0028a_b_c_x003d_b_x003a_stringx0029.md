@@ -189,13 +189,15 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 12, end: 14
 ✖ Expected a `;` - start: 21, end: 23
-✖ Statement expected - start: 21, end: 23
+✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 23
+✖ Declaration or statement expected - start: 21, end: 23
 ✖ Expected a `;` - start: 30, end: 31
-✖ Statement expected - start: 30, end: 31
+✖ Declaration or statement expected - start: 30, end: 31
 
 ```
 

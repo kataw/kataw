@@ -117,8 +117,8 @@ let {,x} = obj;
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
-✖ Statement expected - start: 7, end: 8
-✖ Statement expected - start: 8, end: 10
+✖ Declaration or statement expected - start: 7, end: 8
+✖ Declaration or statement expected - start: 8, end: 10
 
 ```
 

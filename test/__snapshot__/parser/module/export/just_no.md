@@ -91,7 +91,7 @@ export ...x = y
 
 ```javascript
 ✖ Unexpected token. - start: 6, end: 10
-✖ Statement expected - start: 6, end: 10
+✖ Declaration or statement expected - start: 6, end: 10
 
 ```
 

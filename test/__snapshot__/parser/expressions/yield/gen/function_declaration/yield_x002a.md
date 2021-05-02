@@ -120,7 +120,7 @@ function not_gen() { yield * }}
 
 ```javascript
 ✖ Expression expected - start: 28, end: 30
-✖ Statement expected - start: 30, end: 31
+✖ Declaration or statement expected - start: 30, end: 31
 
 ```
 

@@ -72,6 +72,7 @@
 ```javascript
 ✖ Property assignment expected - start: 7, end: 7
 ✖ ',' expected - start: 7, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
 
 ```
 

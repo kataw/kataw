@@ -72,7 +72,7 @@ let[x] in x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 4,
                                 "end": 5
                             },

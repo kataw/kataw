@@ -128,6 +128,7 @@
 
 ```javascript
 ✖ Unexpected token. - start: 16, end: 17
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 18
 
 ```
 

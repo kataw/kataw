@@ -74,7 +74,7 @@ let ];
 
 ```javascript
 ✖ Expected a `;` - start: 3, end: 5
-✖ Statement expected - start: 3, end: 5
+✖ Declaration or statement expected - start: 3, end: 5
 
 ```
 

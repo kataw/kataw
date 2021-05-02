@@ -153,7 +153,7 @@ x => y {})
 
 ```javascript
 ✖ Expected a `;` - start: 29, end: 31
-✖ Statement expected - start: 32, end: 33
+✖ Declaration or statement expected - start: 32, end: 33
 
 ```
 

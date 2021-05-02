@@ -132,7 +132,7 @@ left@{xa0}@right
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 9, end: 10
+✖ Declaration or statement expected - start: 9, end: 10
 ✖ Binding identifier expected - start: 16, end: 16
 
 ```

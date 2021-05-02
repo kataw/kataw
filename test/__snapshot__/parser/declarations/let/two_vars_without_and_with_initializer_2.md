@@ -93,7 +93,7 @@ let [foo=a, bar=b] = arr;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 17
                             },

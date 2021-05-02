@@ -151,7 +151,7 @@ x = (a)?c:d=>{}=>{}
 
 ```javascript
 ✖ Expected a `;` - start: 15, end: 17
-✖ Statement expected - start: 15, end: 17
+✖ Declaration or statement expected - start: 15, end: 17
 
 ```
 

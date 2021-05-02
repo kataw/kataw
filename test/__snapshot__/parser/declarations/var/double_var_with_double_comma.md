@@ -135,8 +135,8 @@ var {x,, y} = obj;
 
 ```javascript
 ✖ Missing initializer in destructuring declaration - start: 7, end: 8
-✖ Statement expected - start: 10, end: 11
-✖ Statement expected - start: 11, end: 13
+✖ Declaration or statement expected - start: 10, end: 11
+✖ Declaration or statement expected - start: 11, end: 13
 
 ```
 

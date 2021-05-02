@@ -198,7 +198,7 @@ function not_gen() { async function wrap() { async function await() { } }; }}
 
 ```javascript
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 59, end: 65
-✖ Statement expected - start: 76, end: 77
+✖ Declaration or statement expected - start: 76, end: 77
 
 ```
 

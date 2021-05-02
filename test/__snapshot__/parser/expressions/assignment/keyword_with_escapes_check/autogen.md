@@ -465,7 +465,7 @@ function *f(){
 ```javascript
 ✖ Invalid character - start: 0, end: 1
 ✖ Private identifiers are not allowed outside class_bodies - start: 0, end: 1
-✖ Statement expected - start: 1, end: 3
+✖ Declaration or statement expected - start: 1, end: 3
 
 ```
 

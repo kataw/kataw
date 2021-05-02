@@ -106,7 +106,7 @@
 ✖ Expression expected - start: 16, end: 18
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
 ✖ Expected a `;` - start: 20, end: 21
-✖ Statement expected - start: 20, end: 21
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

@@ -267,7 +267,7 @@ export function parse(
       diagnosticMap[
         parser.token === SyntaxKind.PrivateIdentifier
           ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
-          : DiagnosticCode.Statement_expected
+          : DiagnosticCode.Declaration_or_statement_expected
       ],
       parser.curPos,
       parser.pos
@@ -1218,7 +1218,17 @@ function parseBlock(parser: ParserState, context: Context): Block {
   const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBrace)) {
     const block = parseBlockStatement(parser, context);
-    consume(parser, context | Context.AllowRegExp, SyntaxKind.RightBrace);
+    if (parser.token === SyntaxKind.RightBrace) {
+      nextToken(parser, context | Context.AllowRegExp);
+    } else {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     if (consumeOpt(parser, context, SyntaxKind.Assign)) {
       parser.onError(
         DiagnosticSource.Parser,
@@ -2822,7 +2832,16 @@ function parseArrayLiteralOrAssignmentExpression(
   const curPos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket);
   const elementList = parseElementList(parser, context, type);
-  consume(parser, context, SyntaxKind.RightBracket);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const node = createArrayLiteral(elementList, curPos, parser.curPos);
 
@@ -2862,6 +2881,7 @@ function parseElementList(parser: ParserState, context: Context, type: BindingTy
   const curPos = parser.curPos;
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
+  const flags = parser.nodeFlags;
   let destructible = DestructibleKind.None;
   while (parser.token & 279789568) {
     elements.push(parseArrayLiteralElement(parser, context, type) as any);
@@ -2879,7 +2899,7 @@ function parseElementList(parser: ParserState, context: Context, type: BindingTy
   }
 
   parser.destructible = destructible;
-  return createElementList(elements, trailingComma, curPos, parser.curPos);
+  return createElementList(elements, trailingComma, flags | NodeFlags.ExpressionNode, curPos, parser.curPos);
 }
 
 function parseArrayLiteralElement(
@@ -3609,25 +3629,29 @@ function parseIdentifierOrPattern(
 
 function parseArrayBindingPattern(parser: ParserState, context: Context): ArrayBindingPattern {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags;
   nextToken(parser, context);
   const bindingElementList = parseBindingElementList(parser, context);
-  consume(parser, context, SyntaxKind.RightBracket);
-  return createArrayBindingPattern(bindingElementList, pos, parser.curPos);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  return createArrayBindingPattern(bindingElementList, flags | NodeFlags.ExpressionNode, pos, parser.curPos);
 }
 
 function parseBindingElementList(parser: ParserState, context: Context): BindingElementList {
   const pos = parser.curPos;
+  const flags = parser.nodeFlags;
   const elements = [];
   let trailingComma = false;
 
-  while (
-    parser.token &
-    (SyntaxKind.IsPatternStart |
-      SyntaxKind.IsEllipsis |
-      SyntaxKind.IsComma |
-      SyntaxKind.IsIdentifier |
-      SyntaxKind.IsFutureReserved)
-  ) {
+  while (parser.token & 0b00010000101010000100000000000000) {
     elements.push(parseArrayBindingElement(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBracket) break;
     if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -3640,7 +3664,7 @@ function parseBindingElementList(parser: ParserState, context: Context): Binding
 
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
-  return createBindingElementList(elements, trailingComma, pos, parser.curPos);
+  return createBindingElementList(elements, trailingComma, flags, pos, parser.curPos);
 }
 
 function parseArrayBindingElement(parser: ParserState, context: Context): OmittedExpression | ArrayBindingElement {

@@ -144,17 +144,17 @@
 ✖ Invalid hexadecimal escape sequence - start: 1, end: 2
 ✖ Invalid hexadecimal escape sequence - start: 2, end: 2
 ✖ Expected a `;` - start: 2, end: 3
-✖ Statement expected - start: 2, end: 3
+✖ Declaration or statement expected - start: 2, end: 3
 ✖ Expected a `;` - start: 11, end: 12
-✖ Statement expected - start: 11, end: 12
-✖ Statement expected - start: 12, end: 15
+✖ Declaration or statement expected - start: 11, end: 12
+✖ Declaration or statement expected - start: 12, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 36, end: 37
 ✖ Invalid hexadecimal escape sequence - start: 37, end: 37
 ✖ Expected a `;` - start: 37, end: 38
-✖ Statement expected - start: 37, end: 38
+✖ Declaration or statement expected - start: 37, end: 38
 ✖ Expected a `;` - start: 46, end: 47
-✖ Statement expected - start: 46, end: 47
-✖ Statement expected - start: 47, end: 50
+✖ Declaration or statement expected - start: 46, end: 47
+✖ Declaration or statement expected - start: 47, end: 50
 
 ```
 

@@ -257,7 +257,7 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 94, end: 95
+✖ Declaration or statement expected - start: 94, end: 95
 
 ```
 

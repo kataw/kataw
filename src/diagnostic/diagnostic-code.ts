@@ -6,7 +6,7 @@ export const enum DiagnosticCode {
   _let_is_a_restricted_production_at_the_start_of_a_statement = 2,
   Identifier_expected = 3,
   _expected = 4,
-  Statement_expected = 5,
+  Declaration_or_statement_expected = 5,
   Private_identifiers_cannot_be_used_as_parameters = 6,
   Catch_clause_variable_cannot_have_an_initializer = 7,
   Declaration_or_statement_expected_This_follows_a_block_of_statements_so_if_you_intended_to_write_a_destructuring_assignment_you_might_need_to_wrap_the_whole_assignment_in_parentheses = 8,
@@ -156,7 +156,9 @@ export const enum DiagnosticCode {
   _yield_keyword_must_not_contain_escaped_characters = 155,
   Property_assignment_expected = 156,
   A_get_accessor_cannot_be_a_generator = 157,
-  A_set_accessor_cannot_be_a_generator = 158
+  A_set_accessor_cannot_be_a_generator = 158,
+  The_parser_expected_to_find_a_to_match_the_token_here = 159,
+  Did_you_forgot_a_to_match_the_token = 160
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -164,7 +166,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [2]: '`let \n [` is a restricted production at the start of a statement',
   [3]: 'Identifier expected',
   [4]: "',' expected",
-  [5]: 'Statement expected',
+  [5]: 'Declaration or statement expected',
   [6]: 'Private identifiers cannot be used as parameters',
   [7]: 'Catch clause variable cannot have an initializer',
   [8]: 'Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses',
@@ -314,5 +316,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [155]: "'yield' keyword must not contain escaped characters",
   [156]: 'Property assignment expected',
   [157]: 'A get accessor cannot be a generator',
-  [158]: 'A set accessor cannot be a generator'
+  [158]: 'A set accessor cannot be a generator',
+  [159]: "The parser expected to find a '}' to match the '{' token here",
+  [160]: "Did you forgot a ']' to match the `[` token?"
 };

@@ -99,9 +99,9 @@
 ✖ Expression expected - start: 1, end: 11
 ✖ Expected a `;` - start: 1, end: 11
 ✖ Expected a `;` - start: 11, end: 13
-✖ Statement expected - start: 11, end: 13
+✖ Declaration or statement expected - start: 11, end: 13
 ✖ Expected a `;` - start: 15, end: 16
-✖ Statement expected - start: 15, end: 16
+✖ Declaration or statement expected - start: 15, end: 16
 
 ```
 

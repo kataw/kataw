@@ -232,7 +232,7 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 73, end: 74
+✖ Declaration or statement expected - start: 73, end: 74
 
 ```
 

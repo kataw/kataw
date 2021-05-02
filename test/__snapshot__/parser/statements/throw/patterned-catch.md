@@ -233,7 +233,7 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 15,
                         "end": 44
                     },

@@ -116,7 +116,7 @@ class A extends a = b {}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 17, end: 19
+✖ Declaration or statement expected - start: 17, end: 19
 ✖ Expected a `;` - start: 21, end: 23
 
 ```

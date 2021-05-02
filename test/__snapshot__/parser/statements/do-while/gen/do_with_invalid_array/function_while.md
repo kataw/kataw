@@ -151,6 +151,7 @@ do while [catch] function while
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 25, end: 31
 ✖ Expression expected - start: 31, end: 31

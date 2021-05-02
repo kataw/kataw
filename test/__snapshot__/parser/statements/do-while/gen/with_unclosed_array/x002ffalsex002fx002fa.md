@@ -107,6 +107,7 @@ do[ /false//a
 
 ```javascript
 ✖ ',' expected - start: 13, end: 13
+✖ Did you forgot a ']' to match the `[` token? - start: 13, end: 13
 ✖ Expression expected - start: 13, end: 13
 
 ```

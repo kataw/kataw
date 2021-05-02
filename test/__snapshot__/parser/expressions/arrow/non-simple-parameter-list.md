@@ -181,7 +181,7 @@
 
 ```javascript
 ✖ Expected a `;` - start: 43, end: 46
-✖ Statement expected - start: 43, end: 46
+✖ Declaration or statement expected - start: 43, end: 46
 
 ```
 

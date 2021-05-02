@@ -135,8 +135,8 @@ const {x,, y} = obj;
 ```javascript
 ✖ Missing initializer in const declaration - start: 9, end: 10
 ✖ Missing initializer in const declaration - start: 12, end: 13
-✖ Statement expected - start: 12, end: 13
-✖ Statement expected - start: 13, end: 15
+✖ Declaration or statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 13, end: 15
 
 ```
 

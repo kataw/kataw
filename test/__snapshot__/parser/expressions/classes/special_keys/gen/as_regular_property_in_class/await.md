@@ -105,8 +105,8 @@ class x {await: x}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 14, end: 15
-✖ Statement expected - start: 17, end: 18
+✖ Declaration or statement expected - start: 14, end: 15
+✖ Declaration or statement expected - start: 17, end: 18
 
 ```
 

@@ -98,7 +98,7 @@ async (x, y) => ok, a
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 18, end: 19
+✖ Declaration or statement expected - start: 18, end: 19
 
 ```
 

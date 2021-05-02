@@ -132,8 +132,8 @@ let f = () => (y=await foo) => y;
 ✖ ',' expected - start: 22, end: 26
 ✖ ',' expected - start: 26, end: 27
 ✖ Expected a `;` - start: 26, end: 27
-✖ Statement expected - start: 26, end: 27
-✖ Statement expected - start: 27, end: 30
+✖ Declaration or statement expected - start: 26, end: 27
+✖ Declaration or statement expected - start: 27, end: 30
 
 ```
 

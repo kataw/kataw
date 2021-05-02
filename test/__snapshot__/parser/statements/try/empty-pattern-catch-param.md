@@ -50,7 +50,7 @@ try { } catch ([]) {}
                         "kind": 202,
                         "elements": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 16,
                         "end": 16
                     },

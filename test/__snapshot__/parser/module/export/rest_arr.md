@@ -72,7 +72,7 @@ export let [...x] = y
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 12,
                                     "end": 16
                                 },

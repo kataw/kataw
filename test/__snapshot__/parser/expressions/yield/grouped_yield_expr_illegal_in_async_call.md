@@ -97,7 +97,7 @@ async (x = (yield x))
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 20, end: 21
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

@@ -94,6 +94,7 @@ do[ catch { try
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 9
 ✖ Expected a `;` - start: 3, end: 9
 ✖ Property assignment expected - start: 15, end: 15
 ✖ ',' expected - start: 15, end: 15

@@ -221,10 +221,10 @@
 ✖ Expected a `;` - start: 29, end: 31
 ✖ 'super' must be followed by an argument list or member access. - start: 37, end: 38
 ✖ Dot property must be an identifier - start: 37, end: 38
-✖ Statement expected - start: 40, end: 42
-✖ Statement expected - start: 42, end: 44
-✖ Statement expected - start: 44, end: 46
-✖ Statement expected - start: 46, end: 47
+✖ Declaration or statement expected - start: 40, end: 42
+✖ Declaration or statement expected - start: 42, end: 44
+✖ Declaration or statement expected - start: 44, end: 46
+✖ Declaration or statement expected - start: 46, end: 47
 
 ```
 

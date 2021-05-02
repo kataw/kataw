@@ -210,9 +210,10 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
-✖ Statement expected - start: 11, end: 12
+✖ Declaration or statement expected - start: 11, end: 12
 ✖ Expected a `;` - start: 16, end: 25
 ✖ Binding identifier expected - start: 25, end: 31
 ✖ Unexpected token. - start: 25, end: 31

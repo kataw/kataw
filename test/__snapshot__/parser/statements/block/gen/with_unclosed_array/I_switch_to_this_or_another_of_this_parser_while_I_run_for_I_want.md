@@ -271,6 +271,7 @@
 
 ```javascript
 ✖ ',' expected - start: 4, end: 11
+✖ Did you forgot a ']' to match the `[` token? - start: 4, end: 11
 ✖ Expected a `;` - start: 4, end: 11
 ✖ Expected a `;` - start: 19, end: 22
 ✖ Expected a `;` - start: 22, end: 30
@@ -281,6 +282,7 @@
 ✖ Expected a `;` - start: 57, end: 61
 ✖ Expression expected - start: 68, end: 68
 ✖ Expression expected - start: 68, end: 68
+✖ The parser expected to find a '}' to match the '{' token here - start: 68, end: 68
 
 ```
 

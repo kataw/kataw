@@ -270,8 +270,8 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 61, end: 64
-✖ Statement expected - start: 67, end: 73
+✖ Declaration or statement expected - start: 61, end: 64
+✖ Declaration or statement expected - start: 67, end: 73
 
 ```
 

@@ -78,7 +78,7 @@ let foo, [bar] = arr2;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 13
                             },

@@ -122,7 +122,7 @@ var af = switch => 1;
 ✖ Variable declaration expected. - start: 8, end: 15
 ✖ Expected a `;` - start: 8, end: 15
 ✖ Expression expected - start: 15, end: 18
-✖ Statement expected - start: 15, end: 18
+✖ Declaration or statement expected - start: 15, end: 18
 
 ```
 

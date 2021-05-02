@@ -2333,9 +2333,9 @@
 ✖ An element access expression should take an argument. - start: 258, end: 259
 ✖ Expression expected - start: 258, end: 259
 ✖ Expected a `;` - start: 287, end: 288
-✖ Statement expected - start: 290, end: 291
-✖ Statement expected - start: 295, end: 296
-✖ Statement expected - start: 296, end: 297
+✖ Declaration or statement expected - start: 290, end: 291
+✖ Declaration or statement expected - start: 295, end: 296
+✖ Declaration or statement expected - start: 296, end: 297
 ✖ Property assignment expected - start: 316, end: 317
 ✖ Dot property must be an identifier - start: 347, end: 348
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 365, end: 367
@@ -2346,8 +2346,8 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 501, end: 503
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
 ✖ Property assignment expected - start: 528, end: 529
-✖ Statement expected - start: 529, end: 530
-✖ Statement expected - start: 530, end: 531
+✖ Declaration or statement expected - start: 529, end: 530
+✖ Declaration or statement expected - start: 530, end: 531
 
 ```
 

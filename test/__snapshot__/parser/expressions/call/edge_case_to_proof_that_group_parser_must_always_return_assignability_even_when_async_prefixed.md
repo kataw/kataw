@@ -80,7 +80,7 @@ async
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 10, end: 12
+✖ Declaration or statement expected - start: 10, end: 12
 
 ```
 

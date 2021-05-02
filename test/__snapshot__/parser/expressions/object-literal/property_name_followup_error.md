@@ -55,8 +55,8 @@
 ✖ Property assignment expected - start: 5, end: 8
 ✖ ',' expected - start: 5, end: 8
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 5, end: 8
-✖ Statement expected - start: 12, end: 13
-✖ Statement expected - start: 13, end: 14
+✖ Declaration or statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 13, end: 14
 
 ```
 

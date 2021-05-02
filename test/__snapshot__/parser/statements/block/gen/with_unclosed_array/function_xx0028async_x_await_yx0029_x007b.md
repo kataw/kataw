@@ -195,6 +195,8 @@
 ✖ ',' expected - start: 19, end: 21
 ✖ ',' expected - start: 28, end: 30
 ✖ ',' expected - start: 33, end: 33
+✖ Did you forgot a ']' to match the `[` token? - start: 33, end: 33
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
 
 ```
 

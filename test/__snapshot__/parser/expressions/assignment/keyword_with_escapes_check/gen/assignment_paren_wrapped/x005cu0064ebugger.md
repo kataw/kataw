@@ -92,9 +92,9 @@
 ✖ Expression expected - start: 1, end: 14
 ✖ Expected a `;` - start: 1, end: 14
 ✖ Expected a `;` - start: 14, end: 16
-✖ Statement expected - start: 14, end: 16
+✖ Declaration or statement expected - start: 14, end: 16
 ✖ Expected a `;` - start: 18, end: 19
-✖ Statement expected - start: 18, end: 19
+✖ Declaration or statement expected - start: 18, end: 19
 
 ```
 

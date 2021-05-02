@@ -146,8 +146,8 @@ async function f(){
 
 ```javascript
 ✖ Expected a `;` - start: 43, end: 44
-✖ Statement expected - start: 43, end: 44
-✖ Statement expected - start: 45, end: 47
+✖ Declaration or statement expected - start: 43, end: 44
+✖ Declaration or statement expected - start: 45, end: 47
 
 ```
 

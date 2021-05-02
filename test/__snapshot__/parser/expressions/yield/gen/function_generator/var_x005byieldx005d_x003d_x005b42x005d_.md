@@ -129,7 +129,7 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 45,
                                                                 "end": 50
                                                             },

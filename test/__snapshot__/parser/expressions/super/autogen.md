@@ -282,7 +282,7 @@ class C { set x(_) { # } }
 
 ```javascript
 ✖ Invalid character - start: 25, end: 27
-✖ Statement expected - start: 29, end: 31
+✖ Declaration or statement expected - start: 29, end: 31
 
 ```
 

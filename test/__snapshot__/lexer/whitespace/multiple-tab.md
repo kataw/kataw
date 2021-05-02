@@ -147,35 +147,35 @@
 
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 0, end: 0
-✖ Statement expected - start: 0, end: 1
+✖ Declaration or statement expected - start: 0, end: 1
 ✖ Invalid hexadecimal escape sequence - start: 1, end: 2
 ✖ Invalid hexadecimal escape sequence - start: 2, end: 2
 ✖ Expected a `;` - start: 2, end: 3
-✖ Statement expected - start: 2, end: 3
+✖ Declaration or statement expected - start: 2, end: 3
 ✖ Invalid hexadecimal escape sequence - start: 3, end: 4
 ✖ Invalid hexadecimal escape sequence - start: 4, end: 4
 ✖ Expected a `;` - start: 4, end: 5
-✖ Statement expected - start: 4, end: 5
+✖ Declaration or statement expected - start: 4, end: 5
 ✖ Invalid hexadecimal escape sequence - start: 5, end: 6
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 6
 ✖ Expected a `;` - start: 6, end: 7
-✖ Statement expected - start: 6, end: 7
+✖ Declaration or statement expected - start: 6, end: 7
 ✖ Invalid hexadecimal escape sequence - start: 7, end: 8
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 8
 ✖ Expected a `;` - start: 8, end: 9
-✖ Statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 8, end: 9
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 10
 ✖ Invalid hexadecimal escape sequence - start: 10, end: 10
 ✖ Expected a `;` - start: 10, end: 11
-✖ Statement expected - start: 10, end: 11
+✖ Declaration or statement expected - start: 10, end: 11
 ✖ Invalid hexadecimal escape sequence - start: 11, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
 ✖ Expected a `;` - start: 12, end: 13
-✖ Statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 12, end: 13
 ✖ Invalid hexadecimal escape sequence - start: 13, end: 14
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
 ✖ Expected a `;` - start: 14, end: 15
-✖ Statement expected - start: 14, end: 15
+✖ Declaration or statement expected - start: 14, end: 15
 
 ```
 

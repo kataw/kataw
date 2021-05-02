@@ -134,9 +134,9 @@ class A {async **=f(){}}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 14, end: 18
+✖ Declaration or statement expected - start: 14, end: 18
 ✖ Expected a `;` - start: 21, end: 22
-✖ Statement expected - start: 23, end: 24
+✖ Declaration or statement expected - start: 23, end: 24
 
 ```
 

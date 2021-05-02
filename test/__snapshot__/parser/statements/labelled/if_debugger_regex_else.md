@@ -140,8 +140,8 @@ function x(){
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 44, end: 51
-✖ Statement expected - start: 52, end: 54
+✖ Declaration or statement expected - start: 44, end: 51
+✖ Declaration or statement expected - start: 52, end: 54
 
 ```
 

@@ -171,9 +171,9 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 34, end: 36
+✖ Declaration or statement expected - start: 34, end: 36
 ✖ Expected a `;` - start: 38, end: 40
-✖ Statement expected - start: 41, end: 43
+✖ Declaration or statement expected - start: 41, end: 43
 
 ```
 

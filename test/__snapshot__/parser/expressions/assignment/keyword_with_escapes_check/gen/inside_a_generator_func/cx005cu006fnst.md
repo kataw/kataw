@@ -127,8 +127,8 @@ function *f(){
 
 ```javascript
 ✖ Expected a `;` - start: 27, end: 29
-✖ Statement expected - start: 27, end: 29
-✖ Statement expected - start: 31, end: 33
+✖ Declaration or statement expected - start: 27, end: 29
+✖ Declaration or statement expected - start: 31, end: 33
 
 ```
 

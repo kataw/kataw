@@ -172,9 +172,11 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 15, end: 16
+✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```
 

@@ -100,7 +100,7 @@ function not_gen() { yield /* comment */ }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 42, end: 43
+✖ Declaration or statement expected - start: 42, end: 43
 
 ```
 

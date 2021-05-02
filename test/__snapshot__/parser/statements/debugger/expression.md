@@ -74,7 +74,7 @@
 ✖ Expression expected - start: 1, end: 9
 ✖ Expected a `;` - start: 1, end: 9
 ✖ Expected a `;` - start: 9, end: 10
-✖ Statement expected - start: 9, end: 10
+✖ Declaration or statement expected - start: 9, end: 10
 
 ```
 

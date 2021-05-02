@@ -100,7 +100,7 @@
 
 ```javascript
 ✖ Binding identifier expected - start: 16, end: 17
-✖ Statement expected - start: 20, end: 21
+✖ Declaration or statement expected - start: 20, end: 21
 
 ```
 

@@ -74,7 +74,7 @@ c\u006fntinue = x;
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 0, end: 13
 ✖ Expression expected - start: 13, end: 15
 ✖ Expected a `;` - start: 13, end: 15
-✖ Statement expected - start: 13, end: 15
+✖ Declaration or statement expected - start: 13, end: 15
 
 ```
 

@@ -86,7 +86,7 @@ let async
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 9, end: 13
+✖ Declaration or statement expected - start: 9, end: 13
 
 ```
 

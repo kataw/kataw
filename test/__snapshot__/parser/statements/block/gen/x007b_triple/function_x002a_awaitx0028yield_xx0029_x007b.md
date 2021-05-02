@@ -191,6 +191,10 @@
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 23, end: 28
 ✖ ',' expected - start: 28, end: 30
 ✖ Unexpected token. - start: 31, end: 33
+✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
 
 ```
 

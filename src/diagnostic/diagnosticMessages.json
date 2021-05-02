@@ -3,7 +3,7 @@
   "`let \n [` is a restricted production at the start of a statement": 2,
   "Identifier expected": 3,
   "',' expected": 4,
-  "Statement expected": 5,
+  "Declaration or statement expected": 5,
   "Private identifiers cannot be used as parameters": 6,
   "Catch clause variable cannot have an initializer": 7,
   "Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses": 8,
@@ -153,5 +153,7 @@
   "'yield' keyword must not contain escaped characters": 155,
   "Property assignment expected": 156,
   "A get accessor cannot be a generator": 157,
-  "A set accessor cannot be a generator": 158
+  "A set accessor cannot be a generator": 158,
+  "The parser expected to find a '}' to match the '{' token here": 159,
+  "Did you forgot a ']' to match the `[` token?": 160
 }

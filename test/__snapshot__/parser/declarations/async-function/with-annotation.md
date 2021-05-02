@@ -116,7 +116,7 @@ let {x}: string = y;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 21,
                                 "end": 22
                             },
@@ -207,7 +207,7 @@ let {x}: string = y;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 43,
                                 "end": 51
                             },

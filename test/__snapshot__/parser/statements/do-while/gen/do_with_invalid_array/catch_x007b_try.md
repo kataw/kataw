@@ -135,6 +135,7 @@ do while [catch] catch { try
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Property assignment expected - start: 28, end: 28
 ✖ ',' expected - start: 28, end: 28

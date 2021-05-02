@@ -85,7 +85,7 @@ async ()=>{}
 
 ```javascript
 ✖ Block body arrows can not be immediately accessed without a group - start: 12, end: 14
-✖ Statement expected - start: 12, end: 14
+✖ Declaration or statement expected - start: 12, end: 14
 
 ```
 

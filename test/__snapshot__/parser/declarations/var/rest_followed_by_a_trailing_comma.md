@@ -78,7 +78,7 @@ var [...foo,] = obj;
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 12
                             },

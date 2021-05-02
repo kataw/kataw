@@ -262,7 +262,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 78, end: 79
+✖ Declaration or statement expected - start: 78, end: 79
 
 ```
 

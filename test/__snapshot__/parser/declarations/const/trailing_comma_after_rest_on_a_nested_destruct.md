@@ -103,7 +103,7 @@ const [...[foo, bar],] = obj;
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 11,
                                                 "end": 19
                                             },
@@ -120,7 +120,7 @@ const [...[foo, bar],] = obj;
                                     }
                                 ],
                                 "trailingComma": true,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 21
                             },

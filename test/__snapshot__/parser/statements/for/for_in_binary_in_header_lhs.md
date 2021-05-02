@@ -133,7 +133,7 @@ for (x in a>c;;) x
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 15, end: 16
+✖ Declaration or statement expected - start: 15, end: 16
 
 ```
 

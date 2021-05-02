@@ -74,7 +74,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 13,
                                         "end": 14
                                     },

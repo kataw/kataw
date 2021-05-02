@@ -126,7 +126,7 @@ left@{x200d}@right
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 11, end: 12
+✖ Declaration or statement expected - start: 11, end: 12
 ✖ Binding identifier expected - start: 18, end: 18
 
 ```

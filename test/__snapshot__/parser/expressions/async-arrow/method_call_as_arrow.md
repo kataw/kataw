@@ -169,7 +169,7 @@ async ({ident: [foo, bar].join("")}) => x
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 36, end: 39
+✖ Declaration or statement expected - start: 36, end: 39
 
 ```
 

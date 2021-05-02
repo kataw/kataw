@@ -83,6 +83,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 12, end: 12
+
 ```
 

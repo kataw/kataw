@@ -89,7 +89,7 @@ x.foo++.bar
 
 ```javascript
 ✖ Expected a `;` - start: 7, end: 8
-✖ Statement expected - start: 7, end: 8
+✖ Declaration or statement expected - start: 7, end: 8
 
 ```
 

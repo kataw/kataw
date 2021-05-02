@@ -169,7 +169,7 @@ var await; var f = (async function() { let [await f] = []; });
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 32,
+                                                                    "flags": 0,
                                                                     "start": 44,
                                                                     "end": 51
                                                                 },

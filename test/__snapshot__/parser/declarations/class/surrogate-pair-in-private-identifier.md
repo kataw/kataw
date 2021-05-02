@@ -158,7 +158,7 @@ class C { #@{x29e3d}@ }
 
 ```javascript
 ✖ Invalid character - start: 9, end: 11
-✖ Statement expected - start: 19, end: 20
+✖ Declaration or statement expected - start: 19, end: 20
 ✖ Binding identifier expected - start: 23, end: 23
 
 ```

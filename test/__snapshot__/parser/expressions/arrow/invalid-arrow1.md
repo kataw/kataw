@@ -1351,26 +1351,26 @@
 ✖ The left hand side of the arrow is not destructible  - start: 184, end: 187
 ✖ The left hand side of the arrow is not destructible  - start: 199, end: 202
 ✖ Expected a `;` - start: 205, end: 206
-✖ Statement expected - start: 205, end: 206
+✖ Declaration or statement expected - start: 205, end: 206
 ✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
 ✖ Expected a `;` - start: 227, end: 228
-✖ Statement expected - start: 227, end: 228
+✖ Declaration or statement expected - start: 227, end: 228
 ✖ Expression expected - start: 232, end: 234
 ✖ Expected a `;` - start: 232, end: 234
 ✖ Expression expected - start: 234, end: 235
 ✖ Expression expected - start: 235, end: 238
 ✖ Expected a `;` - start: 235, end: 238
-✖ Statement expected - start: 235, end: 238
+✖ Declaration or statement expected - start: 235, end: 238
 ✖ Expected a `;` - start: 247, end: 250
 ✖ Expression expected - start: 250, end: 251
 ✖ Expression expected - start: 251, end: 254
 ✖ Expected a `;` - start: 251, end: 254
-✖ Statement expected - start: 251, end: 254
+✖ Declaration or statement expected - start: 251, end: 254
 ✖ Expected a `;` - start: 270, end: 273
-✖ Statement expected - start: 270, end: 273
+✖ Declaration or statement expected - start: 270, end: 273
 ✖ The left hand side of the arrow is not destructible  - start: 292, end: 295
 ✖ Expected a `;` - start: 312, end: 313
-✖ Statement expected - start: 312, end: 313
+✖ Declaration or statement expected - start: 312, end: 313
 
 ```
 

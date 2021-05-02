@@ -122,6 +122,7 @@
 ✖ Property assignment expected - start: 13, end: 17
 ✖ ',' expected - start: 13, end: 17
 ✖ ',' expected - start: 18, end: 19
+✖ Did you forgot a ']' to match the `[` token? - start: 18, end: 19
 
 ```
 

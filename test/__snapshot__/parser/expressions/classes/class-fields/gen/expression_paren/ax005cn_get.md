@@ -132,10 +132,10 @@
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 10
 ✖ Invalid hexadecimal escape sequence - start: 10, end: 10
 ✖ Expected a `;` - start: 10, end: 11
-✖ Statement expected - start: 10, end: 11
+✖ Declaration or statement expected - start: 10, end: 11
 ✖ Expected a `;` - start: 12, end: 16
-✖ Statement expected - start: 16, end: 18
-✖ Statement expected - start: 18, end: 19
+✖ Declaration or statement expected - start: 16, end: 18
+✖ Declaration or statement expected - start: 18, end: 19
 
 ```
 

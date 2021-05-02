@@ -89,9 +89,9 @@ foo[...x];
 ```javascript
 ✖ Expression expected - start: 4, end: 7
 ✖ Expected a `;` - start: 4, end: 7
-✖ Statement expected - start: 4, end: 7
+✖ Declaration or statement expected - start: 4, end: 7
 ✖ Expected a `;` - start: 8, end: 9
-✖ Statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 8, end: 9
 
 ```
 

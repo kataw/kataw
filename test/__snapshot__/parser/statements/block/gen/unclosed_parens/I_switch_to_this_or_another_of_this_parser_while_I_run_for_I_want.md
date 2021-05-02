@@ -269,6 +269,7 @@
 ✖ Expected a `;` - start: 57, end: 61
 ✖ Expression expected - start: 68, end: 68
 ✖ Expression expected - start: 68, end: 68
+✖ The parser expected to find a '}' to match the '{' token here - start: 68, end: 68
 
 ```
 

@@ -126,13 +126,13 @@
 
 ```javascript
 ✖ Expected a `;` - start: 9, end: 10
-✖ Statement expected - start: 9, end: 10
+✖ Declaration or statement expected - start: 9, end: 10
 ✖ Expression expected - start: 24, end: 25
 ✖ Expected a `;` - start: 24, end: 25
-✖ Statement expected - start: 24, end: 25
-✖ Statement expected - start: 25, end: 28
+✖ Declaration or statement expected - start: 24, end: 25
+✖ Declaration or statement expected - start: 25, end: 28
 ✖ Expected a `;` - start: 33, end: 34
-✖ Statement expected - start: 33, end: 34
+✖ Declaration or statement expected - start: 33, end: 34
 
 ```
 

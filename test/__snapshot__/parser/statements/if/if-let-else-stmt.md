@@ -90,7 +90,7 @@ if (true) let x; else ;
 
 ```javascript
 ✖ Expected a `;` - start: 13, end: 15
-✖ Statement expected - start: 16, end: 21
+✖ Declaration or statement expected - start: 16, end: 21
 
 ```
 

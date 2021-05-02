@@ -134,7 +134,7 @@ import {a: b} from "bar";
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 12, end: 13
+✖ Declaration or statement expected - start: 12, end: 13
 ✖ Expected a `;` - start: 18, end: 24
 
 ```

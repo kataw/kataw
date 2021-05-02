@@ -155,6 +155,7 @@ do( catch try { while
 ✖ Expression expected - start: 9, end: 13
 ✖ Expression expected - start: 21, end: 21
 ✖ Expression expected - start: 21, end: 21
+✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```
 

@@ -164,11 +164,11 @@ var await; var f = (async function() { async function f(){ await \n x; } });
 ✖ Expected a `;` - start: 64, end: 66
 ✖ ',' expected - start: 64, end: 66
 ✖ Expected a `;` - start: 64, end: 66
-✖ Statement expected - start: 64, end: 66
+✖ Declaration or statement expected - start: 64, end: 66
 ✖ Expected a `;` - start: 67, end: 69
-✖ Statement expected - start: 70, end: 72
-✖ Statement expected - start: 72, end: 74
-✖ Statement expected - start: 74, end: 75
+✖ Declaration or statement expected - start: 70, end: 72
+✖ Declaration or statement expected - start: 72, end: 74
+✖ Declaration or statement expected - start: 74, end: 75
 
 ```
 

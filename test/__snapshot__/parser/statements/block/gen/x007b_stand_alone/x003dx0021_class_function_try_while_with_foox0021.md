@@ -223,6 +223,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 1, end: 3
 ✖ Declaration or statement expected. This follows a block of statements so if you intended to write a destructuring assignment you might need to wrap the whole assignment in parentheses - start: 3, end: 4
 ✖ Expected a `;` - start: 10, end: 19
 ✖ Binding identifier expected - start: 19, end: 23

@@ -113,6 +113,9 @@
 ```javascript
 ✖ 'super' must be followed by an argument list or member access. - start: 11, end: 11
 ✖ Dot property must be an identifier - start: 11, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 11
 
 ```
 

@@ -53,7 +53,7 @@ const [..x] = obj;
                                 "kind": 202,
                                 "elements": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 7,
                                 "end": 7
                             },
@@ -124,14 +124,15 @@ const [..x] = obj;
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ ',' expected - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
-✖ Statement expected - start: 7, end: 8
-✖ Statement expected - start: 8, end: 9
+✖ Declaration or statement expected - start: 7, end: 8
+✖ Declaration or statement expected - start: 8, end: 9
 ✖ Expected a `;` - start: 10, end: 11
-✖ Statement expected - start: 10, end: 11
-✖ Statement expected - start: 11, end: 13
+✖ Declaration or statement expected - start: 10, end: 11
+✖ Declaration or statement expected - start: 11, end: 13
 
 ```
 

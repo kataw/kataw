@@ -99,12 +99,13 @@
 ✖ Property assignment expected - start: 16, end: 17
 ✖ ',' expected - start: 16, end: 17
 ✖ Expected a `;` - start: 16, end: 17
-✖ Statement expected - start: 16, end: 17
-✖ Statement expected - start: 17, end: 18
-✖ Statement expected - start: 20, end: 21
-✖ Statement expected - start: 21, end: 22
-✖ Statement expected - start: 22, end: 25
-✖ Statement expected - start: 27, end: 29
+✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 17
+✖ Declaration or statement expected - start: 16, end: 17
+✖ Declaration or statement expected - start: 17, end: 18
+✖ Declaration or statement expected - start: 20, end: 21
+✖ Declaration or statement expected - start: 21, end: 22
+✖ Declaration or statement expected - start: 22, end: 25
+✖ Declaration or statement expected - start: 27, end: 29
 
 ```
 

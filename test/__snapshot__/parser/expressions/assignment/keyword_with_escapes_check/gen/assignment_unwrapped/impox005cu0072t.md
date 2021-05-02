@@ -70,7 +70,7 @@ impo\u0072t = x;
 ✖ Unexpected token. - start: 11, end: 13
 ✖ The `import` keyword can only be used with the module goal - start: 11, end: 13
 ✖ Expected a `;` - start: 11, end: 13
-✖ Statement expected - start: 11, end: 13
+✖ Declaration or statement expected - start: 11, end: 13
 
 ```
 

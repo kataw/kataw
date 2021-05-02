@@ -804,10 +804,10 @@
 ✖ Invalid hexadecimal escape sequence - start: 127, end: 129
 ✖ Invalid hexadecimal escape sequence - start: 129, end: 129
 ✖ Expected a `;` - start: 129, end: 130
-✖ Statement expected - start: 129, end: 130
+✖ Declaration or statement expected - start: 129, end: 130
 ✖ Expected a `;` - start: 147, end: 149
-✖ Statement expected - start: 150, end: 152
-✖ Statement expected - start: 152, end: 153
+✖ Declaration or statement expected - start: 150, end: 152
+✖ Declaration or statement expected - start: 152, end: 153
 ✖ A 'get' accessor cannot have parameters. - start: 236, end: 237
 
 ```

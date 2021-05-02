@@ -70,7 +70,7 @@ expo\u0072t = x;
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 0, end: 11
 ✖ Unexpected token. - start: 11, end: 13
-✖ Statement expected - start: 11, end: 13
+✖ Declaration or statement expected - start: 11, end: 13
 
 ```
 

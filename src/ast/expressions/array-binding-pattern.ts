@@ -10,13 +10,14 @@ export interface ArrayBindingPattern extends SyntaxNode {
 
 export function createArrayBindingPattern(
   elementList: BindingElementList,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ArrayBindingPattern {
   return {
     kind: SyntaxKind.ArrayBindingPattern,
     elementList,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

@@ -73,7 +73,7 @@ for (let [a]=x;;);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -150,7 +150,7 @@ for (let [a]=x;;);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 29,
                                 "end": 30
                             },

@@ -203,7 +203,7 @@ new foo ++;
 ✖ Expected a `;` - start: 8, end: 12
 ✖ Expression expected - start: 18, end: 20
 ✖ Expected a `;` - start: 18, end: 20
-✖ Statement expected - start: 18, end: 20
+✖ Declaration or statement expected - start: 18, end: 20
 ✖ Expression expected - start: 36, end: 37
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 46, end: 49
 

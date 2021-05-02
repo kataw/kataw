@@ -206,10 +206,12 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expression expected - start: 15, end: 19
 ✖ Expected a `;` - start: 28, end: 30
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
 
 ```
 

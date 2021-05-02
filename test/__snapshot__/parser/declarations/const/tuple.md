@@ -120,7 +120,7 @@ var a : [] = [];
 ```javascript
 ✖ ',' expected - start: 5, end: 7
 ✖ Expected a `;` - start: 5, end: 7
-✖ Statement expected - start: 5, end: 7
+✖ Declaration or statement expected - start: 5, end: 7
 
 ```
 

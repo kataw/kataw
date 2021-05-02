@@ -371,10 +371,10 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Diagnostics
 
 ```javascript
-✖ Statement expected - start: 101, end: 104
-✖ Statement expected - start: 107, end: 113
-✖ Statement expected - start: 113, end: 115
-✖ Statement expected - start: 115, end: 116
+✖ Declaration or statement expected - start: 101, end: 104
+✖ Declaration or statement expected - start: 107, end: 113
+✖ Declaration or statement expected - start: 113, end: 115
+✖ Declaration or statement expected - start: 115, end: 116
 
 ```
 
