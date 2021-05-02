@@ -105,7 +105,7 @@ export type TokenSyntaxKind =
   | SyntaxKind.NumberKeyword
   | SyntaxKind.NeverKeyword
   | SyntaxKind.ObjectKeyword
-  | SyntaxKind.BigintKeyword
+  | SyntaxKind.BigIntLiteral
   | SyntaxKind.MixedKeyword
   | SyntaxKind.DeclareKeyword
   | SyntaxKind.ClassKeyword

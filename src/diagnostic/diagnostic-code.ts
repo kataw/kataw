@@ -154,7 +154,9 @@ export const enum DiagnosticCode {
   Async_arrow_can_not_be_followed_by_new_expression = 153,
   _await_keyword_must_not_contain_escaped_characters = 154,
   _yield_keyword_must_not_contain_escaped_characters = 155,
-  Property_assignment_expected = 156
+  Property_assignment_expected = 156,
+  A_get_accessor_cannot_be_a_generator = 157,
+  A_set_accessor_cannot_be_a_generator = 158
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -310,5 +312,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [153]: 'Async arrow can not be followed by new expression',
   [154]: "'await' keyword must not contain escaped characters",
   [155]: "'yield' keyword must not contain escaped characters",
-  [156]: 'Property assignment expected'
+  [156]: 'Property assignment expected',
+  [157]: 'A get accessor cannot be a generator',
+  [158]: 'A set accessor cannot be a generator'
 };

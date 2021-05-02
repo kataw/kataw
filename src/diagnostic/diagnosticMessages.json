@@ -151,5 +151,7 @@
   "Async arrow can not be followed by new expression": 153,
   "'await' keyword must not contain escaped characters": 154,
   "'yield' keyword must not contain escaped characters": 155,
-  "Property assignment expected": 156
+  "Property assignment expected": 156,
+  "A get accessor cannot be a generator": 157,
+  "A set accessor cannot be a generator": 158
 }

@@ -25,11 +25,56 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 4,
+                                "kind": 257,
+                                "asyncKeyword": null,
+                                "generatorToken": {
+                                    "kind": 67143222,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 4
+                                },
+                                "getKeyword": null,
+                                "setKeyword": null,
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 160,
+                                        "start": 5,
+                                        "end": 5
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 5,
+                                            "end": 5
+                                        },
+                                        "flags": 32,
+                                        "start": 5,
+                                        "end": 5
+                                    },
+                                    "flags": 160,
+                                    "start": 5,
+                                    "end": 5
+                                },
+                                "flags": 32,
+                                "start": 2,
                                 "end": 5
                             }
                         ],
@@ -69,6 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Unexpected token. - start: 5, end: 7
+
 ```
 

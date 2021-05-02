@@ -4590,7 +4590,6 @@ a = { y: x = 1 } = b;
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 369, end: 371
-
+✔ No errors
 ```
 

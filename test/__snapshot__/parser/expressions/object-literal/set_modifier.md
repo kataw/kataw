@@ -74,7 +74,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 672,
+                                        "flags": 544,
                                         "start": 12,
                                         "end": 14
                                     },
@@ -93,7 +93,7 @@
                                         "start": 14,
                                         "end": 16
                                     },
-                                    "flags": 672,
+                                    "flags": 544,
                                     "start": 11,
                                     "end": 16
                                 },
@@ -138,6 +138,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A set accessor cannot be a generator - start: 2, end: 11
+
 ```
 

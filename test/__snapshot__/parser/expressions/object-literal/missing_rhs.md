@@ -36,17 +36,62 @@ wrap({async [foo""](){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 13,
+                                        "kind": 257,
+                                        "asyncKeyword": {
+                                            "kind": 82031,
+                                            "flags": 64,
+                                            "start": 6,
+                                            "end": 11
+                                        },
+                                        "generatorToken": null,
+                                        "getKeyword": null,
+                                        "setKeyword": null,
+                                        "method": {
+                                            "kind": 209,
+                                            "name": {
+                                                "kind": 194,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "foo",
+                                                    "rawText": "foo",
+                                                    "flags": 96,
+                                                    "start": 13,
+                                                    "end": 16
+                                                },
+                                                "flags": 32,
+                                                "start": 11,
+                                                "end": 16
+                                            },
+                                            "typeParameters": null,
+                                            "formalParameters": {
+                                                "kind": 214,
+                                                "formalParameterList": [],
+                                                "trailingComma": false,
+                                                "flags": 288,
+                                                "start": 16,
+                                                "end": 16
+                                            },
+                                            "type": null,
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 16,
+                                                    "end": 16
+                                                },
+                                                "flags": 32,
+                                                "start": 16,
+                                                "end": 16
+                                            },
+                                            "flags": 288,
+                                            "start": 16,
                                             "end": 16
                                         },
                                         "flags": 32,
-                                        "start": 11,
+                                        "start": 6,
                                         "end": 16
                                     },
                                     {
@@ -130,7 +175,7 @@ wrap({async [foo""](){}});
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 16, end: 18
+✖ Unexpected token. - start: 16, end: 18
 ✖ ',' expected - start: 16, end: 18
 ✖ Property assignment expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19

@@ -55,7 +55,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 1184,
+                                        "flags": 1056,
                                         "start": 12,
                                         "end": 13
                                     },
@@ -74,7 +74,7 @@
                                         "start": 13,
                                         "end": 15
                                     },
-                                    "flags": 1184,
+                                    "flags": 1056,
                                     "start": 11,
                                     "end": 15
                                 },
@@ -119,6 +119,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A get accessor cannot be a generator - start: 2, end: 11
+
 ```
 

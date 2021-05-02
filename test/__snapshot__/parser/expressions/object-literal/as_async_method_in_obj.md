@@ -25,16 +25,13 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 2,
-                                "end": 7
-                            },
-                            {
                                 "kind": 257,
-                                "asyncKeyword": null,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 7
+                                },
                                 "generatorToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
@@ -53,7 +50,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 288,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -72,12 +69,12 @@
                                         "start": 16,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 288,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "flags": 32,
-                                "start": 7,
+                                "start": 2,
                                 "end": 18
                             }
                         ],
@@ -117,8 +114,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 7, end: 14
-✖ ',' expected - start: 7, end: 14
-
+✔ No errors
 ```
 
