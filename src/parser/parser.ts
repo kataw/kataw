@@ -2140,7 +2140,7 @@ function parsePropertyDefinition(
   parser: ParserState,
   context: Context,
   type: BindingType
-): PropertyDefinition | SpreadProperty | MethodDefinition | Identifier | CoverInitializedName | PropertyMethod | any {
+): PropertyDefinition | SpreadProperty | Identifier | CoverInitializedName | PropertyMethod {
   const pos = parser.curPos;
 
   if (parser.token & SyntaxKind.IsEllipsis) {
@@ -2148,7 +2148,7 @@ function parsePropertyDefinition(
     return createSpreadProperty(ellipsisToken, paresSpreadPropertyArgument(parser, context, type), pos, parser.curPos);
   }
 
-  let key: any;
+  let key!: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName | PrivateIdentifier;
 
   let generatorToken: SyntaxToken<TokenSyntaxKind> | null = consumeOptToken(parser, context, SyntaxKind.Multiply);
   let asyncKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
@@ -2262,12 +2262,12 @@ function parsePropertyDefinition(
         if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
           const right = parseExpression(parser, context);
           parser.destructible = DestructibleKind.MustDestruct | DestructibleKind.CoverInitializedName;
-          return createCoverInitializedName(key, right, pos, parser.curPos);
+          return createCoverInitializedName(key as Identifier, right, pos, parser.curPos);
         }
 
         // Parse a shorthand property
         parser.destructible = destructible;
-        return key;
+        return key as Identifier;
     }
   } else {
     key = parsePropertyName(parser, context);
@@ -2370,7 +2370,7 @@ function parsePropertyDefinition(
     parser.pos
   );
 
-  return key;
+  return key as Identifier;
 }
 
 function parseTypeParameters(parser: ParserState, context: Context): TypeParameter | null {

@@ -3,12 +3,11 @@ import { SpreadProperty } from './spread-property';
 import { Identifier } from './identifier-expr';
 import { CoverInitializedName } from './cover-initialized-name';
 import { PropertyDefinition } from './property-definition';
-import { MethodDefinition } from './method-definition';
-
+import { PropertyMethod } from './property-method';
 /**
  * PropertyDefinitionList.
  */
-export type Properties = SpreadProperty | MethodDefinition | PropertyDefinition | Identifier | CoverInitializedName;
+export type Properties = SpreadProperty | PropertyMethod | PropertyDefinition | Identifier | CoverInitializedName;
 
 export interface PropertyDefinitionList extends SyntaxNode {
   readonly properties: Properties[];
