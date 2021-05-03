@@ -3911,6 +3911,21 @@ function parseFunctionExpression(
       if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
         // "async x => {}"
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsIdentifier)) {
+          if (
+            parser.token & SyntaxKind.IsInOrOf &&
+            speculate(
+              parser,
+              context,
+              function () {
+                nextToken(parser, context);
+                return parser.token !== SyntaxKind.Arrow;
+              },
+              true
+            )
+          ) {
+            parser.assignable = true;
+            return createIdentifier('async', 'async', pos, parser.curPos) as any;
+          }
           if (LeftHandSideContext) {
             parser.onError(
               DiagnosticSource.Parser,
