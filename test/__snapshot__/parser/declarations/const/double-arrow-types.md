@@ -377,6 +377,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 19, end: 21
 ✖ Missing initializer in const declaration - start: 27, end: 29
 ✖ ',' expected - start: 27, end: 29
 ✖ Expected a `;` - start: 27, end: 29
@@ -384,6 +385,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 ✖ Declaration or statement expected - start: 29, end: 32
 ✖ Expression expected - start: 37, end: 39
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
+✖ Expected a ')' to match the '(' token here - start: 78, end: 80
 ✖ Missing initializer in const declaration - start: 86, end: 87
 ✖ Expected a `;` - start: 87, end: 89
 ✖ Declaration or statement expected - start: 87, end: 89

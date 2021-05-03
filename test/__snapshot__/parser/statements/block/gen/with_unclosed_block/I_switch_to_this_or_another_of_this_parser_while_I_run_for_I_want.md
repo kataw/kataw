@@ -336,6 +336,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ Declaration or statement expected - start: 14, end: 15
 ✖ Expected a `;` - start: 19, end: 26
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 34
 ✖ Expected a `;` - start: 34, end: 37
 ✖ Expected a `;` - start: 37, end: 45
 ✖ Expected a `;` - start: 45, end: 48

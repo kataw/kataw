@@ -215,6 +215,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ Declaration or statement expected - start: 14, end: 15
 ✖ Expression expected - start: 29, end: 35
+✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 35
 ✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
 
 ```

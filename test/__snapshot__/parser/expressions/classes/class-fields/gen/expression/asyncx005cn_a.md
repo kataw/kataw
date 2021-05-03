@@ -141,6 +141,7 @@ class C extends Base { async\n a }
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 28
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Expected a `;` - start: 30, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34

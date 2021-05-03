@@ -94,6 +94,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 16
 ✖ Property assignment expected - start: 14, end: 16
 ✖ ',' expected - start: 14, end: 16
 ✖ Property assignment expected - start: 16, end: 17

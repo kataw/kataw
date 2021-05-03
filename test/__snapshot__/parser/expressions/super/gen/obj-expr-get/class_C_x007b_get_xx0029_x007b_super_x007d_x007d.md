@@ -218,6 +218,7 @@
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ ',' expected - start: 28, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ Expected a `;` - start: 29, end: 31

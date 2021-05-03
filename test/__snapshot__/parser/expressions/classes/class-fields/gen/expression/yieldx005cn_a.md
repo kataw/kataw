@@ -142,6 +142,7 @@ class C extends Base { yield\n a }
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 28
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 22, end: 28
 ✖ Invalid hexadecimal escape sequence - start: 28, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 29
 ✖ Declaration or statement expected - start: 28, end: 29
 ✖ Expected a `;` - start: 30, end: 32
 ✖ Declaration or statement expected - start: 32, end: 34

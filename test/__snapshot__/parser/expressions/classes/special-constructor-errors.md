@@ -803,6 +803,7 @@
 ✖ Class constructor may not be a accessor - start: 102, end: 103
 ✖ Invalid hexadecimal escape sequence - start: 127, end: 129
 ✖ Invalid hexadecimal escape sequence - start: 129, end: 129
+✖ The parser expected to find a '}' to match the '{' token here - start: 129, end: 130
 ✖ Expected a ')' to match the '(' token here - start: 129, end: 130
 ✖ Expected a `;` - start: 129, end: 130
 ✖ Declaration or statement expected - start: 129, end: 130

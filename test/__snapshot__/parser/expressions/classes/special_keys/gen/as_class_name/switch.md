@@ -102,6 +102,7 @@ class switch {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 12
+✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 15
 
 ```
 

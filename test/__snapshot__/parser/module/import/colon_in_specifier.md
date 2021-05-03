@@ -134,6 +134,7 @@ import {a: b} from "bar";
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 10
 ✖ Declaration or statement expected - start: 12, end: 13
 ✖ Expected a `;` - start: 18, end: 24
 

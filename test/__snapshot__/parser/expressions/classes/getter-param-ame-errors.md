@@ -1017,6 +1017,7 @@ class C { get name(private) {} }
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
 ✖ Expected a ')' to match the '(' token here - start: 234, end: 237
 ✖ Unexpected token. - start: 234, end: 237
+✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
 ✖ Declaration or statement expected - start: 237, end: 238
 ✖ Declaration or statement expected - start: 241, end: 243
 ✖ A 'get' accessor cannot have parameters. - start: 277, end: 284

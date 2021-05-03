@@ -67,6 +67,7 @@ switch {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 9
+
 ```
 

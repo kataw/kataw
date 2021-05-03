@@ -149,6 +149,7 @@ class x { import {x} from "y"; }
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 18
 ✖ Expected a `;` - start: 25, end: 29
 ✖ Declaration or statement expected - start: 30, end: 32
 

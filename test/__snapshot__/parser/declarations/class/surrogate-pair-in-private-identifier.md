@@ -158,6 +158,7 @@ class C { #@{x29e3d}@ }
 
 ```javascript
 ✖ Invalid character - start: 9, end: 11
+✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 12
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Binding identifier expected - start: 23, end: 23
 

@@ -425,7 +425,16 @@ function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
   while (isCaseOrDefaultClause(parser.token)) {
     clauses.push(parseCaseOrDefaultClause(parser, context));
   }
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context | Context.AllowRegExp);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createCaseBlock(clauses, pos, parser.curPos);
 }
 
@@ -4635,7 +4644,16 @@ function parseNamedImports(parser: ParserState, context: Context): NamedImports 
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
   const importsList = parseImportsList(parser, context);
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createNamedImports(importsList, pos, parser.curPos);
 }
 
@@ -4816,7 +4834,16 @@ function parseNamedExports(parser: ParserState, context: Context): NamedExports 
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
   const exportsList = parseExportsList(parser, context);
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createNamedExports(exportsList, parser.nodeFlags, pos, parser.curPos);
 }
 
@@ -4955,7 +4982,16 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode {
   let type = parsePrimaryType(parser, context);
   while ((parser.nodeFlags & NodeFlags.NewLine) === 0 && consumeOpt(parser, context, SyntaxKind.LeftBracket)) {
     const pos = parser.curPos;
-    consume(parser, context, SyntaxKind.RightBracket);
+    if (parser.token === SyntaxKind.RightBracket) {
+      nextToken(parser, context);
+    } else {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+        parser.curPos,
+        parser.pos
+      );
+    }
     type = createArrayType(type, pos, parser.curPos);
   }
   return type;
@@ -5051,7 +5087,16 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
     }
     parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
   }
-  consume(parser, context, SyntaxKind.RightBracket);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createTupleType(types, trailingComma, flags, pos, parser.curPos);
 }
 
@@ -5156,13 +5201,31 @@ function parseFunctionTypeOrParen(parser: ParserState, context: Context): any {
           ))
       )
     ) {
-      consume(parser, context, SyntaxKind.RightParen);
+      if (parser.token === SyntaxKind.RightParen) {
+        nextToken(parser, context);
+      } else {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Expected_a_to_match_the_token_here],
+          parser.curPos,
+          parser.pos
+        );
+      }
       return type;
     } else {
       consumeOpt(parser, context, SyntaxKind.Comma);
     }
 
-    consume(parser, context, SyntaxKind.RightParen);
+    if (parser.token === SyntaxKind.RightParen) {
+      nextToken(parser, context);
+    } else {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Expected_a_to_match_the_token_here],
+        parser.curPos,
+        parser.pos
+      );
+    }
 
     consume(parser, context, SyntaxKind.Arrow);
 
@@ -5683,7 +5746,16 @@ function parseObjectType(parser: ParserState, context: Context, allowStatic: boo
       nextToken(parser, context);
     }
   }
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createObjectType(properties, indexers, callProperties, internalSlots, pos, parser.curPos);
 }
 
@@ -5804,8 +5876,26 @@ function parseObjectTypeInternalSlot(
 ): ObjectTypeInternalSlot {
   consume(parser, context, SyntaxKind.LeftBracket);
   const name = parsePropertyName(parser, context);
-  consume(parser, context, SyntaxKind.RightBracket);
-  consume(parser, context, SyntaxKind.RightBracket);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
   if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
     const typeParameters = parseTypeParameters(parser, context);
     consume(parser, context, SyntaxKind.LeftParen);
@@ -5864,7 +5954,16 @@ function parseObjectTypeIndexer(
     key = parseUnionType(parser, context);
   }
 
-  consume(parser, context, SyntaxKind.RightBracket);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
   consume(parser, context, SyntaxKind.Colon);
   const value = parseType(parser, context);
   parseSemicolon(parser, context);
@@ -5878,7 +5977,16 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
     parser,
     (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
   );
-  consume(parser, context, SyntaxKind.RightBracket);
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.Did_you_forgot_a_to_match_the_token],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createComputedPropertyName(expression, pos, parser.curPos);
 }
 
@@ -6313,7 +6421,16 @@ function parseClassElementList(
 
   if (isDecl) context | Context.AllowRegExp;
 
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
 
   return createClassElementList(elements, pos, parser.curPos);
 }

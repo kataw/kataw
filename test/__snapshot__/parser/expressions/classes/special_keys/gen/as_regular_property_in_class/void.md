@@ -105,6 +105,7 @@ class x {void: x}
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 14
 ✖ Declaration or statement expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 16, end: 17
 

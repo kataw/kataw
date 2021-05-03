@@ -131,6 +131,7 @@
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 14
 ✖ Invalid hexadecimal escape sequence - start: 14, end: 14
+✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Declaration or statement expected - start: 14, end: 15

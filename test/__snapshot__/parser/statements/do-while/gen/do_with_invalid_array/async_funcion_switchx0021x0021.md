@@ -173,6 +173,7 @@ do while [catch] async funcion switch!!
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Expression expected - start: 39, end: 39
+✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 39
 
 ```
 

@@ -2063,6 +2063,7 @@ new import(x);
 ✖ Declaration or statement expected - start: 262, end: 263
 ✖ Unexpected token. - start: 272, end: 273
 ✖ Expected a `;` - start: 272, end: 273
+✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
 ✖ Expected a ')' to match the '(' token here - start: 296, end: 297
 ✖ Expected a ')' to match the '(' token here - start: 319, end: 320
 ✖ Expected a `;` - start: 322, end: 323

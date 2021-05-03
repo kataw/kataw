@@ -140,6 +140,7 @@
 ✖ Expression expected - start: 17, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
+✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
 
 ```
 

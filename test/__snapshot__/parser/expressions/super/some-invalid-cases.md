@@ -2592,15 +2592,19 @@ let x = { foo(){ super(); } };
 ✖ ',' expected - start: 129, end: 131
 ✖ Expected a ')' to match the '(' token here - start: 152, end: 157
 ✖ Unexpected token. - start: 152, end: 157
+✖ The parser expected to find a '}' to match the '{' token here - start: 157, end: 158
 ✖ Declaration or statement expected - start: 157, end: 158
 ✖ Expected a `;` - start: 161, end: 162
 ✖ Declaration or statement expected - start: 161, end: 162
 ✖ Declaration or statement expected - start: 164, end: 166
+✖ The parser expected to find a '}' to match the '{' token here - start: 183, end: 184
 ✖ Declaration or statement expected - start: 183, end: 184
 ✖ Expected a `;` - start: 189, end: 190
 ✖ Declaration or statement expected - start: 191, end: 193
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 211, end: 212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 240, end: 241
+✖ Did you forgot a ']' to match the `[` token? - start: 244, end: 246
+✖ The parser expected to find a '}' to match the '{' token here - start: 246, end: 247
 ✖ Declaration or statement expected - start: 246, end: 247
 ✖ Expression expected - start: 250, end: 251
 ✖ Declaration or statement expected - start: 250, end: 251
@@ -2611,6 +2615,8 @@ let x = { foo(){ super(); } };
 ✖ ',' expected - start: 421, end: 423
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ Unexpected token. - start: 473, end: 478
+✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
+✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ Declaration or statement expected - start: 478, end: 479
 ✖ Expected a `;` - start: 482, end: 483
