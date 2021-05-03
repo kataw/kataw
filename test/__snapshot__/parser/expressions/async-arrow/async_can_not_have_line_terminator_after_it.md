@@ -73,7 +73,7 @@ let f = async
                                 "start": 20,
                                 "end": 22
                             },
-                            "flags": 288,
+                            "flags": 289,
                             "start": 7,
                             "end": 22
                         },
@@ -109,6 +109,7 @@ let f = async
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Line terminator not permitted before arrow - start: 17, end: 20
+
 ```
 

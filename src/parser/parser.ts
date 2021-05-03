@@ -3908,7 +3908,16 @@ function parseFunctionExpression(
 
   if (asyncToken) {
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
-      if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
+      const flags = parser.nodeFlags;
+      if ((flags & NodeFlags.NewLine) === 0) {
+        if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+            parser.curPos,
+            parser.pos
+          );
+        }
         // "async x => {}"
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsIdentifier)) {
           if (
@@ -3954,7 +3963,7 @@ function parseFunctionExpression(
       // "async<T>()"
       // "async <T>() => {}"
       if (!inNewExpression && parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, false, pos);
+        expression = parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos);
       }
 
       // "async => {}"
@@ -4074,7 +4083,16 @@ function parseFunctionDeclaration(
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
   if (asyncToken) {
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
-      if ((parser.nodeFlags & NodeFlags.NewLine) === 0) {
+      const flags = parser.nodeFlags;
+      if ((flags & NodeFlags.NewLine) === 0) {
+        if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
+            parser.curPos,
+            parser.pos
+          );
+        }
         let expression!: ExpressionNode;
         // "async x => {}"
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsIdentifier)) {
@@ -4108,7 +4126,7 @@ function parseFunctionDeclaration(
       // "async<T>()"
       // "async <T>() => {}"
       if (parser.token & SyntaxKind.IsLessThanOrLeftParen) {
-        return parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, false, pos) as any;
+        return parseCoverCallExpressionAndAsyncArrowHead(parser, context, expression, flags, pos) as any;
       }
 
       if (parser.token === SyntaxKind.Colon) {
@@ -6563,13 +6581,12 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   parser: ParserState,
   context: Context,
   expr: ExpressionNode,
-  hasLineTerminator: boolean,
+  flags: NodeFlags,
   start: number
 ): ArrowFunction | ExpressionNode {
   let typeParameters = null;
 
   let state = Tristate.False;
-  let flags = NodeFlags.None;
 
   const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
 
@@ -6600,7 +6617,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       /* Error recovery tweak. */
       isType
     ) {
-      if (hasLineTerminator) {
+      if (flags & NodeFlags.NewLine) {
         parser.onError(
           DiagnosticSource.Parser,
           diagnosticMap[DiagnosticCode.Line_terminator_not_permitted_before_arrow],
@@ -6899,7 +6916,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
 
     if (parser.token === SyntaxKind.Arrow || isType) {
-      if (hasLineTerminator) {
+      if (flags & NodeFlags.NewLine) {
         parser.onError(
           DiagnosticSource.Parser,
           diagnosticMap[DiagnosticCode.Line_terminator_not_permitted_before_arrow],

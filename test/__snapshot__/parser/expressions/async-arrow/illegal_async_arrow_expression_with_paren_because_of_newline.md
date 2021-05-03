@@ -93,6 +93,7 @@ f(async
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Line terminator not permitted before arrow - start: 10, end: 12
+
 ```
 
