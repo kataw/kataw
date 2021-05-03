@@ -705,7 +705,7 @@ a+1 ?? b+1 && c;
 ### Printed
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
