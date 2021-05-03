@@ -2923,22 +2923,6 @@ async function * gen() {class C extends await { }}
                                     "flags": 16,
                                     "start": 1916,
                                     "end": 1921
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "a",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 2623,
-                                    "end": 2624
-                                },
-                                {
-                                    "kind": 256,
-                                    "label": "a",
-                                    "iterationStatement": false,
-                                    "flags": 16,
-                                    "start": 2679,
-                                    "end": 2680
                                 }
                             ],
                             "colonToken": {
@@ -3632,22 +3616,6 @@ async function * gen() {class C extends await { }}
                                 "flags": 16,
                                 "start": 1916,
                                 "end": 1921
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2623,
-                                "end": 2624
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2679,
-                                "end": 2680
                             }
                         ],
                         "colonToken": {
@@ -3814,22 +3782,6 @@ async function * gen() {class C extends await { }}
                                 "flags": 16,
                                 "start": 1916,
                                 "end": 1921
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2623,
-                                "end": 2624
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2679,
-                                "end": 2680
                             }
                         ],
                         "colonToken": {
@@ -5586,156 +5538,114 @@ async function * gen() {class C extends await { }}
                                                         "flags": 32,
                                                         "start": 2605,
                                                         "end": 2615
+                                                    },
+                                                    {
+                                                        "kind": 204,
+                                                        "ellipsisToken": null,
+                                                        "key": {
+                                                            "kind": 201392130,
+                                                            "text": 24,
+                                                            "rawText": "24",
+                                                            "flags": 96,
+                                                            "start": 2615,
+                                                            "end": 2618
+                                                        },
+                                                        "value": {
+                                                            "kind": 203,
+                                                            "ellipsisToken": null,
+                                                            "binding": {
+                                                                "kind": 16637,
+                                                                "text": "",
+                                                                "flags": 68,
+                                                                "start": 2618,
+                                                                "end": 2618
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 32,
+                                                            "start": 2618,
+                                                            "end": 2618
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 2615,
+                                                        "end": 2618
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 2605,
-                                                "end": 2615
+                                                "end": 2618
                                             },
                                             "flags": 32,
                                             "start": 2603,
-                                            "end": 2615
+                                            "end": 2619
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "initializer": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [
+                                                    {
+                                                        "kind": 219,
+                                                        "generatorToken": null,
+                                                        "left": {
+                                                            "kind": 201392130,
+                                                            "text": 42,
+                                                            "rawText": "42",
+                                                            "flags": 96,
+                                                            "start": 2625,
+                                                            "end": 2628
+                                                        },
+                                                        "right": {
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
+                                                            "start": 2623,
+                                                            "end": 2624
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 2623,
+                                                        "end": 2628
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 2623,
+                                                "end": 2628
+                                            },
+                                            "flags": 32,
+                                            "start": 2621,
+                                            "end": 2629
+                                        },
                                         "flags": 16,
                                         "start": 2603,
-                                        "end": 2615
+                                        "end": 2629
                                     }
                                 ],
                                 "flags": 16,
                                 "start": 2603,
-                                "end": 2615
+                                "end": 2629
                             },
                             "flags": 16,
                             "start": 2600,
-                            "end": 2615
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 24,
-                                "rawText": "24",
-                                "flags": 96,
-                                "start": 2615,
-                                "end": 2618
-                            },
-                            "flags": 16,
-                            "start": 2615,
-                            "end": 2618
+                            "end": 2630
                         }
                     ],
                     "flags": 32,
                     "start": 2600,
-                    "end": 2618
+                    "end": 2630
                 },
                 "flags": 32,
                 "start": 2598,
-                "end": 2619
+                "end": 2631
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 2575,
-            "end": 2619
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 163,
-                        "label": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 2623,
-                            "end": 2624
-                        },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1397,
-                                "end": 1402
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1857,
-                                "end": 1862
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1916,
-                                "end": 1921
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2623,
-                                "end": 2624
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2679,
-                                "end": 2680
-                            }
-                        ],
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 0,
-                            "start": 2624,
-                            "end": 2625
-                        },
-                        "statement": {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 42,
-                                "rawText": "42",
-                                "flags": 96,
-                                "start": 2625,
-                                "end": 2628
-                            },
-                            "flags": 16,
-                            "start": 2625,
-                            "end": 2628
-                        },
-                        "flags": 16,
-                        "start": 2623,
-                        "end": 2628
-                    }
-                ],
-                "flags": 16,
-                "start": 2623,
-                "end": 2628
-            },
-            "flags": 16,
-            "start": 2621,
-            "end": 2629
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 2629,
-            "end": 2630
+            "end": 2631
         },
         {
             "kind": 176,
@@ -5829,156 +5739,114 @@ async function * gen() {class C extends await { }}
                                                         "flags": 32,
                                                         "start": 2661,
                                                         "end": 2671
+                                                    },
+                                                    {
+                                                        "kind": 204,
+                                                        "ellipsisToken": null,
+                                                        "key": {
+                                                            "kind": 201392130,
+                                                            "text": 24,
+                                                            "rawText": "24",
+                                                            "flags": 96,
+                                                            "start": 2671,
+                                                            "end": 2674
+                                                        },
+                                                        "value": {
+                                                            "kind": 203,
+                                                            "ellipsisToken": null,
+                                                            "binding": {
+                                                                "kind": 16637,
+                                                                "text": "",
+                                                                "flags": 68,
+                                                                "start": 2674,
+                                                                "end": 2674
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 32,
+                                                            "start": 2674,
+                                                            "end": 2674
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 2671,
+                                                        "end": 2674
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
                                                 "start": 2661,
-                                                "end": 2671
+                                                "end": 2674
                                             },
                                             "flags": 32,
                                             "start": 2659,
-                                            "end": 2671
+                                            "end": 2675
                                         },
                                         "optionalToken": null,
                                         "type": null,
-                                        "initializer": null,
+                                        "initializer": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [
+                                                    {
+                                                        "kind": 219,
+                                                        "generatorToken": null,
+                                                        "left": {
+                                                            "kind": 201392130,
+                                                            "text": 42,
+                                                            "rawText": "42",
+                                                            "flags": 96,
+                                                            "start": 2681,
+                                                            "end": 2684
+                                                        },
+                                                        "right": {
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
+                                                            "start": 2679,
+                                                            "end": 2680
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 2679,
+                                                        "end": 2684
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 2679,
+                                                "end": 2684
+                                            },
+                                            "flags": 32,
+                                            "start": 2677,
+                                            "end": 2685
+                                        },
                                         "flags": 16,
                                         "start": 2659,
-                                        "end": 2671
+                                        "end": 2685
                                     }
                                 ],
                                 "flags": 16,
                                 "start": 2659,
-                                "end": 2671
+                                "end": 2685
                             },
                             "flags": 16,
                             "start": 2656,
-                            "end": 2671
-                        },
-                        {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 24,
-                                "rawText": "24",
-                                "flags": 96,
-                                "start": 2671,
-                                "end": 2674
-                            },
-                            "flags": 16,
-                            "start": 2671,
-                            "end": 2674
+                            "end": 2686
                         }
                     ],
                     "flags": 32,
                     "start": 2656,
-                    "end": 2674
+                    "end": 2686
                 },
                 "flags": 32,
                 "start": 2654,
-                "end": 2675
+                "end": 2687
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 400,
             "start": 2631,
-            "end": 2675
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 163,
-                        "label": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 2679,
-                            "end": 2680
-                        },
-                        "labels": [
-                            {
-                                "kind": 256,
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1397,
-                                "end": 1402
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1857,
-                                "end": 1862
-                            },
-                            {
-                                "kind": 256,
-                                "label": "yield",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 1916,
-                                "end": 1921
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2623,
-                                "end": 2624
-                            },
-                            {
-                                "kind": 256,
-                                "label": "a",
-                                "iterationStatement": false,
-                                "flags": 16,
-                                "start": 2679,
-                                "end": 2680
-                            }
-                        ],
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 0,
-                            "start": 2680,
-                            "end": 2681
-                        },
-                        "statement": {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 42,
-                                "rawText": "42",
-                                "flags": 96,
-                                "start": 2681,
-                                "end": 2684
-                            },
-                            "flags": 16,
-                            "start": 2681,
-                            "end": 2684
-                        },
-                        "flags": 16,
-                        "start": 2679,
-                        "end": 2684
-                    }
-                ],
-                "flags": 16,
-                "start": 2679,
-                "end": 2684
-            },
-            "flags": 16,
-            "start": 2677,
-            "end": 2685
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 2685,
-            "end": 2686
+            "end": 2687
         },
         {
             "kind": 176,
@@ -7989,19 +7857,10 @@ async function * gen() {class C extends await { }}
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2609, end: 2615
 ✖ ',' expected - start: 2615, end: 2618
-✖ Missing initializer in destructuring declaration - start: 2615, end: 2618
-✖ ',' expected - start: 2615, end: 2618
-✖ Expected a `;` - start: 2615, end: 2618
-✖ Declaration or statement expected - start: 2619, end: 2621
-✖ Declaration or statement expected - start: 2630, end: 2631
+✖ Expression expected - start: 2618, end: 2619
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
-✖ Missing initializer in destructuring declaration - start: 2671, end: 2674
-✖ ',' expected - start: 2671, end: 2674
-✖ Expected a `;` - start: 2671, end: 2674
-✖ Declaration or statement expected - start: 2675, end: 2677
-✖ Duplicate label - start: 2679, end: 2681
-✖ Declaration or statement expected - start: 2686, end: 2687
+✖ Expression expected - start: 2674, end: 2675
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2766, end: 2768
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2814, end: 2816

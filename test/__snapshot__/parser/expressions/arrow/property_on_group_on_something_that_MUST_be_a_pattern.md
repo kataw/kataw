@@ -112,6 +112,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 12
+
 ```
 

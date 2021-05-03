@@ -1,4 +1,4 @@
-import { ParserState } from '../common';
+import { ParserState, Context } from '../common';
 import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
@@ -169,7 +169,7 @@ const ZeroDigitLookup = [
   /* 127 - Delete             */ ZeroDigitKind.Unknown
 ];
 
-export function scanNumber(parser: ParserState, cp: number, source: string): SyntaxKind {
+export function scanNumber(parser: ParserState, context: Context, cp: number, source: string): SyntaxKind {
   // Optimization: most decimal values fit into 4 bytes.
   let type = NumberKind.Decimal;
   let state = SeparatorAndBigIntState.AllowSeparator;
@@ -357,6 +357,15 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
           break;
         }
       } while (cp >= Char.Zero && cp <= Char.Nine);
+
+      if (context & Context.Strict) {
+        parser.onError(
+          DiagnosticSource.Lexer,
+          diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
+          parser.curPos,
+          pos
+        );
+      }
       if (cp === Char.Underscore) {
         parser.onError(
           DiagnosticSource.Lexer,
@@ -367,12 +376,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
       }
 
       if (cp === Char.LowerN) {
-        parser.onError(
-          DiagnosticSource.Lexer,
-          diagnosticMap[DiagnosticCode.Invalid_BigInt_syntax],
-          parser.curPos,
-          parser.pos
-        );
+        parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Invalid_BigInt_syntax], parser.curPos, pos);
       }
       if (type === NumberKind.ImplicitOctal) {
         parser.pos = pos;
@@ -447,7 +451,7 @@ export function scanNumber(parser: ParserState, cp: number, source: string): Syn
         DiagnosticSource.Lexer,
         diagnosticMap[DiagnosticCode.Non_number_after_exponent_indicator],
         parser.curPos,
-        parser.pos
+        pos
       );
       // For cases like '1e!', '1e€' etc we do a 'parser.pos + 1' so we can consume the
       // invalid char. If we do it this way, we will avoid parsing out an invalid

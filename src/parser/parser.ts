@@ -2214,8 +2214,9 @@ function parsePropertyDefinition(
         }
 
         if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
+          const right = parseExpression(parser, context);
           parser.destructible = DestructibleKind.MustDestruct;
-          return createCoverInitializedName(key, parseExpression(parser, context), pos, parser.curPos);
+          return createCoverInitializedName(key, right, pos, parser.curPos);
         }
 
         // Parse a shorthand property
@@ -3273,7 +3274,7 @@ function parseParentheizedExpression(
       state = Tristate.Unknown;
 
       destructible = parser.destructible;
-
+      //console.log(parser.destructible & DestructibleKind.MustDestruct)
       parser.assignable = false;
 
       if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
@@ -3326,6 +3327,17 @@ function parseParentheizedExpression(
   }
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
+    if (destructible & DestructibleKind.NotDestructible && destructible & DestructibleKind.MustDestruct) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
+
     if (state) {
       let isType = false;
       if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
@@ -3357,7 +3369,16 @@ function parseParentheizedExpression(
         );
       }
     }
-
+    if (destructible & DestructibleKind.MustDestruct) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
     return createParenthesizedExpression(expression, curPos, parser.curPos);
   }
 
@@ -3562,6 +3583,18 @@ function parseParentheizedExpression(
       parser.pos
     );
   }
+
+  if (destructible & DestructibleKind.MustDestruct) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[
+        DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   parser.destructible = destructible;
 
   return createParenthesizedExpression(expression, curPos, parser.curPos);
@@ -3714,7 +3747,11 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
   const flags = parser.nodeFlags;
   while (
     parser.token &
-    (SyntaxKind.IsPatternStart | SyntaxKind.IsEllipsis | SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)
+    (SyntaxKind.IsPatternStart |
+      SyntaxKind.IsEllipsis |
+      SyntaxKind.IsProperty |
+      SyntaxKind.IsIdentifier |
+      SyntaxKind.IsFutureReserved)
   ) {
     properties.push(parseBindingProperty(parser, context));
     if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) break;
@@ -4182,6 +4219,14 @@ function parseFunctionStatementList(
     const start = parser.curPos;
     const expr = parseStringLiteral(parser, context);
     if (isValidDirective(parser) && expr.rawText.length === 12 && expr.text === 'use strict') {
+      if (!isSimpleParameterList) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode._use_strict_directive_cannot_be_used_with_non_simple_parameter_list],
+          parser.curPos,
+          parser.pos
+        );
+      }
       context |= Context.Strict;
       parseSemicolon(parser, context);
       directives.push(expr);

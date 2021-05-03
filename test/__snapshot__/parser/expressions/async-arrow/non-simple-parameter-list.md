@@ -181,6 +181,8 @@ async ( { x}  ) => {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 35, end: 36
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 75, end: 76
+
 ```
 

@@ -2327,16 +2327,20 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 158, end: 160
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 163, end: 165
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 186, end: 188
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 197, end: 199
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
 ✖ An element access expression should take an argument. - start: 258, end: 259
 ✖ Expression expected - start: 258, end: 259
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 283, end: 284
 ✖ Expected a `;` - start: 287, end: 288
 ✖ Declaration or statement expected - start: 290, end: 291
 ✖ Declaration or statement expected - start: 295, end: 296
 ✖ Declaration or statement expected - start: 296, end: 297
 ✖ Property assignment expected - start: 316, end: 317
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 318, end: 319
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 342, end: 343
 ✖ Dot property must be an identifier - start: 347, end: 348
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 365, end: 367
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 392, end: 394

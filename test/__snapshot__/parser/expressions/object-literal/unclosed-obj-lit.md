@@ -52,7 +52,11 @@
 ### Diagnostics
 
 ```javascript
+✖ ',' expected - start: 7, end: 9
 ✖ Expression expected - start: 10, end: 11
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 11
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 11
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 11
 
 ```
 

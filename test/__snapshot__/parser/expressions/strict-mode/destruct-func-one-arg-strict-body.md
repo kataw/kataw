@@ -151,6 +151,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 29, end: 30
+
 ```
 

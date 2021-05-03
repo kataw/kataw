@@ -6053,6 +6053,7 @@ try {} catch(e) { for(var e of 0); };
 ### Diagnostics
 
 ```javascript
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 88, end: 89
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 659, end: 661
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779

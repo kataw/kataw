@@ -420,6 +420,10 @@ function x({x}) { "use strict"; }
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 32, end: 33
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 68, end: 69
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 103, end: 104
+✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 138, end: 139
+
 ```
 

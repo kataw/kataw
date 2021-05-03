@@ -61,6 +61,7 @@
 ✖ ',' expected - start: 9, end: 11
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 
 ```
 

@@ -186,7 +186,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return scanIdentifier(parser, cp, source);
 
       case SyntaxKind.NumericLiteral:
-        return scanNumber(parser, cp, source);
+        return scanNumber(parser, context, cp, source);
 
       case SyntaxKind.CarriageReturn:
       case SyntaxKind.LineFeed:
