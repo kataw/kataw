@@ -100,6 +100,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 8, end: 14
 ✖ Expected a `;` - start: 8, end: 14
 ✖ Binding identifier expected - start: 14, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14

@@ -160,7 +160,10 @@ export const enum DiagnosticCode {
   The_parser_expected_to_find_a_to_match_the_token_here = 159,
   Did_you_forgot_a_to_match_the_token = 160,
   The_left_hand_side_must_be_a_variable_or_a_property_access = 161,
-  The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access = 162
+  The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access = 162,
+  _arguments_can_only_be_used_in_functions_and_class_methods = 163,
+  Constructor_implementation_is_missing = 164,
+  Expected_a_to_match_the_token_here = 165
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -322,5 +325,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [159]: "The parser expected to find a '}' to match the '{' token here",
   [160]: "Did you forgot a ']' to match the `[` token?",
   [161]: 'The left-hand side must be a variable or a property access.',
-  [162]: 'The left-hand side of an assignment expression may not be an optional property access'
+  [162]: 'The left-hand side of an assignment expression may not be an optional property access',
+  [163]: "'arguments' can only be used in functions and class methods",
+  [164]: 'Constructor implementation is missing',
+  [165]: "Expected a ')' to match the '(' token here"
 };

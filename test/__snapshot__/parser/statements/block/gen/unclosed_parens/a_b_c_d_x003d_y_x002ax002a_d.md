@@ -144,6 +144,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 20, end: 20
 ✖ The parser expected to find a '}' to match the '{' token here - start: 20, end: 20
 
 ```

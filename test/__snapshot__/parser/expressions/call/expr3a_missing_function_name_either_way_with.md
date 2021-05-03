@@ -99,6 +99,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 6, end: 16
 ✖ Binding identifier expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 20, end: 21
 

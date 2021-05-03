@@ -394,6 +394,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 
 ```javascript
 ✖ ',' expected - start: 26, end: 27
+✖ Expected a ')' to match the '(' token here - start: 26, end: 27
 ✖ Unexpected token. - start: 26, end: 27
 ✖ Declaration or statement expected - start: 26, end: 27
 ✖ Expected a `;` - start: 37, end: 38

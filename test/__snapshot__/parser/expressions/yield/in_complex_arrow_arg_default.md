@@ -99,6 +99,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 16, end: 18
 ✖ Expected a `;` - start: 16, end: 18
 ✖ Expected a `;` - start: 18, end: 19
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19

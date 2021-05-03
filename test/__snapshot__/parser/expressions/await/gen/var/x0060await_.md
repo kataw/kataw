@@ -127,6 +127,7 @@ var await; var f = (async function() { `await; });
 ```javascript
 ✖ Unterminated template literal - start: 38, end: 50
 ✖ The parser expected to find a '}' to match the '{' token here - start: 50, end: 50
+✖ Expected a ')' to match the '(' token here - start: 50, end: 50
 
 ```
 

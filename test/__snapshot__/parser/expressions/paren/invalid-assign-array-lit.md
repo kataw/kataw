@@ -1570,6 +1570,7 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 115, end: 116
 ✖ Dot property must be an identifier - start: 116, end: 117
 ✖ Dot property must be an identifier - start: 117, end: 118
+✖ Expected a ')' to match the '(' token here - start: 118, end: 119
 ✖ Declaration or statement expected - start: 118, end: 119
 ✖ Declaration or statement expected - start: 119, end: 120
 ✖ Did you forgot a ']' to match the `[` token? - start: 128, end: 129
@@ -1577,6 +1578,7 @@
 ✖ Dot property must be an identifier - start: 130, end: 131
 ✖ ',' expected - start: 130, end: 131
 ✖ The parser expected to find a '}' to match the '{' token here - start: 130, end: 131
+✖ Expected a ')' to match the '(' token here - start: 130, end: 131
 ✖ Expected a `;` - start: 130, end: 131
 ✖ Declaration or statement expected - start: 130, end: 131
 ✖ Declaration or statement expected - start: 131, end: 132

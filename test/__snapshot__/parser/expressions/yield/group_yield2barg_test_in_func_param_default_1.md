@@ -156,6 +156,7 @@ function f(x=(yield z)=y){}
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 19, end: 21
 ✖ ',' expected - start: 19, end: 21
 ✖ Unexpected token. - start: 22, end: 23
 ✖ Declaration or statement expected - start: 22, end: 23

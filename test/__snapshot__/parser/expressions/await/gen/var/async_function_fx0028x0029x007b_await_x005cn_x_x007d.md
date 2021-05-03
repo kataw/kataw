@@ -164,6 +164,7 @@ var await; var f = (async function() { async function f(){ await \n x; } });
 ✖ Expected a `;` - start: 64, end: 66
 ✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 66
 ✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 66
+✖ Expected a ')' to match the '(' token here - start: 64, end: 66
 ✖ ',' expected - start: 64, end: 66
 ✖ Expected a `;` - start: 64, end: 66
 ✖ Declaration or statement expected - start: 64, end: 66

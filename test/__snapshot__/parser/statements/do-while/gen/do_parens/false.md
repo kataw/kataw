@@ -82,6 +82,7 @@ do( false while
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 9, end: 15
 ✖ Expected a `;` - start: 9, end: 15
 ✖ Expression expected - start: 15, end: 15
 

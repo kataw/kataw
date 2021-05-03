@@ -165,6 +165,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 53, end: 54
+
 ```
 

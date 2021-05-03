@@ -118,6 +118,7 @@ do( catch try {} while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
+✖ Expected a ')' to match the '(' token here - start: 3, end: 9
 ✖ Expected a `;` - start: 3, end: 9
 ✖ Expression expected - start: 9, end: 13
 

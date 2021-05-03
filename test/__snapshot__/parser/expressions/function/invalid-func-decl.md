@@ -972,13 +972,17 @@ async function f(){}
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 11, end: 21
 ✖ Unexpected token. - start: 11, end: 21
 ✖ ',' expected - start: 56, end: 65
+✖ Expected a ')' to match the '(' token here - start: 56, end: 65
 ✖ Unexpected token. - start: 56, end: 65
 ✖ Binding identifier expected - start: 104, end: 106
 ✖ Unexpected token. - start: 104, end: 106
 ✖ Expected a `;` - start: 109, end: 110
+✖ Expected a ')' to match the '(' token here - start: 126, end: 127
 ✖ Unexpected token. - start: 126, end: 127
+✖ Expected a ')' to match the '(' token here - start: 142, end: 143
 ✖ Unexpected token. - start: 142, end: 143
 ✖ Expected a `;` - start: 144, end: 151
 ✖ Expression expected - start: 172, end: 173

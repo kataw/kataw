@@ -131,6 +131,7 @@
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 8, end: 10
 ✖ Invalid hexadecimal escape sequence - start: 10, end: 10
+✖ Expected a ')' to match the '(' token here - start: 10, end: 11
 ✖ Expected a `;` - start: 10, end: 11
 ✖ Declaration or statement expected - start: 10, end: 11
 ✖ Expected a `;` - start: 12, end: 16

@@ -3842,11 +3842,13 @@ a++ => {};
 ✖ Expected a `;` - start: 1343, end: 1346
 ✖ Declaration or statement expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1352, end: 1354
+✖ Expected a ')' to match the '(' token here - start: 1352, end: 1354
 ✖ Expected a `;` - start: 1352, end: 1354
 ✖ Expression expected - start: 1354, end: 1355
 ✖ Expression expected - start: 1355, end: 1358
 ✖ Expected a `;` - start: 1355, end: 1358
 ✖ Declaration or statement expected - start: 1355, end: 1358
+✖ Expected a ')' to match the '(' token here - start: 1366, end: 1369
 ✖ Expected a `;` - start: 1366, end: 1369
 ✖ Expression expected - start: 1369, end: 1370
 ✖ Expression expected - start: 1370, end: 1373
@@ -3863,12 +3865,14 @@ a++ => {};
 ✖ Expected a `;` - start: 1458, end: 1461
 ✖ Declaration or statement expected - start: 1458, end: 1461
 ✖ Unterminated string literal - start: 1467, end: 1480
+✖ Expected a ')' to match the '(' token here - start: 1489, end: 1492
 ✖ Expected a `;` - start: 1489, end: 1492
 ✖ Declaration or statement expected - start: 1489, end: 1492
 ✖ Expected a `;` - start: 1511, end: 1514
 ✖ Declaration or statement expected - start: 1511, end: 1514
 ✖ Expected a `;` - start: 1526, end: 1529
 ✖ Declaration or statement expected - start: 1526, end: 1529
+✖ Expected a ')' to match the '(' token here - start: 1537, end: 1539
 ✖ Expected a `;` - start: 1540, end: 1541
 ✖ Declaration or statement expected - start: 1540, end: 1541
 ✖ Declaration or statement expected - start: 1541, end: 1544
@@ -3894,9 +3898,11 @@ a++ => {};
 ✖ Expected a `;` - start: 1768, end: 1771
 ✖ Declaration or statement expected - start: 1768, end: 1771
 ✖ A rest element cannot have an initializer - start: 1781, end: 1783
+✖ Expected a ')' to match the '(' token here - start: 1802, end: 1804
 ✖ Expected a `;` - start: 1806, end: 1807
 ✖ Declaration or statement expected - start: 1806, end: 1807
 ✖ Declaration or statement expected - start: 1807, end: 1810
+✖ Expected a ')' to match the '(' token here - start: 1822, end: 1824
 ✖ Expected a `;` - start: 1827, end: 1828
 ✖ Declaration or statement expected - start: 1827, end: 1828
 ✖ Declaration or statement expected - start: 1828, end: 1831

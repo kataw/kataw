@@ -112,6 +112,8 @@ var v = a => <any><any>{}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 25, end: 25
+✖ Expected a ')' to match the '(' token here - start: 25, end: 25
+
 ```
 

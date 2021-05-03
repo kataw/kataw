@@ -78,6 +78,7 @@ do( /**/ /x do while while
 
 ```javascript
 ✖ Unterminated regular expression - start: 3, end: 10
+✖ Expected a ')' to match the '(' token here - start: 26, end: 26
 ✖ Expression expected - start: 26, end: 26
 
 ```

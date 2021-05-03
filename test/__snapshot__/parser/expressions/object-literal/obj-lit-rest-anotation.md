@@ -125,6 +125,8 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 9, end: 10
+✖ Expected a ')' to match the '(' token here - start: 9, end: 10
 ✖ Expected a `;` - start: 9, end: 10
 ✖ Declaration or statement expected - start: 9, end: 10
 ✖ Expression expected - start: 24, end: 25

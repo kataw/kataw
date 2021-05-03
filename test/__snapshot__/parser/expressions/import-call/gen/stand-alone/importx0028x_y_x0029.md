@@ -94,6 +94,7 @@ import(x,y,,)
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 8, end: 9
 ✖ Expression expected - start: 11, end: 12
 ✖ Expression expected - start: 12, end: 13
 ✖ Expected a `;` - start: 12, end: 13

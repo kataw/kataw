@@ -83,6 +83,7 @@
 
 ```javascript
 ✖ Cannot use 'import.meta' outside a module - start: 14, end: 14
+✖ Expected a ')' to match the '(' token here - start: 14, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 14
 
 ```

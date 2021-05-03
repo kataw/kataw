@@ -3530,20 +3530,6 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "async",
-                "rawText": "async",
-                "flags": 96,
-                "start": 1303,
-                "end": 1313
-            },
-            "flags": 16,
-            "start": 1303,
-            "end": 1313
-        },
-        {
-            "kind": 120,
-            "expression": {
                 "kind": 271,
                 "arrowToken": {
                     "kind": 10,
@@ -3560,7 +3546,12 @@
                     "start": 1313,
                     "end": 1319
                 },
-                "asyncToken": null,
+                "asyncToken": {
+                    "kind": 82031,
+                    "flags": 65,
+                    "start": 1303,
+                    "end": 1313
+                },
                 "returnType": null,
                 "contents": {
                     "kind": 201392130,
@@ -3570,12 +3561,12 @@
                     "start": 1322,
                     "end": 1324
                 },
-                "flags": 32,
-                "start": 1313,
+                "flags": 288,
+                "start": 1303,
                 "end": 1324
             },
             "flags": 16,
-            "start": 1313,
+            "start": 1303,
             "end": 1325
         },
         {
@@ -4857,7 +4848,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 1313, end: 1319
-
+✔ No errors
 ```
 

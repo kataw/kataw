@@ -914,6 +914,7 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 50, end: 54
 ✖ ',' expected - start: 80, end: 82
 ✖ The parser expected to find a '}' to match the '{' token here - start: 80, end: 82
+✖ Expected a ')' to match the '(' token here - start: 80, end: 82
 ✖ Expected a `;` - start: 80, end: 82
 ✖ Declaration or statement expected - start: 80, end: 82
 ✖ Declaration or statement expected - start: 82, end: 84
@@ -923,6 +924,7 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
 ✖ ',' expected - start: 177, end: 179
 ✖ The parser expected to find a '}' to match the '{' token here - start: 177, end: 179
+✖ Expected a ')' to match the '(' token here - start: 177, end: 179
 ✖ Expected a `;` - start: 177, end: 179
 ✖ Declaration or statement expected - start: 177, end: 179
 ✖ Declaration or statement expected - start: 179, end: 181
@@ -931,6 +933,7 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ ',' expected - start: 208, end: 210
 ✖ The parser expected to find a '}' to match the '{' token here - start: 208, end: 210
 ✖ ',' expected - start: 208, end: 210
+✖ Expected a ')' to match the '(' token here - start: 208, end: 210
 ✖ Expected a `;` - start: 208, end: 210
 ✖ Declaration or statement expected - start: 208, end: 210
 ✖ Declaration or statement expected - start: 210, end: 212

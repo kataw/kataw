@@ -697,6 +697,7 @@
 ✖ Expression expected - start: 42, end: 43
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
 ✖ A rest parameter must be last in a parameter list - start: 53, end: 54
+✖ Expected a ')' to match the '(' token here - start: 54, end: 55
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 55
 ✖ Expression expected - start: 55, end: 56
 ✖ Expected a `;` - start: 55, end: 56

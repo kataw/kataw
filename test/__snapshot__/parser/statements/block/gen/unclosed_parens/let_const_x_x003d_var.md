@@ -133,6 +133,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 6, end: 12
 ✖ Expected a `;` - start: 6, end: 12
 ✖ Expression expected - start: 16, end: 20
 ✖ Lexical declaration expected - start: 16, end: 20

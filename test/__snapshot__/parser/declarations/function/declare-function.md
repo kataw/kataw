@@ -398,6 +398,7 @@ declare function foo(): void
 ✖ Expression expected - start: 31, end: 32
 ✖ Expected a `;` - start: 41, end: 50
 ✖ ',' expected - start: 56, end: 57
+✖ Expected a ')' to match the '(' token here - start: 56, end: 57
 ✖ Unexpected token. - start: 56, end: 57
 ✖ Declaration or statement expected - start: 56, end: 57
 ✖ Expected a `;` - start: 67, end: 68

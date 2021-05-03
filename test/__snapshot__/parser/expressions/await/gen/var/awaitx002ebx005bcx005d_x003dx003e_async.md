@@ -148,6 +148,7 @@ var await; var f = (async function() { await.b[c] => async });
 ✖ Expression expected - start: 44, end: 45
 ✖ Expected a `;` - start: 49, end: 52
 ✖ The parser expected to find a '}' to match the '{' token here - start: 49, end: 52
+✖ Expected a ')' to match the '(' token here - start: 49, end: 52
 ✖ ',' expected - start: 49, end: 52
 ✖ Expected a `;` - start: 49, end: 52
 ✖ Declaration or statement expected - start: 49, end: 52

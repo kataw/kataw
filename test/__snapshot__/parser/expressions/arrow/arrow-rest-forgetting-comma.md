@@ -80,6 +80,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 2, end: 6
 ✖ Expected a `;` - start: 2, end: 6
 ✖ Declaration or statement expected - start: 2, end: 6
 ✖ Expected a `;` - start: 7, end: 8

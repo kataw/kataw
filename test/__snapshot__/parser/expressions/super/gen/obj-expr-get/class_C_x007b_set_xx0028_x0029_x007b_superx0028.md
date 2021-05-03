@@ -260,6 +260,7 @@
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 39, end: 40
+✖ Expected a ')' to match the '(' token here - start: 40, end: 42
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45

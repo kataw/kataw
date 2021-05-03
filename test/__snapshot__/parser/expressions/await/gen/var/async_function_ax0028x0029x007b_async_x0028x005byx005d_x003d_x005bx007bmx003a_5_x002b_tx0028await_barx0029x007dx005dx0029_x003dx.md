@@ -146,6 +146,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 100, end: 103
 ✖ The parser expected to find a '}' to match the '{' token here - start: 100, end: 103
+✖ Expected a ')' to match the '(' token here - start: 100, end: 103
 ✖ ',' expected - start: 100, end: 103
 ✖ Expected a `;` - start: 100, end: 103
 ✖ Declaration or statement expected - start: 100, end: 103

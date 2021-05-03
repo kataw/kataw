@@ -1015,6 +1015,7 @@ class C { get name(private) {} }
 ✖ A 'get' accessor cannot have parameters. - start: 188, end: 193
 ✖ `Yield` expression cannot be used in function parameters - start: 188, end: 193
 ✖ A 'get' accessor cannot have parameters. - start: 234, end: 237
+✖ Expected a ')' to match the '(' token here - start: 234, end: 237
 ✖ Unexpected token. - start: 234, end: 237
 ✖ Declaration or statement expected - start: 237, end: 238
 ✖ Declaration or statement expected - start: 241, end: 243

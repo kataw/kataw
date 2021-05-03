@@ -80,6 +80,7 @@ import(x,y
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 8, end: 9
+
 ```
 

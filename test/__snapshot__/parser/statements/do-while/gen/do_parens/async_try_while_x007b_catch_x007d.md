@@ -143,6 +143,7 @@ do( async try while { catch } while
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 9, end: 13
 ✖ Expected a `;` - start: 9, end: 13
 ✖ Expression expected - start: 13, end: 19
 ✖ Property assignment expected - start: 27, end: 29

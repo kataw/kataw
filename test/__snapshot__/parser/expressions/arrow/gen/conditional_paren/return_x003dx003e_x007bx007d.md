@@ -130,6 +130,7 @@ bar ? baz : ( return => {} );
 
 ```javascript
 ✖ Expression expected - start: 13, end: 20
+✖ Expected a ')' to match the '(' token here - start: 13, end: 20
 ✖ Expected a `;` - start: 13, end: 20
 ✖ A return statement can only be used within a function_body - start: 13, end: 20
 ✖ Expression expected - start: 20, end: 23

@@ -2242,6 +2242,7 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 32, end: 35
 ✖ Declaration or statement expected - start: 32, end: 35
 ✖ Expression expected - start: 53, end: 58
+✖ Expected a ')' to match the '(' token here - start: 53, end: 58
 ✖ Expected a `;` - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 59, end: 61
@@ -2255,25 +2256,31 @@ async ([a]:string)=>c;
 ✖ Declaration or statement expected - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143
 ✖ Expression expected - start: 177, end: 179
+✖ Expected a ')' to match the '(' token here - start: 205, end: 208
 ✖ Expected a `;` - start: 205, end: 208
 ✖ Declaration or statement expected - start: 205, end: 208
 ✖ Expected a `;` - start: 210, end: 211
 ✖ Declaration or statement expected - start: 210, end: 211
 ✖ Declaration or statement expected - start: 250, end: 251
+✖ Expected a ')' to match the '(' token here - start: 293, end: 296
 ✖ Expected a `;` - start: 293, end: 296
 ✖ Declaration or statement expected - start: 293, end: 296
 ✖ Expected a `;` - start: 298, end: 299
 ✖ Declaration or statement expected - start: 298, end: 299
+✖ Expected a ')' to match the '(' token here - start: 321, end: 327
 ✖ Expected a `;` - start: 321, end: 327
 ✖ Expected a `;` - start: 332, end: 333
 ✖ Declaration or statement expected - start: 332, end: 333
+✖ Expected a ')' to match the '(' token here - start: 357, end: 360
 ✖ Expected a `;` - start: 357, end: 360
 ✖ Declaration or statement expected - start: 357, end: 360
 ✖ Expected a `;` - start: 362, end: 363
 ✖ Declaration or statement expected - start: 362, end: 363
+✖ Expected a ')' to match the '(' token here - start: 380, end: 386
 ✖ Expected a `;` - start: 380, end: 386
 ✖ Expected a `;` - start: 391, end: 392
 ✖ Declaration or statement expected - start: 391, end: 392
+✖ Expected a ')' to match the '(' token here - start: 411, end: 414
 ✖ Expected a `;` - start: 411, end: 414
 ✖ Declaration or statement expected - start: 411, end: 414
 ✖ Expected a `;` - start: 416, end: 417

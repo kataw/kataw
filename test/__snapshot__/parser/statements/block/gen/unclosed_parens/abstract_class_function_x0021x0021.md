@@ -183,6 +183,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 11, end: 17
 ✖ Expected a `;` - start: 11, end: 17
 ✖ Binding identifier expected - start: 17, end: 26
 ✖ Binding identifier expected - start: 26, end: 28

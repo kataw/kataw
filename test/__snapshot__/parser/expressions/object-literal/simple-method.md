@@ -287,6 +287,7 @@ x = { method(test: string) { } };
 
 ```javascript
 ✖ ',' expected - start: 44, end: 45
+✖ Expected a ')' to match the '(' token here - start: 44, end: 45
 ✖ Unexpected token. - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45

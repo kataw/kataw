@@ -2335,6 +2335,7 @@
 ✖ Expression expected - start: 258, end: 259
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 283, end: 284
 ✖ The parser expected to find a '}' to match the '{' token here - start: 287, end: 288
+✖ Expected a ')' to match the '(' token here - start: 287, end: 288
 ✖ Expected a `;` - start: 287, end: 288
 ✖ Declaration or statement expected - start: 290, end: 291
 ✖ Declaration or statement expected - start: 295, end: 296
@@ -2351,6 +2352,7 @@
 ✖ The left-hand side must be a variable or a property access. - start: 501, end: 503
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
 ✖ Property assignment expected - start: 528, end: 529
+✖ Expected a ')' to match the '(' token here - start: 529, end: 530
 ✖ Declaration or statement expected - start: 529, end: 530
 ✖ Declaration or statement expected - start: 530, end: 531
 

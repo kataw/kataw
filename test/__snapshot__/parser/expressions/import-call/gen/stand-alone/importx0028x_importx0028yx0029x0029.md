@@ -98,6 +98,7 @@ import(x,import(y))
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Declaration or statement expected - start: 18, end: 19

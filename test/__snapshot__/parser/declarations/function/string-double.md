@@ -142,6 +142,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
 
 ```javascript
 ✖ ',' expected - start: 30, end: 31
+✖ Expected a ')' to match the '(' token here - start: 30, end: 31
 ✖ Unexpected token. - start: 30, end: 31
 ✖ Declaration or statement expected - start: 30, end: 31
 ✖ Expected a `;` - start: 37, end: 38
