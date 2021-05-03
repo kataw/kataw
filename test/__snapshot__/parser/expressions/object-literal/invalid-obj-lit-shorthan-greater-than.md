@@ -58,7 +58,7 @@
 ### Diagnostics
 
 ```javascript
-✖ ',' expected - start: 9, end: 11
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 9, end: 11
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 15

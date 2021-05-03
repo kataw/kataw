@@ -2215,7 +2215,7 @@ function parsePropertyDefinition(
 
         if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
           const right = parseExpression(parser, context);
-          parser.destructible = DestructibleKind.MustDestruct;
+          parser.destructible = DestructibleKind.MustDestruct | DestructibleKind.CoverInitializedName;
           return createCoverInitializedName(key, right, pos, parser.curPos);
         }
 
@@ -3274,12 +3274,21 @@ function parseParentheizedExpression(
       state = Tristate.Unknown;
 
       destructible = parser.destructible;
-      //console.log(parser.destructible & DestructibleKind.MustDestruct)
+
       parser.assignable = false;
 
       if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
         if (destructible & DestructibleKind.MustDestruct) {
-          parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
+          parser.onError(
+            DiagnosticSource.Parser,
+            diagnosticMap[
+              destructible & DestructibleKind.CoverInitializedName
+                ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
+                : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+            ],
+            parser.curPos,
+            parser.pos
+          );
         }
 
         if (parser.token & SyntaxKind.IsPropertyOrCall) {
@@ -3373,7 +3382,9 @@ function parseParentheizedExpression(
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[
-          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+          destructible & DestructibleKind.CoverInitializedName
+            ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
+            : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
         ],
         parser.curPos,
         parser.pos

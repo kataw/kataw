@@ -1563,9 +1563,9 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
 ✖ Invalid optional chain from new expression - start: 44, end: 45
-✖ ',' expected - start: 79, end: 80
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 79, end: 80
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 82, end: 84
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 82, end: 84
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 101, end: 103
 ✖ Dot property must be an identifier - start: 116, end: 117
 ✖ Dot property must be an identifier - start: 117, end: 118
@@ -1580,14 +1580,14 @@
 ✖ Declaration or statement expected - start: 131, end: 132
 ✖ Declaration or statement expected - start: 132, end: 133
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143
-✖ ',' expected - start: 159, end: 160
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 159, end: 160
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 168, end: 169
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 168, end: 169
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 168, end: 169
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 173, end: 175
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 192, end: 194
-✖ ',' expected - start: 211, end: 212
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 211, end: 212
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 214, end: 217
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 214, end: 217
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 214, end: 217
 ✖ Expected a `;` - start: 214, end: 217
 ✖ Declaration or statement expected - start: 214, end: 217
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 229, end: 231
