@@ -121,6 +121,7 @@ async () => {  sw\u0069tch = x  }
 
 ```javascript
 ✖ Expression expected - start: 26, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 33, end: 33
 
 ```
 

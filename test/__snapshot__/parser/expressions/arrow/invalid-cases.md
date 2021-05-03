@@ -3807,6 +3807,7 @@ a++ => {};
 ✖ Expected a `;` - start: 59, end: 62
 ✖ Declaration or statement expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
+✖ The parser expected to find a '}' to match the '{' token here - start: 81, end: 82
 ✖ Expected a `;` - start: 81, end: 82
 ✖ Declaration or statement expected - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86

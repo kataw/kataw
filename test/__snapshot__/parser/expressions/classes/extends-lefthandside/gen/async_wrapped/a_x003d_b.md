@@ -171,6 +171,7 @@ async function p(){
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 39, end: 41
 ✖ Declaration or statement expected - start: 39, end: 41
 ✖ Expected a `;` - start: 43, end: 45
 ✖ Declaration or statement expected - start: 46, end: 48

@@ -77,7 +77,7 @@ for (/crap/ in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-in loop - start: 14, end: 16
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 14, end: 16
 
 ```
 

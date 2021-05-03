@@ -985,6 +985,8 @@ async function f(){}
 ✖ Expression expected - start: 175, end: 176
 ✖ Unexpected token. - start: 222, end: 228
 ✖ Unexpected token. - start: 237, end: 238
+✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
+✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
 
 ```
 

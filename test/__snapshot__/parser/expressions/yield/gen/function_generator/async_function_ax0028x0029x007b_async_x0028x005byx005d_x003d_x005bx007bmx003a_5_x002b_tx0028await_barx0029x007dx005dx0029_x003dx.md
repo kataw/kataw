@@ -371,6 +371,9 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 101, end: 104
+✖ The parser expected to find a '}' to match the '{' token here - start: 101, end: 104
+✖ The parser expected to find a '}' to match the '{' token here - start: 101, end: 104
 ✖ Declaration or statement expected - start: 101, end: 104
 ✖ Declaration or statement expected - start: 107, end: 113
 ✖ Declaration or statement expected - start: 113, end: 115

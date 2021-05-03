@@ -116,6 +116,7 @@ const {,x} = obj;
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 9, end: 10
 ✖ Declaration or statement expected - start: 9, end: 10

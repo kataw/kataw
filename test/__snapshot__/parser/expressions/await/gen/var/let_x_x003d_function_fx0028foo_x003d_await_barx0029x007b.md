@@ -293,6 +293,7 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
 ✖ ',' expected - start: 69, end: 73
 ✖ ',' expected - start: 77, end: 78
 ✖ Expected a `;` - start: 77, end: 78
+✖ The parser expected to find a '}' to match the '{' token here - start: 77, end: 78
 
 ```
 

@@ -88,6 +88,7 @@
 
 ```javascript
 ✖ ',' expected - start: 6, end: 7
+✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 7
 ✖ Expected a `;` - start: 6, end: 7
 ✖ Declaration or statement expected - start: 6, end: 7
 

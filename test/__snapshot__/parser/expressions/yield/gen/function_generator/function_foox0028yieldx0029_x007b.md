@@ -205,6 +205,7 @@ function * gen() { function not_gen() { function foo(yield) { }}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 64
+
 ```
 

@@ -957,7 +957,9 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       if (!parser.assignable) {
         parser.onError(
           DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.Invalid_left_hand_side_in_for_of_loop],
+          diagnosticMap[
+            DiagnosticCode.The_left_hand_side_of_a_for_of_statement_must_be_a_variable_or_a_property_access
+          ],
           parser.curPos,
           parser.pos
         );
@@ -987,7 +989,9 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       if (!parser.assignable) {
         parser.onError(
           DiagnosticSource.Parser,
-          diagnosticMap[DiagnosticCode.Invalid_left_hand_side_in_for_in_loop],
+          diagnosticMap[
+            DiagnosticCode.The_left_hand_side_of_a_for_in_statement_must_be_a_variable_or_a_property_access
+          ],
           parser.curPos,
           parser.pos
         );
@@ -1457,14 +1461,32 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket)) {
     chain = createMemberAccessChain(chain, parseExpression(parser, context), pos, parser.curPos);
     consumeOpt(parser, context, SyntaxKind.RightBracket);
+    if (parser.token & SyntaxKind.IsAssignOp) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access
+        ],
+        pos,
+        parser.pos
+      );
+    }
   } else if (parser.token === SyntaxKind.LeftParen) {
     chain = createCallChain(chain, parseArguments(parser, context), pos, parser.curPos);
   } else if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsKeyword | SyntaxKind.IsIdentifier)) {
     chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
-    parser.assignable = false;
+    if (parser.token & SyntaxKind.IsAssignOp) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access
+        ],
+        pos,
+        parser.pos
+      );
+    }
   } else if (parser.token === SyntaxKind.PrivateIdentifier) {
     chain = createIndexExpressionChain(chain, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
-    parser.assignable = false;
   } else {
     parser.onError(
       DiagnosticSource.Parser,
@@ -1485,8 +1507,6 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
   chain = createOptionalChain(chain as any, pos, parser.curPos);
 
-  parser.assignable = false;
-
   while (true) {
     pos = parser.curPos;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Period)) {
@@ -1501,6 +1521,16 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     } else if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket)) {
       chain = createMemberAccessChain(chain as any, parseExpression(parser, context), pos, parser.curPos);
       consumeOpt(parser, context, SyntaxKind.RightBracket);
+      if (parser.token & SyntaxKind.IsAssignOp) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[
+            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access
+          ],
+          pos,
+          parser.pos
+        );
+      }
     } else if (parser.token & (SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
       chain = createIndexExpressionChain(
         chain as any,
@@ -1508,6 +1538,16 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
+      if (parser.token & SyntaxKind.IsAssignOp) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[
+            DiagnosticCode.The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access
+          ],
+          pos,
+          parser.pos
+        );
+      }
     } else if (parser.token === SyntaxKind.PrivateIdentifier) {
       chain = createIndexExpressionChain(
         chain as any,
@@ -1515,7 +1555,6 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
-      parser.assignable = false;
     } else {
       if (parser.token === SyntaxKind.TemplateCont || parser.token === SyntaxKind.TemplateTail) {
         parser.onError(
@@ -1533,9 +1572,8 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
           parser.curPos
         );
       }
-
-      parser.assignable = false;
     }
+    parser.assignable = true;
     return chain;
   }
 }
@@ -1969,11 +2007,13 @@ function parsePrimaryExpression(
 
 function parseObjectLiteral(parser: ParserState, context: Context): ObjectLiteral | AssignmentExpression {
   const expr = parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
-  if ((parser.destructible & DestructibleKind.MustDestruct) === DestructibleKind.MustDestruct) {
+  if (parser.destructible & DestructibleKind.MustDestruct) {
     parser.onError(
       DiagnosticSource.Parser,
       diagnosticMap[
-        DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
+        parser.destructible & DestructibleKind.CoverInitializedName
+          ? DiagnosticCode.Did_you_mean_to_use_a_An_can_only_follow_a_property_name_when_the_containing_object_literal_is_part_of_a_destructuring
+          : DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
       ],
       parser.curPos,
       parser.pos
@@ -1990,7 +2030,16 @@ function parseObjectLiteralOrAssignmentExpression(
   const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const propertyDefinitionList = parsePropertyDefinitionList(parser, context, type);
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   const node = createObjectLiteral(propertyDefinitionList, pos, parser.curPos);
   if (parser.token & SyntaxKind.IsAssignOp) {
     if (parser.token !== SyntaxKind.Assign) {
@@ -2007,18 +2056,15 @@ function parseObjectLiteralOrAssignmentExpression(
     if (parser.destructible & DestructibleKind.NotDestructible) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[
-          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-        ],
+        diagnosticMap[DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access],
         parser.curPos,
         parser.pos
       );
     }
-    const t = parseTokenNode(parser, context | Context.AllowRegExp);
-
+    const operatorToken = parseTokenNode(parser, context | Context.AllowRegExp);
     const right = parseExpression(parser, context);
     parser.destructible = (parser.destructible | DestructibleKind.MustDestruct) ^ DestructibleKind.MustDestruct;
-    return createAssignmentExpression(node, t, right, pos, parser.curPos);
+    return createAssignmentExpression(node, operatorToken, right, pos, parser.curPos);
   }
   return node;
 }
@@ -2861,9 +2907,7 @@ function parseArrayLiteralOrAssignmentExpression(
     if (parser.destructible & DestructibleKind.NotDestructible) {
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[
-          DiagnosticCode.The_left_hand_side_of_an_assignment_expression_must_be_a_variable_or_a_property_access
-        ],
+        diagnosticMap[DiagnosticCode.The_left_hand_side_must_be_a_variable_or_a_property_access],
         parser.curPos,
         parser.pos
       );
@@ -3747,7 +3791,16 @@ function parseObjectBindingPattern(parser: ParserState, context: Context): Objec
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
   const bindingPropertyList = parseBindingPropertyList(parser, context);
-  consume(parser, context, SyntaxKind.RightBrace);
+  if (parser.token === SyntaxKind.RightBrace) {
+    nextToken(parser, context);
+  } else {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createObjectBindingPattern(bindingPropertyList, pos, parser.curPos);
 }
 
@@ -4200,7 +4253,16 @@ function parseFunctionBody(
       (context | Context.InSwitch | Context.InIteration) ^ (Context.InSwitch | Context.InIteration),
       isSimpleParameterList
     );
-    consume(parser, isDecl ? context | Context.AllowRegExp : context, SyntaxKind.RightBrace);
+    if (parser.token === SyntaxKind.RightBrace) {
+      nextToken(parser, isDecl ? context | Context.AllowRegExp : context);
+    } else {
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here],
+        parser.curPos,
+        parser.pos
+      );
+    }
     return createFunctionBody(statementList, pos, parser.curPos);
   }
 

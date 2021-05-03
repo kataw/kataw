@@ -183,6 +183,7 @@
 ✖ Invalid hexadecimal escape sequence - start: 39, end: 43
 ✖ Invalid hexadecimal escape sequence - start: 43, end: 43
 ✖ Expected a `;` - start: 43, end: 44
+✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
 ✖ Declaration or statement expected - start: 43, end: 44
 ✖ Declaration or statement expected - start: 51, end: 53
 

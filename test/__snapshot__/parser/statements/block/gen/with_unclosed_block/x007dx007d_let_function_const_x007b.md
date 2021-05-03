@@ -238,6 +238,7 @@
 ✖ Expected a `;` - start: 24, end: 33
 ✖ Binding identifier expected - start: 33, end: 39
 ✖ Unexpected token. - start: 33, end: 39
+✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
 ✖ Missing initializer in const declaration - start: 41, end: 41
 
 ```

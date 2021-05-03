@@ -2609,6 +2609,7 @@ let x = { foo(){ super(); } };
 ✖ Expected a `;` - start: 357, end: 359
 ✖ ',' expected - start: 421, end: 423
 ✖ Unexpected token. - start: 473, end: 478
+✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ Declaration or statement expected - start: 478, end: 479
 ✖ Expected a `;` - start: 482, end: 483
 ✖ Declaration or statement expected - start: 482, end: 483
@@ -2619,6 +2620,7 @@ let x = { foo(){ super(); } };
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 551, end: 552
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 584, end: 585
 ✖ ',' expected - start: 588, end: 589
+✖ The parser expected to find a '}' to match the '{' token here - start: 588, end: 589
 ✖ Expected a `;` - start: 588, end: 589
 ✖ Declaration or statement expected - start: 588, end: 589
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 614, end: 615

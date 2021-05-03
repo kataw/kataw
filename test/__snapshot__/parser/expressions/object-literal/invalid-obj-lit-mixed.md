@@ -1663,6 +1663,7 @@
 ```javascript
 ✖ Property assignment expected - start: 43, end: 44
 ✖ ',' expected - start: 43, end: 44
+✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
 ✖ ',' expected - start: 44, end: 45
 ✖ Expected a `;` - start: 46, end: 47
 ✖ Declaration or statement expected - start: 46, end: 47
@@ -1673,6 +1674,7 @@
 ✖ Declaration or statement expected - start: 52, end: 53
 ✖ Property assignment expected - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
+✖ The parser expected to find a '}' to match the '{' token here - start: 98, end: 99
 ✖ ',' expected - start: 99, end: 100
 ✖ Expected a `;` - start: 101, end: 102
 ✖ Declaration or statement expected - start: 101, end: 102
@@ -1683,6 +1685,7 @@
 ✖ Declaration or statement expected - start: 107, end: 108
 ✖ ',' expected - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
+✖ The parser expected to find a '}' to match the '{' token here - start: 160, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
 ✖ Expected a `;` - start: 164, end: 165
 ✖ Declaration or statement expected - start: 164, end: 165
@@ -1695,6 +1698,7 @@
 ✖ Declaration or statement expected - start: 172, end: 173
 ✖ ',' expected - start: 230, end: 232
 ✖ ',' expected - start: 230, end: 232
+✖ The parser expected to find a '}' to match the '{' token here - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
 ✖ Expression expected - start: 232, end: 233
 ✖ Expected a `;` - start: 232, end: 233
@@ -1703,6 +1707,7 @@
 ✖ Declaration or statement expected - start: 235, end: 236
 ✖ ',' expected - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
+✖ The parser expected to find a '}' to match the '{' token here - start: 275, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
 ✖ Expected a `;` - start: 290, end: 291
 ✖ Declaration or statement expected - start: 290, end: 291
@@ -1716,6 +1721,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
+✖ The parser expected to find a '}' to match the '{' token here - start: 336, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
 ✖ Expected a `;` - start: 341, end: 342
 ✖ Declaration or statement expected - start: 341, end: 342
@@ -1733,6 +1739,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
+✖ The parser expected to find a '}' to match the '{' token here - start: 404, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
 ✖ Expected a `;` - start: 409, end: 410
 ✖ Declaration or statement expected - start: 409, end: 410
@@ -1749,6 +1756,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
+✖ The parser expected to find a '}' to match the '{' token here - start: 472, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
 ✖ Expected a `;` - start: 477, end: 478
 ✖ Declaration or statement expected - start: 477, end: 478
@@ -1761,7 +1769,7 @@
 ✖ Declaration or statement expected - start: 496, end: 497
 ✖ Declaration or statement expected - start: 497, end: 499
 ✖ Declaration or statement expected - start: 499, end: 500
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 544, end: 546
+✖ The left-hand side must be a variable or a property access. - start: 544, end: 546
 ✖ Expected a `;` - start: 630, end: 632
 ✖ Declaration or statement expected - start: 630, end: 632
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701

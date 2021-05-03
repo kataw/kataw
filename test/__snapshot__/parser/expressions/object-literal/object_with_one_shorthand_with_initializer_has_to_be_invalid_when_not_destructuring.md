@@ -100,7 +100,7 @@ x({a=b});
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 7, end: 8
+✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 7, end: 8
 
 ```
 

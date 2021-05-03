@@ -126,6 +126,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 2, end: 3
 ✖ Expected a `;` - start: 8, end: 9
 ✖ Declaration or statement expected - start: 8, end: 9
 ✖ Declaration or statement expected - start: 10, end: 11

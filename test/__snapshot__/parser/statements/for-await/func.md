@@ -165,7 +165,7 @@ async function f(){
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-of loop - start: 48, end: 50
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 48, end: 50
 
 ```
 

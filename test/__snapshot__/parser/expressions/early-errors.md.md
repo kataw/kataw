@@ -6058,33 +6058,33 @@ try {} catch(e) { for(var e of 0); };
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 664, end: 666
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 778, end: 779
 ✖ The operand of an increment or decrement operator must be a variable or a property access - start: 783, end: 784
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1057, end: 1059
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1076, end: 1078
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1096, end: 1098
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1112, end: 1114
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1122, end: 1124
+✖ The left-hand side must be a variable or a property access. - start: 1057, end: 1059
+✖ The left-hand side must be a variable or a property access. - start: 1076, end: 1078
+✖ The left-hand side must be a variable or a property access. - start: 1096, end: 1098
+✖ The left-hand side must be a variable or a property access. - start: 1112, end: 1114
+✖ The left-hand side must be a variable or a property access. - start: 1122, end: 1124
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1313, end: 1315
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1429, end: 1431
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1441, end: 1443
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 1452, end: 1455
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 1464, end: 1467
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1473, end: 1476
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1762, end: 1764
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1777, end: 1779
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1960, end: 1962
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 1977, end: 1979
-✖ Invalid left-hand side in for-in loop - start: 2267, end: 2269
-✖ Invalid left-hand side in for-in loop - start: 2282, end: 2284
-✖ Invalid left-hand side in for-of loop - start: 2300, end: 2302
-✖ Invalid left-hand side in for-of loop - start: 2315, end: 2317
-✖ Invalid left-hand side in for-in loop - start: 2422, end: 2424
-✖ Invalid left-hand side in for-of loop - start: 2435, end: 2437
-✖ Invalid left-hand side in for-in loop - start: 2777, end: 2779
-✖ Invalid left-hand side in for-in loop - start: 2794, end: 2796
-✖ Invalid left-hand side in for-of loop - start: 2814, end: 2816
-✖ Invalid left-hand side in for-of loop - start: 2831, end: 2833
-✖ Invalid left-hand side in for-in loop - start: 2846, end: 2848
-✖ Invalid left-hand side in for-of loop - start: 2861, end: 2863
+✖ The left-hand side must be a variable or a property access. - start: 1762, end: 1764
+✖ The left-hand side must be a variable or a property access. - start: 1777, end: 1779
+✖ The left-hand side must be a variable or a property access. - start: 1960, end: 1962
+✖ The left-hand side must be a variable or a property access. - start: 1977, end: 1979
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2267, end: 2269
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2282, end: 2284
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2300, end: 2302
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2315, end: 2317
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2422, end: 2424
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2435, end: 2437
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2777, end: 2779
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2794, end: 2796
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2814, end: 2816
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2831, end: 2833
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2846, end: 2848
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 2861, end: 2863
 ✖ Invalid hexadecimal escape sequence - start: 2865, end: 2937
 ✖ Declaration or statement expected - start: 2865, end: 2938
 ✖ Unicode codepoint must not be greater than 0x10FFFF - start: 2938, end: 2938

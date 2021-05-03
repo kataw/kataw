@@ -118,6 +118,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ ',' expected - start: 4, end: 5
 ✖ Property assignment expected - start: 13, end: 17
 ✖ ',' expected - start: 13, end: 17

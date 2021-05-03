@@ -138,7 +138,7 @@ s = {"foo": null = x} = x
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 16, end: 18
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
+✖ The left-hand side must be a variable or a property access. - start: 21, end: 23
 
 ```
 

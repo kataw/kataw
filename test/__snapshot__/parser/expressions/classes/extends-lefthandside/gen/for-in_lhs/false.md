@@ -77,7 +77,7 @@ for (false in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-in loop - start: 13, end: 15
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 13, end: 15
 
 ```
 

@@ -62,8 +62,8 @@ export const enum DiagnosticCode {
   The_import_keyword_can_only_be_used_with_the_module_goal = 59,
   The_export_keyword_can_only_be_used_with_the_module_goal = 60,
   _can_only_be_used_in_an_object_literal_property_inside_a_destructuring = 61,
-  Invalid_left_hand_side_in_for_in_loop = 62,
-  Invalid_left_hand_side_in_for_of_loop = 63,
+  The_left_hand_side_of_a_for_in_statement_must_be_a_variable_or_a_property_access = 62,
+  The_left_hand_side_of_a_for_of_statement_must_be_a_variable_or_a_property_access = 63,
   Method_definition_expected = 64,
   Classes_may_not_have_a_static_property_named_prototype = 65,
   Multiple_constructor_implementations_are_not_allowed = 66,
@@ -158,7 +158,9 @@ export const enum DiagnosticCode {
   A_get_accessor_cannot_be_a_generator = 157,
   A_set_accessor_cannot_be_a_generator = 158,
   The_parser_expected_to_find_a_to_match_the_token_here = 159,
-  Did_you_forgot_a_to_match_the_token = 160
+  Did_you_forgot_a_to_match_the_token = 160,
+  The_left_hand_side_must_be_a_variable_or_a_property_access = 161,
+  The_left_hand_side_of_an_assignment_expression_may_not_be_an_optional_property_access = 162
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -222,8 +224,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [59]: 'The `import` keyword can only be used with the module goal',
   [60]: 'The `export` keyword can only be used with the module goal',
   [61]: '`=` can only be used in an object literal property inside a destructuring',
-  [62]: 'Invalid left-hand side in for-in loop',
-  [63]: 'Invalid left-hand side in for-of loop',
+  [62]: "The left-hand side of a 'for...in' statement must be a variable or a property access.",
+  [63]: "The left-hand side of a 'for...of' statement must be a variable or a property access.",
   [64]: 'Method definition expected',
   [65]: "Classes may not have a static property named 'prototype'",
   [66]: 'Multiple constructor implementations are not allowed',
@@ -318,5 +320,7 @@ export const diagnosticMap: { [key: number]: string } = {
   [157]: 'A get accessor cannot be a generator',
   [158]: 'A set accessor cannot be a generator',
   [159]: "The parser expected to find a '}' to match the '{' token here",
-  [160]: "Did you forgot a ']' to match the `[` token?"
+  [160]: "Did you forgot a ']' to match the `[` token?",
+  [161]: 'The left-hand side must be a variable or a property access.',
+  [162]: 'The left-hand side of an assignment expression may not be an optional property access'
 };

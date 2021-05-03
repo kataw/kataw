@@ -2510,20 +2510,20 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 54, end: 56
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 72, end: 74
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 93, end: 95
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 112, end: 114
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 135, end: 137
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 155, end: 157
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 175, end: 177
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 296, end: 298
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 317, end: 319
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 341, end: 343
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 363, end: 365
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 389, end: 391
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 412, end: 414
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 435, end: 437
+✖ The left-hand side must be a variable or a property access. - start: 54, end: 56
+✖ The left-hand side must be a variable or a property access. - start: 72, end: 74
+✖ The left-hand side must be a variable or a property access. - start: 93, end: 95
+✖ The left-hand side must be a variable or a property access. - start: 112, end: 114
+✖ The left-hand side must be a variable or a property access. - start: 135, end: 137
+✖ The left-hand side must be a variable or a property access. - start: 155, end: 157
+✖ The left-hand side must be a variable or a property access. - start: 175, end: 177
+✖ The left-hand side must be a variable or a property access. - start: 296, end: 298
+✖ The left-hand side must be a variable or a property access. - start: 317, end: 319
+✖ The left-hand side must be a variable or a property access. - start: 341, end: 343
+✖ The left-hand side must be a variable or a property access. - start: 363, end: 365
+✖ The left-hand side must be a variable or a property access. - start: 389, end: 391
+✖ The left-hand side must be a variable or a property access. - start: 412, end: 414
+✖ The left-hand side must be a variable or a property access. - start: 435, end: 437
 
 ```
 

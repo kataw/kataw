@@ -282,6 +282,7 @@ class C { set x(_) { # } }
 
 ```javascript
 ✖ Invalid character - start: 25, end: 27
+✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 27
 ✖ Declaration or statement expected - start: 29, end: 31
 
 ```

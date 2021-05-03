@@ -98,6 +98,7 @@ do[ catch { try
 ✖ Expected a `;` - start: 3, end: 9
 ✖ Property assignment expected - start: 15, end: 15
 ✖ ',' expected - start: 15, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 15
 
 ```
 

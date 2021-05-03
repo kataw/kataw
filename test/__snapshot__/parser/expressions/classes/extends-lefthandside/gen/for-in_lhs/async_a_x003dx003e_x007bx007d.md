@@ -113,7 +113,7 @@ for (async a => {} in x) ;
 
 ```javascript
 ✖ An arrow function can not be part of an operator to the right - start: 18, end: 21
-✖ Invalid left-hand side in for-in loop - start: 21, end: 23
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 21, end: 23
 
 ```
 

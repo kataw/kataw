@@ -156,7 +156,7 @@ async function* f() {
 
 ```javascript
 ✖ Expected a `;` - start: 48, end: 51
-✖ Invalid left-hand side in for-of loop - start: 51, end: 56
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 51, end: 56
 
 ```
 

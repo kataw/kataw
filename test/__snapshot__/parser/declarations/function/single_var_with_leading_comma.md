@@ -116,6 +116,7 @@ let {,x} = obj;
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
 ✖ Declaration or statement expected - start: 7, end: 8
 ✖ Declaration or statement expected - start: 8, end: 10

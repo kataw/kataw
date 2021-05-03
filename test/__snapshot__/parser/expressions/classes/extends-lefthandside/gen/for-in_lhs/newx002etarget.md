@@ -83,7 +83,7 @@ for (new.target in x) ;
 
 ```javascript
 ✖ 'new.target' only allowed within functions - start: 15, end: 18
-✖ Invalid left-hand side in for-in loop - start: 18, end: 20
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 18, end: 20
 
 ```
 

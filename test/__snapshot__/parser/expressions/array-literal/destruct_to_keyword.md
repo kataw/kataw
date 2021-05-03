@@ -110,7 +110,7 @@
 
 ```javascript
 ✖ Expression expected - start: 5, end: 7
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 10, end: 12
+✖ The left-hand side must be a variable or a property access. - start: 10, end: 12
 
 ```
 

@@ -2319,13 +2319,13 @@
 ### Diagnostics
 
 ```javascript
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 11, end: 13
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 39, end: 41
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 70, end: 72
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 104, end: 106
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 142, end: 144
+✖ The left-hand side must be a variable or a property access. - start: 11, end: 13
+✖ The left-hand side must be a variable or a property access. - start: 39, end: 41
+✖ The left-hand side must be a variable or a property access. - start: 70, end: 72
+✖ The left-hand side must be a variable or a property access. - start: 104, end: 106
+✖ The left-hand side must be a variable or a property access. - start: 142, end: 144
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 158, end: 160
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 163, end: 165
+✖ The left-hand side must be a variable or a property access. - start: 163, end: 165
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 177, end: 178
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 186, end: 188
@@ -2334,6 +2334,7 @@
 ✖ An element access expression should take an argument. - start: 258, end: 259
 ✖ Expression expected - start: 258, end: 259
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 283, end: 284
+✖ The parser expected to find a '}' to match the '{' token here - start: 287, end: 288
 ✖ Expected a `;` - start: 287, end: 288
 ✖ Declaration or statement expected - start: 290, end: 291
 ✖ Declaration or statement expected - start: 295, end: 296
@@ -2342,12 +2343,12 @@
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 318, end: 319
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 342, end: 343
 ✖ Dot property must be an identifier - start: 347, end: 348
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 365, end: 367
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 392, end: 394
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 420, end: 422
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 447, end: 449
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 476, end: 478
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 501, end: 503
+✖ The left-hand side must be a variable or a property access. - start: 365, end: 367
+✖ The left-hand side must be a variable or a property access. - start: 392, end: 394
+✖ The left-hand side must be a variable or a property access. - start: 420, end: 422
+✖ The left-hand side must be a variable or a property access. - start: 447, end: 449
+✖ The left-hand side must be a variable or a property access. - start: 476, end: 478
+✖ The left-hand side must be a variable or a property access. - start: 501, end: 503
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 516, end: 518
 ✖ Property assignment expected - start: 528, end: 529
 ✖ Declaration or statement expected - start: 529, end: 530

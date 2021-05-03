@@ -134,8 +134,11 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ ',' expected - start: 4, end: 5
+✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
 ✖ ',' expected - start: 5, end: 6
+✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 8
 ✖ ',' expected - start: 6, end: 8
 ✖ Did you forgot a ']' to match the `[` token? - start: 6, end: 8
 ✖ Unterminated regular expression - start: 8, end: 9

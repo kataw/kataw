@@ -143,7 +143,7 @@ for ([a.b](foo) of c) d
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-of loop - start: 18, end: 20
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 18, end: 20
 
 ```
 

@@ -106,6 +106,7 @@ async () => {  expo\u0072t = x  }
 ```javascript
 ✖ The `export` keyword can only be used with the module goal - start: 13, end: 26
 ✖ Unexpected token. - start: 26, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 28
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Declaration or statement expected - start: 30, end: 33
 

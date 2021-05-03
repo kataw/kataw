@@ -90,7 +90,7 @@ for (typeof x in x) ;
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-in loop - start: 16, end: 18
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 16, end: 18
 
 ```
 

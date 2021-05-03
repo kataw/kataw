@@ -141,7 +141,7 @@ s = {"foo": yield a = x} = x
 
 ```javascript
 ✖ ',' expected - start: 17, end: 19
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 24, end: 26
+✖ The left-hand side must be a variable or a property access. - start: 24, end: 26
 
 ```
 

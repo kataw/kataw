@@ -139,6 +139,7 @@ do while [catch] catch { try
 ✖ 'try' expected - start: 10, end: 15
 ✖ Property assignment expected - start: 28, end: 28
 ✖ ',' expected - start: 28, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
 
 ```
 

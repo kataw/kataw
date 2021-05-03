@@ -268,6 +268,7 @@ class C { *method() { class C { set x(_) { super( } }
 
 ```javascript
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 48, end: 49
+✖ The parser expected to find a '}' to match the '{' token here - start: 53, end: 53
 
 ```
 

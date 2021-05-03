@@ -87,6 +87,7 @@ async () => {  def\u0061ult = x  }
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 27
 ✖ Declaration or statement expected - start: 13, end: 27
 ✖ Declaration or statement expected - start: 27, end: 29
 ✖ Declaration or statement expected - start: 31, end: 34

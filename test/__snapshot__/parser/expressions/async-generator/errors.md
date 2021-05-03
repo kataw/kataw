@@ -7811,16 +7811,19 @@ async function * gen() {class C extends await { }}
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
 ✖ Expected a `;` - start: 1683, end: 1684
+✖ The parser expected to find a '}' to match the '{' token here - start: 1683, end: 1684
 ✖ Declaration or statement expected - start: 1683, end: 1684
 ✖ Declaration or statement expected - start: 1687, end: 1688
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
 ✖ Expected a `;` - start: 1854, end: 1855
+✖ The parser expected to find a '}' to match the '{' token here - start: 1854, end: 1855
 ✖ Declaration or statement expected - start: 1854, end: 1855
 ✖ Expected a `;` - start: 1856, end: 1857
 ✖ Declaration or statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ Expected a `;` - start: 1898, end: 1913
+✖ The parser expected to find a '}' to match the '{' token here - start: 1898, end: 1913
 ✖ Declaration or statement expected - start: 1898, end: 1913
 ✖ Expected a `;` - start: 1914, end: 1916
 ✖ Duplicate label - start: 1916, end: 1922
@@ -7829,12 +7832,12 @@ async function * gen() {class C extends await { }}
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2121, end: 2126
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2170, end: 2176
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2223, end: 2229
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2274, end: 2276
+✖ The left-hand side must be a variable or a property access. - start: 2274, end: 2276
 ✖ Expression expected - start: 2314, end: 2315
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2315, end: 2317
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2360, end: 2362
+✖ The left-hand side must be a variable or a property access. - start: 2315, end: 2317
+✖ The left-hand side must be a variable or a property access. - start: 2360, end: 2362
 ✖ Expression expected - start: 2408, end: 2409
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2409, end: 2411
+✖ The left-hand side must be a variable or a property access. - start: 2409, end: 2411
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 2509, end: 2514
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Did you forgot a ']' to match the `[` token? - start: 2514, end: 2517
@@ -7842,6 +7845,8 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Expected a `;` - start: 2514, end: 2517
 ✖ Expected a `;` - start: 2517, end: 2518
+✖ The parser expected to find a '}' to match the '{' token here - start: 2517, end: 2518
+✖ The parser expected to find a '}' to match the '{' token here - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2518, end: 2520
 ✖ Declaration or statement expected - start: 2526, end: 2527
@@ -7852,6 +7857,7 @@ async function * gen() {class C extends await { }}
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Expected a `;` - start: 2562, end: 2565
 ✖ Expected a `;` - start: 2565, end: 2566
+✖ The parser expected to find a '}' to match the '{' token here - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2566, end: 2568
 ✖ Declaration or statement expected - start: 2574, end: 2575
@@ -7861,22 +7867,24 @@ async function * gen() {class C extends await { }}
 ✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 2665, end: 2671
 ✖ ',' expected - start: 2671, end: 2674
 ✖ Expression expected - start: 2674, end: 2675
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2722, end: 2724
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2766, end: 2768
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2814, end: 2816
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 2866, end: 2868
-✖ Invalid left-hand side in for-in loop - start: 2921, end: 2923
-✖ Invalid left-hand side in for-in loop - start: 2969, end: 2971
-✖ Invalid left-hand side in for-of loop - start: 3017, end: 3019
-✖ Invalid left-hand side in for-of loop - start: 3065, end: 3067
-✖ Invalid left-hand side in for-in loop - start: 3113, end: 3115
-✖ Invalid left-hand side in for-in loop - start: 3167, end: 3169
-✖ Invalid left-hand side in for-in loop - start: 3221, end: 3223
+✖ The left-hand side must be a variable or a property access. - start: 2722, end: 2724
+✖ The left-hand side must be a variable or a property access. - start: 2766, end: 2768
+✖ The left-hand side must be a variable or a property access. - start: 2814, end: 2816
+✖ The left-hand side must be a variable or a property access. - start: 2866, end: 2868
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2921, end: 2923
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 2969, end: 2971
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3017, end: 3019
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 3065, end: 3067
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3113, end: 3115
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3167, end: 3169
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
 ✖ Expected a `;` - start: 3227, end: 3229
+✖ The parser expected to find a '}' to match the '{' token here - start: 3230, end: 3231
 ✖ Declaration or statement expected - start: 3230, end: 3231
 ✖ Declaration or statement expected - start: 3232, end: 3233
-✖ Invalid left-hand side in for-in loop - start: 3275, end: 3277
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3275, end: 3277
 ✖ Expected a `;` - start: 3281, end: 3283
+✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287
 ✖ Expected a `;` - start: 3333, end: 3335

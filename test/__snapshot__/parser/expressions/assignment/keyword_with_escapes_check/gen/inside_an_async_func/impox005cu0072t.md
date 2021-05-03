@@ -106,6 +106,7 @@ async () => {  impo\u0072t = x  }
 ✖ Unexpected token. - start: 26, end: 28
 ✖ The `import` keyword can only be used with the module goal - start: 26, end: 28
 ✖ Expected a `;` - start: 26, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 28
 ✖ Declaration or statement expected - start: 26, end: 28
 ✖ Declaration or statement expected - start: 30, end: 33
 

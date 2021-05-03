@@ -67,6 +67,7 @@
 ```javascript
 ✖ Property assignment expected - start: 7, end: 8
 ✖ ',' expected - start: 7, end: 8
+✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 8
 ✖ Expected a `;` - start: 11, end: 13
 ✖ Declaration or statement expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 15, end: 16

@@ -101,6 +101,7 @@ async () => {  debugge\u0072 = x  }
 
 ```javascript
 ✖ Expected a `;` - start: 28, end: 30
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 30
 ✖ Declaration or statement expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 35
 

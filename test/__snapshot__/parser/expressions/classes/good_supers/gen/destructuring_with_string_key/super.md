@@ -235,7 +235,7 @@ class x extends y {
 ```javascript
 ✖ 'super' must be followed by an argument list or member access. - start: 56, end: 57
 ✖ Dot property must be an identifier - start: 56, end: 57
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 57, end: 59
+✖ The left-hand side must be a variable or a property access. - start: 57, end: 59
 
 ```
 

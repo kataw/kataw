@@ -130,7 +130,7 @@ for (((x)=>{}) in y);
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-in loop - start: 17, end: 19
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 17, end: 19
 
 ```
 

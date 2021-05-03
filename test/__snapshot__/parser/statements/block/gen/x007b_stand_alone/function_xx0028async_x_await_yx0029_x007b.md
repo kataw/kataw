@@ -175,6 +175,7 @@
 ✖ ',' expected - start: 18, end: 20
 ✖ ',' expected - start: 27, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
+✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
 
 ```
 

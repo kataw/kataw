@@ -90,7 +90,7 @@ for (import.meta in null) ;
 
 ```javascript
 ✖ Expected a `;` - start: 16, end: 19
-✖ Invalid left-hand side in for-in loop - start: 19, end: 24
+✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 19, end: 24
 
 ```
 

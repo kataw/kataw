@@ -145,7 +145,7 @@
 
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 12, end: 13
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 15, end: 17
+✖ The left-hand side must be a variable or a property access. - start: 15, end: 17
 
 ```
 

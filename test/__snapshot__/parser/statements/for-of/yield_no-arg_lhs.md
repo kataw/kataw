@@ -154,7 +154,7 @@ function *f(){   for (yield of y);   }
 ### Diagnostics
 
 ```javascript
-✖ Invalid left-hand side in for-of loop - start: 30, end: 32
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 30, end: 32
 
 ```
 

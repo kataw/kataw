@@ -98,6 +98,7 @@
 ```javascript
 ✖ Property assignment expected - start: 10, end: 10
 ✖ ',' expected - start: 10, end: 10
+✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 10
 ✖ ',' expected - start: 10, end: 10
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 10
 ✖ The parser expected to find a '}' to match the '{' token here - start: 10, end: 10

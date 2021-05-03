@@ -130,6 +130,7 @@
 ### Diagnostics
 
 ```javascript
+✖ The parser expected to find a '}' to match the '{' token here - start: 4, end: 5
 ✖ Expected a `;` - start: 4, end: 5
 ✖ Expression expected - start: 6, end: 8
 ✖ Unterminated regular expression - start: 8, end: 9

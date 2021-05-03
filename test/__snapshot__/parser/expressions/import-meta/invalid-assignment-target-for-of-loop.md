@@ -91,7 +91,7 @@ for (import.meta of null) ;
 
 ```javascript
 ✖ Expected a `;` - start: 16, end: 19
-✖ Invalid left-hand side in for-of loop - start: 19, end: 24
+✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 19, end: 24
 
 ```
 

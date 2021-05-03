@@ -2302,6 +2302,7 @@ async ([a]:string)=>c;
 ✖ Declaration or statement expected - start: 524, end: 527
 ✖ Expression expected - start: 551, end: 554
 ✖ Expected a `;` - start: 551, end: 554
+✖ The parser expected to find a '}' to match the '{' token here - start: 551, end: 554
 ✖ Declaration or statement expected - start: 551, end: 554
 ✖ Declaration or statement expected - start: 559, end: 561
 ✖ Declaration or statement expected - start: 585, end: 588

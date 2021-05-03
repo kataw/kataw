@@ -125,6 +125,7 @@ function *f(){
 ✖ Unexpected token. - start: 28, end: 30
 ✖ The `import` keyword can only be used with the module goal - start: 28, end: 30
 ✖ Expected a `;` - start: 28, end: 30
+✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 30
 ✖ Declaration or statement expected - start: 28, end: 30
 ✖ Declaration or statement expected - start: 32, end: 34
 

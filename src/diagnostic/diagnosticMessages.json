@@ -59,8 +59,8 @@
   "The `import` keyword can only be used with the module goal": 59,
   "The `export` keyword can only be used with the module goal": 60,
   "`=` can only be used in an object literal property inside a destructuring": 61,
-  "Invalid left-hand side in for-in loop": 62,
-  "Invalid left-hand side in for-of loop": 63,
+  "The left-hand side of a 'for...in' statement must be a variable or a property access.": 62,
+  "The left-hand side of a 'for...of' statement must be a variable or a property access.": 63,
   "Method definition expected": 64,
   "Classes may not have a static property named 'prototype'": 65,
   "Multiple constructor implementations are not allowed": 66,
@@ -155,5 +155,7 @@
   "A get accessor cannot be a generator": 157,
   "A set accessor cannot be a generator": 158,
   "The parser expected to find a '}' to match the '{' token here": 159,
-  "Did you forgot a ']' to match the `[` token?": 160
+  "Did you forgot a ']' to match the `[` token?": 160,
+  "The left-hand side must be a variable or a property access.": 161,
+  "The left-hand side of an assignment expression may not be an optional property access": 162
 }

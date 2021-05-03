@@ -179,6 +179,7 @@ wrap({async [foo""](){}});
 ✖ ',' expected - start: 16, end: 18
 ✖ Property assignment expected - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
+✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ Expected a `;` - start: 18, end: 19
 ✖ Declaration or statement expected - start: 18, end: 19

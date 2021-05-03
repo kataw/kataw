@@ -154,6 +154,7 @@ do while [catch] try { !xxx
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ The parser expected to find a '}' to match the '{' token here - start: 22, end: 24
 
 ```
 

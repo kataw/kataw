@@ -123,6 +123,7 @@ async () => {  inst\u0061nceof = x  }
 ✖ Expression expected - start: 13, end: 30
 ✖ Expression expected - start: 30, end: 32
 ✖ Expected a `;` - start: 30, end: 32
+✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 32
 ✖ Declaration or statement expected - start: 30, end: 32
 ✖ Declaration or statement expected - start: 34, end: 37
 
