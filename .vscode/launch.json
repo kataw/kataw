@@ -32,9 +32,9 @@
           "request": "launch",
           "runtimeExecutable": "node",
           "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-    
-          "args": ["test/cli.ts", "-f", "/home/weiran/repo/kataw/test/__snapshot__/compiler/ts/modifiers-accessors.md"],
-          
+
+          "args": ["test/cli.ts","-u", "all", "-f", "/home/weiran/repo/kataw/test/__snapshot__/parser/declarations/function/non-simple-param-list.md"],
+
           "cwd": "${workspaceRoot}",
           "internalConsoleOptions": "openOnSessionStart",
           "skipFiles": ["<node_internals>/**", "node_modules/**"]

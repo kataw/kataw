@@ -1,0 +1,914 @@
+
+> kataw@0.0.19 test:update-all
+> ts-node test/cli -u all
+
+update items: parser,printer
+{
+  filename: '/home/weiran/repo/kataw/test/__snapshot__/parser/declarations/function/non-simple-param-list.md',
+  content: '# Kataw parser test case\n' +
+    '\n' +
+    '## Input\n' +
+    '\n' +
+    '`````js\n' +
+    "function f(x) { 'use strict' }\n" +
+    '\n' +
+    "function f([x]) { 'use strict' }\n" +
+    '\n' +
+    "function f({x}) { 'use strict' }\n" +
+    '\n' +
+    "function f(x = 1) { 'use strict' }\n" +
+    '\n' +
+    "function f(x, ...y) { 'use strict' }\n" +
+    '\n' +
+    "(function([x]) { 'use strict' });\n" +
+    '\n' +
+    "(function(x = 1) { 'use strict' });\n" +
+    '\n' +
+    "(function(x, ...y) { 'use strict' });\n" +
+    '`````\n' +
+    '\n' +
+    '### Hybrid CST\n' +
+    '\n' +
+    '```javascript\n' +
+    '{\n' +
+    '    "kind": 122,\n' +
+    '    "directives": [],\n' +
+    '    "statements": [\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 0,\n' +
+    '                "start": 0,\n' +
+    '                "end": 8\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 8,\n' +
+    '                "end": 10\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 201,\n' +
+    '                            "elementList": {\n' +
+    '                                "kind": 202,\n' +
+    '                                "elements": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 244,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "binding": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 12,\n' +
+    '                                            "end": 13\n' +
+    '                                        },\n' +
+    '                                        "optionalToken": null,\n' +
+    '                                        "type": null,\n' +
+    '                                        "initializer": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 12,\n' +
+    '                                        "end": 13\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 0,\n' +
+    '                                "start": 12,\n' +
+    '                                "end": 13\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 11,\n' +
+    '                            "end": 14\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 11,\n' +
+    '                        "end": 14\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 10,\n' +
+    '                "end": 15\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 17,\n' +
+    '                            "end": 30\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 17,\n' +
+    '                    "end": 30\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 15,\n' +
+    '                "end": 32\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 0,\n' +
+    '            "end": 32\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 32,\n' +
+    '                "end": 42\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 42,\n' +
+    '                "end": 44\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 212,\n' +
+    '                            "propertyList": {\n' +
+    '                                "kind": 213,\n' +
+    '                                "properties": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 222,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "left": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 46,\n' +
+    '                                            "end": 47\n' +
+    '                                        },\n' +
+    '                                        "right": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 46,\n' +
+    '                                        "end": 47\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 32,\n' +
+    '                                "start": 46,\n' +
+    '                                "end": 47\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 45,\n' +
+    '                            "end": 48\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 45,\n' +
+    '                        "end": 48\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 44,\n' +
+    '                "end": 49\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 51,\n' +
+    '                            "end": 64\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 51,\n' +
+    '                    "end": 64\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 49,\n' +
+    '                "end": 66\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 32,\n' +
+    '            "end": 66\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 66,\n' +
+    '                "end": 76\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 76,\n' +
+    '                "end": 78\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 134299649,\n' +
+    '                            "text": "x",\n' +
+    '                            "rawText": "x",\n' +
+    '                            "flags": 96,\n' +
+    '                            "start": 79,\n' +
+    '                            "end": 80\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": {\n' +
+    '                            "kind": 201392130,\n' +
+    '                            "text": 1,\n' +
+    '                            "rawText": "1",\n' +
+    '                            "flags": 96,\n' +
+    '                            "start": 82,\n' +
+    '                            "end": 84\n' +
+    '                        },\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 79,\n' +
+    '                        "end": 84\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 78,\n' +
+    '                "end": 85\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 87,\n' +
+    '                            "end": 100\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 87,\n' +
+    '       '... 44727 more characters,
+  input: "function f(x) { 'use strict' }\n" +
+    '\n' +
+    "function f([x]) { 'use strict' }\n" +
+    '\n' +
+    "function f({x}) { 'use strict' }\n" +
+    '\n' +
+    "function f(x = 1) { 'use strict' }\n" +
+    '\n' +
+    "function f(x, ...y) { 'use strict' }\n" +
+    '\n' +
+    "(function([x]) { 'use strict' });\n" +
+    '\n' +
+    "(function(x = 1) { 'use strict' });\n" +
+    '\n' +
+    "(function(x, ...y) { 'use strict' });",
+  parserOptions: {},
+  printerOptions: { tabWidth: 2, printWidth: 80, useTabs: false, bracketSpacing: true },
+  cst: '{\n' +
+    '    "kind": 122,\n' +
+    '    "directives": [],\n' +
+    '    "statements": [\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 0,\n' +
+    '                "start": 0,\n' +
+    '                "end": 8\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 8,\n' +
+    '                "end": 10\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 201,\n' +
+    '                            "elementList": {\n' +
+    '                                "kind": 202,\n' +
+    '                                "elements": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 244,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "binding": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 12,\n' +
+    '                                            "end": 13\n' +
+    '                                        },\n' +
+    '                                        "optionalToken": null,\n' +
+    '                                        "type": null,\n' +
+    '                                        "initializer": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 12,\n' +
+    '                                        "end": 13\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 0,\n' +
+    '                                "start": 12,\n' +
+    '                                "end": 13\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 11,\n' +
+    '                            "end": 14\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 11,\n' +
+    '                        "end": 14\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 10,\n' +
+    '                "end": 15\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 17,\n' +
+    '                            "end": 30\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 17,\n' +
+    '                    "end": 30\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 15,\n' +
+    '                "end": 32\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 0,\n' +
+    '            "end": 32\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 32,\n' +
+    '                "end": 42\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 42,\n' +
+    '                "end": 44\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 212,\n' +
+    '                            "propertyList": {\n' +
+    '                                "kind": 213,\n' +
+    '                                "properties": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 222,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "left": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 46,\n' +
+    '                                            "end": 47\n' +
+    '                                        },\n' +
+    '                                        "right": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 46,\n' +
+    '                                        "end": 47\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 32,\n' +
+    '                                "start": 46,\n' +
+    '                                "end": 47\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 45,\n' +
+    '                            "end": 48\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 45,\n' +
+    '                        "end": 48\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 44,\n' +
+    '                "end": 49\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 51,\n' +
+    '                            "end": 64\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 51,\n' +
+    '                    "end": 64\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 49,\n' +
+    '                "end": 66\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 32,\n' +
+    '            "end": 66\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 66,\n' +
+    '                "end": 76\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 76,\n' +
+    '                "end": 78\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 134299649,\n' +
+    '                            "text": "x",\n' +
+    '                            "rawText": "x",\n' +
+    '                            "flags": 96,\n' +
+    '                            "start": 79,\n' +
+    '                            "end": 80\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": {\n' +
+    '                            "kind": 201392130,\n' +
+    '                            "text": 1,\n' +
+    '                            "rawText": "1",\n' +
+    '                            "flags": 96,\n' +
+    '                            "start": 82,\n' +
+    '                            "end": 84\n' +
+    '                        },\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 79,\n' +
+    '                        "end": 84\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 78,\n' +
+    '                "end": 85\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 87,\n' +
+    '                            "end": 100\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 87,\n' +
+    '                    "end": 100\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 85,\n' +
+    '                "end": 102\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 66,\n' +
+    '            "end": 102\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,'... 15502 more characters,
+  printed: '✖ Soon to be open sourced',
+  diagnostics: '✔ No errors',
+  mismatchItems: [ 'cst', 'diagnostics' ],
+  '$cst': '{\n' +
+    '    "kind": 122,\n' +
+    '    "directives": [],\n' +
+    '    "statements": [\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 0,\n' +
+    '                "start": 0,\n' +
+    '                "end": 8\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 8,\n' +
+    '                "end": 10\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 134299649,\n' +
+    '                            "text": "x",\n' +
+    '                            "rawText": "x",\n' +
+    '                            "flags": 96,\n' +
+    '                            "start": 11,\n' +
+    '                            "end": 12\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 32,\n' +
+    '                        "start": 11,\n' +
+    '                        "end": 12\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 32,\n' +
+    '                "start": 10,\n' +
+    '                "end": 13\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 15,\n' +
+    '                            "end": 28\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 15,\n' +
+    '                    "end": 28\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 13,\n' +
+    '                "end": 30\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 0,\n' +
+    '            "end": 30\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 30,\n' +
+    '                "end": 40\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 40,\n' +
+    '                "end": 42\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 201,\n' +
+    '                            "elementList": {\n' +
+    '                                "kind": 202,\n' +
+    '                                "elements": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 244,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "binding": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 44,\n' +
+    '                                            "end": 45\n' +
+    '                                        },\n' +
+    '                                        "optionalToken": null,\n' +
+    '                                        "type": null,\n' +
+    '                                        "initializer": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 44,\n' +
+    '                                        "end": 45\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 0,\n' +
+    '                                "start": 44,\n' +
+    '                                "end": 45\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 43,\n' +
+    '                            "end": 46\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 43,\n' +
+    '                        "end": 46\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 42,\n' +
+    '                "end": 47\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 49,\n' +
+    '                            "end": 62\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 49,\n' +
+    '                    "end": 62\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 47,\n' +
+    '                "end": 64\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 30,\n' +
+    '            "end": 64\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 64,\n' +
+    '                "end": 74\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "kind": 134299649,\n' +
+    '                "text": "f",\n' +
+    '                "rawText": "f",\n' +
+    '                "flags": 96,\n' +
+    '                "start": 74,\n' +
+    '                "end": 76\n' +
+    '            },\n' +
+    '            "formalParameters": {\n' +
+    '                "kind": 214,\n' +
+    '                "formalParameterList": [\n' +
+    '                    {\n' +
+    '                        "kind": 215,\n' +
+    '                        "ellipsisToken": null,\n' +
+    '                        "binding": {\n' +
+    '                            "kind": 212,\n' +
+    '                            "propertyList": {\n' +
+    '                                "kind": 213,\n' +
+    '                                "properties": [\n' +
+    '                                    {\n' +
+    '                                        "kind": 222,\n' +
+    '                                        "ellipsisToken": null,\n' +
+    '                                        "left": {\n' +
+    '                                            "kind": 134299649,\n' +
+    '                                            "text": "x",\n' +
+    '                                            "rawText": "x",\n' +
+    '                                            "flags": 96,\n' +
+    '                                            "start": 78,\n' +
+    '                                            "end": 79\n' +
+    '                                        },\n' +
+    '                                        "right": null,\n' +
+    '                                        "flags": 32,\n' +
+    '                                        "start": 78,\n' +
+    '                                        "end": 79\n' +
+    '                                    }\n' +
+    '                                ],\n' +
+    '                                "trailingComma": false,\n' +
+    '                                "flags": 32,\n' +
+    '                                "start": 78,\n' +
+    '                                "end": 79\n' +
+    '                            },\n' +
+    '                            "flags": 32,\n' +
+    '                            "start": 77,\n' +
+    '                            "end": 80\n' +
+    '                        },\n' +
+    '                        "optionalToken": null,\n' +
+    '                        "type": null,\n' +
+    '                        "initializer": null,\n' +
+    '                        "flags": 34,\n' +
+    '                        "start": 77,\n' +
+    '                        "end": 80\n' +
+    '                    }\n' +
+    '                ],\n' +
+    '                "trailingComma": false,\n' +
+    '                "flags": 34,\n' +
+    '                "start": 76,\n' +
+    '                "end": 81\n' +
+    '            },\n' +
+    '            "contents": {\n' +
+    '                "kind": 216,\n' +
+    '                "functionStatementList": {\n' +
+    '                    "kind": 217,\n' +
+    '                    "directives": [\n' +
+    '                        {\n' +
+    '                            "kind": 201392131,\n' +
+    '                            "text": "use strict",\n' +
+    `                            "rawText": "'use strict'",\n` +
+    '                            "flags": 4194400,\n' +
+    '                            "start": 83,\n' +
+    '                            "end": 96\n' +
+    '                        }\n' +
+    '                    ],\n' +
+    '                    "statements": [],\n' +
+    '                    "flags": 4194336,\n' +
+    '                    "start": 83,\n' +
+    '                    "end": 96\n' +
+    '                },\n' +
+    '                "flags": 32,\n' +
+    '                "start": 81,\n' +
+    '                "end": 98\n' +
+    '            },\n' +
+    '            "typeParameters": null,\n' +
+    '            "returnType": null,\n' +
+    '            "flags": 16,\n' +
+    '            "start": 64,\n' +
+    '            "end": 98\n' +
+    '        },\n' +
+    '        {\n' +
+    '            "kind": 176,\n' +
+    '            "declareKeyword": null,\n' +
+    '            "asyncKeyword": null,\n' +
+    '            "functionKeyword": {\n' +
+    '                "kind": 37822554,\n' +
+    '                "flags": 1,\n' +
+    '                "start": 98,\n' +
+    '                "end": 108\n' +
+    '            },\n' +
+    '            "generatorToken": null,\n' +
+    '            "name": {\n' +
+    '                "k'... 17944 more characters,
+  '$printed': '✖ Soon to be open sourced',
+  '$diagnostics': "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 62, end: 64\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 96, end: 98\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 132, end: 134\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 170, end: 172\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 203, end: 205\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 240, end: 242\n" +
+    "✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 279, end: 281\n"
+}
+Output mismatch(cst,diagnostics) for /home/weiran/repo/kataw/test/__snapshot__/parser/declarations/function/non-simple-param-list.md
+[32mRunning [0m8509 test cases.[33m Total time[0m: 5.407s
+[31mMismatch: [33m1/8509[0m
