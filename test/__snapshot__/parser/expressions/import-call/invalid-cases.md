@@ -2026,7 +2026,6 @@ new import(x);
 ✖ Declaration or statement expected - start: 143, end: 144
 ✖ Expected a ')' to match the '(' token here - start: 155, end: 156
 ✖ Expression expected - start: 158, end: 159
-✖ Expected a `;` - start: 158, end: 159
 ✖ Expected a ')' to match the '(' token here - start: 170, end: 171
 ✖ Expression expected - start: 173, end: 174
 ✖ Expression expected - start: 174, end: 175
@@ -2084,7 +2083,6 @@ new import(x);
 ✖ Declaration or statement expected - start: 486, end: 487
 ✖ Expected a ')' to match the '(' token here - start: 498, end: 499
 ✖ Expression expected - start: 501, end: 502
-✖ Expected a `;` - start: 501, end: 502
 ✖ Expected a ')' to match the '(' token here - start: 513, end: 514
 ✖ Expression expected - start: 516, end: 517
 ✖ Expression expected - start: 517, end: 518

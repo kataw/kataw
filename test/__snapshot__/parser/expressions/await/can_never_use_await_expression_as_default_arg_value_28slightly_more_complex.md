@@ -181,7 +181,6 @@ function call(foo= 5 + (await bar())){}
 ✖ Expected a ')' to match the '(' token here - start: 33, end: 34
 ✖ Unexpected token. - start: 33, end: 34
 ✖ Expression expected - start: 35, end: 36
-✖ Expected a `;` - start: 35, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37
 
 ```
