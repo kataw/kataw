@@ -40,7 +40,7 @@ For example:
 kataw.parseScript('¤', { allowTypes: false}, function (source, message, start, end) {})
 ```
 Each diagnostic is either a `hint`, `warning`, or an `error`, and the diagnostics are dynamics - they will will change based on the context
-you are parsing in. 
+you are parsing in.
 
 The `source` argument for each diagnostics is either `1` for lexer or  `2` for parser.
 
@@ -91,7 +91,7 @@ you can check if the keyword is escaped like this:
 
 ## Whitespace, linebreak and comments
 
-Kataw skips whitespace by default. Instead this information is part of the rawText value on the CST node. 
+Kataw skips whitespace by default. Instead this information is part of the rawText value on the CST node.
 
 For example the raw value of a string literal `foo` if the source code is like this:
 
@@ -118,9 +118,9 @@ For example
 
 will become:  `"\n/*  hello string */ \"string\""`.
 
-If you need to *extract* a comment, you can use the `start` and `end` values on each CST node and `kataw.extractComment()`
+If you need to *extract* a comment, you can use the `start` and `end` values on each CST node and `kataw.getLeadingComment()` or `kataw.getTrailingComments()`.
 
-For example if you are parsing this kind of code a `a = /* comment */  1;` you can extract both `leading` and `trailing` comments of `=` using 
+For example if you are parsing this kind of code a `a = /* comment */  1;` you can extract both `leading` and `trailing` comments of `=` using
 the CST node ranges.
 
 ```ts
@@ -134,18 +134,28 @@ the CST node ranges.
 
 To get the trailing comment you have to do this:
 
-`kataw.extractComment(root.source, 3, /* trailing */ true)`
+`kataw.getTrailingComments(root.source, 3)`
 
 It will skip all whitespace in the range from `3` to the start value of the next node.
 
 If there are line breaks in between it will stil find the comments within the same range.
 
-**Note** There are situations where you can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use a *list*. 
+**Note** There are situations where you can't rely on the CST keyword or token nodes to extract comments. In this cases you need to use a *list*.
 
 *Lists* are specified in the ECMA specs. For example [BindingList](https://tc39.es/ecma262/#prod-BindingList).
 
 For example if you have an empty list like `()` - you are given the start and end values of the empty list and can extract the
 comments in the same way as with keyword and token CST nodes.
+
+
+## Punctuator tokens and others
+
+No punctuator tokens exists in the CST tree. This is a design choice to keep the CST as compact as
+possible.
+
+If you need to know the exact position of the `[` token in an emptry array literal list - `[]` - you will find it's position if you at the `start` value of the `ArrayLiteral` and the `start` value of the `ElementList` node.
+
+In this example the postion of `[` will be `0, 1`.
 
 ## Location tracking
 
