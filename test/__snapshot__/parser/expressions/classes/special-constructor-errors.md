@@ -422,7 +422,7 @@
                 "expression": {
                     "kind": 134299649,
                     "text": "onstructor",
-                    "rawText": "c",
+                    "rawText": "\\u006fnstructor",
                     "flags": 96,
                     "start": 130,
                     "end": 145

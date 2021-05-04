@@ -34,7 +34,7 @@ var _𐒦 = 10;
                         "binding": {
                             "kind": 134299649,
                             "text": "𫠝_",
-                            "rawText": "var",
+                            "rawText": " 𫠝_",
                             "flags": 96,
                             "start": 3,
                             "end": 7

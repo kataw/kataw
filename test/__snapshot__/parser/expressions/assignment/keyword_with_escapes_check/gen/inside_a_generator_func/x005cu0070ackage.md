@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "package",
-                                    "rawText": "f",
+                                    "rawText": "\n  \\u0070ackage",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 29

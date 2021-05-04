@@ -2438,7 +2438,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "i",
-                "rawText": "FFFFFFF",
+                "rawText": "\\u0069",
                 "flags": 96,
                 "start": 3059,
                 "end": 3065
@@ -2465,7 +2465,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "i",
-                "rawText": "FFFFFFF",
+                "rawText": "\\u{69}",
                 "flags": 96,
                 "start": 3071,
                 "end": 3077
@@ -5655,7 +5655,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "i",
-                "rawText": "0",
+                "rawText": "\\u0069",
                 "flags": 96,
                 "start": 5062,
                 "end": 5068
@@ -5682,7 +5682,7 @@ try {} catch(e) { for(var e of 0); };
             "expression": {
                 "kind": 134299649,
                 "text": "i",
-                "rawText": "0",
+                "rawText": "\\u{69}",
                 "flags": 96,
                 "start": 5074,
                 "end": 5080

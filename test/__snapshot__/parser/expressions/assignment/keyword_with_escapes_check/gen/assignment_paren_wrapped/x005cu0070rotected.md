@@ -28,7 +28,7 @@
                     "left": {
                         "kind": 134299649,
                         "text": "protected",
-                        "rawText": "",
+                        "rawText": "\\u0070rotected",
                         "flags": 96,
                         "start": 1,
                         "end": 15

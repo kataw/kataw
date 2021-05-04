@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 134299649,
                 "text": "exxx",
-                "rawText": "",
+                "rawText": "\\u0065xxx",
                 "flags": 96,
                 "start": 0,
                 "end": 9

@@ -28,7 +28,7 @@
                     "left": {
                         "kind": 134299649,
                         "text": "brguments",
-                        "rawText": "",
+                        "rawText": "\\u0062rguments",
                         "flags": 96,
                         "start": 1,
                         "end": 15

@@ -28,7 +28,7 @@
                     "left": {
                         "kind": 134299649,
                         "text": "private",
-                        "rawText": "",
+                        "rawText": "\\u0070rivate",
                         "flags": 96,
                         "start": 1,
                         "end": 13

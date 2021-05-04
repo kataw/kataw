@@ -49,7 +49,7 @@ async () => {  \u0070rivate = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "private",
-                                    "rawText": "async",
+                                    "rawText": "  \\u0070rivate",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 27

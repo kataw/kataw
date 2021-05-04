@@ -168,5 +168,6 @@
   "Cannot use 'yield' as a name on a generator function expression": 170,
   "'async' keyword in an async arrow must not contain escaped characters": 171,
   "'eval' and 'arguments' cannot be used as an identifier here": 172,
-  "'eval' and 'arguments' cannot contain escape characters": 173
+  "'eval' and 'arguments' cannot contain escape characters": 173,
+  "Invalid lower surrogate": 174
 }

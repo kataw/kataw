@@ -28,7 +28,7 @@
                     "left": {
                         "kind": 134299649,
                         "text": "public",
-                        "rawText": "",
+                        "rawText": "\\u0070ublic",
                         "flags": 96,
                         "start": 1,
                         "end": 12

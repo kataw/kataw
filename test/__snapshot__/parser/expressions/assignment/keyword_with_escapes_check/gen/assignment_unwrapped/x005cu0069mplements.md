@@ -26,7 +26,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "implements",
-                    "rawText": "",
+                    "rawText": "\\u0069mplements",
                     "flags": 96,
                     "start": 0,
                     "end": 15

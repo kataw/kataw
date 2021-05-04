@@ -49,7 +49,7 @@ async () => {  \u0070ublic = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "public",
-                                    "rawText": "async",
+                                    "rawText": "  \\u0070ublic",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 26

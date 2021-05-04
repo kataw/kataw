@@ -389,7 +389,7 @@ import {eval as x} from 'foo';
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "arguments",
-                                    "rawText": "import",
+                                    "rawText": "\\u0061rguments",
                                     "flags": 96,
                                     "start": 136,
                                     "end": 150

@@ -60,7 +60,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "right": {
                                                 "kind": 134299649,
                                                 "text": "finally",
-                                                "rawText": "y",
+                                                "rawText": " \\u0066inally",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 22

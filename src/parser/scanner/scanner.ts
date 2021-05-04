@@ -368,6 +368,14 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         cp = source.charCodeAt(++parser.pos);
 
         if (cp === Char.Hyphen) {
+          if (context & Context.Module) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode.Invalid_character],
+              parser.curPos,
+              parser.pos
+            );
+          }
           parser.pos++;
           // treat HTML end-comment after possible whitespace
           // after line start as comment-until-eol
@@ -402,8 +410,17 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           }
           return SyntaxKind.ShiftLeft;
         }
+
         // NB: Treat HTML open-comment as comment-till-eol
         if (cp === Char.Exclamation) {
+          if (context & Context.Module) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode.Invalid_character],
+              parser.curPos,
+              parser.pos
+            );
+          }
           parser.pos++;
           if (source.charCodeAt(parser.pos + 1) === Char.Hyphen && source.charCodeAt(parser.pos) == Char.Hyphen) {
             while (parser.pos < parser.end && !isLineTerminator(source.charCodeAt(parser.pos))) {
@@ -495,18 +512,19 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           return SyntaxKind.BitwiseXorAssign;
         }
         return SyntaxKind.BitwiseXor;
+
       case SyntaxKind.EscapedKeyword:
         const cooked = scanIdentifierEscape(parser);
         if (cooked > 0) {
           parser.tokenValue = fromCodePoint(cooked) + scanIdentifierParts(parser, source);
-          //parser.raw = source.slice(parser.curPos, parser.pos);
+          parser.tokenRaw = source.slice(parser.curPos, parser.pos);
           const keyword = descKeywordTable[parser.tokenValue];
           if (keyword != undefined) return keyword as any;
           return SyntaxKind.Identifier;
         }
         if (source.charCodeAt(parser.pos) === Char.Backslash) parser.pos++;
         parser.tokenValue = fromCodePoint(cooked);
-        //parser.raw = source.slice(parser.curPos, parser.pos);
+        parser.tokenRaw = source.slice(parser.curPos, parser.pos);
         return SyntaxKind.UnknownToken;
 
       case SyntaxKind.PrivateIdentifier:
@@ -530,14 +548,14 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
             parser.onError(
               DiagnosticSource.Parser,
-              diagnosticMap[DiagnosticCode.Invalid_character],
+              diagnosticMap[DiagnosticCode.Invalid_lower_surrogate],
               parser.curPos,
               parser.pos
             );
           }
 
           parser.tokenValue = scanIdentifierParts(parser, source);
-          // // parser.raw = source.slice(parser.curPos, parser.pos);
+          parser.tokenRaw = source.slice(parser.curPos, parser.pos);
           return SyntaxKind.Identifier;
         }
 

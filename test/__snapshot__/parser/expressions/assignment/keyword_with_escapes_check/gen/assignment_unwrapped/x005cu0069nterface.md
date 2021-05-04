@@ -26,7 +26,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "interface",
-                    "rawText": "",
+                    "rawText": "\\u0069nterface",
                     "flags": 96,
                     "start": 0,
                     "end": 14

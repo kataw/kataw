@@ -59,7 +59,7 @@ class C { \\u0041 }
             "expression": {
                 "kind": 134299649,
                 "text": "A",
-                "rawText": "C",
+                "rawText": "\\u0041",
                 "flags": 96,
                 "start": 11,
                 "end": 17

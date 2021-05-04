@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "brguments",
-                                    "rawText": "f",
+                                    "rawText": "\n  \\u0062rguments",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 31

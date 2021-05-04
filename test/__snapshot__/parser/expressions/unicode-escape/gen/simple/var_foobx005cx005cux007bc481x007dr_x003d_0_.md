@@ -64,7 +64,7 @@ var foob\\u{c481}r = 0;
                 "left": {
                     "kind": 134299649,
                     "text": "쒁r",
-                    "rawText": "foob",
+                    "rawText": "\\u{c481}r",
                     "flags": 96,
                     "start": 9,
                     "end": 18

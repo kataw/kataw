@@ -81,7 +81,7 @@ var 𫠞_ = 12;
                         "binding": {
                             "kind": 134299649,
                             "text": "𫠝_",
-                            "rawText": "var",
+                            "rawText": " 𫠝_",
                             "flags": 96,
                             "start": 18,
                             "end": 22
@@ -126,7 +126,7 @@ var 𫠞_ = 12;
                         "binding": {
                             "kind": 134299649,
                             "text": "𫠞_",
-                            "rawText": "var",
+                            "rawText": " 𫠞_",
                             "flags": 96,
                             "start": 33,
                             "end": 37
@@ -174,7 +174,7 @@ var 𫠞_ = 12;
 
 ```javascript
 ✖ Invalid astral character - start: 3, end: 5
-✖ Invalid character - start: 33, end: 34
+✖ Invalid lower surrogate - start: 33, end: 34
 ✖ Invalid astral character - start: 33, end: 34
 
 ```

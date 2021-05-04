@@ -28,7 +28,7 @@
                     "left": {
                         "kind": 134299649,
                         "text": "static",
-                        "rawText": "",
+                        "rawText": "\\u0073tatic",
                         "flags": 96,
                         "start": 1,
                         "end": 12

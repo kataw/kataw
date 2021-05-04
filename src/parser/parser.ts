@@ -1244,22 +1244,22 @@ function parseExpectedMatchingBracket(parser: ParserState, context: Context, t: 
     return;
   }
   if (parser.previousErrorPos !== parser.pos) {
-  parser.previousErrorPos = parser.pos;
-  parser.onError(
-    DiagnosticSource.Parser,
-    diagnosticMap[
-      t === SyntaxKind.RightBrace
-        ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-        : t === SyntaxKind.RightBracket
-        ? DiagnosticCode.Did_you_forgot_a_to_match_the_token
-        : t === SyntaxKind.RightParen
-        ? DiagnosticCode.Expected_a_to_match_the_token_here
-        : DiagnosticCode.Unexpected_token
-    ],
-    parser.curPos,
-    parser.pos
-  );
-}
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[
+        t === SyntaxKind.RightBrace
+          ? DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+          : t === SyntaxKind.RightBracket
+          ? DiagnosticCode.Did_you_forgot_a_to_match_the_token
+          : t === SyntaxKind.RightParen
+          ? DiagnosticCode.Expected_a_to_match_the_token_here
+          : DiagnosticCode.Unexpected_token
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
 }
 
 function parseBlock(parser: ParserState, context: Context): Block {

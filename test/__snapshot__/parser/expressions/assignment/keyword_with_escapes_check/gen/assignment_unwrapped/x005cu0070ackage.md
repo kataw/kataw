@@ -26,7 +26,7 @@
                 "left": {
                     "kind": 134299649,
                     "text": "package",
-                    "rawText": "",
+                    "rawText": "\\u0070ackage",
                     "flags": 96,
                     "start": 0,
                     "end": 12
