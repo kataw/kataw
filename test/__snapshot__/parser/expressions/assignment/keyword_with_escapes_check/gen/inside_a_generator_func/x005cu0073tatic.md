@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "static",
-                                    "rawText": "\n  \\u0073tatic",
+                                    "rawText": "\\u0073tatic",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 28

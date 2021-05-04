@@ -49,7 +49,7 @@ async () => {  \u0070ackage = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "package",
-                                    "rawText": "  \\u0070ackage",
+                                    "rawText": "\\u0070ackage",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 27

@@ -39,7 +39,7 @@ export { abc }
                         "binding": {
                             "kind": 134299649,
                             "text": "abc",
-                            "rawText": " \\u0061bc",
+                            "rawText": "\\u0061bc",
                             "flags": 96,
                             "start": 3,
                             "end": 12

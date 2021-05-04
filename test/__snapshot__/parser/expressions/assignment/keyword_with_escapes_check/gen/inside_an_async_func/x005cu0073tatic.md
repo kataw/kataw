@@ -49,7 +49,7 @@ async () => {  \u0073tatic = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "static",
-                                    "rawText": "  \\u0073tatic",
+                                    "rawText": "\\u0073tatic",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 26

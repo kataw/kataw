@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "public",
-                                    "rawText": "\n  \\u0070ublic",
+                                    "rawText": "\\u0070ublic",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 28

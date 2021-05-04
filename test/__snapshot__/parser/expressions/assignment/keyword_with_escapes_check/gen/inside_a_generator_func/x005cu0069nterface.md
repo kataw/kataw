@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "interface",
-                                    "rawText": "\n  \\u0069nterface",
+                                    "rawText": "\\u0069nterface",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 31

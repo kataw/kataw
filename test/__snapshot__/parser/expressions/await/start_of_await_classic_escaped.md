@@ -55,7 +55,7 @@ async () => { var \u0061wait; }
                                         "binding": {
                                             "kind": 134299649,
                                             "text": "await",
-                                            "rawText": " \\u0061wait",
+                                            "rawText": "\\u0061wait",
                                             "flags": 96,
                                             "start": 17,
                                             "end": 28

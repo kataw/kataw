@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "private",
-                                    "rawText": "\n  \\u0070rivate",
+                                    "rawText": "\\u0070rivate",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 29

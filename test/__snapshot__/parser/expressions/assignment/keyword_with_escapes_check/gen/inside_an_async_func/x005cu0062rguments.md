@@ -49,7 +49,7 @@ async () => {  \u0062rguments = x  }
                                 "left": {
                                     "kind": 134299649,
                                     "text": "brguments",
-                                    "rawText": "  \\u0062rguments",
+                                    "rawText": "\\u0062rguments",
                                     "flags": 96,
                                     "start": 13,
                                     "end": 29

@@ -147,6 +147,8 @@ import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-id
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
+import { Char } from './scanner/char';
+import { isLineTerminator } from '../parser/scanner/common';
 import {
   createPropertyDefinitionList,
   PropertyDefinitionList,
@@ -194,12 +196,12 @@ export interface Options {
 /**
  * Create a new parser instance.
  */
-export function create(source: string, onError: OnError): ParserState {
+export function create(source: string, pos: number, onError: OnError): ParserState {
   return {
     source,
     nodeFlags: NodeFlags.None,
     curPos: 0,
-    pos: 0,
+    pos,
     end: source.length,
     token: SyntaxKind.EndOfFileToken,
     tokenPos: 0,
@@ -227,11 +229,35 @@ export function parse(
     if (options.allowTypes) context |= Context.OptionsAllowTypes;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
+  let pos = 0;
+
+  // Hashbang Grammar
+  // https://github.com/tc39/proposal-hashbang
+  if (source.charCodeAt(0) === Char.Hash) {
+    if (source.charCodeAt(1) === Char.Exclamation) {
+      pos = 2; // '#!...'
+      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+        pos++;
+      }
+    }
+  }
+
+  // HTML close
+  // https://tc39.es/ecma262/#sec-html-like-comments
+  if (!isModule && source.charCodeAt(0) === Char.Hyphen) {
+    if (source.charCodeAt(2) === Char.GreaterThan && source.charCodeAt(1) === Char.Hyphen) {
+      pos = 3;
+      while (pos < source.length && !isLineTerminator(source.charCodeAt(pos))) {
+        pos++;
+      }
+    }
+  }
 
   /*eslint-disable */
-  const parser = create(source, onError ? onError : function () {});
+  const parser = create(source, pos, onError ? onError : function () {});
   /*eslint-enable */
 
+  // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);
 
   const moduleOrScript = isModule ? parseModuleItem : parseStatementListItem;

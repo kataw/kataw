@@ -66,7 +66,7 @@ function *f(){
                                 "left": {
                                     "kind": 134299649,
                                     "text": "implements",
-                                    "rawText": "\n  \\u0069mplements",
+                                    "rawText": "\\u0069mplements",
                                     "flags": 96,
                                     "start": 14,
                                     "end": 32

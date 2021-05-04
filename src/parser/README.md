@@ -153,8 +153,7 @@ comments in the same way as with keyword and token CST nodes.
 No punctuator tokens exists in the CST tree. This is a design choice to keep the CST as compact as
 possible.
 
-If you need to know the exact position of the `[` token in an emptry array literal list - `[]` - you will find it's position if you look at the `start` value 
-of the `ArrayLiteral` and the `start` value of the `ElementList` node.
+If you need to know the exact position of the `[` token in an emptry array literal list - `[]` - you will find it's position if you at the `start` value of the `ArrayLiteral` and the `start` value of the `ElementList` node.
 
 In this example the postion of `[` will be `0, 1`.
 

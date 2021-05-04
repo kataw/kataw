@@ -60,7 +60,7 @@ class x { \u0063onstructor(){}; constructor(){} }
                             "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
-                                "rawText": " \\u0063onstructor",
+                                "rawText": "\\u0063onstructor",
                                 "flags": 96,
                                 "start": 9,
                                 "end": 26

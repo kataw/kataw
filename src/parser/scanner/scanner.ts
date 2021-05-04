@@ -513,22 +513,22 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         }
         return SyntaxKind.BitwiseXor;
 
+      case SyntaxKind.PrivateIdentifier:
+        return scanPrivateIdentifier(parser, context, cp, source);
+
       case SyntaxKind.EscapedKeyword:
         const cooked = scanIdentifierEscape(parser);
         if (cooked > 0) {
           parser.tokenValue = fromCodePoint(cooked) + scanIdentifierParts(parser, source);
-          parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+          parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
           const keyword = descKeywordTable[parser.tokenValue];
-          if (keyword != undefined) return keyword as any;
+          if (keyword != undefined) return keyword;
           return SyntaxKind.Identifier;
         }
         if (source.charCodeAt(parser.pos) === Char.Backslash) parser.pos++;
         parser.tokenValue = fromCodePoint(cooked);
-        parser.tokenRaw = source.slice(parser.curPos, parser.pos);
+        parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
         return SyntaxKind.UnknownToken;
-
-      case SyntaxKind.PrivateIdentifier:
-        return scanPrivateIdentifier(parser, context, cp, source);
 
       default:
         if ((cp & ~1) === Char.LineSeparator) {
