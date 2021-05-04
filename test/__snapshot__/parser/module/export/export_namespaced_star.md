@@ -39,17 +39,14 @@ export * as x from "x" foo
                     "start": 6,
                     "end": 8
                 },
-                "asKeyword": null,
+                "asKeyword": {
+                    "kind": 16494,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
                 "moduleExportName": null,
-                "namedBinding": null,
-                "flags": 0,
-                "start": 0,
-                "end": 8
-            },
-            "fromClause": {
-                "kind": 256,
-                "fromKeyword": null,
-                "from": {
+                "namedBinding": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
@@ -58,39 +55,31 @@ export * as x from "x" foo
                     "end": 13
                 },
                 "flags": 0,
-                "start": 8,
+                "start": 0,
                 "end": 13
             },
-            "flags": 16,
-            "start": 0,
-            "end": 13
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "from",
-                "rawText": "from",
-                "flags": 96,
+            "fromClause": {
+                "kind": 256,
+                "fromKeyword": {
+                    "kind": 16500,
+                    "flags": 0,
+                    "start": 13,
+                    "end": 18
+                },
+                "from": {
+                    "kind": 201392131,
+                    "text": "x",
+                    "rawText": "\"x\"",
+                    "flags": 96,
+                    "start": 18,
+                    "end": 22
+                },
+                "flags": 0,
                 "start": 13,
-                "end": 18
-            },
-            "flags": 16,
-            "start": 13,
-            "end": 18
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 201392131,
-                "text": "x",
-                "rawText": "\"x\"",
-                "flags": 96,
-                "start": 18,
                 "end": 22
             },
             "flags": 16,
-            "start": 18,
+            "start": 0,
             "end": 22
         },
         {
@@ -126,8 +115,6 @@ export * as x from "x" foo
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 13, end: 18
-✖ Expected a `;` - start: 18, end: 22
 ✖ Expected a `;` - start: 22, end: 26
 
 ```

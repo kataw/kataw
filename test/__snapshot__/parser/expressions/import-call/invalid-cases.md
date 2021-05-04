@@ -1084,11 +1084,12 @@ new import(x);
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 306,
                                     "end": 307
                                 },

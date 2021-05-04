@@ -108,7 +108,7 @@ async () => { var \u0061wait; }
 ### Diagnostics
 
 ```javascript
-✖ 'await' cannot be used as an identifier here - start: 17, end: 28
+✖ 'await' keyword must not contain escaped characters - start: 17, end: 28
 
 ```
 

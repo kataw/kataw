@@ -46,33 +46,13 @@ export {foo as bar} from "foo";
                                 "start": 8,
                                 "end": 11
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 8,
-                            "end": 11
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "as",
-                                "rawText": "as",
-                                "flags": 96,
+                            "asKeyword": {
+                                "kind": 16494,
+                                "flags": 64,
                                 "start": 11,
                                 "end": 14
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 11,
-                            "end": 14
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
+                            "binding": {
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
@@ -80,10 +60,8 @@ export {foo as bar} from "foo";
                                 "start": 14,
                                 "end": 18
                             },
-                            "asKeyword": null,
-                            "binding": null,
                             "flags": 16,
-                            "start": 14,
+                            "start": 8,
                             "end": 18
                         }
                     ],

@@ -168,7 +168,10 @@ export const enum DiagnosticCode {
   _yield_cannot_be_used_as_an_identifier_here = 167,
   _await_cannot_be_used_as_an_identifier_here = 168,
   Cannot_use_yield_as_a_name_on_a_async_generator_function_expression = 169,
-  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 170
+  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 170,
+  _async_keyword_in_an_async_arrow_must_not_contain_escaped_characters = 171,
+  _eval_and_arguments_cannot_be_used_as_an_identifier_here = 172,
+  _eval_and_arguments_cannot_contain_escape_characters = 173
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -338,5 +341,8 @@ export const diagnosticMap: { [key: number]: string } = {
   [167]: "'yield' cannot be used as an identifier here",
   [168]: "'await' cannot be used as an identifier here",
   [169]: "Cannot use 'yield' as a name on a async generator function expression",
-  [170]: "Cannot use 'yield' as a name on a generator function expression"
+  [170]: "Cannot use 'yield' as a name on a generator function expression",
+  [171]: "'async' keyword in an async arrow must not contain escaped characters",
+  [172]: "'eval' and 'arguments' cannot be used as an identifier here",
+  [173]: "'eval' and 'arguments' cannot contain escape characters"
 };

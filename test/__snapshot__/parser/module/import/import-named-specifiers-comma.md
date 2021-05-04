@@ -63,11 +63,12 @@ import {bar, baz,} from "foo";
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 11
                                 },
@@ -79,11 +80,12 @@ import {bar, baz,} from "foo";
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "baz",
                                     "rawText": "baz",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 16
                                 },

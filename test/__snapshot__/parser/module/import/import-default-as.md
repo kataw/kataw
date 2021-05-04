@@ -62,49 +62,30 @@ import {default as foo} from "foo";
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "default",
                                     "rawText": "default",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 15
                                 },
-                                "flags": 16,
-                                "start": 8,
-                                "end": 15
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 15,
                                     "end": 18
                                 },
-                                "flags": 16,
-                                "start": 15,
-                                "end": 18
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 18,
                                     "end": 22
                                 },
                                 "flags": 16,
-                                "start": 18,
+                                "start": 8,
                                 "end": 22
                             }
                         ],

@@ -46,27 +46,21 @@ export {foo as default};
                                 "start": 8,
                                 "end": 11
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 8,
-                            "end": 11
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "as",
-                                "rawText": "as",
-                                "flags": 96,
+                            "asKeyword": {
+                                "kind": 16494,
+                                "flags": 64,
                                 "start": 11,
                                 "end": 14
                             },
-                            "asKeyword": null,
-                            "binding": null,
+                            "binding": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 68,
+                                "start": 14,
+                                "end": 14
+                            },
                             "flags": 16,
-                            "start": 11,
+                            "start": 8,
                             "end": 14
                         },
                         {
@@ -120,6 +114,7 @@ export {foo as default};
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expression expected - start: 14, end: 22
+
 ```
 

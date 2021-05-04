@@ -63,11 +63,12 @@ import { for } from "iteration"
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "for",
                                     "rawText": "for",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 12
                                 },

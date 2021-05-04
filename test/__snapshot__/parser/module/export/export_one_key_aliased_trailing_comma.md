@@ -84,33 +84,13 @@ var x; export {x as a,}
                                 "start": 15,
                                 "end": 16
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 15,
-                            "end": 16
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "as",
-                                "rawText": "as",
-                                "flags": 96,
+                            "asKeyword": {
+                                "kind": 16494,
+                                "flags": 64,
                                 "start": 16,
                                 "end": 19
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 16,
-                            "end": 19
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
+                            "binding": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -118,10 +98,8 @@ var x; export {x as a,}
                                 "start": 19,
                                 "end": 21
                             },
-                            "asKeyword": null,
-                            "binding": null,
                             "flags": 16,
-                            "start": 19,
+                            "start": 15,
                             "end": 21
                         }
                     ],

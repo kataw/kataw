@@ -68,7 +68,12 @@ import x, * as a from "y"
                         "start": 9,
                         "end": 11
                     },
-                    "asKeyword": null,
+                    "asKeyword": {
+                        "kind": 16494,
+                        "flags": 0,
+                        "start": 11,
+                        "end": 14
+                    },
                     "binding": {
                         "kind": 134299649,
                         "text": "a",

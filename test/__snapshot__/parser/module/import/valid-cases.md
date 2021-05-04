@@ -75,49 +75,30 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 10
                                 },
-                                "flags": 16,
-                                "start": 8,
-                                "end": 10
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 10,
                                     "end": 13
                                 },
-                                "flags": 16,
-                                "start": 10,
-                                "end": 13
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 16,
-                                "start": 13,
+                                "start": 8,
                                 "end": 15
                             }
                         ],
@@ -227,49 +208,30 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 63,
                                     "end": 65
                                 },
-                                "flags": 16,
-                                "start": 63,
-                                "end": 65
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 65,
                                     "end": 68
                                 },
-                                "flags": 16,
-                                "start": 65,
-                                "end": 68
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 68,
                                     "end": 70
                                 },
                                 "flags": 16,
-                                "start": 68,
+                                "start": 63,
                                 "end": 70
                             }
                         ],
@@ -363,33 +325,13 @@ import { a as b } from 'm.js';
                                 "start": 118,
                                 "end": 120
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 118,
-                            "end": 120
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "as",
-                                "rawText": "as",
-                                "flags": 96,
+                            "asKeyword": {
+                                "kind": 16494,
+                                "flags": 64,
                                 "start": 120,
                                 "end": 123
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 120,
-                            "end": 123
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
+                            "binding": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -397,10 +339,8 @@ import { a as b } from 'm.js';
                                 "start": 123,
                                 "end": 125
                             },
-                            "asKeyword": null,
-                            "binding": null,
                             "flags": 16,
-                            "start": 123,
+                            "start": 118,
                             "end": 125
                         }
                     ],
@@ -477,7 +417,12 @@ import { a as b } from 'm.js';
                         "start": 148,
                         "end": 150
                     },
-                    "asKeyword": null,
+                    "asKeyword": {
+                        "kind": 16494,
+                        "flags": 0,
+                        "start": 150,
+                        "end": 153
+                    },
                     "binding": {
                         "kind": 134299649,
                         "text": "foo",
@@ -540,49 +485,30 @@ import { a as b } from 'm.js';
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 182,
                                     "end": 184
                                 },
-                                "flags": 16,
-                                "start": 182,
-                                "end": 184
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 184,
                                     "end": 187
                                 },
-                                "flags": 16,
-                                "start": 184,
-                                "end": 187
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 187,
                                     "end": 189
                                 },
                                 "flags": 16,
-                                "start": 187,
+                                "start": 182,
                                 "end": 189
                             }
                         ],

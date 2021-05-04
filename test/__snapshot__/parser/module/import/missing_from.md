@@ -58,11 +58,12 @@ import {a, b} fromx "c"
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },
@@ -74,11 +75,12 @@ import {a, b} fromx "c"
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 10,
                                     "end": 12
                                 },

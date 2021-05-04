@@ -46,33 +46,13 @@ export {a \u0061s b} from "x";
                                 "start": 8,
                                 "end": 9
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 8,
-                            "end": 9
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
-                                "kind": 134299649,
-                                "text": "as",
-                                "rawText": "a",
-                                "flags": 96,
+                            "asKeyword": {
+                                "kind": 16494,
+                                "flags": 16448,
                                 "start": 9,
                                 "end": 17
                             },
-                            "asKeyword": null,
-                            "binding": null,
-                            "flags": 16,
-                            "start": 9,
-                            "end": 17
-                        },
-                        {
-                            "kind": 260,
-                            "moduleExportName": null,
-                            "name": {
+                            "binding": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -80,10 +60,8 @@ export {a \u0061s b} from "x";
                                 "start": 17,
                                 "end": 19
                             },
-                            "asKeyword": null,
-                            "binding": null,
                             "flags": 16,
-                            "start": 17,
+                            "start": 8,
                             "end": 19
                         }
                     ],

@@ -1126,6 +1126,8 @@ function parseBindingIdentifier(
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
             : context & Context.Module
             ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+            : parser.nodeFlags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+            ? DiagnosticCode._await_keyword_must_not_contain_escaped_characters
             : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
         ],
         parser.curPos,
@@ -3920,14 +3922,6 @@ function parseFunctionExpression(
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
       if ((flags & NodeFlags.NewLine) === 0) {
-        if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-            parser.curPos,
-            parser.pos
-          );
-        }
         // "async x => {}"
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
           if (
@@ -3953,7 +3947,14 @@ function parseFunctionExpression(
               parser.pos
             );
           }
-          if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+          if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode._async_keyword_in_an_async_arrow_must_not_contain_escaped_characters],
+              parser.curPos,
+              parser.pos
+            );
+          } else if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
             parser.onError(
               DiagnosticSource.Parser,
               diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
@@ -4116,14 +4117,6 @@ function parseFunctionDeclaration(
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
       if ((flags & NodeFlags.NewLine) === 0) {
-        if (flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            diagnosticMap[DiagnosticCode.Keywords_cannot_contain_escape_characters],
-            parser.curPos,
-            parser.pos
-          );
-        }
         let expression!: ExpressionNode;
         // "async x => {}"
         if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
@@ -4135,7 +4128,15 @@ function parseFunctionDeclaration(
               parser.pos
             );
           }
-          if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
+
+          if (asyncToken.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              diagnosticMap[DiagnosticCode._async_keyword_in_an_async_arrow_must_not_contain_escaped_characters],
+              parser.curPos,
+              parser.pos
+            );
+          } else if (context & Context.Strict && parser.token & SyntaxKind.IsFutureReserved) {
             parser.onError(
               DiagnosticSource.Parser,
               diagnosticMap[DiagnosticCode.Identifier_expected_Reserved_word_in_strict_mode],
@@ -4603,9 +4604,11 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
 
   while (parser.token === SyntaxKind.StringLiteral) {
     const moduleExportName = parseModuleExportName(parser, context);
-    consume(parser, context, SyntaxKind.AsKeyword);
+    const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
     const importedBinding = parseIdentifier(parser, context, DiagnosticCode.Binding_identifier_expected);
-    specifiers.push(createImportSpecifier(moduleExportName, null, importedBinding as Identifier, pos, parser.curPos));
+    specifiers.push(
+      createImportSpecifier(asKeyword, moduleExportName, null, importedBinding as Identifier, pos, parser.curPos)
+    );
   }
 
   while (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved)) {
@@ -4621,18 +4624,34 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
 //   Identifier `as` ImportedBinding
 function parseImportSpecifier(parser: ParserState, context: Context): ImportSpecifier {
   const pos = parser.curPos;
+  const token = parser.token;
+  const flags = parser.nodeFlags;
   const Identifier = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true);
-  if (consumeOpt(parser, context, SyntaxKind.AsKeyword)) {
+  const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
+
+  if (asKeyword) {
     return createImportSpecifier(
       null,
       Identifier as Identifier,
+      asKeyword,
       parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, /* allowKeywords */ true) as Identifier,
       pos,
       parser.curPos
     );
   }
-  Identifier.flags = NodeFlags.ChildLess;
-  return createImportSpecifier(null, null, Identifier as Identifier, pos, parser.curPos);
+  if ((token as SyntaxKind) === SyntaxKind.EvalIdentifier || (token as SyntaxKind) === SyntaxKind.ArgumentsIdentifier) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[
+        flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)
+          ? DiagnosticCode._eval_and_arguments_cannot_contain_escape_characters
+          : DiagnosticCode._eval_and_arguments_cannot_be_used_as_an_identifier_here
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
+  return createImportSpecifier(asKeyword, null, null, Identifier as Identifier, pos, parser.curPos);
 }
 
 // ModulemoduleExportName : StringLiteral

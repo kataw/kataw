@@ -58,11 +58,12 @@ import {a: b} from "bar";
                                 "kind": 264,
                                 "moduleExportName": null,
                                 "name": null,
+                                "asKeyword": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },

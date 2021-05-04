@@ -62,49 +62,30 @@ import { null as nil } from "bar"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "null",
                                     "rawText": "null",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 13
                                 },
-                                "flags": 16,
-                                "start": 8,
-                                "end": 13
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 13,
                                     "end": 16
                                 },
-                                "flags": 16,
-                                "start": 13,
-                                "end": 16
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "nil",
                                     "rawText": "nil",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 20
                                 },
                                 "flags": 16,
-                                "start": 16,
+                                "start": 8,
                                 "end": 20
                             }
                         ],

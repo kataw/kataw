@@ -61,7 +61,12 @@ import * as foo from "foo";
                         "start": 6,
                         "end": 8
                     },
-                    "asKeyword": null,
+                    "asKeyword": {
+                        "kind": 16494,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 11
+                    },
                     "binding": {
                         "kind": 134299649,
                         "text": "foo",

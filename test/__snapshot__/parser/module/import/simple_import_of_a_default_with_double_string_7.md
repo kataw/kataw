@@ -62,49 +62,30 @@ import {x as z,} from "y"
                             {
                                 "kind": 264,
                                 "moduleExportName": null,
-                                "name": null,
-                                "binding": {
+                                "name": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 16,
-                                "start": 8,
-                                "end": 9
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
-                                "binding": {
-                                    "kind": 134299649,
-                                    "text": "as",
-                                    "rawText": "as",
+                                "asKeyword": {
+                                    "kind": 16494,
                                     "flags": 64,
                                     "start": 9,
                                     "end": 12
                                 },
-                                "flags": 16,
-                                "start": 9,
-                                "end": 12
-                            },
-                            {
-                                "kind": 264,
-                                "moduleExportName": null,
-                                "name": null,
                                 "binding": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
-                                    "flags": 64,
+                                    "flags": 96,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "flags": 16,
-                                "start": 12,
+                                "start": 8,
                                 "end": 14
                             }
                         ],
