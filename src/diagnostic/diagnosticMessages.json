@@ -161,5 +161,9 @@
   "'arguments' can only be used in functions and class methods": 163,
   "Constructor implementation is missing": 164,
   "Expected a ')' to match the '(' token here": 165,
-  "'yield' can only be used in a generator function": 166
+  "'yield' can only be used in a generator function": 166,
+  "'yield' cannot be used as an identifier here": 167,
+  "'await' cannot be used as an identifier here": 168,
+  "Cannot use 'yield' as a name on a async generator function expression": 169,
+  "Cannot use 'yield' as a name on a generator function expression": 170
 }

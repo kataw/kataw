@@ -108,7 +108,7 @@ async () => { var \u0061wait; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 17, end: 28
+✖ 'await' cannot be used as an identifier here - start: 17, end: 28
 
 ```
 

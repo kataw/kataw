@@ -192,7 +192,7 @@ function not_gen() { function *gf(){ function yield(){}; } }}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 45, end: 51
+✖ 'yield' cannot be used as an identifier here - start: 45, end: 51
 ✖ Declaration or statement expected - start: 60, end: 61
 
 ```

@@ -275,7 +275,7 @@ var await; var f = (async function() { async function wrap() { async function aw
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 77, end: 83
+✖ 'await' cannot be used as an identifier here - start: 77, end: 83
 
 ```
 

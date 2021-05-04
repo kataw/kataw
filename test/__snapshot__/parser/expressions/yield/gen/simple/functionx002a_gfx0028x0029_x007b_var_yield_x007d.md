@@ -129,7 +129,7 @@ function* gf() { var yield; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 20, end: 26
+✖ 'yield' cannot be used as an identifier here - start: 20, end: 26
 
 ```
 

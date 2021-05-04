@@ -160,7 +160,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 19, end: 24
+✖ 'yield' cannot be used as an identifier here - start: 19, end: 24
 ✖ ',' expected - start: 24, end: 26
 ✖ Unexpected token. - start: 27, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31

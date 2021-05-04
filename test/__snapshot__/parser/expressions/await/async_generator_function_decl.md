@@ -110,7 +110,7 @@ async function *f(await){}
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 18, end: 23
+✖ 'await' cannot be used as an identifier here - start: 18, end: 23
 
 ```
 

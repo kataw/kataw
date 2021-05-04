@@ -166,7 +166,7 @@ async function f() { return {await = 0} = {}; }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'await' is a reserved word in strict mode and module goal - start: 29, end: 34
+✖ 'await' cannot be used as an identifier here - start: 29, end: 34
 ✖ Identifier expected. Reserved word in strict mode - start: 34, end: 36
 
 ```

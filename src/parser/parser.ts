@@ -1111,7 +1111,9 @@ function parseBindingIdentifier(
         diagnosticMap[
           context & Context.InFormalParameter
             ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
-            : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+            : context & Context.Strict
+            ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+            : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
         ],
         parser.curPos,
         parser.pos
@@ -1122,7 +1124,9 @@ function parseBindingIdentifier(
         diagnosticMap[
           context & Context.InFormalParameter
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
-            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+            : context & Context.Module
+            ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+            : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
         ],
         parser.curPos,
         parser.pos
@@ -1180,7 +1184,9 @@ function parseIdentifier(
         diagnosticMap[
           context & Context.InFormalParameter
             ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
-            : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+            : context & Context.Strict
+            ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+            : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
         ],
         curPos,
         pos
@@ -1193,7 +1199,9 @@ function parseIdentifier(
         diagnosticMap[
           context & Context.InFormalParameter
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
-            : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+            : context & Context.Module
+            ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+            : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
         ],
         curPos,
         pos
@@ -1869,32 +1877,46 @@ function parseIdentifierReference(
   parser.assignable = true;
 
   if (token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
-    if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode],
-        parser.curPos,
-        parser.pos
-      );
-    }
+    if (parser.previousErrorPos !== parser.pos) {
+      if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[
+            context & Context.InFormalParameter
+              ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
+              : context & Context.Strict
+              ? DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
+              : DiagnosticCode._yield_cannot_be_used_as_an_identifier_here
+          ],
+          parser.curPos,
+          parser.pos
+        );
+      }
 
-    if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal],
-        parser.curPos,
-        parser.pos
-      );
-    }
+      if (context & (Context.Module | Context.InAwaitContext) && token === SyntaxKind.AwaitKeyword) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[
+            context & Context.InFormalParameter
+              ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
+              : context & Context.Module
+              ? DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
+              : DiagnosticCode._await_cannot_be_used_as_an_identifier_here
+          ],
+          parser.curPos,
+          parser.pos
+        );
+      }
 
-    // 'let' followed by '[' means a lexical declaration, which should not appear here.
-    if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
-        parser.curPos,
-        parser.pos
-      );
+      // 'let' followed by '[' means a lexical declaration, which should not appear here.
+      if (token === SyntaxKind.LetKeyword && (parser.token as SyntaxKind) === SyntaxKind.LeftBracket) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
+          parser.curPos,
+          parser.pos
+        );
+      }
     }
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
@@ -4005,6 +4027,19 @@ function parseFunctionExpression(
 
   // The name is optional
   if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+    if (generatorToken && parser.token === SyntaxKind.YieldKeyword) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          asyncToken
+            ? DiagnosticCode.Cannot_use_yield_as_a_name_on_a_async_generator_function_expression
+            : DiagnosticCode.Cannot_use_yield_as_a_name_on_a_generator_function_expression
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
     if (context & Context.Strict) {
       if (
         (parser.token as SyntaxKind) === SyntaxKind.EvalIdentifier ||
@@ -5802,7 +5837,7 @@ function parseYieldIdentifierOrExpression(
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters],
-        parser.curPos,
+        pos,
         parser.pos
       );
     }

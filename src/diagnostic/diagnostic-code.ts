@@ -164,7 +164,11 @@ export const enum DiagnosticCode {
   _arguments_can_only_be_used_in_functions_and_class_methods = 163,
   Constructor_implementation_is_missing = 164,
   Expected_a_to_match_the_token_here = 165,
-  _yield_can_only_be_used_in_a_generator_function = 166
+  _yield_can_only_be_used_in_a_generator_function = 166,
+  _yield_cannot_be_used_as_an_identifier_here = 167,
+  _await_cannot_be_used_as_an_identifier_here = 168,
+  Cannot_use_yield_as_a_name_on_a_async_generator_function_expression = 169,
+  Cannot_use_yield_as_a_name_on_a_generator_function_expression = 170
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -330,5 +334,9 @@ export const diagnosticMap: { [key: number]: string } = {
   [163]: "'arguments' can only be used in functions and class methods",
   [164]: 'Constructor implementation is missing',
   [165]: "Expected a ')' to match the '(' token here",
-  [166]: "'yield' can only be used in a generator function"
+  [166]: "'yield' can only be used in a generator function",
+  [167]: "'yield' cannot be used as an identifier here",
+  [168]: "'await' cannot be used as an identifier here",
+  [169]: "Cannot use 'yield' as a name on a async generator function expression",
+  [170]: "Cannot use 'yield' as a name on a generator function expression"
 };

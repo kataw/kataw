@@ -142,7 +142,7 @@ function *f(){  ({yield} = x)  }
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 18, end: 23
+✖ 'yield' cannot be used as an identifier here - start: 18, end: 23
 ✖ Identifier expected. Reserved word in strict mode - start: 23, end: 24
 
 ```
