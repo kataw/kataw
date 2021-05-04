@@ -133,7 +133,15 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
     // consume the semicolon if it was explicitly provided.
     return consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   }
-  parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode.Expected_a], parser.curPos, parser.pos);
+  parser.onError(
+    DiagnosticSource.Parser,
+    diagnosticMap[
+      //  DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
+      DiagnosticCode.Expected_a
+    ],
+    parser.curPos,
+    parser.pos
+  );
   return false;
 }
 

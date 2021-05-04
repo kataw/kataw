@@ -160,5 +160,6 @@
   "The left-hand side of an assignment expression may not be an optional property access": 162,
   "'arguments' can only be used in functions and class methods": 163,
   "Constructor implementation is missing": 164,
-  "Expected a ')' to match the '(' token here": 165
+  "Expected a ')' to match the '(' token here": 165,
+  "'yield' can only be used in a generator function": 166
 }
