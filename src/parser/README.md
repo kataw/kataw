@@ -32,15 +32,17 @@ kataw.parseModule('foo', { next: true }, function (source, message, start, end) 
 
 ### Error handling
 
-Kataw has a build in error recovery feature so it will never throw any errors by default - a callback function has to be used.
+Kataw has a build in error recovery feature so no error diagnostics will be reported by default - a callback function has to be used.
 
 For example:
 
 ```ts
 kataw.parseScript('¤', { allowTypes: false}, function (source, message, start, end) {})
 ```
+Each diagnostic is either a `hint`, `warning`, or an `error`, and the diagnostics are dynamics - they will will change based on the context
+you are parsing in. 
 
-The `source` argument is either `1` for lexer or  `2` for parser.
+The `source` argument for each diagnostics is either `1` for lexer or  `2` for parser.
 
 
 ### Public API methods to extract info from CST nodes
