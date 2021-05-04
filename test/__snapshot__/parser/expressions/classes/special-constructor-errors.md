@@ -805,8 +805,6 @@
 ✖ Invalid hexadecimal escape sequence - start: 129, end: 129
 ✖ The parser expected to find a '}' to match the '{' token here - start: 129, end: 130
 ✖ Expected a ')' to match the '(' token here - start: 129, end: 130
-✖ Expected a `;` - start: 129, end: 130
-✖ Declaration or statement expected - start: 129, end: 130
 ✖ Expected a `;` - start: 147, end: 149
 ✖ Declaration or statement expected - start: 150, end: 152
 ✖ Declaration or statement expected - start: 152, end: 153

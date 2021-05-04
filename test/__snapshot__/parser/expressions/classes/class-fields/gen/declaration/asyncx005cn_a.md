@@ -122,7 +122,6 @@ class C { async\n a }
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 15
 ✖ Invalid hexadecimal escape sequence - start: 15, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 16
-✖ Declaration or statement expected - start: 15, end: 16
 ✖ Expected a `;` - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 21
 

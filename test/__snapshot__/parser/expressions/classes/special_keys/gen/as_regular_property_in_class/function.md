@@ -106,7 +106,6 @@ class x {function: x}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
-✖ Declaration or statement expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 20, end: 21
 
 ```

@@ -135,12 +135,9 @@
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 4, end: 6
-✖ Expected a `;` - start: 4, end: 6
 ✖ Expected a `;` - start: 13, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 15
-✖ Declaration or statement expected - start: 13, end: 15
 ✖ Expected a `;` - start: 22, end: 23
-✖ Declaration or statement expected - start: 22, end: 23
 
 ```
 

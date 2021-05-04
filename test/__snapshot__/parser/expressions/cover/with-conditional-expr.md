@@ -68,10 +68,7 @@
 ```javascript
 ✖ Expression expected - start: 3, end: 4
 ✖ Expected a ')' to match the '(' token here - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
-✖ Declaration or statement expected - start: 5, end: 6
 ✖ Expected a `;` - start: 7, end: 8
-✖ Declaration or statement expected - start: 7, end: 8
 
 ```
 

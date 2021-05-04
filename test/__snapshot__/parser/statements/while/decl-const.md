@@ -110,7 +110,6 @@ while (false) const x = null;
 
 ```javascript
 ✖ Expression expected - start: 13, end: 19
-✖ Expected a `;` - start: 13, end: 19
 
 ```
 

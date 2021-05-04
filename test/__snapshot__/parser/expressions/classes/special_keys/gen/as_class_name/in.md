@@ -108,7 +108,6 @@ class in {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Expression expected - start: 5, end: 8
 
 ```
 

@@ -122,7 +122,6 @@
 ```javascript
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 9, end: 10
 ✖ Expected a `;` - start: 11, end: 14
-✖ Declaration or statement expected - start: 11, end: 14
 
 ```
 

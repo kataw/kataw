@@ -130,7 +130,6 @@ if (true) {} else const x = 1;
 
 ```javascript
 ✖ Expression expected - start: 17, end: 23
-✖ Expected a `;` - start: 17, end: 23
 
 ```
 

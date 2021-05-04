@@ -113,7 +113,6 @@ for (;false;) const x = 1;
 
 ```javascript
 ✖ Expression expected - start: 13, end: 19
-✖ Expected a `;` - start: 13, end: 19
 
 ```
 

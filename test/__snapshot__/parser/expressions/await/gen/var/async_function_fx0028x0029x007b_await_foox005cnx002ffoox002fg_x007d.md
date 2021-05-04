@@ -192,8 +192,6 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 ✖ The parser expected to find a '}' to match the '{' token here - start: 68, end: 69
 ✖ Expected a ')' to match the '(' token here - start: 68, end: 69
 ✖ ',' expected - start: 68, end: 69
-✖ Expected a `;` - start: 68, end: 69
-✖ Declaration or statement expected - start: 68, end: 69
 ✖ Declaration or statement expected - start: 76, end: 78
 ✖ Declaration or statement expected - start: 78, end: 80
 ✖ Declaration or statement expected - start: 80, end: 81

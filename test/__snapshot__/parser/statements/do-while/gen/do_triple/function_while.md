@@ -197,8 +197,6 @@ do do do function while while while while
 ✖ Expression expected - start: 23, end: 29
 ✖ Expression expected - start: 29, end: 35
 ✖ Expression expected - start: 35, end: 41
-✖ Expression expected - start: 41, end: 41
-✖ Expression expected - start: 41, end: 41
 
 ```
 

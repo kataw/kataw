@@ -195,8 +195,6 @@ do do do async try while { catch } while while while
 ✖ Property assignment expected - start: 32, end: 34
 ✖ Expression expected - start: 40, end: 46
 ✖ Expression expected - start: 46, end: 52
-✖ Expression expected - start: 52, end: 52
-✖ Expression expected - start: 52, end: 52
 
 ```
 

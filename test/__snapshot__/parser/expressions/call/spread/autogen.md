@@ -175,8 +175,6 @@ function fn() {} fn( # );
 ```javascript
 ✖ Invalid character - start: 34, end: 36
 ✖ Expected a ')' to match the '(' token here - start: 34, end: 36
-✖ Expected a `;` - start: 34, end: 36
-✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 36
 ✖ Declaration or statement expected - start: 36, end: 38
 
 ```

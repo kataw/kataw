@@ -145,8 +145,6 @@ do function while while
 ✖ Binding identifier expected - start: 11, end: 17
 ✖ Unexpected token. - start: 11, end: 17
 ✖ Expression expected - start: 17, end: 23
-✖ Expression expected - start: 23, end: 23
-✖ Expression expected - start: 23, end: 23
 
 ```
 

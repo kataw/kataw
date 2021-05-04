@@ -128,9 +128,7 @@ function *f(){
 ```javascript
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 14, end: 30
 ✖ Expression expected - start: 30, end: 32
-✖ Expected a `;` - start: 30, end: 32
 ✖ The parser expected to find a '}' to match the '{' token here - start: 30, end: 32
-✖ Declaration or statement expected - start: 30, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 
 ```

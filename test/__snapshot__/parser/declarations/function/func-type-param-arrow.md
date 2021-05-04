@@ -526,42 +526,25 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ✖ Unexpected token. - start: 14, end: 15
 ✖ Declaration or statement expected - start: 14, end: 15
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 18
-✖ Expected a `;` - start: 17, end: 18
-✖ Declaration or statement expected - start: 17, end: 18
 ✖ Expected a `;` - start: 22, end: 23
-✖ Declaration or statement expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 26
 ✖ Expected a `;` - start: 33, end: 34
 ✖ ',' expected - start: 58, end: 59
 ✖ Expected a ')' to match the '(' token here - start: 58, end: 59
 ✖ Unexpected token. - start: 58, end: 59
-✖ Declaration or statement expected - start: 58, end: 59
 ✖ Expected a ')' to match the '(' token here - start: 63, end: 64
-✖ Expected a `;` - start: 63, end: 64
-✖ Declaration or statement expected - start: 63, end: 64
 ✖ Expected a `;` - start: 72, end: 73
-✖ Declaration or statement expected - start: 72, end: 73
 ✖ Expected a `;` - start: 79, end: 80
-✖ Declaration or statement expected - start: 79, end: 80
 ✖ Declaration or statement expected - start: 80, end: 83
 ✖ Expected a `;` - start: 90, end: 91
-✖ Declaration or statement expected - start: 90, end: 91
 ✖ ',' expected - start: 116, end: 117
 ✖ Expected a ')' to match the '(' token here - start: 116, end: 117
 ✖ Unexpected token. - start: 116, end: 117
-✖ Declaration or statement expected - start: 116, end: 117
 ✖ Expected a ')' to match the '(' token here - start: 121, end: 122
-✖ Expected a `;` - start: 121, end: 122
-✖ Declaration or statement expected - start: 121, end: 122
 ✖ Expression expected - start: 127, end: 131
-✖ Expected a `;` - start: 127, end: 131
-✖ Declaration or statement expected - start: 127, end: 131
 ✖ Expression expected - start: 148, end: 149
-✖ Expected a `;` - start: 148, end: 149
-✖ Declaration or statement expected - start: 148, end: 149
 ✖ Declaration or statement expected - start: 149, end: 152
 ✖ Expected a `;` - start: 159, end: 160
-✖ Declaration or statement expected - start: 159, end: 160
 
 ```
 

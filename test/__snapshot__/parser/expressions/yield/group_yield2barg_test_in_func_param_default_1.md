@@ -161,7 +161,6 @@ function f(x=(yield z)=y){}
 ✖ Unexpected token. - start: 22, end: 23
 ✖ Declaration or statement expected - start: 22, end: 23
 ✖ Expected a `;` - start: 24, end: 25
-✖ Declaration or statement expected - start: 24, end: 25
 
 ```
 

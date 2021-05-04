@@ -541,13 +541,9 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ✖ ',' expected - start: 33, end: 34
 ✖ Expected a ')' to match the '(' token here - start: 33, end: 34
 ✖ Unexpected token. - start: 33, end: 34
-✖ Declaration or statement expected - start: 33, end: 34
 ✖ Expected a `;` - start: 44, end: 45
-✖ Declaration or statement expected - start: 44, end: 45
 ✖ Expected a `;` - start: 55, end: 56
-✖ Declaration or statement expected - start: 55, end: 56
 ✖ Expected a `;` - start: 63, end: 64
-✖ Declaration or statement expected - start: 63, end: 64
 ✖ Declaration or statement expected - start: 64, end: 65
 ✖ Expected a `;` - start: 90, end: 92
 ✖ A return statement can only be used within a function_body - start: 225, end: 236

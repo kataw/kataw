@@ -382,7 +382,6 @@ class x {static async * #(){}}
 ```javascript
 ✖ Invalid character - start: 5, end: 7
 ✖ Binding identifier expected - start: 5, end: 7
-✖ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
 
 ```
 

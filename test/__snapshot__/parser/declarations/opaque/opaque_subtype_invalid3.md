@@ -195,8 +195,6 @@ opaque stuff: Box<T> = Container<T>
 ```javascript
 ✖ Expected a `;` - start: 6, end: 12
 ✖ Expression expected - start: 20, end: 22
-✖ Expected a `;` - start: 20, end: 22
-✖ Declaration or statement expected - start: 20, end: 22
 ✖ Expression expected - start: 35, end: 35
 
 ```

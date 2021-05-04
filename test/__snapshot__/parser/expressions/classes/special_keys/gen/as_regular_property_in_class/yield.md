@@ -107,7 +107,6 @@ class x {yield: x}
 ```javascript
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 9, end: 14
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
-✖ Declaration or statement expected - start: 14, end: 15
 ✖ Declaration or statement expected - start: 17, end: 18
 
 ```

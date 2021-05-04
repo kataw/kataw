@@ -403,24 +403,18 @@ const {x}: string = y;
 ✖ Missing initializer in const declaration - start: 7, end: 8
 ✖ ',' expected - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
-✖ Declaration or statement expected - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 27, end: 28
 ✖ ',' expected - start: 27, end: 28
 ✖ Expected a `;` - start: 27, end: 28
-✖ Declaration or statement expected - start: 27, end: 28
 ✖ ',' expected - start: 50, end: 51
 ✖ Did you forgot a ']' to match the `[` token? - start: 50, end: 51
 ✖ Missing initializer in const declaration - start: 50, end: 51
 ✖ ',' expected - start: 50, end: 51
-✖ Expected a `;` - start: 50, end: 51
-✖ Declaration or statement expected - start: 50, end: 51
 ✖ Expected a `;` - start: 57, end: 58
-✖ Declaration or statement expected - start: 57, end: 58
 ✖ Declaration or statement expected - start: 58, end: 59
 ✖ Missing initializer in const declaration - start: 82, end: 83
 ✖ ',' expected - start: 82, end: 83
 ✖ Expected a `;` - start: 82, end: 83
-✖ Declaration or statement expected - start: 82, end: 83
 
 ```
 

@@ -1571,7 +1571,6 @@
 ✖ Dot property must be an identifier - start: 116, end: 117
 ✖ Dot property must be an identifier - start: 117, end: 118
 ✖ Expected a ')' to match the '(' token here - start: 118, end: 119
-✖ Declaration or statement expected - start: 118, end: 119
 ✖ Declaration or statement expected - start: 119, end: 120
 ✖ Did you forgot a ']' to match the `[` token? - start: 128, end: 129
 ✖ Dot property must be an identifier - start: 129, end: 130
@@ -1579,8 +1578,6 @@
 ✖ ',' expected - start: 130, end: 131
 ✖ The parser expected to find a '}' to match the '{' token here - start: 130, end: 131
 ✖ Expected a ')' to match the '(' token here - start: 130, end: 131
-✖ Expected a `;` - start: 130, end: 131
-✖ Declaration or statement expected - start: 130, end: 131
 ✖ Declaration or statement expected - start: 131, end: 132
 ✖ Declaration or statement expected - start: 132, end: 133
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143
@@ -1593,7 +1590,6 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 214, end: 217
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 214, end: 217
 ✖ Expected a `;` - start: 214, end: 217
-✖ Declaration or statement expected - start: 214, end: 217
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 229, end: 231
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 247, end: 249
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 282, end: 284

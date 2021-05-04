@@ -226,7 +226,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 ✖ Missing initializer in const declaration - start: 33, end: 35
 ✖ ',' expected - start: 33, end: 35
 ✖ Expected a `;` - start: 33, end: 35
-✖ Declaration or statement expected - start: 33, end: 35
 ✖ Declaration or statement expected - start: 35, end: 38
 ✖ Expression expected - start: 43, end: 45
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 43, end: 45

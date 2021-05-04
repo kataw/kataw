@@ -252,7 +252,6 @@ do[ #
 ✖ Invalid character - start: 2, end: 4
 ✖ Private identifiers are not allowed outside class_bodies - start: 2, end: 4
 ✖ Expected a `;` - start: 4, end: 10
-✖ Expression expected - start: 10, end: 10
 
 ```
 

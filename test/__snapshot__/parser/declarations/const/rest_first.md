@@ -107,7 +107,6 @@ const ...a = 1;
 
 ```javascript
 ✖ Expected a `;` - start: 5, end: 9
-✖ Declaration or statement expected - start: 5, end: 9
 
 ```
 

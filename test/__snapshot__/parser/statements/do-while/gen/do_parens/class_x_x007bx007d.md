@@ -106,8 +106,6 @@ do( class x {} while
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 20
-✖ Expected a `;` - start: 14, end: 20
-✖ Expression expected - start: 20, end: 20
 
 ```
 

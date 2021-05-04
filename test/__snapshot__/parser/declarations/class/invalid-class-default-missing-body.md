@@ -65,7 +65,6 @@ class default
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 13
-✖ Declaration or statement expected - start: 5, end: 13
 
 ```
 

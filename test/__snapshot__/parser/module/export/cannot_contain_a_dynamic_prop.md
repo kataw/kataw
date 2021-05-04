@@ -136,7 +136,6 @@ var foo; export {[foo]}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 18
-✖ Expected a `;` - start: 17, end: 18
 ✖ Declaration or statement expected - start: 22, end: 23
 
 ```

@@ -145,8 +145,6 @@ do do do catch while while while
 ```javascript
 ✖ 'try' expected - start: 8, end: 14
 ✖ Expression expected - start: 26, end: 32
-✖ Expression expected - start: 32, end: 32
-✖ Expression expected - start: 32, end: 32
 
 ```
 

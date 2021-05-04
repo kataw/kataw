@@ -87,9 +87,7 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 2, end: 4
-✖ Expected a `;` - start: 2, end: 4
 ✖ The parser expected to find a '}' to match the '{' token here - start: 2, end: 4
-✖ Declaration or statement expected - start: 2, end: 4
 
 ```
 

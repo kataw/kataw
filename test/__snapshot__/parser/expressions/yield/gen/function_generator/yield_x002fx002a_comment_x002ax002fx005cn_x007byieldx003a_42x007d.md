@@ -229,7 +229,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 ✖ Expected a `;` - start: 45, end: 60
 ✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 60
 ✖ The parser expected to find a '}' to match the '{' token here - start: 45, end: 60
-✖ Declaration or statement expected - start: 45, end: 60
 ✖ Expected a `;` - start: 61, end: 63
 ✖ Declaration or statement expected - start: 73, end: 75
 ✖ Declaration or statement expected - start: 75, end: 76

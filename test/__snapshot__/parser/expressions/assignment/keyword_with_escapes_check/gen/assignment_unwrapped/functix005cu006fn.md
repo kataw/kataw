@@ -100,7 +100,6 @@ functi\u006fn = x;
 ```javascript
 ✖ Binding identifier expected - start: 13, end: 15
 ✖ Unexpected token. - start: 13, end: 15
-✖ Declaration or statement expected - start: 13, end: 15
 
 ```
 

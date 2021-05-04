@@ -218,7 +218,6 @@ async function f(){
 ✖ Expected a `;` - start: 69, end: 70
 ✖ The parser expected to find a '}' to match the '{' token here - start: 69, end: 70
 ✖ The parser expected to find a '}' to match the '{' token here - start: 69, end: 70
-✖ Declaration or statement expected - start: 69, end: 70
 ✖ Declaration or statement expected - start: 71, end: 75
 ✖ Declaration or statement expected - start: 75, end: 77
 

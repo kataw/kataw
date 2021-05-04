@@ -76,7 +76,6 @@ a?
 
 ```javascript
 ✖ Expression expected - start: 2, end: 2
-✖ Expression expected - start: 2, end: 2
 
 ```
 

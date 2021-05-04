@@ -102,7 +102,6 @@ class x extends case {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 20
-✖ Declaration or statement expected - start: 15, end: 20
 
 ```
 

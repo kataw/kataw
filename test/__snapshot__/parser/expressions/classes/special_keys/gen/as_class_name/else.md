@@ -82,7 +82,6 @@ class else {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Declaration or statement expected - start: 5, end: 10
 
 ```
 

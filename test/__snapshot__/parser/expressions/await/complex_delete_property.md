@@ -223,7 +223,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 61, end: 64
-✖ Declaration or statement expected - start: 61, end: 64
 ✖ Declaration or statement expected - start: 68, end: 74
 
 ```

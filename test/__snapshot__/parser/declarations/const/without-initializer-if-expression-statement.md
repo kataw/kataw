@@ -106,7 +106,6 @@ if (true) const x;
 
 ```javascript
 ✖ Expression expected - start: 9, end: 15
-✖ Expected a `;` - start: 9, end: 15
 ✖ Missing initializer in const declaration - start: 17, end: 18
 
 ```

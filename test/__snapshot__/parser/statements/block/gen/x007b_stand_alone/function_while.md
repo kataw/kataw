@@ -132,8 +132,6 @@
 ```javascript
 ✖ Binding identifier expected - start: 10, end: 16
 ✖ Unexpected token. - start: 10, end: 16
-✖ Expression expected - start: 16, end: 16
-✖ Expression expected - start: 16, end: 16
 ✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 16
 
 ```

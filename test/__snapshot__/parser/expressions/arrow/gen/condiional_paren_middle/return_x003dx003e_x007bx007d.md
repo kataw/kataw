@@ -115,8 +115,6 @@ bar ? (return => {}) : baz;
 ✖ Expression expected - start: 7, end: 13
 ✖ Expected a ')' to match the '(' token here - start: 7, end: 13
 ✖ Expression expected - start: 13, end: 16
-✖ Expected a `;` - start: 13, end: 16
-✖ Declaration or statement expected - start: 13, end: 16
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Declaration or statement expected - start: 20, end: 22
 

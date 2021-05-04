@@ -155,7 +155,6 @@ try { } catch ([a] = []) { }
 ✖ Catch clause variable cannot have an initializer - start: 18, end: 20
 ✖ Declaration or statement expected - start: 18, end: 20
 ✖ Expected a `;` - start: 23, end: 24
-✖ Declaration or statement expected - start: 23, end: 24
 
 ```
 

@@ -101,9 +101,7 @@
 ✖ ',' expected - start: 16, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 17
 ✖ Expected a ')' to match the '(' token here - start: 16, end: 17
-✖ Expected a `;` - start: 16, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 17
-✖ Declaration or statement expected - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18
 ✖ Declaration or statement expected - start: 20, end: 21
 ✖ Declaration or statement expected - start: 21, end: 22

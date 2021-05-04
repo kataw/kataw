@@ -139,7 +139,6 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
-✖ Expected a `;` - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ 'super' must be followed by an argument list or member access. - start: 15, end: 15
 ✖ Dot property must be an identifier - start: 15, end: 15

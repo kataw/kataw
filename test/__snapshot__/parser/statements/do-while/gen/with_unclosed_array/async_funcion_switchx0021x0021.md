@@ -136,7 +136,6 @@ do[ async funcion switch!!
 ✖ Expression expected - start: 26, end: 26
 ✖ ',' expected - start: 26, end: 26
 ✖ Did you forgot a ']' to match the `[` token? - start: 26, end: 26
-✖ Expression expected - start: 26, end: 26
 
 ```
 

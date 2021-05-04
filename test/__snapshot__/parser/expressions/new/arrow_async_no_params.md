@@ -83,7 +83,6 @@ new asc() => x
 
 ```javascript
 ✖ Expected a `;` - start: 9, end: 12
-✖ Declaration or statement expected - start: 9, end: 12
 
 ```
 

@@ -122,7 +122,6 @@ class C { a\n get }
 ✖ Invalid hexadecimal escape sequence - start: 9, end: 11
 ✖ Invalid hexadecimal escape sequence - start: 11, end: 11
 ✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 12
-✖ Declaration or statement expected - start: 11, end: 12
 ✖ Expected a `;` - start: 13, end: 17
 ✖ Declaration or statement expected - start: 17, end: 19
 

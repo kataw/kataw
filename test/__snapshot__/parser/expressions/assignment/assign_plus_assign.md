@@ -103,7 +103,6 @@ a = b + c = d
 
 ```javascript
 ✖ Expected a `;` - start: 9, end: 11
-✖ Declaration or statement expected - start: 9, end: 11
 
 ```
 

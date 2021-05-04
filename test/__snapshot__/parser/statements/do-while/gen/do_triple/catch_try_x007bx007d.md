@@ -151,7 +151,6 @@ do do do catch try {} while while while
 ✖ 'try' expected - start: 8, end: 14
 ✖ Expression expected - start: 27, end: 33
 ✖ Expression expected - start: 33, end: 39
-✖ Expression expected - start: 39, end: 39
 
 ```
 

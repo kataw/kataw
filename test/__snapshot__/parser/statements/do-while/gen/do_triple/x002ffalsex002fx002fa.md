@@ -149,7 +149,6 @@ do do do /false//a while while while
 ✖ Expected a `;` - start: 18, end: 24
 ✖ Expression expected - start: 24, end: 30
 ✖ Expression expected - start: 30, end: 36
-✖ Expression expected - start: 36, end: 36
 
 ```
 

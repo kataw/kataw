@@ -334,7 +334,6 @@
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
-✖ Declaration or statement expected - start: 14, end: 15
 ✖ Expected a `;` - start: 19, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 34
 ✖ Expected a `;` - start: 34, end: 37
@@ -344,7 +343,6 @@
 ✖ Expected a `;` - start: 53, end: 60
 ✖ Expected a `;` - start: 60, end: 66
 ✖ Expected a `;` - start: 72, end: 76
-✖ Expression expected - start: 83, end: 83
 ✖ Expression expected - start: 83, end: 83
 ✖ The parser expected to find a '}' to match the '{' token here - start: 83, end: 83
 

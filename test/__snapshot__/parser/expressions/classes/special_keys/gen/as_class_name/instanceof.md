@@ -108,7 +108,6 @@ class instanceof {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 16
-✖ Expression expected - start: 5, end: 16
 
 ```
 

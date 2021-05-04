@@ -108,7 +108,6 @@ class x extends import {}
 ```javascript
 ✖ Expression expected - start: 24, end: 25
 ✖ Expected a ')' to match the '(' token here - start: 24, end: 25
-✖ Declaration or statement expected - start: 24, end: 25
 
 ```
 

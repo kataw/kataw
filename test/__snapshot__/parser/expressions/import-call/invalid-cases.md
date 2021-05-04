@@ -2002,52 +2002,36 @@ new import(x);
 ```javascript
 ✖ Unexpected token. - start: 7, end: 8
 ✖ Expected a `;` - start: 7, end: 8
-✖ Declaration or statement expected - start: 7, end: 8
 ✖ Import Call should take at least one argument - start: 18, end: 19
 ✖ Expression expected - start: 29, end: 30
 ✖ Expected a ')' to match the '(' token here - start: 29, end: 30
 ✖ Unexpected token. - start: 38, end: 39
 ✖ Expected a `;` - start: 38, end: 39
-✖ Declaration or statement expected - start: 38, end: 39
 ✖ Import Call should take at least one argument - start: 49, end: 50
 ✖ Unterminated string literal - start: 60, end: 63
 ✖ Expected a ')' to match the '(' token here - start: 63, end: 71
 ✖ Expected a ')' to match the '(' token here - start: 75, end: 76
-✖ Expected a `;` - start: 75, end: 76
-✖ Declaration or statement expected - start: 75, end: 76
 ✖ Unexpected token. - start: 85, end: 86
 ✖ Expected a `;` - start: 85, end: 86
 ✖ ',' expected - start: 89, end: 90
 ✖ Did you forgot a ']' to match the `[` token? - start: 89, end: 90
-✖ Expected a `;` - start: 89, end: 90
-✖ Declaration or statement expected - start: 89, end: 90
 ✖ Unexpected token. - start: 99, end: 101
 ✖ Expected a `;` - start: 99, end: 101
-✖ Declaration or statement expected - start: 99, end: 101
 ✖ Expected a ')' to match the '(' token here - start: 114, end: 115
 ✖ Expression expected - start: 115, end: 116
 ✖ Expression expected - start: 116, end: 117
-✖ Expected a `;` - start: 116, end: 117
-✖ Declaration or statement expected - start: 116, end: 117
 ✖ Expected a `;` - start: 129, end: 130
-✖ Declaration or statement expected - start: 129, end: 130
 ✖ Expected a ')' to match the '(' token here - start: 141, end: 142
 ✖ Expression expected - start: 142, end: 143
-✖ Expected a `;` - start: 142, end: 143
-✖ Declaration or statement expected - start: 142, end: 143
 ✖ Declaration or statement expected - start: 143, end: 144
 ✖ Expected a ')' to match the '(' token here - start: 155, end: 156
 ✖ Expression expected - start: 158, end: 159
 ✖ Expected a `;` - start: 158, end: 159
-✖ Declaration or statement expected - start: 158, end: 159
 ✖ Expected a ')' to match the '(' token here - start: 170, end: 171
 ✖ Expression expected - start: 173, end: 174
 ✖ Expression expected - start: 174, end: 175
-✖ Expected a `;` - start: 174, end: 175
-✖ Declaration or statement expected - start: 174, end: 175
 ✖ Expected a ')' to match the '(' token here - start: 186, end: 187
 ✖ Expected a `;` - start: 190, end: 191
-✖ Declaration or statement expected - start: 190, end: 191
 ✖ Expected a ')' to match the '(' token here - start: 202, end: 203
 ✖ Expected a ')' to match the '(' token here - start: 215, end: 216
 ✖ Expression expected - start: 218, end: 219
@@ -2060,34 +2044,23 @@ new import(x);
 ✖ Expected a `;` - start: 251, end: 252
 ✖ Unexpected token. - start: 262, end: 263
 ✖ Expected a `;` - start: 262, end: 263
-✖ Declaration or statement expected - start: 262, end: 263
 ✖ Unexpected token. - start: 272, end: 273
 ✖ Expected a `;` - start: 272, end: 273
 ✖ The parser expected to find a '}' to match the '{' token here - start: 285, end: 286
 ✖ Expected a ')' to match the '(' token here - start: 296, end: 297
 ✖ Expected a ')' to match the '(' token here - start: 319, end: 320
 ✖ Expected a `;` - start: 322, end: 323
-✖ Expected a `;` - start: 322, end: 323
-✖ Declaration or statement expected - start: 322, end: 323
 ✖ Expression expected - start: 333, end: 336
 ✖ Expected a ')' to match the '(' token here - start: 333, end: 336
-✖ Expected a `;` - start: 333, end: 336
-✖ Declaration or statement expected - start: 333, end: 336
 ✖ Expected a `;` - start: 337, end: 338
-✖ Declaration or statement expected - start: 337, end: 338
 ✖ Expected a ')' to match the '(' token here - start: 349, end: 350
 ✖ Expression expected - start: 350, end: 351
-✖ Expected a `;` - start: 350, end: 351
-✖ Declaration or statement expected - start: 350, end: 351
 ✖ Expression expected - start: 361, end: 362
 ✖ Expected a ')' to match the '(' token here - start: 361, end: 362
 ✖ Expression expected - start: 362, end: 363
-✖ Expected a `;` - start: 362, end: 363
-✖ Declaration or statement expected - start: 362, end: 363
 ✖ Expression expected - start: 373, end: 374
 ✖ Expected a ')' to match the '(' token here - start: 373, end: 374
 ✖ Expected a `;` - start: 375, end: 376
-✖ Declaration or statement expected - start: 375, end: 376
 ✖ Expression expected - start: 386, end: 387
 ✖ Expected a ')' to match the '(' token here - start: 386, end: 387
 ✖ Declaration or statement expected - start: 387, end: 388
@@ -2102,31 +2075,21 @@ new import(x);
 ✖ Expression expected - start: 420, end: 421
 ✖ Unexpected token. - start: 429, end: 431
 ✖ Expected a `;` - start: 429, end: 431
-✖ Declaration or statement expected - start: 429, end: 431
 ✖ Expected a ')' to match the '(' token here - start: 457, end: 458
 ✖ Expression expected - start: 458, end: 459
 ✖ Expression expected - start: 459, end: 460
-✖ Expected a `;` - start: 459, end: 460
-✖ Declaration or statement expected - start: 459, end: 460
 ✖ Expected a `;` - start: 472, end: 473
-✖ Declaration or statement expected - start: 472, end: 473
 ✖ Expected a ')' to match the '(' token here - start: 484, end: 485
 ✖ Expression expected - start: 485, end: 486
-✖ Expected a `;` - start: 485, end: 486
-✖ Declaration or statement expected - start: 485, end: 486
 ✖ Declaration or statement expected - start: 486, end: 487
 ✖ Expected a ')' to match the '(' token here - start: 498, end: 499
 ✖ Expression expected - start: 501, end: 502
 ✖ Expected a `;` - start: 501, end: 502
-✖ Declaration or statement expected - start: 501, end: 502
 ✖ Expected a ')' to match the '(' token here - start: 513, end: 514
 ✖ Expression expected - start: 516, end: 517
 ✖ Expression expected - start: 517, end: 518
-✖ Expected a `;` - start: 517, end: 518
-✖ Declaration or statement expected - start: 517, end: 518
 ✖ Expected a ')' to match the '(' token here - start: 529, end: 530
 ✖ Expected a `;` - start: 533, end: 534
-✖ Declaration or statement expected - start: 533, end: 534
 ✖ Expected a ')' to match the '(' token here - start: 545, end: 546
 ✖ Expected a ')' to match the '(' token here - start: 558, end: 559
 ✖ Expression expected - start: 561, end: 562

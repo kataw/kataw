@@ -52,7 +52,6 @@
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 1, end: 9
-✖ Declaration or statement expected - start: 1, end: 9
 
 ```
 

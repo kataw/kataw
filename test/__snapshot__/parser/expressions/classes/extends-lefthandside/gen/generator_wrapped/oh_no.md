@@ -172,7 +172,6 @@ function *P(){
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
-✖ Declaration or statement expected - start: 35, end: 36
 ✖ Expected a `;` - start: 38, end: 40
 ✖ Declaration or statement expected - start: 41, end: 43
 

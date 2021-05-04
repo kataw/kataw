@@ -163,12 +163,8 @@ var f: >x:int) => string;
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
 ✖ ',' expected - start: 6, end: 8
-✖ Expected a `;` - start: 6, end: 8
-✖ Expression expected - start: 6, end: 8
 ✖ Expected a `;` - start: 9, end: 10
-✖ Declaration or statement expected - start: 9, end: 10
 ✖ Expected a `;` - start: 13, end: 14
-✖ Declaration or statement expected - start: 13, end: 14
 ✖ Declaration or statement expected - start: 14, end: 17
 
 ```

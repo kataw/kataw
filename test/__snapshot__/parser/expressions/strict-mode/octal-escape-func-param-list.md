@@ -161,11 +161,9 @@ function foo(p\141ckage) { "use strict"; }
 ✖ ',' expected - start: 14, end: 15
 ✖ Expected a ')' to match the '(' token here - start: 14, end: 15
 ✖ Unexpected token. - start: 14, end: 15
-✖ Declaration or statement expected - start: 14, end: 15
 ✖ Unexpected token. - start: 15, end: 18
 ✖ Expected a `;` - start: 18, end: 23
 ✖ Expected a `;` - start: 23, end: 24
-✖ Declaration or statement expected - start: 23, end: 24
 
 ```
 

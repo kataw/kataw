@@ -122,7 +122,6 @@ label: const x = 1;
 
 ```javascript
 ✖ Expression expected - start: 6, end: 12
-✖ Expected a `;` - start: 6, end: 12
 
 ```
 

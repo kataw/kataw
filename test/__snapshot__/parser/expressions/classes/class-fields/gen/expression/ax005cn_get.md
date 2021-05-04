@@ -142,7 +142,6 @@ class C extends Base { a\n get }
 ✖ Invalid hexadecimal escape sequence - start: 22, end: 24
 ✖ Invalid hexadecimal escape sequence - start: 24, end: 24
 ✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 25
-✖ Declaration or statement expected - start: 24, end: 25
 ✖ Expected a `;` - start: 26, end: 30
 ✖ Declaration or statement expected - start: 30, end: 32
 

@@ -108,7 +108,6 @@ var ...a = 1;
 
 ```javascript
 ✖ Expected a `;` - start: 3, end: 7
-✖ Declaration or statement expected - start: 3, end: 7
 
 ```
 

@@ -141,7 +141,6 @@ function x(){
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 51
-✖ Declaration or statement expected - start: 44, end: 51
 ✖ Declaration or statement expected - start: 52, end: 54
 
 ```

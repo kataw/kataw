@@ -119,7 +119,6 @@ var a: -z
 ```javascript
 ✖ ',' expected - start: 5, end: 6
 ✖ Expected a `;` - start: 5, end: 6
-✖ Declaration or statement expected - start: 5, end: 6
 
 ```
 

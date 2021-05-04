@@ -107,7 +107,6 @@ class A {*=f(){}}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
-✖ Declaration or statement expected - start: 9, end: 11
 ✖ Expected a `;` - start: 14, end: 15
 ✖ Declaration or statement expected - start: 16, end: 17
 

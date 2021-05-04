@@ -104,7 +104,6 @@ new async (x, y) => ok
 
 ```javascript
 ✖ Expected a `;` - start: 16, end: 19
-✖ Declaration or statement expected - start: 16, end: 19
 
 ```
 

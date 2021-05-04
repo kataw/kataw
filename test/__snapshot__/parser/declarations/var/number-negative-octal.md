@@ -127,7 +127,6 @@ var a: -0x7B
 ```javascript
 ✖ Identifier expected - start: 6, end: 8
 ✖ ',' expected - start: 6, end: 8
-✖ Expected a `;` - start: 6, end: 8
 
 ```
 

@@ -196,12 +196,9 @@ do( while try this and !foo while
 ```javascript
 ✖ Expression expected - start: 3, end: 9
 ✖ Expected a ')' to match the '(' token here - start: 3, end: 9
-✖ Expected a `;` - start: 3, end: 9
 ✖ Expression expected - start: 9, end: 13
 ✖ Expected a `;` - start: 22, end: 24
 ✖ Expected a `;` - start: 27, end: 33
-✖ Expression expected - start: 33, end: 33
-✖ Expression expected - start: 33, end: 33
 
 ```
 

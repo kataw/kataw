@@ -129,7 +129,6 @@ do do do false while while while
 ✖ Expected a `;` - start: 14, end: 20
 ✖ Expression expected - start: 20, end: 26
 ✖ Expression expected - start: 26, end: 32
-✖ Expression expected - start: 32, end: 32
 
 ```
 

@@ -104,7 +104,6 @@ for(x of 3)break/
 ✖ Unterminated regular expression - start: 16, end: 17
 ✖ Expression expected - start: 16, end: 18
 ✖ Missing label - start: 16, end: 18
-✖ Expected a `;` - start: 16, end: 18
 
 ```
 

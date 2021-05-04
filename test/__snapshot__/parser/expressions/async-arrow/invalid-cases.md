@@ -2237,80 +2237,49 @@ async ([a]:string)=>c;
 
 ```javascript
 ✖ Expected a `;` - start: 17, end: 19
-✖ Declaration or statement expected - start: 17, end: 19
 ✖ Expected a `;` - start: 29, end: 32
 ✖ Expected a `;` - start: 32, end: 35
-✖ Declaration or statement expected - start: 32, end: 35
 ✖ Expression expected - start: 53, end: 58
 ✖ Expected a ')' to match the '(' token here - start: 53, end: 58
-✖ Expected a `;` - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Expected a `;` - start: 71, end: 74
 ✖ Expression expected - start: 74, end: 77
-✖ Expression expected - start: 74, end: 77
-✖ Expected a `;` - start: 74, end: 77
-✖ Declaration or statement expected - start: 74, end: 77
 ✖ Declaration or statement expected - start: 106, end: 109
 ✖ Expected a `;` - start: 138, end: 140
-✖ Declaration or statement expected - start: 138, end: 140
 ✖ Declaration or statement expected - start: 140, end: 143
 ✖ Expression expected - start: 177, end: 179
 ✖ Expected a ')' to match the '(' token here - start: 205, end: 208
-✖ Expected a `;` - start: 205, end: 208
-✖ Declaration or statement expected - start: 205, end: 208
 ✖ Expected a `;` - start: 210, end: 211
-✖ Declaration or statement expected - start: 210, end: 211
 ✖ Declaration or statement expected - start: 250, end: 251
 ✖ Expected a ')' to match the '(' token here - start: 293, end: 296
-✖ Expected a `;` - start: 293, end: 296
-✖ Declaration or statement expected - start: 293, end: 296
 ✖ Expected a `;` - start: 298, end: 299
-✖ Declaration or statement expected - start: 298, end: 299
 ✖ Expected a ')' to match the '(' token here - start: 321, end: 327
-✖ Expected a `;` - start: 321, end: 327
 ✖ Expected a `;` - start: 332, end: 333
-✖ Declaration or statement expected - start: 332, end: 333
 ✖ Expected a ')' to match the '(' token here - start: 357, end: 360
-✖ Expected a `;` - start: 357, end: 360
-✖ Declaration or statement expected - start: 357, end: 360
 ✖ Expected a `;` - start: 362, end: 363
-✖ Declaration or statement expected - start: 362, end: 363
 ✖ Expected a ')' to match the '(' token here - start: 380, end: 386
-✖ Expected a `;` - start: 380, end: 386
 ✖ Expected a `;` - start: 391, end: 392
-✖ Declaration or statement expected - start: 391, end: 392
 ✖ Expected a ')' to match the '(' token here - start: 411, end: 414
-✖ Expected a `;` - start: 411, end: 414
-✖ Declaration or statement expected - start: 411, end: 414
 ✖ Expected a `;` - start: 416, end: 417
-✖ Declaration or statement expected - start: 416, end: 417
 ✖ Invalid hexadecimal escape sequence - start: 426, end: 432
 ✖ Invalid hexadecimal escape sequence - start: 432, end: 432
 ✖ ',' expected - start: 432, end: 433
 ✖ Expected a `;` - start: 432, end: 433
-✖ Declaration or statement expected - start: 432, end: 433
 ✖ Expected a `;` - start: 437, end: 440
-✖ Declaration or statement expected - start: 437, end: 440
 ✖ Invalid hexadecimal escape sequence - start: 451, end: 457
 ✖ Invalid hexadecimal escape sequence - start: 457, end: 457
 ✖ ',' expected - start: 457, end: 458
 ✖ Expected a `;` - start: 457, end: 458
-✖ Declaration or statement expected - start: 457, end: 458
 ✖ Expected a `;` - start: 462, end: 465
-✖ Declaration or statement expected - start: 462, end: 465
 ✖ Invalid hexadecimal escape sequence - start: 478, end: 484
 ✖ Invalid hexadecimal escape sequence - start: 484, end: 484
 ✖ ',' expected - start: 484, end: 485
 ✖ Expected a `;` - start: 484, end: 485
-✖ Declaration or statement expected - start: 484, end: 485
 ✖ Expected a `;` - start: 492, end: 495
-✖ Declaration or statement expected - start: 492, end: 495
 ✖ Declaration or statement expected - start: 524, end: 527
 ✖ Expression expected - start: 551, end: 554
-✖ Expected a `;` - start: 551, end: 554
 ✖ The parser expected to find a '}' to match the '{' token here - start: 551, end: 554
-✖ Declaration or statement expected - start: 551, end: 554
 ✖ Declaration or statement expected - start: 559, end: 561
 ✖ Declaration or statement expected - start: 585, end: 588
 ✖ Binding identifier expected - start: 601, end: 603

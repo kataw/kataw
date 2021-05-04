@@ -126,7 +126,6 @@ do try { !xxx
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 13
-✖ Expression expected - start: 13, end: 13
 
 ```
 

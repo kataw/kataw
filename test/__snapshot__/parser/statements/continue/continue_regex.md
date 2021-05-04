@@ -141,8 +141,6 @@ for (x of 3) continue/x/
 
 ```javascript
 ✖ Expression expected - start: 21, end: 22
-✖ Expected a `;` - start: 21, end: 22
-✖ Expression expected - start: 21, end: 22
 ✖ Expression expected - start: 24, end: 24
 
 ```

@@ -116,7 +116,6 @@ for (x of 3) continue
 
 ```javascript
 ✖ Expression expected - start: 21, end: 23
-✖ Expression expected - start: 23, end: 23
 
 ```
 

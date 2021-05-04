@@ -227,12 +227,7 @@ do do do catch { try while while while
 ```javascript
 ✖ 'try' expected - start: 8, end: 14
 ✖ Expression expected - start: 32, end: 38
-✖ Expression expected - start: 38, end: 38
-✖ Expression expected - start: 38, end: 38
 ✖ The parser expected to find a '}' to match the '{' token here - start: 38, end: 38
-✖ Expression expected - start: 38, end: 38
-✖ Expression expected - start: 38, end: 38
-✖ Expression expected - start: 38, end: 38
 
 ```
 

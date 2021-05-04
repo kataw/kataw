@@ -6097,10 +6097,8 @@ try {} catch(e) { for(var e of 0); };
 ✖ Expected a `;` - start: 2953, end: 2954
 ✖ Invalid hexadecimal escape sequence - start: 3058, end: 3058
 ✖ Expected a `;` - start: 3058, end: 3059
-✖ Declaration or statement expected - start: 3058, end: 3059
 ✖ Invalid hexadecimal escape sequence - start: 3070, end: 3070
 ✖ Expected a `;` - start: 3070, end: 3071
-✖ Declaration or statement expected - start: 3070, end: 3071
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3176, end: 3177
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3211, end: 3212
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 3286, end: 3287
@@ -6116,12 +6114,10 @@ try {} catch(e) { for(var e of 0); };
 ✖ Invalid hexadecimal escape sequence - start: 3744, end: 3991
 ✖ Invalid hexadecimal escape sequence - start: 3991, end: 3991
 ✖ Expected a `;` - start: 3991, end: 3992
-✖ Declaration or statement expected - start: 3991, end: 3992
 ✖ Declaration or statement expected - start: 3992, end: 3998
 ✖ Invalid hexadecimal escape sequence - start: 3999, end: 4001
 ✖ Invalid hexadecimal escape sequence - start: 4001, end: 4001
 ✖ Expected a `;` - start: 4001, end: 4002
-✖ Declaration or statement expected - start: 4001, end: 4002
 ✖ Declaration or statement expected - start: 4002, end: 4007
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 4485, end: 4494
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 4522, end: 4531
@@ -6132,10 +6128,8 @@ try {} catch(e) { for(var e of 0); };
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 4592, end: 4601
 ✖ Invalid hexadecimal escape sequence - start: 5061, end: 5061
 ✖ Expected a `;` - start: 5061, end: 5062
-✖ Declaration or statement expected - start: 5061, end: 5062
 ✖ Invalid hexadecimal escape sequence - start: 5073, end: 5073
 ✖ Expected a `;` - start: 5073, end: 5074
-✖ Declaration or statement expected - start: 5073, end: 5074
 
 ```
 

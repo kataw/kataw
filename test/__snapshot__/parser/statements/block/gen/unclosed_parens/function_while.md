@@ -137,9 +137,6 @@
 ```javascript
 ✖ Unexpected token. - start: 11, end: 17
 ✖ Expected a ')' to match the '(' token here - start: 11, end: 17
-✖ Expected a `;` - start: 11, end: 17
-✖ Expression expected - start: 17, end: 17
-✖ Expression expected - start: 17, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
 
 ```

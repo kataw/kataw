@@ -141,9 +141,7 @@ function *f(){
 ```javascript
 ✖ Expression expected - start: 14, end: 32
 ✖ Expression expected - start: 32, end: 34
-✖ Expected a `;` - start: 32, end: 34
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 34
-✖ Declaration or statement expected - start: 32, end: 34
 ✖ Declaration or statement expected - start: 36, end: 38
 
 ```

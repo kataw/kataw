@@ -184,7 +184,6 @@ for (class x extends a in b {} in c);
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
 ✖ Expression expected - start: 30, end: 33
 ✖ Expected a `;` - start: 35, end: 36
-✖ Declaration or statement expected - start: 35, end: 36
 
 ```
 

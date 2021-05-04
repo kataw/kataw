@@ -579,10 +579,7 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 126, end: 127
 ✖ Dot property must be an identifier - start: 127, end: 128
 ✖ Expression expected - start: 133, end: 136
-✖ Expected a `;` - start: 133, end: 136
-✖ Declaration or statement expected - start: 133, end: 136
 ✖ Expected a `;` - start: 141, end: 142
-✖ Declaration or statement expected - start: 141, end: 142
 
 ```
 

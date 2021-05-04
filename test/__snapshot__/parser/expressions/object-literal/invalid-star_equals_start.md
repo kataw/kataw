@@ -68,7 +68,6 @@
 ✖ The parser expected to find a '}' to match the '{' token here - start: 2, end: 4
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 2, end: 4
 ✖ Expected a ')' to match the '(' token here - start: 7, end: 8
-✖ Expected a `;` - start: 7, end: 8
 ✖ Declaration or statement expected - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 11
 

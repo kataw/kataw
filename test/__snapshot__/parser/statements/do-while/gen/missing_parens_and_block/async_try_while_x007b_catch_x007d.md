@@ -144,7 +144,6 @@ do async try while { catch } while
 ✖ Expression expected - start: 12, end: 18
 ✖ Property assignment expected - start: 26, end: 28
 ✖ Expression expected - start: 34, end: 34
-✖ Expression expected - start: 34, end: 34
 
 ```
 

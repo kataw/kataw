@@ -123,8 +123,6 @@ class for {}
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 9
 ✖ Expression expected - start: 12, end: 12
-✖ Expression expected - start: 12, end: 12
-✖ Expression expected - start: 12, end: 12
 
 ```
 

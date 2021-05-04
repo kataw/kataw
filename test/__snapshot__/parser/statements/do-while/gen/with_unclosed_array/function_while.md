@@ -126,8 +126,6 @@ do[ function while
 ✖ Unexpected token. - start: 12, end: 18
 ✖ ',' expected - start: 12, end: 18
 ✖ Did you forgot a ']' to match the `[` token? - start: 12, end: 18
-✖ Expected a `;` - start: 12, end: 18
-✖ Expression expected - start: 18, end: 18
 
 ```
 

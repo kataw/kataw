@@ -97,7 +97,6 @@
 
 ```javascript
 ✖ Expected a `;` - start: 7, end: 13
-✖ Binding identifier expected - start: 13, end: 13
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 13
 
 ```

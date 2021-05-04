@@ -127,11 +127,8 @@ let [..x] = obj;
 ✖ Did you forgot a ']' to match the `[` token? - start: 5, end: 6
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
 ✖ ',' expected - start: 5, end: 6
-✖ Expected a `;` - start: 5, end: 6
-✖ Declaration or statement expected - start: 5, end: 6
 ✖ Declaration or statement expected - start: 6, end: 7
 ✖ Expected a `;` - start: 8, end: 9
-✖ Declaration or statement expected - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
 
 ```

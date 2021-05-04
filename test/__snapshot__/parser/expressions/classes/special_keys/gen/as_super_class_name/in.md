@@ -128,7 +128,6 @@ class x extends in {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 18
-✖ Expression expected - start: 15, end: 18
 
 ```
 

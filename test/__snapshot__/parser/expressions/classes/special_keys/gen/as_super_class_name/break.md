@@ -123,7 +123,6 @@ class x extends break {}
 ✖ Expression expected - start: 15, end: 21
 ✖ Expression expected - start: 21, end: 23
 ✖ Missing label - start: 21, end: 23
-✖ Expected a `;` - start: 21, end: 23
 
 ```
 

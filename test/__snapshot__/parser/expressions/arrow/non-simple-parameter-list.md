@@ -182,7 +182,6 @@
 ```javascript
 ✖ 'use strict' directive cannot be used with non-simple parameter list. - start: 29, end: 30
 ✖ Expected a `;` - start: 43, end: 46
-✖ Declaration or statement expected - start: 43, end: 46
 
 ```
 

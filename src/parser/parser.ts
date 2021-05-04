@@ -212,7 +212,8 @@ export function create(source: string, onError: OnError): ParserState {
     onError,
     labels: [],
     tokenValue: undefined,
-    tokenRaw: ''
+    tokenRaw: '',
+    previousErrorPos: 0
   };
 }
 
@@ -262,17 +263,19 @@ export function parse(
       continue;
     }
 
-    parser.onError(
-      DiagnosticSource.Parser,
-      diagnosticMap[
-        parser.token === SyntaxKind.PrivateIdentifier
-          ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
-          : DiagnosticCode.Declaration_or_statement_expected
-      ],
-      parser.curPos,
-      parser.pos
-    );
-
+    if (parser.previousErrorPos !== parser.pos) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[
+          parser.token === SyntaxKind.PrivateIdentifier
+            ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
+            : DiagnosticCode.Declaration_or_statement_expected
+        ],
+        parser.curPos,
+        parser.pos
+      );
+    }
     nextToken(parser, context | Context.AllowRegExp);
   }
   return createRootNode(directives, statements, isModule, source, filename);
@@ -1161,7 +1164,7 @@ function parseIdentifier(
   diagnosticMessage?: DiagnosticCode,
   allowKeywords?: boolean
 ): Identifier | DummyIdentifier {
-  const { token, curPos, tokenValue, tokenRaw } = parser;
+  const { token, curPos, tokenValue, tokenRaw, pos } = parser;
   parser.assignable = true;
 
   if (
@@ -1171,6 +1174,7 @@ function parseIdentifier(
       : SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)
   ) {
     if (context & (Context.Strict | Context.InGeneratorContext) && token === SyntaxKind.YieldKeyword) {
+      parser.previousErrorPos = pos;
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[
@@ -1178,8 +1182,8 @@ function parseIdentifier(
             ? DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
             : DiagnosticCode.Identifier_expected_yield_is_a_reserved_word_in_strict_mode
         ],
-        parser.curPos,
-        parser.pos
+        curPos,
+        pos
       );
     }
 
@@ -1191,8 +1195,8 @@ function parseIdentifier(
             ? DiagnosticCode._Await_expression_cannot_be_used_in_function_parameters
             : DiagnosticCode.Identifier_expected_await_is_a_reserved_word_in_strict_mode_and_module_goal
         ],
-        parser.curPos,
-        parser.pos
+        curPos,
+        pos
       );
     }
 
@@ -1201,20 +1205,24 @@ function parseIdentifier(
       parser.onError(
         DiagnosticSource.Parser,
         diagnosticMap[DiagnosticCode._let_is_a_restricted_production_at_the_start_of_a_statement],
-        parser.curPos,
-        parser.pos
+        curPos,
+        pos
       );
     }
     nextToken(parser, context);
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
 
-  parser.onError(
-    DiagnosticSource.Parser,
-    diagnosticMap[diagnosticMessage ? diagnosticMessage : DiagnosticCode.Expression_expected],
-    parser.curPos,
-    parser.pos
-  );
+  if (parser.previousErrorPos !== pos) {
+    parser.previousErrorPos = pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[diagnosticMessage ? diagnosticMessage : DiagnosticCode.Expression_expected],
+      curPos,
+      pos
+    );
+  }
+
   return createDummyIdentifier(curPos, curPos);
 }
 
@@ -1223,6 +1231,7 @@ function parseExpectedMatchingBracket(parser: ParserState, context: Context, t: 
     nextToken(parser, context);
     return;
   }
+  parser.previousErrorPos = parser.pos;
   parser.onError(
     DiagnosticSource.Parser,
     diagnosticMap[
@@ -1891,12 +1900,15 @@ function parseIdentifierReference(
     return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
   }
 
-  parser.onError(
-    DiagnosticSource.Parser,
-    diagnosticMap[diagnosticMessage ? diagnosticMessage : DiagnosticCode.Expression_expected],
-    parser.curPos,
-    parser.pos
-  );
+  if (parser.previousErrorPos !== parser.pos) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      diagnosticMap[diagnosticMessage ? diagnosticMessage : DiagnosticCode.Expression_expected],
+      parser.curPos,
+      parser.pos
+    );
+  }
 
   return createDummyIdentifier(curPos, curPos) as any;
 }
@@ -3227,6 +3239,7 @@ function parseParentheizedExpression(
           curPos
         );
       default:
+        parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,
           diagnosticMap[DiagnosticCode.Expression_expected],

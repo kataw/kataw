@@ -82,7 +82,6 @@ import(x,y)
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 8, end: 9
 ✖ Expected a `;` - start: 10, end: 11
-✖ Declaration or statement expected - start: 10, end: 11
 
 ```
 

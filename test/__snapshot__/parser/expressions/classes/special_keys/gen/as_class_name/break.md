@@ -103,7 +103,6 @@ class break {}
 ✖ Binding identifier expected - start: 5, end: 11
 ✖ Expression expected - start: 11, end: 13
 ✖ Missing label - start: 11, end: 13
-✖ Expected a `;` - start: 11, end: 13
 
 ```
 

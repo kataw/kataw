@@ -183,10 +183,7 @@ wrap({async [foo""](){}});
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ Expected a ')' to match the '(' token here - start: 18, end: 19
-✖ Expected a `;` - start: 18, end: 19
-✖ Declaration or statement expected - start: 18, end: 19
 ✖ Expression expected - start: 22, end: 23
-✖ Declaration or statement expected - start: 22, end: 23
 ✖ Declaration or statement expected - start: 23, end: 24
 ✖ Declaration or statement expected - start: 24, end: 25
 

@@ -106,7 +106,6 @@ class x {in: x}
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 11, end: 12
-✖ Declaration or statement expected - start: 11, end: 12
 ✖ Declaration or statement expected - start: 14, end: 15
 
 ```

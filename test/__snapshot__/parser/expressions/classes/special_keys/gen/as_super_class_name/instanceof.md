@@ -128,7 +128,6 @@ class x extends instanceof {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 26
-✖ Expression expected - start: 15, end: 26
 
 ```
 

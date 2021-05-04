@@ -148,8 +148,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ✖ The parser expected to find a '}' to match the '{' token here - start: 100, end: 103
 ✖ Expected a ')' to match the '(' token here - start: 100, end: 103
 ✖ ',' expected - start: 100, end: 103
-✖ Expected a `;` - start: 100, end: 103
-✖ Declaration or statement expected - start: 100, end: 103
 ✖ Declaration or statement expected - start: 106, end: 112
 ✖ Declaration or statement expected - start: 112, end: 114
 ✖ Declaration or statement expected - start: 114, end: 115

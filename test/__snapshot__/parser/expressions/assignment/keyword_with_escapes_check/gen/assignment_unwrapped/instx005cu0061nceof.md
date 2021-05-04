@@ -86,8 +86,6 @@ inst\u0061nceof = x;
 ```javascript
 ✖ Expression expected - start: 0, end: 15
 ✖ Expression expected - start: 15, end: 17
-✖ Expected a `;` - start: 15, end: 17
-✖ Declaration or statement expected - start: 15, end: 17
 
 ```
 

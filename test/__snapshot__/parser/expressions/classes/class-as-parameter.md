@@ -431,7 +431,6 @@ class A {
 ✖ The parser expected to find a '}' to match the '{' token here - start: 126, end: 130
 ✖ Binding identifier expected - start: 145, end: 146
 ✖ Expression expected - start: 149, end: 150
-✖ Declaration or statement expected - start: 149, end: 150
 ✖ Declaration or statement expected - start: 150, end: 152
 
 ```

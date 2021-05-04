@@ -111,7 +111,6 @@ do[ class x {}
 ```javascript
 ✖ ',' expected - start: 14, end: 14
 ✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 14
-✖ Expression expected - start: 14, end: 14
 
 ```
 

@@ -267,7 +267,6 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 61, end: 64
-✖ Declaration or statement expected - start: 61, end: 64
 ✖ Declaration or statement expected - start: 67, end: 73
 
 ```
