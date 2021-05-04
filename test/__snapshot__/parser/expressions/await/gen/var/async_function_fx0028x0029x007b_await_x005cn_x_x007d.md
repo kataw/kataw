@@ -161,9 +161,6 @@ var await; var f = (async function() { async function f(){ await \n x; } });
 ```javascript
 ✖ Invalid hexadecimal escape sequence - start: 64, end: 65
 ✖ Expression expected - start: 64, end: 66
-✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 66
-✖ The parser expected to find a '}' to match the '{' token here - start: 64, end: 66
-✖ Expected a ')' to match the '(' token here - start: 64, end: 66
 ✖ ',' expected - start: 64, end: 66
 ✖ Expected a `;` - start: 67, end: 69
 ✖ Declaration or statement expected - start: 70, end: 72

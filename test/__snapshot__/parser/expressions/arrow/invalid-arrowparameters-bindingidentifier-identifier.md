@@ -121,7 +121,6 @@ var af = switch => 1;
 ✖ Expression expected - start: 8, end: 15
 ✖ Variable declaration expected. - start: 8, end: 15
 ✖ Expression expected - start: 15, end: 18
-✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 18
 
 ```
 

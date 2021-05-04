@@ -2005,7 +2005,6 @@ new import(x);
 ✖ Expected a `;` - start: 7, end: 8
 ✖ Import Call should take at least one argument - start: 18, end: 19
 ✖ Expression expected - start: 29, end: 30
-✖ Expected a ')' to match the '(' token here - start: 29, end: 30
 ✖ Unexpected token. - start: 38, end: 39
 ✖ Expected a `;` - start: 38, end: 39
 ✖ Import Call should take at least one argument - start: 49, end: 50
@@ -2051,21 +2050,16 @@ new import(x);
 ✖ Expected a ')' to match the '(' token here - start: 319, end: 320
 ✖ Expected a `;` - start: 322, end: 323
 ✖ Expression expected - start: 333, end: 336
-✖ Expected a ')' to match the '(' token here - start: 333, end: 336
 ✖ Expected a `;` - start: 337, end: 338
 ✖ Expected a ')' to match the '(' token here - start: 349, end: 350
 ✖ Expression expected - start: 350, end: 351
 ✖ Expression expected - start: 361, end: 362
-✖ Expected a ')' to match the '(' token here - start: 361, end: 362
 ✖ Expression expected - start: 362, end: 363
 ✖ Expression expected - start: 373, end: 374
-✖ Expected a ')' to match the '(' token here - start: 373, end: 374
 ✖ Expected a `;` - start: 375, end: 376
 ✖ Expression expected - start: 386, end: 387
-✖ Expected a ')' to match the '(' token here - start: 386, end: 387
 ✖ Declaration or statement expected - start: 387, end: 388
 ✖ Expression expected - start: 399, end: 400
-✖ Expected a ')' to match the '(' token here - start: 399, end: 400
 ✖ ',' expected - start: 400, end: 403
 ✖ Property assignment expected - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411

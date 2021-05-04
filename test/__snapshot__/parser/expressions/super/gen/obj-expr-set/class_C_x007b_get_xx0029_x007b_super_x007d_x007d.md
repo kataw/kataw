@@ -237,9 +237,7 @@
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 30
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 30
 ✖ ',' expected - start: 29, end: 30
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 30
 ✖ Expected a `;` - start: 30, end: 32
 ✖ 'super' must be followed by an argument list or member access. - start: 38, end: 39
 ✖ Dot property must be an identifier - start: 38, end: 39

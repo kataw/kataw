@@ -100,8 +100,6 @@
 ✖ ',' expected - start: 7, end: 7
 ✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
 ✖ ',' expected - start: 7, end: 7
-✖ Did you forgot a ']' to match the `[` token? - start: 7, end: 7
-✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 7
 
 ```
 

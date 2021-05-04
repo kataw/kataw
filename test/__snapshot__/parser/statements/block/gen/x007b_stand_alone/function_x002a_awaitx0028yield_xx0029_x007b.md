@@ -164,7 +164,6 @@
 ✖ ',' expected - start: 24, end: 26
 ✖ Unexpected token. - start: 27, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31
-✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 31
 
 ```
 

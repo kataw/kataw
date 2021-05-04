@@ -91,7 +91,7 @@
                                     "staticToken": null,
                                     "asyncKeyword": null,
                                     "key": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#",
                                         "flags": 96,
                                         "start": 11,
@@ -178,7 +178,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 33,
@@ -310,7 +310,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 61,
@@ -392,7 +392,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 81,
@@ -478,7 +478,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 102,
@@ -586,7 +586,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67109115,
+                                            "kind": 67174651,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 122,
@@ -695,7 +695,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 140,
@@ -795,7 +795,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 162,
@@ -882,7 +882,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67109115,
+                                            "kind": 67174651,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 183,
@@ -997,7 +997,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 204,
@@ -1108,7 +1108,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 226,
@@ -1218,7 +1218,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 251,
@@ -1351,7 +1351,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 275,
@@ -1479,7 +1479,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 299,
@@ -1566,7 +1566,7 @@
                                     "method": {
                                         "kind": 209,
                                         "name": {
-                                            "kind": 67109115,
+                                            "kind": 67174651,
                                             "text": "#a",
                                             "flags": 96,
                                             "start": 325,
@@ -1676,7 +1676,7 @@
                                     "end": 351
                                 },
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#a",
                                     "flags": 96,
                                     "start": 351,
@@ -1756,7 +1756,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 372,
@@ -1866,7 +1866,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 403,
@@ -1966,7 +1966,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 433,
@@ -2079,7 +2079,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 460,
@@ -2192,7 +2192,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 488,
@@ -2324,7 +2324,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 517,
@@ -2442,7 +2442,7 @@
                                     "end": 546
                                 },
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 546,
@@ -2562,7 +2562,7 @@
                                         "end": 576
                                     },
                                     "key": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#",
                                         "flags": 96,
                                         "start": 578,
@@ -2628,7 +2628,7 @@
                                                                     "method": {
                                                                         "kind": 209,
                                                                         "name": {
-                                                                            "kind": 67109115,
+                                                                            "kind": 67174651,
                                                                             "text": "#a",
                                                                             "flags": 96,
                                                                             "start": 605,
@@ -2683,7 +2683,7 @@
                                                                     "method": {
                                                                         "kind": 209,
                                                                         "name": {
-                                                                            "kind": 67109115,
+                                                                            "kind": 67174651,
                                                                             "text": "#a",
                                                                             "flags": 96,
                                                                             "start": 617,
@@ -2801,7 +2801,7 @@
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
-                                                    "kind": 67109115,
+                                                    "kind": 67174651,
                                                     "text": "#a",
                                                     "flags": 96,
                                                     "start": 640,
@@ -2846,7 +2846,7 @@
                                             "staticToken": null,
                                             "asyncKeyword": null,
                                             "key": {
-                                                "kind": 67109115,
+                                                "kind": 67174651,
                                                 "text": "#",
                                                 "flags": 96,
                                                 "start": 652,
@@ -2979,7 +2979,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 679,
@@ -3053,7 +3053,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 694,
@@ -3163,7 +3163,7 @@
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 720,
@@ -3227,7 +3227,7 @@
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#",
                                     "flags": 96,
                                     "start": 735,
@@ -3358,28 +3358,23 @@
 ✖ Declaration or statement expected - start: 19, end: 20
 ✖ Invalid character - start: 33, end: 35
 ✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
-✖ Expected a ')' to match the '(' token here - start: 35, end: 36
 ✖ Declaration or statement expected - start: 43, end: 44
 ✖ Binding identifier expected - start: 47, end: 48
 ✖ Invalid character - start: 61, end: 63
 ✖ Unexpected token. - start: 106, end: 108
 ✖ The parser expected to find a '}' to match the '{' token here - start: 106, end: 108
-✖ Expected a ')' to match the '(' token here - start: 106, end: 108
 ✖ Declaration or statement expected - start: 110, end: 111
 ✖ Declaration or statement expected - start: 111, end: 112
 ✖ Unexpected token. - start: 126, end: 128
 ✖ The parser expected to find a '}' to match the '{' token here - start: 126, end: 128
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 126, end: 128
 ✖ Expression expected - start: 128, end: 129
-✖ Expected a ')' to match the '(' token here - start: 128, end: 129
 ✖ Declaration or statement expected - start: 129, end: 130
 ✖ Unexpected token. - start: 144, end: 147
 ✖ The parser expected to find a '}' to match the '{' token here - start: 144, end: 147
-✖ Expected a ')' to match the '(' token here - start: 144, end: 147
 ✖ Declaration or statement expected - start: 150, end: 151
 ✖ Declaration or statement expected - start: 151, end: 152
 ✖ The parser expected to find a '}' to match the '{' token here - start: 164, end: 167
-✖ Expected a ')' to match the '(' token here - start: 164, end: 167
 ✖ Declaration or statement expected - start: 170, end: 171
 ✖ Declaration or statement expected - start: 171, end: 172
 ✖ Unexpected token. - start: 187, end: 189
@@ -3389,12 +3384,10 @@
 ✖ Declaration or statement expected - start: 192, end: 193
 ✖ Unexpected token. - start: 208, end: 211
 ✖ The parser expected to find a '}' to match the '{' token here - start: 208, end: 211
-✖ Expected a ')' to match the '(' token here - start: 208, end: 211
 ✖ Declaration or statement expected - start: 213, end: 214
 ✖ Declaration or statement expected - start: 214, end: 215
 ✖ Unexpected token. - start: 230, end: 233
 ✖ The parser expected to find a '}' to match the '{' token here - start: 230, end: 233
-✖ Expected a ')' to match the '(' token here - start: 230, end: 233
 ✖ Declaration or statement expected - start: 236, end: 237
 ✖ Declaration or statement expected - start: 237, end: 238
 ✖ Unexpected token. - start: 256, end: 257
@@ -3404,7 +3397,6 @@
 ✖ Expression expected - start: 281, end: 282
 ✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 294, end: 299
 ✖ The parser expected to find a '}' to match the '{' token here - start: 302, end: 305
-✖ Expected a ')' to match the '(' token here - start: 302, end: 305
 ✖ Declaration or statement expected - start: 308, end: 309
 ✖ Declaration or statement expected - start: 309, end: 310
 ✖ Unexpected token. - start: 330, end: 332
@@ -3413,7 +3405,6 @@
 ✖ Expected a ')' to match the '(' token here - start: 334, end: 335
 ✖ Declaration or statement expected - start: 335, end: 336
 ✖ The parser expected to find a '}' to match the '{' token here - start: 354, end: 357
-✖ Expected a ')' to match the '(' token here - start: 354, end: 357
 ✖ Declaration or statement expected - start: 360, end: 361
 ✖ Declaration or statement expected - start: 361, end: 362
 ✖ Invalid character - start: 433, end: 434

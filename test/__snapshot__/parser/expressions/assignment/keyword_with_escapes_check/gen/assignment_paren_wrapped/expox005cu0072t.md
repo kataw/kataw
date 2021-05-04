@@ -94,7 +94,6 @@
 
 ```javascript
 ✖ Expression expected - start: 1, end: 12
-✖ Expected a ')' to match the '(' token here - start: 1, end: 12
 ✖ The `export` keyword can only be used with the module goal - start: 1, end: 12
 ✖ Unexpected token. - start: 12, end: 14
 ✖ Declaration or statement expected - start: 12, end: 14

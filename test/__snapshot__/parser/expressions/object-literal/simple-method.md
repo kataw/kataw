@@ -290,7 +290,6 @@ x = { method(test: string) { } };
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
 ✖ Unexpected token. - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 ✖ Expected a `;` - start: 52, end: 53
 ✖ Declaration or statement expected - start: 57, end: 59
 

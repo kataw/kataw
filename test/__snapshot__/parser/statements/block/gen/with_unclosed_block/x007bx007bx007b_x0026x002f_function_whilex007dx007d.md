@@ -204,12 +204,8 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ Expression expected - start: 21, end: 23
 ✖ Unterminated regular expression - start: 23, end: 24
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
-✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
 ✖ The parser expected to find a '}' to match the '{' token here - start: 41, end: 41
 
 ```

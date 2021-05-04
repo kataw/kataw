@@ -1577,7 +1577,6 @@
 ✖ Dot property must be an identifier - start: 130, end: 131
 ✖ ',' expected - start: 130, end: 131
 ✖ The parser expected to find a '}' to match the '{' token here - start: 130, end: 131
-✖ Expected a ')' to match the '(' token here - start: 130, end: 131
 ✖ Declaration or statement expected - start: 131, end: 132
 ✖ Declaration or statement expected - start: 132, end: 133
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 141, end: 143

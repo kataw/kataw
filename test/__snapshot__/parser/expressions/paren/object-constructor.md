@@ -85,8 +85,6 @@
 ✖ Expected a ')' to match the '(' token here - start: 23, end: 24
 ✖ Unexpected token. - start: 23, end: 24
 ✖ ',' expected - start: 23, end: 24
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 24
-✖ Expected a ')' to match the '(' token here - start: 23, end: 24
 ✖ Expected a `;` - start: 31, end: 32
 ✖ Declaration or statement expected - start: 34, end: 36
 ✖ Declaration or statement expected - start: 36, end: 37

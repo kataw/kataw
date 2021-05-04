@@ -313,16 +313,16 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 11, end: 18
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 26
+✖ Expected a ')' to match the '(' token here - start: 21, end: 26
 ✖ Expected a `;` - start: 26, end: 29
 ✖ Expected a `;` - start: 29, end: 37
 ✖ Expected a `;` - start: 37, end: 40
 ✖ Expected a `;` - start: 40, end: 45
 ✖ Expected a `;` - start: 45, end: 52
 ✖ Expected a `;` - start: 52, end: 58
+✖ Expected a ')' to match the '(' token here - start: 60, end: 64
 ✖ Expected a `;` - start: 64, end: 68
 ✖ Expression expected - start: 75, end: 75
-✖ The parser expected to find a '}' to match the '{' token here - start: 75, end: 75
 
 ```
 

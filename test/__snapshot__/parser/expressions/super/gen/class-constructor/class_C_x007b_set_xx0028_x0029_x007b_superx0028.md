@@ -265,7 +265,6 @@ class C { constructor() { class C { set x(_) { super( } }
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 52, end: 53
 ✖ Expected a ')' to match the '(' token here - start: 53, end: 55
 ✖ The parser expected to find a '}' to match the '{' token here - start: 57, end: 57
-✖ The parser expected to find a '}' to match the '{' token here - start: 57, end: 57
 
 ```
 

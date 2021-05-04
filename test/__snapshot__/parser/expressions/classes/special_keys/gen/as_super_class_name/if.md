@@ -130,7 +130,7 @@ class x extends if {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 18
-✖ Expression expected - start: 21, end: 21
+✖ Expected a ')' to match the '(' token here - start: 21, end: 21
 
 ```
 

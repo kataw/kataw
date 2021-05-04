@@ -161,7 +161,6 @@
 ✖ Did you forgot a ']' to match the `[` token? - start: 8, end: 12
 ✖ 'try' expected - start: 20, end: 26
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
 
 ```
 

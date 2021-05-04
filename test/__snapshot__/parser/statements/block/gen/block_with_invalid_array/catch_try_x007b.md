@@ -146,7 +146,6 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ 'try' expected - start: 9, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 21
 
 ```
 

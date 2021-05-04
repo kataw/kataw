@@ -136,6 +136,7 @@ while(y
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 27, end: 27
+
 ```
 

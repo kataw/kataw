@@ -191,9 +191,9 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 8
 ✖ 'try' expected - start: 3, end: 8
+✖ Expected a ')' to match the '(' token here - start: 14, end: 21
 ✖ Expression expected - start: 21, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 21, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 35
+✖ Expected a ')' to match the '(' token here - start: 29, end: 35
 
 ```
 

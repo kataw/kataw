@@ -985,15 +985,13 @@ async function f(){}
 ✖ Expected a ')' to match the '(' token here - start: 142, end: 143
 ✖ Unexpected token. - start: 142, end: 143
 ✖ Expected a `;` - start: 144, end: 151
-✖ The parser expected to find a '}' to match the '{' token here - start: 155, end: 159
+✖ Expected a ')' to match the '(' token here - start: 155, end: 159
 ✖ Expression expected - start: 172, end: 173
 ✖ The parser expected to find a '}' to match the '{' token here - start: 174, end: 175
 ✖ Expression expected - start: 175, end: 176
 ✖ Unexpected token. - start: 222, end: 228
 ✖ Unexpected token. - start: 237, end: 238
-✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
-✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
-✖ The parser expected to find a '}' to match the '{' token here - start: 237, end: 238
+✖ Expected a ')' to match the '(' token here - start: 237, end: 238
 
 ```
 

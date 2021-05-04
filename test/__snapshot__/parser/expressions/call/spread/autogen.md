@@ -134,24 +134,26 @@ function fn() {} fn( # );
                 },
                 "argumentList": {
                     "kind": 256,
-                    "elements": [],
+                    "elements": [
+                        {
+                            "kind": 67174651,
+                            "text": "#",
+                            "flags": 96,
+                            "start": 34,
+                            "end": 36
+                        }
+                    ],
                     "trailingComma": false,
                     "flags": 32,
                     "start": 34,
-                    "end": 34
+                    "end": 36
                 },
                 "flags": 32,
                 "start": 30,
-                "end": 34
+                "end": 38
             },
             "flags": 16,
             "start": 30,
-            "end": 34
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 38,
             "end": 39
         }
     ],
@@ -174,8 +176,7 @@ function fn() {} fn( # );
 
 ```javascript
 ✖ Invalid character - start: 34, end: 36
-✖ Expected a ')' to match the '(' token here - start: 34, end: 36
-✖ Declaration or statement expected - start: 36, end: 38
+✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 36
 
 ```
 

@@ -1356,7 +1356,6 @@
 ✖ The left hand side of the arrow is not destructible  - start: 221, end: 224
 ✖ Expected a `;` - start: 227, end: 228
 ✖ Expression expected - start: 232, end: 234
-✖ Expected a ')' to match the '(' token here - start: 232, end: 234
 ✖ Expression expected - start: 234, end: 235
 ✖ Expression expected - start: 235, end: 238
 ✖ Expected a ')' to match the '(' token here - start: 247, end: 250

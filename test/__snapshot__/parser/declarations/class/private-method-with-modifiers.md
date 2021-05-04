@@ -62,7 +62,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#g",
                                 "flags": 96,
                                 "start": 14,
@@ -117,7 +117,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#a",
                                 "flags": 96,
                                 "start": 28,
@@ -177,7 +177,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#ag",
                                 "flags": 96,
                                 "start": 45,
@@ -237,7 +237,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#sg",
                                 "flags": 96,
                                 "start": 63,
@@ -297,7 +297,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#sa",
                                 "flags": 96,
                                 "start": 85,
@@ -362,7 +362,7 @@ class Foo {
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#sag",
                                 "flags": 96,
                                 "start": 110,

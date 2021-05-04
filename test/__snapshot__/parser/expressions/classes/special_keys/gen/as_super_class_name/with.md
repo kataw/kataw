@@ -128,7 +128,7 @@ class x extends with {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 20
-✖ Expression expected - start: 23, end: 23
+✖ Expected a ')' to match the '(' token here - start: 23, end: 23
 
 ```
 

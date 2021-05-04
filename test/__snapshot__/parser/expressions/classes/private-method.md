@@ -148,7 +148,7 @@ class x { #foo() {}}
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#foo",
                                 "flags": 96,
                                 "start": 9,
@@ -226,7 +226,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 30,
@@ -317,7 +317,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 53,
@@ -408,7 +408,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 77,
@@ -518,7 +518,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 102,
@@ -609,7 +609,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 127,
@@ -705,7 +705,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 155,
@@ -791,7 +791,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 176,
@@ -841,7 +841,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 184,
@@ -932,7 +932,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 207,
@@ -987,7 +987,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 220,
@@ -1097,7 +1097,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 246,
@@ -1152,7 +1152,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 259,
@@ -1207,7 +1207,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 271,
@@ -1317,7 +1317,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 297,
@@ -1372,7 +1372,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 310,
@@ -1427,7 +1427,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 322,
@@ -1501,7 +1501,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 337,
@@ -1611,7 +1611,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 363,
@@ -1685,7 +1685,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 379,
@@ -1795,7 +1795,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 405,
@@ -1850,7 +1850,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 418,
@@ -1936,7 +1936,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 439,
@@ -2078,7 +2078,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 473,
@@ -2215,7 +2215,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 500,
@@ -2413,7 +2413,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 544,
@@ -2621,7 +2621,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 597,
@@ -2881,7 +2881,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 657,
@@ -2936,7 +2936,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 669,
@@ -3022,7 +3022,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 689,
@@ -3077,7 +3077,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 703,
@@ -3163,7 +3163,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 723,
@@ -3223,7 +3223,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#b",
                                         "flags": 96,
                                         "start": 739,
@@ -3309,7 +3309,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#get",
                                         "flags": 96,
                                         "start": 759,
@@ -3395,7 +3395,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#set",
                                         "flags": 96,
                                         "start": 780,
@@ -3481,7 +3481,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 802,
@@ -3567,7 +3567,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 826,
@@ -3653,7 +3653,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 850,
@@ -3739,7 +3739,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 874,
@@ -3825,7 +3825,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 899,
@@ -3916,7 +3916,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 931,
@@ -4007,7 +4007,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 959,
@@ -4098,7 +4098,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 987,
@@ -4189,7 +4189,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#get",
                                         "flags": 96,
                                         "start": 1015,
@@ -4280,7 +4280,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 1041,
@@ -4371,7 +4371,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 1070,
@@ -4462,7 +4462,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 1102,
@@ -4572,7 +4572,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 1134,
@@ -4682,7 +4682,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 1166,
@@ -4792,7 +4792,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#set",
                                         "flags": 96,
                                         "start": 1198,
@@ -4902,7 +4902,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 1228,
@@ -5012,7 +5012,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 1261,
@@ -5122,7 +5122,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 1299,
@@ -5213,7 +5213,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 1329,
@@ -5304,7 +5304,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 1359,
@@ -5395,7 +5395,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#get",
                                         "flags": 96,
                                         "start": 1389,
@@ -5486,7 +5486,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#set",
                                         "flags": 96,
                                         "start": 1417,
@@ -5577,7 +5577,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 1445,
@@ -5668,7 +5668,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 1476,
@@ -5759,7 +5759,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 1506,
@@ -5850,7 +5850,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 1531,
@@ -5941,7 +5941,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 1556,
@@ -6032,7 +6032,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#get",
                                         "flags": 96,
                                         "start": 1581,
@@ -6123,7 +6123,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#set",
                                         "flags": 96,
                                         "start": 1604,
@@ -6214,7 +6214,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 1627,
@@ -6305,7 +6305,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 1653,
@@ -6401,7 +6401,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#yield",
                                         "flags": 96,
                                         "start": 1688,
@@ -6497,7 +6497,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#async",
                                         "flags": 96,
                                         "start": 1719,
@@ -6593,7 +6593,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#await",
                                         "flags": 96,
                                         "start": 1750,
@@ -6689,7 +6689,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#get",
                                         "flags": 96,
                                         "start": 1781,
@@ -6785,7 +6785,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#set",
                                         "flags": 96,
                                         "start": 1810,
@@ -6881,7 +6881,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#static",
                                         "flags": 96,
                                         "start": 1839,
@@ -6977,7 +6977,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#arguments",
                                         "flags": 96,
                                         "start": 1871,
@@ -7058,7 +7058,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 1899,
@@ -7089,7 +7089,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 1903,
@@ -7170,7 +7170,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 1923,
@@ -7206,7 +7206,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 1930,
@@ -7287,7 +7287,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 1951,
@@ -7323,7 +7323,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 1958,
@@ -7423,7 +7423,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 1982,
@@ -7459,7 +7459,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 1987,
@@ -7540,7 +7540,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2007,
@@ -7576,7 +7576,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2016,
@@ -7657,7 +7657,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2037,
@@ -7698,7 +7698,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2048,
@@ -7779,7 +7779,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2068,
@@ -7817,7 +7817,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2076,
@@ -7898,7 +7898,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2096,
@@ -7941,7 +7941,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2107,
@@ -8022,7 +8022,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2128,
@@ -8065,7 +8065,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2139,
@@ -8165,7 +8165,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2163,
@@ -8208,7 +8208,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2172,
@@ -8289,7 +8289,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2192,
@@ -8332,7 +8332,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2205,
@@ -8413,7 +8413,7 @@ class x { #foo() {}}
                                 "staticToken": null,
                                 "asyncKeyword": null,
                                 "key": {
-                                    "kind": 67109115,
+                                    "kind": 67174651,
                                     "text": "#b",
                                     "flags": 96,
                                     "start": 2226,
@@ -8461,7 +8461,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2241,
@@ -8574,7 +8574,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2264,
@@ -8692,7 +8692,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2290,
@@ -8810,7 +8810,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2317,
@@ -8947,7 +8947,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2345,
@@ -9065,7 +9065,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2373,
@@ -9188,7 +9188,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2404,
@@ -9308,7 +9308,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2431,
@@ -9433,7 +9433,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2461,
@@ -9558,7 +9558,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2492,
@@ -9702,7 +9702,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2524,
@@ -9827,7 +9827,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2556,
@@ -9957,7 +9957,7 @@ class x { #foo() {}}
                                 "method": {
                                     "kind": 209,
                                     "name": {
-                                        "kind": 67109115,
+                                        "kind": 67174651,
                                         "text": "#a",
                                         "flags": 96,
                                         "start": 2591,

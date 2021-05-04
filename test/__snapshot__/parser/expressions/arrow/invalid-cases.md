@@ -3804,7 +3804,6 @@ a++ => {};
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Expression expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
-✖ The parser expected to find a '}' to match the '{' token here - start: 81, end: 82
 ✖ Declaration or statement expected - start: 85, end: 86
 ✖ Declaration or statement expected - start: 87, end: 204
 ✖ Declaration or statement expected - start: 205, end: 207
@@ -3824,7 +3823,6 @@ a++ => {};
 ✖ Expected a `;` - start: 1333, end: 1336
 ✖ Expression expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1352, end: 1354
-✖ Expected a ')' to match the '(' token here - start: 1352, end: 1354
 ✖ Expression expected - start: 1354, end: 1355
 ✖ Expression expected - start: 1355, end: 1358
 ✖ Expected a ')' to match the '(' token here - start: 1366, end: 1369

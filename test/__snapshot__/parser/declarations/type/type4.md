@@ -1247,7 +1247,6 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 ✖ Identifier expected - start: 129, end: 132
-✖ Expected a ')' to match the '(' token here - start: 129, end: 132
 ✖ Expected a `;` - start: 134, end: 135
 ✖ Expression expected - start: 135, end: 136
 ✖ Expression expected - start: 136, end: 137

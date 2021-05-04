@@ -72,7 +72,6 @@
 
 ```javascript
 ✖ Expression expected - start: 1, end: 9
-✖ Expected a ')' to match the '(' token here - start: 1, end: 9
 ✖ Expected a `;` - start: 9, end: 10
 
 ```

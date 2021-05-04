@@ -124,9 +124,6 @@
 ```javascript
 ✖ Expected a `;` - start: 11, end: 17
 ✖ Expected a `;` - start: 17, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 19, end: 19
 
 ```
 

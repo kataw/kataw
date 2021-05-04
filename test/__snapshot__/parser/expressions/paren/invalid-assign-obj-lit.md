@@ -2335,7 +2335,6 @@
 ✖ Expression expected - start: 258, end: 259
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 283, end: 284
 ✖ The parser expected to find a '}' to match the '{' token here - start: 287, end: 288
-✖ Expected a ')' to match the '(' token here - start: 287, end: 288
 ✖ Declaration or statement expected - start: 290, end: 291
 ✖ Declaration or statement expected - start: 295, end: 296
 ✖ Declaration or statement expected - start: 296, end: 297

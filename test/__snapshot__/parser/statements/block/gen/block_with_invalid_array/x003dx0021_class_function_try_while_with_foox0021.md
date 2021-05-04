@@ -286,7 +286,7 @@
 ✖ Expected a `;` - start: 18, end: 27
 ✖ Binding identifier expected - start: 27, end: 31
 ✖ Unexpected token. - start: 27, end: 31
-✖ Expression expected - start: 47, end: 47
+✖ Expected a ')' to match the '(' token here - start: 46, end: 47
 
 ```
 

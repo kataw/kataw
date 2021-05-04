@@ -184,7 +184,6 @@
 ✖ Binding identifier expected - start: 25, end: 27
 ✖ Unexpected token. - start: 25, end: 27
 ✖ Expression expected - start: 28, end: 28
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
 
 ```
 

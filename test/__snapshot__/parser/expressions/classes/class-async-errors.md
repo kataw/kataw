@@ -1416,20 +1416,16 @@
 ```javascript
 ✖ Binding identifier expected - start: 41, end: 42
 ✖ The parser expected to find a '}' to match the '{' token here - start: 122, end: 124
-✖ Expected a ')' to match the '(' token here - start: 122, end: 124
 ✖ Declaration or statement expected - start: 126, end: 127
 ✖ Declaration or statement expected - start: 127, end: 128
 ✖ The parser expected to find a '}' to match the '{' token here - start: 144, end: 146
-✖ Expected a ')' to match the '(' token here - start: 144, end: 146
 ✖ Declaration or statement expected - start: 148, end: 149
 ✖ Declaration or statement expected - start: 149, end: 150
 ✖ Binding identifier expected - start: 240, end: 241
 ✖ The parser expected to find a '}' to match the '{' token here - start: 342, end: 344
-✖ Expected a ')' to match the '(' token here - start: 342, end: 344
 ✖ Declaration or statement expected - start: 346, end: 347
 ✖ Declaration or statement expected - start: 347, end: 348
 ✖ The parser expected to find a '}' to match the '{' token here - start: 371, end: 373
-✖ Expected a ')' to match the '(' token here - start: 371, end: 373
 ✖ Declaration or statement expected - start: 375, end: 376
 ✖ Declaration or statement expected - start: 376, end: 377
 

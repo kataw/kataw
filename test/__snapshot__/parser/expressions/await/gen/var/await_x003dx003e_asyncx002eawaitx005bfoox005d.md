@@ -174,8 +174,6 @@ var await; var f = (async function() { await => async.await[foo] });
 
 ```javascript
 ✖ Expression expected - start: 44, end: 47
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 47
-✖ Expected a ')' to match the '(' token here - start: 44, end: 47
 ✖ ',' expected - start: 44, end: 47
 ✖ Declaration or statement expected - start: 64, end: 66
 ✖ Declaration or statement expected - start: 66, end: 67

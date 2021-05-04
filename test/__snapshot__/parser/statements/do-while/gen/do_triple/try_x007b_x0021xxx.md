@@ -238,7 +238,6 @@ do do do try { !xxx while while while
 ✖ Expected a `;` - start: 19, end: 25
 ✖ Expression expected - start: 25, end: 31
 ✖ Expression expected - start: 31, end: 37
-✖ The parser expected to find a '}' to match the '{' token here - start: 37, end: 37
 
 ```
 

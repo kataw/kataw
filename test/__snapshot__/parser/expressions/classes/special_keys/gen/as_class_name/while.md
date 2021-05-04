@@ -108,7 +108,7 @@ class while {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 11
-✖ Expression expected - start: 14, end: 14
+✖ Expected a ')' to match the '(' token here - start: 14, end: 14
 
 ```
 

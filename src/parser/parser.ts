@@ -148,10 +148,6 @@ import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 import { DiagnosticSource } from '../diagnostic/diagnostic';
 import { TypeNode } from '../ast/types';
 import {
-  createNamespaceExportDeclaration,
-  NamespaceExportDeclaration
-} from '../ast/module/namespace-export-declaration';
-import {
   createPropertyDefinitionList,
   PropertyDefinitionList,
   Properties
@@ -267,11 +263,7 @@ export function parse(
       parser.previousErrorPos = parser.pos;
       parser.onError(
         DiagnosticSource.Parser,
-        diagnosticMap[
-          parser.token === SyntaxKind.PrivateIdentifier
-            ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
-            : DiagnosticCode.Declaration_or_statement_expected
-        ],
+        diagnosticMap[DiagnosticCode.Declaration_or_statement_expected],
         parser.curPos,
         parser.pos
       );
@@ -282,14 +274,22 @@ export function parse(
 }
 
 function parseModuleItem(parser: ParserState, context: Context): StatementNode {
-  switch (parser.token) {
-    case SyntaxKind.ImportKeyword:
-      return parseImportDeclaration(parser, context, /* isScript*/ false);
-    case SyntaxKind.ExportKeyword:
-      return parseExportDeclaration(parser, context);
-    default:
-      return parseStatementListItem(parser, context);
+  // ecma262/#prod-ModuleItem
+  // ModuleItem :
+  //    ImportDeclaration
+  //    ExportDeclaration
+  //    StatementListItem
+  const next = parser.token;
+  if (next === SyntaxKind.ExportKeyword) {
+    return parseExportDeclaration(parser, context);
   }
+
+  if (next === SyntaxKind.ImportKeyword) {
+    //  dynamic import expression and import.meta expressions are parsed as part
+    // of the import declaration to avoid any lookaheads
+    return parseImportDeclaration(parser, context, /* isScript*/ false);
+  }
+  return parseStatementListItem(parser, context);
 }
 
 function parseStatementListItem(parser: ParserState, context: Context): StatementNode {
@@ -385,6 +385,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
         parser.curPos,
         parser.pos
       );
+      /* error recovery */
       return parseFunctionDeclaration(
         parser,
         context,
@@ -400,6 +401,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
         parser.curPos,
         parser.pos
       );
+      /* error recovery */
       return parseClassDeclaration(parser, context, /* declareKeyword */ null, /* isDefaultModifier */ false);
     default:
       return parseExpressionOrLabelledStatement(parser, context, allowFunction);
@@ -413,7 +415,7 @@ function parseSwitchStatement(parser: ParserState, context: Context): SwitchStat
   const switchToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.SwitchKeyword);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const caseBlock = parseCaseBlock(parser, context | Context.InSwitch);
   return createSwitchStatement(switchToken, expression, caseBlock, pos, parser.curPos);
 }
@@ -614,7 +616,7 @@ function parseIfStatement(parser: ParserState, context: Context): IfStatement {
   }
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const consequent = parseConsequentOrAlternative(parser, context);
   const elseKeyword = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.ElseKeyword);
   const alternate = elseKeyword ? parseConsequentOrAlternative(parser, context) : null;
@@ -642,7 +644,7 @@ function parseWhileStatement(parser: ParserState, context: Context): WhileStatem
   const whileToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WhileKeyword);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const statement = parseStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
@@ -671,7 +673,7 @@ function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileSt
   }
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Semicolon);
   return createDoWhileStatement(doKeyword, expression, whileKeyword, statement, pos, parser.curPos);
 }
@@ -689,7 +691,7 @@ function parseWithStatement(parser: ParserState, context: Context): WithStatemen
   const withKeyword = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.WithKeyword);
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
   const expression = parseExpression(parser, context);
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
   const statement = parseStatement(
     parser,
     (context | 0b00000000100000000001000010000000) ^ 0b00000000100000000000000010000000,
@@ -968,7 +970,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         );
       }
       const expression = parseExpression(parser, context);
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+      parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
 
       return createForOfStatement(
         forKeyword,
@@ -1002,7 +1004,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
 
       const expression = parseExpressions(parser, context);
 
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+      parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
 
       return createForInStatement(
         forKeyword,
@@ -1051,7 +1053,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
 
   if (parser.token !== SyntaxKind.RightParen) incrementor = parseExpressions(parser, context);
 
-  consume(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
+  parseExpectedMatchingBracket(parser, context | Context.AllowRegExp, SyntaxKind.RightParen);
 
   return createForStatement(
     forKeyword,
@@ -1241,6 +1243,7 @@ function parseExpectedMatchingBracket(parser: ParserState, context: Context, t: 
     nextToken(parser, context);
     return;
   }
+  if (parser.previousErrorPos !== parser.pos) {
   parser.previousErrorPos = parser.pos;
   parser.onError(
     DiagnosticSource.Parser,
@@ -1256,6 +1259,7 @@ function parseExpectedMatchingBracket(parser: ParserState, context: Context, t: 
     parser.curPos,
     parser.pos
   );
+}
 }
 
 function parseBlock(parser: ParserState, context: Context): Block {

@@ -152,8 +152,6 @@
 ✖ 'try' expected - start: 3, end: 8
 ✖ Expected a `;` - start: 19, end: 21
 ✖ Expected a `;` - start: 21, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
-✖ The parser expected to find a '}' to match the '{' token here - start: 23, end: 23
 
 ```
 

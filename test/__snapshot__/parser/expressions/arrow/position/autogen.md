@@ -423,7 +423,7 @@ function f(a = #) {}
                     "end": 3
                 },
                 "right": {
-                    "kind": 67109115,
+                    "kind": 67174651,
                     "text": "#",
                     "flags": 96,
                     "start": 3,

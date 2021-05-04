@@ -128,7 +128,7 @@ class x extends while {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 21
-✖ Expression expected - start: 24, end: 24
+✖ Expected a ')' to match the '(' token here - start: 24, end: 24
 
 ```
 

@@ -141,7 +141,6 @@
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 2, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 13
-✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 13
 
 ```
 

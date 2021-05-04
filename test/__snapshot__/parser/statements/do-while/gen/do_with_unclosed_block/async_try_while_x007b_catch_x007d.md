@@ -184,7 +184,6 @@ do {} while (x) { async try while { catch }
 ✖ Expected a `;` - start: 23, end: 27
 ✖ 'try' expected - start: 35, end: 41
 ✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
 
 ```
 

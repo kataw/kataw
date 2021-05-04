@@ -216,51 +216,45 @@ class C { set x(_) { # } }
                                 "functionStatementList": {
                                     "kind": 217,
                                     "directives": [],
-                                    "statements": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 67174651,
+                                                "text": "#",
+                                                "flags": 96,
+                                                "start": 25,
+                                                "end": 27
+                                            },
+                                            "flags": 16,
+                                            "start": 25,
+                                            "end": 27
+                                        }
+                                    ],
                                     "flags": 32,
                                     "start": 25,
-                                    "end": 25
+                                    "end": 27
                                 },
                                 "flags": 32,
                                 "start": 23,
-                                "end": 25
+                                "end": 29
                             },
                             "flags": 2048,
                             "start": 21,
-                            "end": 25
+                            "end": 29
                         },
                         "flags": 2048,
                         "start": 9,
-                        "end": 25
-                    },
-                    {
-                        "kind": 280,
-                        "decorators": null,
-                        "declaredToken": null,
-                        "staticToken": null,
-                        "asyncKeyword": null,
-                        "key": {
-                            "kind": 67109115,
-                            "text": "#",
-                            "flags": 96,
-                            "start": 25,
-                            "end": 27
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "initializer": null,
-                        "flags": 32,
-                        "start": 25,
-                        "end": 27
+                        "end": 29
                     }
                 ],
                 "flags": 32,
                 "start": 9,
-                "end": 29
+                "end": 31
             },
             "flags": 16,
             "start": 0,
-            "end": 29
+            "end": 31
         }
     ],
     "isModule": false,
@@ -282,8 +276,6 @@ class C { set x(_) { # } }
 
 ```javascript
 ✖ Invalid character - start: 25, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 27
-✖ Declaration or statement expected - start: 29, end: 31
 
 ```
 

@@ -159,7 +159,6 @@ do {} while (x) { try { !xxx
 
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
 
 ```
 

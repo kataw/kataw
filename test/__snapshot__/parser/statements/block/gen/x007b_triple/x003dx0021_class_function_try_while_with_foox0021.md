@@ -256,9 +256,7 @@
 ✖ Expected a `;` - start: 14, end: 23
 ✖ Binding identifier expected - start: 23, end: 27
 ✖ Unexpected token. - start: 23, end: 27
-✖ Expression expected - start: 43, end: 43
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
+✖ Expected a ')' to match the '(' token here - start: 42, end: 43
 
 ```
 

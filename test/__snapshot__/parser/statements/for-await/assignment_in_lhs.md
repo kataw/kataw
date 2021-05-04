@@ -145,8 +145,8 @@ async function f(){
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 41, end: 43
 ✖ Expected a `;` - start: 43, end: 44
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
 ✖ Declaration or statement expected - start: 45, end: 47
 
 ```

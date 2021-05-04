@@ -2240,7 +2240,6 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 29, end: 32
 ✖ Expected a `;` - start: 32, end: 35
 ✖ Expression expected - start: 53, end: 58
-✖ Expected a ')' to match the '(' token here - start: 53, end: 58
 ✖ 'try' expected - start: 53, end: 58
 ✖ Declaration or statement expected - start: 59, end: 61
 ✖ Expected a `;` - start: 71, end: 74
@@ -2279,7 +2278,6 @@ async ([a]:string)=>c;
 ✖ Expected a `;` - start: 492, end: 495
 ✖ Declaration or statement expected - start: 524, end: 527
 ✖ Expression expected - start: 551, end: 554
-✖ The parser expected to find a '}' to match the '{' token here - start: 551, end: 554
 ✖ Declaration or statement expected - start: 559, end: 561
 ✖ Declaration or statement expected - start: 585, end: 588
 ✖ Binding identifier expected - start: 601, end: 603

@@ -228,7 +228,7 @@
 ✖ Expected a `;` - start: 10, end: 19
 ✖ Binding identifier expected - start: 19, end: 23
 ✖ Unexpected token. - start: 19, end: 23
-✖ Expression expected - start: 39, end: 39
+✖ Expected a ')' to match the '(' token here - start: 38, end: 39
 
 ```
 

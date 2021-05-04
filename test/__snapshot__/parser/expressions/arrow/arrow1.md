@@ -141,6 +141,32 @@
         {
             "kind": 120,
             "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 23,
+                "end": 25
+            },
+            "flags": 16,
+            "start": 23,
+            "end": 25
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 25,
+                "end": 26
+            },
+            "flags": 16,
+            "start": 25,
+            "end": 26
+        },
+        {
+            "kind": 120,
+            "expression": {
                 "kind": 134299649,
                 "text": "Options",
                 "rawText": "Options",
@@ -151,6 +177,45 @@
             "flags": 16,
             "start": 26,
             "end": 34
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 34,
+                "end": 37
+            },
+            "flags": 16,
+            "start": 34,
+            "end": 37
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 37,
+                "end": 38
+            },
+            "flags": 16,
+            "start": 37,
+            "end": 38
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 38,
+                "end": 39
+            },
+            "flags": 16,
+            "start": 38,
+            "end": 39
         },
         {
             "kind": 120,
@@ -246,13 +311,18 @@
 ✖ Invalid character - start: 23, end: 25
 ✖ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
 ✖ Invalid character - start: 25, end: 26
+✖ Expected a `;` - start: 25, end: 26
 ✖ Private identifiers are not allowed outside class_bodies - start: 25, end: 26
+✖ Expected a `;` - start: 26, end: 34
 ✖ Invalid character - start: 34, end: 37
 ✖ Private identifiers are not allowed outside class_bodies - start: 34, end: 37
 ✖ Invalid character - start: 37, end: 38
+✖ Expected a `;` - start: 37, end: 38
 ✖ Private identifiers are not allowed outside class_bodies - start: 37, end: 38
 ✖ Invalid character - start: 38, end: 39
+✖ Expected a `;` - start: 38, end: 39
 ✖ Private identifiers are not allowed outside class_bodies - start: 38, end: 39
+✖ Expected a `;` - start: 39, end: 46
 ✖ Expected a `;` - start: 46, end: 54
 ✖ Unterminated template literal - start: 60, end: 85
 

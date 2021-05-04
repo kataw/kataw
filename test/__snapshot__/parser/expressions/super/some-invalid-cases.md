@@ -2611,8 +2611,6 @@ let x = { foo(){ super(); } };
 ✖ Expected a ')' to match the '(' token here - start: 473, end: 478
 ✖ Unexpected token. - start: 473, end: 478
 ✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
-✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
-✖ The parser expected to find a '}' to match the '{' token here - start: 478, end: 479
 ✖ Expected a `;` - start: 482, end: 483
 ✖ Declaration or statement expected - start: 485, end: 487
 ✖ Declaration or statement expected - start: 487, end: 490

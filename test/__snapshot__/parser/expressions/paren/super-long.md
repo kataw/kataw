@@ -44171,8 +44171,6 @@
 ✖ Expected a `;` - start: 6808, end: 6809
 ✖ Did you forgot a ']' to match the `[` token? - start: 6846, end: 6847
 ✖ Expected a ')' to match the '(' token here - start: 6851, end: 6852
-✖ Expected a ')' to match the '(' token here - start: 6851, end: 6852
-✖ Expected a ')' to match the '(' token here - start: 6851, end: 6852
 ✖ Did you forgot a ']' to match the `[` token? - start: 6854, end: 6855
 ✖ Expected a `;` - start: 6857, end: 6858
 ✖ Did you forgot a ']' to match the `[` token? - start: 6860, end: 6861

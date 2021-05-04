@@ -433,15 +433,34 @@ function *f(){
         {
             "kind": 120,
             "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 3,
+                "kind": 125,
+                "left": {
+                    "kind": 67174651,
+                    "text": "#",
+                    "flags": 96,
+                    "start": 0,
+                    "end": 1
+                },
+                "operatorToken": {
+                    "kind": 4125,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 3
+                },
+                "right": {
+                    "kind": 134299649,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 96,
+                    "start": 3,
+                    "end": 5
+                },
+                "flags": 32,
+                "start": 0,
                 "end": 5
             },
             "flags": 16,
-            "start": 3,
+            "start": 0,
             "end": 6
         }
     ],
@@ -465,7 +484,6 @@ function *f(){
 ```javascript
 ✖ Invalid character - start: 0, end: 1
 ✖ Private identifiers are not allowed outside class_bodies - start: 0, end: 1
-✖ Declaration or statement expected - start: 1, end: 3
 
 ```
 

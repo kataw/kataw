@@ -143,7 +143,6 @@ function not_gen() { await.b[c] => async }}
 
 ```javascript
 ✖ Expected a `;` - start: 31, end: 34
-✖ The parser expected to find a '}' to match the '{' token here - start: 31, end: 34
 ✖ Declaration or statement expected - start: 40, end: 42
 ✖ Declaration or statement expected - start: 42, end: 43
 

@@ -113,7 +113,6 @@ var v = a => <any><any>{}
 
 ```javascript
 ✖ Expected a ')' to match the '(' token here - start: 25, end: 25
-✖ Expected a ')' to match the '(' token here - start: 25, end: 25
 
 ```
 

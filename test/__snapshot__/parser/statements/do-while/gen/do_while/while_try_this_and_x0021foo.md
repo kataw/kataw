@@ -163,7 +163,7 @@ do while try this and !foo while
 
 ```javascript
 ✖ Expression expected - start: 8, end: 12
-✖ Expression expected - start: 32, end: 32
+✖ Expected a ')' to match the '(' token here - start: 26, end: 32
 
 ```
 

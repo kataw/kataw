@@ -182,6 +182,7 @@ for (class x extends a in b {} in c);
 
 ```javascript
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 25, end: 27
+✖ Expected a ')' to match the '(' token here - start: 27, end: 29
 ✖ Expression expected - start: 30, end: 33
 ✖ Expected a `;` - start: 35, end: 36
 

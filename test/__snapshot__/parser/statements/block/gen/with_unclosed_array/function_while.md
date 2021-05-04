@@ -147,7 +147,6 @@
 ✖ Unexpected token. - start: 11, end: 17
 ✖ ',' expected - start: 11, end: 17
 ✖ Did you forgot a ']' to match the `[` token? - start: 11, end: 17
-✖ The parser expected to find a '}' to match the '{' token here - start: 17, end: 17
 
 ```
 

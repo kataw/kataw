@@ -171,7 +171,6 @@ do {} while (x) { function while
 ```javascript
 ✖ Binding identifier expected - start: 26, end: 32
 ✖ Unexpected token. - start: 26, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
 
 ```
 

@@ -108,7 +108,7 @@ class with {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 10
-✖ Expression expected - start: 13, end: 13
+✖ Expected a ')' to match the '(' token here - start: 13, end: 13
 
 ```
 

@@ -212,10 +212,8 @@ async function f(){   function fh([+ await x]) { }   }
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 35, end: 36
 ✖ ',' expected - start: 35, end: 36
-✖ Expected a ')' to match the '(' token here - start: 35, end: 36
 ✖ Unexpected token. - start: 35, end: 36
 ✖ Expected a `;` - start: 44, end: 45
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 ✖ Declaration or statement expected - start: 45, end: 46
 ✖ Declaration or statement expected - start: 50, end: 54
 

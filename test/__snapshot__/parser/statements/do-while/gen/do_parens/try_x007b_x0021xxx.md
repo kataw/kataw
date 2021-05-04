@@ -143,7 +143,6 @@ do( try { !xxx while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 7
-✖ Expected a ')' to match the '(' token here - start: 3, end: 7
 ✖ The parser expected to find a '}' to match the '{' token here - start: 9, end: 11
 ✖ Expected a `;` - start: 14, end: 20
 

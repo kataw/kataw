@@ -212,10 +212,9 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
+✖ Expected a ')' to match the '(' token here - start: 22, end: 29
 ✖ Expression expected - start: 29, end: 35
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 35
-✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 43
+✖ Expected a ')' to match the '(' token here - start: 37, end: 43
 
 ```
 

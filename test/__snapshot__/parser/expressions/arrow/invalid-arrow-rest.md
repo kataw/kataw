@@ -87,7 +87,6 @@
 ```javascript
 ✖ A rest element cannot have an initializer - start: 8, end: 10
 ✖ Expression expected - start: 10, end: 14
-✖ Expected a ')' to match the '(' token here - start: 10, end: 14
 ✖ Expected a `;` - start: 17, end: 18
 ✖ Declaration or statement expected - start: 18, end: 21
 

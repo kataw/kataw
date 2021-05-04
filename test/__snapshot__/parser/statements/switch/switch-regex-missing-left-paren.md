@@ -116,6 +116,8 @@ switch (/a/i {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a ')' to match the '(' token here - start: 28, end: 30
+✖ Expected a ')' to match the '(' token here - start: 45, end: 47
+
 ```
 

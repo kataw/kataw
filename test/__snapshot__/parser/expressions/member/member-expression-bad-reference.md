@@ -34,7 +34,7 @@ something.#x
                     "end": 9
                 },
                 "expression": {
-                    "kind": 67109115,
+                    "kind": 67174651,
                     "text": "#x",
                     "flags": 96,
                     "start": 10,

@@ -133,6 +133,7 @@ for (x in a>c;;) x
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 13, end: 14
 ✖ Declaration or statement expected - start: 15, end: 16
 
 ```

@@ -244,6 +244,7 @@ do( =! class function try while with foo! while
 ✖ Expression expected - start: 3, end: 5
 ✖ Expected a ')' to match the '(' token here - start: 12, end: 21
 ✖ Expression expected - start: 21, end: 25
+✖ Expected a ')' to match the '(' token here - start: 40, end: 41
 ✖ Expression expected - start: 41, end: 47
 
 ```

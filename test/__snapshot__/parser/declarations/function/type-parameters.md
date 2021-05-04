@@ -987,7 +987,6 @@ type T = <
 ✖ Expected a `;` - start: 144, end: 148
 ✖ Expected a `;` - start: 148, end: 150
 ✖ Expected a `;` - start: 173, end: 174
-✖ The parser expected to find a '}' to match the '{' token here - start: 173, end: 174
 ✖ Declaration or statement expected - start: 179, end: 182
 ✖ Expected a `;` - start: 188, end: 190
 ✖ Expression expected - start: 259, end: 260
@@ -1003,7 +1002,6 @@ type T = <
 ✖ Expected a `;` - start: 378, end: 382
 ✖ Expected a `;` - start: 382, end: 384
 ✖ Expected a `;` - start: 412, end: 413
-✖ The parser expected to find a '}' to match the '{' token here - start: 412, end: 413
 ✖ Declaration or statement expected - start: 418, end: 421
 ✖ Expected a `;` - start: 427, end: 429
 

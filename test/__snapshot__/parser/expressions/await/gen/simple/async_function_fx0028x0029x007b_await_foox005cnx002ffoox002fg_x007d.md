@@ -174,7 +174,6 @@ async function f(){ await foo\n/foo/g }
 ✖ Invalid hexadecimal escape sequence - start: 25, end: 29
 ✖ Invalid hexadecimal escape sequence - start: 29, end: 29
 ✖ Expected a `;` - start: 29, end: 30
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 30
 ✖ Declaration or statement expected - start: 37, end: 39
 
 ```

@@ -180,7 +180,6 @@
 ✖ ',' expected - start: 28, end: 30
 ✖ Did you forgot a ']' to match the `[` token? - start: 28, end: 30
 ✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
 
 ```
 

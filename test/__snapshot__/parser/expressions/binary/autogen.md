@@ -152,7 +152,21 @@ function *f() {
 {
     "kind": 122,
     "directives": [],
-    "statements": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 0,
+                "end": 1
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 1
+        }
+    ],
     "isModule": false,
     "source": "#",
     "fileName": "__root__",

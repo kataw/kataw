@@ -102,7 +102,6 @@ do( catch { try while
 
 ```javascript
 ✖ Expression expected - start: 3, end: 9
-✖ Expected a ')' to match the '(' token here - start: 3, end: 9
 ✖ Property assignment expected - start: 15, end: 21
 ✖ ',' expected - start: 15, end: 21
 ✖ Property assignment expected - start: 21, end: 21

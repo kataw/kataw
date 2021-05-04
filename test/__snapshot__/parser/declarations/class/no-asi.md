@@ -62,7 +62,7 @@ class C { static
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#aaa",
                                 "flags": 96,
                                 "start": 18,

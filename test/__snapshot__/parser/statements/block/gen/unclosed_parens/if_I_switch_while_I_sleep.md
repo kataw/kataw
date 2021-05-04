@@ -154,10 +154,9 @@
 
 ```javascript
 ✖ Expression expected - start: 2, end: 5
-✖ Expected a ')' to match the '(' token here - start: 2, end: 5
+✖ Expected a ')' to match the '(' token here - start: 7, end: 14
 ✖ Expression expected - start: 14, end: 20
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 20
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
+✖ Expected a ')' to match the '(' token here - start: 22, end: 28
 
 ```
 

@@ -140,7 +140,6 @@
 ✖ ',' expected - start: 5, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 8
 ✖ ',' expected - start: 6, end: 8
-✖ Did you forgot a ']' to match the `[` token? - start: 6, end: 8
 ✖ Unterminated regular expression - start: 8, end: 9
 ✖ The parser expected to find a '}' to match the '{' token here - start: 26, end: 26
 

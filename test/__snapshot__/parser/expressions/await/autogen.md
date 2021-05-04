@@ -325,7 +325,21 @@ var await; var f = (async function() { # });
             "end": 12
         }
     ],
-    "statements": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 13,
+                "end": 15
+            },
+            "flags": 16,
+            "start": 13,
+            "end": 15
+        }
+    ],
     "isModule": false,
     "source": "'use strict'; #",
     "fileName": "__root__",

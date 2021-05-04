@@ -145,7 +145,6 @@
 ✖ Expected a `;` - start: 7, end: 11
 ✖ 'try' expected - start: 19, end: 25
 ✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
 
 ```
 

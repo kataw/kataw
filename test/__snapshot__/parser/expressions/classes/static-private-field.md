@@ -54,7 +54,7 @@ class A {
                         },
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 67109115,
+                            "kind": 67174651,
                             "text": "#private",
                             "flags": 96,
                             "start": 18,
@@ -117,7 +117,7 @@ class A {
                         },
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 67109115,
+                            "kind": 67174651,
                             "text": "#private",
                             "flags": 96,
                             "start": 52,

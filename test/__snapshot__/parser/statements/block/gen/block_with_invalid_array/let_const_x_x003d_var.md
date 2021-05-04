@@ -189,7 +189,6 @@
 ✖ Expected a `;` - start: 13, end: 19
 ✖ Expression expected - start: 23, end: 27
 ✖ Lexical declaration expected - start: 23, end: 27
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
 
 ```
 

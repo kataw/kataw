@@ -73,8 +73,6 @@
 ✖ Property assignment expected - start: 6, end: 6
 ✖ ',' expected - start: 6, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 6
-✖ Expected a ')' to match the '(' token here - start: 6, end: 6
-✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 6
 
 ```
 

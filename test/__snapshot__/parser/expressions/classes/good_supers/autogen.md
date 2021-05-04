@@ -189,7 +189,7 @@ class x extends y {
                                                                 "kind": 219,
                                                                 "generatorToken": null,
                                                                 "left": {
-                                                                    "kind": 67109115,
+                                                                    "kind": 67174651,
                                                                     "text": "#",
                                                                     "flags": 96,
                                                                     "start": 50,

@@ -83,7 +83,6 @@
 ✖ Unterminated regular expression - start: 2, end: 4
 ✖ ',' expected - start: 6, end: 6
 ✖ Did you forgot a ']' to match the `[` token? - start: 6, end: 6
-✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 6
 
 ```
 

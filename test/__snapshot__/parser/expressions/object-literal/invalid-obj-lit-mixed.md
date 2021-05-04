@@ -1665,11 +1665,7 @@
 ✖ ',' expected - start: 43, end: 44
 ✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Expected a ')' to match the '(' token here - start: 44, end: 45
-✖ Expected a ')' to match the '(' token here - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
-✖ Expected a ')' to match the '(' token here - start: 44, end: 45
 ✖ Expected a `;` - start: 46, end: 47
 ✖ Declaration or statement expected - start: 47, end: 48
 ✖ Declaration or statement expected - start: 48, end: 49
@@ -1680,11 +1676,7 @@
 ✖ ',' expected - start: 98, end: 99
 ✖ The parser expected to find a '}' to match the '{' token here - start: 98, end: 99
 ✖ Expected a ')' to match the '(' token here - start: 99, end: 100
-✖ Expected a ')' to match the '(' token here - start: 99, end: 100
-✖ Expected a ')' to match the '(' token here - start: 99, end: 100
-✖ Expected a ')' to match the '(' token here - start: 99, end: 100
 ✖ ',' expected - start: 99, end: 100
-✖ Expected a ')' to match the '(' token here - start: 99, end: 100
 ✖ Expected a `;` - start: 101, end: 102
 ✖ Declaration or statement expected - start: 102, end: 103
 ✖ Declaration or statement expected - start: 103, end: 104
@@ -1692,15 +1684,8 @@
 ✖ Declaration or statement expected - start: 105, end: 107
 ✖ Declaration or statement expected - start: 107, end: 108
 ✖ Expected a ')' to match the '(' token here - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
-✖ The parser expected to find a '}' to match the '{' token here - start: 160, end: 162
-✖ Expected a ')' to match the '(' token here - start: 160, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
 ✖ Expected a `;` - start: 164, end: 165
 ✖ Declaration or statement expected - start: 165, end: 166
@@ -1713,21 +1698,13 @@
 ✖ ',' expected - start: 230, end: 232
 ✖ Expected a ')' to match the '(' token here - start: 230, end: 232
 ✖ ',' expected - start: 230, end: 232
-✖ The parser expected to find a '}' to match the '{' token here - start: 230, end: 232
-✖ Expected a ')' to match the '(' token here - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
 ✖ Expression expected - start: 232, end: 233
 ✖ Declaration or statement expected - start: 233, end: 235
 ✖ Declaration or statement expected - start: 235, end: 236
 ✖ Expected a ')' to match the '(' token here - start: 275, end: 278
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
-✖ The parser expected to find a '}' to match the '{' token here - start: 275, end: 278
-✖ Expected a ')' to match the '(' token here - start: 275, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
 ✖ Expected a `;` - start: 290, end: 291
 ✖ Declaration or statement expected - start: 291, end: 292
@@ -1738,15 +1715,8 @@
 ✖ Declaration or statement expected - start: 297, end: 298
 ✖ ',' expected - start: 336, end: 339
 ✖ Did you forgot a ']' to match the `[` token? - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
-✖ The parser expected to find a '}' to match the '{' token here - start: 336, end: 339
-✖ Expected a ')' to match the '(' token here - start: 336, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
 ✖ Expected a `;` - start: 341, end: 342
 ✖ Declaration or statement expected - start: 342, end: 344
@@ -1760,15 +1730,8 @@
 ✖ Dot property must be an identifier - start: 401, end: 402
 ✖ ',' expected - start: 404, end: 407
 ✖ Did you forgot a ']' to match the `[` token? - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
-✖ The parser expected to find a '}' to match the '{' token here - start: 404, end: 407
-✖ Expected a ')' to match the '(' token here - start: 404, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
 ✖ Expected a `;` - start: 409, end: 410
 ✖ Declaration or statement expected - start: 410, end: 412
@@ -1781,15 +1744,8 @@
 ✖ Declaration or statement expected - start: 431, end: 432
 ✖ ',' expected - start: 472, end: 475
 ✖ Did you forgot a ']' to match the `[` token? - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
-✖ The parser expected to find a '}' to match the '{' token here - start: 472, end: 475
-✖ Expected a ')' to match the '(' token here - start: 472, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
 ✖ Expected a `;` - start: 477, end: 478
 ✖ Declaration or statement expected - start: 478, end: 480

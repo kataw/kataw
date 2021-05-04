@@ -104,7 +104,6 @@
 
 ```javascript
 ✖ Expression expected - start: 5, end: 8
-✖ Expected a ')' to match the '(' token here - start: 5, end: 8
 ✖ Expected a `;` - start: 9, end: 10
 ✖ Declaration or statement expected - start: 10, end: 13
 

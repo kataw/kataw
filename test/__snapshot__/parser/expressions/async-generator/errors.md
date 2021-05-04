@@ -7811,17 +7811,14 @@ async function * gen() {class C extends await { }}
 ✖ Invalid hexadecimal escape sequence - start: 1678, end: 1683
 ✖ Invalid hexadecimal escape sequence - start: 1683, end: 1683
 ✖ Expected a `;` - start: 1683, end: 1684
-✖ The parser expected to find a '}' to match the '{' token here - start: 1683, end: 1684
 ✖ Declaration or statement expected - start: 1687, end: 1688
 ✖ Invalid hexadecimal escape sequence - start: 1849, end: 1854
 ✖ Invalid hexadecimal escape sequence - start: 1854, end: 1854
 ✖ Expected a `;` - start: 1854, end: 1855
-✖ The parser expected to find a '}' to match the '{' token here - start: 1854, end: 1855
 ✖ Expected a `;` - start: 1856, end: 1857
 ✖ Declaration or statement expected - start: 1867, end: 1868
 ✖ Invalid hexadecimal escape sequence - start: 1898, end: 1912
 ✖ Expected a `;` - start: 1898, end: 1913
-✖ The parser expected to find a '}' to match the '{' token here - start: 1898, end: 1913
 ✖ Expected a `;` - start: 1914, end: 1916
 ✖ Duplicate label - start: 1916, end: 1922
 ✖ Declaration or statement expected - start: 1926, end: 1927
@@ -7841,8 +7838,6 @@ async function * gen() {class C extends await { }}
 ✖ Missing initializer in destructuring declaration - start: 2514, end: 2517
 ✖ ',' expected - start: 2514, end: 2517
 ✖ Expected a `;` - start: 2517, end: 2518
-✖ The parser expected to find a '}' to match the '{' token here - start: 2517, end: 2518
-✖ The parser expected to find a '}' to match the '{' token here - start: 2517, end: 2518
 ✖ Declaration or statement expected - start: 2518, end: 2520
 ✖ Declaration or statement expected - start: 2526, end: 2527
 ✖ 'await' cannot be used as an identifier here - start: 2557, end: 2562
@@ -7851,7 +7846,6 @@ async function * gen() {class C extends await { }}
 ✖ Missing initializer in destructuring declaration - start: 2562, end: 2565
 ✖ ',' expected - start: 2562, end: 2565
 ✖ Expected a `;` - start: 2565, end: 2566
-✖ The parser expected to find a '}' to match the '{' token here - start: 2565, end: 2566
 ✖ Declaration or statement expected - start: 2566, end: 2568
 ✖ Declaration or statement expected - start: 2574, end: 2575
 ✖ 'yield' cannot be used as an identifier here - start: 2609, end: 2615
@@ -7871,10 +7865,12 @@ async function * gen() {class C extends await { }}
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3113, end: 3115
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3167, end: 3169
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3221, end: 3223
+✖ Expected a ')' to match the '(' token here - start: 3224, end: 3227
 ✖ Expected a `;` - start: 3227, end: 3229
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3230, end: 3231
 ✖ Declaration or statement expected - start: 3232, end: 3233
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 3275, end: 3277
+✖ Expected a ')' to match the '(' token here - start: 3278, end: 3281
 ✖ Expected a `;` - start: 3281, end: 3283
 ✖ The parser expected to find a '}' to match the '{' token here - start: 3284, end: 3285
 ✖ Declaration or statement expected - start: 3286, end: 3287

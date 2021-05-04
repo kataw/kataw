@@ -122,7 +122,7 @@ class x extends switch {}
 
 ```javascript
 ✖ Expression expected - start: 15, end: 22
-✖ The parser expected to find a '}' to match the '{' token here - start: 25, end: 25
+✖ Expected a ')' to match the '(' token here - start: 25, end: 25
 
 ```
 

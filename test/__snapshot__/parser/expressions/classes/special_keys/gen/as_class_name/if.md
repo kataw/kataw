@@ -110,7 +110,7 @@ class if {}
 
 ```javascript
 ✖ Binding identifier expected - start: 5, end: 8
-✖ Expression expected - start: 11, end: 11
+✖ Expected a ')' to match the '(' token here - start: 11, end: 11
 
 ```
 

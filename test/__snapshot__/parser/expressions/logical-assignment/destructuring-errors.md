@@ -914,7 +914,6 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 50, end: 54
 ✖ ',' expected - start: 80, end: 82
 ✖ The parser expected to find a '}' to match the '{' token here - start: 80, end: 82
-✖ Expected a ')' to match the '(' token here - start: 80, end: 82
 ✖ Declaration or statement expected - start: 82, end: 84
 ✖ Declaration or statement expected - start: 93, end: 94
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an array literal - start: 103, end: 107
@@ -922,14 +921,12 @@ x({ x: x &&= 2 ] = { x: 2 });
 ✖ Expression exprected. A compound assignment or an logical assignment cannot follow an object literal - start: 147, end: 151
 ✖ ',' expected - start: 177, end: 179
 ✖ The parser expected to find a '}' to match the '{' token here - start: 177, end: 179
-✖ Expected a ')' to match the '(' token here - start: 177, end: 179
 ✖ Declaration or statement expected - start: 179, end: 181
 ✖ Duplicate label - start: 183, end: 186
 ✖ Declaration or statement expected - start: 190, end: 191
 ✖ ',' expected - start: 208, end: 210
 ✖ The parser expected to find a '}' to match the '{' token here - start: 208, end: 210
 ✖ ',' expected - start: 208, end: 210
-✖ Expected a ')' to match the '(' token here - start: 208, end: 210
 ✖ Declaration or statement expected - start: 210, end: 212
 ✖ Duplicate label - start: 214, end: 217
 ✖ Duplicate label - start: 214, end: 217

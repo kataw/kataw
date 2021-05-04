@@ -45,7 +45,7 @@
                         "staticToken": null,
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 67109115,
+                            "kind": 67174651,
                             "text": "#aaa",
                             "flags": 96,
                             "start": 11,
@@ -110,7 +110,7 @@
                                                     "end": 28
                                                 },
                                                 "expression": {
-                                                    "kind": 67109115,
+                                                    "kind": 67174651,
                                                     "text": "#aaa",
                                                     "flags": 96,
                                                     "start": 29,

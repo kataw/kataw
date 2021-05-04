@@ -148,7 +148,7 @@ for (let x of a,b) c
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 15, end: 16
+✖ Expected a ')' to match the '(' token here - start: 15, end: 16
 ✖ Expected a `;` - start: 17, end: 18
 
 ```

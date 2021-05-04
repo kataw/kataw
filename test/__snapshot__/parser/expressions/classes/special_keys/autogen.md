@@ -349,6 +349,19 @@ class x {static async * #(){}}
             "end": 5
         },
         {
+            "kind": 120,
+            "expression": {
+                "kind": 67174651,
+                "text": "#",
+                "flags": 96,
+                "start": 5,
+                "end": 7
+            },
+            "flags": 16,
+            "start": 5,
+            "end": 7
+        },
+        {
             "kind": 249,
             "block": {
                 "kind": 124,
@@ -382,6 +395,8 @@ class x {static async * #(){}}
 ```javascript
 ✖ Invalid character - start: 5, end: 7
 ✖ Binding identifier expected - start: 5, end: 7
+✖ Private identifiers are not allowed outside class_bodies - start: 5, end: 7
+✖ Expected a `;` - start: 7, end: 9
 
 ```
 

@@ -148,7 +148,6 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ Cannot use 'import.meta' outside a module - start: 29, end: 29
 ✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 29
 

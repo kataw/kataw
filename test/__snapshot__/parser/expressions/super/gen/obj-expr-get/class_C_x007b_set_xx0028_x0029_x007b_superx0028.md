@@ -263,7 +263,6 @@
 ✖ Expected a ')' to match the '(' token here - start: 40, end: 42
 ✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 ✖ ',' expected - start: 44, end: 45
-✖ The parser expected to find a '}' to match the '{' token here - start: 44, end: 45
 
 ```
 

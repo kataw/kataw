@@ -212,9 +212,6 @@
 ✖ Binding identifier expected - start: 29, end: 31
 ✖ Unexpected token. - start: 29, end: 31
 ✖ Expression expected - start: 32, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
-✖ The parser expected to find a '}' to match the '{' token here - start: 32, end: 32
 
 ```
 

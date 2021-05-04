@@ -280,9 +280,10 @@ do while [catch] =! class function try while with foo!
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
+✖ Expected a ')' to match the '(' token here - start: 25, end: 34
 ✖ Binding identifier expected - start: 34, end: 38
 ✖ Unexpected token. - start: 34, end: 38
-✖ Expression expected - start: 54, end: 54
+✖ Expected a ')' to match the '(' token here - start: 53, end: 54
 
 ```
 

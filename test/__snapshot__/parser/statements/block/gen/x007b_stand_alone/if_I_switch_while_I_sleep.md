@@ -134,9 +134,9 @@
 ### Diagnostics
 
 ```javascript
+✖ Expected a ')' to match the '(' token here - start: 6, end: 13
 ✖ Expression expected - start: 13, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 19
-✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 27
+✖ Expected a ')' to match the '(' token here - start: 21, end: 27
 
 ```
 

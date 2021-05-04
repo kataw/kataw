@@ -116,7 +116,7 @@ a});
                         },
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 67109115,
+                            "kind": 67174651,
                             "text": "#foo",
                             "flags": 96,
                             "start": 16,

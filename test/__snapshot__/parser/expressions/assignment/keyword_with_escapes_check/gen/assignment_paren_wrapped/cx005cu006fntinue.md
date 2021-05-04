@@ -97,7 +97,6 @@
 
 ```javascript
 ✖ Expression expected - start: 1, end: 14
-✖ Expected a ')' to match the '(' token here - start: 1, end: 14
 ✖ A 'continue' statement can only be used within an enclosing iteration statement. - start: 1, end: 14
 ✖ Expression expected - start: 14, end: 16
 ✖ Expected a `;` - start: 18, end: 19

@@ -64,7 +64,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                         "staticToken": null,
                         "asyncKeyword": null,
                         "key": {
-                            "kind": 67109115,
+                            "kind": 67174651,
                             "text": "#aaa",
                             "flags": 96,
                             "start": 9,
@@ -175,7 +175,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "kind": 202,
                                                         "chain": null,
                                                         "expression": {
-                                                            "kind": 67109115,
+                                                            "kind": 67174651,
                                                             "text": "#aaa",
                                                             "flags": 96,
                                                             "start": 28,

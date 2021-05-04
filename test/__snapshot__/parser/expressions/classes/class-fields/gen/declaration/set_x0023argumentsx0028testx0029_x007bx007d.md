@@ -59,7 +59,7 @@ class C { set #arguments(test) {} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#arguments",
                                 "flags": 96,
                                 "start": 13,

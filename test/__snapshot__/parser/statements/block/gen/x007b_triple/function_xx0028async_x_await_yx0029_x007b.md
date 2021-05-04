@@ -203,9 +203,6 @@
 ✖ ',' expected - start: 22, end: 24
 ✖ ',' expected - start: 31, end: 33
 ✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
-✖ The parser expected to find a '}' to match the '{' token here - start: 36, end: 36
 
 ```
 

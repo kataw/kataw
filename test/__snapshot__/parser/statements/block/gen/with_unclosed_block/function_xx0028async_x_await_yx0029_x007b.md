@@ -250,10 +250,8 @@
 ```javascript
 ✖ 'try' expected - start: 4, end: 12
 ✖ Expected a `;` - start: 14, end: 15
-✖ The parser expected to find a '}' to match the '{' token here - start: 14, end: 15
 ✖ ',' expected - start: 34, end: 36
 ✖ ',' expected - start: 43, end: 45
-✖ The parser expected to find a '}' to match the '{' token here - start: 48, end: 48
 ✖ The parser expected to find a '}' to match the '{' token here - start: 48, end: 48
 
 ```

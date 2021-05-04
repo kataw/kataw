@@ -267,7 +267,7 @@ do {} while (x) { =! class function try while with foo!
 ✖ Expected a `;` - start: 26, end: 35
 ✖ Binding identifier expected - start: 35, end: 39
 ✖ Unexpected token. - start: 35, end: 39
-✖ Expression expected - start: 55, end: 55
+✖ Expected a ')' to match the '(' token here - start: 54, end: 55
 
 ```
 

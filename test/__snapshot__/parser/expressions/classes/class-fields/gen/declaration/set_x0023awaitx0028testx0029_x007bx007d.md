@@ -59,7 +59,7 @@ class C { set #await(test) {} }
                         "method": {
                             "kind": 209,
                             "name": {
-                                "kind": 67109115,
+                                "kind": 67174651,
                                 "text": "#await",
                                 "flags": 96,
                                 "start": 13,
