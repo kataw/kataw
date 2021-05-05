@@ -53,7 +53,7 @@
                     ],
                     "flags": 32,
                     "start": 0,
-                    "end": 8
+                    "end": 7
                 },
                 "flags": 32,
                 "start": 0,
@@ -82,6 +82,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 7
+
 ```
 

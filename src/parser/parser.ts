@@ -3311,7 +3311,52 @@ function parseParentheizedExpression(
   if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
     expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-    if (parser.token === SyntaxKind.Colon) {
+    if (parser.token === SyntaxKind.QuestionMark) {
+      const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+      if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)) {
+        // If we have "(a?b:" then this is part of an conditional expression in an argument list
+        const consequent = speculate(
+          parser,
+          context,
+          function () {
+            const consequent = parseExpression(
+              parser,
+              (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+            );
+            return parser.token === SyntaxKind.Colon ? consequent : undefined;
+          },
+          false
+        );
+
+        if (consequent) {
+          expression = createConditionalExpression(
+            expression,
+            questionMarkToken,
+            consequent,
+            consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+            parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+            curPos,
+            parser.curPos
+          );
+          parser.assignable = false;
+        }
+      } else {
+        // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+        state = Tristate.True;
+
+        expression = createFormalParameter(
+          /* ellipsisToken */ null,
+          /* binding */ expression,
+          /* optionalToken */ null,
+          /* type */ parseTypeAnnotation(parser, context),
+          /* initializer */ parseInitializer(parser, context),
+          NodeFlags.ExpressionNode,
+          curPos,
+          parser.curPos
+        );
+      }
+      // If we have "(a:", then we must have a type-annotated parameter in an arrow function expression
+    } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
       expression = createFormalParameter(
@@ -3326,7 +3371,7 @@ function parseParentheizedExpression(
       );
     } else {
       state = Tristate.Unknown;
-
+      // If we have "(a," or "(a=" or "(a" this *could* be an arrow function
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
         if (!parser.assignable) {
           destructible |= DestructibleKind.NotDestructible;
@@ -3340,6 +3385,7 @@ function parseParentheizedExpression(
           destructible |= DestructibleKind.NotDestructible;
         }
 
+        // If we have " (a[x]" then this is definitely not an arrow function
         if (parser.token & SyntaxKind.IsPropertyOrCall) {
           state = Tristate.False;
           expression = parseMemberExpression(parser, context, expression, true, curPos);
@@ -3361,7 +3407,51 @@ function parseParentheizedExpression(
 
     flags |= NodeFlags.NoneSimpleParamList;
 
-    if (parser.token === SyntaxKind.Colon) {
+    if (parser.token === SyntaxKind.QuestionMark) {
+      const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+      if (parser.token & SyntaxKind.IsIdentifier) {
+        // If we have "([a]?b:" then this is part of an conditional expression in an argument list
+        const consequent = speculate(
+          parser,
+          context,
+          function () {
+            const consequent = parseExpression(
+              parser,
+              (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+            );
+            return parser.token === SyntaxKind.Colon ? consequent : undefined;
+          },
+          false
+        );
+
+        if (consequent) {
+          expression = createConditionalExpression(
+            expression,
+            questionMarkToken,
+            consequent,
+            consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+            parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+            curPos,
+            parser.curPos
+          );
+          parser.assignable = false;
+        }
+      } else {
+        // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+        state = Tristate.True;
+
+        expression = createFormalParameter(
+          /* ellipsisToken */ null,
+          /* binding */ expression,
+          /* optionalToken */ questionMarkToken,
+          /* type */ parseTypeAnnotation(parser, context),
+          /* initializer */ parseInitializer(parser, context),
+          NodeFlags.ExpressionNode,
+          curPos,
+          parser.curPos
+        );
+      }
+    } else if (parser.token === SyntaxKind.Colon) {
       state = Tristate.True;
 
       expression = createFormalParameter(
@@ -3413,7 +3503,7 @@ function parseParentheizedExpression(
             expression = parseConditionalExpression(parser, context, expression, curPos);
           }
         } else {
-          if (parser.token === SyntaxKind.QuestionMark) {
+          if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
             expression = parseConditionalExpression(parser, context, expression, curPos);
           } else {
             destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
@@ -3424,6 +3514,7 @@ function parseParentheizedExpression(
   } else if (parser.token & SyntaxKind.IsEllipsis) {
     state = Tristate.True;
     expression = parseFormalParameter(parser, context | Context.InFormalParameter);
+    // If we have something like "(32" then this is definitely not an arrow function
   } else {
     state = Tristate.False;
     destructible |= DestructibleKind.NotDestructible;
@@ -3501,143 +3592,249 @@ function parseParentheizedExpression(
   // 12.16 Comma Operator
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
     expressions = [expression];
+    if (state) {
+      while (parser.token & 0b00010000101010010100000000000000) {
+        if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
+          expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-    while (
-      parser.token &
-      (SyntaxKind.IsEllipsis |
-        SyntaxKind.IsComma |
-        SyntaxKind.IsIdentifier |
-        SyntaxKind.IsExpressionStart |
-        SyntaxKind.IsPatternStart |
-        SyntaxKind.IsFutureReserved)
-    ) {
-      if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
-        expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
-
-        state = Tristate.Unknown;
-
-        if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
-          state = Tristate.True;
-
-          expression = createFormalParameter(
-            /* ellipsisToken */ null,
-            /* binding */ expression,
-            /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context),
-            NodeFlags.ExpressionNode,
-            curPos,
-            parser.curPos
-          );
-        } else {
           state = Tristate.Unknown;
 
-          if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
-            if (!parser.assignable) {
-              destructible |= DestructibleKind.NotDestructible;
-              flags |= NodeFlags.NoneSimpleParamList;
-            }
-          } else {
-            if (parser.token === SyntaxKind.Assign) {
-              flags |= NodeFlags.NoneSimpleParamList;
+          if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
+            const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+            if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+              // If we have "(a?b:" then this is part of an conditional expression in an argument list
+              const consequent = speculate(
+                parser,
+                context,
+                function () {
+                  const consequent = parseExpression(
+                    parser,
+                    (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                  );
+                  return parser.token === SyntaxKind.Colon ? consequent : undefined;
+                },
+                false
+              );
+
+              if (consequent) {
+                expression = createConditionalExpression(
+                  expression,
+                  questionMarkToken,
+                  consequent,
+                  consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+                  parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                  curPos,
+                  parser.curPos
+                );
+                parser.assignable = false;
+              }
             } else {
-              state = Tristate.False;
-              destructible |= DestructibleKind.NotDestructible;
-            }
+              // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+              state = Tristate.True;
 
-            if (parser.token & SyntaxKind.IsPropertyOrCall) {
-              state = Tristate.False;
-              expression = parseMemberExpression(parser, context, expression, true, curPos);
-            }
-
-            if (
-              (parser.token as SyntaxKind) !== SyntaxKind.RightParen &&
-              (parser.token as SyntaxKind) !== SyntaxKind.Comma
-            ) {
-              expression = parseAssignmentExpression(parser, context, expression, curPos);
-            }
-          }
-        }
-      } else if (parser.token & SyntaxKind.IsPatternStart) {
-        expression =
-          parser.token === SyntaxKind.LeftBracket
-            ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
-            : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
-        flags |= NodeFlags.NoneSimpleParamList;
-        if (parser.token === SyntaxKind.Colon) {
-          state = Tristate.True;
-
-          expression = createFormalParameter(
-            /* ellipsisToken */ null,
-            /* binding */ expression as any,
-            /* optionalToken */ null,
-            /* type */ parseTypeAnnotation(parser, context),
-            /* initializer */ parseInitializer(parser, context),
-            NodeFlags.ExpressionNode,
-            curPos,
-            parser.curPos
-          );
-        } else {
-          state = Tristate.Unknown;
-
-          destructible |= parser.destructible;
-
-          parser.assignable = false;
-
-          if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
-            if (destructible & DestructibleKind.MustDestruct) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                diagnosticMap[DiagnosticCode._expected],
-                parser.curPos,
-                parser.pos
+              expression = createFormalParameter(
+                /* ellipsisToken */ null,
+                /* binding */ expression,
+                /* optionalToken */ questionMarkToken,
+                /* type */ parseTypeAnnotation(parser, context),
+                /* initializer */ parseInitializer(parser, context),
+                NodeFlags.ExpressionNode,
+                curPos,
+                parser.curPos
               );
             }
+          } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+            state = Tristate.True;
+
+            expression = createFormalParameter(
+              /* ellipsisToken */ null,
+              /* binding */ expression,
+              /* optionalToken */ null,
+              /* type */ parseTypeAnnotation(parser, context),
+              /* initializer */ parseInitializer(parser, context),
+              NodeFlags.ExpressionNode,
+              curPos,
+              parser.curPos
+            );
+          } else {
             state = Tristate.Unknown;
 
-            if (parser.token & SyntaxKind.IsPropertyOrCall) {
-              state = Tristate.False;
-              expression = parseMemberExpression(parser, context, expression, true, curPos);
-            }
+            if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightParen) {
+              if (!parser.assignable) {
+                destructible |= DestructibleKind.NotDestructible;
+                flags |= NodeFlags.NoneSimpleParamList;
+              }
+            } else {
+              if (parser.token === SyntaxKind.Assign) {
+                flags |= NodeFlags.NoneSimpleParamList;
+              } else {
+                state = Tristate.False;
+                destructible |= DestructibleKind.NotDestructible;
+              }
 
-            destructible |= DestructibleKind.NotDestructible;
+              if (parser.token & SyntaxKind.IsPropertyOrCall) {
+                state = Tristate.False;
+                expression = parseMemberExpression(parser, context, expression, true, curPos);
+              }
 
-            if (
-              (parser.token as SyntaxKind) !== SyntaxKind.Comma ||
-              (parser.token as SyntaxKind) !== SyntaxKind.LeftParen
-            ) {
-              expression = parseAssignmentExpression(parser, context, expression, curPos);
-              destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
+              if (
+                (parser.token as SyntaxKind) !== SyntaxKind.RightParen &&
+                (parser.token as SyntaxKind) !== SyntaxKind.Comma
+              ) {
+                expression = parseAssignmentExpression(parser, context, expression, curPos);
+              }
             }
           }
-        }
-      } else if (parser.token & SyntaxKind.IsEllipsis) {
-        state = Tristate.True;
-        expression = parseFormalParameter(parser, context | Context.InFormalParameter);
-      } else {
-        state = Tristate.False;
-        destructible |= DestructibleKind.NotDestructible;
+        } else if (parser.token & SyntaxKind.IsPatternStart) {
+          expression =
+            parser.token === SyntaxKind.LeftBracket
+              ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
+              : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
+          flags |= NodeFlags.NoneSimpleParamList;
 
-        expressions.push(parseExpression(parser, context));
+          if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
+            const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+            if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+              // If we have "(a?b:" then this is part of an conditional expression in an argument list
+              const consequent = speculate(
+                parser,
+                context,
+                function () {
+                  const consequent = parseExpression(
+                    parser,
+                    (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                  );
+                  return parser.token === SyntaxKind.Colon ? consequent : undefined;
+                },
+                false
+              );
 
-        while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+              if (consequent) {
+                expression = createConditionalExpression(
+                  expression,
+                  questionMarkToken,
+                  consequent,
+                  consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+                  parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                  curPos,
+                  parser.curPos
+                );
+                parser.assignable = false;
+              }
+            } else {
+              // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+              state = Tristate.True;
+
+              expression = createFormalParameter(
+                /* ellipsisToken */ null,
+                /* binding */ expression,
+                /* optionalToken */ questionMarkToken,
+                /* type */ parseTypeAnnotation(parser, context),
+                /* initializer */ parseInitializer(parser, context),
+                NodeFlags.ExpressionNode,
+                curPos,
+                parser.curPos
+              );
+            }
+          } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+            state = Tristate.True;
+
+            expression = createFormalParameter(
+              /* ellipsisToken */ null,
+              /* binding */ expression as any,
+              /* optionalToken */ null,
+              /* type */ parseTypeAnnotation(parser, context),
+              /* initializer */ parseInitializer(parser, context),
+              NodeFlags.ExpressionNode,
+              curPos,
+              parser.curPos
+            );
+          } else {
+            state = Tristate.Unknown;
+
+            destructible |= parser.destructible;
+
+            parser.assignable = false;
+
+            if (parser.token !== SyntaxKind.Comma && parser.token !== SyntaxKind.RightParen) {
+              if (destructible & DestructibleKind.MustDestruct) {
+                parser.onError(
+                  DiagnosticSource.Parser,
+                  diagnosticMap[DiagnosticCode._expected],
+                  parser.curPos,
+                  parser.pos
+                );
+              }
+              state = Tristate.Unknown;
+
+              if (parser.token & SyntaxKind.IsPropertyOrCall) {
+                state = Tristate.False;
+                expression = parseMemberExpression(parser, context, expression, true, curPos);
+              }
+
+              destructible |= DestructibleKind.NotDestructible;
+
+              if (
+                (parser.token as SyntaxKind) !== SyntaxKind.Comma ||
+                (parser.token as SyntaxKind) !== SyntaxKind.LeftParen
+              ) {
+                expression = parseAssignmentExpression(parser, context, expression, curPos);
+                destructible |= !parser.assignable ? DestructibleKind.NotDestructible : DestructibleKind.Assignable;
+              }
+            }
+          }
+        } else if (parser.token & SyntaxKind.IsEllipsis) {
+          state = Tristate.True;
+          expression = parseFormalParameter(parser, context | Context.InFormalParameter);
+        } else {
+          state = Tristate.False;
+          destructible |= DestructibleKind.NotDestructible;
+
           expressions.push(parseExpression(parser, context));
+
+          while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+            expressions.push(parseExpression(parser, context));
+          }
+
+          expression = createCommaOperator(expressions, curPos, parser.curPos);
+
+          parseExpectedMatchingBracket(parser, context, SyntaxKind.RightParen);
+
+          parser.destructible = destructible;
+
+          return createParenthesizedExpression(expression, curPos, parser.curPos);
         }
+        expressions.push(expression);
 
-        expression = createCommaOperator(expressions, curPos, parser.curPos);
-
-        parseExpectedMatchingBracket(parser, context, SyntaxKind.RightParen);
-
-        parser.destructible = destructible;
-
-        return createParenthesizedExpression(expression, curPos, parser.curPos);
+        if (consumeOpt(parser, context, SyntaxKind.Comma)) continue;
+        if (parser.token === SyntaxKind.RightParen) break;
       }
-      expressions.push(expression);
+    } else {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
+        curPos,
+        parser.pos
+      );
 
-      if (consumeOpt(parser, context, SyntaxKind.Comma)) continue;
-      if (parser.token === SyntaxKind.RightParen) break;
+      state = Tristate.False;
+      destructible |= DestructibleKind.NotDestructible;
+
+      expressions.push(parseExpression(parser, context));
+
+      while (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+        expressions.push(parseExpression(parser, context));
+      }
+
+      expression = createCommaOperator(expressions, curPos, parser.curPos);
+
+      parseExpectedMatchingBracket(parser, context, SyntaxKind.RightParen);
+
+      parser.destructible = destructible;
+
+      return createParenthesizedExpression(expression, curPos, parser.curPos);
     }
-
     parser.assignable = false;
   }
 
@@ -6759,7 +6956,51 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
       expression = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-      if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
+      if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
+        const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+        if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+          // If we have "(a?b:" then this is part of an conditional expression in an argument list
+          const consequent = speculate(
+            parser,
+            context,
+            function () {
+              const consequent = parseExpression(
+                parser,
+                (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+              );
+              return parser.token === SyntaxKind.Colon ? consequent : undefined;
+            },
+            false
+          );
+
+          if (consequent) {
+            expression = createConditionalExpression(
+              expression,
+              questionMarkToken,
+              consequent,
+              consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+              parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              pos,
+              parser.curPos
+            );
+            parser.assignable = false;
+          }
+        } else {
+          // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+          state = Tristate.True;
+
+          expression = createFormalParameter(
+            /* ellipsisToken */ null,
+            /* binding */ expression,
+            /* optionalToken */ questionMarkToken,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context),
+            NodeFlags.ExpressionNode,
+            pos,
+            parser.curPos
+          );
+        }
+      } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
 
         expression = createFormalParameter(
@@ -6808,7 +7049,51 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
       flags |= NodeFlags.NoneSimpleParamList;
 
-      if (parser.token === SyntaxKind.Colon) {
+      if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
+        const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+        if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier)) {
+          // If we have "(a?b:" then this is part of an conditional expression in an argument list
+          const consequent = speculate(
+            parser,
+            context,
+            function () {
+              const consequent = parseExpression(
+                parser,
+                (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+              );
+              return parser.token === SyntaxKind.Colon ? consequent : undefined;
+            },
+            false
+          );
+
+          if (consequent) {
+            expression = createConditionalExpression(
+              expression,
+              questionMarkToken,
+              consequent,
+              consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+              parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              pos,
+              parser.curPos
+            );
+            parser.assignable = false;
+          }
+        } else {
+          // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+          state = Tristate.True;
+
+          expression = createFormalParameter(
+            /* ellipsisToken */ null,
+            /* binding */ expression,
+            /* optionalToken */ questionMarkToken,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context),
+            NodeFlags.ExpressionNode,
+            pos,
+            parser.curPos
+          );
+        }
+      } else if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
         state = Tristate.True;
         expression = createFormalParameter(
           /* ellipsisToken */ null,
@@ -6889,31 +7174,91 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       if (parser.token & (SyntaxKind.IsIdentifier | SyntaxKind.IsFutureReserved)) {
         let argument = parsePrimaryExpression(parser, context, /* inNewExpression */ false, LeftHandSide.None);
 
-        // '... )' , '... ]' and '... }'
-        if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-          destructible |= parser.assignable ? DestructibleKind.Destructible : DestructibleKind.NotDestructible;
-        } else if (parser.token & SyntaxKind.IsComma) {
-          destructible = DestructibleKind.NotDestructible;
-        } else {
-          // This is the slow path. We shouldn't care too much about performance
-          argument = parseMemberExpression(parser, context, argument, /*allowCalls */ true, pos);
+        if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
+          const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+          if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)) {
+            // If we have "(a?b:" then this is part of an conditional expression in an argument list
+            const consequent = speculate(
+              parser,
+              context,
+              function () {
+                const consequent = parseExpression(
+                  parser,
+                  (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                );
+                return parser.token === SyntaxKind.Colon ? consequent : undefined;
+              },
+              false
+            );
 
-          destructible = DestructibleKind.None;
-
-          if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
-            destructible |= DestructibleKind.NotDestructible;
-            argument = parseAssignmentExpression(parser, context, argument, pos);
-          } else if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-            argument = parseConditionalExpression(parser, context, argument, pos);
-          }
-
-          if (!parser.assignable) {
-            destructible |= DestructibleKind.NotDestructible;
+            if (consequent) {
+              expression = createConditionalExpression(
+                expression,
+                questionMarkToken,
+                consequent,
+                consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+                parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                pos,
+                parser.curPos
+              );
+              parser.assignable = false;
+            }
           } else {
-            destructible |= DestructibleKind.Assignable;
-          }
+            // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+            state = Tristate.True;
 
-          destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+            expression = createFormalParameter(
+              /* ellipsisToken */ ellipsisToken,
+              /* binding */ expression,
+              /* optionalToken */ null,
+              /* type */ parseTypeAnnotation(parser, context),
+              /* initializer */ parseInitializer(parser, context),
+              NodeFlags.ExpressionNode,
+              pos,
+              parser.curPos
+            );
+          }
+          // If we have "(a:", then we must have a type-annotated parameter in an arrow function expression
+        } else if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
+          state = Tristate.True;
+
+          expression = createFormalParameter(
+            /* ellipsisToken */ ellipsisToken,
+            /* binding */ expression,
+            /* optionalToken */ null,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context),
+            NodeFlags.ExpressionNode,
+            pos,
+            parser.curPos
+          );
+        } else {
+          // '... )' , '... ]' and '... }'
+          if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+            destructible |= parser.assignable ? DestructibleKind.Destructible : DestructibleKind.NotDestructible;
+          } else if (parser.token & SyntaxKind.IsComma) {
+            destructible = DestructibleKind.NotDestructible;
+          } else {
+            // This is the slow path. We shouldn't care too much about performance
+            argument = parseMemberExpression(parser, context, argument, /*allowCalls */ true, pos);
+
+            destructible = DestructibleKind.None;
+
+            if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
+              destructible |= DestructibleKind.NotDestructible;
+              argument = parseAssignmentExpression(parser, context, argument, pos);
+            } else if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
+              argument = parseConditionalExpression(parser, context, argument, pos);
+            }
+
+            if (!parser.assignable) {
+              destructible |= DestructibleKind.NotDestructible;
+            } else {
+              destructible |= DestructibleKind.Assignable;
+            }
+
+            destructible |= parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+          }
         }
       } else if (parser.token & SyntaxKind.IsPatternStart) {
         argument =
@@ -6921,21 +7266,87 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
             : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
         flags |= NodeFlags.NoneSimpleParamList;
-        // '...[ ] )' , '... { } ]' etc.
-        if ((parser.token as SyntaxKind) === SyntaxKind.LeftParen) {
-          destructible |= DestructibleKind.NotDestructible;
-        } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
-          destructible = DestructibleKind.NotDestructible;
-        } else {
-          if (parser.destructible & DestructibleKind.MustDestruct) {
-            parser.onError(DiagnosticSource.Parser, diagnosticMap[DiagnosticCode._expected], parser.curPos, parser.pos);
+
+        if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
+          const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
+          if (parser.token & (SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsStartOfType)) {
+            // If we have "(a?b:" then this is part of an conditional expression in an argument list
+            const consequent = speculate(
+              parser,
+              context,
+              function () {
+                const consequent = parseExpression(
+                  parser,
+                  (context | Context.InConditionalExpr | Context.DisallowIn) ^ Context.DisallowIn
+                );
+                return parser.token === SyntaxKind.Colon ? consequent : undefined;
+              },
+              false
+            );
+
+            if (consequent) {
+              expression = createConditionalExpression(
+                expression,
+                questionMarkToken,
+                consequent,
+                consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
+                parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                pos,
+                parser.curPos
+              );
+              parser.assignable = false;
+            }
+          } else {
+            // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
+            state = Tristate.True;
+
+            expression = createFormalParameter(
+              /* ellipsisToken */ ellipsisToken,
+              /* binding */ expression,
+              /* optionalToken */ null,
+              /* type */ parseTypeAnnotation(parser, context),
+              /* initializer */ parseInitializer(parser, context),
+              NodeFlags.ExpressionNode,
+              pos,
+              parser.curPos
+            );
           }
+          // If we have "(a:", then we must have a type-annotated parameter in an arrow function expression
+        } else if ((parser.token as SyntaxKind) === SyntaxKind.Colon) {
+          state = Tristate.True;
 
-          argument = parseMemberExpression(parser, context, argument, true, pos);
+          expression = createFormalParameter(
+            /* ellipsisToken */ ellipsisToken,
+            /* binding */ expression,
+            /* optionalToken */ null,
+            /* type */ parseTypeAnnotation(parser, context),
+            /* initializer */ parseInitializer(parser, context),
+            NodeFlags.ExpressionNode,
+            pos,
+            parser.curPos
+          );
+        } else {
+          // '...[ ] )' , '... { } ]' etc.
+          if ((parser.token as SyntaxKind) === SyntaxKind.LeftParen) {
+            destructible |= DestructibleKind.NotDestructible;
+          } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
+            destructible = DestructibleKind.NotDestructible;
+          } else {
+            if (parser.destructible & DestructibleKind.MustDestruct) {
+              parser.onError(
+                DiagnosticSource.Parser,
+                diagnosticMap[DiagnosticCode._expected],
+                parser.curPos,
+                parser.pos
+              );
+            }
 
-          argument = parseAssignmentExpression(parser, context, argument, pos);
+            argument = parseMemberExpression(parser, context, argument, true, pos);
 
-          destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+            argument = parseAssignmentExpression(parser, context, argument, pos);
+
+            destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
+          }
         }
       } else {
         let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);

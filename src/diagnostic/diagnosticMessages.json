@@ -169,5 +169,6 @@
   "'async' keyword in an async arrow must not contain escaped characters": 171,
   "'eval' and 'arguments' cannot be used as an identifier here": 172,
   "'eval' and 'arguments' cannot contain escape characters": 173,
-  "Invalid lower surrogate": 174
+  "Invalid lower surrogate": 174,
+  "Arrow parameters can only contain a binding pattern or an identifier": 175
 }

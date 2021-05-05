@@ -2198,13 +2198,13 @@ function f({x:arg = (arg = 2)}) {}
                                                             "end": 577
                                                         },
                                                         "flags": 32,
-                                                        "start": 562,
+                                                        "start": 570,
                                                         "end": 577
                                                     }
                                                 ],
                                                 "flags": 32,
                                                 "start": 562,
-                                                "end": 578
+                                                "end": 577
                                             },
                                             "flags": 32,
                                             "start": 562,
@@ -4282,6 +4282,7 @@ function f({x:arg = (arg = 2)}) {}
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 562, end: 574
+
 ```
 

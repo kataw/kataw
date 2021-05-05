@@ -47,163 +47,119 @@ const fn = async (a?: any): Promise<void> => {};
                         "optionalToken": null,
                         "type": null,
                         "initializer": {
-                            "kind": 131,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 16
+                            "kind": 271,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 0,
+                                "start": 41,
+                                "end": 44
                             },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 197,
-                                        "shortCircuit": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 18,
-                                            "end": 19
-                                        },
-                                        "questionToken": {
-                                            "kind": 134217750,
-                                            "flags": 0,
-                                            "start": 19,
-                                            "end": 20
-                                        },
-                                        "consequent": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "flags": 68,
-                                            "start": 20,
-                                            "end": 20
-                                        },
-                                        "colonToken": {
-                                            "kind": 21,
-                                            "flags": 0,
-                                            "start": 20,
-                                            "end": 21
-                                        },
-                                        "alternate": {
-                                            "kind": 134299649,
-                                            "text": "any",
-                                            "rawText": "any",
-                                            "flags": 96,
+                            "typeParameters": null,
+                            "parameters": [
+                                {
+                                    "kind": 215,
+                                    "ellipsisToken": null,
+                                    "binding": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "optionalToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    "type": {
+                                        "kind": 139,
+                                        "type": {
+                                            "kind": 134234252,
+                                            "flags": 64,
                                             "start": 21,
                                             "end": 25
                                         },
-                                        "flags": 32,
-                                        "start": 18,
+                                        "flags": 0,
+                                        "start": 20,
                                         "end": 25
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
+                                    },
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 18,
+                                    "end": 25
+                                }
+                            ],
+                            "asyncToken": {
+                                "kind": 82031,
+                                "flags": 64,
                                 "start": 10,
-                                "end": 10
+                                "end": 16
                             },
-                            "flags": 32,
+                            "returnType": {
+                                "kind": 139,
+                                "type": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "Promise",
+                                        "rawText": "Promise",
+                                        "flags": 96,
+                                        "start": 27,
+                                        "end": 35
+                                    },
+                                    "typeParameters": {
+                                        "kind": 146,
+                                        "types": [
+                                            {
+                                                "kind": 138477615,
+                                                "flags": 64,
+                                                "start": 36,
+                                                "end": 40
+                                            }
+                                        ],
+                                        "flags": 0,
+                                        "start": 35,
+                                        "end": 41
+                                    },
+                                    "flags": 0,
+                                    "start": 27,
+                                    "end": 41
+                                },
+                                "flags": 0,
+                                "start": 26,
+                                "end": 41
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 46,
+                                    "end": 46
+                                },
+                                "flags": 32,
+                                "start": 44,
+                                "end": 47
+                            },
+                            "flags": 288,
                             "start": 10,
-                            "end": 26
+                            "end": 47
                         },
                         "flags": 16,
                         "start": 5,
-                        "end": 26
+                        "end": 47
                     }
                 ],
                 "flags": 16777232,
                 "start": 5,
-                "end": 26
+                "end": 47
             },
             "flags": 33554448,
             "start": 0,
-            "end": 26
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "Promise",
-                        "rawText": "Promise",
-                        "flags": 96,
-                        "start": 27,
-                        "end": 35
-                    },
-                    "operatorToken": {
-                        "kind": 536971330,
-                        "flags": 64,
-                        "start": 35,
-                        "end": 36
-                    },
-                    "right": {
-                        "kind": 126,
-                        "operandToken": {
-                            "kind": 138477615,
-                            "flags": 64,
-                            "start": 36,
-                            "end": 40
-                        },
-                        "expression": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 68,
-                            "start": 40,
-                            "end": 40
-                        },
-                        "flags": 32,
-                        "start": 36,
-                        "end": 40
-                    },
-                    "flags": 32,
-                    "start": 27,
-                    "end": 40
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 40,
-                    "end": 41
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 41,
-                    "end": 41
-                },
-                "flags": 32,
-                "start": 27,
-                "end": 41
-            },
-            "flags": 16,
-            "start": 27,
-            "end": 41
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 46,
-                "end": 46
-            },
-            "flags": 16,
-            "start": 44,
-            "end": 47
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 47,
             "end": 48
         }
     ],
@@ -225,11 +181,6 @@ const fn = async (a?: any): Promise<void> => {};
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 20, end: 21
-✖ ',' expected - start: 26, end: 27
-✖ Expected a `;` - start: 26, end: 27
-✖ Expression expected - start: 40, end: 41
-✖ Expression expected - start: 41, end: 44
-
+✔ No errors
 ```
 

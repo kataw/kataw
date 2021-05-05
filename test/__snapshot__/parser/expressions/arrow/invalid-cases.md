@@ -2216,16 +2216,10 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 1416,
-                    "end": 1419
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 198,
                             "left": {
@@ -2262,30 +2256,36 @@ a++ => {};
                             "start": 1413,
                             "end": 1415
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 1421,
-                        "end": 1421
-                    },
+                    ],
                     "flags": 32,
-                    "start": 1419,
-                    "end": 1422
+                    "start": 1405,
+                    "end": 1415
                 },
                 "flags": 32,
                 "start": 1405,
-                "end": 1422
+                "end": 1416
             },
             "flags": 16,
             "start": 1405,
+            "end": 1416
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 1421,
+                "end": 1421
+            },
+            "flags": 16,
+            "start": 1419,
+            "end": 1422
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 1422,
             "end": 1423
         },
         {
@@ -2876,16 +2876,10 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 1591,
-                    "end": 1594
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 127,
                             "operandToken": {
@@ -2914,30 +2908,36 @@ a++ => {};
                             "start": 1588,
                             "end": 1590
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 1596,
-                        "end": 1596
-                    },
+                    ],
                     "flags": 32,
-                    "start": 1594,
-                    "end": 1597
+                    "start": 1582,
+                    "end": 1590
                 },
                 "flags": 32,
                 "start": 1582,
-                "end": 1597
+                "end": 1591
             },
             "flags": 16,
             "start": 1582,
+            "end": 1591
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 1596,
+                "end": 1596
+            },
+            "flags": 16,
+            "start": 1594,
+            "end": 1597
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 1597,
             "end": 1598
         },
         {
@@ -3062,7 +3062,7 @@ a++ => {};
                     },
                     "questionToken": {
                         "kind": 134217750,
-                        "flags": 0,
+                        "flags": 64,
                         "start": 1629,
                         "end": 1631
                     },
@@ -3211,16 +3211,10 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 1698,
-                    "end": 1701
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 197,
                             "shortCircuit": {
@@ -3233,7 +3227,7 @@ a++ => {};
                             },
                             "questionToken": {
                                 "kind": 134217750,
-                                "flags": 0,
+                                "flags": 64,
                                 "start": 1682,
                                 "end": 1684
                             },
@@ -3271,45 +3265,45 @@ a++ => {};
                             "start": 1695,
                             "end": 1697
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 1703,
-                        "end": 1703
-                    },
+                    ],
                     "flags": 32,
-                    "start": 1701,
-                    "end": 1704
+                    "start": 1677,
+                    "end": 1697
                 },
                 "flags": 32,
                 "start": 1677,
-                "end": 1704
+                "end": 1698
             },
             "flags": 16,
             "start": 1677,
+            "end": 1698
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 1703,
+                "end": 1703
+            },
+            "flags": 16,
+            "start": 1701,
+            "end": 1704
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 1704,
             "end": 1705
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 1714,
-                    "end": 1717
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 129,
                             "member": {
@@ -3340,30 +3334,36 @@ a++ => {};
                             "start": 1711,
                             "end": 1713
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 1719,
-                        "end": 1719
-                    },
+                    ],
                     "flags": 32,
-                    "start": 1717,
-                    "end": 1720
+                    "start": 1705,
+                    "end": 1713
                 },
                 "flags": 32,
                 "start": 1705,
-                "end": 1720
+                "end": 1714
             },
             "flags": 16,
             "start": 1705,
+            "end": 1714
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 1719,
+                "end": 1719
+            },
+            "flags": 16,
+            "start": 1717,
+            "end": 1720
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 1720,
             "end": 1721
         },
         {
@@ -3438,16 +3438,10 @@ a++ => {};
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 1749,
-                    "end": 1752
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 130,
                             "member": {
@@ -3478,30 +3472,36 @@ a++ => {};
                             "start": 1746,
                             "end": 1748
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 1754,
-                        "end": 1754
-                    },
+                    ],
                     "flags": 32,
-                    "start": 1752,
-                    "end": 1755
+                    "start": 1737,
+                    "end": 1748
                 },
                 "flags": 32,
                 "start": 1737,
-                "end": 1755
+                "end": 1749
             },
             "flags": 16,
             "start": 1737,
+            "end": 1749
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 1754,
+                "end": 1754
+            },
+            "flags": 16,
+            "start": 1752,
+            "end": 1755
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 1755,
             "end": 1756
         },
         {
@@ -3830,7 +3830,8 @@ a++ => {};
 ✖ Expression expected - start: 1370, end: 1373
 ✖ Expected a `;` - start: 1383, end: 1386
 ✖ Expected a `;` - start: 1398, end: 1401
-✖ The left hand side of the arrow is not destructible  - start: 1416, end: 1419
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1405, end: 1415
+✖ Expected a `;` - start: 1416, end: 1419
 ✖ Expected a `;` - start: 1434, end: 1437
 ✖ Expected a `;` - start: 1445, end: 1448
 ✖ Expected a `;` - start: 1458, end: 1461
@@ -3844,15 +3845,19 @@ a++ => {};
 ✖ Declaration or statement expected - start: 1551, end: 1554
 ✖ Expected a `;` - start: 1562, end: 1565
 ✖ Expected a `;` - start: 1575, end: 1578
-✖ The left hand side of the arrow is not destructible  - start: 1591, end: 1594
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1582, end: 1590
+✖ Expected a `;` - start: 1591, end: 1594
 ✖ Expected a `;` - start: 1607, end: 1610
 ✖ Expected a `;` - start: 1617, end: 1620
 ✖ Expected a `;` - start: 1642, end: 1645
 ✖ Expected a `;` - start: 1670, end: 1673
-✖ The left hand side of the arrow is not destructible  - start: 1698, end: 1701
-✖ The left hand side of the arrow is not destructible  - start: 1714, end: 1717
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1677, end: 1697
+✖ Expected a `;` - start: 1698, end: 1701
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1705, end: 1713
+✖ Expected a `;` - start: 1714, end: 1717
 ✖ Expected a `;` - start: 1730, end: 1733
-✖ The left hand side of the arrow is not destructible  - start: 1749, end: 1752
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1737, end: 1748
+✖ Expected a `;` - start: 1749, end: 1752
 ✖ Expected a `;` - start: 1768, end: 1771
 ✖ A rest element cannot have an initializer - start: 1781, end: 1783
 ✖ Expected a ')' to match the '(' token here - start: 1802, end: 1804

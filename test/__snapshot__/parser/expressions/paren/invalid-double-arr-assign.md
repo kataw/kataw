@@ -95,13 +95,13 @@
                                     "end": 17
                                 },
                                 "flags": 32,
-                                "start": 0,
+                                "start": 9,
                                 "end": 17
                             }
                         ],
                         "flags": 32,
                         "start": 0,
-                        "end": 18
+                        "end": 17
                     },
                     "flags": 32,
                     "start": 0,
@@ -148,6 +148,7 @@
 ### Diagnostics
 
 ```javascript
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 11
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 
 ```

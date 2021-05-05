@@ -172,7 +172,8 @@ export const enum DiagnosticCode {
   _async_keyword_in_an_async_arrow_must_not_contain_escaped_characters = 171,
   _eval_and_arguments_cannot_be_used_as_an_identifier_here = 172,
   _eval_and_arguments_cannot_contain_escape_characters = 173,
-  Invalid_lower_surrogate = 174
+  Invalid_lower_surrogate = 174,
+  Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier = 175
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -346,5 +347,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [171]: "'async' keyword in an async arrow must not contain escaped characters",
   [172]: "'eval' and 'arguments' cannot be used as an identifier here",
   [173]: "'eval' and 'arguments' cannot contain escape characters",
-  [174]: 'Invalid lower surrogate'
+  [174]: 'Invalid lower surrogate',
+  [175]: 'Arrow parameters can only contain a binding pattern or an identifier'
 };

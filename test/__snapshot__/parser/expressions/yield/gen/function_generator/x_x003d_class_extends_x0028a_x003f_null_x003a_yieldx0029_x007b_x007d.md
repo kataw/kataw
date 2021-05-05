@@ -141,7 +141,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 },
                                                                 "questionToken": {
                                                                     "kind": 134217750,
-                                                                    "flags": 0,
+                                                                    "flags": 64,
                                                                     "start": 60,
                                                                     "end": 62
                                                                 },

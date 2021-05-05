@@ -18,16 +18,10 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 8,
-                    "end": 11
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 127,
                             "operandToken": {
@@ -56,24 +50,31 @@
                             "start": 5,
                             "end": 7
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 11,
-                    "end": 13
+                    ],
+                    "flags": 32,
+                    "start": 0,
+                    "end": 7
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 13
+                "end": 8
             },
             "flags": 16,
             "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 11,
+                "end": 13
+            },
+            "flags": 16,
+            "start": 11,
             "end": 14
         }
     ],
@@ -95,7 +96,8 @@
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 8, end: 11
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 7
+✖ Expected a `;` - start: 8, end: 11
 
 ```
 

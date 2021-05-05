@@ -46,16 +46,10 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 11,
-                    "end": 14
-                },
-                "typeParameters": null,
-                "parameters": [
-                    [
+                "kind": 121,
+                "expression": {
+                    "kind": 132,
+                    "expressions": [
                         {
                             "kind": 130,
                             "member": {
@@ -86,30 +80,36 @@
                             "start": 8,
                             "end": 10
                         }
-                    ]
-                ],
-                "asyncToken": null,
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 16,
-                        "end": 16
-                    },
+                    ],
                     "flags": 32,
-                    "start": 14,
-                    "end": 17
+                    "start": 0,
+                    "end": 10
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 17
+                "end": 11
             },
             "flags": 16,
             "start": 0,
+            "end": 11
+        },
+        {
+            "kind": 249,
+            "block": {
+                "kind": 124,
+                "statements": [],
+                "flags": 16,
+                "start": 16,
+                "end": 16
+            },
+            "flags": 16,
+            "start": 14,
+            "end": 17
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 17,
             "end": 18
         },
         {
@@ -1158,7 +1158,8 @@
 ### Diagnostics
 
 ```javascript
-✖ The left hand side of the arrow is not destructible  - start: 11, end: 14
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 10
+✖ Expected a `;` - start: 11, end: 14
 ✖ Expected a `;` - start: 31, end: 34
 ✖ A rest element cannot have an initializer - start: 45, end: 47
 ✖ Expected a ')' to match the '(' token here - start: 66, end: 68

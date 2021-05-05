@@ -79,7 +79,7 @@
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
-                                    "flags": 0,
+                                    "flags": 64,
                                     "start": 34,
                                     "end": 36
                                 },

@@ -36,8 +36,9 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 197,
-                        "shortCircuit": {
+                        "kind": 215,
+                        "ellipsisToken": null,
+                        "binding": {
                             "kind": 220,
                             "propertyList": {
                                 "kind": 218,
@@ -60,33 +61,25 @@
                             "start": 1,
                             "end": 4
                         },
-                        "questionToken": {
+                        "optionalToken": {
                             "kind": 134217750,
-                            "flags": 0,
+                            "flags": 64,
                             "start": 4,
                             "end": 5
                         },
-                        "consequent": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 68,
-                            "start": 5,
-                            "end": 5
-                        },
-                        "colonToken": {
-                            "kind": 21,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 64,
+                                "start": 6,
+                                "end": 13
+                            },
                             "flags": 0,
                             "start": 5,
-                            "end": 6
-                        },
-                        "alternate": {
-                            "kind": 134299649,
-                            "text": "string",
-                            "rawText": "string",
-                            "flags": 96,
-                            "start": 6,
                             "end": 13
                         },
+                        "initializer": null,
                         "flags": 32,
                         "start": 0,
                         "end": 13
@@ -306,8 +299,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 5, end: 6
-✖ The left hand side of the arrow is not destructible  - start: 14, end: 17
 ✖ Invalid character - start: 23, end: 25
 ✖ Private identifiers are not allowed outside class_bodies - start: 23, end: 25
 ✖ Invalid character - start: 25, end: 26
