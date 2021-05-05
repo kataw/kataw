@@ -46,7 +46,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
   };
   const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
   tob.$cst = JSON.stringify(cst, null, 4);
-  tob.$printed = printSourceFile(tob.$cst, tob.printerOptions);
+  tob.$printed = printSourceFile(cst, tob.printerOptions);
   tob.$diagnostics = diagnostics2md(diagnostics);
 
   !deepEqual(tob.cst, tob.$cst) && tob.mismatchItems.push('cst');
@@ -120,7 +120,7 @@ function outputBlock(tob: Tob, updateItems: any) {
   return `
 ## Output
 
-### Hybrid CST
+### CST
 ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
 ### Printed
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
