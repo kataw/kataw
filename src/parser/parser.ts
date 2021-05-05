@@ -3717,7 +3717,7 @@ function parseParentheizedExpression(
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
         curPos,
-        parser.pos
+        parser.curPos
       );
     }
     parser.destructible = destructible;
@@ -6364,8 +6364,19 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
     parser,
     (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
   );
-  parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBracket);
-
+  if (parser.token === SyntaxKind.RightBracket) {
+    nextToken(parser, context | Context.AllowRegExp);
+  } else if (parser.previousErrorPos !== parser.pos) {
+    parser.previousErrorPos = parser.pos;
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[DiagnosticCode.Expected_a_computed_property
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
   return createComputedPropertyName(expression, pos, parser.curPos);
 }
 
@@ -7233,7 +7244,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   let typeParameters = null;
 
   let state = Tristate.False;
-
+  let trailingComma = false;
   const asyncToken = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, start, parser.curPos);
 
   if (parser.token === SyntaxKind.LessThan) {
@@ -7286,7 +7297,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
     return createCallExpression(
       expr,
-      createArgumentList([], /* trailingComma */ false, start, start),
+      createArgumentList([], trailingComma, start, start),
       start,
       parser.curPos
     );
@@ -7762,7 +7773,14 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
     params.push(expression);
 
-    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) continue;
+    if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
+      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+        trailingComma = true;
+        break;
+      }
+       continue;
+    }
+
     if (parser.token === SyntaxKind.RightParen) break;
   }
 
@@ -7772,7 +7790,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     parser.assignable = false;
     return createCallExpression(
       expr,
-      createArgumentList(params, /* trailingComma */ false, start, start),
+      createArgumentList(params, trailingComma, start, start),
       start,
       parser.curPos
     );
@@ -7833,7 +7851,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   parser.assignable = false;
   return createCallExpression(
     expr,
-    createArgumentList(params, /* trailingComma */ false, start, start),
+    createArgumentList(params, trailingComma, start, start),
     start,
     parser.curPos
   );

@@ -1834,7 +1834,7 @@
                         "end": 666
                     }
                 ],
-                "trailingComma": false,
+                "trailingComma": true,
                 "flags": 32,
                 "start": 654,
                 "end": 654

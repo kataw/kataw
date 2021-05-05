@@ -94,7 +94,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 16
+✖ Expected a computed property - start: 14, end: 16
 ✖ Property definition expected. Did you mean to use a ':'? - start: 14, end: 16
 ✖ ',' expected - start: 14, end: 16
 ✖ Property definition expected. Did you mean to use a ':'? - start: 16, end: 17

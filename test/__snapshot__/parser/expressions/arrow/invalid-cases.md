@@ -3800,7 +3800,7 @@ a++ => {};
 ✖ Declaration or statement expected - start: 34, end: 37
 ✖ Expression expected - start: 43, end: 44
 ✖ Expression expected - start: 44, end: 45
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 48
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 45
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Expression expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
@@ -3811,15 +3811,15 @@ a++ => {};
 ✖ Expression expected - start: 220, end: 221
 ✖ Expression expected - start: 225, end: 226
 ✖ Expression expected - start: 300, end: 301
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 226, end: 304
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 307, end: 316
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 319, end: 331
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 226, end: 301
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 307, end: 313
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 319, end: 328
 ✖ Expected a `;` - start: 343, end: 346
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 349, end: 364
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 349, end: 361
 ✖ Expected a `;` - start: 379, end: 382
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 385, end: 400
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 385, end: 397
 ✖ Expected a `;` - start: 1306, end: 1309
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1313, end: 1321
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1313, end: 1318
 ✖ Expected a `;` - start: 1333, end: 1336
 ✖ Expression expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1352, end: 1354
@@ -3833,12 +3833,12 @@ a++ => {};
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1405, end: 1419
 ✖ Expected a `;` - start: 1434, end: 1437
 ✖ Expected a `;` - start: 1445, end: 1448
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1452, end: 1461
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1452, end: 1458
 ✖ Unterminated string literal - start: 1467, end: 1480
 ✖ Expected a ')' to match the '(' token here - start: 1489, end: 1492
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1465, end: 1492
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1506, end: 1514
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1518, end: 1529
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1465, end: 1489
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1506, end: 1511
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1518, end: 1526
 ✖ Expected a ')' to match the '(' token here - start: 1537, end: 1539
 ✖ Expected a `;` - start: 1540, end: 1541
 ✖ Declaration or statement expected - start: 1541, end: 1544
