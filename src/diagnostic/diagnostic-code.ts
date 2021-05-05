@@ -175,7 +175,9 @@ export const enum DiagnosticCode {
   Invalid_lower_surrogate = 174,
   Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier = 175,
   Property_definition_expected_Did_you_mean_to_use_a = 176,
-  Expected_a_computed_property = 177
+  Expected_a_computed_property = 177,
+  Object_literal_epected = 178,
+  The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer = 179
 }
 
 export const diagnosticMap: { [key: number]: string; } = {
@@ -353,4 +355,6 @@ export const diagnosticMap: { [key: number]: string; } = {
 [175]: "Arrow parameters can only contain a binding pattern or an identifier",
 [176]: "Property definition expected. Did you mean to use a ':'?",
 [177]: "Expected a computed property",
+[178]: "Object literal epected",
+[179]: "The variable declaration of a 'for...of ... in' statement cannot have an initializer.",
 };

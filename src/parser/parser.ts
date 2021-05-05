@@ -2610,16 +2610,25 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen)) {
-    if (nodeFlags & NodeFlags.Getter && parser.token !== SyntaxKind.RightParen) {
+    if (parser.token === SyntaxKind.RightParen) {
+      if (nodeFlags & NodeFlags.Setter && parser.token === SyntaxKind.RightParen) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error | DiagnosticKind.EarlyError,
+          diagnosticMap[DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter],
+          parser.curPos,
+          parser.pos
+        );
+      }
+    } else if (nodeFlags & NodeFlags.Getter) {
       parser.onError(
         DiagnosticSource.Parser,
-        DiagnosticKind.Error,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
         diagnosticMap[DiagnosticCode.A_get_accessor_cannot_have_parameters],
         parser.curPos,
         parser.pos
       );
     }
-
     const curpPos = parser.curPos;
     let trailingComma = false;
 
@@ -2628,7 +2637,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         if (parser.token & SyntaxKind.IsEllipsis) {
           parser.onError(
             DiagnosticSource.Parser,
-            DiagnosticKind.Error,
+            DiagnosticKind.Error | DiagnosticKind.EarlyError,
             diagnosticMap[DiagnosticCode.A_set_accessor_cannot_have_rest_parameter],
             parser.curPos,
             parser.pos
@@ -2637,7 +2646,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.ThisKeyword) {
           parser.onError(
             DiagnosticSource.Parser,
-            DiagnosticKind.Error,
+            DiagnosticKind.Error | DiagnosticKind.EarlyError,
             diagnosticMap[DiagnosticCode.A_setter_cannot_have_a_this_parameter],
             parser.curPos,
             parser.pos
@@ -2656,7 +2665,7 @@ function parsMethodParameters(parser: ParserState, context: Context, nodeFlags: 
         if (nodeFlags & NodeFlags.Setter && parser.token !== SyntaxKind.RightParen) {
           parser.onError(
             DiagnosticSource.Parser,
-            DiagnosticKind.Error,
+            DiagnosticKind.Error | DiagnosticKind.EarlyError,
             diagnosticMap[DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter],
             parser.curPos,
             parser.pos
@@ -5798,7 +5807,20 @@ function parseVariableDeclaration(parser: ParserState, context: Context, inForSt
   const binding = parseIdentifierOrPattern(parser, context, DiagnosticCode.Variable_declaration_expected);
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const type = parseTypeAnnotation(parser, context);
-  if (requireInitializer && parser.token !== SyntaxKind.Assign) {
+  let initializer = null;
+
+  if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
+    initializer = parseExpression(parser, context);
+    if (inForStatement && parser.token & SyntaxKind.IsInOrOf) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  }else if (requireInitializer) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -5807,7 +5829,6 @@ function parseVariableDeclaration(parser: ParserState, context: Context, inForSt
       parser.pos
     );
   }
-  const initializer = parseInitializer(parser, context);
   return createVariableDeclaration(binding, optionalToken, type, initializer, pos, parser.curPos);
 }
 
@@ -6098,28 +6119,32 @@ function parseLexicalBinding(
   const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
   const type = parseTypeAnnotation(parser, context);
 
-  if (requireInitializer && parser.token !== SyntaxKind.Assign) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      isConst
-        ? diagnosticMap[DiagnosticCode.Missing_initializer_in_const_declaration]
-        : diagnosticMap[DiagnosticCode.Missing_initializer_in_destructuring_declaration],
-      parser.curPos,
-      parser.pos
-    );
-  }
-  if (inForStatement && parser.token & SyntaxKind.IsInOrOf && parser.token === SyntaxKind.Assign) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.The_lexical_declaration_of_a_for_in_or_of_statement_cannot_have_an_initializer],
-      parser.curPos,
-      parser.pos
-    );
-  }
+  let initializer = null;
 
-  const initializer = parseInitializer(parser, context);
+  if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Assign)) {
+    initializer = parseExpression(parser, context);
+    if (inForStatement && parser.token & SyntaxKind.IsInOrOf) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.The_lexical_declaration_of_a_for_in_or_of_statement_cannot_have_an_initializer],
+        parser.curPos,
+        parser.pos
+      );
+    }
+  } else if (requireInitializer) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[
+        isConst
+          ? DiagnosticCode.Missing_initializer_in_const_declaration
+          : DiagnosticCode.Missing_initializer_in_destructuring_declaration
+      ],
+      parser.curPos,
+      parser.pos
+    );
+  }
 
   return createLexicalBinding(binding, optionalToken, type, initializer, pos, parser.curPos);
 }
@@ -6370,10 +6395,9 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
     parser.previousErrorPos = parser.pos;
     parser.onError(
       DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.Expected_a_computed_property
-      ],
-      parser.curPos,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Expected_a_computed_property],
+      pos,
       parser.pos
     );
   }
@@ -7295,12 +7319,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         start
       );
     }
-    return createCallExpression(
-      expr,
-      createArgumentList([], trailingComma, start, start),
-      start,
-      parser.curPos
-    );
+    return createCallExpression(expr, createArgumentList([], trailingComma, start, start), start, parser.curPos);
   }
 
   let destructible = DestructibleKind.None;
@@ -7778,7 +7797,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         trailingComma = true;
         break;
       }
-       continue;
+      continue;
     }
 
     if (parser.token === SyntaxKind.RightParen) break;
@@ -7788,12 +7807,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   if (destructible & DestructibleKind.NotDestructible) {
     parser.assignable = false;
-    return createCallExpression(
-      expr,
-      createArgumentList(params, trailingComma, start, start),
-      start,
-      parser.curPos
-    );
+    return createCallExpression(expr, createArgumentList(params, trailingComma, start, start), start, parser.curPos);
   }
 
   if (state) {
@@ -7849,12 +7863,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   }
 
   parser.assignable = false;
-  return createCallExpression(
-    expr,
-    createArgumentList(params, trailingComma, start, start),
-    start,
-    parser.curPos
-  );
+  return createCallExpression(expr, createArgumentList(params, trailingComma, start, start), start, parser.curPos);
 }
 
 function parseOpaqueType(parser: ParserState, context: Context, declareKeyword: SyntaxToken<TokenSyntaxKind> | null) {

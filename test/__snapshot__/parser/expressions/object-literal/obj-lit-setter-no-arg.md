@@ -114,6 +114,7 @@
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ A 'set' accessor must have exactly one parameter. - start: 9, end: 10
+
 ```
 

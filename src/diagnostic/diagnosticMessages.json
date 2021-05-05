@@ -172,6 +172,8 @@
   "Invalid lower surrogate": 174,
   "Arrow parameters can only contain a binding pattern or an identifier": 175,
   "Property definition expected. Did you mean to use a ':'?": 176,
-  "Expected a computed property": 177
+  "Expected a computed property": 177,
+  "Object literal epected": 178,
+  "The variable declaration of a 'for...of ... in' statement cannot have an initializer.": 179
 }
 
