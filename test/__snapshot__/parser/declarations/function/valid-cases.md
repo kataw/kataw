@@ -4282,7 +4282,6 @@ function f({x:arg = (arg = 2)}) {}
 ### Diagnostics
 
 ```javascript
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 562, end: 574
-
+✔ No errors
 ```
 

@@ -3523,7 +3523,15 @@ function parseParentheizedExpression(
 
     expression = parseCommaOperator(parser, context, expression, curPos);
     parseExpectedMatchingBracket(parser, context, SyntaxKind.RightParen);
-
+    if (parser.token === SyntaxKind.Arrow) {
+      parser.previousErrorPos = parser.pos;
+      parser.onError(
+        DiagnosticSource.Parser,
+        diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
+        curPos,
+        parser.pos
+      );
+    }
     parser.destructible = destructible;
 
     return createParenthesizedExpression(expression, curPos, parser.curPos);
@@ -3810,14 +3818,6 @@ function parseParentheizedExpression(
         if (parser.token === SyntaxKind.RightParen) break;
       }
     } else {
-      parser.previousErrorPos = parser.pos;
-      parser.onError(
-        DiagnosticSource.Parser,
-        diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
-        curPos,
-        parser.pos
-      );
-
       state = Tristate.False;
       destructible |= DestructibleKind.NotDestructible;
 
@@ -3830,7 +3830,15 @@ function parseParentheizedExpression(
       expression = createCommaOperator(expressions, curPos, parser.curPos);
 
       parseExpectedMatchingBracket(parser, context, SyntaxKind.RightParen);
-
+      if (parser.token === SyntaxKind.Arrow) {
+        parser.previousErrorPos = parser.pos;
+        parser.onError(
+          DiagnosticSource.Parser,
+          diagnosticMap[DiagnosticCode.Arrow_parameters_can_only_contain_a_binding_pattern_or_an_identifier],
+          curPos,
+          parser.pos
+        );
+      }
       parser.destructible = destructible;
 
       return createParenthesizedExpression(expression, curPos, parser.curPos);

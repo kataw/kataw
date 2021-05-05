@@ -3800,7 +3800,7 @@ a++ => {};
 ✖ Declaration or statement expected - start: 34, end: 37
 ✖ Expression expected - start: 43, end: 44
 ✖ Expression expected - start: 44, end: 45
-✖ Expected a `;` - start: 45, end: 48
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 41, end: 48
 ✖ A return statement can only be used within a function_body - start: 52, end: 59
 ✖ Expression expected - start: 59, end: 62
 ✖ Expected a `;` - start: 81, end: 82
@@ -3811,15 +3811,15 @@ a++ => {};
 ✖ Expression expected - start: 220, end: 221
 ✖ Expression expected - start: 225, end: 226
 ✖ Expression expected - start: 300, end: 301
-✖ Expected a `;` - start: 301, end: 304
-✖ Expected a `;` - start: 313, end: 316
-✖ Expected a `;` - start: 328, end: 331
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 226, end: 304
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 307, end: 316
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 319, end: 331
 ✖ Expected a `;` - start: 343, end: 346
-✖ Expected a `;` - start: 361, end: 364
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 349, end: 364
 ✖ Expected a `;` - start: 379, end: 382
-✖ Expected a `;` - start: 397, end: 400
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 385, end: 400
 ✖ Expected a `;` - start: 1306, end: 1309
-✖ Expected a `;` - start: 1318, end: 1321
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1313, end: 1321
 ✖ Expected a `;` - start: 1333, end: 1336
 ✖ Expression expected - start: 1343, end: 1346
 ✖ Expression expected - start: 1352, end: 1354
@@ -3830,34 +3830,30 @@ a++ => {};
 ✖ Expression expected - start: 1370, end: 1373
 ✖ Expected a `;` - start: 1383, end: 1386
 ✖ Expected a `;` - start: 1398, end: 1401
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1405, end: 1415
-✖ Expected a `;` - start: 1416, end: 1419
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1405, end: 1419
 ✖ Expected a `;` - start: 1434, end: 1437
 ✖ Expected a `;` - start: 1445, end: 1448
-✖ Expected a `;` - start: 1458, end: 1461
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1452, end: 1461
 ✖ Unterminated string literal - start: 1467, end: 1480
 ✖ Expected a ')' to match the '(' token here - start: 1489, end: 1492
-✖ Expected a `;` - start: 1511, end: 1514
-✖ Expected a `;` - start: 1526, end: 1529
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1465, end: 1492
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1506, end: 1514
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1518, end: 1529
 ✖ Expected a ')' to match the '(' token here - start: 1537, end: 1539
 ✖ Expected a `;` - start: 1540, end: 1541
 ✖ Declaration or statement expected - start: 1541, end: 1544
 ✖ Declaration or statement expected - start: 1551, end: 1554
 ✖ Expected a `;` - start: 1562, end: 1565
 ✖ Expected a `;` - start: 1575, end: 1578
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1582, end: 1590
-✖ Expected a `;` - start: 1591, end: 1594
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1582, end: 1594
 ✖ Expected a `;` - start: 1607, end: 1610
 ✖ Expected a `;` - start: 1617, end: 1620
 ✖ Expected a `;` - start: 1642, end: 1645
 ✖ Expected a `;` - start: 1670, end: 1673
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1677, end: 1697
-✖ Expected a `;` - start: 1698, end: 1701
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1705, end: 1713
-✖ Expected a `;` - start: 1714, end: 1717
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1677, end: 1701
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1705, end: 1717
 ✖ Expected a `;` - start: 1730, end: 1733
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1737, end: 1748
-✖ Expected a `;` - start: 1749, end: 1752
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 1737, end: 1752
 ✖ Expected a `;` - start: 1768, end: 1771
 ✖ A rest element cannot have an initializer - start: 1781, end: 1783
 ✖ Expected a ')' to match the '(' token here - start: 1802, end: 1804

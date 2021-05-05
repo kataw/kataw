@@ -1158,8 +1158,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 10
-✖ Expected a `;` - start: 11, end: 14
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 14
 ✖ Expected a `;` - start: 31, end: 34
 ✖ A rest element cannot have an initializer - start: 45, end: 47
 ✖ Expected a ')' to match the '(' token here - start: 66, end: 68

@@ -148,7 +148,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Arrow parameters can only contain a binding pattern or an identifier - start: 0, end: 11
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 18, end: 20
 
 ```

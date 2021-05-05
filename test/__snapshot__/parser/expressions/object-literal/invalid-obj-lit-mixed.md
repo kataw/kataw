@@ -1684,6 +1684,9 @@
 ✖ Declaration or statement expected - start: 105, end: 107
 ✖ Declaration or statement expected - start: 107, end: 108
 ✖ Expected a ')' to match the '(' token here - start: 160, end: 162
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 135, end: 162
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 134, end: 162
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 133, end: 162
 ✖ ',' expected - start: 160, end: 162
 ✖ ',' expected - start: 160, end: 162
 ✖ The left hand side of the arrow is not destructible  - start: 160, end: 162
@@ -1695,14 +1698,17 @@
 ✖ Declaration or statement expected - start: 169, end: 170
 ✖ Declaration or statement expected - start: 170, end: 172
 ✖ Declaration or statement expected - start: 172, end: 173
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 198, end: 232
 ✖ ',' expected - start: 230, end: 232
-✖ Expected a ')' to match the '(' token here - start: 230, end: 232
 ✖ ',' expected - start: 230, end: 232
 ✖ The left hand side of the arrow is not destructible  - start: 230, end: 232
 ✖ Expression expected - start: 232, end: 233
 ✖ Declaration or statement expected - start: 233, end: 235
 ✖ Declaration or statement expected - start: 235, end: 236
 ✖ Expected a ')' to match the '(' token here - start: 275, end: 278
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 263, end: 278
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 262, end: 278
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 261, end: 278
 ✖ ',' expected - start: 275, end: 278
 ✖ ',' expected - start: 275, end: 278
 ✖ The left hand side of the arrow is not destructible  - start: 275, end: 278
@@ -1715,6 +1721,9 @@
 ✖ Declaration or statement expected - start: 297, end: 298
 ✖ ',' expected - start: 336, end: 339
 ✖ Did you forgot a ']' to match the `[` token? - start: 336, end: 339
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 325, end: 339
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 324, end: 339
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 323, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ ',' expected - start: 336, end: 339
 ✖ The left hand side of the arrow is not destructible  - start: 336, end: 339
@@ -1730,6 +1739,9 @@
 ✖ Dot property must be an identifier - start: 401, end: 402
 ✖ ',' expected - start: 404, end: 407
 ✖ Did you forgot a ']' to match the `[` token? - start: 404, end: 407
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 391, end: 407
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 390, end: 407
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 389, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ ',' expected - start: 404, end: 407
 ✖ The left hand side of the arrow is not destructible  - start: 404, end: 407
@@ -1744,6 +1756,9 @@
 ✖ Declaration or statement expected - start: 431, end: 432
 ✖ ',' expected - start: 472, end: 475
 ✖ Did you forgot a ']' to match the `[` token? - start: 472, end: 475
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 459, end: 475
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 458, end: 475
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 457, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ ',' expected - start: 472, end: 475
 ✖ The left hand side of the arrow is not destructible  - start: 472, end: 475
@@ -1757,7 +1772,7 @@
 ✖ Declaration or statement expected - start: 497, end: 499
 ✖ Declaration or statement expected - start: 499, end: 500
 ✖ The left-hand side must be a variable or a property access. - start: 544, end: 546
-✖ Expected a `;` - start: 630, end: 632
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 567, end: 632
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 699, end: 701
 ✖ Expected a ')' to match the '(' token here - start: 703, end: 704
 
