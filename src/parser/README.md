@@ -44,6 +44,10 @@ a `hint`, `warning`, or an `error`., and
 
 The `source` argument for each diagnostics is either `1` for lexer or  `2` for parser.
 
+Each error position is from the start of the problem to the end of the problem. The location *never* point to one specific token.
+ 
+This is a design choice, and makes it possible to add a red, thick line to highlight the issue in an editor.
+
 
 ### Public API methods to extract info from CST nodes
 
