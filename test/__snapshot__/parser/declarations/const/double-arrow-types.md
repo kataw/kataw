@@ -386,7 +386,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 37, end: 39
 ✖ Expected a ')' to match the '(' token here - start: 78, end: 80
 ✖ Missing initializer in const declaration - start: 86, end: 87
-✖ Expected a `;` - start: 87, end: 89
+✖ Trailing comma not allowed. - start: 87, end: 89
 ✖ Declaration or statement expected - start: 89, end: 92
 ✖ Expression expected - start: 97, end: 99
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 97, end: 99

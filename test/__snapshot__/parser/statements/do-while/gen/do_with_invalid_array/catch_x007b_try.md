@@ -137,7 +137,7 @@ do while [catch] catch { try
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
-✖ Property assignment expected - start: 28, end: 28
+✖ Property definition expected. Did you mean to use a ':'? - start: 28, end: 28
 ✖ ',' expected - start: 28, end: 28
 ✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 28
 

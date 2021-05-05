@@ -104,7 +104,7 @@ let foo,,bar
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 8, end: 9
+✖ Trailing comma not allowed. - start: 8, end: 9
 
 ```
 

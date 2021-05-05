@@ -4,7 +4,7 @@ import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { isIdentifierPart, toHex, fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
 // Intentionally negative
 const enum Escape {
@@ -144,6 +144,7 @@ export function scanIdentifierParts(parser: ParserState, source: string): string
       if ((trail & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
         parser.onError(
           DiagnosticSource.Parser,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Invalid_astral_character],
           parser.curPos,
           parser.pos
@@ -164,6 +165,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
   if (parser.source.charCodeAt(pos + 1) !== Char.LowerU) {
     parser.onError(
       DiagnosticSource.Parser,
+      DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
       parser.curPos,
       parser.pos
@@ -192,6 +194,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
       if (code > Char.LastUnicodeChar) {
         parser.onError(
           DiagnosticSource.Parser,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
           parser.curPos,
           parser.pos
@@ -210,6 +213,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
       // when parsing out cases like 'x\u{0 foo' where '}'.
       parser.onError(
         DiagnosticSource.Parser,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
         parser.curPos,
         parser.pos
@@ -234,6 +238,7 @@ export function scanIdentifierEscape(parser: ParserState): number {
     if (digit < 0) {
       parser.onError(
         DiagnosticSource.Parser,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
         parser.curPos,
         parser.pos

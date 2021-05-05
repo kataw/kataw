@@ -16,6 +16,8 @@ export interface Diagnostic {
  * Types of diagnostics which can be generated.
  */
 export enum DiagnosticKind {
+  EarlyError = 1 << 0,
+  Runtime = 1 << 1,
   Message,
   Warning,
   Error,

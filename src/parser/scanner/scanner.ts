@@ -8,7 +8,7 @@ import { scanRegularExpression } from './regexp';
 import { isIdentifierStart, isIdentifierPart, isWhiteSpaceSlow, fromCodePoint, isLineTerminator } from './common';
 import { scanPrivateIdentifier } from './private-identifier';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import {
   scanIdentifier,
   descKeywordTable,
@@ -345,6 +345,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if (!commentClosed) {
             parser.onError(
               DiagnosticSource.Parser,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Unexpected_token],
               parser.curPos,
               parser.pos
@@ -371,6 +372,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if (context & Context.Module) {
             parser.onError(
               DiagnosticSource.Parser,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Invalid_character],
               parser.curPos,
               parser.pos
@@ -416,6 +418,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if (context & Context.Module) {
             parser.onError(
               DiagnosticSource.Parser,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Invalid_character],
               parser.curPos,
               parser.pos
@@ -548,6 +551,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
           if ((lead & 0xfc00) !== 0xdc00 || !isIdentifierPart(cp)) {
             parser.onError(
               DiagnosticSource.Parser,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Invalid_lower_surrogate],
               parser.curPos,
               parser.pos
@@ -561,6 +565,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
 
         parser.onError(
           DiagnosticSource.Parser,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Invalid_character],
           parser.curPos,
           parser.pos

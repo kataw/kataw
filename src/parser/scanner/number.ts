@@ -4,7 +4,7 @@ import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { toHex } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
 // prettier-ignore
 const enum NumberKind {
@@ -191,6 +191,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             if (type & 0b00000000000000000000000000001110) {
               parser.onError(
                 DiagnosticSource.Parser,
+                DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
                 parser.curPos,
                 parser.pos
@@ -210,6 +211,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             if (type & 0b00000000000000000000000000001100) {
               parser.onError(
                 DiagnosticSource.Lexer,
+                DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
                 parser.curPos,
                 parser.pos
@@ -225,6 +227,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             if (type & 0b00000000000000000000000000001110) {
               parser.onError(
                 DiagnosticSource.Lexer,
+                DiagnosticKind.Error,
                 diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
                 parser.curPos,
                 parser.pos
@@ -257,6 +260,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
             }
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[
                 type & NumberKind.Binary
                   ? DiagnosticCode.Binary_integer_literal_like_sequence_containing_an_invalid_digit
@@ -279,6 +283,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
               if (source.charCodeAt(pos + 1) === Char.Underscore) {
                 parser.onError(
                   DiagnosticSource.Lexer,
+                  DiagnosticKind.Error,
                   diagnosticMap[DiagnosticCode.Multiple_consecutive_numeric_separators_are_not_permitted],
                   parser.curPos,
                   parser.pos
@@ -305,6 +310,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       if (AsciiCharTypes[cp] & 0b00000000000000000000000000000011) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
           parser.curPos,
           parser.pos
@@ -314,6 +320,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       if (type & 0b00000000000000000000000000001110 && digits <= 1) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[
             type & NumberKind.Binary
               ? // Binary integer literal like sequence without any digits
@@ -333,6 +340,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       } else if ((state & SeparatorAndBigIntState.AllowSeparator) === 0) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Numeric_separators_are_not_allowed_at_the_end_of_numeric_literals],
           parser.curPos,
           parser.pos
@@ -361,6 +369,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       if (context & Context.Strict) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Octal_literals_are_not_allowed_in_strict_mode],
           parser.curPos,
           pos
@@ -369,6 +378,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       if (cp === Char.Underscore) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Numeric_separator_can_not_be_used_after_leading_0],
           parser.curPos,
           parser.pos
@@ -376,7 +386,13 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
       }
 
       if (cp === Char.LowerN) {
-        parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Invalid_BigInt_syntax], parser.curPos, pos);
+        parser.onError(
+          DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.Invalid_BigInt_syntax],
+          parser.curPos,
+          pos
+        );
       }
       if (type === NumberKind.ImplicitOctal) {
         parser.pos = pos;
@@ -426,7 +442,13 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
 
   if (cp === Char.LowerN) {
     if (state & SeparatorAndBigIntState.DisallowBigInt) {
-      parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+      parser.onError(
+        DiagnosticSource.Lexer,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.Unexpected_token],
+        parser.curPos,
+        parser.pos
+      );
     }
     parser.tokenValue = source.slice(parser.tokenPos, parser.pos);
     parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
@@ -449,6 +471,7 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
     if ((AsciiCharTypes[cp] & AsciiCharFlags.Decimal) === 0) {
       parser.onError(
         DiagnosticSource.Lexer,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Non_number_after_exponent_indicator],
         parser.curPos,
         pos
@@ -469,7 +492,13 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
   // The SourceCharacter immediately following a NumericLiteral must not be an IdentifierStart or DecimalDigit.
   // For example : 3in is an error and not the two input elements 3 and in
   if ((AsciiCharTypes[cp] & 0b00000000000000000000000000000011) > 0) {
-    parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+    parser.onError(
+      DiagnosticSource.Lexer,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Unexpected_token],
+      parser.curPos,
+      parser.pos
+    );
   }
   parser.tokenRaw = source.slice(parser.tokenPos, parser.pos);
 
@@ -495,6 +524,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
       if (cp === Char.Underscore) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Numeric_separators_not_allowed_here],
           parser.curPos,
           parser.pos
@@ -510,6 +540,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
   if (state & SeparatorAndBigIntState.AllowSeparator) {
     parser.onError(
       DiagnosticSource.Lexer,
+      DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Numeric_separators_not_allowed_here],
       parser.curPos,
       parser.pos
@@ -540,6 +571,7 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
     if ((AsciiCharTypes[cp] & AsciiCharFlags.Decimal) === 0) {
       parser.onError(
         DiagnosticSource.Lexer,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Non_number_after_exponent_indicator],
         parser.curPos,
         parser.pos
@@ -562,6 +594,7 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
   if ((AsciiCharTypes[source.charCodeAt(parser.pos)] & 0b00000000000000000000000000000011) > 0) {
     parser.onError(
       DiagnosticSource.Lexer,
+      DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.An_identifier_or_keyword_cannot_immediately_follow_a_numeric_literal],
       parser.curPos,
       parser.pos

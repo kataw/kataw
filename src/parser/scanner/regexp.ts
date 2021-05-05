@@ -3,7 +3,7 @@ import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { isIdentifierPart } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
 export function scanRegularExpression(parser: ParserState, source: string): SyntaxKind {
   let pos = parser.tokenPos + 1;
@@ -49,6 +49,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           parser.nodeFlags |= NodeFlags.Unterminated;
           parser.onError(
             DiagnosticSource.Lexer,
+            DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Unterminated_regular_expression],
             parser.curPos,
             parser.pos
@@ -64,6 +65,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
       parser.nodeFlags |= NodeFlags.Unterminated;
       parser.onError(
         DiagnosticSource.Lexer,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Unterminated_regular_expression],
         parser.curPos,
         parser.pos
@@ -97,6 +99,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.Global) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -109,6 +112,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.IgnoreCase) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -121,6 +125,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.Multiline) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -133,6 +138,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.DotAll) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -145,6 +151,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.Unicode) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -157,6 +164,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
           if (flag & RegExpFlags.Sticky) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Duplicate_regular_expression_flag],
               parser.curPos,
               parser.pos
@@ -168,6 +176,7 @@ export function scanRegularExpression(parser: ParserState, source: string): Synt
         default:
           parser.onError(
             DiagnosticSource.Lexer,
+            DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Unknown_regular_expression_flag],
             parser.curPos,
             parser.pos

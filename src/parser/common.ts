@@ -1,6 +1,6 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../ast/syntax-node';
 import { nextToken } from './scanner/scanner';
-import { DiagnosticSource } from '../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../diagnostic/diagnostic';
 import { TokenSyntaxKind, createToken } from '../ast/token';
 import { DiagnosticCode, diagnosticMap } from '../diagnostic/diagnostic-code';
 
@@ -66,7 +66,13 @@ export const enum DestuctionKind {
   FOR
 }
 
-export type OnError = (source: DiagnosticSource, message: string, start: number, end: number) => void | undefined;
+export type OnError = (
+  source: DiagnosticSource,
+  kind: DiagnosticKind,
+  message: string,
+  start: number,
+  end: number
+) => void | undefined;
 
 /**
  * The parser interface.
@@ -138,6 +144,7 @@ export function parseSemicolon(parser: ParserState, context: Context): boolean {
     parser.previousErrorPos = parser.pos;
     parser.onError(
       DiagnosticSource.Parser,
+      DiagnosticKind.Error,
       diagnosticMap[
         //  DiagnosticCode._Yield_expression_cannot_be_used_in_function_parameters
         DiagnosticCode.Expected_a

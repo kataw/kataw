@@ -135,7 +135,7 @@ function diagnostics2md(diagnostics: any) {
   let diagnosticString = '';
   if (diagnostics.length) {
     diagnostics.forEach(function (a: any) {
-      diagnosticString += '✖ ' + a[1] + ' - start: ' + a[2] + ', end: ' + a[3];
+      diagnosticString += '✖ ' + a[2] + ' - start: ' + a[3] + ', end: ' + a[4];
       diagnosticString += '\n';
     });
   } else {

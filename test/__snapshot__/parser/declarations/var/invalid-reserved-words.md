@@ -376,7 +376,7 @@
 ✖ Expected a `;` - start: 49, end: 58
 ✖ Binding identifier expected - start: 58, end: 59
 ✖ Unexpected token. - start: 58, end: 59
-✖ Expected a `;` - start: 83, end: 89
+✖ Trailing comma not allowed. - start: 83, end: 89
 ✖ 'super' must be followed by an argument list or member access. - start: 89, end: 90
 ✖ Dot property must be an identifier - start: 89, end: 90
 ✖ 'super' must be followed by an argument list or member access. - start: 121, end: 123

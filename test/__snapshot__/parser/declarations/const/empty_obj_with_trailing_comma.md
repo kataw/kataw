@@ -112,7 +112,7 @@ const {,} = obj;
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 7, end: 8
 ✖ Missing initializer in const declaration - start: 7, end: 8
-✖ Declaration or statement expected - start: 8, end: 9
+✖ Trailing comma not allowed. - start: 8, end: 9
 ✖ Declaration or statement expected - start: 9, end: 11
 
 ```

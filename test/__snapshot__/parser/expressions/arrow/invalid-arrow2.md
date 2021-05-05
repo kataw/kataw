@@ -1179,7 +1179,7 @@
 ✖ Declaration or statement expected - start: 287, end: 290
 ✖ Expression expected - start: 300, end: 306
 ✖ ',' expected - start: 300, end: 306
-✖ Property assignment expected - start: 306, end: 307
+✖ Property definition expected. Did you mean to use a ':'? - start: 306, end: 307
 ✖ The left hand side of the arrow is not destructible  - start: 308, end: 311
 
 ```

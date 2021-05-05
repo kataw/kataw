@@ -92,7 +92,7 @@ call({[x]})
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 9, end: 10
+✖ Property definition expected. Did you mean to use a ':'? - start: 9, end: 10
 
 ```
 

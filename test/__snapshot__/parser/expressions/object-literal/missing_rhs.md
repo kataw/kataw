@@ -178,7 +178,7 @@ wrap({async [foo""](){}});
 ✖ Did you forgot a ']' to match the `[` token? - start: 16, end: 18
 ✖ Unexpected token. - start: 16, end: 18
 ✖ ',' expected - start: 16, end: 18
-✖ Property assignment expected - start: 18, end: 19
+✖ Property definition expected. Did you mean to use a ':'? - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19
 ✖ The parser expected to find a '}' to match the '{' token here - start: 18, end: 19
 ✖ ',' expected - start: 18, end: 19

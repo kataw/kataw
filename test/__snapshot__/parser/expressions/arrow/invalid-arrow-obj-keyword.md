@@ -144,8 +144,8 @@
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 7, end: 8
-✖ Property assignment expected - start: 27, end: 28
+✖ Property definition expected. Did you mean to use a ':'? - start: 7, end: 8
+✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 28
 
 ```
 

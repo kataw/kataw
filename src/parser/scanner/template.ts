@@ -3,7 +3,7 @@ import { NodeFlags, SyntaxKind } from '../../ast/syntax-node';
 import { Char } from './char';
 import { fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import { scanEscapeSequence } from './string';
 
 export function scanTemplate(
@@ -57,6 +57,7 @@ export function scanTemplate(
 
   parser.onError(
     DiagnosticSource.Lexer,
+    DiagnosticKind.Error,
     diagnosticMap[DiagnosticCode.Unterminated_template_literal],
     parser.curPos,
     parser.pos

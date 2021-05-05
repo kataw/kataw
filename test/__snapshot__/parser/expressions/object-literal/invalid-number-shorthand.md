@@ -95,7 +95,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 3, end: 4
+✖ Property definition expected. Did you mean to use a ':'? - start: 3, end: 4
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 5, end: 7
 
 ```

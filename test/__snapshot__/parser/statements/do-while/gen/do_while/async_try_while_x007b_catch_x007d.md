@@ -142,7 +142,7 @@ do async try while { catch } while
 ✖ Function declarations are not allowed in an arbitrary statement position. - start: 2, end: 8
 ✖ Expected a `;` - start: 8, end: 12
 ✖ Expression expected - start: 12, end: 18
-✖ Property assignment expected - start: 26, end: 28
+✖ Property definition expected. Did you mean to use a ':'? - start: 26, end: 28
 ✖ Expected a ')' to match the '(' token here - start: 28, end: 34
 
 ```

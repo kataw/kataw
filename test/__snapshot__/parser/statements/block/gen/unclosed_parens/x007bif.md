@@ -70,7 +70,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 6, end: 6
+✖ Property definition expected. Did you mean to use a ':'? - start: 6, end: 6
 ✖ ',' expected - start: 6, end: 6
 ✖ The parser expected to find a '}' to match the '{' token here - start: 6, end: 6
 

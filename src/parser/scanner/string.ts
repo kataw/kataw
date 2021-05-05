@@ -4,7 +4,7 @@ import { Char } from './char';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 import { toHex, fromCodePoint } from './common';
 import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code';
-import { DiagnosticSource } from '../../diagnostic/diagnostic';
+import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 
 const enum EscapeChars {
   // Intentionally negative
@@ -195,6 +195,7 @@ export function scanString(parser: ParserState, context: Context, quote: number,
 
   parser.onError(
     DiagnosticSource.Lexer,
+    DiagnosticKind.Error,
     diagnosticMap[DiagnosticCode.Unterminated_string_literal],
     parser.curPos,
     parser.pos
@@ -214,7 +215,13 @@ export function scanEscapeSequence(
   const start = parser.pos;
   parser.pos++;
   if (parser.pos >= parser.end) {
-    parser.onError(DiagnosticSource.Lexer, diagnosticMap[DiagnosticCode.Unexpected_token], parser.curPos, parser.pos);
+    parser.onError(
+      DiagnosticSource.Lexer,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.Unexpected_token],
+      parser.curPos,
+      parser.pos
+    );
     return '';
   }
   let ch = source.charCodeAt(parser.pos);
@@ -251,6 +258,7 @@ export function scanEscapeSequence(
       if (AsciiCharTypes[source.charCodeAt(parser.pos + 1)] & AsciiCharFlags.Decimal && context & Context.Strict) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
           parser.curPos,
           parser.pos
@@ -267,6 +275,7 @@ export function scanEscapeSequence(
       if (context & Context.Strict) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Octal_escape_sequences_are_not_allowed_in_strict_mode],
           parser.curPos,
           parser.pos
@@ -283,6 +292,7 @@ export function scanEscapeSequence(
     case EscapeChars.Nine:
       parser.onError(
         DiagnosticSource.Lexer,
+        DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.Escapes_8_or_9_are_not_syntactically_valid_escapes],
         parser.curPos,
         parser.pos
@@ -342,6 +352,7 @@ export function scanEscapeSequence(
         if (code < 0) {
           parser.onError(
             DiagnosticSource.Lexer,
+            DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
             parser.curPos,
             parser.pos
@@ -358,6 +369,7 @@ export function scanEscapeSequence(
           if (digit < 0) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
               parser.curPos,
               parser.pos
@@ -371,6 +383,7 @@ export function scanEscapeSequence(
           if (code > Char.LastUnicodeChar) {
             parser.onError(
               DiagnosticSource.Lexer,
+              DiagnosticKind.Error,
               diagnosticMap[DiagnosticCode.Unicode_codepoint_must_not_be_greater_than_0x10FFFF],
               parser.curPos,
               parser.pos
@@ -397,6 +410,7 @@ export function scanEscapeSequence(
       if (code < 0) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
           parser.curPos,
           parser.pos
@@ -410,6 +424,7 @@ export function scanEscapeSequence(
         if (digit < 0) {
           parser.onError(
             DiagnosticSource.Lexer,
+            DiagnosticKind.Error,
             diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
             parser.curPos,
             parser.pos
@@ -442,6 +457,7 @@ export function scanEscapeSequence(
       if (hi < 0) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
           parser.curPos,
           parser.pos
@@ -456,6 +472,7 @@ export function scanEscapeSequence(
       if (lo < 0) {
         parser.onError(
           DiagnosticSource.Lexer,
+          DiagnosticKind.Error,
           diagnosticMap[DiagnosticCode.Invalid_hexadecimal_escape_sequence],
           parser.curPos,
           parser.pos

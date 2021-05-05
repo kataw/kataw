@@ -95,7 +95,7 @@ do[ catch { try
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 3, end: 9
-✖ Property assignment expected - start: 15, end: 15
+✖ Property definition expected. Did you mean to use a ':'? - start: 15, end: 15
 ✖ ',' expected - start: 15, end: 15
 ✖ The parser expected to find a '}' to match the '{' token here - start: 15, end: 15
 

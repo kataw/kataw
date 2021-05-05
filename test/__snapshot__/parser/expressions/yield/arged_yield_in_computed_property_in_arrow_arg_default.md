@@ -95,9 +95,9 @@
 
 ```javascript
 ✖ Did you forgot a ']' to match the `[` token? - start: 14, end: 16
-✖ Property assignment expected - start: 14, end: 16
+✖ Property definition expected. Did you mean to use a ':'? - start: 14, end: 16
 ✖ ',' expected - start: 14, end: 16
-✖ Property assignment expected - start: 16, end: 17
+✖ Property definition expected. Did you mean to use a ':'? - start: 16, end: 17
 ✖ ',' expected - start: 16, end: 17
 ✖ The parser expected to find a '}' to match the '{' token here - start: 16, end: 17
 ✖ Declaration or statement expected - start: 17, end: 18

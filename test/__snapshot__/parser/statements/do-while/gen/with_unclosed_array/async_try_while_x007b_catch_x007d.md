@@ -138,7 +138,7 @@ do[ async try while { catch }
 ✖ ',' expected - start: 9, end: 13
 ✖ Did you forgot a ']' to match the `[` token? - start: 9, end: 13
 ✖ Expression expected - start: 13, end: 19
-✖ Property assignment expected - start: 27, end: 29
+✖ Property definition expected. Did you mean to use a ':'? - start: 27, end: 29
 ✖ Expected a ')' to match the '(' token here - start: 29, end: 29
 
 ```

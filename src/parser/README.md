@@ -37,10 +37,10 @@ Kataw has a build in error recovery feature so no error diagnostics will be repo
 For example:
 
 ```ts
-kataw.parseScript('¤', { allowTypes: false}, function (source, message, start, end) {})
+kataw.parseScript('¤', { allowTypes: false}, function (source, kind, message, start, end) {})
 ```
-Each diagnostic is either a `hint`, `warning`, or an `error`, and the diagnostics are dynamics - they will will change based on the context
-you are parsing in.
+The diagnostics are dynamics - they will will change based on the context you are parsing in - and the `kind` is either
+a `hint`, `warning`, or an `error`., and
 
 The `source` argument for each diagnostics is either `1` for lexer or  `2` for parser.
 

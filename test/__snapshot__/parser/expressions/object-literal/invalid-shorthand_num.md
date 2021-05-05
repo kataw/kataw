@@ -83,7 +83,7 @@ x = {5};
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 6, end: 7
+✖ Property definition expected. Did you mean to use a ':'? - start: 6, end: 7
 
 ```
 

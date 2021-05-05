@@ -1661,7 +1661,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Property assignment expected - start: 43, end: 44
+✖ Property definition expected. Did you mean to use a ':'? - start: 43, end: 44
 ✖ ',' expected - start: 43, end: 44
 ✖ The parser expected to find a '}' to match the '{' token here - start: 43, end: 44
 ✖ Expected a ')' to match the '(' token here - start: 44, end: 45
@@ -1672,7 +1672,7 @@
 ✖ Declaration or statement expected - start: 49, end: 50
 ✖ Declaration or statement expected - start: 50, end: 52
 ✖ Declaration or statement expected - start: 52, end: 53
-✖ Property assignment expected - start: 98, end: 99
+✖ Property definition expected. Did you mean to use a ':'? - start: 98, end: 99
 ✖ ',' expected - start: 98, end: 99
 ✖ The parser expected to find a '}' to match the '{' token here - start: 98, end: 99
 ✖ Expected a ')' to match the '(' token here - start: 99, end: 100

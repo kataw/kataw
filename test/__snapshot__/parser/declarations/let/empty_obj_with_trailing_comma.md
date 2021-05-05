@@ -112,7 +112,7 @@ let {,} = obj;
 ```javascript
 ✖ The parser expected to find a '}' to match the '{' token here - start: 5, end: 6
 ✖ Missing initializer in destructuring declaration - start: 5, end: 6
-✖ Declaration or statement expected - start: 6, end: 7
+✖ Trailing comma not allowed. - start: 6, end: 7
 ✖ Declaration or statement expected - start: 7, end: 9
 
 ```

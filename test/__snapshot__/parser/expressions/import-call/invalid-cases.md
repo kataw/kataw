@@ -2061,7 +2061,7 @@ new import(x);
 ✖ Declaration or statement expected - start: 387, end: 388
 ✖ Expression expected - start: 399, end: 400
 ✖ ',' expected - start: 400, end: 403
-✖ Property assignment expected - start: 409, end: 410
+✖ Property definition expected. Did you mean to use a ':'? - start: 409, end: 410
 ✖ ',' expected - start: 410, end: 411
 ✖ Did you forgot a ']' to match the `[` token? - start: 410, end: 411
 ✖ Unexpected token. - start: 419, end: 420
