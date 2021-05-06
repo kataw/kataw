@@ -120,7 +120,7 @@ function outputBlock(tob: Tob, updateItems: any) {
   return `
 ## Output
 
-### CST
+### Hybrid CST
 ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
 ### Printed
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
