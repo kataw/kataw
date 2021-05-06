@@ -193,7 +193,7 @@
 
 ```javascript
 
-({ ,  });
+({ get [x]() {}, set [x](v) {} });
 ```
 
 ### Diagnostics

@@ -1255,7 +1255,7 @@ var log = [];
 
 
 
-({ : target()targetKey() } = source());
+({ [sourceKey()]: target()targetKey() } = source());
 ```
 
 ### Diagnostics

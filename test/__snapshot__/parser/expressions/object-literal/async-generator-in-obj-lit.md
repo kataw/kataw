@@ -145,7 +145,7 @@ const obj = {
 
 ```javascript
 
-const obj = { async,  };
+const obj = { async, * generator() {} };
 ```
 
 ### Diagnostics

@@ -146,7 +146,7 @@ class x {static set super(x){}}
 ```javascript
 
 class {
-  static
+  static super(x) {}
 }
 ```
 

@@ -2587,7 +2587,7 @@ y;
 class  {}
 class  {}
 class {
-
+  foo() {}
   super;
 }
 foo;
@@ -2600,24 +2600,41 @@ foo();
 {
 }
 class {
-
+  [.foo]() {}
 }
 class {
-  ;
+  [.foo];
   y;
 }
 ()  ;
 class {
-
+  constructor() {
+    class {}
+    .foo;
+    {
+    }
+  }
 }
 class {
-
+  constructor() {
+    class  {}
+    y;
+    {
+    }
+  }
 }
 class {
-
+  constructor() {
+    class  {}
+  }
 }
 class {
-
+  constructor() {
+    class {
+      foo() {}
+      super;
+    }
+  }
 }
 foo;
 {
@@ -2629,11 +2646,15 @@ g = function f(x = ()) {};
 g = { f: function f() {
     ();
   } };
-x = {  };
+x = { constructor() {
+    ();
+  } };
 
 
 const x = 5 + ();
-let x = {  };
+let x = { foo() {
+    ();
+  } };
 ```
 
 ### Diagnostics

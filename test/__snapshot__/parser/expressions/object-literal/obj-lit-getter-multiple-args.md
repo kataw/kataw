@@ -128,7 +128,7 @@
 
 ```javascript
 
-({  });
+({ get x(y) {} });
 ```
 
 ### Diagnostics

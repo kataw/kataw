@@ -105,7 +105,7 @@
 
 ```javascript
 
-({ : y } = z);
+({ [x]: y } = z);
 ```
 
 ### Diagnostics

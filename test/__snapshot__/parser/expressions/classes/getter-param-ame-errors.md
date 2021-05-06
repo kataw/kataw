@@ -1001,36 +1001,36 @@ class C { get name(private) {} }
 ```javascript
 
 class {
-
+  name(interface) {}
 }
 class {
-
+  name(public) {}
 }
 class {
-
-}
-"'use strict'";
-class {
-
+  name(private) {}
 }
 "'use strict'";
 class {
-
+  name(implements) {}
 }
 "'use strict'";
 class {
-
+  name(yield) {}
+}
+"'use strict'";
+class {
+  name() {}
   var;
 }
 {
 }
 "'use strict'";
 (class {
-
+    name(package) {}
   });
 "'use strict'";
 (class {
-
+    name(static) {}
   });
 ```
 

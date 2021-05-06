@@ -127,7 +127,7 @@ class x {static get void(){}}
 ```javascript
 
 class {
-  static
+  static void() {}
 }
 ```
 

@@ -148,7 +148,9 @@ class A {
 ```javascript
 
 class {
-
+  x() {
+    ();
+  }
 }
 ```
 

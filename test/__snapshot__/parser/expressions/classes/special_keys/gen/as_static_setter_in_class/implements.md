@@ -146,7 +146,7 @@ class x {static set implements(x){}}
 ```javascript
 
 class {
-  static
+  static implements(x) {}
 }
 ```
 

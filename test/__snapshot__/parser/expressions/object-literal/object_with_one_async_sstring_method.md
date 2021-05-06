@@ -126,7 +126,7 @@ wrap({async 'foo'(){}});
 
 ```javascript
 
-wrap({  });
+wrap({ async "'foo'"() {} });
 ```
 
 ### Diagnostics

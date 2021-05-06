@@ -141,7 +141,7 @@ class x {set instanceof(x){}}
 ```javascript
 
 class {
-
+  instanceof(x) {}
 }
 ```
 

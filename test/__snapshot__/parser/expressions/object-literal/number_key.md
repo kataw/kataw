@@ -114,7 +114,7 @@
 
 ```javascript
 
-({  });
+({ * async 500() {} });
 ```
 
 ### Diagnostics

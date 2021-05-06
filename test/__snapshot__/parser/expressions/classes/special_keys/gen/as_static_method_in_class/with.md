@@ -122,7 +122,7 @@ class x {static with(){}}
 ```javascript
 
 class {
-  static
+  static with() {}
 }
 ```
 

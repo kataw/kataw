@@ -169,7 +169,9 @@ class C { constructor() { y = super } }
 ```javascript
 
 class {
-
+  constructor() {
+    y = ;
+  }
 }
 ```
 

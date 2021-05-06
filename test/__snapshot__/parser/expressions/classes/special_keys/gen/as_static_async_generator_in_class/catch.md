@@ -132,7 +132,7 @@ class x {static async * catch(){}}
 ```javascript
 
 class {
-  static
+  static catch() {}
 }
 ```
 

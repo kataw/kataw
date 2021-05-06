@@ -258,7 +258,13 @@ class C { set x(_) { class C { method() { super(); } } } }
 ```javascript
 
 class {
-
+  x(_) {
+    class {
+      method() {
+        ();
+      }
+    }
+  }
 }
 ```
 

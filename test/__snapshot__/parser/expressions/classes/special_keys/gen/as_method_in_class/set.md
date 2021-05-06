@@ -117,7 +117,7 @@ class x {set(){}}
 ```javascript
 
 class {
-
+  set() {}
 }
 ```
 

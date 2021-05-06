@@ -154,7 +154,7 @@ class A {static a(x=new.target){}}
 ```javascript
 
 class {
-  static
+  static a(x = ) {}
 }
 ```
 

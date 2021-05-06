@@ -127,7 +127,7 @@ class x {static async public(){}}
 ```javascript
 
 class {
-  static
+  static public() {}
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set false(x){}}
 ```javascript
 
 class {
-
+  false(x) {}
 }
 ```
 

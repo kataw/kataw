@@ -588,15 +588,23 @@ class C { foo() { this.#a = 1; }}
 ```javascript
 
 (class {
-
+    (val) {
+      this. = val;
+    }
   })(class {
-
+    () {
+      return  this.;
+    }
   });
 class  {
-
+  foo() {
+    return  this.;
+  }
 }
 class {
-
+  foo() {
+    this. = 1;
+  }
 }
 ```
 

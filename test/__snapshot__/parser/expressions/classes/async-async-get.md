@@ -165,7 +165,7 @@ class x {    async async get f(x){}    }
 
 class {
   async async;
-
+  f(x) {}
 }
 ```
 

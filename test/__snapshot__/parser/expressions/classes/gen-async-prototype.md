@@ -123,7 +123,7 @@ class x { async *prototype(){} }
 ```javascript
 
 class {
-
+  prototype() {}
 }
 ```
 

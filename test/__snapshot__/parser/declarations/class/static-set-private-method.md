@@ -141,7 +141,7 @@ class C { static set #aaa(x){} }
 ```javascript
 
 class {
-  static
+  static (x) {}
 }
 ```
 

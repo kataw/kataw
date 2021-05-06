@@ -141,7 +141,7 @@ class C { get; #aaa(){} }
 class {
   get;
 
-
+  () {}
 }
 ```
 

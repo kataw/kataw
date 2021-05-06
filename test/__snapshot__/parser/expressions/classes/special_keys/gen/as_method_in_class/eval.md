@@ -117,7 +117,7 @@ class x {eval(){}}
 ```javascript
 
 class {
-
+  eval() {}
 }
 ```
 

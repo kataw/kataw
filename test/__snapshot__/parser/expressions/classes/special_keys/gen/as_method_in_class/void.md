@@ -117,7 +117,7 @@ class x {void(){}}
 ```javascript
 
 class {
-
+  void() {}
 }
 ```
 

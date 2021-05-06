@@ -303,7 +303,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
 ```javascript
 
 f = ([cls = class {}, xCls = class {}, xCls2 = class {
-    static
+    static name() {}
   }]) =>  {};
 ```
 

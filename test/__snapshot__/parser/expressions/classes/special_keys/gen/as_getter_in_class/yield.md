@@ -122,7 +122,7 @@ class x {get yield(){}}
 ```javascript
 
 class {
-
+  yield() {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static * public(){}}
 ```javascript
 
 class {
-  static
+  static public() {}
 }
 ```
 

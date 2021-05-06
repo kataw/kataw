@@ -223,8 +223,8 @@
 
 ```javascript
 
-({  });
-({  });
+({ * method(public) {} });
+({ method(protected) {} });
 ```
 
 ### Diagnostics

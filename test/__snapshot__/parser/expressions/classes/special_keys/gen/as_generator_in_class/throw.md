@@ -122,7 +122,7 @@ class x {* throw(){}}
 ```javascript
 
 class {
-
+  throw() {}
 }
 ```
 

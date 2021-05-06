@@ -136,7 +136,7 @@ const {[x]} = z;
 ```javascript
 
 const {
-  :
+  [x]:
 } = z;
 ```
 

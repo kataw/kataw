@@ -154,7 +154,7 @@
 ```javascript
 
 (class {
-
+    method(await) {}
   });
 ```
 

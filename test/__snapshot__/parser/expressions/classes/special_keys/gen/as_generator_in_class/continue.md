@@ -122,7 +122,7 @@ class x {* continue(){}}
 ```javascript
 
 class {
-
+  continue() {}
 }
 ```
 

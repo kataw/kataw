@@ -254,7 +254,13 @@
 
 ```javascript
 
-({  });
+({ * method() {
+    class {
+      x(_) {
+        ();
+      }
+    }
+  } });
 ```
 
 ### Diagnostics

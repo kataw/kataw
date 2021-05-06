@@ -144,7 +144,7 @@ let {[x]: y = z} = a;
 ```javascript
 
 let {
-  :
+  [x]:
 } = a;
 ```
 

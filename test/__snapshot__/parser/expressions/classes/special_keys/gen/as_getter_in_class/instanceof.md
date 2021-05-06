@@ -122,7 +122,7 @@ class x {get instanceof(){}}
 ```javascript
 
 class {
-
+  instanceof() {}
 }
 ```
 

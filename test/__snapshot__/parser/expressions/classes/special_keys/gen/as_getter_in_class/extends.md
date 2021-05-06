@@ -122,7 +122,7 @@ class x {get extends(){}}
 ```javascript
 
 class {
-
+  extends() {}
 }
 ```
 

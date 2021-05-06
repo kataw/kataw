@@ -219,7 +219,11 @@ x={ foo(){ return () => function() { super.foo; } }}
 
 ```javascript
 
-x = {  };
+x = { foo() {
+    return  () =>  function() {
+        .foo;
+      };
+  } };
 ```
 
 ### Diagnostics

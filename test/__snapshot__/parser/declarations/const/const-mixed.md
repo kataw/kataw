@@ -139,7 +139,7 @@ const map = {
 
 ```javascript
 
-const map = { : "'Too young'" };
+const map = { [age <= 17]: "'Too young'" };
 ```
 
 ### Diagnostics

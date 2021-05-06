@@ -154,7 +154,9 @@ class C { *method() { super; } }
 ```javascript
 
 class {
-
+  method() {
+    ;
+  }
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static async yield(){}}
 ```javascript
 
 class {
-  static
+  static yield() {}
 }
 ```
 

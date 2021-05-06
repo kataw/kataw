@@ -526,9 +526,9 @@ x = {async __proto__(){}, *__proto__(){}};
 
 ```javascript
 
-x = { , __proto__: 2 };
-x = { ,  };
-x = { ,  };
+x = { __proto__() {}, __proto__: 2 };
+x = { __proto__() {}, __proto__() {} };
+x = { async __proto__() {}, * __proto__() {} };
 ({ __proto__: x, __proto__: y }) =>  {};
 ```
 

@@ -232,7 +232,11 @@ class C { *method() { var f = function { super(); } } }
 ```javascript
 
 class {
-
+  method() {
+    var f = function() {
+      ();
+    };
+  }
 }
 ```
 

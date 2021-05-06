@@ -122,7 +122,7 @@ class x {async this(){}}
 ```javascript
 
 class {
-
+  this() {}
 }
 ```
 

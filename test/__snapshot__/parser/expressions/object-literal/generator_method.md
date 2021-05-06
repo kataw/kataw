@@ -140,7 +140,7 @@
 
 ```javascript
 
-({  });
+({ * async [ha + ha]() {} });
 ```
 
 ### Diagnostics

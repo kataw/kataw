@@ -85,7 +85,7 @@
 
 ```javascript
 
-({ : y });
+({ [x]: y });
 ```
 
 ### Diagnostics

@@ -229,7 +229,7 @@ x({set [foo](b){}, set [bar](d){}});
 
 ```javascript
 
-x({ ,  });
+x({ set [foo](b) {}, set [bar](d) {} });
 ```
 
 ### Diagnostics

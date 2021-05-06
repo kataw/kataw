@@ -127,7 +127,7 @@ class x {static get do(){}}
 ```javascript
 
 class {
-  static
+  static do() {}
 }
 ```
 

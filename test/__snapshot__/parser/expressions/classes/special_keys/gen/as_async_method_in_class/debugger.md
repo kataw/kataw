@@ -122,7 +122,7 @@ class x {async debugger(){}}
 ```javascript
 
 class {
-
+  debugger() {}
 }
 ```
 

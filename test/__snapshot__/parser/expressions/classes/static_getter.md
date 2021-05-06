@@ -123,7 +123,7 @@ class A {static get foo(){}}
 ```javascript
 
 class {
-  static
+  static foo() {}
 }
 ```
 

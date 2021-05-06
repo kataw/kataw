@@ -162,7 +162,7 @@ x={ foo(a = super.foo){ }}
 
 ```javascript
 
-x = {  };
+x = { foo(a = .foo) {} };
 ```
 
 ### Diagnostics

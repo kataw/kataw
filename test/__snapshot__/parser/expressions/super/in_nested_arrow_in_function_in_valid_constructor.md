@@ -240,7 +240,11 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
 ```javascript
 
 class  {
-
+  constructor() {
+    return  function() {
+      return  () =>  .foo;
+    };
+  }
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set enum(x){}}
 ```javascript
 
 class {
-
+  enum(x) {}
 }
 ```
 

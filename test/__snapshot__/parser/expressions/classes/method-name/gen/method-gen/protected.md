@@ -150,7 +150,7 @@
 
 ```javascript
 
-({  });
+({ * protected(x, y) {} });
 ```
 
 ### Diagnostics

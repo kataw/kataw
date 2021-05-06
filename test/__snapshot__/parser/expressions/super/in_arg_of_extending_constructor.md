@@ -217,7 +217,9 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ```javascript
 
 class  {
-
+  constructor() {
+    return  (a = .foo) =>  a;
+  }
 }
 ```
 

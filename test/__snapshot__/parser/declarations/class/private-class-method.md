@@ -131,7 +131,7 @@ class C { #aaa(){} }
 ```javascript
 
 class {
-
+  () {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static * var(){}}
 ```javascript
 
 class {
-  static
+  static var() {}
 }
 ```
 

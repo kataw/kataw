@@ -232,9 +232,9 @@
 ```javascript
 
 (fail = class {
+  [await]() {}
 
-
-
+  "\"x\""() {}
 }) =>  {};
 ```
 

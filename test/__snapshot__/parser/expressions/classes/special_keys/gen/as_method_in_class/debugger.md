@@ -117,7 +117,7 @@ class x {debugger(){}}
 ```javascript
 
 class {
-
+  debugger() {}
 }
 ```
 

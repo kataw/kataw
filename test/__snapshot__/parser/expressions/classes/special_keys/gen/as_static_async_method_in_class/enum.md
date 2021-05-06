@@ -127,7 +127,7 @@ class x {static async enum(){}}
 ```javascript
 
 class {
-  static
+  static enum() {}
 }
 ```
 

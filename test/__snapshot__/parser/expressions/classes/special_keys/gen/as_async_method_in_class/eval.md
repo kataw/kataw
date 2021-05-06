@@ -122,7 +122,7 @@ class x {async eval(){}}
 ```javascript
 
 class {
-
+  eval() {}
 }
 ```
 

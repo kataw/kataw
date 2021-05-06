@@ -141,7 +141,7 @@ class x {set let(x){}}
 ```javascript
 
 class {
-
+  let(x) {}
 }
 ```
 

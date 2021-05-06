@@ -158,7 +158,9 @@
 
 ```javascript
 
-({  });
+({ get x() {
+     ();
+  } });
 ```
 
 ### Diagnostics

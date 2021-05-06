@@ -122,7 +122,7 @@ class x {get protected(){}}
 ```javascript
 
 class {
-
+  protected() {}
 }
 ```
 

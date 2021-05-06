@@ -128,7 +128,7 @@ let o = {await(){}}
 
 ```javascript
 
-let o = {  };
+let o = { await() {} };
 ```
 
 ### Diagnostics

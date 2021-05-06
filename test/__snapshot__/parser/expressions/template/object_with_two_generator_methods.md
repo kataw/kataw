@@ -179,7 +179,7 @@ wrap({* foo(){},*bar(){}});
 
 ```javascript
 
-wrap({ ,  });
+wrap({ * foo() {}, * bar() {} });
 ```
 
 ### Diagnostics

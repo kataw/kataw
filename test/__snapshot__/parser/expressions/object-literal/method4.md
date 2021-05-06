@@ -118,7 +118,7 @@ x = { get() { } }
 
 ```javascript
 
-x = {  };
+x = { get() {} };
 ```
 
 ### Diagnostics

@@ -151,7 +151,7 @@
 ```javascript
 
 (class  {
-    static
+    static x() {}
   });
 ```
 

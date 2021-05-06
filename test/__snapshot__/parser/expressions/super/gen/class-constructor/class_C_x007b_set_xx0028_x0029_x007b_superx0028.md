@@ -258,7 +258,13 @@ class C { constructor() { class C { set x(_) { super( } }
 ```javascript
 
 class {
-
+  constructor() {
+    class {
+      x(_) {
+        ();
+      }
+    }
+  }
 }
 ```
 

@@ -210,7 +210,9 @@ class x extends y {
 ```javascript
 
 class  {
-
+  constructor() {
+    ({ 123: .cool });
+  }
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static get public(){}}
 ```javascript
 
 class {
-  static
+  static public() {}
 }
 ```
 

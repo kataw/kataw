@@ -127,7 +127,7 @@ class x {static get throw(){}}
 ```javascript
 
 class {
-  static
+  static throw() {}
 }
 ```
 

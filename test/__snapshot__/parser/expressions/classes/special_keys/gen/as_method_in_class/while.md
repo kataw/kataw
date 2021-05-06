@@ -117,7 +117,7 @@ class x {while(){}}
 ```javascript
 
 class {
-
+  while() {}
 }
 ```
 

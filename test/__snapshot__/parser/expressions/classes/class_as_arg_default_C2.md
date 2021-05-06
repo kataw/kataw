@@ -202,7 +202,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
 ```javascript
 
 f = ([xCls2 = class {
-    static
+    static name() {}
   }]) =>  {};
 ```
 

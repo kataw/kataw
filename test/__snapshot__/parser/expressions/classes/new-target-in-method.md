@@ -156,7 +156,7 @@ class A {a(x=new.target){}}
 ```javascript
 
 class {
-
+  a(x = ) {}
 }
 ```
 

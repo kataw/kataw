@@ -249,7 +249,13 @@
 
 ```javascript
 
-({  });
+({ set x(_) {
+    class {
+      constructor() {
+        ();
+      }
+    }
+  } });
 ```
 
 ### Diagnostics

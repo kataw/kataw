@@ -132,7 +132,7 @@ class x {static async * extends(){}}
 ```javascript
 
 class {
-  static
+  static extends() {}
 }
 ```
 

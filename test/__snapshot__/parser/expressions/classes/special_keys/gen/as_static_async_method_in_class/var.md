@@ -127,7 +127,7 @@ class x {static async var(){}}
 ```javascript
 
 class {
-  static
+  static var() {}
 }
 ```
 

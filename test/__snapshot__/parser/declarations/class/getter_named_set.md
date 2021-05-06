@@ -137,7 +137,7 @@ class A {get set(){}}
 ```javascript
 
 class {
-
+  set() {}
 }
 ```
 

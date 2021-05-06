@@ -212,7 +212,11 @@
 
 ```javascript
 
-({  });
+({ * method() {
+    class {
+      x;
+    }
+  } });
 {
   ;
 }

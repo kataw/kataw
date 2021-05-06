@@ -122,7 +122,7 @@ class x {get try(){}}
 ```javascript
 
 class {
-
+  try() {}
 }
 ```
 

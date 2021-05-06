@@ -127,7 +127,7 @@ class x {static get default(){}}
 ```javascript
 
 class {
-  static
+  static default() {}
 }
 ```
 

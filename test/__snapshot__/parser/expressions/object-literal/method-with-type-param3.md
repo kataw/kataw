@@ -207,7 +207,7 @@ a={123<T>(x: T): T {}}
 
 ```javascript
 
-a = {  };
+a = { 123(x) {} };
 ```
 
 ### Diagnostics

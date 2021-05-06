@@ -137,7 +137,7 @@ var {[x]} = z;
 ```javascript
 
 var {
-  :
+  [x]:
 } = z;
 ```
 

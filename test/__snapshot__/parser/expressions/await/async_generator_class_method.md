@@ -142,7 +142,7 @@ class x {async *f(await){}}
 ```javascript
 
 class {
-
+  f(await) {}
 }
 ```
 

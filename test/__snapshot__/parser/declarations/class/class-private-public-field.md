@@ -753,22 +753,26 @@ class {
 class {
   ;
 
+  [this.];
+
+}
+class {
+  [this.];
+
   ;
 
 }
 class {
   ;
 
-  ;
-
+  f() {
+    this.;
+  }
 }
 class {
-  ;
-
-
-}
-class {
-
+  f() {
+    this.;
+  }
   ;
 
 }

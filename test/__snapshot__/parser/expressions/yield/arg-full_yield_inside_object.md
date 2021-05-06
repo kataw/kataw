@@ -174,7 +174,9 @@
 
 ```javascript
 
-({  });
+({ * g1() {
+    return  { x:  1 };
+  } });
 ```
 
 ### Diagnostics

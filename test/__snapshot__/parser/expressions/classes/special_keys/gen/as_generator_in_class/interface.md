@@ -122,7 +122,7 @@ class x {* interface(){}}
 ```javascript
 
 class {
-
+  interface() {}
 }
 ```
 

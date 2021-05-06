@@ -294,7 +294,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
 var await;
 var f = (async function() {
     class {
-
+      f(foo = await, bar) {}
     }
   });
 ```

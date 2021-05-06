@@ -271,8 +271,12 @@ class A {
 ```javascript
 
 class {
-
-
+  constructor() {
+    .toString();
+  }
+  dontDoThis() {
+    .makeBugs = 1;
+  }
 }
 ```
 

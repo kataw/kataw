@@ -122,7 +122,7 @@ class x {get debugger(){}}
 ```javascript
 
 class {
-
+  debugger() {}
 }
 ```
 

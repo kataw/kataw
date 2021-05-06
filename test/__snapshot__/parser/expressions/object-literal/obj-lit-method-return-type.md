@@ -184,7 +184,7 @@ x = { method(test: string): number { } };
 
 ```javascript
 
-x = {  };
+x = { method(test) {} };
 string;
 number;
 {

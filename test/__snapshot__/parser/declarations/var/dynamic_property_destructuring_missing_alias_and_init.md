@@ -130,7 +130,7 @@ var {[x]};
 ```javascript
 
 var {
-  :
+  [x]:
 };
 ```
 

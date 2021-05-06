@@ -117,7 +117,7 @@ class x {do(){}}
 ```javascript
 
 class {
-
+  do() {}
 }
 ```
 

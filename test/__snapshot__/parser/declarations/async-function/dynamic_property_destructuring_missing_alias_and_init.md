@@ -129,7 +129,7 @@ let {[x]};
 ```javascript
 
 let {
-  :
+  [x]:
 };
 ```
 

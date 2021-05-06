@@ -122,7 +122,7 @@ class x {get void(){}}
 ```javascript
 
 class {
-
+  void() {}
 }
 ```
 

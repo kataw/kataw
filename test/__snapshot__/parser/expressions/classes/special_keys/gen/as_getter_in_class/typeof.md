@@ -122,7 +122,7 @@ class x {get typeof(){}}
 ```javascript
 
 class {
-
+  typeof() {}
 }
 ```
 

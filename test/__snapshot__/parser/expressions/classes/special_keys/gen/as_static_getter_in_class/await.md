@@ -127,7 +127,7 @@ class x {static get await(){}}
 ```javascript
 
 class {
-  static
+  static await() {}
 }
 ```
 

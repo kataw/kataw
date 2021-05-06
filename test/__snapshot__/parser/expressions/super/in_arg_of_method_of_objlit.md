@@ -219,7 +219,9 @@ x={ dsda(){ return async function(a=super.foo){} }}
 
 ```javascript
 
-x = {  };
+x = { dsda() {
+    return  async function(a = .foo) {};
+  } };
 ```
 
 ### Diagnostics

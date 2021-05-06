@@ -141,7 +141,7 @@ class x {set switch(x){}}
 ```javascript
 
 class {
-
+  switch(x) {}
 }
 ```
 

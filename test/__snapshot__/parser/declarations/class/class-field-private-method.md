@@ -167,7 +167,9 @@ class C { #aaa; f() { this.#aaa } }
 class {
   ;
 
-
+  f() {
+    this.;
+  }
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set private(x){}}
 ```javascript
 
 class {
-
+  private(x) {}
 }
 ```
 

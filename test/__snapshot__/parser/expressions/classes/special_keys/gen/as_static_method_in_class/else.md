@@ -122,7 +122,7 @@ class x {static else(){}}
 ```javascript
 
 class {
-  static
+  static else() {}
 }
 ```
 

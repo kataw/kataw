@@ -122,7 +122,7 @@ class x {async false(){}}
 ```javascript
 
 class {
-
+  false() {}
 }
 ```
 

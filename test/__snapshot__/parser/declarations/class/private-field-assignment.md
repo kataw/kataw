@@ -1081,8 +1081,30 @@ class Foo {
 
 class {
   ;
-
-
+  unary() {
+    this.;
+    this.;
+    this.;
+    this.;
+  }
+  binary() {
+    this. = 1;
+    this. += 1;
+    this. -= 1;
+    this. *= 1;
+    this. /= 1;
+    this. %= 1;
+    this. **= 1;
+    this. <<= 1;
+    this. >>= 1;
+    this. >>>= 1;
+    this. &= 1;
+    this. |= 1;
+    this. ^= 1;
+    this. &&= 1;
+    this. ||= 1;
+    this. => 1;
+  }
 }
 ```
 

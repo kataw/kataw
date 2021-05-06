@@ -124,7 +124,7 @@ class x { *[y](){}}
 ```javascript
 
 class {
-
+  [y]() {}
 }
 ```
 

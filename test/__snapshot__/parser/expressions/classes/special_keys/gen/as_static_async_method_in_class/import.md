@@ -127,7 +127,7 @@ class x {static async import(){}}
 ```javascript
 
 class {
-  static
+  static import() {}
 }
 ```
 

@@ -146,7 +146,7 @@ class x {static set import(x){}}
 ```javascript
 
 class {
-  static
+  static import(x) {}
 }
 ```
 

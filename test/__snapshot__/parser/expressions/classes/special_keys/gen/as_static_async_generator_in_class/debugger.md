@@ -132,7 +132,7 @@ class x {static async * debugger(){}}
 ```javascript
 
 class {
-  static
+  static debugger() {}
 }
 ```
 

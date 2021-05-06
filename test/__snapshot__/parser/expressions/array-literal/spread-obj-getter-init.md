@@ -433,7 +433,7 @@ var callCount = 0;
 let o = { a: 2, b: 3 };
 let executedGetter = false;
 var callCount = 0;
-(function(obj) {}.apply(null, [{ ...o,  }]));
+(function(obj) {}.apply(null, [{ ...o, get c() {} }]));
 ```
 
 ### Diagnostics

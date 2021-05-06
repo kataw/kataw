@@ -146,7 +146,7 @@ class x {static set false(x){}}
 ```javascript
 
 class {
-  static
+  static false(x) {}
 }
 ```
 

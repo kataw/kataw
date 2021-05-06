@@ -161,7 +161,7 @@ class C {
 
 class {
   ;
-
+  aaa() {}
 }
 ```
 

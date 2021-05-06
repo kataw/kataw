@@ -220,7 +220,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 ```javascript
 
 class  {
-
+  constructor() {
+    ({ "\"foo\"":  }) =>  x;
+  }
 }
 ```
 

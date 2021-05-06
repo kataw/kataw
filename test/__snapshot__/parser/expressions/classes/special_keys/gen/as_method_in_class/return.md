@@ -117,7 +117,7 @@ class x {return(){}}
 ```javascript
 
 class {
-
+  return() {}
 }
 ```
 

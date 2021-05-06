@@ -126,7 +126,7 @@ x({async get(){}});
 
 ```javascript
 
-x({  });
+x({ async get() {} });
 ```
 
 ### Diagnostics

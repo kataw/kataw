@@ -4350,17 +4350,17 @@ class {
 (class {
     static a = 0;
 
-
+    b() {}
   });
 (class {
     static a = 0;
 
-
+    b() {}
   });
 (class {
     static a = 0;
 
-
+    ["'b'"]() {}
   });
 (class {
     static a;
@@ -4375,66 +4375,66 @@ class {
 (class {
     static a;
 
-
+    b() {}
   });
 (class {
     static a;
 
-
+    b() {}
   });
 (class {
     static a;
 
+    ["'b'"]() {}
+  });
+(class {
+    static ["'a'"] = 0;
 
   });
 (class {
-    static  = 0;
-
-  });
-(class {
-    static  = 0;
+    static ["'a'"] = 0;
 
     b;
   });
 (class {
-    static  = 0;
+    static ["'a'"] = 0;
 
+    b() {}
+  });
+(class {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class {
+    static ["'a'"] = 0;
+
+    ["'b'"]() {}
+  });
+(class {
+    static ["'a'"];
 
   });
 (class {
-    static  = 0;
-
-
-  });
-(class {
-    static  = 0;
-
-
-  });
-(class {
-    static ;
-
-  });
-(class {
-    static ;
+    static ["'a'"];
 
     b;
 
   });
 (class {
-    static ;
+    static ["'a'"];
 
-
+    b() {}
   });
 (class {
-    static ;
+    static ["'a'"];
 
-
+    b() {}
   });
 (class {
-    static ;
+    static ["'a'"];
 
-
+    ["'b'"]() {}
   });
 (class  {
     static 0 = 0;
@@ -4474,7 +4474,7 @@ class {
     static async = 0;
   });
 (class {
-    static
+    static a() {}
   }); // a field named async, and a method named a.
 
 (class {
@@ -4504,7 +4504,7 @@ class {
   });
 (class {
     static a = 0;
-
+    b() {}
   });
 (class {
     static a;

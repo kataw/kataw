@@ -141,7 +141,7 @@ class x {set yield(x){}}
 ```javascript
 
 class {
-
+  yield(x) {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static get this(){}}
 ```javascript
 
 class {
-  static
+  static this() {}
 }
 ```
 

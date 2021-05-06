@@ -137,7 +137,7 @@ class x { *"x"(){} }
 ```javascript
 
 class {
-
+  "\"x\""() {}
 }
 ```
 

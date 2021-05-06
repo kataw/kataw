@@ -155,7 +155,7 @@
 ```javascript
 
 (class {
-    static
+    static method(...await) {}
   });
 ```
 

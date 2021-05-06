@@ -207,7 +207,11 @@
 
 ```javascript
 
-({  });
+({ method() {
+    class {
+      x;
+    }
+  } });
 {
   ;
 }

@@ -161,7 +161,9 @@ class C { *method() { new super(); } }
 ```javascript
 
 class {
-
+  method() {
+     ();
+  }
 }
 ```
 

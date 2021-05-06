@@ -134,7 +134,7 @@ class X {
 ```javascript
 
 class {
-
+  "''"() {}
 }
 ```
 

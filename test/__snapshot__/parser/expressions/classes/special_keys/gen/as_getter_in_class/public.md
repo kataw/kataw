@@ -122,7 +122,7 @@ class x {get public(){}}
 ```javascript
 
 class {
-
+  public() {}
 }
 ```
 

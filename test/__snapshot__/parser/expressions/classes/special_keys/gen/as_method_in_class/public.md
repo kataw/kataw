@@ -117,7 +117,7 @@ class x {public(){}}
 ```javascript
 
 class {
-
+  public() {}
 }
 ```
 

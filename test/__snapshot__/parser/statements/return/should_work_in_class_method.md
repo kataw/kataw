@@ -127,7 +127,9 @@ class x {foo(){ return }}
 ```javascript
 
 class {
-
+  foo() {
+    return ;
+  }
 }
 ```
 

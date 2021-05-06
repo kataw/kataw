@@ -146,7 +146,9 @@ foo({bar(){ new.target }})
 
 ```javascript
 
-foo({  });
+foo({ bar() {
+    ;
+  } });
 ```
 
 ### Diagnostics

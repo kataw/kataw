@@ -132,7 +132,7 @@ class x {static async * default(){}}
 ```javascript
 
 class {
-  static
+  static default() {}
 }
 ```
 

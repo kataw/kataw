@@ -188,7 +188,9 @@ class C { #aaa; f(obj) { obj.#aaa } }
 class {
   ;
 
-
+  f(obj) {
+    obj.;
+  }
 }
 ```
 

@@ -113,7 +113,7 @@ var x = {
 
 ```javascript
 
-var x = { : foo };
+var x = { [bar]: foo };
 ```
 
 ### Diagnostics

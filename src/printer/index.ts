@@ -197,12 +197,18 @@ function printExpressions(node: any, printer: Printer, parentNode: any): any {
 function printExpressionWorker(node: any, printer: Printer, parentNode: any): any {
   const kind = node.kind;
   switch (kind) {
+    case SyntaxKind.MethodDefinition:
+      return printMethodDefinition(node, printer);
     case SyntaxKind.Identifier:
       return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
     case SyntaxKind.PropertyDefinition:
       return printPropertyDefinition(node, printer);
+    case SyntaxKind.PropertyMethod:
+      return printPropertyMethod(node, printer);
+        case SyntaxKind.ComputedPropertyName:
+        return printComputedPropertyName(node, printer);
     case SyntaxKind.ArrayLiteral:
       return printExpressions(node.elementList, printer, parentNode);
     case SyntaxKind.ElementList:
@@ -1372,6 +1378,18 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
   ]);
 }
 
+function printPropertyMethod(node: any, printer: Printer): any {
+  return group(
+    chain([
+      node.generatorToken ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true) : '',
+      node.asyncKeyword ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true) : '',
+      node.getKeyword ? printKeyword(node.getKeyword, printer, node.getKeyword.start, node, /* separator */ true) : '',
+      node.setKeyword ? printKeyword(node.setKeyword, printer, node.setKeyword.start, node, /* separator */ true) : '',
+      printExpressions(node.method, printer, node),
+    ])
+  );
+}
+
 function printPropertyDefinition(node: any, printer: Printer): any {
   return group(
     chain([
@@ -1834,4 +1852,25 @@ function printFieldDefinition(node: any, printer: Printer): any {
   parts.push(';');
 
   return group(chain(parts));
+}
+
+function printComputedPropertyName(node: any, printer: Printer): any {
+  return chain(['[', printExpressions(node.expression, printer, node), ']']);
+}
+
+
+
+function printMethodDefinition(node: any, printer: Printer): any {
+  let parts: any = [
+    node.decorators ? printDecorators(node.decorators, printer) : '',
+  ];
+  parts.push(
+    printStatements(node.name, printer, node),
+    //printTypeParameters(node.typeParameters, printer, node),
+    group(
+      chain([printStatements(node.formalParameters, printer, node)])
+    ),
+    printFunctionBody(node.contents, printer)
+  );
+  return chain(parts);
 }

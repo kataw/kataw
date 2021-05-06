@@ -122,7 +122,7 @@ class x {get function(){}}
 ```javascript
 
 class {
-
+  function() {}
 }
 ```
 

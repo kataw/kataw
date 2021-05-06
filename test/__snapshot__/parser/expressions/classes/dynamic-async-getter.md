@@ -146,7 +146,7 @@ class A {async get [foo](){}}
 
 class {
   async get;
-
+  [foo]() {}
 }
 ```
 

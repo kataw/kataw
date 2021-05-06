@@ -122,7 +122,7 @@ class x {get new(){}}
 ```javascript
 
 class {
-
+  new() {}
 }
 ```
 

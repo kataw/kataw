@@ -157,7 +157,7 @@ class x { foo(x=super.foo){ }}
 ```javascript
 
 class {
-
+  foo(x = .foo) {}
 }
 ```
 

@@ -427,16 +427,16 @@ class x { static async *prototype(){} }
 ```javascript
 
 class {
-  static
+  static prototype() {}
 }
 class {
-  static
+  static "\"prot\u006ftype\""() {}
 }
 class {
-  static
+  static prototype() {}
 }
 class {
-  static
+  static prototype() {}
 }
 ```
 

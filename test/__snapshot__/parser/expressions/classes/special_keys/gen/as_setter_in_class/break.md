@@ -141,7 +141,7 @@ class x {set break(x){}}
 ```javascript
 
 class {
-
+  break(x) {}
 }
 ```
 

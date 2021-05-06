@@ -146,7 +146,7 @@ class x {static set async(x){}}
 ```javascript
 
 class {
-  static
+  static async(x) {}
 }
 ```
 

@@ -146,7 +146,7 @@ class x {static set export(x){}}
 ```javascript
 
 class {
-  static
+  static export(x) {}
 }
 ```
 

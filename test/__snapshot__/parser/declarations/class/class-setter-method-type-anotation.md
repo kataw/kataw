@@ -156,7 +156,7 @@ class Foo {set fooProp(value:number){}}
 ```javascript
 
 class {
-
+  fooProp(value) {}
 }
 ```
 

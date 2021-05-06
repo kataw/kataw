@@ -146,7 +146,7 @@ class x {static set void(x){}}
 ```javascript
 
 class {
-  static
+  static void(x) {}
 }
 ```
 

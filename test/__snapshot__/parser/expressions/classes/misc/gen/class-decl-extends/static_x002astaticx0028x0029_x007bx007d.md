@@ -147,7 +147,7 @@ class C extends Base { static *static() {} }
 ```javascript
 
 class  {
-  static
+  static static() {}
 }
 ```
 

@@ -130,7 +130,7 @@
 
 ```javascript
 
-[please, { : it }, stop] = bwahahahaha;
+[please, { [make]: it }, stop] = bwahahahaha;
 ```
 
 ### Diagnostics

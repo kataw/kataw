@@ -184,7 +184,9 @@
 
 ```javascript
 
-({  });
+({ set x(_) {
+    y = ;
+  } });
 ```
 
 ### Diagnostics

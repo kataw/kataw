@@ -154,7 +154,7 @@ const {a, [x]: y} = a;
 
 const {
   a,
-  :
+  [x]:
 } = a;
 ```
 

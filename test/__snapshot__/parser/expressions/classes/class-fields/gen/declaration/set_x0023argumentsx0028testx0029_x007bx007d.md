@@ -140,7 +140,7 @@ class C { set #arguments(test) {} }
 ```javascript
 
 class {
-
+  (test) {}
 }
 ```
 

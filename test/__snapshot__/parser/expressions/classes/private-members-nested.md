@@ -915,17 +915,34 @@
 ```javascript
 
 (class {
-
+    () {
+      class {
+        () {}
+      }
+    }
   });
 (class {
-
+    () {
+      class {
+        () {}
+      }
+    }
   });
 (class {
-
-
+    (val) {}
+    () {
+      class {
+        () {}
+        (val) {}
+      }
+    }
   });
 (class {
-
+    () {
+      class {
+        (val) {}
+      }
+    }
   });
 ```
 

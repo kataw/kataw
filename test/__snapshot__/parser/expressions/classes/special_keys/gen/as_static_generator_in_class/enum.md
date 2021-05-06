@@ -127,7 +127,7 @@ class x {static * enum(){}}
 ```javascript
 
 class {
-  static
+  static enum() {}
 }
 ```
 

@@ -961,11 +961,15 @@
 
 ```javascript
 
-({  });
-({  });
-({  });
-({  });
-({  });
+({ * async method([x] = gSymbol.iterator = function() {}) {} });
+({ * async method({
+    w:
+  } = {}) {} });
+({ * async method({
+    x:
+  } = {}) {} });
+({ * async method([x = 23]) {} });
+({ * async method([_, x]) {} });
 ```
 
 ### Diagnostics

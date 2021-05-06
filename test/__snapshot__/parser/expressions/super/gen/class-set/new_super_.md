@@ -186,7 +186,9 @@ class C { set x(_) { new super; } }
 ```javascript
 
 class {
-
+  x(_) {
+     ();
+  }
 }
 ```
 

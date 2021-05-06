@@ -122,7 +122,7 @@ class x {* false(){}}
 ```javascript
 
 class {
-
+  false() {}
 }
 ```
 

@@ -165,7 +165,7 @@ class A {async set 11(x){}}
 
 class {
   async set;
-
+  11(x) {}
 }
 ```
 

@@ -117,7 +117,7 @@ class x {protected(){}}
 ```javascript
 
 class {
-
+  protected() {}
 }
 ```
 

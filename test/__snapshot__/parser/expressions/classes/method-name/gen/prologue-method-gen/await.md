@@ -159,7 +159,7 @@
 
 ```javascript
 
-({  });
+({ * await(x, y) {} });
 ```
 
 ### Diagnostics

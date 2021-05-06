@@ -240,7 +240,11 @@ class C { set x(_) { class C { get x) { super; } } } }
 ```javascript
 
 class {
-
+  x(_) {
+    class {
+      x;
+    }
+  }
 }
 {
   ;

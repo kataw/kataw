@@ -179,7 +179,7 @@ x({async foo(){}, async bar(){}});
 
 ```javascript
 
-x({ ,  });
+x({ async foo() {}, async bar() {} });
 ```
 
 ### Diagnostics

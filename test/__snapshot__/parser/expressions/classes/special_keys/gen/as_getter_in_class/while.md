@@ -122,7 +122,7 @@ class x {get while(){}}
 ```javascript
 
 class {
-
+  while() {}
 }
 ```
 

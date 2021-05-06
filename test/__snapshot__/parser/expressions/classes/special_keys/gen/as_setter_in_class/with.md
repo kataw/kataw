@@ -141,7 +141,7 @@ class x {set with(x){}}
 ```javascript
 
 class {
-
+  with(x) {}
 }
 ```
 

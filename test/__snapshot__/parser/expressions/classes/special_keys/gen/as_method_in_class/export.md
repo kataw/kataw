@@ -117,7 +117,7 @@ class x {export(){}}
 ```javascript
 
 class {
-
+  export() {}
 }
 ```
 

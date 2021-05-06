@@ -184,9 +184,9 @@ class x { constructor(){}; "constructor"(){}; }
 ```javascript
 
 class {
+  constructor() {}
 
-
-
+  "\"constructor\""() {}
 
 }
 ```

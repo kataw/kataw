@@ -834,20 +834,28 @@
 ```javascript
 
 (class {
-
-
+    (val) {}
+    fn() {
+      return  this.;
+    }
   });
 (class {
-
-
+    () {}
+    fn() {
+      this.;
+    }
   });
 (class {
-
-
+    () {}
+    fn(obj) {
+      ({ y: this. } = obj);
+    }
   });
 (class {
-
-
+    () {}
+    fn() {
+      this.;
+    }
   });
 ```
 

@@ -159,7 +159,7 @@ class x{   async static static(){}    }
 
 class {
   async static;
-
+  static() {}
 }
 ```
 

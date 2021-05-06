@@ -210,7 +210,7 @@
 ```javascript
 
 ([(x().foo)]) =>  x;
-({ : bar() }) =>  baz;
+({ [foo]: bar() }) =>  baz;
 ```
 
 ### Diagnostics

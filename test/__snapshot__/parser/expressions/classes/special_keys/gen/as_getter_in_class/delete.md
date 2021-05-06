@@ -122,7 +122,7 @@ class x {get delete(){}}
 ```javascript
 
 class {
-
+  delete() {}
 }
 ```
 

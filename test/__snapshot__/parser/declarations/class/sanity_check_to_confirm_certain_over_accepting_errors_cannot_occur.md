@@ -159,7 +159,7 @@ class x { async get foo(){ }}
 
 class {
   async get;
-
+  foo() {}
 }
 ```
 

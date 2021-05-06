@@ -122,7 +122,7 @@ class x {async super(){}}
 ```javascript
 
 class {
-
+  super() {}
 }
 ```
 

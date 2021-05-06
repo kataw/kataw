@@ -109,7 +109,7 @@
 
 ```javascript
 
-({  });
+({ set x() {} });
 ```
 
 ### Diagnostics

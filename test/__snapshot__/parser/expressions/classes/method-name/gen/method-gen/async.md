@@ -150,7 +150,7 @@
 
 ```javascript
 
-({  });
+({ * async(x, y) {} });
 ```
 
 ### Diagnostics

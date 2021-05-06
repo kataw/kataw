@@ -142,7 +142,7 @@ a={get fooProp():number{}}
 
 ```javascript
 
-a = {  };
+a = { get fooProp() {} };
 ```
 
 ### Diagnostics

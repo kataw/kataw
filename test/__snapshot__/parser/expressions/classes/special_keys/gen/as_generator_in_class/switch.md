@@ -122,7 +122,7 @@ class x {* switch(){}}
 ```javascript
 
 class {
-
+  switch() {}
 }
 ```
 

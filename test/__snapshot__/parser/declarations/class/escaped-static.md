@@ -120,7 +120,7 @@ class C {
 ```javascript
 
 class {
-  static
+  static m() {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static async while(){}}
 ```javascript
 
 class {
-  static
+  static while() {}
 }
 ```
 

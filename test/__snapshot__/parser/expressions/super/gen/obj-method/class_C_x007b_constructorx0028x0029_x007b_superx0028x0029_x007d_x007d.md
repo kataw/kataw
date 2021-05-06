@@ -225,7 +225,13 @@
 
 ```javascript
 
-({  });
+({ method() {
+    class {
+      constructor() {
+        ();
+      }
+    }
+  } });
 ```
 
 ### Diagnostics

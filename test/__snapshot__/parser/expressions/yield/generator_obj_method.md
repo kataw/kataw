@@ -152,7 +152,7 @@ let o = {*f(await){}}
 
 ```javascript
 
-let o = {  };
+let o = { * f(await) {} };
 ```
 
 ### Diagnostics

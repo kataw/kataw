@@ -124,7 +124,7 @@ get
 ```javascript
 
 class {
-  static
+  static () {}
 }
 ```
 

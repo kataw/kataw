@@ -202,7 +202,9 @@ class a { foo(){      class x extends super.foo {}    }}
 ```javascript
 
 class {
-
+  foo() {
+    class  {}
+  }
 }
 ```
 

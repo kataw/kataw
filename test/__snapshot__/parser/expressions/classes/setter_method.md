@@ -143,7 +143,7 @@ class A {set 9(x){}}
 ```javascript
 
 class {
-
+  9(x) {}
 }
 ```
 

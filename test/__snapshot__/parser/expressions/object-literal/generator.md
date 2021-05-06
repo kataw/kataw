@@ -123,7 +123,7 @@ x= { *prototype(){} }
 
 ```javascript
 
-x = {  };
+x = { * prototype() {} };
 ```
 
 ### Diagnostics

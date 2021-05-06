@@ -4849,8 +4849,8 @@ async()
 async(a)
 (s)(y)(n)(c);
 xasync () =>  x;
-({  });
-({  });
+({ async foo() {} });
+({ async() {} });
 async () =>  {}
 async () =>  {
   return  42;
@@ -4899,7 +4899,9 @@ async a =>  a;
 
 ({ async: 1 });
 async yield =>  1;
-() =>  ({  }).f();
+() =>  ({ async f() {
+      return  "\"test4\"";
+    } }).f();
 async ({ x = yield }) =>  1
 async (async) =>  1
 async ([a]) =>  1

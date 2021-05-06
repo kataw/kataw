@@ -122,7 +122,7 @@ class x {* with(){}}
 ```javascript
 
 class {
-
+  with() {}
 }
 ```
 

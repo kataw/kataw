@@ -146,7 +146,7 @@ class x {static set for(x){}}
 ```javascript
 
 class {
-  static
+  static for(x) {}
 }
 ```
 

@@ -122,7 +122,7 @@ class x {static const(){}}
 ```javascript
 
 class {
-  static
+  static const() {}
 }
 ```
 

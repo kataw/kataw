@@ -146,7 +146,9 @@ class x { constructor(){ super.foo; }}
 ```javascript
 
 class {
-
+  constructor() {
+    .foo;
+  }
 }
 ```
 

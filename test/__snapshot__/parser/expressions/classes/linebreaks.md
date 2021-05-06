@@ -706,16 +706,16 @@ class A {
 ```javascript
 
 class {
-
-
-
-
-
-  static
-  static
-  static
-  static
-  static
+  a() {}
+  a(a) {}
+  constructor() {}
+  a() {}
+  a() {}
+  static a() {}
+  static a(a) {}
+  static constructor() {}
+  static a() {}
+  static a() {}
 }
 ```
 

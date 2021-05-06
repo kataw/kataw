@@ -127,7 +127,7 @@ class x {static * let(){}}
 ```javascript
 
 class {
-  static
+  static let() {}
 }
 ```
 

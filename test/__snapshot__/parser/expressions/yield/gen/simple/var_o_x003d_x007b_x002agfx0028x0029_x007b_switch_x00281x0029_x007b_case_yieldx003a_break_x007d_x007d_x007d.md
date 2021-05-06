@@ -209,7 +209,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ```javascript
 
-var o = {  };
+var o = { * gf() {
+    switch(1
+      case  :
+
+
+  } };
 ```
 
 ### Diagnostics

@@ -212,7 +212,7 @@ a={*id<T>(x: T): T {}}
 
 ```javascript
 
-a = {  };
+a = { * id(x) {} };
 ```
 
 ### Diagnostics

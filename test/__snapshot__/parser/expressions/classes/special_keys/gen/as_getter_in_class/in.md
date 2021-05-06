@@ -122,7 +122,7 @@ class x {get in(){}}
 ```javascript
 
 class {
-
+  in() {}
 }
 ```
 

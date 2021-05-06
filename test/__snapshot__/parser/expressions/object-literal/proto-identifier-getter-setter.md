@@ -203,7 +203,7 @@
 
 ```javascript
 
-({ __proto__: null, ,  });
+({ __proto__: null, get __proto__() {}, set __proto__(x) {} });
 ```
 
 ### Diagnostics

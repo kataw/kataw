@@ -146,7 +146,7 @@ class x {static set await(x){}}
 ```javascript
 
 class {
-  static
+  static await(x) {}
 }
 ```
 

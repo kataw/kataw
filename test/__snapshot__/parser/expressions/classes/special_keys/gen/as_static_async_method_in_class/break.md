@@ -127,7 +127,7 @@ class x {static async break(){}}
 ```javascript
 
 class {
-  static
+  static break() {}
 }
 ```
 

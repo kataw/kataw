@@ -296,16 +296,16 @@ class Foo { static ['constructor'] = 1 }
 ```javascript
 
 class {
-  ;
+  ["'constructor'"];
 }
 class {
-   = 1;
+  ["'constructor'"] = 1;
 }
 class {
-  static ;
+  static ["'constructor'"];
 }
 class {
-  static  = 1;
+  static ["'constructor'"] = 1;
 }
 ```
 

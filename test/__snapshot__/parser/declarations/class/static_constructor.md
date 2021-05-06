@@ -137,7 +137,7 @@ class A {static constructor(){}}
 ```javascript
 
 class {
-  static
+  static constructor() {}
 }
 ```
 

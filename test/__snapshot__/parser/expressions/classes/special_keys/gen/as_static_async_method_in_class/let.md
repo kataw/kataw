@@ -127,7 +127,7 @@ class x {static async let(){}}
 ```javascript
 
 class {
-  static
+  static let() {}
 }
 ```
 

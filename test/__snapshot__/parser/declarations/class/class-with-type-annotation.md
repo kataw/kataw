@@ -162,7 +162,9 @@ class Foo { bar():this { return this; }}
 ```javascript
 
 class {
-
+  bar() {
+    return  this;
+  }
 }
 ```
 

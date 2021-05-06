@@ -215,9 +215,9 @@ class A {set(){} get(){} async(){}}
 ```javascript
 
 class {
-
-
-
+  set() {}
+  get() {}
+  async() {}
 }
 ```
 

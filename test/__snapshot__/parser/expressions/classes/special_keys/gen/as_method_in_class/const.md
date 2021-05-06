@@ -117,7 +117,7 @@ class x {const(){}}
 ```javascript
 
 class {
-
+  const() {}
 }
 ```
 

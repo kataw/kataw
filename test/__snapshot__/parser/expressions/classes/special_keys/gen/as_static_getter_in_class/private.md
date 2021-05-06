@@ -127,7 +127,7 @@ class x {static get private(){}}
 ```javascript
 
 class {
-  static
+  static private() {}
 }
 ```
 

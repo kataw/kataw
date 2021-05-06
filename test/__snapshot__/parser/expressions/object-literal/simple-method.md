@@ -281,8 +281,8 @@ x = { method(test: string) { } };
 
 ```javascript
 
-x = {  };
-x = {  };
+x = { method(test) {} };
+x = { method(test) {} };
 string;
 {
 }

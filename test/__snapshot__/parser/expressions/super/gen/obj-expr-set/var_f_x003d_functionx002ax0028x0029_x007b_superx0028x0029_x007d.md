@@ -247,7 +247,11 @@
 
 ```javascript
 
-({  });
+({ set x(_) {
+    var f = function*() {
+      ();
+    };
+  } });
 ```
 
 ### Diagnostics

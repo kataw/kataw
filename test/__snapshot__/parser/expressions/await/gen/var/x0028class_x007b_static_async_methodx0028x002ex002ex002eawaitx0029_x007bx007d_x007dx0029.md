@@ -283,7 +283,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
 var await;
 var f = (async function() {
     (class {
-        static
+        static method(...await) {}
       });
   });
 ```

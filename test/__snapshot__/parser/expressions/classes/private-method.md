@@ -10027,327 +10027,327 @@ class x { #foo() {}}
 ```javascript
 
 class {
-
+  () {}
 }
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    (foo) {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
-
+    () {}
+    () {}
   });
 (class {
-
-
+    () {}
+    (foo) {}
   });
 (class {
-
-
-
+    () {}
+    () {}
+    (foo) {}
   });
 (class {
-
-
-
-
+    () {}
+    () {}
+    (foo) {}
+    (foo) {}
   });
 (class {
-
-
+    (foo) {}
+    (foo) {}
   });
 (class {
-
-
+    () {}
+    () {}
   });
 (class {
-
-    static
+    () {}
+    static a() {}
   });
 (class {
-
-
+    () {}
+    a() {}
   });
 (class {
-
-
-    static
+    () {}
+    a() {}
+    static a() {}
   });
 (class {
-
-
-    static
+    () {}
+    a() {}
+    static a() {}
   });
 (class {
-
-
-    static
+    (foo) {}
+    a(foo) {}
+    static a(foo) {}
   });
 (class {
-
-
+    () {}
+    () {}
   });
 (class {
-
-
+    () {}
+    () {}
   });
 (class {
-
-
+    () {}
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    (test) {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 (class {
-
-  });
-(class {
-    ;
-
-
+    () {}
   });
 (class {
     ;
 
-
+    () {}
   });
 (class {
     ;
 
-
+    () {}
   });
 (class {
     ;
 
-
+    (foo) {}
   });
 (class {
     ;
 
-
+    () {}
   });
 (class {
     ;
 
+    () {}
+  });
+(class {
+    ;
 
+    () {}
   });
 (class {
      = 1;
 
-
+    () {}
   });
 (class {
      = 1;
 
-
+    () {}
   });
 (class {
      = 1;
 
-
+    (foo) {}
   });
 (class {
      = 1;
 
-
+    () {}
   });
 (class {
      = 1;
 
-
+    () {}
   });
 (class {
      = 1;
 
-
+    () {}
   });
 (class {
     a;
 
-
+    () {}
   });
 (class {
     a;
 
-
+    () {}
   });
 (class {
     a;
 
-
+    (foo) {}
   });
 (class {
     a;
 
-
+    () {}
   });
 (class {
     a;
 
-
+    () {}
   });
 (class {
     a;
 
-
+    () {}
   });
 (class {
     a = 1;
 
-
+    () {}
   });
 (class {
     a = 1;
 
-
+    () {}
   });
 (class {
     a = 1;
 
-
+    (foo) {}
   });
 (class {
     a = 1;
 
-
+    () {}
   });
 (class {
     a = 1;
 
-
+    () {}
   });
 (class {
     a = 1;
 
-
+    () {}
   });
 ```
 

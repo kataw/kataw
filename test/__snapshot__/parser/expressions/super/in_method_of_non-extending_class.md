@@ -198,7 +198,11 @@ class x { fo(){ return function() { super.foo; } }}
 ```javascript
 
 class {
-
+  fo() {
+    return  function() {
+      .foo;
+    };
+  }
 }
 ```
 

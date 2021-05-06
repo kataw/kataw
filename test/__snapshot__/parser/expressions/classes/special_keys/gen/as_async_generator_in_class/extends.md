@@ -127,7 +127,7 @@ class x {async * extends(){}}
 ```javascript
 
 class {
-
+  extends() {}
 }
 ```
 

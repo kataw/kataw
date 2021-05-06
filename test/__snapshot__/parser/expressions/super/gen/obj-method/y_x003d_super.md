@@ -160,7 +160,9 @@
 
 ```javascript
 
-({  });
+({ method() {
+    y = ;
+  } });
 ```
 
 ### Diagnostics

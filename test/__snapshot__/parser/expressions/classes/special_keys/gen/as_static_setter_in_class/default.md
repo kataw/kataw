@@ -146,7 +146,7 @@ class x {static set default(x){}}
 ```javascript
 
 class {
-  static
+  static default(x) {}
 }
 ```
 

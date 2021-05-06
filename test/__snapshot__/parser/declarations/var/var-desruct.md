@@ -163,7 +163,7 @@ var {[a]: [b]} = c
 ```javascript
 
 var {
-  :
+  [a]:
 } = c;
 ```
 

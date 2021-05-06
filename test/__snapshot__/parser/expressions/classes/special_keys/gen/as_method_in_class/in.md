@@ -117,7 +117,7 @@ class x {in(){}}
 ```javascript
 
 class {
-
+  in() {}
 }
 ```
 

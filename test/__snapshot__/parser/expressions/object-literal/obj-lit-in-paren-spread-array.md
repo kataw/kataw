@@ -139,7 +139,7 @@
 
 ```javascript
 
-([{  }] = b);
+([{ constructor() {} }] = b);
 ```
 
 ### Diagnostics

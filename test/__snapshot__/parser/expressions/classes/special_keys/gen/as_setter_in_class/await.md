@@ -141,7 +141,7 @@ class x {set await(x){}}
 ```javascript
 
 class {
-
+  await(x) {}
 }
 ```
 

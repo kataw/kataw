@@ -136,7 +136,7 @@ let {[x]} = z;
 ```javascript
 
 let {
-  :
+  [x]:
 } = z;
 ```
 

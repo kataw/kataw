@@ -117,7 +117,7 @@ class x {break(){}}
 ```javascript
 
 class {
-
+  break() {}
 }
 ```
 

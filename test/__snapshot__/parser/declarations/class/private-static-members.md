@@ -479,10 +479,14 @@ class Foo {
 
 class {
   static ;
-  static
-  static
-  static
-
+  static () {}
+  static (x) {}
+  static () {}
+  foo() {
+    Foo. += 1;
+    Foo. += 1;
+    Foo.();
+  }
 }
 ```
 

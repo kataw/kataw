@@ -117,7 +117,7 @@ class x {package(){}}
 ```javascript
 
 class {
-
+  package() {}
 }
 ```
 

@@ -3360,17 +3360,17 @@ class {}
     aaa;
   });
 (class {
-
+    () {}
   });
 (class {
-
+    () {}
   });
 0;
 (class {
-
+    () {}
   } = );
 (class {
-
+    () {}
   });
 {
 }
@@ -3380,25 +3380,25 @@ class {}
 {
 }
 (class {
-
+    () {}
   } = 0);
 (class {
-
+    () {}
   });
 0;
 (class {
-
+    () {}
   });
 {
 }
 (class {
-
-    ;
+    () {}
+    [];
   });
 (class {
     yield;
-
-    ;
+    () {}
+    [];
   });
 (class {
     yield;
@@ -3407,7 +3407,7 @@ class {}
 {
 }
 (class {
-
+    () {}
   } = 0);
 (class {
     async ;
@@ -3415,48 +3415,51 @@ class {}
 {
 }
 (class {
-
+    (arguments) {}
   });
 (class {
-
-  });
-(class {
-    ;
-
+    (arguments) {}
   });
 (class {
     ;
-
+    ["'a'"]() {}
   });
 (class {
     ;
-
+    ["'a'"]() {}
   });
 (class {
     ;
-
+    ["'a'"](foo) {}
+  });
+(class {
+    ;
+    ["'a'"]() {}
   });
 (class {
     async ;
-
+    ["'a'"]() {}
   });
 (class {
     async ;
-    ;
+    ["'a]() { }});"(class {
+        () {}
+        () {}
+      })];
 
   }(class {
-
+      () {}
       ;
-
+      ["'a'"]() {}
     }));
 (class {
-
-
+    (val) {}
+    (val) {}
   });
 (class {
-
+    (val) {}
     ;
-
+    ["'a'"](val) {}
   });
 ```
 

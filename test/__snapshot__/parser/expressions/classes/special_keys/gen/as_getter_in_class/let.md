@@ -122,7 +122,7 @@ class x {get let(){}}
 ```javascript
 
 class {
-
+  let() {}
 }
 ```
 

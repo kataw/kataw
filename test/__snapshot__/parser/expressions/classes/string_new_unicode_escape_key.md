@@ -119,7 +119,7 @@ class x { "prot\u{6f}type"(){} }
 ```javascript
 
 class {
-
+  "\"prot\u{6f}type\""() {}
 }
 ```
 

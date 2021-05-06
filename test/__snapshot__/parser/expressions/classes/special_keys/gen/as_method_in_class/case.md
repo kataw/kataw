@@ -117,7 +117,7 @@ class x {case(){}}
 ```javascript
 
 class {
-
+  case() {}
 }
 ```
 

@@ -146,7 +146,9 @@ class x { foo(){ super.foo; }}
 ```javascript
 
 class {
-
+  foo() {
+    .foo;
+  }
 }
 ```
 

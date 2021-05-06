@@ -165,7 +165,7 @@
 ```javascript
 
 (class  {
-
+    static(v) {}
   });
 ```
 

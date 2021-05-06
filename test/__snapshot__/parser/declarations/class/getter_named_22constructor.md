@@ -137,7 +137,7 @@ class x { get constructor(){} }
 ```javascript
 
 class {
-
+  constructor() {}
 }
 ```
 

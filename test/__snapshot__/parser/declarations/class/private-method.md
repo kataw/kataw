@@ -1689,10 +1689,25 @@ class Foo {
 
 class {
   ;
-
-
-
-
+  () {}
+  baseline() {
+    a().foo;
+    b().foo(x);
+     = ;
+     = ;
+  }
+  privateField() {
+    a().;
+    b().(x);
+     = ;
+     = (x).bar();
+  }
+  privateMethod() {
+    a().;
+    b().(x);
+     = ;
+     = (x).bar();
+  }
 }
 ```
 

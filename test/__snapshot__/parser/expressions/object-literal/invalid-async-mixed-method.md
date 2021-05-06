@@ -153,7 +153,7 @@
 
 ```javascript
 
-({  });
+({ async a(b = await (0)) {} });
 ```
 
 ### Diagnostics

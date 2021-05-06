@@ -117,7 +117,7 @@ class x {extends(){}}
 ```javascript
 
 class {
-
+  extends() {}
 }
 ```
 

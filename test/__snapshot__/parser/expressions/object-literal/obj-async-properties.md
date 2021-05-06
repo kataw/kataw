@@ -758,12 +758,12 @@
 ({ async: await });
 ({ async: (await) ? yield : foo });
 ({ async: true });
-({  });
-({  });
-({ x, y,  });
-({  });
-({  });
-({  });
+({ async() {} });
+({ async foo() {} });
+({ x, y, z() {} });
+({ async delete() {} });
+({ async [foo]() {} });
+({ async 100() {} });
 ```
 
 ### Diagnostics

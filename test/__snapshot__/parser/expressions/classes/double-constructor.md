@@ -178,8 +178,8 @@
 ```javascript
 
 (class {
-
-
+    constructor() {}
+    constructor() {}
   });
 ```
 

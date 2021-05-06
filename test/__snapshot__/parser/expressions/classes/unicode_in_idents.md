@@ -120,7 +120,7 @@ class x { \u0063onstructor(){} }
 ```javascript
 
 class {
-
+  constructor() {}
 }
 ```
 

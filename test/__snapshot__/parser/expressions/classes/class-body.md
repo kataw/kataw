@@ -6138,192 +6138,192 @@
 
   });
 (class {
+    m() {}
+  });
+(class {
+    m() {}
 
   });
 (class {
 
+    m() {}
+  });
+(class {
+    m() {}
+
+    n(x) {}
+  });
+(class {
+    x() {}
+  });
+(class {
+    x(v) {}
+  });
+(class {
+    get() {}
+  });
+(class {
+    set() {}
+  });
+(class {
+    g() {}
+  });
+(class {
+    g() {}
 
   });
 (class {
 
+    g() {}
+  });
+(class {
+    g() {}
 
+    h(x) {}
   });
 (class {
-
-
-
+    x() {}
   });
 (class {
-
+    static() {}
   });
 (class {
-
+    static() {}
   });
 (class {
-
+    static(v) {}
   });
 (class {
-
+    static m() {}
   });
 (class {
-
+    static x() {}
   });
 (class {
-
-
+    static x(v) {}
   });
 (class {
-
-
+    static get() {}
   });
 (class {
-
-
-
+    static set() {}
   });
 (class {
-
+    static static() {}
   });
 (class {
-
+    static static() {}
   });
 (class {
-
+    static static(v) {}
   });
 (class {
-
+    static() {}
   });
 (class {
-    static
+    static static() {}
   });
 (class {
-    static
+    get() {}
   });
 (class {
-    static
+    set() {}
   });
 (class {
-    static
+    static g() {}
   });
 (class {
-    static
+    async() {}
   });
 (class {
-    static
+    async() {}
   });
 (class {
-    static
+    static async() {}
   });
 (class {
-    static
+    static async() {}
   });
 (class {
-
+    static x() {}
   });
 (class {
-    static
+    static x() {}
   });
 (class {
-
+    static async() {}
   });
 (class {
-
+    static async() {}
   });
 (class {
-    static
+    x() {}
   });
 (class {
-
+    0() {}
   });
 (class {
-
+    get() {}
   });
 (class {
-    static
+    set() {}
   });
 (class {
-    static
+    static() {}
   });
 (class {
-    static
+    async() {}
   });
 (class {
-    static
+    async() {}
   });
 (class {
-    static
+    async() {}
   });
 (class {
-    static
+    42.5() {}
   });
 (class {
-
+    static(v) {}
   });
 (class {
-
+    static this() {}
   });
 (class {
-
+    static class() {}
   });
 (class {
-
+    static 42.5(v) {}
   });
 (class {
-
+    const() {}
   });
 (class {
-
+    static "\"str\""() {}
   });
 (class {
-
+    true() {}
   });
 (class {
-
+    false() {}
   });
 (class {
-
+    function(v) {}
   });
 (class {
-
+    static if() {}
   });
 (class {
-    static
+    static let() {}
   });
 (class {
-    static
+    static get(v) {}
   });
 (class {
-    static
+    set() {}
   });
 (class {
-
-  });
-(class {
-    static
-  });
-(class {
-
-  });
-(class {
-
-  });
-(class {
-
-  });
-(class {
-    static
-  });
-(class {
-    static
-  });
-(class {
-    static
-  });
-(class {
-
-  });
-(class {
-    static
+    static static() {}
   });
 ```
 

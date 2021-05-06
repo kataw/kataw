@@ -127,7 +127,7 @@ class x {async * set(){}}
 ```javascript
 
 class {
-
+  set() {}
 }
 ```
 

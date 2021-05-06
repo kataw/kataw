@@ -122,7 +122,7 @@ class C { async*#aaa(){} }
 ```javascript
 
 class {
-
+  () {}
 }
 ```
 

@@ -131,7 +131,7 @@
 
 ```javascript
 
-({ "\"__proto__\"": null,  });
+({ "\"__proto__\"": null, get __proto__() {} });
 ```
 
 ### Diagnostics

@@ -122,7 +122,7 @@ class x {static interface(){}}
 ```javascript
 
 class {
-  static
+  static interface() {}
 }
 ```
 

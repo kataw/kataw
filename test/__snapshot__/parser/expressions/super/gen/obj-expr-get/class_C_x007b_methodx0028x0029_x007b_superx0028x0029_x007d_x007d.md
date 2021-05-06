@@ -230,7 +230,13 @@
 
 ```javascript
 
-({  });
+({ get x() {
+    class {
+      method() {
+        ();
+      }
+    }
+  } });
 ```
 
 ### Diagnostics

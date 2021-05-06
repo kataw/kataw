@@ -877,20 +877,20 @@ class A {
 ```javascript
 
 class {
-
-
-
-
-
-
-
-  static
-  static
-  static
-  static
-  static
-
-  static
+  get() {}
+  set() {}
+  static() {}
+  async() {}
+  "'get'"() {}
+  "'set'"() {}
+  "'async'"() {}
+  static get() {}
+  static set() {}
+  static static() {}
+  static async() {}
+  static a() {}
+  async() {}
+  static static() {}
 }
 ```
 

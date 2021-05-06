@@ -145,7 +145,7 @@ wrap({set foo(a){}});
 
 ```javascript
 
-wrap({  });
+wrap({ set foo(a) {} });
 ```
 
 ### Diagnostics

@@ -146,7 +146,7 @@ class x {static set try(x){}}
 ```javascript
 
 class {
-  static
+  static try(x) {}
 }
 ```
 

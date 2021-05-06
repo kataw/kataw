@@ -122,7 +122,7 @@ class x {get default(){}}
 ```javascript
 
 class {
-
+  default() {}
 }
 ```
 

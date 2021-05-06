@@ -117,7 +117,7 @@ class x {null(){}}
 ```javascript
 
 class {
-
+  null() {}
 }
 ```
 

@@ -1225,32 +1225,32 @@
   });
 (class {
     a = class {
-
+        () {}
       };
   });
 (class {
     a = class {
-
+        () {}
       };
   });
 (class {
     a = class {
-
+        (foo) {}
       };
   });
 (class {
     a = class {
-
+        () {}
       };
   });
 (class {
     a = class {
-
+        () {}
       };
   });
 (class {
     a = class {
-
+        () {}
       };
   });
 ```

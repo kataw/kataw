@@ -127,7 +127,7 @@ class A {
 ```javascript
 
 class {
-
+  [1]() {}
 }
 ```
 

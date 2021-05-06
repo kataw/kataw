@@ -167,7 +167,7 @@ class x{[yield](a){}}
 ```javascript
 
 class {
-
+  [yield](a) {}
 }
 ```
 

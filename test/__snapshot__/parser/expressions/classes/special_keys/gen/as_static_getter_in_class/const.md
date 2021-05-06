@@ -127,7 +127,7 @@ class x {static get const(){}}
 ```javascript
 
 class {
-  static
+  static const() {}
 }
 ```
 

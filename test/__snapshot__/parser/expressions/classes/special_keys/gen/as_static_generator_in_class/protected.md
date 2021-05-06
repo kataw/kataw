@@ -127,7 +127,7 @@ class x {static * protected(){}}
 ```javascript
 
 class {
-  static
+  static protected() {}
 }
 ```
 

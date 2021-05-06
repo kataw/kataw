@@ -122,7 +122,7 @@ class x {static for(){}}
 ```javascript
 
 class {
-  static
+  static for() {}
 }
 ```
 

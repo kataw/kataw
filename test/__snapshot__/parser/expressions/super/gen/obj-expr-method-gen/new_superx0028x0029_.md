@@ -152,7 +152,9 @@
 
 ```javascript
 
-({  });
+({ * method() {
+     ();
+  } });
 ```
 
 ### Diagnostics

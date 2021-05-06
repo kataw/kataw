@@ -203,7 +203,9 @@ class B extends A {
 
 class {}
 class  {
-
+  constructor() {
+    ();
+  }
 }
 ```
 

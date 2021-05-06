@@ -155,7 +155,9 @@ var x = {
 
 ```javascript
 
-var x = {  };
+var x = { "\"foo\""() {
+    return  bar;
+  } };
 ```
 
 ### Diagnostics

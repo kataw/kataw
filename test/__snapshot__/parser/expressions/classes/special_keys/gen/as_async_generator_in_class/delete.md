@@ -127,7 +127,7 @@ class x {async * delete(){}}
 ```javascript
 
 class {
-
+  delete() {}
 }
 ```
 

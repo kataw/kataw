@@ -117,7 +117,7 @@
 
 ```javascript
 
-({ static,  });
+({ static, async async() {} });
 ```
 
 ### Diagnostics

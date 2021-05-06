@@ -117,7 +117,7 @@ class x {if(){}}
 ```javascript
 
 class {
-
+  if() {}
 }
 ```
 

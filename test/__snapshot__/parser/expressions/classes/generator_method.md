@@ -118,7 +118,7 @@ class A {*foo(){}}
 ```javascript
 
 class {
-
+  foo() {}
 }
 ```
 

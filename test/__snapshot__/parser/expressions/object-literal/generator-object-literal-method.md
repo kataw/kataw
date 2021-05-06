@@ -168,7 +168,9 @@ var x = { *test () { yield *v } };
 
 ```javascript
 
-var x = {  };
+var x = { * test() {
+     v;
+  } };
 ```
 
 ### Diagnostics

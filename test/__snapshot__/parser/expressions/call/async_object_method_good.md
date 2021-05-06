@@ -109,7 +109,7 @@
 
 ```javascript
 
-({  });
+({ async foo() {} });
 ```
 
 ### Diagnostics

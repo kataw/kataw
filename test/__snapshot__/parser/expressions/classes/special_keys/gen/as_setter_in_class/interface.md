@@ -141,7 +141,7 @@ class x {set interface(x){}}
 ```javascript
 
 class {
-
+  interface(x) {}
 }
 ```
 

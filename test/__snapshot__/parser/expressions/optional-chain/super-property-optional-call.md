@@ -203,7 +203,9 @@ class Foo extends Base {
 ```javascript
 
 class  {
-
+  method() {
+     = ;
+  }
 }
 ```
 

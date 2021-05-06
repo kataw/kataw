@@ -2256,7 +2256,7 @@ var a;
 var x = Y;
 var a;
 class {
-
+  concat(items) {}
 
 }
 ```

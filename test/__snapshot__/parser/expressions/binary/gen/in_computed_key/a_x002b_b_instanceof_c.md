@@ -143,7 +143,7 @@ x = {[ a + b instanceof c ]: y}
 
 ```javascript
 
-x = { : y };
+x = { [a +    inctanceof c]: y };
 ```
 
 ### Diagnostics

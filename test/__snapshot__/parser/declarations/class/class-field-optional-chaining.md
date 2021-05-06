@@ -240,7 +240,9 @@ class C { #aaa; f(f) { f()?.#aaa } }
 class {
   ;
 
-
+  f(f) {
+     = ;
+  }
 }
 ```
 

@@ -122,7 +122,7 @@ class x {async yield(){}}
 ```javascript
 
 class {
-
+  yield() {}
 }
 ```
 

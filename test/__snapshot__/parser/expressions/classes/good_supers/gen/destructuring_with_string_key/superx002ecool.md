@@ -230,7 +230,9 @@ class x extends y {
 ```javascript
 
 class  {
-
+  constructor() {
+    ({ "\"foo\"": .cool } = x);
+  }
 }
 ```
 

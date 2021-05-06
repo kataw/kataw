@@ -147,7 +147,7 @@ x = {
 
 ```javascript
 
-x = {  };
+x = { method(test) {} };
 
 ```
 

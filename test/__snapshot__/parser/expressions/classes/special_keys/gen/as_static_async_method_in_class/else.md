@@ -127,7 +127,7 @@ class x {static async else(){}}
 ```javascript
 
 class {
-  static
+  static else() {}
 }
 ```
 

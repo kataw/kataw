@@ -6073,9 +6073,9 @@ try {} catch(e) { for(var e of 0); };
 // token sequence matched by LeftHandSideExpression cannot be parsed with no tokens left over using
 // AssignmentPattern as the goal symbol.
 ({ a: 0 } = 0);
-({  } = 0);
-({  } = 0);
-({  } = 0);
+({ get a() {} } = 0);
+({ set a(b) {} } = 0);
+({ a(b) {} } = 0);
 [0] = 0;
 // It is an early Reference Error if LeftHandSideExpression is neither an ObjectLiteral nor an ArrayLiteral and
 // IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.
@@ -6132,19 +6132,43 @@ i;
 i;
 // 12.2.5.1
 // It is a Syntax Error if HasDirectSuper of MethodDefinition is true.
-({  });
-({  });
+({ a() {
+    ();
+  } });
+({ a() {
+    {
+      {
+        if (0) (());
+      }
+    }
+  } });
 class  {
-
+  constructor() {
+    { constructor() {
+        ();
+      } };
+  }
 }
 class  {
-
+  constructor() {
+    { * constructor() {
+        ();
+      } };
+  }
 }
 class  {
-
+  constructor() {
+    { get constructor() {
+        ();
+      } };
+  }
 }
 class  {
-
+  constructor() {
+    { set constructor(a) {
+        ();
+      } };
+  }
 }
 // It is a Syntax Error if SV(UnicodeEscapeSequence) is neither the UTF16Encoding (10.1.1) of a single Unicode code
 // point with the Unicode property @{x201c}@ID_Continue@{x201d}@ nor "$" or "_" nor the UTF16Encoding of either <ZWNJ> or <ZWJ>.

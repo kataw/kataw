@@ -127,7 +127,7 @@ class x {static * if(){}}
 ```javascript
 
 class {
-  static
+  static if() {}
 }
 ```
 

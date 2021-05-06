@@ -118,7 +118,7 @@ x = {0o730(){}}
 
 ```javascript
 
-x = {  };
+x = { 0o730() {} };
 ```
 
 ### Diagnostics

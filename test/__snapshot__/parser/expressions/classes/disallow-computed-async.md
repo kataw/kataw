@@ -142,8 +142,8 @@ class A {
 ```javascript
 
 class {
-  ;
-
+  ["\"async\""];
+  a() {}
 }
 ```
 

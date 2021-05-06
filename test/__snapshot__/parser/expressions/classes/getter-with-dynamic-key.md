@@ -129,7 +129,7 @@ class x { static get [y](){}}
 ```javascript
 
 class {
-  static
+  static [y]() {}
 }
 ```
 

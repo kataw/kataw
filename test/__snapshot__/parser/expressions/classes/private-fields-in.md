@@ -405,9 +405,11 @@ class C {
 class {
   ;
 
-
-
-  static
+  () {}
+  () {}
+  static isC(obj) {
+    return   in obj &&  in obj &&  in obj;
+  }
 }
 ```
 

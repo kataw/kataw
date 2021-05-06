@@ -132,7 +132,7 @@ class x {static async * if(){}}
 ```javascript
 
 class {
-  static
+  static if() {}
 }
 ```
 

@@ -195,9 +195,9 @@ class x { constructor(){}; \u0063onstructor(){}; }
 ```javascript
 
 class {
+  constructor() {}
 
-
-
+  constructor() {}
 
 }
 ```

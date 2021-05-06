@@ -122,7 +122,7 @@ class x {static function(){}}
 ```javascript
 
 class {
-  static
+  static function() {}
 }
 ```
 

@@ -158,7 +158,7 @@ class A { [x=y](foo) {} }
 ```javascript
 
 class {
-
+  [x = y](foo) {}
 }
 ```
 

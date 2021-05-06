@@ -234,7 +234,13 @@ class C { constructor() { class C { constructor() { super(); } } } }
 ```javascript
 
 class {
-
+  constructor() {
+    class {
+      constructor() {
+        ();
+      }
+    }
+  }
 }
 ```
 

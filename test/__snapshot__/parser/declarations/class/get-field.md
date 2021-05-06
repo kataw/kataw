@@ -138,7 +138,7 @@ get(){} }
 ```javascript
 
 class {
-
+  get() {}
 }
 ```
 

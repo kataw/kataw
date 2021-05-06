@@ -222,7 +222,9 @@ class Foo {
 class {
   ;
 
-
+  constructor() {
+     = ;
+  }
 }
 ```
 

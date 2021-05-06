@@ -113,7 +113,7 @@ class x { "construct\u{6f}r"(){} }
 ```javascript
 
 class {
-
+  "\"construct\u{6f}r\""() {}
 }
 ```
 

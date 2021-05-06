@@ -245,7 +245,7 @@ var await; var f = (async function() { class x {await(){}} });
 var await;
 var f = (async function() {
     class {
-
+      await() {}
     }
   });
 ```

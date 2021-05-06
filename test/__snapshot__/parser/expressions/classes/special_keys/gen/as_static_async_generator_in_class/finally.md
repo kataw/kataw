@@ -132,7 +132,7 @@ class x {static async * finally(){}}
 ```javascript
 
 class {
-  static
+  static finally() {}
 }
 ```
 

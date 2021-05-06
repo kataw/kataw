@@ -166,7 +166,7 @@ class x {*f(foo = await bar){}}
 ```javascript
 
 class {
-
+  f(foo = await, bar) {}
 }
 ```
 

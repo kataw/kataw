@@ -146,7 +146,7 @@ class x {static set delete(x){}}
 ```javascript
 
 class {
-  static
+  static delete(x) {}
 }
 ```
 

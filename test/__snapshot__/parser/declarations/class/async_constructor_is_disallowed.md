@@ -126,7 +126,7 @@ class X {    async constructor() {}   }
 ```javascript
 
 class {
-
+  constructor() {}
 }
 ```
 

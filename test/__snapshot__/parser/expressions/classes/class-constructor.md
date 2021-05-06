@@ -570,19 +570,19 @@
 ```javascript
 
 (class {
-
+    constructor() {}
   });
 (class {
-    static
+    static constructor() {}
   });
 (class {
-    static
+    static constructor() {}
   });
 (class {
-    static
+    static constructor(_) {}
   });
 (class {
-    static
+    static constructor() {}
   });
 ```
 

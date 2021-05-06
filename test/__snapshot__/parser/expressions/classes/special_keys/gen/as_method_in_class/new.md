@@ -117,7 +117,7 @@ class x {new(){}}
 ```javascript
 
 class {
-
+  new() {}
 }
 ```
 

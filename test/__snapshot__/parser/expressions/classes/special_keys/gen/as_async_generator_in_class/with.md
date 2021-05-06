@@ -127,7 +127,7 @@ class x {async * with(){}}
 ```javascript
 
 class {
-
+  with() {}
 }
 ```
 

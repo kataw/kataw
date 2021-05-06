@@ -890,14 +890,19 @@ class C { test() {get #a() { }}}
   }
 };
 class {
-
+  test() {
+    get;
+    ();
+    {
+    }
+  }
 }
 "'use strict'";
-({  });
+({ set (foo) {} });
 "'use strict'";
-({  });
-({  } = {});
-({  } = {});
+({ * () {} });
+({ async () {} } = {});
+({ * async () {} } = {});
 ```
 
 ### Diagnostics

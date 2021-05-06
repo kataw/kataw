@@ -697,12 +697,12 @@ x = { method(test) { } }
 
 ```javascript
 
-x = {  };
-x = {  };
-x = {  };
-x = {  }({  });
-x = ({  });
-x = {  };
+x = { method() {} };
+x = { get() {} };
+x = { set() {} };
+x = { method(test) {} }({ function() {} });
+x = ({ declare() {} });
+x = { method(test) {} };
 ```
 
 ### Diagnostics

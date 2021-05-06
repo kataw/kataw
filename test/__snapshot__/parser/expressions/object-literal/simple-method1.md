@@ -121,7 +121,7 @@ x = {
 
 ```javascript
 
-x = {  };
+x = { method() {} };
 ```
 
 ### Diagnostics

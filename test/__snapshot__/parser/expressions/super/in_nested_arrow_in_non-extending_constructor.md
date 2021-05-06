@@ -184,7 +184,9 @@ class x { constructor(){ return () => () => super.foo; }}
 ```javascript
 
 class {
-
+  constructor() {
+    return  () =>  () =>  .foo;
+  }
 }
 ```
 

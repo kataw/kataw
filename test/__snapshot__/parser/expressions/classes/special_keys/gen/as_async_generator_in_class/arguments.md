@@ -127,7 +127,7 @@ class x {async * arguments(){}}
 ```javascript
 
 class {
-
+  arguments() {}
 }
 ```
 

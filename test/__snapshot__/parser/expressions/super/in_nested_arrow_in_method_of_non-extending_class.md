@@ -204,7 +204,9 @@ class x extends y { foo(){ return () => () => super.foo; }}
 ```javascript
 
 class  {
-
+  foo() {
+    return  () =>  () =>  .foo;
+  }
 }
 ```
 

@@ -122,7 +122,7 @@ class C { static get #aaa(){} }
 ```javascript
 
 class {
-  static
+  static () {}
 }
 ```
 
