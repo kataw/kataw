@@ -1,7 +1,12 @@
 import { Char } from '../parser/scanner/char';
 import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
 
-export function skipWhitespace(text: string, pos: number, stopAfterLineBreak?: boolean, stopAtComments = false): number {
+export function skipWhitespace(
+  text: string,
+  pos: number,
+  stopAfterLineBreak?: boolean,
+  stopAtComments = false
+): number {
   if (!(pos >= 0)) {
     return pos;
   }
