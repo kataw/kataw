@@ -48,8 +48,16 @@ export interface PrinterOptions {
   sourceMap?: boolean;
 }
 
-export function printSourceFile(cst: RootNode, _options?: PrinterOptions): string {
-  const printer = createPrinter(cst.source, 80, 2);
+export function printSourceFile(cst: RootNode, options?: PrinterOptions): string {
+  let printWidth = 80; /* default to '80' */
+  let tabWidth = 2; /* default to '2' */
+
+  if (options != null) {
+    if (options.printWidth) printWidth = options.printWidth;
+    if (options.tabWidth) tabWidth = options.tabWidth;
+  }
+
+  const printer = createPrinter(cst.source, printWidth, tabWidth);
   return toString(printStatements(cst, printer, cst), printer, '\n');
 }
 
@@ -220,7 +228,7 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.ParenthesizedExpression:
       return printParenthesizedExpression(node, printer);
     case SyntaxKind.ArrowFunction:
-    return printArrowFunction(node, printer);
+      return printArrowFunction(node, printer);
     case SyntaxKind.UnaryExpression:
       return printUnaryExpression(node, printer);
     case SyntaxKind.AwaitExpression:
@@ -321,7 +329,9 @@ function printDelimitedList(
     }
     // Print this child.
     // elements.push(print(child, printer, parentNode));
-    elements.push(child ? chain([emitTrailingCommentsOfPosition(printer, child.start), print(child, printer, parentNode)]) : '');
+    elements.push(
+      child ? chain([emitTrailingCommentsOfPosition(printer, child.start), print(child, printer, parentNode)]) : ''
+    );
 
     previousSibling = child;
   }
@@ -719,7 +729,7 @@ function printLabelledStatement(node: any, printer: Printer): any {
 }
 
 function printContinueStatement(node: any, printer: Printer): any {
-  let parts = [printKeyword(node.continueKeyword, printer, node.start, node),];
+  let parts = [printKeyword(node.continueKeyword, printer, node.start, node)];
 
   if (node.label) {
     parts.push(printer.space, printStatements(node.label, printer, node));
@@ -731,8 +741,7 @@ function printContinueStatement(node: any, printer: Printer): any {
 }
 
 function printBreakStatement(node: any, printer: Printer): any {
-  let parts = [
-    printKeyword(node.breakKeyword, printer, node.start, node),];
+  let parts = [printKeyword(node.breakKeyword, printer, node.start, node)];
 
   if (node.label) {
     parts.push(printer.space, printStatements(node.label, printer, node));
@@ -792,7 +801,12 @@ function printCatchParameter(node: any, printer: Printer): any {
 // ImportCall :
 //  import
 function printImportCall(node: any, printer: Printer): any {
-  return chain([printKeyword(node.importKeyword, printer, node.start, node), '(', printExpressions(node.expression, printer, node), ')']);
+  return chain([
+    printKeyword(node.importKeyword, printer, node.start, node),
+    '(',
+    printExpressions(node.expression, printer, node),
+    ')'
+  ]);
 }
 
 function printNewTarget(node: any, printer: Printer): any {
@@ -1497,19 +1511,13 @@ function printBinaryishExpressions(node: any, printer: Printer, parentNode: any,
 
 function printUnaryExpression(node: any, printer: Printer): any {
   if (shouldprintWhitespaceBeforeOperand(node)) {
-    return chain([
-      tokenToString(node.operatorToken),
-      printExpressions(node.operand, printer, node)
-    ]);
+    return chain([tokenToString(node.operatorToken), printExpressions(node.operand, printer, node)]);
   }
-  return chain([
-    tokenToString(node.operatorToken),
-    printExpressions(node.operand, printer, node)
-  ]);
+  return chain([tokenToString(node.operatorToken), printExpressions(node.operand, printer, node)]);
 }
 
 function printPrefixUpdateExpression(node: any, printer: Printer): any {
-  return chain([tokenToString(node.operatorToken),, printExpressions(node.operand, printer, node)]);
+  return chain([tokenToString(node.operatorToken), , printExpressions(node.operand, printer, node)]);
 }
 
 function printPostfixUpdateExpression(node: any, printer: Printer): any {
@@ -1742,15 +1750,13 @@ function printMemberAccessExpression(node: any, printer: Printer): any {
   );
 }
 
-
-
 function printArrowFunction(node: any, printer: Printer): any {
   const parts: any = [
     printKeyword(node.asyncKeyword, printer, node.start, node),
     printer.space,
     group(printArrowParameters(node.parameters, printer)),
     printer.space,
-    printKeyword(node.arrowToken, printer, node.asyncKeyword ? node.asyncKeyword.end : node.start, node),
+    printKeyword(node.arrowToken, printer, node.asyncKeyword ? node.asyncKeyword.end : node.start, node)
   ];
 
   const { contents } = node;
@@ -1774,9 +1780,7 @@ function printArrowFunction(node: any, printer: Printer): any {
   return group(chain([chain(parts), group(chain([indent(chain([line, body]))]))]));
 }
 function printArrowParameters(node: any, printer: Printer): any {
-  return node.flags & NodeFlags.ExpressionNode ? printExpressions(node, printer, node) : chain([
-      '(',
-      chain(printDelimitedList(node, printer, node, printStatements, ',')),
-      ')',
-    ]);
+  return node.flags & NodeFlags.ExpressionNode
+    ? printExpressions(node, printer, node)
+    : chain(['(', chain(printDelimitedList(node, printer, node, printStatements, ',')), ')']);
 }
