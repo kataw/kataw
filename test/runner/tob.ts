@@ -118,6 +118,7 @@ function md2diagnostics(str: string) {
 
 function outputBlock(tob: Tob, updateItems: any) {
   return `${Constants.Output}
+
 ${Constants.CST}
 ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
 ${Constants.Printed}
