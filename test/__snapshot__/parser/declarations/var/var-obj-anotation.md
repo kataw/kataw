@@ -172,7 +172,10 @@ var {x}: {x: string; } = { x: "hello" };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x
+} = { x: "\"hello\"" };
 ```
 
 ### Diagnostics

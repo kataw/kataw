@@ -111,7 +111,10 @@ do async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do async () => x
+ ();
+while (y) ;
 ```
 
 ### Diagnostics

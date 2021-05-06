@@ -192,7 +192,8 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

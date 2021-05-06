@@ -394,7 +394,18 @@ let {x}: string = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x;
+string;
+let [x];
+string = y;
+let [x];
+symbol;
+string = y;
+let {
+  x
+};
+string = y;
 ```
 
 ### Diagnostics

@@ -139,7 +139,8 @@ for ({x=y}=x in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

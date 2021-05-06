@@ -111,7 +111,9 @@ var a: -z
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+z;
 ```
 
 ### Diagnostics

@@ -140,7 +140,11 @@ class A {* get "foo"(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+}
 ```
 
 ### Diagnostics

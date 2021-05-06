@@ -127,7 +127,11 @@ const {x,, y} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  x
+}, y;
+obj;
 ```
 
 ### Diagnostics

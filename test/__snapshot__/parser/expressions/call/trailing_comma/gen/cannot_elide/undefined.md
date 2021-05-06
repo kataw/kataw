@@ -75,7 +75,8 @@ foo(a,,);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a, );
 ```
 
 ### Diagnostics

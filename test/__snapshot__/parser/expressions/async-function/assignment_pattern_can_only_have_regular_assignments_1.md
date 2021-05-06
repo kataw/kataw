@@ -128,7 +128,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[a, b ^= [x, y]] = z;
 ```
 
 ### Diagnostics

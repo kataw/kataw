@@ -183,7 +183,10 @@ async ([a]:string)=>c;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (a) => c
+async ([a]) => c
+
 ```
 
 ### Diagnostics

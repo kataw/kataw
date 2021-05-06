@@ -144,7 +144,8 @@ async function f(x=(await z)=y){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

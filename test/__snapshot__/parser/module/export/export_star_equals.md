@@ -78,7 +78,10 @@ export *= from 'f';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+from;
+"'f'";
 ```
 
 ### Diagnostics

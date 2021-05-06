@@ -101,7 +101,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ (interface) => {
+  0;
+};
 ```
 
 ### Diagnostics

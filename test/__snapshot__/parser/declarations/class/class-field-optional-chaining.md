@@ -236,7 +236,12 @@ class C { #aaa; f(f) { f()?.#aaa } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+
+}
 ```
 
 ### Diagnostics

@@ -83,7 +83,10 @@ if (true) let x; else ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (true) let;
+x;
+
 ```
 
 ### Diagnostics

@@ -124,7 +124,11 @@ do while try this and !foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while () try {
+    } try{
+    }
+ (foo);
 ```
 
 ### Diagnostics

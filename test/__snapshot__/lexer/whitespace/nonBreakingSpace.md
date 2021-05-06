@@ -126,7 +126,11 @@ left@{xa0}@right
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+left;
+class {}
+@right
+class {}
 ```
 
 ### Diagnostics

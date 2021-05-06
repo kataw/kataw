@@ -124,7 +124,9 @@ while(y)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do if (8)
+while (y);
 ```
 
 ### Diagnostics

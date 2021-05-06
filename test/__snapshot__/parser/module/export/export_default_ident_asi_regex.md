@@ -100,7 +100,8 @@ export default x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default x / y / ;
 ```
 
 ### Diagnostics

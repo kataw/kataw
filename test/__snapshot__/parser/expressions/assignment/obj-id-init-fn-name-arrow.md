@@ -139,7 +139,8 @@ result = { arrow = () => {} } = {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = { arrow =  () => {} } = {};
 ```
 
 ### Diagnostics

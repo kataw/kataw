@@ -132,7 +132,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ 3200: fail() = x } = x);
 ```
 
 ### Diagnostics

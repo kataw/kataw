@@ -65,7 +65,9 @@ do false
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do false;
+ ();
 ```
 
 ### Diagnostics

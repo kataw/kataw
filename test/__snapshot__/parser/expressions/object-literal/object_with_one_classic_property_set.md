@@ -95,7 +95,8 @@ wrap({set:b});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ set: b });
 ```
 
 ### Diagnostics

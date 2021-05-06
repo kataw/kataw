@@ -155,7 +155,8 @@ f(((a) => a + b)(1, 4), 5);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f(( (a) => a + b)(1, 4), 5);
 ```
 
 ### Diagnostics

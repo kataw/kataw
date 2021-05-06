@@ -178,7 +178,8 @@ result = { x: [y] } = { x: [321] };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = { x: [y] } = { x: [321] };
 ```
 
 ### Diagnostics

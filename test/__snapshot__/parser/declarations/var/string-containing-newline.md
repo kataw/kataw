@@ -72,7 +72,8 @@ var str = "\n";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var str = "\"\n\"";
 ```
 
 ### Diagnostics

@@ -100,7 +100,9 @@ const ...a = 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const ;
+a = 1;
 ```
 
 ### Diagnostics

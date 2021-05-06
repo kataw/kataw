@@ -144,7 +144,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[x, ...z + arr, y] = obj;
 ```
 
 ### Diagnostics

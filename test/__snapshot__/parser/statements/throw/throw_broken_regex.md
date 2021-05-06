@@ -47,7 +47,8 @@ throw/("
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+throw /(";
 ```
 
 ### Diagnostics

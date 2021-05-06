@@ -159,7 +159,9 @@ do throw function (v, h) {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do throw function(v, h) {};
+while (("\"\""));
 ```
 
 ### Diagnostics

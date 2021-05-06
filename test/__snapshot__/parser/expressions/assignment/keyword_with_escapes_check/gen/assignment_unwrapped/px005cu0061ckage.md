@@ -66,7 +66,8 @@ p\u0061ckage = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+package = x;
 ```
 
 ### Diagnostics

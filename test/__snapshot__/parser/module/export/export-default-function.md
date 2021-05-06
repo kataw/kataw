@@ -92,7 +92,8 @@ export default function () {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default ;
 ```
 
 ### Diagnostics

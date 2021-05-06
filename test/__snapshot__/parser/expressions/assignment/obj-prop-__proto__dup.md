@@ -250,7 +250,9 @@ result = ({ __proto__: x, __proto__: y } = value);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = { __proto__: x, __proto__: y } = value;
+result = ({ __proto__: x, __proto__: y } = value);
 ```
 
 ### Diagnostics

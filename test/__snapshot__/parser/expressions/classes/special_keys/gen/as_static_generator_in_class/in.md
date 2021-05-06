@@ -125,7 +125,10 @@ class x {static * in(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+}
 ```
 
 ### Diagnostics

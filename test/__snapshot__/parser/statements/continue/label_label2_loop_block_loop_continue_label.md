@@ -190,7 +190,8 @@ foo: bar: do { do continue foo; while(z); } while(z)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: bar: do {} while (z);
 ```
 
 ### Diagnostics

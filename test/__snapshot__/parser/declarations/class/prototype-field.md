@@ -198,7 +198,16 @@ class Foo { prototype = 1 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+class {
+
+}
+class {
+
+}
 ```
 
 ### Diagnostics

@@ -94,7 +94,8 @@ x ** async async => ok
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x ** async async => ok;
 ```
 
 ### Diagnostics

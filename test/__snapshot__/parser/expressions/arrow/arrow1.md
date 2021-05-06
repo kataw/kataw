@@ -293,7 +293,17 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ y }?) => x;
+;
+;
+Options;
+;
+;
+;
+Parser;
+Optionsjs
+{ allowTypes : true };
 ```
 
 ### Diagnostics

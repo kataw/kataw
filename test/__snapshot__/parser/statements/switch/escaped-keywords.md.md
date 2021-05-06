@@ -172,7 +172,15 @@ switch (this.a) { c\u0061se 6: break; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(this.a
+  default
+
+
+switch(this.a
+  case 6:
+
+ 
 ```
 
 ### Diagnostics

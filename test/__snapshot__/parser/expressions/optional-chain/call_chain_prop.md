@@ -117,7 +117,8 @@ c?.(d)?.[e]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ;
 ```
 
 ### Diagnostics

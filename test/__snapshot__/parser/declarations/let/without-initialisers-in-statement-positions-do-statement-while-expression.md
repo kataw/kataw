@@ -94,7 +94,10 @@ do let x; while (false)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do let;
+ ();
+while (false) ;
 ```
 
 ### Diagnostics

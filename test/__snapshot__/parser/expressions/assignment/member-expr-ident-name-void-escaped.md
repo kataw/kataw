@@ -76,7 +76,8 @@ obj.voi\u0064 = 42;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+obj.void = 42;
 ```
 
 ### Diagnostics

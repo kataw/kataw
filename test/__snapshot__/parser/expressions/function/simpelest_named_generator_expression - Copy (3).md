@@ -114,7 +114,8 @@ foo(function* f(){})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(function* f() {});
 ```
 
 ### Diagnostics

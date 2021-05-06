@@ -66,7 +66,8 @@ p\u0072otected = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+protected = x;
 ```
 
 ### Diagnostics

@@ -156,7 +156,8 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

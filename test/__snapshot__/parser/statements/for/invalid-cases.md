@@ -232,7 +232,10 @@ for ({x = y} ;;) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
+for(; 1; 1) {}
+for(; ; ) {}
 ```
 
 ### Diagnostics

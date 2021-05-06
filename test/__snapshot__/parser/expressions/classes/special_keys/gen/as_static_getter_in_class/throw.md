@@ -125,7 +125,10 @@ class x {static get throw(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+}
 ```
 
 ### Diagnostics

@@ -206,7 +206,8 @@ a={id<T>(x: T): T {}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a = {  };
 ```
 
 ### Diagnostics

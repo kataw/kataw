@@ -102,7 +102,10 @@ async () => {  p\u0072otected = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  protected = x;
+}
 ```
 
 ### Diagnostics

@@ -120,7 +120,9 @@ async (a = 1, b = 2) => x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (a = 1, b = 2) => x
+
 ```
 
 ### Diagnostics

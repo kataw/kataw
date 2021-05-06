@@ -65,7 +65,9 @@ do /**/ /x do while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do/**/  /x do while while;
+ ();
 ```
 
 ### Diagnostics

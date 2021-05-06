@@ -114,7 +114,8 @@ async({c=3} = {})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async({ c = 3 } = {})
 ```
 
 ### Diagnostics

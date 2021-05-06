@@ -109,7 +109,9 @@ for ("foo"[x] in c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c)
+  d;
 ```
 
 ### Diagnostics

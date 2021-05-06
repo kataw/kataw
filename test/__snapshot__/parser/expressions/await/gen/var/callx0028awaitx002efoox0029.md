@@ -220,7 +220,11 @@ var await; var f = (async function() { call(await.foo) });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+    call(await .foo);
+  });
 ```
 
 ### Diagnostics

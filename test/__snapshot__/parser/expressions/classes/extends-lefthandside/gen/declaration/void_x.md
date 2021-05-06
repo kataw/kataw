@@ -95,7 +95,8 @@ class A extends void x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

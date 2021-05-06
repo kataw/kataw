@@ -102,7 +102,10 @@ async () => {  \u0070rotected = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  protected = x;
+}
 ```
 
 ### Diagnostics

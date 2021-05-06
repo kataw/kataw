@@ -59,7 +59,8 @@ new fooo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ fooo();
 ```
 
 ### Diagnostics

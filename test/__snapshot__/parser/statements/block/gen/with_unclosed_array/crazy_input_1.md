@@ -91,7 +91,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [crazy, input, 1];
+}
 ```
 
 ### Diagnostics

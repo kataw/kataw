@@ -119,7 +119,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  0123:
+} = y;
 ```
 
 ### Diagnostics

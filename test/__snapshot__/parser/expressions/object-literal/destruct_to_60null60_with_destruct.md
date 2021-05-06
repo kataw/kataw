@@ -131,7 +131,8 @@ s = {"foo": null = x} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { "\"foo\"": null = x } = x;
 ```
 
 ### Diagnostics

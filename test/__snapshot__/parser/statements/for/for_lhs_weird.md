@@ -346,7 +346,15 @@ for ({}[y] ^= x;;) x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; )
+  x;
+for(; ; )
+  x;
+for(; ; )
+  x;
+for(; ; )
+  x;
 ```
 
 ### Diagnostics

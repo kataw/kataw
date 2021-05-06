@@ -272,7 +272,13 @@ do do do =! class function try while with foo! while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do  = class {};
+     ();
+   ();
+while ();
+
+while () while () while () ;
 ```
 
 ### Diagnostics

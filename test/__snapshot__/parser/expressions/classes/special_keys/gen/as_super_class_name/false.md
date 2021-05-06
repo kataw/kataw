@@ -82,7 +82,8 @@ class x extends false {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

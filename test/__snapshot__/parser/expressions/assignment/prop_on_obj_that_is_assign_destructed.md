@@ -154,7 +154,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...[{ prop: 1 }.prop]] = [];
 ```
 
 ### Diagnostics

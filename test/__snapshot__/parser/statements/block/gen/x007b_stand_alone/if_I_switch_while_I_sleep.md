@@ -128,7 +128,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  if (I) switch(
+
+  while (I) sleep;
+}
 ```
 
 ### Diagnostics

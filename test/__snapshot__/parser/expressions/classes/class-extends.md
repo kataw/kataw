@@ -1068,7 +1068,33 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {});
+(class  {});
+(class  {});
+(class  {});
+(class  {});
+(class  {});
+(class  {});
+(class  {});
+(class  {});
+"'use strict'";
+{
+  class  {}
+}
+"'use strict'";
+{
+  class  {}
+}
+"'use strict'";
+{
+  class  {}
+}
+"'use strict'";
+{
+  class  {}
+}
+
 ```
 
 ### Diagnostics

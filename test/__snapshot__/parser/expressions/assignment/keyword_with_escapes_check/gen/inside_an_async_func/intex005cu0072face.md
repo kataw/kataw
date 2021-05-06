@@ -102,7 +102,10 @@ async () => {  inte\u0072face = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  interface = x;
+}
 ```
 
 ### Diagnostics

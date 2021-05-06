@@ -79,7 +79,8 @@ var await = 0
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await = 0;
 ```
 
 ### Diagnostics

@@ -156,7 +156,11 @@ class A {async get 7(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+}
 ```
 
 ### Diagnostics

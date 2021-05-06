@@ -136,7 +136,11 @@ for(;;)x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do throw function() {};
+while (y);
+for (;;)
+  x;
 ```
 
 ### Diagnostics

@@ -176,7 +176,9 @@ var x,y; export {x as a, y as b}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x, y;
+  x  a, y  b };
 ```
 
 ### Diagnostics

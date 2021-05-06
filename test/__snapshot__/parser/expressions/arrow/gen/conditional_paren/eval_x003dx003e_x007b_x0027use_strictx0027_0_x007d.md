@@ -139,7 +139,10 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar ? baz : ( eval => {
+        0;
+      });
 ```
 
 ### Diagnostics

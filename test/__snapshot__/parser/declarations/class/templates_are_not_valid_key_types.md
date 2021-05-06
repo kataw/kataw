@@ -119,7 +119,11 @@ class x { `constructor`(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+constructor();
+{
+}
 ```
 
 ### Diagnostics

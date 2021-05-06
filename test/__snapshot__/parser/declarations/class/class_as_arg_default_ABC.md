@@ -301,7 +301,10 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f =  ([cls = class {}, xCls = class {}, xCls2 = class {
+    static
+  }]) => {};
 ```
 
 ### Diagnostics

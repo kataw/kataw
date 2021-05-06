@@ -107,7 +107,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`a ${ x => ok} b`.length;
 ```
 
 ### Diagnostics

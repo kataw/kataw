@@ -85,7 +85,9 @@ tag`\\\ `;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+tag \;
+tag\ ;
 ```
 
 ### Diagnostics

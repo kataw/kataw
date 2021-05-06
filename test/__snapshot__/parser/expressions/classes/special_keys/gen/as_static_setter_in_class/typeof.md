@@ -144,7 +144,10 @@ class x {static set typeof(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+}
 ```
 
 ### Diagnostics

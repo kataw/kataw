@@ -126,7 +126,11 @@ z; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  var x = 14, y = 3;
+  z;
+}
 ```
 
 ### Diagnostics

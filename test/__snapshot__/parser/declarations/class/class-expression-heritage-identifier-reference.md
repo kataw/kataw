@@ -140,7 +140,9 @@ var B = class extends A {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+var B = class  {};
 ```
 
 ### Diagnostics

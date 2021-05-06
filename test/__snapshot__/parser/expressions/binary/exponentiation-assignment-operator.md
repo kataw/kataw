@@ -1362,7 +1362,29 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({
+  0: a ** b ** c,
+  1: (a ** b) ** c,
+  2: a **= b,
+  3: a.b **= c,
+  4: ab **= c,
+  5: a().b **= c,
+  6: a()b **= c,
+  7: ab() **= c,
+  8: a()b() **= c,
+  9: a0 **= b,
+  10: afalse **= b,
+  11: anull **= b,
+  12: a0 **= b,
+  13: a123 **= b,
+  14: athis **= b,
+  15: a/x/ **= b,
+  16: a{} **= b,
+  17: a[] **= b,
+  18: a () => {} **= b,
+  19: afunction() {} **= b
+});
 ```
 
 ### Diagnostics

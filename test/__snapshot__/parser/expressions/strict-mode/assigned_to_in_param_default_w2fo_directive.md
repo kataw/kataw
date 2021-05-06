@@ -113,7 +113,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ (x = interface = 10) => {};
 ```
 
 ### Diagnostics

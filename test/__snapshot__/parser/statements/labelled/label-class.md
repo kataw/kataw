@@ -89,7 +89,8 @@ label: class x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+label: class {}
 ```
 
 ### Diagnostics

@@ -140,7 +140,10 @@ class x {static async async(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+}
 ```
 
 ### Diagnostics

@@ -136,7 +136,9 @@ obj.c\u0061se = 42;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var obj = {};
+obj.case = 42;
 ```
 
 ### Diagnostics

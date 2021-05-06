@@ -59,7 +59,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  false;
+}
 ```
 
 ### Diagnostics

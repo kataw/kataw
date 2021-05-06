@@ -111,7 +111,8 @@ async ({ident: {x}}) => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async ({ ident: { x } }) => x
 ```
 
 ### Diagnostics

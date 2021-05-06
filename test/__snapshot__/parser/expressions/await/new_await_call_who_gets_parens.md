@@ -96,7 +96,8 @@ async () => new await x()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  await x()()
 ```
 
 ### Diagnostics

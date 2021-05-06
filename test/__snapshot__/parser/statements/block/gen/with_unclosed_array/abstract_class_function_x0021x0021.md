@@ -168,7 +168,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [abstract, class {}, function() {}, ];
+}
 ```
 
 ### Diagnostics

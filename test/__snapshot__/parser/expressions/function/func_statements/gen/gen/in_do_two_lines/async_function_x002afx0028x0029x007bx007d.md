@@ -116,7 +116,9 @@ while (x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do
+while (x);
 ```
 
 ### Diagnostics

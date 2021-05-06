@@ -156,7 +156,8 @@ for ({x,...x}=x in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

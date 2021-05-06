@@ -122,7 +122,8 @@ x= { *prototype(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = {  };
 ```
 
 ### Diagnostics

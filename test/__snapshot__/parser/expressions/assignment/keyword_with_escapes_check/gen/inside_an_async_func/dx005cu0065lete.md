@@ -113,7 +113,10 @@ async () => {  d\u0065lete = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+   = x;
+}
 ```
 
 ### Diagnostics

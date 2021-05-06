@@ -129,7 +129,8 @@ for (true ? 0 : 0 in {}; false; ) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; false);
 ```
 
 ### Diagnostics

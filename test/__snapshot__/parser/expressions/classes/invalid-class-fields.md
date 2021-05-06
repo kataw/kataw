@@ -3346,7 +3346,118 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {
+
+  } + aaa);
+(class {
+
+  });
+class {}
+class {}
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+0;
+(class {
+
+  } = );
+(class {
+
+  });
+{
+}
+(class {
+
+  });
+{
+}
+(class {
+
+  } = 0);
+(class {
+
+  });
+0;
+(class {
+
+  });
+{
+}
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+{
+}
+(class {
+
+  } = 0);
+(class {
+
+  });
+{
+}
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+  }(class {
+
+
+
+    }));
+(class {
+
+
+  });
+(class {
+
+
+
+  });
 ```
 
 ### Diagnostics

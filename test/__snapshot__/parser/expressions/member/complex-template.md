@@ -121,7 +121,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[`a${5}b`.length] = x;
 ```
 
 ### Diagnostics

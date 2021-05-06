@@ -284,7 +284,11 @@ var await; var f = (async function() { let x = function f(foo = await bar){ });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+    let x = function f(foo = await, bar) {};
+  });
 ```
 
 ### Diagnostics

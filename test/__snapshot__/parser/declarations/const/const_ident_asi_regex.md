@@ -137,7 +137,9 @@ const q
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const q;
+ / d / ;
 ```
 
 ### Diagnostics

@@ -188,7 +188,8 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

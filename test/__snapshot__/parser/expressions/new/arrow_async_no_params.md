@@ -76,7 +76,9 @@ new asc() => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ asc();
+x;
 ```
 
 ### Diagnostics

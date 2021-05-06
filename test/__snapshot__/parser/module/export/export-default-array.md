@@ -66,7 +66,8 @@ export default [];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default [];
 ```
 
 ### Diagnostics

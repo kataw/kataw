@@ -71,7 +71,8 @@ let public;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let public;
 ```
 
 ### Diagnostics

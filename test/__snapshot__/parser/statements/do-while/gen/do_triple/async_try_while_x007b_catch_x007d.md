@@ -183,7 +183,12 @@ do do do async try while { catch } while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do async;
+     ();
+  while ({ catch });
+while ();
+while () while () ;
 ```
 
 ### Diagnostics

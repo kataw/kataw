@@ -262,7 +262,8 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x0 / x1 => x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x;
 ```
 
 ### Diagnostics

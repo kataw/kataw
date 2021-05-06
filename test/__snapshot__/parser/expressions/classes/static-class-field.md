@@ -4334,7 +4334,185 @@ a});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class  {
+
+
+  });
+(class  {
+
+
+  });
+(class  {
+
+
+  });
+(class  {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  }); // a field named async, and a method named a.
+
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
 ```
 
 ### Diagnostics

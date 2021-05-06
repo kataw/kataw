@@ -115,7 +115,9 @@ opaque += 4;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var opaque = 0;
+opaque += 4;
 ```
 
 ### Diagnostics

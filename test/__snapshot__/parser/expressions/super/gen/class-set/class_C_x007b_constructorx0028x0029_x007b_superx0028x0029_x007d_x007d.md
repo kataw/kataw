@@ -256,7 +256,10 @@ class C { set x(_) { class C { constructor() { super(); } } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

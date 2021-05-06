@@ -219,7 +219,10 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

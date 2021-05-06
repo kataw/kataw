@@ -86,7 +86,8 @@ x = `1 ${ yield x } 2`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = `1 ${yield} } 2`;
 ```
 
 ### Diagnostics

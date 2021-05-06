@@ -143,7 +143,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[this = x];
+[this] = x;
 ```
 
 ### Diagnostics

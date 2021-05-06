@@ -73,7 +73,9 @@ new await x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ await();
+x;
 ```
 
 ### Diagnostics

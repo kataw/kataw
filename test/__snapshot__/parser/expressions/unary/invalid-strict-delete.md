@@ -155,7 +155,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo;
+"\"use strict\"";
+(foo);
+"\"use strict\"";
+interface;
 ```
 
 ### Diagnostics

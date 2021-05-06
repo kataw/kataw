@@ -105,7 +105,8 @@ f(a + async instanceof b)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f(a +    inctanceof b);
 ```
 
 ### Diagnostics

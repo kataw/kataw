@@ -819,7 +819,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ b, ...c } = d);
+({ a: b = c } = d);
+({ a: b.c } = d);
+({ x: [...a, b].x } = c);
+({ x: { ...a, b }.x } = c);
+({ x = { ...a, b } } = c);
+({ x = [...a, b] } = c);
+([[]] = [[]]);
 ```
 
 ### Diagnostics

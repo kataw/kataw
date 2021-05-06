@@ -102,7 +102,8 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = `1 ${yield} 2 ${3} 4`;
 ```
 
 ### Diagnostics

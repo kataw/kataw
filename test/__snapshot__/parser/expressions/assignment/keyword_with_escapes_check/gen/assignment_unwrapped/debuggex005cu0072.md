@@ -58,7 +58,9 @@ debugge\u0072 = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+debugger;
+x;
 ```
 
 ### Diagnostics

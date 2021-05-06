@@ -387,7 +387,16 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+number, b;
+string, c;
+boolean;
+[boolean, string, number];
+{
+  let [x, y, z] = arguments;
+  return [z, y, x];
+}
 ```
 
 ### Diagnostics

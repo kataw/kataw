@@ -146,7 +146,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  f: ,
+  f
+} = {};
 ```
 
 ### Diagnostics

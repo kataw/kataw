@@ -86,7 +86,8 @@ for ([], x;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

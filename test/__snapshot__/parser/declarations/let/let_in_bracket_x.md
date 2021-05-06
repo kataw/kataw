@@ -142,7 +142,9 @@ let[x] in x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [x];
+ in x;
 ```
 
 ### Diagnostics

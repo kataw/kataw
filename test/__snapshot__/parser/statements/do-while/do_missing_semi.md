@@ -105,7 +105,12 @@ do;while(j)try{}finally{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do;
+while (j);
+try {
+} try{
+}
 ```
 
 ### Diagnostics

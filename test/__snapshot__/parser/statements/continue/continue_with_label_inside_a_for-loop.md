@@ -93,7 +93,9 @@ foo: for (;;) continue foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: for (;;)
+  continue foo;
 ```
 
 ### Diagnostics

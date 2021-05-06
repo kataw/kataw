@@ -87,7 +87,9 @@ async("foo".bar) => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async("\"foo\"".bar)
+x;
 ```
 
 ### Diagnostics

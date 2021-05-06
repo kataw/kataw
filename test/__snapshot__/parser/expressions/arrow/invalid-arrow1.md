@@ -1335,7 +1335,31 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ a: b0 }) => x;
+ ([{ x: y.z } = a]) => b;
+ ([{ x: y.z }]) => b;
+ ([{ x: y.z }] = a) => b;
+ ([{ "\"foo\"": y.z } = a]) => b;
+ ({ "\"foo\"": y.z } = a) => b;
+ ([{ "\"foo\"": y.z }]) => b;
+ ([{ "\"foo\"": y.z }] = a) => b;
+ () => 42;
+ () => 42;
+();
+if () ;
+{
+}
+(a);
+if () ;
+{
+}
+(q, a + b);
+{
+}
+ () => {};
+ () => 42;
+
 ```
 
 ### Diagnostics

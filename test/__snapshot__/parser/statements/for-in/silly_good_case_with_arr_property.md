@@ -107,7 +107,8 @@ for ([].bar in obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in obj);
 ```
 
 ### Diagnostics

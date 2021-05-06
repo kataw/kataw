@@ -141,7 +141,8 @@ const [foo, bar=b] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const [foo, bar = b] = arr;
 ```
 
 ### Diagnostics

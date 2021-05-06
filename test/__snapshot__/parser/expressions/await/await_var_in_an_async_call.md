@@ -65,7 +65,9 @@ async(await);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(await)
+
 ```
 
 ### Diagnostics

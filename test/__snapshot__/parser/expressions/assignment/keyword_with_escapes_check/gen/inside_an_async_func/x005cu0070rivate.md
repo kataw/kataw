@@ -102,7 +102,10 @@ async () => {  \u0070rivate = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  private = x;
+}
 ```
 
 ### Diagnostics

@@ -137,7 +137,10 @@ do( async try while { catch } while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do ();
+ ();
+while ({ catch }) while () ;
 ```
 
 ### Diagnostics

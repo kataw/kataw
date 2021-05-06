@@ -120,7 +120,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...c, { a, b }] = d;
 ```
 
 ### Diagnostics

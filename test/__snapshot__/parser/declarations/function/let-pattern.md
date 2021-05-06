@@ -114,7 +114,10 @@ const {x=y};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  x = y
+};
 ```
 
 ### Diagnostics

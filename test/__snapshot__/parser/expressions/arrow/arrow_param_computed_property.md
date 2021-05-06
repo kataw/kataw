@@ -186,7 +186,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+( (a) => x);
+(x,  (a) => x);
+(ab);
+x;
 ```
 
 ### Diagnostics

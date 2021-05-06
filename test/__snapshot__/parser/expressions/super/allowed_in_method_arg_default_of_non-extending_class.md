@@ -155,7 +155,10 @@ class x { foo(x=super.foo){ }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

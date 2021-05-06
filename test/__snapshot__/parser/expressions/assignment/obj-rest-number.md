@@ -109,7 +109,8 @@ result = {...rest} = 69;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = { ...rest } = 69;
 ```
 
 ### Diagnostics

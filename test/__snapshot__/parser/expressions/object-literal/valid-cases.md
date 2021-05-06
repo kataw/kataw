@@ -2455,7 +2455,34 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ foo: 1,  });
+({ foo: 1,  });
+({ "\"foo\"": 1,  });
+({ "\"foo\"": 1,  });
+({ 1: 1,  });
+({ 1: 1,  });
+({ ,  });
+({ ,  });
+({ foo: 1,  });
+({ foo: 1,  });
+({  });
+({ set: 0 });
+({ if: 4 });
+({  });
+({ interface: 5 });
+({  });
+({ async: 0 });
+"\"use strict\"";
+({  });
+"\"use strict\"";
+({  });
+"\"use strict\"";
+({ foo: 1,  });
+({ 1: 1,  });
+({ get: 1,  });
+({ set: 1,  });
+({ 1: 1, 2: 2 });
 ```
 
 ### Diagnostics

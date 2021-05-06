@@ -193,7 +193,10 @@ let f = () => { const [...await f] = []; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let f =  () => {
+  const [...await, f] = [];
+};
 ```
 
 ### Diagnostics

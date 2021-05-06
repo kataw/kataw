@@ -201,7 +201,8 @@ async({a=1}. {b=2}, {c=3} = {}))
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async({ a = 1 }., { b = 2 }, { c = 3 } = {})
 ```
 
 ### Diagnostics

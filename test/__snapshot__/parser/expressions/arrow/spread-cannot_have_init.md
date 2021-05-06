@@ -158,7 +158,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ (...x = y) => x;
+ (...x = 10) => {};
 ```
 
 ### Diagnostics

@@ -58,7 +58,10 @@ a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let; // ASI
+
+a;
 ```
 
 ### Diagnostics

@@ -144,7 +144,11 @@ try {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch (e) {
+
+}
 ```
 
 ### Diagnostics

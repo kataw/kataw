@@ -425,7 +425,19 @@ class x { static async *prototype(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+}
+class {
+  static
+}
+class {
+  static
+}
+class {
+  static
+}
 ```
 
 ### Diagnostics

@@ -116,7 +116,8 @@ x = class{} / x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = class {} / x;
 ```
 
 ### Diagnostics

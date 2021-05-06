@@ -115,7 +115,8 @@ x, {foo = y, bar} = doo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x, { foo = y, bar } = doo;
 ```
 
 ### Diagnostics

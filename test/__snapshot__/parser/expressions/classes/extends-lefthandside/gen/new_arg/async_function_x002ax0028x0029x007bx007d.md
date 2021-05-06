@@ -100,7 +100,8 @@ new async function *(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ async function*() {}();
 ```
 
 ### Diagnostics

@@ -206,7 +206,14 @@ do do do while try this and !foo while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do while () try {
+        } try{
+        }
+     (foo);
+  while ();
+while ();
+while () ;
 ```
 
 ### Diagnostics

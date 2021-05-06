@@ -123,7 +123,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let: 0;
+"'use strict'";
+implements;
 ```
 
 ### Diagnostics

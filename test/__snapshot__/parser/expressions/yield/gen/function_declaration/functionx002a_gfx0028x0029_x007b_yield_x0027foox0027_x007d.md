@@ -161,7 +161,8 @@ function not_gen() { function* gf() { yield 'foo' } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

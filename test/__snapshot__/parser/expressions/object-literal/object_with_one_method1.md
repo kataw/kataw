@@ -497,7 +497,12 @@ wrap({0o4432(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({  });
+wrap({  });
+wrap({  });
+wrap({  });
+wrap({  });
 ```
 
 ### Diagnostics

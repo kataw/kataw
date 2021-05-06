@@ -431,7 +431,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ foo: { x: y } += x });
+({ x: y } += x);
+(({ x: y }) += x);
+(a = b);
+({ foo: { x: y } += x });
 ```
 
 ### Diagnostics

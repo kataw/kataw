@@ -376,7 +376,11 @@ import {'' as x} from 'foo';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  "'🍕'" x }  ;
+  "'a b'" x }  ;
+  "'\uD800\uDC00'" x }  ;
+  "''" x }  ;
 ```
 
 ### Diagnostics

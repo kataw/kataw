@@ -121,7 +121,10 @@ export *, {bar} from 'bar';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ * from ;
+from;
+"'bar'";
 ```
 
 ### Diagnostics

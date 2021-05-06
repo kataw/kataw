@@ -116,7 +116,8 @@ var g = function* yield() {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var g = function* yield() {};
 ```
 
 ### Diagnostics

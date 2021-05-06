@@ -135,7 +135,16 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+();
+x61ckage;
+{
+  "\"use strict\"";
+}
+();
+x61ckage;
+{
+}
 ```
 
 ### Diagnostics

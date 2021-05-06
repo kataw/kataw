@@ -274,7 +274,11 @@ result = [[x]] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
+var result;
+var vals = [[1]];
+result = [[x]] = vals;
 ```
 
 ### Diagnostics

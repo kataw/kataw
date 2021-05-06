@@ -62,7 +62,8 @@ new Foo()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ Foo();
 ```
 
 ### Diagnostics

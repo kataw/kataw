@@ -1771,7 +1771,21 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(x = { "\"a\"": x = y }) / y.z;
+(x = { "\"a\"": (x) = y }) / y.z;
+(x = { "\"a\"": x = (y) }) / y.z;
+(x = { "\"a\"": (x = (y)) }) / y.z;
+(x = { : { x } = y }) / y.z;
+(x = { : x = y }) / y.z;
+(x = { : (x) = y }) / y.z;
+(x = { : x = (y) }) / y.z;
+(x = { : (x = (y)) }) / y.z;
+({ ...1 in {} });
+({ ,  });
+({ ,  });
+({ foo: x });
+({ foo: true / false });
 ```
 
 ### Diagnostics

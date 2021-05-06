@@ -1014,7 +1014,17 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ 1: 1,  });
+({ 1: 1,  });
+({ 1: 1,  });
+({ foo: 1, bar: 2 });
+({ 1: 1, 2: 2 });
+({  });
+({  });
+({  });
+({ foo: 1,  });
+({ 1: 1,  });
 ```
 
 ### Diagnostics

@@ -880,7 +880,24 @@ class C { test() {get #a() { }}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = 1;
+
+
+ () => {
+  ();
+  {
+  }
+};
+class {
+
+}
+"'use strict'";
+({  });
+"'use strict'";
+({  });
+({  } = {});
+({  } = {});
 ```
 
 ### Diagnostics

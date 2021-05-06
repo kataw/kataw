@@ -89,7 +89,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [type, {}];
+}
 ```
 
 ### Diagnostics

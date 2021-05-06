@@ -131,7 +131,8 @@ s = {"foo": yield /x/}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { "\"foo\"": yield / x /  };
 ```
 
 ### Diagnostics

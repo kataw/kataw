@@ -396,7 +396,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(ab);
+(a{});
+(a[]);
+(a1);
+(x, ab);
+(x, a{});
+(x, a[]);
+(x, a1);
 ```
 
 ### Diagnostics

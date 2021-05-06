@@ -151,7 +151,8 @@ async function f() { for await (let x of y) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

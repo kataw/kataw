@@ -122,7 +122,9 @@ do h(function(){});while(x)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do h(function() {});
+while (x);
 ```
 
 ### Diagnostics

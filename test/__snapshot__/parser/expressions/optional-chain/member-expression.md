@@ -201,7 +201,10 @@ f2`hello world`?.a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ;
+ = ;
+ = ;
 ```
 
 ### Diagnostics

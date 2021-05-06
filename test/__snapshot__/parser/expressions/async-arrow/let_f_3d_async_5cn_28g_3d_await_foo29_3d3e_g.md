@@ -131,7 +131,8 @@ let f = async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let f = async (g = await, foo) => g;
 ```
 
 ### Diagnostics

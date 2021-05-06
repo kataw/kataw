@@ -78,7 +78,8 @@ class l\u0065t {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
 ```
 
 ### Diagnostics

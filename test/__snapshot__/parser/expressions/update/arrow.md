@@ -101,7 +101,8 @@ a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x =  () => a;
 ```
 
 ### Diagnostics

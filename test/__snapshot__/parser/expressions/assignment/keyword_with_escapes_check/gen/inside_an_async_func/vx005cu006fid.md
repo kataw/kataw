@@ -113,7 +113,10 @@ async () => {  v\u006fid = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+   = x;
+}
 ```
 
 ### Diagnostics

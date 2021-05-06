@@ -98,7 +98,8 @@ for(let a, let;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

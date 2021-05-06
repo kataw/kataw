@@ -120,7 +120,10 @@ class x {get eval(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

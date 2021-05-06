@@ -109,7 +109,8 @@ typeof class{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {} / foo / ;
 ```
 
 ### Diagnostics

@@ -115,7 +115,8 @@ o.attr = function() {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+o.attr = function() {};
 ```
 
 ### Diagnostics

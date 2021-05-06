@@ -168,7 +168,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [function* await(yield, x) {}];
+  {
+  }
+}
 ```
 
 ### Diagnostics

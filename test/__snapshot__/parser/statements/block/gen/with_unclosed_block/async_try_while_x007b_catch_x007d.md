@@ -212,7 +212,24 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  async;
+  try {
+  } try{
+     {
+    } {
+    }
+  }
+}
 ```
 
 ### Diagnostics

@@ -112,7 +112,8 @@ _ => _
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ _ => _ / foo / ;
 ```
 
 ### Diagnostics

@@ -102,7 +102,8 @@ for (let.foo of x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (let.foo of x);
 ```
 
 ### Diagnostics

@@ -118,7 +118,10 @@ if (foo) a; if (bar) b; else c;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (foo) a;
+if (bar) b;
+else c;
 ```
 
 ### Diagnostics

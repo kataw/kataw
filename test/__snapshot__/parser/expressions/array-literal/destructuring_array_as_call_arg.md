@@ -127,7 +127,8 @@ foo([a, b] = arr);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo([a, b] = arr);
 ```
 
 ### Diagnostics

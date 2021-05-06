@@ -96,7 +96,12 @@ throw /**/\n x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+throw ; //\n x;
+
+throw ; /**/
+n;
+x;
 ```
 
 ### Diagnostics

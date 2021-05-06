@@ -337,7 +337,8 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

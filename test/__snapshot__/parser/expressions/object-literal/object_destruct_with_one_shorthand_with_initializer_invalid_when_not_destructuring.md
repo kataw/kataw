@@ -114,7 +114,8 @@ x({a=b}=c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ a = b } = c);
 ```
 
 ### Diagnostics

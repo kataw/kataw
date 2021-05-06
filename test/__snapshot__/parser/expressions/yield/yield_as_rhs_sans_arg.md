@@ -180,7 +180,8 @@ function *g() { function f(x = x + yield) {}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

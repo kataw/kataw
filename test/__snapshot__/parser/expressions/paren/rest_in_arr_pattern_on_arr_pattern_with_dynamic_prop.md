@@ -220,7 +220,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+([...[]x] = x);
+(x, [...[]x] = x);
 ```
 
 ### Diagnostics

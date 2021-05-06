@@ -310,7 +310,8 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

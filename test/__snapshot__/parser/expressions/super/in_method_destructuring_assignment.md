@@ -205,7 +205,8 @@ x = { foo(){ [a = super.foo] = c; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = {  };
 ```
 
 ### Diagnostics

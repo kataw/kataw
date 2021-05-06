@@ -371,7 +371,11 @@ undefined?.b.c(++x).d; // long short-circuiting.
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = (x).d; // long short-circuiting.
+
+ = (x).d; // long short-circuiting.
+
 ```
 
 ### Diagnostics

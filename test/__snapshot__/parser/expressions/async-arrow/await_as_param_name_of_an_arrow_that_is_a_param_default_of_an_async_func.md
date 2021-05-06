@@ -129,7 +129,9 @@ async(a = (await) => {}) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (a =  (await) => {}) => {}
+
 ```
 
 ### Diagnostics

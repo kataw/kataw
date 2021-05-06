@@ -224,7 +224,12 @@ let x = '\\009';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x = "'\00'";
+let x = "'\\09'";
+let x = "'\\009'";
+"'use strict'";
+let x = "'\\0'";
 ```
 
 ### Diagnostics

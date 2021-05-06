@@ -125,7 +125,10 @@ class x {async * yield(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

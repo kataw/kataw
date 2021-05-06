@@ -81,7 +81,9 @@ async () => {  \u0065xtends = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {}
+x;
 ```
 
 ### Diagnostics

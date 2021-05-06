@@ -74,7 +74,8 @@ async({a})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async({ a })
 ```
 
 ### Diagnostics

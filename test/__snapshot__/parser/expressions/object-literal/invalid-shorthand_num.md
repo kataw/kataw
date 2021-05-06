@@ -77,7 +77,8 @@ x = {5};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { 5 };
 ```
 
 ### Diagnostics

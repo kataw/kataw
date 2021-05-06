@@ -108,7 +108,8 @@ function f(){ return --a; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

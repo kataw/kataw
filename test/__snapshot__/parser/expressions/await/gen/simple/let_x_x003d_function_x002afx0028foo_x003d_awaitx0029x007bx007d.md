@@ -145,7 +145,8 @@ let x = function *f(foo = await){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x = function* f(foo = await) {};
 ```
 
 ### Diagnostics

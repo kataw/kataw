@@ -78,7 +78,8 @@ foo(async[])
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async);
 ```
 
 ### Diagnostics

@@ -6129,7 +6129,202 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+
+  });
+(class {
+    static
+  });
 ```
 
 ### Diagnostics

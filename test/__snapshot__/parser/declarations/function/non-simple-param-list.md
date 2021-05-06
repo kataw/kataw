@@ -787,7 +787,15 @@ function f(x, ...y) { 'use strict' }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+
+
+
+
+(function([x]) {});
+(function(x = 1) {});
+(function(x, ...y) {});
 ```
 
 ### Diagnostics

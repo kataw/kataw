@@ -95,7 +95,8 @@ for (a instanceof b;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

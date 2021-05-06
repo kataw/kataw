@@ -95,7 +95,10 @@ class x extends extends {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+{
+}
 ```
 
 ### Diagnostics

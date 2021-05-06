@@ -135,7 +135,12 @@ function createElement(tagName: "div"): HTMLDivElement {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+"\"div\"";
+HTMLDivElement;
+{
+}
 ```
 
 ### Diagnostics

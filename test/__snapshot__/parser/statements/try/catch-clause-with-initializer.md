@@ -145,7 +145,14 @@ throw {x} catch (x = y) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+throw { x };
+ {
+} {
+}
+x = y;
+{
+}
 ```
 
 ### Diagnostics

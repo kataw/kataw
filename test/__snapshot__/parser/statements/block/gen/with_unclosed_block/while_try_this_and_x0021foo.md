@@ -221,7 +221,22 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  while () try {
+    } try{
+    }
+  and;
+  foo;
+}
 ```
 
 ### Diagnostics

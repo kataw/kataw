@@ -97,7 +97,11 @@ async () => {  impo\u0072t = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  import ;
+}
+x;
 ```
 
 ### Diagnostics

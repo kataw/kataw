@@ -133,7 +133,8 @@ for (let {x: y = let};;) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; ) {}
 ```
 
 ### Diagnostics

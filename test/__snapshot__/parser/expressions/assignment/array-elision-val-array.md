@@ -101,7 +101,8 @@ result = [,] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [,] = vals;
 ```
 
 ### Diagnostics

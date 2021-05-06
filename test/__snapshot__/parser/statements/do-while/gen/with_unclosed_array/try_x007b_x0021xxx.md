@@ -105,7 +105,10 @@ do[ try { !xxx
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do [];
+ ({});
+xxx;
 ```
 
 ### Diagnostics

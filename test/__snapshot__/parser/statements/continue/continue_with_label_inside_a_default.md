@@ -90,7 +90,11 @@ switch (x) { default: continue foo; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  default
+    continue foo;
+ 
 ```
 
 ### Diagnostics

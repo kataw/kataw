@@ -154,7 +154,9 @@ for(delete((1)?y:x in y) in z)x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in z)
+  x;
 ```
 
 ### Diagnostics

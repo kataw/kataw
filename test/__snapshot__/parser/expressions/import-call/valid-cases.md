@@ -262,7 +262,13 @@ import(x).then();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+;
+;
+;
+;
+;
+.then();
 ```
 
 ### Diagnostics

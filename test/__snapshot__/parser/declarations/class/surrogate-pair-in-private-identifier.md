@@ -151,7 +151,12 @@ class C { #@{x29e3d}@ }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+class {}
+class {}
 ```
 
 ### Diagnostics

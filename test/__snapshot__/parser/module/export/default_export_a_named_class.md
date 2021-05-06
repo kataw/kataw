@@ -83,7 +83,8 @@ export default class x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default class {};
 ```
 
 ### Diagnostics

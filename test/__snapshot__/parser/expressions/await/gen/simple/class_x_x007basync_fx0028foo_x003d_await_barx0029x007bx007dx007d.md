@@ -158,7 +158,10 @@ class x {async f(foo = await bar){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

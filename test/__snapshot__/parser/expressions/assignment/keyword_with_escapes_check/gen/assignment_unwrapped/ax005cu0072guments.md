@@ -66,7 +66,8 @@ a\u0072guments = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+arguments = x;
 ```
 
 ### Diagnostics

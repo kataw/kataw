@@ -78,7 +78,8 @@ aw\u0061it: 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await: 1;
 ```
 
 ### Diagnostics

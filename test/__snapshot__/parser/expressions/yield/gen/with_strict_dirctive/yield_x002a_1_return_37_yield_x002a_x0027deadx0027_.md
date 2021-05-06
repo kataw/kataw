@@ -129,7 +129,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+yield * 1;
+return 37;
+yield * "'dead'";
 ```
 
 ### Diagnostics

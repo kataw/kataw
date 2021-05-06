@@ -118,7 +118,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ () => a + b - yield / 1;
 ```
 
 ### Diagnostics

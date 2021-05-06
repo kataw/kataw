@@ -170,7 +170,8 @@ while (false) label1: label2: function f() {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (false) label1: label2: 
 ```
 
 ### Diagnostics

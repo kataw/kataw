@@ -94,7 +94,10 @@ try { } catch ({}) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch ({}) {
+}
 ```
 
 ### Diagnostics

@@ -118,7 +118,8 @@ async => ok, async => ok
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async async => ok, async async => ok;
 ```
 
 ### Diagnostics

@@ -103,7 +103,9 @@ while (false) const x = null;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (false) ;
+const x = null;
 ```
 
 ### Diagnostics

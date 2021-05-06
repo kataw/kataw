@@ -138,7 +138,8 @@ for (((x)=>{}).x in y);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in y);
 ```
 
 ### Diagnostics

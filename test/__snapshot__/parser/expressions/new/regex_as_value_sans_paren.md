@@ -77,7 +77,8 @@ f(new /z/)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f( /z/());
 ```
 
 ### Diagnostics

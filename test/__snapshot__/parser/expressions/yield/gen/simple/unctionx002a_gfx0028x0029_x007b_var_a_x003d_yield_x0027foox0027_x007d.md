@@ -153,7 +153,12 @@ unction* gf() { var a = yield 'foo'; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+unction * gf();
+{
+  var a = yield;
+  "'foo'";
+}
 ```
 
 ### Diagnostics

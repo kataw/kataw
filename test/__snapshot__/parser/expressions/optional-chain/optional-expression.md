@@ -108,7 +108,8 @@ obj?.a?.b
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ;
 ```
 
 ### Diagnostics

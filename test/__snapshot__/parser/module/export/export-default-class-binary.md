@@ -109,7 +109,9 @@ export default class Foo {}++x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default class {};
+x;
 ```
 
 ### Diagnostics

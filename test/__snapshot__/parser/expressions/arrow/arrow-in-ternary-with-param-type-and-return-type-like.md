@@ -144,7 +144,8 @@ test
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+test ? () :  U => y;
 ```
 
 ### Diagnostics

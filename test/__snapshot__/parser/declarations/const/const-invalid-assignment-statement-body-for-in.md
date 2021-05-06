@@ -150,7 +150,8 @@ for (const x in [1, 2, 3]) { x++ }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in [1, 2, 3]) {}
 ```
 
 ### Diagnostics

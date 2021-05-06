@@ -126,7 +126,10 @@ x = function(){ super.foo; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = function() {
+  .foo;
+};
 ```
 
 ### Diagnostics

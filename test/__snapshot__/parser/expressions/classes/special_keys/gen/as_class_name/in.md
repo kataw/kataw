@@ -101,7 +101,9 @@ class in {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+ in {};
 ```
 
 ### Diagnostics

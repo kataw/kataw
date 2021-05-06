@@ -108,7 +108,14 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+    {
+      as = x;
+    }
+  }
+}
 ```
 
 ### Diagnostics

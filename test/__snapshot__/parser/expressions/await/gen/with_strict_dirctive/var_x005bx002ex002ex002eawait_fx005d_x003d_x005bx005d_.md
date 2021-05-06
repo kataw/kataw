@@ -140,7 +140,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var [...await, f] = [];
 ```
 
 ### Diagnostics

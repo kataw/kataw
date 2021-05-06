@@ -171,7 +171,10 @@ class C { set x(_) { super; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

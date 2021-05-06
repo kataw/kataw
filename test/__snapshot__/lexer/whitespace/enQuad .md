@@ -68,7 +68,8 @@ left|right
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+left | right;
 ```
 
 ### Diagnostics

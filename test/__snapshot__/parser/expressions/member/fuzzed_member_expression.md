@@ -120,7 +120,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(2x, x, x) > x;
 ```
 
 ### Diagnostics

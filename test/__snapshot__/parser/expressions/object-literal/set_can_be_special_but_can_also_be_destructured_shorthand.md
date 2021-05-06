@@ -100,7 +100,8 @@ wrap({set} = x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ set } = x);
 ```
 
 ### Diagnostics

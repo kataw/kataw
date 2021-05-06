@@ -135,7 +135,8 @@ import {x as a, z} from "y"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  x asa, z }  ;
 ```
 
 ### Diagnostics

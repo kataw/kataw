@@ -81,7 +81,8 @@ class A extends this {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

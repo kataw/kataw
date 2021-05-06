@@ -77,7 +77,8 @@ x = {eval}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { eval };
 ```
 
 ### Diagnostics

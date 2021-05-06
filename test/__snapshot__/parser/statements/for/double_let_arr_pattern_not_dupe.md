@@ -202,7 +202,9 @@ for (let [a]=x;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
+for(; ; );
 ```
 
 ### Diagnostics

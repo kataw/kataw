@@ -99,7 +99,8 @@ export {x,} from "foo"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  x } from ;
 ```
 
 ### Diagnostics

@@ -136,7 +136,8 @@ x = { a: a + b instanceof c }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { a: a +    inctanceof c };
 ```
 
 ### Diagnostics

@@ -95,7 +95,8 @@ a?.b * d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ =  * d;
 ```
 
 ### Diagnostics

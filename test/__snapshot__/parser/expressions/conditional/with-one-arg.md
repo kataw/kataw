@@ -106,7 +106,8 @@ z(x)?x:y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+z(x) ? x : y;
 ```
 
 ### Diagnostics

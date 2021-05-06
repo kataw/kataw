@@ -170,7 +170,8 @@ x = {x: [{a = b}] + x}.x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { x: [{ a = b }] + x }.x;
 ```
 
 ### Diagnostics

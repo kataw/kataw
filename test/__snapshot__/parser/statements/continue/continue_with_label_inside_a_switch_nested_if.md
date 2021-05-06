@@ -120,7 +120,11 @@ switch (x) { case x: if (foo) continue foo; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case x:
+    if (foo) continue foo;
+ 
 ```
 
 ### Diagnostics

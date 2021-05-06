@@ -208,7 +208,10 @@ class x extends y {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

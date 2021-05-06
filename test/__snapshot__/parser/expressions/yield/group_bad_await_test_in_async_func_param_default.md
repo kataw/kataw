@@ -143,7 +143,8 @@ async function f(x=(await)=y){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

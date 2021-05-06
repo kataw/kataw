@@ -221,7 +221,8 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a = { x: 0, y: "'foo'" };
 ```
 
 ### Diagnostics

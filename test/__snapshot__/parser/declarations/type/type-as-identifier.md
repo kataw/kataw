@@ -100,7 +100,10 @@ type = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+type;
+type = x;
+(type);
 ```
 
 ### Diagnostics

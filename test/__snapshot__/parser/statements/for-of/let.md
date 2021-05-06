@@ -98,7 +98,9 @@ let x: string;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x;
+string;
 ```
 
 ### Diagnostics

@@ -705,7 +705,17 @@ a+1 ?? b+1 && c;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ?? b;
+a ?? ;
+a || b ?? c;
+a && b ?? c;
+a ?? b || c;
+a ?? b && c;
+a + 1 || b + 1 ?? c;
+a + 1 && b + 1 ?? c;
+a + 1 ?? b + 1 || c;
+a + 1 ?? b + 1 && c;
 ```
 
 ### Diagnostics

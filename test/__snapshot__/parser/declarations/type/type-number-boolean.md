@@ -105,7 +105,8 @@ type A = { [string | boolean]: number };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

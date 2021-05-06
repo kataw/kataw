@@ -92,7 +92,8 @@ x = {0b001001: y}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { 0b001001: y };
 ```
 
 ### Diagnostics

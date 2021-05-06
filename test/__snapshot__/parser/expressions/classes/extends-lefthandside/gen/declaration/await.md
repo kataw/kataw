@@ -83,7 +83,8 @@ class A extends await {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

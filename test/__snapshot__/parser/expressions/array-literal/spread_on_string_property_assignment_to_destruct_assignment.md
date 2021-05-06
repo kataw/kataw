@@ -142,7 +142,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[..."\"foo\"".foo = x] = x;
 ```
 
 ### Diagnostics

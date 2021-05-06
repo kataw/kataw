@@ -208,7 +208,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ([(x().foo)]) => x;
+ ({ : bar() }) => baz;
 ```
 
 ### Diagnostics

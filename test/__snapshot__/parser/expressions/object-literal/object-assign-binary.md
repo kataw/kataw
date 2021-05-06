@@ -158,7 +158,8 @@ x = { "a": {x} = y.z };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { "\"a\"": { x } = y.z };
 ```
 
 ### Diagnostics

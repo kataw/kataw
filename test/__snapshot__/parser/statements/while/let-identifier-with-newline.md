@@ -96,7 +96,10 @@ x = 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (false) let; // ASI
+
+x = 1;
 ```
 
 ### Diagnostics

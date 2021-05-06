@@ -103,7 +103,12 @@ x = return => {} ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = ;
+return ;
+{
+}
+
 ```
 
 ### Diagnostics

@@ -125,7 +125,8 @@ function *a(){yield typeof 0}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

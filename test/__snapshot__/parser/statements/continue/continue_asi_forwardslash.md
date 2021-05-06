@@ -109,7 +109,10 @@ for (x of 3) continue
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (x of 3)
+  continue;
+ / ;
 ```
 
 ### Diagnostics

@@ -99,7 +99,9 @@ if (true) const x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (true) ;
+const x;
 ```
 
 ### Diagnostics

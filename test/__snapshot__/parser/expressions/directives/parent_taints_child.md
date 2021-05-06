@@ -181,7 +181,8 @@ function f(){ "use strict"; foo; function g() { with (x) y; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

@@ -3211,7 +3211,43 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? b : c ? b : d;
+a ? b ? c : d : d;
+a ? c : (b, c);
+a ? (b, c) : c;
+a ? c : (b, d);
+a ? (b, c) : d;
+a ? b || c : c;
+a ? b || c : d;
+a ? b && c : c;
+a ? c : b && c;
+a ? c : b && d;
+a ? c : b || c;
+a = b == null ? c : b;
+a = b != null ? b : c;
+a(b ? 0 : 0);
+a(b ? 0 : 0);
+a(b ? 0 : 0);
+a(b ? 0 : 0);
+a ? b : b;
+a ? b : b;
+a ? b.c : b.c;
+a ?  =  :  = ;
+a ? bc : bc;
+a ? b() : b();
+a ?  =  :  = ;
+a ?  =  :  = ;
+a ? b == c : b == c;
+a ? b.c(d + ef) : b.c(d + ef);
+a ? b : b;
+a ? b() : b(c);
+a ? b(c) : b(d);
+a ?  =  : b.c;
+a ?  =  : b();
+a ?  =  : bc;
+a ? b == c : b != c;
+a ? b.c(d + ef) : b.c(d + eg);
 ```
 
 ### Diagnostics

@@ -156,7 +156,8 @@ function g(a:number=1, e:number=1) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

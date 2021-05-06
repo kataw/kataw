@@ -167,7 +167,8 @@ var x = { *test () { yield *v } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = {  };
 ```
 
 ### Diagnostics

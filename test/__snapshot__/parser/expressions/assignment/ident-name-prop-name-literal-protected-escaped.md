@@ -160,7 +160,8 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var y = { protected: x } = { protected: 42 };
 ```
 
 ### Diagnostics

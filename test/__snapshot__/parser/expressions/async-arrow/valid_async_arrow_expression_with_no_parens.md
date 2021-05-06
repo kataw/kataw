@@ -93,7 +93,8 @@ f(async foo=>c)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f(async foo => c);
 ```
 
 ### Diagnostics

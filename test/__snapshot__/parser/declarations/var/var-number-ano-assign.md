@@ -202,7 +202,9 @@ var a: { [a: number]: string; [b: number]: string; };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var numVal = otherNumVal;
+var a;
 ```
 
 ### Diagnostics

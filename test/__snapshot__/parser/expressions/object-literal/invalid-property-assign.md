@@ -119,7 +119,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ src: ([dest]) } = obj);
 ```
 
 ### Diagnostics

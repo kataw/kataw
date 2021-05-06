@@ -165,7 +165,8 @@ function not_gen() { var [yield] = [42]; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

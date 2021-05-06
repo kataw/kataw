@@ -407,7 +407,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ...(obj) } = foo),
+  ({ ...obj } = foo),
+  ({ ...obj.x } = foo),
+  ({ ...{}.x } = foo),
+  ({ ...[].x } = foo);
 ```
 
 ### Diagnostics

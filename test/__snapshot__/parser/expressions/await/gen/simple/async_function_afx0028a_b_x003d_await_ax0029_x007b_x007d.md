@@ -140,7 +140,8 @@ async function af(a, b = await a) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

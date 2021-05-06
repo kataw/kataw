@@ -105,7 +105,10 @@ class C { static aaa }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

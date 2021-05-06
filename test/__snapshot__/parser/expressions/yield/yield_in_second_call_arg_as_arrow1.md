@@ -205,7 +205,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

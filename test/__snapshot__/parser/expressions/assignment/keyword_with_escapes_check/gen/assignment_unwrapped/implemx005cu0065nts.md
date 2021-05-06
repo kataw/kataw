@@ -66,7 +66,8 @@ implem\u0065nts = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+implements = x;
 ```
 
 ### Diagnostics

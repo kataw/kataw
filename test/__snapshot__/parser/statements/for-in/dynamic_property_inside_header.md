@@ -121,7 +121,8 @@ for (x[a in b] in y);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in y);
 ```
 
 ### Diagnostics

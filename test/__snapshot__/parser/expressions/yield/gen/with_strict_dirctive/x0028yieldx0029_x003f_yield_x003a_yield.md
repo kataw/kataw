@@ -95,7 +95,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(yield) ? yield : yield;
 ```
 
 ### Diagnostics

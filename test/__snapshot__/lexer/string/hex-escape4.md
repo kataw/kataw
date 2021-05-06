@@ -219,7 +219,20 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\x000\"";
+"\"\x128\"";
+"\"\x34a\"";
+"\"\x56X\"";
+"\"\x78{\"";
+"\"\x9a\
+\"";
+"\"\xAb@{x9}@\"";
+"\"\xBc \"";
+"\"\xCd#\"";
+"\"\xDe\x00\"";
+"\"\xEfok\"";
+"\"pre\xF0\"";
 ```
 
 ### Diagnostics

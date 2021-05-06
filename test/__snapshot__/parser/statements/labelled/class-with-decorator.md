@@ -81,7 +81,9 @@ class x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+@A
+class {}
 ```
 
 ### Diagnostics

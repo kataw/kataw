@@ -295,7 +295,11 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+
+  });
 ```
 
 ### Diagnostics

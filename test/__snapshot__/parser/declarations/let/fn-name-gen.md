@@ -196,7 +196,9 @@ let gen = function*() {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let xGen = function* x() {};
+let gen = function*() {};
 ```
 
 ### Diagnostics

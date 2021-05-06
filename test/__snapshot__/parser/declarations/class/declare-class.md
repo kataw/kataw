@@ -164,7 +164,11 @@ declare class A { static foo(): number; static x : string }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+  static
+
+}
 ```
 
 ### Diagnostics

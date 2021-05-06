@@ -114,7 +114,8 @@ foo(async function f(){})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async function f() {});
 ```
 
 ### Diagnostics

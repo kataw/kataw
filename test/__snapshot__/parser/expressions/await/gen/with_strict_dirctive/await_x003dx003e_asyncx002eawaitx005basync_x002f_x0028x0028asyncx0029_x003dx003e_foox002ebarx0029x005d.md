@@ -171,7 +171,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ await => async.awaitasync / ( (async) => foo.bar);
 ```
 
 ### Diagnostics

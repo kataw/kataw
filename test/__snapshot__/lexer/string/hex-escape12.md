@@ -60,7 +60,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\x9q\"";
+"\"\x5\"";
 ```
 
 ### Diagnostics

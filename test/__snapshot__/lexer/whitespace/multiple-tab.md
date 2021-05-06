@@ -140,7 +140,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+t;
+t;
+t;
+t;
+t;
+t;
+t;
+t;
 ```
 
 ### Diagnostics

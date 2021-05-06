@@ -209,7 +209,9 @@ result = { x: x[yield] } = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var vals = { x: 23 };
+result = { x: xyield } = vals;
 ```
 
 ### Diagnostics

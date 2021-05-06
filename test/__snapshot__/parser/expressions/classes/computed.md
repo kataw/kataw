@@ -156,7 +156,10 @@ class A { [x=y](foo) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

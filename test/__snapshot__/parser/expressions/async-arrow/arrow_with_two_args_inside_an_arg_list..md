@@ -129,7 +129,8 @@ f((async (a, b) => a + b));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f((async (a, b) => a + b));
 ```
 
 ### Diagnostics

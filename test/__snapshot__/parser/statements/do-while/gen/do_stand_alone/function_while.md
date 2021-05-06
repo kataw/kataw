@@ -103,7 +103,9 @@ do function while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do
+while ();
 ```
 
 ### Diagnostics

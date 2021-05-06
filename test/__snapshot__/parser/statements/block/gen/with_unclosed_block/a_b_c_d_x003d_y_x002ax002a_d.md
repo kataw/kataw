@@ -214,7 +214,19 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  a, b, c;
+  d = y ** d;
+}
 ```
 
 ### Diagnostics

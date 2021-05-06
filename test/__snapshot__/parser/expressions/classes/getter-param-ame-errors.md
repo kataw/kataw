@@ -999,7 +999,39 @@ class C { get name(private) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+class {
+
+}
+class {
+
+}
+"'use strict'";
+class {
+
+}
+"'use strict'";
+class {
+
+}
+"'use strict'";
+class {
+
+
+}
+{
+}
+"'use strict'";
+(class {
+
+  });
+"'use strict'";
+(class {
+
+  });
 ```
 
 ### Diagnostics

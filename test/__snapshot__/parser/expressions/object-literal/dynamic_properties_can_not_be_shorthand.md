@@ -86,7 +86,8 @@ call({[x]})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+call({  });
 ```
 
 ### Diagnostics

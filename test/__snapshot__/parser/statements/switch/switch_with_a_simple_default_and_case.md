@@ -120,7 +120,13 @@ switch (A) {default: D; case B: C; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(A
+  default
+    D;
+  case B:
+    C;
+ 
 ```
 
 ### Diagnostics

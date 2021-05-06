@@ -589,7 +589,11 @@ x ? ( (a, {}) => {} ) : baz;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x ? ( () =>  () => x * u + y * v) : baz;
+x ? ( () => 0,  () => 1) : baz;
+x ? (a, (a,  () => 0)) : baz;
+x ? ( () => {}) : baz;
 ```
 
 ### Diagnostics

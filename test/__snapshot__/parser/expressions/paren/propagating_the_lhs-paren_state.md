@@ -114,7 +114,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(foo + (bar + boo) + ding);
 ```
 
 ### Diagnostics

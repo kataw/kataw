@@ -135,7 +135,8 @@ async function f(){ [new await foo] }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

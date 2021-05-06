@@ -155,7 +155,18 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  /false/ / a;
+}
 ```
 
 ### Diagnostics

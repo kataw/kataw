@@ -122,7 +122,8 @@ let [[]]=0
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [[]] = 0;
 ```
 
 ### Diagnostics

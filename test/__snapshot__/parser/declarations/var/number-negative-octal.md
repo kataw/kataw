@@ -119,7 +119,9 @@ var a: -0x7B
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+0x7b;
 ```
 
 ### Diagnostics

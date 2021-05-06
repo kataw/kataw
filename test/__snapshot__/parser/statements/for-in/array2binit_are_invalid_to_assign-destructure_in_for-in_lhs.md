@@ -150,7 +150,8 @@ for ([x.y] = z in obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

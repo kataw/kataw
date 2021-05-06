@@ -126,7 +126,11 @@ try { } catch (x) { let x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch (x) {
+  let x;
+}
 ```
 
 ### Diagnostics

@@ -188,7 +188,15 @@ class K extends {} {;async\n async *1(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+
+}
+n;
+async * 1();
+{
+}
 ```
 
 ### Diagnostics

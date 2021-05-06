@@ -1785,7 +1785,48 @@ var {get} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
+var x = 5;
+var x = 4;
+var x = 5;
+var {
+  x
+} = { x: 4, b: (x = 5) };
+var x = { a: 4, b: (x = 5) };
+"'use strict'";
+var x = 0;
+{
+  let x = 6;
+}
+var x;
+try {
+} catch (x) {
+  x = 5;
+}
+var f =  () => {};
+var f =  ({ x: arg = (arg = 2) }) => {};
+var foo;
+var foo = 0;
+var [foo] = [1];
+var {
+  foo
+} = { foo: 2 };
+var {
+  foo = 3
+} = {};
+var {
+  get = defaultValue
+} = obj;
+var {
+  propName = defaultValue
+} = obj;
+var {
+  propName:
+} = obj;
+var {
+  get
+} = obj;
 ```
 
 ### Diagnostics

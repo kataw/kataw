@@ -126,7 +126,8 @@ f(((a, b) => a + b));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f(( () => a + b));
 ```
 
 ### Diagnostics

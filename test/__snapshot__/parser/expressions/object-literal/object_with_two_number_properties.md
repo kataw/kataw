@@ -118,7 +118,8 @@ wrap({1:b, 0:d});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ 1: b, 0: d });
 ```
 
 ### Diagnostics

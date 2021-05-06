@@ -154,7 +154,9 @@ for ({a: b.c}.foo of d) e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ({ a: b.c }.foo of d)
+  e;
 ```
 
 ### Diagnostics

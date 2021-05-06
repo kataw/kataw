@@ -117,7 +117,10 @@ class x { "prot\u{6f}type"(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

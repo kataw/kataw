@@ -261,7 +261,8 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

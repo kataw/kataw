@@ -134,7 +134,8 @@ s = {"foo": await a = x} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { "\"foo\"": await, a = x } = x;
 ```
 
 ### Diagnostics

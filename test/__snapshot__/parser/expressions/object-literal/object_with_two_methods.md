@@ -168,7 +168,8 @@ wrap({foo(){}, bar(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ ,  });
 ```
 
 ### Diagnostics

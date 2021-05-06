@@ -2105,7 +2105,47 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+class  {
+
+}
+class  {
+
+}
+class {
+
+}
+class {
+
+}
+class {
+
+}
+x = {  };
+class {
+
+}
+class {
+
+}
+class {
+
+}
+x = {  };
+x = {  };
+class  {
+
+}
+class  {
+
+}
+class {
+
+}
+class {
+
+}
 ```
 
 ### Diagnostics

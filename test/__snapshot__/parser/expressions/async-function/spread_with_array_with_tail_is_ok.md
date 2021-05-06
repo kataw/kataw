@@ -129,7 +129,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...[x].map(y, z)];
 ```
 
 ### Diagnostics

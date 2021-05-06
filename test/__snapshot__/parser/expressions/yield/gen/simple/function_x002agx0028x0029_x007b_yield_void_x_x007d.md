@@ -125,7 +125,8 @@ function *g() { yield void x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

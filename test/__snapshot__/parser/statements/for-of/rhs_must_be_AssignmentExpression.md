@@ -142,7 +142,10 @@ for (let x of a,b) c
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( of a)
+  , b;
+c;
 ```
 
 ### Diagnostics

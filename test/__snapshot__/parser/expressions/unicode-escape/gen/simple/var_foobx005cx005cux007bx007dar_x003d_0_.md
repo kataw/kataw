@@ -131,7 +131,12 @@ var foob\\u{}ar = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foob;
+u;
+{
+}
+ar = 0;
 ```
 
 ### Diagnostics

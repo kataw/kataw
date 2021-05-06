@@ -129,7 +129,11 @@ class A extends x in y {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+ in y;
+{
+}
 ```
 
 ### Diagnostics

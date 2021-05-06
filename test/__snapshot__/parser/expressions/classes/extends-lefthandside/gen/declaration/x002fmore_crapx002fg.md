@@ -82,7 +82,8 @@ class A extends /more crap/g {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

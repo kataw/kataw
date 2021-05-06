@@ -197,7 +197,8 @@ async function f(){    async function g(x=(await z)=y){}   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

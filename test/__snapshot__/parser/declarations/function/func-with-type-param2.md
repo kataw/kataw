@@ -138,7 +138,8 @@ a=function<T,S>() {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a = function() {};
 ```
 
 ### Diagnostics

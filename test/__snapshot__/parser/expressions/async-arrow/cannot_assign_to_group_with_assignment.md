@@ -91,7 +91,9 @@ async (a=/i/) = /i/
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(a = /i/)
+/i/;
 ```
 
 ### Diagnostics

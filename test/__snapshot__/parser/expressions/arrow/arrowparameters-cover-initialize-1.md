@@ -118,7 +118,8 @@ var af = (x = 1) => x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var af =  (x = 1) => x;
 ```
 
 ### Diagnostics

@@ -104,7 +104,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ () => null;
 ```
 
 ### Diagnostics

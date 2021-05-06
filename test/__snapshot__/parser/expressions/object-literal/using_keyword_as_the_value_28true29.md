@@ -91,7 +91,8 @@ s = {s: true}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { s: true };
 ```
 
 ### Diagnostics

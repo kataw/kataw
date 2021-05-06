@@ -94,7 +94,8 @@ import(x,y=z)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+, y = z;
 ```
 
 ### Diagnostics

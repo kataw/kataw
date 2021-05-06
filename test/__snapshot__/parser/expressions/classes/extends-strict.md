@@ -233,7 +233,9 @@ class C extends (function B() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var C;
+class  {}
 ```
 
 ### Diagnostics

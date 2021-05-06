@@ -112,7 +112,8 @@ for (a ? b : c of x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; x; of);
 ```
 
 ### Diagnostics

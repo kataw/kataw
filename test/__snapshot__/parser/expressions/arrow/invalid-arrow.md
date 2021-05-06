@@ -144,7 +144,10 @@ x = (a)?c:d=>{}=>{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = (a) ? c :  d => {};
+{
+}
 ```
 
 ### Diagnostics

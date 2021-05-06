@@ -113,7 +113,9 @@ for (a in b) function f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in b)
+  
 ```
 
 ### Diagnostics

@@ -1137,7 +1137,21 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ e: a.b }) => x;
+ ([a.b]) => 0;
+ ({ ...this }) => x;
+ ([...this]) => x;
+ ({ x, ...this }) => x;
+ ([x, ...this]) => x;
+ ({ a: b0 }) => x;
+ () => x;
+ () => 0;
+ () => x;
+ () => x;
+ () => x;
+ () => x;
+ () => x;
 ```
 
 ### Diagnostics

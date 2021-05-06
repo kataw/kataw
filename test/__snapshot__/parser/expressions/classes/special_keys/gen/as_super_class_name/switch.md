@@ -115,7 +115,10 @@ class x extends switch {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+switch({}
+ 
 ```
 
 ### Diagnostics

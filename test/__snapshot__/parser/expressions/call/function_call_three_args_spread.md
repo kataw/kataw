@@ -93,7 +93,8 @@ foo(a, b, ...c)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a, b, ...c);
 ```
 
 ### Diagnostics

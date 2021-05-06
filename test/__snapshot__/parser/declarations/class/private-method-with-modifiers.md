@@ -422,7 +422,15 @@ class Foo {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+
+  static
+  static
+  static
+}
 ```
 
 ### Diagnostics

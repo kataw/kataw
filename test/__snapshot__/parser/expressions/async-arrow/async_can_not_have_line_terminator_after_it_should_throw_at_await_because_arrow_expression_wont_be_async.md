@@ -124,7 +124,10 @@ g => await g
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let f = async;
+ g => await;
+g;
 ```
 
 ### Diagnostics

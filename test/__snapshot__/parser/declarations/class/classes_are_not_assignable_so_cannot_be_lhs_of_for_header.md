@@ -156,7 +156,8 @@ for (class x { [a](){} } in c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c);
 ```
 
 ### Diagnostics

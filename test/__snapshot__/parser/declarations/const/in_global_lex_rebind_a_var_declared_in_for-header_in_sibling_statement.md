@@ -137,7 +137,9 @@ const x = 1
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
+const x = 1;
 ```
 
 ### Diagnostics

@@ -75,7 +75,8 @@ new oh,no
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ oh(), no;
 ```
 
 ### Diagnostics

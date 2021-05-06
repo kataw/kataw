@@ -97,7 +97,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ 790: false } = x);
 ```
 
 ### Diagnostics

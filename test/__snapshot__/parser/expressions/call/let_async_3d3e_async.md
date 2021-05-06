@@ -79,7 +79,9 @@ let async => async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let async;
+async;
 ```
 
 ### Diagnostics

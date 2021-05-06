@@ -97,7 +97,12 @@ switch (A) {default: B; break;}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(A
+  default
+    B;
+
+ 
 ```
 
 ### Diagnostics

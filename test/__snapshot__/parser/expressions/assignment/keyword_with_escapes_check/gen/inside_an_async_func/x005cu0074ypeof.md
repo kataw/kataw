@@ -113,7 +113,10 @@ async () => {  \u0074ypeof = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+   = x;
+}
 ```
 
 ### Diagnostics

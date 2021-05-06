@@ -131,7 +131,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ foo: fail() = x }) => x;
 ```
 
 ### Diagnostics

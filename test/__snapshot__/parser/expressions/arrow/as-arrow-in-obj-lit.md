@@ -218,7 +218,9 @@ x = {arrow: (x, y) => ok};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow:  (x) => ok };
+x = { arrow:  () => ok };
 ```
 
 ### Diagnostics

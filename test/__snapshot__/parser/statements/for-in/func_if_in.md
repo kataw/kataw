@@ -181,7 +181,8 @@ for (function(){ if (a in b); }.prop in x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in x);
 ```
 
 ### Diagnostics

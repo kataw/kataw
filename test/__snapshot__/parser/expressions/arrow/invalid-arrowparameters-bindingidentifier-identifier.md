@@ -112,7 +112,11 @@ var af = switch => 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var af = ;
+switch(
+
+1;
 ```
 
 ### Diagnostics

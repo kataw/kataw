@@ -164,7 +164,20 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  crazy;
+  input;
+  1;
+}
 ```
 
 ### Diagnostics

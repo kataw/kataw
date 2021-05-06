@@ -100,7 +100,8 @@ foo[ a + b instanceof c ]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+fooa +    inctanceof c;
 ```
 
 ### Diagnostics

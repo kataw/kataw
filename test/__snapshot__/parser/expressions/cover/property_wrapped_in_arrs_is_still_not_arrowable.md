@@ -411,7 +411,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ([[[[[[[[[[[[[[[[[[[[{ a: b0 }]]]]]]]]]]]]]]]]]]]]) => 0;
 ```
 
 ### Diagnostics

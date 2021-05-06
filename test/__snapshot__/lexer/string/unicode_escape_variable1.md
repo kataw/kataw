@@ -154,7 +154,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\u{0123}\"";
+"\"\u{4567}\"";
+"\"\u{89abc}\"";
+"\"\u{defAB}\"";
+"\"\u{CDEF}\"";
+"\"prefix \u{012345}\"";
+"\"\u{012345} postfix\"";
+"\"\u{012345}\u{6789a}\"";
 ```
 
 ### Diagnostics

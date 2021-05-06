@@ -272,7 +272,16 @@ do while [catch] =! class function try while with foo!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while ([])  {
+    } {
+    }
+ (class {});
+
+try {
+} try{
+}
+
 ```
 
 ### Diagnostics

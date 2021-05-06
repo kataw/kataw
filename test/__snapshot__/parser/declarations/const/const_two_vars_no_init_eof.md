@@ -101,7 +101,8 @@ const foo, bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const foo, bar;
 ```
 
 ### Diagnostics

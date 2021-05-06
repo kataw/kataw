@@ -343,7 +343,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[foo, [[[[[[[[[[[[[x, y, z]]]]]]]]]]]]], bar = B] = arr;
 ```
 
 ### Diagnostics

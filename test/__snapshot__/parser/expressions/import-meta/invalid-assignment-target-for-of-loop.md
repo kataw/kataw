@@ -90,7 +90,8 @@ for (import.meta of null) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; of null);
 ```
 
 ### Diagnostics

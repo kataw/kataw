@@ -191,7 +191,10 @@ class C { set x(_) { y = super } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

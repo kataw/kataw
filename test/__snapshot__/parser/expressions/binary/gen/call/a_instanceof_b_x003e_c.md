@@ -109,7 +109,8 @@ foo( a instanceof b > c )
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(   inctanceof b > c);
 ```
 
 ### Diagnostics

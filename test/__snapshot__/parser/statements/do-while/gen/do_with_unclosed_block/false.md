@@ -98,7 +98,11 @@ do {} while (x) { false
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do {} while (x);
+{
+  false;
+}
 ```
 
 ### Diagnostics

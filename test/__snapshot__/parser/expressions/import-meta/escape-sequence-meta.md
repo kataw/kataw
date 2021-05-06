@@ -58,7 +58,8 @@ import.m\u0065ta;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+;
 ```
 
 ### Diagnostics

@@ -114,7 +114,11 @@ async () => {  inst\u0061nceof = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+     inctanceof ;
+}
+x;
 ```
 
 ### Diagnostics

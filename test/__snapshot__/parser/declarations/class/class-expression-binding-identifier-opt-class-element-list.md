@@ -213,7 +213,12 @@ var A = class B {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var A = class {
+
+  static
+
+};
 ```
 
 ### Diagnostics

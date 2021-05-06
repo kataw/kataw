@@ -221,7 +221,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

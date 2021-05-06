@@ -105,7 +105,11 @@ do do do /)finally while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do /)finally while while while;
+     ();
+   ();
+ ();
 ```
 
 ### Diagnostics

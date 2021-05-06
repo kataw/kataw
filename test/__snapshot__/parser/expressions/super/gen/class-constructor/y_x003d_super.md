@@ -167,7 +167,10 @@ class C { constructor() { y = super } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

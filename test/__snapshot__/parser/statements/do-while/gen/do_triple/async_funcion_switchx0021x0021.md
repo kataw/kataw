@@ -167,7 +167,11 @@ do do do async funcion switch!! while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do async funcion  ;
+    while ();
+  while ();
+while ();
 ```
 
 ### Diagnostics

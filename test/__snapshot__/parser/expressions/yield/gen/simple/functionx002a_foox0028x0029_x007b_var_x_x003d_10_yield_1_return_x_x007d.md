@@ -178,7 +178,8 @@ function* foo() { var x = 10; yield 1; return x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

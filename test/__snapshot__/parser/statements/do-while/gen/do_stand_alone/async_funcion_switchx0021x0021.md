@@ -112,7 +112,9 @@ do async funcion switch!!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do async funcion  ;
+ ();
 ```
 
 ### Diagnostics

@@ -218,7 +218,10 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

@@ -201,7 +201,8 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

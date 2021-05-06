@@ -446,7 +446,16 @@ new foo().bar++;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo;
+foo.bar;
+foobar;
+foo()bar;
+foo().bar;
+this.foo;
+thisfoo;
+ foo()bar;
+ foo().bar;
 ```
 
 ### Diagnostics

@@ -90,7 +90,9 @@ do /false//a while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do /false/ / a;
+while ();
 ```
 
 ### Diagnostics

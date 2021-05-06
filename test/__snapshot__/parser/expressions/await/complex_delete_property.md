@@ -216,7 +216,11 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+{
+}
+
 ```
 
 ### Diagnostics

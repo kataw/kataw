@@ -124,7 +124,8 @@ x={..."foo".foo=x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { ..."\"foo\"".foo = x };
 ```
 
 ### Diagnostics

@@ -112,7 +112,8 @@ export let foo = async () => this
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ let foo = async () => this;
 ```
 
 ### Diagnostics

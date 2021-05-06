@@ -139,7 +139,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [a, b, c, d = y ** d];
+}
 ```
 
 ### Diagnostics

@@ -120,7 +120,10 @@ class x {get throw(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

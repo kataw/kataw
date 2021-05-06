@@ -98,7 +98,9 @@ let foo,,bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let foo;
+bar;
 ```
 
 ### Diagnostics

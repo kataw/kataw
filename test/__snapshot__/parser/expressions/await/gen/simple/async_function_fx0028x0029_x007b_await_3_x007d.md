@@ -111,7 +111,8 @@ async function f() { await 3; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

@@ -286,7 +286,8 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

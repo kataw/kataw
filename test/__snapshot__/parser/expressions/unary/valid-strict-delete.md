@@ -576,7 +576,26 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+this;
+"\"use strict\"";
+1;
+"\"use strict\"";
+foo();
+"\"use strict\"";
+1 + 2;
+"\"use strict\"";
+foo.bar;
+"\"use strict\"";
+foobar;
+"\"use strict\"";
+foo;
+"\"use strict\"";
+foo;
+"\"use strict\"";
+ foo();
+"\"use strict\"";
+ foo(bar);
 ```
 
 ### Diagnostics

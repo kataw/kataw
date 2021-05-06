@@ -209,7 +209,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

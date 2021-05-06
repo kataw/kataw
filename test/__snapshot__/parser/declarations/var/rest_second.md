@@ -134,7 +134,9 @@ export var a, ...b = 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ var a;
+b = 1;
 ```
 
 ### Diagnostics

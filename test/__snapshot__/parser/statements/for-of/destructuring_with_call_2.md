@@ -143,7 +143,9 @@ for ({a: b.c}() of d) e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ({ a: b.c }() of d)
+  e;
 ```
 
 ### Diagnostics

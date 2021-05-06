@@ -112,7 +112,9 @@ var a : [] = [];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+[] = [];
 ```
 
 ### Diagnostics

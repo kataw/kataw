@@ -500,7 +500,13 @@ a ? b : (): string => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ?  ()   string => {} : b;
+a ? async() :  string => {};
+b;
+a ?  ()   string => {} :  ()   string => {};
+ ()   string => {};
+a ? b :  ()   string => {};
 ```
 
 ### Diagnostics

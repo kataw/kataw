@@ -416,7 +416,9 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async ([[[[[[[[[[[[[[[[[[[[{ a: b0 }]]]]]]]]]]]]]]]]]]]]) => 0
+
 ```
 
 ### Diagnostics

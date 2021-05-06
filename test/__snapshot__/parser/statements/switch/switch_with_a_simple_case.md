@@ -92,7 +92,11 @@ switch (A) {case B: C;}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(A
+  case B:
+    C;
+ 
 ```
 
 ### Diagnostics

@@ -106,7 +106,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function() {
+    "\"asterisk: \052\"";
+  });
 ```
 
 ### Diagnostics

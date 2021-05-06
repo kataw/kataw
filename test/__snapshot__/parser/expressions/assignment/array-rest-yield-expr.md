@@ -123,7 +123,8 @@ result = [...x[yield]] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [...xyield] = vals;
 ```
 
 ### Diagnostics

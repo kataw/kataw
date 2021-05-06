@@ -95,7 +95,8 @@ wrap({"a":b});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ "\"a\"": b });
 ```
 
 ### Diagnostics

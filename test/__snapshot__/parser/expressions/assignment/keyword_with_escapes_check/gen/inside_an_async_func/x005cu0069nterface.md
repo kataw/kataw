@@ -102,7 +102,10 @@ async () => {  \u0069nterface = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  interface = x;
+}
 ```
 
 ### Diagnostics

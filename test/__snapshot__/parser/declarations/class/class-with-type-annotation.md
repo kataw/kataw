@@ -160,7 +160,10 @@ class Foo { bar():this { return this; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

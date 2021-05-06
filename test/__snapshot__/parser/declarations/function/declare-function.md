@@ -387,7 +387,18 @@ declare function foo(): void
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+declare;
+
+ ()  ;
+declare;
+
+number, y;
+string;
+;
+declare;
+
+;
 ```
 
 ### Diagnostics

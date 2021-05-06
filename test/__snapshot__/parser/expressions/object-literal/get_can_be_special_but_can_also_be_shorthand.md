@@ -80,7 +80,8 @@ wrap({get});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ get });
 ```
 
 ### Diagnostics

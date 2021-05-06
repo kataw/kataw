@@ -66,7 +66,8 @@ p\u0072ivate = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+private = x;
 ```
 
 ### Diagnostics

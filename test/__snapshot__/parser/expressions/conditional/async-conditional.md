@@ -110,7 +110,8 @@ true ? async.waterfall() : null;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+true ? async.waterfall() : null;
 ```
 
 ### Diagnostics

@@ -105,7 +105,8 @@ x = {a, ...y, b}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { a, ...y, b };
 ```
 
 ### Diagnostics

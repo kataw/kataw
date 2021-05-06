@@ -118,7 +118,8 @@ import {default as foo} from "foo";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  default asfoo }  ;
 ```
 
 ### Diagnostics

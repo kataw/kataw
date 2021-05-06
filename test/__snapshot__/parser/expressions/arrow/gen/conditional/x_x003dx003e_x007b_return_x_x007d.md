@@ -112,7 +112,10 @@ x => { return x; } , bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ x => {
+  return x;
+}, bar;
 ```
 
 ### Diagnostics

@@ -95,7 +95,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ..."\"foo\"" = x });
 ```
 
 ### Diagnostics

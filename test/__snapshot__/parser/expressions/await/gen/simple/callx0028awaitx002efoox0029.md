@@ -83,7 +83,8 @@ call(await.foo)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+call(await.foo);
 ```
 
 ### Diagnostics

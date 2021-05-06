@@ -568,7 +568,22 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {
+
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
+(class {
+    static
+  });
 ```
 
 ### Diagnostics

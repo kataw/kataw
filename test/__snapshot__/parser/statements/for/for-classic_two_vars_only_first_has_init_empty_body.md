@@ -116,7 +116,8 @@ for (var a=1, b;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

@@ -156,7 +156,8 @@ var x = ({ a } : any = 'foo') => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x =  ({ a } = "'foo'") => {};
 ```
 
 ### Diagnostics

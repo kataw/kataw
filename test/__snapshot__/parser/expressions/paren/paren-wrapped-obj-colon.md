@@ -1207,7 +1207,18 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+([{ x: foo().y }]);
+([{ x: foo()y }]);
+([{ x: x.y }]);
+([{ x: xy }]);
+([{ x = 10 } = {}]);
+([{ x: y = 10 } = {}]);
+([{ x: foo().y = 10 } = {}]);
+([{ x: foo()y = 10 } = {}]);
+([{ x: x.y = 10 } = {}]);
+([{ x: xy = 10 } = {}]);
+([[x = 10] = {}]);
 ```
 
 ### Diagnostics

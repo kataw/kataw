@@ -60,7 +60,8 @@ export default 15;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default 15;
 ```
 
 ### Diagnostics

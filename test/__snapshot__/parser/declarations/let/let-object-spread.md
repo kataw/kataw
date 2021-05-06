@@ -436,7 +436,14 @@ let tests = [
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let tests = [
+  { ...a, ...b },
+  { a, b, ...c },
+  { ...a, b, c },
+  { a, ...b, c },
+  { a, b, ...c, ...d, e, f, ...g, ...h, i, j },
+];
 ```
 
 ### Diagnostics

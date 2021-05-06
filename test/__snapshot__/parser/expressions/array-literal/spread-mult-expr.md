@@ -891,7 +891,20 @@ var callCount = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var source = [3, 4, 5];
+var target;
+var callCount = 0;
+(function() {
+    assert.sameValue(arguments.length, 5);
+    assert.sameValue(arguments0, 1);
+    assert.sameValue(arguments1, 2);
+    assert.sameValue(arguments2, 3);
+    assert.sameValue(arguments3, 4);
+    assert.sameValue(arguments4, 5);
+    assert.sameValue(target, source);
+    callCount += 1;
+  }.apply(null, [1, 2, ...target = source]));
 ```
 
 ### Diagnostics

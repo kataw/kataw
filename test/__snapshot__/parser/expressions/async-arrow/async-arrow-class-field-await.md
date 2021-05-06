@@ -228,7 +228,14 @@ async( x = class { x = await });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => class {
+
+  }
+async(x = class {
+
+  })
+
 ```
 
 ### Diagnostics

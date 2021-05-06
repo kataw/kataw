@@ -218,7 +218,8 @@ x={ dsda(){ return async function(a=super.foo){} }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = {  };
 ```
 
 ### Diagnostics

@@ -66,7 +66,8 @@ publ\u0069c = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+public = x;
 ```
 
 ### Diagnostics

@@ -85,7 +85,8 @@ var foo: null
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo;
 ```
 
 ### Diagnostics

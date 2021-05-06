@@ -1751,7 +1751,32 @@ function * x() { "use strict";  yield: 34; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+"\"use strict\"";
+
+
+
+
+
 ```
 
 ### Diagnostics

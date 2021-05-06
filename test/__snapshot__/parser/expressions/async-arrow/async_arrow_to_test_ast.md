@@ -133,7 +133,8 @@ let f = a + b + async()=>d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let f = a + b + async () => d;
 ```
 
 ### Diagnostics

@@ -128,7 +128,8 @@ function *foo() { (x = \u0079ield) }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

@@ -111,7 +111,10 @@ class x { "construct\u{6f}r"(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

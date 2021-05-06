@@ -160,7 +160,11 @@ let {x : y, z : a} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  x: ,
+  z:
+} = obj;
 ```
 
 ### Diagnostics

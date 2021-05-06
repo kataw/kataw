@@ -92,7 +92,8 @@ foo(x => ok)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo( x => ok);
 ```
 
 ### Diagnostics

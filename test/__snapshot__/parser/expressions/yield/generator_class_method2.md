@@ -279,7 +279,8 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

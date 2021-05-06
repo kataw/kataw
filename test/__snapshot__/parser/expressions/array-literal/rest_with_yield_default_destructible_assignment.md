@@ -146,7 +146,8 @@ result = [...{ x = yield }] = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [...{ x = yield }] = y;
 ```
 
 ### Diagnostics

@@ -111,7 +111,8 @@ function foo() { return {eval} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

@@ -6047,7 +6047,166 @@ try {} catch(e) { for(var e of 0); };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+// 12.2.5.1
+// Always throw a Syntax Error if code matches this production.
+
+({ a = 0 });
+// 12.2.9.1
+// It is a Syntax Error if the lexical token sequence matched by CoverParenthesizedExpressionAndArrowParameterList
+// cannot be parsed with no tokens left over using ParenthesizedExpression as the goal symbol.
+();
+(a, );
+// All Early Errors rules for ParenthesizedExpression and its derived productions also apply to
+// CoveredParenthesizedExpression of CoverParenthesizedExpressionAndArrowParameterList.
+();
+(a, );
+// 12.4.1
+// It is an early Reference Error if IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.
+0;
+0;
+// 12.5.1
+// It is an early Reference Error if IsValidSimpleAssignmentTarget of UnaryExpression is false.
+0;
+0;
+// 12.14.1
+// It is a Syntax Error if LeftHandSideExpression is either an ObjectLiteral or an ArrayLiteral and the lexical
+// token sequence matched by LeftHandSideExpression cannot be parsed with no tokens left over using
+// AssignmentPattern as the goal symbol.
+({ a: 0 } = 0);
+({  } = 0);
+({  } = 0);
+({  } = 0);
+[0] = 0;
+// It is an early Reference Error if LeftHandSideExpression is neither an ObjectLiteral nor an ArrayLiteral and
+// IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.
+0 = 0;
+// It is an early Reference Error if IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.
+({ a }) = 0;
+([a]) = 0;
+({ a } += 0);
+[a] *= 0;
+0 /= 0;
+// 12.14.5.1
+// It is a Syntax Error if LeftHandSideExpression is either an ObjectLiteral or an ArrayLiteral and if the lexical
+// token sequence matched by LeftHandSideExpression cannot be parsed with no tokens left over using
+// AssignmentPattern as the goal symbol.
+[...{ a: 0 }] = 0;
+[...[0]] = 0;
+// It is a Syntax Error if LeftHandSideExpression is neither an ObjectLiteral nor an ArrayLiteral and
+// IsValidSimpleAssignmentTarget(LeftHandSideExpression) is false.
+[...0] = 0;
+[... a()] = 0;
+// 13.6.4.1
+// It is a Syntax Error if LeftHandSideExpression is either an ObjectLiteral or an ArrayLiteral and if the
+// lexical token sequence matched by LeftHandSideExpression cannot be parsed with no tokens left over using
+// AssignmentPattern as the goal symbol.
+for ( in 0);
+for ( in 0);
+for ({ a: 0 } of 0);
+for ([0] of 0);
+// It is a Syntax Error if IsValidSimpleAssignmentTarget of LeftHandSideExpression is false.
+for ( in 0);
+for (0 of 0);
+// It is a Syntax Error if the LeftHandSideExpression is CoverParenthesizedExpressionAndArrowParameterList
+// : ( Expression ) and Expression derives a production that would produce a Syntax Error according to these
+// rules if that production is substituted for LeftHandSideExpression. This rule is recursively applied.
+for ( in 0);
+for ( in 0);
+for (({ a: 0 }) of 0);
+for (([0]) of 0);
+for ( in 0);
+for ((0) of 0);
+u;
+{
+  110000;
+}
+u;
+{
+  FFFFFFF;
+}
+// 11.8.5.1
+// It is a Syntax Error if IdentifierPart contains a Unicode escape sequence.
+/./;
+i;
+/./;
+i;
+// 12.2.5.1
+// It is a Syntax Error if HasDirectSuper of MethodDefinition is true.
+({  });
+({  });
+class  {
+
+}
+class  {
+
+}
+class  {
+
+}
+class  {
+
+}
+// It is a Syntax Error if SV(UnicodeEscapeSequence) is neither the UTF16Encoding (10.1.1) of a single Unicode code
+// point with the Unicode property @{x201c}@ID_Continue@{x201d}@ nor "$" or "_" nor the UTF16Encoding of either <ZWNJ> or <ZWJ>.
+a;
+a;
+// 11.8.4.1
+// It is a Syntax Error if the MV of HexDigits > 1114111.
+("\"\\u{110000}\"");
+("\"\\u{FFFFFFF}\"");
+// 12.14.5.1
+// It is a Syntax Error if IsValidSimpleAssignmentTarget of IdentifierReference is false.
+"\"use strict\"";
+({ eval } = 0);
+"\"use strict\"";
+({ eval = 0 } = 0);
+"\"use strict\"";
+({ arguments } = 0);
+"\"use strict\"";
+({ arguments = 0 } = 0);
+// 13.6.1
+// It is a Syntax Error if IsLabelledFunction(Statement) is true for any occurrence of Statement in these rules.
+if (0) label:
+if (0) labelA: labelB:
+if (0) label:
+else;
+if (0);
+else label:
+// 14.2.1
+// It is a Syntax Error if ArrowParameters Contains YieldExpression is true.
+
+
+
+
+
+
+
+// 11.8.5.1
+// It is a Syntax Error if IdentifierPart contains a Unicode escape sequence.
+/./;
+i;
+/./;
+i;
+// Annex B 3.5 (13.14.1)
+// It is a Syntax Error if any element of the BoundNames of CatchParameter also occurs
+// in the LexicallyDeclaredNames of Block.
+try {
+} catch (e) {
+  let e;
+}
+try {
+} catch (e) {
+
+}
+// It is a Syntax Error if any element of the BoundNames of CatchParameter also occurs
+// in the VarDeclaredNames of Block,
+// unless that element is only bound by a VariableStatement or the VariableDeclarationList of a for statement,
+// or the ForBinding of a for-in statement.
+try {
+} catch (e) {
+  for ( of 0);
+}
+
 ```
 
 ### Diagnostics

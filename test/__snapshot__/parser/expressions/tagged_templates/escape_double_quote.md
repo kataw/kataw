@@ -56,7 +56,8 @@ tag`some \" quote`;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+tagsome " quote;
 ```
 
 ### Diagnostics

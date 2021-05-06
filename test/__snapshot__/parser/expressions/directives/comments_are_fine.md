@@ -73,7 +73,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+// one comment
+/* two
+ comment */
+
 ```
 
 ### Diagnostics

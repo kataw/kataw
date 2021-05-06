@@ -127,7 +127,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ ident: { x: y } }) => x;
 ```
 
 ### Diagnostics

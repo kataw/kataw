@@ -4146,7 +4146,75 @@ foo ? bar : baz => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ () => {};
+ () => {
+  return 42;
+};
+ x => {
+  return x;
+};
+ (x) => {
+  return x;
+};
+ () => {
+  return x + y;
+};
+ () => {
+  return x + y + z;
+};
+ () => {
+  x.a = y;
+};
+ () => 42;
+ x => x;
+ x => x * x;
+ (x) => x;
+ (x) => x * x;
+ () => x + y;
+ () => x, y, z;
+ () => x.a = y;
+ () => ({ "'value'": 42 });
+ x =>  y => x + y;
+ () =>  () => x * u + y * v;
+ () =>  z => z * (x + y);
+ x =>  () => z * (x + y);
+// Those are comma-separated expressions, with arrow functions as items.
+// They stress the code for validating arrow function parameter lists.
+a,  b => 0;
+a, b,  () => 0;
+(a, b,  () => 0);
+ () => 0,  () => 1;
+(a,  b => {},  a => a + 1);
+( () => {}, ( a => a + 1));
+(a, (a,  () => 0));
+// Arrow has more precedence, this is the same as: foo ? bar : (baz = {})
+foo ? bar :  baz => {};
+// Arrows with non-simple parameters.
+ ({}) => {};
+ () => {};
+ () => {};
+ ([]) => {};
+ () => {};
+ () => {};
+ (a = b) => {};
+ () => {};
+ () => {};
+ ({ a }) => {};
+ (x = 9) => {};
+ () => {};
+ () => {};
+ () => {};
+ () => {};
+ (...a) => {};
+ () => {};
+ () => {};
+ () => {};
+ () => {};
+ ({ a } = {}) => {};
+ ([x] = []) => {};
+ ({ a = 42 }) => {};
+ ([x = 0]) => {};
 ```
 
 ### Diagnostics

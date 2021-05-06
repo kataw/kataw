@@ -102,7 +102,8 @@ z(z(z()));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+z(z(z()));
 ```
 
 ### Diagnostics

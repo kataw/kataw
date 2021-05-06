@@ -171,7 +171,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ a, b = b, a: c, : [d] }) => 0;
 ```
 
 ### Diagnostics

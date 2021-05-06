@@ -118,7 +118,10 @@ async () => { aw\u{61}it: x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  await : x;
+}
 ```
 
 ### Diagnostics

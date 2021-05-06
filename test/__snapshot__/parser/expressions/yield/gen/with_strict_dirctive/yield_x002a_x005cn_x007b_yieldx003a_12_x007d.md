@@ -146,7 +146,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+yield * ;
+n;
+{
+  yield: 12;
+}
 ```
 
 ### Diagnostics

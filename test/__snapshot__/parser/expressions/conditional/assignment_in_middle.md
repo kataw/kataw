@@ -96,7 +96,8 @@ a?b=c:d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? b = c : d;
 ```
 
 ### Diagnostics

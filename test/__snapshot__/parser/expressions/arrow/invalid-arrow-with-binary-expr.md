@@ -81,7 +81,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(localVar |= defaultValue);
+{
+}
 ```
 
 ### Diagnostics

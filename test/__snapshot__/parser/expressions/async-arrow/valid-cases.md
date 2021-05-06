@@ -4842,7 +4842,81 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(async(async(async(async(async())))))
+async()
+(async () => {});
+async(a)
+(s)(y)(n)(c);
+xasync () => x;
+({  });
+({  });
+async () => {}
+async () => {
+  return 42;
+}
+(async x => y);
+(async (x, z) => y);
+({ x: async (y, w) => z });
+async ({ x = yield }) => 1
+async (icefapper = bad) => {}
+async({ a: b = c })
+async ({ a = b }) => a
+async (a, b) => a
+async () => a
+asyncFn = async ({ foo = 1 }) => foo;
+asyncFn = async ({ foo = 1 } = {}) => foo;
+foo =  ({ async = true }) => {};
+foo = async ({ async: bar }) => {
+  await baz;
+};
+async ({}) => 0
+async(a)
+var x = async(x);
+var x = async (a, b) => await a + b;
+var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
+async (a) => b
+[async (x, y) => z];
+[async x => z];
+id = async x => x, square = async (y) => {
+    y * y;
+  };
+f(a, async b => await b);
+async (x, y) => {
+  x * y;
+}
+async (x, y) => y
+async a => {
+  await a;
+};
+async (y) => y
+async (x, ...) => x
+async (x, y) => x
+async ({ a = b }) => a
+(async (x) => {}) + 1;
+(async (x) => {}) / 1;
+async a => a;
+
+({ async: 1 });
+async yield => 1;
+ () => ({  }).f();
+async ({ x = yield }) => 1
+async (async) => 1
+async ([a]) => 1
+async ([a, b]) => 1
+async ({ a }) => 1
+async ({ a, b }) => 1
+async a => async b => c;
+async a => async function() {};
+async a => async function b() {};
+async a => await 1;
+async x =>  x => x;
+async x => {
+  return  () => x;
+};
+var f = cond ?  x => {
+      x.foo;
+    } :  x => x + x + x + x + x + x + ( x => x);
 ```
 
 ### Diagnostics

@@ -120,7 +120,8 @@ x, {a: 1} = [];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x, { a: 1 } = [];
 ```
 
 ### Diagnostics

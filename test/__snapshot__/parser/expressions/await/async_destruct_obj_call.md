@@ -253,7 +253,8 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

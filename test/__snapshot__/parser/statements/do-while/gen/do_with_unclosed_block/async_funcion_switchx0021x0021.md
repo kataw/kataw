@@ -145,7 +145,11 @@ do {} while (x) { async funcion switch!!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do {} while (x);
+{
+  async funcion  ;
+}
 ```
 
 ### Diagnostics

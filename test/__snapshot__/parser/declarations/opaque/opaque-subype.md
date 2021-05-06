@@ -143,7 +143,8 @@ opaque type Counter: Box<T> = Container<T>;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

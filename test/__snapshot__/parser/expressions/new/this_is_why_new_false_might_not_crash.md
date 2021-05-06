@@ -82,7 +82,8 @@ new false.__proto__.constructor
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ false().__proto__.constructor;
 ```
 
 ### Diagnostics

@@ -394,7 +394,18 @@ const {x}: string = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const x;
+string;
+const [x];
+string = y;
+const [x];
+symbol;
+string = y;
+const {
+  x
+};
+string = y;
 ```
 
 ### Diagnostics

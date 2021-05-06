@@ -231,7 +231,10 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

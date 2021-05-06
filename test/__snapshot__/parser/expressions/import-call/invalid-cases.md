@@ -1996,7 +1996,58 @@ new import(x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+import ;
+;
+;
+import ;
+;
+;
+;
+import ;
+["'x'"];
+import ;
+x;
+, , ;
+;
+, ;
+, ;
+, y, , ;
+, y, z;
+, y;
+, y, ;
+, y();
+import ;
+[];
+import ;
+[];
+import ;
+import ;
+[x];
+ {}  ;
+  x }  ;
+;
+y;
+, ;
+, ;
+, y;
+;
+[, { import }];
+import ;
+;
+import ;
+1;
+;
+, , ;
+;
+, ;
+, ;
+, y, , ;
+, y, z;
+, y;
+, y, ;
+, y();
+ ();
 ```
 
 ### Diagnostics

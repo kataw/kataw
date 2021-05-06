@@ -158,7 +158,19 @@ post"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\
+\"";
+"\"pre\
+\"";
+"\"\
+post\"";
+"\"pre\
+post\"";
+"\"@{xd}@\"";
+"\"pre@{xd}@\"";
+"\"@{xd}@post\"";
+"\"pre@{xd}@post\"";
 ```
 
 ### Diagnostics

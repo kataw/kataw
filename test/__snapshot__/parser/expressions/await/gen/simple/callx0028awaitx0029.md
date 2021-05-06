@@ -69,7 +69,8 @@ call(await)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+call(await);
 ```
 
 ### Diagnostics

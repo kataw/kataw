@@ -159,7 +159,9 @@ f({x = 0});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+obj = { x = 0 };
+f({ x = 0 });
 ```
 
 ### Diagnostics

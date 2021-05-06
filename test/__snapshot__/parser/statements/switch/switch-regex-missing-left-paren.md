@@ -110,7 +110,13 @@ switch (/a/i {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(/a/i
+
+switch(/a/i
+
+switch(/a/i
+ 
 ```
 
 ### Diagnostics

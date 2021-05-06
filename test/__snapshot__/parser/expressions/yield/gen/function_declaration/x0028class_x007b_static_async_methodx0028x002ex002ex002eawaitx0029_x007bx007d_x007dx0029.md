@@ -201,7 +201,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

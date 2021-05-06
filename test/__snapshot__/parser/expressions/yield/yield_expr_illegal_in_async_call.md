@@ -67,7 +67,8 @@ async (yield x)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(yield, x)
 ```
 
 ### Diagnostics

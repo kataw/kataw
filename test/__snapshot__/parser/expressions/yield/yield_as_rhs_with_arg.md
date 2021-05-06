@@ -198,7 +198,8 @@ function *g() { function f(x = x + yield y) {}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

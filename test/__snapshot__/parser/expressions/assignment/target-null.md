@@ -67,7 +67,8 @@ null = 42;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+null = 42;
 ```
 
 ### Diagnostics

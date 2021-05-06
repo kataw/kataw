@@ -121,7 +121,9 @@ class x extends instanceof {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+   inctanceof {};
 ```
 
 ### Diagnostics

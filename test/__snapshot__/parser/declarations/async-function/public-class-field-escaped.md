@@ -92,7 +92,9 @@ class C { \\u0041 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+A;
 ```
 
 ### Diagnostics

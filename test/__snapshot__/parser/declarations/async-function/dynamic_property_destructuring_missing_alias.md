@@ -134,7 +134,10 @@ let {[x]} = z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  :
+} = z;
 ```
 
 ### Diagnostics

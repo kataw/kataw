@@ -131,7 +131,8 @@ s = {s: true = x} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { s: true = x } = x;
 ```
 
 ### Diagnostics

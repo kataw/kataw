@@ -136,7 +136,11 @@ const { f: await f } = {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  f: ,
+  f
+} = {};
 ```
 
 ### Diagnostics

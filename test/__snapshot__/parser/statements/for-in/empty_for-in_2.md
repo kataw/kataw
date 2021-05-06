@@ -93,7 +93,8 @@ for (var a in b);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in b);
 ```
 
 ### Diagnostics

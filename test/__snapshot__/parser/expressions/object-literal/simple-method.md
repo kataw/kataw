@@ -280,7 +280,13 @@ x = { method(test: string) { } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = {  };
+x = {  };
+string;
+{
+}
+
 ```
 
 ### Diagnostics

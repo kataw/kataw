@@ -183,7 +183,8 @@ function *g(){ (x = {[yield]: 1}) => z }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

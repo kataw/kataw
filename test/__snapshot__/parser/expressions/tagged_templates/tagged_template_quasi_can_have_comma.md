@@ -96,7 +96,8 @@ y`${y,0}`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+y`${y, 0}`;
 ```
 
 ### Diagnostics

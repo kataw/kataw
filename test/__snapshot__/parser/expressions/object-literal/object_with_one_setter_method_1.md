@@ -144,7 +144,8 @@ wrap({set foo(a){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({  });
 ```
 
 ### Diagnostics

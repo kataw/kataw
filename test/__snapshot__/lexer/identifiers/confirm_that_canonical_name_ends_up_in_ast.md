@@ -56,7 +56,8 @@ pa\u0073s();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+pass();
 ```
 
 ### Diagnostics

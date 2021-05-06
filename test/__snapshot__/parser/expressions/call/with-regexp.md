@@ -131,7 +131,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x(/^(<[^>]+>)/)1;
+x(y, /a/);
 ```
 
 ### Diagnostics

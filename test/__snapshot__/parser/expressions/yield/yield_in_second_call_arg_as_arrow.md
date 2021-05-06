@@ -160,7 +160,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+   (x = x + foo(a, yield, y)) => x;
+}
 ```
 
 ### Diagnostics

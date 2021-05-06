@@ -110,7 +110,9 @@ const {,x} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {}, x;
+obj;
 ```
 
 ### Diagnostics

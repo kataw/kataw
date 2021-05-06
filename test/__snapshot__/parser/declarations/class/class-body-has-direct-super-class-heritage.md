@@ -200,7 +200,11 @@ class B extends A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+class  {
+
+}
 ```
 
 ### Diagnostics

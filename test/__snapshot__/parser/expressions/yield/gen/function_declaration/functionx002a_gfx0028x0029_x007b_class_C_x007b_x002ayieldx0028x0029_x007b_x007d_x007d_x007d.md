@@ -221,7 +221,8 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

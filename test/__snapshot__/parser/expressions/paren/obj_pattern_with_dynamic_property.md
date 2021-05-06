@@ -145,7 +145,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ...{ b: 0 }x } = {});
 ```
 
 ### Diagnostics

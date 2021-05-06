@@ -217,7 +217,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var o = {  };
 ```
 
 ### Diagnostics

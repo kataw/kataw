@@ -176,7 +176,16 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\u0123\"";
+"\"\u4567\"";
+"\"\u89ab\"";
+"\"\ucdef\"";
+"\"\uABCD\"";
+"\"\uDE00\"";
+"\"prefix \u0123\"";
+"\"\u0123 postfix\"";
+"\"\u0123\u4567\"";
 ```
 
 ### Diagnostics

@@ -109,7 +109,8 @@ new Foo`a${b}c${c}e`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ Foo`a${b}c${c}e`();
 ```
 
 ### Diagnostics

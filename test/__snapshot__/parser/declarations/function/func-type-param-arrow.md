@@ -517,7 +517,27 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+();
+bool;
+number;
+{
+}
+
+();
+bool, _2;
+string;
+number;
+{
+}
+
+();
+bool, ;
+foo:     < number > ;
+number;
+{
+}
 ```
 
 ### Diagnostics

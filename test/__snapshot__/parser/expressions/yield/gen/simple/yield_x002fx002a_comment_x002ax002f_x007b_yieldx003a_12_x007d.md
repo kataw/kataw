@@ -104,7 +104,11 @@ yield /* comment */ { yield: 12 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+yield; /* comment */
+{
+  yield: 12;
+}
 ```
 
 ### Diagnostics

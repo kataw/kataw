@@ -100,7 +100,9 @@ do[ /false//a
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do [/false/ / a];
+ ();
 ```
 
 ### Diagnostics

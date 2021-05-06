@@ -58,7 +58,8 @@ new /crap/
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ /crap/();
 ```
 
 ### Diagnostics

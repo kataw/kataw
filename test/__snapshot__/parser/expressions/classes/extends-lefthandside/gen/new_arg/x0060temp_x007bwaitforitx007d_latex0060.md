@@ -59,7 +59,8 @@ new `temp {waitforit} late`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ temp {waitforit} late();
 ```
 
 ### Diagnostics

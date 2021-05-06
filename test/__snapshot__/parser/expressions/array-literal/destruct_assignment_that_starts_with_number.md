@@ -99,7 +99,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[50.foo] = x;
 ```
 
 ### Diagnostics

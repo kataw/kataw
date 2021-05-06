@@ -3285,7 +3285,99 @@ for (;;) {}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function* gen() {
+     2;
+  })(function* gen() {
+   2;
+});
+(function* gen() {
+     2;
+  });
+(function* gen() {
+      1;
+  });
+(function* gen() {
+      1;
+  });
+(function* gen() {
+     3 + ( 4);
+  });
+(function* gen() {
+     3 + ( 4);
+  });
+(function* gen() {
+     1;
+    return;
+  });
+(function* gen() {
+     1;
+    return 37;
+  });
+(function* gen() {
+     1;
+    return 37;
+  });
+(function* gen() {
+     1;
+    return 37;
+     "'dead'";
+  });
+(function* gen() {
+     1;
+    return 37;
+     "'dead'";
+  });
+(function* gen() {
+     ;
+  });
+(function* gen() {
+     ;
+  });
+(function* gen() {
+     ;
+  });
+(function* gen() {
+    ( );
+  });
+(function* gen() {
+    [ ];
+  });
+(function* gen() {
+    {
+       ;
+    }
+  });
+(function* gen() {
+     ,  ;
+  });
+(function* gen() {
+     ;
+     ;
+  });
+(function* gen() {
+    ( ) ?   :  ;
+  });
+(function* gen() {
+    ( ) ?   :  ;
+  });
+// If there is a newline before the next token, we don't look for RHS.
+(function* gen() {
+     ;
+    for (;;) {}
+  });
+(function* gen() {
+    x = class  {};
+  });
+(function* gen() {
+    x = class  {};
+  });
+(function* gen() {
+    x = class  {};
+  });
+(function* gen() {
+    x = class  {};
+  });
 ```
 
 ### Diagnostics

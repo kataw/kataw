@@ -165,7 +165,9 @@ async function f(){ await foo\n/foo/g }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+n / foo / g;
 ```
 
 ### Diagnostics

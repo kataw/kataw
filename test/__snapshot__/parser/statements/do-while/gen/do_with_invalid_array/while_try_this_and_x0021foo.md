@@ -198,7 +198,16 @@ do while [catch] while try this and !foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while ([])  {
+    } {
+    }
+while ();
+try {
+} try{
+}
+and;
+foo;
 ```
 
 ### Diagnostics

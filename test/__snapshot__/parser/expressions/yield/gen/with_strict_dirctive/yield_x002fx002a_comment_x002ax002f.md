@@ -55,7 +55,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+yield; /* comment */
 ```
 
 ### Diagnostics

@@ -56,7 +56,8 @@ await[x]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+awaitx;
 ```
 
 ### Diagnostics

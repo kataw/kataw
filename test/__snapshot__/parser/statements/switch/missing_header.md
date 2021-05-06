@@ -61,7 +61,9 @@ switch {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch({}
+ 
 ```
 
 ### Diagnostics

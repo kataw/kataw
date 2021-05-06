@@ -223,7 +223,10 @@ fn = function() {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var xFn, fn;
+xFn = function x() {};
+fn = function() {};
 ```
 
 ### Diagnostics

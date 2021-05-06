@@ -138,7 +138,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ([...   inctanceof b > c]) => x;
 ```
 
 ### Diagnostics

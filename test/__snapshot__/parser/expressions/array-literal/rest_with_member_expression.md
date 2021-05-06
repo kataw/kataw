@@ -110,7 +110,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...x.list] = a;
 ```
 
 ### Diagnostics

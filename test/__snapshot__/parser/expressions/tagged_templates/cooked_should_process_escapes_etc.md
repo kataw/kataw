@@ -56,7 +56,8 @@ foo`H\x45Y`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+fooHEY;
 ```
 
 ### Diagnostics

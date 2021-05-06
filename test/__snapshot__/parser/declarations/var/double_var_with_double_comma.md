@@ -128,7 +128,11 @@ var {x,, y} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x
+}, y;
+obj;
 ```
 
 ### Diagnostics

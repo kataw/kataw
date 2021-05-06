@@ -1398,7 +1398,19 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[{ : bar4 }] = [{ bar: "\"bar\"" }];
+[{ : bar5 }] = [{ bar: "\"bar\"" }];
+[{ : bar4 }] = [{ bar: "\"bar\"" }];
+[{ : bar4 }] = [{ bar: "\"bar\"" }];
+[{ : bar5 }] = [{ bar: "\"bar\"" }];
+[{ : bar4 }] = [{ bar: "\"bar\"" }];
+[{ : bar4 }] = [{ bar: "\"bar\"" }];
+[...x] = it;
+[[x]] = [null];
+[x] = [];
+[...x] = [];
+[...xyield] = [];
 ```
 
 ### Diagnostics

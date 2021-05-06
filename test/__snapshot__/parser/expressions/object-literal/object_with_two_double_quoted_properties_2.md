@@ -118,7 +118,8 @@ wrap({'a':b, 'c':d});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ "'a'": b, "'c'": d });
 ```
 
 ### Diagnostics

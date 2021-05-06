@@ -111,7 +111,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+6( x => y) in 3;
 ```
 
 ### Diagnostics

@@ -84,7 +84,9 @@ do x, y; while (z)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do x, y;
+while (z);
 ```
 
 ### Diagnostics

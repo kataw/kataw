@@ -5243,7 +5243,229 @@ switch (answer) { case 0: let a; };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case 194:
+    switch(y
+      default
+        1;
+
+  default
+    2;
+
+switch([/a/]
+  case y:
+    x;
+
+switch(x
+  case y: {
+    x = b;
+  }
+
+switch(x
+  case y:
+    [a / b];
+
+switch(x
+  case 42:
+    y();
+
+  default
+
+
+switch(answer
+  case 42:
+    let t = 42;
+
+
+switch(x
+  case y:
+    [a / b, c, (d)];
+
+switch(x
+  case y:
+    a;
+
+switch(x
+  case y:
+    x(foo);
+
+switch(x
+  case y:
+    foo = b;
+
+switch(x / bc
+  case y:
+    foo;
+
+switch(x / b(c)
+  case y:
+    foo;
+
+switch(x
+  case foo:
+
+
+switch(x
+  case y:
+    (foo);
+
+switch(x
+  case y:
+    (foo, bar);
+
+switch(x
+  case y:
+    (foo) = (foo) /* comment */ - b;
+
+switch(x
+  case y:
+    foo;
+  // comment;
+
+// should be ignored - switch(x) { case y: foo };
+switch(x / a
+  case y:
+    foo;
+
+switch(a + b
+  case y:
+    foo;
+
+switch(x
+  case y:
+    /a/;
+
+switch(x
+  case y: {
+    x;
+  }
+
+switch(x
+  case y:
+    x = { ...x };
+
+switch(x
+  case y:
+    foo / bar ? 1 : (x);
+
+switch(x
+  case y:
+    foo / bar ? 1 :  (x) => {};
+
+switch(0
+  case 1:
+
+  default
+
+
+switch(x
+  case y:
+    foo ? 1 :  (x) => {};
+
+switch({ x: y }
+  case y:
+    [...a];
+
+switch({ x: y }
+  case y:
+    [...a] = b;
+
+switch(x / b(c)
+  case y:
+    foo;
+
+switch(x
+  case c:
+
+
+
+switch(x
+  case c:
+
+
+
+switch(0
+  case 1:
+    var f;
+  default
+    var f;
+
+switch(0
+  case 1:
+    var f;
+  default
+    var f;
+
+switch(x
+  case x:
+
+
+switch(x
+  case x:
+
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class {}
+
+switch(x
+
+/foo/;
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+
+    class {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class {}
+
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class  {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+
+    class {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class {}
+
+switch(a
+  case 1:
+
+
+switch(a
+  case b:
+    let [x] = y;
+
+switch(answer
+  case 0:
+    let a;
+
+
 ```
 
 ### Diagnostics

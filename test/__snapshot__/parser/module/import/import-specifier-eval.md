@@ -512,7 +512,13 @@ import {eval as x} from 'foo';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  eval }  ;
+  eval }  ;
+  x aseval }  ;
+  x aseval }  ;
+  arguments }  ;
+  eval asx }  ;
 ```
 
 ### Diagnostics

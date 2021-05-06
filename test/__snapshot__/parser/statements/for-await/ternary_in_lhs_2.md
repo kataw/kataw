@@ -179,7 +179,12 @@ async function f(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+c;
+of;
+x;
+
 ```
 
 ### Diagnostics

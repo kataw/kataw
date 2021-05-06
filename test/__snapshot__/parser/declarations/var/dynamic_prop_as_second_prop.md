@@ -152,7 +152,11 @@ var {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  a,
+  :
+} = a;
 ```
 
 ### Diagnostics

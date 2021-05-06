@@ -106,7 +106,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo = yield = 1;
 ```
 
 ### Diagnostics

@@ -118,7 +118,8 @@ function *f(){  foo(await)  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

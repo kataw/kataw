@@ -118,7 +118,9 @@ export {x}; var x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  x };
+var x;
 ```
 
 ### Diagnostics

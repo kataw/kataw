@@ -77,7 +77,8 @@ d\u0065lete = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = x;
 ```
 
 ### Diagnostics

@@ -184,7 +184,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function(obj) {}.apply(null, [{ ...null }]));
 ```
 
 ### Diagnostics

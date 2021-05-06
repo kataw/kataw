@@ -94,7 +94,10 @@ if (true) {} else let x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (true) {
+} else let;
+x;
 ```
 
 ### Diagnostics

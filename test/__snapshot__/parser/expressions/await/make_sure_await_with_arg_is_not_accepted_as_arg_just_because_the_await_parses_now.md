@@ -132,7 +132,8 @@ async function f(){  (await fail) => x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

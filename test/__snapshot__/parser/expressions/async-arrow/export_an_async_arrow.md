@@ -84,7 +84,8 @@ export default async (x) => y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default async (x) => y;
 ```
 
 ### Diagnostics

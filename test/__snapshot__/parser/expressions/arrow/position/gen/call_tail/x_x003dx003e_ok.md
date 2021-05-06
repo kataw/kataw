@@ -106,7 +106,8 @@ foo(x => ok).bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo( x => ok).bar;
 ```
 
 ### Diagnostics

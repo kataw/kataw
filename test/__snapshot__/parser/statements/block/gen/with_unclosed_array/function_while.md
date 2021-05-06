@@ -138,7 +138,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [function() {}];
+  while () ;
+}
 ```
 
 ### Diagnostics

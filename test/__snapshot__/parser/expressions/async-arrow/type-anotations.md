@@ -852,7 +852,19 @@ async (...[x]?: string, a?) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (x?) => {}
+async ([x], a) => {}
+async ([x], a) => {}
+async ([x], a) => {}
+async ([x]?, a) => {}
+async ([x]?, a?) => {}
+async (...) => {}
+async (...) => {}
+async(...[x], )
+{
+}
+
 ```
 
 ### Diagnostics

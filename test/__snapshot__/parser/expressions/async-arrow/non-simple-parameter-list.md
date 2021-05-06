@@ -175,7 +175,9 @@ async ( { x}  ) => {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (x = y) => {}
+async ({ x }) => {}
 ```
 
 ### Diagnostics

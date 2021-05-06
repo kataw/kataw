@@ -120,7 +120,10 @@ const x = y, {z};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const x = y, {
+    z
+  };
 ```
 
 ### Diagnostics

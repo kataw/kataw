@@ -244,7 +244,9 @@ var a : { <T>(x: T): number; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+var a;
 ```
 
 ### Diagnostics

@@ -149,7 +149,8 @@ async function f() { for await ([x] of y) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

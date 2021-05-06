@@ -196,7 +196,10 @@ class x { fo(){ return function() { super.foo; } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

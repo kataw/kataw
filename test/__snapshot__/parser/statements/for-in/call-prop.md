@@ -99,7 +99,9 @@ var a : string
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+string;
 ```
 
 ### Diagnostics

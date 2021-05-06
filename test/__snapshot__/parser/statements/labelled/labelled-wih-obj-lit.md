@@ -132,7 +132,10 @@ a: { a: x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a: {
+  a: x;
+}
 ```
 
 ### Diagnostics

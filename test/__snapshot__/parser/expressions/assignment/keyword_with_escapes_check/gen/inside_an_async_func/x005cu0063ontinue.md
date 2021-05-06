@@ -101,7 +101,11 @@ async () => {  \u0063ontinue = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  continue ;
+}
+x;
 ```
 
 ### Diagnostics

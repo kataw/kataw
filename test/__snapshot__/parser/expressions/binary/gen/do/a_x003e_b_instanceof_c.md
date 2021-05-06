@@ -112,7 +112,9 @@ do a > b instanceof c while (x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do a > b inctanceof c;
+while (x);
 ```
 
 ### Diagnostics

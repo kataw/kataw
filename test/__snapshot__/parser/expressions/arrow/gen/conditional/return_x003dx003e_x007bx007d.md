@@ -78,7 +78,11 @@ return => {} , bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+return ;
+{
+}
+bar;
 ```
 
 ### Diagnostics

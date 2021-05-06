@@ -112,7 +112,10 @@ class C extends Base { async = 0 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

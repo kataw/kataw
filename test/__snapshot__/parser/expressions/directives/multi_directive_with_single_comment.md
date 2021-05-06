@@ -58,7 +58,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"foo\"";
+// stuff here
+"\"bar\"";
 ```
 
 ### Diagnostics

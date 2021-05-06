@@ -88,7 +88,8 @@ x + + y.x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x + y.x;
 ```
 
 ### Diagnostics

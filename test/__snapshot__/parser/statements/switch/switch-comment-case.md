@@ -100,7 +100,11 @@ switch(x) /* comment */ { case y: foo }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case y:
+    foo;
+ 
 ```
 
 ### Diagnostics

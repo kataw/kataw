@@ -133,7 +133,8 @@ x = {arrow: x => ok}.y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow:  x => ok }.y;
 ```
 
 ### Diagnostics

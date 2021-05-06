@@ -239,7 +239,10 @@ gen = function*() {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var xGen, gen;
+xGen = function* x() {};
+gen = function*() {};
 ```
 
 ### Diagnostics

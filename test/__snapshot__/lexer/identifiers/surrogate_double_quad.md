@@ -48,7 +48,8 @@ abc\uD835\uDFD0def
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+abc𝟐def;
 ```
 
 ### Diagnostics

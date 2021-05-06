@@ -123,7 +123,8 @@ import {x, z,} from "y"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  x, z }  ;
 ```
 
 ### Diagnostics

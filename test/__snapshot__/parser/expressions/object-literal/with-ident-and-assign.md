@@ -99,7 +99,8 @@ let z = {...x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let z = { ...x };
 ```
 
 ### Diagnostics

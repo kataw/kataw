@@ -153,7 +153,8 @@ for (function(){ }[x in y] of x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (function() {}x in y of x);
 ```
 
 ### Diagnostics

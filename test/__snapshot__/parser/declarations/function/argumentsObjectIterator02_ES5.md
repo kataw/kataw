@@ -532,7 +532,20 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+number, y;
+number, z;
+number;
+[number, number, number];
+{
+  let blah = argumentsSymbol.iterator;
+  let result = [];
+  for ( of blah()) {
+    result.push(arg + arg);
+  }
+  return ();
+}
 ```
 
 ### Diagnostics

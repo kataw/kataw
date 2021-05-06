@@ -189,7 +189,9 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+async;
 ```
 
 ### Diagnostics

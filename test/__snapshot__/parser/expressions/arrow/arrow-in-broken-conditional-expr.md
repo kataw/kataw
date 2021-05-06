@@ -90,7 +90,9 @@ bar ? (=> 0) : baz;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar ? ()  0;
+baz;
 ```
 
 ### Diagnostics

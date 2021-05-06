@@ -121,7 +121,10 @@ var x = y, {z};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = y, {
+    z
+  };
 ```
 
 ### Diagnostics

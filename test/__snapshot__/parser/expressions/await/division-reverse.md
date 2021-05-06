@@ -62,7 +62,8 @@ x / await
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x / await;
 ```
 
 ### Diagnostics

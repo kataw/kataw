@@ -704,7 +704,19 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+
+
+
+  static
+  static
+  static
+  static
+  static
+}
 ```
 
 ### Diagnostics

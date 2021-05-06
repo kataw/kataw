@@ -156,7 +156,10 @@ let protecte\u0064;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x = protected;
+let protected;
+let protected;
 ```
 
 ### Diagnostics

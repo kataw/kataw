@@ -101,7 +101,11 @@ async () => {  c\u006fnst = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  const ;
+}
+x;
 ```
 
 ### Diagnostics

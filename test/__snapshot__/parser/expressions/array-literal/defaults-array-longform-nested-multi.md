@@ -237,7 +237,12 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x: ,
+  y: ,
+  z:
+} = b;
 ```
 
 ### Diagnostics

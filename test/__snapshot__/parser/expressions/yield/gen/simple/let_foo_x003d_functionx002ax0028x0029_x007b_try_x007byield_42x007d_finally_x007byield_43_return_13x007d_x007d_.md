@@ -236,7 +236,15 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let foo = function*() {
+  try {
+     42;
+  } try{
+     43;
+    return 13;
+  }
+};
 ```
 
 ### Diagnostics

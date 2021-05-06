@@ -88,7 +88,9 @@ do[ catch { try
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do [];
+ ({ try });
 ```
 
 ### Diagnostics

@@ -228,7 +228,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar:
+"'use strict'";
+bar: 
 ```
 
 ### Diagnostics

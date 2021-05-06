@@ -132,7 +132,8 @@ class Foo<T> extends mixin(Bar) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

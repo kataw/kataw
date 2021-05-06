@@ -63,7 +63,8 @@ if(0) break;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (0) 
 ```
 
 ### Diagnostics

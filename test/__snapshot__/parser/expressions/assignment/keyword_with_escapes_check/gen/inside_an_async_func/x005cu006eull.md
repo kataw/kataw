@@ -101,7 +101,10 @@ async () => {  \u006eull = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  null = x;
+}
 ```
 
 ### Diagnostics

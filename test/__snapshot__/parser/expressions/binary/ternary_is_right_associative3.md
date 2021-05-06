@@ -130,7 +130,8 @@ a ? b ? c : d ** x : e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? b ? c : d ** x : e;
 ```
 
 ### Diagnostics

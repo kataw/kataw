@@ -159,7 +159,8 @@ function f(){ x({[new.target]:y}) }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

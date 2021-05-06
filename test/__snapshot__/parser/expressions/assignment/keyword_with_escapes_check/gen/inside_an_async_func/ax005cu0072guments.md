@@ -102,7 +102,10 @@ async () => {  a\u0072guments = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  arguments = x;
+}
 ```
 
 ### Diagnostics

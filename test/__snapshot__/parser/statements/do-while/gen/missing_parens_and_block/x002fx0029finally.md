@@ -65,7 +65,9 @@ do /)finally while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do /)finally while;
+ ();
 ```
 
 ### Diagnostics

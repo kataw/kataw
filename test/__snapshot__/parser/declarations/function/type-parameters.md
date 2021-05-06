@@ -968,7 +968,38 @@ type T = <
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+    < A /* A comment */ > ;
+const a;
+    <  /* comment */ > ;
+1;
+    <  /* comment */ > ;
+
+ ()  ;
+interface;
+Foo;
+{
+  (arg);
+}
+any;
+type;
+T =  (arg) => any;
+    < A // comment
+ > ;
+const a;
+    <  > ;
+1;
+    <  > ;
+
+ ()  ;
+interface;
+Foo;
+{
+  (arg);
+}
+any;
+type;
+T =  (arg) => any;
 ```
 
 ### Diagnostics

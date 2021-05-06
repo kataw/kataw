@@ -131,7 +131,8 @@ class Foo<T> extends Bar<T> { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

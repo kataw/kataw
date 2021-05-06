@@ -753,7 +753,17 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ async });
+({ async: await });
+({ async: (await) ? yield : foo });
+({ async: true });
+({  });
+({  });
+({ x, y,  });
+({  });
+({  });
+({  });
 ```
 
 ### Diagnostics

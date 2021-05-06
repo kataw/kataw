@@ -579,7 +579,18 @@ new new foo().bar++;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo();
+foo(bar);
+foobar();
+foo.bar();
+this.foofoo.bar(this)(bar)foo();
+ foo();
+  foo()().bar;
+{
+  x: 1;
+}
+;
 ```
 
 ### Diagnostics

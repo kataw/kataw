@@ -154,7 +154,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+([target()targetKey(a = b)] = x);
 ```
 
 ### Diagnostics

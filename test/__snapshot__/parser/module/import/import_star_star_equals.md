@@ -77,7 +77,10 @@ import **= from 'f';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+import ;
+from;
+"'f'";
 ```
 
 ### Diagnostics

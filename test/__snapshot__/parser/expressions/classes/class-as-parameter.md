@@ -422,7 +422,13 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var C;
+
+class {}
+@decorator
+class {}
+ ()  ;
 ```
 
 ### Diagnostics

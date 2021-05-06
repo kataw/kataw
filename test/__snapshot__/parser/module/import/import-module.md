@@ -56,7 +56,8 @@ import "foo";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+import "\"foo\"";
 ```
 
 ### Diagnostics

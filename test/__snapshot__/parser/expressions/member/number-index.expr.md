@@ -79,7 +79,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+123.toString(10);
 ```
 
 ### Diagnostics

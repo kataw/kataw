@@ -98,7 +98,8 @@ let y = () => new.target
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let y =  () => ;
 ```
 
 ### Diagnostics

@@ -161,7 +161,8 @@ var a: {param1?: number; param2: string; param3: string;}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
 ```
 
 ### Diagnostics

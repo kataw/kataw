@@ -134,7 +134,8 @@ s = {"foo": yield a = x} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { "\"foo\"": yield, a = x } = x;
 ```
 
 ### Diagnostics

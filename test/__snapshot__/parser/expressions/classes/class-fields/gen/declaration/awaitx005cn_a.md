@@ -113,7 +113,12 @@ class C { await\n a }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+n;
+a;
 ```
 
 ### Diagnostics

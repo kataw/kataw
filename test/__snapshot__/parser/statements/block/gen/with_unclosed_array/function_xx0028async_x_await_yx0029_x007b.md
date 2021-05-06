@@ -186,7 +186,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [function x(async, x, await, y) {}];
+}
 ```
 
 ### Diagnostics

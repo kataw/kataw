@@ -82,7 +82,8 @@ for (;b;c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; c; b);
 ```
 
 ### Diagnostics

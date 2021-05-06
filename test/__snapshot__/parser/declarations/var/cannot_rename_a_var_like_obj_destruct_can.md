@@ -137,7 +137,8 @@ var [foo:bar] = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var [foo] = obj;
 ```
 
 ### Diagnostics

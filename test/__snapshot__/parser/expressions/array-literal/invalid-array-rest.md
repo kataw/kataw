@@ -570,7 +570,17 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[a, b, ...rest, x];
+[a, , ...rest, x];
+[...rest,];
+[a, b, ...rest,];
+[a, , ...rest,];
+[...rest, ...rest1];
+[a, b, ...rest, ...rest1];
+[a, ]..rest, ;
+rest1;
+
 ```
 
 ### Diagnostics

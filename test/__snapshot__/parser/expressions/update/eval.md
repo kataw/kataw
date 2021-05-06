@@ -205,7 +205,14 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+eval;
+"'use strict'";
+eval = 0;
+"'use strict'";
+eval += 0;
+"'use strict'";
+arguments;
 ```
 
 ### Diagnostics

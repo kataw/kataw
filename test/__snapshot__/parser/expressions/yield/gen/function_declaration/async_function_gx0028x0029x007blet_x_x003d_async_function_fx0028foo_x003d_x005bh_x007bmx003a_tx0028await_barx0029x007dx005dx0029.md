@@ -334,7 +334,8 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

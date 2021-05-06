@@ -137,7 +137,9 @@ for ([a.b]++ of c) d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ([a.b] of c)
+  d;
 ```
 
 ### Diagnostics

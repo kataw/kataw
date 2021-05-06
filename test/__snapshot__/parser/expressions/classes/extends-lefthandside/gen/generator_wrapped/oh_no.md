@@ -165,7 +165,11 @@ function *P(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+no;
+{
+}
 ```
 
 ### Diagnostics

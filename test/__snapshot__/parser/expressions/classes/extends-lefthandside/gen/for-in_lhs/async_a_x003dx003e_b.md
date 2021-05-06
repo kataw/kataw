@@ -114,7 +114,8 @@ for (async a => b in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; );
 ```
 
 ### Diagnostics

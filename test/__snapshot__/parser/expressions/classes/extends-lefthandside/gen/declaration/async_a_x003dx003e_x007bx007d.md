@@ -117,7 +117,8 @@ class A extends async a => {} {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

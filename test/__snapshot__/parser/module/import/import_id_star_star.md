@@ -92,7 +92,9 @@ import a, ** from 'f';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ a  ;
+"'f'";
 ```
 
 ### Diagnostics

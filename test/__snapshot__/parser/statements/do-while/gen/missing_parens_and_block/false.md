@@ -70,7 +70,9 @@ do false while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do false;
+while ();
 ```
 
 ### Diagnostics

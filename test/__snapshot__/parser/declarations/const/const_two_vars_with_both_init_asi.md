@@ -115,7 +115,8 @@ const foo = bar, zoo = boo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const foo = bar, zoo = boo;
 ```
 
 ### Diagnostics

@@ -167,7 +167,10 @@ var 𫠞_ = 12;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var _𖫵 = 11;
+var 𫠝_ = 10;
+var 𫠞_ = 12;
 ```
 
 ### Diagnostics

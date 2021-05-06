@@ -139,7 +139,8 @@ function* g() { let x = yield 3; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

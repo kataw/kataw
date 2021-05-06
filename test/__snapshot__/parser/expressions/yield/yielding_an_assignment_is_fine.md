@@ -148,7 +148,8 @@ function* g(x) { yield x = 3; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

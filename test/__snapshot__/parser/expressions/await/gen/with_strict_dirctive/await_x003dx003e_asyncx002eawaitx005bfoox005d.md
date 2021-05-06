@@ -106,7 +106,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ await => async.awaitfoo;
 ```
 
 ### Diagnostics

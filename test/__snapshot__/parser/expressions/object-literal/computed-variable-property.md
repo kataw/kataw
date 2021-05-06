@@ -112,7 +112,8 @@ var x = {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = { : foo };
 ```
 
 ### Diagnostics

@@ -97,7 +97,8 @@ const {} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {} = obj;
 ```
 
 ### Diagnostics

@@ -90,7 +90,8 @@ export default { foo: 1 };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default { foo: 1 };
 ```
 
 ### Diagnostics

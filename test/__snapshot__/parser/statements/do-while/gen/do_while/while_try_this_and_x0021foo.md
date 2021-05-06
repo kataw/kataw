@@ -156,7 +156,12 @@ do while try this and !foo while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while () try {
+    } try{
+    }
+ (foo);
+while () ;
 ```
 
 ### Diagnostics

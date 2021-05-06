@@ -140,7 +140,10 @@ let x = () => import {x} from "y"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x =  () => ;
+from;
+"\"y\"";
 ```
 
 ### Diagnostics

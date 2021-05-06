@@ -153,7 +153,9 @@ for ({a: b.c}.foo in d) e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in d)
+  e;
 ```
 
 ### Diagnostics

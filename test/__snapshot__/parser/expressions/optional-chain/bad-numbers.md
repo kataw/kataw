@@ -70,7 +70,8 @@ a?.200
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? 200  ;
 ```
 
 ### Diagnostics

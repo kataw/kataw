@@ -4584,7 +4584,55 @@ a = { y: x = 1 } = b;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ key: {} });
+({ key: { a } = x });
+({ a: b } = obj);
+({ 1: {}.b ? c : d });
+({ a: { prop: 1 }.prop } = {});
+({ 1: b });
+({ : b });
+({ a: b });
+({ async: (await) ? yield : foo });
+({  });
+({ key: bar = x });
+({  });
+({ , x: 1 });
+({ ,  });
+({ "\"x\"": y + z });
+ ({ "\"x\"": [y] }) => x;
+({ "\"x\"": { y: z } });
+x({ : b, : d } = obj);
+({ l: 50.foo } = x);
+a = { "\"b\"": c = d };
+({ x: let });
+({ x: let } = null);
+s = { "\"foo\"": this };
+x({  });
+({ a = 42, : c.d } = e);
+x({ ,  });
+({ ...[a, b] });
+x = { a: 1, ...y, b: 1 };
+x({  });
+x({  });
+({ : y, ...x } = right());
+({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
+({ y });
+({  });
+x = { async: b }({  });
+({  });
+({  });
+({  });
+({ get: 0 });
+({ if: 4 });
+({  });
+x = {  };
+x = {  };
+x = { foo: x };
+x = { "\"x\"": { a: y + x } };
+a = { w, a: x } = b;
+a = { ...src.y.x } = b;
+a = { y: x = 1 } = b;
 ```
 
 ### Diagnostics

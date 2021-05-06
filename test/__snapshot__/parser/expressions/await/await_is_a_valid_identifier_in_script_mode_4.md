@@ -62,7 +62,8 @@ await = 16
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await = 16;
 ```
 
 ### Diagnostics

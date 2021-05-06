@@ -187,7 +187,10 @@ var af = (x, ...y) => { return [x, y.length]; };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var af =  () => {
+  return [x, y.length];
+};
 ```
 
 ### Diagnostics

@@ -95,7 +95,8 @@ wrap({15:b});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ 15: b });
 ```
 
 ### Diagnostics

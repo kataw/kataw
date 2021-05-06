@@ -171,7 +171,10 @@ class x extends y { constructor() { super(this); } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

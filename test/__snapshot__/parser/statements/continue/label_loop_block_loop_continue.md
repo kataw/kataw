@@ -132,7 +132,8 @@ foo: while(z) { while(z) continue foo }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: while (z) {}
 ```
 
 ### Diagnostics

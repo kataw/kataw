@@ -124,7 +124,8 @@ function f(){ `use strict`; with (x) y; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

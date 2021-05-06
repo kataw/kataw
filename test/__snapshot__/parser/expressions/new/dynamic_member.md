@@ -69,7 +69,8 @@ new Foo["bar"]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ Foo"\"bar\""();
 ```
 
 ### Diagnostics

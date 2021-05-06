@@ -137,7 +137,8 @@ for ({x=y}=x of x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ({ x = y } = x of x);
 ```
 
 ### Diagnostics

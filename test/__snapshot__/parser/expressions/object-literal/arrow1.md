@@ -95,7 +95,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ 790: this }) => x;
 ```
 
 ### Diagnostics

@@ -98,7 +98,11 @@ throw {x} finally
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+throw { x };
+ {
+} {
+}
 ```
 
 ### Diagnostics

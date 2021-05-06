@@ -127,7 +127,11 @@ switch([x = y]) { case y: foo }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch([x = y]
+  case y:
+    foo;
+ 
 ```
 
 ### Diagnostics

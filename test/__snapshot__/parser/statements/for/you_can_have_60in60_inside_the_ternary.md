@@ -140,7 +140,8 @@ for (true ? a in b : {}; false; ) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ; false);
 ```
 
 ### Diagnostics

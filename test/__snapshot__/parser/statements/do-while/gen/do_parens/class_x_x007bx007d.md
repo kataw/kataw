@@ -99,7 +99,9 @@ do( class x {} while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do (class {});
+while ();
 ```
 
 ### Diagnostics

@@ -541,7 +541,14 @@ import { a as b } from 'm.js';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  a asb }  ;
+ n  ;
+  a asb }  ;
+ n  ;
+  a  b } from ;
+ * as   ;
+  a asb }  ;
 ```
 
 ### Diagnostics

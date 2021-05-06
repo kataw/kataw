@@ -178,7 +178,8 @@ async r => result = [...{ x = await x }] = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async r => result = [...{ x = await x }] = y;
 ```
 
 ### Diagnostics

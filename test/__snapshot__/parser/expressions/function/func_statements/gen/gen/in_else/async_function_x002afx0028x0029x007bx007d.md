@@ -130,7 +130,9 @@ else async function *f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (x) x;
+else 
 ```
 
 ### Diagnostics

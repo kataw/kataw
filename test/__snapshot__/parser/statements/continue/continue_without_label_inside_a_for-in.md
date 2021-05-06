@@ -75,7 +75,9 @@ for (x in y) continue
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in y)
+  continue;
 ```
 
 ### Diagnostics

@@ -95,7 +95,9 @@ let ...a = 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let;
+a = 1;
 ```
 
 ### Diagnostics

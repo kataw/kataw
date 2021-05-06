@@ -83,7 +83,8 @@ class A extends `temp {waitforit} late` {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
 ```
 
 ### Diagnostics

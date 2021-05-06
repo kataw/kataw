@@ -454,7 +454,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ...x = y });
+({ ...x + y });
+({ ...x, ...y });
+({ ...x.y } = z);
+({ ...x, y });
+([{ x = y }] = z);
 ```
 
 ### Diagnostics

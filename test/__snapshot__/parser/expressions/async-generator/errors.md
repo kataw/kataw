@@ -7773,7 +7773,79 @@ async function * gen() {class C extends await { }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"var yield;\"", async function* gen() {
+    var await;
+  };
+
+
+
+
+
+
+// The name of the NFE is bound in the generator, which does not permit
+// yield or await to be identifiers.
+
+
+// Yield and Await aren't valid as a formal parameter for generators.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Yield binds very loosely, so this parses as "yield (3 + yield 4)} which
+// is invalid.
+
+
+
+// Parses as yield (/ yield): invalid.
+
+
+
+// Invalid (no newline allowed between yield and *).
+
+n * 3;
+// Invalid (we see a newline, so we parse {yield:42} as a statement, not an
+// object literal, and yield is not a valid label).
+
+n;
+{
+  yield: 42;
+}
+ /* comment */
+n;
+{
+  yield: 42;
+}
+
+[42];
+
+[42];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ### Diagnostics

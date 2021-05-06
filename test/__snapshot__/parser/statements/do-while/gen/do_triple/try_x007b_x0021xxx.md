@@ -229,7 +229,15 @@ do do do try { !xxx while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do try {
+        xxx;
+        while () while () while () ;
+      } try{
+      }
+     ();
+   ();
+ ();
 ```
 
 ### Diagnostics

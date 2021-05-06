@@ -228,7 +228,10 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

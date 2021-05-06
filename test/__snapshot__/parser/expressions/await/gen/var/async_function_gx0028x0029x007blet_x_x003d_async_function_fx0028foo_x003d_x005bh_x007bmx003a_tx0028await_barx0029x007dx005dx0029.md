@@ -412,7 +412,11 @@ var await; var f = (async function() { async function g(){let x = async function
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+
+  });
 ```
 
 ### Diagnostics

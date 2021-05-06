@@ -231,7 +231,8 @@ a?.b?.c?.(d)?.[e].f?.g
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ;
 ```
 
 ### Diagnostics

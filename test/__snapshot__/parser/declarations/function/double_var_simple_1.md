@@ -130,7 +130,11 @@ let {x, y} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  x,
+  y
+} = obj;
 ```
 
 ### Diagnostics

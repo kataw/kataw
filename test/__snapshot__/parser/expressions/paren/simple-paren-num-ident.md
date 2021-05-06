@@ -124,7 +124,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(0, a);
+(0, (0, a));
 ```
 
 ### Diagnostics

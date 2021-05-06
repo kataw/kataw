@@ -104,7 +104,8 @@ s = {s: new}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+s = { s:  () };
 ```
 
 ### Diagnostics

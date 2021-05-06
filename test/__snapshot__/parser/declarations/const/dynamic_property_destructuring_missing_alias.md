@@ -134,7 +134,10 @@ const {[x]} = z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  :
+} = z;
 ```
 
 ### Diagnostics

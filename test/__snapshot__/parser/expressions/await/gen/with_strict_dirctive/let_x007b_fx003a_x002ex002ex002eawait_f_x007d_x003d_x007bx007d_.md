@@ -150,7 +150,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  f: ,
+  f
+} = {};
 ```
 
 ### Diagnostics

@@ -106,7 +106,11 @@ switch (true) { default: const x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(true
+  default
+    const x;
+ 
 ```
 
 ### Diagnostics

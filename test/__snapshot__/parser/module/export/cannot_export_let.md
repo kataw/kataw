@@ -94,7 +94,8 @@ export var let = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ var let = x;
 ```
 
 ### Diagnostics

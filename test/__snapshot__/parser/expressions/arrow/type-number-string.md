@@ -76,7 +76,9 @@ type number = string;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+type;
+number = string;
 ```
 
 ### Diagnostics

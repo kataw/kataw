@@ -73,7 +73,8 @@ new fooo.bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ fooo().bar;
 ```
 
 ### Diagnostics

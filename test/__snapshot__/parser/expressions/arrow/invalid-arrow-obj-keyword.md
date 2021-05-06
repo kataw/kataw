@@ -138,7 +138,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ ({ const }) => x;
+ ({ debugger }) => x;
 ```
 
 ### Diagnostics

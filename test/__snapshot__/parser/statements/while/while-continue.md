@@ -81,7 +81,8 @@ while (true) { continue /* Multiline\nComment */there; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (true) {}
 ```
 
 ### Diagnostics

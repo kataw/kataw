@@ -109,7 +109,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[/x/g.length] = x;
 ```
 
 ### Diagnostics

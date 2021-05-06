@@ -69,7 +69,8 @@ await => async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ await => async;
 ```
 
 ### Diagnostics

@@ -88,7 +88,8 @@ y/[]=x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+y / [] = x;
 ```
 
 ### Diagnostics

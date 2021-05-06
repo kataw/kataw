@@ -116,7 +116,8 @@ async _ => _
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async _ => _ / foo / ;
 ```
 
 ### Diagnostics

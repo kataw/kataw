@@ -62,7 +62,9 @@ xxx\A
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+xxx;
+A;
 ```
 
 ### Diagnostics

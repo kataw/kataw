@@ -130,7 +130,8 @@ z(z(z(a&&=)));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+z(z(z(a &&= )));
 ```
 
 ### Diagnostics

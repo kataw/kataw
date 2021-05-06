@@ -117,7 +117,8 @@ var [yield] = [42];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var [yield] = [42];
 ```
 
 ### Diagnostics

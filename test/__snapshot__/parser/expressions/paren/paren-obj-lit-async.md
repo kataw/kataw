@@ -173,7 +173,8 @@ x({foo(){}, async bar(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ ,  });
 ```
 
 ### Diagnostics

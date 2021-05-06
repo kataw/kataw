@@ -107,7 +107,11 @@ class x extends debugger {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+debugger;
+{
+}
 ```
 
 ### Diagnostics

@@ -111,7 +111,8 @@ foo(async async => ok).bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async async => ok).bar;
 ```
 
 ### Diagnostics

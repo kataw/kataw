@@ -133,7 +133,8 @@ for (function(){ }[foo] of x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (function() {}foo of x);
 ```
 
 ### Diagnostics

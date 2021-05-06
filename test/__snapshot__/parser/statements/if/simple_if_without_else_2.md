@@ -82,7 +82,9 @@ if (foo) bar; else doo;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (foo) bar;
+else doo;
 ```
 
 ### Diagnostics

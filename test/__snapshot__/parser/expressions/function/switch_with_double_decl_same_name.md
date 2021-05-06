@@ -191,7 +191,13 @@ switch (0) {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(0
+  case 1:
+
+  default
+
+ 
 ```
 
 ### Diagnostics

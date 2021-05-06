@@ -161,7 +161,8 @@ f = ([[,] = g()]) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f =  ([[,] = g()]) => {};
 ```
 
 ### Diagnostics

@@ -54,7 +54,8 @@ new true
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ true();
 ```
 
 ### Diagnostics

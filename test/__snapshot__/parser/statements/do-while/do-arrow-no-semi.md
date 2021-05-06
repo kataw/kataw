@@ -98,7 +98,9 @@ while(y)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do  x => {};
+while (y);
 ```
 
 ### Diagnostics

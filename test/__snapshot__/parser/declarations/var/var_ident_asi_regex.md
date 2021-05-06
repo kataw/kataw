@@ -138,7 +138,9 @@ var q
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var q;
+ / d / ;
 ```
 
 ### Diagnostics

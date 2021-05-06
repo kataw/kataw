@@ -100,7 +100,11 @@ class A {*=f(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+f();
+{
+}
 ```
 
 ### Diagnostics

@@ -154,7 +154,8 @@ function *f(){   for (yield x in y);   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

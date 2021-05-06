@@ -184,7 +184,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[a = [b] = c, { : e }, f] = g;
 ```
 
 ### Diagnostics

@@ -159,7 +159,10 @@ class C { *method() { new super(); } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

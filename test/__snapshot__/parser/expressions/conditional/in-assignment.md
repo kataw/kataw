@@ -76,7 +76,8 @@ x = z();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = z();
 ```
 
 ### Diagnostics

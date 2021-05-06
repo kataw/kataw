@@ -121,7 +121,11 @@ function foo():number{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+number;
+{
+}
 ```
 
 ### Diagnostics

@@ -98,7 +98,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ obj: x, ...a });
 ```
 
 ### Diagnostics

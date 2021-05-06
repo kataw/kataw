@@ -113,7 +113,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foob;
+쒁r = 0;
 ```
 
 ### Diagnostics

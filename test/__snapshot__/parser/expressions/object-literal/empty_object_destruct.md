@@ -91,7 +91,8 @@ x({}=obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({} = obj);
 ```
 
 ### Diagnostics

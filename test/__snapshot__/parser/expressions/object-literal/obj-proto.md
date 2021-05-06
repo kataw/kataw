@@ -847,7 +847,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ __proto__: null,  });
+({ __proto__: null,  });
+({ __proto__: null,  });
+({ "\"__proto__\"": null, ,  });
+({ "\"__proto__\"": null,  });
+({ "\"__proto__\"": null,  });
+({ "\"__proto__\"": null, __proto__ });
+({ __proto__, __proto__ });
 ```
 
 ### Diagnostics

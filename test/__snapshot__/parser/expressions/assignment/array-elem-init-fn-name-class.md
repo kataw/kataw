@@ -282,7 +282,10 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [xCls = class {}, cls = class {}, xCls2 = class {
+    static
+  }] = vals;
 ```
 
 ### Diagnostics

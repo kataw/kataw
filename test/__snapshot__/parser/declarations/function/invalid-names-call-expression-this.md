@@ -137,7 +137,8 @@ function fn() { (() => this)().#x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

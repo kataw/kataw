@@ -138,7 +138,8 @@ for (var r == y in x );
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ;  == y in x);
 ```
 
 ### Diagnostics

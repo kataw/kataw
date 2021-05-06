@@ -178,7 +178,8 @@ function* foo(a = function* foo() { yield b }) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

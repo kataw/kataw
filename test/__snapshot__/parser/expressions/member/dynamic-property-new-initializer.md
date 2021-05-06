@@ -157,7 +157,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[ x()y = a + b] = z;
 ```
 
 ### Diagnostics

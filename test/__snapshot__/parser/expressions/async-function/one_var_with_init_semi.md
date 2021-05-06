@@ -97,7 +97,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[foo = A] = arr;
 ```
 
 ### Diagnostics

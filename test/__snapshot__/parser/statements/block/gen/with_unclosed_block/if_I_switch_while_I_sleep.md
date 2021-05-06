@@ -204,7 +204,20 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  if (I) switch(
+
+  while (I) sleep;
+}
 ```
 
 ### Diagnostics

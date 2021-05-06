@@ -195,7 +195,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ a, ...obj } = foo);
+({ a: b, ...obj } = foo);
 ```
 
 ### Diagnostics

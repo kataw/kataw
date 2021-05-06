@@ -144,7 +144,13 @@ do( catch try { while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do ();
+ ();
+try {
+  while () ;
+} try{
+}
 ```
 
 ### Diagnostics

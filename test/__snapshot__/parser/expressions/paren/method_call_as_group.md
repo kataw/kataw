@@ -138,7 +138,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ident: [foo, bar].join("\"\"") });
 ```
 
 ### Diagnostics

@@ -279,7 +279,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ a, a: a, a: a = a, : { a }, a: some_call()a, a: this.a } = 0);
 ```
 
 ### Diagnostics

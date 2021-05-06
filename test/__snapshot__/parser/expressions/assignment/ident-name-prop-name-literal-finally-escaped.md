@@ -153,7 +153,8 @@ var y = { \u0066inally: x } = { finally: 42 };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var y = { finally: x } = { finally: 42 };
 ```
 
 ### Diagnostics

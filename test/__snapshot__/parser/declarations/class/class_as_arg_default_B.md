@@ -169,7 +169,8 @@ f = ([xCls = class X {}]) => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f =  ([xCls = class {}]) => {};
 ```
 
 ### Diagnostics

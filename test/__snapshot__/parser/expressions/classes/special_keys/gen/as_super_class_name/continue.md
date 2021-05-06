@@ -114,7 +114,11 @@ class x extends continue {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+continue ;
+{
+}
 ```
 
 ### Diagnostics

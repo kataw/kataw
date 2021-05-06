@@ -129,7 +129,10 @@ var foo; export {[foo]}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo;
+ {};
+[foo];
 ```
 
 ### Diagnostics

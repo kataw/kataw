@@ -138,7 +138,10 @@ async function f(){ await \n x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+n;
+x;
 ```
 
 ### Diagnostics

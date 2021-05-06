@@ -114,7 +114,11 @@ async () => {  \u0069nstanceof = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+     inctanceof ;
+}
+x;
 ```
 
 ### Diagnostics

@@ -99,7 +99,11 @@ class x {null: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+x;
 ```
 
 ### Diagnostics

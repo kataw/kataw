@@ -130,7 +130,11 @@ switch (x) { case x: const y = x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case x:
+    const y = x;
+ 
 ```
 
 ### Diagnostics

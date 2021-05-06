@@ -135,7 +135,10 @@ class x { get constructor(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

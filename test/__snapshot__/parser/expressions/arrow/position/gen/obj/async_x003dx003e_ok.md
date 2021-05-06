@@ -124,7 +124,8 @@ x = {arrow: async => ok}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow: async async => ok };
 ```
 
 ### Diagnostics

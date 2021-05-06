@@ -150,7 +150,8 @@ x({[a]:b, [15]:d}=obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ : b, : d } = obj);
 ```
 
 ### Diagnostics

@@ -124,7 +124,10 @@ let {a:=c} = z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  a:
+} = z;
 ```
 
 ### Diagnostics

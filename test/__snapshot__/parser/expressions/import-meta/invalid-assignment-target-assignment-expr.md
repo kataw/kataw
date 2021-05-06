@@ -78,7 +78,8 @@ import.meta = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = 0;
 ```
 
 ### Diagnostics

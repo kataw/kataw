@@ -194,7 +194,8 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

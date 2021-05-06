@@ -228,7 +228,8 @@ x({set [foo](b){}, set [bar](d){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ ,  });
 ```
 
 ### Diagnostics

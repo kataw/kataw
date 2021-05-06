@@ -135,7 +135,10 @@ var {[x]} = z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  :
+} = z;
 ```
 
 ### Diagnostics

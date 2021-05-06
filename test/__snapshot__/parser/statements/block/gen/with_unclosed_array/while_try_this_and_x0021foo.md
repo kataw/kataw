@@ -165,7 +165,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [];
+  while () try {
+    } try{
+    }
+  and;
+  foo;
+}
 ```
 
 ### Diagnostics

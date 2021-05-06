@@ -209,7 +209,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ a } &&= b)({ a } ||= b)({ a } => b);
 ```
 
 ### Diagnostics

@@ -89,7 +89,8 @@ new new A().foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  A()().foo;
 ```
 
 ### Diagnostics

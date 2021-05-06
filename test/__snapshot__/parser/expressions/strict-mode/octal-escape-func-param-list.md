@@ -150,7 +150,13 @@ function foo(p\141ckage) { "use strict"; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+141;
+ckage;
+{
+  "\"use strict\"";
+}
 ```
 
 ### Diagnostics

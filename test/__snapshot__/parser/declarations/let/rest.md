@@ -102,7 +102,8 @@ let [...a] = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [...a] = 0;
 ```
 
 ### Diagnostics

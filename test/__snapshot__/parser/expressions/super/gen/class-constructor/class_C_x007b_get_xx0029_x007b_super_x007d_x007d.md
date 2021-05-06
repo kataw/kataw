@@ -214,7 +214,13 @@ class C { constructor() { class C { get x) { super; } } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+{
+  ;
+}
 ```
 
 ### Diagnostics

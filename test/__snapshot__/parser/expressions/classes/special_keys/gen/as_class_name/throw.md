@@ -88,7 +88,9 @@ class throw {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+throw {};
 ```
 
 ### Diagnostics

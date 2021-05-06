@@ -139,7 +139,13 @@ class C { static #constructor }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+class {
+
+}
 ```
 
 ### Diagnostics

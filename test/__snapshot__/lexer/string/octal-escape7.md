@@ -48,7 +48,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\207";
 ```
 
 ### Diagnostics

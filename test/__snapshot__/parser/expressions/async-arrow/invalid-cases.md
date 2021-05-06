@@ -2230,7 +2230,79 @@ async ([a]:string)=>c;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(a, ...)
+[c];
+{
+}
+async;
+32;
+{
+}
+async x => ();
+ {
+} {
+}
+1;
+async;
+if () ;
+{
+}
+async(foo ? bar : baz)
+{
+}
+async enum => 1;
+async;
+{
+}
+a + async () => {};
+async async => ;
+();
+1;
+let f = a + b + async () => d;
+async()
+ foo10 => 1;
+();
+1;
+();
+ foo30 => 1;
+();
+1;
+();
+ foo16 => 1;
+();
+1;
+let f = async;
+n(g);
+g;
+let f = async;
+n(g);
+g;
+var aaf = async;
+n(x, y);
+{
+}
+async(a, b = await, 1)
+{
+}
+async () => {
+  await ;
+}
+{
+}
+async(a, b = await, 1)
+{
+}
+
+async await => {};
+async (a, await) => {}
+async () => {
+  1;
+}
+a: b;
+async({ a = 1 }, { b = 2 } = {}, { c = 3 } = {})
+async ([a]) => c
+
 ```
 
 ### Diagnostics

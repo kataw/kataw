@@ -140,7 +140,13 @@ class x {[x]z){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+}
+{
+}
 ```
 
 ### Diagnostics

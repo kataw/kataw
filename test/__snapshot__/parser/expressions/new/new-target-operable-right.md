@@ -120,7 +120,8 @@ function f(){ foo + new.target }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

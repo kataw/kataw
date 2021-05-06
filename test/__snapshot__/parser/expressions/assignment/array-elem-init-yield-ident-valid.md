@@ -301,7 +301,12 @@ result = [ x = yield ] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var yield = 4;
+var x;
+var result;
+var vals = [];
+result = [x = yield] = vals;
 ```
 
 ### Diagnostics

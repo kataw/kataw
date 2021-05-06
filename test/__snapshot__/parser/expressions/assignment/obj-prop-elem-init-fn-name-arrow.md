@@ -160,7 +160,8 @@ result = { x: arrow = () => {} } = {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = { x: arrow =  () => {} } = {};
 ```
 
 ### Diagnostics

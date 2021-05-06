@@ -99,7 +99,10 @@ async (a, ...b+b=c) => a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(a, ...)
+c;
+a;
 ```
 
 ### Diagnostics

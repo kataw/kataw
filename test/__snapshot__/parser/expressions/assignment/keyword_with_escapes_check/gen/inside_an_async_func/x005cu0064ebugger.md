@@ -94,7 +94,11 @@ async () => {  \u0064ebugger = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  debugger;
+}
+x;
 ```
 
 ### Diagnostics

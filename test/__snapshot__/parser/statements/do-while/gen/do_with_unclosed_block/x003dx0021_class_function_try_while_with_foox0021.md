@@ -256,7 +256,16 @@ do {} while (x) { =! class function try while with foo!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do {} while (x);
+{
+}
+class {};
+
+try {
+} try{
+}
+
 ```
 
 ### Diagnostics

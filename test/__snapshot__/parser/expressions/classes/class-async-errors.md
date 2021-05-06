@@ -1408,7 +1408,58 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+0;
+(class {
+
+  });
+0;
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+    static
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+0;
+(class {
+
+  });
+0;
+
 ```
 
 ### Diagnostics

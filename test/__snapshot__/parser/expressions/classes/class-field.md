@@ -4101,7 +4101,184 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class {
+
+
+  })(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
+(class {
+
+
+  });
 ```
 
 ### Diagnostics

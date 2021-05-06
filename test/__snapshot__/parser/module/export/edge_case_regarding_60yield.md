@@ -74,7 +74,9 @@ export default yield x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default yield;
+x;
 ```
 
 ### Diagnostics

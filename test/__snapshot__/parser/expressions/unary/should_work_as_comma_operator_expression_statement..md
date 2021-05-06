@@ -84,7 +84,8 @@ delete foo.bar, z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo.bar, z;
 ```
 
 ### Diagnostics

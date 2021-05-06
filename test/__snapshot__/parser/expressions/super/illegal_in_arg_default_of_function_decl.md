@@ -120,7 +120,8 @@ function f(x=super.foo){ }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

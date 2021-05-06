@@ -58,7 +58,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+debugger;
+x;
 ```
 
 ### Diagnostics

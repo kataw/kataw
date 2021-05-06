@@ -96,7 +96,8 @@ foo`x${a}y${b}z`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo`x${a}y${b}z`;
 ```
 
 ### Diagnostics

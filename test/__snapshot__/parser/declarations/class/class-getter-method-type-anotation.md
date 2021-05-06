@@ -135,7 +135,10 @@ class Foo {get fooProp():number{}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

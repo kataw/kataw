@@ -146,7 +146,8 @@ let o = {f(await){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let o = {  };
 ```
 
 ### Diagnostics

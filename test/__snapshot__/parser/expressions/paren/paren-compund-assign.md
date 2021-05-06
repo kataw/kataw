@@ -228,7 +228,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(x) = (y) += z;
+(x) = (y) = z;
+(x) += (y) = z;
 ```
 
 ### Diagnostics

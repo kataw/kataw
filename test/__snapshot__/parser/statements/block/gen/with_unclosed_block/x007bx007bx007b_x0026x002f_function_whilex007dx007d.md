@@ -196,7 +196,24 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+  {
+    {
+      {
+           => / function while}};
+      }
+    }
+  }
+}
 ```
 
 ### Diagnostics

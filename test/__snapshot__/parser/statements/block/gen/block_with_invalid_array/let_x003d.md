@@ -134,7 +134,14 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  [];
+   {
+  } {
+  }
+  let = ;
+}
 ```
 
 ### Diagnostics

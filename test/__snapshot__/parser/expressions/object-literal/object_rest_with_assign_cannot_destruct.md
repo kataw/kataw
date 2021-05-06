@@ -129,7 +129,8 @@ x={...x=y}=z
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { ...x = y } = z;
 ```
 
 ### Diagnostics

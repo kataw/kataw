@@ -160,7 +160,8 @@ function a<string>(x: string): string {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

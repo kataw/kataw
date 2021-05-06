@@ -189,7 +189,13 @@ x@{x9}@+@{x9}@y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x;
+class {}
+class {}
+class {}
+@y
+class {}
 ```
 
 ### Diagnostics

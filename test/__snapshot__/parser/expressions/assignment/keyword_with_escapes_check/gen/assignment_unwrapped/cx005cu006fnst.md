@@ -65,7 +65,9 @@ c\u006fnst = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const ;
+x;
 ```
 
 ### Diagnostics

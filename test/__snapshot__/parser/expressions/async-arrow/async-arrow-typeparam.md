@@ -171,7 +171,9 @@ async (): string => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? async () => {} : b;
+async () => {}
 ```
 
 ### Diagnostics

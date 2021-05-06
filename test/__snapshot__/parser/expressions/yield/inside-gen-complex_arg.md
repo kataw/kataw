@@ -129,7 +129,8 @@ function* f(){ yield x + y; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

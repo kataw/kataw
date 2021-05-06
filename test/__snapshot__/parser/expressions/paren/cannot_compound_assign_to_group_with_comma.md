@@ -84,7 +84,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(a, b) += 2;
 ```
 
 ### Diagnostics

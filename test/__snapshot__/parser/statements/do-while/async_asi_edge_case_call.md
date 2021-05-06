@@ -78,7 +78,9 @@ do async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do async()
+while (y);
 ```
 
 ### Diagnostics

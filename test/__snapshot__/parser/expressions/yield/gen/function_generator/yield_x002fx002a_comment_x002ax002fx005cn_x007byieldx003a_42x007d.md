@@ -219,7 +219,12 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ /* comment */
+n;
+{
+  yield: 42;
+}
 ```
 
 ### Diagnostics

@@ -104,7 +104,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ : 10 });
 ```
 
 ### Diagnostics

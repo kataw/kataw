@@ -171,7 +171,8 @@ async function f() { class C { aaa = await } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

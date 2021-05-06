@@ -326,7 +326,10 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for(; ;     < 1) {}
+for(; ;     < 1) {}
+
 ```
 
 ### Diagnostics

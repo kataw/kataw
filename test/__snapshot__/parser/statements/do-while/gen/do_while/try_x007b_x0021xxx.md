@@ -151,7 +151,13 @@ do try { !xxx while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do try {
+    xxx;
+    while () ;
+  } try{
+  }
+ ();
 ```
 
 ### Diagnostics

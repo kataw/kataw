@@ -112,7 +112,10 @@ async () => { await import(x) }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () => {
+  await ;
+}
 ```
 
 ### Diagnostics

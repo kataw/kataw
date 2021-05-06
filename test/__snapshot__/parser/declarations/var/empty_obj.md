@@ -98,7 +98,8 @@ var {} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {} = obj;
 ```
 
 ### Diagnostics

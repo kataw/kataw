@@ -2578,7 +2578,62 @@ let x = { foo(){ super(); } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+class  {}
+y;
+{
+}
+class  {}
+class  {}
+class {
+
+
+}
+foo;
+{
+}
+class {
+
+}
+foo();
+{
+}
+class {
+
+}
+class {
+
+
+}
+ ()  ;
+class {
+
+}
+class {
+
+}
+class {
+
+}
+class {
+
+}
+foo;
+{
+}
+x = { foo: function() {
+    .foo;
+  } };
+g = function f(x = ()) {};
+g = { f: function f() {
+    ();
+  } };
+x = {  };
+
+
+const x = 5 + ();
+let x = {  };
 ```
 
 ### Diagnostics

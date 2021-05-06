@@ -98,7 +98,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`foo ${a} and ${b} and ${c} baz`;
 ```
 
 ### Diagnostics

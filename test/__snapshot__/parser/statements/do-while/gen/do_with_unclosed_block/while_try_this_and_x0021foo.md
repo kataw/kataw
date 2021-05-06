@@ -184,7 +184,15 @@ do {} while (x) { while try this and !foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do {} while (x);
+{
+  while () try {
+    } try{
+    }
+  and;
+  foo;
+}
 ```
 
 ### Diagnostics

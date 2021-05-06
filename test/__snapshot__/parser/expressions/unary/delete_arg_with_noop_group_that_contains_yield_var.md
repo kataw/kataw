@@ -121,7 +121,8 @@ delete (((((foo(yield)))))).bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(foo(yield)).bar;
 ```
 
 ### Diagnostics

@@ -113,7 +113,11 @@ do while [catch] /**/ /x do while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while ([])  {
+    } {
+    } /**/
+ ();
 ```
 
 ### Diagnostics

@@ -232,7 +232,10 @@ class C { constructor() { class C { method() { super(); } } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

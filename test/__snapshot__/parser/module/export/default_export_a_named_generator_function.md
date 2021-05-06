@@ -104,7 +104,8 @@ export default function* f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default ;
 ```
 
 ### Diagnostics

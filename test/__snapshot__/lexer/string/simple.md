@@ -106,7 +106,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\"";
+"\"some content\"";
+"\"var\"";
+"\"x / y\"";
+"\"raw lower unicode @{x200}\"";
 ```
 
 ### Diagnostics

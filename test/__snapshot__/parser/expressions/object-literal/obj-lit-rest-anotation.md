@@ -119,7 +119,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+();
+    < number > ;
+rest;
 ```
 
 ### Diagnostics

@@ -358,7 +358,11 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+
+  });
 ```
 
 ### Diagnostics

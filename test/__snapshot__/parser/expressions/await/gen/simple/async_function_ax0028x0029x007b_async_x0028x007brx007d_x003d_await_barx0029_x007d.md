@@ -169,7 +169,8 @@ async function a(){     async ({r} = await bar);     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

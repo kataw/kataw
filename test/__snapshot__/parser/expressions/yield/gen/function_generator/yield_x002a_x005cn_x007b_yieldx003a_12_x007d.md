@@ -238,7 +238,12 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
+n;
+{
+  yield: 12;
+}
 ```
 
 ### Diagnostics

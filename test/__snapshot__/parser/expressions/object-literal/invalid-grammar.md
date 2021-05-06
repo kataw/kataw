@@ -1901,7 +1901,22 @@ q = {"foo": super = x} = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+q = { x: [(x, y)] } = { x: [] };
+q = { x: [(x, y)] } = {};
+q = { x: [(x, y)] } = { 1: [] = [(q = b)] };
+q = { x: [(x, y)] } = undefined;
+q = { x: [(x, y)] } = null;
+q = { x: [(x, y)] } = 51;
+q = { x: [(x, y)] } = false;
+q = { x: [(x, y)] } = b;
+q = { x: [(x, y)] } = { x: null };
+q = { : {} /= a };
+q = { a: {} /= a };
+q = { a: {}, a };
+q = { "\"foo\"": falqe = q } = x;
+q = { "\"foo\"": null = x } = x;
+q = { "\"foo\"":  = x } = x;
 ```
 
 ### Diagnostics

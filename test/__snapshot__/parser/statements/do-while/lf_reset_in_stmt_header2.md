@@ -130,7 +130,10 @@ while(y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do if ( x => {});
+  else n;
+while (y);
 ```
 
 ### Diagnostics

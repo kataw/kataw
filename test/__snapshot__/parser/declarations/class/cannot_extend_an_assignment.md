@@ -125,7 +125,11 @@ class x extends a = b {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+b;
+{
+}
 ```
 
 ### Diagnostics

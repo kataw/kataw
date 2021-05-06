@@ -174,7 +174,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ (x = y) => {}({ x });
+{
+  "'use strict'";
+}
 ```
 
 ### Diagnostics

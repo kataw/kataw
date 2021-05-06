@@ -473,7 +473,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
+x({ , , , ,  });
 ```
 
 ### Diagnostics

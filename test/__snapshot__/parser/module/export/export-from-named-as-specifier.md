@@ -111,7 +111,8 @@ export {foo as bar} from "foo";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  foo  bar } from ;
 ```
 
 ### Diagnostics

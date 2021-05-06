@@ -110,7 +110,8 @@ while (function* () {} === x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (function*() {} === x);
 ```
 
 ### Diagnostics

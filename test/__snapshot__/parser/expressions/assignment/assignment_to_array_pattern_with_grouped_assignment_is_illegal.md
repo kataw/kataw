@@ -103,7 +103,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[(a = 0)] = 1;
 ```
 
 ### Diagnostics

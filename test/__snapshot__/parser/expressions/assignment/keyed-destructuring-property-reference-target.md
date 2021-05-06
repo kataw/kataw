@@ -1249,7 +1249,13 @@ function targetKey() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var log = [];
+
+
+
+
+({ : target()targetKey() } = source());
 ```
 
 ### Diagnostics

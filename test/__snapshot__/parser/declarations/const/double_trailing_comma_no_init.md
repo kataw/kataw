@@ -84,7 +84,8 @@ const foo,,
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const foo;
 ```
 
 ### Diagnostics

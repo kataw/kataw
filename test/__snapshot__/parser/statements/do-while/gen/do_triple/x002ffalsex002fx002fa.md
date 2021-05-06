@@ -140,7 +140,11 @@ do do do /false//a while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do /false/ / a;
+    while ();
+  while ();
+while ();
 ```
 
 ### Diagnostics

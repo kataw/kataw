@@ -92,7 +92,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  length: 3000;
+} /*{ StatementListItem }*/
+
 ```
 
 ### Diagnostics

@@ -122,7 +122,8 @@ type C = { ...A&B };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

@@ -143,7 +143,8 @@ function a({x = 10}) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

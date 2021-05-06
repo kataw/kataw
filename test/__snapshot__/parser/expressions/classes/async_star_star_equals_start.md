@@ -128,7 +128,13 @@ class A {async **=f(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+f();
+{
+}
 ```
 
 ### Diagnostics

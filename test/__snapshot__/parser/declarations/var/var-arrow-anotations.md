@@ -2229,7 +2229,36 @@ class Array { concat(items:number | string) {}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+var a;
+var a;
+var x = Y;
+var x = fn;
+var foo = bar ?  (foo) => {} : baz;
+var a;
+var foo = bar ? (foo) : number;
+var foo = ( (bar) => bar);
+var foo = ( () => bar);
+var foo = async (bar) => bar;
+var foo = async () => bar;
+var foo = async (foo, bar) => {};
+var foo =  () => bar;
+var a;
+var [x] = ["\"hello\""];
+var {
+  x
+} = { x: "\"hello\"" };
+var {
+  x
+} = { x: "\"hello\"" };
+var a;
+var x = Y;
+var a;
+class {
+
+
+}
 ```
 
 ### Diagnostics

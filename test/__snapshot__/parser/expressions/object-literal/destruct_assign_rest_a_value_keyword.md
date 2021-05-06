@@ -108,7 +108,8 @@ x={...true} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { ...true } = x;
 ```
 
 ### Diagnostics

@@ -578,7 +578,18 @@ Object.defineProperty(this, "x", {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var count = 0;
+var global = this;
+Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
+(function() {
+    assert.throws(ReferenceError,  () => {
+        count;
+        x = (global.x, 2);
+        count;
+      });
+    count;
+  })();
 ```
 
 ### Diagnostics

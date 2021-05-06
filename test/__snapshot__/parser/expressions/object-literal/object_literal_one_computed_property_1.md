@@ -121,7 +121,8 @@ x({[a]:b}=obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ : b } = obj);
 ```
 
 ### Diagnostics

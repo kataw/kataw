@@ -136,7 +136,8 @@ a ? (1 + 2) : (3 + 4)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? (1 + 2) : (3 + 4);
 ```
 
 ### Diagnostics

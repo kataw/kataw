@@ -111,7 +111,8 @@ foo: function x() {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: 
 ```
 
 ### Diagnostics

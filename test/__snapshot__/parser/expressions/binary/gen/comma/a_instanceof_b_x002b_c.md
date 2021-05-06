@@ -102,7 +102,8 @@ x, a instanceof b + c
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x,    inctanceof b + c;
 ```
 
 ### Diagnostics

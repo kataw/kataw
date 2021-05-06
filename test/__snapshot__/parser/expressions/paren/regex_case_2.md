@@ -206,7 +206,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+([/a/g.x]);
+([/a/g.x], [/a/g.x]);
 ```
 
 ### Diagnostics

@@ -75,7 +75,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await = 1;
 ```
 
 ### Diagnostics

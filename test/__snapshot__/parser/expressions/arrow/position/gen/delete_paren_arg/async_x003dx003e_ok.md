@@ -92,7 +92,8 @@ delete (async => ok)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(async async => ok);
 ```
 
 ### Diagnostics

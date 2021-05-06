@@ -133,7 +133,8 @@ function f(a = async async => ok) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

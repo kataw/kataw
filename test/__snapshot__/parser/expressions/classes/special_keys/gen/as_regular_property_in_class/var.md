@@ -99,7 +99,11 @@ class x {var: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
+x;
 ```
 
 ### Diagnostics

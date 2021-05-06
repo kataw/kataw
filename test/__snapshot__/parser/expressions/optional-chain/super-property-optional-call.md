@@ -201,7 +201,10 @@ class Foo extends Base {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

@@ -83,7 +83,8 @@ new 'foo'.__proto__.constructor
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ "'foo'"().__proto__.constructor;
 ```
 
 ### Diagnostics

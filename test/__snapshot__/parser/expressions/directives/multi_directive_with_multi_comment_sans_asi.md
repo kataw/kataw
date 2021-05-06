@@ -57,7 +57,10 @@ xyz*/"bar";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"foo\""; /*abc
+xyz*/
+"\"bar\"";
 ```
 
 ### Diagnostics

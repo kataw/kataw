@@ -83,7 +83,8 @@ new 0x2.__proto__.constructor
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ 0x2().__proto__.constructor;
 ```
 
 ### Diagnostics

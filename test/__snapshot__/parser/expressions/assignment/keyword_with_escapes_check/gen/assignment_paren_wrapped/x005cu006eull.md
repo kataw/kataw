@@ -71,7 +71,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(null = x);
 ```
 
 ### Diagnostics

@@ -144,7 +144,8 @@ x = {arrow: async => {}}.y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow: async async => {} }.y;
 ```
 
 ### Diagnostics

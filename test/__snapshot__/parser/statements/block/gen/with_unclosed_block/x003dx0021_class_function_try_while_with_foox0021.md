@@ -293,7 +293,23 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  {
+  }
+   {
+  } {
+  }
+  x;
+}
+{
+}
+class {};
+
+try {
+} try{
+}
+
 ```
 
 ### Diagnostics

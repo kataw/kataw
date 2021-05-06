@@ -702,7 +702,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ "\"a\"": [b] } = 1 / (d = (a) = a));
+({ "\"a\"": [b] } = 1 / (d = (a) = a), ({ "\"a\"": [b] } = 1 / (d = (a) = a)));
+(x, { "\"a\"": [b] } = 1 / (d = (a) = a));
 ```
 
 ### Diagnostics

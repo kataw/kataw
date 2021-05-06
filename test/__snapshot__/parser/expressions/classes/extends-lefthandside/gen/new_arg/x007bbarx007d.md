@@ -74,7 +74,8 @@ new {bar}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ { bar }();
 ```
 
 ### Diagnostics

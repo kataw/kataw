@@ -88,7 +88,11 @@ class true {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+true;
+{
+}
 ```
 
 ### Diagnostics

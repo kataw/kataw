@@ -65,7 +65,9 @@ do /)finally
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do /)finally;
+ ();
 ```
 
 ### Diagnostics

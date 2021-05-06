@@ -127,7 +127,10 @@ const {[x]};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  :
+};
 ```
 
 ### Diagnostics

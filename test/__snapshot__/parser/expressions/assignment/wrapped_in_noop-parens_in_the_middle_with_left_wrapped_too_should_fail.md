@@ -94,7 +94,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(y) = (1) = x;
 ```
 
 ### Diagnostics

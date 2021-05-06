@@ -60,7 +60,9 @@ await 5;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await;
+5;
 ```
 
 ### Diagnostics

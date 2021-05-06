@@ -265,7 +265,11 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+    var asyncArrow = async async(await ) => 1;
+  });
 ```
 
 ### Diagnostics

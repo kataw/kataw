@@ -246,7 +246,11 @@ var await; var f = (async function() { return async (await) => {}; });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function() {
+    return async async(await ) => {};
+  });
 ```
 
 ### Diagnostics

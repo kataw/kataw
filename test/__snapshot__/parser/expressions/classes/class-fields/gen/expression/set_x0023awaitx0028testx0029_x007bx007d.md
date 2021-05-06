@@ -158,7 +158,10 @@ class C extends Base { set #await(test) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {
+
+}
 ```
 
 ### Diagnostics

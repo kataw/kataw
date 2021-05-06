@@ -737,7 +737,41 @@ class C { f(){ this.#a } #a; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+
+
+
+}
+class {
+
+
+
+
+}
+class {
+
+
+
+
+}
+class {
+
+
+
+
+}
+class {
+
+
+
+}
+class {
+
+
+
+}
 ```
 
 ### Diagnostics

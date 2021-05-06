@@ -197,7 +197,13 @@ do =! class function try while with foo!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do  = class {};
+ ();
+try {
+} try{
+}
+
 ```
 
 ### Diagnostics

@@ -163,7 +163,9 @@ async ({ident: [foo, bar].join("")}) => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async({ ident: [foo, bar].join("\"\"") })
+x;
 ```
 
 ### Diagnostics

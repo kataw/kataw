@@ -105,7 +105,9 @@ var x = ...y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = ;
+y;
 ```
 
 ### Diagnostics

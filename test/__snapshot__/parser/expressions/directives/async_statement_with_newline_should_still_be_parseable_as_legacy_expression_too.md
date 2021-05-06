@@ -66,7 +66,9 @@ async
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(2)
+
 ```
 
 ### Diagnostics

@@ -157,7 +157,8 @@ z(z(z(a ? b : c++)));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+z(z(z(a ? b : c)));
 ```
 
 ### Diagnostics

@@ -1152,7 +1152,36 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(a"'b'", c);
+{
+}
+(c, a"'b'");
+{
+}
+ (...a = b) => b;
+() - a;
+b;
+ ({ x: this }) => {};
+ ({ x: y.z } = a) => b;
+([x].length);
+y;
+(z, [x].length);
+y;
+({}.length);
+y;
+(z, {}.length);
+y;
+({ x: y }.length);
+y;
+(z, { x: y }.length);
+y;
+ ({  }) => 0;
+();
+5;
+{
+}
+ ({ x: , const }) => null;
 ```
 
 ### Diagnostics

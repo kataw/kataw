@@ -121,7 +121,9 @@ class x extends in {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class  {}
+ in {};
 ```
 
 ### Diagnostics

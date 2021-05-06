@@ -111,7 +111,8 @@ if (x) async function *f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (x) 
 ```
 
 ### Diagnostics

@@ -157,7 +157,8 @@ foo(a)(b)(c)(d)(e)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a)(b)(c)(d)(e);
 ```
 
 ### Diagnostics

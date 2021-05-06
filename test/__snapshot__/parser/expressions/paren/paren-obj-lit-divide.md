@@ -747,7 +747,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ a = [b] } = c);
+({ a = [b] } = "\"a\"");
+({ a = [b] } = 1 / (c = d));
+({ a = [b] } = 1 / (d = (e)));
+({ "\"a\"": [b] } = 1 / (d = (e)));
+({ : [b] } = 1 / (d = (e)));
 ```
 
 ### Diagnostics

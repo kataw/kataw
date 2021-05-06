@@ -138,7 +138,11 @@ do do do class x {} while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do do do class {}
+    while ();
+  while ();
+while ();
 ```
 
 ### Diagnostics

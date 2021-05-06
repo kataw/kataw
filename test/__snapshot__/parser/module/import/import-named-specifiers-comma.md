@@ -123,7 +123,8 @@ import {bar, baz,} from "foo";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  bar, baz }  ;
 ```
 
 ### Diagnostics

@@ -95,7 +95,9 @@ class do {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {}
+do {}  ();
 ```
 
 ### Diagnostics

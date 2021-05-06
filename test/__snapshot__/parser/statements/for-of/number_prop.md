@@ -110,7 +110,9 @@ for (456..x of c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (456.x of c)
+  d;
 ```
 
 ### Diagnostics

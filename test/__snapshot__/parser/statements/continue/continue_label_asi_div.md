@@ -127,7 +127,10 @@ x: for(;;) continue x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x: for (;;)
+  continue x;
+ / y;
 ```
 
 ### Diagnostics

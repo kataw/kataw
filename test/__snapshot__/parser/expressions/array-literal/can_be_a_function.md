@@ -141,7 +141,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[function() {}.length] = x;
 ```
 
 ### Diagnostics

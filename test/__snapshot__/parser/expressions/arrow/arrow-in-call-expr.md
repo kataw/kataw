@@ -254,7 +254,10 @@ foo(y,(y) => ok);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo( () => {});
+foo(x,  (y) => {});
+foo(y,  (y) => ok);
 ```
 
 ### Diagnostics

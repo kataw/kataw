@@ -254,7 +254,11 @@ hello();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let hello =  (greeting = "' world'") => {
+  console.log("'hello'" + greeting);
+};
+hello();
 ```
 
 ### Diagnostics

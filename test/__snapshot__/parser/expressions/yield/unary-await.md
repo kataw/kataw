@@ -124,7 +124,12 @@ fuction *f() {  return await yield;  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+fuction * f();
+{
+  return await;
+  yield;
+}
 ```
 
 ### Diagnostics

@@ -249,7 +249,10 @@ class C { set x(_) { var f = function { super(); } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class {
+
+}
 ```
 
 ### Diagnostics

@@ -97,7 +97,8 @@ var af = yield => 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var af =  yield => 1;
 ```
 
 ### Diagnostics

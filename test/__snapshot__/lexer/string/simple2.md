@@ -184,7 +184,17 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\" a \"";
+b;
+"\"";
+"\" a \"";
+b;
+"\" c \"";
+"\" a ' b \"";
+"\" a ' b ' c \"";
+"\" a ` b \"";
+"\" a ` b ` c \"";
 ```
 
 ### Diagnostics

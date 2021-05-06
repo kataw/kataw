@@ -249,7 +249,14 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  a,
+  b = 0,
+  c: ,
+  e: ,
+  :
+} = 0;
 ```
 
 ### Diagnostics

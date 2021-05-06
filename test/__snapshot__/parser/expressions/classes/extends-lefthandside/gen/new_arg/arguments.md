@@ -59,7 +59,8 @@ new arguments
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ arguments();
 ```
 
 ### Diagnostics

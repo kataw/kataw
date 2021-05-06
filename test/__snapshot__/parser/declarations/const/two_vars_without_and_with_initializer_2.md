@@ -137,7 +137,8 @@ const [foo=a, bar=b] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const [foo = a, bar = b] = arr;
 ```
 
 ### Diagnostics

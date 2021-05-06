@@ -164,7 +164,13 @@ do while [catch] async funcion switch!!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do while ([])  {
+    } {
+    }
+ (funcion);
+switch(
+ 
 ```
 
 ### Diagnostics

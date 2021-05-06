@@ -158,7 +158,8 @@ function *g(){ return x + f(yield f); }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

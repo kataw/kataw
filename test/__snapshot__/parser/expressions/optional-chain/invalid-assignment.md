@@ -164,7 +164,9 @@ x?.y = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ =  = 0;
+ =  = 0;
 ```
 
 ### Diagnostics

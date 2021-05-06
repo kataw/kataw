@@ -172,7 +172,8 @@ function *f(){ async (x = z = yield) => {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

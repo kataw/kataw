@@ -429,7 +429,11 @@ var callCount = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let o = { a: 2, b: 3 };
+let executedGetter = false;
+var callCount = 0;
+(function(obj) {}.apply(null, [{ ...o,  }]));
 ```
 
 ### Diagnostics
