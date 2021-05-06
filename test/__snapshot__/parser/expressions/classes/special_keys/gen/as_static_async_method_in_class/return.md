@@ -127,7 +127,7 @@ class x {static async return(){}}
 ```javascript
 
 class {
-  static return() {}
+  async static static return() {}
 }
 ```
 

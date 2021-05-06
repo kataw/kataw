@@ -127,7 +127,7 @@ class x {static get instanceof(){}}
 ```javascript
 
 class {
-  static instanceof() {}
+  static get static instanceof() {}
 }
 ```
 

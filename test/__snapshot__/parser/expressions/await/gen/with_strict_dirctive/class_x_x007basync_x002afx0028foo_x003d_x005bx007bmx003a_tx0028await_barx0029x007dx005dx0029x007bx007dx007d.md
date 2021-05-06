@@ -242,7 +242,7 @@
 ```javascript
 
 class {
-  f(foo = [{ m: t(await bar) }]) {}
+  async f(foo = [{ m: t(await bar) }]) {}
 }
 ```
 

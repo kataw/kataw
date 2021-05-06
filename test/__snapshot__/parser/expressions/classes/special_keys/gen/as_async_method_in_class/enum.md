@@ -122,7 +122,7 @@ class x {async enum(){}}
 ```javascript
 
 class {
-  enum() {}
+  async enum() {}
 }
 ```
 

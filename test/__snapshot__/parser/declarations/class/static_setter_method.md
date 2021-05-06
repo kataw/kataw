@@ -161,7 +161,7 @@ class A {static set 10(x){}}
 ```javascript
 
 class {
-  static 10(x) {}
+  static set static 10(x) {}
 }
 ```
 

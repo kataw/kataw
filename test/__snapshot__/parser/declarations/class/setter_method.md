@@ -156,7 +156,7 @@ class A {set "foo"(x){}}
 ```javascript
 
 class {
-  "\"foo\""(x) {}
+  set "\"foo\""(x) {}
 }
 ```
 

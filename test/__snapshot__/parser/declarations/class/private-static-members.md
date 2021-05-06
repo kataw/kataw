@@ -479,9 +479,9 @@ class Foo {
 
 class {
   static ;
-  static () {}
-  static (x) {}
-  static () {}
+  static get static () {}
+  static set static (x) {}
+  static static () {}
   foo() {
     Foo. += 1;
     Foo. += 1;

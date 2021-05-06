@@ -145,7 +145,7 @@
 ```javascript
 
 (class {
-    static(v) {}
+    set static(v) {}
   });
 ```
 

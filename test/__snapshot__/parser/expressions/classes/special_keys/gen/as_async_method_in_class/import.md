@@ -122,7 +122,7 @@ class x {async import(){}}
 ```javascript
 
 class {
-  import() {}
+  async import() {}
 }
 ```
 

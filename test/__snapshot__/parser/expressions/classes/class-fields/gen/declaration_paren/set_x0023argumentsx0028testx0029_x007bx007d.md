@@ -164,7 +164,7 @@
 ```javascript
 
 (class  {
-    (test) {}
+    set (test) {}
   });
 ```
 

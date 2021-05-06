@@ -127,7 +127,7 @@ class x {async * protected(){}}
 ```javascript
 
 class {
-  protected() {}
+  async protected() {}
 }
 ```
 

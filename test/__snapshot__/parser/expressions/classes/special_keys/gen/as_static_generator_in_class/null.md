@@ -127,7 +127,7 @@ class x {static * null(){}}
 ```javascript
 
 class {
-  static null() {}
+  static static null() {}
 }
 ```
 

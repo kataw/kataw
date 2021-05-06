@@ -127,7 +127,7 @@ class x {static async package(){}}
 ```javascript
 
 class {
-  static package() {}
+  async static static package() {}
 }
 ```
 

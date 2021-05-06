@@ -122,7 +122,7 @@ class x {static set(){}}
 ```javascript
 
 class {
-  static set() {}
+  static static set() {}
 }
 ```
 

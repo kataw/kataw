@@ -127,7 +127,7 @@ class x {static get arguments(){}}
 ```javascript
 
 class {
-  static arguments() {}
+  static get static arguments() {}
 }
 ```
 

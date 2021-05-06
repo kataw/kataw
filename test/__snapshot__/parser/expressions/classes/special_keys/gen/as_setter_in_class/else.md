@@ -141,7 +141,7 @@ class x {set else(x){}}
 ```javascript
 
 class {
-  else(x) {}
+  set else(x) {}
 }
 ```
 

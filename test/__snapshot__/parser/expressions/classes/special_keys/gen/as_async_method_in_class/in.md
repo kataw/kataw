@@ -122,7 +122,7 @@ class x {async in(){}}
 ```javascript
 
 class {
-  in() {}
+  async in() {}
 }
 ```
 

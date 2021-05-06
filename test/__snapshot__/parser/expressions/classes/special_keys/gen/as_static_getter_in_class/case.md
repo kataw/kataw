@@ -127,7 +127,7 @@ class x {static get case(){}}
 ```javascript
 
 class {
-  static case() {}
+  static get static case() {}
 }
 ```
 

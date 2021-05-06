@@ -122,7 +122,7 @@ class x {get enum(){}}
 ```javascript
 
 class {
-  enum() {}
+  get enum() {}
 }
 ```
 

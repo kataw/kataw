@@ -146,7 +146,7 @@ class x {static set while(x){}}
 ```javascript
 
 class {
-  static while(x) {}
+  static set static while(x) {}
 }
 ```
 

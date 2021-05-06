@@ -122,7 +122,7 @@ class x {static import(){}}
 ```javascript
 
 class {
-  static import() {}
+  static static import() {}
 }
 ```
 

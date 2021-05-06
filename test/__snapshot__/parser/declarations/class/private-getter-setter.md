@@ -2120,16 +2120,16 @@ class Foo {
 ```javascript
 
 class {
-  () {
+  get () {
     return  this.foo;
   }
-  (val) {
+  set (val) {
     this.bar = val;
   }
-  () {
+  get () {
     return  this.prop;
   }
-  (val) {
+  set (val) {
     this.prop = val;
   }
   foo(fn) {

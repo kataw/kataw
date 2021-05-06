@@ -10033,90 +10033,81 @@ class {
     () {}
   });
 (class {
-    () {}
+    get () {}
   });
 (class {
-    (foo) {}
-  });
-(class {
-    () {}
+    set (foo) {}
   });
 (class {
     () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
-    () {}
-  });
-(class {
-    () {}
-    (foo) {}
-  });
-(class {
-    () {}
-    () {}
-    (foo) {}
-  });
-(class {
-    () {}
-    () {}
-    (foo) {}
-    (foo) {}
-  });
-(class {
-    (foo) {}
-    (foo) {}
+    async () {}
   });
 (class {
     () {}
     () {}
   });
 (class {
-    () {}
-    static a() {}
+    get () {}
+    set (foo) {}
+  });
+(class {
+    get () {}
+    get () {}
+    set (foo) {}
+  });
+(class {
+    get () {}
+    get () {}
+    set (foo) {}
+    set (foo) {}
+  });
+(class {
+    set (foo) {}
+    set (foo) {}
+  });
+(class {
+    get () {}
+    get () {}
   });
 (class {
     () {}
-    a() {}
+    static static a() {}
   });
 (class {
     () {}
     a() {}
-    static a() {}
   });
 (class {
     () {}
     a() {}
-    static a() {}
+    static static a() {}
   });
 (class {
-    (foo) {}
-    a(foo) {}
-    static a(foo) {}
+    get () {}
+    get a() {}
+    static get static a() {}
   });
 (class {
-    () {}
-    () {}
-  });
-(class {
-    () {}
-    () {}
+    set (foo) {}
+    set a(foo) {}
+    static set static a(foo) {}
   });
 (class {
     () {}
-    () {}
+    get () {}
   });
 (class {
     () {}
+    async () {}
   });
 (class {
     () {}
-  });
-(class {
-    () {}
+    async () {}
   });
 (class {
     () {}
@@ -10140,70 +10131,61 @@ class {
     () {}
   });
 (class {
-    () {}
+    get () {}
   });
 (class {
-    () {}
+    get () {}
   });
 (class {
-    () {}
+    get () {}
   });
 (class {
-    (test) {}
+    get () {}
   });
 (class {
-    (test) {}
+    get () {}
   });
 (class {
-    (test) {}
+    get () {}
   });
 (class {
-    (test) {}
+    set (test) {}
   });
 (class {
-    (test) {}
+    set (test) {}
   });
 (class {
-    (test) {}
+    set (test) {}
   });
 (class {
-    () {}
+    set (test) {}
   });
 (class {
-    () {}
+    set (test) {}
   });
 (class {
-    () {}
+    set (test) {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
+    async () {}
   });
 (class {
-    () {}
-  });
-(class {
-    () {}
-  });
-(class {
-    () {}
-  });
-(class {
-    () {}
+    async () {}
   });
 (class {
     () {}
@@ -10227,7 +10209,25 @@ class {
     () {}
   });
 (class {
-    () {}
+    async () {}
+  });
+(class {
+    async () {}
+  });
+(class {
+    async () {}
+  });
+(class {
+    async () {}
+  });
+(class {
+    async () {}
+  });
+(class {
+    async () {}
+  });
+(class {
+    async () {}
   });
 (class {
     ;
@@ -10237,17 +10237,12 @@ class {
 (class {
     ;
 
-    () {}
+    get () {}
   });
 (class {
     ;
 
-    (foo) {}
-  });
-(class {
-    ;
-
-    () {}
+    set (foo) {}
   });
 (class {
     ;
@@ -10257,7 +10252,12 @@ class {
 (class {
     ;
 
-    () {}
+    async () {}
+  });
+(class {
+    ;
+
+    async () {}
   });
 (class {
      = 1;
@@ -10267,17 +10267,12 @@ class {
 (class {
      = 1;
 
-    () {}
+    get () {}
   });
 (class {
      = 1;
 
-    (foo) {}
-  });
-(class {
-     = 1;
-
-    () {}
+    set (foo) {}
   });
 (class {
      = 1;
@@ -10287,7 +10282,12 @@ class {
 (class {
      = 1;
 
-    () {}
+    async () {}
+  });
+(class {
+     = 1;
+
+    async () {}
   });
 (class {
     a;
@@ -10297,17 +10297,12 @@ class {
 (class {
     a;
 
-    () {}
+    get () {}
   });
 (class {
     a;
 
-    (foo) {}
-  });
-(class {
-    a;
-
-    () {}
+    set (foo) {}
   });
 (class {
     a;
@@ -10317,7 +10312,12 @@ class {
 (class {
     a;
 
-    () {}
+    async () {}
+  });
+(class {
+    a;
+
+    async () {}
   });
 (class {
     a = 1;
@@ -10327,17 +10327,12 @@ class {
 (class {
     a = 1;
 
-    () {}
+    get () {}
   });
 (class {
     a = 1;
 
-    (foo) {}
-  });
-(class {
-    a = 1;
-
-    () {}
+    set (foo) {}
   });
 (class {
     a = 1;
@@ -10347,7 +10342,12 @@ class {
 (class {
     a = 1;
 
-    () {}
+    async () {}
+  });
+(class {
+    a = 1;
+
+    async () {}
   });
 ```
 

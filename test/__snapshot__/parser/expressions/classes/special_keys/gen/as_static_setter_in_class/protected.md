@@ -146,7 +146,7 @@ class x {static set protected(x){}}
 ```javascript
 
 class {
-  static protected(x) {}
+  static set static protected(x) {}
 }
 ```
 

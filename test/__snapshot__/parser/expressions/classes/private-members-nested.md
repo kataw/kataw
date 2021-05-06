@@ -915,32 +915,32 @@
 ```javascript
 
 (class {
-    () {
+    get () {
       class {
         () {}
       }
     }
   });
 (class {
-    () {
+    get () {
       class {
-        () {}
+        get () {}
       }
     }
   });
 (class {
-    (val) {}
-    () {
+    set (val) {}
+    get () {
       class {
-        () {}
-        (val) {}
+        get () {}
+        set (val) {}
       }
     }
   });
 (class {
     () {
       class {
-        (val) {}
+        set (val) {}
       }
     }
   });

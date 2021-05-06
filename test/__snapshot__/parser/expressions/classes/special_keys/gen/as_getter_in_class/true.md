@@ -122,7 +122,7 @@ class x {get true(){}}
 ```javascript
 
 class {
-  true() {}
+  get true() {}
 }
 ```
 

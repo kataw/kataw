@@ -118,7 +118,7 @@ class A {get foo(){}}
 ```javascript
 
 class {
-  foo() {}
+  get foo() {}
 }
 ```
 

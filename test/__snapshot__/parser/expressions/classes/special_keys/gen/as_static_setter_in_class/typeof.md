@@ -146,7 +146,7 @@ class x {static set typeof(x){}}
 ```javascript
 
 class {
-  static typeof(x) {}
+  static set static typeof(x) {}
 }
 ```
 

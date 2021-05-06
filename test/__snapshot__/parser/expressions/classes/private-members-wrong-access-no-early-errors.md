@@ -834,19 +834,19 @@
 ```javascript
 
 (class {
-    (val) {}
+    set (val) {}
     fn() {
       return  this.;
     }
   });
 (class {
-    () {}
+    get () {}
     fn() {
       this.;
     }
   });
 (class {
-    () {}
+    get () {}
     fn(obj) {
       ({ y: this. } = obj);
     }

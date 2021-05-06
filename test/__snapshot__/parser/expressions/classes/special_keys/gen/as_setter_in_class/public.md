@@ -141,7 +141,7 @@ class x {set public(x){}}
 ```javascript
 
 class {
-  public(x) {}
+  set public(x) {}
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set this(x){}}
 ```javascript
 
 class {
-  this(x) {}
+  set this(x) {}
 }
 ```
 

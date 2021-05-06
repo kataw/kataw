@@ -127,7 +127,7 @@ class x {async * throw(){}}
 ```javascript
 
 class {
-  throw() {}
+  async throw() {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {async * catch(){}}
 ```javascript
 
 class {
-  catch() {}
+  async catch() {}
 }
 ```
 

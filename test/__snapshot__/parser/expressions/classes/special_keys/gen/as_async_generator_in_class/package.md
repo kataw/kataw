@@ -127,7 +127,7 @@ class x {async * package(){}}
 ```javascript
 
 class {
-  package() {}
+  async package() {}
 }
 ```
 

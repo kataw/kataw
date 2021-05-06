@@ -127,7 +127,7 @@ class x {static async true(){}}
 ```javascript
 
 class {
-  static true() {}
+  async static static true() {}
 }
 ```
 

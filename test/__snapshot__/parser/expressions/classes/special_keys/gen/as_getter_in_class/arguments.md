@@ -122,7 +122,7 @@ class x {get arguments(){}}
 ```javascript
 
 class {
-  arguments() {}
+  get arguments() {}
 }
 ```
 

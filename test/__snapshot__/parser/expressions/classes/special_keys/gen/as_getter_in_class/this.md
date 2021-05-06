@@ -122,7 +122,7 @@ class x {get this(){}}
 ```javascript
 
 class {
-  this() {}
+  get this() {}
 }
 ```
 

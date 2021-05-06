@@ -288,7 +288,7 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
 var await;
 var f = (async function() {
     class {
-      f(foo = await bar) {}
+      async f(foo = await bar) {}
     }
   });
 ```

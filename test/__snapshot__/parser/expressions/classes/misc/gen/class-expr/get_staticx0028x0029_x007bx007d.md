@@ -126,7 +126,7 @@
 ```javascript
 
 (class {
-    static() {}
+    get static() {}
   });
 ```
 

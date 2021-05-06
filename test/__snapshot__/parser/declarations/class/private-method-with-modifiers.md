@@ -425,11 +425,11 @@ class Foo {
 
 class {
   () {}
-  () {}
-  () {}
-  static () {}
-  static () {}
-  static () {}
+  async () {}
+  async () {}
+  static static () {}
+  async static static () {}
+  async static static () {}
 }
 ```
 

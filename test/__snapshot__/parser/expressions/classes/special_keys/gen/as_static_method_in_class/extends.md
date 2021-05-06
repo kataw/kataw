@@ -122,7 +122,7 @@ class x {static extends(){}}
 ```javascript
 
 class {
-  static extends() {}
+  static static extends() {}
 }
 ```
 

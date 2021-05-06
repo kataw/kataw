@@ -122,7 +122,7 @@ class C { static async#aaa(){} }
 ```javascript
 
 class {
-  static () {}
+  async static static () {}
 }
 ```
 

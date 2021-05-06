@@ -122,7 +122,7 @@ class x {get catch(){}}
 ```javascript
 
 class {
-  catch() {}
+  get catch() {}
 }
 ```
 

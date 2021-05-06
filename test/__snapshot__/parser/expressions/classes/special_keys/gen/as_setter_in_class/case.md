@@ -141,7 +141,7 @@ class x {set case(x){}}
 ```javascript
 
 class {
-  case(x) {}
+  set case(x) {}
 }
 ```
 

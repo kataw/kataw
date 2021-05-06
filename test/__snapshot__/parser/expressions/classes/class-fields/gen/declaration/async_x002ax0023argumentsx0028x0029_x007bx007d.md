@@ -126,7 +126,7 @@ class C { async *#arguments() {} }
 ```javascript
 
 class {
-  () {}
+  async () {}
 }
 ```
 

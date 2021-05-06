@@ -141,7 +141,7 @@ class x {set continue(x){}}
 ```javascript
 
 class {
-  continue(x) {}
+  set continue(x) {}
 }
 ```
 

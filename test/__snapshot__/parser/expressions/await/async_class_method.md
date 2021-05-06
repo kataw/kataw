@@ -118,7 +118,7 @@ class x {async await(){}}
 ```javascript
 
 class {
-  await() {}
+  async await() {}
 }
 ```
 

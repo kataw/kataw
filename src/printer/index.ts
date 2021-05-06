@@ -185,8 +185,8 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printExpressionStatement(node, printer);
     default:
       if (node.flags & NodeFlags.ExpressionNode) {
-      return printExpressions(node, printer, parentNode);
-    }
+        return printExpressions(node, printer, parentNode);
+      }
   }
 }
 
@@ -958,14 +958,22 @@ function printThrowStatement(node: any, printer: Printer): any {
 
 function printClassElement(node: any, printer: Printer): any {
   return chain([
+    node.declareToken
+      ? printKeyword(node.declareToken, printer, node.declareToken.start, node, /* separator */ true)
+      : '',
+    node.decorators ? printDecorators(node.decorators, printer) : '',
+    node.abstractKeyword
+      ? printKeyword(node.abstractKeyword, printer, node.abstractKeyword.start, node, /* separator */ true)
+      : '',
+    node.asyncKeyword
+      ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true)
+      : '',
+    node.staticKeyword
+      ? printKeyword(node.staticKeyword, printer, node.staticKeyword.start, node, /* separator */ true)
+      : '',
+    node.setKeyword ? printKeyword(node.setKeyword, printer, node.setKeyword.start, node, /* separator */ true) : '',
+    node.getKeyword ? printKeyword(node.getKeyword, printer, node.getKeyword.start, node, /* separator */ true) : '',
     printKeyword(node.staticKeyword, printer, node.start, node, /* separator */ true),
-    printKeyword(
-      node.abstractKeyword,
-      printer,
-      node.staticKeyword ? node.staticKeyword.end : node.start,
-      node,
-      /* separator */ false
-    ),
     node.isOptional ? chain(['?', printer.space]) : '',
     printExpressions(node.method, printer, node)
   ]);
@@ -1459,7 +1467,8 @@ function printBinaryExpression(node: any, printer: Printer, parentNode: any): an
   }
 
   const shouldNotIndent =
-    (node.kind === SyntaxKind.BinaryExpression && (node.right.kind === SyntaxKind.ObjectLiteral || node.right.kind === SyntaxKind.ArrayLiteral)) ||
+    (node.kind === SyntaxKind.BinaryExpression &&
+      (node.right.kind === SyntaxKind.ObjectLiteral || node.right.kind === SyntaxKind.ArrayLiteral)) ||
     parentNode.kind === SyntaxKind.ReturnStatement ||
     (node !== parentNode.statement && parentNode.kind === SyntaxKind.ForStatement) ||
     (node === parentNode.contents && parentNode.kind === SyntaxKind.ArrowFunction);
@@ -1476,8 +1485,9 @@ function printBinaryExpression(node: any, printer: Printer, parentNode: any): an
 
   if (
     shouldNotIndent ||
-    ((node.kind === SyntaxKind.ArrayLiteral || node.kind === SyntaxKind.ObjectLiteral) && !samePrecedenceSubExpression) ||
-    ((node.kind !== SyntaxKind.ArrayLiteral && node.kind !== SyntaxKind.ObjectLiteral) && shouldIndentIfInlining)
+    ((node.kind === SyntaxKind.ArrayLiteral || node.kind === SyntaxKind.ObjectLiteral) &&
+      !samePrecedenceSubExpression) ||
+    (node.kind !== SyntaxKind.ArrayLiteral && node.kind !== SyntaxKind.ObjectLiteral && shouldIndentIfInlining)
   ) {
     return group(chain(parts));
   }
@@ -1491,13 +1501,10 @@ function printBinaryExpression(node: any, printer: Printer, parentNode: any): an
   return group(chain([parts.length > 0 ? parts[0] : '', indent(rest)]));
 }
 
-
-
 function printBinaryishExpressions1(node: any, printer: Printer, parentNode: any, isInsideParenthesis: boolean) {
   let parts: any = [];
 
   if (node.kind === SyntaxKind.BinaryExpression) {
-
     if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
       parts = parts.concat(printBinaryishExpressions(node.left, printer, node, isInsideParenthesis));
     } else {
@@ -1517,21 +1524,16 @@ function printBinaryishExpressions1(node: any, printer: Printer, parentNode: any
 
     parts.push(printer.space, shouldGroup ? group(right) : right);
   } else {
-    parts.push(
-        printExpressions(node, printer, node),
-    );
+    parts.push(printExpressions(node, printer, node));
   }
 
   return parts;
 }
 
-
-
 function printBinaryishExpressions(node: any, printer: Printer, parentNode: any, isInsideParenthesis: boolean) {
   let parts: any = [];
 
   if (node.kind === SyntaxKind.BinaryExpression) {
-
     if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
       parts = parts.concat(printBinaryishExpressions1(node.left, printer, node, isInsideParenthesis));
     } else {

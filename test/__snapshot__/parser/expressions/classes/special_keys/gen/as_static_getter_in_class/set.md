@@ -127,7 +127,7 @@ class x {static get set(){}}
 ```javascript
 
 class {
-  static set() {}
+  static get static set() {}
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set while(x){}}
 ```javascript
 
 class {
-  while(x) {}
+  set while(x) {}
 }
 ```
 

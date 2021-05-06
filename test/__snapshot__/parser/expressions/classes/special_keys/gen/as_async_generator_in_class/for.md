@@ -127,7 +127,7 @@ class x {async * for(){}}
 ```javascript
 
 class {
-  for() {}
+  async for() {}
 }
 ```
 

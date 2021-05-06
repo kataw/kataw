@@ -146,7 +146,7 @@ class x {static set interface(x){}}
 ```javascript
 
 class {
-  static interface(x) {}
+  static set static interface(x) {}
 }
 ```
 

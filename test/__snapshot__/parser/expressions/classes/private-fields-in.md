@@ -406,8 +406,8 @@ class {
   ;
 
   () {}
-  () {}
-  static isC(obj) {
+  get () {}
+  static static isC(obj) {
     return   in obj &&  in obj &&  in obj;
   }
 }

@@ -146,7 +146,7 @@ class x {static set continue(x){}}
 ```javascript
 
 class {
-  static continue(x) {}
+  static set static continue(x) {}
 }
 ```
 

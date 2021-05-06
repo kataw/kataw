@@ -122,7 +122,7 @@ class x {static super(){}}
 ```javascript
 
 class {
-  static super() {}
+  static static super() {}
 }
 ```
 

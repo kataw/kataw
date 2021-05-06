@@ -127,7 +127,7 @@ class x {async * do(){}}
 ```javascript
 
 class {
-  do() {}
+  async do() {}
 }
 ```
 

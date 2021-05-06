@@ -122,7 +122,7 @@ class x {get else(){}}
 ```javascript
 
 class {
-  else() {}
+  get else() {}
 }
 ```
 

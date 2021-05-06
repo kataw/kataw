@@ -127,7 +127,7 @@ class x {static * void(){}}
 ```javascript
 
 class {
-  static void() {}
+  static static void() {}
 }
 ```
 

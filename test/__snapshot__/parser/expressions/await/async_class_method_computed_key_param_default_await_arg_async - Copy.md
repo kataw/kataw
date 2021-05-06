@@ -10,7 +10,7 @@ async function f(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -331,7 +331,7 @@ async function f(){
 
 async function f() {
   (fail = class {
-    [x](y = await z) {}
+    async [x](y = await z) {}
 
     "\"x\""() {}
   }) =>  {};

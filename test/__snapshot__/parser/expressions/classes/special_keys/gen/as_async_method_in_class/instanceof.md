@@ -122,7 +122,7 @@ class x {async instanceof(){}}
 ```javascript
 
 class {
-  instanceof() {}
+  async instanceof() {}
 }
 ```
 

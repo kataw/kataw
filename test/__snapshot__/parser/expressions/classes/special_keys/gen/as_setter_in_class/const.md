@@ -141,7 +141,7 @@ class x {set const(x){}}
 ```javascript
 
 class {
-  const(x) {}
+  set const(x) {}
 }
 ```
 

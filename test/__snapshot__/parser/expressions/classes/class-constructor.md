@@ -573,16 +573,16 @@
     constructor() {}
   });
 (class {
-    static constructor() {}
+    static static constructor() {}
   });
 (class {
-    static constructor() {}
+    static get static constructor() {}
   });
 (class {
-    static constructor(_) {}
+    static set static constructor(_) {}
   });
 (class {
-    static constructor() {}
+    static static constructor() {}
   });
 ```
 

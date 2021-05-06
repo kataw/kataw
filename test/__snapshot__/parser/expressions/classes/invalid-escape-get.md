@@ -118,7 +118,7 @@ class X { ge\u0074 x() {} }
 ```javascript
 
 class {
-  x() {}
+  get x() {}
 }
 ```
 

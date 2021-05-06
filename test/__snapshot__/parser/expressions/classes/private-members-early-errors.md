@@ -588,11 +588,11 @@ class C { foo() { this.#a = 1; }}
 ```javascript
 
 (class {
-    (val) {
+    set (val) {
       this. = val;
     }
   })(class {
-    () {
+    get () {
       return  this.;
     }
   });

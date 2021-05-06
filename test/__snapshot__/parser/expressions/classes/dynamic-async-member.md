@@ -124,7 +124,7 @@ class A {async [foo](){}}
 ```javascript
 
 class {
-  [foo]() {}
+  async [foo]() {}
 }
 ```
 

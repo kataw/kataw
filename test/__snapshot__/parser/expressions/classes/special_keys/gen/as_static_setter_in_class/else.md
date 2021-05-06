@@ -146,7 +146,7 @@ class x {static set else(x){}}
 ```javascript
 
 class {
-  static else(x) {}
+  static set static else(x) {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static get continue(){}}
 ```javascript
 
 class {
-  static continue() {}
+  static get static continue() {}
 }
 ```
 

@@ -135,7 +135,7 @@ class x {static *[y](){}}
 ```javascript
 
 class {
-  static [y]() {}
+  static static [y]() {}
 }
 ```
 

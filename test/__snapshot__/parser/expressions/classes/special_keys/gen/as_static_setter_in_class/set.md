@@ -146,7 +146,7 @@ class x {static set set(x){}}
 ```javascript
 
 class {
-  static set(x) {}
+  static set static set(x) {}
 }
 ```
 

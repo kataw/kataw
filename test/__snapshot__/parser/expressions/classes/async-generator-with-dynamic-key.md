@@ -129,7 +129,7 @@ class x { async *[y](){}}
 ```javascript
 
 class {
-  [y]() {}
+  async [y]() {}
 }
 ```
 

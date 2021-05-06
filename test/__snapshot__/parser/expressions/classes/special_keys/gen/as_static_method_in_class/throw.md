@@ -122,7 +122,7 @@ class x {static throw(){}}
 ```javascript
 
 class {
-  static throw() {}
+  static static throw() {}
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set catch(x){}}
 ```javascript
 
 class {
-  catch(x) {}
+  set catch(x) {}
 }
 ```
 

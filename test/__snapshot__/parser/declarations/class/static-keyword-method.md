@@ -118,7 +118,7 @@ class C { static delete() {} }
 ```javascript
 
 class {
-  static delete() {}
+  static static delete() {}
 }
 ```
 

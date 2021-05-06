@@ -122,7 +122,7 @@ class x {async export(){}}
 ```javascript
 
 class {
-  export() {}
+  async export() {}
 }
 ```
 

@@ -141,7 +141,7 @@ class x {set arguments(x){}}
 ```javascript
 
 class {
-  arguments(x) {}
+  set arguments(x) {}
 }
 ```
 

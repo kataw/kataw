@@ -127,7 +127,7 @@ class x {static get in(){}}
 ```javascript
 
 class {
-  static in() {}
+  static get static in() {}
 }
 ```
 

@@ -146,7 +146,7 @@ class x {static set extends(x){}}
 ```javascript
 
 class {
-  static extends(x) {}
+  static set static extends(x) {}
 }
 ```
 

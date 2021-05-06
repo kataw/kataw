@@ -131,7 +131,7 @@
 ```javascript
 
 (class {
-    static async() {}
+    static static async() {}
   });
 ```
 

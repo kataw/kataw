@@ -1230,17 +1230,12 @@
   });
 (class {
     a = class {
-        () {}
+        get () {}
       };
   });
 (class {
     a = class {
-        (foo) {}
-      };
-  });
-(class {
-    a = class {
-        () {}
+        set (foo) {}
       };
   });
 (class {
@@ -1250,7 +1245,12 @@
   });
 (class {
     a = class {
-        () {}
+        async () {}
+      };
+  });
+(class {
+    a = class {
+        async () {}
       };
   });
 ```

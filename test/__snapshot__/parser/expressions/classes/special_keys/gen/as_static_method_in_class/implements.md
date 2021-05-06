@@ -122,7 +122,7 @@ class x {static implements(){}}
 ```javascript
 
 class {
-  static implements() {}
+  static static implements() {}
 }
 ```
 

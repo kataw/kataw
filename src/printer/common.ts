@@ -983,7 +983,7 @@ const bitshiftOperators: any = {
 };
 
 export function shouldFlatten(parentOp: any, nodeOp: any) {
-    if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
+  if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
     return false;
   }
 

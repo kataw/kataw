@@ -122,7 +122,7 @@ class x {async switch(){}}
 ```javascript
 
 class {
-  switch() {}
+  async switch() {}
 }
 ```
 

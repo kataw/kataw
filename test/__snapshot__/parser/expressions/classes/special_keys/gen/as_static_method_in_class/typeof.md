@@ -122,7 +122,7 @@ class x {static typeof(){}}
 ```javascript
 
 class {
-  static typeof() {}
+  static static typeof() {}
 }
 ```
 

@@ -132,7 +132,7 @@ class x {static async * eval(){}}
 ```javascript
 
 class {
-  static eval() {}
+  async static static eval() {}
 }
 ```
 

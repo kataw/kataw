@@ -124,7 +124,7 @@ class C { static
 ```javascript
 
 class {
-  static () {}
+  static static () {}
 }
 ```
 

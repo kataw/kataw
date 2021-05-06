@@ -127,7 +127,7 @@ class x {static get enum(){}}
 ```javascript
 
 class {
-  static enum() {}
+  static get static enum() {}
 }
 ```
 

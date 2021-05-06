@@ -127,7 +127,7 @@ class x {static async default(){}}
 ```javascript
 
 class {
-  static default() {}
+  async static static default() {}
 }
 ```
 

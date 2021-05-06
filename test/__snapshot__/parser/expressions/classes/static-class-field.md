@@ -4474,7 +4474,7 @@ class {
     static async = 0;
   });
 (class {
-    static a() {}
+    async static static a() {}
   }); // a field named async, and a method named a.
 
 (class {

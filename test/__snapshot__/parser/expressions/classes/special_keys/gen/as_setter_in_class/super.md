@@ -141,7 +141,7 @@ class x {set super(x){}}
 ```javascript
 
 class {
-  super(x) {}
+  set super(x) {}
 }
 ```
 

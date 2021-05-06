@@ -146,7 +146,7 @@ class x {static set break(x){}}
 ```javascript
 
 class {
-  static break(x) {}
+  static set static break(x) {}
 }
 ```
 

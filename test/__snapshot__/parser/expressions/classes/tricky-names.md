@@ -884,13 +884,13 @@ class {
   "'get'"() {}
   "'set'"() {}
   "'async'"() {}
-  static get() {}
-  static set() {}
-  static static() {}
-  static async() {}
-  static a() {}
-  async() {}
-  static static() {}
+  static static get() {}
+  static static set() {}
+  static static static() {}
+  static static async() {}
+  static static a() {}
+  get async() {}
+  static get static static() {}
 }
 ```
 

@@ -127,7 +127,7 @@ class x {static async instanceof(){}}
 ```javascript
 
 class {
-  static instanceof() {}
+  async static static instanceof() {}
 }
 ```
 

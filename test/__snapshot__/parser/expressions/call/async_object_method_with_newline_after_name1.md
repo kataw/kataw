@@ -119,7 +119,7 @@ class x {async foo
 ```javascript
 
 class {
-  foo() {}
+  async foo() {}
 }
 ```
 

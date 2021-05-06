@@ -122,7 +122,7 @@ class x {get interface(){}}
 ```javascript
 
 class {
-  interface() {}
+  get interface() {}
 }
 ```
 

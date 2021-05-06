@@ -146,7 +146,7 @@ class x {static set this(x){}}
 ```javascript
 
 class {
-  static this(x) {}
+  static set static this(x) {}
 }
 ```
 

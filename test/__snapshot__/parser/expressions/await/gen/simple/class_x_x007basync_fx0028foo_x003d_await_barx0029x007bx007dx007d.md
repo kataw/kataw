@@ -160,7 +160,7 @@ class x {async f(foo = await bar){}}
 ```javascript
 
 class {
-  f(foo = await bar) {}
+  async f(foo = await bar) {}
 }
 ```
 

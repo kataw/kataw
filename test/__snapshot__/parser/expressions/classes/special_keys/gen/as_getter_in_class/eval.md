@@ -122,7 +122,7 @@ class x {get eval(){}}
 ```javascript
 
 class {
-  eval() {}
+  get eval() {}
 }
 ```
 

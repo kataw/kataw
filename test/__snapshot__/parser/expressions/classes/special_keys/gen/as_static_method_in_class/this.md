@@ -122,7 +122,7 @@ class x {static this(){}}
 ```javascript
 
 class {
-  static this() {}
+  static static this() {}
 }
 ```
 

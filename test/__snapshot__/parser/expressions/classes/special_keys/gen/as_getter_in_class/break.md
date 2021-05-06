@@ -122,7 +122,7 @@ class x {get break(){}}
 ```javascript
 
 class {
-  break() {}
+  get break() {}
 }
 ```
 

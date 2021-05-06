@@ -233,7 +233,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
 ```javascript
 
 class {
-  f(foo = [{ m: t(await bar) }]) {}
+  async f(foo = [{ m: t(await bar) }]) {}
 }
 ```
 

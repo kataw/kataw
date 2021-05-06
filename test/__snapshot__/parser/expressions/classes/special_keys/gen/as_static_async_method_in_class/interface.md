@@ -127,7 +127,7 @@ class x {static async interface(){}}
 ```javascript
 
 class {
-  static interface() {}
+  async static static interface() {}
 }
 ```
 

@@ -132,7 +132,7 @@ class x {static async * protected(){}}
 ```javascript
 
 class {
-  static protected() {}
+  async static static protected() {}
 }
 ```
 

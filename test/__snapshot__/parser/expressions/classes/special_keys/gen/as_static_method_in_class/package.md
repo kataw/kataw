@@ -122,7 +122,7 @@ class x {static package(){}}
 ```javascript
 
 class {
-  static package() {}
+  static static package() {}
 }
 ```
 

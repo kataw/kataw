@@ -122,7 +122,7 @@ class x {get private(){}}
 ```javascript
 
 class {
-  private() {}
+  get private() {}
 }
 ```
 

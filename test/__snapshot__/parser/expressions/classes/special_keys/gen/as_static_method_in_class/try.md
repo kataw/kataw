@@ -122,7 +122,7 @@ class x {static try(){}}
 ```javascript
 
 class {
-  static try() {}
+  static static try() {}
 }
 ```
 

@@ -6154,10 +6154,10 @@
     n(x) {}
   });
 (class {
-    x() {}
+    get x() {}
   });
 (class {
-    x(v) {}
+    set x(v) {}
   });
 (class {
     get() {}
@@ -6182,46 +6182,46 @@
     h(x) {}
   });
 (class {
-    x() {}
+    async x() {}
   });
 (class {
     static() {}
   });
 (class {
+    get static() {}
+  });
+(class {
+    set static(v) {}
+  });
+(class {
+    static static m() {}
+  });
+(class {
+    static get static x() {}
+  });
+(class {
+    static set static x(v) {}
+  });
+(class {
+    static static get() {}
+  });
+(class {
+    static static set() {}
+  });
+(class {
+    static static static() {}
+  });
+(class {
+    static get static static() {}
+  });
+(class {
+    static set static static(v) {}
+  });
+(class {
     static() {}
   });
 (class {
-    static(v) {}
-  });
-(class {
-    static m() {}
-  });
-(class {
-    static x() {}
-  });
-(class {
-    static x(v) {}
-  });
-(class {
-    static get() {}
-  });
-(class {
-    static set() {}
-  });
-(class {
-    static static() {}
-  });
-(class {
-    static static() {}
-  });
-(class {
-    static static(v) {}
-  });
-(class {
-    static() {}
-  });
-(class {
-    static static() {}
+    static static static() {}
   });
 (class {
     get() {}
@@ -6230,7 +6230,7 @@
     set() {}
   });
 (class {
-    static g() {}
+    static static g() {}
   });
 (class {
     async() {}
@@ -6239,91 +6239,91 @@
     async() {}
   });
 (class {
-    static async() {}
+    static static async() {}
   });
 (class {
-    static async() {}
+    static static async() {}
   });
 (class {
-    static x() {}
+    async static static x() {}
   });
 (class {
-    static x() {}
+    async static static x() {}
   });
 (class {
-    static async() {}
+    static static async() {}
   });
 (class {
-    static async() {}
+    static static async() {}
   });
 (class {
-    x() {}
+    async x() {}
   });
 (class {
-    0() {}
+    async 0() {}
   });
 (class {
-    get() {}
+    async get() {}
   });
 (class {
-    set() {}
+    async set() {}
   });
 (class {
-    static() {}
+    async static() {}
   });
 (class {
-    async() {}
-  });
-(class {
-    async() {}
+    async async() {}
   });
 (class {
     async() {}
   });
 (class {
-    42.5() {}
+    async() {}
   });
 (class {
-    static(v) {}
+    get 42.5() {}
   });
 (class {
-    static this() {}
+    set static(v) {}
   });
 (class {
-    static class() {}
+    static static this() {}
   });
 (class {
-    static 42.5(v) {}
+    static get static class() {}
+  });
+(class {
+    static set static 42.5(v) {}
   });
 (class {
     const() {}
   });
 (class {
-    static "\"str\""() {}
+    static static "\"str\""() {}
   });
 (class {
     true() {}
   });
 (class {
-    false() {}
+    get false() {}
   });
 (class {
-    function(v) {}
+    set function(v) {}
   });
 (class {
-    static if() {}
+    static static if() {}
   });
 (class {
-    static let() {}
+    static get static let() {}
   });
 (class {
-    static get(v) {}
+    static set static get(v) {}
   });
 (class {
     set() {}
   });
 (class {
-    static static() {}
+    static static static() {}
   });
 ```
 

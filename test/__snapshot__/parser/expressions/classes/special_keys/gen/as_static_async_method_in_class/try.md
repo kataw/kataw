@@ -127,7 +127,7 @@ class x {static async try(){}}
 ```javascript
 
 class {
-  static try() {}
+  async static static try() {}
 }
 ```
 

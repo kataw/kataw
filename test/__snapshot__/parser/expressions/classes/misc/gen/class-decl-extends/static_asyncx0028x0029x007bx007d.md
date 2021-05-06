@@ -142,7 +142,7 @@ class C extends Base { static async(){} }
 ```javascript
 
 class  {
-  static async() {}
+  static static async() {}
 }
 ```
 

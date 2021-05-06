@@ -119,7 +119,7 @@ get(){} }
 ```javascript
 
 class {
-  get() {}
+  async get() {}
 }
 ```
 

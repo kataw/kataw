@@ -127,7 +127,7 @@ class x {static get extends(){}}
 ```javascript
 
 class {
-  static extends() {}
+  static get static extends() {}
 }
 ```
 

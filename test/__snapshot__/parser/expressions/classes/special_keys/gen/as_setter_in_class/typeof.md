@@ -141,7 +141,7 @@ class x {set typeof(x){}}
 ```javascript
 
 class {
-  typeof(x) {}
+  set typeof(x) {}
 }
 ```
 

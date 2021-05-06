@@ -127,7 +127,7 @@ class x {static * break(){}}
 ```javascript
 
 class {
-  static break() {}
+  static static break() {}
 }
 ```
 

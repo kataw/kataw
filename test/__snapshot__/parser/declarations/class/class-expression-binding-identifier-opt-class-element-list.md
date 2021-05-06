@@ -216,7 +216,7 @@ var A = class B {
 
 var A = class {
   method() {}
-  static method() {}
+  static static method() {}
 
 };
 ```

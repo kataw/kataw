@@ -122,7 +122,7 @@ class x {get case(){}}
 ```javascript
 
 class {
-  case() {}
+  get case() {}
 }
 ```
 
