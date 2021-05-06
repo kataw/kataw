@@ -12,7 +12,7 @@ class x {static async instanceof(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

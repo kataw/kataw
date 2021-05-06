@@ -8,7 +8,7 @@ let f = () => { const [...await f] = []; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

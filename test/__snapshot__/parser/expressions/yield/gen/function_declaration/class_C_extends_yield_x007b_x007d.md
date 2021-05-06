@@ -12,7 +12,7 @@ function not_gen() { class C extends yield { } }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

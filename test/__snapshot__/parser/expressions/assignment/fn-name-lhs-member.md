@@ -16,7 +16,7 @@ o.attr = function() {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

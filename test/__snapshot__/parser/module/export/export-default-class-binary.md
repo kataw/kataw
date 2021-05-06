@@ -14,7 +14,7 @@ export default class Foo {}++x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

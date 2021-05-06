@@ -12,7 +12,7 @@ class A extends /more crap/g {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

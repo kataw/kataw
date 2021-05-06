@@ -12,7 +12,7 @@ class x {static get package(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

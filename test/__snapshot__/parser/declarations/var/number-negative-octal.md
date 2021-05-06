@@ -16,7 +16,7 @@ var a: -0x7B
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

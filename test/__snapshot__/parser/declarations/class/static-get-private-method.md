@@ -8,7 +8,7 @@ class C { static get #aaa(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

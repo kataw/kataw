@@ -12,7 +12,7 @@ class C { *method() { new super(); } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

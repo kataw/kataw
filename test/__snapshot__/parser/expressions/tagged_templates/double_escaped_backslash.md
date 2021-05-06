@@ -9,7 +9,7 @@ tag`\\\ `;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class x {*f(foo = await bar){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

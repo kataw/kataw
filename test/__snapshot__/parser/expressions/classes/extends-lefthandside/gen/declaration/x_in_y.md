@@ -12,7 +12,7 @@ class A extends x in y {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

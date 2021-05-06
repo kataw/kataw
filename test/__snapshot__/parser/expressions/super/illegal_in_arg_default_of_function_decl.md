@@ -9,7 +9,7 @@ function f(x=super.foo){ }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

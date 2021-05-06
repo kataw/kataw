@@ -12,7 +12,7 @@ class x {catch: x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

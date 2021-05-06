@@ -9,7 +9,7 @@ g => await g
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

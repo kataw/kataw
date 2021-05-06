@@ -8,7 +8,7 @@ switch(x) { default: default: }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -16,7 +16,7 @@ for (var a=1, b=2;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

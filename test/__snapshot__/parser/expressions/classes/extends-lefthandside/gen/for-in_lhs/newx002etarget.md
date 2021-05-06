@@ -12,7 +12,7 @@ for (new.target in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

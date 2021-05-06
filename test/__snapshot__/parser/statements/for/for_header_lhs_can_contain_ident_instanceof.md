@@ -27,7 +27,7 @@ for (a instanceof b;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

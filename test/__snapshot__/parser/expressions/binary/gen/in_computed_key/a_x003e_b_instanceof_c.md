@@ -12,7 +12,7 @@ x = {[ a > b instanceof c ]: y}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

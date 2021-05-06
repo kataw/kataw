@@ -12,7 +12,7 @@ class C { set x(_) { y = super } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

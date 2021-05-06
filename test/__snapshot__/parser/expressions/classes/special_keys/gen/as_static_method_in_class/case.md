@@ -12,7 +12,7 @@ class x {static case(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

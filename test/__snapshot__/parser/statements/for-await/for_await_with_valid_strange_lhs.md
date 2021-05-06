@@ -8,7 +8,7 @@ async function f() { for await ("foo".x of y) {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

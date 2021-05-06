@@ -15,7 +15,7 @@ class A {a(x=new.target){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

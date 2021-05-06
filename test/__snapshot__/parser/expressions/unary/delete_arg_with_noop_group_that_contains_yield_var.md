@@ -8,7 +8,7 @@ delete (((((foo(yield)))))).bar
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

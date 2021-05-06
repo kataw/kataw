@@ -8,7 +8,7 @@ var {x = 10, y: { z = 10}} = a;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

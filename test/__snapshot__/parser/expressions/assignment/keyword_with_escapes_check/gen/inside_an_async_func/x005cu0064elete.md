@@ -12,7 +12,7 @@ async () => {  \u0064elete = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

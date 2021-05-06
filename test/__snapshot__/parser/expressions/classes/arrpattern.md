@@ -15,7 +15,7 @@ class n extends ([] = x) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

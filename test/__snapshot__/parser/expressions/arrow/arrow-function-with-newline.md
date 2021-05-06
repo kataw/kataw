@@ -17,7 +17,7 @@ async (f)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

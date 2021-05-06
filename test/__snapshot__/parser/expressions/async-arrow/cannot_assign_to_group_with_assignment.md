@@ -8,7 +8,7 @@ async (a=/i/) = /i/
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ y = async x => await x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

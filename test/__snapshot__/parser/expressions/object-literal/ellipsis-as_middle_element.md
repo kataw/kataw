@@ -8,7 +8,7 @@ x = {a, ...y, b}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

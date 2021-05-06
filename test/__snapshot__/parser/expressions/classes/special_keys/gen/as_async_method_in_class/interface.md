@@ -12,7 +12,7 @@ class x {async interface(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

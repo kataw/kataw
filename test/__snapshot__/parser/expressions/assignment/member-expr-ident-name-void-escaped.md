@@ -8,7 +8,7 @@ obj.voi\u0064 = 42;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

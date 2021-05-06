@@ -10,7 +10,7 @@ async( x = class { x = await });
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

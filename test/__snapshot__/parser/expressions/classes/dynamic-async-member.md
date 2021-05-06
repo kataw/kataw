@@ -8,7 +8,7 @@ class A {async [foo](){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

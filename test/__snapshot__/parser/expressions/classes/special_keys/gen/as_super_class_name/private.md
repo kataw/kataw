@@ -12,7 +12,7 @@ class x extends private {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ class X { ge\u0074 x() {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class x extends const {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

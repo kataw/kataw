@@ -12,7 +12,7 @@ switch (/a/i {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

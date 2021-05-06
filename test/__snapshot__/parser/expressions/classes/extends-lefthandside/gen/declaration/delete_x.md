@@ -12,7 +12,7 @@ class A extends delete x {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ const f = (...x?) => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

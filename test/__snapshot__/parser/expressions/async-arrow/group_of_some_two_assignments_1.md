@@ -8,7 +8,7 @@ async (a = 1, b = 2) => x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

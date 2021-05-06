@@ -12,7 +12,7 @@ class C extends (
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

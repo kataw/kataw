@@ -8,7 +8,7 @@ let y = typeof async x => await x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

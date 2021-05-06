@@ -8,7 +8,7 @@ do;while(j)try{}finally{}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ switch (x) { case y: break; default: return; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

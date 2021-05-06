@@ -27,7 +27,7 @@ let ...a = 1;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

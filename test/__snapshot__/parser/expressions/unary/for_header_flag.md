@@ -8,7 +8,7 @@ for(delete(x in y);;)x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

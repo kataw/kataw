@@ -8,7 +8,7 @@ switch (true) { default: let x; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

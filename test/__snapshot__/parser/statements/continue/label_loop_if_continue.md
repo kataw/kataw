@@ -8,7 +8,7 @@ foo: while(z) if (x) continue foo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

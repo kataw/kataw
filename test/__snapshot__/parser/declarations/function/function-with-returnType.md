@@ -27,7 +27,7 @@ function foo():number{}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

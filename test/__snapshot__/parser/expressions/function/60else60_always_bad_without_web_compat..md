@@ -14,7 +14,7 @@ if (x) ; else function f(){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

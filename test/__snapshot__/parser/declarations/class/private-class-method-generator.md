@@ -8,7 +8,7 @@ class C { *#aaa(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

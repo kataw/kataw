@@ -27,7 +27,7 @@ class v extends.foo {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

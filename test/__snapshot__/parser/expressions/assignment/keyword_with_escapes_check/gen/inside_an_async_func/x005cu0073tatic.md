@@ -12,7 +12,7 @@ async () => {  \u0073tatic = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

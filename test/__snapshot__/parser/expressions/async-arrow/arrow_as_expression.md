@@ -8,7 +8,7 @@ foo(async () => foo)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

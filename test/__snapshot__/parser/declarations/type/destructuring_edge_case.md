@@ -16,7 +16,7 @@ var {[2]: y} = {2:3}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

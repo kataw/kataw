@@ -12,7 +12,7 @@ async () => {  p\u0072otected = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

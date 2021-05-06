@@ -12,7 +12,7 @@ eval => { 'use strict'; 0 } , bar;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

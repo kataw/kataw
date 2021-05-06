@@ -12,7 +12,7 @@ class x {static get try(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

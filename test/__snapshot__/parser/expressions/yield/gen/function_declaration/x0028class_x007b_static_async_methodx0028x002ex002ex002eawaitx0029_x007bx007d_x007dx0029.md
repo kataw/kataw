@@ -12,7 +12,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

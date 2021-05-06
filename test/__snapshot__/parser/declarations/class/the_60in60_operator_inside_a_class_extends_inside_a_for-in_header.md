@@ -27,7 +27,7 @@ for (class x extends a in b {} in c);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ async () => {  \u0070rotected = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -14,7 +14,7 @@ import {x as z,} from "y"
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -30,7 +30,7 @@ class C { get name(private) {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

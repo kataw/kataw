@@ -16,7 +16,7 @@ class C { set #aaa(x){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

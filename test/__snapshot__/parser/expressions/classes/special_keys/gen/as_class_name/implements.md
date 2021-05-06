@@ -12,7 +12,7 @@ class implements {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ do /false//a
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

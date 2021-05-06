@@ -14,7 +14,7 @@ class x{ constructor(){} 9(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

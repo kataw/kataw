@@ -8,7 +8,7 @@ async({a=1}. {b=2}, {c=3} = {}))
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

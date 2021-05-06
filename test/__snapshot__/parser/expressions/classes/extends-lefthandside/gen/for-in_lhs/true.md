@@ -12,7 +12,7 @@ for (true in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

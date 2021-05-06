@@ -8,7 +8,7 @@ for(t`${x in y}`;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -10,7 +10,7 @@ function* g() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

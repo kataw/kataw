@@ -8,7 +8,7 @@ async (x = yield y) => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

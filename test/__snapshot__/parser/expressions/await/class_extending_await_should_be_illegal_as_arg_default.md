@@ -8,7 +8,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

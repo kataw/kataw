@@ -16,7 +16,7 @@ class C { #@{x29e3d}@ }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

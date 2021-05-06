@@ -8,7 +8,7 @@ x = {0o730(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ delete typeof true
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

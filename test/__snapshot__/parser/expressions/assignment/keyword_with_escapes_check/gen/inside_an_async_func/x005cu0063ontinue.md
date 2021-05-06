@@ -12,7 +12,7 @@ async () => {  \u0063ontinue = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

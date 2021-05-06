@@ -35,7 +35,7 @@ type B = Foo<
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

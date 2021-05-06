@@ -16,7 +16,7 @@ for(const a = 1, let = 2;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

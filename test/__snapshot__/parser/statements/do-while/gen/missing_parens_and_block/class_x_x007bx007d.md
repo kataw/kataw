@@ -12,7 +12,7 @@ do class x {} while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

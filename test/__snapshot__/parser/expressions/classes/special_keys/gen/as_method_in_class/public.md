@@ -12,7 +12,7 @@ class x {public(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

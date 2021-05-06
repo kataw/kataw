@@ -8,7 +8,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

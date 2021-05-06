@@ -14,7 +14,7 @@ export default null;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

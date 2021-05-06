@@ -12,7 +12,7 @@ new `temp {waitforit} late`
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

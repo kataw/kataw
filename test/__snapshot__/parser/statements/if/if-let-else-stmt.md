@@ -8,7 +8,7 @@ if (true) let x; else ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

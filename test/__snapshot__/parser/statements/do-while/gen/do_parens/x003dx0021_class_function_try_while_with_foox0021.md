@@ -12,7 +12,7 @@ do( =! class function try while with foo! while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -16,7 +16,7 @@ class C { \\u0041 }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

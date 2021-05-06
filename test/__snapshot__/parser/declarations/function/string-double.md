@@ -8,7 +8,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

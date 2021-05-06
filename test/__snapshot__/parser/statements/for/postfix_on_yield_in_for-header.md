@@ -27,7 +27,7 @@ for (yield[g]--;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

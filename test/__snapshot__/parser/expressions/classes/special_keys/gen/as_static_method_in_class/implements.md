@@ -12,7 +12,7 @@ class x {static implements(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

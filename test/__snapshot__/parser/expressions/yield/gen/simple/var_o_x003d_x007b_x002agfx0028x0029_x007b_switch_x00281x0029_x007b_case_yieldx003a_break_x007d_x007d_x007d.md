@@ -12,7 +12,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

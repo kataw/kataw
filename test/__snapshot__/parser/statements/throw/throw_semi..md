@@ -8,7 +8,7 @@ throw foo;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

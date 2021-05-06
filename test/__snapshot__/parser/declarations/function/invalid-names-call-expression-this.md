@@ -8,7 +8,7 @@ function fn() { (() => this)().#x }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

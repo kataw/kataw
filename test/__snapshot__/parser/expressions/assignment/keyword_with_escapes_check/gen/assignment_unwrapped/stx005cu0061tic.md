@@ -12,7 +12,7 @@ st\u0061tic = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

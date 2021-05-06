@@ -16,7 +16,7 @@ class Foo<T> extends mixin(Bar) { }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

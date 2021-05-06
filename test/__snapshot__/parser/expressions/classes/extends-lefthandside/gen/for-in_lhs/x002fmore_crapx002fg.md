@@ -12,7 +12,7 @@ for (/more crap/g in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

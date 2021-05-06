@@ -12,7 +12,7 @@ function* gf() { var fe = function yield() { } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

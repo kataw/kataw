@@ -19,7 +19,7 @@ async (): string => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

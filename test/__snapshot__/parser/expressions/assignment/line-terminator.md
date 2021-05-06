@@ -13,7 +13,7 @@ true;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

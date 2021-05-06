@@ -8,7 +8,7 @@ const x = 1, y;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

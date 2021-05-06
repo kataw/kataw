@@ -20,7 +20,7 @@ result = [ x = yield ] = vals;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ new async a => b
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

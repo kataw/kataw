@@ -14,7 +14,7 @@ abc\uD835\uDFD0def
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

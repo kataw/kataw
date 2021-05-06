@@ -16,7 +16,7 @@ const a = async (foo: string = "") => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

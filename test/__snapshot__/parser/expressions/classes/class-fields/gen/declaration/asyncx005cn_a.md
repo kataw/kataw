@@ -12,7 +12,7 @@ class C { async\n a }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

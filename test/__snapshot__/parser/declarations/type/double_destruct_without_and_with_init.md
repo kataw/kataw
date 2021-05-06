@@ -27,7 +27,7 @@ var {x, y = z} = obj;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

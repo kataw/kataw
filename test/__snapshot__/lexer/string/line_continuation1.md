@@ -26,7 +26,7 @@ post"
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

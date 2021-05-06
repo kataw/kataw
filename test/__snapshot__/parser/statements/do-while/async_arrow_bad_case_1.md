@@ -9,7 +9,7 @@ do async
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

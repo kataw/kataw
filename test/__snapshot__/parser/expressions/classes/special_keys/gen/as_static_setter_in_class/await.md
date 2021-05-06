@@ -12,7 +12,7 @@ class x {static set await(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

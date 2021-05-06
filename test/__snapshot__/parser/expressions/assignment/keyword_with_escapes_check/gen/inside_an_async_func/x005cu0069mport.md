@@ -12,7 +12,7 @@ async () => {  \u0069mport = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

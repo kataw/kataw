@@ -27,7 +27,7 @@ for (true ? a in b : {}; false; ) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

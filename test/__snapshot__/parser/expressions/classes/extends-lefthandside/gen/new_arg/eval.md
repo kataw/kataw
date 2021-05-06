@@ -12,7 +12,7 @@ new eval
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

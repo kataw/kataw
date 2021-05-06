@@ -8,7 +8,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

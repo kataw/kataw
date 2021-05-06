@@ -12,7 +12,7 @@ a\u0072guments = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

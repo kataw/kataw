@@ -16,7 +16,7 @@ var foo = ((): number => bar);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

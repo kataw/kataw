@@ -8,7 +8,7 @@ switch (true) { default: const x; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

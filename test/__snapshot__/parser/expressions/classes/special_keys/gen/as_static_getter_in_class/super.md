@@ -12,7 +12,7 @@ class x {static get super(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

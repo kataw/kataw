@@ -14,7 +14,7 @@ left|right
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

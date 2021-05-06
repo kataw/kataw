@@ -12,7 +12,7 @@ var foob\\v1234r = 0;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

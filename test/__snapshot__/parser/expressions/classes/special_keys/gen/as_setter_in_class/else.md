@@ -12,7 +12,7 @@ class x {set else(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

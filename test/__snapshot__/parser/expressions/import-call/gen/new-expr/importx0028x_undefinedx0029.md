@@ -12,7 +12,7 @@ import(x,undefined)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

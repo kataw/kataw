@@ -20,7 +20,7 @@ type T2 = number;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

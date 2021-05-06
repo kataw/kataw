@@ -10,7 +10,7 @@ foo(y,(y) => ok);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

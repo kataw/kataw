@@ -8,7 +8,7 @@ class C { #aaa = 0 }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ class Foo { constructor }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

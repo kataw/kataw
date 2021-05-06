@@ -8,7 +8,7 @@ fuction *f() {  return await yield;  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

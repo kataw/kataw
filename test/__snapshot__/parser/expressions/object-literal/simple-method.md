@@ -11,7 +11,7 @@ x = { method(test: string) { } };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

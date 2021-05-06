@@ -9,7 +9,7 @@ _ => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

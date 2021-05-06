@@ -12,7 +12,7 @@ class x {static set interface(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

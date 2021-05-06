@@ -8,7 +8,7 @@ result = {} = vals;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

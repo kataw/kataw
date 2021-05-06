@@ -14,7 +14,7 @@ result = { x: { y } } = { x: { y: 2 } };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ function* gf() { +yield; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

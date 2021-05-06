@@ -14,7 +14,7 @@ export {x}; var x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -22,7 +22,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

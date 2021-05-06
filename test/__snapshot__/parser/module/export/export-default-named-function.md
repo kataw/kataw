@@ -14,7 +14,7 @@ export default function foo() {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

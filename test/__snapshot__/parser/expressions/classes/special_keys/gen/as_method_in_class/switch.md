@@ -12,7 +12,7 @@ class x {switch(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

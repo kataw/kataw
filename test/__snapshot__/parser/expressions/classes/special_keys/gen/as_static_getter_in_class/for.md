@@ -12,7 +12,7 @@ class x {static get for(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

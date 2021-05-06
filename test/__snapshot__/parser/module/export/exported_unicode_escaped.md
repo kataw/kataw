@@ -15,7 +15,7 @@ export { \u0061bc }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

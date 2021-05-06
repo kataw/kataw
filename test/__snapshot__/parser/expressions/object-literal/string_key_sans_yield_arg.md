@@ -8,7 +8,7 @@ function *f(){   s = {"foo": yield}   }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

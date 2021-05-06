@@ -14,7 +14,7 @@ export let foo = async () => this
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

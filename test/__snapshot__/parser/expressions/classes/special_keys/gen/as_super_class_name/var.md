@@ -12,7 +12,7 @@ class x extends var {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

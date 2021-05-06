@@ -18,7 +18,7 @@ function a<string>(x: string): string {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

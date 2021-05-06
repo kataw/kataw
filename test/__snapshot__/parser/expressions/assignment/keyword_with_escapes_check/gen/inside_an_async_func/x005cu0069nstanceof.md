@@ -12,7 +12,7 @@ async () => {  \u0069nstanceof = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

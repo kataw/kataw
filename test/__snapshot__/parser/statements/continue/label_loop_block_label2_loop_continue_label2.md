@@ -8,7 +8,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

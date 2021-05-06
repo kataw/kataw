@@ -14,7 +14,7 @@ export default function () {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

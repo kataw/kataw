@@ -12,7 +12,7 @@ class C { set #arguments(test) {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

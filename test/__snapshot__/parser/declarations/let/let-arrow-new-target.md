@@ -8,7 +8,7 @@ let y = () => new.target
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

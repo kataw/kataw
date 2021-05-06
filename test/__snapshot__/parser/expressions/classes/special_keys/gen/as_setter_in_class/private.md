@@ -12,7 +12,7 @@ class x {set private(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

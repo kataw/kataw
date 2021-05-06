@@ -12,7 +12,7 @@ do async function f(){} while (x);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

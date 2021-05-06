@@ -16,7 +16,7 @@ for ([a.b].foo of c) d
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

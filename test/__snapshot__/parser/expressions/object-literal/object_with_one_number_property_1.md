@@ -8,7 +8,7 @@ wrap({15:b});
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

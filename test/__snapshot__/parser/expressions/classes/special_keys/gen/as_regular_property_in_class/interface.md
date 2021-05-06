@@ -12,7 +12,7 @@ class x {interface: x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

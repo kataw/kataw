@@ -14,7 +14,7 @@ let x = '\\009';
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

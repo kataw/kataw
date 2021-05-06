@@ -27,7 +27,7 @@ for (function(){ }[foo] of x);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

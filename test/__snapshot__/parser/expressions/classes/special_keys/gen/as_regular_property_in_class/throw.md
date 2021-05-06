@@ -12,7 +12,7 @@ class x {throw: x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

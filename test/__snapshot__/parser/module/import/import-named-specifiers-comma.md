@@ -14,7 +14,7 @@ import {bar, baz,} from "foo";
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

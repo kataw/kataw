@@ -66,7 +66,7 @@ foo ? bar : baz => {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

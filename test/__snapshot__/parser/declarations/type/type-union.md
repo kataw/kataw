@@ -47,7 +47,7 @@ type overloads2 = {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

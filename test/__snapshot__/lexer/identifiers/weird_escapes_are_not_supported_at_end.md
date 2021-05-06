@@ -14,7 +14,7 @@ xxx\A
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

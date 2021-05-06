@@ -12,7 +12,7 @@ function *g() { yield void x }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ async () => {  \u0072eturn = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

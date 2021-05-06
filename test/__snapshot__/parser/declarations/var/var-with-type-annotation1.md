@@ -17,7 +17,7 @@ var x = ({ a } : any = 'foo') => {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

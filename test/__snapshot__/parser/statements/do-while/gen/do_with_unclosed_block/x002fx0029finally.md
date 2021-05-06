@@ -12,7 +12,7 @@ do {} while (x) { /)finally
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

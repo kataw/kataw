@@ -12,7 +12,7 @@ var 𫠞_ = 12;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

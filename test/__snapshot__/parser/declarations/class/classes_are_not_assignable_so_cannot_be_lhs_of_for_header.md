@@ -16,7 +16,7 @@ for (class x { [a](){} } in c);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

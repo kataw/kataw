@@ -10,7 +10,7 @@ throw /**/\n x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

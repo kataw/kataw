@@ -12,7 +12,7 @@ for (super.foo in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

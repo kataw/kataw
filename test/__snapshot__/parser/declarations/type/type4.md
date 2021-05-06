@@ -51,7 +51,7 @@ type T27 = ArgumentType<never>;  // any
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

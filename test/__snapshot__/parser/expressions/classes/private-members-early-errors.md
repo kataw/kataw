@@ -20,7 +20,7 @@ class C { foo() { this.#a = 1; }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

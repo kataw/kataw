@@ -12,7 +12,7 @@ p\u0061ckage = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

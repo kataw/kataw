@@ -14,7 +14,7 @@ export const x = 10, y = 20
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

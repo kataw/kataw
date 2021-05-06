@@ -9,7 +9,7 @@ xyz*/"bar";
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

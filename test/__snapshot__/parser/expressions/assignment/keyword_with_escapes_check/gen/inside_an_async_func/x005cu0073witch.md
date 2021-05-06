@@ -12,7 +12,7 @@ async () => {  \u0073witch = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

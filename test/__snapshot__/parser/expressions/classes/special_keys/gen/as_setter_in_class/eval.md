@@ -12,7 +12,7 @@ class x {set eval(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

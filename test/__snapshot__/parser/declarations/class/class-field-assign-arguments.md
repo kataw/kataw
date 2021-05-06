@@ -16,7 +16,7 @@ class Foo { x = arguments }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

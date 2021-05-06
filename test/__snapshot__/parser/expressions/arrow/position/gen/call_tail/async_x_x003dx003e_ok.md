@@ -12,7 +12,7 @@ foo(async x => ok).bar
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

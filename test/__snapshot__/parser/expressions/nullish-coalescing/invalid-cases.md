@@ -27,7 +27,7 @@ a+1 ?? b+1 && c;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ let p/
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

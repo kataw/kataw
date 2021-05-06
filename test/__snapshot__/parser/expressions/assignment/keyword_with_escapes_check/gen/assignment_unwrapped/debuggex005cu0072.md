@@ -12,7 +12,7 @@ debugge\u0072 = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

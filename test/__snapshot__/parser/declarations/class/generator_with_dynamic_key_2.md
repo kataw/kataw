@@ -27,7 +27,7 @@ class x {static *[y](){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

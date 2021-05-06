@@ -12,7 +12,7 @@ async () => {  \u0062rguments = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

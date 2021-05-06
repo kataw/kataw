@@ -16,7 +16,7 @@ type foo<number> = string;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

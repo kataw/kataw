@@ -12,7 +12,7 @@ class C extends Base { static *static() {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

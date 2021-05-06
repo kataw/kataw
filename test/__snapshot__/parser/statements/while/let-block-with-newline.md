@@ -9,7 +9,7 @@ while (false) let // ASI
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class x {async yield(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

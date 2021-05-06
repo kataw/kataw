@@ -16,7 +16,7 @@ type A = { [string]: number };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

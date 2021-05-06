@@ -12,7 +12,7 @@ function f(a = x => ok) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

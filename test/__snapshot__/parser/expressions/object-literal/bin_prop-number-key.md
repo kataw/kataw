@@ -8,7 +8,7 @@ x = {0b001001: y}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

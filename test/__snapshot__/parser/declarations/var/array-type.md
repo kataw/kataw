@@ -27,7 +27,7 @@ var a: (?number)[];
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

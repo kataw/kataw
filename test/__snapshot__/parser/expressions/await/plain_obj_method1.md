@@ -8,7 +8,7 @@ let o = {await(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

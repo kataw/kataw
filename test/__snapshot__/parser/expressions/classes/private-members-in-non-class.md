@@ -30,7 +30,7 @@ class C { test() {get #a() { }}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

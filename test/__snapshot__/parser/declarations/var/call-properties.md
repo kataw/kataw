@@ -18,7 +18,7 @@ var a : { <T>(x: T): number; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

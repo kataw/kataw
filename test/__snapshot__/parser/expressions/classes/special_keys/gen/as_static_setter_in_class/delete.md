@@ -12,7 +12,7 @@ class x {static set delete(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class x {static get void(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

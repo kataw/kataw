@@ -8,7 +8,7 @@ switch (x) { case x: if (foo) continue foo; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

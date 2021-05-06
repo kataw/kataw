@@ -8,7 +8,7 @@ switch(y&[]=y){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

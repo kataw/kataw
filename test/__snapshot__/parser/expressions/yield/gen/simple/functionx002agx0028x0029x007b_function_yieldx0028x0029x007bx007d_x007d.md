@@ -12,7 +12,7 @@ function*g(){ function yield(){}; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

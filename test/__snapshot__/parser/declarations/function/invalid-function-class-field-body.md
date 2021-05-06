@@ -13,7 +13,7 @@ function* foo() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

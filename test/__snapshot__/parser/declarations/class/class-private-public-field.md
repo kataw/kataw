@@ -37,7 +37,7 @@ class C { f(){ this.#a } #a; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

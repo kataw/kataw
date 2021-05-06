@@ -8,7 +8,7 @@ result = [ x = 'x' in {} ] = vals;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

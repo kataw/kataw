@@ -27,7 +27,7 @@ var [..x] = obj;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ foo, bar, zoo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

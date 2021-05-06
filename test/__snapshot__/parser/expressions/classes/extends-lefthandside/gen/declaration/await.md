@@ -12,7 +12,7 @@ class A extends await {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

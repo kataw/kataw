@@ -8,7 +8,7 @@ wrap({foo(){}});
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

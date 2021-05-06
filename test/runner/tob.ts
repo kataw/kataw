@@ -89,7 +89,7 @@ function md2printerOptions(_str: string) {
 }
 
 function md2cst(str: string) {
-  const offset = str.indexOf(Constants.Header);
+  const offset = str.indexOf(Constants.CST);
   if (offset === 0) report('Missing input header');
   const start = str.indexOf(Constants.JavascriptStart, offset);
   if (start === 0) report('Should have the start of a test case');
@@ -117,17 +117,14 @@ function md2diagnostics(str: string) {
 }
 
 function outputBlock(tob: Tob, updateItems: any) {
-  return `
-## Output
+  return `${Constants.Output}
 
-### Hybrid CST
+${Constants.CST}
 ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cst}${Constants.JavascriptEnd}
-### Printed
+${Constants.Printed}
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
-### Diagnostics
-${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${
-    Constants.JavascriptEnd
-  }
+${Constants.Diagnostics}
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${Constants.JavascriptEnd}
 `;
 }
 

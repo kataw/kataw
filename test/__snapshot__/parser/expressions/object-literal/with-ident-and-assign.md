@@ -8,7 +8,7 @@ let z = {...x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

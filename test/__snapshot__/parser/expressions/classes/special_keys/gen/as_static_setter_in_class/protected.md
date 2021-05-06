@@ -12,7 +12,7 @@ class x {static set protected(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

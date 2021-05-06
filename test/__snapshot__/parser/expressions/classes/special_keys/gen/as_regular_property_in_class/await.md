@@ -12,7 +12,7 @@ class x {await: x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

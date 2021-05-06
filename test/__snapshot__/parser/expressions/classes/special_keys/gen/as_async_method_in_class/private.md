@@ -12,7 +12,7 @@ class x {async private(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

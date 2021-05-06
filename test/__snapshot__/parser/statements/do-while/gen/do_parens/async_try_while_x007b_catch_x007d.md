@@ -12,7 +12,7 @@ do( async try while { catch } while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

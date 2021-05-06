@@ -27,7 +27,7 @@ for (const x in obj) { var x = 13 }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

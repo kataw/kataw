@@ -16,7 +16,7 @@ a=function<T,S>() {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

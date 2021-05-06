@@ -8,7 +8,7 @@ new false.__proto__.constructor
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

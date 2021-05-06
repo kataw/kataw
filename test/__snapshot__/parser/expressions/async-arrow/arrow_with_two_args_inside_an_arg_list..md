@@ -8,7 +8,7 @@ f((async (a, b) => a + b));
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

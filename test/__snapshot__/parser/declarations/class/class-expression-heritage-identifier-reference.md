@@ -9,7 +9,7 @@ var B = class extends A {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

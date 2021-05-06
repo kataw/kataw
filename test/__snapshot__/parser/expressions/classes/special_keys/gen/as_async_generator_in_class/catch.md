@@ -12,7 +12,7 @@ class x {async * catch(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ for (async function *f(){} in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

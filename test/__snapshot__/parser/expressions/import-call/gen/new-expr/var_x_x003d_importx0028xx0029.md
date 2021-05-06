@@ -12,7 +12,7 @@ var x = import(x)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

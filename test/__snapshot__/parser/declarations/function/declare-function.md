@@ -13,7 +13,7 @@ declare function foo(): void
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

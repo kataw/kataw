@@ -12,7 +12,7 @@ class x extends enum {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ var asyncArrow = async(...await) => {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

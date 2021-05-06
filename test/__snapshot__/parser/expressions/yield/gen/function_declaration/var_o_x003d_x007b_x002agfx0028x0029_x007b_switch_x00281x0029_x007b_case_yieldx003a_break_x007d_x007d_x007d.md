@@ -12,7 +12,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ typeof a + b instanceof c
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

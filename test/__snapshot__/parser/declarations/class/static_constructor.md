@@ -27,7 +27,7 @@ class A {static constructor(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

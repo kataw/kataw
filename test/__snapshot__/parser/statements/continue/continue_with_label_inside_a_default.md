@@ -8,7 +8,7 @@ switch (x) { default: continue foo; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

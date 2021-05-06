@@ -16,7 +16,7 @@ const fn = async (a?: any): Promise<void> => {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

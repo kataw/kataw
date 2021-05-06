@@ -27,7 +27,7 @@ for ([x.y] = z in obj);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

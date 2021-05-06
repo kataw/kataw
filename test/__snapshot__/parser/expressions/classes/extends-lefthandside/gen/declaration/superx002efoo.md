@@ -12,7 +12,7 @@ class A extends super.foo {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ do try { !xxx
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

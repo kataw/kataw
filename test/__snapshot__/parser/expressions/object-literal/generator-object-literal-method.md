@@ -8,7 +8,7 @@ var x = { *test () { yield *v } };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

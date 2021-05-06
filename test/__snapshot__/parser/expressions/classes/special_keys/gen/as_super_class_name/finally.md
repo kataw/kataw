@@ -12,7 +12,7 @@ class x extends finally {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

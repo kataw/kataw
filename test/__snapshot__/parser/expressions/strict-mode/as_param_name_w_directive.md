@@ -8,7 +8,7 @@ f = (interface) => { "use strict"; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

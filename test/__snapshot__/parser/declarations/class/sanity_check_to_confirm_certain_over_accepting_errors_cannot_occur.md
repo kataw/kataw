@@ -27,7 +27,7 @@ class x { async get foo(){ }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

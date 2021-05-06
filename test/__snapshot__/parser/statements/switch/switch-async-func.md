@@ -8,7 +8,7 @@ switch (0) { case 1: async function* f() {} default: function f() {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

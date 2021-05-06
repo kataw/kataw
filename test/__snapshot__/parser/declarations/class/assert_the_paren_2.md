@@ -27,7 +27,7 @@ class x {[x]z){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

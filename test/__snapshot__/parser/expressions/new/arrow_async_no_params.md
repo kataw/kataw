@@ -8,7 +8,7 @@ new asc() => x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class x {set get(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

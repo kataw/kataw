@@ -8,7 +8,7 @@ for (x in y) continue
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

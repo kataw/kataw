@@ -20,7 +20,7 @@ x = { method(test) { } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

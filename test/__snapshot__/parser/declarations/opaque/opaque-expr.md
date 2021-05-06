@@ -16,7 +16,7 @@ opaque += 4;
 `````
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

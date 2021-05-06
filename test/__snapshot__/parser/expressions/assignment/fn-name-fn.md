@@ -11,7 +11,7 @@ fn = function() {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ let [...[foo, bar]] = obj;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

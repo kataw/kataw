@@ -10,7 +10,7 @@ function *f() { yield
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

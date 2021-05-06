@@ -16,7 +16,7 @@ class Foo {set fooProp(value:number){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -14,7 +14,7 @@ export {foo as bar};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

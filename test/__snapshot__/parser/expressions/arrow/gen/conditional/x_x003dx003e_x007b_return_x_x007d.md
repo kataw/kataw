@@ -12,7 +12,7 @@ x => { return x; } , bar;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

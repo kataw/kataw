@@ -12,7 +12,7 @@ do a / b + c while (x);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

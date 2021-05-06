@@ -16,7 +16,7 @@ switch(x) /* comment */ { case y: foo }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

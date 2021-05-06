@@ -8,7 +8,7 @@ foo({bar(){ new.target }})
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

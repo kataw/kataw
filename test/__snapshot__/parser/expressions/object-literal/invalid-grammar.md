@@ -22,7 +22,7 @@ q = {"foo": super = x} = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ class A {static set foo(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

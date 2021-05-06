@@ -12,7 +12,7 @@ for (`temp {waitforit} late` in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

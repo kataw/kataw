@@ -27,7 +27,7 @@ for ((a * b + c) * d;b;c);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

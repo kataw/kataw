@@ -9,7 +9,7 @@ for (x of 3) continue
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

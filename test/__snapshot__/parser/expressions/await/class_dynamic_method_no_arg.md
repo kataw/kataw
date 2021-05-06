@@ -8,7 +8,7 @@ class x{[x](a=await){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

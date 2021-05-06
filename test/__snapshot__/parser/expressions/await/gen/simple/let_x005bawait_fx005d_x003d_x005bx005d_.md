@@ -12,7 +12,7 @@ let [await f] = [];
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

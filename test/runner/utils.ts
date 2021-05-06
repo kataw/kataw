@@ -11,13 +11,13 @@ export const enum ColorCodes {
 }
 
 export const enum Constants {
-  Output = '\n## Output\n',
-  Header = '\n### Hybrid CST\n',
-  Printed = '\n### Printed\n',
-  Diagnostics = '\n### Diagnostics\n',
+  Output = '## Output',
+  CST = '### CST',
+  Printed = '### Printed',
+  Diagnostics = '### Diagnostics',
   JavascriptStart = '\n```javascript\n',
   JavascriptEnd = '\n```\n',
-  Options = '\n## Options\n',
+  Options = '## Options',
   Input = '\n## Input\n',
   JsStart = '\n`````js\n',
   JsEnd = '\n`````\n',

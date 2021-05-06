@@ -12,7 +12,7 @@ class x extends while {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

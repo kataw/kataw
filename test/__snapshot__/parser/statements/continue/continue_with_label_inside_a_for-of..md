@@ -8,7 +8,7 @@ foo: for (x of y) continue foo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

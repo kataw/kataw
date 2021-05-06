@@ -13,7 +13,7 @@ class C extends (function B() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

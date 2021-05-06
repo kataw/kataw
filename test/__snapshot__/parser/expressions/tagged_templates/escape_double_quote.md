@@ -8,7 +8,7 @@ tag`some \" quote`;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

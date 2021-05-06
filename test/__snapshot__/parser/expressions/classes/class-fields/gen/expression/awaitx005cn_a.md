@@ -12,7 +12,7 @@ class C extends Base { await\n a }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

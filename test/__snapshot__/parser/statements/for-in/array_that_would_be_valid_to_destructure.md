@@ -27,7 +27,7 @@ for ([x] in obj);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

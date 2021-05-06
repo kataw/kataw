@@ -8,7 +8,7 @@ class A {*yield() {}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

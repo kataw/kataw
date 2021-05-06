@@ -8,7 +8,7 @@ var af = (x, ...y) => { return [x, y.length]; };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

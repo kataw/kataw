@@ -27,7 +27,7 @@ for ({a: b.c}[x] of d) e
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

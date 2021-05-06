@@ -12,7 +12,7 @@ x = class extends (a ? null : yield) { }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

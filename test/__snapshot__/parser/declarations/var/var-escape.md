@@ -8,7 +8,7 @@ var _\u{104A6} = 10;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

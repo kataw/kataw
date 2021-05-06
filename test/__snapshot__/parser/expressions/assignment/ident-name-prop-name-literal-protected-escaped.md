@@ -15,7 +15,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

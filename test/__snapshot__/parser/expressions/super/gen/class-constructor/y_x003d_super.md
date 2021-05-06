@@ -12,7 +12,7 @@ class C { constructor() { y = super } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

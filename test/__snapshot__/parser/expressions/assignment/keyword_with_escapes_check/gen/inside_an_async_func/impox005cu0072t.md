@@ -12,7 +12,7 @@ async () => {  impo\u0072t = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ do catch { try while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

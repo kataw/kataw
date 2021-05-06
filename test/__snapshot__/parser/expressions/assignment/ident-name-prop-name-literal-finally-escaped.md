@@ -8,7 +8,7 @@ var y = { \u0066inally: x } = { finally: 42 };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

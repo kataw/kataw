@@ -16,7 +16,7 @@ type A = { [string | boolean]: number };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

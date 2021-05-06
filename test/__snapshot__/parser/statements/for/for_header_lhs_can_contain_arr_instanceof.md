@@ -27,7 +27,7 @@ for ([] instanceof obj;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

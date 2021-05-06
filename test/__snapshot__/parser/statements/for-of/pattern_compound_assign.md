@@ -27,7 +27,7 @@ for({}/=y of a)x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

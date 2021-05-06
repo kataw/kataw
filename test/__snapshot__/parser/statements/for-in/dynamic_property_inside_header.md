@@ -27,7 +27,7 @@ for (x[a in b] in y);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ new Foo`bar`
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

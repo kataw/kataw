@@ -27,7 +27,7 @@ for ({x=y}=x of x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

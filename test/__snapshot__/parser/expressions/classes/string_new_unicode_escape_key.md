@@ -14,7 +14,7 @@ class x { "prot\u{6f}type"(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

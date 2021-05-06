@@ -27,7 +27,7 @@ let {} = obj;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

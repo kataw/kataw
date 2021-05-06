@@ -15,7 +15,7 @@ opaque type Counter: Box<T> = Container<T>;
 `````
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

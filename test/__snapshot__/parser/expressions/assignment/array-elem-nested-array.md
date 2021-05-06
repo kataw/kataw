@@ -19,7 +19,7 @@ result = [[x]] = vals;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

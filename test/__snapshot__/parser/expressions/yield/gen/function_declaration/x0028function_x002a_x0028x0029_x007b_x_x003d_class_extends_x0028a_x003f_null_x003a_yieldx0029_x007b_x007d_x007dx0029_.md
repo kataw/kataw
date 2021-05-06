@@ -12,7 +12,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

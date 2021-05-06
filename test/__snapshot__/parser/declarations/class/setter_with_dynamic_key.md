@@ -27,7 +27,7 @@ class x { static set [y](z){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

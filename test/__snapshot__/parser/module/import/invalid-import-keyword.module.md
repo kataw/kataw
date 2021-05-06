@@ -14,7 +14,7 @@ import { for } from "iteration"
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

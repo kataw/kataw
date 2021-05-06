@@ -10,7 +10,7 @@ class C { static #constructor }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

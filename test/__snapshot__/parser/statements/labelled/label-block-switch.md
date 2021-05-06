@@ -8,7 +8,7 @@ a: { b: switch(x) {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

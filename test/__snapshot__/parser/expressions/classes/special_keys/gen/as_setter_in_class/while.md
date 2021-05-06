@@ -12,7 +12,7 @@ class x {set while(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

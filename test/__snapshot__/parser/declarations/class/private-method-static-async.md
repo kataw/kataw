@@ -8,7 +8,7 @@ class C { static async#aaa(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

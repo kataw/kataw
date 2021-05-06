@@ -8,7 +8,7 @@ new new A().foo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

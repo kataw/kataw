@@ -12,7 +12,7 @@ yield /* comment */
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

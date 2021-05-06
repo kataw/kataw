@@ -12,7 +12,7 @@ class x {async * while(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

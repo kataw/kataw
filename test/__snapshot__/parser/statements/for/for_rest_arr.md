@@ -27,7 +27,7 @@ for (const [...x] in y){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

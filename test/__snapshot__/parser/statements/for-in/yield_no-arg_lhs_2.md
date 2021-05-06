@@ -27,7 +27,7 @@ function *f(){   for (yield in y);   }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

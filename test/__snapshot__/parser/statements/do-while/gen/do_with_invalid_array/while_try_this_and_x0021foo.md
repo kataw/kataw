@@ -12,7 +12,7 @@ do while [catch] while try this and !foo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

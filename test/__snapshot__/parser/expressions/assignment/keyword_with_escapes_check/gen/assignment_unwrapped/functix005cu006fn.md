@@ -12,7 +12,7 @@ functi\u006fn = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

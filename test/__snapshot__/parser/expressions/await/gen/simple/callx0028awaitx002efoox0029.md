@@ -12,7 +12,7 @@ call(await.foo)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

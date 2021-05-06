@@ -27,7 +27,7 @@ const [...foo,] = obj;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

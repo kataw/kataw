@@ -8,7 +8,7 @@ result = {...rest} = 69;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

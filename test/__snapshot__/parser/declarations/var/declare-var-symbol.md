@@ -16,7 +16,7 @@ declare var x: symbol;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

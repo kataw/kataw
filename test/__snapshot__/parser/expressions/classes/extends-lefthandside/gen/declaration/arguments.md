@@ -12,7 +12,7 @@ class A extends arguments {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

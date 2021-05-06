@@ -8,7 +8,7 @@ while (false) debugger;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

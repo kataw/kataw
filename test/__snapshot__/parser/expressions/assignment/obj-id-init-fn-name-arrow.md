@@ -8,7 +8,7 @@ result = { arrow = () => {} } = {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

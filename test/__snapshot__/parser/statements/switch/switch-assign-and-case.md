@@ -8,7 +8,7 @@ switch([x = y]) { case y: foo }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

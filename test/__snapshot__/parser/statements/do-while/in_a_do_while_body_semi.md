@@ -8,7 +8,7 @@ do x, y; while (z)
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

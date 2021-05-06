@@ -14,7 +14,7 @@ export {bar}, * as foo from 'bar';
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

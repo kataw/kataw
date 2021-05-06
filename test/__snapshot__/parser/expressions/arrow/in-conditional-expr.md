@@ -11,7 +11,7 @@ x ? ( (a, {}) => {} ) : baz;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

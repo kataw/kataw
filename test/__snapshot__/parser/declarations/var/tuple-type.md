@@ -23,7 +23,7 @@ var x: [number, string] = [123, "aladdin"];
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

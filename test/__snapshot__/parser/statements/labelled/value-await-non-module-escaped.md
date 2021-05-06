@@ -14,7 +14,7 @@ aw\u0061it: 1;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

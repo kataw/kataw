@@ -24,7 +24,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

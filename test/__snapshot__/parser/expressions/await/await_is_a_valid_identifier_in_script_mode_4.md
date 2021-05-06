@@ -8,7 +8,7 @@ await = 16
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ x.foo++.bar
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

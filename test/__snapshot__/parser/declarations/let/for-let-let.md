@@ -16,7 +16,7 @@ for (let {x: y = let};;) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

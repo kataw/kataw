@@ -27,7 +27,7 @@ const []
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

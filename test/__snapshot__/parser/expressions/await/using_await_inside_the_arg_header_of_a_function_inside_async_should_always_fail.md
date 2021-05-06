@@ -8,7 +8,7 @@ let f = () => (y=await foo) => y;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

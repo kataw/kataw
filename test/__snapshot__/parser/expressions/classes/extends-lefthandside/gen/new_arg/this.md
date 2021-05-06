@@ -12,7 +12,7 @@ new this
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ x => ok[foo]
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

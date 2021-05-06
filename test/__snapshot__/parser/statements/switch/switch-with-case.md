@@ -16,7 +16,7 @@ switch (x) { case y: break; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

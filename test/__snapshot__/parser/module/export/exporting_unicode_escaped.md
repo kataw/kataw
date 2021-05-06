@@ -15,7 +15,7 @@ export { abc }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

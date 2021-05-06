@@ -8,7 +8,7 @@ z();
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ for ({bar} in x) ;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

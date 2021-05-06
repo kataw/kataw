@@ -14,7 +14,7 @@ import a, ** from 'f';
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

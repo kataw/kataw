@@ -28,7 +28,7 @@ type T1 = number;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -47,7 +47,7 @@ function targetKey() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

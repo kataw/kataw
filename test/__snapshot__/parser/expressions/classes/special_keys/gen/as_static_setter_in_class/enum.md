@@ -12,7 +12,7 @@ class x {static set enum(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

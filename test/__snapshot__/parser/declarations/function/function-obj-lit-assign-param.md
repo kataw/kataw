@@ -8,7 +8,7 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

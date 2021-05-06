@@ -8,7 +8,7 @@ loop: while (x) { break loop; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

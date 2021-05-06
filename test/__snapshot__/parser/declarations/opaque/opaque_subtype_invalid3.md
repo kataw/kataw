@@ -17,7 +17,7 @@ opaque stuff: Box<T> = Container<T>
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

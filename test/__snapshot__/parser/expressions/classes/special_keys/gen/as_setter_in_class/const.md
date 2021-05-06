@@ -12,7 +12,7 @@ class x {set const(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

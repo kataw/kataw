@@ -8,7 +8,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

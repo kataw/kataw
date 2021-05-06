@@ -8,7 +8,7 @@ new x() ** 2;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ function *f(){ for (yield of obj); }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

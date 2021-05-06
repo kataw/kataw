@@ -12,7 +12,7 @@ class x {static async * enum(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

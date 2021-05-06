@@ -27,7 +27,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

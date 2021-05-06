@@ -17,7 +17,7 @@ var a: 123
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

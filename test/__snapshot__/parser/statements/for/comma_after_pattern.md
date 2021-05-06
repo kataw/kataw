@@ -16,7 +16,7 @@ for ([], x;;);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

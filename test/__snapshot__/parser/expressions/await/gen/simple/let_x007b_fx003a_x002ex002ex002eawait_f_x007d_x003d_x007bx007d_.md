@@ -12,7 +12,7 @@ let { f: ...await f } = {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ class A {* get [x](){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

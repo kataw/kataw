@@ -15,7 +15,7 @@ x, [foo = y, bar] = doo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

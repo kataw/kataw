@@ -12,7 +12,7 @@ class yield {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

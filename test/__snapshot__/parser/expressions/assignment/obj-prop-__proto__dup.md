@@ -10,7 +10,7 @@ result = ({ __proto__: x, __proto__: y } = value);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

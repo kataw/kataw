@@ -12,7 +12,7 @@ class C { *method() { y = super } }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

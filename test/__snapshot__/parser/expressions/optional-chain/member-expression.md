@@ -12,7 +12,7 @@ f2`hello world`?.a;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ for (let of x) y
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

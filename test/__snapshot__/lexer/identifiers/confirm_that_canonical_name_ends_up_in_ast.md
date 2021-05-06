@@ -8,7 +8,7 @@ pa\u0073s();
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

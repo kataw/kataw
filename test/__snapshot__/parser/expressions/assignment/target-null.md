@@ -14,7 +14,7 @@ null = 42;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

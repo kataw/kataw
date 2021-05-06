@@ -12,7 +12,7 @@ class x {static set default(x){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

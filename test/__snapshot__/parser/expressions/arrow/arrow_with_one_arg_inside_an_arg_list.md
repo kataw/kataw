@@ -8,7 +8,7 @@ f(((a) => a + b)(1, 4), 5);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

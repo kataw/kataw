@@ -32,7 +32,7 @@ async (...[x]?: string, a?) => {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

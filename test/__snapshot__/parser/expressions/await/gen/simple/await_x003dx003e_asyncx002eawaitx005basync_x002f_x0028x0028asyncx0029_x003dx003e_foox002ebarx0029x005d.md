@@ -12,7 +12,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

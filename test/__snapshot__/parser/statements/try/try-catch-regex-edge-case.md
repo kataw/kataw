@@ -8,7 +8,7 @@ try/catch/finally/{
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ new 0x2.__proto__.constructor
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

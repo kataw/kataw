@@ -8,7 +8,7 @@ throw {x} catch finally
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

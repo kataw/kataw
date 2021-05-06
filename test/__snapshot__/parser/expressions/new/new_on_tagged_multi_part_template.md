@@ -8,7 +8,7 @@ new Foo`a${b}c${c}e`
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

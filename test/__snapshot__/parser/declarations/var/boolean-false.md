@@ -16,7 +16,7 @@ var foo: true
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

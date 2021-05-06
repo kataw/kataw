@@ -12,7 +12,7 @@ x => ok, a
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

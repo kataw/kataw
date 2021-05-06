@@ -12,7 +12,7 @@ class x {get eval(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

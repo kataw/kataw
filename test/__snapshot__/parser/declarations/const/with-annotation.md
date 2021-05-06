@@ -23,7 +23,7 @@ const {x}: string = y;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

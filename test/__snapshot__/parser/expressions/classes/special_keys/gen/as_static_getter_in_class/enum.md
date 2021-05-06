@@ -12,7 +12,7 @@ class x {static get enum(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

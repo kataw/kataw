@@ -9,7 +9,7 @@ null?.fn
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -21,7 +21,7 @@ let {foo=3} = {};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

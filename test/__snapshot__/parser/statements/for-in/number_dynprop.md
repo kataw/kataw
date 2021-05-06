@@ -16,7 +16,7 @@ for (456[x] in c) d;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

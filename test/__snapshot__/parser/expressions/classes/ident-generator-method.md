@@ -14,7 +14,7 @@ class A {*foo(){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

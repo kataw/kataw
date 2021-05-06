@@ -12,7 +12,7 @@ class x {protected: x}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

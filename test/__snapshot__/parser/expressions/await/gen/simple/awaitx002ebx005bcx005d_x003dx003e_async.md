@@ -12,7 +12,7 @@ await.b[c] => async
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

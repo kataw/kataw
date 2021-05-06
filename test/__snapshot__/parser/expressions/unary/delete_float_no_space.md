@@ -8,7 +8,7 @@ delete.500
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ async r => result = [...{ x = await x }] = y;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

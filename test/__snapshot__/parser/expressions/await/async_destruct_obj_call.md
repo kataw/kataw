@@ -8,7 +8,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

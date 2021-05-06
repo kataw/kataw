@@ -12,7 +12,7 @@ fin\u0061lly = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

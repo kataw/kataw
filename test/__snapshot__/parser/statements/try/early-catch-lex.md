@@ -8,7 +8,7 @@ try { } catch (x) { let x; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

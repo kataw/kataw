@@ -12,7 +12,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

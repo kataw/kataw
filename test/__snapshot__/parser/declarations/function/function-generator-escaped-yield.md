@@ -8,7 +8,7 @@ function *foo() { (x = \u0079ield) }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

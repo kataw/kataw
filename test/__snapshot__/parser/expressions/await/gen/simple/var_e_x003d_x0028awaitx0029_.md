@@ -12,7 +12,7 @@ var e = (await);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

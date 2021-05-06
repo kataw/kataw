@@ -14,7 +14,7 @@ export default "foo";
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

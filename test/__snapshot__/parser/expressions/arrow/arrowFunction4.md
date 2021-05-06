@@ -18,7 +18,7 @@ var v = (a, b) => {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -10,7 +10,7 @@ switch (this.a) { c\u0061se 6: break; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

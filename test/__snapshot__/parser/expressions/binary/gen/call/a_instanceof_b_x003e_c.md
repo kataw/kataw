@@ -12,7 +12,7 @@ foo( a instanceof b > c )
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

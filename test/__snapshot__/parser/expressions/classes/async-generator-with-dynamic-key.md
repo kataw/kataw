@@ -8,7 +8,7 @@ class x { async *[y](){}}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

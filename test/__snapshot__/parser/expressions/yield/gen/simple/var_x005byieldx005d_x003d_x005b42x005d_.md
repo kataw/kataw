@@ -12,7 +12,7 @@ var [yield] = [42];
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

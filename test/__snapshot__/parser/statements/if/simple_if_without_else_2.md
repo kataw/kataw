@@ -8,7 +8,7 @@ if (foo) bar; else doo;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

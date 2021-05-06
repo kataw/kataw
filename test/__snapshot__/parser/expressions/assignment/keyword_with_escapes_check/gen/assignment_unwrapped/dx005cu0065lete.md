@@ -12,7 +12,7 @@ d\u0065lete = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

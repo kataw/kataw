@@ -12,7 +12,7 @@ class x extends package {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class A extends async function(){} {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -27,7 +27,7 @@ let {[x]: y = z} = a;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

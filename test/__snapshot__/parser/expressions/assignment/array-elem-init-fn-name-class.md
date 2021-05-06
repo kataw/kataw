@@ -8,7 +8,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

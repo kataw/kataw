@@ -27,7 +27,7 @@ for (const [let] in obj);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {

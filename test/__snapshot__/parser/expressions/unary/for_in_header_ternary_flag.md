@@ -8,7 +8,7 @@ for(delete((1)?y:x in y) in z)x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
