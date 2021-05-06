@@ -39,20 +39,20 @@ wrap({15:b});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 9,
-                                            "end": 10
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 15,
                                             "rawText": "15",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 8
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 9,
+                                            "end": 10
                                         },
                                         "flags": 32,
                                         "start": 6,

@@ -63,7 +63,7 @@ async function f() {
                             "kind": 120,
                             "expression": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 1,
                                     "start": 20,
@@ -96,7 +96,7 @@ async function f() {
                                             "end": 40
                                         }
                                     ],
-                                    "asyncToken": {
+                                    "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 28,

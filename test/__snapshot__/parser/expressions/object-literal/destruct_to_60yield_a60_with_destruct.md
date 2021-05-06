@@ -44,20 +44,20 @@ s = {"foo": yield a = x} = x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 134299649,
-                                        "text": "yield",
-                                        "rawText": "yield",
-                                        "flags": 96,
-                                        "start": 11,
-                                        "end": 17
-                                    },
-                                    "right": {
                                         "kind": 201392131,
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
                                         "start": 5,
                                         "end": 10
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 17
                                     },
                                     "flags": 32,
                                     "start": 5,

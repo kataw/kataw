@@ -25,7 +25,7 @@ async () => { \u{61}wait: x }
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -42,7 +42,7 @@ async () => { \u{61}wait: x }
                             "kind": 163,
                             "label": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 8192,
                                     "start": 13,

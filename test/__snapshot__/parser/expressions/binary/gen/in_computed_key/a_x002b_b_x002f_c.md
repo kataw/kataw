@@ -46,14 +46,6 @@ x = {[ a + b / c ]: y}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 19,
-                                    "end": 21
-                                },
-                                "right": {
                                     "kind": 194,
                                     "expression": {
                                         "kind": 198,
@@ -106,6 +98,14 @@ x = {[ a + b / c ]: y}
                                     "flags": 32,
                                     "start": 5,
                                     "end": 18
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 19,
+                                    "end": 21
                                 },
                                 "flags": 32,
                                 "start": 5,

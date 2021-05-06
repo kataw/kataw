@@ -145,7 +145,7 @@ for ((async) of x);
                     "start": 56,
                     "end": 59
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 51,

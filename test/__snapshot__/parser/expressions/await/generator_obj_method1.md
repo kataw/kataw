@@ -141,6 +141,14 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                     "kind": 219,
                                                                                                     "generatorToken": null,
                                                                                                     "left": {
+                                                                                                        "kind": 134299649,
+                                                                                                        "text": "m",
+                                                                                                        "rawText": "m",
+                                                                                                        "flags": 96,
+                                                                                                        "start": 42,
+                                                                                                        "end": 43
+                                                                                                    },
+                                                                                                    "right": {
                                                                                                         "kind": 131,
                                                                                                         "expression": {
                                                                                                             "kind": 134299649,
@@ -178,14 +186,6 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                         "flags": 32,
                                                                                                         "start": 42,
                                                                                                         "end": 57
-                                                                                                    },
-                                                                                                    "right": {
-                                                                                                        "kind": 134299649,
-                                                                                                        "text": "m",
-                                                                                                        "rawText": "m",
-                                                                                                        "flags": 96,
-                                                                                                        "start": 42,
-                                                                                                        "end": 43
                                                                                                     },
                                                                                                     "flags": 32,
                                                                                                     "start": 42,

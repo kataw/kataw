@@ -30,6 +30,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "l",
+                                        "rawText": "l",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    "right": {
                                         "kind": 129,
                                         "member": {
                                             "kind": 201392130,
@@ -50,14 +58,6 @@
                                         "flags": 32,
                                         "start": 4,
                                         "end": 12
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "l",
-                                        "rawText": "l",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 3
                                     },
                                     "flags": 32,
                                     "start": 2,

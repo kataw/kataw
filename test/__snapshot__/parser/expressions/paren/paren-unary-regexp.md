@@ -27,7 +27,7 @@
                         "start": 1,
                         "end": 7
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 129,
                         "member": {
                             "kind": 221,

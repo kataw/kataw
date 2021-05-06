@@ -196,6 +196,14 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                         "kind": 219,
                                                                                                         "generatorToken": null,
                                                                                                         "left": {
+                                                                                                            "kind": 134299649,
+                                                                                                            "text": "m",
+                                                                                                            "rawText": "m",
+                                                                                                            "flags": 96,
+                                                                                                            "start": 65,
+                                                                                                            "end": 66
+                                                                                                        },
+                                                                                                        "right": {
                                                                                                             "kind": 131,
                                                                                                             "expression": {
                                                                                                                 "kind": 134299649,
@@ -210,7 +218,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                 "elements": [
                                                                                                                     {
                                                                                                                         "kind": 208,
-                                                                                                                        "awaitToken": {
+                                                                                                                        "awaitKeyword": {
                                                                                                                             "kind": 82032,
                                                                                                                             "flags": 0,
                                                                                                                             "start": 70,
@@ -237,14 +245,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                             "flags": 32,
                                                                                                             "start": 65,
                                                                                                             "end": 80
-                                                                                                        },
-                                                                                                        "right": {
-                                                                                                            "kind": 134299649,
-                                                                                                            "text": "m",
-                                                                                                            "rawText": "m",
-                                                                                                            "flags": 96,
-                                                                                                            "start": 65,
-                                                                                                            "end": 66
                                                                                                         },
                                                                                                         "flags": 32,
                                                                                                         "start": 65,

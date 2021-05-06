@@ -119,19 +119,19 @@ var {[2]: y = 1} = {2:3}
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 201392130,
-                                            "text": 3,
-                                            "rawText": "3",
-                                            "flags": 96,
-                                            "start": 22,
-                                            "end": 23
-                                        },
-                                        "right": {
-                                            "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
                                             "start": 20,
                                             "end": 21
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 3,
+                                            "rawText": "3",
+                                            "flags": 96,
+                                            "start": 22,
+                                            "end": 23
                                         },
                                         "flags": 32,
                                         "start": 20,

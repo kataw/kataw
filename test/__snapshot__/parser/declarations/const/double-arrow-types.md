@@ -123,7 +123,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "start": 32,
                         "end": 37
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,
@@ -169,7 +169,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             }
                         ]
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
@@ -290,7 +290,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "start": 92,
                         "end": 97
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,
@@ -336,7 +336,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             }
                         ]
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

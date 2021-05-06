@@ -29,6 +29,20 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 194,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 3,
+                                        "end": 4
+                                    },
+                                    "flags": 32,
+                                    "start": 2,
+                                    "end": 5
+                                },
+                                "right": {
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
@@ -66,20 +80,6 @@
                                     "flags": 32,
                                     "start": 6,
                                     "end": 20
-                                },
-                                "right": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 3,
-                                        "end": 4
-                                    },
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 5
                                 },
                                 "flags": 32,
                                 "start": 2,

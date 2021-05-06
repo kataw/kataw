@@ -159,7 +159,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                             "end": 41
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,

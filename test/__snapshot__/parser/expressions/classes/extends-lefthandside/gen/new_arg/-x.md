@@ -37,7 +37,7 @@ new -x
                         "start": 3,
                         "end": 5
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",

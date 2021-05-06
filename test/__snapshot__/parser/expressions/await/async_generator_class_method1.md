@@ -144,6 +144,14 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                     "kind": 219,
                                                                                     "generatorToken": null,
                                                                                     "left": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "m",
+                                                                                        "rawText": "m",
+                                                                                        "flags": 96,
+                                                                                        "start": 48,
+                                                                                        "end": 49
+                                                                                    },
+                                                                                    "right": {
                                                                                         "kind": 131,
                                                                                         "expression": {
                                                                                             "kind": 134299649,
@@ -158,7 +166,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "elements": [
                                                                                                 {
                                                                                                     "kind": 208,
-                                                                                                    "awaitToken": {
+                                                                                                    "awaitKeyword": {
                                                                                                         "kind": 82032,
                                                                                                         "flags": 0,
                                                                                                         "start": 53,
@@ -185,14 +193,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                         "flags": 32,
                                                                                         "start": 48,
                                                                                         "end": 63
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "m",
-                                                                                        "rawText": "m",
-                                                                                        "flags": 96,
-                                                                                        "start": 48,
-                                                                                        "end": 49
                                                                                     },
                                                                                     "flags": 32,
                                                                                     "start": 48,

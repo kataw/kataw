@@ -25,7 +25,7 @@ delete.500
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 0.5,
                     "rawText": ".500",

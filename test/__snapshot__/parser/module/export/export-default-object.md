@@ -44,20 +44,20 @@ export default { foo: 1 };
                             "kind": 219,
                             "generatorToken": null,
                             "left": {
-                                "kind": 201392130,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "right": {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
                                 "start": 16,
                                 "end": 20
+                            },
+                            "right": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 21,
+                                "end": 23
                             },
                             "flags": 32,
                             "start": 16,

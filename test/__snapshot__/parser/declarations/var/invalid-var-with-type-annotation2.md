@@ -143,20 +143,20 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 41,
-                                            "end": 43
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 38,
                                             "end": 40
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 0,
+                                            "rawText": "0",
+                                            "flags": 96,
+                                            "start": 41,
+                                            "end": 43
                                         },
                                         "flags": 32,
                                         "start": 38,
@@ -166,20 +166,20 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "foo",
-                                            "rawText": "'foo'",
-                                            "flags": 4194400,
-                                            "start": 47,
-                                            "end": 53
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
                                             "start": 44,
                                             "end": 46
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "foo",
+                                            "rawText": "'foo'",
+                                            "flags": 4194400,
+                                            "start": 47,
+                                            "end": 53
                                         },
                                         "flags": 32,
                                         "start": 44,

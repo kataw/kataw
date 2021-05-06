@@ -63,14 +63,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar4",
-                                                "rawText": "bar4",
-                                                "flags": 96,
-                                                "start": 8,
-                                                "end": 13
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
@@ -83,6 +75,14 @@
                                                 "flags": 32,
                                                 "start": 2,
                                                 "end": 7
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar4",
+                                                "rawText": "bar4",
+                                                "flags": 96,
+                                                "start": 8,
+                                                "end": 13
                                             },
                                             "flags": 32,
                                             "start": 2,
@@ -128,20 +128,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 24,
-                                                "end": 30
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 20,
                                                 "end": 23
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 24,
+                                                "end": 30
                                             },
                                             "flags": 32,
                                             "start": 20,
@@ -193,14 +193,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar5",
-                                                "rawText": "bar5",
-                                                "flags": 96,
-                                                "start": 46,
-                                                "end": 51
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 131,
@@ -227,6 +219,14 @@
                                                 "flags": 32,
                                                 "start": 37,
                                                 "end": 45
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar5",
+                                                "rawText": "bar5",
+                                                "flags": 96,
+                                                "start": 46,
+                                                "end": 51
                                             },
                                             "flags": 32,
                                             "start": 37,
@@ -272,20 +272,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 62,
-                                                "end": 68
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 58,
                                                 "end": 61
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 62,
+                                                "end": 68
                                             },
                                             "flags": 32,
                                             "start": 58,
@@ -337,14 +337,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar4",
-                                                "rawText": "bar4",
-                                                "flags": 96,
-                                                "start": 83,
-                                                "end": 88
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 131,
@@ -371,6 +363,14 @@
                                                 "flags": 32,
                                                 "start": 75,
                                                 "end": 82
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar4",
+                                                "rawText": "bar4",
+                                                "flags": 96,
+                                                "start": 83,
+                                                "end": 88
                                             },
                                             "flags": 32,
                                             "start": 75,
@@ -416,20 +416,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 99,
-                                                "end": 105
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 95,
                                                 "end": 98
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 99,
+                                                "end": 105
                                             },
                                             "flags": 32,
                                             "start": 95,
@@ -481,14 +481,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar4",
-                                                "rawText": "bar4",
-                                                "flags": 96,
-                                                "start": 119,
-                                                "end": 124
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
@@ -501,6 +493,14 @@
                                                 "flags": 32,
                                                 "start": 112,
                                                 "end": 118
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar4",
+                                                "rawText": "bar4",
+                                                "flags": 96,
+                                                "start": 119,
+                                                "end": 124
                                             },
                                             "flags": 32,
                                             "start": 112,
@@ -546,20 +546,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 137,
-                                                "end": 143
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 132,
                                                 "end": 136
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 137,
+                                                "end": 143
                                             },
                                             "flags": 32,
                                             "start": 132,
@@ -611,14 +611,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar5",
-                                                "rawText": "bar5",
-                                                "flags": 96,
-                                                "start": 161,
-                                                "end": 166
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 131,
@@ -645,6 +637,14 @@
                                                 "flags": 32,
                                                 "start": 151,
                                                 "end": 160
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar5",
+                                                "rawText": "bar5",
+                                                "flags": 96,
+                                                "start": 161,
+                                                "end": 166
                                             },
                                             "flags": 32,
                                             "start": 151,
@@ -690,20 +690,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 179,
-                                                "end": 185
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 174,
                                                 "end": 178
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 179,
+                                                "end": 185
                                             },
                                             "flags": 32,
                                             "start": 174,
@@ -755,14 +755,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar4",
-                                                "rawText": "bar4",
-                                                "flags": 96,
-                                                "start": 202,
-                                                "end": 207
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 131,
@@ -789,6 +781,14 @@
                                                 "flags": 32,
                                                 "start": 193,
                                                 "end": 201
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar4",
+                                                "rawText": "bar4",
+                                                "flags": 96,
+                                                "start": 202,
+                                                "end": 207
                                             },
                                             "flags": 32,
                                             "start": 193,
@@ -834,20 +834,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 220,
-                                                "end": 226
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 215,
                                                 "end": 219
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 220,
+                                                "end": 226
                                             },
                                             "flags": 32,
                                             "start": 215,
@@ -899,14 +899,6 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "bar4",
-                                                "rawText": "bar4",
-                                                "flags": 96,
-                                                "start": 246,
-                                                "end": 251
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 121,
@@ -952,6 +944,14 @@
                                                 "start": 234,
                                                 "end": 245
                                             },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "bar4",
+                                                "rawText": "bar4",
+                                                "flags": 96,
+                                                "start": 246,
+                                                "end": 251
+                                            },
                                             "flags": 32,
                                             "start": 234,
                                             "end": 251
@@ -996,20 +996,20 @@
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392131,
-                                                "text": "bar",
-                                                "rawText": "\"bar\"",
-                                                "flags": 96,
-                                                "start": 264,
-                                                "end": 270
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
                                                 "start": 259,
                                                 "end": 263
+                                            },
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "bar",
+                                                "rawText": "\"bar\"",
+                                                "flags": 96,
+                                                "start": 264,
+                                                "end": 270
                                             },
                                             "flags": 32,
                                             "start": 259,

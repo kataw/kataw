@@ -54,7 +54,7 @@ class A extends void x {}
                         "start": 15,
                         "end": 20
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",

@@ -88,7 +88,13 @@ async function p(){
                                 },
                                 "expression": {
                                     "kind": 211,
-                                    "targetKeyword": {
+                                    "newKeyword": {
+                                        "kind": 138477661,
+                                        "flags": 0,
+                                        "start": 37,
+                                        "end": 41
+                                    },
+                                    "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 0,
                                         "start": 42,

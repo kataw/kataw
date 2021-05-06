@@ -48,7 +48,7 @@ export default async (x) => y
                         "end": 23
                     }
                 ],
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 14,

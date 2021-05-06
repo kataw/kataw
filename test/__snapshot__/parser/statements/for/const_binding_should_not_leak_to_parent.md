@@ -78,20 +78,20 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 23,
-                                            "rawText": "23",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 27
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 21,
                                             "end": 23
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 23,
+                                            "rawText": "23",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 27
                                         },
                                         "flags": 32,
                                         "start": 21,
@@ -223,20 +223,20 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 23,
-                                            "rawText": "23",
-                                            "flags": 96,
-                                            "start": 68,
-                                            "end": 71
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 65,
                                             "end": 67
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 23,
+                                            "rawText": "23",
+                                            "flags": 96,
+                                            "start": 68,
+                                            "end": 71
                                         },
                                         "flags": 32,
                                         "start": 65,

@@ -110,7 +110,7 @@ var x = ({ a } : any = 'foo') => {}
                                     "end": 28
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,

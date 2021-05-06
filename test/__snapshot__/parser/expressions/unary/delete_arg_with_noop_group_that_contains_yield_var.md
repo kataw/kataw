@@ -25,7 +25,7 @@ delete (((((foo(yield)))))).bar
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 121,

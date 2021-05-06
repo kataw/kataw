@@ -84,7 +84,7 @@ async (...[x]?: string, a?) => {};
                     "end": 17
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -178,7 +178,7 @@ async (...[x]?: string, a?) => {};
                     "end": 48
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 25,
@@ -272,7 +272,7 @@ async (...[x]?: string, a?) => {};
                     "end": 79
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 56,
@@ -387,7 +387,7 @@ async (...[x]?: string, a?) => {};
                     "end": 118
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 87,
@@ -486,7 +486,7 @@ async (...[x]?: string, a?) => {};
                     "end": 150
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 126,
@@ -600,7 +600,7 @@ async (...[x]?: string, a?) => {};
                     "end": 183
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 158,
@@ -654,7 +654,7 @@ async (...[x]?: string, a?) => {};
                     "end": 212
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 191,
@@ -708,7 +708,7 @@ async (...[x]?: string, a?) => {};
                     "end": 242
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 220,

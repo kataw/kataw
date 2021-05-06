@@ -81,7 +81,7 @@ do {} while (x) { =! class function try while with foo!
                     "start": 19,
                     "end": 20
                 },
-                "expression": {
+                "operand": {
                     "kind": 189,
                     "decorators": null,
                     "classKeyword": {
@@ -224,7 +224,7 @@ do {} while (x) { =! class function try while with foo!
                         "start": 54,
                         "end": 55
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

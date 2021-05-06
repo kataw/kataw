@@ -98,7 +98,7 @@
                     "start": 11,
                     "end": 12
                 },
-                "expression": {
+                "operand": {
                     "kind": 189,
                     "decorators": null,
                     "classKeyword": {
@@ -241,7 +241,7 @@
                         "start": 46,
                         "end": 47
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

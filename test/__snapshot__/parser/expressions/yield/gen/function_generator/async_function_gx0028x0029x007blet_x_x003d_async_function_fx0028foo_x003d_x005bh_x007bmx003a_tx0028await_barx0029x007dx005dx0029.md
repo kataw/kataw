@@ -212,6 +212,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                     "kind": 219,
                                                                                                                     "generatorToken": null,
                                                                                                                     "left": {
+                                                                                                                        "kind": 134299649,
+                                                                                                                        "text": "m",
+                                                                                                                        "rawText": "m",
+                                                                                                                        "flags": 96,
+                                                                                                                        "start": 95,
+                                                                                                                        "end": 96
+                                                                                                                    },
+                                                                                                                    "right": {
                                                                                                                         "kind": 131,
                                                                                                                         "expression": {
                                                                                                                             "kind": 134299649,
@@ -226,7 +234,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                             "elements": [
                                                                                                                                 {
                                                                                                                                     "kind": 208,
-                                                                                                                                    "awaitToken": {
+                                                                                                                                    "awaitKeyword": {
                                                                                                                                         "kind": 82032,
                                                                                                                                         "flags": 0,
                                                                                                                                         "start": 100,
@@ -253,14 +261,6 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                         "flags": 32,
                                                                                                                         "start": 95,
                                                                                                                         "end": 110
-                                                                                                                    },
-                                                                                                                    "right": {
-                                                                                                                        "kind": 134299649,
-                                                                                                                        "text": "m",
-                                                                                                                        "rawText": "m",
-                                                                                                                        "flags": 96,
-                                                                                                                        "start": 95,
-                                                                                                                        "end": 96
                                                                                                                     },
                                                                                                                     "flags": 32,
                                                                                                                     "start": 95,

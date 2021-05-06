@@ -53,6 +53,14 @@ for ({x:a.b}=x in x) ;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
@@ -73,14 +81,6 @@ for ({x:a.b}=x in x) ;
                                     "flags": 32,
                                     "start": 6,
                                     "end": 11
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 6,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 6,

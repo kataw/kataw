@@ -18,66 +18,53 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 226,
-                "member": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 0,
-                    "end": 0
-                },
-                "template": {
-                    "kind": 227,
-                    "spans": [
-                        {
-                            "kind": 228,
-                            "rawText": "",
-                            "text": "",
-                            "expression": {
-                                "kind": 189,
-                                "decorators": null,
-                                "classKeyword": {
-                                    "kind": 37822544,
-                                    "flags": 0,
-                                    "start": 3,
-                                    "end": 8
-                                },
-                                "name": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 10
-                                },
-                                "typeParameters": null,
-                                "classHeritage": null,
-                                "members": {
-                                    "kind": 277,
-                                    "elements": [],
-                                    "flags": 32,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                "flags": 32,
+                "kind": 227,
+                "spans": [
+                    {
+                        "kind": 65764,
+                        "rawText": "",
+                        "text": "",
+                        "expression": {
+                            "kind": 189,
+                            "decorators": null,
+                            "classKeyword": {
+                                "kind": 37822544,
+                                "flags": 0,
                                 "start": 3,
+                                "end": 8
+                            },
+                            "name": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "typeParameters": null,
+                            "classHeritage": null,
+                            "members": {
+                                "kind": 277,
+                                "elements": [],
+                                "flags": 32,
+                                "start": 11,
                                 "end": 12
                             },
                             "flags": 32,
-                            "start": 0,
+                            "start": 3,
                             "end": 12
-                        }
-                    ],
-                    "tail": {
-                        "kind": 458761,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 96,
-                        "start": 12,
-                        "end": 14
-                    },
-                    "flags": 32,
-                    "start": 0,
+                        },
+                        "flags": 32,
+                        "start": 0,
+                        "end": 12
+                    }
+                ],
+                "tail": {
+                    "kind": 458761,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 96,
+                    "start": 12,
                     "end": 14
                 },
                 "flags": 32,
@@ -107,7 +94,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 0, end: 3
-
+✔ No errors
 ```
 

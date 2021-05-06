@@ -38,7 +38,7 @@ async x => {} + x
                     "start": 5,
                     "end": 7
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
@@ -77,7 +77,7 @@ async x => {} + x
                     "start": 13,
                     "end": 15
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",

@@ -54,7 +54,7 @@ class x extends typeof {}
                         "start": 15,
                         "end": 22
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 220,
                         "propertyList": {
                             "kind": 218,

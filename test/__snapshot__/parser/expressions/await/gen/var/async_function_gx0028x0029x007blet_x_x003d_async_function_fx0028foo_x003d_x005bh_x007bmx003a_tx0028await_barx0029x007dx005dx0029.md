@@ -235,6 +235,14 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                         "kind": 219,
                                                                                                                         "generatorToken": null,
                                                                                                                         "left": {
+                                                                                                                            "kind": 134299649,
+                                                                                                                            "text": "m",
+                                                                                                                            "rawText": "m",
+                                                                                                                            "flags": 96,
+                                                                                                                            "start": 94,
+                                                                                                                            "end": 95
+                                                                                                                        },
+                                                                                                                        "right": {
                                                                                                                             "kind": 131,
                                                                                                                             "expression": {
                                                                                                                                 "kind": 134299649,
@@ -249,7 +257,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                 "elements": [
                                                                                                                                     {
                                                                                                                                         "kind": 208,
-                                                                                                                                        "awaitToken": {
+                                                                                                                                        "awaitKeyword": {
                                                                                                                                             "kind": 82032,
                                                                                                                                             "flags": 0,
                                                                                                                                             "start": 99,
@@ -276,14 +284,6 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                             "flags": 32,
                                                                                                                             "start": 94,
                                                                                                                             "end": 109
-                                                                                                                        },
-                                                                                                                        "right": {
-                                                                                                                            "kind": 134299649,
-                                                                                                                            "text": "m",
-                                                                                                                            "rawText": "m",
-                                                                                                                            "flags": 96,
-                                                                                                                            "start": 94,
-                                                                                                                            "end": 95
                                                                                                                         },
                                                                                                                         "flags": 32,
                                                                                                                         "start": 94,

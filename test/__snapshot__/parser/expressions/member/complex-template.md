@@ -33,44 +33,31 @@
                             {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 226,
-                                    "member": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "flags": 68,
-                                        "start": 1,
-                                        "end": 1
-                                    },
-                                    "template": {
-                                        "kind": 227,
-                                        "spans": [
-                                            {
-                                                "kind": 228,
-                                                "rawText": "a",
-                                                "text": "a",
-                                                "expression": {
-                                                    "kind": 201392130,
-                                                    "text": 5,
-                                                    "rawText": "5",
-                                                    "flags": 96,
-                                                    "start": 5,
-                                                    "end": 6
-                                                },
-                                                "flags": 32,
-                                                "start": 1,
+                                    "kind": 227,
+                                    "spans": [
+                                        {
+                                            "kind": 65764,
+                                            "rawText": "a",
+                                            "text": "a",
+                                            "expression": {
+                                                "kind": 201392130,
+                                                "text": 5,
+                                                "rawText": "5",
+                                                "flags": 96,
+                                                "start": 5,
                                                 "end": 6
-                                            }
-                                        ],
-                                        "tail": {
-                                            "kind": 458761,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 6,
-                                            "end": 9
-                                        },
-                                        "flags": 32,
-                                        "start": 1,
+                                            },
+                                            "flags": 32,
+                                            "start": 1,
+                                            "end": 6
+                                        }
+                                    ],
+                                    "tail": {
+                                        "kind": 458761,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 6,
                                         "end": 9
                                     },
                                     "flags": 32,
@@ -140,7 +127,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 5
-
+✔ No errors
 ```
 

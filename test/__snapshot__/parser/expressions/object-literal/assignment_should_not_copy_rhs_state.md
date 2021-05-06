@@ -30,6 +30,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
@@ -55,14 +63,6 @@
                                         "flags": 32,
                                         "start": 2,
                                         "end": 13
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 3
                                     },
                                     "flags": 32,
                                     "start": 2,

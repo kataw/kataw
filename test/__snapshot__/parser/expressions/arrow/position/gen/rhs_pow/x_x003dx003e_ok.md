@@ -54,7 +54,7 @@ x ** x => ok
                         "start": 4,
                         "end": 6
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

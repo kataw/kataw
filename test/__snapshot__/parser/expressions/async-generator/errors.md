@@ -1838,7 +1838,7 @@ async function * gen() {class C extends await { }}
                                 "kind": 125,
                                 "left": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 923,
@@ -2093,7 +2093,7 @@ async function * gen() {class C extends await { }}
                                             "kind": 125,
                                             "left": {
                                                 "kind": 208,
-                                                "awaitToken": {
+                                                "awaitKeyword": {
                                                     "kind": 82032,
                                                     "flags": 0,
                                                     "start": 1014,
@@ -2209,7 +2209,7 @@ async function * gen() {class C extends await { }}
                                     "start": 1051,
                                     "end": 1053
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
@@ -2300,9 +2300,9 @@ async function * gen() {class C extends await { }}
                                     "start": 1085,
                                     "end": 1087
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 1087,
@@ -2405,7 +2405,7 @@ async function * gen() {class C extends await { }}
                                         "start": 1124,
                                         "end": 1126
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,
@@ -2486,7 +2486,7 @@ async function * gen() {class C extends await { }}
                             "kind": 120,
                             "expression": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 1153,
@@ -2500,7 +2500,7 @@ async function * gen() {class C extends await { }}
                                         "start": 1158,
                                         "end": 1160
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,
@@ -3236,7 +3236,7 @@ async function * gen() {class C extends await { }}
                                     "start": 1553,
                                     "end": 1554
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
@@ -3327,7 +3327,7 @@ async function * gen() {class C extends await { }}
                                     "start": 1586,
                                     "end": 1587
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,
@@ -4279,20 +4279,20 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 219,
                                                                         "generatorToken": null,
                                                                         "left": {
-                                                                            "kind": 201392130,
-                                                                            "text": 42,
-                                                                            "rawText": "42",
-                                                                            "flags": 96,
-                                                                            "start": 2183,
-                                                                            "end": 2186
-                                                                        },
-                                                                        "right": {
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
                                                                             "start": 2181,
                                                                             "end": 2182
+                                                                        },
+                                                                        "right": {
+                                                                            "kind": 201392130,
+                                                                            "text": 42,
+                                                                            "rawText": "42",
+                                                                            "flags": 96,
+                                                                            "start": 2183,
+                                                                            "end": 2186
                                                                         },
                                                                         "flags": 32,
                                                                         "start": 2181,
@@ -4450,20 +4450,20 @@ async function * gen() {class C extends await { }}
                                                                         "kind": 219,
                                                                         "generatorToken": null,
                                                                         "left": {
-                                                                            "kind": 201392130,
-                                                                            "text": 42,
-                                                                            "rawText": "42",
-                                                                            "flags": 96,
-                                                                            "start": 2236,
-                                                                            "end": 2239
-                                                                        },
-                                                                        "right": {
                                                                             "kind": 134299649,
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
                                                                             "start": 2234,
                                                                             "end": 2235
+                                                                        },
+                                                                        "right": {
+                                                                            "kind": 201392130,
+                                                                            "text": 42,
+                                                                            "rawText": "42",
+                                                                            "flags": 96,
+                                                                            "start": 2236,
+                                                                            "end": 2239
                                                                         },
                                                                         "flags": 32,
                                                                         "start": 2234,
@@ -4690,7 +4690,7 @@ async function * gen() {class C extends await { }}
                                                         "elements": [
                                                             {
                                                                 "kind": 208,
-                                                                "awaitToken": {
+                                                                "awaitKeyword": {
                                                                     "kind": 82032,
                                                                     "flags": 0,
                                                                     "start": 2309,
@@ -4827,6 +4827,14 @@ async function * gen() {class C extends await { }}
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 134299649,
+                                                                        "text": "a",
+                                                                        "rawText": "a",
+                                                                        "flags": 96,
+                                                                        "start": 2351,
+                                                                        "end": 2352
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
@@ -4840,14 +4848,6 @@ async function * gen() {class C extends await { }}
                                                                         "flags": 32,
                                                                         "start": 2353,
                                                                         "end": 2359
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
-                                                                        "text": "a",
-                                                                        "rawText": "a",
-                                                                        "flags": 96,
-                                                                        "start": 2351,
-                                                                        "end": 2352
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 2351,
@@ -4878,20 +4878,20 @@ async function * gen() {class C extends await { }}
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
-                                                                        "kind": 201392130,
-                                                                        "text": 42,
-                                                                        "rawText": "42",
-                                                                        "flags": 96,
-                                                                        "start": 2366,
-                                                                        "end": 2369
-                                                                    },
-                                                                    "right": {
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
                                                                         "start": 2364,
                                                                         "end": 2365
+                                                                    },
+                                                                    "right": {
+                                                                        "kind": 201392130,
+                                                                        "text": 42,
+                                                                        "rawText": "42",
+                                                                        "flags": 96,
+                                                                        "start": 2366,
+                                                                        "end": 2369
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 2364,
@@ -4992,8 +4992,16 @@ async function * gen() {class C extends await { }}
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 134299649,
+                                                                        "text": "a",
+                                                                        "rawText": "a",
+                                                                        "flags": 96,
+                                                                        "start": 2400,
+                                                                        "end": 2401
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 208,
-                                                                        "awaitToken": {
+                                                                        "awaitKeyword": {
                                                                             "kind": 82032,
                                                                             "flags": 0,
                                                                             "start": 2402,
@@ -5009,14 +5017,6 @@ async function * gen() {class C extends await { }}
                                                                         "flags": 32,
                                                                         "start": 2402,
                                                                         "end": 2408
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
-                                                                        "text": "a",
-                                                                        "rawText": "a",
-                                                                        "flags": 96,
-                                                                        "start": 2400,
-                                                                        "end": 2401
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 2400,
@@ -5047,20 +5047,20 @@ async function * gen() {class C extends await { }}
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
-                                                                        "kind": 201392130,
-                                                                        "text": 42,
-                                                                        "rawText": "42",
-                                                                        "flags": 96,
-                                                                        "start": 2415,
-                                                                        "end": 2418
-                                                                    },
-                                                                    "right": {
                                                                         "kind": 134299649,
                                                                         "text": "a",
                                                                         "rawText": "a",
                                                                         "flags": 96,
                                                                         "start": 2413,
                                                                         "end": 2414
+                                                                    },
+                                                                    "right": {
+                                                                        "kind": 201392130,
+                                                                        "text": 42,
+                                                                        "rawText": "42",
+                                                                        "flags": 96,
+                                                                        "start": 2415,
+                                                                        "end": 2418
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 2413,
@@ -5590,20 +5590,20 @@ async function * gen() {class C extends await { }}
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 42,
-                                                            "rawText": "42",
-                                                            "flags": 96,
-                                                            "start": 2625,
-                                                            "end": 2628
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 2623,
                                                             "end": 2624
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 42,
+                                                            "rawText": "42",
+                                                            "flags": 96,
+                                                            "start": 2625,
+                                                            "end": 2628
                                                         },
                                                         "flags": 32,
                                                         "start": 2623,
@@ -5791,20 +5791,20 @@ async function * gen() {class C extends await { }}
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 42,
-                                                            "rawText": "42",
-                                                            "flags": 96,
-                                                            "start": 2681,
-                                                            "end": 2684
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 2679,
                                                             "end": 2680
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 42,
+                                                            "rawText": "42",
+                                                            "flags": 96,
+                                                            "start": 2681,
+                                                            "end": 2684
                                                         },
                                                         "flags": 32,
                                                         "start": 2679,
@@ -6038,7 +6038,7 @@ async function * gen() {class C extends await { }}
                                         "elements": [
                                             {
                                                 "kind": 208,
-                                                "awaitToken": {
+                                                "awaitKeyword": {
                                                     "kind": 82032,
                                                     "flags": 0,
                                                     "start": 2757,
@@ -6176,6 +6176,14 @@ async function * gen() {class C extends await { }}
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
+                                                        "start": 2802,
+                                                        "end": 2803
+                                                    },
+                                                    "right": {
                                                         "kind": 229,
                                                         "yieldKeyword": {
                                                             "kind": 8454253,
@@ -6196,14 +6204,6 @@ async function * gen() {class C extends await { }}
                                                         "flags": 32,
                                                         "start": 2804,
                                                         "end": 2813
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
-                                                        "text": "a",
-                                                        "rawText": "a",
-                                                        "flags": 96,
-                                                        "start": 2802,
-                                                        "end": 2803
                                                     },
                                                     "flags": 32,
                                                     "start": 2802,
@@ -6234,20 +6234,20 @@ async function * gen() {class C extends await { }}
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
-                                                        "kind": 201392130,
-                                                        "text": 42,
-                                                        "rawText": "42",
-                                                        "flags": 96,
-                                                        "start": 2820,
-                                                        "end": 2823
-                                                    },
-                                                    "right": {
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
                                                         "start": 2818,
                                                         "end": 2819
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 42,
+                                                        "rawText": "42",
+                                                        "flags": 96,
+                                                        "start": 2820,
+                                                        "end": 2823
                                                     },
                                                     "flags": 32,
                                                     "start": 2818,
@@ -6348,8 +6348,16 @@ async function * gen() {class C extends await { }}
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
+                                                        "start": 2854,
+                                                        "end": 2855
+                                                    },
+                                                    "right": {
                                                         "kind": 208,
-                                                        "awaitToken": {
+                                                        "awaitKeyword": {
                                                             "kind": 82032,
                                                             "flags": 0,
                                                             "start": 2856,
@@ -6366,14 +6374,6 @@ async function * gen() {class C extends await { }}
                                                         "flags": 32,
                                                         "start": 2856,
                                                         "end": 2865
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
-                                                        "text": "a",
-                                                        "rawText": "a",
-                                                        "flags": 96,
-                                                        "start": 2854,
-                                                        "end": 2855
                                                     },
                                                     "flags": 32,
                                                     "start": 2854,
@@ -6404,20 +6404,20 @@ async function * gen() {class C extends await { }}
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
-                                                        "kind": 201392130,
-                                                        "text": 42,
-                                                        "rawText": "42",
-                                                        "flags": 96,
-                                                        "start": 2872,
-                                                        "end": 2875
-                                                    },
-                                                    "right": {
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
                                                         "start": 2870,
                                                         "end": 2871
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 42,
+                                                        "rawText": "42",
+                                                        "flags": 96,
+                                                        "start": 2872,
+                                                        "end": 2875
                                                     },
                                                     "flags": 32,
                                                     "start": 2870,
@@ -6637,7 +6637,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "initializer": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 2957,
@@ -6872,7 +6872,7 @@ async function * gen() {class C extends await { }}
                             },
                             "initializer": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 3053,
@@ -7133,7 +7133,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "initializer": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 3155,
@@ -7420,7 +7420,7 @@ async function * gen() {class C extends await { }}
                             "kind": 166,
                             "initializer": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 3263,
@@ -7705,7 +7705,7 @@ async function * gen() {class C extends await { }}
                                 },
                                 "expression": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 3378,

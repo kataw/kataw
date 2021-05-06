@@ -76,7 +76,7 @@
                                                 "start": 17,
                                                 "end": 22
                                             },
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,
@@ -211,7 +211,7 @@
                                                     }
                                                 ]
                                             ],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,
@@ -336,7 +336,7 @@
                                                     "end": 103
                                                 }
                                             ],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,
@@ -461,7 +461,7 @@
                                                     "end": 142
                                                 }
                                             ],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,
@@ -571,7 +571,7 @@
                                                     "end": 179
                                                 }
                                             ],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,

@@ -37,7 +37,7 @@ new void x
                         "start": 3,
                         "end": 8
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",

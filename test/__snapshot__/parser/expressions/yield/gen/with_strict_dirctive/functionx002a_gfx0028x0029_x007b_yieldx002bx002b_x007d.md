@@ -86,7 +86,7 @@
                                         "start": 36,
                                         "end": 38
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

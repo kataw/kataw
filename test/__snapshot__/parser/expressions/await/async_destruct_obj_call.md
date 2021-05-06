@@ -111,6 +111,14 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 134299649,
+                                                                        "text": "m",
+                                                                        "rawText": "m",
+                                                                        "flags": 96,
+                                                                        "start": 39,
+                                                                        "end": 40
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 198,
                                                                         "left": {
                                                                             "kind": 201392130,
@@ -141,7 +149,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                                 "elements": [
                                                                                     {
                                                                                         "kind": 208,
-                                                                                        "awaitToken": {
+                                                                                        "awaitKeyword": {
                                                                                             "kind": 82032,
                                                                                             "flags": 0,
                                                                                             "start": 48,
@@ -172,14 +180,6 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                         "flags": 32,
                                                                         "start": 39,
                                                                         "end": 58
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
-                                                                        "text": "m",
-                                                                        "rawText": "m",
-                                                                        "flags": 96,
-                                                                        "start": 39,
-                                                                        "end": 40
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 39,

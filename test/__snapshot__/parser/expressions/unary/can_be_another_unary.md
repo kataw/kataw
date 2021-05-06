@@ -25,7 +25,7 @@ delete typeof true
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 138477613,
@@ -33,7 +33,7 @@ delete typeof true
                         "start": 6,
                         "end": 13
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134,
                         "text": true,
                         "flags": 96,

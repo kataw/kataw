@@ -50,7 +50,7 @@ for (async a => {} in x) ;
                     "start": 10,
                     "end": 12
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 5,

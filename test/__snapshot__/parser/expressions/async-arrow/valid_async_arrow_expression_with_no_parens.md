@@ -47,7 +47,7 @@ f(async foo=>c)
                                 "start": 7,
                                 "end": 11
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 2,

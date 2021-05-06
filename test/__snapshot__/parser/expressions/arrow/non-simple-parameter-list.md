@@ -64,7 +64,7 @@
                             "end": 7
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,

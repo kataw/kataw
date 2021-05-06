@@ -148,7 +148,7 @@ var await; var f = (async function() { y = async x => await x });
                                                             "start": 48,
                                                             "end": 50
                                                         },
-                                                        "asyncToken": {
+                                                        "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 64,
                                                             "start": 42,
@@ -157,7 +157,7 @@ var await; var f = (async function() { y = async x => await x });
                                                         "returnType": null,
                                                         "contents": {
                                                             "kind": 208,
-                                                            "awaitToken": {
+                                                            "awaitKeyword": {
                                                                 "kind": 82032,
                                                                 "flags": 0,
                                                                 "start": 53,

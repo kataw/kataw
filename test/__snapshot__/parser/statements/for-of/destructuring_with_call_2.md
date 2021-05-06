@@ -48,6 +48,14 @@ for ({a: b.c}() of d) e
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 129,
                                     "member": {
                                         "kind": 134299649,
@@ -68,14 +76,6 @@ for ({a: b.c}() of d) e
                                     "flags": 32,
                                     "start": 6,
                                     "end": 12
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 6,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 6,

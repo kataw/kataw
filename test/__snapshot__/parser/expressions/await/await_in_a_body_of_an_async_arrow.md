@@ -55,7 +55,7 @@ let y = async x => { await x; }
                                 "start": 13,
                                 "end": 15
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 7,
@@ -72,7 +72,7 @@ let y = async x => { await x; }
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 208,
-                                                "awaitToken": {
+                                                "awaitKeyword": {
                                                     "kind": 82032,
                                                     "flags": 0,
                                                     "start": 20,

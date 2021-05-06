@@ -25,7 +25,7 @@ delete foo
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",

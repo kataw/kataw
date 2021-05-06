@@ -39,7 +39,7 @@ new new foo().bar++;
                     "start": 5,
                     "end": 7
                 },
-                "expression": {
+                "operand": {
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
@@ -79,7 +79,7 @@ new new foo().bar++;
                     "start": 18,
                     "end": 20
                 },
-                "expression": {
+                "operand": {
                     "kind": 131,
                     "expression": {
                         "kind": 134299649,
@@ -128,7 +128,7 @@ new new foo().bar++;
                     "start": 33,
                     "end": 35
                 },
-                "expression": {
+                "operand": {
                     "kind": 131,
                     "expression": {
                         "kind": 130,
@@ -182,7 +182,7 @@ new new foo().bar++;
                     "start": 47,
                     "end": 49
                 },
-                "expression": {
+                "operand": {
                     "kind": 131,
                     "expression": {
                         "kind": 129,
@@ -236,7 +236,7 @@ new new foo().bar++;
                     "start": 87,
                     "end": 89
                 },
-                "expression": {
+                "operand": {
                     "kind": 131,
                     "expression": {
                         "kind": 130,
@@ -374,7 +374,7 @@ new new foo().bar++;
                     "start": 101,
                     "end": 103
                 },
-                "expression": {
+                "operand": {
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,
@@ -420,7 +420,7 @@ new new foo().bar++;
                     "start": 123,
                     "end": 125
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 210,
@@ -551,7 +551,7 @@ new new foo().bar++;
                     "start": 134,
                     "end": 136
                 },
-                "expression": {
+                "operand": {
                     "kind": 16637,
                     "text": "",
                     "flags": 68,

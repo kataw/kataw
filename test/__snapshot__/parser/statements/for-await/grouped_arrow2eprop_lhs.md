@@ -92,7 +92,7 @@ async function f(){
                                                 "end": 36
                                             }
                                         ],
-                                        "asyncToken": null,
+                                        "asyncKeyword": null,
                                         "returnType": null,
                                         "contents": {
                                             "kind": 216,

@@ -89,6 +89,7 @@
                                 "start": 9,
                                 "end": 16
                             },
+                            "metaIdentifier": null,
                             "flags": 16,
                             "start": 96,
                             "end": 21

@@ -53,7 +53,7 @@ f(((a) => a + b)(1, 4), 5);
                                             "end": 5
                                         }
                                     ],
-                                    "asyncToken": null,
+                                    "asyncKeyword": null,
                                     "returnType": null,
                                     "contents": {
                                         "kind": 198,

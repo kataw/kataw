@@ -99,7 +99,7 @@ var foo = ((foo)): string => {};
                     "start": 18,
                     "end": 25
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

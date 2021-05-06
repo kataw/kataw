@@ -42,7 +42,7 @@ a?.?.b
                             "kind": 227,
                             "spans": [
                                 {
-                                    "kind": 228,
+                                    "kind": 65764,
                                     "rawText": "a",
                                     "text": "a",
                                     "expression": {

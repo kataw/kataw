@@ -49,14 +49,6 @@
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "left": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 16,
-                                                    "end": 18
-                                                },
-                                                "right": {
                                                     "kind": 194,
                                                     "expression": {
                                                         "kind": 134299649,
@@ -69,6 +61,14 @@
                                                     "flags": 32,
                                                     "start": 8,
                                                     "end": 15
+                                                },
+                                                "right": {
+                                                    "kind": 201392130,
+                                                    "text": 1,
+                                                    "rawText": "1",
+                                                    "flags": 96,
+                                                    "start": 16,
+                                                    "end": 18
                                                 },
                                                 "flags": 32,
                                                 "start": 8,

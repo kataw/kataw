@@ -29,7 +29,7 @@ async () => {  d\u0065lete = x  }
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -54,7 +54,7 @@ async () => {  d\u0065lete = x  }
                                         "start": 13,
                                         "end": 26
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

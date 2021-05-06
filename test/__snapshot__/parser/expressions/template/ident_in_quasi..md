@@ -18,44 +18,31 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 226,
-                "member": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 0,
-                    "end": 0
-                },
-                "template": {
-                    "kind": 227,
-                    "spans": [
-                        {
-                            "kind": 228,
-                            "rawText": "",
-                            "text": "",
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "n",
-                                "rawText": "n",
-                                "flags": 96,
-                                "start": 3,
-                                "end": 4
-                            },
-                            "flags": 32,
-                            "start": 0,
-                            "end": 4
-                        }
-                    ],
-                    "tail": {
-                        "kind": 458761,
+                "kind": 227,
+                "spans": [
+                    {
+                        "kind": 65764,
+                        "rawText": "",
                         "text": "",
-                        "rawText": "n",
-                        "flags": 96,
-                        "start": 4,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "n",
+                            "rawText": "n",
+                            "flags": 96,
+                            "start": 3,
+                            "end": 4
+                        },
+                        "flags": 32,
+                        "start": 0,
                         "end": 4
-                    },
-                    "flags": 32,
-                    "start": 0,
+                    }
+                ],
+                "tail": {
+                    "kind": 458761,
+                    "text": "",
+                    "rawText": "n",
+                    "flags": 96,
+                    "start": 4,
                     "end": 4
                 },
                 "flags": 32,
@@ -85,7 +72,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 0, end: 3
 ✖ Unterminated template literal - start: 4, end: 4
 
 ```

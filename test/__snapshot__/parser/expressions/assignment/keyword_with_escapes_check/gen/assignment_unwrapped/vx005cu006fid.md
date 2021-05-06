@@ -31,7 +31,7 @@ v\u006fid = x;
                         "start": 0,
                         "end": 9
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

@@ -38,7 +38,7 @@ await => async.await[foo]
                     "start": 0,
                     "end": 5
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 130,

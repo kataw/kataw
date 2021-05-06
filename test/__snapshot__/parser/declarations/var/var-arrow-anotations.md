@@ -548,7 +548,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 176
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "type": {
@@ -816,7 +816,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 276
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "type": {
@@ -894,7 +894,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "type": {
@@ -979,7 +979,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 348
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 337,
@@ -1056,7 +1056,7 @@ class Array { concat(items:number | string) {}; }
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 376,
@@ -1210,7 +1210,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 438
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 412,
@@ -1282,7 +1282,7 @@ class Array { concat(items:number | string) {}; }
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "type": {
@@ -1635,20 +1635,20 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "hello",
-                                            "rawText": "\"hello\"",
-                                            "flags": 96,
-                                            "start": 586,
-                                            "end": 594
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 583,
                                             "end": 585
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "hello",
+                                            "rawText": "\"hello\"",
+                                            "flags": 96,
+                                            "start": 586,
+                                            "end": 594
                                         },
                                         "flags": 32,
                                         "start": 583,
@@ -1771,20 +1771,20 @@ class Array { concat(items:number | string) {}; }
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "hello",
-                                            "rawText": "\"hello\"",
-                                            "flags": 96,
-                                            "start": 628,
-                                            "end": 636
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 625,
                                             "end": 627
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "hello",
+                                            "rawText": "\"hello\"",
+                                            "flags": 96,
+                                            "start": 628,
+                                            "end": 636
                                         },
                                         "flags": 32,
                                         "start": 625,

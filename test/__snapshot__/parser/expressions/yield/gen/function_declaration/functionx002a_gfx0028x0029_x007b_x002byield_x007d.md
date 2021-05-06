@@ -100,7 +100,7 @@ function not_gen() { function* gf() { +yield; } }}
                                                     "start": 37,
                                                     "end": 39
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,

@@ -91,7 +91,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                 },
                                                 "typeParameters": null,
                                                 "parameters": [],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 271,
@@ -103,7 +103,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                     },
                                                     "typeParameters": null,
                                                     "parameters": [],
-                                                    "asyncToken": null,
+                                                    "asyncKeyword": null,
                                                     "returnType": null,
                                                     "contents": {
                                                         "kind": 129,

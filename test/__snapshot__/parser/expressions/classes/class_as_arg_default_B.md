@@ -109,7 +109,7 @@ f = ([xCls = class X {}]) => {}
                             "end": 24
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,

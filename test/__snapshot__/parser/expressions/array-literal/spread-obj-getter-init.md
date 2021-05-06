@@ -54,20 +54,20 @@ var callCount = 0;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 2,
-                                            "rawText": "2",
-                                            "flags": 96,
-                                            "start": 11,
-                                            "end": 13
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
                                             "start": 9,
                                             "end": 10
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 2,
+                                            "rawText": "2",
+                                            "flags": 96,
+                                            "start": 11,
+                                            "end": 13
                                         },
                                         "flags": 32,
                                         "start": 9,
@@ -77,20 +77,20 @@ var callCount = 0;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 3,
-                                            "rawText": "3",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
                                             "start": 14,
                                             "end": 16
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 3,
+                                            "rawText": "3",
+                                            "flags": 96,
+                                            "start": 17,
+                                            "end": 19
                                         },
                                         "flags": 32,
                                         "start": 14,

@@ -60,7 +60,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "end": 24
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 216,

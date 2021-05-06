@@ -224,7 +224,7 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                                             "type": null,
                                                                                                             "initializer": {
                                                                                                                 "kind": 208,
-                                                                                                                "awaitToken": {
+                                                                                                                "awaitKeyword": {
                                                                                                                     "kind": 82032,
                                                                                                                     "flags": 0,
                                                                                                                     "start": 81,

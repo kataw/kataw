@@ -29,7 +29,7 @@ async () => {  p\u0061ckage = x  }
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

@@ -110,7 +110,7 @@ declare function foo(): void
                     "end": 23
                 },
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 126,
@@ -120,7 +120,7 @@ declare function foo(): void
                         "start": 26,
                         "end": 31
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,
@@ -273,7 +273,7 @@ declare function foo(): void
                     "start": 77,
                     "end": 82
                 },
-                "expression": {
+                "operand": {
                     "kind": 16637,
                     "text": "",
                     "flags": 68,
@@ -359,7 +359,7 @@ declare function foo(): void
                     "start": 108,
                     "end": 113
                 },
-                "expression": {
+                "operand": {
                     "kind": 16637,
                     "text": "",
                     "flags": 68,

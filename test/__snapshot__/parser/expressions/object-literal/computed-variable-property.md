@@ -51,14 +51,6 @@ var x = {
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 20,
-                                            "end": 24
-                                        },
-                                        "right": {
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 134299649,
@@ -71,6 +63,14 @@ var x = {
                                             "flags": 32,
                                             "start": 9,
                                             "end": 19
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 20,
+                                            "end": 24
                                         },
                                         "flags": 32,
                                         "start": 9,

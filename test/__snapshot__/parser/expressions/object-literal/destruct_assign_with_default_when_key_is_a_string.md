@@ -42,6 +42,14 @@ a={"b":c=d}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 201392131,
+                                    "text": "b",
+                                    "rawText": "\"b\"",
+                                    "flags": 96,
+                                    "start": 3,
+                                    "end": 6
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 134299649,
@@ -68,14 +76,6 @@ a={"b":c=d}
                                     "flags": 32,
                                     "start": 3,
                                     "end": 10
-                                },
-                                "right": {
-                                    "kind": 201392131,
-                                    "text": "b",
-                                    "rawText": "\"b\"",
-                                    "flags": 96,
-                                    "start": 3,
-                                    "end": 6
                                 },
                                 "flags": 32,
                                 "start": 3,

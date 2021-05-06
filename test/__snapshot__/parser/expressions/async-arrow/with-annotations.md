@@ -65,7 +65,7 @@ async ([a]:string)=>c;
                     "end": 15
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -145,7 +145,7 @@ async ([a]:string)=>c;
                     "end": 39
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 20,

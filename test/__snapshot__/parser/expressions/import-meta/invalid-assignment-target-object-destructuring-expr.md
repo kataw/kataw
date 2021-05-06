@@ -36,6 +36,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    "right": {
                                         "kind": 120,
                                         "expression": {
                                             "kind": 207,
@@ -45,6 +53,12 @@
                                                 "start": 4,
                                                 "end": 11
                                             },
+                                            "metaIdentifier": {
+                                                "kind": 16595,
+                                                "flags": 0,
+                                                "start": 12,
+                                                "end": 16
+                                            },
                                             "flags": 11,
                                             "start": 96,
                                             "end": 16
@@ -52,14 +66,6 @@
                                         "flags": 16,
                                         "start": 11,
                                         "end": 16
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 3
                                     },
                                     "flags": 32,
                                     "start": 2,

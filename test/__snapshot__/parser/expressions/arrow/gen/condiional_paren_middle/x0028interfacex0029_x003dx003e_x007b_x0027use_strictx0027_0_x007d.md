@@ -58,7 +58,7 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                 "end": 17
                             }
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

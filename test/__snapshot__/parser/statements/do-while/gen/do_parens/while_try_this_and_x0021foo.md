@@ -127,7 +127,7 @@ do( while try this and !foo while
                     "start": 22,
                     "end": 24
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",

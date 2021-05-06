@@ -49,7 +49,7 @@ bar, eval => { 'use strict'; 0 };
                             "start": 4,
                             "end": 9
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

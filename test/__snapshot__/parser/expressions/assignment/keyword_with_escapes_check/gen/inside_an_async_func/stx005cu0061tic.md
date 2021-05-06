@@ -29,7 +29,7 @@ async () => {  st\u0061tic = x  }
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

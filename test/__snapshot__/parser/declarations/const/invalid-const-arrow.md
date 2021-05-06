@@ -133,7 +133,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         "start": 38,
                         "end": 43
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,
@@ -179,7 +179,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             }
                         ]
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

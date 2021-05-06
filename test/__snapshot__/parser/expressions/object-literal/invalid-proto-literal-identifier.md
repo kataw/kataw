@@ -28,19 +28,19 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 20
-                                },
-                                "right": {
                                     "kind": 201392131,
                                     "text": "__proto__",
                                     "rawText": "\"__proto__\"",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 14
+                                },
+                                "right": {
+                                    "kind": 269,
+                                    "text": null,
+                                    "flags": 96,
+                                    "start": 15,
+                                    "end": 20
                                 },
                                 "flags": 32,
                                 "start": 2,
@@ -50,19 +50,19 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 269,
-                                    "text": null,
-                                    "flags": 96,
-                                    "start": 32,
-                                    "end": 37
-                                },
-                                "right": {
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
                                     "start": 21,
                                     "end": 31
+                                },
+                                "right": {
+                                    "kind": 269,
+                                    "text": null,
+                                    "flags": 96,
+                                    "start": 32,
+                                    "end": 37
                                 },
                                 "flags": 32,
                                 "start": 21,

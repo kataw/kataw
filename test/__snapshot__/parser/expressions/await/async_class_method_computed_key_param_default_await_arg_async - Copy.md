@@ -154,7 +154,7 @@ async function f(){
                                                                         "type": null,
                                                                         "initializer": {
                                                                             "kind": 208,
-                                                                            "awaitToken": {
+                                                                            "awaitKeyword": {
                                                                                 "kind": 82032,
                                                                                 "flags": 0,
                                                                                 "start": 51,
@@ -276,7 +276,7 @@ async function f(){
                                         "end": 71
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 216,

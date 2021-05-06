@@ -604,7 +604,7 @@ L: let
                     "start": 181,
                     "end": 185
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
@@ -630,7 +630,7 @@ L: let
                     "start": 194,
                     "end": 196
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
@@ -989,20 +989,20 @@ L: let
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 201392130,
-                                        "text": 1,
-                                        "rawText": "1",
-                                        "flags": 96,
-                                        "start": 282,
-                                        "end": 284
-                                    },
-                                    "right": {
                                         "kind": 134299649,
                                         "text": "let",
                                         "rawText": "let",
                                         "flags": 96,
                                         "start": 277,
                                         "end": 281
+                                    },
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 1,
+                                        "rawText": "1",
+                                        "flags": 96,
+                                        "start": 282,
+                                        "end": 284
                                     },
                                     "flags": 32,
                                     "start": 277,

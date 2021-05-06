@@ -169,7 +169,7 @@ do while [catch] while try this and !foo
                     "start": 35,
                     "end": 37
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",

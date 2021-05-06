@@ -129,7 +129,7 @@ class Foo {
                                                     "start": 36,
                                                     "end": 38
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
@@ -166,7 +166,7 @@ class Foo {
                                                     "start": 48,
                                                     "end": 50
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
@@ -203,7 +203,7 @@ class Foo {
                                                     "start": 50,
                                                     "end": 55
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,
@@ -240,7 +240,7 @@ class Foo {
                                                     "start": 62,
                                                     "end": 67
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 135,

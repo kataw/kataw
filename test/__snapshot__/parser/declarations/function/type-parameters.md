@@ -343,7 +343,7 @@ type T = <
                     "end": 128
                 },
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 16637,
@@ -493,7 +493,7 @@ type T = <
                             "end": 212
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
@@ -783,7 +783,7 @@ type T = <
                     "end": 362
                 },
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 16637,
@@ -933,7 +933,7 @@ type T = <
                             "end": 454
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

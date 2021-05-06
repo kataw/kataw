@@ -83,7 +83,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                     }
                                 ]
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,

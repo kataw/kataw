@@ -117,20 +117,20 @@ var {x}: {x: string; } = { x: "hello" };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "hello",
-                                            "rawText": "\"hello\"",
-                                            "flags": 96,
-                                            "start": 29,
-                                            "end": 37
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 26,
                                             "end": 28
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "hello",
+                                            "rawText": "\"hello\"",
+                                            "flags": 96,
+                                            "start": 29,
+                                            "end": 37
                                         },
                                         "flags": 32,
                                         "start": 26,

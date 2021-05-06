@@ -63,7 +63,7 @@ function *f(){ delete ("x"[(yield)]) }
                                     "start": 14,
                                     "end": 21
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 121,
                                     "expression": {
                                         "kind": 130,

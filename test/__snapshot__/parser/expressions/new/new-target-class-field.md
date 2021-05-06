@@ -56,7 +56,13 @@ class C { aaa = new.target }
                         "type": null,
                         "initializer": {
                             "kind": 211,
-                            "targetKeyword": {
+                            "newKeyword": {
+                                "kind": 138477661,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "targetIdentifier": {
                                 "kind": 16594,
                                 "flags": 0,
                                 "start": 20,

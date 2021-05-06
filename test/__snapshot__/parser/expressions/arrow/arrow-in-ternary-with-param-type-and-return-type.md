@@ -92,7 +92,7 @@ test
                             "end": 14
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
                         "type": {

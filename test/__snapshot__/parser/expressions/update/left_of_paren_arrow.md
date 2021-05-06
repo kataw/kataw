@@ -25,7 +25,7 @@
                     "start": 0,
                     "end": 2
                 },
-                "expression": {
+                "operand": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -44,7 +44,7 @@
                             "end": 4
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

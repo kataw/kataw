@@ -47,7 +47,7 @@
                     "start": 13,
                     "end": 19
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 130,
@@ -110,7 +110,7 @@
                                         "end": 50
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 129,

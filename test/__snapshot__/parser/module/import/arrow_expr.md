@@ -54,7 +54,7 @@ let x = () => import {x} from "y"
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 120,

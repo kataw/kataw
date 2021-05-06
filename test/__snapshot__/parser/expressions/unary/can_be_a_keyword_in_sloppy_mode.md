@@ -25,7 +25,7 @@ delete true
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 134,
                     "text": true,
                     "flags": 96,

@@ -25,7 +25,7 @@
                     "start": 0,
                     "end": 1
                 },
-                "expression": {
+                "operand": {
                     "kind": 177,
                     "asyncKeyword": null,
                     "functionKeyword": {

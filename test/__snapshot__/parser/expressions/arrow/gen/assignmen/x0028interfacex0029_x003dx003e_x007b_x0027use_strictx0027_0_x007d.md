@@ -56,7 +56,7 @@ x = (interface) => { 'use strict'; 0 } ;
                             "end": 14
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,

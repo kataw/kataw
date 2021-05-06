@@ -54,7 +54,7 @@ y = async x => await x
                         "start": 9,
                         "end": 11
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 3,
@@ -63,7 +63,7 @@ y = async x => await x
                     "returnType": null,
                     "contents": {
                         "kind": 208,
-                        "awaitToken": {
+                        "awaitKeyword": {
                             "kind": 82032,
                             "flags": 0,
                             "start": 14,

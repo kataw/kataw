@@ -34,60 +34,47 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                     "end": 3
                 },
                 "right": {
-                    "kind": 226,
-                    "member": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 68,
-                        "start": 3,
-                        "end": 3
-                    },
-                    "template": {
-                        "kind": 227,
-                        "spans": [
-                            {
-                                "kind": 228,
-                                "rawText": "1 ",
-                                "text": "1 ",
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 15
-                                },
-                                "flags": 32,
-                                "start": 3,
+                    "kind": 227,
+                    "spans": [
+                        {
+                            "kind": 65764,
+                            "rawText": "1 ",
+                            "text": "1 ",
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "yield",
+                                "rawText": "yield",
+                                "flags": 96,
+                                "start": 9,
                                 "end": 15
                             },
-                            {
-                                "kind": 228,
-                                "rawText": " 2 ",
-                                "text": " 2 ",
-                                "expression": {
-                                    "kind": 201392130,
-                                    "text": 3,
-                                    "rawText": "3",
-                                    "flags": 96,
-                                    "start": 22,
-                                    "end": 24
-                                },
-                                "flags": 32,
-                                "start": 15,
-                                "end": 24
-                            }
-                        ],
-                        "tail": {
-                            "kind": 458761,
-                            "text": " 4",
-                            "rawText": " 4",
-                            "flags": 96,
-                            "start": 24,
-                            "end": 29
+                            "flags": 32,
+                            "start": 3,
+                            "end": 15
                         },
-                        "flags": 32,
-                        "start": 3,
+                        {
+                            "kind": 65764,
+                            "rawText": " 2 ",
+                            "text": " 2 ",
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 3,
+                                "rawText": "3",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 24
+                            },
+                            "flags": 32,
+                            "start": 15,
+                            "end": 24
+                        }
+                    ],
+                    "tail": {
+                        "kind": 458761,
+                        "text": " 4",
+                        "rawText": " 4",
+                        "flags": 96,
+                        "start": 24,
                         "end": 29
                     },
                     "flags": 32,
@@ -121,7 +108,6 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 3, end: 9
-
+✔ No errors
 ```
 

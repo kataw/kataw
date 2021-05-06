@@ -103,7 +103,7 @@ function *P(){
                                         "start": 38,
                                         "end": 40
                                     },
-                                    "asyncToken": {
+                                    "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 32,

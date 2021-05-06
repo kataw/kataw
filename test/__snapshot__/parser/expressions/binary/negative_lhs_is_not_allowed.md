@@ -29,7 +29,7 @@
                             "start": 1,
                             "end": 2
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",

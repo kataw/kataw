@@ -32,7 +32,7 @@ a);
                     "start": 4,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",

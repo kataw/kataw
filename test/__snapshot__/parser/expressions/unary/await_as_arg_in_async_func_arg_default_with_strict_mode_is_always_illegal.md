@@ -101,9 +101,9 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                 "start": 42,
                                                 "end": 44
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 208,
-                                                "awaitToken": {
+                                                "awaitKeyword": {
                                                     "kind": 82032,
                                                     "flags": 0,
                                                     "start": 44,

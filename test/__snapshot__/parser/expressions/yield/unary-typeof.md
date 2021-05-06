@@ -69,7 +69,7 @@ function *f() {  return typeof yield foo;  }
                                     "start": 23,
                                     "end": 30
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,

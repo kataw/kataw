@@ -18,60 +18,47 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 226,
-                "member": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 0,
-                    "end": 0
-                },
-                "template": {
-                    "kind": 227,
-                    "spans": [
-                        {
-                            "kind": 228,
-                            "rawText": "",
-                            "text": "",
-                            "expression": {
-                                "kind": 132,
-                                "expressions": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 3,
-                                        "end": 4
-                                    },
-                                    {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 6
-                                    }
-                                ],
-                                "flags": 32,
-                                "start": 3,
-                                "end": 6
-                            },
-                            "flags": 32,
-                            "start": 0,
-                            "end": 6
-                        }
-                    ],
-                    "tail": {
-                        "kind": 458761,
-                        "text": "",
+                "kind": 227,
+                "spans": [
+                    {
+                        "kind": 65764,
                         "rawText": "",
-                        "flags": 96,
-                        "start": 6,
-                        "end": 8
-                    },
-                    "flags": 32,
-                    "start": 0,
+                        "text": "",
+                        "expression": {
+                            "kind": 132,
+                            "expressions": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 3,
+                                    "end": 4
+                                },
+                                {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 6
+                                }
+                            ],
+                            "flags": 32,
+                            "start": 3,
+                            "end": 6
+                        },
+                        "flags": 32,
+                        "start": 0,
+                        "end": 6
+                    }
+                ],
+                "tail": {
+                    "kind": 458761,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 96,
+                    "start": 6,
                     "end": 8
                 },
                 "flags": 32,
@@ -101,7 +88,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 0, end: 3
-
+✔ No errors
 ```
 

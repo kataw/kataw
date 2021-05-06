@@ -537,7 +537,7 @@ x((y ?? z) ?? 1);
                                     },
                                     "typeParameters": null,
                                     "parameters": [],
-                                    "asyncToken": null,
+                                    "asyncKeyword": null,
                                     "returnType": null,
                                     "contents": {
                                         "kind": 216,
@@ -891,7 +891,7 @@ x((y ?? z) ?? 1);
                                     "start": 186,
                                     "end": 190
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -960,7 +960,7 @@ x((y ?? z) ?? 1);
                                     "start": 202,
                                     "end": 203
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1029,7 +1029,7 @@ x((y ?? z) ?? 1);
                                     "start": 214,
                                     "end": 215
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1098,7 +1098,7 @@ x((y ?? z) ?? 1);
                                     "start": 226,
                                     "end": 227
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1167,7 +1167,7 @@ x((y ?? z) ?? 1);
                                     "start": 238,
                                     "end": 239
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1236,7 +1236,7 @@ x((y ?? z) ?? 1);
                                     "start": 250,
                                     "end": 252
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1305,7 +1305,7 @@ x((y ?? z) ?? 1);
                                     "start": 263,
                                     "end": 265
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1374,7 +1374,7 @@ x((y ?? z) ?? 1);
                                     "start": 277,
                                     "end": 279
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1443,7 +1443,7 @@ x((y ?? z) ?? 1);
                                     "start": 290,
                                     "end": 292
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1512,7 +1512,7 @@ x((y ?? z) ?? 1);
                                     "start": 302,
                                     "end": 308
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1581,7 +1581,7 @@ x((y ?? z) ?? 1);
                                     "start": 320,
                                     "end": 326
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -1742,7 +1742,7 @@ x((y ?? z) ?? 1);
                                                 "start": 358,
                                                 "end": 360
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",
@@ -1911,7 +1911,7 @@ x((y ?? z) ?? 1);
                                                 "start": 394,
                                                 "end": 399
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 134299649,
                                                 "text": "z",
                                                 "rawText": "z",

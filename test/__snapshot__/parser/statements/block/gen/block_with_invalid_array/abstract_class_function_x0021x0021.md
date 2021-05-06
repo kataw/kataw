@@ -179,7 +179,7 @@
                                 "start": 33,
                                 "end": 35
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 126,
                                 "operandToken": {
                                     "kind": 65584,
@@ -187,7 +187,7 @@
                                     "start": 35,
                                     "end": 36
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 16637,
                                     "text": "",
                                     "flags": 68,

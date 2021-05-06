@@ -111,7 +111,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                 },
                                                 "typeParameters": null,
                                                 "parameters": [],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 271,
@@ -123,7 +123,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                     },
                                                     "typeParameters": null,
                                                     "parameters": [],
-                                                    "asyncToken": null,
+                                                    "asyncKeyword": null,
                                                     "returnType": null,
                                                     "contents": {
                                                         "kind": 129,

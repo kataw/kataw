@@ -57,7 +57,7 @@ var af = yield => 1;
                                 "start": 8,
                                 "end": 14
                             },
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 201392130,

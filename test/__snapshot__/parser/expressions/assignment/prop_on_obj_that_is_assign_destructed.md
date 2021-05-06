@@ -48,20 +48,20 @@
                                                                 "kind": 219,
                                                                 "generatorToken": null,
                                                                 "left": {
-                                                                    "kind": 201392130,
-                                                                    "text": 1,
-                                                                    "rawText": "1",
-                                                                    "flags": 96,
-                                                                    "start": 11,
-                                                                    "end": 13
-                                                                },
-                                                                "right": {
                                                                     "kind": 134299649,
                                                                     "text": "prop",
                                                                     "rawText": "prop",
                                                                     "flags": 96,
                                                                     "start": 6,
                                                                     "end": 10
+                                                                },
+                                                                "right": {
+                                                                    "kind": 201392130,
+                                                                    "text": 1,
+                                                                    "rawText": "1",
+                                                                    "flags": 96,
+                                                                    "start": 11,
+                                                                    "end": 13
                                                                 },
                                                                 "flags": 32,
                                                                 "start": 6,

@@ -25,7 +25,7 @@
                     "start": 0,
                     "end": 2
                 },
-                "expression": {
+                "operand": {
                     "kind": 119,
                     "elementList": {
                         "kind": 270,

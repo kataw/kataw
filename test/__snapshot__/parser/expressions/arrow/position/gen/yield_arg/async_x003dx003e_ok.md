@@ -88,7 +88,7 @@ function *f() {
                                         "start": 23,
                                         "end": 29
                                     },
-                                    "asyncToken": {
+                                    "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 23,

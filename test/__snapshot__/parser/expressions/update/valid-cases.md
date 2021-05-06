@@ -33,7 +33,7 @@ new foo().bar++;
                     "start": 3,
                     "end": 5
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
@@ -59,7 +59,7 @@ new foo().bar++;
                     "start": 14,
                     "end": 16
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 134299649,
@@ -99,7 +99,7 @@ new foo().bar++;
                     "start": 26,
                     "end": 28
                 },
-                "expression": {
+                "operand": {
                     "kind": 130,
                     "member": {
                         "kind": 134299649,
@@ -139,7 +139,7 @@ new foo().bar++;
                     "start": 40,
                     "end": 42
                 },
-                "expression": {
+                "operand": {
                     "kind": 130,
                     "member": {
                         "kind": 131,
@@ -193,7 +193,7 @@ new foo().bar++;
                     "start": 53,
                     "end": 55
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 131,
@@ -247,7 +247,7 @@ new foo().bar++;
                     "start": 65,
                     "end": 67
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 135,
@@ -285,7 +285,7 @@ new foo().bar++;
                     "start": 78,
                     "end": 80
                 },
-                "expression": {
+                "operand": {
                     "kind": 130,
                     "member": {
                         "kind": 135,
@@ -323,7 +323,7 @@ new foo().bar++;
                     "start": 96,
                     "end": 98
                 },
-                "expression": {
+                "operand": {
                     "kind": 130,
                     "member": {
                         "kind": 210,
@@ -383,7 +383,7 @@ new foo().bar++;
                     "start": 113,
                     "end": 115
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 210,

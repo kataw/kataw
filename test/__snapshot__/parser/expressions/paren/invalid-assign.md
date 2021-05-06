@@ -33,6 +33,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 96,
+                                    "start": 2,
+                                    "end": 5
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 220,
@@ -44,19 +52,19 @@
                                                     "generatorToken": null,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 10,
-                                                        "end": 11
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
                                                         "start": 8,
                                                         "end": 9
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 10,
+                                                        "end": 11
                                                     },
                                                     "flags": 32,
                                                     "start": 8,
@@ -89,14 +97,6 @@
                                     "flags": 32,
                                     "start": 6,
                                     "end": 17
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 2,
-                                    "end": 5
                                 },
                                 "flags": 32,
                                 "start": 2,
@@ -136,19 +136,19 @@
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 26,
-                                        "end": 27
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 25
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 26,
+                                        "end": 27
                                     },
                                     "flags": 32,
                                     "start": 24,
@@ -208,19 +208,19 @@
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 41,
-                                            "end": 42
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 39,
                                             "end": 40
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 41,
+                                            "end": 42
                                         },
                                         "flags": 32,
                                         "start": 39,
@@ -276,7 +276,7 @@
                     "start": 59,
                     "end": 61
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 125,
@@ -331,6 +331,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 96,
+                                    "start": 65,
+                                    "end": 68
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 220,
@@ -342,19 +350,19 @@
                                                     "generatorToken": null,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 73,
-                                                        "end": 74
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
                                                         "start": 71,
                                                         "end": 72
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 73,
+                                                        "end": 74
                                                     },
                                                     "flags": 32,
                                                     "start": 71,
@@ -387,14 +395,6 @@
                                     "flags": 32,
                                     "start": 69,
                                     "end": 80
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 65,
-                                    "end": 68
                                 },
                                 "flags": 32,
                                 "start": 65,

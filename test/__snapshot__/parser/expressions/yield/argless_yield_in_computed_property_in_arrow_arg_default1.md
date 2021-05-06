@@ -90,14 +90,6 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 29,
-                                                            "end": 31
-                                                        },
-                                                        "right": {
                                                             "kind": 194,
                                                             "expression": {
                                                                 "kind": 229,
@@ -118,6 +110,14 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                             "start": 21,
                                                             "end": 28
                                                         },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 1,
+                                                            "rawText": "1",
+                                                            "flags": 96,
+                                                            "start": 29,
+                                                            "end": 31
+                                                        },
                                                         "flags": 32,
                                                         "start": 21,
                                                         "end": 31
@@ -137,7 +137,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         "end": 32
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,

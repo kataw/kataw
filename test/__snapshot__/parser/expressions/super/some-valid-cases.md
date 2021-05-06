@@ -1585,7 +1585,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "end": 449
                                                     }
                                                 ],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,
@@ -1725,7 +1725,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "typeParameters": null,
                                                 "parameters": [],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 130,
@@ -1863,7 +1863,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "typeParameters": null,
                                                 "parameters": [],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 129,
@@ -2048,7 +2048,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "end": 606
                                                     }
                                                 ],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,

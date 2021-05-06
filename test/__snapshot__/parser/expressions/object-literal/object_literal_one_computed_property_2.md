@@ -41,14 +41,6 @@ x({[a]:b, [15]:d}=obj);
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
-                                                "flags": 96,
-                                                "start": 7,
-                                                "end": 8
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 134299649,
@@ -62,6 +54,14 @@ x({[a]:b, [15]:d}=obj);
                                                 "start": 3,
                                                 "end": 6
                                             },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "b",
+                                                "rawText": "b",
+                                                "flags": 96,
+                                                "start": 7,
+                                                "end": 8
+                                            },
                                             "flags": 32,
                                             "start": 3,
                                             "end": 8
@@ -70,14 +70,6 @@ x({[a]:b, [15]:d}=obj);
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 134299649,
-                                                "text": "d",
-                                                "rawText": "d",
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 16
-                                            },
-                                            "right": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 201392130,
@@ -90,6 +82,14 @@ x({[a]:b, [15]:d}=obj);
                                                 "flags": 32,
                                                 "start": 9,
                                                 "end": 14
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "d",
+                                                "rawText": "d",
+                                                "flags": 96,
+                                                "start": 15,
+                                                "end": 16
                                             },
                                             "flags": 32,
                                             "start": 9,

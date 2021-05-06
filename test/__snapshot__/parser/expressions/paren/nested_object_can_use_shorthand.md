@@ -28,6 +28,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "ident",
+                                    "rawText": "ident",
+                                    "flags": 96,
+                                    "start": 2,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -49,14 +57,6 @@
                                     "flags": 32,
                                     "start": 8,
                                     "end": 12
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "ident",
-                                    "rawText": "ident",
-                                    "flags": 96,
-                                    "start": 2,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 2,

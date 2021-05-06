@@ -114,6 +114,14 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 201392131,
+                                                                        "text": "foo",
+                                                                        "rawText": "\"foo\"",
+                                                                        "flags": 96,
+                                                                        "start": 39,
+                                                                        "end": 44
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 203,
                                                                         "chain": {
                                                                             "kind": 225,
@@ -138,14 +146,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                         "start": 45,
                                                                         "end": 51
                                                                     },
-                                                                    "right": {
-                                                                        "kind": 201392131,
-                                                                        "text": "foo",
-                                                                        "rawText": "\"foo\"",
-                                                                        "flags": 96,
-                                                                        "start": 39,
-                                                                        "end": 44
-                                                                    },
                                                                     "flags": 32,
                                                                     "start": 39,
                                                                     "end": 51
@@ -161,7 +161,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                         "end": 52
                                                     }
                                                 ],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,

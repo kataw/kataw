@@ -340,7 +340,7 @@
                                                             "start": 90,
                                                             "end": 92
                                                         },
-                                                        "expression": {
+                                                        "operand": {
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 135,
@@ -544,6 +544,14 @@
                                                                             "kind": 219,
                                                                             "generatorToken": null,
                                                                             "left": {
+                                                                                "kind": 134299649,
+                                                                                "text": "y",
+                                                                                "rawText": "y",
+                                                                                "flags": 96,
+                                                                                "start": 135,
+                                                                                "end": 137
+                                                                            },
+                                                                            "right": {
                                                                                 "kind": 129,
                                                                                 "member": {
                                                                                     "kind": 135,
@@ -561,14 +569,6 @@
                                                                                 "flags": 32,
                                                                                 "start": 135,
                                                                                 "end": 146
-                                                                            },
-                                                                            "right": {
-                                                                                "kind": 134299649,
-                                                                                "text": "y",
-                                                                                "rawText": "y",
-                                                                                "flags": 96,
-                                                                                "start": 135,
-                                                                                "end": 137
                                                                             },
                                                                             "flags": 32,
                                                                             "start": 135,
@@ -758,7 +758,7 @@
                                                             "start": 196,
                                                             "end": 198
                                                         },
-                                                        "expression": {
+                                                        "operand": {
                                                             "kind": 129,
                                                             "member": {
                                                                 "kind": 135,

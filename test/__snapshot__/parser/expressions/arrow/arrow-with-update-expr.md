@@ -38,7 +38,7 @@
                                 "start": 5,
                                 "end": 7
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",

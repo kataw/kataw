@@ -71,7 +71,7 @@ function *f(){
                                         "start": 14,
                                         "end": 28
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

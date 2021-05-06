@@ -94,7 +94,7 @@ z(z(z(a ? b : c++)));
                                                             "start": 15,
                                                             "end": 17
                                                         },
-                                                        "expression": {
+                                                        "operand": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",

@@ -130,7 +130,7 @@ a++ => {};
                 },
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 16637,
@@ -307,7 +307,7 @@ a++ => {};
                 },
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -838,7 +838,7 @@ a++ => {};
                     "start": 403,
                     "end": 641
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -905,7 +905,7 @@ a++ => {};
                     "start": 665,
                     "end": 675
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -972,7 +972,7 @@ a++ => {};
                     "start": 699,
                     "end": 705
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1039,7 +1039,7 @@ a++ => {};
                     "start": 729,
                     "end": 739
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1108,7 +1108,7 @@ a++ => {};
                         "end": 769
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1177,7 +1177,7 @@ a++ => {};
                         "end": 805
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1246,7 +1246,7 @@ a++ => {};
                         "end": 837
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1315,7 +1315,7 @@ a++ => {};
                         "end": 873
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1394,7 +1394,7 @@ a++ => {};
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1473,7 +1473,7 @@ a++ => {};
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1552,7 +1552,7 @@ a++ => {};
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1631,7 +1631,7 @@ a++ => {};
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -1710,7 +1710,7 @@ a++ => {};
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -2126,7 +2126,7 @@ a++ => {};
                         "start": 1381,
                         "end": 1383
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,
@@ -2515,7 +2515,7 @@ a++ => {};
                     "start": 1496,
                     "end": 1498
                 },
-                "expression": {
+                "operand": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -2532,7 +2532,7 @@ a++ => {};
                         "start": 1498,
                         "end": 1499
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,
@@ -2572,7 +2572,7 @@ a++ => {};
                         "start": 1508,
                         "end": 1509
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -2626,7 +2626,7 @@ a++ => {};
                                 "start": 1520,
                                 "end": 1521
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -2787,7 +2787,7 @@ a++ => {};
                     "start": 1560,
                     "end": 1562
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
@@ -2834,7 +2834,7 @@ a++ => {};
                         "start": 1572,
                         "end": 1574
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
@@ -2888,7 +2888,7 @@ a++ => {};
                                 "start": 1585,
                                 "end": 1587
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -2963,7 +2963,7 @@ a++ => {};
                                 "start": 1604,
                                 "end": 1606
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -3616,7 +3616,7 @@ a++ => {};
                         "end": 1785
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

@@ -70,7 +70,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                             "start": 13,
                             "end": 18
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

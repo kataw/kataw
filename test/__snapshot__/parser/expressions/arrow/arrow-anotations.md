@@ -81,7 +81,7 @@
                         "end": 11
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -172,7 +172,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -263,7 +263,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -375,7 +375,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -471,7 +471,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -582,7 +582,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -653,7 +653,7 @@
                         "end": 170
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -729,7 +729,7 @@
                         "end": 194
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,
@@ -855,7 +855,7 @@
                         }
                     ]
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

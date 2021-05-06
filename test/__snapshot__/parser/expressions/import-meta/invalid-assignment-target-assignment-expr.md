@@ -33,6 +33,12 @@ import.meta = 0;
                         "start": 0,
                         "end": 6
                     },
+                    "metaIdentifier": {
+                        "kind": 16595,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 11
+                    },
                     "flags": 6,
                     "start": 96,
                     "end": 11

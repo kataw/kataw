@@ -59,7 +59,7 @@ class void {}
                     "start": 5,
                     "end": 10
                 },
-                "expression": {
+                "operand": {
                     "kind": 220,
                     "propertyList": {
                         "kind": 218,

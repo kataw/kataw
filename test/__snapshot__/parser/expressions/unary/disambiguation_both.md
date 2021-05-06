@@ -27,7 +27,7 @@
                         "start": 0,
                         "end": 1
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 129,
                         "member": {
                             "kind": 134299649,
@@ -67,7 +67,7 @@
                         "start": 9,
                         "end": 11
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 129,
                         "member": {
                             "kind": 134299649,

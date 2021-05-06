@@ -47,7 +47,7 @@ a ? b : (): string => {}
                     "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 271,
@@ -66,7 +66,7 @@ a ? b : (): string => {}
                             "start": 8,
                             "end": 15
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,
@@ -175,7 +175,7 @@ a ? b : (): string => {}
                         "start": 43,
                         "end": 50
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,
@@ -240,7 +240,7 @@ a ? b : (): string => {}
                     "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 271,
@@ -259,7 +259,7 @@ a ? b : (): string => {}
                             "start": 72,
                             "end": 79
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,
@@ -294,7 +294,7 @@ a ? b : (): string => {}
                     "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 271,
@@ -313,7 +313,7 @@ a ? b : (): string => {}
                             "start": 93,
                             "end": 100
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,
@@ -352,7 +352,7 @@ a ? b : (): string => {}
                 "arrowToken": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 271,
@@ -371,7 +371,7 @@ a ? b : (): string => {}
                         "start": 112,
                         "end": 119
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,
@@ -436,7 +436,7 @@ a ? b : (): string => {}
                     "arrowToken": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 271,
@@ -455,7 +455,7 @@ a ? b : (): string => {}
                             "start": 139,
                             "end": 146
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

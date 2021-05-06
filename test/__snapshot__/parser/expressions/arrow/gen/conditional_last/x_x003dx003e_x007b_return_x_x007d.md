@@ -49,7 +49,7 @@ bar, x => { return x; };
                             "start": 4,
                             "end": 6
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

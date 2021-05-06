@@ -61,7 +61,7 @@ foo(y,(y) => ok);
                                     }
                                 ]
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -137,7 +137,7 @@ foo(y,(y) => ok);
                                     "end": 27
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -213,7 +213,7 @@ foo(y,(y) => ok);
                                     "end": 45
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,

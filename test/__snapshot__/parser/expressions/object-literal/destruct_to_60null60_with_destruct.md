@@ -44,6 +44,14 @@ s = {"foo": null = x} = x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392131,
+                                        "text": "foo",
+                                        "rawText": "\"foo\"",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 10
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 269,
@@ -69,14 +77,6 @@ s = {"foo": null = x} = x
                                         "flags": 32,
                                         "start": 5,
                                         "end": 20
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "\"foo\"",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 10
                                     },
                                     "flags": 32,
                                     "start": 5,

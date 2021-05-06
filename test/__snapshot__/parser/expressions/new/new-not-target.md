@@ -19,7 +19,13 @@ new.meta
             "kind": 120,
             "expression": {
                 "kind": 211,
-                "targetKeyword": null,
+                "newKeyword": {
+                    "kind": 138477661,
+                    "flags": 0,
+                    "start": 0,
+                    "end": 3
+                },
+                "targetIdentifier": null,
                 "flags": 96,
                 "start": 0,
                 "end": 8

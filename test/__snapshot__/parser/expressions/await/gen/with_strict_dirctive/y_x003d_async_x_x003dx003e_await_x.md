@@ -63,7 +63,7 @@
                         "start": 23,
                         "end": 25
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 17,
@@ -72,7 +72,7 @@
                     "returnType": null,
                     "contents": {
                         "kind": 208,
-                        "awaitToken": {
+                        "awaitKeyword": {
                             "kind": 82032,
                             "flags": 0,
                             "start": 28,

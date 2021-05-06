@@ -679,7 +679,7 @@ typeof a == 'b';
                             "start": 142,
                             "end": 150
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
@@ -743,7 +743,7 @@ typeof a == 'b';
                         "start": 163,
                         "end": 171
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",

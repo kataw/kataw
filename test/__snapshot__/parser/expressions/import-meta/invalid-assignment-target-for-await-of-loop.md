@@ -90,6 +90,12 @@ async function* f() {
                                         "start": 37,
                                         "end": 43
                                     },
+                                    "metaIdentifier": {
+                                        "kind": 16595,
+                                        "flags": 0,
+                                        "start": 44,
+                                        "end": 48
+                                    },
                                     "flags": 43,
                                     "start": 96,
                                     "end": 48

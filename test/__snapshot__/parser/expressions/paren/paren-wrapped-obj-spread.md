@@ -1167,20 +1167,20 @@
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 0,
-                                                            "rawText": "0",
-                                                            "flags": 96,
-                                                            "start": 239,
-                                                            "end": 241
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
                                                             "start": 237,
                                                             "end": 238
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 0,
+                                                            "rawText": "0",
+                                                            "flags": 96,
+                                                            "start": 239,
+                                                            "end": 241
                                                         },
                                                         "flags": 32,
                                                         "start": 237,
@@ -1284,20 +1284,20 @@
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 0,
-                                                            "rawText": "0",
-                                                            "flags": 96,
-                                                            "start": 261,
-                                                            "end": 263
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
                                                             "start": 259,
                                                             "end": 260
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 0,
+                                                            "rawText": "0",
+                                                            "flags": 96,
+                                                            "start": 261,
+                                                            "end": 263
                                                         },
                                                         "flags": 32,
                                                         "start": 259,

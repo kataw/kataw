@@ -60,7 +60,7 @@ async(a = (await) => {}) => {};
                                 "end": 16
                             }
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,
@@ -85,7 +85,7 @@ async(a = (await) => {}) => {};
                     "end": 23
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

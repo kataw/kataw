@@ -31,13 +31,19 @@ import.meta++;
                     "start": 11,
                     "end": 13
                 },
-                "expression": {
+                "operand": {
                     "kind": 207,
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 0,
                         "start": 0,
                         "end": 6
+                    },
+                    "metaIdentifier": {
+                        "kind": 16595,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 11
                     },
                     "flags": 6,
                     "start": 96,

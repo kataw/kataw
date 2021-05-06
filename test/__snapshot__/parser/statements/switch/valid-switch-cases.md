@@ -269,7 +269,7 @@ switch (answer) { case 0: let a; };
                                         "start": 87,
                                         "end": 89
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -2494,7 +2494,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 925
                                             }
                                         ],
-                                        "asyncToken": null,
+                                        "asyncKeyword": null,
                                         "returnType": null,
                                         "contents": {
                                             "kind": 216,
@@ -2803,7 +2803,7 @@ switch (answer) { case 0: let a; };
                                                 "end": 1044
                                             }
                                         ],
-                                        "asyncToken": null,
+                                        "asyncKeyword": null,
                                         "returnType": null,
                                         "contents": {
                                             "kind": 216,
@@ -2869,19 +2869,19 @@ switch (answer) { case 0: let a; };
                             "generatorToken": null,
                             "left": {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 1064,
-                                "end": 1065
-                            },
-                            "right": {
-                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
                                 "start": 1062,
                                 "end": 1063
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1064,
+                                "end": 1065
                             },
                             "flags": 32,
                             "start": 1062,
@@ -2996,19 +2996,19 @@ switch (answer) { case 0: let a; };
                             "generatorToken": null,
                             "left": {
                                 "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 1098,
-                                "end": 1099
-                            },
-                            "right": {
-                                "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
                                 "start": 1096,
                                 "end": 1097
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1098,
+                                "end": 1099
                             },
                             "flags": 32,
                             "start": 1096,

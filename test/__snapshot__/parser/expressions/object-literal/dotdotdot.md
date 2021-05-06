@@ -120,20 +120,20 @@ var { ...{ x = 5 } } = {x : 1};
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 1,
-                                            "rawText": "1",
-                                            "flags": 96,
-                                            "start": 27,
-                                            "end": 29
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 24,
                                             "end": 25
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 96,
+                                            "start": 27,
+                                            "end": 29
                                         },
                                         "flags": 32,
                                         "start": 24,

@@ -34,6 +34,14 @@ async ({ident: {x}}) => x
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "ident",
+                                    "rawText": "ident",
+                                    "flags": 96,
+                                    "start": 8,
+                                    "end": 13
+                                },
+                                "right": {
                                     "kind": 220,
                                     "propertyList": {
                                         "kind": 218,
@@ -56,14 +64,6 @@ async ({ident: {x}}) => x
                                     "start": 14,
                                     "end": 18
                                 },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "ident",
-                                    "rawText": "ident",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 13
-                                },
                                 "flags": 32,
                                 "start": 8,
                                 "end": 18
@@ -79,7 +79,7 @@ async ({ident: {x}}) => x
                     "end": 19
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

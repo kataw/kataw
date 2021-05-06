@@ -71,7 +71,7 @@ for (((x)=>{}).x in y);
                                 "end": 8
                             }
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

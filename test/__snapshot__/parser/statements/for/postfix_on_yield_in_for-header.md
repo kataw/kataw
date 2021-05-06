@@ -50,7 +50,7 @@ for (yield[g]--;;);
                     "start": 13,
                     "end": 15
                 },
-                "expression": {
+                "operand": {
                     "kind": 130,
                     "member": {
                         "kind": 134299649,

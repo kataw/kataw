@@ -46,6 +46,14 @@ x = {arrow: async x => {}}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "arrow",
+                                    "rawText": "arrow",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 10
+                                },
+                                "right": {
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
@@ -62,7 +70,7 @@ x = {arrow: async x => {}}
                                         "start": 17,
                                         "end": 19
                                     },
-                                    "asyncToken": {
+                                    "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 11,
@@ -86,14 +94,6 @@ x = {arrow: async x => {}}
                                     "flags": 288,
                                     "start": 11,
                                     "end": 25
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "arrow",
-                                    "rawText": "arrow",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 10
                                 },
                                 "flags": 32,
                                 "start": 5,

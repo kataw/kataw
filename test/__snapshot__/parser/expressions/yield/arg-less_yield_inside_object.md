@@ -78,6 +78,14 @@
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 134299649,
+                                                                        "text": "x",
+                                                                        "rawText": "x",
+                                                                        "flags": 96,
+                                                                        "start": 21,
+                                                                        "end": 22
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 229,
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
@@ -91,14 +99,6 @@
                                                                         "flags": 32,
                                                                         "start": 23,
                                                                         "end": 29
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
-                                                                        "text": "x",
-                                                                        "rawText": "x",
-                                                                        "flags": 96,
-                                                                        "start": 21,
-                                                                        "end": 22
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 21,

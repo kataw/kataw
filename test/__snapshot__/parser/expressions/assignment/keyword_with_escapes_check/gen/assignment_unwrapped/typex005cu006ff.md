@@ -31,7 +31,7 @@ type\u006ff = x;
                         "start": 0,
                         "end": 11
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

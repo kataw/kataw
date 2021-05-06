@@ -67,7 +67,7 @@ function* gf() { +yield 2; }
                                     "start": 16,
                                     "end": 18
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,

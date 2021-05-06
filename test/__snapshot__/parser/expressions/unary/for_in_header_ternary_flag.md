@@ -37,7 +37,7 @@ for(delete((1)?y:x in y) in z)x
                     "start": 4,
                     "end": 10
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 197,

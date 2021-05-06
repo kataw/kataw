@@ -80,7 +80,7 @@ class A extends a + b {}
                     "start": 17,
                     "end": 19
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",

@@ -53,19 +53,19 @@ x = {a, c:d}=obj;
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "d",
-                                        "rawText": "d",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
                                         "start": 7,
                                         "end": 9
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "d",
+                                        "rawText": "d",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 11
                                     },
                                     "flags": 32,
                                     "start": 7,

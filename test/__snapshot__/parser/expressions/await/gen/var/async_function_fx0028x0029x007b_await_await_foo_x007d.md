@@ -155,7 +155,7 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                                                                 "kind": 120,
                                                                 "expression": {
                                                                     "kind": 208,
-                                                                    "awaitToken": {
+                                                                    "awaitKeyword": {
                                                                         "kind": 82032,
                                                                         "flags": 0,
                                                                         "start": 58,
@@ -163,7 +163,7 @@ var await; var f = (async function() { async function f(){ await await foo; } })
                                                                     },
                                                                     "expression": {
                                                                         "kind": 208,
-                                                                        "awaitToken": {
+                                                                        "awaitKeyword": {
                                                                             "kind": 82032,
                                                                             "flags": 0,
                                                                             "start": 64,

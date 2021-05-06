@@ -63,7 +63,7 @@ class A extends async async => {} {}
                         "start": 21,
                         "end": 27
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 15,

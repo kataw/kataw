@@ -124,6 +124,14 @@
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 134299649,
+                                                                        "text": "m",
+                                                                        "rawText": "m",
+                                                                        "flags": 96,
+                                                                        "start": 53,
+                                                                        "end": 54
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 198,
                                                                         "left": {
                                                                             "kind": 201392130,
@@ -154,7 +162,7 @@
                                                                                 "elements": [
                                                                                     {
                                                                                         "kind": 208,
-                                                                                        "awaitToken": {
+                                                                                        "awaitKeyword": {
                                                                                             "kind": 82032,
                                                                                             "flags": 0,
                                                                                             "start": 62,
@@ -185,14 +193,6 @@
                                                                         "flags": 32,
                                                                         "start": 53,
                                                                         "end": 72
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
-                                                                        "text": "m",
-                                                                        "rawText": "m",
-                                                                        "flags": 96,
-                                                                        "start": 53,
-                                                                        "end": 54
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 53,

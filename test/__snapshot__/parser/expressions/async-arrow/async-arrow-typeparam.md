@@ -54,7 +54,7 @@ async (): string => {}
                     },
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 3,
@@ -122,7 +122,7 @@ async (): string => {}
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 33,

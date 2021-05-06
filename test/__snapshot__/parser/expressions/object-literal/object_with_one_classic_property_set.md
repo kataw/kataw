@@ -40,19 +40,19 @@ wrap({set:b});
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 10,
-                                            "end": 11
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
                                             "text": "set",
                                             "rawText": "set",
                                             "flags": 96,
                                             "start": 6,
                                             "end": 9
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
                                         },
                                         "flags": 32,
                                         "start": 6,

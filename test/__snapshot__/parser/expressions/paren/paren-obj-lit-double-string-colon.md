@@ -31,19 +31,19 @@
                                 "generatorToken": null,
                                 "left": {
                                     "kind": 201392131,
-                                    "text": "b",
-                                    "rawText": "\"b\"",
-                                    "flags": 96,
-                                    "start": 6,
-                                    "end": 10
-                                },
-                                "right": {
-                                    "kind": 201392131,
                                     "text": "a",
                                     "rawText": "\"a\"",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 5
+                                },
+                                "right": {
+                                    "kind": 201392131,
+                                    "text": "b",
+                                    "rawText": "\"b\"",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 10
                                 },
                                 "flags": 32,
                                 "start": 2,
@@ -80,14 +80,6 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 201392131,
-                                    "text": "b",
-                                    "rawText": "\"b\"",
-                                    "flags": 96,
-                                    "start": 23,
-                                    "end": 27
-                                },
-                                "right": {
                                     "kind": 194,
                                     "expression": {
                                         "kind": 201392131,
@@ -100,6 +92,14 @@
                                     "flags": 32,
                                     "start": 17,
                                     "end": 22
+                                },
+                                "right": {
+                                    "kind": 201392131,
+                                    "text": "b",
+                                    "rawText": "\"b\"",
+                                    "flags": 96,
+                                    "start": 23,
+                                    "end": 27
                                 },
                                 "flags": 32,
                                 "start": 17,

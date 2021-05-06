@@ -40,7 +40,7 @@ foo(async () => foo)
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 4,

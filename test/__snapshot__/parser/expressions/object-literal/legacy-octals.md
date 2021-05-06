@@ -38,19 +38,19 @@
                                 "generatorToken": null,
                                 "left": {
                                     "kind": 201392130,
-                                    "text": 4,
-                                    "rawText": "4",
-                                    "flags": 96,
-                                    "start": 21,
-                                    "end": 23
-                                },
-                                "right": {
-                                    "kind": 201392130,
                                     "text": 123,
                                     "rawText": "0123",
                                     "flags": 131168,
                                     "start": 16,
                                     "end": 20
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 4,
+                                    "rawText": "4",
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 23
                                 },
                                 "flags": 32,
                                 "start": 16,

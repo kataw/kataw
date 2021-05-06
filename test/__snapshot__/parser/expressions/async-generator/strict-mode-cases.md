@@ -1295,7 +1295,7 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 625,
                                     "end": 628
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
@@ -1378,7 +1378,7 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 678,
                                     "end": 680
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
@@ -1584,7 +1584,7 @@ function * x() { "use strict";  yield: 34; }
                                         "start": 770,
                                         "end": 772
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

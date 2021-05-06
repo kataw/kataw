@@ -109,7 +109,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 18
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 129,
@@ -214,7 +214,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 51
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -323,7 +323,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 86,
                                 "end": 88
                             },
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -420,7 +420,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 117
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -564,7 +564,7 @@ var p10 = ([{ value, done }]) => { };
                                 "start": 160,
                                 "end": 162
                             },
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 125,
@@ -654,7 +654,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 183
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 125,
@@ -846,7 +846,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 234
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -949,7 +949,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 260
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1046,7 +1046,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 285
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1155,7 +1155,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 313
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1266,7 +1266,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 340
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1357,7 +1357,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 365
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1433,6 +1433,14 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "left": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 386,
+                                                    "end": 388
+                                                },
+                                                "right": {
                                                     "kind": 220,
                                                     "propertyList": {
                                                         "kind": 218,
@@ -1455,14 +1463,6 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 389,
                                                     "end": 395
                                                 },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "a",
-                                                    "rawText": "a",
-                                                    "flags": 96,
-                                                    "start": 386,
-                                                    "end": 388
-                                                },
                                                 "flags": 32,
                                                 "start": 386,
                                                 "end": 395
@@ -1478,7 +1478,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 397
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1583,7 +1583,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 426
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,
@@ -1697,7 +1697,7 @@ var p10 = ([{ value, done }]) => { };
                                     "end": 513
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,

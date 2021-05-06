@@ -51,19 +51,19 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "generatorToken": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 23,
-                                                "end": 25
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "\\u0066inally",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 22
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 23,
+                                                "end": 25
                                             },
                                             "flags": 32,
                                             "start": 9,
@@ -94,20 +94,20 @@ var y = { \u0066inally: x } = { finally: 42 };
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392130,
-                                                "text": 42,
-                                                "rawText": "42",
-                                                "flags": 96,
-                                                "start": 40,
-                                                "end": 43
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "finally",
                                                 "flags": 96,
                                                 "start": 31,
                                                 "end": 39
+                                            },
+                                            "right": {
+                                                "kind": 201392130,
+                                                "text": 42,
+                                                "rawText": "42",
+                                                "flags": 96,
+                                                "start": 40,
+                                                "end": 43
                                             },
                                             "flags": 32,
                                             "start": 31,

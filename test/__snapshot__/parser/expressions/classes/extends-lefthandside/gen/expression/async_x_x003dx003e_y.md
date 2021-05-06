@@ -102,7 +102,7 @@ x => y {})
                     "start": 22,
                     "end": 24
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

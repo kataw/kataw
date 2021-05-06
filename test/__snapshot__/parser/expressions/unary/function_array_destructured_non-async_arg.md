@@ -135,9 +135,9 @@ async function f(){   function fh([+ await x]) { }   }
                                     "start": 35,
                                     "end": 36
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 36,

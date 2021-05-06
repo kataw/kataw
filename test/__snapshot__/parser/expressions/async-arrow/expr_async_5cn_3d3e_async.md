@@ -37,7 +37,7 @@
                         "start": 1,
                         "end": 6
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 1,

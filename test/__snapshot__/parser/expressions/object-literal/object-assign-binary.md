@@ -59,6 +59,14 @@ x = { "a": {x} = y.z };
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 201392131,
+                                    "text": "a",
+                                    "rawText": "\"a\"",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 9
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 220,
@@ -114,14 +122,6 @@ x = { "a": {x} = y.z };
                                     "flags": 32,
                                     "start": 10,
                                     "end": 20
-                                },
-                                "right": {
-                                    "kind": 201392131,
-                                    "text": "a",
-                                    "rawText": "\"a\"",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 9
                                 },
                                 "flags": 32,
                                 "start": 5,

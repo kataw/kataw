@@ -72,18 +72,16 @@ function f(){ x({[new.target]:y}) }
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 134299649,
-                                                            "text": "y",
-                                                            "rawText": "y",
-                                                            "flags": 96,
-                                                            "start": 30,
-                                                            "end": 31
-                                                        },
-                                                        "right": {
                                                             "kind": 194,
                                                             "expression": {
                                                                 "kind": 211,
-                                                                "targetKeyword": {
+                                                                "newKeyword": {
+                                                                    "kind": 138477661,
+                                                                    "flags": 0,
+                                                                    "start": 18,
+                                                                    "end": 21
+                                                                },
+                                                                "targetIdentifier": {
                                                                     "kind": 16594,
                                                                     "flags": 0,
                                                                     "start": 22,
@@ -96,6 +94,14 @@ function f(){ x({[new.target]:y}) }
                                                             "flags": 32,
                                                             "start": 17,
                                                             "end": 29
+                                                        },
+                                                        "right": {
+                                                            "kind": 134299649,
+                                                            "text": "y",
+                                                            "rawText": "y",
+                                                            "flags": 96,
+                                                            "start": 30,
+                                                            "end": 31
                                                         },
                                                         "flags": 32,
                                                         "start": 17,

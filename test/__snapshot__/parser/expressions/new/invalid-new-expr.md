@@ -121,7 +121,7 @@ new foo ++;
                         "start": 30,
                         "end": 33
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
@@ -152,7 +152,7 @@ new foo ++;
                     "start": 46,
                     "end": 49
                 },
-                "expression": {
+                "operand": {
                     "kind": 210,
                     "newKeyword": {
                         "kind": 138477661,

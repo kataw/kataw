@@ -42,6 +42,14 @@ s = {s: new}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "s",
+                                    "rawText": "s",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 6
+                                },
+                                "right": {
                                     "kind": 210,
                                     "newKeyword": {
                                         "kind": 138477661,
@@ -60,14 +68,6 @@ s = {s: new}
                                     "flags": 32,
                                     "start": 7,
                                     "end": 11
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "s",
-                                    "rawText": "s",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 6
                                 },
                                 "flags": 32,
                                 "start": 5,

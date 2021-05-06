@@ -88,7 +88,13 @@ function *P(){
                                 },
                                 "expression": {
                                     "kind": 211,
-                                    "targetKeyword": {
+                                    "newKeyword": {
+                                        "kind": 138477661,
+                                        "flags": 0,
+                                        "start": 32,
+                                        "end": 36
+                                    },
+                                    "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 0,
                                         "start": 37,

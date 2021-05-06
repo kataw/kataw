@@ -61,7 +61,7 @@ async function f(x=(await)=y){}
                                 "kind": 121,
                                 "expression": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 20,

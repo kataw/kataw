@@ -56,7 +56,7 @@ for ([a.b]++ of c) d
                     "start": 10,
                     "end": 12
                 },
-                "expression": {
+                "operand": {
                     "kind": 119,
                     "elementList": {
                         "kind": 270,

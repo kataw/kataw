@@ -27,7 +27,7 @@ a++;
                     "start": 0,
                     "end": 2
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
@@ -53,7 +53,7 @@ a++;
                     "start": 7,
                     "end": 9
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",

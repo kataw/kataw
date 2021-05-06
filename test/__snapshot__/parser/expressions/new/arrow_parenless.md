@@ -42,7 +42,7 @@ new x => x
                         "start": 3,
                         "end": 5
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

@@ -36,6 +36,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "ident",
+                                        "rawText": "ident",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 7
+                                    },
+                                    "right": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -45,19 +53,19 @@
                                                     "generatorToken": null,
                                                     "left": {
                                                         "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 12,
-                                                        "end": 14
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
                                                         "start": 10,
                                                         "end": 11
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 12,
+                                                        "end": 14
                                                     },
                                                     "flags": 32,
                                                     "start": 10,
@@ -72,14 +80,6 @@
                                         "flags": 32,
                                         "start": 8,
                                         "end": 15
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "ident",
-                                        "rawText": "ident",
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 7
                                     },
                                     "flags": 32,
                                     "start": 2,
@@ -96,7 +96,7 @@
                         "end": 16
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

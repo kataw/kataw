@@ -90,7 +90,7 @@ var a: -0x7B
                     "start": 6,
                     "end": 8
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 123,
                     "rawText": "0x7B",

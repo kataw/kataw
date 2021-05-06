@@ -51,7 +51,7 @@ bar, (interface) => { 'use strict'; 0 };
                                 "end": 15
                             }
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

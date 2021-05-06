@@ -67,7 +67,7 @@ async function f(){  (await fail) => x  }
                                 "parameters": [
                                     {
                                         "kind": 208,
-                                        "awaitToken": {
+                                        "awaitKeyword": {
                                             "kind": 82032,
                                             "flags": 0,
                                             "start": 22,
@@ -86,7 +86,7 @@ async function f(){  (await fail) => x  }
                                         "end": 32
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,

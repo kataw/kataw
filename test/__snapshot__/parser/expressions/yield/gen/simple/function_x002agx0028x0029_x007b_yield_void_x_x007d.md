@@ -77,7 +77,7 @@ function *g() { yield void x }
                                         "start": 21,
                                         "end": 26
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",

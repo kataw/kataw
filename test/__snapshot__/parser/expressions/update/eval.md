@@ -40,7 +40,7 @@
                     "start": 18,
                     "end": 20
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "eval",
                     "rawText": "eval",
@@ -176,7 +176,7 @@
                     "start": 97,
                     "end": 99
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "arguments",
                     "rawText": "arguments",

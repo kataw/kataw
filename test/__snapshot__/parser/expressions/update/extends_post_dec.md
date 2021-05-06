@@ -50,7 +50,7 @@ class x extends a-- {}
                         "start": 17,
                         "end": 19
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",

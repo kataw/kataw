@@ -39,7 +39,7 @@ new Foo`a${b}c${c}e`
                         "kind": 227,
                         "spans": [
                             {
-                                "kind": 228,
+                                "kind": 65764,
                                 "rawText": "a",
                                 "text": "a",
                                 "expression": {
@@ -55,7 +55,7 @@ new Foo`a${b}c${c}e`
                                 "end": 12
                             },
                             {
-                                "kind": 228,
+                                "kind": 65764,
                                 "rawText": "c",
                                 "text": "c",
                                 "expression": {

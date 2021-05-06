@@ -61,7 +61,7 @@ foo(async (x, y) => ok)
                                     "end": 15
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 4,

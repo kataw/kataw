@@ -47,7 +47,7 @@ f(async => x)
                                 "start": 2,
                                 "end": 7
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 2,

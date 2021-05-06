@@ -40,7 +40,7 @@
                     "start": 14,
                     "end": 21
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
@@ -80,7 +80,7 @@
                     "start": 41,
                     "end": 48
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 134299649,
@@ -126,7 +126,7 @@
                     "start": 70,
                     "end": 77
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "interface",
                     "rawText": "interface",

@@ -29,7 +29,7 @@ delete (x => ok)
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 271,
@@ -48,7 +48,7 @@ delete (x => ok)
                             "start": 8,
                             "end": 9
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 134299649,

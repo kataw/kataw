@@ -38,7 +38,7 @@ async => ok / x
                     "start": 0,
                     "end": 5
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,

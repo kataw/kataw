@@ -74,7 +74,7 @@ function *f(){  (await) => x  }
                                         "end": 22
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,

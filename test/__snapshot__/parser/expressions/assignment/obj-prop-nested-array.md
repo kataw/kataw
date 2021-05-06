@@ -50,6 +50,14 @@ result = { x: [y] } = { x: [321] };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -71,14 +79,6 @@ result = { x: [y] } = { x: [321] };
                                         "flags": 32,
                                         "start": 13,
                                         "end": 17
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 12
                                     },
                                     "flags": 32,
                                     "start": 10,
@@ -109,6 +109,14 @@ result = { x: [y] } = { x: [321] };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 25
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -130,14 +138,6 @@ result = { x: [y] } = { x: [321] };
                                         "flags": 32,
                                         "start": 26,
                                         "end": 32
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 23,
-                                        "end": 25
                                     },
                                     "flags": 32,
                                     "start": 23,

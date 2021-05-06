@@ -127,19 +127,19 @@ var await; var f = (async function() { ({ await: async }) });
                                                                     "generatorToken": null,
                                                                     "left": {
                                                                         "kind": 134299649,
-                                                                        "text": "async",
-                                                                        "rawText": "async",
-                                                                        "flags": 96,
-                                                                        "start": 48,
-                                                                        "end": 54
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 134299649,
                                                                         "text": "await",
                                                                         "rawText": "await",
                                                                         "flags": 96,
                                                                         "start": 41,
                                                                         "end": 47
+                                                                    },
+                                                                    "right": {
+                                                                        "kind": 134299649,
+                                                                        "text": "async",
+                                                                        "rawText": "async",
+                                                                        "flags": 96,
+                                                                        "start": 48,
+                                                                        "end": 54
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 41,

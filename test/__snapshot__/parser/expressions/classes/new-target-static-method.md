@@ -81,7 +81,13 @@ class A {static a(x=new.target){}}
                                         "type": null,
                                         "initializer": {
                                             "kind": 211,
-                                            "targetKeyword": {
+                                            "newKeyword": {
+                                                "kind": 138477661,
+                                                "flags": 0,
+                                                "start": 20,
+                                                "end": 23
+                                            },
+                                            "targetIdentifier": {
                                                 "kind": 16594,
                                                 "flags": 0,
                                                 "start": 24,

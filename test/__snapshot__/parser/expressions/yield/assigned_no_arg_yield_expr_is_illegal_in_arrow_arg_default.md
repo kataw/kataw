@@ -119,7 +119,7 @@ function *f(){ async (x = z = yield) => {} }
                                     "end": 35
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 14,

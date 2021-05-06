@@ -128,7 +128,7 @@ var await; var f = (async function() { async(await); });
                                                     "elements": [
                                                         {
                                                             "kind": 208,
-                                                            "awaitToken": {
+                                                            "awaitKeyword": {
                                                                 "kind": 82032,
                                                                 "flags": 0,
                                                                 "start": 45,

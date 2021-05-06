@@ -71,7 +71,7 @@ function f(a = async async => {}) {}
                                 "start": 20,
                                 "end": 26
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 14,

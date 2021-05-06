@@ -93,7 +93,7 @@ const a = async (foo: string = "") => {}
                                     "end": 33
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 9,

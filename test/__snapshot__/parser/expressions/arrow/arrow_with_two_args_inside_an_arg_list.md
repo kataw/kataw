@@ -61,7 +61,7 @@ f(((a, b) => a + b));
                                         }
                                     ]
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 198,

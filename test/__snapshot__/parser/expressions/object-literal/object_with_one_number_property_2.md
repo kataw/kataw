@@ -39,20 +39,20 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 9,
-                                            "end": 10
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
                                             "flags": 32864,
                                             "start": 6,
                                             "end": 8
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 9,
+                                            "end": 10
                                         },
                                         "flags": 32,
                                         "start": 6,
@@ -62,20 +62,20 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 18
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 132,
                                             "rawText": "0x84",
                                             "flags": 1048672,
                                             "start": 11,
                                             "end": 16
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 17,
+                                            "end": 18
                                         },
                                         "flags": 32,
                                         "start": 11,
@@ -85,20 +85,20 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 25
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b1",
                                             "flags": 524384,
                                             "start": 19,
                                             "end": 23
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 25
                                         },
                                         "flags": 32,
                                         "start": 19,
@@ -108,20 +108,20 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "d",
-                                            "rawText": "d",
-                                            "flags": 96,
-                                            "start": 32,
-                                            "end": 33
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "0o27",
                                             "flags": 262240,
                                             "start": 26,
                                             "end": 31
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "d",
+                                            "rawText": "d",
+                                            "flags": 96,
+                                            "start": 32,
+                                            "end": 33
                                         },
                                         "flags": 32,
                                         "start": 26,
@@ -131,20 +131,20 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "e",
-                                            "rawText": "e",
-                                            "flags": 96,
-                                            "start": 41,
-                                            "end": 42
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 1e+234,
                                             "rawText": "1e234",
                                             "flags": 96,
                                             "start": 34,
                                             "end": 40
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "e",
+                                            "rawText": "e",
+                                            "flags": 96,
+                                            "start": 41,
+                                            "end": 42
                                         },
                                         "flags": 32,
                                         "start": 34,

@@ -41,6 +41,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "right": {
                                     "kind": 189,
                                     "decorators": null,
                                     "classKeyword": {
@@ -83,14 +91,6 @@
                                     "flags": 32,
                                     "start": 19,
                                     "end": 32
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 16,
-                                    "end": 18
                                 },
                                 "flags": 32,
                                 "start": 16,

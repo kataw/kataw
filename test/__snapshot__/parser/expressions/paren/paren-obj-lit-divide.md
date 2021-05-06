@@ -469,6 +469,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392131,
+                                        "text": "a",
+                                        "rawText": "\"a\"",
+                                        "flags": 96,
+                                        "start": 94,
+                                        "end": 97
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -490,14 +498,6 @@
                                         "flags": 32,
                                         "start": 98,
                                         "end": 102
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "a",
-                                        "rawText": "\"a\"",
-                                        "flags": 96,
-                                        "start": 94,
-                                        "end": 97
                                     },
                                     "flags": 32,
                                     "start": 94,
@@ -606,6 +606,20 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 201392131,
+                                            "text": "a",
+                                            "rawText": "\"a\"",
+                                            "flags": 96,
+                                            "start": 125,
+                                            "end": 128
+                                        },
+                                        "flags": 32,
+                                        "start": 124,
+                                        "end": 129
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -627,20 +641,6 @@
                                         "flags": 32,
                                         "start": 130,
                                         "end": 134
-                                    },
-                                    "right": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 201392131,
-                                            "text": "a",
-                                            "rawText": "\"a\"",
-                                            "flags": 96,
-                                            "start": 125,
-                                            "end": 128
-                                        },
-                                        "flags": 32,
-                                        "start": 124,
-                                        "end": 129
                                     },
                                     "flags": 32,
                                     "start": 124,

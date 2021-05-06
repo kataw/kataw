@@ -41,7 +41,7 @@ x + + y.x
                         "start": 3,
                         "end": 5
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 129,
                         "member": {
                             "kind": 134299649,

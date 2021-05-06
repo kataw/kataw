@@ -261,7 +261,7 @@ typeof x;
                     "start": 64,
                     "end": 72
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",

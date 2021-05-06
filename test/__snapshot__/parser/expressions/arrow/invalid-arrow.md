@@ -86,7 +86,7 @@ x = (a)?c:d=>{}=>{}
                             "start": 10,
                             "end": 11
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

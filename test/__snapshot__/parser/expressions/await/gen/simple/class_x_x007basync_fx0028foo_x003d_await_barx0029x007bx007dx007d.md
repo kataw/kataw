@@ -85,7 +85,7 @@ class x {async f(foo = await bar){}}
                                         "type": null,
                                         "initializer": {
                                             "kind": 208,
-                                            "awaitToken": {
+                                            "awaitKeyword": {
                                                 "kind": 82032,
                                                 "flags": 0,
                                                 "start": 22,

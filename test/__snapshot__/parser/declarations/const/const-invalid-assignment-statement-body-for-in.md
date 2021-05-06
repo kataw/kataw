@@ -108,7 +108,7 @@ for (const x in [1, 2, 3]) { x++ }
                                     "start": 30,
                                     "end": 32
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",

@@ -38,7 +38,7 @@ eval => { 'use strict'; 0 } ;
                     "start": 0,
                     "end": 4
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

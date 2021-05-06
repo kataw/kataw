@@ -163,7 +163,7 @@ class C { [super.bbb] = 0 };
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 129,
@@ -263,7 +263,7 @@ class C { [super.bbb] = 0 };
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 271,
@@ -275,7 +275,7 @@ class C { [super.bbb] = 0 };
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 129,

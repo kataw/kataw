@@ -33,19 +33,19 @@
                                 "generatorToken": null,
                                 "left": {
                                     "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 15
-                                },
-                                "right": {
-                                    "kind": 134299649,
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 8
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 15
                                 },
                                 "flags": 32,
                                 "start": 2,

@@ -44,7 +44,7 @@
                                         "start": 2,
                                         "end": 9
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -67,7 +67,7 @@
                         "end": 13
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

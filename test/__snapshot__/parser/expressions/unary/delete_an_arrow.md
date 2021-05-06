@@ -25,7 +25,7 @@ delete (foo)=>bar
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -44,7 +44,7 @@ delete (foo)=>bar
                             "end": 11
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,

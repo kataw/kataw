@@ -870,7 +870,7 @@ let x = { foo(){ super(); } };
                 "arrowToken": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 16637,
@@ -1682,6 +1682,14 @@ let x = { foo(){ super(); } };
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "foo",
+                                    "rawText": "foo",
+                                    "flags": 96,
+                                    "start": 496,
+                                    "end": 500
+                                },
+                                "right": {
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
@@ -1752,14 +1760,6 @@ let x = { foo(){ super(); } };
                                     "flags": 32,
                                     "start": 501,
                                     "end": 526
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 496,
-                                    "end": 500
                                 },
                                 "flags": 32,
                                 "start": 496,
@@ -1926,6 +1926,14 @@ let x = { foo(){ super(); } };
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 562,
+                                    "end": 563
+                                },
+                                "right": {
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
@@ -2003,14 +2011,6 @@ let x = { foo(){ super(); } };
                                     "flags": 32,
                                     "start": 564,
                                     "end": 588
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 562,
-                                    "end": 563
                                 },
                                 "flags": 32,
                                 "start": 562,

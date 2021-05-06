@@ -148,7 +148,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
                                                                         "start": 61,
                                                                         "end": 66
                                                                     },
-                                                                    "expression": {
+                                                                    "operand": {
                                                                         "kind": 134299649,
                                                                         "text": "x",
                                                                         "rawText": "x",

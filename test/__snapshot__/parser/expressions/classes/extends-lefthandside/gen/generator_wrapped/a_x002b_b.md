@@ -120,7 +120,7 @@ function *P(){
                                     "start": 34,
                                     "end": 36
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",

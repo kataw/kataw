@@ -38,7 +38,7 @@ await => async.await[async / ((async) => foo.bar)]
                     "start": 0,
                     "end": 5
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 130,
@@ -101,7 +101,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "end": 36
                                     }
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 129,

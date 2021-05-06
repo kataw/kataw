@@ -61,7 +61,7 @@ a = !!b;
                         "start": 3,
                         "end": 5
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -69,7 +69,7 @@ a = !!b;
                             "start": 5,
                             "end": 6
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -145,7 +145,7 @@ a = !!b;
                         "start": 18,
                         "end": 20
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -153,7 +153,7 @@ a = !!b;
                             "start": 20,
                             "end": 21
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -229,7 +229,7 @@ a = !!b;
                         "start": 34,
                         "end": 36
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -237,7 +237,7 @@ a = !!b;
                             "start": 36,
                             "end": 37
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -313,7 +313,7 @@ a = !!b;
                         "start": 50,
                         "end": 52
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -321,7 +321,7 @@ a = !!b;
                             "start": 52,
                             "end": 53
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -397,7 +397,7 @@ a = !!b;
                         "start": 67,
                         "end": 69
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -405,7 +405,7 @@ a = !!b;
                             "start": 69,
                             "end": 70
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -481,7 +481,7 @@ a = !!b;
                         "start": 84,
                         "end": 86
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -489,7 +489,7 @@ a = !!b;
                             "start": 86,
                             "end": 87
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -565,7 +565,7 @@ a = !!b;
                         "start": 99,
                         "end": 101
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -573,7 +573,7 @@ a = !!b;
                             "start": 101,
                             "end": 102
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -649,7 +649,7 @@ a = !!b;
                         "start": 114,
                         "end": 116
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -657,7 +657,7 @@ a = !!b;
                             "start": 116,
                             "end": 117
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -733,7 +733,7 @@ a = !!b;
                         "start": 130,
                         "end": 132
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -741,7 +741,7 @@ a = !!b;
                             "start": 132,
                             "end": 133
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -817,7 +817,7 @@ a = !!b;
                         "start": 146,
                         "end": 148
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -825,7 +825,7 @@ a = !!b;
                             "start": 148,
                             "end": 149
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -901,7 +901,7 @@ a = !!b;
                         "start": 162,
                         "end": 164
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -909,7 +909,7 @@ a = !!b;
                             "start": 164,
                             "end": 165
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 198,
@@ -935,7 +935,7 @@ a = !!b;
                                         "start": 170,
                                         "end": 172
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 134299649,
                                         "text": "c",
                                         "rawText": "c",
@@ -997,7 +997,7 @@ a = !!b;
                         "start": 179,
                         "end": 181
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -1005,7 +1005,7 @@ a = !!b;
                             "start": 181,
                             "end": 182
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 121,
                             "expression": {
                                 "kind": 132,
@@ -1077,7 +1077,7 @@ a = !!b;
                         "start": 193,
                         "end": 195
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -1085,7 +1085,7 @@ a = !!b;
                             "start": 195,
                             "end": 196
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
@@ -1093,7 +1093,7 @@ a = !!b;
                                 "start": 196,
                                 "end": 197
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -1147,7 +1147,7 @@ a = !!b;
                         "start": 203,
                         "end": 205
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -1155,7 +1155,7 @@ a = !!b;
                             "start": 205,
                             "end": 206
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 126,
                             "operandToken": {
                                 "kind": 138477615,
@@ -1163,7 +1163,7 @@ a = !!b;
                                 "start": 206,
                                 "end": 210
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -1217,7 +1217,7 @@ a = !!b;
                         "start": 217,
                         "end": 219
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 126,
                         "operandToken": {
                             "kind": 65584,
@@ -1225,7 +1225,7 @@ a = !!b;
                             "start": 219,
                             "end": 220
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 134299649,
                             "text": "b",
                             "rawText": "b",

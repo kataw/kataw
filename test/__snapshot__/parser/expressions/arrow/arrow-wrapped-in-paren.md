@@ -50,7 +50,7 @@
                             "end": 3
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
@@ -106,7 +106,7 @@
                                     "end": 19
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
@@ -159,7 +159,7 @@
                                     "end": 32
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,
@@ -192,7 +192,7 @@
                                     "end": 42
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 216,

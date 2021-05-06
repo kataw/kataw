@@ -27,7 +27,7 @@
                         "start": 0,
                         "end": 1
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 220,
                         "propertyList": {
                             "kind": 218,

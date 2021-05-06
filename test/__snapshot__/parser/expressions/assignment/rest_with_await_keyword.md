@@ -58,19 +58,19 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "generatorToken": null,
                                             "left": {
                                                 "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 25,
-                                                "end": 27
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
                                                 "flags": 96,
                                                 "start": 9,
                                                 "end": 24
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 25,
+                                                "end": 27
                                             },
                                             "flags": 32,
                                             "start": 9,
@@ -101,20 +101,20 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
-                                                "kind": 201392130,
-                                                "text": 42,
-                                                "rawText": "42",
-                                                "flags": 96,
-                                                "start": 44,
-                                                "end": 47
-                                            },
-                                            "right": {
                                                 "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "protected",
                                                 "flags": 96,
                                                 "start": 33,
                                                 "end": 43
+                                            },
+                                            "right": {
+                                                "kind": 201392130,
+                                                "text": 42,
+                                                "rawText": "42",
+                                                "flags": 96,
+                                                "start": 44,
+                                                "end": 47
                                             },
                                             "flags": 32,
                                             "start": 33,

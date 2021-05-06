@@ -80,6 +80,14 @@ function *f(){   s = {"foo": yield / x}   }
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "left": {
+                                                    "kind": 201392131,
+                                                    "text": "foo",
+                                                    "rawText": "\"foo\"",
+                                                    "flags": 96,
+                                                    "start": 22,
+                                                    "end": 27
+                                                },
+                                                "right": {
                                                     "kind": 198,
                                                     "left": {
                                                         "kind": 229,
@@ -113,14 +121,6 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "flags": 32,
                                                     "start": 22,
                                                     "end": 38
-                                                },
-                                                "right": {
-                                                    "kind": 201392131,
-                                                    "text": "foo",
-                                                    "rawText": "\"foo\"",
-                                                    "flags": 96,
-                                                    "start": 22,
-                                                    "end": 27
                                                 },
                                                 "flags": 32,
                                                 "start": 22,

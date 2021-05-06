@@ -62,7 +62,13 @@ function x(){""[new.target]}
                                 },
                                 "expression": {
                                     "kind": 211,
-                                    "targetKeyword": {
+                                    "newKeyword": {
+                                        "kind": 138477661,
+                                        "flags": 0,
+                                        "start": 16,
+                                        "end": 19
+                                    },
+                                    "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 0,
                                         "start": 20,

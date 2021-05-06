@@ -29,7 +29,7 @@ async () => { await import(x) }
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -46,7 +46,7 @@ async () => { await import(x) }
                             "kind": 120,
                             "expression": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 13,

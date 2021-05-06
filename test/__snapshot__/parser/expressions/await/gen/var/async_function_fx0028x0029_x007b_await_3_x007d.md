@@ -155,7 +155,7 @@ var await; var f = (async function() { async function f() { await 3; } });
                                                                 "kind": 120,
                                                                 "expression": {
                                                                     "kind": 208,
-                                                                    "awaitToken": {
+                                                                    "awaitKeyword": {
                                                                         "kind": 82032,
                                                                         "flags": 0,
                                                                         "start": 59,

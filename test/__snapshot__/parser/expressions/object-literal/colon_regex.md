@@ -28,19 +28,19 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 221,
-                                    "text": "/foo/",
-                                    "flags": 96,
-                                    "start": 4,
-                                    "end": 10
-                                },
-                                "right": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
                                     "start": 2,
                                     "end": 3
+                                },
+                                "right": {
+                                    "kind": 221,
+                                    "text": "/foo/",
+                                    "flags": 96,
+                                    "start": 4,
+                                    "end": 10
                                 },
                                 "flags": 32,
                                 "start": 2,

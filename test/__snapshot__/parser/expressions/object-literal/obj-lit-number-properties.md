@@ -41,20 +41,20 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 6,
-                                            "end": 7
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 0.9,
                                             "rawText": ".9",
                                             "flags": 32864,
                                             "start": 3,
                                             "end": 5
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 6,
+                                            "end": 7
                                         },
                                         "flags": 32,
                                         "start": 3,
@@ -64,20 +64,20 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 14,
-                                            "end": 15
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 132,
                                             "rawText": "0x84",
                                             "flags": 1048672,
                                             "start": 8,
                                             "end": 13
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 14,
+                                            "end": 15
                                         },
                                         "flags": 32,
                                         "start": 8,
@@ -87,20 +87,20 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 21,
-                                            "end": 22
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 1,
                                             "rawText": "0b1",
                                             "flags": 524384,
                                             "start": 16,
                                             "end": 20
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "c",
+                                            "rawText": "c",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 22
                                         },
                                         "flags": 32,
                                         "start": 16,
@@ -110,20 +110,20 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "d",
-                                            "rawText": "d",
-                                            "flags": 96,
-                                            "start": 29,
-                                            "end": 30
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 23,
                                             "rawText": "0o27",
                                             "flags": 262240,
                                             "start": 23,
                                             "end": 28
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "d",
+                                            "rawText": "d",
+                                            "flags": 96,
+                                            "start": 29,
+                                            "end": 30
                                         },
                                         "flags": 32,
                                         "start": 23,
@@ -133,20 +133,20 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "e",
-                                            "rawText": "e",
-                                            "flags": 96,
-                                            "start": 38,
-                                            "end": 39
-                                        },
-                                        "right": {
                                             "kind": 201392130,
                                             "text": 1e+234,
                                             "rawText": "1e234",
                                             "flags": 96,
                                             "start": 31,
                                             "end": 37
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "e",
+                                            "rawText": "e",
+                                            "flags": 96,
+                                            "start": 38,
+                                            "end": 39
                                         },
                                         "flags": 32,
                                         "start": 31,

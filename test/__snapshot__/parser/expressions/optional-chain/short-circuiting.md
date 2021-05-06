@@ -65,7 +65,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                                 "start": 4,
                                                 "end": 6
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -151,7 +151,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 37,
                                     "end": 39
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -234,7 +234,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                                 "start": 84,
                                                 "end": 86
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -320,7 +320,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 125,
                                     "end": 127
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",

@@ -49,19 +49,19 @@
                                 "generatorToken": null,
                                 "left": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 12,
-                                    "end": 14
-                                },
-                                "right": {
-                                    "kind": 134299649,
                                     "text": "obj",
                                     "rawText": "obj",
                                     "flags": 96,
                                     "start": 7,
                                     "end": 11
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 14
                                 },
                                 "flags": 32,
                                 "start": 7,

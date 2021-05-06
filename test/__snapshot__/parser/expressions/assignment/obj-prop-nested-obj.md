@@ -50,6 +50,14 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "right": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -71,14 +79,6 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "flags": 32,
                                         "start": 13,
                                         "end": 19
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 12
                                     },
                                     "flags": 32,
                                     "start": 10,
@@ -109,6 +109,14 @@ result = { x: { y } } = { x: { y: 2 } };
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 27
+                                    },
+                                    "right": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -117,20 +125,20 @@ result = { x: { y } } = { x: { y: 2 } };
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
-                                                        "kind": 201392130,
-                                                        "text": 2,
-                                                        "rawText": "2",
-                                                        "flags": 96,
-                                                        "start": 33,
-                                                        "end": 35
-                                                    },
-                                                    "right": {
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
                                                         "start": 30,
                                                         "end": 32
+                                                    },
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 2,
+                                                        "rawText": "2",
+                                                        "flags": 96,
+                                                        "start": 33,
+                                                        "end": 35
                                                     },
                                                     "flags": 32,
                                                     "start": 30,
@@ -145,14 +153,6 @@ result = { x: { y } } = { x: { y: 2 } };
                                         "flags": 32,
                                         "start": 28,
                                         "end": 37
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 25,
-                                        "end": 27
                                     },
                                     "flags": 32,
                                     "start": 25,

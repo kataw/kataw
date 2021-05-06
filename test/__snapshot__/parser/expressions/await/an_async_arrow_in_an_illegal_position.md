@@ -46,7 +46,7 @@ let y = typeof async x => await x
                                 "start": 7,
                                 "end": 14
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 271,
                                 "arrowToken": {
                                     "kind": 10,
@@ -63,7 +63,7 @@ let y = typeof async x => await x
                                     "start": 20,
                                     "end": 22
                                 },
-                                "asyncToken": {
+                                "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 14,
@@ -72,7 +72,7 @@ let y = typeof async x => await x
                                 "returnType": null,
                                 "contents": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 25,

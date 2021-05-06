@@ -28,6 +28,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "ident",
+                                    "rawText": "ident",
+                                    "flags": 96,
+                                    "start": 2,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 131,
                                     "expression": {
                                         "kind": 129,
@@ -94,14 +102,6 @@
                                     "flags": 32,
                                     "start": 2,
                                     "end": 28
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "ident",
-                                    "rawText": "ident",
-                                    "flags": 96,
-                                    "start": 2,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 2,

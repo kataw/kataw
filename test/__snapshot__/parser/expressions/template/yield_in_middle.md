@@ -34,44 +34,31 @@ x = `1 ${ yield } 2`
                     "end": 3
                 },
                 "right": {
-                    "kind": 226,
-                    "member": {
-                        "kind": 16637,
-                        "text": "",
-                        "flags": 68,
-                        "start": 3,
-                        "end": 3
-                    },
-                    "template": {
-                        "kind": 227,
-                        "spans": [
-                            {
-                                "kind": 228,
-                                "rawText": "1 ",
-                                "text": "1 ",
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 15
-                                },
-                                "flags": 32,
-                                "start": 3,
+                    "kind": 227,
+                    "spans": [
+                        {
+                            "kind": 65764,
+                            "rawText": "1 ",
+                            "text": "1 ",
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "yield",
+                                "rawText": "yield",
+                                "flags": 96,
+                                "start": 9,
                                 "end": 15
-                            }
-                        ],
-                        "tail": {
-                            "kind": 458761,
-                            "text": " 2",
-                            "rawText": " 2",
-                            "flags": 96,
-                            "start": 15,
-                            "end": 20
-                        },
-                        "flags": 32,
-                        "start": 3,
+                            },
+                            "flags": 32,
+                            "start": 3,
+                            "end": 15
+                        }
+                    ],
+                    "tail": {
+                        "kind": 458761,
+                        "text": " 2",
+                        "rawText": " 2",
+                        "flags": 96,
+                        "start": 15,
                         "end": 20
                     },
                     "flags": 32,
@@ -105,7 +92,6 @@ x = `1 ${ yield } 2`
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 3, end: 9
-
+✔ No errors
 ```
 

@@ -88,7 +88,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                         },
                                                         "typeParameters": null,
                                                         "parameters": [],
-                                                        "asyncToken": null,
+                                                        "asyncKeyword": null,
                                                         "returnType": null,
                                                         "contents": {
                                                             "kind": 177,

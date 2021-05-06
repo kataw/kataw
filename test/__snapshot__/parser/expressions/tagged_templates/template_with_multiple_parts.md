@@ -31,7 +31,7 @@ foo`x${a}y${b}z`
                     "kind": 227,
                     "spans": [
                         {
-                            "kind": 228,
+                            "kind": 65764,
                             "rawText": "x",
                             "text": "x",
                             "expression": {
@@ -47,7 +47,7 @@ foo`x${a}y${b}z`
                             "end": 8
                         },
                         {
-                            "kind": 228,
+                            "kind": 65764,
                             "rawText": "y",
                             "text": "y",
                             "expression": {

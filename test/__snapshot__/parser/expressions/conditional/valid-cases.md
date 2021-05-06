@@ -1194,7 +1194,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 268,
                                     "end": 270
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
@@ -1220,7 +1220,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 273,
                                     "end": 275
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
@@ -1289,7 +1289,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 284,
                                     "end": 286
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
@@ -1372,7 +1372,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 299,
                                     "end": 301
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 201392130,
                                     "text": 0,
                                     "rawText": "0",
@@ -1490,7 +1490,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 325,
                         "end": 327
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
@@ -1516,7 +1516,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 330,
                         "end": 332
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
@@ -2410,7 +2410,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 499,
                         "end": 501
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",
@@ -2436,7 +2436,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 504,
                         "end": 506
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "b",
                         "rawText": "b",

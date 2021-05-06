@@ -25,6 +25,7 @@ import.call
                     "start": 0,
                     "end": 6
                 },
+                "metaIdentifier": null,
                 "flags": 6,
                 "start": 96,
                 "end": 11

@@ -57,14 +57,6 @@ const map = {
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "Too young",
-                                            "rawText": "'Too young'",
-                                            "flags": 4194400,
-                                            "start": 29,
-                                            "end": 41
-                                        },
-                                        "right": {
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 198,
@@ -97,6 +89,14 @@ const map = {
                                             "flags": 32,
                                             "start": 13,
                                             "end": 27
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "Too young",
+                                            "rawText": "'Too young'",
+                                            "flags": 4194400,
+                                            "start": 29,
+                                            "end": 41
                                         },
                                         "flags": 32,
                                         "start": 13,

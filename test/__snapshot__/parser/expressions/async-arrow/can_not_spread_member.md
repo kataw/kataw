@@ -75,7 +75,7 @@ async ([...x.y]) => z
                     "end": 15
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

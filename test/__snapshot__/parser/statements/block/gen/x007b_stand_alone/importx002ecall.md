@@ -34,6 +34,7 @@
                                 "start": 1,
                                 "end": 8
                             },
+                            "metaIdentifier": null,
                             "flags": 8,
                             "start": 96,
                             "end": 13

@@ -25,7 +25,7 @@ delete (foo.bar);
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 129,

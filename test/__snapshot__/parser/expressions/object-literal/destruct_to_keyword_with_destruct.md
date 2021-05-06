@@ -44,6 +44,14 @@ s = {s: true = x} = x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "s",
+                                        "rawText": "s",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134,
@@ -69,14 +77,6 @@ s = {s: true = x} = x
                                         "flags": 32,
                                         "start": 5,
                                         "end": 16
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "s",
-                                        "rawText": "s",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 6
                                     },
                                     "flags": 32,
                                     "start": 5,

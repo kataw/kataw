@@ -53,7 +53,7 @@ foo(x => ok).bar
                                     "start": 4,
                                     "end": 5
                                 },
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 134299649,

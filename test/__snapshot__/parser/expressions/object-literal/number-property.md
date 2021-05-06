@@ -42,20 +42,20 @@ x = {15:b}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "right": {
                                     "kind": 201392130,
                                     "text": 15,
                                     "rawText": "15",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 7
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 8,
+                                    "end": 9
                                 },
                                 "flags": 32,
                                 "start": 5,

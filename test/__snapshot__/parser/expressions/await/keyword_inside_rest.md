@@ -34,7 +34,7 @@ async r => result = [...{ x = await x }] = y;
                     "start": 5,
                     "end": 7
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
@@ -89,7 +89,7 @@ async r => result = [...{ x = await x }] = y;
                                                         },
                                                         "right": {
                                                             "kind": 208,
-                                                            "awaitToken": {
+                                                            "awaitKeyword": {
                                                                 "kind": 82032,
                                                                 "flags": 0,
                                                                 "start": 29,

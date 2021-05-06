@@ -29,7 +29,7 @@ delete async x => {}
                     "start": 0,
                     "end": 6
                 },
-                "expression": {
+                "operand": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -46,7 +46,7 @@ delete async x => {}
                         "start": 12,
                         "end": 14
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 6,

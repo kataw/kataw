@@ -241,20 +241,20 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 201392130,
-                                        "text": 2,
-                                        "rawText": "2",
-                                        "flags": 96,
-                                        "start": 59,
-                                        "end": 61
-                                    },
-                                    "right": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
                                         "start": 56,
                                         "end": 58
+                                    },
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 2,
+                                        "rawText": "2",
+                                        "flags": 96,
+                                        "start": 59,
+                                        "end": 61
                                     },
                                     "flags": 32,
                                     "start": 56,
@@ -584,20 +584,20 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 201392130,
-                                        "text": 2,
-                                        "rawText": "2",
-                                        "flags": 96,
-                                        "start": 156,
-                                        "end": 158
-                                    },
-                                    "right": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
                                         "start": 153,
                                         "end": 155
+                                    },
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 2,
+                                        "rawText": "2",
+                                        "flags": 96,
+                                        "start": 156,
+                                        "end": 158
                                     },
                                     "flags": 32,
                                     "start": 153,
@@ -747,6 +747,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 197,
+                                            "end": 199
+                                        },
+                                        "right": {
                                             "kind": 125,
                                             "left": {
                                                 "kind": 134299649,
@@ -773,14 +781,6 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             "flags": 32,
                                             "start": 197,
                                             "end": 208
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 197,
-                                            "end": 199
                                         },
                                         "flags": 32,
                                         "start": 197,

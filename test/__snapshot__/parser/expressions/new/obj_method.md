@@ -71,7 +71,13 @@ foo({bar(){ new.target }})
                                                             "kind": 120,
                                                             "expression": {
                                                                 "kind": 211,
-                                                                "targetKeyword": {
+                                                                "newKeyword": {
+                                                                    "kind": 138477661,
+                                                                    "flags": 0,
+                                                                    "start": 11,
+                                                                    "end": 15
+                                                                },
+                                                                "targetIdentifier": {
                                                                     "kind": 16594,
                                                                     "flags": 0,
                                                                     "start": 16,

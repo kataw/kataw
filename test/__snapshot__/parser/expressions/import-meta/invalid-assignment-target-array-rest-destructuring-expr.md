@@ -48,6 +48,12 @@
                                             "start": 4,
                                             "end": 10
                                         },
+                                        "metaIdentifier": {
+                                            "kind": 16595,
+                                            "flags": 0,
+                                            "start": 11,
+                                            "end": 15
+                                        },
                                         "flags": 10,
                                         "start": 96,
                                         "end": 15

@@ -29,7 +29,7 @@ async => {}++
                     "start": 11,
                     "end": 13
                 },
-                "expression": {
+                "operand": {
                     "kind": 271,
                     "arrowToken": {
                         "kind": 10,
@@ -46,7 +46,7 @@ async => {}++
                         "start": 0,
                         "end": 5
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 0,

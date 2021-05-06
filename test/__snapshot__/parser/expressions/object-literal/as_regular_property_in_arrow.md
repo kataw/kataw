@@ -37,19 +37,19 @@
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 10
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 7
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 10
                                     },
                                     "flags": 32,
                                     "start": 2,
@@ -66,7 +66,7 @@
                         "end": 11
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

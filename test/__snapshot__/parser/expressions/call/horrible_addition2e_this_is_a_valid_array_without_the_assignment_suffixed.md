@@ -39,6 +39,14 @@ log({foo: [bar]});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 5,
+                                            "end": 8
+                                        },
+                                        "right": {
                                             "kind": 119,
                                             "elementList": {
                                                 "kind": 270,
@@ -60,14 +68,6 @@ log({foo: [bar]});
                                             "flags": 32,
                                             "start": 9,
                                             "end": 15
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 5,
-                                            "end": 8
                                         },
                                         "flags": 32,
                                         "start": 5,

@@ -62,7 +62,7 @@ var asyncArrow = async(await) => 1;
                                     "end": 28
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 16,

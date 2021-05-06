@@ -186,6 +186,14 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                     "kind": 219,
                                                                                                     "generatorToken": null,
                                                                                                     "left": {
+                                                                                                        "kind": 134299649,
+                                                                                                        "text": "m",
+                                                                                                        "rawText": "m",
+                                                                                                        "flags": 96,
+                                                                                                        "start": 79,
+                                                                                                        "end": 80
+                                                                                                    },
+                                                                                                    "right": {
                                                                                                         "kind": 198,
                                                                                                         "left": {
                                                                                                             "kind": 201392130,
@@ -216,7 +224,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                 "elements": [
                                                                                                                     {
                                                                                                                         "kind": 208,
-                                                                                                                        "awaitToken": {
+                                                                                                                        "awaitKeyword": {
                                                                                                                             "kind": 82032,
                                                                                                                             "flags": 0,
                                                                                                                             "start": 88,
@@ -247,14 +255,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                         "flags": 32,
                                                                                                         "start": 79,
                                                                                                         "end": 98
-                                                                                                    },
-                                                                                                    "right": {
-                                                                                                        "kind": 134299649,
-                                                                                                        "text": "m",
-                                                                                                        "rawText": "m",
-                                                                                                        "flags": 96,
-                                                                                                        "start": 79,
-                                                                                                        "end": 80
                                                                                                     },
                                                                                                     "flags": 32,
                                                                                                     "start": 79,

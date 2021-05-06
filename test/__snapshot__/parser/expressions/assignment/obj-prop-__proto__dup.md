@@ -47,19 +47,19 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 21,
-                                        "end": 23
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 10,
                                         "end": 20
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 21,
+                                        "end": 23
                                     },
                                     "flags": 32,
                                     "start": 10,
@@ -70,19 +70,19 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 35,
-                                        "end": 37
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 24,
                                         "end": 34
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 35,
+                                        "end": 37
                                     },
                                     "flags": 32,
                                     "start": 24,
@@ -156,19 +156,19 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 72,
-                                            "end": 74
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
                                             "start": 61,
                                             "end": 71
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 72,
+                                            "end": 74
                                         },
                                         "flags": 32,
                                         "start": 61,
@@ -179,19 +179,19 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 86,
-                                            "end": 88
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
                                             "start": 75,
                                             "end": 85
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 86,
+                                            "end": 88
                                         },
                                         "flags": 32,
                                         "start": 75,

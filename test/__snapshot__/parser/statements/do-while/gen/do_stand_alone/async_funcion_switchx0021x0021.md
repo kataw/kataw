@@ -49,7 +49,7 @@ do async funcion switch!!
                         "start": 8,
                         "end": 16
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 2,
@@ -64,7 +64,7 @@ do async funcion switch!!
                             "start": 23,
                             "end": 24
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 126,
                             "operandToken": {
                                 "kind": 65584,
@@ -72,7 +72,7 @@ do async funcion switch!!
                                 "start": 24,
                                 "end": 25
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 16637,
                                 "text": "",
                                 "flags": 68,

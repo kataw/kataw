@@ -76,7 +76,7 @@ do[ try { !xxx
                     "start": 9,
                     "end": 11
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "xxx",
                     "rawText": "xxx",

@@ -31,7 +31,7 @@ for(delete(x in y);;)x
                     "start": 4,
                     "end": 10
                 },
-                "expression": {
+                "operand": {
                     "kind": 121,
                     "expression": {
                         "kind": 198,

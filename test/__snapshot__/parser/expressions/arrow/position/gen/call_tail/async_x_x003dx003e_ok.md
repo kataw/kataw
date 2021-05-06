@@ -53,7 +53,7 @@ foo(async x => ok).bar
                                     "start": 9,
                                     "end": 11
                                 },
-                                "asyncToken": {
+                                "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 4,

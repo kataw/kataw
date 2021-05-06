@@ -110,7 +110,7 @@ function not_gen() { function *a(){yield typeof 0} }}
                                                         "start": 40,
                                                         "end": 47
                                                     },
-                                                    "expression": {
+                                                    "operand": {
                                                         "kind": 201392130,
                                                         "text": 0,
                                                         "rawText": "0",

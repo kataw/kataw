@@ -94,7 +94,7 @@ async function p(){
                                         "start": 37,
                                         "end": 39
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",

@@ -33,7 +33,7 @@ new + x()
                         "start": 3,
                         "end": 5
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 131,
                         "expression": {
                             "kind": 134299649,

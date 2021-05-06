@@ -82,7 +82,7 @@ async (a = 1, b = 2) => x;
                     "end": 19
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,

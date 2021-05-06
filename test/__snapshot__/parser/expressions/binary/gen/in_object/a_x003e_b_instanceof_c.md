@@ -46,6 +46,14 @@ x = { a: a > b instanceof c }
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 5,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 198,
                                     "left": {
                                         "kind": 198,
@@ -92,14 +100,6 @@ x = { a: a > b instanceof c }
                                     "flags": 32,
                                     "start": 5,
                                     "end": 27
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 5,

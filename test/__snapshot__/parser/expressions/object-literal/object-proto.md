@@ -93,20 +93,20 @@ x = {async __proto__(){}, *__proto__(){}};
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 201392130,
-                                    "text": 2,
-                                    "rawText": "2",
-                                    "flags": 96,
-                                    "start": 30,
-                                    "end": 32
-                                },
-                                "right": {
                                     "kind": 134299649,
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
                                     "start": 19,
                                     "end": 29
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 2,
+                                    "rawText": "2",
+                                    "flags": 96,
+                                    "start": 30,
+                                    "end": 32
                                 },
                                 "flags": 32,
                                 "start": 19,
@@ -436,19 +436,19 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 127,
-                                        "end": 129
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 116,
                                         "end": 126
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 127,
+                                        "end": 129
                                     },
                                     "flags": 32,
                                     "start": 116,
@@ -459,19 +459,19 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 141,
-                                        "end": 143
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "__proto__",
                                         "rawText": "__proto__",
                                         "flags": 96,
                                         "start": 130,
                                         "end": 140
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 141,
+                                        "end": 143
                                     },
                                     "flags": 32,
                                     "start": 130,
@@ -488,7 +488,7 @@ x = {async __proto__(){}, *__proto__(){}};
                         "end": 145
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

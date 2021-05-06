@@ -37,7 +37,7 @@ for(t`${x in y}`;;);
                     "kind": 227,
                     "spans": [
                         {
-                            "kind": 228,
+                            "kind": 65764,
                             "rawText": "",
                             "text": "",
                             "expression": {

@@ -97,7 +97,7 @@ hello();
                                     "end": 39
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "type": {

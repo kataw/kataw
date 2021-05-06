@@ -54,7 +54,7 @@ class x extends void {}
                         "start": 15,
                         "end": 20
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 220,
                         "propertyList": {
                             "kind": 218,

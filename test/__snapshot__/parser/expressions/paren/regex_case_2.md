@@ -34,7 +34,7 @@
                                     "start": 2,
                                     "end": 8
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 129,
                                     "member": {
                                         "kind": 221,
@@ -97,7 +97,7 @@
                                             "start": 22,
                                             "end": 28
                                         },
-                                        "expression": {
+                                        "operand": {
                                             "kind": 129,
                                             "member": {
                                                 "kind": 221,
@@ -145,7 +145,7 @@
                                             "start": 39,
                                             "end": 45
                                         },
-                                        "expression": {
+                                        "operand": {
                                             "kind": 129,
                                             "member": {
                                                 "kind": 221,

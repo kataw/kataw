@@ -33,7 +33,7 @@
                             "start": 1,
                             "end": 10
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 16637,
                             "text": "",
                             "flags": 68,

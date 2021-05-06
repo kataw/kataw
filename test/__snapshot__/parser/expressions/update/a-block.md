@@ -38,7 +38,7 @@
                     "start": 2,
                     "end": 4
                 },
-                "expression": {
+                "operand": {
                     "kind": 16637,
                     "text": "",
                     "flags": 68,

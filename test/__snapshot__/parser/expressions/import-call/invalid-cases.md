@@ -1430,7 +1430,7 @@ new import(x);
                     "start": 419,
                     "end": 420
                 },
-                "expression": {
+                "operand": {
                     "kind": 16637,
                     "text": "",
                     "flags": 68,
@@ -1484,6 +1484,7 @@ new import(x);
                     "start": 434,
                     "end": 442
                 },
+                "metaIdentifier": null,
                 "flags": 442,
                 "start": 96,
                 "end": 446

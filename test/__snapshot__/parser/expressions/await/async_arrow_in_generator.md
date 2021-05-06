@@ -72,7 +72,7 @@ function *f(){  async (await) => x  }
                                     "end": 28
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 14,

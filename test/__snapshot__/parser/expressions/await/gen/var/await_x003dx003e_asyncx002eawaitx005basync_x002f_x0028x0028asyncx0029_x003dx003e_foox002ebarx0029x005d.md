@@ -169,7 +169,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                     "end": 75
                                 }
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 129,

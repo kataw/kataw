@@ -116,6 +116,14 @@ class x extends y {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 201392131,
+                                                                        "text": "foo",
+                                                                        "rawText": "\"foo\"",
+                                                                        "flags": 96,
+                                                                        "start": 44,
+                                                                        "end": 49
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 129,
                                                                         "member": {
                                                                             "kind": 225,
@@ -140,14 +148,6 @@ class x extends y {
                                                                         "flags": 32,
                                                                         "start": 44,
                                                                         "end": 61
-                                                                    },
-                                                                    "right": {
-                                                                        "kind": 201392131,
-                                                                        "text": "foo",
-                                                                        "rawText": "\"foo\"",
-                                                                        "flags": 96,
-                                                                        "start": 44,
-                                                                        "end": 49
                                                                     },
                                                                     "flags": 32,
                                                                     "start": 44,

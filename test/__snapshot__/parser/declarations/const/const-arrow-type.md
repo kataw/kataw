@@ -91,7 +91,7 @@ const fn = async (a?: any): Promise<void> => {};
                                     "end": 25
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 10,

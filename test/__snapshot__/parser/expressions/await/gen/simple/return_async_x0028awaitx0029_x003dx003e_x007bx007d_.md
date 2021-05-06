@@ -46,7 +46,7 @@ return async (await) => {};
                         "end": 19
                     }
                 ],
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 6,

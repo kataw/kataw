@@ -44,7 +44,7 @@
                                         "start": 2,
                                         "end": 9
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 129,
                                         "member": {
                                             "kind": 134299649,
@@ -81,7 +81,7 @@
                         "end": 15
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

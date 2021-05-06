@@ -43,19 +43,19 @@ x = {10n: y}
                                 "generatorToken": null,
                                 "left": {
                                     "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 11
-                                },
-                                "right": {
-                                    "kind": 134299649,
                                     "text": "10",
                                     "rawText": "10",
                                     "flags": 96,
                                     "start": 5,
                                     "end": 8
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 11
                                 },
                                 "flags": 32,
                                 "start": 5,

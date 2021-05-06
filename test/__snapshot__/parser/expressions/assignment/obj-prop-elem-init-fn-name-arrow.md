@@ -44,6 +44,14 @@ result = { x: arrow = () => {} } = {};
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
@@ -69,7 +77,7 @@ result = { x: arrow = () => {} } = {};
                                             },
                                             "typeParameters": null,
                                             "parameters": [],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 216,
@@ -92,14 +100,6 @@ result = { x: arrow = () => {} } = {};
                                         "flags": 32,
                                         "start": 10,
                                         "end": 30
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 12
                                     },
                                     "flags": 32,
                                     "start": 10,

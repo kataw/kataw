@@ -25,7 +25,7 @@ x.foo++.bar
                     "start": 5,
                     "end": 7
                 },
-                "expression": {
+                "operand": {
                     "kind": 129,
                     "member": {
                         "kind": 134299649,

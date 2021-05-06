@@ -70,7 +70,7 @@ bar ? baz : ( x => { return x; } );
                             "start": 13,
                             "end": 15
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

@@ -57,7 +57,7 @@
                     "end": 3
                 },
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "type": {

@@ -25,7 +25,7 @@ async () => new await x()
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -42,7 +42,7 @@ async () => new await x()
                 },
                 "expression": {
                     "kind": 208,
-                    "awaitToken": {
+                    "awaitKeyword": {
                         "kind": 82032,
                         "flags": 0,
                         "start": 15,

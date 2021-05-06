@@ -41,7 +41,7 @@ for (typeof x in x) ;
                     "start": 5,
                     "end": 11
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",

@@ -28,7 +28,7 @@
                 },
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 216,

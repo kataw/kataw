@@ -80,6 +80,14 @@ function *f(){   s = {"foo": yield}   }
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "left": {
+                                                    "kind": 201392131,
+                                                    "text": "foo",
+                                                    "rawText": "\"foo\"",
+                                                    "flags": 96,
+                                                    "start": 22,
+                                                    "end": 27
+                                                },
+                                                "right": {
                                                     "kind": 229,
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
@@ -93,14 +101,6 @@ function *f(){   s = {"foo": yield}   }
                                                     "flags": 32,
                                                     "start": 28,
                                                     "end": 34
-                                                },
-                                                "right": {
-                                                    "kind": 201392131,
-                                                    "text": "foo",
-                                                    "rawText": "\"foo\"",
-                                                    "flags": 96,
-                                                    "start": 22,
-                                                    "end": 27
                                                 },
                                                 "flags": 32,
                                                 "start": 22,

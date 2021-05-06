@@ -88,7 +88,7 @@ async function f(){
                                         "start": 33,
                                         "end": 34
                                     },
-                                    "asyncToken": null,
+                                    "asyncKeyword": null,
                                     "returnType": null,
                                     "contents": {
                                         "kind": 216,

@@ -144,7 +144,7 @@ var await; var f = (async function() { var e = (await, f); });
                                                                     "expressions": [
                                                                         {
                                                                             "kind": 208,
-                                                                            "awaitToken": {
+                                                                            "awaitKeyword": {
                                                                                 "kind": 82032,
                                                                                 "flags": 0,
                                                                                 "start": 48,

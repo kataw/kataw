@@ -117,7 +117,7 @@ do while [catch] try { !xxx
                     "start": 22,
                     "end": 24
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "xxx",
                     "rawText": "xxx",

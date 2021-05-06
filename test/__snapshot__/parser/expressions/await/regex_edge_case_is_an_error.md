@@ -62,7 +62,7 @@ async function f(){ await foo
                                     "kind": 198,
                                     "left": {
                                         "kind": 208,
-                                        "awaitToken": {
+                                        "awaitKeyword": {
                                             "kind": 82032,
                                             "flags": 0,
                                             "start": 19,

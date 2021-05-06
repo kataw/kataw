@@ -392,7 +392,7 @@ class A {
                 "arrowToken": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 16637,

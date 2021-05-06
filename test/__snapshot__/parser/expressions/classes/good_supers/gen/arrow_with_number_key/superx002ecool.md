@@ -122,6 +122,14 @@ class x extends y {
                                                                     "kind": 219,
                                                                     "generatorToken": null,
                                                                     "left": {
+                                                                        "kind": 201392130,
+                                                                        "text": 123,
+                                                                        "rawText": "123",
+                                                                        "flags": 96,
+                                                                        "start": 44,
+                                                                        "end": 47
+                                                                    },
+                                                                    "right": {
                                                                         "kind": 129,
                                                                         "member": {
                                                                             "kind": 225,
@@ -147,14 +155,6 @@ class x extends y {
                                                                         "start": 44,
                                                                         "end": 59
                                                                     },
-                                                                    "right": {
-                                                                        "kind": 201392130,
-                                                                        "text": 123,
-                                                                        "rawText": "123",
-                                                                        "flags": 96,
-                                                                        "start": 44,
-                                                                        "end": 47
-                                                                    },
                                                                     "flags": 32,
                                                                     "start": 44,
                                                                     "end": 59
@@ -170,7 +170,7 @@ class x extends y {
                                                         "end": 60
                                                     }
                                                 ],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 134299649,

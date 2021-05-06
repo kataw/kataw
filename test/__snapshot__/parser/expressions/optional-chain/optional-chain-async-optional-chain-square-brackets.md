@@ -59,7 +59,7 @@ async function x() {
                             "kind": 120,
                             "expression": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 1,
                                     "start": 20,
@@ -82,6 +82,14 @@ async function x() {
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 30,
+                                                        "end": 31
+                                                    },
+                                                    "right": {
                                                         "kind": 119,
                                                         "elementList": {
                                                             "kind": 270,
@@ -103,14 +111,6 @@ async function x() {
                                                         "flags": 32,
                                                         "start": 32,
                                                         "end": 37
-                                                    },
-                                                    "right": {
-                                                        "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 30,
-                                                        "end": 31
                                                     },
                                                     "flags": 32,
                                                     "start": 30,

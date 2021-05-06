@@ -182,7 +182,7 @@ var await; var f = (async function() { async function f() {
                                                                                                 "kind": 194,
                                                                                                 "expression": {
                                                                                                     "kind": 208,
-                                                                                                    "awaitToken": {
+                                                                                                    "awaitKeyword": {
                                                                                                         "kind": 82032,
                                                                                                         "flags": 0,
                                                                                                         "start": 69,
@@ -245,20 +245,20 @@ var await; var f = (async function() { async function f() {
                                                                                             "kind": 219,
                                                                                             "generatorToken": null,
                                                                                             "left": {
-                                                                                                "kind": 201392130,
-                                                                                                "text": 1,
-                                                                                                "rawText": "1",
-                                                                                                "flags": 96,
-                                                                                                "start": 91,
-                                                                                                "end": 93
-                                                                                            },
-                                                                                            "right": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "a",
                                                                                                 "rawText": "a",
                                                                                                 "flags": 96,
                                                                                                 "start": 88,
                                                                                                 "end": 90
+                                                                                            },
+                                                                                            "right": {
+                                                                                                "kind": 201392130,
+                                                                                                "text": 1,
+                                                                                                "rawText": "1",
+                                                                                                "flags": 96,
+                                                                                                "start": 91,
+                                                                                                "end": 93
                                                                                             },
                                                                                             "flags": 32,
                                                                                             "start": 88,

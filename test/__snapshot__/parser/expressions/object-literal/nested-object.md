@@ -155,20 +155,20 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392131,
-                                            "text": "3",
-                                            "rawText": "\"3\"",
-                                            "flags": 96,
-                                            "start": 31,
-                                            "end": 35
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 28,
                                             "end": 30
+                                        },
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "3",
+                                            "rawText": "\"3\"",
+                                            "flags": 96,
+                                            "start": 31,
+                                            "end": 35
                                         },
                                         "flags": 32,
                                         "start": 28,
@@ -178,6 +178,14 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
+                                            "kind": 134299649,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 96,
+                                            "start": 36,
+                                            "end": 38
+                                        },
+                                        "right": {
                                             "kind": 220,
                                             "propertyList": {
                                                 "kind": 218,
@@ -186,20 +194,20 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392131,
-                                                            "text": "b",
-                                                            "rawText": "\"b\"",
-                                                            "flags": 96,
-                                                            "start": 44,
-                                                            "end": 48
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 41,
                                                             "end": 43
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392131,
+                                                            "text": "b",
+                                                            "rawText": "\"b\"",
+                                                            "flags": 96,
+                                                            "start": 44,
+                                                            "end": 48
                                                         },
                                                         "flags": 32,
                                                         "start": 41,
@@ -214,14 +222,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                             "flags": 32,
                                             "start": 39,
                                             "end": 50
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "z",
-                                            "rawText": "z",
-                                            "flags": 96,
-                                            "start": 36,
-                                            "end": 38
                                         },
                                         "flags": 32,
                                         "start": 36,

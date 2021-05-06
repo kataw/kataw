@@ -44,7 +44,7 @@ new (x)=>{}
                             "end": 6
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,

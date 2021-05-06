@@ -144,7 +144,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                     },
                                                                     "typeParameters": null,
                                                                     "parameters": [],
-                                                                    "asyncToken": null,
+                                                                    "asyncKeyword": null,
                                                                     "returnType": null,
                                                                     "contents": {
                                                                         "kind": 129,

@@ -88,7 +88,7 @@ async function f() {
                                                             "kind": 194,
                                                             "expression": {
                                                                 "kind": 208,
-                                                                "awaitToken": {
+                                                                "awaitKeyword": {
                                                                     "kind": 82032,
                                                                     "flags": 0,
                                                                     "start": 30,
@@ -151,20 +151,20 @@ async function f() {
                                                         "kind": 219,
                                                         "generatorToken": null,
                                                         "left": {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 52,
-                                                            "end": 54
-                                                        },
-                                                        "right": {
                                                             "kind": 134299649,
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
                                                             "start": 49,
                                                             "end": 51
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 1,
+                                                            "rawText": "1",
+                                                            "flags": 96,
+                                                            "start": 52,
+                                                            "end": 54
                                                         },
                                                         "flags": 32,
                                                         "start": 49,

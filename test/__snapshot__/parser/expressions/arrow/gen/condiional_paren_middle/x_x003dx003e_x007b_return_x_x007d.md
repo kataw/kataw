@@ -56,7 +56,7 @@ bar ? (x => { return x; }) : baz;
                             "start": 7,
                             "end": 8
                         },
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

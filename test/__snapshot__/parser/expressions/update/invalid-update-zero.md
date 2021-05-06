@@ -31,7 +31,7 @@
                     "start": 1,
                     "end": 3
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
@@ -57,7 +57,7 @@
                     "start": 7,
                     "end": 9
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
@@ -83,7 +83,7 @@
                     "start": 10,
                     "end": 14
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",
@@ -109,7 +109,7 @@
                     "start": 16,
                     "end": 20
                 },
-                "expression": {
+                "operand": {
                     "kind": 201392130,
                     "text": 0,
                     "rawText": "0",

@@ -42,6 +42,14 @@ for ({a: x + y} = z in obj);
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 7
+                                },
+                                "right": {
                                     "kind": 198,
                                     "left": {
                                         "kind": 134299649,
@@ -68,14 +76,6 @@ for ({a: x + y} = z in obj);
                                     "flags": 32,
                                     "start": 6,
                                     "end": 14
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 6,
-                                    "end": 7
                                 },
                                 "flags": 32,
                                 "start": 6,

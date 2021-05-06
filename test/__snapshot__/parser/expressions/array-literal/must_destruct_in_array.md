@@ -44,6 +44,14 @@ x = {x: [{a = b}] + x}.x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    "right": {
                                         "kind": 198,
                                         "left": {
                                             "kind": 119,
@@ -114,14 +122,6 @@ x = {x: [{a = b}] + x}.x
                                         "flags": 32,
                                         "start": 5,
                                         "end": 21
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 6
                                     },
                                     "flags": 32,
                                     "start": 5,

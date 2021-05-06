@@ -30,7 +30,7 @@ typeof class{}
                             "start": 0,
                             "end": 6
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 189,
                             "decorators": null,
                             "classKeyword": {

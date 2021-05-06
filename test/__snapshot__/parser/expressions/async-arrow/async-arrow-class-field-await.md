@@ -27,7 +27,7 @@ async( x = class { x = await });
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -74,7 +74,7 @@ async( x = class { x = await });
                             "type": null,
                             "initializer": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 27,

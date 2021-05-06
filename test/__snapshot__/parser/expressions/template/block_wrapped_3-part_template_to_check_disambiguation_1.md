@@ -23,76 +23,63 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 226,
-                            "member": {
-                                "kind": 16637,
-                                "text": "",
-                                "flags": 68,
-                                "start": 1,
-                                "end": 1
-                            },
-                            "template": {
-                                "kind": 227,
-                                "spans": [
-                                    {
-                                        "kind": 228,
-                                        "rawText": "foo ",
-                                        "text": "foo ",
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 8,
-                                            "end": 9
-                                        },
-                                        "flags": 32,
-                                        "start": 1,
+                            "kind": 227,
+                            "spans": [
+                                {
+                                    "kind": 65764,
+                                    "rawText": "foo ",
+                                    "text": "foo ",
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 8,
                                         "end": 9
                                     },
-                                    {
-                                        "kind": 228,
-                                        "rawText": " and ",
-                                        "text": " and ",
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 18
-                                        },
-                                        "flags": 32,
-                                        "start": 9,
+                                    "flags": 32,
+                                    "start": 1,
+                                    "end": 9
+                                },
+                                {
+                                    "kind": 65764,
+                                    "rawText": " and ",
+                                    "text": " and ",
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 17,
                                         "end": 18
                                     },
-                                    {
-                                        "kind": 228,
-                                        "rawText": " and ",
-                                        "text": " and ",
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "c",
-                                            "rawText": "c",
-                                            "flags": 96,
-                                            "start": 26,
-                                            "end": 27
-                                        },
-                                        "flags": 32,
-                                        "start": 18,
-                                        "end": 27
-                                    }
-                                ],
-                                "tail": {
-                                    "kind": 458761,
-                                    "text": " baz",
-                                    "rawText": " baz",
-                                    "flags": 96,
-                                    "start": 27,
-                                    "end": 33
+                                    "flags": 32,
+                                    "start": 9,
+                                    "end": 18
                                 },
-                                "flags": 32,
-                                "start": 1,
+                                {
+                                    "kind": 65764,
+                                    "rawText": " and ",
+                                    "text": " and ",
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
+                                        "start": 26,
+                                        "end": 27
+                                    },
+                                    "flags": 32,
+                                    "start": 18,
+                                    "end": 27
+                                }
+                            ],
+                            "tail": {
+                                "kind": 458761,
+                                "text": " baz",
+                                "rawText": " baz",
+                                "flags": 96,
+                                "start": 27,
                                 "end": 33
                             },
                             "flags": 32,
@@ -131,7 +118,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expression expected - start: 1, end: 8
-
+✔ No errors
 ```
 

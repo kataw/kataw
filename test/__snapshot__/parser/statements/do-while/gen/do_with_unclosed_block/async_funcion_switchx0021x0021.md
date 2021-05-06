@@ -77,7 +77,7 @@ do {} while (x) { async funcion switch!!
                                 "start": 23,
                                 "end": 31
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 17,
@@ -92,7 +92,7 @@ do {} while (x) { async funcion switch!!
                                     "start": 38,
                                     "end": 39
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 126,
                                     "operandToken": {
                                         "kind": 65584,
@@ -100,7 +100,7 @@ do {} while (x) { async funcion switch!!
                                         "start": 39,
                                         "end": 40
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

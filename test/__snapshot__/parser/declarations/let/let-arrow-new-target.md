@@ -48,11 +48,17 @@ let y = () => new.target
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 211,
-                                "targetKeyword": {
+                                "newKeyword": {
+                                    "kind": 138477661,
+                                    "flags": 0,
+                                    "start": 13,
+                                    "end": 17
+                                },
+                                "targetIdentifier": {
                                     "kind": 16594,
                                     "flags": 0,
                                     "start": 18,

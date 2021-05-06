@@ -46,7 +46,7 @@ async (x, y) => ok, async (x, y) => ok
                     "end": 11
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
@@ -92,7 +92,7 @@ async (x, y) => ok, async (x, y) => ok
                     "end": 31
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 19,

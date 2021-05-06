@@ -380,7 +380,7 @@ async function f(){}
                                                     "start": 104,
                                                     "end": 106
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 131,
                                                     "expression": {
                                                         "kind": 134299649,
@@ -480,7 +480,7 @@ async function f(){}
                                                     "start": 126,
                                                     "end": 127
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 220,
                                                     "propertyList": {
                                                         "kind": 218,
@@ -559,7 +559,7 @@ async function f(){}
                                                     "start": 142,
                                                     "end": 143
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -691,7 +691,7 @@ async function f(){}
                                                     "start": 174,
                                                     "end": 175
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 16637,
                                                     "text": "",
                                                     "flags": 68,
@@ -764,7 +764,7 @@ async function f(){}
                                                     "start": 191,
                                                     "end": 192
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 177,
                                                     "asyncKeyword": null,
                                                     "functionKeyword": {

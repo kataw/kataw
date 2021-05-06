@@ -49,7 +49,7 @@ a;
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 128,
@@ -59,7 +59,7 @@ a;
                                     "start": 13,
                                     "end": 16
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",

@@ -39,14 +39,6 @@ x({[new A()]:y})
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 14
-                                        },
-                                        "right": {
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 210,
@@ -79,6 +71,14 @@ x({[new A()]:y})
                                             "flags": 32,
                                             "start": 3,
                                             "end": 12
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 14
                                         },
                                         "flags": 32,
                                         "start": 3,

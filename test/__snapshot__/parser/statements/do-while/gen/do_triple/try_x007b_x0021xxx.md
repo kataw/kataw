@@ -90,7 +90,7 @@ do do do try { !xxx while while while
                                                 "start": 14,
                                                 "end": 16
                                             },
-                                            "expression": {
+                                            "operand": {
                                                 "kind": 134299649,
                                                 "text": "xxx",
                                                 "rawText": "xxx",

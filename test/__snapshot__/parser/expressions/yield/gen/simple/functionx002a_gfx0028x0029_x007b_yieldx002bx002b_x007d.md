@@ -77,7 +77,7 @@ function* gf() { yield++; }
                                         "start": 22,
                                         "end": 24
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 16637,
                                         "text": "",
                                         "flags": 68,

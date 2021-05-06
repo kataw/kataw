@@ -148,6 +148,14 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                     "kind": 219,
                                                                                     "generatorToken": null,
                                                                                     "left": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "m",
+                                                                                        "rawText": "m",
+                                                                                        "flags": 96,
+                                                                                        "start": 60,
+                                                                                        "end": 61
+                                                                                    },
+                                                                                    "right": {
                                                                                         "kind": 198,
                                                                                         "left": {
                                                                                             "kind": 201392130,
@@ -178,7 +186,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                 "elements": [
                                                                                                     {
                                                                                                         "kind": 208,
-                                                                                                        "awaitToken": {
+                                                                                                        "awaitKeyword": {
                                                                                                             "kind": 82032,
                                                                                                             "flags": 0,
                                                                                                             "start": 69,
@@ -209,14 +217,6 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                         "flags": 32,
                                                                                         "start": 60,
                                                                                         "end": 79
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "m",
-                                                                                        "rawText": "m",
-                                                                                        "flags": 96,
-                                                                                        "start": 60,
-                                                                                        "end": 61
                                                                                     },
                                                                                     "flags": 32,
                                                                                     "start": 60,

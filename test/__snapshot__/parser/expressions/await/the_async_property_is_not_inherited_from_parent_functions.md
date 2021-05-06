@@ -93,7 +93,7 @@ async function f(){ let y = x => await x; }
                                                 "start": 27,
                                                 "end": 29
                                             },
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 134299649,

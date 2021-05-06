@@ -256,7 +256,7 @@
                     },
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 60,
@@ -431,7 +431,7 @@
                     },
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 108,
@@ -623,7 +623,7 @@
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 169,
@@ -664,7 +664,7 @@
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 189,
@@ -737,7 +737,7 @@
                         "start": 231,
                         "end": 233
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 226,
@@ -795,7 +795,7 @@
                             "end": 257
                         }
                     ],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 246,
@@ -835,6 +835,14 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 272,
+                                    "end": 273
+                                },
+                                "right": {
                                     "kind": 271,
                                     "arrowToken": {
                                         "kind": 10,
@@ -861,7 +869,7 @@
                                             "end": 285
                                         }
                                     ],
-                                    "asyncToken": {
+                                    "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
                                         "start": 274,
@@ -879,14 +887,6 @@
                                     "flags": 288,
                                     "start": 274,
                                     "end": 291
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 272,
-                                    "end": 273
                                 },
                                 "flags": 32,
                                 "start": 272,
@@ -958,7 +958,7 @@
                     "end": 316
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 294,
@@ -1028,7 +1028,7 @@
                     "end": 352
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 325,
@@ -1081,6 +1081,14 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 375,
+                                        "end": 376
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
@@ -1107,14 +1115,6 @@
                                         "flags": 32,
                                         "start": 375,
                                         "end": 383
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 375,
-                                        "end": 376
                                     },
                                     "flags": 32,
                                     "start": 375,
@@ -1194,7 +1194,7 @@
                     "end": 405
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 386,
@@ -1246,7 +1246,7 @@
                     "end": 428
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 412,
@@ -1281,7 +1281,7 @@
             },
             "typeParameters": null,
             "parameters": [],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 435,
@@ -1372,7 +1372,7 @@
                             "end": 486
                         }
                     ],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 468,
@@ -1497,7 +1497,7 @@
                             "end": 533
                         }
                     ],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 510,
@@ -1595,7 +1595,7 @@
                             "end": 571
                         }
                     ],
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 216,
@@ -1667,19 +1667,19 @@
                                         "generatorToken": null,
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "bar",
-                                            "rawText": "bar",
-                                            "flags": 96,
-                                            "start": 606,
-                                            "end": 610
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
                                             "text": "async",
                                             "rawText": "async",
                                             "flags": 96,
                                             "start": 599,
                                             "end": 605
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "bar",
+                                            "rawText": "bar",
+                                            "flags": 96,
+                                            "start": 606,
+                                            "end": 610
                                         },
                                         "flags": 32,
                                         "start": 599,
@@ -1696,7 +1696,7 @@
                             "end": 612
                         }
                     ],
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 590,
@@ -1713,7 +1713,7 @@
                                     "kind": 120,
                                     "expression": {
                                         "kind": 208,
-                                        "awaitToken": {
+                                        "awaitKeyword": {
                                             "kind": 82032,
                                             "flags": 0,
                                             "start": 618,
@@ -1787,7 +1787,7 @@
                     "end": 647
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 633,
@@ -1968,7 +1968,7 @@
                                     "end": 717
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 705,
@@ -1979,7 +1979,7 @@
                                 "kind": 198,
                                 "left": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 721,
@@ -2123,7 +2123,7 @@
                                     "end": 774
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 747,
@@ -2144,7 +2144,7 @@
                                                     "kind": 198,
                                                     "left": {
                                                         "kind": 208,
-                                                        "awaitToken": {
+                                                        "awaitKeyword": {
                                                             "kind": 82032,
                                                             "flags": 0,
                                                             "start": 778,
@@ -2170,7 +2170,7 @@
                                                     },
                                                     "right": {
                                                         "kind": 208,
-                                                        "awaitToken": {
+                                                        "awaitKeyword": {
                                                             "kind": 82032,
                                                             "flags": 0,
                                                             "start": 788,
@@ -2318,7 +2318,7 @@
                     "end": 831
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 817,
@@ -2377,7 +2377,7 @@
                                     "end": 855
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 846,
@@ -2434,7 +2434,7 @@
                                 "start": 875,
                                 "end": 877
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 870,
@@ -2505,7 +2505,7 @@
                                 "start": 900,
                                 "end": 902
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 894,
@@ -2563,7 +2563,7 @@
                                     "end": 926
                                 }
                             ],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 917,
@@ -2676,7 +2676,7 @@
                                 "start": 957,
                                 "end": 959
                             },
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 951,
@@ -2685,7 +2685,7 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 962,
@@ -2748,7 +2748,7 @@
                     "end": 989
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 972,
@@ -2841,7 +2841,7 @@
                     "end": 1021
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1004,
@@ -2885,7 +2885,7 @@
                     "start": 1039,
                     "end": 1041
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1028,
@@ -2902,7 +2902,7 @@
                                 "kind": 120,
                                 "expression": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 1046,
@@ -2960,7 +2960,7 @@
                     "end": 1071
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1057,
@@ -3016,7 +3016,7 @@
                     "end": 1098
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1078,
@@ -3068,7 +3068,7 @@
                     "end": 1121
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1105,
@@ -3141,7 +3141,7 @@
                     "end": 1149
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1129,
@@ -3191,7 +3191,7 @@
                                 "end": 1171
                             }
                         ],
-                        "asyncToken": {
+                        "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
                             "start": 1163,
@@ -3267,7 +3267,7 @@
                                 "end": 1199
                             }
                         ],
-                        "asyncToken": {
+                        "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
                             "start": 1191,
@@ -3337,7 +3337,7 @@
                     "start": 1223,
                     "end": 1225
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1212,
@@ -3410,7 +3410,7 @@
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": {
+                            "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 1259,
@@ -3419,7 +3419,7 @@
                             "returnType": null,
                             "contents": {
                                 "kind": 208,
-                                "awaitToken": {
+                                "awaitKeyword": {
                                     "kind": 82032,
                                     "flags": 0,
                                     "start": 1271,
@@ -3490,20 +3490,20 @@
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 1298,
-                                    "end": 1300
-                                },
-                                "right": {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
                                     "start": 1292,
                                     "end": 1297
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 1298,
+                                    "end": 1300
                                 },
                                 "flags": 32,
                                 "start": 1292,
@@ -3546,7 +3546,7 @@
                     "start": 1313,
                     "end": 1319
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1303,
@@ -3581,7 +3581,7 @@
                 },
                 "typeParameters": null,
                 "parameters": [],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 131,
@@ -3762,7 +3762,7 @@
                     "end": 1399
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1376,
@@ -3806,7 +3806,7 @@
                     "end": 1424
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1406,
@@ -3865,7 +3865,7 @@
                     "end": 1446
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1431,
@@ -3932,7 +3932,7 @@
                     "end": 1471
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1453,
@@ -3991,7 +3991,7 @@
                     "end": 1493
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1478,
@@ -4058,7 +4058,7 @@
                     "end": 1518
                 }
             ],
-            "asyncToken": {
+            "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 1500,
@@ -4102,7 +4102,7 @@
                     "start": 1535,
                     "end": 1537
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1525,
@@ -4126,7 +4126,7 @@
                         "start": 1546,
                         "end": 1548
                     },
-                    "asyncToken": {
+                    "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 1540,
@@ -4172,7 +4172,7 @@
                     "start": 1564,
                     "end": 1566
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1554,
@@ -4250,7 +4250,7 @@
                     "start": 1600,
                     "end": 1602
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1590,
@@ -4335,7 +4335,7 @@
                     "start": 1638,
                     "end": 1640
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1628,
@@ -4344,7 +4344,7 @@
                 "returnType": null,
                 "contents": {
                     "kind": 208,
-                    "awaitToken": {
+                    "awaitKeyword": {
                         "kind": 82032,
                         "flags": 0,
                         "start": 1643,
@@ -4389,7 +4389,7 @@
                     "start": 1663,
                     "end": 1665
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1652,
@@ -4413,7 +4413,7 @@
                         "start": 1668,
                         "end": 1670
                     },
-                    "asyncToken": null,
+                    "asyncKeyword": null,
                     "returnType": null,
                     "contents": {
                         "kind": 134299649,
@@ -4454,7 +4454,7 @@
                     "start": 1687,
                     "end": 1689
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 65,
                     "start": 1676,
@@ -4485,7 +4485,7 @@
                                     },
                                     "typeParameters": null,
                                     "parameters": [],
-                                    "asyncToken": null,
+                                    "asyncKeyword": null,
                                     "returnType": null,
                                     "contents": {
                                         "kind": 134299649,
@@ -4577,7 +4577,7 @@
                                     "start": 1732,
                                     "end": 1734
                                 },
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 216,
@@ -4649,7 +4649,7 @@
                                     "start": 1746,
                                     "end": 1748
                                 },
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 198,
@@ -4786,7 +4786,7 @@
                                                 "start": 1775,
                                                 "end": 1776
                                             },
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 134299649,

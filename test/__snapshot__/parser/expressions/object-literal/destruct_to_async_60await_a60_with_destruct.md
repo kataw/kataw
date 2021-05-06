@@ -82,10 +82,18 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                     "kind": 219,
                                                     "generatorToken": null,
                                                     "left": {
+                                                        "kind": 201392131,
+                                                        "text": "foo",
+                                                        "rawText": "\"foo\"",
+                                                        "flags": 96,
+                                                        "start": 28,
+                                                        "end": 33
+                                                    },
+                                                    "right": {
                                                         "kind": 125,
                                                         "left": {
                                                             "kind": 208,
-                                                            "awaitToken": {
+                                                            "awaitKeyword": {
                                                                 "kind": 82032,
                                                                 "flags": 0,
                                                                 "start": 34,
@@ -120,14 +128,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "flags": 32,
                                                         "start": 28,
                                                         "end": 46
-                                                    },
-                                                    "right": {
-                                                        "kind": 201392131,
-                                                        "text": "foo",
-                                                        "rawText": "\"foo\"",
-                                                        "flags": 96,
-                                                        "start": 28,
-                                                        "end": 33
                                                     },
                                                     "flags": 32,
                                                     "start": 28,

@@ -76,7 +76,7 @@
                                     "start": 30,
                                     "end": 32
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 229,
                                     "yieldKeyword": {
                                         "kind": 8454253,

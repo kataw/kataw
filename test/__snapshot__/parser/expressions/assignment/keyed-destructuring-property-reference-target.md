@@ -687,6 +687,14 @@ function targetKey() {
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
+                                                "kind": 134299649,
+                                                "text": "toString",
+                                                "rawText": "toString",
+                                                "flags": 96,
+                                                "start": 326,
+                                                "end": 343
+                                            },
+                                            "right": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
@@ -796,14 +804,6 @@ function targetKey() {
                                                 "flags": 32,
                                                 "start": 344,
                                                 "end": 436
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
-                                                "text": "toString",
-                                                "rawText": "toString",
-                                                "flags": 96,
-                                                "start": 326,
-                                                "end": 343
                                             },
                                             "flags": 32,
                                             "start": 326,
@@ -939,6 +939,14 @@ function targetKey() {
                                             "kind": 219,
                                             "generatorToken": null,
                                             "left": {
+                                                "kind": 134299649,
+                                                "text": "toString",
+                                                "rawText": "toString",
+                                                "flags": 96,
+                                                "start": 509,
+                                                "end": 526
+                                            },
+                                            "right": {
                                                 "kind": 177,
                                                 "asyncKeyword": null,
                                                 "functionKeyword": {
@@ -1049,14 +1057,6 @@ function targetKey() {
                                                 "start": 527,
                                                 "end": 619
                                             },
-                                            "right": {
-                                                "kind": 134299649,
-                                                "text": "toString",
-                                                "rawText": "toString",
-                                                "flags": 96,
-                                                "start": 509,
-                                                "end": 526
-                                            },
                                             "flags": 32,
                                             "start": 509,
                                             "end": 619
@@ -1105,6 +1105,34 @@ function targetKey() {
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 131,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "sourceKey",
+                                                "rawText": "sourceKey",
+                                                "flags": 96,
+                                                "start": 634,
+                                                "end": 643
+                                            },
+                                            "argumentList": {
+                                                "kind": 256,
+                                                "elements": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 644,
+                                                "end": 644
+                                            },
+                                            "flags": 32,
+                                            "start": 634,
+                                            "end": 645
+                                        },
+                                        "flags": 32,
+                                        "start": 633,
+                                        "end": 646
+                                    },
+                                    "right": {
                                         "kind": 130,
                                         "member": {
                                             "kind": 131,
@@ -1153,34 +1181,6 @@ function targetKey() {
                                         "flags": 32,
                                         "start": 633,
                                         "end": 669
-                                    },
-                                    "right": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 131,
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "sourceKey",
-                                                "rawText": "sourceKey",
-                                                "flags": 96,
-                                                "start": 634,
-                                                "end": 643
-                                            },
-                                            "argumentList": {
-                                                "kind": 256,
-                                                "elements": [],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 644,
-                                                "end": 644
-                                            },
-                                            "flags": 32,
-                                            "start": 634,
-                                            "end": 645
-                                        },
-                                        "flags": 32,
-                                        "start": 633,
-                                        "end": 646
                                     },
                                     "flags": 32,
                                     "start": 633,

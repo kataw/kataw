@@ -54,7 +54,7 @@ class A extends delete x {}
                         "start": 15,
                         "end": 22
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",

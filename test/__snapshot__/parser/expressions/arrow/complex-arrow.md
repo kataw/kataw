@@ -67,19 +67,19 @@
                                     "generatorToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
                                         "start": 8,
                                         "end": 9
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 11
                                     },
                                     "flags": 32,
                                     "start": 8,
@@ -89,6 +89,20 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 194,
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 14
+                                        },
+                                        "flags": 32,
+                                        "start": 12,
+                                        "end": 15
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -111,20 +125,6 @@
                                         "start": 16,
                                         "end": 19
                                     },
-                                    "right": {
-                                        "kind": 194,
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 14
-                                        },
-                                        "flags": 32,
-                                        "start": 12,
-                                        "end": 15
-                                    },
                                     "flags": 32,
                                     "start": 12,
                                     "end": 19
@@ -140,7 +140,7 @@
                         "end": 20
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 201392130,

@@ -59,7 +59,7 @@ var foo = ((): number => bar);
                                 },
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "type": {

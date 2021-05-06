@@ -94,7 +94,7 @@
                     "start": 35,
                     "end": 37
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "implements",
                     "rawText": "implements",

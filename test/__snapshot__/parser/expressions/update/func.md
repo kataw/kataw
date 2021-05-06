@@ -64,7 +64,7 @@ function f(){ return --a; }
                                     "start": 20,
                                     "end": 23
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",

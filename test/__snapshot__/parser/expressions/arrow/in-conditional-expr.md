@@ -67,7 +67,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 }
                             ]
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 271,
@@ -98,7 +98,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     }
                                 ]
                             ],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 198,
@@ -254,7 +254,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         }
                                     ]
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 201392130,
@@ -297,7 +297,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         }
                                     ]
                                 ],
-                                "asyncToken": null,
+                                "asyncKeyword": null,
                                 "returnType": null,
                                 "contents": {
                                     "kind": 201392130,
@@ -417,7 +417,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                         }
                                                     ]
                                                 ],
-                                                "asyncToken": null,
+                                                "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
                                                     "kind": 201392130,
@@ -530,7 +530,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 }
                             ]
                         ],
-                        "asyncToken": null,
+                        "asyncKeyword": null,
                         "returnType": null,
                         "contents": {
                             "kind": 216,

@@ -117,7 +117,7 @@ do while [catch] async funcion switch!!
                     "start": 37,
                     "end": 38
                 },
-                "expression": {
+                "operand": {
                     "kind": 126,
                     "operandToken": {
                         "kind": 65584,
@@ -125,7 +125,7 @@ do while [catch] async funcion switch!!
                         "start": 38,
                         "end": 39
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

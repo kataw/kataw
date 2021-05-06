@@ -183,7 +183,7 @@
                                 "start": 36,
                                 "end": 38
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",

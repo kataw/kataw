@@ -58,6 +58,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 7
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -102,14 +110,6 @@ q = {"foo": super = x} = x;
                                         "start": 8,
                                         "end": 17
                                     },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 7
-                                    },
                                     "flags": 32,
                                     "start": 5,
                                     "end": 17
@@ -139,6 +139,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 25
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -151,14 +159,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 26,
                                         "end": 29
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 23,
-                                        "end": 25
                                     },
                                     "flags": 32,
                                     "start": 23,
@@ -215,6 +215,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 38,
+                                        "end": 40
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -258,14 +266,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 41,
                                         "end": 50
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 38,
-                                        "end": 40
                                     },
                                     "flags": 32,
                                     "start": 38,
@@ -342,6 +342,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 64,
+                                        "end": 66
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -386,14 +394,6 @@ q = {"foo": super = x} = x;
                                         "start": 67,
                                         "end": 76
                                     },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 64,
-                                        "end": 66
-                                    },
                                     "flags": 32,
                                     "start": 64,
                                     "end": 76
@@ -423,6 +423,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392130,
+                                        "text": 1,
+                                        "rawText": "1",
+                                        "flags": 96,
+                                        "start": 82,
+                                        "end": 84
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 119,
@@ -497,14 +505,6 @@ q = {"foo": super = x} = x;
                                         "start": 85,
                                         "end": 99
                                     },
-                                    "right": {
-                                        "kind": 201392130,
-                                        "text": 1,
-                                        "rawText": "1",
-                                        "flags": 96,
-                                        "start": 82,
-                                        "end": 84
-                                    },
                                     "flags": 32,
                                     "start": 82,
                                     "end": 99
@@ -560,6 +560,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 108,
+                                        "end": 110
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -603,14 +611,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 111,
                                         "end": 120
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 108,
-                                        "end": 110
                                     },
                                     "flags": 32,
                                     "start": 108,
@@ -681,6 +681,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 141,
+                                        "end": 143
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -724,14 +732,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 144,
                                         "end": 153
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 141,
-                                        "end": 143
                                     },
                                     "flags": 32,
                                     "start": 141,
@@ -801,6 +801,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 169,
+                                        "end": 171
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -844,14 +852,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 172,
                                         "end": 181
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 169,
-                                        "end": 171
                                     },
                                     "flags": 32,
                                     "start": 169,
@@ -922,6 +922,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 195,
+                                        "end": 197
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -965,14 +973,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 198,
                                         "end": 207
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 195,
-                                        "end": 197
                                     },
                                     "flags": 32,
                                     "start": 195,
@@ -1042,6 +1042,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 224,
+                                        "end": 226
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -1085,14 +1093,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 227,
                                         "end": 236
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 224,
-                                        "end": 226
                                     },
                                     "flags": 32,
                                     "start": 224,
@@ -1163,6 +1163,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 249,
+                                        "end": 251
+                                    },
+                                    "right": {
                                         "kind": 119,
                                         "elementList": {
                                             "kind": 270,
@@ -1207,14 +1215,6 @@ q = {"foo": super = x} = x;
                                         "start": 252,
                                         "end": 261
                                     },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 249,
-                                        "end": 251
-                                    },
                                     "flags": 32,
                                     "start": 249,
                                     "end": 261
@@ -1244,19 +1244,19 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 269,
-                                        "text": null,
-                                        "flags": 96,
-                                        "start": 270,
-                                        "end": 275
-                                    },
-                                    "right": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
                                         "start": 267,
                                         "end": 269
+                                    },
+                                    "right": {
+                                        "kind": 269,
+                                        "text": null,
+                                        "flags": 96,
+                                        "start": 270,
+                                        "end": 275
                                     },
                                     "flags": 32,
                                     "start": 267,
@@ -1311,6 +1311,20 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 194,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 286,
+                                        "end": 287
+                                    },
+                                    "flags": 32,
+                                    "start": 284,
+                                    "end": 288
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 220,
@@ -1343,20 +1357,6 @@ q = {"foo": super = x} = x;
                                     "flags": 32,
                                     "start": 289,
                                     "end": 297
-                                },
-                                "right": {
-                                    "kind": 194,
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 286,
-                                        "end": 287
-                                    },
-                                    "flags": 32,
-                                    "start": 284,
-                                    "end": 288
                                 },
                                 "flags": 32,
                                 "start": 284,
@@ -1407,6 +1407,14 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 306,
+                                    "end": 308
+                                },
+                                "right": {
                                     "kind": 125,
                                     "left": {
                                         "kind": 220,
@@ -1439,14 +1447,6 @@ q = {"foo": super = x} = x;
                                     "flags": 32,
                                     "start": 309,
                                     "end": 317
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 306,
-                                    "end": 308
                                 },
                                 "flags": 32,
                                 "start": 306,
@@ -1497,6 +1497,14 @@ q = {"foo": super = x} = x;
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 326,
+                                    "end": 328
+                                },
+                                "right": {
                                     "kind": 127,
                                     "operandToken": {
                                         "kind": 196635,
@@ -1504,7 +1512,7 @@ q = {"foo": super = x} = x;
                                         "start": 332,
                                         "end": 335
                                     },
-                                    "expression": {
+                                    "operand": {
                                         "kind": 220,
                                         "propertyList": {
                                             "kind": 218,
@@ -1521,14 +1529,6 @@ q = {"foo": super = x} = x;
                                     "flags": 32,
                                     "start": 326,
                                     "end": 335
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 326,
-                                    "end": 328
                                 },
                                 "flags": 32,
                                 "start": 326,
@@ -1589,6 +1589,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392131,
+                                        "text": "foo",
+                                        "rawText": "\"foo\"",
+                                        "flags": 96,
+                                        "start": 345,
+                                        "end": 350
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 134299649,
@@ -1615,14 +1623,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 345,
                                         "end": 361
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "\"foo\"",
-                                        "flags": 96,
-                                        "start": 345,
-                                        "end": 350
                                     },
                                     "flags": 32,
                                     "start": 345,
@@ -1693,6 +1693,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392131,
+                                        "text": "foo",
+                                        "rawText": "\"foo\"",
+                                        "flags": 96,
+                                        "start": 373,
+                                        "end": 378
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 269,
@@ -1718,14 +1726,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 373,
                                         "end": 388
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "\"foo\"",
-                                        "flags": 96,
-                                        "start": 373,
-                                        "end": 378
                                     },
                                     "flags": 32,
                                     "start": 373,
@@ -1796,6 +1796,14 @@ q = {"foo": super = x} = x;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 201392131,
+                                        "text": "foo",
+                                        "rawText": "\"foo\"",
+                                        "flags": 96,
+                                        "start": 400,
+                                        "end": 405
+                                    },
+                                    "right": {
                                         "kind": 125,
                                         "left": {
                                             "kind": 203,
@@ -1839,14 +1847,6 @@ q = {"foo": super = x} = x;
                                         "flags": 32,
                                         "start": 400,
                                         "end": 416
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "\"foo\"",
-                                        "flags": 96,
-                                        "start": 400,
-                                        "end": 405
                                     },
                                     "flags": 32,
                                     "start": 400,

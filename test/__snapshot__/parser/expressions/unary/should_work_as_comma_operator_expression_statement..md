@@ -28,7 +28,7 @@ delete foo.bar, z;
                             "start": 0,
                             "end": 6
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 129,
                             "member": {
                                 "kind": 134299649,

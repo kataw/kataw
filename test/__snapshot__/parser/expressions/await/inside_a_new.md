@@ -65,7 +65,7 @@ async function f(){ new await x; }
                                 },
                                 "expression": {
                                     "kind": 208,
-                                    "awaitToken": {
+                                    "awaitKeyword": {
                                         "kind": 82032,
                                         "flags": 0,
                                         "start": 23,

@@ -248,20 +248,20 @@ let {foo=3} = {};
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 2,
-                                            "rawText": "2",
-                                            "flags": 96,
-                                            "start": 56,
-                                            "end": 58
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
                                             "start": 52,
                                             "end": 55
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 2,
+                                            "rawText": "2",
+                                            "flags": 96,
+                                            "start": 56,
+                                            "end": 58
                                         },
                                         "flags": 32,
                                         "start": 52,

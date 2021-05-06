@@ -48,6 +48,14 @@ x = {arrow: x => ok}.y
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "arrow",
+                                        "rawText": "arrow",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 10
+                                    },
+                                    "right": {
                                         "kind": 271,
                                         "arrowToken": {
                                             "kind": 10,
@@ -64,7 +72,7 @@ x = {arrow: x => ok}.y
                                             "start": 11,
                                             "end": 13
                                         },
-                                        "asyncToken": null,
+                                        "asyncKeyword": null,
                                         "returnType": null,
                                         "contents": {
                                             "kind": 134299649,
@@ -77,14 +85,6 @@ x = {arrow: x => ok}.y
                                         "flags": 32,
                                         "start": 11,
                                         "end": 19
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "arrow",
-                                        "rawText": "arrow",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 10
                                     },
                                     "flags": 32,
                                     "start": 5,

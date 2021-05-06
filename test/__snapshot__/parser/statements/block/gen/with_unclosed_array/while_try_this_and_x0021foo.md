@@ -127,7 +127,7 @@
                                 "start": 21,
                                 "end": 23
                             },
-                            "expression": {
+                            "operand": {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",

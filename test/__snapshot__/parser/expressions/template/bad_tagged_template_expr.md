@@ -31,7 +31,7 @@ x`foo ${a b} bar`
                     "kind": 227,
                     "spans": [
                         {
-                            "kind": 228,
+                            "kind": 65764,
                             "rawText": "foo ",
                             "text": "foo ",
                             "expression": {

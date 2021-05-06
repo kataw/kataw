@@ -71,7 +71,7 @@ function f(a = x => ok) {}
                                 "start": 14,
                                 "end": 16
                             },
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 134299649,

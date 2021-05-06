@@ -42,20 +42,20 @@ x = {0b001001: y}
                                 "kind": 219,
                                 "generatorToken": null,
                                 "left": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 14,
-                                    "end": 16
-                                },
-                                "right": {
                                     "kind": 201392130,
                                     "text": 9,
                                     "rawText": "0b001001",
                                     "flags": 524384,
                                     "start": 5,
                                     "end": 13
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 14,
+                                    "end": 16
                                 },
                                 "flags": 32,
                                 "start": 5,

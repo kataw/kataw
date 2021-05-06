@@ -32,7 +32,7 @@
                                     "start": 2,
                                     "end": 8
                                 },
-                                "expression": {
+                                "operand": {
                                     "kind": 129,
                                     "member": {
                                         "kind": 221,

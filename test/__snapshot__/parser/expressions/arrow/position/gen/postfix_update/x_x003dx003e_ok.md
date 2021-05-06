@@ -38,7 +38,7 @@ x => ok++
                     "start": 0,
                     "end": 1
                 },
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 127,
@@ -48,7 +48,7 @@ x => ok++
                         "start": 7,
                         "end": 9
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",

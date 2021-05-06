@@ -54,7 +54,7 @@ class x extends delete {}
                         "start": 15,
                         "end": 22
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 220,
                         "propertyList": {
                             "kind": 218,

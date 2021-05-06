@@ -56,20 +56,20 @@ result = { x: x[yield] } = vals;
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 201392130,
-                                            "text": 23,
-                                            "rawText": "23",
-                                            "flags": 96,
-                                            "start": 15,
-                                            "end": 18
-                                        },
-                                        "right": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
                                             "start": 12,
                                             "end": 14
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 23,
+                                            "rawText": "23",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 18
                                         },
                                         "flags": 32,
                                         "start": 12,
@@ -127,6 +127,14 @@ result = { x: x[yield] } = vals;
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 33,
+                                        "end": 35
+                                    },
+                                    "right": {
                                         "kind": 130,
                                         "member": {
                                             "kind": 134299649,
@@ -147,14 +155,6 @@ result = { x: x[yield] } = vals;
                                         "flags": 32,
                                         "start": 33,
                                         "end": 45
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 33,
-                                        "end": 35
                                     },
                                     "flags": 32,
                                     "start": 33,

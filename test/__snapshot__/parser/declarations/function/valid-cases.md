@@ -2653,7 +2653,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "typeParameters": null,
                                             "parameters": [],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 125,
@@ -2867,7 +2867,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "typeParameters": null,
                                             "parameters": [],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 131,
@@ -3812,7 +3812,7 @@ function f({x:arg = (arg = 2)}) {}
                                             },
                                             "typeParameters": null,
                                             "parameters": [],
-                                            "asyncToken": null,
+                                            "asyncKeyword": null,
                                             "returnType": null,
                                             "contents": {
                                                 "kind": 125,

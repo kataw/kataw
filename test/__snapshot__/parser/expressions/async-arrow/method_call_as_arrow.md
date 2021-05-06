@@ -37,6 +37,14 @@ async ({ident: [foo, bar].join("")}) => x
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
+                                        "kind": 134299649,
+                                        "text": "ident",
+                                        "rawText": "ident",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 13
+                                    },
+                                    "right": {
                                         "kind": 131,
                                         "expression": {
                                             "kind": 129,
@@ -103,14 +111,6 @@ async ({ident: [foo, bar].join("")}) => x
                                         "flags": 32,
                                         "start": 8,
                                         "end": 34
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "ident",
-                                        "rawText": "ident",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 13
                                     },
                                     "flags": 32,
                                     "start": 8,

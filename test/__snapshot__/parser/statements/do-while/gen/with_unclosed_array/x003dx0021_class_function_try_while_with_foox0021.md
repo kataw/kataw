@@ -67,7 +67,7 @@ do[ =! class function try while with foo!
                             "start": 5,
                             "end": 6
                         },
-                        "expression": {
+                        "operand": {
                             "kind": 189,
                             "decorators": null,
                             "classKeyword": {
@@ -172,7 +172,7 @@ do[ =! class function try while with foo!
                         "start": 40,
                         "end": 41
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 16637,
                         "text": "",
                         "flags": 68,

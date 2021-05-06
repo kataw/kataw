@@ -36,18 +36,18 @@
                                     "kind": 219,
                                     "generatorToken": null,
                                     "left": {
-                                        "kind": 135,
-                                        "flags": 96,
-                                        "start": 6,
-                                        "end": 11
-                                    },
-                                    "right": {
                                         "kind": 201392130,
                                         "text": 790,
                                         "rawText": "790",
                                         "flags": 96,
                                         "start": 2,
                                         "end": 5
+                                    },
+                                    "right": {
+                                        "kind": 135,
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 11
                                     },
                                     "flags": 32,
                                     "start": 2,
@@ -64,7 +64,7 @@
                         "end": 12
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

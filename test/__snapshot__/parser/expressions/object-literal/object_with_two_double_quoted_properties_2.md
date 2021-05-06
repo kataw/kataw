@@ -39,20 +39,20 @@ wrap({'a':b, 'c':d});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 10,
-                                            "end": 11
-                                        },
-                                        "right": {
                                             "kind": 201392131,
                                             "text": "a",
                                             "rawText": "'a'",
                                             "flags": 4194400,
                                             "start": 6,
                                             "end": 9
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
                                         },
                                         "flags": 32,
                                         "start": 6,
@@ -62,20 +62,20 @@ wrap({'a':b, 'c':d});
                                         "kind": 219,
                                         "generatorToken": null,
                                         "left": {
-                                            "kind": 134299649,
-                                            "text": "d",
-                                            "rawText": "d",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 18
-                                        },
-                                        "right": {
                                             "kind": 201392131,
                                             "text": "c",
                                             "rawText": "'c'",
                                             "flags": 4194400,
                                             "start": 12,
                                             "end": 16
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "d",
+                                            "rawText": "d",
+                                            "flags": 96,
+                                            "start": 17,
+                                            "end": 18
                                         },
                                         "flags": 32,
                                         "start": 12,

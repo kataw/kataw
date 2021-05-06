@@ -68,7 +68,13 @@ function f(){ foo = new.target }
                                 },
                                 "right": {
                                     "kind": 211,
-                                    "targetKeyword": {
+                                    "newKeyword": {
+                                        "kind": 138477661,
+                                        "flags": 0,
+                                        "start": 19,
+                                        "end": 23
+                                    },
+                                    "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 0,
                                         "start": 24,

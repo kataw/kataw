@@ -59,7 +59,7 @@ class typeof {}
                     "start": 5,
                     "end": 12
                 },
-                "expression": {
+                "operand": {
                     "kind": 220,
                     "propertyList": {
                         "kind": 218,

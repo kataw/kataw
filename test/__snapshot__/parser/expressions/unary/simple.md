@@ -28,7 +28,7 @@ typeof x;
                     "start": 0,
                     "end": 1
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
@@ -54,7 +54,7 @@ typeof x;
                     "start": 3,
                     "end": 5
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
@@ -80,7 +80,7 @@ typeof x;
                     "start": 7,
                     "end": 15
                 },
-                "expression": {
+                "operand": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",

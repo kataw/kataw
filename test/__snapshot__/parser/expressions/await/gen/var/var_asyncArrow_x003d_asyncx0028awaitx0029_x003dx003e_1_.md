@@ -161,7 +161,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                         "elements": [
                                                                             {
                                                                                 "kind": 208,
-                                                                                "awaitToken": {
+                                                                                "awaitKeyword": {
                                                                                     "kind": 82032,
                                                                                     "flags": 0,
                                                                                     "start": 62,
@@ -188,7 +188,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                                                     "start": 55,
                                                                     "end": 68
                                                                 },
-                                                                "asyncToken": {
+                                                                "asyncKeyword": {
                                                                     "kind": 82031,
                                                                     "flags": 64,
                                                                     "start": 55,

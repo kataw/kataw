@@ -133,7 +133,7 @@ class Foo {
                                                     "start": 35,
                                                     "end": 46
                                                 },
-                                                "expression": {
+                                                "operand": {
                                                     "kind": 205,
                                                     "chainToken": {
                                                         "kind": 393240,

@@ -41,6 +41,14 @@
                                                 "kind": 219,
                                                 "generatorToken": null,
                                                 "left": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 3,
+                                                    "end": 4
+                                                },
+                                                "right": {
                                                     "kind": 129,
                                                     "member": {
                                                         "kind": 134299649,
@@ -61,14 +69,6 @@
                                                     "flags": 32,
                                                     "start": 3,
                                                     "end": 9
-                                                },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 3,
-                                                    "end": 4
                                                 },
                                                 "flags": 32,
                                                 "start": 3,
@@ -95,7 +95,7 @@
                         "end": 11
                     }
                 ],
-                "asyncToken": null,
+                "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
                     "kind": 134299649,

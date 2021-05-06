@@ -38,7 +38,7 @@ async => ok++
                     "start": 0,
                     "end": 5
                 },
-                "asyncToken": {
+                "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 0,
@@ -53,7 +53,7 @@ async => ok++
                         "start": 11,
                         "end": 13
                     },
-                    "expression": {
+                    "operand": {
                         "kind": 134299649,
                         "text": "ok",
                         "rawText": "ok",

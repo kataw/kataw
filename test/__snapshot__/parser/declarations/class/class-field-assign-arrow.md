@@ -83,7 +83,7 @@ class C { aaa=()=>0 }
                             },
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncToken": null,
+                            "asyncKeyword": null,
                             "returnType": null,
                             "contents": {
                                 "kind": 201392130,
