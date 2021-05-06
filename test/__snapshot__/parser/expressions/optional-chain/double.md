@@ -8,7 +8,7 @@ a?.?.b
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

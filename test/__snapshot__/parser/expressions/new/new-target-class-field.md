@@ -8,7 +8,7 @@ class C { aaa = new.target }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

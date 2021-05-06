@@ -102,7 +102,7 @@ function f(){ new . target }
 ```javascript
 
 function f() {
-  ;
+  new.target;
 }
 ```
 

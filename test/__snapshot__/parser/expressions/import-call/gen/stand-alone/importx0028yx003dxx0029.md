@@ -79,7 +79,7 @@ import(y=x)
 
 ```javascript
 
-;
+import(y = x);
 ```
 
 ### Diagnostics

@@ -27,7 +27,7 @@ async function f() { class C { aaa = await } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

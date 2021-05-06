@@ -17,7 +17,7 @@ export function scanTemplate(
   const start = parser.pos;
   let ret = '';
   let cp = parser.source.charCodeAt(parser.pos);
-
+  
   while (parser.pos < parser.end) {
     // '`'
     if (cp === Char.Backtick) {

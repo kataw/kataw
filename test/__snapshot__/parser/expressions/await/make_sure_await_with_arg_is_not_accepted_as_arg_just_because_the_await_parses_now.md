@@ -8,7 +8,7 @@ async function f(){  (await fail) => x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

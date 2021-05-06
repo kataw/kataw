@@ -60,7 +60,7 @@ async ([a]:string)=>c;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

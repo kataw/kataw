@@ -118,7 +118,7 @@ c?.(d)?.[e]
 
 ```javascript
 
- = ;
+ = ?.[e];
 ```
 
 ### Diagnostics

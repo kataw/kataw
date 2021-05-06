@@ -14,7 +14,7 @@ for (import.meta in null) ;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

@@ -8,7 +8,7 @@ import.call
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

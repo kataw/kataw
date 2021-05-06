@@ -108,7 +108,7 @@
 
 ```javascript
 
-`a ${x =>  ok} b`.length;
+`a ${x =>  ok}` b``.length;
 ```
 
 ### Diagnostics

@@ -91,7 +91,7 @@
 
 ```javascript
 
-`foo${`foo${bar}baz`}baz`;
+`foo${`foo${bar}`baz``}`baz``;
 ```
 
 ### Diagnostics

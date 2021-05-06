@@ -1693,19 +1693,19 @@ class Foo {
   baseline() {
     a().foo;
     b().foo(x);
-     = ;
-     = ;
+    c()?.foo(x);
+     = ?.(x);
   }
   privateField() {
     a().;
     b().(x);
-     = ;
+    c()?.(x);
      = (x).bar();
   }
   privateMethod() {
     a().;
     b().(x);
-     = ;
+    c()?.(x);
      = (x).bar();
   }
 }

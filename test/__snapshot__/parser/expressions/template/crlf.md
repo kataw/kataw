@@ -73,8 +73,8 @@ b
 
 ```javascript
 
-afoo
-bar;
+a`foo
+bar`;
 b;
 ```
 

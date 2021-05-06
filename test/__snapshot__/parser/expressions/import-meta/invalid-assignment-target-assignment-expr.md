@@ -14,7 +14,7 @@ import.meta = 0;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

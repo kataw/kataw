@@ -12,7 +12,7 @@ class A extends new.target {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

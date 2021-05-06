@@ -87,7 +87,7 @@ x = `1 ${ yield } 2`
 
 ```javascript
 
-x = `1 ${yield} 2`;
+x = `1 ${yield}` 2``;
 ```
 
 ### Diagnostics

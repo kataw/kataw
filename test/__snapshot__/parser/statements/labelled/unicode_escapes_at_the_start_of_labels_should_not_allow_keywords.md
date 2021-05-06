@@ -8,7 +8,7 @@ async () => { \u{61}wait: x }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

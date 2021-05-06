@@ -70,7 +70,7 @@ new Foo`bar`
 
 ```javascript
 
-new  Foobar();
+new  Foo`bar`();
 ```
 
 ### Diagnostics

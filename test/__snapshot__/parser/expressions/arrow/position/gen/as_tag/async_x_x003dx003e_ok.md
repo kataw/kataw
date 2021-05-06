@@ -89,7 +89,7 @@ async x => ok`foo`
 
 ```javascript
 
-async x =>  okfoo;
+async x =>  ok`foo`;
 ```
 
 ### Diagnostics

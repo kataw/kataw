@@ -204,7 +204,7 @@ class Foo extends Base {
 
 class Foo  {
   method() {
-     = ;
+    .method?.();
   }
 }
 ```

@@ -43,7 +43,7 @@
 
 ```javascript
 
-40x;
+`40x`;
 ```
 
 ### Diagnostics

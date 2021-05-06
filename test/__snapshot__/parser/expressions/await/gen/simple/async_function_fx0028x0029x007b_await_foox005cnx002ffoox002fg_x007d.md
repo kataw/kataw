@@ -12,7 +12,7 @@ async function f(){ await foo\n/foo/g }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

@@ -147,7 +147,7 @@ foo({bar(){ new.target }})
 ```javascript
 
 foo({ bar() {
-    ;
+    new.target;
   } });
 ```
 

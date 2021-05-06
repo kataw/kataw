@@ -132,6 +132,9 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printForOfStatement(node, printer);
     case SyntaxKind.ContinueStatement:
       return printContinueStatement(node, printer);
+    case SyntaxKind.OptionalExpression:
+      return printOptionalExpression(node, printer);
+
     case SyntaxKind.ReturnStatement:
       return printReturnStatement(node, printer);
     case SyntaxKind.WithStatement:
@@ -185,6 +188,12 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printBindingElement(node, printer);
     case SyntaxKind.ExpressionStatement:
       return printExpressionStatement(node, printer);
+    case SyntaxKind.ImportCall:
+      return printImportCall(node, printer);
+    case SyntaxKind.ImportMeta:
+      return printImportMeta(node, printer);
+    case SyntaxKind.NewTarget:
+      return printNewTarget(node, printer);
     default:
       if (node.flags & NodeFlags.ExpressionNode) {
         return printExpressions(node, printer, parentNode);
@@ -217,14 +226,27 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printElementList(node, printer);
     case SyntaxKind.ObjectLiteral:
       return printObjectLiteral(node, printer, parentNode);
+    case SyntaxKind.ImportMeta:
+      return 'import';
     case SyntaxKind.SpreadProperty:
       return printSpreadProperty(node, printer);
     case SyntaxKind.PropertyDefinitionList:
       return printPropertyDefinitionList(node.properties, printer, node);
     case SyntaxKind.FunctionExpression:
       return printFunctionDeclarationOrExpression(node, printer);
+    case SyntaxKind.OptionalChain:
+      return printOptionalChain(node, printer);
+    case SyntaxKind.CallChain:
+      return printCallChain(node, printer);
+    case SyntaxKind.IndexExpressionChain:
+      return printIndexExpressionChain(node, printer, parentNode);
+    case SyntaxKind.MemberAccessChain:
+      return printMemberAccessChain(node, printer);
     case SyntaxKind.SpreadElement:
-      return chain(['...', printExpressions(node.argument, printer, parentNode)]);
+      return chain([
+        printKeyword(node.ellipsisToken, printer, node.ellipsisToken.start, node, /* separator */ false),
+        printExpressions(node.argument, printer, parentNode)
+      ]);
     case SyntaxKind.MemberAccessExpression:
       return printMemberAccessExpression(node, printer);
     case SyntaxKind.IndexExpression:
@@ -259,8 +281,6 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printTemplateExpression(node, printer, parentNode);
     case SyntaxKind.YieldExpression:
       return printYieldExpression(node, printer);
-    case SyntaxKind.SpreadElement:
-      return chain(['...', printExpressions(node.argument, printer, parentNode)]);
     case SyntaxKind.ClassExpression:
       return printClassDeclarationOrExpression(node, printer);
     case SyntaxKind.OmittedExpression:
@@ -808,8 +828,6 @@ function printCatchParameter(node: any, printer: Printer): any {
   return chain([printStatements(node.binding, printer, node), printInitializer(node.initializer, printer, node)]);
 }
 
-// ImportCall :
-//  import
 function printImportCall(node: any, printer: Printer): any {
   return chain([
     printKeyword(node.importKeyword, printer, node.start, node, /* separator */ false),
@@ -819,8 +837,20 @@ function printImportCall(node: any, printer: Printer): any {
   ]);
 }
 
+function printImportMeta(node: any, printer: Printer): any {
+  return chain([
+    printKeyword(node.importKeyword, printer, node.importKeyword.start, node, /* separator */ false),
+    '.',
+    printKeyword(node.metaIdentifier, printer, node.metaIdentifier.start, node, /* separator */ false)
+  ]);
+}
+
 function printNewTarget(node: any, printer: Printer): any {
-  return chain(['new.', printStatements(node.name, printer, node)]);
+  return chain([
+    printKeyword(node.newKeyword, printer, node.newKeyword.start, node, /* separator */ false),
+    '.',
+    printKeyword(node.targetIdentifier, printer, node.targetIdentifier.start, node, /* separator */ false)
+  ]);
 }
 
 function printCatchClause(node: any, printer: Printer): any {
@@ -850,7 +880,6 @@ function printTemplateExpression(node: any, printer: Printer, parentNode: any): 
     const child = node.spans[i];
     elements.push(printExpressions(child, printer, node));
   }
-
   return chain([
     '`',
     chain(elements),
@@ -866,7 +895,7 @@ function printTemplateSpan(node: any, printer: Printer): any {
 }
 
 function printTemplateTail(node: any, _printer: Printer): any {
-  return node.literal ? '`' + node.text + '`' : node.text;
+  return node.kind === SyntaxKind.TemplateTail ? '`' + node.text + '`' : node.text;
 }
 
 function printBindingProperty(node: any, printer: Printer): any {
@@ -978,6 +1007,7 @@ function printClassElement(node: any, printer: Printer): any {
     node.setKeyword ? printKeyword(node.setKeyword, printer, node.setKeyword.start, node, /* separator */ true) : '',
     node.getKeyword ? printKeyword(node.getKeyword, printer, node.getKeyword.start, node, /* separator */ true) : '',
     printKeyword(node.staticKeyword, printer, node.start, node, /* separator */ true),
+
     node.isOptional ? chain(['?', printer.space]) : '',
     printExpressions(node.method, printer, node)
   ]);
@@ -1765,7 +1795,10 @@ function printDelimitedList1(
 }
 
 function printSpreadProperty(node: any, printer: Printer): any {
-  return chain(['...', printStatements(node.argument, printer, node)]);
+  return chain([
+    printKeyword(node.ellipsisToken, printer, node.ellipsisToken.start, node, /* separator */ false),
+    printStatements(node.argument, printer, node)
+  ]);
 }
 
 function printParenthesizedExpression(node: any, printer: Printer): any {
@@ -1782,7 +1815,10 @@ function printParenthesizedExpression(node: any, printer: Printer): any {
 }
 
 function printAwaitExpression(node: any, printer: Printer): any {
-  return chain(['await ', printExpressions(node.expression, printer, node)]);
+  return chain([
+    printKeyword(node.awaitKeyword, printer, node.awaitKeyword.start, node, /* separator */ true),
+    printExpressions(node.expression, printer, node)
+  ]);
 }
 
 function printIndexExpression(node: any, printer: Printer): any {
@@ -1937,4 +1973,40 @@ function printMethodDefinition(node: any, printer: Printer): any {
     printFunctionBody(node.contents, printer)
   );
   return chain(parts);
+}
+
+function printOptionalExpression(node: any, printer: Printer): any {
+  return chain([
+    printExpressions(node.member, printer, node),
+    printKeyword(node.chainToken, printer, node.chainToken.start, node, /* separator */ false),
+    printExpressions(node.chain, printer, node)
+  ]);
+}
+
+function printOptionalChain(node: any, printer: Printer): any {
+  return printExpressions(node.chain, printer, node);
+}
+
+function printCallChain(node: any, printer: Printer): any {
+  return chain([
+    node.chain ? printExpressions(node.chain, printer, node) : '',
+    printArgumentsList(node.argumentList, printer, node)
+  ]);
+}
+
+function printIndexExpressionChain(node: any, printer: Printer, parentNode: any): any {
+  return chain([
+    node.chain ? printExpressions(node.chain, printer, node) : '',
+    parentNode.kind === SyntaxKind.OptionalChain ? '' : '.',
+    printExpressions(node.expression, printer, node)
+  ]);
+}
+
+function printMemberAccessChain(node: any, printer: Printer): any {
+  return chain([
+    node.chain ? printExpressions(node.chain, printer, node) : '',
+    '[',
+    printExpressions(node.expression, printer, node),
+    ']'
+  ]);
 }
