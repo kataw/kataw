@@ -8,7 +8,7 @@ var {...[]} = {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

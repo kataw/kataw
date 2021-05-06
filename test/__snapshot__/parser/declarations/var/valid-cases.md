@@ -1822,7 +1822,7 @@ var {
   propName = defaultValue
 } = obj;
 var {
-  propName:
+  propName: localVar = defaultValue
 } = obj;
 var {
   get

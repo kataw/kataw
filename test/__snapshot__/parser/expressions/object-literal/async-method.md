@@ -963,10 +963,10 @@
 
 ({ * async method([x] = gSymbol.iterator = function() {}) {} });
 ({ * async method({
-    w:
+    w: [x, y, z] = [4, 5, 6]
   } = {}) {} });
 ({ * async method({
-    x:
+    x: y = thrower()
   } = {}) {} });
 ({ * async method([x = 23]) {} });
 ({ * async method([_, x]) {} });

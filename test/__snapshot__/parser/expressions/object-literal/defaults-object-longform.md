@@ -120,7 +120,7 @@ var { x: x = 10 } = x;
 ```javascript
 
 var {
-  x:
+  x: x = 10
 } = x;
 ```
 

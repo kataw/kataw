@@ -8,7 +8,7 @@ function test({...{}}) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

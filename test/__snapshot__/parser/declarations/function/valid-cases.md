@@ -70,7 +70,7 @@ function f({x:arg = (arg = 2)}) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -4379,12 +4379,12 @@ function f(arg) {
   g(arg);
 }
 function f({
-    x:
+    x: arg = 1
   }, {
-    y:
+    y: b = (arg = 2)
   }) {}
 function f({
-  x:
+  x: arg = (arg = 2)
 }) {}
 ```
 

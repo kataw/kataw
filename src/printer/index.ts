@@ -263,7 +263,6 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printClassDeclarationOrExpression(node, printer);
     case SyntaxKind.OmittedExpression:
       return '';
-
     case SyntaxKind.BooleanLiteral:
       return node.text ? 'true' : 'false';
     case SyntaxKind.StringLiteral:
@@ -382,7 +381,7 @@ function printExpressionStatement(node: any, printer: Printer): any {
 }
 
 function printBindingElement(node: any, printer: Printer): any {
-  return chain([printStatements(node.left, printer, node), printInitializer(node.right, printer, node)]);
+  return chain([printStatements(node.binding, printer, node), printInitializer(node.initializer, printer, node)]);
 }
 
 function printInitializer(node: any, printer: Printer, parentNode: any): any {

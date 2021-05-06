@@ -147,7 +147,7 @@ let {x : y, z} = obj;
 ```javascript
 
 let {
-  x: ,
+  x: y,
   z
 } = obj;
 ```

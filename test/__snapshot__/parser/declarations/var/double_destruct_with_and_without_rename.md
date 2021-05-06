@@ -148,7 +148,7 @@ var {x : y, z} = obj;
 ```javascript
 
 var {
-  x: ,
+  x: y,
   z
 } = obj;
 ```

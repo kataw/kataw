@@ -239,9 +239,11 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 ```javascript
 
 var {
-  x: ,
-  y: ,
-  z:
+  x: x,
+  y: y,
+  z: {
+    a: a = 10
+  }
 } = b;
 ```
 

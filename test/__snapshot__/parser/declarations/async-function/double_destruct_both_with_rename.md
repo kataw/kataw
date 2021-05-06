@@ -162,8 +162,8 @@ let {x : y, z : a} = obj;
 ```javascript
 
 let {
-  x: ,
-  z:
+  x: y,
+  z: a
 } = obj;
 ```
 

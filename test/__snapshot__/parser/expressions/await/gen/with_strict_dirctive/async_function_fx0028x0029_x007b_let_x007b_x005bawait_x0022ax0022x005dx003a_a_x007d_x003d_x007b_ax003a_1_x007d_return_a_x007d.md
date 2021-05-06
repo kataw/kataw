@@ -253,7 +253,7 @@
 
 async function f() {
   let {
-    [await "\"a\""]:
+    [await "\"a\""]: a
   } = { a: 1 };
   return  a;
 }
