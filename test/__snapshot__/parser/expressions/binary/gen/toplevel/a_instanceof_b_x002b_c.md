@@ -87,7 +87,7 @@ a instanceof b + c
 
 ```javascript
 
-   inctanceof b + c;
+a inctanceof b + c;
 ```
 
 ### Diagnostics

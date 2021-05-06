@@ -14,7 +14,7 @@ function *f() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -157,7 +157,7 @@ function *f() {
 ```javascript
 
 function* f() {
-   a +    inctanceof c;
+   a + b inctanceof c;
 }
 ```
 

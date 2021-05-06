@@ -101,7 +101,7 @@ foo[ a + b instanceof c ]
 
 ```javascript
 
-fooa +    inctanceof c;
+fooa + b inctanceof c;
 ```
 
 ### Diagnostics

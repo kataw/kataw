@@ -110,7 +110,7 @@ foo( a instanceof b + c )
 
 ```javascript
 
-foo(   inctanceof b + c);
+foo(a inctanceof b + c);
 ```
 
 ### Diagnostics

@@ -210,7 +210,7 @@ export function binarySearch(array: number[], value: number): number {
 
   return ~low;
 }
-export function emitNodeWithComments(
+export function emitNode(
   node: any,
   printer: Printer,
   parentNode: any,
@@ -983,7 +983,7 @@ const bitshiftOperators: any = {
 };
 
 export function shouldFlatten(parentOp: any, nodeOp: any) {
-  if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
+    if (PRECEDENCE[nodeOp] !== PRECEDENCE[parentOp]) {
     return false;
   }
 

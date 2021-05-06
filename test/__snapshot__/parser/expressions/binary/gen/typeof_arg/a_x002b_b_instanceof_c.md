@@ -99,7 +99,7 @@ typeof a + b instanceof c
 
 ```javascript
 
-a +    inctanceof c;
+a + b inctanceof c;
 ```
 
 ### Diagnostics

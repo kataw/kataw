@@ -93,7 +93,7 @@
 
 ```javascript
 
-(   inctanceof b + c);
+(a inctanceof b + c);
 ```
 
 ### Diagnostics

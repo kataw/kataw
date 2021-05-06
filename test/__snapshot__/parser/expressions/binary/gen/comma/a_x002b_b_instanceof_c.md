@@ -103,7 +103,7 @@ x, a + b instanceof c
 
 ```javascript
 
-x, a +    inctanceof c;
+x, a + b inctanceof c;
 ```
 
 ### Diagnostics

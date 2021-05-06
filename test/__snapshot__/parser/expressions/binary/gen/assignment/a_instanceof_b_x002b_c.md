@@ -107,7 +107,7 @@ x = a instanceof b + c
 
 ```javascript
 
-x =    inctanceof b + c;
+x = a inctanceof b + c;
 ```
 
 ### Diagnostics

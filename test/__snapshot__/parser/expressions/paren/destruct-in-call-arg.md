@@ -127,7 +127,7 @@
 
 ```javascript
 
-[    < t]({} = y);
+[y  < t]({} = y);
 ```
 
 ### Diagnostics

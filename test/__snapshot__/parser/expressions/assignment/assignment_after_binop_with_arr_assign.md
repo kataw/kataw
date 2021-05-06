@@ -102,7 +102,7 @@ switch(y&[]=y){}
 
 ```javascript
 
-switch(   => [] = y
+switch(y => [] = y
  
 ```
 

@@ -101,7 +101,7 @@ if ( a instanceof b + c ) ;
 
 ```javascript
 
-if (   inctanceof b + c);
+if (a inctanceof b + c);
 ```
 
 ### Diagnostics
