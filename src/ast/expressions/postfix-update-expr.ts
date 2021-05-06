@@ -4,19 +4,19 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface PostfixUpdateExpression extends SyntaxNode {
   readonly operandToken: SyntaxToken<TokenSyntaxKind>;
-  readonly expression: ExpressionNode;
+  readonly operand: ExpressionNode;
 }
 
 export function createPostfixUpdateExpression(
   operandToken: SyntaxToken<TokenSyntaxKind>,
-  expression: ExpressionNode,
+  operand: ExpressionNode,
   start: number,
   end: number
 ): PostfixUpdateExpression {
   return {
     kind: SyntaxKind.PostfixUpdateExpression,
     operandToken,
-    expression,
+    operand,
     flags: NodeFlags.ExpressionNode,
     start,
     end

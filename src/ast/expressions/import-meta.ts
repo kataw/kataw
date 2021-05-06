@@ -6,10 +6,12 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
  */
 export interface ImportMeta extends SyntaxNode {
   readonly importKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly metaIdentifier: SyntaxToken<TokenSyntaxKind>;
 }
 
 export function createImportMeta(
   importKeyword: SyntaxToken<TokenSyntaxKind>,
+  metaIdentifier: SyntaxToken<TokenSyntaxKind>,
   flags: NodeFlags,
   start: number,
   end: number
@@ -17,6 +19,7 @@ export function createImportMeta(
   return {
     kind: SyntaxKind.ImportMeta,
     importKeyword,
+    metaIdentifier,
     flags,
     start,
     end

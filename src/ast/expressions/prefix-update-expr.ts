@@ -4,19 +4,19 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface PrefixUpdateExpression extends SyntaxNode {
   readonly operandToken: SyntaxToken<TokenSyntaxKind>;
-  readonly expression: ExpressionNode;
+  readonly operand: ExpressionNode;
 }
 
 export function createPrefixUpdateExpression(
   operandToken: SyntaxToken<TokenSyntaxKind>,
-  expression: ExpressionNode,
+  operand: ExpressionNode,
   start: number,
   end: number
 ): PrefixUpdateExpression {
   return {
     kind: SyntaxKind.PrefixUpdateExpression,
     operandToken,
-    expression,
+    operand,
     flags: NodeFlags.ExpressionNode,
     start,
     end

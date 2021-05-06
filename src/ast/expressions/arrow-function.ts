@@ -11,7 +11,7 @@ export interface ArrowFunction extends SyntaxNode {
   readonly arrowToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly typeParameters: TypeParameter | null;
   readonly parameters: Identifier | FormalParameter[];
-  readonly asyncToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly returnType: TypeNode | null;
   readonly contents: ExpressionNode | FunctionBody;
 }
@@ -20,7 +20,7 @@ export function createArrowFunction(
   arrowToken: SyntaxToken<TokenSyntaxKind> | null,
   typeParameters: TypeParameter | null,
   parameters: Identifier | FormalParameter[],
-  asyncToken: SyntaxToken<TokenSyntaxKind> | null,
+  asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   returnType: TypeNode | null,
   contents: ExpressionNode | FunctionBody,
   flags: NodeFlags,
@@ -32,7 +32,7 @@ export function createArrowFunction(
     arrowToken,
     typeParameters,
     parameters,
-    asyncToken,
+    asyncKeyword,
     returnType,
     contents,
     flags,

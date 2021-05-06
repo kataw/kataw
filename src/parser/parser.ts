@@ -2162,7 +2162,7 @@ function parsePrimaryExpression(
       return parsePrivateIdentifier(parser, context);
     case SyntaxKind.TemplateTail:
       return parseTemplateTail(parser, context);
-    case SyntaxKind.TemplateSpan:
+    case SyntaxKind.TemplateCont:
       return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
     case SyntaxKind.ImportKeyword:
       return parseImportMetaOrCall(parser, context, inNewExpression);
@@ -2543,7 +2543,7 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(generatorToken, left, key, pos, parser.curPos);
+    return createPropertyDefinition(generatorToken, key as any, left, pos, parser.curPos);
   }
 
   parser.onError(
@@ -2880,7 +2880,7 @@ function parseNewExpression(parser: ParserState, context: Context): NewTarget | 
     }
 
     parser.assignable = false;
-    return createNewTarget(targetKeyword, pos, parser.curPos);
+    return createNewTarget(newToken, targetKeyword, pos, parser.curPos);
   }
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   const expression = parsePrimaryExpression(parser, context, /* inNewExpression */ true, LeftHandSide.None);
@@ -5816,11 +5816,11 @@ function parseVariableDeclaration(parser: ParserState, context: Context, inForSt
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer],
-        parser.curPos,
-        parser.pos
+        pos,
+        parser.curPos
       );
     }
-  }else if (requireInitializer) {
+  } else if (requireInitializer) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -6128,8 +6128,8 @@ function parseLexicalBinding(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
         diagnosticMap[DiagnosticCode.The_lexical_declaration_of_a_for_in_or_of_statement_cannot_have_an_initializer],
-        parser.curPos,
-        parser.pos
+        pos,
+        parser.curPos
       );
     }
   } else if (requireInitializer) {
@@ -6582,7 +6582,9 @@ export function parseImportMeta(
     );
   }
 
-  const metaKeyword = consumeToken(parser, context, SyntaxKind.Target);
+  consume(parser, context, SyntaxKind.Period);
+
+  const metaKeyword = consumeToken(parser, context, SyntaxKind.Meta);
   if (metaKeyword && metaKeyword.flags & (NodeFlags.ExtendedUnicodeEscape | NodeFlags.UnicodeEscape)) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -6592,7 +6594,6 @@ export function parseImportMeta(
       parser.pos
     );
   }
-  nextToken(parser, context);
 
   if ((context & Context.AllowImportMeta) === 0) {
     parser.onError(
@@ -6605,6 +6606,7 @@ export function parseImportMeta(
   }
   let expression: any = createImportMeta(
     importKeyword,
+    metaKeyword,
     pos,
     parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     parser.curPos
@@ -6617,7 +6619,8 @@ export function parseImportMeta(
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
-  const templateSpans = [parseTemplateSpan(parser, context)];
+    const templateSpans = [parseTemplateSpan(parser, context)];
+  
   while (scanTemplateTail(parser, context, isTaggedTemplate) === SyntaxKind.TemplateCont) {
     templateSpans.push(parseTemplateSpan(parser, context));
   }

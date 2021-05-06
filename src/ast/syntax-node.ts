@@ -44,20 +44,17 @@ export const enum NodeFlags {
  * Types of syntax which can appear in a source file of Kataw.
  */
 export const enum SyntaxKind {
-  DummyIdentifier = 16637, // '
-  Smi = 1048576, // :
-  Comma = 2097170, // =>
-  ArrowFunction = 271, // ]
-  RightParen = 16,
   Add = 34098,
   AddAssign = 4130,
   AnyKeyword = 134234252,
   ArgumentList = 256,
+  ArgumentsIdentifier = 16635,
   ArrayBindingElement = 244,
   ArrayBindingPattern = 201,
   ArrayLiteral = 119,
   ArrayType = 136,
   Arrow = 10,
+  ArrowFunction = 271, // ]
   AsKeyword = 16494,
   Assign = 4125,
   AssignmentExpression = 125,
@@ -101,6 +98,7 @@ export const enum SyntaxKind {
   ClassKeyword = 37822544,
   CoalesceAssign = 4140,
   Colon = 21,
+  Comma = 2097170, // =>
   CommaOperator = 132,
   Complement = 65585,
   ComputedPropertyName = 194,
@@ -124,6 +122,7 @@ export const enum SyntaxKind {
   DoKeyword = 4202580,
   DoWhileStatement = 169,
   DoubleQuote = 26,
+  DummyIdentifier = 16637, // '
   ElementList = 270,
   Ellipsis = 524302,
   ElseKeyword = 4194389,
@@ -132,6 +131,7 @@ export const enum SyntaxKind {
   EndOfFileToken = 1048699,
   EnumKeyword = 4194554,
   EscapedKeyword = 276,
+  EvalIdentifier = 16634,
   Exponentiate = 35897,
   ExponentiateAssign = 4129,
   ExportDeclaration = 257,
@@ -151,6 +151,7 @@ export const enum SyntaxKind {
   ForStatement = 165,
   FormalParameter = 215,
   FormalParameterList = 214,
+  FromClause = 256,
   FromKeyword = 16500,
   FunctionBody = 216,
   FunctionDeclaration = 176,
@@ -164,6 +165,8 @@ export const enum SyntaxKind {
   GetKeyword = 16498,
   GreaterThan = 34883,
   GreaterThanOrEqual = 34881,
+  HTMLCloseComment = 261,
+  HTMLOpenComment = 260,
   Identifier = 134299649,
   IfKeyword = 37757019,
   IfStatement = 164,
@@ -202,6 +205,7 @@ export const enum SyntaxKind {
   IsStatementStart = 8192,
   IsSwitchClause = 33554432,
   LabelledStatement = 163,
+  Labels = 256,
   LeftBrace = 268501004,
   LeftBracket = 336003091,
   LeftParen = 537067531,
@@ -226,8 +230,10 @@ export const enum SyntaxKind {
   MixedKeyword = 134234344,
   Modulo = 35639,
   ModuloAssign = 4134,
+  MultiLineComment = 259,
   Multiply = 67143222,
   MultiplyAssign = 4132,
+  NameSpaceImport = 255,
   NamedExports = 266,
   NamedImports = 267,
   NamespaceExportDeclaration = 268,
@@ -269,6 +275,7 @@ export const enum SyntaxKind {
   PropertyDefinition = 219,
   PropertyDefinitionList = 218,
   PropertyList = 272,
+  PropertyMethod = 257,
   ProtectedKeyword = 8388714,
   PublicKeyword = 8388715,
   QualifiedType = 145,
@@ -281,6 +288,7 @@ export const enum SyntaxKind {
   ReturnStatement = 161,
   RightBrace = 1048591,
   RightBracket = 20,
+  RightParen = 16,
   RootNode = 122,
   Semicolon = 1108353041,
   SemicolonClassElement = 281,
@@ -289,8 +297,10 @@ export const enum SyntaxKind {
   ShiftLeftAssign = 4126,
   ShiftRight = 35141,
   ShiftRightAssign = 4127,
+  SingleLineComment = 258,
   SingleNameBinding = 222,
   SingleQuote = 25,
+  Smi = 1048576, // :
   SpreadElement = 223,
   SpreadProperty = 224,
   StaticKeyword = 8388716,
@@ -310,7 +320,7 @@ export const enum SyntaxKind {
   Target = 16594,
   TemplateCont = 458760,
   TemplateExpression = 227,
-  TemplateSpan = 228,
+  TemplateSpan = 65764,
   TemplateTail = 458761,
   ThisExpression = 135,
   ThisKeyword = 4276321,
@@ -344,15 +354,261 @@ export const enum SyntaxKind {
   WithKeyword = 37757029,
   WithStatement = 153,
   YieldExpression = 229,
-  YieldKeyword = 8454253,
-  EvalIdentifier = 16634,
-  ArgumentsIdentifier = 16635,
-  Labels = 256,
-  NameSpaceImport = 255,
-  FromClause = 256,
-  PropertyMethod = 257,
-  SingleLineComment = 258,
-  MultiLineComment = 259,
-  HTMLOpenComment = 260,
-  HTMLCloseComment = 261
+  YieldKeyword = 8454253
+}
+
+export function tokenToString(node: any): string {
+  if (!node) return '';
+  switch (node.kind) {
+    case SyntaxKind.Add:
+      return '+';
+    case SyntaxKind.AddAssign:
+      return '+=';
+    case SyntaxKind.AnyKeyword:
+      return 'any';
+    case SyntaxKind.Arrow:
+      return '=>';
+    case SyntaxKind.AsKeyword:
+      return 'as';
+    case SyntaxKind.Assign:
+      return '=';
+    case SyntaxKind.AsyncKeyword:
+      return 'async';
+    case SyntaxKind.AwaitKeyword:
+      return 'await';
+    case SyntaxKind.BitwiseAnd:
+      return '=>';
+    case SyntaxKind.BitwiseAndAssign:
+      return '&=';
+    case SyntaxKind.BitwiseOr:
+      return '|';
+    case SyntaxKind.BitwiseOrAssign:
+      return '|=';
+    case SyntaxKind.BitwiseXor:
+      return '^';
+    case SyntaxKind.BitwiseXorAssign:
+      return '^=';
+    case SyntaxKind.BooleanKeyword:
+      return 'boolean';
+    case SyntaxKind.BreakKeyword:
+      return 'break';
+    case SyntaxKind.CaseKeyword:
+      return 'case';
+    case SyntaxKind.CatchKeyword:
+      return 'catch';
+    case SyntaxKind.ClassKeyword:
+      return 'class';
+    case SyntaxKind.CoalesceAssign:
+      return '=>';
+    case SyntaxKind.Colon:
+      return ':';
+    case SyntaxKind.Comma:
+      return ',';
+    case SyntaxKind.Complement:
+      return '~';
+    case SyntaxKind.ConstKeyword:
+      return 'const';
+    case SyntaxKind.ConstructorKeyword:
+      return 'constructor';
+    case SyntaxKind.ContinueKeyword:
+      return 'continue';
+    case SyntaxKind.DebuggerKeyword:
+      return 'debugger';
+    case SyntaxKind.DeclareKeyword:
+      return 'declare';
+    case SyntaxKind.Decorator:
+      return '@';
+    case SyntaxKind.Decrement:
+      return '--';
+    case SyntaxKind.DefaultKeyword:
+      return 'default';
+    case SyntaxKind.DeleteKeyword:
+      return 'delete';
+    case SyntaxKind.Divide:
+      return '/';
+    case SyntaxKind.DivideAssign:
+      return '/=';
+    case SyntaxKind.DoKeyword:
+      return 'do';
+    case SyntaxKind.Ellipsis:
+      return '...';
+    case SyntaxKind.ElseKeyword:
+      return 'else';
+    case SyntaxKind.EmptyKeyword:
+      return 'empty';
+    case SyntaxKind.EndOfFileToken:
+      return 'EndOfSource';
+    case SyntaxKind.EnumKeyword:
+      return 'enum';
+    case SyntaxKind.EvalIdentifier:
+      return 'eval';
+    case SyntaxKind.Exponentiate:
+      return '**';
+    case SyntaxKind.ExponentiateAssign:
+      return '**=';
+    case SyntaxKind.ExportKeyword:
+      return 'eport';
+    case SyntaxKind.ExtendsKeyword:
+      return 'extends';
+    case SyntaxKind.FalseKeyword:
+      return 'false';
+    case SyntaxKind.FinallyKeyword:
+      return 'finally';
+    case SyntaxKind.ForKeyword:
+      return 'for';
+    case SyntaxKind.FromKeyword:
+      return 'from';
+    case SyntaxKind.FunctionKeyword:
+      return 'function';
+    case SyntaxKind.GenericType:
+      return 'generic';
+    case SyntaxKind.GetKeyword:
+      return 'get';
+    case SyntaxKind.GreaterThan:
+      return '>';
+    case SyntaxKind.GreaterThanOrEqual:
+      return '>=';
+    case SyntaxKind.IfKeyword:
+      return 'if';
+    case SyntaxKind.ImplementsKeyword:
+      return 'implements';
+    case SyntaxKind.ImportKeyword:
+      return 'import';
+    case SyntaxKind.InKeyword:
+      return 'in';
+    case SyntaxKind.Increment:
+      return '++';
+    case SyntaxKind.InstanceofKeyword:
+      return 'inctanceof';
+    case SyntaxKind.LessThan:
+      return ' <';
+    case SyntaxKind.LessThanOrEqual:
+      return '<=';
+    case SyntaxKind.LetKeyword:
+      return 'let';
+    case SyntaxKind.LogicalAnd:
+      return '&&';
+    case SyntaxKind.LogicalAndAssign:
+      return '&&=';
+    case SyntaxKind.LogicalOr:
+      return '||';
+    case SyntaxKind.LogicalOrAssign:
+      return '||=';
+    case SyntaxKind.LogicalShiftRight:
+      return '>>>';
+    case SyntaxKind.LogicalShiftRightAssign:
+      return '>>>=';
+    case SyntaxKind.LooseEqual:
+      return '==';
+    case SyntaxKind.LooseNotEqual:
+      return '!=';
+    case SyntaxKind.MixedKeyword:
+      return 'mixed';
+    case SyntaxKind.Modulo:
+      return '%';
+    case SyntaxKind.ModuloAssign:
+      return '%=';
+    case SyntaxKind.Multiply:
+      return '*';
+    case SyntaxKind.MultiplyAssign:
+      return '*=';
+    case SyntaxKind.Negate:
+      return '!';
+    case SyntaxKind.NeverKeyword:
+      return 'never';
+    case SyntaxKind.NewKeyword:
+      return 'new';
+    case SyntaxKind.NewTarget:
+      return 'target';
+    case SyntaxKind.NullKeyword:
+      return 'null';
+    case SyntaxKind.NumberKeyword:
+      return 'number';
+    case SyntaxKind.OfKeyword:
+      return 'of';
+    case SyntaxKind.OpaqueKeyword:
+      return 'opaque';
+    case SyntaxKind.PackageKeyword:
+      return 'package';
+    case SyntaxKind.Period:
+      return '.';
+    case SyntaxKind.PrivateKeyword:
+      return 'private';
+    case SyntaxKind.ProtectedKeyword:
+      return 'protected';
+    case SyntaxKind.PublicKeyword:
+      return 'public';
+    case SyntaxKind.QuestionMark:
+      return '?';
+    case SyntaxKind.QuestionMarkPeriod:
+      return '?.';
+    case SyntaxKind.QuestionMarkQuestionMark:
+      return '??';
+    case SyntaxKind.ReturnKeyword:
+      return 'return';
+    case SyntaxKind.Semicolon:
+      return ':';
+    case SyntaxKind.SetKeyword:
+      return 'set';
+    case SyntaxKind.ShiftLeft:
+      return '<<';
+    case SyntaxKind.ShiftLeftAssign:
+      return '<<=';
+    case SyntaxKind.ShiftRight:
+      return '>>';
+    case SyntaxKind.ShiftRightAssign:
+      return '>>=';
+    case SyntaxKind.StaticKeyword:
+      return 'static';
+    case SyntaxKind.StrictEqual:
+      return '===';
+    case SyntaxKind.StrictNotEqual:
+      return '!==';
+    case SyntaxKind.StringKeyword:
+      return 'string';
+    case SyntaxKind.Subtract:
+      return '-';
+    case SyntaxKind.SubtractAssign:
+      return '-=';
+    case SyntaxKind.SuperKeyword:
+      return 'super';
+    case SyntaxKind.SwitchKeyword:
+      return 'switch';
+    case SyntaxKind.SymbolKeyword:
+      return 'symbol';
+    case SyntaxKind.Target:
+      return 'target';
+    case SyntaxKind.ThisKeyword:
+      return 'this';
+    case SyntaxKind.ThrowKeyword:
+      return 'throw';
+    case SyntaxKind.TrueKeyword:
+      return 'true';
+    case SyntaxKind.TryKeyword:
+      return 'try';
+    case SyntaxKind.TypeKeyword:
+      return 'type';
+    case SyntaxKind.TypeofKeyword:
+      return 'typeof';
+    case SyntaxKind.TypeofType:
+      return 'typeof';
+    case SyntaxKind.UndefinedKeyword:
+      return 'undefined';
+    case SyntaxKind.UnknownKeyword:
+      return 'unknown';
+    case SyntaxKind.VarKeyword:
+      return 'var';
+    case SyntaxKind.VoidKeyword:
+      return 'void';
+    case SyntaxKind.WhileKeyword:
+      return 'while';
+    case SyntaxKind.WithKeyword:
+      return 'with';
+    case SyntaxKind.YieldKeyword:
+      return 'yield';
+    case SyntaxKind.Meta:
+      return 'meta';
+    default:
+      return '';
+  }
 }

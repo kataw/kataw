@@ -5,13 +5,20 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
  * New target expression.
  */
 export interface NewTarget extends SyntaxNode {
-  readonly targetKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly newKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly targetIdentifier: SyntaxToken<TokenSyntaxKind>;
 }
 
-export function createNewTarget(targetKeyword: SyntaxToken<TokenSyntaxKind>, start: number, end: number): NewTarget {
+export function createNewTarget(
+  newKeyword: SyntaxToken<TokenSyntaxKind>,
+  targetIdentifier: SyntaxToken<TokenSyntaxKind>,
+  start: number,
+  end: number
+): NewTarget {
   return {
     kind: SyntaxKind.NewTarget,
-    targetKeyword,
+    newKeyword,
+    targetIdentifier,
     flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
     start,
     end

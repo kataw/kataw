@@ -4,19 +4,19 @@ import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface UnaryExpression extends SyntaxNode {
   readonly operandToken: SyntaxToken<TokenSyntaxKind>;
-  readonly expression: ExpressionNode;
+  readonly operand: ExpressionNode;
 }
 
 export function createUnaryExpression(
   operandToken: SyntaxToken<TokenSyntaxKind>,
-  expression: ExpressionNode,
+  operand: ExpressionNode,
   start: number,
   end: number
 ): UnaryExpression {
   return {
     kind: SyntaxKind.UnaryExpression,
     operandToken,
-    expression,
+    operand,
     flags: NodeFlags.ExpressionNode,
     start,
     end

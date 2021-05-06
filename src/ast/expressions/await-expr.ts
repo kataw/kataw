@@ -6,19 +6,19 @@ import { ExpressionNode } from '.';
  * An await expression.
  */
 export interface AwaitExpression extends SyntaxNode {
-  readonly awaitToken: SyntaxToken<TokenSyntaxKind>;
+  readonly awaitKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly expression: ExpressionNode;
 }
 
 export function createAwaitExpression(
-  awaitToken: SyntaxToken<TokenSyntaxKind>,
+  awaitKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
   start: number,
   end: number
 ): AwaitExpression {
   return {
     kind: SyntaxKind.AwaitExpression,
-    awaitToken,
+    awaitKeyword,
     expression,
     flags: NodeFlags.ExpressionNode,
     start,
