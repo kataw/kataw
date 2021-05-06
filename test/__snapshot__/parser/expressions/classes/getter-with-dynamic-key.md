@@ -7,8 +7,7 @@ class x { static get [y](){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

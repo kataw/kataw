@@ -11,8 +11,7 @@ class C extends Base { set #await(test) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

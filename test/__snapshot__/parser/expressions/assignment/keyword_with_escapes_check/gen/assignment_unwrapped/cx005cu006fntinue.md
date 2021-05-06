@@ -11,8 +11,7 @@ c\u006fntinue = x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

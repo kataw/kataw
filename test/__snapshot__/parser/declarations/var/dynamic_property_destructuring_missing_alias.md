@@ -26,8 +26,7 @@ var {[x]} = z;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -24,8 +24,7 @@ x = { "a": {x} = y.z };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

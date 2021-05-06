@@ -11,8 +11,7 @@ new await
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

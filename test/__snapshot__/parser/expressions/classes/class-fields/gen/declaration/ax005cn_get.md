@@ -11,8 +11,7 @@ class C { a\n get }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

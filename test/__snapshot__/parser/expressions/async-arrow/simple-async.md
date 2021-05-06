@@ -7,8 +7,7 @@ async (x, ...a)=>0;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

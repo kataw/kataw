@@ -11,8 +11,7 @@ var foob\\u{}ar = 0;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

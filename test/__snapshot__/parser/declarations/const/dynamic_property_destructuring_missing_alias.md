@@ -26,8 +26,7 @@ const {[x]} = z;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x extends switch {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

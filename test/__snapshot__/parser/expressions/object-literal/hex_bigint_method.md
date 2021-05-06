@@ -7,8 +7,7 @@ x = {0xeban(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

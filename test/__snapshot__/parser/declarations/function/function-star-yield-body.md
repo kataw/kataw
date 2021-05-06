@@ -7,8 +7,7 @@ function* bar() { yield /re/ }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

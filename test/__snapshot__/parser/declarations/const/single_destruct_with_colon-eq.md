@@ -15,8 +15,7 @@ const {a:=c} = z;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

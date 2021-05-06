@@ -7,8 +7,7 @@ class C { static set #aaa(x){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

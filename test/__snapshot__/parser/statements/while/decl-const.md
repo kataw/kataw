@@ -7,8 +7,7 @@ while (false) const x = null;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

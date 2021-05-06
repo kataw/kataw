@@ -11,8 +11,7 @@ class x extends interface {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

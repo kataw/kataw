@@ -7,8 +7,7 @@ function call(foo=await bar){}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

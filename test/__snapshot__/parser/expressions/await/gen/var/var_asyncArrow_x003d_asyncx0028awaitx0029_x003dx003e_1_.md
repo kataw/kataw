@@ -11,8 +11,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

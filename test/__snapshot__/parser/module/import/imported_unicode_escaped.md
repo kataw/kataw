@@ -13,8 +13,7 @@ export {a \u0061s b} from "x";
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

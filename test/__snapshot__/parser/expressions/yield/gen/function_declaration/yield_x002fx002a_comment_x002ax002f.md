@@ -11,8 +11,7 @@ function not_gen() { yield /* comment */ }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

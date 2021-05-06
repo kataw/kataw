@@ -11,8 +11,7 @@ class x {static async * eval(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

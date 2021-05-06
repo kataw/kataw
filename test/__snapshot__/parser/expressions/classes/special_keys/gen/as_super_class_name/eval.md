@@ -11,8 +11,7 @@ class x extends eval {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

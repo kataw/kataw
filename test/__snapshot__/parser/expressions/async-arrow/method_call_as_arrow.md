@@ -7,8 +7,7 @@ async ({ident: [foo, bar].join("")}) => x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

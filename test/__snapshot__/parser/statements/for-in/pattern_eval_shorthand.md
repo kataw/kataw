@@ -26,8 +26,7 @@ for ({ eval = 0 } in [{}]) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

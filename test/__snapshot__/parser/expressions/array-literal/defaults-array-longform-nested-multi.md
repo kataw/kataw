@@ -26,8 +26,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {set void(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

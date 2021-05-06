@@ -11,8 +11,7 @@ async () => { await import(x) }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

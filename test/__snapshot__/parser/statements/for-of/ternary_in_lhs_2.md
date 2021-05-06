@@ -15,8 +15,7 @@ for (a ? b : c of x);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

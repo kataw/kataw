@@ -11,8 +11,7 @@ class x extends with {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

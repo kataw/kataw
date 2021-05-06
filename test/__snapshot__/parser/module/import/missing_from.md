@@ -13,8 +13,7 @@ import {a, b} fromx "c"
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

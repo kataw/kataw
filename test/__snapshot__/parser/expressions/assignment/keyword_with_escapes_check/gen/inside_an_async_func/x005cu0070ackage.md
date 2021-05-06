@@ -11,8 +11,7 @@ async () => {  \u0070ackage = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

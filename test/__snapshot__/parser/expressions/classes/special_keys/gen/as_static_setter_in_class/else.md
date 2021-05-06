@@ -11,8 +11,7 @@ class x {static set else(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

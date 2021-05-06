@@ -11,8 +11,7 @@ class x extends else {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

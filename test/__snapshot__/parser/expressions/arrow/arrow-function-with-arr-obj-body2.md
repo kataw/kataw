@@ -7,8 +7,7 @@ var v = a => <any><any>{}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

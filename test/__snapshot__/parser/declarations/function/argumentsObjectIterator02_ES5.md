@@ -15,8 +15,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

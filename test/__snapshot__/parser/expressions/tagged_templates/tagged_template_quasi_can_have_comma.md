@@ -7,8 +7,7 @@ y`${y,0}`
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

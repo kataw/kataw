@@ -13,8 +13,7 @@ export {x,} from "foo"
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -15,8 +15,7 @@ for ([][y] <<= p;;) x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

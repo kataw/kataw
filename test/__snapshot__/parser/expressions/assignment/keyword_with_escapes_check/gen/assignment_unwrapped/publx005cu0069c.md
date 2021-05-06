@@ -11,8 +11,7 @@ publ\u0069c = x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

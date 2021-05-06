@@ -11,8 +11,7 @@ class x extends catch {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

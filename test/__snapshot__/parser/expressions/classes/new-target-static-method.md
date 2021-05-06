@@ -7,8 +7,7 @@ class A {static a(x=new.target){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

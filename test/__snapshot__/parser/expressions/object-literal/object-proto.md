@@ -10,8 +10,7 @@ x = {async __proto__(){}, *__proto__(){}};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

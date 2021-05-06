@@ -11,8 +11,7 @@ class C { constructor() { new super(); } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

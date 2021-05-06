@@ -13,8 +13,7 @@ yi\u0065ld: 1;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

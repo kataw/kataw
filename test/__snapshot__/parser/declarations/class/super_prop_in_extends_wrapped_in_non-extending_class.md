@@ -26,8 +26,7 @@ class a { foo(){      class x extends super.foo {}    }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

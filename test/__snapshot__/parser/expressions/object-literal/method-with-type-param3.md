@@ -15,8 +15,7 @@ a={123<T>(x: T): T {}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {static * import(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

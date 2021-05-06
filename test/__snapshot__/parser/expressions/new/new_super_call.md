@@ -7,8 +7,7 @@ class x extends y { constructor() { new super() }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -9,8 +9,7 @@ f({x = 0});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ class l\u0065t {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

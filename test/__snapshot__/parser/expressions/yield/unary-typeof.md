@@ -7,8 +7,7 @@ function *f() {  return typeof yield foo;  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

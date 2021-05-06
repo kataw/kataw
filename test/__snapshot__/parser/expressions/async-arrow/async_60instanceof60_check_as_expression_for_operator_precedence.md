@@ -7,8 +7,7 @@ f(a + async instanceof b)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

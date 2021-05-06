@@ -7,8 +7,7 @@ if (foo) a; if (bar) b; else c;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

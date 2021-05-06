@@ -26,8 +26,7 @@ opaque type ID = number;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ f(new /z/)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

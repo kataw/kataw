@@ -7,8 +7,7 @@ new (a,b) => x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

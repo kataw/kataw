@@ -11,8 +11,7 @@ class x {* typeof(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

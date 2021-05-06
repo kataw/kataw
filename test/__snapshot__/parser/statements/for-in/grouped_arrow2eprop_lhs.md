@@ -26,8 +26,7 @@ for (((x)=>{}).x in y);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -15,8 +15,7 @@ declare opaque type Foo
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

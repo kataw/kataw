@@ -11,8 +11,7 @@ var foob\\u123r = 0;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

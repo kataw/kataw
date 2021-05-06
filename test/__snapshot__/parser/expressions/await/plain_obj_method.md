@@ -7,8 +7,7 @@ let o = {f(await){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

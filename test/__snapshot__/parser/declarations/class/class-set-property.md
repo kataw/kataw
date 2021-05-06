@@ -29,8 +29,7 @@ class C {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

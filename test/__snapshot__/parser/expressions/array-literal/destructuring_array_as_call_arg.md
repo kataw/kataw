@@ -26,8 +26,7 @@ foo([a, b] = arr);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

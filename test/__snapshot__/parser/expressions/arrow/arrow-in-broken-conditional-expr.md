@@ -7,8 +7,7 @@ bar ? (=> 0) : baz;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

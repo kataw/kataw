@@ -8,8 +8,7 @@ class x {    async async get f(x){}    }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

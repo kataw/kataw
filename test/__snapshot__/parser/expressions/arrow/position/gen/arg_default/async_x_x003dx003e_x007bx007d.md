@@ -11,8 +11,7 @@ function f(a = async x => {}) {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

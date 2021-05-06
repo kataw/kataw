@@ -7,8 +7,7 @@ function* foo(a = function* foo() { yield b }) {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

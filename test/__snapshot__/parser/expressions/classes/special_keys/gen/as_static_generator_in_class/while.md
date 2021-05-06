@@ -11,8 +11,7 @@ class x {static * while(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

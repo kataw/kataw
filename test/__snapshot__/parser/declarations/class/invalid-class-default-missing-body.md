@@ -7,8 +7,7 @@ class default
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

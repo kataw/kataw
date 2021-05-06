@@ -13,8 +13,7 @@ import.meta++;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ async () => { aw\u{61}it: x }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

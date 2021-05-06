@@ -11,8 +11,7 @@ var await; var f = (async function() { a = async function() { g(await) } });
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

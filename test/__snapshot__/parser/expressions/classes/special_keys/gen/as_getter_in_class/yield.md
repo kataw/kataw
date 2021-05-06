@@ -11,8 +11,7 @@ class x {get yield(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

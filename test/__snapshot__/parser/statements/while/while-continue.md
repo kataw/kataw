@@ -7,8 +7,7 @@ while (true) { continue /* Multiline\nComment */there; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

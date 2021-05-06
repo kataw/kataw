@@ -11,8 +11,7 @@ async () => {  \u0066unction = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

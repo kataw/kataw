@@ -11,8 +11,7 @@ do[ /)finally
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

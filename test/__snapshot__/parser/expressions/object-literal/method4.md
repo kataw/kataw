@@ -7,8 +7,7 @@ x = { get() { } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

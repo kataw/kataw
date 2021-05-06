@@ -11,8 +11,7 @@ class x {* default(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

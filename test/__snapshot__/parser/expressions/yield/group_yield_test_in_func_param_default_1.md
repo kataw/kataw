@@ -7,8 +7,7 @@ function f(x=(yield)=y){}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

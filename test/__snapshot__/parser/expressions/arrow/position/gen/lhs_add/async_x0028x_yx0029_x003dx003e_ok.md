@@ -11,8 +11,7 @@ async (x, y) => ok + x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

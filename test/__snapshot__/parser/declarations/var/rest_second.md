@@ -26,8 +26,7 @@ export var a, ...b = 1;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

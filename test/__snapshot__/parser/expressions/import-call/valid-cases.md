@@ -19,8 +19,7 @@ import(x).then();
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

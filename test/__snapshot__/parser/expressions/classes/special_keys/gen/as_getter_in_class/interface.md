@@ -11,8 +11,7 @@ class x {get interface(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

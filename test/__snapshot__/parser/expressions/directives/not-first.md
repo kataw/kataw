@@ -7,8 +7,7 @@ var x; "use strict"; with (x) y;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

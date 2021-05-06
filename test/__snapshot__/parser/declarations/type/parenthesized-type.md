@@ -15,8 +15,7 @@ type Foo = (string | number)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

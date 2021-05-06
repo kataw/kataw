@@ -13,8 +13,7 @@ x => y in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

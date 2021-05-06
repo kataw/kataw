@@ -7,8 +7,7 @@ class A { [x=y](foo) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

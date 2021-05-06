@@ -11,8 +11,7 @@ for (x in y in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class throw {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

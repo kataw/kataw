@@ -15,8 +15,7 @@ type T = { [[foo]]: X }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

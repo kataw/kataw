@@ -7,8 +7,7 @@ foo?.bar *= x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

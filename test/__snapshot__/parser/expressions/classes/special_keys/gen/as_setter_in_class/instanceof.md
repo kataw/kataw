@@ -11,8 +11,7 @@ class x {set instanceof(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

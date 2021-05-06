@@ -15,8 +15,7 @@ class Foo<T> extends Bar<T> { }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

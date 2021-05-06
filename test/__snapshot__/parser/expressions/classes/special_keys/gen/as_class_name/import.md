@@ -11,8 +11,7 @@ class import {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

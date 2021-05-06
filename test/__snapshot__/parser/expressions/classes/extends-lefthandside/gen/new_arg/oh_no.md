@@ -11,8 +11,7 @@ new oh,no
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

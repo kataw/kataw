@@ -7,8 +7,7 @@ label: class x {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

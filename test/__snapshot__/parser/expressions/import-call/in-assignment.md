@@ -7,8 +7,7 @@ x = import(y);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

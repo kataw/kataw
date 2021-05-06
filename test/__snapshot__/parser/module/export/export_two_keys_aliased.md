@@ -13,8 +13,7 @@ var x,y; export {x as a, y as b}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

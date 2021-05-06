@@ -15,8 +15,7 @@ declare class A { static foo(): number; static x : string }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

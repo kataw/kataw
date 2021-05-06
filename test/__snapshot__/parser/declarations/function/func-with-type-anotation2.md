@@ -15,8 +15,7 @@ function foo(numVal: any, otherVal: mixed){}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

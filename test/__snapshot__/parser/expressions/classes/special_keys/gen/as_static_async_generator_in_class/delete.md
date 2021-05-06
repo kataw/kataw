@@ -11,8 +11,7 @@ class x {static async * delete(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

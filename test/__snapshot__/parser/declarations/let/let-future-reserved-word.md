@@ -17,8 +17,7 @@ let protecte\u0064;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

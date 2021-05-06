@@ -11,8 +11,7 @@ do {} while (x) { catch try {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

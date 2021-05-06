@@ -11,8 +11,7 @@ function f() { var await; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ foo(x => ok).bar
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

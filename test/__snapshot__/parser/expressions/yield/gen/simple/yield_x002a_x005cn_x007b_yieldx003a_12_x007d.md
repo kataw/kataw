@@ -11,8 +11,7 @@ yield * \n { yield: 12 }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ export default (1 + 2);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

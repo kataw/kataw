@@ -15,8 +15,7 @@ for ({a: b.c}-- of d) e
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

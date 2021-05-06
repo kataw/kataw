@@ -15,8 +15,7 @@ var a: { id<T>(x: T): T; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

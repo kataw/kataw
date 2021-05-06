@@ -11,8 +11,7 @@ class C { await = 0; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

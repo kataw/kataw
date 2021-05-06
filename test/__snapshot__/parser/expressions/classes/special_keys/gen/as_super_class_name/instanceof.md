@@ -11,8 +11,7 @@ class x extends instanceof {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

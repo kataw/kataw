@@ -12,8 +12,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

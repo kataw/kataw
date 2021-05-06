@@ -33,8 +33,7 @@ function x({x}) { "use strict"; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

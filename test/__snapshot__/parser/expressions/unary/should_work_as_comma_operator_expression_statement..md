@@ -7,8 +7,7 @@ delete foo.bar, z;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

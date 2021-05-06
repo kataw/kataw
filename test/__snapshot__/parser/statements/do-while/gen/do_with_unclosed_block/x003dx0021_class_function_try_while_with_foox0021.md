@@ -11,8 +11,7 @@ do {} while (x) { =! class function try while with foo!
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

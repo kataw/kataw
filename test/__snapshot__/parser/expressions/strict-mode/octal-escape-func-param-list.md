@@ -7,8 +7,7 @@ function foo(p\141ckage) { "use strict"; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

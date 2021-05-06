@@ -7,8 +7,7 @@ x = {x: [{a = b}] + x}.x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

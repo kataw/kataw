@@ -7,8 +7,7 @@ function f(){ new.target + foo }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

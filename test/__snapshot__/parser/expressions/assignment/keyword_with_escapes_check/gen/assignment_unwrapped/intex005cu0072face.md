@@ -11,8 +11,7 @@ inte\u0072face = x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

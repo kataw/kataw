@@ -11,8 +11,7 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

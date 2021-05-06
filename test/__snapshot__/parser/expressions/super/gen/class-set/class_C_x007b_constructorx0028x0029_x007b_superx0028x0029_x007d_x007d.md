@@ -11,8 +11,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

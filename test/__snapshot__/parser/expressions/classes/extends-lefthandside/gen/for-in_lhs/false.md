@@ -11,8 +11,7 @@ for (false in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

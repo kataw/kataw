@@ -7,8 +7,7 @@ do let x; while (false)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

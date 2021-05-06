@@ -15,8 +15,7 @@ type C = { ...A&B };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -26,8 +26,7 @@ function *f(){ return [...yield x]; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -15,8 +15,7 @@ class A {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

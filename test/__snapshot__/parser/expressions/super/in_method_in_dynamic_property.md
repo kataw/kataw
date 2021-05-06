@@ -7,8 +7,7 @@ x = { foo(){ return x[super.foo]; }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

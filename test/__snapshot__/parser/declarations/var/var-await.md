@@ -7,8 +7,7 @@ var await = 0
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

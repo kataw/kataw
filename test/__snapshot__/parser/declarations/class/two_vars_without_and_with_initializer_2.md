@@ -15,8 +15,7 @@ let [foo=a, bar=b] = arr;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

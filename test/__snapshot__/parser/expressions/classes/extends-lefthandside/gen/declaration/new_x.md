@@ -11,8 +11,7 @@ class A extends new x {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

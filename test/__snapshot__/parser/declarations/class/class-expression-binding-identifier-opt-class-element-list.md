@@ -11,8 +11,7 @@ var A = class B {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ async () => {  \u0065xport = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

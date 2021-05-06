@@ -11,8 +11,7 @@ class A extends `temp {waitforit} late` {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class C extends Base { a\n get }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

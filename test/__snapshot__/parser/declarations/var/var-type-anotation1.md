@@ -15,8 +15,7 @@ var foo = (async (): number => bar);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

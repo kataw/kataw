@@ -21,8 +21,7 @@ function f(x, ...y) { 'use strict' }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

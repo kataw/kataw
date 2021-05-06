@@ -26,8 +26,7 @@ class A {set "foo"(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

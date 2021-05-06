@@ -11,8 +11,7 @@ class x {async * debugger(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

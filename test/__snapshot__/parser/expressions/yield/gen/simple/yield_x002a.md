@@ -11,8 +11,7 @@ yield *
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

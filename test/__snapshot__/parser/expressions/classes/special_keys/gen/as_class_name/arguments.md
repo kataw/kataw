@@ -11,8 +11,7 @@ class arguments {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

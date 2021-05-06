@@ -15,8 +15,7 @@ class C { get; set; static; async }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

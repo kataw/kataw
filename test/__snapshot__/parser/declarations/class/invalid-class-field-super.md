@@ -22,8 +22,7 @@ class C { [super.bbb] = 0 };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -8,8 +8,7 @@ for (a?.b of c);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

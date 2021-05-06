@@ -7,8 +7,7 @@ class x { async *prot\u006ftype(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

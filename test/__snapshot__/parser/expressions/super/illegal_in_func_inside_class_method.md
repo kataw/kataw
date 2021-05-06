@@ -7,8 +7,7 @@ class x { foo(){ function f(){ super.foo; } }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

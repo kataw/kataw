@@ -11,8 +11,7 @@ for ([foo] in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

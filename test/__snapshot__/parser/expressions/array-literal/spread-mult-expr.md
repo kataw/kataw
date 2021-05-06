@@ -21,8 +21,7 @@ var callCount = 0;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -15,8 +15,7 @@ class x { \u0063onstructor(){}; constructor(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

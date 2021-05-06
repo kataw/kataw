@@ -7,8 +7,7 @@ class x { constructor(){ return () => () => super.foo; }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

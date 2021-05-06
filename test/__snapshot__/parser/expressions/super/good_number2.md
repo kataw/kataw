@@ -25,8 +25,7 @@ a?.9:b
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

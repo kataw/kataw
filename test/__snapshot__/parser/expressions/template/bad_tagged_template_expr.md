@@ -7,8 +7,7 @@ x`foo ${a b} bar`
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

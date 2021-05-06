@@ -16,8 +16,7 @@ var x = {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

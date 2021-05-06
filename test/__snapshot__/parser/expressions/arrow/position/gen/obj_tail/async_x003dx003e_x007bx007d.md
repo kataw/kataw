@@ -11,8 +11,7 @@ x = {arrow: async => {}}.y
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

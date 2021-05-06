@@ -11,8 +11,7 @@ do[ catch try {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

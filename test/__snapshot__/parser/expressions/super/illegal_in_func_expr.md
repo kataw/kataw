@@ -7,8 +7,7 @@ x = function(){ super.foo; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ function *foo() { let x = {yield} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

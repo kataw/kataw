@@ -16,8 +16,7 @@ a ? b : (): string => {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

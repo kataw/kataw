@@ -6,8 +6,7 @@
 for (let a,b,c;;);
 `````
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

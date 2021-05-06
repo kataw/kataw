@@ -23,8 +23,7 @@ x({*foo(){}});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

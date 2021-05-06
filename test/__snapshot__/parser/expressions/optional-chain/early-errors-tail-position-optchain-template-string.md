@@ -7,8 +7,7 @@ a?.fn`hello`;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

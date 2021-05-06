@@ -7,8 +7,7 @@ switch (A) {default: D; case B: C; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

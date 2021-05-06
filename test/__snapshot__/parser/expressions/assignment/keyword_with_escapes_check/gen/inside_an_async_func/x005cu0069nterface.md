@@ -11,8 +11,7 @@ async () => {  \u0069nterface = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

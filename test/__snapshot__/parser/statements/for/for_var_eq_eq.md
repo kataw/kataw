@@ -26,8 +26,7 @@ for (var r == y in x );
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

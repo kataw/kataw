@@ -7,8 +7,7 @@ class K extends {} {;async\n async *1(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

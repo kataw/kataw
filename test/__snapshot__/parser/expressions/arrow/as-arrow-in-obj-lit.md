@@ -9,8 +9,7 @@ x = {arrow: (x, y) => ok};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -26,8 +26,7 @@ class C { aaa = bbb }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

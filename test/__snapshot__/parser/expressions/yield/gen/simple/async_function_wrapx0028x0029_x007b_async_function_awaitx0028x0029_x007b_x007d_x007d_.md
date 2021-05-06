@@ -11,8 +11,7 @@ async function wrap() { async function await() { } };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

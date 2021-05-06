@@ -89,8 +89,7 @@ a = { y: x = 1 } = b;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

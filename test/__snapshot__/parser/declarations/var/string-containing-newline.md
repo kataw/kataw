@@ -6,8 +6,7 @@
 var str = "\n";
 `````
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

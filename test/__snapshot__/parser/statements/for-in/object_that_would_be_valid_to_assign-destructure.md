@@ -26,8 +26,7 @@ for ({x: a.b} in obj);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

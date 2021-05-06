@@ -26,8 +26,7 @@ for (a of b);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

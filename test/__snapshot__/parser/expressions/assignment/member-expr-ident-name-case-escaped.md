@@ -16,8 +16,7 @@ obj.c\u0061se = 42;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

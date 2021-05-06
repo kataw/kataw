@@ -11,8 +11,7 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

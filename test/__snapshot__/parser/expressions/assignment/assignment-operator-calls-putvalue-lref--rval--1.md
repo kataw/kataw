@@ -35,8 +35,7 @@ Object.defineProperty(this, "x", {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

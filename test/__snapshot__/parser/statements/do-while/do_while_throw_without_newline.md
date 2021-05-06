@@ -9,8 +9,7 @@ do throw function (v, h) {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

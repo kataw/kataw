@@ -26,8 +26,7 @@ class x { get constructor(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

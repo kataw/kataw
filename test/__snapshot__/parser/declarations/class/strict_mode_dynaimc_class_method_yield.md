@@ -27,8 +27,7 @@ class x{[yield](a){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

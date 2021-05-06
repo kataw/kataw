@@ -11,8 +11,7 @@ there; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

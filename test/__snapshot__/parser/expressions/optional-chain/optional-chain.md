@@ -7,8 +7,7 @@ arr?.[i + 1]
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

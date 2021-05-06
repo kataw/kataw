@@ -11,8 +11,7 @@ class x {static get delete(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

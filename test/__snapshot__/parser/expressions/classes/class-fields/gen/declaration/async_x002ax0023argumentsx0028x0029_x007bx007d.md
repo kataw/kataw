@@ -11,8 +11,7 @@ class C { async *#arguments() {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

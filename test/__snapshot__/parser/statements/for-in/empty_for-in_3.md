@@ -15,8 +15,7 @@ for (let a in b);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

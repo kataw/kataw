@@ -13,8 +13,7 @@ xxx\u0065
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ class x extends y { f(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

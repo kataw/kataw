@@ -7,8 +7,7 @@ async (x = z = yield)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

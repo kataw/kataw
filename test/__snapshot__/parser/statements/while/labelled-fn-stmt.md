@@ -7,8 +7,7 @@ while (false) label1: label2: function f() {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

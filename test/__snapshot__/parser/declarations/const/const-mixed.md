@@ -17,8 +17,7 @@ const map = {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class C extends yield { }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

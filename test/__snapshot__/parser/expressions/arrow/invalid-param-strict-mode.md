@@ -7,8 +7,7 @@ eval => {"use strict"};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

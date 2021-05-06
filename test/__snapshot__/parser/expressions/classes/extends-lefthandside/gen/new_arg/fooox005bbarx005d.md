@@ -11,8 +11,7 @@ new fooo[bar]
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

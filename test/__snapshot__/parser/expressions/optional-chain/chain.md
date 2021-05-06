@@ -8,8 +8,7 @@ a?.b?.c?.(d)?.[e].f?.g
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

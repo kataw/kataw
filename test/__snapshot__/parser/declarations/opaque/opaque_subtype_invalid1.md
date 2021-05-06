@@ -26,8 +26,7 @@ opaque Ident: Type = SuperType;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

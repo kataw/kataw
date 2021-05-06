@@ -26,8 +26,7 @@ function* bar() { yield class {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

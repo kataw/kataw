@@ -26,8 +26,7 @@ var a : string
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

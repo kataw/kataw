@@ -11,8 +11,7 @@ class x {static get private(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

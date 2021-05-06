@@ -7,8 +7,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

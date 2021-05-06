@@ -10,8 +10,7 @@ function f(){
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

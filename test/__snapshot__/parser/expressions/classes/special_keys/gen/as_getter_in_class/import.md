@@ -11,8 +11,7 @@ class x {get import(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ do a > b instanceof c while (x);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

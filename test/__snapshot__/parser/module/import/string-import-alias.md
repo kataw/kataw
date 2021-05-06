@@ -19,8 +19,7 @@ import {'' as x} from 'foo';
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

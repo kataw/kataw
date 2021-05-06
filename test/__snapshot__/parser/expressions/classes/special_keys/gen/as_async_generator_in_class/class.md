@@ -11,8 +11,7 @@ class x {async * class(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

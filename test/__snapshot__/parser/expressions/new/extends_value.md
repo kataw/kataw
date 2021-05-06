@@ -7,8 +7,7 @@ class x extends new A() {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

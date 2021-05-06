@@ -26,8 +26,7 @@ import { a as b } from 'm.js';
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

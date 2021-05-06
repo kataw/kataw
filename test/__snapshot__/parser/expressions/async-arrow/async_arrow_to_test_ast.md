@@ -7,8 +7,7 @@ let f = a + b + async()=>d
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

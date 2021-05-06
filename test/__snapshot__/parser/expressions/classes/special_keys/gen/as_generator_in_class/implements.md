@@ -11,8 +11,7 @@ class x {* implements(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

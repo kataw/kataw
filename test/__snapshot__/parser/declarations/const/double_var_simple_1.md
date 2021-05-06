@@ -26,8 +26,7 @@ const {x, y} = obj;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

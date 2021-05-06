@@ -13,8 +13,7 @@ import {a: b} from "bar";
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

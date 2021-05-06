@@ -7,8 +7,7 @@ s = {s: new}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

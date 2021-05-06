@@ -11,8 +11,7 @@ class interface {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

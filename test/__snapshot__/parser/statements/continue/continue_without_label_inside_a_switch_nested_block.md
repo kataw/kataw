@@ -7,8 +7,7 @@ switch (x) { case x: {continue;} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

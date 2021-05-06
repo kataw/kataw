@@ -7,8 +7,7 @@ x = {10n: y}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

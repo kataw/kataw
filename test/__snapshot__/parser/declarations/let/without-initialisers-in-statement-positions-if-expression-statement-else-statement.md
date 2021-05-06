@@ -7,8 +7,7 @@ if (true) {} else let x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

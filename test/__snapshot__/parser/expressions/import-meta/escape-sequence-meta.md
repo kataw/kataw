@@ -13,8 +13,7 @@ import.m\u0065ta;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

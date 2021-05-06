@@ -11,8 +11,7 @@ class x {static async while(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ left@{x1680}@right
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

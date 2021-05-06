@@ -7,8 +7,7 @@ label: async function () {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

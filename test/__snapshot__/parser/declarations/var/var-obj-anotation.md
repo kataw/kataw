@@ -15,8 +15,7 @@ var {x}: {x: string; } = { x: "hello" };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

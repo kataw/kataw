@@ -7,8 +7,7 @@ x = `1 ${ yield x } 2`
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

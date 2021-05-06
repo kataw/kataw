@@ -7,8 +7,7 @@ debugger
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

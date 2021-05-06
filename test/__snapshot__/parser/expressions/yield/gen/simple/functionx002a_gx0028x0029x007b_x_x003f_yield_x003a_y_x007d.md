@@ -11,8 +11,7 @@ function* g(){ x ? yield : y }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

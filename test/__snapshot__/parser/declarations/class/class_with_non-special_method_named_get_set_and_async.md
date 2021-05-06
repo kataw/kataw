@@ -26,8 +26,7 @@ class A {"set"(){} "get"(){} "async"(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

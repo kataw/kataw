@@ -7,8 +7,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

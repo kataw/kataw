@@ -7,8 +7,7 @@ x= { *prototype(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

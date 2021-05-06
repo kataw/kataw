@@ -11,8 +11,7 @@ class Foo { prototype = 1 }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {static get instanceof(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

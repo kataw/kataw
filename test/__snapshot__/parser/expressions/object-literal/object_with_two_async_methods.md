@@ -7,8 +7,7 @@ x({async foo(){}, async bar(){}});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

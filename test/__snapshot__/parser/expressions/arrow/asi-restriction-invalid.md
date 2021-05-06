@@ -8,8 +8,7 @@ var af = ()
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ let tests = [
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

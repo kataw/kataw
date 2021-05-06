@@ -11,8 +11,7 @@ class C { set #await(test) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

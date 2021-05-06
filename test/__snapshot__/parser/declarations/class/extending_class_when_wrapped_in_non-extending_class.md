@@ -26,8 +26,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

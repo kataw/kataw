@@ -11,8 +11,7 @@ do do do class x {} while while while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

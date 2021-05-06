@@ -7,8 +7,7 @@ class A {async * 34(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

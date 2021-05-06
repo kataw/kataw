@@ -13,8 +13,7 @@ export *= from 'f';
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

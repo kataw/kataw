@@ -16,8 +16,7 @@ wrap({0o4432(){}});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

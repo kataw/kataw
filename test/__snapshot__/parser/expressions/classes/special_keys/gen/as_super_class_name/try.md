@@ -11,8 +11,7 @@ class x extends try {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

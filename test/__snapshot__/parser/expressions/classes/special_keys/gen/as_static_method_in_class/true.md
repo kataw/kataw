@@ -11,8 +11,7 @@ class x {static true(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

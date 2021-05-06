@@ -11,8 +11,7 @@ class x {set arguments(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

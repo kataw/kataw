@@ -11,8 +11,7 @@ function* gf() { class C { *yield() { } } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

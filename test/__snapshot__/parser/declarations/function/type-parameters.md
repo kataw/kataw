@@ -67,8 +67,7 @@ type T = <
 
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

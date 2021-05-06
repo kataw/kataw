@@ -7,8 +7,7 @@ if (true) const x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

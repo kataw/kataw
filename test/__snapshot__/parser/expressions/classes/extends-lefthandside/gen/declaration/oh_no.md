@@ -11,8 +11,7 @@ class A extends oh,no {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -26,8 +26,7 @@ class w {  t[x](){}  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

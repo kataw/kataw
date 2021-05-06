@@ -15,8 +15,7 @@ true ? async.waterfall() : null;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

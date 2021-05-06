@@ -8,8 +8,7 @@ f(async
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

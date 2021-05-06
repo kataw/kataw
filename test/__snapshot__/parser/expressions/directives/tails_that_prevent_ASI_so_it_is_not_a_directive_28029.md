@@ -8,8 +8,7 @@ function f(){ "use strict"
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

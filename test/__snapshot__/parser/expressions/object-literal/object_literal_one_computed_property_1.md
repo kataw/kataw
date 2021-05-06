@@ -7,8 +7,7 @@ x({[a]:b}=obj);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

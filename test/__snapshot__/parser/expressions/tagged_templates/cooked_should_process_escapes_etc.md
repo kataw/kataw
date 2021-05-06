@@ -7,8 +7,7 @@ foo`H\x45Y`
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

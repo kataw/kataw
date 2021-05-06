@@ -11,8 +11,7 @@ class x {* var(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

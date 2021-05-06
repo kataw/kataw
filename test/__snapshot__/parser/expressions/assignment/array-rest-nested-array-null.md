@@ -14,8 +14,7 @@ result = [...[x, y]] = vals;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ async () => {  def\u0061ult = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

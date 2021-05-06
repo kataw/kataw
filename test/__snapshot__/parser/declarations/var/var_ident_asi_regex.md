@@ -27,8 +27,7 @@ var q
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

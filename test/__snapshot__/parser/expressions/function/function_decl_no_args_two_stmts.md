@@ -7,8 +7,7 @@ function f(){foo;bar}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class Foo extends Base {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

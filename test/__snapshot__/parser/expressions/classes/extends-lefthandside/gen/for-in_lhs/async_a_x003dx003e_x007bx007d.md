@@ -11,8 +11,7 @@ for (async a => {} in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

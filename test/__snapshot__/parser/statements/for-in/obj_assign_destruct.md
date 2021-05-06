@@ -26,8 +26,7 @@ for ({x:a.b}=x in x) ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

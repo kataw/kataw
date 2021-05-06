@@ -11,8 +11,7 @@ import(y=x)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

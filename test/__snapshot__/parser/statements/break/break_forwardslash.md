@@ -7,8 +7,7 @@ for(x of 3)break/
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

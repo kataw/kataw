@@ -7,8 +7,7 @@ class x { get prototype(){} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

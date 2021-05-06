@@ -11,8 +11,7 @@ do do do async try while { catch } while while while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

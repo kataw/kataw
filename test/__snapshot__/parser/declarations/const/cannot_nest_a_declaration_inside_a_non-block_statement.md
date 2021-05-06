@@ -15,8 +15,7 @@ switch (x) { case x: const y = x }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

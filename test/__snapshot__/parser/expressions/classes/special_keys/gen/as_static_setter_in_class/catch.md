@@ -11,8 +11,7 @@ class x {static set catch(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {* private(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {let(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

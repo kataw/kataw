@@ -11,8 +11,7 @@ class x extends set {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

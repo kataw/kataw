@@ -11,8 +11,7 @@ class instanceof {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

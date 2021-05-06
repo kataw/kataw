@@ -11,8 +11,7 @@ new new.target
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

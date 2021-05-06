@@ -26,8 +26,7 @@ for (function(){ a in b; }.prop in x);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ import {'\uD800' as x} from 'foo'
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

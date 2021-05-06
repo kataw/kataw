@@ -26,8 +26,7 @@ type T<U> = U;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ while (x) continue
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

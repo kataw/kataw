@@ -11,8 +11,7 @@ class catch {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

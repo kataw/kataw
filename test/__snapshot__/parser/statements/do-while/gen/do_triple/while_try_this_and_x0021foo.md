@@ -11,8 +11,7 @@ do do do while try this and !foo while while while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

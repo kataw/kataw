@@ -11,8 +11,7 @@ class x {static get await(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

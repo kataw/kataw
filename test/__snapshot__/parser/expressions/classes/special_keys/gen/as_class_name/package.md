@@ -11,8 +11,7 @@ class package {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

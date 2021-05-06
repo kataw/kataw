@@ -26,8 +26,7 @@ class A {static set 10(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -16,8 +16,7 @@ for ((async) of x);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

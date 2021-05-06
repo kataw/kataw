@@ -11,8 +11,7 @@ class x {static set implements(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

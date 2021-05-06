@@ -61,8 +61,7 @@ switch (answer) { case 0: let a; };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ class A {get foo(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

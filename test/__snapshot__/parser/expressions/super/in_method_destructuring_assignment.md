@@ -7,8 +7,7 @@ x = { foo(){ [a = super.foo] = c; }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

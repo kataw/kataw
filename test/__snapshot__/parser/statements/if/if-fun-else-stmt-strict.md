@@ -13,8 +13,7 @@ if (true) function f() {} else ;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

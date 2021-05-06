@@ -26,8 +26,7 @@ class Foo { bar():this { return this; }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

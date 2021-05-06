@@ -11,8 +11,7 @@ class x {static * try(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

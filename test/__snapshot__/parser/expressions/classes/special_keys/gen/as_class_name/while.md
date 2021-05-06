@@ -11,8 +11,7 @@ class while {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

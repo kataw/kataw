@@ -11,8 +11,7 @@ do while [catch] catch
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

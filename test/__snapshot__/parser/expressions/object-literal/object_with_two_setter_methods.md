@@ -7,8 +7,7 @@ x({set [foo](b){}, set [bar](d){}});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

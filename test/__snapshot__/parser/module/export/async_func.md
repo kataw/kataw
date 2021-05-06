@@ -13,8 +13,7 @@ export default async function f(){} foo
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

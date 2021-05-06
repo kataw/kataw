@@ -11,8 +11,7 @@ class x {* enum(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

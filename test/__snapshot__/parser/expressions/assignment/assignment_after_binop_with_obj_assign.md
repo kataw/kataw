@@ -13,8 +13,7 @@ for(x in(t&{}=y))x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

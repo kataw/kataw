@@ -15,8 +15,7 @@ try { } catch ([a = 0]) { }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

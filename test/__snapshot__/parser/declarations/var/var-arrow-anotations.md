@@ -57,8 +57,7 @@ class Array { concat(items:number | string) {}; }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

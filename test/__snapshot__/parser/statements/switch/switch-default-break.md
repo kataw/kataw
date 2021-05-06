@@ -15,8 +15,7 @@ switch(0) { default: function f(){ break; } }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -17,8 +17,7 @@ var a: { [a: number]: string; [b: number]: string; };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

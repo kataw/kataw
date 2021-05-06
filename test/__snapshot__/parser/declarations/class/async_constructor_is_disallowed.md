@@ -15,8 +15,7 @@ class X {    async constructor() {}   }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

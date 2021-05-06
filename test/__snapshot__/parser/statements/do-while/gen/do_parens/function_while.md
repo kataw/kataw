@@ -11,8 +11,7 @@ do( function while while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

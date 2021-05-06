@@ -11,8 +11,7 @@ class x {static void(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -16,8 +16,7 @@ var f: >x:int) => string;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ async (x, /x/g) => x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

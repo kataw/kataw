@@ -11,8 +11,7 @@ class A extends async x => ok {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

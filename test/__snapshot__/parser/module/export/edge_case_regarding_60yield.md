@@ -13,8 +13,7 @@ export default yield x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

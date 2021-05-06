@@ -7,8 +7,7 @@ x = { method(test: string): number { } };
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

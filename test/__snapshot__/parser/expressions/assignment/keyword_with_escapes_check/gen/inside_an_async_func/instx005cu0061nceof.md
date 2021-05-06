@@ -11,8 +11,7 @@ async () => {  inst\u0061nceof = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

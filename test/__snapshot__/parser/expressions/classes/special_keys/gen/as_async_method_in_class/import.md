@@ -11,8 +11,7 @@ class x {async import(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

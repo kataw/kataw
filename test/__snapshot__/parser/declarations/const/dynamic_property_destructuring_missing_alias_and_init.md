@@ -26,8 +26,7 @@ const {[x]};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

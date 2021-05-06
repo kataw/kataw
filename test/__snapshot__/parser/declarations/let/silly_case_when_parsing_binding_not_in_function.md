@@ -15,8 +15,7 @@ let foo,)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

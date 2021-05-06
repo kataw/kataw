@@ -7,8 +7,7 @@ x={ foo(){ return () => function() { super.foo; } }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ class A {set 9(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

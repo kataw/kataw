@@ -14,8 +14,7 @@ async _ => _
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

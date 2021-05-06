@@ -11,8 +11,7 @@ for (a in b) async function *f(){}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

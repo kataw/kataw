@@ -26,8 +26,7 @@ declare type bool = any;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

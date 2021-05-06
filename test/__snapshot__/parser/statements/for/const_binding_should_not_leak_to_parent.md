@@ -15,8 +15,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class x {async implements(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

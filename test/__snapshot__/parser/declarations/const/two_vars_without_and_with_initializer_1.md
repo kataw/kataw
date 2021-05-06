@@ -26,8 +26,7 @@ const [foo, bar=b] = arr;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

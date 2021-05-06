@@ -13,8 +13,7 @@ foo(async function(){})
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

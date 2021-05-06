@@ -11,8 +11,7 @@ import(import(x))
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

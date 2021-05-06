@@ -7,8 +7,7 @@ throw {x} catch (x = y) {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -13,8 +13,7 @@ class A {async set 11(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -18,8 +18,7 @@ x({get 0o4567(){}});
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

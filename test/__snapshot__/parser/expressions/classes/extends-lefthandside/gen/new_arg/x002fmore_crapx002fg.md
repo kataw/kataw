@@ -11,8 +11,7 @@ new /more crap/g
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

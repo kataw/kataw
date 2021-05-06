@@ -7,8 +7,7 @@ x({[new A()]:y})
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

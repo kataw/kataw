@@ -11,8 +11,7 @@ async () => {  sw\u0069tch = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

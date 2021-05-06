@@ -7,8 +7,7 @@ var asserted1 = <any>((n) => { return n; });
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

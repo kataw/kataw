@@ -7,8 +7,7 @@ var af = ({x = 1}) => x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

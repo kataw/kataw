@@ -11,8 +11,7 @@ class C extends Base { set static(v) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

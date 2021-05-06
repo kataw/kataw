@@ -7,8 +7,7 @@ z(z(z(a&&=)));
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

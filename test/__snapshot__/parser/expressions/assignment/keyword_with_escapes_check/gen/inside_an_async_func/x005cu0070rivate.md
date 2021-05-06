@@ -11,8 +11,7 @@ async () => {  \u0070rivate = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

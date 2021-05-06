@@ -7,8 +7,7 @@ let a, b = 42, c;b;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

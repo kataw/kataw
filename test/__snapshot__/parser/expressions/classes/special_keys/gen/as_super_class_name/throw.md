@@ -11,8 +11,7 @@ class x extends throw {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

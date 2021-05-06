@@ -26,8 +26,7 @@ for (x in a>c;;) x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

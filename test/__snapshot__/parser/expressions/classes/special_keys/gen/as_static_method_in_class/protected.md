@@ -11,8 +11,7 @@ class x {static protected(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

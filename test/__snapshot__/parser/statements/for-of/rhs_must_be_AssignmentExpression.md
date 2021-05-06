@@ -26,8 +26,7 @@ for (let x of a,b) c
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

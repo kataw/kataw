@@ -7,8 +7,7 @@ class C { static delete() {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

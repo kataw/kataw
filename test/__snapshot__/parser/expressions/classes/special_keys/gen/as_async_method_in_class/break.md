@@ -11,8 +11,7 @@ class x {async break(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

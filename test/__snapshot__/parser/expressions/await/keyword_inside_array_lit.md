@@ -7,8 +7,7 @@ async g => (x = [await y])
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

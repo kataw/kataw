@@ -26,8 +26,7 @@ for ("foo"[x] of c) d;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

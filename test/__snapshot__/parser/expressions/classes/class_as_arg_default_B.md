@@ -7,8 +7,7 @@ f = ([xCls = class X {}]) => {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

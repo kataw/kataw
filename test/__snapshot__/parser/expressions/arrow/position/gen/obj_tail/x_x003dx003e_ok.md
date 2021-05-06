@@ -11,8 +11,7 @@ x = {arrow: x => ok}.y
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

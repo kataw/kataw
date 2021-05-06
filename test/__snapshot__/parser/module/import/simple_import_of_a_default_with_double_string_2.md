@@ -13,8 +13,7 @@ import {} from "y"
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

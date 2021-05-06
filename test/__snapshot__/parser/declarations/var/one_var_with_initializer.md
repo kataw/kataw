@@ -16,8 +16,7 @@ var [foo=a] = arr;
 
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

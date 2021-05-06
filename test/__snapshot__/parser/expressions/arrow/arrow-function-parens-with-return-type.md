@@ -15,8 +15,7 @@ var foo = ((foo)): string => {};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

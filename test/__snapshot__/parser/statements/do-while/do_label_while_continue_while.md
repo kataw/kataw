@@ -7,8 +7,7 @@ do wow: while (x) continue wow; while (x)
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

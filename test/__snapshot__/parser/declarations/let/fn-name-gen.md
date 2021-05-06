@@ -8,8 +8,7 @@ let gen = function*() {};
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

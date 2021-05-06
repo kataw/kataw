@@ -13,8 +13,7 @@ import { null as nil } from "bar"
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

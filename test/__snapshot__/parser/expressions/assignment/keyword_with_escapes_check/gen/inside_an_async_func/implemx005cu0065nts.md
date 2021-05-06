@@ -11,8 +11,7 @@ async () => {  implem\u0065nts = x  }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

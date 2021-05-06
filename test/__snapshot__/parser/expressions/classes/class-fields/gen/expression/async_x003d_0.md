@@ -11,8 +11,7 @@ class C extends Base { async = 0 }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

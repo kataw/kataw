@@ -26,8 +26,7 @@ let x: string;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -7,8 +7,7 @@ function f(){ x({[new.target]:y}) }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

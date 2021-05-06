@@ -11,8 +11,7 @@ export var await;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

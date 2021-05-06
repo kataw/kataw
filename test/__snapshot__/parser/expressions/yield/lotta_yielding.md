@@ -17,8 +17,7 @@ var gen = async function *g() {
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

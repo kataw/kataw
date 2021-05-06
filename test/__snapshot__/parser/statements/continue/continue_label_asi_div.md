@@ -8,8 +8,7 @@ x: for(;;) continue x
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

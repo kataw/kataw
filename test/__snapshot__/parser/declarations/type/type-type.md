@@ -15,8 +15,7 @@ type Foo<T> = Bar<T>
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

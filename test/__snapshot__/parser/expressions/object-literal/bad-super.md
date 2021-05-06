@@ -7,8 +7,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

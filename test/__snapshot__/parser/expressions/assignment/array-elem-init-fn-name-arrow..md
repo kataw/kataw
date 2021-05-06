@@ -14,8 +14,7 @@ result = [ arrow = () => {} ] = vals;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

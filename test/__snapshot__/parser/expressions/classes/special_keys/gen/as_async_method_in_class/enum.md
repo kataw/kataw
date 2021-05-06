@@ -11,8 +11,7 @@ class x {async enum(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

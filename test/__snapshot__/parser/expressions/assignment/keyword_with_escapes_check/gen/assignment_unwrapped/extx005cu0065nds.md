@@ -11,8 +11,7 @@ ext\u0065nds = x;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

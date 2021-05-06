@@ -11,8 +11,7 @@ class x {async * case(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

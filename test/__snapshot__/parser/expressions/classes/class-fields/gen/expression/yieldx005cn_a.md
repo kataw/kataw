@@ -11,8 +11,7 @@ class C extends Base { yield\n a }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

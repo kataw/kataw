@@ -11,8 +11,7 @@ do[ /**/ /x do while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

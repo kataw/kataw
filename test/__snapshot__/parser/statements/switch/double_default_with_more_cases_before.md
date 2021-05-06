@@ -7,8 +7,7 @@ switch(x) { case y: break; case z: break; default: default: }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

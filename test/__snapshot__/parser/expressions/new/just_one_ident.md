@@ -7,8 +7,7 @@ new Foo()
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

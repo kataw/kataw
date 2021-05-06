@@ -7,8 +7,7 @@ function f() { for await (x of y) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

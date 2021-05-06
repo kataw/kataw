@@ -11,8 +11,7 @@ class x {async f(foo = await bar){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ class C extends Base { set #arguments(test) {} }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

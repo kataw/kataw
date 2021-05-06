@@ -11,8 +11,7 @@ class x {static set debugger(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

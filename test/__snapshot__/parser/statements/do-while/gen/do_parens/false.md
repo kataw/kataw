@@ -11,8 +11,7 @@ do( false while
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

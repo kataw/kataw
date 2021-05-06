@@ -11,8 +11,7 @@ class A extends {bar} {}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

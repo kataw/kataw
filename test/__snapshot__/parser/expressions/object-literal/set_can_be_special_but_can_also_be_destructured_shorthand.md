@@ -7,8 +7,7 @@ wrap({set} = x);
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

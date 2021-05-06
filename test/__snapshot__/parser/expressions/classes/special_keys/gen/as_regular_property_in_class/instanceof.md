@@ -11,8 +11,7 @@ class x {instanceof: x}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

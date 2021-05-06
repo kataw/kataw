@@ -7,8 +7,7 @@ var a = (b) => c;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

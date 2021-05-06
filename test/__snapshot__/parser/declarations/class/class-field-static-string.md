@@ -15,8 +15,7 @@ class C { static '0' }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

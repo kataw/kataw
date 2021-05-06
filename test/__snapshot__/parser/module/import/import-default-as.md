@@ -13,8 +13,7 @@ import {default as foo} from "foo";
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

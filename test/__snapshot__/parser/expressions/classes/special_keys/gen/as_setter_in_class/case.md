@@ -11,8 +11,7 @@ class x {set case(x){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

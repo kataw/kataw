@@ -13,8 +13,7 @@ export var bar;
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

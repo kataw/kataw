@@ -11,8 +11,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

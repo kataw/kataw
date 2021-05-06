@@ -13,8 +13,7 @@ export default function *f(){} foo
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

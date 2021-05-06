@@ -11,8 +11,7 @@ class x {static get switch(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

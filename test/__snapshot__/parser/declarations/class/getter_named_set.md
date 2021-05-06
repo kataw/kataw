@@ -26,8 +26,7 @@ class A {get set(){}}
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {

@@ -11,8 +11,7 @@ async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    }
 `````
 
 ## Output
-
-### Hybrid CST
+### CST
 
 ```javascript
 {
