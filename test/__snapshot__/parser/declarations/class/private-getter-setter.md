@@ -2139,10 +2139,10 @@ class Foo {
     fn(). = 2;
   }
   unary(fn) {
-    fn().;
-    fn().;
-    fn().;
-    fn().;
+    fn().++;
+    fn().--;
+    ++fn().;
+    --fn().;
   }
   binary(fn) {
     fn(). = 1;

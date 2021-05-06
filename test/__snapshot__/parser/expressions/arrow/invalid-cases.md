@@ -91,7 +91,7 @@ a++ => {};
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

@@ -12,7 +12,7 @@ class A extends typeof x {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

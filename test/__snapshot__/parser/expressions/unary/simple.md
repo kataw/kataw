@@ -110,9 +110,9 @@ typeof x;
 
 ```javascript
 
-a;
-b;
-x;
+!a;
++b;
+typeofx;
 ```
 
 ### Diagnostics

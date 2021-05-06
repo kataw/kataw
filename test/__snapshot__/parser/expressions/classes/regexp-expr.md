@@ -9,7 +9,7 @@ typeof class{}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

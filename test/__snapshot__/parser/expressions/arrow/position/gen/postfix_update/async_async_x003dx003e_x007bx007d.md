@@ -12,7 +12,7 @@ async async => {}++
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

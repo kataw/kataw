@@ -75,7 +75,7 @@
 
 ```javascript
 
-{}.x;
+--{}.x;
 ```
 
 ### Diagnostics

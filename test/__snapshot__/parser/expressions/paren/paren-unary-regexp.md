@@ -74,7 +74,7 @@
 
 ```javascript
 
-(/a/g.x);
+(delete/a/g.x);
 ```
 
 ### Diagnostics

@@ -82,7 +82,7 @@ delete x => ok
 
 ```javascript
 
-x =>  ok;
+deletex =>  ok;
 ```
 
 ### Diagnostics

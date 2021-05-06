@@ -12,7 +12,7 @@ type\u006ff = x;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

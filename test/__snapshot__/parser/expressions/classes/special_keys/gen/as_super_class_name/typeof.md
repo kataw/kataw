@@ -12,7 +12,7 @@ class x extends typeof {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

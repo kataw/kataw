@@ -1082,10 +1082,10 @@ class Foo {
 class Foo {
   #x;
   unary() {
-    this.;
-    this.;
-    this.;
-    this.;
+    this.++;
+    this.--;
+    ++this.;
+    --this.;
   }
   binary() {
     this. = 1;

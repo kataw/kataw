@@ -89,7 +89,7 @@
 
 ```javascript
 
-([/=g/m.x]);
+([void/=g/m.x]);
 ```
 
 ### Diagnostics

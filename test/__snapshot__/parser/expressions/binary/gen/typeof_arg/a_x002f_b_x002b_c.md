@@ -99,7 +99,7 @@ typeof a / b + c
 
 ```javascript
 
-a / b + c;
+typeofa / b + c;
 ```
 
 ### Diagnostics

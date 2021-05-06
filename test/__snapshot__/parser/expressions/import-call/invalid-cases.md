@@ -105,7 +105,7 @@ new import(x);
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

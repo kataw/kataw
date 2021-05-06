@@ -72,7 +72,7 @@ new void x
 
 ```javascript
 
-new  x();
+new  voidx();
 ```
 
 ### Diagnostics

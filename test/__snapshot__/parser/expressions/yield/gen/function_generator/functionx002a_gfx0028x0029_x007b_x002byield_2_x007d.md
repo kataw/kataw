@@ -230,7 +230,7 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
 function * gen() {
   function not_gen() {
     function * gf() {
-       2;
+      + 2;
     }
   }
 }

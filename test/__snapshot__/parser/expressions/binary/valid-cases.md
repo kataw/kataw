@@ -809,8 +809,8 @@ a == b;
 a != b;
 a, b;
 a + "''" == b;
-a == b + "''";
-a == "'b'";
+typeofa == b + "''";
+typeofa == "'b'";
 ```
 
 ### Diagnostics

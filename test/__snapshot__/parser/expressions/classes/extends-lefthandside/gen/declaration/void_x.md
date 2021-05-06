@@ -12,7 +12,7 @@ class A extends void x {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

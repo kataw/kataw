@@ -12,7 +12,7 @@ do[ async funcion switch!!
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

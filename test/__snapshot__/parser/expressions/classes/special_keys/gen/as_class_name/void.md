@@ -12,7 +12,7 @@ class void {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

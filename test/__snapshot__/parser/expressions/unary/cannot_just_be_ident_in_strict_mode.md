@@ -55,7 +55,7 @@ delete foo
 
 ```javascript
 
-foo;
+deletefoo;
 ```
 
 ### Diagnostics

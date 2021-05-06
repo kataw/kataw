@@ -74,7 +74,7 @@
 
 ```javascript
 
-[x];
+[voidx];
 ```
 
 ### Diagnostics

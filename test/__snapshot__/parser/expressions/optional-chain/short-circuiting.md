@@ -372,9 +372,9 @@ undefined?.b.c(++x).d; // long short-circuiting.
 
 ```javascript
 
- = (x).d; // long short-circuiting.
+ = (++x).d; // long short-circuiting.
 
- = (x).d; // long short-circuiting.
+ = (++x).d; // long short-circuiting.
 
 ```
 

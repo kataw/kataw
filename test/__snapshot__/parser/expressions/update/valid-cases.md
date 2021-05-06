@@ -447,15 +447,15 @@ new foo().bar++;
 
 ```javascript
 
-foo;
-foo.bar;
-foobar;
-foo()bar;
-foo().bar;
-this.foo;
-thisfoo;
-new  foo()bar;
-new  foo().bar;
+foo++;
+foo.bar++;
+foobar++;
+foo()bar++;
+foo().bar++;
+this.foo++;
+thisfoo++;
+new  foo()bar++;
+new  foo().bar++;
 ```
 
 ### Diagnostics

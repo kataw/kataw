@@ -121,7 +121,7 @@
 
 ```javascript
 
-function f(x) {};
++function f(x) {};
 ```
 
 ### Diagnostics

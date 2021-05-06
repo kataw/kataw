@@ -12,7 +12,7 @@ do {} while (x) { async funcion switch!!
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

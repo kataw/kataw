@@ -12,7 +12,7 @@ async () => {  \u0074ypeof = x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

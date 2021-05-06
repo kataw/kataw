@@ -136,7 +136,7 @@
 ```javascript
 
 function * a() {
-   0;
+   typeof0;
 }
 ```
 

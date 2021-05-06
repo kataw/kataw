@@ -136,7 +136,7 @@
 ```javascript
 
 function * gf() {
-   2;
+  + 2;
 }
 ```
 

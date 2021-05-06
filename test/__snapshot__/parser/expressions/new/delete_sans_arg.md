@@ -8,7 +8,7 @@ new delete
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

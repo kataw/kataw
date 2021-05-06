@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

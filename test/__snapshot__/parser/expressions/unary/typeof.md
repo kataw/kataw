@@ -55,7 +55,7 @@ typeof x
 
 ```javascript
 
-x;
+typeofx;
 ```
 
 ### Diagnostics

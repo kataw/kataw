@@ -12,7 +12,7 @@ for (typeof x in x) ;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

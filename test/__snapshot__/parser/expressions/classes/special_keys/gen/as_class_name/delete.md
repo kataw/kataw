@@ -12,7 +12,7 @@ class delete {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

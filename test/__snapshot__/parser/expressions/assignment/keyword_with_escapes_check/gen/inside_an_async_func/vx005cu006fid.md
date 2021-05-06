@@ -12,7 +12,7 @@ async () => {  v\u006fid = x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

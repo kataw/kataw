@@ -842,7 +842,7 @@
 (class  {
     get #b() {}
     fn() {
-      this.;
+      this.++;
     }
   });
 (class  {
@@ -854,7 +854,7 @@
 (class  {
     #b() {}
     fn() {
-      this.;
+      this.++;
     }
   });
 ```

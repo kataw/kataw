@@ -1557,17 +1557,17 @@ function printBinaryishExpressions(node: any, printer: Printer, parentNode: any,
 
 function printUnaryExpression(node: any, printer: Printer): any {
   if (shouldprintWhitespaceBeforeOperand(node)) {
-    return chain([tokenToString(node.operatorToken), printExpressions(node.operand, printer, node)]);
+    return chain([' ' + printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
   }
-  return chain([tokenToString(node.operatorToken), printExpressions(node.operand, printer, node)]);
+  return chain([printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
 }
 
 function printPrefixUpdateExpression(node: any, printer: Printer): any {
-  return chain([tokenToString(node.operatorToken), , printExpressions(node.operand, printer, node)]);
+  return chain([printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
 }
 
 function printPostfixUpdateExpression(node: any, printer: Printer): any {
-  return chain([printExpressions(node.operand, printer, node), node.operator]);
+  return chain([printExpressions(node.operand, printer, node), printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false)]);
 }
 
 export function isFunctionNode(node: any): node is any {
