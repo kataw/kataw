@@ -1,7 +1,7 @@
 import { Char } from '../parser/scanner/char';
 import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
 import { SyntaxKind, tokenToString } from '../ast/syntax-node';
-import { skipTrivia } from './tweak';
+import { skipWhitespace } from './comments';
 import { SyntaxToken, TokenSyntaxKind } from '../ast/token';
 
 export const enum FormatterKind {
@@ -941,7 +941,7 @@ export function printTokenWithComment(
   leadingspace?: boolean
 ) {
   const startPos = pos;
-  pos = skipTrivia(printer.source, pos);
+  pos = skipWhitespace(printer.source, pos);
 
   let text = tokenToString(token);
 
