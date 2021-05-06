@@ -61,15 +61,17 @@ export function createPrinter(source: string, printWidth: number, tabWidth: numb
 }
 
 export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
-  const { operand, operator, operandToken } = node;
+  const { operand, operandToken } = node;
   return (
-    operator === 'void' ||
-    operator === 'delete' ||
-    operator === 'in' ||
-    operator === 'typeof' ||
+    operandToken.kind === SyntaxKind.VoidKeyword ||
+    operandToken.kind === SyntaxKind.DeleteKeyword ||
+    operandToken.kind === SyntaxKind.InKeyword ||
+    operandToken.kind === SyntaxKind.TypeofKeyword ||
     (operandToken.kind === SyntaxKind.PrefixUpdateExpression &&
-      ((node.operandToken === '+' && (operand.operandToken === '+' || operand.operandToken === '++')) ||
-        (node.operandToken === '-' && (operand.operandToken === '-' || operand.operandToken === '--'))))
+      ((node.operandToken.kind === SyntaxKind.Add &&
+        (operand.operandToken.kind === SyntaxKind.Add || operand.operandToken.kind === SyntaxKind.Increment)) ||
+        (node.operandToken.kind === SyntaxKind.Subtract &&
+          (operand.operandToken.kind === SyntaxKind.Subtract || operand.operandToken.kind === SyntaxKind.Decrement))))
   );
 }
 
