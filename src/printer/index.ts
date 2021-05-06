@@ -883,7 +883,7 @@ function printTemplateExpression(node: any, printer: Printer, parentNode: any): 
   return chain([
     '`',
     chain(elements),
-    parentNode.kind === SyntaxKind.TaggedTemplate && parentNode.literal
+    parentNode.kind === SyntaxKind.TaggedTemplate && parentNode.flags & NodeFlags.TemplateLiteral
       ? chain(['`', printStatements(node.tail, printer, node), '`'])
       : printStatements(node.tail, printer, node),
     '`'
@@ -895,7 +895,7 @@ function printTemplateSpan(node: any, printer: Printer): any {
 }
 
 function printTemplateTail(node: any, _printer: Printer): any {
-  return node.kind === SyntaxKind.TemplateTail ? '`' + node.text + '`' : node.text;
+  return node.flags & NodeFlags.TemplateLiteral ? '`' + node.text + '`' : node.text;
 }
 
 function printBindingProperty(node: any, printer: Printer): any {

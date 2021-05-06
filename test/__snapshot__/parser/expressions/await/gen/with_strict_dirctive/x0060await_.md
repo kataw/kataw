@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -34,7 +34,7 @@
                 "kind": 458761,
                 "text": "await;",
                 "rawText": "'use strict'",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 13,
                 "end": 21
             },

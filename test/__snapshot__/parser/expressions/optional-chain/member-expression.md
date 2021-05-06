@@ -151,7 +151,7 @@ f2`hello world`?.a;
                         "kind": 458761,
                         "text": "hello world",
                         "rawText": "hello world",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 26,
                         "end": 39
                     },

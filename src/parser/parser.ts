@@ -1564,7 +1564,11 @@ function parseMemberExpression(
         expr = createTaggedTemplate(
           expr,
           parser.token === SyntaxKind.TemplateTail
-            ? parseTemplateTail(parser, context)
+            ? parseTemplateTail(
+                parser,
+                context,
+                NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+              )
             : parseTemplateExpression(parser, context, /* isTaggedTemplate */ true),
           pos,
           parser.curPos
@@ -1621,7 +1625,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     chain = createTaggedTemplate(
       chain as any,
       (parser.token as SyntaxKind) === SyntaxKind.TemplateTail
-        ? parseTemplateTail(parser, context)
+        ? parseTemplateTail(parser, context, NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral)
         : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
       pos,
       parser.curPos
@@ -1692,7 +1696,11 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         chain = createTaggedTemplate(
           chain as any,
           parser.token === SyntaxKind.TemplateTail
-            ? parseTemplateTail(parser, context)
+            ? parseTemplateTail(
+                parser,
+                context,
+                NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+              )
             : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
           pos,
           parser.curPos
@@ -2161,7 +2169,11 @@ function parsePrimaryExpression(
     case SyntaxKind.PrivateIdentifier:
       return parsePrivateIdentifier(parser, context);
     case SyntaxKind.TemplateTail:
-      return parseTemplateTail(parser, context);
+      return parseTemplateTail(
+        parser,
+        context,
+        NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+      );
     case SyntaxKind.TemplateCont:
       return parseTemplateExpression(parser, context, /*isTaggedTemplate*/ false);
     case SyntaxKind.ImportKeyword:
@@ -6619,14 +6631,14 @@ export function parseImportMeta(
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
-    const templateSpans = [parseTemplateSpan(parser, context)];
-  
+  const templateSpans = [parseTemplateSpan(parser, context)];
+
   while (scanTemplateTail(parser, context, isTaggedTemplate) === SyntaxKind.TemplateCont) {
     templateSpans.push(parseTemplateSpan(parser, context));
   }
   return createTemplateExpression(
     templateSpans,
-    parseTemplateTail(parser, context),
+    parseTemplateTail(parser, context, NodeFlags.ExpressionNode | NodeFlags.ChildLess),
     nodeFlags | NodeFlags.ExpressionNode,
     pos,
     parser.curPos
@@ -6643,10 +6655,10 @@ function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan 
   return createTemplateSpan(tokenRaw, tokenValue, expression, curPos, parser.curPos);
 }
 
-function parseTemplateTail(parser: ParserState, context: Context): TemplateTail {
+function parseTemplateTail(parser: ParserState, context: Context, flags: NodeFlags): TemplateTail {
   const { curPos, tokenValue, tokenRaw } = parser;
   consume(parser, context | Context.AllowRegExp, SyntaxKind.TemplateTail);
-  return createTemplateTail(tokenRaw, tokenValue, curPos, parser.curPos);
+  return createTemplateTail(tokenRaw, tokenValue, flags, curPos, parser.curPos);
 }
 
 function parseClassDeclaration(

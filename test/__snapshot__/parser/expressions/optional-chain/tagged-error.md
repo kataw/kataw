@@ -12,7 +12,7 @@ a?.()``;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -64,7 +64,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 4,
                         "end": 6
                     },
@@ -125,7 +125,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 17,
                         "end": 19
                     },
@@ -186,7 +186,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 27,
                         "end": 29
                     },

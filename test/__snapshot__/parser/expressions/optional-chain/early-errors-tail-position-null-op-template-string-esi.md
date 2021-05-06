@@ -9,7 +9,7 @@ null?.
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -42,7 +42,7 @@ null?.
                             "kind": 458761,
                             "text": "hello",
                             "rawText": "hello",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 6,
                             "end": 16
                         },

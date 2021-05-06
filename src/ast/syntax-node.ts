@@ -37,7 +37,7 @@ export const enum NodeFlags {
   Const = 1 << 24, // Lexical declaration
   Lexical = 1 << 25, // Lexical declaration
   DuplicateLabels = 1 << 26,
-  HasComments = 1 << 27
+  TemplateLiteral = 1 << 27
 }
 
 /**

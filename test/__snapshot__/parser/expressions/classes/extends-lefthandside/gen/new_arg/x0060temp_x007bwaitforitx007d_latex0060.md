@@ -33,7 +33,7 @@ new `temp {waitforit} late`
                     "kind": 458761,
                     "text": "temp {waitforit} late",
                     "rawText": "temp {waitforit} late",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 3,
                     "end": 27
                 },

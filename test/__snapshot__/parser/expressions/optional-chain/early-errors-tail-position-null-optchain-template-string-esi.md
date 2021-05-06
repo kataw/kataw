@@ -9,7 +9,7 @@ null?.fn
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -60,7 +60,7 @@ null?.fn
                         "kind": 458761,
                         "text": "hello",
                         "rawText": "hello",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 8,
                         "end": 18
                     },

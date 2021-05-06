@@ -9,7 +9,7 @@ a?.`foo`
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -43,7 +43,7 @@ a?.`foo`
                             "kind": 458761,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 3,
                             "end": 8
                         },

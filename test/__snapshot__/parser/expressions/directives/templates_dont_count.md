@@ -54,7 +54,7 @@ function f(){ `use strict`; with (x) y; }
                                 "kind": 458761,
                                 "text": "use strict",
                                 "rawText": "use strict",
-                                "flags": 96,
+                                "flags": 134217824,
                                 "start": 13,
                                 "end": 26
                             },

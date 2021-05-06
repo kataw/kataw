@@ -60,7 +60,7 @@ class A extends fooo`bar` {}
                         "kind": 458761,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 20,
                         "end": 25
                     },

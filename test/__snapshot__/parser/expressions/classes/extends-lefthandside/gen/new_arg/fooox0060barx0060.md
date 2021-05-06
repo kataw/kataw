@@ -43,7 +43,7 @@ new fooo`bar`
                         "kind": 458761,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 8,
                         "end": 13
                     },

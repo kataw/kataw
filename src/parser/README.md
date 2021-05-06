@@ -85,6 +85,7 @@ Multiple API methods exist to get info from the CST nodes
 | `isLexical`              | True if the node is a lexical declaration |
 | `hasNewLine`              | True if the node has a newline |
 | `hasDuplicateLabels`     | True if the node has duplicate labels |
+| `isTemplateLiteral`     | True if the node is a template literal |
 
 ## Escaped keywords
 

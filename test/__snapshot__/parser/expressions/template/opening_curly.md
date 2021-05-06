@@ -21,7 +21,7 @@
                 "kind": 458761,
                 "text": "{",
                 "rawText": "{",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 0,
                 "end": 3
             },

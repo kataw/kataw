@@ -35,7 +35,8 @@ export {
   isLexical,
   isFutureReserved,
   isStartOfType,
-  isSemicolon
+  isSemicolon,
+  isTemplateLiteral
 } from './parser/common';
 export { getTrailingComments, getLeadingComment } from './parser/scanner/comments';
 

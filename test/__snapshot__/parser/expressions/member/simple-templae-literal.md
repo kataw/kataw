@@ -36,7 +36,7 @@
                                     "kind": 458761,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 134217824,
                                     "start": 1,
                                     "end": 4
                                 },

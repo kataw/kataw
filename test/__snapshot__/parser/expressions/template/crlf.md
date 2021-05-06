@@ -33,7 +33,7 @@ b
                     "kind": 458761,
                     "text": "foo\r\nbar",
                     "rawText": "foo\\r\\nbar",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 1,
                     "end": 14
                 },

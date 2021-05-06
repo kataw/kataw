@@ -54,7 +54,7 @@ x => ok`foo`
                         "kind": 458761,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 7,
                         "end": 12
                     },

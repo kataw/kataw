@@ -8,7 +8,7 @@ a?.fn`hello`;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -60,7 +60,7 @@ a?.fn`hello`;
                         "kind": 458761,
                         "text": "hello",
                         "rawText": "hello",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 5,
                         "end": 12
                     },
