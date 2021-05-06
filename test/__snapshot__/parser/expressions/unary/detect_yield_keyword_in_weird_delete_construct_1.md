@@ -142,7 +142,7 @@ function *f(){ delete ("x"[(yield)]) }
 ```javascript
 
 function * f() {
-  delete("\"x\""( ));
+  delete ("\"x\""( ));
 }
 ```
 

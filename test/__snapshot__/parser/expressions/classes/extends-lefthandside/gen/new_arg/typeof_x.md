@@ -72,7 +72,7 @@ new typeof x
 
 ```javascript
 
-new  typeofx();
+new  typeof x();
 ```
 
 ### Diagnostics

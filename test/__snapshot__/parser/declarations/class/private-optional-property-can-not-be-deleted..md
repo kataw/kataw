@@ -223,7 +223,7 @@ class Foo {
   #x;
 
   constructor() {
-    delete = ;
+    delete  = ;
   }
 }
 ```

@@ -88,7 +88,7 @@
 
 ```javascript
 
-[deletex.y];
+[delete x.y];
 ```
 
 ### Diagnostics

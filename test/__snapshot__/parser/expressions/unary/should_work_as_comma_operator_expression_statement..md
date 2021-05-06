@@ -85,7 +85,7 @@ delete foo.bar, z;
 
 ```javascript
 
-deletefoo.bar, z;
+delete foo.bar, z;
 ```
 
 ### Diagnostics

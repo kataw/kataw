@@ -66,7 +66,7 @@ delete typeof true
 
 ```javascript
 
-deletetypeoftrue;
+delete typeof true;
 ```
 
 ### Diagnostics

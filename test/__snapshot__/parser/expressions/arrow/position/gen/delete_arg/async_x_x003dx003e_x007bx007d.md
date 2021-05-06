@@ -93,7 +93,7 @@ delete async x => {}
 
 ```javascript
 
-deleteasync x =>  {};
+delete async x =>  {};
 ```
 
 ### Diagnostics

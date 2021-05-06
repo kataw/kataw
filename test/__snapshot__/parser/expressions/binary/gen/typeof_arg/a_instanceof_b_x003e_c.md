@@ -99,7 +99,7 @@ typeof a instanceof b > c
 
 ```javascript
 
-typeofa inctanceof b > c;
+typeof a inctanceof b > c;
 ```
 
 ### Diagnostics

@@ -207,8 +207,8 @@
 
 ```javascript
 
-([delete/a/g.x]);
-([delete/a/g.x], [delete/a/g.x]);
+([delete /a/g.x]);
+([delete /a/g.x], [delete /a/g.x]);
 ```
 
 ### Diagnostics

@@ -1784,7 +1784,7 @@
 ({ ...1 in {} });
 ({ set foo(b) {}, set bar(d) {} });
 ({ set foo(c) {}, bar() {} });
-({ foo: typeofx });
+({ foo: typeof x });
 ({ foo: true / false });
 ```
 

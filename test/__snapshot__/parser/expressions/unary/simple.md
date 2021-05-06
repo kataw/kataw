@@ -112,7 +112,7 @@ typeof x;
 
 !a;
 +b;
-typeofx;
+typeof x;
 ```
 
 ### Diagnostics

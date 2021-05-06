@@ -74,7 +74,7 @@
 
 ```javascript
 
-[typeofx];
+[typeof x];
 ```
 
 ### Diagnostics

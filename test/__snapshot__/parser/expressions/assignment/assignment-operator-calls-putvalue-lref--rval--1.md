@@ -585,7 +585,7 @@ Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
 (function () {
     assert.throws(ReferenceError, () =>  {
         count++;
-        x = (deleteglobal.x, 2);
+        x = (delete global.x, 2);
         count++;
       });
     count++;

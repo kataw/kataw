@@ -127,7 +127,7 @@ function *a(){yield typeof 0}
 ```javascript
 
 function * a() {
-   typeof0;
+   typeof 0;
 }
 ```
 

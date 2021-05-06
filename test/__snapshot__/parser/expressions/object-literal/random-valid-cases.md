@@ -4630,7 +4630,7 @@ x = { async: b }({ set foo(v) {} });
 ({ * await() {} });
 x = { * "\"foo\""() {} };
 x = { set get(a) {} };
-x = { foo: typeofx };
+x = { foo: typeof x };
 x = { "\"x\"": { a: y + x } };
 a = { w, a: x } = b;
 a = { ...src.y.x } = b;

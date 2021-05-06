@@ -577,25 +577,25 @@
 
 ```javascript
 
-deletethis;
+delete this;
 "\"use strict\"";
-delete1;
+delete 1;
 "\"use strict\"";
-deletefoo();
+delete foo();
 "\"use strict\"";
-delete1 + 2;
+delete 1 + 2;
 "\"use strict\"";
-deletefoo.bar;
+delete foo.bar;
 "\"use strict\"";
-deletefoobar;
+delete foobar;
 "\"use strict\"";
-deletefoo--;
+delete foo--;
 "\"use strict\"";
-delete--foo;
+delete --foo;
 "\"use strict\"";
-deletenew  foo();
+delete new  foo();
 "\"use strict\"";
-deletenew  foo(bar);
+delete new  foo(bar);
 ```
 
 ### Diagnostics
