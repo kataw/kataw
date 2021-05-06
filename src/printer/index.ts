@@ -73,7 +73,7 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
     case SyntaxKind.Identifier:
       return node.text;
     case SyntaxKind.PrivateIdentifier:
-        return node.text;
+      return node.text;
     case SyntaxKind.EmptyStatement:
       return '';
     case SyntaxKind.ExportDefault:
@@ -826,15 +826,17 @@ function printNewTarget(node: any, printer: Printer): any {
 function printCatchClause(node: any, printer: Printer): any {
   return node.catchParameter
     ? chain([
-        'catch',
-        printer.space,
+        printKeyword(node.catchKeyword, printer, node.catchKeyword.start, node, /* separator */ true),
         '(',
         printStatements(node.catchParameter, printer, node),
         ')',
         printer.space,
         printStatements(node.block, printer, node)
       ])
-    : chain(['catch', printer.space, printStatements(node.block, printer, node)]);
+    : chain([
+        printKeyword(node.catchKeyword, printer, node.catchKeyword.start, node, /* separator */ true),
+        printStatements(node.block, printer, node)
+      ]);
 }
 
 function printTaggedTemplate(node: any, printer: Printer): any {
@@ -983,7 +985,9 @@ function printClassElement(node: any, printer: Printer): any {
 
 function printClassDeclarationOrExpression(node: any, printer: Printer): any {
   const parts: any = [
-    node.declareKeyword ? printKeyword(node.declareKeyword, printer, node.declareKeyword.start, node, /* separator */ true) : '',
+    node.declareKeyword
+      ? printKeyword(node.declareKeyword, printer, node.declareKeyword.start, node, /* separator */ true)
+      : '',
     node.decorators ? printDecorators(node.decorators, printer) : '',
     printKeyword(node.classKeyword, printer, node.classKeyword.start, node, /* separator */ true),
     node.name ? printStatements(node.name, printer, node) : ''
@@ -992,7 +996,7 @@ function printClassDeclarationOrExpression(node: any, printer: Printer): any {
   const partsGroup: any = [];
 
   if (node.classHeritage) {
-      parts.push(chain([' ', printStatements(node.classHeritage, printer, node)]));
+    parts.push(chain([' ', printStatements(node.classHeritage, printer, node)]));
   }
 
   if (partsGroup.length > 0) {
@@ -1203,7 +1207,7 @@ function printBindingElementList(node: any, printer: Printer): any {
       return element[itemsKey] && element[itemsKey].length > 1;
     });
 
-  const trailingComma = ''; // printer.trailingComma ? ',' : node.trailingComma ? ',' : '';
+  const trailingComma = printer.trailingComma ? ',' : node.trailingComma ? ',' : '';
 
   return group(
     chain([
@@ -1522,7 +1526,7 @@ function printBinaryishExpressions(node: any, printer: Printer, parentNode: any,
   let parts: any = [];
 
   if (node.kind === SyntaxKind.BinaryExpression) {
-      if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
+    if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
       parts = parts.concat(printBinaryishExpressions1(node.left, printer, node, isInsideParenthesis));
     } else {
       parts.push(printExpressions(node.left, printer, node));
@@ -1556,18 +1560,30 @@ function printBinaryishExpressions(node: any, printer: Printer, parentNode: any,
 }
 
 function printUnaryExpression(node: any, printer: Printer): any {
-  if (shouldprintWhitespaceBeforeOperand(node)) {
-    return chain([' ' + printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
-  }
-  return chain([printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
+  return chain([
+    printKeyword(
+      node.operandToken,
+      printer,
+      node.operandToken.start,
+      node,
+      /* separator */ shouldprintWhitespaceBeforeOperand(node)
+    ),
+    printExpressions(node.operand, printer, node)
+  ]);
 }
 
 function printPrefixUpdateExpression(node: any, printer: Printer): any {
-  return chain([printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false), printExpressions(node.operand, printer, node)]);
+  return chain([
+    printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false),
+    printExpressions(node.operand, printer, node)
+  ]);
 }
 
 function printPostfixUpdateExpression(node: any, printer: Printer): any {
-  return chain([printExpressions(node.operand, printer, node), printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false)]);
+  return chain([
+    printExpressions(node.operand, printer, node),
+    printKeyword(node.operandToken, printer, node.operandToken.start, node, /* separator */ false)
+  ]);
 }
 
 export function isFunctionNode(node: any): node is any {
@@ -1624,12 +1640,19 @@ function printNewExpression(node: any, printer: Printer): any {
 }
 
 function printFunctionDeclarationOrExpression(node: any, printer: Printer): any {
-
   const parts: any[] = [
-    node.declaredKeyword ? printKeyword(node.declaredKeyword, printer, node.declaredKeyword.start, node, /* separator */ true) : '',
-    node.asyncKeyword ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true) : '',
-    node.functionKeyword ? printKeyword(node.functionKeyword, printer, node.functionKeyword.start, node, /* separator */ true) : '',
-    node.generatorToken ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true) : '',
+    node.declaredKeyword
+      ? printKeyword(node.declaredKeyword, printer, node.declaredKeyword.start, node, /* separator */ true)
+      : '',
+    node.asyncKeyword
+      ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true)
+      : '',
+    node.functionKeyword
+      ? printKeyword(node.functionKeyword, printer, node.functionKeyword.start, node, /* separator */ true)
+      : '',
+    node.generatorToken
+      ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true)
+      : ''
   ];
 
   if (node.name) {
