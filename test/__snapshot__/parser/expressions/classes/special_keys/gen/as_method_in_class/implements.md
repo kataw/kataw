@@ -116,7 +116,7 @@ class x {implements(){}}
 
 ```javascript
 
-class {
+class x {
   implements() {}
 }
 ```

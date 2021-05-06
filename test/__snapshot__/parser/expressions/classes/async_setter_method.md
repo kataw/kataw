@@ -163,7 +163,7 @@ class A {async set 11(x){}}
 
 ```javascript
 
-class {
+class A {
   async set;
   11(x) {}
 }

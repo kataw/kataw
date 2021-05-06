@@ -8,7 +8,7 @@ async function * f(){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -86,7 +86,7 @@ async function * f(){}
 
 ```javascript
 
-async function* f() {}
+async function * f() {}
 ```
 
 ### Diagnostics

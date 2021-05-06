@@ -12,7 +12,7 @@ function *f(await){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -104,7 +104,7 @@ function *f(await){}
 
 ```javascript
 
-function* f(await) {}
+function * f(await) {}
 ```
 
 ### Diagnostics

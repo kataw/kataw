@@ -140,7 +140,7 @@ class x {set continue(x){}}
 
 ```javascript
 
-class {
+class x {
   set continue(x) {}
 }
 ```

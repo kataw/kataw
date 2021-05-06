@@ -158,7 +158,7 @@ class w {  t[x](){}  }
 
 ```javascript
 
-class {
+class w {
   t;
   [x]() {}
 }

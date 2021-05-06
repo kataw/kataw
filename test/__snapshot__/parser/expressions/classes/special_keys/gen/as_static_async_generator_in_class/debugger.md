@@ -131,7 +131,7 @@ class x {static async * debugger(){}}
 
 ```javascript
 
-class {
+class x {
   async static static debugger() {}
 }
 ```

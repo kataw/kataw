@@ -64,7 +64,7 @@ class await {}
 
 ```javascript
 
-class {}
+class await {}
 ```
 
 ### Diagnostics

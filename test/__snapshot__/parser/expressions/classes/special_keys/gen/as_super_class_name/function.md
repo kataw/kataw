@@ -115,7 +115,7 @@ class x extends function {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

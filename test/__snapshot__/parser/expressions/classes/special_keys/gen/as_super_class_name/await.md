@@ -84,7 +84,7 @@ class x extends await {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

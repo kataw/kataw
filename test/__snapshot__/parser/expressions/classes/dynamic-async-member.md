@@ -123,7 +123,7 @@ class A {async [foo](){}}
 
 ```javascript
 
-class {
+class A {
   async [foo]() {}
 }
 ```

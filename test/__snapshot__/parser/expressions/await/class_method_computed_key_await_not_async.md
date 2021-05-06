@@ -231,7 +231,7 @@
 
 ```javascript
 
-(fail = class {
+(fail = class A {
   [await]() {}
 
   "\"x\""() {}

@@ -164,8 +164,8 @@
 
 ```javascript
 
-class {
-  ;
+class C {
+  #aaa;
 
   f() {
     this.;

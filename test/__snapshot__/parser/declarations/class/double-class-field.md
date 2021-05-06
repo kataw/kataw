@@ -128,7 +128,7 @@ class C { aaa; bbb}
 
 ```javascript
 
-class {
+class C {
   aaa;
 
   bbb;

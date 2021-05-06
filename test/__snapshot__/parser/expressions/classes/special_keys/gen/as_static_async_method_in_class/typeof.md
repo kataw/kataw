@@ -126,7 +126,7 @@ class x {static async typeof(){}}
 
 ```javascript
 
-class {
+class x {
   async static static typeof() {}
 }
 ```

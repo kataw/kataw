@@ -121,7 +121,7 @@ class x {* catch(){}}
 
 ```javascript
 
-class {
+class x {
   catch() {}
 }
 ```

@@ -143,8 +143,8 @@ class C { set #aaa(x){} }
 
 ```javascript
 
-class {
-  set (x) {}
+class C {
+  set #aaa(x) {}
 }
 ```
 

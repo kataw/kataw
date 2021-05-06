@@ -4335,181 +4335,181 @@ a});
 
 ```javascript
 
-class {
-  static  = bar;
+class x {
+  static #foo = bar;
 }
-(class {
+(class C {
     static a = 0;
 
   });
-(class {
+(class C {
     static a = 0;
 
     b;
   });
-(class {
+(class C {
     static a = 0;
 
     b() {}
   });
-(class {
+(class C {
     static a = 0;
 
     b() {}
   });
-(class {
+(class C {
     static a = 0;
 
     ["'b'"]() {}
   });
-(class {
+(class C {
     static a;
 
   });
-(class {
+(class C {
     static a;
 
     b;
 
   });
-(class {
+(class C {
     static a;
 
     b() {}
   });
-(class {
+(class C {
     static a;
 
     b() {}
   });
-(class {
+(class C {
     static a;
 
     ["'b'"]() {}
   });
-(class {
+(class C {
     static ["'a'"] = 0;
 
   });
-(class {
+(class C {
     static ["'a'"] = 0;
 
     b;
   });
-(class {
+(class C {
     static ["'a'"] = 0;
 
     b() {}
   });
-(class {
+(class C {
     static ["'a'"] = 0;
 
     b() {}
   });
-(class {
+(class C {
     static ["'a'"] = 0;
 
     ["'b'"]() {}
   });
-(class {
+(class C {
     static ["'a'"];
 
   });
-(class {
+(class C {
     static ["'a'"];
 
     b;
 
   });
-(class {
+(class C {
     static ["'a'"];
 
     b() {}
   });
-(class {
+(class C {
     static ["'a'"];
 
     b() {}
   });
-(class {
+(class C {
     static ["'a'"];
 
     ["'b'"]() {}
   });
-(class  {
+(class   {
     static 0 = 0;
 
   });
-(class  {
+(class   {
     static 0;
 
   });
-(class  {
+(class   {
     static "'a'" = 0;
 
   });
-(class  {
+(class   {
     static "'a'";
 
   });
-(class {
+(class C {
     static yield = 0;
   });
-(class {
+(class C {
     static yield;
     a;
   });
-(class {
+(class C {
     static async;
 
   });
-(class {
+(class C {
     static async = 0;
 
   });
-(class {
+(class C {
     static async;
   });
-(class {
+(class C {
     static async = 0;
   });
-(class {
+(class C {
     async static static a() {}
   }); // a field named async, and a method named a.
 
-(class {
+(class C {
     static async a;
   });
-(class {
+(class C {
     static await;
 
   });
-(class {
+(class C {
     static await = 0;
 
   });
-(class {
+(class C {
     static await;
     a;
   });
-(class {
+(class C {
     static c = [c] = c;
   });
-(class {
+(class  {
     static a = 0;
   });
-(class {
+(class  {
     static a = 0;
     b;
   });
-(class {
+(class  {
     static a = 0;
     b() {}
   });
-(class {
+(class  {
     static a;
   });
-(class {
+(class  {
     static a;
     b;
   });

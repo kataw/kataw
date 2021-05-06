@@ -116,7 +116,7 @@ class x {eval(){}}
 
 ```javascript
 
-class {
+class x {
   eval() {}
 }
 ```

@@ -12,7 +12,7 @@ function f(a = async (x, y) => ok) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

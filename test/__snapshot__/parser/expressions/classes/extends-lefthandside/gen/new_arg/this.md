@@ -58,7 +58,7 @@ new this
 
 ```javascript
 
- this();
+new  this();
 ```
 
 ### Diagnostics

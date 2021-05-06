@@ -140,7 +140,7 @@ class x {set switch(x){}}
 
 ```javascript
 
-class {
+class x {
   set switch(x) {}
 }
 ```

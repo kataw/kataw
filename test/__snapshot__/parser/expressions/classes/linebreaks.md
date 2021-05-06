@@ -705,7 +705,7 @@ class A {
 
 ```javascript
 
-class {
+class A {
   get a() {}
   set a(a) {}
   constructor() {}

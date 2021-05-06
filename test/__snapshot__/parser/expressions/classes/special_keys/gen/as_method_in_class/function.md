@@ -116,7 +116,7 @@ class x {function(){}}
 
 ```javascript
 
-class {
+class x {
   function() {}
 }
 ```

@@ -166,7 +166,7 @@ class x { static set [y](z){}}
 
 ```javascript
 
-class {
+class x {
   static set static [y](z) {}
 }
 ```

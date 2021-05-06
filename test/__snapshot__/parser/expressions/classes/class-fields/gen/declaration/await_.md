@@ -92,7 +92,7 @@ class C { await; }
 
 ```javascript
 
-class {
+class C {
   await;
 
 }

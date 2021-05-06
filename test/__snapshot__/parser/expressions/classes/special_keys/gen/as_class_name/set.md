@@ -64,7 +64,7 @@ class set {}
 
 ```javascript
 
-class {}
+class set {}
 ```
 
 ### Diagnostics

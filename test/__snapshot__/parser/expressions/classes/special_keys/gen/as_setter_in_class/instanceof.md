@@ -140,7 +140,7 @@ class x {set instanceof(x){}}
 
 ```javascript
 
-class {
+class x {
   set instanceof(x) {}
 }
 ```

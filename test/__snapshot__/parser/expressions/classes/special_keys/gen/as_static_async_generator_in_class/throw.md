@@ -131,7 +131,7 @@ class x {static async * throw(){}}
 
 ```javascript
 
-class {
+class x {
   async static static throw() {}
 }
 ```

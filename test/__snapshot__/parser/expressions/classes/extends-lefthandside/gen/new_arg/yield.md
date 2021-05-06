@@ -60,7 +60,7 @@ new yield
 
 ```javascript
 
- yield();
+new  yield();
 ```
 
 ### Diagnostics

@@ -914,33 +914,33 @@
 
 ```javascript
 
-(class {
-    get () {
-      class {
-        () {}
+(class  {
+    get #a() {
+      class C {
+        #a() {}
       }
     }
   });
-(class {
-    get () {
-      class {
-        get () {}
+(class  {
+    get #a() {
+      class C {
+        get #a() {}
       }
     }
   });
-(class {
-    set (val) {}
-    get () {
-      class {
-        get () {}
-        set (val) {}
+(class  {
+    set #a(val) {}
+    get #a() {
+      class C {
+        get #a() {}
+        set #a(val) {}
       }
     }
   });
-(class {
-    () {
-      class {
-        set (val) {}
+(class  {
+    #a() {
+      class C {
+        set #a(val) {}
       }
     }
   });

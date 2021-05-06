@@ -833,26 +833,26 @@
 
 ```javascript
 
-(class {
-    set (val) {}
+(class  {
+    set #b(val) {}
     fn() {
       return  this.;
     }
   });
-(class {
-    get () {}
+(class  {
+    get #b() {}
     fn() {
       this.;
     }
   });
-(class {
-    get () {}
+(class  {
+    get #b() {}
     fn(obj) {
       ({ y: this. } = obj);
     }
   });
-(class {
-    () {}
+(class  {
+    #b() {}
     fn() {
       this.;
     }

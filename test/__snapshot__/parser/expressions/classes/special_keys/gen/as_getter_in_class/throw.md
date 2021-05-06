@@ -121,7 +121,7 @@ class x {get throw(){}}
 
 ```javascript
 
-class {
+class x {
   get throw() {}
 }
 ```

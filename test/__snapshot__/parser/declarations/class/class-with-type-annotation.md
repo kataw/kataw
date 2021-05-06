@@ -161,7 +161,7 @@ class Foo { bar():this { return this; }}
 
 ```javascript
 
-class {
+class Foo {
   bar() {
     return  this;
   }

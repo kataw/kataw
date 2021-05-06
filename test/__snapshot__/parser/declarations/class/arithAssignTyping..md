@@ -481,7 +481,7 @@ f ^= 1;
 
 ```javascript
 
-class {}
+class f {}
 f += "''";
 f += 1;
 f -= 1;

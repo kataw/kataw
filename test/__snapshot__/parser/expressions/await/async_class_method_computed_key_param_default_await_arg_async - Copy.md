@@ -330,7 +330,7 @@ async function f(){
 ```javascript
 
 async function f() {
-  (fail = class {
+  (fail = class A {
     async [x](y = await z) {}
 
     "\"x\""() {}

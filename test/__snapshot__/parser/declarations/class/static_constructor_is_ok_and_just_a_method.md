@@ -136,7 +136,7 @@ class x { static "constructor"(){} }
 
 ```javascript
 
-class {
+class x {
   static static "\"constructor\""() {}
 }
 ```

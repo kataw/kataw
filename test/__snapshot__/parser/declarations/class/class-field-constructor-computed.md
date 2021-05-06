@@ -295,16 +295,16 @@ class Foo { static ['constructor'] = 1 }
 
 ```javascript
 
-class {
+class Foo {
   ["'constructor'"];
 }
-class {
+class Foo {
   ["'constructor'"] = 1;
 }
-class {
+class Foo {
   static ["'constructor'"];
 }
-class {
+class Foo {
   static ["'constructor'"] = 1;
 }
 ```

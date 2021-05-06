@@ -110,7 +110,7 @@ export default class Foo {}++x
 
 ```javascript
 
- default class {};
+ default class Foo {};
 x;
 ```
 

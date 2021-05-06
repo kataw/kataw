@@ -113,7 +113,7 @@ x; {}
 
 ```javascript
 
-class  {}
+class A  {}
 x;
 {
 }

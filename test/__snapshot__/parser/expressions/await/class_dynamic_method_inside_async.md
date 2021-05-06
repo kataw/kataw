@@ -10,7 +10,7 @@ async function f() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -193,7 +193,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  class {
+  class x {
     [x](await) {}
   }
 }

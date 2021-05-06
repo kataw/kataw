@@ -402,11 +402,11 @@ class C {
 
 ```javascript
 
-class {
-  ;
+class C {
+  #brand;
 
-  () {}
-  get () {}
+  #method() {}
+  get #getter() {}
   static static isC(obj) {
     return   in obj &&  in obj &&  in obj;
   }

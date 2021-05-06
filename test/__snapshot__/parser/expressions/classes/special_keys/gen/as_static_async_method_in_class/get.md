@@ -126,7 +126,7 @@ class x {static async get(){}}
 
 ```javascript
 
-class {
+class x {
   async static static get() {}
 }
 ```

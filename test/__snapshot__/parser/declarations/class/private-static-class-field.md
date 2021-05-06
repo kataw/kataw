@@ -105,8 +105,8 @@ class C { static #aaa }
 
 ```javascript
 
-class {
-  static ;
+class C {
+  static #aaa;
 }
 ```
 

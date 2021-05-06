@@ -128,7 +128,7 @@ class x { async *[y](){}}
 
 ```javascript
 
-class {
+class x {
   async [y]() {}
 }
 ```

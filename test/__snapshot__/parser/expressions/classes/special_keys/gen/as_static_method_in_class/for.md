@@ -121,7 +121,7 @@ class x {static for(){}}
 
 ```javascript
 
-class {
+class x {
   static static for() {}
 }
 ```

@@ -117,7 +117,7 @@ class A {*foo(){}}
 
 ```javascript
 
-class {
+class A {
   foo() {}
 }
 ```

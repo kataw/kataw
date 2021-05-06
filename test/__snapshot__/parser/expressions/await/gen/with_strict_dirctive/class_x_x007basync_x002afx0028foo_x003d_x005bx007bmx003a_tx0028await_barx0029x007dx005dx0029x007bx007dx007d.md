@@ -241,7 +241,7 @@
 
 ```javascript
 
-class {
+class x {
   async f(foo = [{ m: t(await bar) }]) {}
 }
 ```

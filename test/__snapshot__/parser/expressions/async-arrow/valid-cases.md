@@ -70,7 +70,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -4909,7 +4909,7 @@ async ([a, b]) =>  1
 async ({ a }) =>  1
 async ({ a, b }) =>  1
 async a =>  async b =>  c;
-async a =>  async function() {};
+async a =>  async function () {};
 async a =>  async function b() {};
 async a =>  await 1;
 async x =>  x =>  x;

@@ -121,7 +121,7 @@ class x {get break(){}}
 
 ```javascript
 
-class {
+class x {
   get break() {}
 }
 ```

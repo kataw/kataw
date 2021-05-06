@@ -895,7 +895,7 @@ var callCount = 0;
 var source = [3, 4, 5];
 var target;
 var callCount = 0;
-(function() {
+(function () {
     assert.sameValue(arguments.length, 5);
     assert.sameValue(arguments0, 1);
     assert.sameValue(arguments1, 2);

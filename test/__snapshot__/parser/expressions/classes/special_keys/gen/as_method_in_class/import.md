@@ -116,7 +116,7 @@ class x {import(){}}
 
 ```javascript
 
-class {
+class x {
   import() {}
 }
 ```

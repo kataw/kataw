@@ -126,7 +126,7 @@ class x {async * throw(){}}
 
 ```javascript
 
-class {
+class x {
   async throw() {}
 }
 ```

@@ -10,7 +10,7 @@ function *f() { yield
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -158,7 +158,7 @@ function *f() { yield
 
 ```javascript
 
-function* f() {
+function * f() {
    {} / 1 / g;
 }
 ```

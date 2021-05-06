@@ -194,7 +194,7 @@ class x { "constructor"(){}; constructor(){}; }
 
 ```javascript
 
-class {
+class x {
   "\"constructor\""() {}
 
   constructor() {}

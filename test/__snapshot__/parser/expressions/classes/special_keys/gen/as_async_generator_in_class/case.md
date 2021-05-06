@@ -126,7 +126,7 @@ class x {async * case(){}}
 
 ```javascript
 
-class {
+class x {
   async case() {}
 }
 ```

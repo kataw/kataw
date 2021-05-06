@@ -84,7 +84,7 @@ class x extends get {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

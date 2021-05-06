@@ -157,7 +157,7 @@ class x { async get foo(){ }}
 
 ```javascript
 
-class {
+class x {
   async get;
   foo() {}
 }

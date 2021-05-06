@@ -164,8 +164,8 @@ class C { #aaa; f() { this.#aaa } }
 
 ```javascript
 
-class {
-  ;
+class C {
+  #aaa;
 
   f() {
     this.;

@@ -128,7 +128,7 @@
 
 ```javascript
 
-function* gf() {
+function * gf() {
    ;
 }
 ```

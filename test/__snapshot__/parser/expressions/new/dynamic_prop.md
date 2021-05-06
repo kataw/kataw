@@ -122,7 +122,7 @@ x({[new A()]:y})
 
 ```javascript
 
-x({ [ A()]: y });
+x({ [new  A()]: y });
 ```
 
 ### Diagnostics

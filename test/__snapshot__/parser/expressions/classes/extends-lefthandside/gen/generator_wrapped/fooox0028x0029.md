@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -153,8 +153,8 @@ function *P(){
 
 ```javascript
 
-function* P() {
-  class  {}
+function * P() {
+  class D  {}
 }
 ```
 

@@ -141,7 +141,7 @@ x = class extends (a ? null : yield) { }
 
 ```javascript
 
-x = class  {};
+x = class   {};
 ```
 
 ### Diagnostics

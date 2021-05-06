@@ -144,7 +144,7 @@ class x{[x](a=await){}}
 
 ```javascript
 
-class {
+class x {
   [x](a = await) {}
 }
 ```

@@ -227,9 +227,9 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
 
 ```javascript
 
-function* gen() {
+function * gen() {
   function not_gen() {
-    function* a() {
+    function * a() {
        0;
     }
   }

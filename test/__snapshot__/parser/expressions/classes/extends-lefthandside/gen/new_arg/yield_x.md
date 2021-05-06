@@ -76,7 +76,7 @@ x
 
 ```javascript
 
- yield();
+new  yield();
 x;
 ```
 

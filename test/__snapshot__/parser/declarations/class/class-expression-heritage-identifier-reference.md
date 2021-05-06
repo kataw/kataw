@@ -141,8 +141,8 @@ var B = class extends A {}
 
 ```javascript
 
-class {}
-var B = class  {};
+class A {}
+var B = class   {};
 ```
 
 ### Diagnostics

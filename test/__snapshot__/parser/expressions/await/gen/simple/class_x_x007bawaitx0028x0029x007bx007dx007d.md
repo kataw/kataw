@@ -116,7 +116,7 @@ class x {await(){}}
 
 ```javascript
 
-class {
+class x {
   await() {}
 }
 ```

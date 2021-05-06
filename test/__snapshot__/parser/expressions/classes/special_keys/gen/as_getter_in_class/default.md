@@ -121,7 +121,7 @@ class x {get default(){}}
 
 ```javascript
 
-class {
+class x {
   get default() {}
 }
 ```

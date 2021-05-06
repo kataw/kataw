@@ -140,7 +140,7 @@ class x {set async(x){}}
 
 ```javascript
 
-class {
+class x {
   set async(x) {}
 }
 ```

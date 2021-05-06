@@ -128,7 +128,7 @@ function *f() {  return typeof yield foo;  }
 
 ```javascript
 
-function* f() {
+function * f() {
   return   foo;
 }
 ```

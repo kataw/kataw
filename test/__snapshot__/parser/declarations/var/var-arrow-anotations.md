@@ -2255,7 +2255,7 @@ var {
 var a;
 var x = Y;
 var a;
-class {
+class Array {
   concat(items) {}
 
 }

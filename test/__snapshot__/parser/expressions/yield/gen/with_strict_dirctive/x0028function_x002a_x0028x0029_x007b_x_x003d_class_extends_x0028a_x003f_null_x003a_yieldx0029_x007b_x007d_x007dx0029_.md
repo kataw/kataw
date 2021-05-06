@@ -214,8 +214,8 @@
 
 ```javascript
 
-(function*() {
-    x = class  {};
+(function * () {
+    x = class   {};
   });
 ```
 

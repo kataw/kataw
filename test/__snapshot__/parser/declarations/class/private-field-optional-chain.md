@@ -314,8 +314,8 @@ class Foo {
 
 ```javascript
 
-class {
-  ;
+class Foo {
+  #x;
   foo() {
      = ;
      = ;

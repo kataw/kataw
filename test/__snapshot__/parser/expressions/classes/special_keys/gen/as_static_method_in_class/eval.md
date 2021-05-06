@@ -121,7 +121,7 @@ class x {static eval(){}}
 
 ```javascript
 
-class {
+class x {
   static static eval() {}
 }
 ```

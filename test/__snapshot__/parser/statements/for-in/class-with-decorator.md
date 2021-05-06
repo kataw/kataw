@@ -83,7 +83,7 @@ class x {}
 ```javascript
 
 @A
-class {}
+class x {}
 ```
 
 ### Diagnostics

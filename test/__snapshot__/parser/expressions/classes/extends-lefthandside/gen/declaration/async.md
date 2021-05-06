@@ -84,7 +84,7 @@ class A extends async {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

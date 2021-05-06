@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -150,7 +150,7 @@
 
 ```javascript
 
-function* g() {
+function * g() {
   x ?   : y;
 }
 ```

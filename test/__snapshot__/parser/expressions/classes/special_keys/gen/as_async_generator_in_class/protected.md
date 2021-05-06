@@ -126,7 +126,7 @@ class x {async * protected(){}}
 
 ```javascript
 
-class {
+class x {
   async protected() {}
 }
 ```

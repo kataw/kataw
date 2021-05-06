@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -178,7 +178,7 @@ async function p(){
 ```javascript
 
 async function p() {
-  class  {}
+  class C  {}
 }
 ```
 

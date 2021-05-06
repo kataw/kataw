@@ -8,7 +8,7 @@ function* foo(a = function* foo() { yield b }) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -179,7 +179,7 @@ function* foo(a = function* foo() { yield b }) {}
 
 ```javascript
 
-function* foo(a = function* foo() {
+function * foo(a = function * foo() {
    b;
 }) {}
 ```

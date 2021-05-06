@@ -121,7 +121,7 @@ class x {get extends(){}}
 
 ```javascript
 
-class {
+class x {
   get extends() {}
 }
 ```

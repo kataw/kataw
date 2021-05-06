@@ -121,7 +121,7 @@ class x {get while(){}}
 
 ```javascript
 
-class {
+class x {
   get while() {}
 }
 ```

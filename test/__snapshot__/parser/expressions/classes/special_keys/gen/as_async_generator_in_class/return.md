@@ -126,7 +126,7 @@ class x {async * return(){}}
 
 ```javascript
 
-class {
+class x {
   async return() {}
 }
 ```

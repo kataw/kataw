@@ -145,7 +145,7 @@ class x {static set break(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static break(x) {}
 }
 ```

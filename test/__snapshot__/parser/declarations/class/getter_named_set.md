@@ -136,7 +136,7 @@ class A {get set(){}}
 
 ```javascript
 
-class {
+class A {
   get set() {}
 }
 ```

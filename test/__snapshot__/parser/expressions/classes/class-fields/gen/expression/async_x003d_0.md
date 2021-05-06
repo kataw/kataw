@@ -113,7 +113,7 @@ class C extends Base { async = 0 }
 
 ```javascript
 
-class  {
+class C  {
   async = 0;
 }
 ```

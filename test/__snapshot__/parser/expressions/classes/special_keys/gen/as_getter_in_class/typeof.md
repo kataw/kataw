@@ -121,7 +121,7 @@ class x {get typeof(){}}
 
 ```javascript
 
-class {
+class x {
   get typeof() {}
 }
 ```

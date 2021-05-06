@@ -4102,180 +4102,180 @@
 
 ```javascript
 
-(class {
+(class X {
     a;
 
-  })(class {
+  })(class  {
     a = 0;
 
   });
-(class {
+(class  {
     a = 0;
 
     b;
   });
-(class {
+(class  {
     a = 0;
 
     b() {}
   });
-(class {
+(class  {
     a = 0;
 
     b() {}
   });
-(class {
+(class  {
     a = 0;
 
     ["'b'"]() {}
   });
-(class {
+(class  {
     a;
 
   });
-(class {
+(class  {
     a;
 
     b;
 
   });
-(class {
+(class  {
     a;
 
     b() {}
   });
-(class {
+(class  {
     a;
 
     b() {}
   });
-(class {
+(class  {
     a;
 
     ["'b'"]() {}
   });
-(class {
+(class  {
     ["'a'"] = 0;
 
   });
-(class {
+(class  {
     ["'a'"] = 0;
 
     b;
   });
-(class {
+(class  {
     ["'a'"] = 0;
 
     b() {}
   });
-(class {
+(class  {
     ["'a'"] = 0;
 
     b() {}
   });
-(class {
+(class  {
     ["'a'"] = 0;
 
     ["'b'"]() {}
   });
-(class {
+(class  {
     ["'a'"];
 
   });
-(class {
+(class  {
     ["'a'"];
 
     b;
 
   });
-(class {
+(class  {
     ["'a'"];
 
     b() {}
   });
-(class {
+(class  {
     ["'a'"];
 
     b() {}
   });
-(class {
+(class  {
     ["'a'"];
 
     ["'b'"]() {}
   });
-(class {
+(class  {
     0 = 0;
 
   });
-(class {
+(class  {
     0;
 
   });
-(class {
+(class  {
     "'a'" = 0;
 
   });
-(class {
+(class  {
     "'a'";
 
   });
-(class {
+(class  {
     a = 0;
   });
-(class {
+(class  {
     a = 0;
     b;
   });
-(class {
+(class  {
     a = 0;
     b() {}
   });
-(class {
+(class  {
     a;
   });
-(class {
+(class  {
     a;
     b;
   });
-(class {
+(class  {
     a;
     b() {}
   });
-(class {
+(class  {
     a;
     b() {}
   });
-(class {
+(class  {
     a;
     ["'b'"]() {}
   });
-(class {
+(class  {
     ["'a'"] = 0;
   });
-(class {
+(class  {
     ["'a'"] = 0;
     b;
   });
-(class {
+(class  {
     ["'a'"] = 0;
     b() {}
   });
-(class {
+(class  {
     ["'a'"];
   });
-(class {
+(class  {
     ["'a'"];
     b;
   });
-(class {
+(class  {
     ["'a'"];
     b() {}
   });
-(class {
+(class  {
     ["'a'"];
     b() {}
   });
-(class {
+(class  {
     ["'a'"];
     ["'b'"]() {}
   });

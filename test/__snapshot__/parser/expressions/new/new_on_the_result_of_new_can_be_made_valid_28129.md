@@ -90,7 +90,7 @@ new new A().foo
 
 ```javascript
 
-  A()().foo;
+new  new  A()().foo;
 ```
 
 ### Diagnostics

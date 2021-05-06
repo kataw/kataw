@@ -121,7 +121,7 @@ class x {get await(){}}
 
 ```javascript
 
-class {
+class x {
   get await() {}
 }
 ```

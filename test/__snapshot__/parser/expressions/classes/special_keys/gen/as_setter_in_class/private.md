@@ -140,7 +140,7 @@ class x {set private(x){}}
 
 ```javascript
 
-class {
+class x {
   set private(x) {}
 }
 ```

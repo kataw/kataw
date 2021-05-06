@@ -113,7 +113,7 @@
 
 ```javascript
 
-(class {} / foo / g);
+(class  {} / foo / g);
 ```
 
 ### Diagnostics

@@ -155,7 +155,7 @@ class A {set "foo"(x){}}
 
 ```javascript
 
-class {
+class A {
   set "\"foo\""(x) {}
 }
 ```

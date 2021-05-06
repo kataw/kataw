@@ -8,7 +8,7 @@ function foo() { return {eval} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

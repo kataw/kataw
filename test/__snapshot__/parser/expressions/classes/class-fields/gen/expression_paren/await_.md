@@ -96,7 +96,7 @@
 
 ```javascript
 
-(class {
+(class  {
     await;
 
   });

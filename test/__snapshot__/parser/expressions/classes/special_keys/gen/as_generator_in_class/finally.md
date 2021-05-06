@@ -121,7 +121,7 @@ class x {* finally(){}}
 
 ```javascript
 
-class {
+class x {
   finally() {}
 }
 ```

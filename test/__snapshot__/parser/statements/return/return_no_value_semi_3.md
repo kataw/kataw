@@ -8,7 +8,7 @@ function f(){   return 15;    }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

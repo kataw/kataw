@@ -166,7 +166,7 @@ class Foo {set fooProp(value:number):void{}}
 
 ```javascript
 
-class {
+class Foo {
   set fooProp(value) {}
 }
 ```

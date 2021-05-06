@@ -139,7 +139,7 @@ a=function<T,S>() {}
 
 ```javascript
 
-a = function() {};
+a = function () {};
 ```
 
 ### Diagnostics

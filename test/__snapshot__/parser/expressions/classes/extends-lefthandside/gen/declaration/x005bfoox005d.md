@@ -99,7 +99,7 @@ class A extends [foo] {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

@@ -116,7 +116,7 @@ class x {for(){}}
 
 ```javascript
 
-class {
+class x {
   for() {}
 }
 ```

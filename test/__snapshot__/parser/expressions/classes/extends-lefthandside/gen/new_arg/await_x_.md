@@ -76,7 +76,7 @@ x;
 
 ```javascript
 
- await();
+new  await();
 x;
 ```
 

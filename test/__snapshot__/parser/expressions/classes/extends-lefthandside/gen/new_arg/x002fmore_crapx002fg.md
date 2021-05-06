@@ -59,7 +59,7 @@ new /more crap/g
 
 ```javascript
 
- /more crap/g();
+new  /more crap/g();
 ```
 
 ### Diagnostics

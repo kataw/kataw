@@ -159,8 +159,8 @@ class C extends Base { set #arguments(test) {} }
 
 ```javascript
 
-class  {
-  set (test) {}
+class C  {
+  set #arguments(test) {}
 }
 ```
 

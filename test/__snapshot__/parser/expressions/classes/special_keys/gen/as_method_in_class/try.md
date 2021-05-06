@@ -116,7 +116,7 @@ class x {try(){}}
 
 ```javascript
 
-class {
+class x {
   try() {}
 }
 ```

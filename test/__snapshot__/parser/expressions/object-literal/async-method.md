@@ -961,7 +961,7 @@
 
 ```javascript
 
-({ * async method([x] = gSymbol.iterator = function() {}) {} });
+({ * async method([x] = gSymbol.iterator = function () {}) {} });
 ({ * async method({
     w: [x, y, z] = [4, 5, 6]
   } = {}) {} });

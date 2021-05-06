@@ -64,7 +64,7 @@ class this {}
 
 ```javascript
 
-class {}
+class this {}
 ```
 
 ### Diagnostics

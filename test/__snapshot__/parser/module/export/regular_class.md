@@ -95,7 +95,7 @@ export class x {} foo
 
 ```javascript
 
- class {}
+ class x {}
 foo;
 ```
 

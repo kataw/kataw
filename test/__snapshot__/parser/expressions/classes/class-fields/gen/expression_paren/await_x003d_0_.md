@@ -103,7 +103,7 @@
 
 ```javascript
 
-(class {
+(class  {
     await = 0;
 
   });

@@ -116,7 +116,7 @@ class x {else(){}}
 
 ```javascript
 
-class {
+class x {
   else() {}
 }
 ```

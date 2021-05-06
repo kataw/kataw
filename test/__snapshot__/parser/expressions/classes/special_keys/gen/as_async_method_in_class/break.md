@@ -121,7 +121,7 @@ class x {async break(){}}
 
 ```javascript
 
-class {
+class x {
   async break() {}
 }
 ```

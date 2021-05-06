@@ -126,7 +126,7 @@ class x {async * public(){}}
 
 ```javascript
 
-class {
+class x {
   async public() {}
 }
 ```

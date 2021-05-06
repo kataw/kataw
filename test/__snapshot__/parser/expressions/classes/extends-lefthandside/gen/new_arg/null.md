@@ -59,7 +59,7 @@ new null
 
 ```javascript
 
- null();
+new  null();
 ```
 
 ### Diagnostics

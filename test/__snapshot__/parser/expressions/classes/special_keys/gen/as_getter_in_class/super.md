@@ -121,7 +121,7 @@ class x {get super(){}}
 
 ```javascript
 
-class {
+class x {
   get super() {}
 }
 ```

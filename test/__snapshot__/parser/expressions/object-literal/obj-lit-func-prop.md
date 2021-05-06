@@ -140,7 +140,7 @@
 
 ```javascript
 
-({ f: function() {} });
+({ f: function () {} });
 ```
 
 ### Diagnostics

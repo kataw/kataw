@@ -76,7 +76,7 @@ x
 
 ```javascript
 
- async();
+new  async();
 x;
 ```
 

@@ -227,9 +227,9 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
 
 ```javascript
 
-function* gen() {
+function * gen() {
   function not_gen() {
-    function* gf() {
+    function * gf() {
        2;
     }
   }

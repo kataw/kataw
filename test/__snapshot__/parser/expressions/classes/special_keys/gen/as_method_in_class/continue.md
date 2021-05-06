@@ -116,7 +116,7 @@ class x {continue(){}}
 
 ```javascript
 
-class {
+class x {
   continue() {}
 }
 ```

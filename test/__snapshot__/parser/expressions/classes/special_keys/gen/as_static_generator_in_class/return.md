@@ -126,7 +126,7 @@ class x {static * return(){}}
 
 ```javascript
 
-class {
+class x {
   static static return() {}
 }
 ```

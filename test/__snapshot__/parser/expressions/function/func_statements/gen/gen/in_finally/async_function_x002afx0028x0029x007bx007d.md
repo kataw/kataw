@@ -15,7 +15,7 @@ try {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -141,7 +141,7 @@ try {
 
 try {
 } try{
-  async function* f() {}
+  async function * f() {}
 }
 ```
 

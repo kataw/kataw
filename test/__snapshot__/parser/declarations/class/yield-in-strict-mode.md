@@ -17,7 +17,7 @@ function* f() { class C { aaa = yield } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -158,8 +158,8 @@ function* f() { class C { aaa = yield } }
 
 ```javascript
 
-function* f() {
-  class {
+function * f() {
+  class C {
     aaa =  ;
   }
 }

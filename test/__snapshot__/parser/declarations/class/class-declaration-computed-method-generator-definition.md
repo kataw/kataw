@@ -126,7 +126,7 @@ class A {
 
 ```javascript
 
-class {
+class A {
   [1]() {}
 }
 ```

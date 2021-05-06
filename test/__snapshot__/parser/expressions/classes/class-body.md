@@ -6130,199 +6130,199 @@
 
 ```javascript
 
-(class {
+(class  {
 
   });
-(class {
+(class  {
 
 
   });
-(class {
+(class  {
     m() {}
   });
-(class {
+(class  {
     m() {}
 
   });
-(class {
+(class  {
 
     m() {}
   });
-(class {
+(class  {
     m() {}
 
     n(x) {}
   });
-(class {
+(class  {
     get x() {}
   });
-(class {
+(class  {
     set x(v) {}
   });
-(class {
+(class  {
     get() {}
   });
-(class {
+(class  {
     set() {}
   });
-(class {
+(class  {
     g() {}
   });
-(class {
+(class  {
     g() {}
 
   });
-(class {
+(class  {
 
     g() {}
   });
-(class {
+(class  {
     g() {}
 
     h(x) {}
   });
-(class {
+(class  {
     async x() {}
   });
-(class {
+(class  {
     static() {}
   });
-(class {
+(class  {
     get static() {}
   });
-(class {
+(class  {
     set static(v) {}
   });
-(class {
+(class  {
     static static m() {}
   });
-(class {
+(class  {
     static get static x() {}
   });
-(class {
+(class  {
     static set static x(v) {}
   });
-(class {
+(class  {
     static static get() {}
   });
-(class {
+(class  {
     static static set() {}
   });
-(class {
+(class  {
     static static static() {}
   });
-(class {
+(class  {
     static get static static() {}
   });
-(class {
+(class  {
     static set static static(v) {}
   });
-(class {
+(class  {
     static() {}
   });
-(class {
+(class  {
     static static static() {}
   });
-(class {
+(class  {
     get() {}
   });
-(class {
+(class  {
     set() {}
   });
-(class {
+(class  {
     static static g() {}
   });
-(class {
+(class  {
     async() {}
   });
-(class {
+(class  {
     async() {}
   });
-(class {
+(class  {
     static static async() {}
   });
-(class {
+(class  {
     static static async() {}
   });
-(class {
+(class  {
     async static static x() {}
   });
-(class {
+(class  {
     async static static x() {}
   });
-(class {
+(class  {
     static static async() {}
   });
-(class {
+(class  {
     static static async() {}
   });
-(class {
+(class  {
     async x() {}
   });
-(class {
+(class  {
     async 0() {}
   });
-(class {
+(class  {
     async get() {}
   });
-(class {
+(class  {
     async set() {}
   });
-(class {
+(class  {
     async static() {}
   });
-(class {
+(class  {
     async async() {}
   });
-(class {
+(class  {
     async() {}
   });
-(class {
+(class  {
     async() {}
   });
-(class {
+(class  {
     get 42.5() {}
   });
-(class {
+(class  {
     set static(v) {}
   });
-(class {
+(class  {
     static static this() {}
   });
-(class {
+(class  {
     static get static class() {}
   });
-(class {
+(class  {
     static set static 42.5(v) {}
   });
-(class {
+(class  {
     const() {}
   });
-(class {
+(class  {
     static static "\"str\""() {}
   });
-(class {
+(class C {
     true() {}
   });
-(class {
+(class C {
     get false() {}
   });
-(class {
+(class C {
     set function(v) {}
   });
-(class {
+(class C {
     static static if() {}
   });
-(class {
+(class C {
     static get static let() {}
   });
-(class {
+(class C {
     static set static get(v) {}
   });
-(class {
+(class C {
     set() {}
   });
-(class {
+(class C {
     static static static() {}
   });
 ```

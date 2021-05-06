@@ -140,7 +140,7 @@ class x {set debugger(x){}}
 
 ```javascript
 
-class {
+class x {
   set debugger(x) {}
 }
 ```

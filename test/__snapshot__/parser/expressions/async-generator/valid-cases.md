@@ -3286,97 +3286,97 @@ for (;;) {}});
 
 ```javascript
 
-(function* gen() {
+(function * gen() {
      2;
-  })(function* gen() {
+  })(function * gen() {
    2;
 });
-(function* gen() {
+(function * gen() {
      2;
   });
-(function* gen() {
+(function * gen() {
       1;
   });
-(function* gen() {
+(function * gen() {
       1;
   });
-(function* gen() {
+(function * gen() {
      3 + ( 4);
   });
-(function* gen() {
+(function * gen() {
      3 + ( 4);
   });
-(function* gen() {
+(function * gen() {
      1;
     return ;
   });
-(function* gen() {
+(function * gen() {
      1;
     return  37;
   });
-(function* gen() {
+(function * gen() {
      1;
     return  37;
   });
-(function* gen() {
-     1;
-    return  37;
-     "'dead'";
-  });
-(function* gen() {
+(function * gen() {
      1;
     return  37;
      "'dead'";
   });
-(function* gen() {
+(function * gen() {
+     1;
+    return  37;
+     "'dead'";
+  });
+(function * gen() {
      ;
   });
-(function* gen() {
+(function * gen() {
      ;
   });
-(function* gen() {
+(function * gen() {
      ;
   });
-(function* gen() {
+(function * gen() {
     ( );
   });
-(function* gen() {
+(function * gen() {
     [ ];
   });
-(function* gen() {
+(function * gen() {
     {
        ;
     }
   });
-(function* gen() {
+(function * gen() {
      ,  ;
   });
-(function* gen() {
+(function * gen() {
      ;
      ;
   });
-(function* gen() {
+(function * gen() {
     ( ) ?   :  ;
   });
-(function* gen() {
+(function * gen() {
     ( ) ?   :  ;
   });
 // If there is a newline before the next token, we don't look for RHS.
-(function* gen() {
+(function * gen() {
      ;
     for (;;) {}
   });
-(function* gen() {
-    x = class  {};
+(function * gen() {
+    x = class   {};
   });
-(function* gen() {
-    x = class  {};
+(function * gen() {
+    x = class   {};
   });
-(function* gen() {
-    x = class  {};
+(function * gen() {
+    x = class   {};
   });
-(function* gen() {
-    x = class  {};
+(function * gen() {
+    x = class   {};
   });
 ```
 

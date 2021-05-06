@@ -128,8 +128,8 @@
 
 ```javascript
 
-({ a: class {
-    ;
+({ a: class  {
+    #a;
   } });
 ```
 

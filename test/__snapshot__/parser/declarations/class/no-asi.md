@@ -123,8 +123,8 @@ class C { static
 
 ```javascript
 
-class {
-  static static () {}
+class C {
+  static static #aaa() {}
 }
 ```
 

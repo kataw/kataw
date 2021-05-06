@@ -126,7 +126,7 @@ class x {static * static(){}}
 
 ```javascript
 
-class {
+class x {
   static static static() {}
 }
 ```

@@ -121,7 +121,7 @@ class x {static finally(){}}
 
 ```javascript
 
-class {
+class x {
   static static finally() {}
 }
 ```

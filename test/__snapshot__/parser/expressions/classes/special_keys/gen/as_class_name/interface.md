@@ -64,7 +64,7 @@ class interface {}
 
 ```javascript
 
-class {}
+class interface {}
 ```
 
 ### Diagnostics

@@ -126,7 +126,7 @@ class x {static get do(){}}
 
 ```javascript
 
-class {
+class x {
   static get static do() {}
 }
 ```

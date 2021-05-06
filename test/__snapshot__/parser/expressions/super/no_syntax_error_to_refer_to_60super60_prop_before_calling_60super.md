@@ -220,7 +220,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 
 ```javascript
 
-class  {
+class x  {
   constructor() {
     log(.foo);
     .mom;

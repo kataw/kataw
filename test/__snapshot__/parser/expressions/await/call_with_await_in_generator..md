@@ -8,7 +8,7 @@ function *f(){  foo(await)  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -119,7 +119,7 @@ function *f(){  foo(await)  }
 
 ```javascript
 
-function* f() {
+function * f() {
   foo(await);
 }
 ```

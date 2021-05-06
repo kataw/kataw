@@ -121,7 +121,7 @@ class x {* private(){}}
 
 ```javascript
 
-class {
+class x {
   private() {}
 }
 ```

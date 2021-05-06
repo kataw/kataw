@@ -126,7 +126,7 @@ class x {async * debugger(){}}
 
 ```javascript
 
-class {
+class x {
   async debugger() {}
 }
 ```

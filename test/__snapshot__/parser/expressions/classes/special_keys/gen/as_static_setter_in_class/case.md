@@ -145,7 +145,7 @@ class x {static set case(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static case(x) {}
 }
 ```

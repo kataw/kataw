@@ -168,7 +168,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 
 ```javascript
 
-function* gf() {
+function * gf() {
   switch(1
     case  "'foo'":
       break;

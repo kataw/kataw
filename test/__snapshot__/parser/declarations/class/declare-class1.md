@@ -142,7 +142,7 @@ type T2 = number;
 
 ```javascript
 
-class {}
+declare class C1 {}
 
 
 ```

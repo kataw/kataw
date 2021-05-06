@@ -369,7 +369,7 @@ var await; var f = (async function() { async function f() {
 ```javascript
 
 var await;
-var f = (async function() {
+var f = (async function () {
     async function f() {
       let {
         [await "\"a\""]: a

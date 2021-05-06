@@ -16,7 +16,7 @@ x; {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -168,8 +168,8 @@ x; {}
 
 ```javascript
 
-function* P() {
-  class  {}
+function * P() {
+  class D  {}
   x;
   {
   }

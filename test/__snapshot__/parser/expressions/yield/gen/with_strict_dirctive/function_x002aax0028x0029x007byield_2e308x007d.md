@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -123,7 +123,7 @@
 
 ```javascript
 
-function* a() {
+function * a() {
    2e308;
 }
 ```

@@ -1687,9 +1687,9 @@ class Foo {
 
 ```javascript
 
-class {
-  ;
-  () {}
+class Foo {
+  #field;
+  #method() {}
   baseline() {
     a().foo;
     b().foo(x);

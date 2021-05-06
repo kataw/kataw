@@ -126,7 +126,7 @@ class x {foo(){ return }}
 
 ```javascript
 
-class {
+class x {
   foo() {
     return ;
   }

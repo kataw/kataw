@@ -121,7 +121,7 @@ class x {async switch(){}}
 
 ```javascript
 
-class {
+class x {
   async switch() {}
 }
 ```

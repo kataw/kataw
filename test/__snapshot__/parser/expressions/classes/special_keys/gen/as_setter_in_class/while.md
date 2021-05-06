@@ -140,7 +140,7 @@ class x {set while(x){}}
 
 ```javascript
 
-class {
+class x {
   set while(x) {}
 }
 ```

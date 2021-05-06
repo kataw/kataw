@@ -121,7 +121,7 @@ class x {static else(){}}
 
 ```javascript
 
-class {
+class x {
   static static else() {}
 }
 ```

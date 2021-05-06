@@ -206,7 +206,7 @@
 
 ```javascript
 
-(function* f() {
+(function * f() {
     ({ * g(x =  ) {} });
   });
 ```

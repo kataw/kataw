@@ -131,7 +131,7 @@ class x {static async * null(){}}
 
 ```javascript
 
-class {
+class x {
   async static static null() {}
 }
 ```

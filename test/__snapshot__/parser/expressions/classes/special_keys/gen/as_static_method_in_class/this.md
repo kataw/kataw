@@ -121,7 +121,7 @@ class x {static this(){}}
 
 ```javascript
 
-class {
+class x {
   static static this() {}
 }
 ```

@@ -8,7 +8,7 @@ function x(){""[new.target]}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

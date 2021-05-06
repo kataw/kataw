@@ -121,7 +121,7 @@ class x {get try(){}}
 
 ```javascript
 
-class {
+class x {
   get try() {}
 }
 ```

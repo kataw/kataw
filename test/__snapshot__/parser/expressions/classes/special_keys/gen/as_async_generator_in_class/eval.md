@@ -126,7 +126,7 @@ class x {async * eval(){}}
 
 ```javascript
 
-class {
+class x {
   async eval() {}
 }
 ```

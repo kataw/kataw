@@ -116,7 +116,7 @@ class x {return(){}}
 
 ```javascript
 
-class {
+class x {
   return() {}
 }
 ```

@@ -140,7 +140,7 @@ class x {set null(x){}}
 
 ```javascript
 
-class {
+class x {
   set null(x) {}
 }
 ```

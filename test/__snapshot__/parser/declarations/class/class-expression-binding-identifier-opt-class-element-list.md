@@ -214,7 +214,7 @@ var A = class B {
 
 ```javascript
 
-var A = class {
+var A = class B {
   method() {}
   static static method() {}
 

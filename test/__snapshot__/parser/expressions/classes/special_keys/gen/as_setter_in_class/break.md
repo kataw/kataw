@@ -140,7 +140,7 @@ class x {set break(x){}}
 
 ```javascript
 
-class {
+class x {
   set break(x) {}
 }
 ```

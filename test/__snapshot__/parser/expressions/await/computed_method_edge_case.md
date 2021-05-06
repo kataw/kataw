@@ -8,7 +8,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

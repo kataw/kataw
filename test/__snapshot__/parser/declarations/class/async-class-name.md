@@ -79,7 +79,7 @@ class async {}
 
 ```javascript
 
-class {}
+class async {}
 ```
 
 ### Diagnostics

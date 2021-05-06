@@ -96,7 +96,7 @@ new async function(){}
 
 ```javascript
 
- async function() {}();
+new  async function () {}();
 ```
 
 ### Diagnostics

@@ -126,7 +126,7 @@ class x {static * await(){}}
 
 ```javascript
 
-class {
+class x {
   static static await() {}
 }
 ```

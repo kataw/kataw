@@ -125,7 +125,7 @@ class A extends async function *(){} {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

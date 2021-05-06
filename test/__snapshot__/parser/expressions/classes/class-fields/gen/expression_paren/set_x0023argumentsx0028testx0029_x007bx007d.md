@@ -143,8 +143,8 @@
 
 ```javascript
 
-(class {
-    set (test) {}
+(class  {
+    set #arguments(test) {}
   });
 ```
 

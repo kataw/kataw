@@ -112,7 +112,7 @@ class A extends async => ok {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

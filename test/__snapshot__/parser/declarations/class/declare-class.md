@@ -165,7 +165,7 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
-class {
+declare class A {
   static static foo();
   static x;
 }

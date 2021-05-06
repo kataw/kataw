@@ -593,9 +593,9 @@ foo;
 "\"use strict\"";
 foo;
 "\"use strict\"";
- foo();
+new  foo();
 "\"use strict\"";
- foo(bar);
+new  foo(bar);
 ```
 
 ### Diagnostics

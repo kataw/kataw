@@ -12,7 +12,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -291,9 +291,9 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
 ```javascript
 
 var await;
-var f = (async function() {
+var f = (async function () {
     function f() {
-      class {
+      class C {
         await() {}
       }
     }

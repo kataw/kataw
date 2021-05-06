@@ -126,8 +126,8 @@ class C { static async*#aaa(){} }
 
 ```javascript
 
-class {
-  async static static () {}
+class C {
+  async static static #aaa() {}
 }
 ```
 

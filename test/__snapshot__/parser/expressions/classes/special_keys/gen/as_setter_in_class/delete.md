@@ -140,7 +140,7 @@ class x {set delete(x){}}
 
 ```javascript
 
-class {
+class x {
   set delete(x) {}
 }
 ```

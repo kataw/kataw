@@ -108,7 +108,7 @@ new async function *f(){}
 
 ```javascript
 
- async function* f() {}();
+new  async function * f() {}();
 ```
 
 ### Diagnostics

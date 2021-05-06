@@ -126,7 +126,7 @@ class x {static * instanceof(){}}
 
 ```javascript
 
-class {
+class x {
   static static instanceof() {}
 }
 ```

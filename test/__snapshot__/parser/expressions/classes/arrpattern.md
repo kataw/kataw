@@ -119,7 +119,7 @@ class n extends ([] = x) {}
 
 ```javascript
 
-class  {}
+class n  {}
 ```
 
 ### Diagnostics

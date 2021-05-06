@@ -121,7 +121,7 @@ class x {get true(){}}
 
 ```javascript
 
-class {
+class x {
   get true() {}
 }
 ```

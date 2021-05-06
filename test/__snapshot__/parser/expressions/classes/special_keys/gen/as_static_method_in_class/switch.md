@@ -121,7 +121,7 @@ class x {static switch(){}}
 
 ```javascript
 
-class {
+class x {
   static static switch() {}
 }
 ```

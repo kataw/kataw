@@ -60,7 +60,7 @@ new `temp {waitforit} late`
 
 ```javascript
 
- temp {waitforit} late();
+new  temp {waitforit} late();
 ```
 
 ### Diagnostics

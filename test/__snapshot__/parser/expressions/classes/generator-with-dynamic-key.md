@@ -123,7 +123,7 @@ class x { *[y](){}}
 
 ```javascript
 
-class {
+class x {
   [y]() {}
 }
 ```

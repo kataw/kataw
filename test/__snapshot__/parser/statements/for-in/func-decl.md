@@ -27,7 +27,7 @@ function x(a, [x]) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

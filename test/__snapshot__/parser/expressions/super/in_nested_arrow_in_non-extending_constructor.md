@@ -183,7 +183,7 @@ class x { constructor(){ return () => () => super.foo; }}
 
 ```javascript
 
-class {
+class x {
   constructor() {
     return  () =>  () =>  .foo;
   }

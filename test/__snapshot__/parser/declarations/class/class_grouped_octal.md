@@ -119,7 +119,7 @@ class x extends y{}(09)
 
 ```javascript
 
-class  {}
+class x  {}
 (09);
 ```
 

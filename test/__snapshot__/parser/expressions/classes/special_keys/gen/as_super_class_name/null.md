@@ -83,7 +83,7 @@ class x extends null {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

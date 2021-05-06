@@ -121,7 +121,7 @@ class x {* package(){}}
 
 ```javascript
 
-class {
+class x {
   package() {}
 }
 ```

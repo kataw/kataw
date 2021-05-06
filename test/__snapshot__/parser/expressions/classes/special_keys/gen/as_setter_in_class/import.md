@@ -140,7 +140,7 @@ class x {set import(x){}}
 
 ```javascript
 
-class {
+class x {
   set import(x) {}
 }
 ```

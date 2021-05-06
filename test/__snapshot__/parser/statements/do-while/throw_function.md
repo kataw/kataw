@@ -137,7 +137,7 @@ for(;;)x
 
 ```javascript
 
-do throw  function() {};
+do throw  function () {};
 while (y);
 for (;;)
   x;

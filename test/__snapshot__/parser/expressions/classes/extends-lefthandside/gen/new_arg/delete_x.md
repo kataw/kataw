@@ -72,7 +72,7 @@ new delete x
 
 ```javascript
 
- x();
+new  x();
 ```
 
 ### Diagnostics

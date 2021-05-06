@@ -83,7 +83,7 @@ new false.__proto__.constructor
 
 ```javascript
 
- false().__proto__.constructor;
+new  false().__proto__.constructor;
 ```
 
 ### Diagnostics

@@ -237,7 +237,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 
 ```javascript
 
-let foo = function*() {
+let foo = function * () {
   try {
      42;
   } try{

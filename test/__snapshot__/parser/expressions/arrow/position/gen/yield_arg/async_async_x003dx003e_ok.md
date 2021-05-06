@@ -14,7 +14,7 @@ function *f() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -144,7 +144,7 @@ function *f() {
 
 ```javascript
 
-function* f() {
+function * f() {
    async async =>  ok;
 }
 ```

@@ -74,7 +74,7 @@ new fooo`bar`
 
 ```javascript
 
- fooobar();
+new  fooobar();
 ```
 
 ### Diagnostics

@@ -139,8 +139,8 @@ class C { set #await(test) {} }
 
 ```javascript
 
-class {
-  set (test) {}
+class C {
+  set #await(test) {}
 }
 ```
 

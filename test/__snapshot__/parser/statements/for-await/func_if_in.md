@@ -10,7 +10,7 @@ async function f(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -225,7 +225,7 @@ async function f(){
 ```javascript
 
 async function f() {
-  for await (function() {
+  for await (function () {
     if (a in b);
   }.prop of x);
 }

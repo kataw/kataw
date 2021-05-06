@@ -60,7 +60,7 @@ new arguments
 
 ```javascript
 
- arguments();
+new  arguments();
 ```
 
 ### Diagnostics

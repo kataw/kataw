@@ -121,7 +121,7 @@ class x {get public(){}}
 
 ```javascript
 
-class {
+class x {
   get public() {}
 }
 ```

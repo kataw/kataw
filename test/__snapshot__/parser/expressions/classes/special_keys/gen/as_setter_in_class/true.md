@@ -140,7 +140,7 @@ class x {set true(x){}}
 
 ```javascript
 
-class {
+class x {
   set true(x) {}
 }
 ```

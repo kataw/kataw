@@ -121,8 +121,8 @@ class C { static get #aaa(){} }
 
 ```javascript
 
-class {
-  static get static () {}
+class C {
+  static get static #aaa() {}
 }
 ```
 

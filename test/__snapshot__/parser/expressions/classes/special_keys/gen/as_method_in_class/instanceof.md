@@ -116,7 +116,7 @@ class x {instanceof(){}}
 
 ```javascript
 
-class {
+class x {
   instanceof() {}
 }
 ```

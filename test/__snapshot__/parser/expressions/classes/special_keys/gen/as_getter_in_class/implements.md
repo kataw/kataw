@@ -121,7 +121,7 @@ class x {get implements(){}}
 
 ```javascript
 
-class {
+class x {
   get implements() {}
 }
 ```

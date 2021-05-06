@@ -140,7 +140,7 @@ class x {set interface(x){}}
 
 ```javascript
 
-class {
+class x {
   set interface(x) {}
 }
 ```

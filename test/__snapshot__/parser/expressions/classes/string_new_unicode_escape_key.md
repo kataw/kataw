@@ -118,7 +118,7 @@ class x { "prot\u{6f}type"(){} }
 
 ```javascript
 
-class {
+class x {
   "\"prot\u{6f}type\""() {}
 }
 ```

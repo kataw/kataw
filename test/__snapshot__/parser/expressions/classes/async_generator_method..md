@@ -122,7 +122,7 @@ class A {async * 34(){}}
 
 ```javascript
 
-class {
+class A {
   async 34() {}
 }
 ```

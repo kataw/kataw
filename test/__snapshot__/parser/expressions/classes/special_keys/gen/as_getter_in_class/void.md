@@ -121,7 +121,7 @@ class x {get void(){}}
 
 ```javascript
 
-class {
+class x {
   get void() {}
 }
 ```

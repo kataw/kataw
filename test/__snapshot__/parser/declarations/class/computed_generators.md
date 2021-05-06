@@ -142,7 +142,7 @@ class x { *[expr](){} }
 
 ```javascript
 
-class {
+class x {
   [expr]() {}
 }
 ```

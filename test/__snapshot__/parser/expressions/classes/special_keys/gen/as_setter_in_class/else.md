@@ -140,7 +140,7 @@ class x {set else(x){}}
 
 ```javascript
 
-class {
+class x {
   set else(x) {}
 }
 ```

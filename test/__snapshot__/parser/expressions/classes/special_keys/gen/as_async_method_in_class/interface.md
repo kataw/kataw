@@ -121,7 +121,7 @@ class x {async interface(){}}
 
 ```javascript
 
-class {
+class x {
   async interface() {}
 }
 ```

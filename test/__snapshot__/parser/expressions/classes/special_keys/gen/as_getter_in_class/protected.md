@@ -121,7 +121,7 @@ class x {get protected(){}}
 
 ```javascript
 
-class {
+class x {
   get protected() {}
 }
 ```

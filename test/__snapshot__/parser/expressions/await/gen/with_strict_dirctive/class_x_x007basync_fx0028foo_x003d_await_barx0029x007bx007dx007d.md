@@ -168,7 +168,7 @@
 
 ```javascript
 
-class {
+class x {
   async f(foo = await bar) {}
 }
 ```

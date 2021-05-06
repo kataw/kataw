@@ -110,7 +110,7 @@ new Foo`a${b}c${c}e`
 
 ```javascript
 
- Foo`a${b}c${c}e`();
+new  Foo`a${b}c${c}e`();
 ```
 
 ### Diagnostics

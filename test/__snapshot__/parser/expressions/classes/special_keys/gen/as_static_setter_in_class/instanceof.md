@@ -145,7 +145,7 @@ class x {static set instanceof(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static instanceof(x) {}
 }
 ```

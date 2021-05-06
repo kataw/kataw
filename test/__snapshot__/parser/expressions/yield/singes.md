@@ -8,7 +8,7 @@ function *g() { yield {...(x),}}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -143,7 +143,7 @@ function *g() { yield {...(x),}}
 
 ```javascript
 
-function* g() {
+function * g() {
    { ...(x) };
 }
 ```

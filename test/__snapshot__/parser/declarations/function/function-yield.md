@@ -19,7 +19,7 @@ function *foo() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -240,7 +240,7 @@ function *foo() {
 
 ```javascript
 
-function* foo() {
+function * foo() {
   const x = ();
   x ?  1 : x;
 }

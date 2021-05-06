@@ -145,7 +145,7 @@ class x {static set static(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static static(x) {}
 }
 ```

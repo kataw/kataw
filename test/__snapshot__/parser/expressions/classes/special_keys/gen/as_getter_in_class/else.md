@@ -121,7 +121,7 @@ class x {get else(){}}
 
 ```javascript
 
-class {
+class x {
   get else() {}
 }
 ```

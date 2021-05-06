@@ -140,7 +140,7 @@ class x {set finally(x){}}
 
 ```javascript
 
-class {
+class x {
   set finally(x) {}
 }
 ```

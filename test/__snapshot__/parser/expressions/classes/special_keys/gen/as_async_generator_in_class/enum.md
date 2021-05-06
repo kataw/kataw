@@ -126,7 +126,7 @@ class x {async * enum(){}}
 
 ```javascript
 
-class {
+class x {
   async enum() {}
 }
 ```

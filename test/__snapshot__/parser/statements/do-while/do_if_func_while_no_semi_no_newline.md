@@ -8,7 +8,7 @@ do if(8)function s(){}while(y)
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

@@ -121,7 +121,7 @@ class x {get instanceof(){}}
 
 ```javascript
 
-class {
+class x {
   get instanceof() {}
 }
 ```

@@ -166,12 +166,12 @@ class A {
 
 ```javascript
 
-class {
-  static ;
+class A {
+  static #private;
 
 }
-class {
-  static  = x;
+class A {
+  static #private = x;
 
 }
 ```

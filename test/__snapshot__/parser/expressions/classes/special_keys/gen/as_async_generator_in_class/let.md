@@ -126,7 +126,7 @@ class x {async * let(){}}
 
 ```javascript
 
-class {
+class x {
   async let() {}
 }
 ```

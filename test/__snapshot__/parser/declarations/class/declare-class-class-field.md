@@ -197,7 +197,7 @@ declare class X {
 
 ```javascript
 
-class {
+declare class X {
   a;
 
   static b;

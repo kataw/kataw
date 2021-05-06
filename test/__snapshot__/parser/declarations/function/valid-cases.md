@@ -4338,7 +4338,7 @@ function f(arg, {
 }
 function f(arg) {
   g(arg);
-  g(function() {
+  g(function () {
     arg = 42;
   });
   g(arg);

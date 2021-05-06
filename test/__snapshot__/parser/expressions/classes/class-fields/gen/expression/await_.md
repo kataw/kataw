@@ -112,7 +112,7 @@ class C extends Base { await; }
 
 ```javascript
 
-class  {
+class C  {
   await;
 
 }

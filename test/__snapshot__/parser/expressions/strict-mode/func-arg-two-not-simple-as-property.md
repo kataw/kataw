@@ -156,7 +156,7 @@
 
 ```javascript
 
-({ x: function(x, y) {} });
+({ x: function (x, y) {} });
 ```
 
 ### Diagnostics

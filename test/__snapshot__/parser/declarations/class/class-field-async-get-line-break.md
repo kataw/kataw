@@ -118,7 +118,7 @@ get(){} }
 
 ```javascript
 
-class {
+class C {
   async get() {}
 }
 ```

@@ -469,9 +469,9 @@ var gen = async function *g() {
 
 ```javascript
 
-var gen = async function* g() {
+var gen = async function * g() {
   callCount += 1;
-   { ...  , ...(function(arg) {
+   { ...  , ...(function (arg) {
         var yield = arg;
         return  { ...yield };
       }( )), ...  };

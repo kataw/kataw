@@ -1069,30 +1069,30 @@
 
 ```javascript
 
-(class {});
-(class  {});
-(class  {});
-(class  {});
-(class  {});
-(class  {});
-(class  {});
-(class  {});
-(class  {});
+(class name {});
+(class   {});
+(class name  {});
+(class   {});
+(class name  {});
+(class   {});
+(class name  {});
+(class   {});
+(class name  {});
 "'use strict'";
 {
-  class  {}
+  class name  {}
 }
 "'use strict'";
 {
-  class  {}
+  class name  {}
 }
 "'use strict'";
 {
-  class  {}
+  class name  {}
 }
 "'use strict'";
 {
-  class  {}
+  class name  {}
 }
 
 ```

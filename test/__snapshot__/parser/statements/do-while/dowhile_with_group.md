@@ -108,7 +108,7 @@ while(y)
 
 ```javascript
 
-do (function() {});
+do (function () {});
 while (y);
 ```
 

@@ -116,7 +116,7 @@ class x {in(){}}
 
 ```javascript
 
-class {
+class x {
   in() {}
 }
 ```

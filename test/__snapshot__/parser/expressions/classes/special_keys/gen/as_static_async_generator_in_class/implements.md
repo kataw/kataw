@@ -131,7 +131,7 @@ class x {static async * implements(){}}
 
 ```javascript
 
-class {
+class x {
   async static static implements() {}
 }
 ```

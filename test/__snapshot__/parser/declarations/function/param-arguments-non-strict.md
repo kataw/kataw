@@ -8,7 +8,7 @@ function foo(arguments){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

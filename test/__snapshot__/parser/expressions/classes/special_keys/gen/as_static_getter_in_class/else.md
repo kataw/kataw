@@ -126,7 +126,7 @@ class x {static get else(){}}
 
 ```javascript
 
-class {
+class x {
   static get static else() {}
 }
 ```

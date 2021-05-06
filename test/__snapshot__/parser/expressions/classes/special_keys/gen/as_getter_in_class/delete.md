@@ -121,7 +121,7 @@ class x {get delete(){}}
 
 ```javascript
 
-class {
+class x {
   get delete() {}
 }
 ```

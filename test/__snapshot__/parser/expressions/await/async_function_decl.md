@@ -8,7 +8,7 @@ async function await(){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

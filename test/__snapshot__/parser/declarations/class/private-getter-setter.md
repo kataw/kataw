@@ -2119,17 +2119,17 @@ class Foo {
 
 ```javascript
 
-class {
-  get () {
+class Foo {
+  get #foo() {
     return  this.foo;
   }
-  set (val) {
+  set #bar(val) {
     this.bar = val;
   }
-  get () {
+  get #prop() {
     return  this.prop;
   }
-  set (val) {
+  set #prop(val) {
     this.prop = val;
   }
   foo(fn) {

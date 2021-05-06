@@ -121,7 +121,7 @@ class x {* default(){}}
 
 ```javascript
 
-class {
+class x {
   default() {}
 }
 ```

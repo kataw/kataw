@@ -87,7 +87,7 @@ new function(){}
 
 ```javascript
 
- function() {}();
+new  function () {}();
 ```
 
 ### Diagnostics

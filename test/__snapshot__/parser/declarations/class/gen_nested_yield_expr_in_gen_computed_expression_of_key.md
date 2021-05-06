@@ -16,7 +16,7 @@ function *f(){  class x{*[yield](a){}}  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -210,8 +210,8 @@ function *f(){  class x{*[yield](a){}}  }
 
 ```javascript
 
-function* f() {
-  class {
+function * f() {
+  class x {
     [ ](a) {}
   }
 }

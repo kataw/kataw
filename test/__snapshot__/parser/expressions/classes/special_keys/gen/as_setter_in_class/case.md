@@ -140,7 +140,7 @@ class x {set case(x){}}
 
 ```javascript
 
-class {
+class x {
   set case(x) {}
 }
 ```

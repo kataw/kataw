@@ -121,7 +121,7 @@ class x {get debugger(){}}
 
 ```javascript
 
-class {
+class x {
   get debugger() {}
 }
 ```

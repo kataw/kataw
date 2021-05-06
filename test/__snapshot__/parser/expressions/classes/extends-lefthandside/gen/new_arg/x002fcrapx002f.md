@@ -59,7 +59,7 @@ new /crap/
 
 ```javascript
 
- /crap/();
+new  /crap/();
 ```
 
 ### Diagnostics

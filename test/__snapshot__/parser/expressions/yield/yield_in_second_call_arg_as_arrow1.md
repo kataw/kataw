@@ -8,7 +8,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -206,7 +206,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 
 ```javascript
 
-function* g() {
+function * g() {
   (x = x + foo(a,  y)) =>  x;
 }
 ```

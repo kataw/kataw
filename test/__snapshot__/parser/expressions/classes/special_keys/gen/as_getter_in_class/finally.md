@@ -121,7 +121,7 @@ class x {get finally(){}}
 
 ```javascript
 
-class {
+class x {
   get finally() {}
 }
 ```

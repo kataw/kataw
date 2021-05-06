@@ -145,7 +145,7 @@ class x {static set for(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static for(x) {}
 }
 ```

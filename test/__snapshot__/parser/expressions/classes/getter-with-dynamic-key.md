@@ -128,7 +128,7 @@ class x { static get [y](){}}
 
 ```javascript
 
-class {
+class x {
   static get static [y]() {}
 }
 ```

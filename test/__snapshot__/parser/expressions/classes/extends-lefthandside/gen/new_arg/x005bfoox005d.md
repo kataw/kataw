@@ -75,7 +75,7 @@ new [foo]
 
 ```javascript
 
- [foo]();
+new  [foo]();
 ```
 
 ### Diagnostics

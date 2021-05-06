@@ -139,7 +139,7 @@ class A {* get [x](){}}
 
 ```javascript
 
-class {
+class A {
   get;
   [x]() {}
 }

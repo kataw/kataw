@@ -219,8 +219,8 @@ class Foo {
 
 ```javascript
 
-class {
-  ;
+class Foo {
+  #x;
 
   constructor() {
      = ;

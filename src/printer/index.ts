@@ -72,6 +72,8 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printRootNode(node.statements, printer, node);
     case SyntaxKind.Identifier:
       return node.text;
+    case SyntaxKind.PrivateIdentifier:
+        return node.text;
     case SyntaxKind.EmptyStatement:
       return '';
     case SyntaxKind.ExportDefault:
@@ -981,26 +983,16 @@ function printClassElement(node: any, printer: Printer): any {
 
 function printClassDeclarationOrExpression(node: any, printer: Printer): any {
   const parts: any = [
-    node.flags & NodeFlags.Declared ? chain(['declare', printer.space]) : '',
-    node.isAbstract ? chain(['abstract', printer.space]) : '',
+    node.declareKeyword ? printKeyword(node.declareKeyword, printer, node.declareKeyword.start, node, /* separator */ true) : '',
     node.decorators ? printDecorators(node.decorators, printer) : '',
-    'class'
+    printKeyword(node.classKeyword, printer, node.classKeyword.start, node, /* separator */ true),
+    node.name ? printStatements(node.name, printer, node) : ''
   ];
-
-  if (node.name) {
-    //    parts.push(' ', printStatements(node.name, printer, node), printTypeParameters(node.typeParameters, printer, node));
-  }
 
   const partsGroup: any = [];
 
-  const { classHeritage, implementClauses } = node;
-
-  if (classHeritage) {
-    if (!implementClauses || implementClauses.clauses.length === 0) {
-      parts.push(chain([' ', printStatements(classHeritage, printer, node)]));
-    } else {
-      partsGroup.push(group(chain([line, printStatements(classHeritage, printer, node)])));
-    }
+  if (node.classHeritage) {
+      parts.push(chain([' ', printStatements(node.classHeritage, printer, node)]));
   }
 
   if (partsGroup.length > 0) {
@@ -1032,9 +1024,6 @@ function printBlock(node: any, printer: Printer, parentNode: any): any {
   if (
     //!hasContents && //parentNode.kind & (SyntaxKind.IsFunctionExpression | SyntaxKind.IsFunctionDeclaration | SyntaxKind.IsMethod) ||
     parentNode.kind === SyntaxKind.ArrowFunction ||
-    //parentNode.kind === SyntaxKind.AsyncArrowFunction ||
-    //parentNode.kind === "JSClassPrivateMethod" ||
-
     parentNode.kind === SyntaxKind.FieldDefinition ||
     parentNode.kind === SyntaxKind.ForStatement ||
     parentNode.kind === SyntaxKind.ClassElementList ||
@@ -1042,7 +1031,6 @@ function printBlock(node: any, printer: Printer, parentNode: any): any {
     parentNode.kind === SyntaxKind.DoWhileStatement ||
     parentNode.kind === SyntaxKind.ForInStatement ||
     parentNode.kind === SyntaxKind.SwitchStatement ||
-    //parentNode.kind === SyntaxKind.NamespaceBlock ||
     parentNode.kind === SyntaxKind.ClassElementList
   ) {
     return group(chain(['{', node.multiline ? hardline : softline, '}']));
@@ -1534,7 +1522,7 @@ function printBinaryishExpressions(node: any, printer: Printer, parentNode: any,
   let parts: any = [];
 
   if (node.kind === SyntaxKind.BinaryExpression) {
-    if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
+      if (shouldFlatten(tokenToString(node.operatorToken), tokenToString(node.left.operatorToken))) {
       parts = parts.concat(printBinaryishExpressions1(node.left, printer, node, isInsideParenthesis));
     } else {
       parts.push(printExpressions(node.left, printer, node));
@@ -1628,7 +1616,7 @@ function printCallExpression(node: any, printer: Printer): any {
 
 function printNewExpression(node: any, printer: Printer): any {
   return chain([
-    printTokenWithComment('new', node.start, printer, node),
+    node.newKeyword ? printKeyword(node.newKeyword, printer, node.newKeyword.start, node, /* separator */ true) : '',
     printer.space,
     printExpressions(node.expression, printer, node),
     printArgumentsList(node.argumentList, printer, node)
@@ -1636,26 +1624,16 @@ function printNewExpression(node: any, printer: Printer): any {
 }
 
 function printFunctionDeclarationOrExpression(node: any, printer: Printer): any {
-  const parts: any[] = [];
 
-  const { flags, kind } = node;
-
-  if (flags & NodeFlags.Declared) {
-    parts.push('declare', printer.space);
-  }
-
-  if (node.asyncKeyword) {
-    parts.push(printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true));
-  }
-
-  parts.push('function');
-
-  if (node.generatorToken) {
-    parts.push(printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ false));
-  }
+  const parts: any[] = [
+    node.declaredKeyword ? printKeyword(node.declaredKeyword, printer, node.declaredKeyword.start, node, /* separator */ true) : '',
+    node.asyncKeyword ? printKeyword(node.asyncKeyword, printer, node.asyncKeyword.start, node, /* separator */ true) : '',
+    node.functionKeyword ? printKeyword(node.functionKeyword, printer, node.functionKeyword.start, node, /* separator */ true) : '',
+    node.generatorToken ? printKeyword(node.generatorToken, printer, node.generatorToken.start, node, /* separator */ true) : '',
+  ];
 
   if (node.name) {
-    parts.push(' ', printStatements(node.name, printer, node));
+    parts.push(printStatements(node.name, printer, node));
   }
 
   parts.push(

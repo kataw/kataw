@@ -91,7 +91,7 @@ new (a,b) => x
 
 ```javascript
 
- () =>  x();
+new  () =>  x();
 ```
 
 ### Diagnostics

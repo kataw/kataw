@@ -126,7 +126,7 @@ class x {async * try(){}}
 
 ```javascript
 
-class {
+class x {
   async try() {}
 }
 ```

@@ -84,7 +84,7 @@ class A extends arguments {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

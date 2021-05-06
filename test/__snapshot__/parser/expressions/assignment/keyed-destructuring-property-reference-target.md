@@ -1265,14 +1265,14 @@ function target() {
 }
 function sourceKey() {
   log.push("\"source-key\"");
-  return  { toString: function() {
+  return  { toString: function () {
       log.push("\"source-key-tostring\"");
       return  "\"p\"";
     } };
 }
 function targetKey() {
   log.push("\"target-key\"");
-  return  { toString: function() {
+  return  { toString: function () {
       log.push("\"target-key-tostring\"");
       return  "\"q\"";
     } };

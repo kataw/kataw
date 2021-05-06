@@ -140,7 +140,7 @@ class x {set eval(x){}}
 
 ```javascript
 
-class {
+class x {
   set eval(x) {}
 }
 ```

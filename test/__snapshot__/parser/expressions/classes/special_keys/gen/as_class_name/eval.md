@@ -64,7 +64,7 @@ class eval {}
 
 ```javascript
 
-class {}
+class eval {}
 ```
 
 ### Diagnostics

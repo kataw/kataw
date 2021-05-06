@@ -12,7 +12,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -306,10 +306,10 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 
 ```javascript
 
-function* gen() {
+function * gen() {
   function not_gen() {
-    (function*() {
-        x = class  {};
+    (function * () {
+        x = class   {};
       });
   }
 }

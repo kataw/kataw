@@ -99,7 +99,7 @@ x => y
 
 ```javascript
 
- async();
+new  async();
 x =>  y;
 ```
 

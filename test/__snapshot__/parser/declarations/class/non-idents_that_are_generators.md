@@ -136,7 +136,7 @@ class x { *"x"(){} }
 
 ```javascript
 
-class {
+class x {
   "\"x\""() {}
 }
 ```

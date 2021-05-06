@@ -12,7 +12,7 @@ var await; var f = (async function() { async function g(){let x = async function
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -414,7 +414,7 @@ var await; var f = (async function() { async function g(){let x = async function
 ```javascript
 
 var await;
-var f = (async function() {
+var f = (async function () {
     async function g() {
       let x = async function f(foo = [h, { m: t(await bar) }]) {};
     }

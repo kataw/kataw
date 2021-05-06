@@ -477,11 +477,11 @@ class Foo {
 
 ```javascript
 
-class {
-  static ;
-  static get static () {}
-  static set static (x) {}
-  static static () {}
+class Foo {
+  static #x;
+  static get static #y() {}
+  static set static #y(x) {}
+  static static #z() {}
   foo() {
     Foo. += 1;
     Foo. += 1;

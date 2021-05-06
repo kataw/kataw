@@ -76,7 +76,7 @@ new oh,no
 
 ```javascript
 
- oh(), no;
+new  oh(), no;
 ```
 
 ### Diagnostics

@@ -587,21 +587,21 @@ class C { foo() { this.#a = 1; }}
 
 ```javascript
 
-(class {
-    set (val) {
+(class  {
+    set #b(val) {
       this. = val;
     }
-  })(class {
-    get () {
+  })(class  {
+    get #b() {
       return  this.;
     }
   });
-class  {
+class C  {
   foo() {
     return  this.;
   }
 }
-class {
+class C {
   foo() {
     this. = 1;
   }

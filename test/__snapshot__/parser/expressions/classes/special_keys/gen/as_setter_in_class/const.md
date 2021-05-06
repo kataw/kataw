@@ -140,7 +140,7 @@ class x {set const(x){}}
 
 ```javascript
 
-class {
+class x {
   set const(x) {}
 }
 ```

@@ -171,7 +171,7 @@ class C { get; set; static; async }
 
 ```javascript
 
-class {
+class C {
   get;
 
   set;

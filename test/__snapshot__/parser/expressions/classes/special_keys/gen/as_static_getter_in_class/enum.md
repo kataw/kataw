@@ -126,7 +126,7 @@ class x {static get enum(){}}
 
 ```javascript
 
-class {
+class x {
   static get static enum() {}
 }
 ```

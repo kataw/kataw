@@ -126,7 +126,7 @@ class x {static * false(){}}
 
 ```javascript
 
-class {
+class x {
   static static false() {}
 }
 ```

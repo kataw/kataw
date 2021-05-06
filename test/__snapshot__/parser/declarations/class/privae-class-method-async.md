@@ -116,8 +116,8 @@ class C { async#aaa(){} }
 
 ```javascript
 
-class {
-  async () {}
+class C {
+  async #aaa() {}
 }
 ```
 

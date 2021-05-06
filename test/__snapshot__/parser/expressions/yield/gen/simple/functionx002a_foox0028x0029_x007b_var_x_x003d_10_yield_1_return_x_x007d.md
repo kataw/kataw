@@ -12,7 +12,7 @@ function* foo() { var x = 10; yield 1; return x; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -179,7 +179,7 @@ function* foo() { var x = 10; yield 1; return x; }
 
 ```javascript
 
-function* foo() {
+function * foo() {
   var x = 10;
    1;
   return  x;

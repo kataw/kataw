@@ -142,7 +142,7 @@ class A {set 9(x){}}
 
 ```javascript
 
-class {
+class A {
   set 9(x) {}
 }
 ```

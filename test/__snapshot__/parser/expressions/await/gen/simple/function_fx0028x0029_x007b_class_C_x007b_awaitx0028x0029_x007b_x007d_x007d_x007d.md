@@ -12,7 +12,7 @@ function f() { class C { await() { } } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -165,7 +165,7 @@ function f() { class C { await() { } } }
 ```javascript
 
 function f() {
-  class {
+  class C {
     await() {}
   }
 }

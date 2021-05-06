@@ -112,7 +112,7 @@ class A {a(){}}
 
 ```javascript
 
-class {
+class A {
   a() {}
 }
 ```

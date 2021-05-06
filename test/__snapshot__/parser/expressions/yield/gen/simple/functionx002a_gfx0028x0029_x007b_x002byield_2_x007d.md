@@ -126,7 +126,7 @@ function* gf() { +yield 2; }
 
 ```javascript
 
-function* gf() {
+function * gf() {
    2;
 }
 ```

@@ -96,7 +96,7 @@ class C { [0] }
 
 ```javascript
 
-class {
+class C {
   [0];
 }
 ```

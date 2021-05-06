@@ -123,8 +123,8 @@ get
 
 ```javascript
 
-class {
-  static get static () {}
+class C {
+  static get static #aaa() {}
 }
 ```
 

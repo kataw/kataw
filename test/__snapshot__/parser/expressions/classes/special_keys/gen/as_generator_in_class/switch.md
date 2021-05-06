@@ -121,7 +121,7 @@ class x {* switch(){}}
 
 ```javascript
 
-class {
+class x {
   switch() {}
 }
 ```

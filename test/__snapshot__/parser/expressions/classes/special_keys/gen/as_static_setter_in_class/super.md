@@ -145,7 +145,7 @@ class x {static set super(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static super(x) {}
 }
 ```

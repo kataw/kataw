@@ -126,7 +126,7 @@ class x {static get false(){}}
 
 ```javascript
 
-class {
+class x {
   static get static false() {}
 }
 ```

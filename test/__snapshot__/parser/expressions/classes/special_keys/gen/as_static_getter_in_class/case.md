@@ -126,7 +126,7 @@ class x {static get case(){}}
 
 ```javascript
 
-class {
+class x {
   static get static case() {}
 }
 ```

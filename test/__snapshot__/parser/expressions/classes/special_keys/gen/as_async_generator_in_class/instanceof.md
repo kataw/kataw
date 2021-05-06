@@ -126,7 +126,7 @@ class x {async * instanceof(){}}
 
 ```javascript
 
-class {
+class x {
   async instanceof() {}
 }
 ```

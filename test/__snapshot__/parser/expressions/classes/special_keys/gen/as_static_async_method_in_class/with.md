@@ -126,7 +126,7 @@ class x {static async with(){}}
 
 ```javascript
 
-class {
+class x {
   async static static with() {}
 }
 ```

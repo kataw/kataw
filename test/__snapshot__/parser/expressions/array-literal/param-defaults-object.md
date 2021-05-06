@@ -27,7 +27,7 @@ function a({x = 10}) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

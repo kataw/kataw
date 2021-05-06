@@ -126,7 +126,7 @@ class x {static * interface(){}}
 
 ```javascript
 
-class {
+class x {
   static static interface() {}
 }
 ```

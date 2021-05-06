@@ -876,7 +876,7 @@ class A {
 
 ```javascript
 
-class {
+class A {
   get() {}
   set() {}
   static() {}

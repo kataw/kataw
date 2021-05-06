@@ -16,7 +16,7 @@ function foo<T,S>() {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

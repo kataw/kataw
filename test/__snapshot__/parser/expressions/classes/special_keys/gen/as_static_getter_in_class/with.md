@@ -126,7 +126,7 @@ class x {static get with(){}}
 
 ```javascript
 
-class {
+class x {
   static get static with() {}
 }
 ```

@@ -140,7 +140,7 @@ class x {set await(x){}}
 
 ```javascript
 
-class {
+class x {
   set await(x) {}
 }
 ```

@@ -423,13 +423,13 @@ class Foo {
 
 ```javascript
 
-class {
-  () {}
-  async () {}
-  async () {}
-  static static () {}
-  async static static () {}
-  async static static () {}
+class Foo {
+  #g() {}
+  async #a() {}
+  async #ag() {}
+  static static #sg() {}
+  async static static #sa() {}
+  async static static #sag() {}
 }
 ```
 

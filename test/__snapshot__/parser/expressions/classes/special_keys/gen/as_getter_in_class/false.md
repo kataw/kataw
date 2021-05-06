@@ -121,7 +121,7 @@ class x {get false(){}}
 
 ```javascript
 
-class {
+class x {
   get false() {}
 }
 ```

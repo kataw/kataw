@@ -738,42 +738,42 @@ class C { f(){ this.#a } #a; }
 
 ```javascript
 
-class {
-  ;
+class C {
+  #a;
 
   a = this.;
 
 }
-class {
+class C {
   a = this.;
 
-  ;
+  #a;
 
 }
-class {
-  ;
+class C {
+  #a;
 
   [this.];
 
 }
-class {
+class C {
   [this.];
 
-  ;
+  #a;
 
 }
-class {
-  ;
+class C {
+  #a;
 
   f() {
     this.;
   }
 }
-class {
+class C {
   f() {
     this.;
   }
-  ;
+  #a;
 
 }
 ```

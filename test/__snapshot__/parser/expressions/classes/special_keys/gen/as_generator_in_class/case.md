@@ -121,7 +121,7 @@ class x {* case(){}}
 
 ```javascript
 
-class {
+class x {
   case() {}
 }
 ```

@@ -140,7 +140,7 @@ class x {set arguments(x){}}
 
 ```javascript
 
-class {
+class x {
   set arguments(x) {}
 }
 ```

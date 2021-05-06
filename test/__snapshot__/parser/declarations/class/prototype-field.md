@@ -199,13 +199,13 @@ class Foo { prototype = 1 }
 
 ```javascript
 
-class {
+class Foo {
   prototype;
 }
-class {
+class Foo {
   "'prototype'";
 }
-class {
+class Foo {
   prototype = 1;
 }
 ```

@@ -121,7 +121,7 @@ class x {* delete(){}}
 
 ```javascript
 
-class {
+class x {
   delete() {}
 }
 ```

@@ -95,7 +95,7 @@ class C { static '0' }
 
 ```javascript
 
-class {
+class C {
   static "'0'";
 }
 ```

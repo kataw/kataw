@@ -116,7 +116,7 @@ class x {export(){}}
 
 ```javascript
 
-class {
+class x {
   export() {}
 }
 ```

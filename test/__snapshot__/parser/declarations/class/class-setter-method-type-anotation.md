@@ -155,7 +155,7 @@ class Foo {set fooProp(value:number){}}
 
 ```javascript
 
-class {
+class Foo {
   set fooProp(value) {}
 }
 ```

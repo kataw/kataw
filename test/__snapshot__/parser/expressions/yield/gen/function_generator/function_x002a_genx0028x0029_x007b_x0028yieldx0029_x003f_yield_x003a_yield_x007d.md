@@ -12,7 +12,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -262,9 +262,9 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
 
 ```javascript
 
-function* gen() {
+function * gen() {
   function not_gen() {
-    function* gen() {
+    function * gen() {
       ( ) ?   :  ;
     }
   }

@@ -98,7 +98,7 @@ class A extends fooo.bar {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

@@ -136,7 +136,7 @@ class Foo {get fooProp():number{}}
 
 ```javascript
 
-class {
+class Foo {
   get fooProp() {}
 }
 ```

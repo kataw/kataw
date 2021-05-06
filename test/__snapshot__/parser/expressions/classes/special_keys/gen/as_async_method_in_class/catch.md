@@ -121,7 +121,7 @@ class x {async catch(){}}
 
 ```javascript
 
-class {
+class x {
   async catch() {}
 }
 ```

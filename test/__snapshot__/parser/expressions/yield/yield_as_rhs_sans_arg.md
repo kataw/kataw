@@ -8,7 +8,7 @@ function *g() { function f(x = x + yield) {}; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -181,7 +181,7 @@ function *g() { function f(x = x + yield) {}; }
 
 ```javascript
 
-function* g() {
+function * g() {
   function f(x = x + yield) {}
 
 }

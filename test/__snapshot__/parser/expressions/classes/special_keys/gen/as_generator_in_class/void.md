@@ -121,7 +121,7 @@ class x {* void(){}}
 
 ```javascript
 
-class {
+class x {
   void() {}
 }
 ```

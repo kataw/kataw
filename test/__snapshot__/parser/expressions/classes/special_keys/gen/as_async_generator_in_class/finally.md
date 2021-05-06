@@ -126,7 +126,7 @@ class x {async * finally(){}}
 
 ```javascript
 
-class {
+class x {
   async finally() {}
 }
 ```

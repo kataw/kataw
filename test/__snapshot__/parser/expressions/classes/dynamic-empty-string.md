@@ -120,7 +120,7 @@ class X {
 
 ```javascript
 
-class {
+class X {
   "''"() {}
 }
 ```

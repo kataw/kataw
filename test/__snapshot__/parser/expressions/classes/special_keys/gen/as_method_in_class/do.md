@@ -116,7 +116,7 @@ class x {do(){}}
 
 ```javascript
 
-class {
+class x {
   do() {}
 }
 ```

@@ -140,7 +140,7 @@ class x {set protected(x){}}
 
 ```javascript
 
-class {
+class x {
   set protected(x) {}
 }
 ```

@@ -454,8 +454,8 @@ foo()bar;
 foo().bar;
 this.foo;
 thisfoo;
- foo()bar;
- foo().bar;
+new  foo()bar;
+new  foo().bar;
 ```
 
 ### Diagnostics

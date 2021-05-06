@@ -131,7 +131,7 @@ class x {static async * if(){}}
 
 ```javascript
 
-class {
+class x {
   async static static if() {}
 }
 ```

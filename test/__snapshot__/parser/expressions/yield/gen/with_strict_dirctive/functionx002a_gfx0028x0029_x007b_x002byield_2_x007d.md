@@ -135,7 +135,7 @@
 
 ```javascript
 
-function* gf() {
+function * gf() {
    2;
 }
 ```

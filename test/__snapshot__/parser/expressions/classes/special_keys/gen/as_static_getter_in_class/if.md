@@ -126,7 +126,7 @@ class x {static get if(){}}
 
 ```javascript
 
-class {
+class x {
   static get static if() {}
 }
 ```

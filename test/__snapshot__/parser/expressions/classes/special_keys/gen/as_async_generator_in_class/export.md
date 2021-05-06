@@ -126,7 +126,7 @@ class x {async * export(){}}
 
 ```javascript
 
-class {
+class x {
   async export() {}
 }
 ```

@@ -144,7 +144,7 @@ class A {async get [foo](){}}
 
 ```javascript
 
-class {
+class A {
   async get;
   [foo]() {}
 }

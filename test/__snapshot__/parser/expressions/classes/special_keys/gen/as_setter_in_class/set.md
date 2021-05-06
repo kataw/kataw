@@ -140,7 +140,7 @@ class x {set set(x){}}
 
 ```javascript
 
-class {
+class x {
   set set(x) {}
 }
 ```

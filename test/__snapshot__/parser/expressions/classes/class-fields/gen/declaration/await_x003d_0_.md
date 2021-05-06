@@ -99,7 +99,7 @@ class C { await = 0; }
 
 ```javascript
 
-class {
+class C {
   await = 0;
 
 }

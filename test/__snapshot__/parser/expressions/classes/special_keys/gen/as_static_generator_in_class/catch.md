@@ -126,7 +126,7 @@ class x {static * catch(){}}
 
 ```javascript
 
-class {
+class x {
   static static catch() {}
 }
 ```

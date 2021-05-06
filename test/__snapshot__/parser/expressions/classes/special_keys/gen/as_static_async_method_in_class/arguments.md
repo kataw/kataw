@@ -126,7 +126,7 @@ class x {static async arguments(){}}
 
 ```javascript
 
-class {
+class x {
   async static static arguments() {}
 }
 ```

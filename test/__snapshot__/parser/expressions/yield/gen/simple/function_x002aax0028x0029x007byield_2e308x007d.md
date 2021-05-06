@@ -12,7 +12,7 @@ function *a(){yield 2e308}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -114,7 +114,7 @@ function *a(){yield 2e308}
 
 ```javascript
 
-function* a() {
+function * a() {
    2e308;
 }
 ```

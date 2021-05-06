@@ -90,7 +90,7 @@ class C { 1e2 }
 
 ```javascript
 
-class {
+class C {
   1e2;
 }
 ```

@@ -116,7 +116,7 @@ class x {set(){}}
 
 ```javascript
 
-class {
+class x {
   set() {}
 }
 ```

@@ -121,7 +121,7 @@ class x {static export(){}}
 
 ```javascript
 
-class {
+class x {
   static static export() {}
 }
 ```

@@ -121,7 +121,7 @@ class x {get enum(){}}
 
 ```javascript
 
-class {
+class x {
   get enum() {}
 }
 ```

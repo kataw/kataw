@@ -83,7 +83,7 @@ class x extends true {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

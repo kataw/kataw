@@ -121,7 +121,7 @@ class x {static try(){}}
 
 ```javascript
 
-class {
+class x {
   static static try() {}
 }
 ```

@@ -73,7 +73,7 @@ new new x
 
 ```javascript
 
-  x()();
+new  new  x()();
 ```
 
 ### Diagnostics

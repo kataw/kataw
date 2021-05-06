@@ -5304,7 +5304,7 @@ switch(x / b(c)
 
 switch(x
   case foo:
-    function* f() {}
+    function * f() {}
 
 switch(x
   case y:
@@ -5382,8 +5382,8 @@ switch(x
 
 switch(x
   case c:
-    async function* f() {}
-    async function* f() {}
+    async function * f() {}
+    async function * f() {}
 
 switch(0
   case 1:
@@ -5399,18 +5399,18 @@ switch(0
 
 switch(x
   case x:
-    function* f() {}
+    function * f() {}
 
 switch(x
   case x:
-    function* f() {}
+    function * f() {}
 
 "\"use strict\"";
 switch(x
   case 1:
 
   default
-    class {}
+    class C {}
 
 switch(x
 
@@ -5421,14 +5421,14 @@ switch(x
 
   default
     function f() {}
-    class {}
+    class C {}
 
 "\"use strict\"";
 switch(x
   case 1:
 
   default
-    class {}
+    class C {}
     function f() {}
 
 "\"use strict\"";
@@ -5436,7 +5436,7 @@ switch(x
   case 1:
 
   default
-    class  {}
+    class C  {}
 
 "\"use strict\"";
 switch(x
@@ -5444,14 +5444,14 @@ switch(x
 
   default
     function f() {}
-    class {}
+    class C {}
 
 "\"use strict\"";
 switch(x
   case 1:
 
   default
-    class {}
+    class C {}
 
 switch(a
   case 1:

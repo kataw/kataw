@@ -116,7 +116,7 @@ class x {true(){}}
 
 ```javascript
 
-class {
+class x {
   true() {}
 }
 ```

@@ -131,7 +131,7 @@ class x {static async * default(){}}
 
 ```javascript
 
-class {
+class x {
   async static static default() {}
 }
 ```

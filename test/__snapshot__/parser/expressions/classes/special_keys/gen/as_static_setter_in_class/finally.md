@@ -145,7 +145,7 @@ class x {static set finally(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static finally(x) {}
 }
 ```

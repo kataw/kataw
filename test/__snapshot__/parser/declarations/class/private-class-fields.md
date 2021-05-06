@@ -182,14 +182,14 @@ class C { #aaa
 
 ```javascript
 
-class {
-  ;
+class C {
+  #aaa;
 
-  ;
+  #bbb;
 }
-class {
-  ;
-  ;
+class C {
+  #aaa;
+  #bbb;
 }
 ```
 

@@ -121,7 +121,7 @@ class x {get import(){}}
 
 ```javascript
 
-class {
+class x {
   get import() {}
 }
 ```

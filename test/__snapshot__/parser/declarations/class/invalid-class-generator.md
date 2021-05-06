@@ -86,7 +86,7 @@
 
 ```javascript
 
-(class {
+(class  {
     foo;
   });
 ```

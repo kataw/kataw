@@ -117,7 +117,7 @@ x = class{} / x
 
 ```javascript
 
-x = class {} / x;
+x = class  {} / x;
 ```
 
 ### Diagnostics

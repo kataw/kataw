@@ -112,7 +112,7 @@ class x { "construct\u{6f}r"(){} }
 
 ```javascript
 
-class {
+class x {
   "\"construct\u{6f}r\""() {}
 }
 ```

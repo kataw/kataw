@@ -121,7 +121,7 @@ class x {static with(){}}
 
 ```javascript
 
-class {
+class x {
   static static with() {}
 }
 ```

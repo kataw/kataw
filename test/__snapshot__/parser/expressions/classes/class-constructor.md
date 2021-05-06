@@ -569,19 +569,19 @@
 
 ```javascript
 
-(class {
+(class C {
     constructor() {}
   });
-(class {
+(class C {
     static static constructor() {}
   });
-(class {
+(class C {
     static get static constructor() {}
   });
-(class {
+(class C {
     static set static constructor(_) {}
   });
-(class {
+(class C {
     static static constructor() {}
   });
 ```

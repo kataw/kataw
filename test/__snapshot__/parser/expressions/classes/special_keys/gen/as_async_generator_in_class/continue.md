@@ -126,7 +126,7 @@ class x {async * continue(){}}
 
 ```javascript
 
-class {
+class x {
   async continue() {}
 }
 ```

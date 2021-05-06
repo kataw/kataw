@@ -59,7 +59,7 @@ new false
 
 ```javascript
 
- false();
+new  false();
 ```
 
 ### Diagnostics

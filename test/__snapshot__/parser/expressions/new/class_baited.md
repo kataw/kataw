@@ -97,7 +97,7 @@ new class extends{}
 
 ```javascript
 
- class  {}();
+new  class   {}();
 ```
 
 ### Diagnostics

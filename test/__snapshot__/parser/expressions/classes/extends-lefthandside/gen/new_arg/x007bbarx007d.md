@@ -75,7 +75,7 @@ new {bar}
 
 ```javascript
 
- { bar }();
+new  { bar }();
 ```
 
 ### Diagnostics

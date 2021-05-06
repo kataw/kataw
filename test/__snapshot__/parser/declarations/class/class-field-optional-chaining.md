@@ -237,8 +237,8 @@ class C { #aaa; f(f) { f()?.#aaa } }
 
 ```javascript
 
-class {
-  ;
+class C {
+  #aaa;
 
   f(f) {
      = ;

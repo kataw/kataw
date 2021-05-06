@@ -1079,8 +1079,8 @@ class Foo {
 
 ```javascript
 
-class {
-  ;
+class Foo {
+  #x;
   unary() {
     this.;
     this.;

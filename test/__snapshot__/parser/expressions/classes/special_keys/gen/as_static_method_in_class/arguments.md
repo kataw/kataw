@@ -121,7 +121,7 @@ class x {static arguments(){}}
 
 ```javascript
 
-class {
+class x {
   static static arguments() {}
 }
 ```

@@ -126,7 +126,7 @@ class x {async * this(){}}
 
 ```javascript
 
-class {
+class x {
   async this() {}
 }
 ```

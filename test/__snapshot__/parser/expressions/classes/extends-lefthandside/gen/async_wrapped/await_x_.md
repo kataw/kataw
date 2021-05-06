@@ -16,7 +16,7 @@ x; {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -173,7 +173,7 @@ x; {}
 ```javascript
 
 async function p() {
-  class  {}
+  class C  {}
   {
   }
 }

@@ -125,7 +125,7 @@
 
 ```javascript
 
-(class {
+(class  {
     async async() {}
   });
 ```

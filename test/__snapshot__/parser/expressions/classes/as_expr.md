@@ -71,7 +71,7 @@
 
 ```javascript
 
-(class {});
+(class X {});
 ```
 
 ### Diagnostics

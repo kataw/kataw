@@ -121,7 +121,7 @@ class x {get eval(){}}
 
 ```javascript
 
-class {
+class x {
   get eval() {}
 }
 ```

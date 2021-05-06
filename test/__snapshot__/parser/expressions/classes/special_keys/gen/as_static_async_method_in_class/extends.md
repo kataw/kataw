@@ -126,7 +126,7 @@ class x {static async extends(){}}
 
 ```javascript
 
-class {
+class x {
   async static static extends() {}
 }
 ```

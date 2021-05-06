@@ -140,7 +140,7 @@ class x {set catch(x){}}
 
 ```javascript
 
-class {
+class x {
   set catch(x) {}
 }
 ```

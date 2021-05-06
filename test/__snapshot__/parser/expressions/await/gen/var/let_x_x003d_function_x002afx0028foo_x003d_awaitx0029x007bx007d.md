@@ -273,8 +273,8 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
 ```javascript
 
 var await;
-var f = (async function() {
-    let x = function* f(foo = await) {};
+var f = (async function () {
+    let x = function * f(foo = await) {};
   });
 ```
 

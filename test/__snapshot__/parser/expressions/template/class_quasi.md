@@ -89,7 +89,7 @@
 
 ```javascript
 
-`${class {}}`;
+`${class x {}}`;
 ```
 
 ### Diagnostics

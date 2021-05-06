@@ -123,7 +123,7 @@ do h(function(){});while(x)
 
 ```javascript
 
-do h(function() {});
+do h(function () {});
 while (x);
 ```
 

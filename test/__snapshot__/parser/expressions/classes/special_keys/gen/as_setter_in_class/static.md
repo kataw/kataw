@@ -140,7 +140,7 @@ class x {set static(x){}}
 
 ```javascript
 
-class {
+class x {
   set static(x) {}
 }
 ```

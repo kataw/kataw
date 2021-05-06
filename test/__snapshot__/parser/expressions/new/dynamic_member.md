@@ -70,7 +70,7 @@ new Foo["bar"]
 
 ```javascript
 
- Foo"\"bar\""();
+new  Foo"\"bar\""();
 ```
 
 ### Diagnostics

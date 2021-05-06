@@ -145,7 +145,7 @@ class x {static set interface(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static interface(x) {}
 }
 ```

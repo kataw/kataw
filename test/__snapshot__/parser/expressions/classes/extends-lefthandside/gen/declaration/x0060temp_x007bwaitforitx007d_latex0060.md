@@ -84,7 +84,7 @@ class A extends `temp {waitforit} late` {}
 
 ```javascript
 
-class  {}
+class A  {}
 ```
 
 ### Diagnostics

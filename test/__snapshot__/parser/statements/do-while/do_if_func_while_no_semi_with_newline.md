@@ -9,7 +9,7 @@ while(y)
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

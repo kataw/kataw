@@ -103,7 +103,7 @@ class x extends new {}
 
 ```javascript
 
-class  {}
+class x  {}
 ```
 
 ### Diagnostics

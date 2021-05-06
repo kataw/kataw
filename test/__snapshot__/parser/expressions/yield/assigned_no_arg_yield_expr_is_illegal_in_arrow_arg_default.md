@@ -8,7 +8,7 @@ function *f(){ async (x = z = yield) => {} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -173,7 +173,7 @@ function *f(){ async (x = z = yield) => {} }
 
 ```javascript
 
-function* f() {
+function * f() {
   async (x = z =  ) =>  {}
 }
 ```

@@ -246,7 +246,7 @@
 
 ```javascript
 
-let foo = function*() {
+let foo = function * () {
   try {
      42;
   } try{

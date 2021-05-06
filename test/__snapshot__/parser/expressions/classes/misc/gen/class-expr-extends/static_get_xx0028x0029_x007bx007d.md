@@ -150,7 +150,7 @@
 
 ```javascript
 
-(class  {
+(class   {
     static get static x() {}
   });
 ```

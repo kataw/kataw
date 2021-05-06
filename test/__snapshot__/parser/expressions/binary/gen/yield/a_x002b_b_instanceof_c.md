@@ -156,7 +156,7 @@ function *f() {
 
 ```javascript
 
-function* f() {
+function * f() {
    a + b inctanceof c;
 }
 ```

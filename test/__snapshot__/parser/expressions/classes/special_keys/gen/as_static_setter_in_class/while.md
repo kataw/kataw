@@ -145,7 +145,7 @@ class x {static set while(x){}}
 
 ```javascript
 
-class {
+class x {
   static set static while(x) {}
 }
 ```

@@ -220,9 +220,9 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
 
 ```javascript
 
-function* gen() {
+function * gen() {
   function not_gen() {
-    function* gf() {
+    function * gf() {
        ;
     }
   }

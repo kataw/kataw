@@ -116,7 +116,7 @@ class x {this(){}}
 
 ```javascript
 
-class {
+class x {
   this() {}
 }
 ```

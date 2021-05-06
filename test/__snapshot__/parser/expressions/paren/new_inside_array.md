@@ -143,8 +143,8 @@
 
 ```javascript
 
-([ x()]);
-(x, [ y()]);
+([new  x()]);
+(x, [new  y()]);
 ```
 
 ### Diagnostics

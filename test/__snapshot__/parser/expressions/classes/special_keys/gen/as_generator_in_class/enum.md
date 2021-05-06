@@ -121,7 +121,7 @@ class x {* enum(){}}
 
 ```javascript
 
-class {
+class x {
   enum() {}
 }
 ```

@@ -140,7 +140,7 @@ class x {set public(x){}}
 
 ```javascript
 
-class {
+class x {
   set public(x) {}
 }
 ```

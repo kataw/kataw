@@ -12,7 +12,7 @@ function f(x = await){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

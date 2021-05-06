@@ -116,8 +116,8 @@ class C { static#aaa(){} }
 
 ```javascript
 
-class {
-  static static () {}
+class C {
+  static static #aaa() {}
 }
 ```
 

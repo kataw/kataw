@@ -13,7 +13,7 @@ switch (0) {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

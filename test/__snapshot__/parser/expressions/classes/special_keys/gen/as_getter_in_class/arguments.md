@@ -121,7 +121,7 @@ class x {get arguments(){}}
 
 ```javascript
 
-class {
+class x {
   get arguments() {}
 }
 ```

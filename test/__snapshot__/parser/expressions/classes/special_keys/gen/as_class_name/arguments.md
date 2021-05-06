@@ -64,7 +64,7 @@ class arguments {}
 
 ```javascript
 
-class {}
+class arguments {}
 ```
 
 ### Diagnostics

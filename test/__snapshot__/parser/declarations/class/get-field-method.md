@@ -138,10 +138,10 @@ class C { get; #aaa(){} }
 
 ```javascript
 
-class {
+class C {
   get;
 
-  () {}
+  #aaa() {}
 }
 ```
 

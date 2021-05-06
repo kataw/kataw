@@ -140,7 +140,7 @@ class x {set super(x){}}
 
 ```javascript
 
-class {
+class x {
   set super(x) {}
 }
 ```

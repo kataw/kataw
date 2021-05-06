@@ -114,7 +114,7 @@ class A {
 
 ```javascript
 
-class {
+class A {
   constructor() {}
 }
 ```

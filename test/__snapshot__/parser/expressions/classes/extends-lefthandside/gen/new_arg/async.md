@@ -60,7 +60,7 @@ new async
 
 ```javascript
 
- async();
+new  async();
 ```
 
 ### Diagnostics

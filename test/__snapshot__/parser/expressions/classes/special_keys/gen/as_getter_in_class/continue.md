@@ -121,7 +121,7 @@ class x {get continue(){}}
 
 ```javascript
 
-class {
+class x {
   get continue() {}
 }
 ```

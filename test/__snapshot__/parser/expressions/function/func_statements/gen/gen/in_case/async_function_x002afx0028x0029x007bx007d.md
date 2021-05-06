@@ -15,7 +15,7 @@ switch (x) {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -145,7 +145,7 @@ switch (x) {
 
 switch(x
   case foo:
-    async function* f() {}
+    async function * f() {}
  
 ```
 

@@ -141,7 +141,7 @@ class A {* get "foo"(){}}
 
 ```javascript
 
-class {
+class A {
   get;
   "\"foo\""() {}
 }

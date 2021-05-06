@@ -8,7 +8,7 @@ async function f(){ return; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

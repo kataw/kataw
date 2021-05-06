@@ -13,7 +13,7 @@ function* foo() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -180,8 +180,8 @@ function* foo() {
 
 ```javascript
 
-function* foo() {
-  class {
+function * foo() {
+  class C {
     // here yield is an identifier reference
     p =   + 42;
 

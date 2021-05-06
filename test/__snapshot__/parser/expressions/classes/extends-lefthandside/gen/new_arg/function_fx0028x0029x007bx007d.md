@@ -98,7 +98,7 @@ new function f(){}
 
 ```javascript
 
- function f() {}();
+new  function f() {}();
 ```
 
 ### Diagnostics

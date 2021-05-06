@@ -121,7 +121,7 @@ class x {static get(){}}
 
 ```javascript
 
-class {
+class x {
   static static get() {}
 }
 ```

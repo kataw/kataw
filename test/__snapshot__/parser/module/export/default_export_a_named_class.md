@@ -84,7 +84,7 @@ export default class x {}
 
 ```javascript
 
- default class {};
+ default class x {};
 ```
 
 ### Diagnostics

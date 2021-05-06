@@ -127,7 +127,7 @@
 
 ```javascript
 
-(function() {
+(function () {
     "'\0'";
   }());
 ```
