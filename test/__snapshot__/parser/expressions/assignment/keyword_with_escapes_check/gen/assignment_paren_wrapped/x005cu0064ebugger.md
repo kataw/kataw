@@ -84,10 +84,6 @@
 
 ```javascript
 
-();
-debugger;
-x;
-
 ```
 
 ### Diagnostics

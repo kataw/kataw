@@ -159,9 +159,9 @@ switch(x
   default
 
   case y:
-
+    break;
   case z:
-
+    break;
  
 ```
 

@@ -66,8 +66,6 @@ do false
 
 ```javascript
 
-do false;
- ();
 ```
 
 ### Diagnostics

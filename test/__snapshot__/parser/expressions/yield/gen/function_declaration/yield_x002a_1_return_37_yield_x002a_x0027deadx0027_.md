@@ -169,7 +169,6 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

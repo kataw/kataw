@@ -73,9 +73,6 @@
 ### Printed
 
 ```javascript
-// one comment
-/* two
- comment */
 
 ```
 

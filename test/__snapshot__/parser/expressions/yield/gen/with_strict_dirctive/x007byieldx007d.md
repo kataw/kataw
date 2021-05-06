@@ -70,9 +70,6 @@
 
 ```javascript
 
-{
-  yield;
-}
 ```
 
 ### Diagnostics

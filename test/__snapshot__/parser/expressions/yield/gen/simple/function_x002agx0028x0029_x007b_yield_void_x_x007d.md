@@ -126,7 +126,9 @@ function *g() { yield void x }
 
 ```javascript
 
-
+function* g() {
+   x;
+}
 ```
 
 ### Diagnostics

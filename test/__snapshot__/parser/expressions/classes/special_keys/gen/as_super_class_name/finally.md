@@ -118,10 +118,6 @@ class x extends finally {}
 
 ```javascript
 
-class  {}
- {
-} {
-}
 ```
 
 ### Diagnostics

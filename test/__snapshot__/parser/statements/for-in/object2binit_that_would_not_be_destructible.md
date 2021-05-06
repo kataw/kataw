@@ -161,7 +161,6 @@ for ({a: x + y} = z in obj);
 
 ```javascript
 
-for (; ; );
 ```
 
 ### Diagnostics

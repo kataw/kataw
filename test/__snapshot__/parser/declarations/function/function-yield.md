@@ -240,7 +240,10 @@ function *foo() {
 
 ```javascript
 
-
+function* foo() {
+  const x = ();
+  x ?  1 : x;
+}
 ```
 
 ### Diagnostics

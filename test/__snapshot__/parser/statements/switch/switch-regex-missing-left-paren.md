@@ -111,12 +111,6 @@ switch (/a/i {}
 
 ```javascript
 
-switch(/a/i
-
-switch(/a/i
-
-switch(/a/i
- 
 ```
 
 ### Diagnostics

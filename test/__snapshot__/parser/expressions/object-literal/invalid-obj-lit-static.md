@@ -112,7 +112,6 @@
 
 ```javascript
 
-({ static, x() {} });
 ```
 
 ### Diagnostics

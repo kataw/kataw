@@ -96,8 +96,6 @@ type x = y;
 
 ```javascript
 
-type;
-x = y;
 ```
 
 ### Diagnostics

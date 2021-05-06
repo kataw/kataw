@@ -102,7 +102,6 @@ class x extends typeof {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

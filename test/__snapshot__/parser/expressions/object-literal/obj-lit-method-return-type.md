@@ -184,12 +184,6 @@ x = { method(test: string): number { } };
 
 ```javascript
 
-x = { method(test) {} };
-string;
-number;
-{
-}
-
 ```
 
 ### Diagnostics

@@ -165,9 +165,6 @@
 
 ```javascript
 
-({ * method() {
-    y = ;
-  } });
 ```
 
 ### Diagnostics

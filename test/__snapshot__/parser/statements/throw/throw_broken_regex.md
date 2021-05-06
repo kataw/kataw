@@ -48,7 +48,6 @@ throw/("
 
 ```javascript
 
-throw  /(";
 ```
 
 ### Diagnostics

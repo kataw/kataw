@@ -110,7 +110,6 @@ label: async function () {}
 
 ```javascript
 
-label: 
 ```
 
 ### Diagnostics

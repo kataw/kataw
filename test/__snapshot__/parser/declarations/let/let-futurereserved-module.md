@@ -72,7 +72,6 @@ let public;
 
 ```javascript
 
-let public;
 ```
 
 ### Diagnostics

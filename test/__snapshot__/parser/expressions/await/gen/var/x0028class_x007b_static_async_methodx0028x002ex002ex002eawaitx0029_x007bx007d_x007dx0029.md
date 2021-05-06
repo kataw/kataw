@@ -280,12 +280,6 @@ var await; var f = (async function() { (class { static async method(...await) {}
 
 ```javascript
 
-var await;
-var f = (async function() {
-    (class {
-        static method(...await) {}
-      });
-  });
 ```
 
 ### Diagnostics

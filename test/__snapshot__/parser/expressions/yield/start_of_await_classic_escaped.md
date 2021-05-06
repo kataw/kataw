@@ -103,9 +103,6 @@ async () => { var \u0061wait; }
 
 ```javascript
 
-async () =>  {
-  var await;
-}
 ```
 
 ### Diagnostics

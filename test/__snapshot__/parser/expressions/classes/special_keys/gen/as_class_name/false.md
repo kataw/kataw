@@ -89,10 +89,6 @@ class false {}
 
 ```javascript
 
-class {}
-false;
-{
-}
 ```
 
 ### Diagnostics

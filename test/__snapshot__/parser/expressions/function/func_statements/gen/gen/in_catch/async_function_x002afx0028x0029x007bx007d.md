@@ -156,7 +156,7 @@ try {
 
 try {
 } catch (e) {
-
+  async function* f() {}
 }
 ```
 

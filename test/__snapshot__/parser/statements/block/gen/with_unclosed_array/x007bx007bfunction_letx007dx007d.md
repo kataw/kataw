@@ -113,9 +113,6 @@
 
 ```javascript
 
-{
-  [{}, { function, let }];
-}
 ```
 
 ### Diagnostics

@@ -98,9 +98,6 @@
 
 ```javascript
 
-{
-  [class {}];
-}
 ```
 
 ### Diagnostics

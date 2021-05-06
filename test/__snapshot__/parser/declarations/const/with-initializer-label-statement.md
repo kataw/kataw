@@ -116,8 +116,6 @@ label: const x = 1;
 
 ```javascript
 
-label: ;
-const x = 1;
 ```
 
 ### Diagnostics

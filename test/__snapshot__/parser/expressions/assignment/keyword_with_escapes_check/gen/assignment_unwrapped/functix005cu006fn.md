@@ -93,8 +93,6 @@ functi\u006fn = x;
 
 ```javascript
 
-
-x;
 ```
 
 ### Diagnostics

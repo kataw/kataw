@@ -150,7 +150,9 @@ function *f() {
 
 ```javascript
 
-
+function* f() {
+   async async =>  {};
+}
 ```
 
 ### Diagnostics

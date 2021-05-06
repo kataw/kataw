@@ -125,7 +125,6 @@ for (((x)=>{}) in y);
 
 ```javascript
 
-for ( in y);
 ```
 
 ### Diagnostics

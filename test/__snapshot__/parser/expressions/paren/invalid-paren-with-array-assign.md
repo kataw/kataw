@@ -153,8 +153,6 @@
 
 ```javascript
 
-([a]) = [];
-({ a }) = {};
 ```
 
 ### Diagnostics

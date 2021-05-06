@@ -147,11 +147,6 @@ do while [catch] try { !xxx
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- ({});
-xxx;
 ```
 
 ### Diagnostics

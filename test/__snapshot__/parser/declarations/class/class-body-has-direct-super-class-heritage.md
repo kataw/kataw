@@ -201,12 +201,6 @@ class B extends A {
 
 ```javascript
 
-class {}
-class  {
-  constructor() {
-    ();
-  }
-}
 ```
 
 ### Diagnostics

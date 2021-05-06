@@ -193,7 +193,6 @@ function* x() { function* foo(a = 1 + (yield)) {} }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -111,10 +111,6 @@ class A extends oh,no {}
 
 ```javascript
 
-class  {}
-no;
-{
-}
 ```
 
 ### Diagnostics

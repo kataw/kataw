@@ -83,7 +83,6 @@ new x => ok
 
 ```javascript
 
- x =>  ok();
 ```
 
 ### Diagnostics

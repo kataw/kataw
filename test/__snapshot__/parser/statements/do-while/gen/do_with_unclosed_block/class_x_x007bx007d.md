@@ -117,10 +117,6 @@ do {} while (x) { class x {}
 
 ```javascript
 
-do {} while (x);
-{
-  class {}
-}
 ```
 
 ### Diagnostics

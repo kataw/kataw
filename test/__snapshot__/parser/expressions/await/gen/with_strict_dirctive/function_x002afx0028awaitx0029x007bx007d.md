@@ -113,7 +113,7 @@
 
 ```javascript
 
-
+function* f(await) {}
 ```
 
 ### Diagnostics

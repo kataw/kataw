@@ -125,11 +125,6 @@ fuction *f() {  return await yield;  }
 
 ```javascript
 
-fuction * f();
-{
-  return  await;
-  yield;
-}
 ```
 
 ### Diagnostics

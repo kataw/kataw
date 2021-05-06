@@ -114,9 +114,6 @@ async () => {  v\u006fid = x  }
 
 ```javascript
 
-async () =>  {
-   = x;
-}
 ```
 
 ### Diagnostics

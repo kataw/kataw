@@ -192,7 +192,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

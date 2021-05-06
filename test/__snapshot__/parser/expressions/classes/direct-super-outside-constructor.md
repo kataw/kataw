@@ -147,11 +147,6 @@ class A {
 
 ```javascript
 
-class {
-  x() {
-    ();
-  }
-}
 ```
 
 ### Diagnostics

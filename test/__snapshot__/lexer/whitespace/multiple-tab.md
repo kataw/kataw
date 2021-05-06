@@ -141,14 +141,6 @@
 
 ```javascript
 
-t;
-t;
-t;
-t;
-t;
-t;
-t;
-t;
 ```
 
 ### Diagnostics

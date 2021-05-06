@@ -101,7 +101,6 @@ class x extends super {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

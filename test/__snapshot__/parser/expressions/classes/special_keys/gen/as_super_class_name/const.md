@@ -126,8 +126,6 @@ class x extends const {}
 
 ```javascript
 
-class  {}
-const {};
 ```
 
 ### Diagnostics

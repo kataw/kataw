@@ -165,8 +165,6 @@ x?.y = 0;
 
 ```javascript
 
- =  = 0;
- =  = 0;
 ```
 
 ### Diagnostics

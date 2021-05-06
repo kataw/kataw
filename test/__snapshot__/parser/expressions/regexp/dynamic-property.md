@@ -42,7 +42,6 @@
 
 ```javascript
 
-/++!{class;
 ```
 
 ### Diagnostics

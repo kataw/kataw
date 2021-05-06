@@ -148,7 +148,6 @@
 
 ```javascript
 
-[a, b += [x, y]] = z;
 ```
 
 ### Diagnostics

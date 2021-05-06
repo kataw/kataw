@@ -298,7 +298,10 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 
 var await;
 var f = (async function() {
+    async function a() {
+      async([v] = await bar)
 
+    }
   });
 ```
 

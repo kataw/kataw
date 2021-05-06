@@ -121,7 +121,6 @@
 
 ```javascript
 
-[...c, { a, b }] = d;
 ```
 
 ### Diagnostics

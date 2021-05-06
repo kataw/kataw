@@ -88,8 +88,6 @@ async("foo".bar) => x
 
 ```javascript
 
-async("\"foo\"".bar)
-x;
 ```
 
 ### Diagnostics

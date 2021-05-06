@@ -132,11 +132,6 @@ var foob\\u{}ar = 0;
 
 ```javascript
 
-var foob;
-u;
-{
-}
-ar = 0;
 ```
 
 ### Diagnostics

@@ -131,7 +131,10 @@ function x(){
 
 ```javascript
 
-
+function x() {
+  if (x) return  / /;
+  else ;
+}
 ```
 
 ### Diagnostics

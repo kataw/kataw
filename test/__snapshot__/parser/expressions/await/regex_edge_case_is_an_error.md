@@ -148,7 +148,6 @@ async function f(){ await foo
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -223,11 +223,6 @@
 
 ```javascript
 
-({ get x() {
-    var f = function() {
-      ();
-    };
-  } });
 ```
 
 ### Diagnostics

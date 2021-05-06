@@ -128,7 +128,6 @@
 
 ```javascript
 
-({ * bar(yield) {} });
 ```
 
 ### Diagnostics

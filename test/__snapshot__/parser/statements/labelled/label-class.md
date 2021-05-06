@@ -90,7 +90,6 @@ label: class x {}
 
 ```javascript
 
-label: class {}
 ```
 
 ### Diagnostics

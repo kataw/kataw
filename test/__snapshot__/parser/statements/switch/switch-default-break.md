@@ -140,10 +140,6 @@ switch(0) { default: function f(){ break; } }
 
 ```javascript
 
-switch(0
-  default
-
- 
 ```
 
 ### Diagnostics

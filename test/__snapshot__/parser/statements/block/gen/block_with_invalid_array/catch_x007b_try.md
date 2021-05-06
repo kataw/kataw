@@ -178,18 +178,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-   {
-    try {
-    } try{
-    }
-  } {
-  }
-}
 ```
 
 ### Diagnostics

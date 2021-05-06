@@ -102,9 +102,6 @@ async () => {  \u006eull = x  }
 
 ```javascript
 
-async () =>  {
-  null = x;
-}
 ```
 
 ### Diagnostics

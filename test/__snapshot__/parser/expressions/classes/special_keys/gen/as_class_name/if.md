@@ -104,8 +104,6 @@ class if {}
 
 ```javascript
 
-class {}
-if ({}) ;
 ```
 
 ### Diagnostics

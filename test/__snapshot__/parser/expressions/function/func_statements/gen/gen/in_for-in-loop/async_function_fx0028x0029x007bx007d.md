@@ -119,8 +119,6 @@ for (a in b) async function f(){}
 
 ```javascript
 
-for ( in b)
-  
 ```
 
 ### Diagnostics

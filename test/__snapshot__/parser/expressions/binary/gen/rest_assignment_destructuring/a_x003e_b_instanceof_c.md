@@ -134,7 +134,6 @@
 
 ```javascript
 
-[...a > b inctanceof c] = x;
 ```
 
 ### Diagnostics

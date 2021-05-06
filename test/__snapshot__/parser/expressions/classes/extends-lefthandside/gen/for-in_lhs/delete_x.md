@@ -85,7 +85,6 @@ for (delete x in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

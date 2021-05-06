@@ -145,7 +145,6 @@
 
 ```javascript
 
-[x, ...z + arr, y] = obj;
 ```
 
 ### Diagnostics

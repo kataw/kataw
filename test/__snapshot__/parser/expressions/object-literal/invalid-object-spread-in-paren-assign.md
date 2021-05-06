@@ -697,14 +697,6 @@
 
 ```javascript
 
-({ ...obj1 } = foo);
-({ ...obj1 } = foo);
-({ ...a } = {});
-({ ...obj1, ...obj2 } = foo);
-({ ...{ a, b } } = foo);
-({ ...[a, b] } = foo);
-({ ...[a, b] } = x);
-({ ...{ a, b } } = x);
 ```
 
 ### Diagnostics

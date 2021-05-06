@@ -167,18 +167,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  async;
-  class {}
-}
 ```
 
 ### Diagnostics

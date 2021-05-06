@@ -395,17 +395,6 @@ const {x}: string = y;
 
 ```javascript
 
-const x;
-string;
-const [x];
-string = y;
-const [x];
-symbol;
-string = y;
-const {
-  x
-};
-string = y;
 ```
 
 ### Diagnostics

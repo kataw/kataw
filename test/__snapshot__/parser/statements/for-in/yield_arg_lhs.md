@@ -155,7 +155,6 @@ function *f(){   for (yield x in y);   }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

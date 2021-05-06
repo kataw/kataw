@@ -229,7 +229,6 @@ async function g(){let o = {f(foo = await bar){}}    }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

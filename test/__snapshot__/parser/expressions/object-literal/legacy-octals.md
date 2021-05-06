@@ -88,7 +88,6 @@
 
 ```javascript
 
-({ 0123: 4 });
 ```
 
 ### Diagnostics

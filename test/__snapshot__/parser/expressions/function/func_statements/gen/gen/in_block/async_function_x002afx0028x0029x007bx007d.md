@@ -107,7 +107,7 @@
 ```javascript
 
 {
-
+  async function* f() {}
 }
 ```
 

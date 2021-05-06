@@ -196,7 +196,6 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

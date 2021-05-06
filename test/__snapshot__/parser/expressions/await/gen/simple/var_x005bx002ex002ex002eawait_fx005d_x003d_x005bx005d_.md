@@ -132,7 +132,6 @@ var [...await f] = [];
 
 ```javascript
 
-var [...await, f] = [];
 ```
 
 ### Diagnostics

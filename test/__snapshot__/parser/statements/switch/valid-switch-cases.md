@@ -5269,14 +5269,14 @@ switch(x
 switch(x
   case 42:
     y();
-
+    break;
   default
-
+    break;
 
 switch(answer
   case 42:
     let t = 42;
-
+    break;
 
 switch(x
   case y:
@@ -5304,7 +5304,7 @@ switch(x / b(c)
 
 switch(x
   case foo:
-
+    function* f() {}
 
 switch(x
   case y:
@@ -5355,9 +5355,9 @@ switch(x
 
 switch(0
   case 1:
-
+    async function f() {}
   default
-
+    async function f() {}
 
 switch(x
   case y:
@@ -5377,13 +5377,13 @@ switch(x / b(c)
 
 switch(x
   case c:
-
-
+    function f() {}
+    function f() {}
 
 switch(x
   case c:
-
-
+    async function* f() {}
+    async function* f() {}
 
 switch(0
   case 1:
@@ -5399,11 +5399,11 @@ switch(0
 
 switch(x
   case x:
-
+    function* f() {}
 
 switch(x
   case x:
-
+    function* f() {}
 
 "\"use strict\"";
 switch(x
@@ -5420,7 +5420,7 @@ switch(x
   case 1:
 
   default
-
+    function f() {}
     class {}
 
 "\"use strict\"";
@@ -5429,7 +5429,7 @@ switch(x
 
   default
     class {}
-
+    function f() {}
 
 "\"use strict\"";
 switch(x
@@ -5443,7 +5443,7 @@ switch(x
   case 1:
 
   default
-
+    function f() {}
     class {}
 
 "\"use strict\"";

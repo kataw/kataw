@@ -89,10 +89,6 @@ class null {}
 
 ```javascript
 
-class {}
-null;
-{
-}
 ```
 
 ### Diagnostics

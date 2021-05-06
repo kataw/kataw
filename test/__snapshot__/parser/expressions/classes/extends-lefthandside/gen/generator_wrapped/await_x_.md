@@ -168,7 +168,12 @@ x; {}
 
 ```javascript
 
-
+function* P() {
+  class  {}
+  x;
+  {
+  }
+}
 ```
 
 ### Diagnostics

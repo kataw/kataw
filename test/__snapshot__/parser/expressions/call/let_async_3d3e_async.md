@@ -80,8 +80,6 @@ let async => async
 
 ```javascript
 
-let async;
-async;
 ```
 
 ### Diagnostics

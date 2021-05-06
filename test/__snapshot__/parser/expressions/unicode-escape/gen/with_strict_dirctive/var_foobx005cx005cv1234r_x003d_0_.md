@@ -114,8 +114,6 @@
 
 ```javascript
 
-var foob;
-v1234r = 0;
 ```
 
 ### Diagnostics

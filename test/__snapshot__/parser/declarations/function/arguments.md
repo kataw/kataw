@@ -138,7 +138,9 @@ function f() {
 
 ```javascript
 
-
+function f() {
+  var x = arguments12;
+}
 ```
 
 ### Diagnostics

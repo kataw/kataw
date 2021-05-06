@@ -127,9 +127,6 @@ var {...[]} = {}
 
 ```javascript
 
-var {
-  []:
-} = {};
 ```
 
 ### Diagnostics

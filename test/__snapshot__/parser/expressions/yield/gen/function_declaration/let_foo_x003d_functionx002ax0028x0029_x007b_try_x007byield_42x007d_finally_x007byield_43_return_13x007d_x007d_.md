@@ -285,7 +285,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

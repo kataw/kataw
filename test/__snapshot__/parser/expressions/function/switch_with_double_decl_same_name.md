@@ -194,9 +194,9 @@ switch (0) {
 
 switch(0
   case 1:
-
+    function f() {}
   default
-
+    function f() {}
  
 ```
 

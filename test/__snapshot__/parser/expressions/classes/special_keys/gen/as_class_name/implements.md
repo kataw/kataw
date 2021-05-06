@@ -64,7 +64,6 @@ class implements {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

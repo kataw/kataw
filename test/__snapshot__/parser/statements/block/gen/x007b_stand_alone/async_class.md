@@ -91,10 +91,6 @@
 
 ```javascript
 
-{
-  async;
-  class {}
-}
 ```
 
 ### Diagnostics

@@ -207,13 +207,6 @@ do do do while try this and !foo while while while
 
 ```javascript
 
-do do do while () try {
-        } try{
-        }
-     (foo);
-  while ();
-while ();
-while () ;
 ```
 
 ### Diagnostics

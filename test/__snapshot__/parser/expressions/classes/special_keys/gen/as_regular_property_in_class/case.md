@@ -100,10 +100,6 @@ class x {case: x}
 
 ```javascript
 
-class {
-  case;
-}
-x;
 ```
 
 ### Diagnostics

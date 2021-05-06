@@ -513,12 +513,6 @@ import {eval as x} from 'foo';
 
 ```javascript
 
-  eval }  ;
-  eval }  ;
-  x aseval }  ;
-  x aseval }  ;
-  arguments }  ;
-  eval asx }  ;
 ```
 
 ### Diagnostics

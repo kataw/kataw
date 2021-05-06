@@ -110,8 +110,6 @@ var af = ...x => x;
 
 ```javascript
 
-var af = ;
-x =>  x;
 ```
 
 ### Diagnostics

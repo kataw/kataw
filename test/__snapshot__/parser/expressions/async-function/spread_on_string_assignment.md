@@ -90,7 +90,6 @@
 
 ```javascript
 
-[..."\"foo\"" = x];
 ```
 
 ### Diagnostics

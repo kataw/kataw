@@ -208,11 +208,6 @@ class x extends y {
 
 ```javascript
 
-class  {
-  constructor() {
-    ({ "\"foo\"":  });
-  }
-}
 ```
 
 ### Diagnostics

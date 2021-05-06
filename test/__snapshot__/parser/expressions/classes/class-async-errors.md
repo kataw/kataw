@@ -1409,57 +1409,6 @@
 
 ```javascript
 
-(class {
-    async;
-    x() {}
-  });
-(class {
-    () {}
-  });
-(class {
-    async get;
-    x() {}
-  });
-(class {
-    async set;
-    x(y) {}
-  });
-(class {
-    async x;
-  });
-0;
-(class {
-    async;
-  });
-0;
-(class {
-    async static;
-    x() {}
-  });
-(class {
-    static async;
-    x() {}
-  });
-(class {
-    static () {}
-  });
-(class {
-    static async get;
-    x() {}
-  });
-(class {
-    static async set;
-    x(y) {}
-  });
-(class {
-    static async x;
-  });
-0;
-(class {
-    static async;
-  });
-0;
-
 ```
 
 ### Diagnostics

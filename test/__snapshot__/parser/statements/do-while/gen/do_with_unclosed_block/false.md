@@ -99,10 +99,6 @@ do {} while (x) { false
 
 ```javascript
 
-do {} while (x);
-{
-  false;
-}
 ```
 
 ### Diagnostics

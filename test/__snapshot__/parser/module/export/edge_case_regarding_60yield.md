@@ -75,8 +75,6 @@ export default yield x
 
 ```javascript
 
- default yield;
-x;
 ```
 
 ### Diagnostics

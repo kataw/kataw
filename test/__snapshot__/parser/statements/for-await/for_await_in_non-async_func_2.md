@@ -130,7 +130,6 @@ function f() { for await (x of y) {} }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

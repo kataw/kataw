@@ -114,9 +114,6 @@ async () => {  type\u006ff = x  }
 
 ```javascript
 
-async () =>  {
-   = x;
-}
 ```
 
 ### Diagnostics

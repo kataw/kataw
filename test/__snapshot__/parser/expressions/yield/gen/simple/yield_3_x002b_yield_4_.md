@@ -95,9 +95,6 @@ yield 3 + yield 4;
 
 ```javascript
 
-yield;
-3 + yield;
-4;
 ```
 
 ### Diagnostics

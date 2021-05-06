@@ -100,10 +100,6 @@ class x {while: x}
 
 ```javascript
 
-class {
-  while;
-}
-x;
 ```
 
 ### Diagnostics

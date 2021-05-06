@@ -110,7 +110,6 @@ typeof class{}
 
 ```javascript
 
-class {} / foo / ;
 ```
 
 ### Diagnostics

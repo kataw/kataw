@@ -158,7 +158,9 @@ function *f() { yield
 
 ```javascript
 
-
+function* f() {
+   {} / 1 / g;
+}
 ```
 
 ### Diagnostics

@@ -89,8 +89,6 @@ class return {}
 
 ```javascript
 
-class {}
-return  {};
 ```
 
 ### Diagnostics

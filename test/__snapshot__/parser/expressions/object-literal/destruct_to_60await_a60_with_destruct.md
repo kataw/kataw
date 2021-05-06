@@ -135,7 +135,6 @@ s = {"foo": await a = x} = x
 
 ```javascript
 
-s = { "\"foo\"": await, a = x } = x;
 ```
 
 ### Diagnostics

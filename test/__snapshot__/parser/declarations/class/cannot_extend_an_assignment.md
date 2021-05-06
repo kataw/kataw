@@ -126,10 +126,6 @@ class x extends a = b {}
 
 ```javascript
 
-class  {}
-b;
-{
-}
 ```
 
 ### Diagnostics

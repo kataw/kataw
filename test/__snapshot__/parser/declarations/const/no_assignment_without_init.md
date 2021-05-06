@@ -110,7 +110,6 @@ const [foo];
 
 ```javascript
 
-const [foo];
 ```
 
 ### Diagnostics

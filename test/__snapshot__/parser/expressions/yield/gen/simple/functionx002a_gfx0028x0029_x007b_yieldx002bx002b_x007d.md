@@ -125,7 +125,6 @@ function* gf() { yield++; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

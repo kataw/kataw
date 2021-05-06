@@ -426,18 +426,6 @@ class x { static async *prototype(){} }
 
 ```javascript
 
-class {
-  static prototype() {}
-}
-class {
-  static "\"prot\u006ftype\""() {}
-}
-class {
-  static prototype() {}
-}
-class {
-  static prototype() {}
-}
 ```
 
 ### Diagnostics

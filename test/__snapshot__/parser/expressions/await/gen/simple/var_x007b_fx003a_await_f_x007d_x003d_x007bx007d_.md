@@ -138,10 +138,6 @@ var { f: await f } = {};
 
 ```javascript
 
-var {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

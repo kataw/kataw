@@ -136,17 +136,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  false;
-}
 ```
 
 ### Diagnostics

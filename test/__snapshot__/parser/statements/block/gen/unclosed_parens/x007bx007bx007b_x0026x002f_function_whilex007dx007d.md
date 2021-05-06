@@ -125,14 +125,6 @@
 
 ```javascript
 
-{
-  ();
-  {
-    {
-         => / function while}};
-    }
-  }
-}
 ```
 
 ### Diagnostics

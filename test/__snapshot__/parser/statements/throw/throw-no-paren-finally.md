@@ -99,10 +99,6 @@ throw {x} finally
 
 ```javascript
 
-throw  { x };
- {
-} {
-}
 ```
 
 ### Diagnostics

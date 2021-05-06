@@ -94,12 +94,6 @@
 
 ```javascript
 
-{
-  {
-    switch({}
-
-  }
-}
 ```
 
 ### Diagnostics

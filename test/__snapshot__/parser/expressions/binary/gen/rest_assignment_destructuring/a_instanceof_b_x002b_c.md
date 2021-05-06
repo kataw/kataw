@@ -134,7 +134,6 @@
 
 ```javascript
 
-[...   inctanceof b + c] = x;
 ```
 
 ### Diagnostics

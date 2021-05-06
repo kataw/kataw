@@ -881,28 +881,6 @@ class C { test() {get #a() { }}}
 
 ```javascript
 
- = 1;
-
-
-() =>  {
-  ();
-  {
-  }
-};
-class {
-  test() {
-    get;
-    ();
-    {
-    }
-  }
-}
-"'use strict'";
-({ set (foo) {} });
-"'use strict'";
-({ * () {} });
-({ async () {} } = {});
-({ * async () {} } = {});
 ```
 
 ### Diagnostics

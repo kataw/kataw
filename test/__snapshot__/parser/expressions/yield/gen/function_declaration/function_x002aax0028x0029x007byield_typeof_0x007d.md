@@ -174,7 +174,6 @@ function not_gen() { function *a(){yield typeof 0} }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

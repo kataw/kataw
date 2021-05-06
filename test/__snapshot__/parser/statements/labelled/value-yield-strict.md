@@ -79,7 +79,6 @@ yield: 1;
 
 ```javascript
 
-yield: 1;
 ```
 
 ### Diagnostics

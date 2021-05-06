@@ -112,7 +112,6 @@ foo: function x() {}
 
 ```javascript
 
-foo: 
 ```
 
 ### Diagnostics

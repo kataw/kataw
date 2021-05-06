@@ -47,7 +47,6 @@ ext\u0065nds = x;
 
 ```javascript
 
-x;
 ```
 
 ### Diagnostics

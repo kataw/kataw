@@ -121,10 +121,6 @@ do do do false while while while
 
 ```javascript
 
-do do do false;
-    while ();
-  while ();
-while ();
 ```
 
 ### Diagnostics

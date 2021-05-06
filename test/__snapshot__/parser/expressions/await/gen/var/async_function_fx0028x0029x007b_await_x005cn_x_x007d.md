@@ -154,11 +154,6 @@ var await; var f = (async function() { async function f(){ await \n x; } });
 
 ```javascript
 
-var await;
-var f = ();
-n;
-x;
-
 ```
 
 ### Diagnostics

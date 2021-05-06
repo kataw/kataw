@@ -96,7 +96,6 @@ x; in x) ;
 
 ```javascript
 
-for (;  in x; x);
 ```
 
 ### Diagnostics

@@ -501,12 +501,6 @@ a ? b : (): string => {}
 
 ```javascript
 
-a ? ()  string =>  {} : b;
-a ? async() : string =>  {};
-b;
-a ? ()  string =>  {} : ()  string =>  {};
-()  string =>  {};
-a ? b : ()  string =>  {};
 ```
 
 ### Diagnostics

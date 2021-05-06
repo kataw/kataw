@@ -262,15 +262,6 @@ class C { *method() { class C { set x(_) { super( } }
 
 ```javascript
 
-class {
-  method() {
-    class {
-      x(_) {
-        ();
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

@@ -146,7 +146,6 @@ function fn() { (() => {})().#x }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

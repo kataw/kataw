@@ -190,8 +190,6 @@ function * gen() { function not_gen() { await.b[c] => async }}
 
 ```javascript
 
-
-async;
 ```
 
 ### Diagnostics

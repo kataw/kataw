@@ -118,8 +118,6 @@ var p/
 
 ```javascript
 
-var p;
- / ;
 ```
 
 ### Diagnostics

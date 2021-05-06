@@ -118,7 +118,6 @@ class A extends async async => {} {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

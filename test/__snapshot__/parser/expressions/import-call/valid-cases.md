@@ -263,12 +263,6 @@ import(x).then();
 
 ```javascript
 
-;
-;
-;
-;
-;
-.then();
 ```
 
 ### Diagnostics

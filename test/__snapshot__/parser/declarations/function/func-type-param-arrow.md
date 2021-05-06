@@ -518,26 +518,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ```javascript
 
-
-();
-bool;
-number;
-{
-}
-
-();
-bool, _2;
-string;
-number;
-{
-}
-
-();
-bool, ;
-foo:     < number > ;
-number;
-{
-}
 ```
 
 ### Diagnostics

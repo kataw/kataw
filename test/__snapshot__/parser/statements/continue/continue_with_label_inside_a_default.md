@@ -91,10 +91,6 @@ switch (x) { default: continue foo; }
 
 ```javascript
 
-switch(x
-  default
-    continue foo;
- 
 ```
 
 ### Diagnostics

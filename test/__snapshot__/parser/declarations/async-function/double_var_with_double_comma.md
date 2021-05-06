@@ -128,10 +128,6 @@ let {x,, y} = obj;
 
 ```javascript
 
-let {
-  x
-}, y;
-obj;
 ```
 
 ### Diagnostics

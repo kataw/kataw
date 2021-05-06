@@ -141,12 +141,6 @@ class x {[x]z){}}
 
 ```javascript
 
-class {
-  [x];
-  z;
-}
-{
-}
 ```
 
 ### Diagnostics

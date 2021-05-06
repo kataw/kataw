@@ -259,13 +259,6 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 
 ```javascript
 
-class {
-  constructor() {
-    class  {
-      [()]() {}
-    }
-  }
-}
 ```
 
 ### Diagnostics

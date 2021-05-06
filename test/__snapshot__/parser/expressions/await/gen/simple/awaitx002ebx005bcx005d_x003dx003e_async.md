@@ -89,8 +89,6 @@ await.b[c] => async
 
 ```javascript
 
-await.bc;
-async;
 ```
 
 ### Diagnostics

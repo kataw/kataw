@@ -108,13 +108,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      let = ;
-    }
-  }
-}
 ```
 
 ### Diagnostics

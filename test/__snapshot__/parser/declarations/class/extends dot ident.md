@@ -112,7 +112,6 @@ class v extends.foo {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

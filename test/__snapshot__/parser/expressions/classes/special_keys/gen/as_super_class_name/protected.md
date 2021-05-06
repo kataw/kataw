@@ -84,7 +84,6 @@ class x extends protected {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

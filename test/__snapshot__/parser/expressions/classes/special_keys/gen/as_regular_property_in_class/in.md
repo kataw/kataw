@@ -100,10 +100,6 @@ class x {in: x}
 
 ```javascript
 
-class {
-  in;
-}
-x;
 ```
 
 ### Diagnostics

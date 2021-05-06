@@ -101,7 +101,6 @@ class x extends import {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

@@ -87,7 +87,6 @@ call({[x]})
 
 ```javascript
 
-call({ [x] });
 ```
 
 ### Diagnostics

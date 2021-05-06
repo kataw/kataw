@@ -231,14 +231,6 @@
 
 ```javascript
 
-({ set x(_) {
-    class {
-      x;
-    }
-  } });
-{
-  ;
-}
 ```
 
 ### Diagnostics

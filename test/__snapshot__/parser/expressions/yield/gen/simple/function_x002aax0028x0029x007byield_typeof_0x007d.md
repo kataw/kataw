@@ -126,7 +126,9 @@ function *a(){yield typeof 0}
 
 ```javascript
 
-
+function* a() {
+   0;
+}
 ```
 
 ### Diagnostics

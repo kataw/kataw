@@ -186,11 +186,6 @@ do do do function while while while while
 
 ```javascript
 
-do do do
-    while ();
-  while ();
-while ();
-while () ;
 ```
 
 ### Diagnostics

@@ -580,17 +580,6 @@ new new foo().bar++;
 
 ```javascript
 
-foo();
-foo(bar);
-foobar();
-foo.bar();
-this.foofoo.bar(this)(bar)foo();
- foo();
-  foo()().bar;
-{
-  x: 1;
-}
-;
 ```
 
 ### Diagnostics

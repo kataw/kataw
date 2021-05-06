@@ -78,9 +78,6 @@ import **= from 'f';
 
 ```javascript
 
-import ;
-from;
-"'f'";
 ```
 
 ### Diagnostics

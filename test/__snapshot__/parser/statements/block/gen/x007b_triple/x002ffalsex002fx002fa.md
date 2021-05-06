@@ -108,13 +108,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      /false/ / a;
-    }
-  }
-}
 ```
 
 ### Diagnostics

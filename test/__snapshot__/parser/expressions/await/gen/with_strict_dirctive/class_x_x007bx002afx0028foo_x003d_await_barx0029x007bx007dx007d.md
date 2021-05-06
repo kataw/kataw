@@ -174,9 +174,6 @@
 
 ```javascript
 
-class {
-  f(foo = await, bar) {}
-}
 ```
 
 ### Diagnostics

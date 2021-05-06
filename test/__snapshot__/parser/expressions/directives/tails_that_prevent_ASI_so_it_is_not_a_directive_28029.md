@@ -140,7 +140,10 @@ function f(){ "use strict"
 
 ```javascript
 
-
+function f() {
+  "\"use strict\"".foo;
+  eval = 1;
+}
 ```
 
 ### Diagnostics

@@ -150,17 +150,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      {
-        {
-
-        }
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

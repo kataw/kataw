@@ -106,7 +106,7 @@ function f(x = await){}
 
 ```javascript
 
-
+function f(x = await) {}
 ```
 
 ### Diagnostics

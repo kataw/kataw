@@ -111,10 +111,6 @@ class A extends await x {}
 
 ```javascript
 
-class  {}
-x;
-{
-}
 ```
 
 ### Diagnostics

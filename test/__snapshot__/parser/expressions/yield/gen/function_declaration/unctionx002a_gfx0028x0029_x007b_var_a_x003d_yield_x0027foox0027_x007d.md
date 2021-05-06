@@ -202,7 +202,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

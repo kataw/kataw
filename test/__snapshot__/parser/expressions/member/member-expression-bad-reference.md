@@ -62,7 +62,6 @@ something.#x
 
 ```javascript
 
-something.;
 ```
 
 ### Diagnostics

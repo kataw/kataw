@@ -312,7 +312,17 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    function* foo() {
+       2;
+      if (true) {
+         3;
+      }
+       4;
+    }
+  }
+}
 ```
 
 ### Diagnostics

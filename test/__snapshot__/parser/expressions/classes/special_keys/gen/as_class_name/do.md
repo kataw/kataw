@@ -96,8 +96,6 @@ class do {}
 
 ```javascript
 
-class {}
-do {}  ();
 ```
 
 ### Diagnostics

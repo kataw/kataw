@@ -137,7 +137,9 @@ async function f() {
 
 ```javascript
 
-
+async function f() {
+  for await (async of []);
+}
 ```
 
 ### Diagnostics

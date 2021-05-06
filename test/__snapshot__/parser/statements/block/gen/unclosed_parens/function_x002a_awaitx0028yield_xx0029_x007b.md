@@ -160,11 +160,6 @@
 
 ```javascript
 
-{
-  (function* await(yield, x) {});
-  {
-  }
-}
 ```
 
 ### Diagnostics

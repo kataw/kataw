@@ -188,9 +188,6 @@ opaque stuff: Box<T> = Container<T>
 
 ```javascript
 
-opaque;
-stuff:     < T > ;
-    < T > ;
 ```
 
 ### Diagnostics

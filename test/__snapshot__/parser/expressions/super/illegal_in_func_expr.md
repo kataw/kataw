@@ -127,9 +127,6 @@ x = function(){ super.foo; }
 
 ```javascript
 
-x = function() {
-  .foo;
-};
 ```
 
 ### Diagnostics

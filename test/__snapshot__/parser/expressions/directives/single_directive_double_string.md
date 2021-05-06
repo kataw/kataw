@@ -93,7 +93,9 @@ function f(){
 
 ```javascript
 
-
+function f() {
+  "\"foo\"";
+}
 ```
 
 ### Diagnostics

@@ -95,7 +95,6 @@ export var let = x;
 
 ```javascript
 
- var let = x;
 ```
 
 ### Diagnostics

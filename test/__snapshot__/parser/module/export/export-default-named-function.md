@@ -100,7 +100,7 @@ export default function foo() {}
 
 ```javascript
 
- default ;
+ default function foo() {};
 ```
 
 ### Diagnostics

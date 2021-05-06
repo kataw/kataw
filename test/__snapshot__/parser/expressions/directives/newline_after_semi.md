@@ -121,7 +121,6 @@ with (x) y; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

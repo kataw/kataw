@@ -190,16 +190,6 @@ do while [catch] async try while { catch }
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- ();
-try {
-} try{
-   {
-  } {
-  }
-}
 ```
 
 ### Diagnostics

@@ -133,9 +133,6 @@ a: { a: x }
 
 ```javascript
 
-a: {
-  a: x;
-}
 ```
 
 ### Diagnostics

@@ -68,7 +68,6 @@ null = 42;
 
 ```javascript
 
-null = 42;
 ```
 
 ### Diagnostics

@@ -338,7 +338,18 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    let foo = function*() {
+      try {
+         42;
+      } try{
+         43;
+        return  13;
+      }
+    };
+  }
+}
 ```
 
 ### Diagnostics

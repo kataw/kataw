@@ -100,10 +100,6 @@ class x {extends: x}
 
 ```javascript
 
-class {
-  extends;
-}
-x;
 ```
 
 ### Diagnostics

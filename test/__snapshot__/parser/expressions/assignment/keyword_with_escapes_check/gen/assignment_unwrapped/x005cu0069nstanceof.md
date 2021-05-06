@@ -79,8 +79,6 @@
 
 ```javascript
 
-   inctanceof ;
-x;
 ```
 
 ### Diagnostics

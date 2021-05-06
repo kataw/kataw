@@ -136,15 +136,6 @@
 
 ```javascript
 
-();
-x61ckage;
-{
-  "\"use strict\"";
-}
-();
-x61ckage;
-{
-}
 ```
 
 ### Diagnostics

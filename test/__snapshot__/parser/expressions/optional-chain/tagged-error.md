@@ -216,9 +216,6 @@ a?.()``;
 
 ```javascript
 
- = ;
- = ;
- = ;
 ```
 
 ### Diagnostics

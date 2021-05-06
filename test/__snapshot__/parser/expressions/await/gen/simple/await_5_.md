@@ -61,8 +61,6 @@ await 5;
 
 ```javascript
 
-await;
-5;
 ```
 
 ### Diagnostics

@@ -124,7 +124,6 @@ function* gf() { var yield; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

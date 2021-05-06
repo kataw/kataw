@@ -266,10 +266,6 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
 
 ```javascript
 
-var await;
-var f = (async function() {
-    var asyncArrow = async async(await ) =>  1;
-  });
 ```
 
 ### Diagnostics

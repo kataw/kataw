@@ -101,10 +101,6 @@ class A {*=f(){}}
 
 ```javascript
 
-class {}
-f();
-{
-}
 ```
 
 ### Diagnostics

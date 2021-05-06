@@ -74,12 +74,6 @@
 
 ```javascript
 
-{
-  {
-    {
-    }
-  }
-} // foo
 ```
 
 ### Diagnostics

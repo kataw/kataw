@@ -372,10 +372,6 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn;
- = () =>  o1;
-const fn2;
- = () =>  o1;
 ```
 
 ### Diagnostics

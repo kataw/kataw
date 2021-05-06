@@ -140,9 +140,6 @@
 
 ```javascript
 
-{
-  [a, b, c, d = y ** d];
-}
 ```
 
 ### Diagnostics

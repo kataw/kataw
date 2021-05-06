@@ -151,7 +151,6 @@
 
 ```javascript
 
-({ * async bar(await, x) {} });
 ```
 
 ### Diagnostics

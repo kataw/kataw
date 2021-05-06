@@ -133,8 +133,6 @@ class x{}
 
 ```javascript
 
-class {}
- / foo / g;
 ```
 
 ### Diagnostics

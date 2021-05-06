@@ -153,13 +153,6 @@ do {} while (x) { try { !xxx
 
 ```javascript
 
-do {} while (x);
-{
-  try {
-    xxx;
-  } try{
-  }
-}
 ```
 
 ### Diagnostics

@@ -92,7 +92,6 @@
 
 ```javascript
 
-([null]) =>  {};
 ```
 
 ### Diagnostics

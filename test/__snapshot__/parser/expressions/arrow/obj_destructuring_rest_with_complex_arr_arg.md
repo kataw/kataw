@@ -116,7 +116,6 @@
 
 ```javascript
 
-({ ...[x] }) =>  {};
 ```
 
 ### Diagnostics

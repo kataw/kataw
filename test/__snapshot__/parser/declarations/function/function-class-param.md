@@ -208,7 +208,6 @@ function* foo(a = class {*bar() { yield b }}) {}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

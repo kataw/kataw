@@ -80,7 +80,6 @@ export default = 42
 
 ```javascript
 
- default  = 42;
 ```
 
 ### Diagnostics

@@ -151,10 +151,6 @@ function f(x=(yield z)=y){}
 
 ```javascript
 
-
-y;
-{
-}
 ```
 
 ### Diagnostics

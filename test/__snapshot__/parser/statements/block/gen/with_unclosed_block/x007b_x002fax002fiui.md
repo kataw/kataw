@@ -150,19 +150,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  {
-    /a/iui;
-  }
-}
 ```
 
 ### Diagnostics

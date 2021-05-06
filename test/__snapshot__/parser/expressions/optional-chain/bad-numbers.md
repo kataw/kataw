@@ -71,7 +71,6 @@ a?.200
 
 ```javascript
 
-a ? 200  ;
 ```
 
 ### Diagnostics

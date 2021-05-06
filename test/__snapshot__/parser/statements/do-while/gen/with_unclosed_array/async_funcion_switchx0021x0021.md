@@ -128,8 +128,6 @@ do[ async funcion switch!!
 
 ```javascript
 
-do [async funcion  ];
- ();
 ```
 
 ### Diagnostics

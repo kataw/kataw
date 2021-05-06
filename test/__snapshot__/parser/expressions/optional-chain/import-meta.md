@@ -160,7 +160,6 @@ function f() {
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

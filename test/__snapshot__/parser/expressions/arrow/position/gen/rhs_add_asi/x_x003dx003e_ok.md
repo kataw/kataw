@@ -91,7 +91,6 @@ x
 
 ```javascript
 
-x + x =>  ok;
 ```
 
 ### Diagnostics

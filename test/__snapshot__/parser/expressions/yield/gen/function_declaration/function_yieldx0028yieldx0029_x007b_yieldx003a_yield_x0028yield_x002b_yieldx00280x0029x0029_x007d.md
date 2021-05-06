@@ -258,7 +258,6 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

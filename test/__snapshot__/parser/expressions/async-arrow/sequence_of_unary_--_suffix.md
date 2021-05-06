@@ -94,8 +94,6 @@ async (x--, y) => x;
 
 ```javascript
 
-async(x, y)
-x;
 ```
 
 ### Diagnostics

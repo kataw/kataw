@@ -145,9 +145,6 @@ x = (a)?c:d=>{}=>{}
 
 ```javascript
 
-x = (a) ? c : d =>  {};
-{
-}
 ```
 
 ### Diagnostics

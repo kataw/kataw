@@ -159,10 +159,6 @@ class C {
 
 ```javascript
 
-class {
-  ;
-  aaa() {}
-}
 ```
 
 ### Diagnostics

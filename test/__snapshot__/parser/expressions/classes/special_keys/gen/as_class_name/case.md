@@ -76,9 +76,6 @@ class case {}
 
 ```javascript
 
-class {}
-{
-}
 ```
 
 ### Diagnostics

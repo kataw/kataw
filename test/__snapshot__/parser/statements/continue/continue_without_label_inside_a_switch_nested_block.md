@@ -106,11 +106,6 @@ switch (x) { case x: {continue;} }
 
 ```javascript
 
-switch(x
-  case x: {
-    continue;
-  }
- 
 ```
 
 ### Diagnostics

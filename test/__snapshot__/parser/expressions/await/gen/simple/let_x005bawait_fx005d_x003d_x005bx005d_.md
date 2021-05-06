@@ -126,7 +126,6 @@ let [await f] = [];
 
 ```javascript
 
-let [await, f] = [];
 ```
 
 ### Diagnostics

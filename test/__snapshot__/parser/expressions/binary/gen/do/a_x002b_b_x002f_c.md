@@ -113,8 +113,6 @@ do a + b / c while (x);
 
 ```javascript
 
-do a + b / c;
-while (x);
 ```
 
 ### Diagnostics

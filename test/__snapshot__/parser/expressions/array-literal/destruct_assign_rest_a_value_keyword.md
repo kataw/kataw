@@ -108,7 +108,6 @@
 
 ```javascript
 
-[...true] = x;
 ```
 
 ### Diagnostics

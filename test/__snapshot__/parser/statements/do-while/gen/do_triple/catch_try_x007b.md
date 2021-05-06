@@ -199,13 +199,6 @@ do do do catch try { while while while
 
 ```javascript
 
-do do do  {
-      } {
-        while () while () while () ;
-      }
-     ();
-   ();
- ();
 ```
 
 ### Diagnostics

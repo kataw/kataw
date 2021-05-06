@@ -86,7 +86,6 @@ for (new x in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

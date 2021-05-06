@@ -120,9 +120,6 @@
 
 ```javascript
 
-let {
-  0123:
-} = y;
 ```
 
 ### Diagnostics

@@ -137,13 +137,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-    if () ;
-  }
-}
 ```
 
 ### Diagnostics

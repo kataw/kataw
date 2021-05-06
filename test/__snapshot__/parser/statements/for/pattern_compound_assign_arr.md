@@ -110,8 +110,6 @@ for([]/=y;;)x
 
 ```javascript
 
-for (; ; )
-  x;
 ```
 
 ### Diagnostics

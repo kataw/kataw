@@ -46,7 +46,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
   };
   const cst = (tob.parserOptions.module ? parseModule : parseScript)(tob.input, tob.parserOptions, cb);
   tob.$cst = JSON.stringify(cst, null, 4);
-  tob.$printed = printSourceFile(cst, tob.printerOptions);
+  tob.$printed = diagnostics.length === 0 ? printSourceFile(cst, tob.printerOptions) : '';
   tob.$diagnostics = diagnostics2md(diagnostics);
 
   !deepEqual(tob.cst, tob.$cst) && tob.mismatchItems.push('cst');

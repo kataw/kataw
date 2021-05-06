@@ -64,7 +64,6 @@ class let {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

@@ -95,10 +95,6 @@ class break {}
 
 ```javascript
 
-class {}
-
-{
-}
 ```
 
 ### Diagnostics

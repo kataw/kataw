@@ -105,7 +105,6 @@ async function *f(await){}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -101,8 +101,6 @@ do[ /false//a
 
 ```javascript
 
-do [/false/ / a];
- ();
 ```
 
 ### Diagnostics

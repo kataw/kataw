@@ -51,8 +51,6 @@ throw
 
 ```javascript
 
-throw  
-;
 ```
 
 ### Diagnostics

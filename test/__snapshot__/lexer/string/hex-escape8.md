@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\xdq\"";
 ```
 
 ### Diagnostics

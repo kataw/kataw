@@ -102,7 +102,6 @@ class x extends delete {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

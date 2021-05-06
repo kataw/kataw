@@ -205,12 +205,6 @@ do[ =! class function try while with foo!
 
 ```javascript
 
-do [] = class {};
- ();
-try {
-} try{
-}
-
 ```
 
 ### Diagnostics

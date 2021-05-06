@@ -73,8 +73,6 @@ do[ catch
 
 ```javascript
 
-do [];
- ();
 ```
 
 ### Diagnostics

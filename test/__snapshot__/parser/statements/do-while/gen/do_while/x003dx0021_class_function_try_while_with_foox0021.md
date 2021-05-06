@@ -230,13 +230,6 @@ do =! class function try while with foo! while
 
 ```javascript
 
-do  = class {};
- ();
-try {
-} try{
-}
-
-while () ;
 ```
 
 ### Diagnostics

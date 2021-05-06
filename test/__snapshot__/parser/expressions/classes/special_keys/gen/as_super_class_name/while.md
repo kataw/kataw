@@ -122,8 +122,6 @@ class x extends while {}
 
 ```javascript
 
-class  {}
-while ({}) ;
 ```
 
 ### Diagnostics

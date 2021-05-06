@@ -100,8 +100,6 @@ if (true) const x;
 
 ```javascript
 
-if (true) ;
-const x;
 ```
 
 ### Diagnostics

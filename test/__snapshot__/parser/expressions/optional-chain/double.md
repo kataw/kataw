@@ -132,7 +132,6 @@ a?.?.b
 
 ```javascript
 
- = ;
 ```
 
 ### Diagnostics

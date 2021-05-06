@@ -305,24 +305,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  I;
-  switch(to
-
-  this;
-  or;
-  another;
-  of;
-  this;
-  parser;
-  while (I) run;
-  for (; ; want)
-    ;
-}
 ```
 
 ### Diagnostics

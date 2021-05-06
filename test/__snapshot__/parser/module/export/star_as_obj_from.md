@@ -134,9 +134,6 @@ export * as foo, {bar} from 'bar';
 
 ```javascript
 
- *  foo from ;
-from;
-"'bar'";
 ```
 
 ### Diagnostics

@@ -237,10 +237,6 @@ var await; var f = (async function() { var e = (await, f); });
 
 ```javascript
 
-var await;
-var f = (async function() {
-    var e = (await , f);
-  });
 ```
 
 ### Diagnostics

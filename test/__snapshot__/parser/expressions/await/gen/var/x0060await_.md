@@ -120,8 +120,6 @@ var await; var f = (async function() { `await; });
 
 ```javascript
 
-var await;
-var f = ();
 ```
 
 ### Diagnostics

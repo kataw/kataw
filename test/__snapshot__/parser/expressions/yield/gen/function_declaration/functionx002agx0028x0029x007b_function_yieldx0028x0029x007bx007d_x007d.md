@@ -187,7 +187,6 @@ function not_gen() { function*g(){ function yield(){}; } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

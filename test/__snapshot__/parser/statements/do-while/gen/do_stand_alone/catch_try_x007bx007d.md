@@ -88,10 +88,6 @@ do catch try {}
 
 ```javascript
 
-do  {
-  } {
-  }
- ();
 ```
 
 ### Diagnostics

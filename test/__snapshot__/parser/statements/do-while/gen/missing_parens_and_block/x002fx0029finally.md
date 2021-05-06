@@ -66,8 +66,6 @@ do /)finally while
 
 ```javascript
 
-do /)finally while;
- ();
 ```
 
 ### Diagnostics

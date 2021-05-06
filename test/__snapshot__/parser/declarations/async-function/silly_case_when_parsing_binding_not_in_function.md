@@ -74,7 +74,6 @@ let foo,)
 
 ```javascript
 
-let foo;
 ```
 
 ### Diagnostics

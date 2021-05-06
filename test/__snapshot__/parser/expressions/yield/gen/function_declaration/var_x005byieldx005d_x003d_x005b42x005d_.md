@@ -166,7 +166,6 @@ function not_gen() { var [yield] = [42]; }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -84,7 +84,6 @@ class x extends static {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

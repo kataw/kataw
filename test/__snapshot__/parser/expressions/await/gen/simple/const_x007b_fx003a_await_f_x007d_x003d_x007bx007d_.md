@@ -137,10 +137,6 @@ const { f: await f } = {};
 
 ```javascript
 
-const {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

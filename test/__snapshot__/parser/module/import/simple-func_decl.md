@@ -190,12 +190,6 @@ x@{x9}@+@{x9}@y
 
 ```javascript
 
-x;
-class {}
-class {}
-class {}
-@y
-class {}
 ```
 
 ### Diagnostics

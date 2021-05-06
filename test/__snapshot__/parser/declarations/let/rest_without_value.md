@@ -121,7 +121,6 @@ let [...] = obj;
 
 ```javascript
 
-let [...] = obj;
 ```
 
 ### Diagnostics

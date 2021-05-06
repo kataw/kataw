@@ -212,14 +212,6 @@
 
 ```javascript
 
-({ get x() {
-    class {
-      x;
-    }
-  } });
-{
-  ;
-}
 ```
 
 ### Diagnostics

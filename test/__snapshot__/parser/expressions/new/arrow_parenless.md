@@ -79,7 +79,6 @@ new x => x
 
 ```javascript
 
- x =>  x();
 ```
 
 ### Diagnostics

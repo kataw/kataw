@@ -178,12 +178,6 @@
 
 ```javascript
 
-{
-  ();
-  class {}
-
-  ;
-}
 ```
 
 ### Diagnostics

@@ -143,7 +143,6 @@ function test({...{}}) {}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

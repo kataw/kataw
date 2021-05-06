@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\uabc";
 ```
 
 ### Diagnostics

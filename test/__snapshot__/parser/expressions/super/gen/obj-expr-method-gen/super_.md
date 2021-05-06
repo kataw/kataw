@@ -145,9 +145,6 @@
 
 ```javascript
 
-({ * method() {
-    ;
-  } });
 ```
 
 ### Diagnostics

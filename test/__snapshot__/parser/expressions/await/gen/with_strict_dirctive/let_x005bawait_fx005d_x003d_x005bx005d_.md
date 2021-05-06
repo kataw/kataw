@@ -135,7 +135,6 @@
 
 ```javascript
 
-let [await, f] = [];
 ```
 
 ### Diagnostics

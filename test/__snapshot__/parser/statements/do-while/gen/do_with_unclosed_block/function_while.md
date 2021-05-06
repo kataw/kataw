@@ -164,11 +164,6 @@ do {} while (x) { function while
 
 ```javascript
 
-do {} while (x);
-{
-
-  while () ;
-}
 ```
 
 ### Diagnostics

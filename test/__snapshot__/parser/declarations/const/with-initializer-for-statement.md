@@ -107,9 +107,6 @@ for (;false;) const x = 1;
 
 ```javascript
 
-for (; ; false)
-  ;
-const x = 1;
 ```
 
 ### Diagnostics

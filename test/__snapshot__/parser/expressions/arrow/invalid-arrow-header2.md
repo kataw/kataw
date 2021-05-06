@@ -83,8 +83,6 @@
 
 ```javascript
 
-({}.length);
-y;
 ```
 
 ### Diagnostics

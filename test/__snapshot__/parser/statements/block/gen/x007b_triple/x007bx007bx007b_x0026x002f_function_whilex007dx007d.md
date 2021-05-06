@@ -149,19 +149,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      {
-        {
-          {
-               => / function while}};
-          }
-        }
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

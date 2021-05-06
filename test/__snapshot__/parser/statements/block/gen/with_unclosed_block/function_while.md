@@ -201,18 +201,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-
-  while () ;
-}
 ```
 
 ### Diagnostics

@@ -95,7 +95,6 @@
 
 ```javascript
 
- var await;
 ```
 
 ### Diagnostics

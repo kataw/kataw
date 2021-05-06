@@ -147,9 +147,6 @@
 
 ```javascript
 
-({ method() {
-     ();
-  } });
 ```
 
 ### Diagnostics

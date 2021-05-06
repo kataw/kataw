@@ -54,8 +54,6 @@ debugger /foo/
 
 ```javascript
 
-debugger;
-/foo/;
 ```
 
 ### Diagnostics

@@ -126,9 +126,6 @@ class x {static * yield(){}}
 
 ```javascript
 
-class {
-  static yield() {}
-}
 ```
 
 ### Diagnostics

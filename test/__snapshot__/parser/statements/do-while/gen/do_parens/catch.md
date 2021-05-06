@@ -104,9 +104,6 @@ do( catch while
 
 ```javascript
 
-do ();
- ();
-while () ;
 ```
 
 ### Diagnostics

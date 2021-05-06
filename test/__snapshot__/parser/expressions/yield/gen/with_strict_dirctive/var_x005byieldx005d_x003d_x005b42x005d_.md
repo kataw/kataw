@@ -127,7 +127,6 @@
 
 ```javascript
 
-var [yield] = [42];
 ```
 
 ### Diagnostics

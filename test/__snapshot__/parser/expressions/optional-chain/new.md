@@ -89,7 +89,6 @@ new foo?.bar
 
 ```javascript
 
-  = ();
 ```
 
 ### Diagnostics

@@ -118,8 +118,6 @@ do[ function while
 
 ```javascript
 
-do [function() {}];
-while ();
 ```
 
 ### Diagnostics

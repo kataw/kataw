@@ -93,8 +93,6 @@ import a, *= from 'f';
 
 ```javascript
 
- a  ;
-"'f'";
 ```
 
 ### Diagnostics

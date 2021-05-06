@@ -165,12 +165,6 @@ do while [catch] async funcion switch!!
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- (funcion);
-switch(
- 
 ```
 
 ### Diagnostics

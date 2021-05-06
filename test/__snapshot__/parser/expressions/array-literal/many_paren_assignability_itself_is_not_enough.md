@@ -140,7 +140,6 @@
 
 ```javascript
 
-[(x = y)] = obj;
 ```
 
 ### Diagnostics

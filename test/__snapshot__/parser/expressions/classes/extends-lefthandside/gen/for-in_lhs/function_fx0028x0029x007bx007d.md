@@ -111,7 +111,6 @@ for (function f(){} in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

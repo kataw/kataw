@@ -85,9 +85,6 @@ sw\u0069tch = x;
 
 ```javascript
 
-switch( = x
-
-
 ```
 
 ### Diagnostics

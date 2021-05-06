@@ -176,8 +176,6 @@ async ( { x}  ) => {
 
 ```javascript
 
-async (x = y) =>  {}
-async ({ x }) =>  {}
 ```
 
 ### Diagnostics

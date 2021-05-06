@@ -107,7 +107,6 @@ class A extends x => ok {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

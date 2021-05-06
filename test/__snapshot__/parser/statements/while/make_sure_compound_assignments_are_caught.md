@@ -111,7 +111,6 @@ while (function* () {} += x);
 
 ```javascript
 
-while (function*() {} += x);
 ```
 
 ### Diagnostics

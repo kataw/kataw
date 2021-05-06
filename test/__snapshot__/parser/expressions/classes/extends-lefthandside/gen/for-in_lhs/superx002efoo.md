@@ -91,7 +91,6 @@ for (super.foo in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

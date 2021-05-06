@@ -139,9 +139,6 @@ async function f(){ await \n x; }
 
 ```javascript
 
-
-n;
-x;
 ```
 
 ### Diagnostics

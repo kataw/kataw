@@ -137,7 +137,7 @@ switch (x) {
 
 switch(x
   default
-
+    async function* f() {}
  
 ```
 

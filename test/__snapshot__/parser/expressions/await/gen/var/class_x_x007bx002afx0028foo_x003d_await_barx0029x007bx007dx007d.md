@@ -291,12 +291,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
 
 ```javascript
 
-var await;
-var f = (async function() {
-    class {
-      f(foo = await, bar) {}
-    }
-  });
 ```
 
 ### Diagnostics

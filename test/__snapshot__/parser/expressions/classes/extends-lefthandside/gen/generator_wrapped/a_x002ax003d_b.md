@@ -166,10 +166,6 @@ function *P(){
 
 ```javascript
 
-
-b;
-{
-}
 ```
 
 ### Diagnostics

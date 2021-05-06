@@ -86,9 +86,6 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
 
 ```javascript
 
-var ;
-
-123;
 ```
 
 ### Diagnostics

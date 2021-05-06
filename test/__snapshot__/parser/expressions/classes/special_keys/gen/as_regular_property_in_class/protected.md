@@ -100,10 +100,6 @@ class x {protected: x}
 
 ```javascript
 
-class {
-  protected;
-}
-x;
 ```
 
 ### Diagnostics

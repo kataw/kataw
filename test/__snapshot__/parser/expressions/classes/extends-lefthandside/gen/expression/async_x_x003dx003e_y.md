@@ -147,10 +147,6 @@ x => y {})
 
 ```javascript
 
-(class  {});
-x =>  y;
-{
-}
 ```
 
 ### Diagnostics

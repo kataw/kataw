@@ -132,7 +132,6 @@ function not_gen() { class C extends yield { } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

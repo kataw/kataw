@@ -90,7 +90,6 @@ const x = 1, y;
 
 ```javascript
 
-const x = 1, y;
 ```
 
 ### Diagnostics

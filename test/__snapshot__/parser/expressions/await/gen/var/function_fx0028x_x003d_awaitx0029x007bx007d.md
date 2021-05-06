@@ -234,7 +234,7 @@ var await; var f = (async function() { function f(x = await){} });
 
 var await;
 var f = (async function() {
-
+    function f(x = await) {}
   });
 ```
 

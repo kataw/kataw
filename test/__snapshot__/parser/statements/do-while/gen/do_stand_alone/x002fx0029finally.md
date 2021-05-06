@@ -66,8 +66,6 @@ do /)finally
 
 ```javascript
 
-do /)finally;
- ();
 ```
 
 ### Diagnostics

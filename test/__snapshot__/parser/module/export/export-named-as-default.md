@@ -109,7 +109,6 @@ export {foo as default};
 
 ```javascript
 
-  foo  , default };
 ```
 
 ### Diagnostics

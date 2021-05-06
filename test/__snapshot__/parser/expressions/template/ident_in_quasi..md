@@ -67,7 +67,6 @@
 
 ```javascript
 
-`${n}`;
 ```
 
 ### Diagnostics

@@ -113,10 +113,6 @@ var af = switch => 1;
 
 ```javascript
 
-var af = ;
-switch(
-
-1;
 ```
 
 ### Diagnostics

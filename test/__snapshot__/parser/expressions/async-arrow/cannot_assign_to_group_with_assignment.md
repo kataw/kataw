@@ -92,8 +92,6 @@ async (a=/i/) = /i/
 
 ```javascript
 
-async(a = /i/)
-/i/;
 ```
 
 ### Diagnostics

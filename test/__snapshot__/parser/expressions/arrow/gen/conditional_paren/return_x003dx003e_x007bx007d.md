@@ -124,11 +124,6 @@ bar ? baz : ( return => {} );
 
 ```javascript
 
-bar ? baz : ();
-return  ;
-{
-}
-
 ```
 
 ### Diagnostics

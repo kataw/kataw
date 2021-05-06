@@ -152,9 +152,6 @@ a = async function() { g(await) }
 
 ```javascript
 
-a = async function() {
-  g(await );
-};
 ```
 
 ### Diagnostics

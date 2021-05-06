@@ -95,10 +95,6 @@ class continue {}
 
 ```javascript
 
-class {}
-continue ;
-{
-}
 ```
 
 ### Diagnostics

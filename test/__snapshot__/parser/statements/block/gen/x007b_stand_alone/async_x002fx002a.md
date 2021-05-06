@@ -61,9 +61,6 @@
 
 ```javascript
 
-{
-  async;
-} /*
 ```
 
 ### Diagnostics

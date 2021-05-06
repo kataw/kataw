@@ -175,8 +175,6 @@
 
 ```javascript
 
-
-n / foo / g;
 ```
 
 ### Diagnostics

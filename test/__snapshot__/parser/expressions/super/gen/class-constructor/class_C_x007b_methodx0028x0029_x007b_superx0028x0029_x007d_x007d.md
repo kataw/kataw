@@ -233,15 +233,6 @@ class C { constructor() { class C { method() { super(); } } } }
 
 ```javascript
 
-class {
-  constructor() {
-    class {
-      method() {
-        ();
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

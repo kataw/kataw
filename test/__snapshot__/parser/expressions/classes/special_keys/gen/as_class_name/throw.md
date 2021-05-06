@@ -89,8 +89,6 @@ class throw {}
 
 ```javascript
 
-class {}
-throw  {};
 ```
 
 ### Diagnostics

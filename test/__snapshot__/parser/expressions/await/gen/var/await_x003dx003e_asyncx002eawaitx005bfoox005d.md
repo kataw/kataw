@@ -168,10 +168,6 @@ var await; var f = (async function() { await => async.await[foo] });
 
 ```javascript
 
-var await;
-var f = ();
-async.awaitfoo;
-
 ```
 
 ### Diagnostics

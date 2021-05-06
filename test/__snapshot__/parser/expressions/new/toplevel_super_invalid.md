@@ -73,7 +73,6 @@ new super
 
 ```javascript
 
- ();
 ```
 
 ### Diagnostics

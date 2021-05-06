@@ -265,7 +265,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

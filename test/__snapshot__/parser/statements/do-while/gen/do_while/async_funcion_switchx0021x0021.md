@@ -118,8 +118,6 @@ do async funcion switch!! while
 
 ```javascript
 
-do async funcion  ;
-while ();
 ```
 
 ### Diagnostics

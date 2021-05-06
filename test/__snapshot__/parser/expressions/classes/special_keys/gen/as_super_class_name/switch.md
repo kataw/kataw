@@ -116,9 +116,6 @@ class x extends switch {}
 
 ```javascript
 
-class  {}
-switch({}
- 
 ```
 
 ### Diagnostics

@@ -110,8 +110,6 @@ export * as x from "x" foo
 
 ```javascript
 
- *  x from ;
-foo;
 ```
 
 ### Diagnostics

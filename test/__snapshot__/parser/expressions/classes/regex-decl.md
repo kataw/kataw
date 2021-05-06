@@ -119,8 +119,6 @@ class x{}
 
 ```javascript
 
-class {}
- / foo / ;
 ```
 
 ### Diagnostics

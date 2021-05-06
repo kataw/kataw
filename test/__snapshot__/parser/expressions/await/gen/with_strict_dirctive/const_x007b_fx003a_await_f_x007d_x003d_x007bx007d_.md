@@ -146,10 +146,6 @@
 
 ```javascript
 
-const {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

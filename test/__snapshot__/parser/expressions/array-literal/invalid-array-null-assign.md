@@ -96,7 +96,6 @@
 
 ```javascript
 
-[null] = x;
 ```
 
 ### Diagnostics

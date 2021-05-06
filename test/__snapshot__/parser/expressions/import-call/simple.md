@@ -48,7 +48,6 @@ import.call
 
 ```javascript
 
-;
 ```
 
 ### Diagnostics

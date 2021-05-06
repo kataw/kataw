@@ -355,10 +355,6 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
 
 ```javascript
 
-var await;
-var f = (async function() {
-
-  });
 ```
 
 ### Diagnostics

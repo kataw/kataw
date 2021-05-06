@@ -100,11 +100,6 @@ bar, return => {};
 
 ```javascript
 
-bar, ;
-return  ;
-{
-}
-
 ```
 
 ### Diagnostics

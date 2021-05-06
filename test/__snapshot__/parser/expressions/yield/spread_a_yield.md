@@ -130,7 +130,9 @@ function *g() { [...yield]; }
 
 ```javascript
 
-
+function* g() {
+  [... ];
+}
 ```
 
 ### Diagnostics

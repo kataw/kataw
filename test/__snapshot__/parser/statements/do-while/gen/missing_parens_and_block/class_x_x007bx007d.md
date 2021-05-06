@@ -89,8 +89,6 @@ do class x {} while
 
 ```javascript
 
-do class {}
-while ();
 ```
 
 ### Diagnostics

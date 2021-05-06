@@ -75,7 +75,6 @@ x[super.foo]
 
 ```javascript
 
-x.foo;
 ```
 
 ### Diagnostics

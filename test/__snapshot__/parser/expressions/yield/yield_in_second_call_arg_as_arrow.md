@@ -161,9 +161,6 @@
 
 ```javascript
 
-{
-  (x = x + foo(a, yield, y)) =>  x;
-}
 ```
 
 ### Diagnostics

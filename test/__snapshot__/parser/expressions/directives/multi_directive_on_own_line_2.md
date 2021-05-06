@@ -108,7 +108,10 @@ function f(){
 
 ```javascript
 
-
+function f() {
+  "'foo'";
+  "'bar'";
+}
 ```
 
 ### Diagnostics

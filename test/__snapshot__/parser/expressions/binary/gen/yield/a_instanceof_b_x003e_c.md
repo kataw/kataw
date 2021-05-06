@@ -156,7 +156,9 @@ function *f() {
 
 ```javascript
 
-
+function* f() {
+      inctanceof b > c;
+}
 ```
 
 ### Diagnostics

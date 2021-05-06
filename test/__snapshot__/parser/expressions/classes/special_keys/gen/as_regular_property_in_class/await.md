@@ -100,10 +100,6 @@ class x {await: x}
 
 ```javascript
 
-class {
-  await;
-}
-x;
 ```
 
 ### Diagnostics

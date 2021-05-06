@@ -62,8 +62,6 @@ continue: x;
 
 ```javascript
 
-continue ;
-x;
 ```
 
 ### Diagnostics

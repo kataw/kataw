@@ -163,20 +163,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  {
-    switch(
-
-  }
-}
 ```
 
 ### Diagnostics

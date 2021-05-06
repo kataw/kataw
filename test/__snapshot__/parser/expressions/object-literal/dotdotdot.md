@@ -176,9 +176,6 @@ var { ...{ x = 5 } } = {x : 1};
 
 ```javascript
 
-var {
-  :
-} = { x: 1 };
 ```
 
 ### Diagnostics

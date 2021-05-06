@@ -128,12 +128,6 @@ do while [catch] class x {}
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- (x);
-{
-}
 ```
 
 ### Diagnostics

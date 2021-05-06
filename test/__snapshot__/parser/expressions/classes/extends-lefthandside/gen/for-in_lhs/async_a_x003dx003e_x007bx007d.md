@@ -107,7 +107,6 @@ for (async a => {} in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

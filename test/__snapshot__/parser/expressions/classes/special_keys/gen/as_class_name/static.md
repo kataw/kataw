@@ -64,7 +64,6 @@ class static {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

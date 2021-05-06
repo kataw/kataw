@@ -250,20 +250,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  abstract;
-  class {}
-
-  ;
-}
 ```
 
 ### Diagnostics

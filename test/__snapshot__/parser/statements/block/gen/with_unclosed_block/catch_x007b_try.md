@@ -199,22 +199,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-   {
-    try {
-    } try{
-    }
-  } {
-  }
-}
 ```
 
 ### Diagnostics

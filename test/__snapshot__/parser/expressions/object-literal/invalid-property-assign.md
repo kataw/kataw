@@ -120,7 +120,6 @@
 
 ```javascript
 
-({ src: ([dest]) } = obj);
 ```
 
 ### Diagnostics

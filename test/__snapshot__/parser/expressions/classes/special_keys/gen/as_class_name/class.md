@@ -87,8 +87,6 @@ class class {}
 
 ```javascript
 
-class {}
-class {}
 ```
 
 ### Diagnostics

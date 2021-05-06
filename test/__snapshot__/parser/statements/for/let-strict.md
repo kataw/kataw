@@ -99,7 +99,6 @@ for(let a, let;;);
 
 ```javascript
 
-for (; ; );
 ```
 
 ### Diagnostics

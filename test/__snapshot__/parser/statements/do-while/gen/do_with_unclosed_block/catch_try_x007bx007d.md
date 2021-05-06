@@ -121,12 +121,6 @@ do {} while (x) { catch try {}
 
 ```javascript
 
-do {} while (x);
-{
-   {
-  } {
-  }
-}
 ```
 
 ### Diagnostics

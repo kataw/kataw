@@ -95,10 +95,6 @@ async () => {  debugge\u0072 = x  }
 
 ```javascript
 
-async () =>  {
-  debugger;
-}
-x;
 ```
 
 ### Diagnostics

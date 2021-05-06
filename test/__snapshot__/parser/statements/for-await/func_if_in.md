@@ -224,7 +224,11 @@ async function f(){
 
 ```javascript
 
-
+async function f() {
+  for await (function() {
+    if (a in b);
+  }.prop of x);
+}
 ```
 
 ### Diagnostics

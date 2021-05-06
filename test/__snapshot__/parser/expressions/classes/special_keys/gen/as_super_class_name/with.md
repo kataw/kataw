@@ -122,8 +122,6 @@ class x extends with {}
 
 ```javascript
 
-class  {}
-
 ```
 
 ### Diagnostics

@@ -132,7 +132,6 @@ s = {"foo": null = x} = x
 
 ```javascript
 
-s = { "\"foo\"": null = x } = x;
 ```
 
 ### Diagnostics

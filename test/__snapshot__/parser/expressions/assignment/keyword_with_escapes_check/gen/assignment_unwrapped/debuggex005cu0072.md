@@ -59,8 +59,6 @@ debugge\u0072 = x;
 
 ```javascript
 
-debugger;
-x;
 ```
 
 ### Diagnostics

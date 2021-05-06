@@ -167,7 +167,12 @@
 
 ```javascript
 
-
+function x() {
+  {
+    var f;
+    var f;
+  }
+}
 ```
 
 ### Diagnostics

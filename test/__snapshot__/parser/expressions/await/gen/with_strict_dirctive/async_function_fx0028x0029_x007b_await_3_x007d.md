@@ -121,7 +121,9 @@
 
 ```javascript
 
-
+async function f() {
+  await 3;
+}
 ```
 
 ### Diagnostics

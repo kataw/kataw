@@ -172,7 +172,6 @@ function not_gen() { async function f(){ await await foo; } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -123,7 +123,6 @@
 
 ```javascript
 
-({ typeof() {} }) =>  x;
 ```
 
 ### Diagnostics

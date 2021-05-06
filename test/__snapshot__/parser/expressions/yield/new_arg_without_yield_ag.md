@@ -116,7 +116,9 @@ function *g() { new yield }
 
 ```javascript
 
-
+function* g() {
+    ();
+}
 ```
 
 ### Diagnostics

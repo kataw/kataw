@@ -120,7 +120,9 @@ function *f(){  async (await) => x  }
 
 ```javascript
 
-
+function* f() {
+  async (await) =>  x
+}
 ```
 
 ### Diagnostics

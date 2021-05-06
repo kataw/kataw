@@ -142,11 +142,6 @@ export bar, * as foo from 'bar';
 
 ```javascript
 
-
-bar,  * as;
-foo;
-from;
-"'bar'";
 ```
 
 ### Diagnostics

@@ -64,7 +64,6 @@ class yield {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

@@ -71,7 +71,6 @@ for (this in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

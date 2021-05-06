@@ -115,10 +115,6 @@ async () => {  sw\u0069tch = x  }
 
 ```javascript
 
-async () =>  {
-  switch( = x
-
-}
 ```
 
 ### Diagnostics

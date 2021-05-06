@@ -138,12 +138,6 @@ do do do catch while while while
 
 ```javascript
 
-do do do  {
-      } {
-      }
-    while ();
-  while ();
- ();
 ```
 
 ### Diagnostics

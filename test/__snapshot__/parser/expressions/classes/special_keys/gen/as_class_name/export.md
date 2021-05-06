@@ -91,8 +91,6 @@ class export {}
 
 ```javascript
 
-class {}
- {};
 ```
 
 ### Diagnostics

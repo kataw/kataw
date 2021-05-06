@@ -222,7 +222,6 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 
 ```javascript
 
-var a = { x: 0, y: "'foo'" };
 ```
 
 ### Diagnostics

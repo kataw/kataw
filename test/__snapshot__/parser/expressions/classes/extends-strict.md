@@ -234,8 +234,6 @@ class C extends (function B() {
 
 ```javascript
 
-var C;
-class  {}
 ```
 
 ### Diagnostics

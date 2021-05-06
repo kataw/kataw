@@ -97,9 +97,6 @@ class Foo { x = arguments }
 
 ```javascript
 
-class {
-  x = arguments;
-}
 ```
 
 ### Diagnostics

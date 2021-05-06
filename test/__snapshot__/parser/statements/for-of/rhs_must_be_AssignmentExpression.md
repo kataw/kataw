@@ -143,9 +143,6 @@ for (let x of a,b) c
 
 ```javascript
 
-for ( of a)
-  , b;
-c;
 ```
 
 ### Diagnostics

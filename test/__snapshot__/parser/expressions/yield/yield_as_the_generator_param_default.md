@@ -114,7 +114,6 @@ function *f(x=yield){ }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

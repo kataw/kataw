@@ -137,10 +137,6 @@ do( try { !xxx while
 
 ```javascript
 
-do ();
- ({});
-xxx;
-while () ;
 ```
 
 ### Diagnostics

@@ -79,7 +79,6 @@ aw\u0061it: 1;
 
 ```javascript
 
-await: 1;
 ```
 
 ### Diagnostics

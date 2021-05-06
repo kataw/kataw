@@ -111,9 +111,6 @@
 
 ```javascript
 
-(x, a ?  : c);
-{
-}
 ```
 
 ### Diagnostics

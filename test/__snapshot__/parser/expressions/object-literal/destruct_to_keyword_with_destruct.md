@@ -132,7 +132,6 @@ s = {s: true = x} = x
 
 ```javascript
 
-s = { s: true = x } = x;
 ```
 
 ### Diagnostics

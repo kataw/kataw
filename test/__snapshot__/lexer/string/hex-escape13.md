@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\x5q\"";
 ```
 
 ### Diagnostics

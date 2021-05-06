@@ -155,7 +155,6 @@ function f(){import {x} from "y";}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

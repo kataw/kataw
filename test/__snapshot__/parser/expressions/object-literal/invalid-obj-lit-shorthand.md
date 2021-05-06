@@ -160,8 +160,6 @@ f({x = 0});
 
 ```javascript
 
-obj = { x = 0 };
-f({ x = 0 });
 ```
 
 ### Diagnostics

@@ -85,7 +85,6 @@ for (typeof x in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

@@ -100,10 +100,6 @@ class x {switch: x}
 
 ```javascript
 
-class {
-  switch;
-}
-x;
 ```
 
 ### Diagnostics

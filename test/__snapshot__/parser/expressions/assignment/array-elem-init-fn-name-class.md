@@ -283,9 +283,6 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 
 ```javascript
 
-result = [xCls = class {}, cls = class {}, xCls2 = class {
-    static name() {}
-  }] = vals;
 ```
 
 ### Diagnostics

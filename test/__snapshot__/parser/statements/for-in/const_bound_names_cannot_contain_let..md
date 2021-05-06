@@ -130,7 +130,6 @@ for (const [let] in obj);
 
 ```javascript
 
-for ( in obj);
 ```
 
 ### Diagnostics

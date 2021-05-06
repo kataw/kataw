@@ -84,7 +84,6 @@ class x extends public {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

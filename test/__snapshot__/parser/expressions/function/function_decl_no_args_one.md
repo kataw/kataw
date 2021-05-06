@@ -91,7 +91,9 @@ function f(){foo}
 
 ```javascript
 
-
+function f() {
+  foo;
+}
 ```
 
 ### Diagnostics

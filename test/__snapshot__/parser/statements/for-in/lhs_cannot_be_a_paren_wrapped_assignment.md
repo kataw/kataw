@@ -103,7 +103,6 @@ for ((x = y) in z) ;
 
 ```javascript
 
-for ( in z);
 ```
 
 ### Diagnostics

@@ -127,7 +127,6 @@ let foo, [bar];
 
 ```javascript
 
-let foo, [bar];
 ```
 
 ### Diagnostics

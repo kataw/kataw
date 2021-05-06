@@ -70,7 +70,6 @@ new new.target
 
 ```javascript
 
- ();
 ```
 
 ### Diagnostics

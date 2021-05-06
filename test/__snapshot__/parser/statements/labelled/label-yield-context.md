@@ -135,7 +135,9 @@ function * x () {
 
 ```javascript
 
-
+function* x() {
+  y:  ;
+}
 ```
 
 ### Diagnostics

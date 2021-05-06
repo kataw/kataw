@@ -294,16 +294,6 @@
 
 ```javascript
 
-({ y }?) =>  x;
-;
-;
-Options;
-;
-;
-;
-Parser;
-Optionsjs
-{ allowTypes : true };
 ```
 
 ### Diagnostics

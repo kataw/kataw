@@ -129,12 +129,6 @@ class A {async **=f(){}}
 
 ```javascript
 
-class {
-  async;
-}
-f();
-{
-}
 ```
 
 ### Diagnostics

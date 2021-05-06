@@ -60,7 +60,6 @@ this.#x
 
 ```javascript
 
-this.;
 ```
 
 ### Diagnostics

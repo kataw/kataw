@@ -206,7 +206,9 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 
 ```javascript
 
-
+function* g() {
+  (x = x + foo(a,  y)) =>  x;
+}
 ```
 
 ### Diagnostics

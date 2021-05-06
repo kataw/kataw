@@ -242,7 +242,11 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    x = class  {};
+  }
+}
 ```
 
 ### Diagnostics

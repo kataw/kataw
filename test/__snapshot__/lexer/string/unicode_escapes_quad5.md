@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\uxxxx\"";
 ```
 
 ### Diagnostics

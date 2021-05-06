@@ -79,8 +79,6 @@ inst\u0061nceof = x;
 
 ```javascript
 
-   inctanceof ;
-x;
 ```
 
 ### Diagnostics

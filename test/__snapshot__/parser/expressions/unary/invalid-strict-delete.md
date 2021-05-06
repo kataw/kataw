@@ -156,11 +156,6 @@
 
 ```javascript
 
-foo;
-"\"use strict\"";
-(foo);
-"\"use strict\"";
-interface;
 ```
 
 ### Diagnostics

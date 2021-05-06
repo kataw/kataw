@@ -104,7 +104,6 @@
 
 ```javascript
 
-[... = x] = x;
 ```
 
 ### Diagnostics

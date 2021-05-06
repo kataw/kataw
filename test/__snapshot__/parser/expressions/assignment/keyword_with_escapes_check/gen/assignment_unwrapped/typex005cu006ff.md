@@ -78,7 +78,6 @@ type\u006ff = x;
 
 ```javascript
 
- = x;
 ```
 
 ### Diagnostics

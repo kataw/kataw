@@ -147,10 +147,6 @@
 
 ```javascript
 
-var {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

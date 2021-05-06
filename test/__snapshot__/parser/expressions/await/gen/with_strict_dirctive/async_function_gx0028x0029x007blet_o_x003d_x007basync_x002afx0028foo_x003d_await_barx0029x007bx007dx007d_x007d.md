@@ -242,7 +242,9 @@
 
 ```javascript
 
-
+async function g() {
+  let o = { * async f(foo = await bar) {} };
+}
 ```
 
 ### Diagnostics

@@ -66,8 +66,6 @@ c\u006fnst = x;
 
 ```javascript
 
-const ;
-x;
 ```
 
 ### Diagnostics

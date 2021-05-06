@@ -42,7 +42,6 @@ return
 
 ```javascript
 
-return ;
 ```
 
 ### Diagnostics

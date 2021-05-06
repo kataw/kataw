@@ -128,11 +128,6 @@
 
 ```javascript
 
-{
-  ();
-  const x = ;
-  var ;
-}
 ```
 
 ### Diagnostics

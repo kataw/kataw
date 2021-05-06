@@ -92,7 +92,6 @@ var x = {
 
 ```javascript
 
-var x = { this };
 ```
 
 ### Diagnostics

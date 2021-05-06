@@ -166,10 +166,6 @@ async function p(){
 
 ```javascript
 
-
-b;
-{
-}
 ```
 
 ### Diagnostics

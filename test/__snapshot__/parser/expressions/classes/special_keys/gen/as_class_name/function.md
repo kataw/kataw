@@ -109,8 +109,6 @@ class function {}
 
 ```javascript
 
-class {}
-
 ```
 
 ### Diagnostics

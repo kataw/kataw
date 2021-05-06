@@ -122,7 +122,6 @@
 
 ```javascript
 
-for (; ; ) {}
 ```
 
 ### Diagnostics

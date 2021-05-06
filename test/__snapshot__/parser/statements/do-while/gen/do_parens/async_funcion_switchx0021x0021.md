@@ -76,8 +76,6 @@ do( async funcion switch!! while
 
 ```javascript
 
-do ();
-while ();
 ```
 
 ### Diagnostics

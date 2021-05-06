@@ -102,7 +102,6 @@ if (true) function* g() {  }
 
 ```javascript
 
-if (true) 
 ```
 
 ### Diagnostics

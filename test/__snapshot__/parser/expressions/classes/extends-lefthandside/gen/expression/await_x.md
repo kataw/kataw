@@ -122,10 +122,6 @@
 
 ```javascript
 
-(class  {});
-x;
-{
-}
 ```
 
 ### Diagnostics

@@ -239,11 +239,6 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 
 ```javascript
 
-
-n;
-{
-  yield: 12;
-}
 ```
 
 ### Diagnostics

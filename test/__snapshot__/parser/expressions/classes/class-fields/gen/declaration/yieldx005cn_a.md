@@ -114,11 +114,6 @@ class C { yield\n a }
 
 ```javascript
 
-class {
-  yield;
-}
-n;
-a;
 ```
 
 ### Diagnostics

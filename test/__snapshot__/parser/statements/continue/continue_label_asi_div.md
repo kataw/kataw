@@ -128,9 +128,6 @@ x: for(;;) continue x
 
 ```javascript
 
-x: for (;;)
-  continue x;
- / y;
 ```
 
 ### Diagnostics

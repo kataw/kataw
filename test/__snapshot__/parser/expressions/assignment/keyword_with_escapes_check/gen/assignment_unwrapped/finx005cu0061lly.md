@@ -82,10 +82,6 @@ fin\u0061lly = x;
 
 ```javascript
 
- {
-} {
-}
-x;
 ```
 
 ### Diagnostics

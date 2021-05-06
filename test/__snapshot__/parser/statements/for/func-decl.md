@@ -157,7 +157,7 @@ function x(a, [x]) {}
 
 ```javascript
 
-
+function x(a, [x]) {}
 ```
 
 ### Diagnostics

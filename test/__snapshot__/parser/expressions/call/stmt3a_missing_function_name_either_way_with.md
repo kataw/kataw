@@ -90,8 +90,6 @@ async
 
 ```javascript
 
-async;
-
 ```
 
 ### Diagnostics

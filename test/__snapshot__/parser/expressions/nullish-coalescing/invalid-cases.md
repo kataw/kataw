@@ -706,16 +706,6 @@ a+1 ?? b+1 && c;
 
 ```javascript
 
- ?? b;
-a ?? ;
-a || b ?? c;
-a && b ?? c;
-a ?? b || c;
-a ?? b && c;
-a + 1 || b + 1 ?? c;
-a + 1 && b + 1 ?? c;
-a + 1 ?? b + 1 || c;
-a + 1 ?? b + 1 && c;
 ```
 
 ### Diagnostics

@@ -177,10 +177,6 @@
 
 ```javascript
 
-(class {
-    constructor() {}
-    constructor() {}
-  });
 ```
 
 ### Diagnostics

@@ -126,8 +126,6 @@ opaque Ident: Type = SuperType;
 
 ```javascript
 
-opaque;
-Ident: Type = SuperType;
 ```
 
 ### Diagnostics

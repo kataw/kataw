@@ -95,8 +95,6 @@ class delete {}
 
 ```javascript
 
-class {}
-{};
 ```
 
 ### Diagnostics

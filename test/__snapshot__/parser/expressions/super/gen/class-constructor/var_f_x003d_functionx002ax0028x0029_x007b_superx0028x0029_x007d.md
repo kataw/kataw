@@ -231,13 +231,6 @@ class C { constructor() { var f = function*() { super(); } } }
 
 ```javascript
 
-class {
-  constructor() {
-    var f = function*() {
-      ();
-    };
-  }
-}
 ```
 
 ### Diagnostics

@@ -388,7 +388,13 @@ function * gen() { function not_gen() { async function g(){let x = async functio
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    async function g() {
+      let x = async function f(foo = [h, { m: t(await bar) }]) {};
+    }
+  }
+}
 ```
 
 ### Diagnostics

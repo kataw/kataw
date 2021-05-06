@@ -98,10 +98,6 @@ async () => {  \u0069mport = x  }
 
 ```javascript
 
-async () =>  {
-  import ;
-}
-x;
 ```
 
 ### Diagnostics

@@ -165,19 +165,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  crazy;
-  input;
-  1;
-}
 ```
 
 ### Diagnostics

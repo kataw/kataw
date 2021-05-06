@@ -145,10 +145,6 @@ try {
 
 ```javascript
 
-try {
-} catch (e) {
-
-}
 ```
 
 ### Diagnostics

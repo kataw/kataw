@@ -172,7 +172,11 @@ x; {}
 
 ```javascript
 
-
+async function p() {
+  class  {}
+  {
+  }
+}
 ```
 
 ### Diagnostics

@@ -1355,7 +1355,15 @@ try {
     let e;
   }
 }
-
+function f() {
+  try {
+    let e;
+  } catch {
+    let e;
+  } try{
+    let e;
+  }
+}
 ```
 
 ### Diagnostics

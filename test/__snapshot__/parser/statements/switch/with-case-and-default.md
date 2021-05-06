@@ -119,12 +119,6 @@ switch (x) { case y: break; default: return; }
 
 ```javascript
 
-switch(x
-  case y:
-
-  default
-    return ;
- 
 ```
 
 ### Diagnostics

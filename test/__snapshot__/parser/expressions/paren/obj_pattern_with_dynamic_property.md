@@ -146,7 +146,6 @@
 
 ```javascript
 
-({ ...{ b: 0 }x } = {});
 ```
 
 ### Diagnostics

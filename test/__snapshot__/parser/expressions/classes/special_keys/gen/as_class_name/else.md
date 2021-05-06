@@ -76,9 +76,6 @@ class else {}
 
 ```javascript
 
-class {}
-{
-}
 ```
 
 ### Diagnostics

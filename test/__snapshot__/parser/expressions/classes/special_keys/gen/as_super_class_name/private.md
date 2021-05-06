@@ -84,7 +84,6 @@ class x extends private {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

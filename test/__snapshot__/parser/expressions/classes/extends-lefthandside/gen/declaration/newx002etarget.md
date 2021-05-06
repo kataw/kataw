@@ -94,7 +94,6 @@ class A extends new.target {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

@@ -84,7 +84,6 @@ class x extends package {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

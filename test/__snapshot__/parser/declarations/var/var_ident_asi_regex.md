@@ -139,8 +139,6 @@ var q
 
 ```javascript
 
-var q;
- / d / ;
 ```
 
 ### Diagnostics

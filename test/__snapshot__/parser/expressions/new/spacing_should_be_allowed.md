@@ -101,7 +101,9 @@ function f(){ new . target }
 
 ```javascript
 
-
+function f() {
+  ;
+}
 ```
 
 ### Diagnostics

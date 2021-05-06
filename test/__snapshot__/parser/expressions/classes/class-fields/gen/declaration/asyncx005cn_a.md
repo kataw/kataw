@@ -114,11 +114,6 @@ class C { async\n a }
 
 ```javascript
 
-class {
-  async;
-}
-n;
-a;
 ```
 
 ### Diagnostics

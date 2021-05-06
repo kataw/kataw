@@ -71,8 +71,6 @@ do false while
 
 ```javascript
 
-do false;
-while ();
 ```
 
 ### Diagnostics

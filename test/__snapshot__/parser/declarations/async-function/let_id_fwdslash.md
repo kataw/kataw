@@ -117,8 +117,6 @@ let p/
 
 ```javascript
 
-let p;
- / ;
 ```
 
 ### Diagnostics

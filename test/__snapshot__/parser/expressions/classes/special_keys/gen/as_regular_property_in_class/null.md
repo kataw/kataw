@@ -100,10 +100,6 @@ class x {null: x}
 
 ```javascript
 
-class {
-  null;
-}
-x;
 ```
 
 ### Diagnostics

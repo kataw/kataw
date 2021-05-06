@@ -78,7 +78,6 @@ new super.foo
 
 ```javascript
 
- ().foo;
 ```
 
 ### Diagnostics

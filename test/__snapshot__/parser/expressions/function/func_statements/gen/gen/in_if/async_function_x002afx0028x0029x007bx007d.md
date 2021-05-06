@@ -112,7 +112,6 @@ if (x) async function *f(){}
 
 ```javascript
 
-if (x) 
 ```
 
 ### Diagnostics

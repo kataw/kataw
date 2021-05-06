@@ -98,7 +98,6 @@
 
 ```javascript
 
-({ 790: false } = x);
 ```
 
 ### Diagnostics

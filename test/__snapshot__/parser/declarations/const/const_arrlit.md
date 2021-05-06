@@ -91,7 +91,6 @@ const []
 
 ```javascript
 
-const [];
 ```
 
 ### Diagnostics

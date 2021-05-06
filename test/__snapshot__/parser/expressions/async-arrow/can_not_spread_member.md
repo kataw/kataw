@@ -108,7 +108,6 @@ async ([...x.y]) => z
 
 ```javascript
 
-async ([...x.y]) =>  z
 ```
 
 ### Diagnostics

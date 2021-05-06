@@ -171,7 +171,6 @@ x = {x: [{a = b}] + x}.x
 
 ```javascript
 
-x = { x: [{ a = b }] + x }.x;
 ```
 
 ### Diagnostics

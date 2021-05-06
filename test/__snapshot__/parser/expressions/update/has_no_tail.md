@@ -83,8 +83,6 @@ x.foo++.bar
 
 ```javascript
 
-x.foo;
-bar;
 ```
 
 ### Diagnostics

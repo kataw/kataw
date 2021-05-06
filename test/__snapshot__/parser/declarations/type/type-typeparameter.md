@@ -331,9 +331,6 @@ type B = Foo<
 
 ```javascript
 
-
-
- > ;
 ```
 
 ### Diagnostics

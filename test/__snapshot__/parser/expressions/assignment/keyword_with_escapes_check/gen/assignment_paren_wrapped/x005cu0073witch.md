@@ -104,10 +104,6 @@
 
 ```javascript
 
-();
-switch( = x
-
-
 ```
 
 ### Diagnostics

@@ -423,12 +423,6 @@ class A {
 
 ```javascript
 
-var C;
-
-class {}
-@decorator
-class {}
-()  ;
 ```
 
 ### Diagnostics

@@ -139,8 +139,6 @@
 
 ```javascript
 
-({ const }) =>  x;
-({ debugger }) =>  x;
 ```
 
 ### Diagnostics

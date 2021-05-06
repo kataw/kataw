@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\uafail\"";
 ```
 
 ### Diagnostics

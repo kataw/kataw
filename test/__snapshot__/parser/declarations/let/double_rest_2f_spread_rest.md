@@ -133,7 +133,6 @@ let [... ...foo] = obj;
 
 ```javascript
 
-let [..., ...foo] = obj;
 ```
 
 ### Diagnostics

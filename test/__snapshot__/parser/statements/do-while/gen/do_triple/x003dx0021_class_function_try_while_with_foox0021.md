@@ -273,12 +273,6 @@ do do do =! class function try while with foo! while while while
 
 ```javascript
 
-do do do  = class {};
-     ();
-   ();
-while ();
-
-while () while () while () ;
 ```
 
 ### Diagnostics

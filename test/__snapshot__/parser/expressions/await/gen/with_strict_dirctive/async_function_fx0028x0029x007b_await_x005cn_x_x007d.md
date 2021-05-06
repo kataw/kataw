@@ -148,9 +148,6 @@
 
 ```javascript
 
-
-n;
-x;
 ```
 
 ### Diagnostics

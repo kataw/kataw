@@ -106,9 +106,6 @@ do[ try { !xxx
 
 ```javascript
 
-do [];
- ({});
-xxx;
 ```
 
 ### Diagnostics

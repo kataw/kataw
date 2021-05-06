@@ -135,7 +135,6 @@ s = {"foo": yield a = x} = x
 
 ```javascript
 
-s = { "\"foo\"": yield, a = x } = x;
 ```
 
 ### Diagnostics

@@ -210,7 +210,11 @@ function *f(){  class x{*[yield](a){}}  }
 
 ```javascript
 
-
+function* f() {
+  class {
+    [ ](a) {}
+  }
+}
 ```
 
 ### Diagnostics

@@ -84,9 +84,6 @@ if (true) let x; else ;
 
 ```javascript
 
-if (true) let;
-x;
-
 ```
 
 ### Diagnostics

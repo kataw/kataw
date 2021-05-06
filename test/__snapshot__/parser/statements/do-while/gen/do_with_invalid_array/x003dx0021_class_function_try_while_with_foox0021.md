@@ -273,15 +273,6 @@ do while [catch] =! class function try while with foo!
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- (class {});
-
-try {
-} try{
-}
-
 ```
 
 ### Diagnostics

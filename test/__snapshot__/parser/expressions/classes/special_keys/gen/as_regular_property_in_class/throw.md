@@ -100,10 +100,6 @@ class x {throw: x}
 
 ```javascript
 
-class {
-  throw;
-}
-x;
 ```
 
 ### Diagnostics

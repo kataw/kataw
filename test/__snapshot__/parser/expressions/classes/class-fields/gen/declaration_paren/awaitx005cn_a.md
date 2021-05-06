@@ -144,12 +144,6 @@
 
 ```javascript
 
-(class  {
-    await;
-  });
-n;
-a;
-
 ```
 
 ### Diagnostics

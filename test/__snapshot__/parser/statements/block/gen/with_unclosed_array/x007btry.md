@@ -91,9 +91,6 @@
 
 ```javascript
 
-{
-  [{ try }];
-}
 ```
 
 ### Diagnostics

@@ -174,7 +174,6 @@ function* gf() { class C { *yield() { } } }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

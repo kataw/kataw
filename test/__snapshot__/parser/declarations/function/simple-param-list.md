@@ -415,10 +415,6 @@ function x({x}) { "use strict"; }
 
 ```javascript
 
-
-
-
-
 ```
 
 ### Diagnostics

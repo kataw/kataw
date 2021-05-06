@@ -183,7 +183,9 @@ async function f() {
 
 ```javascript
 
-
+async function f() {
+  for await (xa in b of y);
+}
 ```
 
 ### Diagnostics

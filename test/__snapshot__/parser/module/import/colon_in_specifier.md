@@ -130,9 +130,6 @@ import {a: b} from "bar";
 
 ```javascript
 
-  a }  ;
-from;
-"\"bar\"";
 ```
 
 ### Diagnostics

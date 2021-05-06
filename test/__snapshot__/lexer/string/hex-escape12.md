@@ -61,8 +61,6 @@
 
 ```javascript
 
-"\"\x9q\"";
-"\"\x5\"";
 ```
 
 ### Diagnostics

@@ -215,18 +215,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  a, b, c;
-  d = y ** d;
-}
 ```
 
 ### Diagnostics

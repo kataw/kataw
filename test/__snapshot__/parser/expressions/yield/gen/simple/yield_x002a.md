@@ -66,7 +66,6 @@ yield *
 
 ```javascript
 
-yield * ;
 ```
 
 ### Diagnostics

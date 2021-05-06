@@ -102,10 +102,6 @@ async () => {  c\u006fntinue = x  }
 
 ```javascript
 
-async () =>  {
-  continue ;
-}
-x;
 ```
 
 ### Diagnostics

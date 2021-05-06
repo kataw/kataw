@@ -135,7 +135,9 @@
 
 ```javascript
 
-
+function* g() {
+   x;
+}
 ```
 
 ### Diagnostics

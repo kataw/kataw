@@ -82,8 +82,6 @@ async () => {  \u0064efault = x  }
 
 ```javascript
 
-async () =>  {}
-x;
 ```
 
 ### Diagnostics

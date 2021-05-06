@@ -112,7 +112,6 @@
 
 ```javascript
 
-[{} = 2 /= 2];
 ```
 
 ### Diagnostics

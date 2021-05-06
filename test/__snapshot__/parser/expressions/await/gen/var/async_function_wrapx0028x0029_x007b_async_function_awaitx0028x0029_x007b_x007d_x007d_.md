@@ -270,11 +270,6 @@ var await; var f = (async function() { async function wrap() { async function aw
 
 ```javascript
 
-var await;
-var f = (async function() {
-
-
-  });
 ```
 
 ### Diagnostics

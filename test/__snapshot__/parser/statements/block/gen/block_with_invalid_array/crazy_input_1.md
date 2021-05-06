@@ -144,15 +144,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  crazy;
-  input;
-  1;
-}
 ```
 
 ### Diagnostics

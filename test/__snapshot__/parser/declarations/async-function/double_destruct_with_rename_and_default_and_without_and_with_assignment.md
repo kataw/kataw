@@ -199,11 +199,6 @@ let {x:y=z}, {a:b=c} = obj;
 
 ```javascript
 
-let {
-  x:
-}, {
-    a:
-  } = obj;
 ```
 
 ### Diagnostics

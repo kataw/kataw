@@ -103,7 +103,6 @@
 
 ```javascript
 
-([foo]) = arr;
 ```
 
 ### Diagnostics

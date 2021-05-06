@@ -135,7 +135,7 @@ switch (x) {
 
 switch(x
   case foo:
-
+    function f() {}
  
 ```
 

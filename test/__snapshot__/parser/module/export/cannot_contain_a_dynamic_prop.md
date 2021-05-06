@@ -130,9 +130,6 @@ var foo; export {[foo]}
 
 ```javascript
 
-var foo;
- {};
-[foo];
 ```
 
 ### Diagnostics

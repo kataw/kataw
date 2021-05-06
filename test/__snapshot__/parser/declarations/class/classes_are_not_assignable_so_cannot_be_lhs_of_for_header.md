@@ -157,7 +157,6 @@ for (class x { [a](){} } in c);
 
 ```javascript
 
-for ( in c);
 ```
 
 ### Diagnostics

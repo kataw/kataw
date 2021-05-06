@@ -133,13 +133,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  class {}
-}
 ```
 
 ### Diagnostics

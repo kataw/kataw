@@ -146,14 +146,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  async;
-  class {}
-}
 ```
 
 ### Diagnostics

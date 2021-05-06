@@ -155,9 +155,9 @@ switch(x) { case y: break; case z: break; default: default: }
 
 switch(x
   case y:
-
+    break;
   case z:
-
+    break;
   default
 
   default

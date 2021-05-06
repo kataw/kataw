@@ -107,10 +107,6 @@ throw {x} catch
 
 ```javascript
 
-throw  { x };
- {
-} {
-}
 ```
 
 ### Diagnostics

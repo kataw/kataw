@@ -116,7 +116,6 @@ async function f(){ for await (;;) {} }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

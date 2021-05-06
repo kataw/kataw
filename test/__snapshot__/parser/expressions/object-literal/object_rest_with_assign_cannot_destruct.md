@@ -130,7 +130,6 @@ x={...x=y}=z
 
 ```javascript
 
-x = { ...x = y } = z;
 ```
 
 ### Diagnostics

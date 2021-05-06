@@ -81,8 +81,6 @@ async (x, /x/g) => x
 
 ```javascript
 
-async(x, /x/g)
-x;
 ```
 
 ### Diagnostics

@@ -114,7 +114,6 @@
 
 ```javascript
 
-({ * get bar() {} });
 ```
 
 ### Diagnostics

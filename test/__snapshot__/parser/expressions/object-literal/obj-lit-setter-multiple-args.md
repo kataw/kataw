@@ -146,7 +146,6 @@
 
 ```javascript
 
-({ set x(y, z) {} });
 ```
 
 ### Diagnostics

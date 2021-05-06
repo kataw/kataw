@@ -95,9 +95,6 @@ do let x; while (false)
 
 ```javascript
 
-do let;
- ();
-while (false) ;
 ```
 
 ### Diagnostics

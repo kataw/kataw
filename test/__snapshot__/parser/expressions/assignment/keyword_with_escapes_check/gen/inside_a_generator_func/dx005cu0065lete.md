@@ -133,7 +133,6 @@ function *f(){
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

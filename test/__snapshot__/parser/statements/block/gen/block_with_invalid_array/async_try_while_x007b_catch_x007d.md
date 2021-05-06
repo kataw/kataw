@@ -192,19 +192,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  async;
-  try {
-  } try{
-     {
-    } {
-    }
-  }
-}
 ```
 
 ### Diagnostics

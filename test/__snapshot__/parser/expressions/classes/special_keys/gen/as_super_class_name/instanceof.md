@@ -122,8 +122,6 @@ class x extends instanceof {}
 
 ```javascript
 
-class  {}
-   inctanceof {};
 ```
 
 ### Diagnostics

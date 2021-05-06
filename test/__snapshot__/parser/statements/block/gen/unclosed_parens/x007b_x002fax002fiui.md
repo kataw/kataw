@@ -78,10 +78,6 @@
 
 ```javascript
 
-{
-  ();
-  /a/iui;
-}
 ```
 
 ### Diagnostics

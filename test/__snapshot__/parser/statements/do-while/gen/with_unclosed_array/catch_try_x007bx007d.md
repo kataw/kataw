@@ -113,11 +113,6 @@ do[ catch try {}
 
 ```javascript
 
-do [];
- ();
-try {
-} try{
-}
 ```
 
 ### Diagnostics

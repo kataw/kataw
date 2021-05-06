@@ -100,10 +100,6 @@ class x {export: x}
 
 ```javascript
 
-class {
-  export;
-}
-x;
 ```
 
 ### Diagnostics

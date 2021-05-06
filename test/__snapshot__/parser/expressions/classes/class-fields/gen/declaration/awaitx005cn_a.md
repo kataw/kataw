@@ -114,11 +114,6 @@ class C { await\n a }
 
 ```javascript
 
-class {
-  await;
-}
-n;
-a;
 ```
 
 ### Diagnostics

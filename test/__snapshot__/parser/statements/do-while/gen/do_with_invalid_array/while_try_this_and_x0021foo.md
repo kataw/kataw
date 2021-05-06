@@ -199,15 +199,6 @@ do while [catch] while try this and !foo
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
-while ();
-try {
-} try{
-}
-and;
-foo;
 ```
 
 ### Diagnostics

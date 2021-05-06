@@ -157,7 +157,9 @@ function *g() {x={     ...yield x,    };}
 
 ```javascript
 
-
+function* g() {
+  x = { ... x };
+}
 ```
 
 ### Diagnostics

@@ -173,14 +173,6 @@ switch (this.a) { c\u0061se 6: break; }
 
 ```javascript
 
-switch(this.a
-  default
-
-
-switch(this.a
-  case 6:
-
- 
 ```
 
 ### Diagnostics

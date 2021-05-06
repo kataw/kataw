@@ -123,10 +123,6 @@ class A extends a + b {}
 
 ```javascript
 
-class  {}
-b;
-{
-}
 ```
 
 ### Diagnostics

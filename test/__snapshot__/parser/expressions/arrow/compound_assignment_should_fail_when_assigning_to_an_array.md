@@ -122,7 +122,6 @@
 
 ```javascript
 
-({ ident: [foo, bar] += x });
 ```
 
 ### Diagnostics

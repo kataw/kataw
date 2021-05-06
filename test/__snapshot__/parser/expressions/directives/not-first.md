@@ -117,7 +117,8 @@ var x; "use strict"; with (x) y;
 
 var x;
 "\"use strict\"";
-
+with (x
+  y;
 ```
 
 ### Diagnostics

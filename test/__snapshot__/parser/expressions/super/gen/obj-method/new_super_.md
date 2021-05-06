@@ -153,9 +153,6 @@
 
 ```javascript
 
-({ method() {
-     ();
-  } });
 ```
 
 ### Diagnostics

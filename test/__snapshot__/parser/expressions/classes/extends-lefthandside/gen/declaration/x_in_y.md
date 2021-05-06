@@ -130,10 +130,6 @@ class A extends x in y {}
 
 ```javascript
 
-class  {}
- in y;
-{
-}
 ```
 
 ### Diagnostics

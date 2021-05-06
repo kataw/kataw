@@ -63,8 +63,6 @@ xxx\x61
 
 ```javascript
 
-xxx;
-x61;
 ```
 
 ### Diagnostics

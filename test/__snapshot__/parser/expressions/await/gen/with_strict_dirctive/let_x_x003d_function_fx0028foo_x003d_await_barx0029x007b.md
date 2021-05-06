@@ -168,7 +168,6 @@
 
 ```javascript
 
-let x = function f(foo = await, bar) {};
 ```
 
 ### Diagnostics

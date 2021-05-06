@@ -140,10 +140,6 @@ var await; var f = (async function() { await.b[c] => async });
 
 ```javascript
 
-var await;
-var f = ();
-async;
-
 ```
 
 ### Diagnostics

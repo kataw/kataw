@@ -151,12 +151,6 @@ function foo(p\141ckage) { "use strict"; }
 
 ```javascript
 
-
-141;
-ckage;
-{
-  "\"use strict\"";
-}
 ```
 
 ### Diagnostics

@@ -119,9 +119,6 @@ class C {
 
 ```javascript
 
-class {
-  static m() {}
-}
 ```
 
 ### Diagnostics

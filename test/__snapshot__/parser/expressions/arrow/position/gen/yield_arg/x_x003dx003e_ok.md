@@ -139,7 +139,9 @@ function *f() {
 
 ```javascript
 
-
+function* f() {
+   x =>  ok;
+}
 ```
 
 ### Diagnostics

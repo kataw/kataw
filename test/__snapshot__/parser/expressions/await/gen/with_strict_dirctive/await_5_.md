@@ -70,8 +70,6 @@
 
 ```javascript
 
-await;
-5;
 ```
 
 ### Diagnostics

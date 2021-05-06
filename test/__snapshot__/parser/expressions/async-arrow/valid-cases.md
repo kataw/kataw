@@ -4896,7 +4896,7 @@ async ({ a = b }) =>  a
 (async (x) =>  {}) + 1;
 (async (x) =>  {}) / 1;
 async a =>  a;
-
+async function foo(a = async () =>  await b) {}
 ({ async: 1 });
 async yield =>  1;
 () =>  ({ async f() {

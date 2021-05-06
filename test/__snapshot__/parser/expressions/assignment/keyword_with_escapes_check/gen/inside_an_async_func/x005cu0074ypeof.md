@@ -114,9 +114,6 @@ async () => {  \u0074ypeof = x  }
 
 ```javascript
 
-async () =>  {
-   = x;
-}
 ```
 
 ### Diagnostics

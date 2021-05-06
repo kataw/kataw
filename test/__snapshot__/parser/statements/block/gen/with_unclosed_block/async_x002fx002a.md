@@ -137,17 +137,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  async;
-} /*
 ```
 
 ### Diagnostics

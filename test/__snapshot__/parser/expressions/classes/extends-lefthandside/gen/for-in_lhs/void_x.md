@@ -85,7 +85,6 @@ for (void x in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

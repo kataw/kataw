@@ -76,7 +76,6 @@
 
 ```javascript
 
-[...yield];
 ```
 
 ### Diagnostics

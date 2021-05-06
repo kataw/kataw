@@ -122,7 +122,9 @@ function *f(){
 
 ```javascript
 
-
+function* f() {
+  arguments = x;
+}
 ```
 
 ### Diagnostics

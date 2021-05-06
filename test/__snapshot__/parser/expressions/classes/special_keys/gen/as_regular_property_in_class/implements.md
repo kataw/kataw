@@ -100,10 +100,6 @@ class x {implements: x}
 
 ```javascript
 
-class {
-  implements;
-}
-x;
 ```
 
 ### Diagnostics

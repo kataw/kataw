@@ -69,7 +69,8 @@
 
 ```javascript
 
-
+with (x
+  y;
 ```
 
 ### Diagnostics

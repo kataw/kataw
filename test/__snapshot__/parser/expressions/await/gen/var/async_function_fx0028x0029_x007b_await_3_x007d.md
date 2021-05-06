@@ -240,7 +240,9 @@ var await; var f = (async function() { async function f() { await 3; } });
 
 var await;
 var f = (async function() {
-
+    async function f() {
+      await 3;
+    }
   });
 ```
 

@@ -79,9 +79,6 @@ export *= from 'f';
 
 ```javascript
 
-
-from;
-"'f'";
 ```
 
 ### Diagnostics

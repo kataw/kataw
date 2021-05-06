@@ -370,7 +370,12 @@ var await; var f = (async function() { async function f() {
 
 var await;
 var f = (async function() {
-
+    async function f() {
+      let {
+        [await "\"a\""]:
+      } = { a: 1 };
+      return  a;
+    }
   });
 ```
 

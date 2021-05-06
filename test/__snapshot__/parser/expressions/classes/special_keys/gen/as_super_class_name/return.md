@@ -109,8 +109,6 @@ class x extends return {}
 
 ```javascript
 
-class  {}
-return  {};
 ```
 
 ### Diagnostics

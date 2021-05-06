@@ -96,9 +96,6 @@ class x extends default {}
 
 ```javascript
 
-class  {}
-{
-}
 ```
 
 ### Diagnostics

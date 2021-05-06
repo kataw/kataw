@@ -147,7 +147,6 @@
 
 ```javascript
 
-({ a: (a, y) = 0 } = 1);
 ```
 
 ### Diagnostics

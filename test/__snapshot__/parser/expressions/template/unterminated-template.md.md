@@ -43,7 +43,6 @@
 
 ```javascript
 
-test;
 ```
 
 ### Diagnostics

@@ -215,16 +215,6 @@ class C { constructor() { class C { get x) { super; } } } }
 
 ```javascript
 
-class {
-  constructor() {
-    class {
-      x;
-    }
-  }
-}
-{
-  ;
-}
 ```
 
 ### Diagnostics

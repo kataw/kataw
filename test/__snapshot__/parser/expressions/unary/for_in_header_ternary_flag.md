@@ -155,8 +155,6 @@ for(delete((1)?y:x in y) in z)x
 
 ```javascript
 
-for ( in z)
-  x;
 ```
 
 ### Diagnostics

@@ -79,9 +79,6 @@
 
 ```javascript
 
-() =>  {
-  return ;
-};
 ```
 
 ### Diagnostics

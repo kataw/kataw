@@ -124,7 +124,9 @@ function* f(){ yield
 
 ```javascript
 
-
+function* f() {
+    / foo;
+}
 ```
 
 ### Diagnostics

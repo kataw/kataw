@@ -136,11 +136,6 @@ function createElement(tagName: "div"): HTMLDivElement {}
 
 ```javascript
 
-
-"\"div\"";
-HTMLDivElement;
-{
-}
 ```
 
 ### Diagnostics

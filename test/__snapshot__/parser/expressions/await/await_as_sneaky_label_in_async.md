@@ -119,9 +119,6 @@ async () => { aw\u{61}it: x }
 
 ```javascript
 
-async () =>  {
-  await : x;
-}
 ```
 
 ### Diagnostics

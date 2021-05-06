@@ -150,7 +150,7 @@
 
 ```javascript
 
-
+async function af(a, b = await a) {}
 ```
 
 ### Diagnostics

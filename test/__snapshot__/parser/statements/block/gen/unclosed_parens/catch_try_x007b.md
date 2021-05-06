@@ -101,12 +101,6 @@
 
 ```javascript
 
-{
-  ();
-   {
-  } {
-  }
-}
 ```
 
 ### Diagnostics

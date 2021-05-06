@@ -163,17 +163,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-    {
-      {
-           => / function while}};
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

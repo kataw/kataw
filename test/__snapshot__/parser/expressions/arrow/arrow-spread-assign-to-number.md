@@ -100,7 +100,6 @@
 
 ```javascript
 
-() =>  x;
 ```
 
 ### Diagnostics

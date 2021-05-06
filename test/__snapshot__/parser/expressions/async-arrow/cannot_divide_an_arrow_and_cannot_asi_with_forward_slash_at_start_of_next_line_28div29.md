@@ -91,8 +91,6 @@ async _ => {}
 
 ```javascript
 
-async _ =>  {};
-/foo;
 ```
 
 ### Diagnostics

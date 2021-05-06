@@ -176,9 +176,6 @@ for (class x extends a in b {} in c);
 
 ```javascript
 
-for ( in b) {}
- in c;
-
 ```
 
 ### Diagnostics

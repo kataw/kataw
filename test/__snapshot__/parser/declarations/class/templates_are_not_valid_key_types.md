@@ -120,10 +120,6 @@ class x { `constructor`(){} }
 
 ```javascript
 
-class {}
-constructor();
-{
-}
 ```
 
 ### Diagnostics

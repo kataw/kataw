@@ -88,10 +88,6 @@ do catch while
 
 ```javascript
 
-do  {
-  } {
-  }
- ();
 ```
 
 ### Diagnostics

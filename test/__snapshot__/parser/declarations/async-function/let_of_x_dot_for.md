@@ -103,7 +103,6 @@ for (let.foo of x);
 
 ```javascript
 
-for (let.foo of x);
 ```
 
 ### Diagnostics

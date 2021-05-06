@@ -88,12 +88,6 @@
 
 ```javascript
 
-{
-  interface;
-  x;
-  {
-  }
-}
 ```
 
 ### Diagnostics

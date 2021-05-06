@@ -161,9 +161,6 @@
 
 ```javascript
 
-a = async function() {
-  g(await );
-};
 ```
 
 ### Diagnostics

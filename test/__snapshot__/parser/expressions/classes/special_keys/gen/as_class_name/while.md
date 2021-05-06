@@ -102,8 +102,6 @@ class while {}
 
 ```javascript
 
-class {}
-while ({}) ;
 ```
 
 ### Diagnostics

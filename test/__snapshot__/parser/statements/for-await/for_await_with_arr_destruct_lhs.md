@@ -150,7 +150,10 @@ async function f() { for await ([x] of y) {} }
 
 ```javascript
 
-
+async function f() {
+  for await ([x] of y) {
+  }
+}
 ```
 
 ### Diagnostics

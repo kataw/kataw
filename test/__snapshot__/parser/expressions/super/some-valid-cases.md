@@ -2106,66 +2106,6 @@ class x { dsda(){ return (a=super.foo) => a; }}
 
 ```javascript
 
-class  {}
-class  {
-  f() {}
-}
-class  {
-  constructor() {
-    ();
-  }
-}
-class {
-  constructor() {
-    .foo;
-  }
-}
-class {
-  foo() {
-    .foo;
-  }
-}
-class {
-  foo(x = .foo) {}
-}
-x = { foo(a = .foo) {} };
-class {
-  constructor() {
-    foo;
-  }
-}
-class {
-  foo() {
-    foo;
-  }
-}
-class {
-  foo(x = foo) {}
-}
-x = { foo() {
-    foo;
-  } };
-x = { foo(a = foo) {} };
-class  {
-  constructor() {
-    return  (a = ()) =>  a;
-  }
-}
-class  {
-  constructor() {
-    return  () =>  foo;
-  }
-}
-class {
-  fo() {
-    return  () =>  .foo;
-  }
-}
-class {
-  dsda() {
-    return  (a = .foo) =>  a;
-  }
-}
 ```
 
 ### Diagnostics

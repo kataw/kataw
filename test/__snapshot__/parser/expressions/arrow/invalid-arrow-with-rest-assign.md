@@ -129,7 +129,6 @@
 
 ```javascript
 
-({ a, ...b = 0 }) =>  {};
 ```
 
 ### Diagnostics

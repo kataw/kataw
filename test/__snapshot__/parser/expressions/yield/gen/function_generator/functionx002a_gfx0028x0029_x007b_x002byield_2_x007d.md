@@ -227,7 +227,13 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    function* gf() {
+       2;
+    }
+  }
+}
 ```
 
 ### Diagnostics

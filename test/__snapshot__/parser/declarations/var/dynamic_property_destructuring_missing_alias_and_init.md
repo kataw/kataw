@@ -129,9 +129,6 @@ var {[x]};
 
 ```javascript
 
-var {
-  [x]:
-};
 ```
 
 ### Diagnostics

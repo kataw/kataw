@@ -130,7 +130,9 @@ function* f(){ yield x + y; }
 
 ```javascript
 
-
+function* f() {
+   x + y;
+}
 ```
 
 ### Diagnostics

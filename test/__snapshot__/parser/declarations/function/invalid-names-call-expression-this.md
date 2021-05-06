@@ -138,7 +138,6 @@ function fn() { (() => this)().#x }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -97,8 +97,6 @@
 
 ```javascript
 
-(   inctanceof ) = x;
-
 ```
 
 ### Diagnostics

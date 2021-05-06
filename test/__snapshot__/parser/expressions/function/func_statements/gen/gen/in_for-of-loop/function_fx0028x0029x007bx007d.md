@@ -115,8 +115,6 @@ for (a of b) function f(){}
 
 ```javascript
 
-for (a of b)
-  
 ```
 
 ### Diagnostics

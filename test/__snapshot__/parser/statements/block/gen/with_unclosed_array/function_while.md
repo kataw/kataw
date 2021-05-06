@@ -139,10 +139,6 @@
 
 ```javascript
 
-{
-  [function() {}];
-  while () ;
-}
 ```
 
 ### Diagnostics

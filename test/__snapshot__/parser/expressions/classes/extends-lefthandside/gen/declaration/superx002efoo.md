@@ -102,7 +102,6 @@ class A extends super.foo {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

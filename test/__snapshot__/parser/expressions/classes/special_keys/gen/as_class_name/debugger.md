@@ -88,10 +88,6 @@ class debugger {}
 
 ```javascript
 
-class {}
-debugger;
-{
-}
 ```
 
 ### Diagnostics

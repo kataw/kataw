@@ -169,7 +169,6 @@
 
 ```javascript
 
-[...[x].map(y, z)] = a;
 ```
 
 ### Diagnostics

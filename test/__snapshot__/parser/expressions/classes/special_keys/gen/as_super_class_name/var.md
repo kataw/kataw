@@ -127,8 +127,6 @@ class x extends var {}
 
 ```javascript
 
-class  {}
-var {};
 ```
 
 ### Diagnostics

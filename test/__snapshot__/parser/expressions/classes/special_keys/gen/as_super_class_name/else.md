@@ -96,9 +96,6 @@ class x extends else {}
 
 ```javascript
 
-class  {}
-{
-}
 ```
 
 ### Diagnostics

@@ -175,10 +175,6 @@
 
 ```javascript
 
-(x = y) =>  {}({ x });
-{
-  "'use strict'";
-}
 ```
 
 ### Diagnostics

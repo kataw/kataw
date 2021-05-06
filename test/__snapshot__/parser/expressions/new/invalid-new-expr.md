@@ -195,12 +195,6 @@ new foo ++;
 
 ```javascript
 
- foo();
-bar;
- ();
-foo;
- foo();
- foo();
 ```
 
 ### Diagnostics

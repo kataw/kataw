@@ -96,8 +96,6 @@ let ...a = 1;
 
 ```javascript
 
-let;
-a = 1;
 ```
 
 ### Diagnostics

@@ -100,9 +100,6 @@ async (a, ...b+b=c) => a;
 
 ```javascript
 
-async(a, ...)
-c;
-a;
 ```
 
 ### Diagnostics

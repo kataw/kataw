@@ -200,11 +200,6 @@ var {x:y=z}, {a:b=c} = obj;
 
 ```javascript
 
-var {
-  x:
-}, {
-    a:
-  } = obj;
 ```
 
 ### Diagnostics

@@ -91,7 +91,6 @@ for (import.meta of null) ;
 
 ```javascript
 
-for (; of null);
 ```
 
 ### Diagnostics

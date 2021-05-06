@@ -64,7 +64,6 @@ if(0) break;
 
 ```javascript
 
-if (0) 
 ```
 
 ### Diagnostics

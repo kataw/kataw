@@ -135,9 +135,6 @@ for (x of 3) continue/x/
 
 ```javascript
 
-for (x of 3)
-  continue ;
- / x / ;
 ```
 
 ### Diagnostics

@@ -95,8 +95,6 @@ class void {}
 
 ```javascript
 
-class {}
-{};
 ```
 
 ### Diagnostics

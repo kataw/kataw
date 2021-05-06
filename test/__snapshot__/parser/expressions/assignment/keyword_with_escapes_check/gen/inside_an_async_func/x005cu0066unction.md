@@ -129,10 +129,6 @@ async () => {  \u0066unction = x  }
 
 ```javascript
 
-async () =>  {
-
-}
-x;
 ```
 
 ### Diagnostics

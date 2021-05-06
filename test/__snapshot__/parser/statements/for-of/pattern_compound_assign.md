@@ -123,8 +123,6 @@ for({}/=y of a)x
 
 ```javascript
 
-for ({} /= y of a)
-  x;
 ```
 
 ### Diagnostics

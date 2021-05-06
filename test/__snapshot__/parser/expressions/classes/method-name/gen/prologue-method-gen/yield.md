@@ -159,7 +159,6 @@
 
 ```javascript
 
-({ * yield(x, y) {} });
 ```
 
 ### Diagnostics

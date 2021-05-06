@@ -129,10 +129,6 @@ async () => {  functi\u006fn = x  }
 
 ```javascript
 
-async () =>  {
-
-}
-x;
 ```
 
 ### Diagnostics

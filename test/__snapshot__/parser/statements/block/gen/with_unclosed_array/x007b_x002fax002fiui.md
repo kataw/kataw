@@ -89,9 +89,6 @@
 
 ```javascript
 
-{
-  [{}, /a/iui];
-}
 ```
 
 ### Diagnostics

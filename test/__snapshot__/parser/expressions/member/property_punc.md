@@ -62,7 +62,6 @@ y.)
 
 ```javascript
 
-y.;
 ```
 
 ### Diagnostics

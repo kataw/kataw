@@ -181,7 +181,6 @@ function *g() { (x = u + yield z) => {}; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

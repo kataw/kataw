@@ -129,9 +129,6 @@
 
 ```javascript
 
-{
-     => / function while}};
-}
 ```
 
 ### Diagnostics

@@ -63,8 +63,6 @@ expo\u0072t = x;
 
 ```javascript
 
-
-x;
 ```
 
 ### Diagnostics

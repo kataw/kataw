@@ -153,7 +153,6 @@ let x = async function f(foo = await){}
 
 ```javascript
 
-let x = async function f(foo = await ) {};
 ```
 
 ### Diagnostics

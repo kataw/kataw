@@ -67,7 +67,6 @@ new delete
 
 ```javascript
 
- ();
 ```
 
 ### Diagnostics

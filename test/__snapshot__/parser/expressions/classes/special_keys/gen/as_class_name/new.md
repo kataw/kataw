@@ -96,8 +96,6 @@ class new {}
 
 ```javascript
 
-class {}
- {}();
 ```
 
 ### Diagnostics

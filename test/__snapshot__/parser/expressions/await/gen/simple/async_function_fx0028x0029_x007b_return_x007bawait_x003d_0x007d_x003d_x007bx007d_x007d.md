@@ -161,7 +161,6 @@ async function f() { return {await = 0} = {}; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

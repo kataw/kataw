@@ -140,13 +140,6 @@
 
 ```javascript
 
-{
-  {
-    {
-       = ;
-    }
-  }
-}
 ```
 
 ### Diagnostics

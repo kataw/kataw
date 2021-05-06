@@ -100,10 +100,6 @@ class x {package: x}
 
 ```javascript
 
-class {
-  package;
-}
-x;
 ```
 
 ### Diagnostics

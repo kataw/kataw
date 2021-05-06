@@ -146,7 +146,6 @@ function not_gen() { var foo = yield = 1; }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -125,10 +125,6 @@ do while try this and !foo
 
 ```javascript
 
-do while () try {
-    } try{
-    }
- (foo);
 ```
 
 ### Diagnostics

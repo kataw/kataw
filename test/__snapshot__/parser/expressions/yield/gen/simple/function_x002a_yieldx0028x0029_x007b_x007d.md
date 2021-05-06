@@ -85,7 +85,7 @@ function * yield() { }
 
 ```javascript
 
-
+function* yield() {}
 ```
 
 ### Diagnostics

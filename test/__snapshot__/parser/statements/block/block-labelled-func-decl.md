@@ -167,7 +167,7 @@
 ```javascript
 
 {
-  foo: bar:
+  foo: bar: function f() {}
 }
 ```
 

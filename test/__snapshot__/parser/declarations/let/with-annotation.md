@@ -395,17 +395,6 @@ let {x}: string = y;
 
 ```javascript
 
-let x;
-string;
-let [x];
-string = y;
-let [x];
-symbol;
-string = y;
-let {
-  x
-};
-string = y;
 ```
 
 ### Diagnostics

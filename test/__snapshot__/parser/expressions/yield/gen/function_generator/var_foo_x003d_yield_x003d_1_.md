@@ -199,7 +199,11 @@ function * gen() { function not_gen() { var foo = yield = 1; }}
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    var foo = yield = 1;
+  }
+}
 ```
 
 ### Diagnostics

@@ -98,10 +98,6 @@ async () => {  impo\u0072t = x  }
 
 ```javascript
 
-async () =>  {
-  import ;
-}
-x;
 ```
 
 ### Diagnostics

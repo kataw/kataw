@@ -49,7 +49,6 @@
 
 ```javascript
 
-"\"\u{fail}\"";
 ```
 
 ### Diagnostics

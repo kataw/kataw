@@ -63,7 +63,6 @@
 
 ```javascript
 
-(, );
 ```
 
 ### Diagnostics

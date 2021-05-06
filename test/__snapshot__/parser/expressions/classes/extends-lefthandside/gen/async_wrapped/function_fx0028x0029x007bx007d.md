@@ -177,7 +177,9 @@ async function p(){
 
 ```javascript
 
-
+async function p() {
+  class  {}
+}
 ```
 
 ### Diagnostics

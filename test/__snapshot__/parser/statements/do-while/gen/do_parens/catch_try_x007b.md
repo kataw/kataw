@@ -145,12 +145,6 @@ do( catch try { while
 
 ```javascript
 
-do ();
- ();
-try {
-  while () ;
-} try{
-}
 ```
 
 ### Diagnostics

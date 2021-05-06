@@ -123,7 +123,6 @@
 
 ```javascript
 
-(class  {});
 ```
 
 ### Diagnostics

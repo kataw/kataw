@@ -116,9 +116,6 @@ class for {}
 
 ```javascript
 
-class {}
-for (; ; )
-  ;
 ```
 
 ### Diagnostics

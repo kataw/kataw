@@ -102,7 +102,6 @@ const foo, bar
 
 ```javascript
 
-const foo, bar;
 ```
 
 ### Diagnostics

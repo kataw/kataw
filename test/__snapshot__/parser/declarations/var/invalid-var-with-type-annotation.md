@@ -156,10 +156,6 @@ var f: >x:int) => string;
 
 ```javascript
 
-var f;
- > x;
-int;
-string;
 ```
 
 ### Diagnostics

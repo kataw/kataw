@@ -94,7 +94,7 @@ switch (x) { case y: break; }
 
 switch(x
   case y:
-
+    break;
  
 ```
 

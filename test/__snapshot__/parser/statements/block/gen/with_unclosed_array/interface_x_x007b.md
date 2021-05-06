@@ -98,9 +98,6 @@
 
 ```javascript
 
-{
-  [interface, x, {}];
-}
 ```
 
 ### Diagnostics

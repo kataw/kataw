@@ -113,8 +113,6 @@ do a > b instanceof c while (x);
 
 ```javascript
 
-do a > b inctanceof c;
-while (x);
 ```
 
 ### Diagnostics

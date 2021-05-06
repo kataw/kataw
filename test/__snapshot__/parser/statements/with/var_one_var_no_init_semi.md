@@ -63,7 +63,8 @@ with (foo) bar;
 
 ```javascript
 
-
+with (foo
+  bar;
 ```
 
 ### Diagnostics

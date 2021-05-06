@@ -78,7 +78,6 @@ d\u0065lete = x;
 
 ```javascript
 
- = x;
 ```
 
 ### Diagnostics

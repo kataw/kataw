@@ -105,7 +105,6 @@ s = {s: new}
 
 ```javascript
 
-s = { s:  () };
 ```
 
 ### Diagnostics

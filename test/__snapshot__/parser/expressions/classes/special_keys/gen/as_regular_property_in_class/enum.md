@@ -100,10 +100,6 @@ class x {enum: x}
 
 ```javascript
 
-class {
-  enum;
-}
-x;
 ```
 
 ### Diagnostics

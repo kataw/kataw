@@ -142,7 +142,6 @@ function* bar() { yield /re/ }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

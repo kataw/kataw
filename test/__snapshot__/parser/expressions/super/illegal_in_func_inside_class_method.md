@@ -193,11 +193,6 @@ class x { foo(){ function f(){ super.foo; } }}
 
 ```javascript
 
-class {
-  foo() {
-
-  }
-}
 ```
 
 ### Diagnostics

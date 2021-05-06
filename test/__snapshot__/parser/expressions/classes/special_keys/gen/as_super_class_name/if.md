@@ -124,8 +124,6 @@ class x extends if {}
 
 ```javascript
 
-class  {}
-if ({}) ;
 ```
 
 ### Diagnostics

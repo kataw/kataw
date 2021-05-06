@@ -112,8 +112,6 @@ var a: -z
 
 ```javascript
 
-var a;
-z;
 ```
 
 ### Diagnostics

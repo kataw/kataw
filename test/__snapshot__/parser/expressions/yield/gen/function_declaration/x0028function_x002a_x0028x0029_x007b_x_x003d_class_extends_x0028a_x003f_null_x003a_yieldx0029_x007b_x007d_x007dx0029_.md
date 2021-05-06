@@ -253,7 +253,6 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

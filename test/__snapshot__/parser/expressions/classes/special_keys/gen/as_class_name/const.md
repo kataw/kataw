@@ -106,8 +106,6 @@ class const {}
 
 ```javascript
 
-class {}
-const {};
 ```
 
 ### Diagnostics

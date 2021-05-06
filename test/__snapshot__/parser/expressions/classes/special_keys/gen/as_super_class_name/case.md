@@ -96,9 +96,6 @@ class x extends case {}
 
 ```javascript
 
-class  {}
-{
-}
 ```
 
 ### Diagnostics

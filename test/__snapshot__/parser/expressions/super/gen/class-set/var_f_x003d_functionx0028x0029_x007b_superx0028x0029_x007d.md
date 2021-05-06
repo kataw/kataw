@@ -250,13 +250,6 @@ class C { set x(_) { var f = function() { super(); } } }
 
 ```javascript
 
-class {
-  x(_) {
-    var f = function() {
-      ();
-    };
-  }
-}
 ```
 
 ### Diagnostics

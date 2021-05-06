@@ -133,7 +133,6 @@ async function f(){  (await fail) => x  }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

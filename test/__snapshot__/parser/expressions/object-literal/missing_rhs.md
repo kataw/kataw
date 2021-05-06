@@ -170,9 +170,6 @@ wrap({async [foo""](){}});
 
 ```javascript
 
-wrap({ async [foo]() {}, "\"\"" });
-()  ;
-
 ```
 
 ### Diagnostics

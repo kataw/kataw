@@ -102,8 +102,6 @@ class with {}
 
 ```javascript
 
-class {}
-
 ```
 
 ### Diagnostics

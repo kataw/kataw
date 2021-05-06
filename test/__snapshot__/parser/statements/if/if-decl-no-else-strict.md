@@ -103,7 +103,6 @@ if (true) function f() {  }
 
 ```javascript
 
-if (true) 
 ```
 
 ### Diagnostics

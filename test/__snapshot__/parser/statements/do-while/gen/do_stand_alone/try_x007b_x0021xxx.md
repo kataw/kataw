@@ -120,11 +120,6 @@ do try { !xxx
 
 ```javascript
 
-do try {
-    xxx;
-  } try{
-  }
- ();
 ```
 
 ### Diagnostics

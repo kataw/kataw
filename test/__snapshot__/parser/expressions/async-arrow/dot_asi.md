@@ -79,8 +79,6 @@ async ()=>{}
 
 ```javascript
 
-async () =>  {}
-x;
 ```
 
 ### Diagnostics

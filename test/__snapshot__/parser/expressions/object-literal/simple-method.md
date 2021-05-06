@@ -281,12 +281,6 @@ x = { method(test: string) { } };
 
 ```javascript
 
-x = { method(test) {} };
-x = { method(test) {} };
-string;
-{
-}
-
 ```
 
 ### Diagnostics

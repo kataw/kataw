@@ -77,7 +77,6 @@ import(import(x))
 
 ```javascript
 
-;
 ```
 
 ### Diagnostics

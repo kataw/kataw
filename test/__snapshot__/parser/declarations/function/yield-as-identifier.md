@@ -465,10 +465,6 @@ function *foo() { let x = {yield} }
 
 ```javascript
 
-
-
-
-
 ```
 
 ### Diagnostics

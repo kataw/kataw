@@ -129,10 +129,6 @@ var {x,, y} = obj;
 
 ```javascript
 
-var {
-  x
-}, y;
-obj;
 ```
 
 ### Diagnostics

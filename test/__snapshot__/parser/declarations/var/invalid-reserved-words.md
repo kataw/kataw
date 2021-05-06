@@ -367,15 +367,6 @@
 
 ```javascript
 
-var implements;
-"\"use strict\"";
-var ;
-
-"\"use strict\"";
-var foo;
-;
-"\"use strict\"";
-var foo =  = 1;
 ```
 
 ### Diagnostics

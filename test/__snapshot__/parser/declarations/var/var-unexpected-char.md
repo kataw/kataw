@@ -168,9 +168,6 @@ var 𫠞_ = 12;
 
 ```javascript
 
-var _𖫵 = 11;
-var 𫠝_ = 10;
-var 𫠞_ = 12;
 ```
 
 ### Diagnostics

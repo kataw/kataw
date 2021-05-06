@@ -123,7 +123,9 @@
 
 ```javascript
 
-
+function* a() {
+   2e308;
+}
 ```
 
 ### Diagnostics

@@ -215,8 +215,6 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn, Object;
- = () =>  o1;
 ```
 
 ### Diagnostics

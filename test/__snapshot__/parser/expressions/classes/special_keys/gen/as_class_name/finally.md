@@ -98,10 +98,6 @@ class finally {}
 
 ```javascript
 
-class {}
- {
-} {
-}
 ```
 
 ### Diagnostics

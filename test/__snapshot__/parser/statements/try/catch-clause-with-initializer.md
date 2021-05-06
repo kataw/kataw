@@ -146,13 +146,6 @@ throw {x} catch (x = y) {}
 
 ```javascript
 
-throw  { x };
- {
-} {
-}
-x = y;
-{
-}
 ```
 
 ### Diagnostics

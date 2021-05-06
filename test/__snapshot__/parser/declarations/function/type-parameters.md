@@ -969,37 +969,6 @@ type T = <
 
 ```javascript
 
-    < A /* A comment */ > ;
-const a;
-    <  /* comment */ > ;
-1;
-    <  /* comment */ > ;
-
-()  ;
-interface;
-Foo;
-{
-  (arg);
-}
-any;
-type;
-T = (arg) =>  any;
-    < A // comment
- > ;
-const a;
-    <  > ;
-1;
-    <  > ;
-
-()  ;
-interface;
-Foo;
-{
-  (arg);
-}
-any;
-type;
-T = (arg) =>  any;
 ```
 
 ### Diagnostics

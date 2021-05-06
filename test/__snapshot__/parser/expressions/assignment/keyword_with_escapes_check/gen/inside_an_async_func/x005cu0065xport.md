@@ -99,10 +99,6 @@ async () => {  \u0065xport = x  }
 
 ```javascript
 
-async () =>  {
-
-}
-x;
 ```
 
 ### Diagnostics

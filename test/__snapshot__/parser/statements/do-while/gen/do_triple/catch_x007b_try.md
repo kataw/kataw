@@ -220,16 +220,6 @@ do do do catch { try while while while
 
 ```javascript
 
-do do do  {
-        try {
-        } try{
-        }
-        while () while () ;
-      } {
-      }
-     ();
-   ();
- ();
 ```
 
 ### Diagnostics

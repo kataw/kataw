@@ -88,10 +88,6 @@
 
 ```javascript
 
-();
-
-x;
-
 ```
 
 ### Diagnostics

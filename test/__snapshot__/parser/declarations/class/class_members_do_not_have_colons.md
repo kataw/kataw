@@ -104,10 +104,6 @@ class x {foo: x}
 
 ```javascript
 
-class {
-  foo;
-}
-x;
 ```
 
 ### Diagnostics

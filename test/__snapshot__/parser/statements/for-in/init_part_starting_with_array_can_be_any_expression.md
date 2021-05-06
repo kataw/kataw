@@ -128,7 +128,6 @@ for ([] + b in obj);
 
 ```javascript
 
-for (; ; );
 ```
 
 ### Diagnostics

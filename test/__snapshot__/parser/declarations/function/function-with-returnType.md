@@ -122,10 +122,6 @@ function foo():number{}
 
 ```javascript
 
-
-number;
-{
-}
 ```
 
 ### Diagnostics

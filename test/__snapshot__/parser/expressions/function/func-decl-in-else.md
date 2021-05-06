@@ -122,8 +122,6 @@ else function *f(){}
 
 ```javascript
 
-if (x) x;
-else  
 ```
 
 ### Diagnostics

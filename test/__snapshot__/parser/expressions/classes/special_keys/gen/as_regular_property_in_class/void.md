@@ -100,10 +100,6 @@ class x {void: x}
 
 ```javascript
 
-class {
-  void;
-}
-x;
 ```
 
 ### Diagnostics

@@ -121,7 +121,7 @@ function foo<T,S>() {}
 
 ```javascript
 
-
+function foo() {}
 ```
 
 ### Diagnostics

@@ -75,7 +75,6 @@ import(x,undefined)
 
 ```javascript
 
-, undefined;
 ```
 
 ### Diagnostics

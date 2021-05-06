@@ -115,10 +115,6 @@ async () => {  \u0069nstanceof = x  }
 
 ```javascript
 
-async () =>  {
-     inctanceof ;
-}
-x;
 ```
 
 ### Diagnostics

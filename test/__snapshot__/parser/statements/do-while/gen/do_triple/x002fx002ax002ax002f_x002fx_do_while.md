@@ -106,10 +106,6 @@ do do do /**/ /x do while while while while
 
 ```javascript
 
-do do do/**/  /x do while while while while;
-     ();
-   ();
- ();
 ```
 
 ### Diagnostics

@@ -60,9 +60,6 @@
 
 ```javascript
 
-{
-  /if;
-}
 ```
 
 ### Diagnostics

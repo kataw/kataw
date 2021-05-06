@@ -100,10 +100,6 @@ class x {var: x}
 
 ```javascript
 
-class {
-  var;
-}
-x;
 ```
 
 ### Diagnostics

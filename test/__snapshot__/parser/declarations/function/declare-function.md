@@ -388,17 +388,6 @@ declare function foo(): void
 
 ```javascript
 
-declare;
-
-()  ;
-declare;
-
-number, y;
-string;
-;
-declare;
-
-;
 ```
 
 ### Diagnostics

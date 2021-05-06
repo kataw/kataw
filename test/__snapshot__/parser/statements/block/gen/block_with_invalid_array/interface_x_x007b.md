@@ -143,16 +143,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  interface;
-  x;
-  {
-  }
-}
 ```
 
 ### Diagnostics

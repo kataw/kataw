@@ -100,10 +100,6 @@ class x {const: x}
 
 ```javascript
 
-class {
-  const;
-}
-x;
 ```
 
 ### Diagnostics

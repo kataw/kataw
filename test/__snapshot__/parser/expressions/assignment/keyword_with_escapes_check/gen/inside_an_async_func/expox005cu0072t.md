@@ -99,10 +99,6 @@ async () => {  expo\u0072t = x  }
 
 ```javascript
 
-async () =>  {
-
-}
-x;
 ```
 
 ### Diagnostics

@@ -56,8 +56,6 @@ return
 
 ```javascript
 
-return ;
-/x/;
 ```
 
 ### Diagnostics

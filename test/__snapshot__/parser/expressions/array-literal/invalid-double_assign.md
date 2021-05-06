@@ -128,7 +128,6 @@
 
 ```javascript
 
-[] = n / f >>= v;
 ```
 
 ### Diagnostics

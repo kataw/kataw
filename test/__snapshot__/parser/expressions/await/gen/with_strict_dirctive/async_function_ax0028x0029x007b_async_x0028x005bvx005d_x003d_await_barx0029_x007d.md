@@ -179,7 +179,10 @@
 
 ```javascript
 
+async function a() {
+  async([v] = await bar)
 
+}
 ```
 
 ### Diagnostics

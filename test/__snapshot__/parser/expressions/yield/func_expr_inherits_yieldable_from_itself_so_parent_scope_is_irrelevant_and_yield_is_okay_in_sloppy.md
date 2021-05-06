@@ -140,7 +140,6 @@ function* g() { (function yield() {}) }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

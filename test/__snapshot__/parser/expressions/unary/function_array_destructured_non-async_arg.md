@@ -205,9 +205,6 @@ async function f(){   function fh([+ await x]) { }   }
 
 ```javascript
 
-
-{
-}
 ```
 
 ### Diagnostics

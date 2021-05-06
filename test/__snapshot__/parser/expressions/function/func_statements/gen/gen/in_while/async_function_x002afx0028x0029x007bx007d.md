@@ -110,7 +110,6 @@ while (x) async function *f(){}
 
 ```javascript
 
-while (x) 
 ```
 
 ### Diagnostics

@@ -78,7 +78,6 @@ v\u006fid = x;
 
 ```javascript
 
- = x;
 ```
 
 ### Diagnostics

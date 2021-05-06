@@ -1752,31 +1752,6 @@ function * x() { "use strict";  yield: 34; }
 
 ```javascript
 
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-"\"use strict\"";
-
-
-
-
-
 ```
 
 ### Diagnostics

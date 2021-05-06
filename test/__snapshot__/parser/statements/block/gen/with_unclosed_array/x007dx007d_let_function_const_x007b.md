@@ -170,12 +170,6 @@
 
 ```javascript
 
-{
-  [];
-}
-let;
-
-const {};
 ```
 
 ### Diagnostics

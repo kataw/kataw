@@ -48,7 +48,6 @@ new.meta
 
 ```javascript
 
-;
 ```
 
 ### Diagnostics

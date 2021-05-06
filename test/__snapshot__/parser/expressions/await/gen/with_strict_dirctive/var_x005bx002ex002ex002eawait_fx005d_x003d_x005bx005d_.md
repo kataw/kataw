@@ -141,7 +141,6 @@
 
 ```javascript
 
-var [...await, f] = [];
 ```
 
 ### Diagnostics

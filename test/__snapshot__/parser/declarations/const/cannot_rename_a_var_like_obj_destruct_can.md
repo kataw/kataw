@@ -127,9 +127,6 @@ const [foo:bar] = obj;
 
 ```javascript
 
-const [foo];
-bar;
-obj;
 ```
 
 ### Diagnostics

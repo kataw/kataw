@@ -79,7 +79,6 @@ foo(async[])
 
 ```javascript
 
-foo(async);
 ```
 
 ### Diagnostics

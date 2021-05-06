@@ -122,11 +122,6 @@ for (const ...x in y){}
 
 ```javascript
 
-for (; ; )
-  ;
-x in y;
-{
-}
 ```
 
 ### Diagnostics

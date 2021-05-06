@@ -80,7 +80,6 @@
 
 ```javascript
 
-(x) =>  b;
 ```
 
 ### Diagnostics

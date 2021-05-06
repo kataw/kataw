@@ -82,8 +82,6 @@ class C { \\u0041 }
 
 ```javascript
 
-class {}
-A;
 ```
 
 ### Diagnostics

@@ -110,7 +110,6 @@ x => ok
 
 ```javascript
 
-x =>  ok / x / ;
 ```
 
 ### Diagnostics

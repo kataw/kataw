@@ -93,7 +93,6 @@
 
 ```javascript
 
-async async =>  {};
 ```
 
 ### Diagnostics

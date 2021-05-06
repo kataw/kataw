@@ -139,7 +139,6 @@ for (var r == y in x );
 
 ```javascript
 
-for (; ;  == y in x);
 ```
 
 ### Diagnostics

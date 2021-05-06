@@ -184,11 +184,6 @@ do do do async try while { catch } while while while
 
 ```javascript
 
-do do do async;
-     ();
-  while ({ catch });
-while ();
-while () while () ;
 ```
 
 ### Diagnostics

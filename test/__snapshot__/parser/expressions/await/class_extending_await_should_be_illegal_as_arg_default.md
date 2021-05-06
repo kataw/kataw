@@ -195,7 +195,9 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ```javascript
 
-
+async function f() {
+  (fail = class  {}) =>  fail;
+}
 ```
 
 ### Diagnostics

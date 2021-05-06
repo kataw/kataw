@@ -100,8 +100,6 @@ var a : string
 
 ```javascript
 
-var a;
-string;
 ```
 
 ### Diagnostics

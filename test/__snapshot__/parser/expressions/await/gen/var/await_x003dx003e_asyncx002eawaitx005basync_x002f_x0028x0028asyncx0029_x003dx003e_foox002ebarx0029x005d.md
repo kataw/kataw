@@ -233,10 +233,6 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
 
 ```javascript
 
-var await;
-var f = ();
-async.awaitasync / ((async) =>  foo.bar);
-
 ```
 
 ### Diagnostics

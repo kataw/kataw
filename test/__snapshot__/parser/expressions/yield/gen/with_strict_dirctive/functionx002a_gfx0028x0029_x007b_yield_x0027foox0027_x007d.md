@@ -123,7 +123,9 @@
 
 ```javascript
 
-
+function* gf() {
+   "'foo'";
+}
 ```
 
 ### Diagnostics

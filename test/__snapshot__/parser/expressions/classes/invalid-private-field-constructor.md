@@ -140,12 +140,6 @@ class C { static #constructor }
 
 ```javascript
 
-class {
-  ;
-}
-class {
-  static ;
-}
 ```
 
 ### Diagnostics

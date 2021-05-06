@@ -160,8 +160,6 @@ do throw function (v, h) {
 
 ```javascript
 
-do throw  function(v, h) {};
-while (("\"\""));
 ```
 
 ### Diagnostics

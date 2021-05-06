@@ -85,9 +85,6 @@
 
 ```javascript
 
-switch( = x
-
-
 ```
 
 ### Diagnostics

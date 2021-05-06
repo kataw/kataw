@@ -64,7 +64,6 @@ class package {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

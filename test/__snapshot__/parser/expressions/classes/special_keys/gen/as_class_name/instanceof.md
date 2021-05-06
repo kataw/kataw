@@ -102,8 +102,6 @@ class instanceof {}
 
 ```javascript
 
-class {}
-   inctanceof {};
 ```
 
 ### Diagnostics

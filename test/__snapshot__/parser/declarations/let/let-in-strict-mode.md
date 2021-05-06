@@ -124,9 +124,6 @@
 
 ```javascript
 
-let: 0;
-"'use strict'";
-implements;
 ```
 
 ### Diagnostics

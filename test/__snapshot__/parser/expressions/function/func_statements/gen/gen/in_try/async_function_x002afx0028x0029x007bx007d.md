@@ -155,7 +155,7 @@ try {
 ```javascript
 
 try {
-
+  async function* f() {}
 } catch (e) {
 }
 ```

@@ -171,7 +171,6 @@
 
 ```javascript
 
-[...{ a: function() {} = x } = c];
 ```
 
 ### Diagnostics

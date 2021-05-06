@@ -120,8 +120,6 @@ for (a of b) async function f(){}
 
 ```javascript
 
-for (a of b)
-  
 ```
 
 ### Diagnostics

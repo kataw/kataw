@@ -294,22 +294,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-}
-class {};
-
-try {
-} try{
-}
-
 ```
 
 ### Diagnostics

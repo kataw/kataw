@@ -118,12 +118,6 @@ async () => {  \u0066inally = x  }
 
 ```javascript
 
-async () =>  {
-   {
-  } {
-  }
-  x;
-}
 ```
 
 ### Diagnostics

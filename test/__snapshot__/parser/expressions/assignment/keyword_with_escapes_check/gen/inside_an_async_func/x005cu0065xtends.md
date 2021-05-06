@@ -82,8 +82,6 @@ async () => {  \u0065xtends = x  }
 
 ```javascript
 
-async () =>  {}
-x;
 ```
 
 ### Diagnostics

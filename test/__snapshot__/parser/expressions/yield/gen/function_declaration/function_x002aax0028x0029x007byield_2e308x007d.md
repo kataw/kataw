@@ -162,7 +162,6 @@ function not_gen() { function *a(){yield 2e308} }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

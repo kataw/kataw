@@ -225,19 +225,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-}
-let;
-
-const {};
 ```
 
 ### Diagnostics

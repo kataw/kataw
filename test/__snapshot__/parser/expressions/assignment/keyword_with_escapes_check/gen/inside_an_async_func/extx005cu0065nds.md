@@ -82,8 +82,6 @@ async () => {  ext\u0065nds = x  }
 
 ```javascript
 
-async () =>  {}
-x;
 ```
 
 ### Diagnostics

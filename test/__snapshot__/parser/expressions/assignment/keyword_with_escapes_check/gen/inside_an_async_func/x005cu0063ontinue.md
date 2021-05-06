@@ -102,10 +102,6 @@ async () => {  \u0063ontinue = x  }
 
 ```javascript
 
-async () =>  {
-  continue ;
-}
-x;
 ```
 
 ### Diagnostics

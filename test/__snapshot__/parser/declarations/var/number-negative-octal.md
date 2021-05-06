@@ -120,8 +120,6 @@ var a: -0x7B
 
 ```javascript
 
-var a;
-0x7b;
 ```
 
 ### Diagnostics

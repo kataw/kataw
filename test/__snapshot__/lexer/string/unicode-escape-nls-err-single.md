@@ -49,7 +49,6 @@
 
 ```javascript
 
-"'\u{1F_639}'";
 ```
 
 ### Diagnostics

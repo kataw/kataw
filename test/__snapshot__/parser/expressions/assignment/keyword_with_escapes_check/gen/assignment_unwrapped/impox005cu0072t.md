@@ -62,8 +62,6 @@ impo\u0072t = x;
 
 ```javascript
 
-import ;
-x;
 ```
 
 ### Diagnostics

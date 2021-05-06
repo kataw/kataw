@@ -104,7 +104,6 @@
 
 ```javascript
 
-(function() {} = x);
 ```
 
 ### Diagnostics

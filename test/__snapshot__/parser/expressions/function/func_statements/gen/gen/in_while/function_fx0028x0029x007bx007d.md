@@ -100,7 +100,6 @@ while (x) function f(){}
 
 ```javascript
 
-while (x) 
 ```
 
 ### Diagnostics

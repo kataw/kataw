@@ -112,9 +112,6 @@
 
 ```javascript
 
-(a, foo ? bar : baz);
-{
-}
 ```
 
 ### Diagnostics

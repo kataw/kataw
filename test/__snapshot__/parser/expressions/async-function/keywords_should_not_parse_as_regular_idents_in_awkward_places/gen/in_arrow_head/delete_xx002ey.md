@@ -119,7 +119,6 @@
 
 ```javascript
 
-([x.y]) =>  {};
 ```
 
 ### Diagnostics

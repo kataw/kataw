@@ -50,7 +50,6 @@
 
 ```javascript
 
-"\"\x8\"";
 ```
 
 ### Diagnostics

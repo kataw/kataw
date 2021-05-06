@@ -80,9 +80,6 @@
 
 ```javascript
 
-{
-  let = ;
-}
 ```
 
 ### Diagnostics

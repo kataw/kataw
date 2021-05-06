@@ -175,7 +175,6 @@ function *f(){   for (yield x in y in z);   }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

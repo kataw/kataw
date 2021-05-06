@@ -225,7 +225,6 @@ function * gen() { function not_gen() { function* gf() { var yield; } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

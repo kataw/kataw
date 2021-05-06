@@ -130,9 +130,6 @@ do[ async try while { catch }
 
 ```javascript
 
-do [async];
- ();
-while ({ catch }) ;
 ```
 
 ### Diagnostics

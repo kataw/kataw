@@ -219,11 +219,6 @@ x={ foo(){ return () => function() { super.foo; } }}
 
 ```javascript
 
-x = { foo() {
-    return  () =>  function() {
-        .foo;
-      };
-  } };
 ```
 
 ### Diagnostics

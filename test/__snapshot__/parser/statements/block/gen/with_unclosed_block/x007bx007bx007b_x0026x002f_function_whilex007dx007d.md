@@ -197,23 +197,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  {
-    {
-      {
-           => / function while}};
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

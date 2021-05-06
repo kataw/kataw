@@ -164,8 +164,6 @@ async ({ident: [foo, bar].join("")}) => x
 
 ```javascript
 
-async({ ident: [foo, bar].join("\"\"") })
-x;
 ```
 
 ### Diagnostics

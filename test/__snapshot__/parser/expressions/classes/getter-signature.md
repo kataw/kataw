@@ -144,9 +144,6 @@ class A {
 
 ```javascript
 
-class {
-  prop(arg) {}
-}
 ```
 
 ### Diagnostics

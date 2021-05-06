@@ -149,11 +149,6 @@
 
 ```javascript
 
-{
-}
-let;
-
-const {};
 ```
 
 ### Diagnostics

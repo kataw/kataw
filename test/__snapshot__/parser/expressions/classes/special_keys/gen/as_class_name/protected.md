@@ -64,7 +64,6 @@ class protected {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

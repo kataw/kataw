@@ -125,9 +125,6 @@ g => await g
 
 ```javascript
 
-let f = async;
-g =>  await;
-g;
 ```
 
 ### Diagnostics

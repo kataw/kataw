@@ -133,7 +133,6 @@
 
 ```javascript
 
-({ 3200: fail() = x } = x);
 ```
 
 ### Diagnostics

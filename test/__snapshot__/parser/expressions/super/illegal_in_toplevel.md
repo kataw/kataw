@@ -61,7 +61,6 @@ super.foo;
 
 ```javascript
 
-.foo;
 ```
 
 ### Diagnostics

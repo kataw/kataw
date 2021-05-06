@@ -135,7 +135,6 @@ function not_gen() { (yield) ? yield : yield }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

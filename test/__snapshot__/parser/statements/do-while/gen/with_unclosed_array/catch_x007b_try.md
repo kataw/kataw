@@ -89,8 +89,6 @@ do[ catch { try
 
 ```javascript
 
-do [];
- ({ try });
 ```
 
 ### Diagnostics

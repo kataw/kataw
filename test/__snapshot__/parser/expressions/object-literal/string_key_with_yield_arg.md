@@ -132,7 +132,6 @@ s = {"foo": yield /x/}
 
 ```javascript
 
-s = { "\"foo\"": yield / x /  };
 ```
 
 ### Diagnostics

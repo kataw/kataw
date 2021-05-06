@@ -84,7 +84,6 @@ class x extends let {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

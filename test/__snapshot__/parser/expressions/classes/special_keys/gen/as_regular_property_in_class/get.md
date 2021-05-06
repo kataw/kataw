@@ -100,10 +100,6 @@ class x {get: x}
 
 ```javascript
 
-class {
-  get;
-}
-x;
 ```
 
 ### Diagnostics

@@ -95,7 +95,6 @@ function not_gen() { yield }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -66,8 +66,6 @@ c\u006fntinue = x;
 
 ```javascript
 
-continue ;
-x;
 ```
 
 ### Diagnostics

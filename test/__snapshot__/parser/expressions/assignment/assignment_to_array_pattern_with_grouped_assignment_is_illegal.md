@@ -104,7 +104,6 @@
 
 ```javascript
 
-[(a = 0)] = 1;
 ```
 
 ### Diagnostics

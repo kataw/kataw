@@ -121,7 +121,6 @@ function f(x=super.foo){ }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

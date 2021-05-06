@@ -189,14 +189,6 @@ do( while try this and !foo while
 
 ```javascript
 
-do ();
-while ();
-try {
-} try{
-}
-and;
-foo;
-while () ;
 ```
 
 ### Diagnostics

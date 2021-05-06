@@ -116,8 +116,6 @@ export {}
 
 ```javascript
 
- {};
- / foo / ;
 ```
 
 ### Diagnostics

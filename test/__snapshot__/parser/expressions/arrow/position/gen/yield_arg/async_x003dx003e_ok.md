@@ -144,7 +144,9 @@ function *f() {
 
 ```javascript
 
-
+function* f() {
+   async async =>  ok;
+}
 ```
 
 ### Diagnostics

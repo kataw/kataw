@@ -141,7 +141,6 @@
 
 ```javascript
 
-({ ident: [foo, bar] / x }) =>  x;
 ```
 
 ### Diagnostics

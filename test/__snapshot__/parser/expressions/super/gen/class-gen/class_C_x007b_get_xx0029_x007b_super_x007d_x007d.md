@@ -220,16 +220,6 @@ class C { *method() { class C { get x) { super; } } } }
 
 ```javascript
 
-class {
-  method() {
-    class {
-      x;
-    }
-  }
-}
-{
-  ;
-}
 ```
 
 ### Diagnostics

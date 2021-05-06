@@ -168,10 +168,6 @@ do do do async funcion switch!! while while while
 
 ```javascript
 
-do do do async funcion  ;
-    while ();
-  while ();
-while ();
 ```
 
 ### Diagnostics

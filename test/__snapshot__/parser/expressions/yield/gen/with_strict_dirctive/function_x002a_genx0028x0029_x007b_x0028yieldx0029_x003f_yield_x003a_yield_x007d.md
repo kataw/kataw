@@ -170,7 +170,9 @@
 
 ```javascript
 
-
+function* gen() {
+  ( ) ?   :  ;
+}
 ```
 
 ### Diagnostics

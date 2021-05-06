@@ -143,7 +143,9 @@ function *g() { yield {...(x),}}
 
 ```javascript
 
-
+function* g() {
+   { ...(x) };
+}
 ```
 
 ### Diagnostics

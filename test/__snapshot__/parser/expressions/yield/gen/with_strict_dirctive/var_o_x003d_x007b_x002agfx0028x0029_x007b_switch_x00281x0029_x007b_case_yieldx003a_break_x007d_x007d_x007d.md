@@ -221,7 +221,7 @@
 var o = { * gf() {
     switch(1
       case  :
-
+        break;
 
   } };
 ```

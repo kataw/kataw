@@ -139,7 +139,6 @@
 
 ```javascript
 
-[...{ a: true = x } = c];
 ```
 
 ### Diagnostics

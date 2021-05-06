@@ -137,7 +137,6 @@ function *f(){  ({yield} = x)  }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

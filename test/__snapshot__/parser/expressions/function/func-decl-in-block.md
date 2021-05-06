@@ -242,15 +242,6 @@
 
 ```javascript
 
-{
-
-}
-{
-
-}
-{
-
-}
 ```
 
 ### Diagnostics

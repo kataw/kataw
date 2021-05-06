@@ -97,11 +97,6 @@ throw /**/\n x;
 
 ```javascript
 
-throw  ; //\n x;
-
-throw  ; /**/
-n;
-x;
 ```
 
 ### Diagnostics

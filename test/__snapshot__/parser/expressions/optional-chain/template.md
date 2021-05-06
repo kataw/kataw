@@ -77,7 +77,6 @@ a?.`foo`
 
 ```javascript
 
- = ;
 ```
 
 ### Diagnostics

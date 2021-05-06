@@ -134,15 +134,6 @@
 
 ```javascript
 
-();
-bar;
-{
-}
-();
-bar;
-{
-}
-
 ```
 
 ### Diagnostics

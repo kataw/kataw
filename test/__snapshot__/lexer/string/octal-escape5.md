@@ -55,7 +55,6 @@
 
 ```javascript
 
-"\"\000";
 ```
 
 ### Diagnostics

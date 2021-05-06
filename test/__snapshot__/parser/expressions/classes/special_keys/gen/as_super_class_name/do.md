@@ -116,8 +116,6 @@ class x extends do {}
 
 ```javascript
 
-class  {}
-do {}  ();
 ```
 
 ### Diagnostics

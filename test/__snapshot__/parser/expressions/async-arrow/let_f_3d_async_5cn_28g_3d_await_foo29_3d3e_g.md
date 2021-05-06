@@ -132,7 +132,6 @@ let f = async
 
 ```javascript
 
-let f = async (g = await, foo) =>  g;
 ```
 
 ### Diagnostics

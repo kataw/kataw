@@ -207,14 +207,6 @@
 
 ```javascript
 
-({ method() {
-    class {
-      x;
-    }
-  } });
-{
-  ;
-}
 ```
 
 ### Diagnostics

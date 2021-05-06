@@ -100,10 +100,6 @@ class x {typeof: x}
 
 ```javascript
 
-class {
-  typeof;
-}
-x;
 ```
 
 ### Diagnostics

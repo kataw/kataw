@@ -95,7 +95,6 @@ x / async x => ok
 
 ```javascript
 
-x / async x =>  ok;
 ```
 
 ### Diagnostics

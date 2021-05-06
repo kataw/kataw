@@ -95,10 +95,6 @@
 
 ```javascript
 
-{
-  ();
-  class {}
-}
 ```
 
 ### Diagnostics

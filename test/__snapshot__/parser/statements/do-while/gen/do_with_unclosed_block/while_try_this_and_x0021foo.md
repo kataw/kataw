@@ -185,14 +185,6 @@ do {} while (x) { while try this and !foo
 
 ```javascript
 
-do {} while (x);
-{
-  while () try {
-    } try{
-    }
-  and;
-  foo;
-}
 ```
 
 ### Diagnostics

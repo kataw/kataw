@@ -180,11 +180,6 @@ async function f(){
 
 ```javascript
 
-
-c;
-of;
-x;
-
 ```
 
 ### Diagnostics

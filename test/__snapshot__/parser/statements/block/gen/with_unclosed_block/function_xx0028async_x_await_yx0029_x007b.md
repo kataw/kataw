@@ -243,17 +243,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-
-}
 ```
 
 ### Diagnostics

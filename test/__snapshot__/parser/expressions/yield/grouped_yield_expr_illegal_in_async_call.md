@@ -92,7 +92,6 @@ async (x = (yield x))
 
 ```javascript
 
-async(x = (), x)
 ```
 
 ### Diagnostics

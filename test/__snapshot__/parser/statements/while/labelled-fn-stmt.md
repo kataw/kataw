@@ -171,7 +171,6 @@ while (false) label1: label2: function f() {}
 
 ```javascript
 
-while (false) label1: label2: 
 ```
 
 ### Diagnostics

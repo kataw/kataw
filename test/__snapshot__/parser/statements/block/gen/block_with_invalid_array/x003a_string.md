@@ -116,13 +116,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-}
-string;
 ```
 
 ### Diagnostics

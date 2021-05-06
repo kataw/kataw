@@ -148,7 +148,11 @@ function * gen() { function not_gen() { yield }}
 
 ```javascript
 
-
+function* gen() {
+  function not_gen() {
+    yield;
+  }
+}
 ```
 
 ### Diagnostics

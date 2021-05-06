@@ -138,8 +138,6 @@ const q
 
 ```javascript
 
-const q;
- / d / ;
 ```
 
 ### Diagnostics

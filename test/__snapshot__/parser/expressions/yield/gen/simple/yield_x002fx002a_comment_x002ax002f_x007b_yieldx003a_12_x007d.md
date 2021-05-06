@@ -105,10 +105,6 @@ yield /* comment */ { yield: 12 }
 
 ```javascript
 
-yield; /* comment */
-{
-  yield: 12;
-}
 ```
 
 ### Diagnostics

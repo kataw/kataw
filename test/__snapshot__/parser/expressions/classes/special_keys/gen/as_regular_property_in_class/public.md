@@ -100,10 +100,6 @@ class x {public: x}
 
 ```javascript
 
-class {
-  public;
-}
-x;
 ```
 
 ### Diagnostics

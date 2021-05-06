@@ -196,7 +196,6 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

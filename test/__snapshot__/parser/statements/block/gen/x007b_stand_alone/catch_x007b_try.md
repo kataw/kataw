@@ -123,14 +123,6 @@
 
 ```javascript
 
-{
-   {
-    try {
-    } try{
-    }
-  } {
-  }
-}
 ```
 
 ### Diagnostics

@@ -169,9 +169,6 @@
 
 ```javascript
 
-{
-  [abstract, class {}, function() {}, ];
-}
 ```
 
 ### Diagnostics

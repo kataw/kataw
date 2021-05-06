@@ -43,7 +43,6 @@
 
 ```javascript
 
-"\"\u{1234";
 ```
 
 ### Diagnostics

@@ -43,7 +43,6 @@
 
 ```javascript
 
-"\"\u{0fail}\"";
 ```
 
 ### Diagnostics

@@ -184,15 +184,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-  if (I) switch(
-
-  while (I) sleep;
-}
 ```
 
 ### Diagnostics

@@ -166,8 +166,6 @@ async function f(){ await foo\n/foo/g }
 
 ```javascript
 
-
-n / foo / g;
 ```
 
 ### Diagnostics

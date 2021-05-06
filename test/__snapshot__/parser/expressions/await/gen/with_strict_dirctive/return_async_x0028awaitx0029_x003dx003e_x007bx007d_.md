@@ -98,7 +98,6 @@
 
 ```javascript
 
-return  async (await) =>  {};
 ```
 
 ### Diagnostics

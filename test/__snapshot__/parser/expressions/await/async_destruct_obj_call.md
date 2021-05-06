@@ -254,7 +254,10 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
 
 ```javascript
 
+async function a() {
+  async({ g } = [{ m: 5 + t(await bar) }])
 
+}
 ```
 
 ### Diagnostics

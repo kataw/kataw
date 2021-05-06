@@ -102,7 +102,6 @@ x={...new}
 
 ```javascript
 
-x = { ... () };
 ```
 
 ### Diagnostics

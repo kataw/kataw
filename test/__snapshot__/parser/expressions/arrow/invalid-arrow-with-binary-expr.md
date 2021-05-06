@@ -82,9 +82,6 @@
 
 ```javascript
 
-(localVar |= defaultValue);
-{
-}
 ```
 
 ### Diagnostics

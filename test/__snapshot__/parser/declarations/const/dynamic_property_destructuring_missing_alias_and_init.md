@@ -128,9 +128,6 @@ const {[x]};
 
 ```javascript
 
-const {
-  [x]:
-};
 ```
 
 ### Diagnostics

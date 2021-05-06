@@ -205,15 +205,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-}
-let;
-
-const {};
 ```
 
 ### Diagnostics

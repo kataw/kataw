@@ -150,7 +150,9 @@
 
 ```javascript
 
-
+function* g() {
+  x ?   : y;
+}
 ```
 
 ### Diagnostics

@@ -66,9 +66,6 @@
 
 ```javascript
 
-{
-  (/if);
-}
 ```
 
 ### Diagnostics

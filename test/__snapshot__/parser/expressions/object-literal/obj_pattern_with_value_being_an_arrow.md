@@ -143,7 +143,6 @@
 
 ```javascript
 
-({ a: b =>  [] } = [2]);
 ```
 
 ### Diagnostics

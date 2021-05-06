@@ -202,7 +202,9 @@ async function x() {
 
 ```javascript
 
-
+async function x() {
+  await  = ;
+}
 ```
 
 ### Diagnostics

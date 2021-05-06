@@ -125,7 +125,7 @@ while(y)
 
 ```javascript
 
-do if (8)
+do if (8) function s() {}
 while (y);
 ```
 

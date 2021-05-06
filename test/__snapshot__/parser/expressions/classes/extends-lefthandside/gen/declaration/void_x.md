@@ -96,7 +96,6 @@ class A extends void x {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

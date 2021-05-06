@@ -107,8 +107,6 @@ class var {}
 
 ```javascript
 
-class {}
-var {};
 ```
 
 ### Diagnostics

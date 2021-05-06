@@ -115,10 +115,6 @@ class x extends continue {}
 
 ```javascript
 
-class  {}
-continue ;
-{
-}
 ```
 
 ### Diagnostics

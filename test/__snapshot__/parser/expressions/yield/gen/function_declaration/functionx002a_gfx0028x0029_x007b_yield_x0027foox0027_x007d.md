@@ -162,7 +162,6 @@ function not_gen() { function* gf() { yield 'foo' } }}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

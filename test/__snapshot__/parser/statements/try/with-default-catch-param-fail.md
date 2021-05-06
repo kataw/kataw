@@ -147,12 +147,6 @@ try { } catch ([a] = []) { }
 
 ```javascript
 
-try {
-} catch ([a]) {
-}
-[];
-{
-}
 ```
 
 ### Diagnostics

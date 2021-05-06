@@ -174,12 +174,6 @@
 
 ```javascript
 
-{
-  abstract;
-  class {}
-
-  ;
-}
 ```
 
 ### Diagnostics

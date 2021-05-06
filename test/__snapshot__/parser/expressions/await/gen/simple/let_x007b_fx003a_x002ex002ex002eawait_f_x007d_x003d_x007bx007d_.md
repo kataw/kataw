@@ -142,10 +142,6 @@ let { f: ...await f } = {};
 
 ```javascript
 
-let {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

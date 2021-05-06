@@ -111,8 +111,6 @@ class x extends export {}
 
 ```javascript
 
-class  {}
- {};
 ```
 
 ### Diagnostics

@@ -112,9 +112,6 @@ do async ()
 
 ```javascript
 
-do async () =>  x
- ();
-while (y) ;
 ```
 
 ### Diagnostics

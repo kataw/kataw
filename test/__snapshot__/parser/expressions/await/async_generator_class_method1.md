@@ -289,7 +289,11 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
 
 ```javascript
 
-
+async function g() {
+  class {
+    f(foo = [h, { m: t(await bar) }]) {}
+  }
+}
 ```
 
 ### Diagnostics

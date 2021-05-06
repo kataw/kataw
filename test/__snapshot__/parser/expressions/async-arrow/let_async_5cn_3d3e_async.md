@@ -81,8 +81,6 @@ let async
 
 ```javascript
 
-let async;
-async;
 ```
 
 ### Diagnostics

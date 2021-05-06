@@ -98,8 +98,6 @@
 
 ```javascript
 
-await.bc;
-async;
 ```
 
 ### Diagnostics

@@ -125,7 +125,6 @@
 
 ```javascript
 
-[x, ...y, z] = obj;
 ```
 
 ### Diagnostics

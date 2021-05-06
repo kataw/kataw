@@ -138,8 +138,6 @@ for ([a.b]++ of c) d
 
 ```javascript
 
-for ([a.b] of c)
-  d;
 ```
 
 ### Diagnostics

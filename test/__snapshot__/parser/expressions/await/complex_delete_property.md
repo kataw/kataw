@@ -217,10 +217,6 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 
 ```javascript
 
-
-{
-}
-
 ```
 
 ### Diagnostics

@@ -206,13 +206,6 @@
 
 ```javascript
 
-eval;
-"'use strict'";
-eval = 0;
-"'use strict'";
-eval += 0;
-"'use strict'";
-arguments;
 ```
 
 ### Diagnostics

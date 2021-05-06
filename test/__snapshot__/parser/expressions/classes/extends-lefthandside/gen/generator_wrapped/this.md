@@ -137,7 +137,9 @@ function *P(){
 
 ```javascript
 
-
+function* P() {
+  class  {}
+}
 ```
 
 ### Diagnostics

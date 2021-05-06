@@ -143,8 +143,6 @@ let[x] in x;
 
 ```javascript
 
-let [x];
- in x;
 ```
 
 ### Diagnostics

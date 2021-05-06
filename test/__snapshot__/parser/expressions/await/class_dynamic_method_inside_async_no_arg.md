@@ -199,7 +199,11 @@ async function f() {
 
 ```javascript
 
-
+async function f() {
+  class {
+    [x](a = await) {}
+  }
+}
 ```
 
 ### Diagnostics

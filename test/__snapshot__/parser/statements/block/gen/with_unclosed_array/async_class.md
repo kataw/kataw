@@ -99,9 +99,6 @@
 
 ```javascript
 
-{
-  [async, class {}];
-}
 ```
 
 ### Diagnostics

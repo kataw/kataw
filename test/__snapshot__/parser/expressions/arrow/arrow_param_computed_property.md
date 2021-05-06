@@ -187,10 +187,6 @@
 
 ```javascript
 
-((a) =>  x);
-(x, (a) =>  x);
-(ab);
-x;
 ```
 
 ### Diagnostics

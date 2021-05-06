@@ -154,11 +154,6 @@ unction* gf() { var a = yield 'foo'; }
 
 ```javascript
 
-unction * gf();
-{
-  var a = yield;
-  "'foo'";
-}
 ```
 
 ### Diagnostics

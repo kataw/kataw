@@ -127,7 +127,6 @@ function call(foo=await bar=10){}
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -117,7 +117,6 @@ var g = function* yield() {};
 
 ```javascript
 
-var g = function* yield() {};
 ```
 
 ### Diagnostics

@@ -211,7 +211,13 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 ```javascript
 
-
+function* foo() {
+   2;
+  if (true) {
+     3;
+  }
+   4;
+}
 ```
 
 ### Diagnostics

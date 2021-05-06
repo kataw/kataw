@@ -265,10 +265,6 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
 
 ```javascript
 
-var await;
-var f = (async function() {
-    var asyncArrow = async async(...) =>  {};
-  });
 ```
 
 ### Diagnostics

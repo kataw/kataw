@@ -90,7 +90,6 @@ a?.fn`hello`;
 
 ```javascript
 
- = ;
 ```
 
 ### Diagnostics

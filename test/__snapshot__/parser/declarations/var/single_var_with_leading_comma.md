@@ -112,8 +112,6 @@ var {,x} = obj;
 
 ```javascript
 
-var {}, x;
-obj;
 ```
 
 ### Diagnostics

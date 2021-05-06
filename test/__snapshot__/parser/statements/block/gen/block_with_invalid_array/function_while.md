@@ -180,14 +180,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-
-  while () ;
-}
 ```
 
 ### Diagnostics

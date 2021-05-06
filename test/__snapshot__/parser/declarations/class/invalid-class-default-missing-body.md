@@ -59,7 +59,6 @@ class default
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

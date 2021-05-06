@@ -220,11 +220,6 @@ function * gen() { function not_gen() { yield /* comment */\n {yield: 42} }}
 
 ```javascript
 
- /* comment */
-n;
-{
-  yield: 42;
-}
 ```
 
 ### Diagnostics

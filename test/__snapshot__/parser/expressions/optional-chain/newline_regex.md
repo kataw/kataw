@@ -116,7 +116,6 @@ a?.b
 
 ```javascript
 
- =  / c / ;
 ```
 
 ### Diagnostics

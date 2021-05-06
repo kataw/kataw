@@ -127,7 +127,6 @@ function *f(){
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

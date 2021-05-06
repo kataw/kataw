@@ -135,7 +135,6 @@
 
 ```javascript
 
-[{ a = 0 }.x] = [];
 ```
 
 ### Diagnostics

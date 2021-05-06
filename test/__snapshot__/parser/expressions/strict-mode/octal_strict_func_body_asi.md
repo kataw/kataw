@@ -103,7 +103,9 @@ function f() {
 
 ```javascript
 
-
+function f() {
+  0777;
+}
 ```
 
 ### Diagnostics

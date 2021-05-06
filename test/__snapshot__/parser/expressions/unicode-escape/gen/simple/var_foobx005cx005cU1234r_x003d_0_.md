@@ -105,8 +105,6 @@ var foob\\U1234r = 0;
 
 ```javascript
 
-var foob;
-U1234r = 0;
 ```
 
 ### Diagnostics

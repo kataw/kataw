@@ -792,30 +792,6 @@
 
 ```javascript
 
-(class {
-    constructor() {}
-  });
-(class {
-    constructor(_) {}
-  });
-(class {
-    "'constructor'"() {}
-  });
-(class {
-    c;
-  });
-onstructor();
-{
-}
-(class {
-    "'c\\u006fnstructor'"() {}
-  });
-(class {
-    "'c\\u006fnstructor'"(_) {}
-  });
-(class {
-    "'c\\u006fnstructor'"() {}
-  });
 ```
 
 ### Diagnostics

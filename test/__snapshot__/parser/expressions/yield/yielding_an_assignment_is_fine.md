@@ -149,7 +149,9 @@ function* g(x) { yield x = 3; }
 
 ```javascript
 
-
+function* g(x) {
+   x = 3;
+}
 ```
 
 ### Diagnostics

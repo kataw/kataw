@@ -161,7 +161,9 @@ function a<string>(x: string): string {
 
 ```javascript
 
-
+function a(x) {
+  return  x;
+}
 ```
 
 ### Diagnostics

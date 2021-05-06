@@ -915,7 +915,13 @@ function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
   printLeadingComments(printer, pos);
 }
 
-export function printKeyword(t: SyntaxToken<TokenSyntaxKind>, printer: Printer, startPos: number, parentNode: any, separator: boolean) {
+export function printKeyword(
+  t: SyntaxToken<TokenSyntaxKind>,
+  printer: Printer,
+  startPos: number,
+  parentNode: any,
+  separator: boolean
+) {
   if (!t) return '';
   const text = tokenToString(t);
   if (parentNode.start !== startPos) {

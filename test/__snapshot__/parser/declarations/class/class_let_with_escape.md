@@ -79,7 +79,6 @@ class l\u0065t {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

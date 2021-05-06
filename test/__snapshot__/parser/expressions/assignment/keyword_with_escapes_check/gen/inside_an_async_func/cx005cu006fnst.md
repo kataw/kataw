@@ -102,10 +102,6 @@ async () => {  c\u006fnst = x  }
 
 ```javascript
 
-async () =>  {
-  const ;
-}
-x;
 ```
 
 ### Diagnostics

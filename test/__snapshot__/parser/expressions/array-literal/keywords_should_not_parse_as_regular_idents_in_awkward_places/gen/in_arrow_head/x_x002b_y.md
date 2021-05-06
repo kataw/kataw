@@ -113,7 +113,6 @@
 
 ```javascript
 
-([x + y]) =>  {};
 ```
 
 ### Diagnostics

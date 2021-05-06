@@ -144,7 +144,9 @@ function* bar() { yield class {} }
 
 ```javascript
 
-
+function* bar() {
+   class {};
+}
 ```
 
 ### Diagnostics

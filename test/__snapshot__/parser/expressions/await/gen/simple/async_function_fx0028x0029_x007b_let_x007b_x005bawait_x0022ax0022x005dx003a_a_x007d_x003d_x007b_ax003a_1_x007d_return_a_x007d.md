@@ -242,7 +242,12 @@ async function f() {
 
 ```javascript
 
-
+async function f() {
+  let {
+    [await "\"a\""]:
+  } = { a: 1 };
+  return  a;
+}
 ```
 
 ### Diagnostics

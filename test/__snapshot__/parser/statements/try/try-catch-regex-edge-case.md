@@ -82,10 +82,6 @@ try/catch/finally/{
 
 ```javascript
 
-try {
-} try{
-}
-/{;
 ```
 
 ### Diagnostics

@@ -99,10 +99,6 @@ do {} while (x) { /**/ /x do while
 
 ```javascript
 
-do {} while (x);
-{
-  /x do while;
-}
 ```
 
 ### Diagnostics

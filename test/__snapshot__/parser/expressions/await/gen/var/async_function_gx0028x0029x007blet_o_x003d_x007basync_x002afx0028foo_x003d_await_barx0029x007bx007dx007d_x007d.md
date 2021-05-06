@@ -361,7 +361,9 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
 
 var await;
 var f = (async function() {
-
+    async function g() {
+      let o = { * async f(foo = await bar) {} };
+    }
   });
 ```
 

@@ -114,7 +114,6 @@ function* f() { yield*; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

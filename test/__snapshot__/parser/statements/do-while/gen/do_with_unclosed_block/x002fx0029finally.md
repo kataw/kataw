@@ -99,10 +99,6 @@ do {} while (x) { /)finally
 
 ```javascript
 
-do {} while (x);
-{
-  /)finally;
-}
 ```
 
 ### Diagnostics

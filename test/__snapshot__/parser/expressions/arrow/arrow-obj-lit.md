@@ -145,10 +145,6 @@
 
 ```javascript
 
-({ x = y }) =>  z;
-();
-string;
-z;
 ```
 
 ### Diagnostics

@@ -138,7 +138,9 @@ async function x() {}
 
 ```javascript
 
-
+async function x() {
+  async function x() {}
+}
 ```
 
 ### Diagnostics

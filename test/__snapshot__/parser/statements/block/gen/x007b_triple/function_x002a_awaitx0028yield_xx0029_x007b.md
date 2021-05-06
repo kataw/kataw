@@ -183,15 +183,6 @@
 
 ```javascript
 
-{
-  {
-    {
-
-      {
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

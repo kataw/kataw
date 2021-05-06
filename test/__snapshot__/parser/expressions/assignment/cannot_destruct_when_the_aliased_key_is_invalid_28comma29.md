@@ -121,7 +121,6 @@ x, {a: 1} = [];
 
 ```javascript
 
-x, { a: 1 } = [];
 ```
 
 ### Diagnostics

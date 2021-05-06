@@ -1997,57 +1997,6 @@ new import(x);
 
 ```javascript
 
-import ;
-;
-;
-import ;
-;
-;
-;
-import ;
-["'x'"];
-import ;
-x;
-, , ;
-;
-, ;
-, ;
-, y, , ;
-, y, z;
-, y;
-, y, ;
-, y();
-import ;
-[];
-import ;
-[];
-import ;
-import ;
-[x];
- {}  ;
-  x }  ;
-;
-y;
-, ;
-, ;
-, y;
-;
-[, { import }];
-import ;
-;
-import ;
-1;
-;
-, , ;
-;
-, ;
-, ;
-, y, , ;
-, y, z;
-, y;
-, y, ;
-, y();
- ();
 ```
 
 ### Diagnostics

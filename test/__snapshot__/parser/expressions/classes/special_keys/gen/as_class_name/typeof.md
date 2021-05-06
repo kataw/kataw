@@ -95,8 +95,6 @@ class typeof {}
 
 ```javascript
 
-class {}
-{};
 ```
 
 ### Diagnostics

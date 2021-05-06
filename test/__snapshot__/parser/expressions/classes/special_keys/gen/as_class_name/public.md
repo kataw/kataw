@@ -64,7 +64,6 @@ class public {}
 
 ```javascript
 
-class {}
 ```
 
 ### Diagnostics

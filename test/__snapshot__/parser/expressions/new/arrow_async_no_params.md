@@ -77,8 +77,6 @@ new asc() => x
 
 ```javascript
 
- asc();
-x;
 ```
 
 ### Diagnostics

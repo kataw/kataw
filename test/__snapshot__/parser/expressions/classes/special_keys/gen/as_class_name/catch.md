@@ -98,10 +98,6 @@ class catch {}
 
 ```javascript
 
-class {}
- {
-} {
-}
 ```
 
 ### Diagnostics

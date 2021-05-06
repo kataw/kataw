@@ -179,7 +179,11 @@ function* foo() { var x = 10; yield 1; return x; }
 
 ```javascript
 
-
+function* foo() {
+  var x = 10;
+   1;
+  return  x;
+}
 ```
 
 ### Diagnostics

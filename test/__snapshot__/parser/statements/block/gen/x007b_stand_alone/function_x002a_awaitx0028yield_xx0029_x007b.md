@@ -155,11 +155,6 @@
 
 ```javascript
 
-{
-
-  {
-  }
-}
 ```
 
 ### Diagnostics

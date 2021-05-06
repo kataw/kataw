@@ -173,11 +173,6 @@ class C { *method() { y = super } }
 
 ```javascript
 
-class {
-  method() {
-    y = ;
-  }
-}
 ```
 
 ### Diagnostics

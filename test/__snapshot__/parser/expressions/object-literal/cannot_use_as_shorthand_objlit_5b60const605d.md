@@ -64,7 +64,6 @@
 
 ```javascript
 
-({ const });
 ```
 
 ### Diagnostics

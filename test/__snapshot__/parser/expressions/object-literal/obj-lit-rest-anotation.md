@@ -120,9 +120,6 @@
 
 ```javascript
 
-();
-    < number > ;
-rest;
 ```
 
 ### Diagnostics

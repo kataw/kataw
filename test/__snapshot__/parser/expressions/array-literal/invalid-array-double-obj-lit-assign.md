@@ -171,7 +171,6 @@
 
 ```javascript
 
-[{ a = 0 }, { b = 0 }, 0] = 0;
 ```
 
 ### Diagnostics

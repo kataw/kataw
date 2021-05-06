@@ -93,7 +93,6 @@ import(x,import(y))
 
 ```javascript
 
-, ;
 ```
 
 ### Diagnostics

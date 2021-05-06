@@ -100,10 +100,6 @@ class x {if: x}
 
 ```javascript
 
-class {
-  if;
-}
-x;
 ```
 
 ### Diagnostics

@@ -96,9 +96,6 @@ class switch {}
 
 ```javascript
 
-class {}
-switch({}
- 
 ```
 
 ### Diagnostics

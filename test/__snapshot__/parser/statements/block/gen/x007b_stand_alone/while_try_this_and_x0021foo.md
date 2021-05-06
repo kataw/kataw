@@ -146,13 +146,6 @@
 
 ```javascript
 
-{
-  while () try {
-    } try{
-    }
-  and;
-  foo;
-}
 ```
 
 ### Diagnostics

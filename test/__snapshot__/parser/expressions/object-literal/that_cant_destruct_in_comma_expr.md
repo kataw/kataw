@@ -137,7 +137,6 @@ x, {x: foo + y, bar} = doo
 
 ```javascript
 
-x, { x: foo + y, bar } = doo;
 ```
 
 ### Diagnostics

@@ -95,8 +95,6 @@ for (;;) function f(){}
 
 ```javascript
 
-for (;;)
-  
 ```
 
 ### Diagnostics

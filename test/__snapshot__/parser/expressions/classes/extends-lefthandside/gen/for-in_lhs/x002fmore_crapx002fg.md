@@ -72,7 +72,6 @@ for (/more crap/g in x) ;
 
 ```javascript
 
-for ( in x);
 ```
 
 ### Diagnostics

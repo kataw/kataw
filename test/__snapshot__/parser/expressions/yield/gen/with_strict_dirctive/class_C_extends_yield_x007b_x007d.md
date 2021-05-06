@@ -93,7 +93,6 @@
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

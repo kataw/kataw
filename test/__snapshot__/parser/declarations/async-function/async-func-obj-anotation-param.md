@@ -169,7 +169,9 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
-
+async function foo({
+  x
+}) {}
 ```
 
 ### Diagnostics

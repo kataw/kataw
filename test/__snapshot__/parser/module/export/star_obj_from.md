@@ -122,9 +122,6 @@ export *, {bar} from 'bar';
 
 ```javascript
 
- * from ;
-from;
-"'bar'";
 ```
 
 ### Diagnostics

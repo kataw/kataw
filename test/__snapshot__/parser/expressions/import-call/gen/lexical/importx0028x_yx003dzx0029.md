@@ -95,7 +95,6 @@ import(x,y=z)
 
 ```javascript
 
-, y = z;
 ```
 
 ### Diagnostics

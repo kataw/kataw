@@ -87,7 +87,6 @@
 
 ```javascript
 
-(a = /i/) = /i/;
 ```
 
 ### Diagnostics

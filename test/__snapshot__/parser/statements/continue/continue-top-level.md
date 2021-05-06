@@ -42,7 +42,6 @@ continue
 
 ```javascript
 
-continue;
 ```
 
 ### Diagnostics

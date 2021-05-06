@@ -105,8 +105,6 @@ for (;;) async function *f(){}
 
 ```javascript
 
-for (;;)
-  
 ```
 
 ### Diagnostics

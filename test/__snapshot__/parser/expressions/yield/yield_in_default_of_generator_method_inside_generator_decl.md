@@ -195,7 +195,9 @@ function *f(){  ({*g(x=yield){}})  }
 
 ```javascript
 
-
+function* f() {
+  ({ * g(x =  ) {} });
+}
 ```
 
 ### Diagnostics

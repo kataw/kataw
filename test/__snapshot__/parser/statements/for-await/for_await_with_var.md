@@ -152,7 +152,10 @@ async function f() { for await (var x of y) {} }
 
 ```javascript
 
-
+async function f() {
+  for await ( of y) {
+  }
+}
 ```
 
 ### Diagnostics

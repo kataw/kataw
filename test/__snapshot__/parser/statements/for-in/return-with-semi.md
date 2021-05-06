@@ -61,7 +61,6 @@ return;
 
 ```javascript
 
-return ;
 ```
 
 ### Diagnostics

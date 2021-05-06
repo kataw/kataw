@@ -103,10 +103,6 @@ class try {}
 
 ```javascript
 
-class {}
-try {
-} try{
-}
 ```
 
 ### Diagnostics

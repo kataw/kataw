@@ -129,7 +129,6 @@ function *foo() { (x = \u0079ield) }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

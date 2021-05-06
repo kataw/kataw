@@ -180,10 +180,6 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
 
 ```javascript
 
-var await;
-var f = ();
-n / foo / g;
-
 ```
 
 ### Diagnostics

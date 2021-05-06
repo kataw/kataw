@@ -138,9 +138,6 @@ do( async try while { catch } while
 
 ```javascript
 
-do ();
- ();
-while ({ catch }) while () ;
 ```
 
 ### Diagnostics

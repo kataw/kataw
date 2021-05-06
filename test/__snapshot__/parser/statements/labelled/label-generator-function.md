@@ -111,7 +111,6 @@ label: function * x (){}
 
 ```javascript
 
-label: 
 ```
 
 ### Diagnostics

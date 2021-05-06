@@ -155,11 +155,6 @@ class C { constructor() { new super(); } }
 
 ```javascript
 
-class {
-  constructor() {
-     ();
-  }
-}
 ```
 
 ### Diagnostics

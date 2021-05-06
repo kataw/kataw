@@ -118,10 +118,6 @@ class x extends catch {}
 
 ```javascript
 
-class  {}
- {
-} {
-}
 ```
 
 ### Diagnostics

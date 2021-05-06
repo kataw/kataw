@@ -115,10 +115,6 @@ class x extends break {}
 
 ```javascript
 
-class  {}
-
-{
-}
 ```
 
 ### Diagnostics

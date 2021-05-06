@@ -144,8 +144,6 @@ async function wrap() { async function await() { } };
 
 ```javascript
 
-
-
 ```
 
 ### Diagnostics

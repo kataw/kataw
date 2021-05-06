@@ -104,11 +104,6 @@ x = return => {} ;
 
 ```javascript
 
-x = ;
-return  ;
-{
-}
-
 ```
 
 ### Diagnostics

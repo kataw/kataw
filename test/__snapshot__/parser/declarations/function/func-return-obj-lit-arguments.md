@@ -112,7 +112,9 @@ function foo() { return {arguments} }
 
 ```javascript
 
-
+function foo() {
+  return  { arguments };
+}
 ```
 
 ### Diagnostics

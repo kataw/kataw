@@ -176,16 +176,6 @@ do {} while (x) { async try while { catch }
 
 ```javascript
 
-do {} while (x);
-{
-  async;
-  try {
-  } try{
-     {
-    } {
-    }
-  }
-}
 ```
 
 ### Diagnostics

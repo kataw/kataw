@@ -84,7 +84,6 @@ class C extends yield { }
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

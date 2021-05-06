@@ -125,9 +125,6 @@ const {a:=c} = z;
 
 ```javascript
 
-const {
-  a:
-} = z;
 ```
 
 ### Diagnostics

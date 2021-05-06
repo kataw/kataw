@@ -114,8 +114,6 @@ for (a in b) function f(){}
 
 ```javascript
 
-for ( in b)
-  
 ```
 
 ### Diagnostics

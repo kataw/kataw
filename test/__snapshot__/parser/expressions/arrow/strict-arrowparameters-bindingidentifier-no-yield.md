@@ -106,7 +106,6 @@
 
 ```javascript
 
-var x = yield =>  1;
 ```
 
 ### Diagnostics

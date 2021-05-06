@@ -190,20 +190,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  try {
-    xxx;
-  } try{
-  }
-}
 ```
 
 ### Diagnostics

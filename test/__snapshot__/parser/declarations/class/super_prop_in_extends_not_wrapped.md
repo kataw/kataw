@@ -106,7 +106,6 @@ class x extends super.foo {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

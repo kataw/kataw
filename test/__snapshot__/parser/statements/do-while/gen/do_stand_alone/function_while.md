@@ -104,8 +104,6 @@ do function while
 
 ```javascript
 
-do
-while ();
 ```
 
 ### Diagnostics

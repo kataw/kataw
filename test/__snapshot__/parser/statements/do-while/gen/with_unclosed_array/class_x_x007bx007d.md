@@ -104,8 +104,6 @@ do[ class x {}
 
 ```javascript
 
-do [class {}];
- ();
 ```
 
 ### Diagnostics

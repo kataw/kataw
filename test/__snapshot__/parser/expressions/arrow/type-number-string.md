@@ -77,8 +77,6 @@ type number = string;
 
 ```javascript
 
-type;
-number = string;
 ```
 
 ### Diagnostics

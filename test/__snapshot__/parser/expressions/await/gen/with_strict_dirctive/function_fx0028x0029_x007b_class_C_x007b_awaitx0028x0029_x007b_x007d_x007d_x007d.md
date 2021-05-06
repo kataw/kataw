@@ -173,7 +173,11 @@
 
 ```javascript
 
-
+function f() {
+  class {
+    await() {}
+  }
+}
 ```
 
 ### Diagnostics

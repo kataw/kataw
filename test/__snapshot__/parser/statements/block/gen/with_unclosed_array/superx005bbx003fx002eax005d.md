@@ -127,9 +127,6 @@
 
 ```javascript
 
-{
-  [ = ];
-}
 ```
 
 ### Diagnostics

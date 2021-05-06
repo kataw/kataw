@@ -96,7 +96,6 @@ foo?.bar = x
 
 ```javascript
 
- =  = x;
 ```
 
 ### Diagnostics

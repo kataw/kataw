@@ -140,7 +140,7 @@ function f(a = async async => {}) {}
 
 ```javascript
 
-
+function f(a = async async =>  {}) {}
 ```
 
 ### Diagnostics

@@ -100,10 +100,6 @@ class x {finally: x}
 
 ```javascript
 
-class {
-  finally;
-}
-x;
 ```
 
 ### Diagnostics

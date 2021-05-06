@@ -170,10 +170,6 @@ function call(foo= 5 + (await bar())){}
 
 ```javascript
 
-
-;
-{
-}
 ```
 
 ### Diagnostics

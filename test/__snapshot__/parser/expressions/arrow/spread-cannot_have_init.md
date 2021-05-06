@@ -159,8 +159,6 @@
 
 ```javascript
 
-(...x = y) =>  x;
-(...x = 10) =>  {};
 ```
 
 ### Diagnostics

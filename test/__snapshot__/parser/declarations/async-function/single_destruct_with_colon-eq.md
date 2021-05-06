@@ -125,9 +125,6 @@ let {a:=c} = z;
 
 ```javascript
 
-let {
-  a:
-} = z;
 ```
 
 ### Diagnostics

@@ -113,8 +113,6 @@ var a : [] = [];
 
 ```javascript
 
-var a;
-[] = [];
 ```
 
 ### Diagnostics

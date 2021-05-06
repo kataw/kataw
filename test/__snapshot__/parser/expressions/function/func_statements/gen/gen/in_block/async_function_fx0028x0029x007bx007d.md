@@ -102,7 +102,7 @@
 ```javascript
 
 {
-
+  async function f() {}
 }
 ```
 

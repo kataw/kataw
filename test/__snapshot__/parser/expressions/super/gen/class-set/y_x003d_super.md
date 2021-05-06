@@ -192,11 +192,6 @@ class C { set x(_) { y = super } }
 
 ```javascript
 
-class {
-  x(_) {
-    y = ;
-  }
-}
 ```
 
 ### Diagnostics

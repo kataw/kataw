@@ -257,15 +257,6 @@ do {} while (x) { =! class function try while with foo!
 
 ```javascript
 
-do {} while (x);
-{
-}
-class {};
-
-try {
-} try{
-}
-
 ```
 
 ### Diagnostics

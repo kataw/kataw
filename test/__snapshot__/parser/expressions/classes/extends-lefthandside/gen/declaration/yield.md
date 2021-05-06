@@ -84,7 +84,6 @@ class A extends yield {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

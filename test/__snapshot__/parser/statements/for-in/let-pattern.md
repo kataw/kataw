@@ -115,9 +115,6 @@ const {x=y};
 
 ```javascript
 
-const {
-  x = y
-};
 ```
 
 ### Diagnostics

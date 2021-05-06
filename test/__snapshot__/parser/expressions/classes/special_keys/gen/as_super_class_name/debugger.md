@@ -108,10 +108,6 @@ class x extends debugger {}
 
 ```javascript
 
-class  {}
-debugger;
-{
-}
 ```
 
 ### Diagnostics

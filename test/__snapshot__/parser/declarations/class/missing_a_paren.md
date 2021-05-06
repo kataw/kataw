@@ -114,11 +114,6 @@ class A {"x"){}}
 
 ```javascript
 
-class {
-  "\"x\"";
-}
-{
-}
 ```
 
 ### Diagnostics

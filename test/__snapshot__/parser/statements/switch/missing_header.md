@@ -62,8 +62,6 @@ switch {}
 
 ```javascript
 
-switch({}
- 
 ```
 
 ### Diagnostics

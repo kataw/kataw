@@ -164,7 +164,6 @@ function f() { class C { yield() { } } }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

@@ -177,7 +177,12 @@
 
 ```javascript
 
+function* gf() {
+  switch(1
+    case  "'foo'":
+      break;
 
+}
 ```
 
 ### Diagnostics

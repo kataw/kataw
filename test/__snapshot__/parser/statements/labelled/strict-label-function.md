@@ -229,9 +229,6 @@
 
 ```javascript
 
-bar:
-"'use strict'";
-bar: 
 ```
 
 ### Diagnostics

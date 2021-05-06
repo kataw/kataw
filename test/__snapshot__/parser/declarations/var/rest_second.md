@@ -135,8 +135,6 @@ export var a, ...b = 1;
 
 ```javascript
 
- var a;
-b = 1;
 ```
 
 ### Diagnostics

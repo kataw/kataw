@@ -100,10 +100,6 @@ class x {false: x}
 
 ```javascript
 
-class {
-  false;
-}
-x;
 ```
 
 ### Diagnostics

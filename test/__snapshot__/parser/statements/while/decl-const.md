@@ -104,8 +104,6 @@ while (false) const x = null;
 
 ```javascript
 
-while (false) ;
-const x = null;
 ```
 
 ### Diagnostics

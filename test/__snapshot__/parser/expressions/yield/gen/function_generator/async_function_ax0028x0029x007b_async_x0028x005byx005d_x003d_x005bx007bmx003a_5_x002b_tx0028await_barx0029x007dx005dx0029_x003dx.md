@@ -366,9 +366,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 
 ```javascript
 
-
-{
-}
 ```
 
 ### Diagnostics

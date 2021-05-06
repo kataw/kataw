@@ -71,10 +71,6 @@ return => {} ;
 
 ```javascript
 
-return  ;
-{
-}
-
 ```
 
 ### Diagnostics

@@ -114,7 +114,9 @@ function* gf() { yield 'foo' }
 
 ```javascript
 
-
+function* gf() {
+   "'foo'";
+}
 ```
 
 ### Diagnostics

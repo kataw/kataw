@@ -218,11 +218,6 @@
 
 ```javascript
 
-({ method() {
-    var f = function() {
-      ();
-    };
-  } });
 ```
 
 ### Diagnostics

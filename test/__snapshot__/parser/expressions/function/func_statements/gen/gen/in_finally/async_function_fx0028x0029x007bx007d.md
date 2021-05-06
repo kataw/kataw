@@ -136,7 +136,7 @@ try {
 
 try {
 } try{
-
+  async function f() {}
 }
 ```
 

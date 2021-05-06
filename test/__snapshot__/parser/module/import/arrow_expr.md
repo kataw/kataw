@@ -141,9 +141,6 @@ let x = () => import {x} from "y"
 
 ```javascript
 
-let x = () =>  ;
-from;
-"\"y\"";
 ```
 
 ### Diagnostics

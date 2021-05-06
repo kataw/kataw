@@ -146,10 +146,6 @@ do {} while (x) { async funcion switch!!
 
 ```javascript
 
-do {} while (x);
-{
-  async funcion  ;
-}
 ```
 
 ### Diagnostics

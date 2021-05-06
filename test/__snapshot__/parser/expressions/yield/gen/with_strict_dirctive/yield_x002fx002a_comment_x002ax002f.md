@@ -56,7 +56,6 @@
 
 ```javascript
 
-yield; /* comment */
 ```
 
 ### Diagnostics

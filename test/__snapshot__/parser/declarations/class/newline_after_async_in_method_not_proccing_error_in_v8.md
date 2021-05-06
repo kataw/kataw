@@ -189,14 +189,6 @@ class K extends {} {;async\n async *1(){}}
 
 ```javascript
 
-class  {
-
-  async;
-}
-n;
-async * 1();
-{
-}
 ```
 
 ### Diagnostics

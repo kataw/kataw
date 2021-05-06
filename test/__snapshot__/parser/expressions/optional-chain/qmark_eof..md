@@ -70,7 +70,6 @@ a?
 
 ```javascript
 
-a ?   ;
 ```
 
 ### Diagnostics

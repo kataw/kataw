@@ -143,7 +143,6 @@
 
 ```javascript
 
-([x].foo, [x].foo) = x;
 ```
 
 ### Diagnostics

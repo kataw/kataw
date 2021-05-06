@@ -107,10 +107,6 @@ class super {}
 
 ```javascript
 
-class {}
-;
-{
-}
 ```
 
 ### Diagnostics

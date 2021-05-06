@@ -79,7 +79,6 @@ import.meta = 0;
 
 ```javascript
 
- = 0;
 ```
 
 ### Diagnostics

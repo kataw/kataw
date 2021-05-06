@@ -132,7 +132,6 @@
 
 ```javascript
 
-({ foo: fail() = x }) =>  x;
 ```
 
 ### Diagnostics

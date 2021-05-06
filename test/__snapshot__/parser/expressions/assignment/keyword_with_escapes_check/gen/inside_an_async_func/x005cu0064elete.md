@@ -114,9 +114,6 @@ async () => {  \u0064elete = x  }
 
 ```javascript
 
-async () =>  {
-   = x;
-}
 ```
 
 ### Diagnostics

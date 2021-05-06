@@ -120,7 +120,6 @@
 
 ```javascript
 
-0, { ...rest, b } = {};
 ```
 
 ### Diagnostics

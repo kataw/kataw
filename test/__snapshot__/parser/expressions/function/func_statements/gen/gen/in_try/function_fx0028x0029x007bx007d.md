@@ -145,7 +145,7 @@ try {
 ```javascript
 
 try {
-
+  function f() {}
 } catch (e) {
 }
 ```

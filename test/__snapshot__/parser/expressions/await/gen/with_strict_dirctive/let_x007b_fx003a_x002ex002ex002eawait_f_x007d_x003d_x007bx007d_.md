@@ -151,10 +151,6 @@
 
 ```javascript
 
-let {
-  f: ,
-  f
-} = {};
 ```
 
 ### Diagnostics

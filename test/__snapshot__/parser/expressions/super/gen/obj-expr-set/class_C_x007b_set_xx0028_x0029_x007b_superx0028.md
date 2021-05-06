@@ -273,13 +273,6 @@
 
 ```javascript
 
-({ set x(_) {
-    class {
-      x(_) {
-        ();
-      }
-    }
-  } });
 ```
 
 ### Diagnostics

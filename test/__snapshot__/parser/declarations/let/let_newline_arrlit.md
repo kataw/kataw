@@ -81,7 +81,6 @@ let
 
 ```javascript
 
-let [];
 ```
 
 ### Diagnostics

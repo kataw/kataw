@@ -47,7 +47,6 @@ def\u0061ult = x;
 
 ```javascript
 
-x;
 ```
 
 ### Diagnostics

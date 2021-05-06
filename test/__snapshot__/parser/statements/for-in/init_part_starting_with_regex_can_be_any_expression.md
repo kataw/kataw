@@ -121,7 +121,6 @@ for (/x/g + b in obj);
 
 ```javascript
 
-for (; ; );
 ```
 
 ### Diagnostics

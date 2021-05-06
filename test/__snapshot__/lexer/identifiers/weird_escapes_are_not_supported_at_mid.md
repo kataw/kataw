@@ -57,8 +57,6 @@ xxx\Axxx
 
 ```javascript
 
-xxx;
-Axxx;
 ```
 
 ### Diagnostics

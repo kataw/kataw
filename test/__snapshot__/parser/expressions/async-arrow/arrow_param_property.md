@@ -88,8 +88,6 @@ async (a.b) => x;
 
 ```javascript
 
-async(a.b)
-x;
 ```
 
 ### Diagnostics

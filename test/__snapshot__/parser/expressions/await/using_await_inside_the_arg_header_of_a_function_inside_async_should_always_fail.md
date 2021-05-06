@@ -124,8 +124,6 @@ let f = () => (y=await foo) => y;
 
 ```javascript
 
-let f = () =>  (), foo;
-y;
 ```
 
 ### Diagnostics

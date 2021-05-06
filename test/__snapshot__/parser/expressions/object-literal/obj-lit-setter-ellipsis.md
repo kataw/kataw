@@ -133,7 +133,6 @@
 
 ```javascript
 
-({ set x(...y) {} });
 ```
 
 ### Diagnostics

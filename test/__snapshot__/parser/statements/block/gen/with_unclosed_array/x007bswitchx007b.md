@@ -105,9 +105,6 @@
 
 ```javascript
 
-{
-  [{ switch }, {}];
-}
 ```
 
 ### Diagnostics

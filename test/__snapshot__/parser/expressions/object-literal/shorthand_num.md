@@ -78,7 +78,6 @@ x = {5};
 
 ```javascript
 
-x = { 5 };
 ```
 
 ### Diagnostics

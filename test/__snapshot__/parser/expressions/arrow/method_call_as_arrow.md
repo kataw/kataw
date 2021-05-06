@@ -158,7 +158,6 @@
 
 ```javascript
 
-({ ident: [foo, bar].join("\"\"") }) =>  x;
 ```
 
 ### Diagnostics

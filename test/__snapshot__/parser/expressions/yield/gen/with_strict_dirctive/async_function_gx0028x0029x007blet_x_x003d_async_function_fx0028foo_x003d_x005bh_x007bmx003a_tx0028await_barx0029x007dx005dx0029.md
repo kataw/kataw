@@ -296,7 +296,9 @@
 
 ```javascript
 
-
+async function g() {
+  let x = async function f(foo = [h, { m: t(await bar) }]) {};
+}
 ```
 
 ### Diagnostics

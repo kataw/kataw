@@ -99,7 +99,6 @@ function foo(yield) {
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

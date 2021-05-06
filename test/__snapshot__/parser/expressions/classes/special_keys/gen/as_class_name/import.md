@@ -111,8 +111,6 @@ class import {}
 
 ```javascript
 
-class {}
- {}  ;
 ```
 
 ### Diagnostics

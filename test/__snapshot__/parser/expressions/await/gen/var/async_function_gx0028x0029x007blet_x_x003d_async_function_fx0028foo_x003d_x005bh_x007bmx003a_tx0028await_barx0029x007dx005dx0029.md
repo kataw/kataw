@@ -415,7 +415,9 @@ var await; var f = (async function() { async function g(){let x = async function
 
 var await;
 var f = (async function() {
-
+    async function g() {
+      let x = async function f(foo = [h, { m: t(await bar) }]) {};
+    }
   });
 ```
 

@@ -238,15 +238,6 @@ class C { *method() { class C { method() { super(); } } } }
 
 ```javascript
 
-class {
-  method() {
-    class {
-      method() {
-        ();
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

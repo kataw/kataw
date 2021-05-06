@@ -122,16 +122,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-}
 ```
 
 ### Diagnostics

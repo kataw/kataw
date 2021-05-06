@@ -128,7 +128,9 @@
 
 ```javascript
 
-
+function f() {
+  var await;
+}
 ```
 
 ### Diagnostics

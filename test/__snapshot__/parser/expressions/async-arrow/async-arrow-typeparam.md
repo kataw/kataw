@@ -172,8 +172,6 @@ async (): string => {}
 
 ```javascript
 
-a ? async () =>  {} : b;
-async () =>  {}
 ```
 
 ### Diagnostics

@@ -114,12 +114,6 @@
 
 ```javascript
 
-{
-  try {
-    xxx;
-  } try{
-  }
-}
 ```
 
 ### Diagnostics

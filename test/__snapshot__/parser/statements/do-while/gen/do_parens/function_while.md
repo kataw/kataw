@@ -141,9 +141,6 @@ do( function while while
 
 ```javascript
 
-do (function() {});
-while ();
-while () ;
 ```
 
 ### Diagnostics

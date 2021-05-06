@@ -166,7 +166,6 @@ async function f(){ let y = x => await x; }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

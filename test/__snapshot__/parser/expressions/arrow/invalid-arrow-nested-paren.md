@@ -209,8 +209,6 @@
 
 ```javascript
 
-([(x().foo)]) =>  x;
-({ [foo]: bar() }) =>  baz;
 ```
 
 ### Diagnostics

@@ -148,7 +148,6 @@ function *f(){   for (yield in y);   }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

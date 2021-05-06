@@ -47,7 +47,6 @@
 
 ```javascript
 
-await;;
 ```
 
 ### Diagnostics

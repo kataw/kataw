@@ -180,7 +180,13 @@ function* foo() {
 
 ```javascript
 
+function* foo() {
+  class {
+    // here yield is an identifier reference
+    p =   + 42;
 
+  }
+}
 ```
 
 ### Diagnostics

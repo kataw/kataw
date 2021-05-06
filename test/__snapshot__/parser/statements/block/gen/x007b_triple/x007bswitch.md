@@ -115,16 +115,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      {
-        switch(
-
-      }
-    }
-  }
-}
 ```
 
 ### Diagnostics

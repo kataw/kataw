@@ -172,7 +172,6 @@ async function f() { class C { aaa = await } }
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

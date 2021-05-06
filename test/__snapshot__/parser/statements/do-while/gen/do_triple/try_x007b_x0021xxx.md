@@ -230,14 +230,6 @@ do do do try { !xxx while while while
 
 ```javascript
 
-do do do try {
-        xxx;
-        while () while () while () ;
-      } try{
-      }
-     ();
-   ();
- ();
 ```
 
 ### Diagnostics

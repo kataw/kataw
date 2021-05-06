@@ -130,10 +130,6 @@ do while [catch] catch { try
 
 ```javascript
 
-do while ([])  {
-    } {
-    }
- ({ try });
 ```
 
 ### Diagnostics

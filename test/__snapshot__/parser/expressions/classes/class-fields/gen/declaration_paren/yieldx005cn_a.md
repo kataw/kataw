@@ -144,12 +144,6 @@
 
 ```javascript
 
-(class  {
-    yield;
-  });
-n;
-a;
-
 ```
 
 ### Diagnostics

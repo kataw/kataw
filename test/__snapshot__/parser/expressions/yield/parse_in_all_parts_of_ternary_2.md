@@ -151,7 +151,9 @@ function *f() { yield ? yield : yield ; }
 
 ```javascript
 
-
+function* f() {
+    ?   :  ;
+}
 ```
 
 ### Diagnostics

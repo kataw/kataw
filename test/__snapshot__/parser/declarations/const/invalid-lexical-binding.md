@@ -113,7 +113,6 @@ for(const a = 1, let = 2;;);
 
 ```javascript
 
-for (; ; );
 ```
 
 ### Diagnostics

@@ -178,9 +178,6 @@
 
 ```javascript
 
-{
-  (function x(async, x, await, y) {});
-}
 ```
 
 ### Diagnostics

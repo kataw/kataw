@@ -106,10 +106,6 @@ do do do /)finally while while while
 
 ```javascript
 
-do do do /)finally while while while;
-     ();
-   ();
- ();
 ```
 
 ### Diagnostics

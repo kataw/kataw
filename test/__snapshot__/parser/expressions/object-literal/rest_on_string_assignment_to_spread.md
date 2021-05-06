@@ -96,7 +96,6 @@
 
 ```javascript
 
-({ ..."\"foo\"" = x });
 ```
 
 ### Diagnostics

@@ -136,14 +136,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-    switch({}
-
-  }
-}
 ```
 
 ### Diagnostics

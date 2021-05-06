@@ -216,7 +216,7 @@
 var gfe = function* rgfe() {
   switch(1
     case  "'foo'":
-
+      break;
 
 };
 ```

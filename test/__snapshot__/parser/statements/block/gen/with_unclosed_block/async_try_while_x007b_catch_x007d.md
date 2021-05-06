@@ -213,23 +213,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  async;
-  try {
-  } try{
-     {
-    } {
-    }
-  }
-}
 ```
 
 ### Diagnostics

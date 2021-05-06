@@ -139,7 +139,6 @@
 
 ```javascript
 
-([...a +    inctanceof c]) =>  x;
 ```
 
 ### Diagnostics

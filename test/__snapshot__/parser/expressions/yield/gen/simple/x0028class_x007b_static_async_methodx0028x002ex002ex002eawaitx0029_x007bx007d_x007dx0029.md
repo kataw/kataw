@@ -154,9 +154,6 @@
 
 ```javascript
 
-(class {
-    static method(...await) {}
-  });
 ```
 
 ### Diagnostics

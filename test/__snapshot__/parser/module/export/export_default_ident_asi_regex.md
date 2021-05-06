@@ -101,7 +101,6 @@ export default x
 
 ```javascript
 
- default x / y / ;
 ```
 
 ### Diagnostics

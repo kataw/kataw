@@ -200,19 +200,6 @@
 
 ```javascript
 
-{
-  {
-  }
-   {
-  } {
-  }
-  x;
-}
-{
-  let;
-  const x = ;
-  var ;
-}
 ```
 
 ### Diagnostics

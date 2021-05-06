@@ -122,9 +122,6 @@ class x { async *prot\u006ftype(){} }
 
 ```javascript
 
-class {
-  prototype() {}
-}
 ```
 
 ### Diagnostics

@@ -128,7 +128,7 @@ function f(x=(yield)=y){}
 
 ```javascript
 
-
+function f(x = (yield) = y) {}
 ```
 
 ### Diagnostics

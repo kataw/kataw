@@ -120,7 +120,9 @@ async function f(){ await await foo; }
 
 ```javascript
 
-
+async function f() {
+  await await foo;
+}
 ```
 
 ### Diagnostics

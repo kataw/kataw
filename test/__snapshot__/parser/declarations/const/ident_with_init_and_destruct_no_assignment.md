@@ -121,9 +121,6 @@ const x = y, {z};
 
 ```javascript
 
-const x = y, {
-    z
-  };
 ```
 
 ### Diagnostics

@@ -138,11 +138,6 @@ yield * \n { yield: 12 }
 
 ```javascript
 
-yield * ;
-n;
-{
-  yield: 12;
-}
 ```
 
 ### Diagnostics

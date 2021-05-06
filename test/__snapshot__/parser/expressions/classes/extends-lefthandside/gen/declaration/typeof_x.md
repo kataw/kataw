@@ -96,7 +96,6 @@ class A extends typeof x {}
 
 ```javascript
 
-class  {}
 ```
 
 ### Diagnostics

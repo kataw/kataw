@@ -1241,42 +1241,6 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 
- // string
-
- // void
-
-
-T;
- > ; // {}
-
-//type T13 = ReturnType<(<T extends U, U extends number[]>() => T)>;  // number[]
- // { a: number, b: string }
-
- // C
-
- // any
-
- // any
-
- // Error
-
- // any
-
- // never
-
- // string
-
- // string | undefined
-
- // string
-
-//type T24 = ArgumentType<(x: string, y: string) => number>;  // Error
- // Error
-
- // any
-
- // any
-
 ```
 
 ### Diagnostics

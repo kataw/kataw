@@ -107,7 +107,6 @@
 
 ```javascript
 
-[...this] = obj;
 ```
 
 ### Diagnostics

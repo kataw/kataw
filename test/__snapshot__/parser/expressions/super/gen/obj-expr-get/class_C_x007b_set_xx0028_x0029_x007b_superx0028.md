@@ -254,13 +254,6 @@
 
 ```javascript
 
-({ get x() {
-    class {
-      x(_) {
-        ();
-      }
-    }
-  } });
 ```
 
 ### Diagnostics

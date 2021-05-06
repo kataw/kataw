@@ -100,8 +100,6 @@ var foo,,bar
 
 ```javascript
 
-var foo;
-bar;
 ```
 
 ### Diagnostics

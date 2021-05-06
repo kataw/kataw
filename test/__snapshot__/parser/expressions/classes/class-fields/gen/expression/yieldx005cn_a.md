@@ -134,11 +134,6 @@ class C extends Base { yield\n a }
 
 ```javascript
 
-class  {
-  yield;
-}
-n;
-a;
 ```
 
 ### Diagnostics

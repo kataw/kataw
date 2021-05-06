@@ -128,8 +128,6 @@ for (x in a>c;;) x
 
 ```javascript
 
-for ( in a > c);
-x;
 ```
 
 ### Diagnostics

@@ -59,8 +59,6 @@
 
 ```javascript
 
-debugger;
-x;
 ```
 
 ### Diagnostics

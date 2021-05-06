@@ -255,7 +255,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
 
 ```javascript
 
-
 ```
 
 ### Diagnostics

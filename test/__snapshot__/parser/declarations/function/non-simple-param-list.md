@@ -788,14 +788,6 @@ function f(x, ...y) { 'use strict' }
 
 ```javascript
 
-
-
-
-
-
-(function([x]) {});
-(function(x = 1) {});
-(function(x, ...y) {});
 ```
 
 ### Diagnostics

@@ -210,15 +210,6 @@
 
 ```javascript
 
-{
-  [];
-   {
-  } {
-  }
-
-  {
-  }
-}
 ```
 
 ### Diagnostics

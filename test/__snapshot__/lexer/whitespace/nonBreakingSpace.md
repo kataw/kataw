@@ -127,10 +127,6 @@ left@{xa0}@right
 
 ```javascript
 
-left;
-class {}
-@right
-class {}
 ```
 
 ### Diagnostics

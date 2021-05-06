@@ -128,11 +128,6 @@
 
 ```javascript
 
-yield; /* comment */
-n;
-{
-  yield: 42;
-}
 ```
 
 ### Diagnostics

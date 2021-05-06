@@ -63,7 +63,6 @@
 
 ```javascript
 
-"\"ignore me\"" = x;
 ```
 
 ### Diagnostics

@@ -127,7 +127,7 @@ switch (x) {
 
 switch(x
   default
-
+    function f() {}
  
 ```
 

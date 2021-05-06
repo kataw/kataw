@@ -967,8 +967,6 @@ async function f(){}
 
 ```javascript
 
-
-
 ```
 
 ### Diagnostics

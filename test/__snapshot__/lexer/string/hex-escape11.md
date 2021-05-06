@@ -43,7 +43,6 @@
 
 ```javascript
 
-"\"\xdq\"";
 ```
 
 ### Diagnostics

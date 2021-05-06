@@ -99,8 +99,6 @@ let x: string;
 
 ```javascript
 
-let x;
-string;
 ```
 
 ### Diagnostics

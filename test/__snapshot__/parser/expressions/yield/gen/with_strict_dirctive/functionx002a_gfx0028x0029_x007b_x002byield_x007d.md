@@ -128,7 +128,9 @@
 
 ```javascript
 
-
+function* gf() {
+   ;
+}
 ```
 
 ### Diagnostics

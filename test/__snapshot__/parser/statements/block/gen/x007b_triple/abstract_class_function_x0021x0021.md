@@ -202,16 +202,6 @@
 
 ```javascript
 
-{
-  {
-    {
-      abstract;
-      class {}
-
-      ;
-    }
-  }
-}
 ```
 
 ### Diagnostics
