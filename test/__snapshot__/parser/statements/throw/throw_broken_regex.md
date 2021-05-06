@@ -7,6 +7,7 @@ throw/("
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

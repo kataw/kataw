@@ -26,6 +26,7 @@ class x {[x]z){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

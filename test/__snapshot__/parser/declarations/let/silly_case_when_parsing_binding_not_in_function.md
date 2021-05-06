@@ -15,6 +15,7 @@ let foo,)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

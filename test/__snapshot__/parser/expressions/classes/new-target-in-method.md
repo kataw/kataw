@@ -14,6 +14,7 @@ class A {a(x=new.target){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

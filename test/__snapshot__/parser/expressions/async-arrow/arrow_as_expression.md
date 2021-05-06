@@ -7,6 +7,7 @@ foo(async () => foo)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

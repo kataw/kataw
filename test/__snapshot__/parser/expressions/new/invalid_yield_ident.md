@@ -7,6 +7,7 @@ new yield
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

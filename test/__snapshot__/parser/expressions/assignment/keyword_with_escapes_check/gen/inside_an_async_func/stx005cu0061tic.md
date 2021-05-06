@@ -11,6 +11,7 @@ async () => {  st\u0061tic = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ function *a(){yield 2e308}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

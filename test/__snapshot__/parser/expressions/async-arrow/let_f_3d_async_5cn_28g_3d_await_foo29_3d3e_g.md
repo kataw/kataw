@@ -8,6 +8,7 @@ let f = async
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

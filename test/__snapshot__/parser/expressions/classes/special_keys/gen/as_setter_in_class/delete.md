@@ -11,6 +11,7 @@ class x {set delete(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

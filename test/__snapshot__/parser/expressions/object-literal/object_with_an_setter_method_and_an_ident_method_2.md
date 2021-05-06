@@ -7,6 +7,7 @@ wrap({[foo](){}, set [bar](e){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

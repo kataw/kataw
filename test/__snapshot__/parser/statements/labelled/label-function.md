@@ -7,6 +7,7 @@ foo: function() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

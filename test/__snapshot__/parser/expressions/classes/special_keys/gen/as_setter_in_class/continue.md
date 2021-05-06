@@ -11,6 +11,7 @@ class x {set continue(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

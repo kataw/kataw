@@ -11,6 +11,7 @@ class x {void: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

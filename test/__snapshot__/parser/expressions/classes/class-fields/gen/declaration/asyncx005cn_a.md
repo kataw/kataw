@@ -11,6 +11,7 @@ class C { async\n a }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

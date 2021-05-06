@@ -11,6 +11,7 @@ class throw {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

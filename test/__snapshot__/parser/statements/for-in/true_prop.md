@@ -7,6 +7,7 @@ for (true.x in c) d;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -13,6 +13,7 @@ function *foo() { let x = {yield} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

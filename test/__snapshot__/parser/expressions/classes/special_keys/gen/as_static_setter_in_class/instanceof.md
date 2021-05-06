@@ -11,6 +11,7 @@ class x {static set instanceof(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

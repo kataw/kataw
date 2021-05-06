@@ -11,6 +11,7 @@ ext\u0065nds = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ class x extends a = b {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

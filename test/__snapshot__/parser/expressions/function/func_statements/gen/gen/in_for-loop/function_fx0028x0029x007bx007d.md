@@ -11,6 +11,7 @@ for (;;) function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

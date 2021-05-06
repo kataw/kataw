@@ -26,6 +26,7 @@ for (true ? a in b : {}; false; ) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

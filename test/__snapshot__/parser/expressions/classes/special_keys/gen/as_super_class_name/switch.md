@@ -11,6 +11,7 @@ class x extends switch {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

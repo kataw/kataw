@@ -26,6 +26,7 @@ for (function(){ }[x in y] of x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ switch (x) { default: continue foo; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

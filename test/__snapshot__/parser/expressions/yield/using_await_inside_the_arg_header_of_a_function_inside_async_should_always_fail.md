@@ -7,6 +7,7 @@ let f = () => (y=await foo) => y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

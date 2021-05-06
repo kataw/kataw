@@ -7,6 +7,7 @@ async (x = yield y) => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

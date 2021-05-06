@@ -7,6 +7,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

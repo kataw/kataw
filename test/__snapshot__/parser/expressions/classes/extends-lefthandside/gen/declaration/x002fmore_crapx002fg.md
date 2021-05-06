@@ -11,6 +11,7 @@ class A extends /more crap/g {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

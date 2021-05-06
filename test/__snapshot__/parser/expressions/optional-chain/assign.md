@@ -7,6 +7,7 @@ foo?.bar = x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

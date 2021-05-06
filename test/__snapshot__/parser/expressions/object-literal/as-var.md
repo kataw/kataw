@@ -7,6 +7,7 @@ var {...[]} = {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

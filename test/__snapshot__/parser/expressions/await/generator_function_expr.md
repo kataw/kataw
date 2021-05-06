@@ -7,6 +7,7 @@ let x = function *await(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

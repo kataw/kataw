@@ -26,6 +26,7 @@ let [x, ...[foo, bar]] = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

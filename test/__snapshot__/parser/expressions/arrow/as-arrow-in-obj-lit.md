@@ -9,6 +9,7 @@ x = {arrow: (x, y) => ok};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

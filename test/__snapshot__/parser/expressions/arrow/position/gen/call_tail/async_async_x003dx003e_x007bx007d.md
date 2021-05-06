@@ -11,6 +11,7 @@ foo(async async => {}).bar
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

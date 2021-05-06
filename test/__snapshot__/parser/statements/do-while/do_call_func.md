@@ -7,6 +7,7 @@ do h(function(){});while(x)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ var foo = yield = 1;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ var af = switch => 1;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

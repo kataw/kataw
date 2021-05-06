@@ -7,6 +7,7 @@ x = `1 ${ yield } 2`
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ switch([x = y]) { case y: foo }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

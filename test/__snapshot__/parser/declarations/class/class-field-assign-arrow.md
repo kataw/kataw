@@ -26,6 +26,7 @@ class C { aaa=()=>0 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

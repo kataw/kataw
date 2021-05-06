@@ -11,6 +11,7 @@ class x {async * export(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

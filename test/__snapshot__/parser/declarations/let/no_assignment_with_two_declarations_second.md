@@ -26,6 +26,7 @@ let foo, [bar];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

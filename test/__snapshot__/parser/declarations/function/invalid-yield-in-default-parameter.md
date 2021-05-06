@@ -7,6 +7,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -22,6 +22,7 @@ let {x}: string = y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

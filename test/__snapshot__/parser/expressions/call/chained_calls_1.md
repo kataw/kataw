@@ -7,6 +7,7 @@ foo(a)(b)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

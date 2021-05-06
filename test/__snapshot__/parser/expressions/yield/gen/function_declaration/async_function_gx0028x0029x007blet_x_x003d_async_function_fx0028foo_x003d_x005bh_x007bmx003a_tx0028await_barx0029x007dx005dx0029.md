@@ -11,6 +11,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

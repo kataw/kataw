@@ -7,6 +7,7 @@ x = { method(test) { } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

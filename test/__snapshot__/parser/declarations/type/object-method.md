@@ -26,6 +26,7 @@ type T = { [[foo]](): X }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

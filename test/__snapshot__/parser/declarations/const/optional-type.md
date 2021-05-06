@@ -7,6 +7,7 @@ const f = (...x?) => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

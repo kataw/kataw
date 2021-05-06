@@ -17,6 +17,7 @@ var a : { <T>(x: T): number; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

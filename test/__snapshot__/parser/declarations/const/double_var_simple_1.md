@@ -26,6 +26,7 @@ const {x, y} = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

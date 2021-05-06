@@ -11,6 +11,7 @@ class x {async let(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

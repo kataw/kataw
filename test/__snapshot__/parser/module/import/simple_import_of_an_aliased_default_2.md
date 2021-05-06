@@ -13,6 +13,7 @@ import x, * as a from "y"
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

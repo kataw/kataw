@@ -11,6 +11,7 @@ class void {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

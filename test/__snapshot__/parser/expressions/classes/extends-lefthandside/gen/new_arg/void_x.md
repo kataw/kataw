@@ -11,6 +11,7 @@ new void x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

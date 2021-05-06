@@ -11,6 +11,7 @@ new super.foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

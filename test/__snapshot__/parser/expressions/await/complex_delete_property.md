@@ -7,6 +7,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

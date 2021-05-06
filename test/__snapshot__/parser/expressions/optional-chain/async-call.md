@@ -7,6 +7,7 @@ async?.(foo)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

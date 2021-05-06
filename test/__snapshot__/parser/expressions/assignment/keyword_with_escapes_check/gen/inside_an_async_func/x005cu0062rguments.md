@@ -11,6 +11,7 @@ async () => {  \u0062rguments = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

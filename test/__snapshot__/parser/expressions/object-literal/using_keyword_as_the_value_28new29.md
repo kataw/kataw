@@ -7,6 +7,7 @@ s = {s: new}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -32,6 +32,7 @@ class x { static async *prototype(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

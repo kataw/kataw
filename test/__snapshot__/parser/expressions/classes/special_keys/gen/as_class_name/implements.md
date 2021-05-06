@@ -11,6 +11,7 @@ class implements {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

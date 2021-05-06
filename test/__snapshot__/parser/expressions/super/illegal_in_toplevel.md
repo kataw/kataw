@@ -7,6 +7,7 @@ super.foo;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

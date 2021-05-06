@@ -7,6 +7,7 @@ var v = a => <any><any>{}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

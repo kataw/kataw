@@ -7,6 +7,7 @@ x => { "use strict"; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

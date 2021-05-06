@@ -7,6 +7,7 @@ class A { [x=y](foo) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

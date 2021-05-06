@@ -8,6 +8,7 @@ if (false) let // ASI
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

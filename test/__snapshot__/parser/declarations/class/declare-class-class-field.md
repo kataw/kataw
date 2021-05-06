@@ -19,6 +19,7 @@ declare class X {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

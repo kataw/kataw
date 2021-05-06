@@ -11,6 +11,7 @@ class x {get if(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

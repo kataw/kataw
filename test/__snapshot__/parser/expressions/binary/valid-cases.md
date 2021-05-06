@@ -29,6 +29,7 @@ typeof a == 'b';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

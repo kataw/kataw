@@ -11,6 +11,7 @@ class x {async await(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

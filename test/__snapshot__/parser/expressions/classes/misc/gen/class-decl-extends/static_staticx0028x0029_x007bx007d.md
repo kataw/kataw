@@ -11,6 +11,7 @@ class C extends Base { static static() {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

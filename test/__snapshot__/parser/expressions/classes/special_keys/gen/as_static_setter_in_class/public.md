@@ -11,6 +11,7 @@ class x {static set public(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

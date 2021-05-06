@@ -11,6 +11,7 @@ class x {get new(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ x.foo++.bar
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

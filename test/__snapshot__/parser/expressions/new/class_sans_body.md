@@ -7,6 +7,7 @@ new class
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

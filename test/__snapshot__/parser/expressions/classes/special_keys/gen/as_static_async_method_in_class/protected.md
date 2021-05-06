@@ -11,6 +11,7 @@ class x {static async protected(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

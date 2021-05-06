@@ -7,6 +7,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

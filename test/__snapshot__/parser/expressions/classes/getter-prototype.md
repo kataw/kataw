@@ -7,6 +7,7 @@ class x { get prototype(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

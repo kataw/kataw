@@ -15,6 +15,7 @@ var foo = ((foo)): string => {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

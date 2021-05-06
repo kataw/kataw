@@ -57,6 +57,7 @@ class Array { concat(items:number | string) {}; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

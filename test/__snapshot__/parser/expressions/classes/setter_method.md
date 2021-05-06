@@ -13,6 +13,7 @@ class A {set 9(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

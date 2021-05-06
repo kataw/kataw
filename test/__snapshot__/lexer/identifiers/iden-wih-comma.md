@@ -7,6 +7,7 @@ foo, bar, zoo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ for (await in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

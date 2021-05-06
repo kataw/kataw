@@ -15,6 +15,7 @@ const [foo=a, bar=b] = arr;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

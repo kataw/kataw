@@ -7,6 +7,7 @@ delete foo.bar, z;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

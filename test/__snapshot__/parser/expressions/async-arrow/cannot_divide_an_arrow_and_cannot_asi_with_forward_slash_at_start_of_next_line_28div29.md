@@ -8,6 +8,7 @@ async _ => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

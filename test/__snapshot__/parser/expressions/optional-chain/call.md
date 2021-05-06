@@ -7,6 +7,7 @@ a?.(x)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

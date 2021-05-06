@@ -11,6 +11,7 @@ class C { constructor() { var f = function() { super(); } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

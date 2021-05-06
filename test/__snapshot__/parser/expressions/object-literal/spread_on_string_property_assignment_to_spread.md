@@ -8,6 +8,7 @@ x={..."foo".foo=x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

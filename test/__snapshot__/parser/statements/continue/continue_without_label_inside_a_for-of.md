@@ -7,6 +7,7 @@ for (x of y) continue
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -16,6 +16,7 @@ var x = ({ a } : any = 'foo') => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

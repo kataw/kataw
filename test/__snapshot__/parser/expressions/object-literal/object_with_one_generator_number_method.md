@@ -7,6 +7,7 @@ wrap({*123(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

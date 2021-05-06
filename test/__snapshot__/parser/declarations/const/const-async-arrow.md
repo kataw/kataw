@@ -15,6 +15,7 @@ const a = async (foo: string = "") => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

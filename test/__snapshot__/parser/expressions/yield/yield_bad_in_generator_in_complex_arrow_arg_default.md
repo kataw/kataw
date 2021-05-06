@@ -7,6 +7,7 @@ function *g() { (x = u + yield z) => {}; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

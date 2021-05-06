@@ -7,6 +7,7 @@ switch (x) { case x: if (foo) continue foo; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

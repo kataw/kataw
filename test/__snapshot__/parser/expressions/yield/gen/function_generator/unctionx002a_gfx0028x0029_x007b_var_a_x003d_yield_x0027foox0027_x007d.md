@@ -11,6 +11,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

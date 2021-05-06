@@ -8,6 +8,7 @@ g => await g
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

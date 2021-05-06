@@ -15,6 +15,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

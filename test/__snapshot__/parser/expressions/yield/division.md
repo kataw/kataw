@@ -8,6 +8,7 @@ function* f(){ yield
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

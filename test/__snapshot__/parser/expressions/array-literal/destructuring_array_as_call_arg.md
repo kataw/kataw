@@ -26,6 +26,7 @@ foo([a, b] = arr);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

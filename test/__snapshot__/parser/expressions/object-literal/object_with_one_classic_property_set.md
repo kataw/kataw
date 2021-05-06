@@ -7,6 +7,7 @@ wrap({set:b});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

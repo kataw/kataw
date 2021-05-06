@@ -29,6 +29,7 @@ class C { test() {get #a() { }}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -12,6 +12,7 @@ class C extends (function B() {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

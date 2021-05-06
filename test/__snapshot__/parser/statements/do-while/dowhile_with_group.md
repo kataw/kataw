@@ -9,6 +9,7 @@ while(y)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static async yield(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

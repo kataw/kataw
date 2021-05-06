@@ -11,6 +11,7 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

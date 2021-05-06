@@ -7,6 +7,7 @@ return
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

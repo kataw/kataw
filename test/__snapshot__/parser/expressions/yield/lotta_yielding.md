@@ -17,6 +17,7 @@ var gen = async function *g() {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

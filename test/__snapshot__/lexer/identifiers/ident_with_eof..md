@@ -7,6 +7,7 @@ foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

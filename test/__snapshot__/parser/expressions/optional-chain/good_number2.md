@@ -25,6 +25,7 @@ a?.9:b
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

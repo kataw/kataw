@@ -11,6 +11,7 @@ for ([foo] in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

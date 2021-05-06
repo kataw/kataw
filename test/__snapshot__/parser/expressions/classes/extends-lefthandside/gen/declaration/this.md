@@ -11,6 +11,7 @@ class A extends this {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

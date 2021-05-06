@@ -7,6 +7,7 @@ let a, b = 42, c;b;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

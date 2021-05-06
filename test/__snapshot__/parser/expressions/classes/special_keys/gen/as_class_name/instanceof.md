@@ -11,6 +11,7 @@ class instanceof {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

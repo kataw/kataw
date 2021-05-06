@@ -11,6 +11,7 @@ return => {} ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ const [foo] = arr;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

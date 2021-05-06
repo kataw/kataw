@@ -7,6 +7,7 @@ class C { get; #aaa(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

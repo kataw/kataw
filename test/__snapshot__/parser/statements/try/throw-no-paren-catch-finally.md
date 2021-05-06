@@ -7,6 +7,7 @@ throw {x} catch finally
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

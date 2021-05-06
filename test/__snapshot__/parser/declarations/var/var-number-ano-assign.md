@@ -17,6 +17,7 @@ var a: { [a: number]: string; [b: number]: string; };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

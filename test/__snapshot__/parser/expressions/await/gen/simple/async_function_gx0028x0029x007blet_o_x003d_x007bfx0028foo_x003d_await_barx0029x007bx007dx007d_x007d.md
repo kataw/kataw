@@ -11,6 +11,7 @@ async function g(){let o = {f(foo = await bar){}}    }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

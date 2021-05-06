@@ -8,6 +8,7 @@ function f(x=super.foo){ }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

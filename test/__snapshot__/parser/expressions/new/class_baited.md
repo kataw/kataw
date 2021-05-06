@@ -7,6 +7,7 @@ new class extends{}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

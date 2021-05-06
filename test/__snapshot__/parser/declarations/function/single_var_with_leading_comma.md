@@ -15,6 +15,7 @@ let {,x} = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

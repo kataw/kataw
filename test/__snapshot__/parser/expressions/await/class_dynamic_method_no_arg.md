@@ -7,6 +7,7 @@ class x{[x](a=await){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

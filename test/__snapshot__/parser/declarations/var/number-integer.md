@@ -16,6 +16,7 @@ var a: 123
 
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -13,6 +13,7 @@ export default [];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

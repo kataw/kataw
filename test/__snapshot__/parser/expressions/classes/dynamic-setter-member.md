@@ -7,6 +7,7 @@ class A {* get [x](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

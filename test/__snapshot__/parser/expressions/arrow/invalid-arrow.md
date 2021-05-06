@@ -7,6 +7,7 @@ x = (a)?c:d=>{}=>{}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

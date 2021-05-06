@@ -11,6 +11,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

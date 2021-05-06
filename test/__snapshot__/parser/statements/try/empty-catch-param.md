@@ -7,6 +7,7 @@ try { } catch ({}) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

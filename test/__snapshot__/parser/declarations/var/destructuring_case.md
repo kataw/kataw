@@ -26,6 +26,7 @@ var {[2]: y = 1} = {2:3}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

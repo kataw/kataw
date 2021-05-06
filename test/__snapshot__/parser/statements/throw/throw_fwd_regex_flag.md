@@ -8,6 +8,7 @@ throw
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

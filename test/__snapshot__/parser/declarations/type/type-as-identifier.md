@@ -11,6 +11,7 @@ type = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

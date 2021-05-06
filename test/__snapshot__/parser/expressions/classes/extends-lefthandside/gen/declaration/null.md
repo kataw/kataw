@@ -11,6 +11,7 @@ class A extends null {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

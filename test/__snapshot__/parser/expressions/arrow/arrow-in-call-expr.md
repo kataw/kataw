@@ -9,6 +9,7 @@ foo(y,(y) => ok);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

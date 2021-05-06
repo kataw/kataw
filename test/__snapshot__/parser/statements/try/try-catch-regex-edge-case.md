@@ -7,6 +7,7 @@ try/catch/finally/{
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

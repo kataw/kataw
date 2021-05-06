@@ -7,6 +7,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

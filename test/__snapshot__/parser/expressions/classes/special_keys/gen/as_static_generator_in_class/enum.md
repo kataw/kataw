@@ -11,6 +11,7 @@ class x {static * enum(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ class C { set #aaa(x){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

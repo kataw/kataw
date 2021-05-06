@@ -16,6 +16,7 @@ a ? b : (): string => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

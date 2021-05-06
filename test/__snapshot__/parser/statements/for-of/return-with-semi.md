@@ -26,6 +26,7 @@ return;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

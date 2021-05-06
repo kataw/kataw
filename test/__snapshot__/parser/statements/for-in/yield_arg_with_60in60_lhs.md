@@ -26,6 +26,7 @@ function *f(){   for (yield x in y in z);   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ if(0) break;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

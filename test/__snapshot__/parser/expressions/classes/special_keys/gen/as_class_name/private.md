@@ -11,6 +11,7 @@ class private {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

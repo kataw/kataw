@@ -11,6 +11,7 @@ class x extends package {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

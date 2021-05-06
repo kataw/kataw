@@ -18,6 +18,7 @@ x({get 0o4567(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

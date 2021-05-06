@@ -7,6 +7,7 @@ switch(y&[]=y){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

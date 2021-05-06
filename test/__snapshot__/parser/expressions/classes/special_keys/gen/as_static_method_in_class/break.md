@@ -11,6 +11,7 @@ class x {static break(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

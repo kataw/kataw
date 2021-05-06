@@ -7,6 +7,7 @@ obj.voi\u0064 = 42;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ foo(x,y,);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

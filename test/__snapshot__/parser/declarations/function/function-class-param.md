@@ -7,6 +7,7 @@ function* foo(a = class {*bar() { yield b }}) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

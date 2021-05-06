@@ -11,6 +11,7 @@ for (x in y in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ class A {static constructor(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

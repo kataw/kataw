@@ -7,6 +7,7 @@ var y = { \u0066inally: x } = { finally: 42 };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

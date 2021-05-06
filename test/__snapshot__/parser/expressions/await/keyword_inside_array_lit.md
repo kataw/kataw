@@ -7,6 +7,7 @@ async g => (x = [await y])
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

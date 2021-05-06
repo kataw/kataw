@@ -7,6 +7,7 @@ function *f(){  (await) => x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

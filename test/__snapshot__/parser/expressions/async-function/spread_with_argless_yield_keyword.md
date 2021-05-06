@@ -13,6 +13,7 @@ function *f(){ return [...yield]; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

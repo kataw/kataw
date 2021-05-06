@@ -10,6 +10,7 @@ x?.['y z']();
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

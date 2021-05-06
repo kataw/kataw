@@ -16,6 +16,7 @@ opaque stuff: Box<T> = Container<T>
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ for(x of 3)break/
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

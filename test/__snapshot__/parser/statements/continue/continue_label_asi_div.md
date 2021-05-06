@@ -8,6 +8,7 @@ x: for(;;) continue x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

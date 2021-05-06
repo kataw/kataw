@@ -7,6 +7,7 @@ new x().y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

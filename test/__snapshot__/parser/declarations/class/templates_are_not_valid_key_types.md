@@ -26,6 +26,7 @@ class x { `constructor`(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

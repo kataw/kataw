@@ -11,6 +11,7 @@ do class x {} while
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

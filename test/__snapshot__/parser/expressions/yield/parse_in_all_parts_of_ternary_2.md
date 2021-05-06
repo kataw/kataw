@@ -7,6 +7,7 @@ function *f() { yield ? yield : yield ; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

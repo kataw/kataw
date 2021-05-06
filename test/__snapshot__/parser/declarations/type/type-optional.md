@@ -26,6 +26,7 @@ type a = ??string;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

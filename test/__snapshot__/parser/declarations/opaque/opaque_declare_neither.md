@@ -15,6 +15,7 @@ declare opaque type Foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

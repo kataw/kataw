@@ -7,6 +7,7 @@ await[x]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

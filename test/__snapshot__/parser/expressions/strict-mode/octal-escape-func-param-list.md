@@ -7,6 +7,7 @@ function foo(p\141ckage) { "use strict"; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

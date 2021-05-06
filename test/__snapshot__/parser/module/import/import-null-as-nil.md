@@ -13,6 +13,7 @@ import { null as nil } from "bar"
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ class C { #@{x29e3d}@ }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

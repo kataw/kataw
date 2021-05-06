@@ -7,6 +7,7 @@ function f(){   return 15;    }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

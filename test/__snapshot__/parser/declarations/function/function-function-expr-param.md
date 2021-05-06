@@ -7,6 +7,7 @@ function* foo(a = function* foo() { yield b }) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

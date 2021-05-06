@@ -7,6 +7,7 @@ let y = () => new.target
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

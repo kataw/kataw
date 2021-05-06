@@ -11,6 +11,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

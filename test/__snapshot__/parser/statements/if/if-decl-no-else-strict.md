@@ -13,6 +13,7 @@ if (true) function f() {  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

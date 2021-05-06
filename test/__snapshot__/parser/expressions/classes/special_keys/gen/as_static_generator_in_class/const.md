@@ -11,6 +11,7 @@ class x {static * const(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

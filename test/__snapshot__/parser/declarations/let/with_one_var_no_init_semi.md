@@ -26,6 +26,7 @@ let [foo] = arr;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

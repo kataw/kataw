@@ -7,6 +7,7 @@ new Foo["bar"]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

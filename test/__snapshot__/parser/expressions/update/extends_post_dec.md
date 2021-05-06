@@ -7,6 +7,7 @@ class x extends a-- {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

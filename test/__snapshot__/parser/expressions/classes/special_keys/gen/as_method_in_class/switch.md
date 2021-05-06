@@ -11,6 +11,7 @@ class x {switch(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ foo(async[])
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

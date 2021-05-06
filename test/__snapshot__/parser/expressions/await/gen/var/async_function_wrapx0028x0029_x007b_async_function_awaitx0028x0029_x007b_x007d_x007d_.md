@@ -11,6 +11,7 @@ var await; var f = (async function() { async function wrap() { async function aw
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x extends debugger {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

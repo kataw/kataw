@@ -7,6 +7,7 @@ function *f(){  ({yield} = x)  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

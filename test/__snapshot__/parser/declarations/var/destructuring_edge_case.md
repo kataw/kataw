@@ -15,6 +15,7 @@ var {[2]: y} = {2:3}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

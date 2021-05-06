@@ -7,6 +7,7 @@ s = {"foo": null = x} = x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

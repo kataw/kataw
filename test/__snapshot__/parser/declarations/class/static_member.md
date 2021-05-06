@@ -15,6 +15,7 @@ class A {static [a](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ class async {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

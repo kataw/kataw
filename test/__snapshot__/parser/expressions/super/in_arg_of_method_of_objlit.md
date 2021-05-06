@@ -7,6 +7,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

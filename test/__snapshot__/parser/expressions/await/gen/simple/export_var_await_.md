@@ -11,6 +11,7 @@ export var await;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

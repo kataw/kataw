@@ -7,6 +7,7 @@ if (foo) bar;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

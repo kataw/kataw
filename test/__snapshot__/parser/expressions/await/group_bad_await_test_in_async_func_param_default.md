@@ -7,6 +7,7 @@ async function f(x=(await)=y){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

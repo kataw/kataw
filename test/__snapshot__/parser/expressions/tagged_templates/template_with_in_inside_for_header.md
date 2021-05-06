@@ -7,6 +7,7 @@ for(t`${x in y}`;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

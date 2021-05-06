@@ -15,6 +15,7 @@ result = { x: x[yield] } = vals;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

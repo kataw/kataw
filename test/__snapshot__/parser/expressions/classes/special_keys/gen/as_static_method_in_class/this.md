@@ -11,6 +11,7 @@ class x {static this(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

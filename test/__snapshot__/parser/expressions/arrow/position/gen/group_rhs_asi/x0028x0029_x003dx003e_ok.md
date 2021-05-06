@@ -12,6 +12,7 @@ x *
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

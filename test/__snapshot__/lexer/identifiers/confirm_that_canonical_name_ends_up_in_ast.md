@@ -7,6 +7,7 @@ pa\u0073s();
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

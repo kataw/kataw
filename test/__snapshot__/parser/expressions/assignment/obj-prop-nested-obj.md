@@ -13,6 +13,7 @@ result = { x: { y } } = { x: { y: 2 } };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

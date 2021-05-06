@@ -11,6 +11,7 @@ class yield {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

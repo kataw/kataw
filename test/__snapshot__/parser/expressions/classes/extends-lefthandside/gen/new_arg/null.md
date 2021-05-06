@@ -11,6 +11,7 @@ new null
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

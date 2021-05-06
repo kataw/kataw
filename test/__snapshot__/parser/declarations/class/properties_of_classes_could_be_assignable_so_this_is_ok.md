@@ -26,6 +26,7 @@ for (class x { [a](){} }.x in c);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

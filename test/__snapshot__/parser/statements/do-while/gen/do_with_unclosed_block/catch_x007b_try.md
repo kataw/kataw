@@ -11,6 +11,7 @@ do {} while (x) { catch { try
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class A extends async a => {} {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

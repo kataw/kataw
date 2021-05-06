@@ -11,6 +11,7 @@ function f(a = async => ok) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

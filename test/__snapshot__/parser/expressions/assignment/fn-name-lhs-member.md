@@ -15,6 +15,7 @@ o.attr = function() {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

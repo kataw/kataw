@@ -13,6 +13,7 @@ foo: function x() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

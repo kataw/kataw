@@ -13,6 +13,7 @@ export var let = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

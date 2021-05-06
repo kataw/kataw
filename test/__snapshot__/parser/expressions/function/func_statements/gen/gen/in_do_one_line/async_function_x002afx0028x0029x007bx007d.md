@@ -11,6 +11,7 @@ do async function *f(){} while (x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

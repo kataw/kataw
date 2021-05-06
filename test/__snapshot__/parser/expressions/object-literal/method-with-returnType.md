@@ -15,6 +15,7 @@ a={get fooProp():number{}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

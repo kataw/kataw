@@ -7,6 +7,7 @@ new asc() => x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

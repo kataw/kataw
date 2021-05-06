@@ -7,6 +7,7 @@ let y = typeof async x => await x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

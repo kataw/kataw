@@ -19,6 +19,7 @@ type T2 = number;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ if (true) const x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

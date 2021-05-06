@@ -11,6 +11,7 @@ var await; var f = (async function() { async function f(){ await await foo; } })
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

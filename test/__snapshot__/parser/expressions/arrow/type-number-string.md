@@ -7,6 +7,7 @@ type number = string;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

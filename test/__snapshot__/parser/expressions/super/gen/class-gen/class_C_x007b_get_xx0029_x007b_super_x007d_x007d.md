@@ -11,6 +11,7 @@ class C { *method() { class C { get x) { super; } } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

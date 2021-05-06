@@ -7,6 +7,7 @@ x = {arguments}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

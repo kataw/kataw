@@ -83,6 +83,7 @@ async function * gen() {class C extends await { }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

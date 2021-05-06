@@ -15,6 +15,7 @@ for (let a;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

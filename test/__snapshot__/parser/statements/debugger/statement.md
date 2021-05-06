@@ -7,6 +7,7 @@ while (false) debugger;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ f(async foo=>c)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

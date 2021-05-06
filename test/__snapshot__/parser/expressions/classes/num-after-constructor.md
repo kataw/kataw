@@ -13,6 +13,7 @@ class x{ constructor(){} 9(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

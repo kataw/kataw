@@ -12,6 +12,7 @@ while (x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class A extends async function f(){} {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

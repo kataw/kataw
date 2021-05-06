@@ -15,6 +15,7 @@ declare var x: symbol;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

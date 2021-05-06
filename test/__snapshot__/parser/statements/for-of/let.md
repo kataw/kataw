@@ -26,6 +26,7 @@ let x: string;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

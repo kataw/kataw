@@ -11,6 +11,7 @@ new `temp {waitforit} late`
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

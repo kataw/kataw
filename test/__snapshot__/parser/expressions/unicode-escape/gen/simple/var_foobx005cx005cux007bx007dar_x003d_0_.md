@@ -11,6 +11,7 @@ var foob\\u{}ar = 0;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ delete foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

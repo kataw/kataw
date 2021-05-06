@@ -11,6 +11,7 @@ class x {instanceof: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ const obj = {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

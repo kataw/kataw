@@ -26,6 +26,7 @@ const {[x]} = z;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

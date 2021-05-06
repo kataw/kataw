@@ -11,6 +11,7 @@ yield *
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

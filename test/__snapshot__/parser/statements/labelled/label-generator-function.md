@@ -7,6 +7,7 @@ label: function * x (){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

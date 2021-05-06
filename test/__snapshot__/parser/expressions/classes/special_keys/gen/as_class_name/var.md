@@ -11,6 +11,7 @@ class var {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

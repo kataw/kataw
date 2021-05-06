@@ -9,6 +9,7 @@ class C { static
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

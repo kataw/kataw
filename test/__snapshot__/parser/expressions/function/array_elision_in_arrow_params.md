@@ -13,6 +13,7 @@ f = ([[,] = g()]) => {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

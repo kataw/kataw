@@ -7,6 +7,7 @@ function *f(){   s = {"foo": yield}   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

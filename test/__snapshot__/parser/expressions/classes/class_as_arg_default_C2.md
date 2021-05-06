@@ -7,6 +7,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

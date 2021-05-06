@@ -7,6 +7,7 @@ let x = async function f(foo = await){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

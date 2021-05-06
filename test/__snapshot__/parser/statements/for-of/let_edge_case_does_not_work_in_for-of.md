@@ -26,6 +26,7 @@ for (let of x) y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

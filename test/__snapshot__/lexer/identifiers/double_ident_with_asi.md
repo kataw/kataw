@@ -14,6 +14,7 @@ bar
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

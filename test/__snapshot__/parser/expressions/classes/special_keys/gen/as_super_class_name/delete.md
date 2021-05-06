@@ -11,6 +11,7 @@ class x extends delete {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

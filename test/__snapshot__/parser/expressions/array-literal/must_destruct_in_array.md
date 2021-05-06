@@ -7,6 +7,7 @@ x = {x: [{a = b}] + x}.x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ async () => {  \u0064elete = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

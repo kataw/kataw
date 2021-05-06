@@ -17,6 +17,7 @@ function a<string>(x: string): string {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

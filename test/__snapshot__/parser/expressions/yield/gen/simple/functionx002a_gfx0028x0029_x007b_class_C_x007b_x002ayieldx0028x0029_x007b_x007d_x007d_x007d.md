@@ -11,6 +11,7 @@ function* gf() { class C { *yield() { } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

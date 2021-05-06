@@ -7,6 +7,7 @@ function *g(){ (x = {[yield]: 1}) => z }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

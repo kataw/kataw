@@ -7,6 +7,7 @@ async (x, /x/g) => x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

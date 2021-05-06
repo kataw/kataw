@@ -7,6 +7,7 @@ do let x; while (false)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

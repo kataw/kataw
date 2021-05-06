@@ -26,6 +26,7 @@ declare type bool = any;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

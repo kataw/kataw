@@ -7,6 +7,7 @@ a ? b ** x : c ? d : e
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

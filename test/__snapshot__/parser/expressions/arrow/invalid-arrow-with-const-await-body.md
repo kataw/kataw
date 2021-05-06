@@ -7,6 +7,7 @@ let f = () => { const [...await f] = []; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

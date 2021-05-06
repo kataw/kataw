@@ -26,6 +26,7 @@ function x(a, [x]) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

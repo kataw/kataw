@@ -7,6 +7,7 @@ x={ foo(a = super.foo){ }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

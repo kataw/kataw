@@ -26,6 +26,7 @@ for (x[a in b] in y);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

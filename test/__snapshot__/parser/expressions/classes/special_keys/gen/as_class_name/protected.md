@@ -11,6 +11,7 @@ class protected {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

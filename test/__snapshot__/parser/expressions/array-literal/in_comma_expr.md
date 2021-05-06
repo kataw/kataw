@@ -26,6 +26,7 @@ x, [foo, bar] = doo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ x = {a, ...y, b}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ async () => {  \u0065xtends = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

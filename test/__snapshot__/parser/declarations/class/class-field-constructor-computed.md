@@ -13,6 +13,7 @@ class Foo { static ['constructor'] = 1 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

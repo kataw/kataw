@@ -10,6 +10,7 @@ x = {async __proto__(){}, *__proto__(){}};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

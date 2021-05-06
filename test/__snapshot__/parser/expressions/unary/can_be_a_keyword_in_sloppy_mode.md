@@ -7,6 +7,7 @@ delete true
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

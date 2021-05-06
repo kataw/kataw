@@ -11,6 +11,7 @@ let { ...await f } = {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

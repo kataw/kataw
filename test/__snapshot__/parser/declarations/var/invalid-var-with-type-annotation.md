@@ -16,6 +16,7 @@ var f: >x:int) => string;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

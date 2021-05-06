@@ -13,6 +13,7 @@ import foo, * as bar from "foo";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

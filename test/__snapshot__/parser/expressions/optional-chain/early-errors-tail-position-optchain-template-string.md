@@ -7,6 +7,7 @@ a?.fn`hello`;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

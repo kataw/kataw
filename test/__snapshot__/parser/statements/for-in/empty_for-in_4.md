@@ -15,6 +15,7 @@ for (const a in b);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

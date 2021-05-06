@@ -11,6 +11,7 @@ class C { yield\n a }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

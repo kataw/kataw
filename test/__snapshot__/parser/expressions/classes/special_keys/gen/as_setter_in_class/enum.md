@@ -11,6 +11,7 @@ class x {set enum(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

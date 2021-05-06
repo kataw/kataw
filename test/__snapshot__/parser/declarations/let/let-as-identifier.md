@@ -45,6 +45,7 @@ L: let
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

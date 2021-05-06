@@ -11,6 +11,7 @@ class x {static set extends(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

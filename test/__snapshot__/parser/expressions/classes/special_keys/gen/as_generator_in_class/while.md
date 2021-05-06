@@ -11,6 +11,7 @@ class x {* while(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

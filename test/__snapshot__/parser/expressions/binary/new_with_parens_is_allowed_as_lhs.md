@@ -7,6 +7,7 @@ new x() ** 2;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ for (async a => {} in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

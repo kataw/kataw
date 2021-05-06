@@ -15,6 +15,7 @@ let {a:=c} = z;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

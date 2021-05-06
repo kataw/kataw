@@ -10,6 +10,7 @@ typeof x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

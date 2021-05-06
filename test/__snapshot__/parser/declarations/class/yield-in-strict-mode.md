@@ -16,6 +16,7 @@ function* f() { class C { aaa = yield } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

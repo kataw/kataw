@@ -7,6 +7,7 @@ class x { *[y](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

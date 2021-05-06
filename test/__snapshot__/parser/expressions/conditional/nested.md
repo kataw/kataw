@@ -7,6 +7,7 @@ z(z(z(a ? b : c++)));
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

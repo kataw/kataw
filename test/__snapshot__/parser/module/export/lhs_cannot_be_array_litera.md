@@ -13,6 +13,7 @@ export default [x] = y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ for (a instanceof b;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

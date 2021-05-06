@@ -7,6 +7,7 @@ var a : [] = [];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ x = {0xeban(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

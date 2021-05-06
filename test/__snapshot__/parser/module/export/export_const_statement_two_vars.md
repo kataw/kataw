@@ -13,6 +13,7 @@ export const x, y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

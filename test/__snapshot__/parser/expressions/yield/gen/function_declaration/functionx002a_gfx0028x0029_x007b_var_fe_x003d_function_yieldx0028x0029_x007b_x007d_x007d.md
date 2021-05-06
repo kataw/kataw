@@ -11,6 +11,7 @@ function not_gen() { function* gf() { var fe = function yield() { } } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

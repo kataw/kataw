@@ -65,6 +65,7 @@ foo ? bar : baz => {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

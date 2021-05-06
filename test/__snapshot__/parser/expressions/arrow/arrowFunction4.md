@@ -17,6 +17,7 @@ var v = (a, b) => {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ let o = {*f(await){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

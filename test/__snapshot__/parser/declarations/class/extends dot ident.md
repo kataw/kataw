@@ -26,6 +26,7 @@ class v extends.foo {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

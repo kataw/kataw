@@ -26,6 +26,7 @@ type T<U> = U;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

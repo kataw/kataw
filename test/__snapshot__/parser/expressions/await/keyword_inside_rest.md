@@ -7,6 +7,7 @@ async r => result = [...{ x = await x }] = y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

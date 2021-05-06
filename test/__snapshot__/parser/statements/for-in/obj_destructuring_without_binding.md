@@ -26,6 +26,7 @@ for ({a: b.c} in d) e
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

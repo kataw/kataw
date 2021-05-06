@@ -13,6 +13,7 @@ foo(function f(){})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

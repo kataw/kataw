@@ -7,6 +7,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ delete typeof true
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

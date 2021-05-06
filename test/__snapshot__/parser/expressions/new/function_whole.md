@@ -7,6 +7,7 @@ new function(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class get {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {set: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

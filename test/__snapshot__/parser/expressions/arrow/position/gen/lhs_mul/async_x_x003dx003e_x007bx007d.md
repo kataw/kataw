@@ -11,6 +11,7 @@ async x => {} * x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {async * do(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

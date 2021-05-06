@@ -15,6 +15,7 @@ class C { static '0' }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

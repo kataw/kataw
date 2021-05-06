@@ -7,6 +7,7 @@ fuction *f() {  return await yield;  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

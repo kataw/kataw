@@ -11,6 +11,7 @@ class A extends super.foo {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

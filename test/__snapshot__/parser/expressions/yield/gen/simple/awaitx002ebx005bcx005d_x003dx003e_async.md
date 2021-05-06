@@ -11,6 +11,7 @@ await.b[c] => async
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

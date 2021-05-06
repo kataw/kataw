@@ -28,6 +28,7 @@ class X {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

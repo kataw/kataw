@@ -11,6 +11,7 @@ delete (async => {})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

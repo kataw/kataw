@@ -10,6 +10,7 @@ x ? ( (a, {}) => {} ) : baz;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

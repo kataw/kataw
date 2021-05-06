@@ -13,6 +13,7 @@ export class x {} foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

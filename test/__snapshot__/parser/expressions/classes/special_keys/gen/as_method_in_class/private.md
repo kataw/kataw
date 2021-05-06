@@ -11,6 +11,7 @@ class x {private(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

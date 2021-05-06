@@ -11,6 +11,7 @@ class x {static get switch(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

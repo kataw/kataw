@@ -11,6 +11,7 @@ do[ class x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static get private(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

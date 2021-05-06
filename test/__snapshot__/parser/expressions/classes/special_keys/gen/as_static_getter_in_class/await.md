@@ -11,6 +11,7 @@ class x {static get await(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

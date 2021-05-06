@@ -26,6 +26,7 @@ var a: (?number)[];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

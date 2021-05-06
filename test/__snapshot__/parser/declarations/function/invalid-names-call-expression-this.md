@@ -7,6 +7,7 @@ function fn() { (() => this)().#x }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -12,6 +12,7 @@ class B extends A {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

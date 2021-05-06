@@ -7,6 +7,7 @@ x = {10n: y}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

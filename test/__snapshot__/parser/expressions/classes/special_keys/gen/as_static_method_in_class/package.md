@@ -11,6 +11,7 @@ class x {static package(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

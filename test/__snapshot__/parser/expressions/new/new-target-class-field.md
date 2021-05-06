@@ -7,6 +7,7 @@ class C { aaa = new.target }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

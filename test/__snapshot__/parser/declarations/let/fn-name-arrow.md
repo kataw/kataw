@@ -7,6 +7,7 @@ let arrow = () => {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

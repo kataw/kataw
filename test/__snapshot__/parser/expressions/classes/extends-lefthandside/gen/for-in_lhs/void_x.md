@@ -11,6 +11,7 @@ for (void x in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

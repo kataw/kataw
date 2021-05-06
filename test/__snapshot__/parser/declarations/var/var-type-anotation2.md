@@ -15,6 +15,7 @@ var a: ?string[]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ for ({a: x + y} = z in obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

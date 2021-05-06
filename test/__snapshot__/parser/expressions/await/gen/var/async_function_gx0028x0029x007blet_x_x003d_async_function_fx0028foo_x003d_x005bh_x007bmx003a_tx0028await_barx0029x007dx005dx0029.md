@@ -11,6 +11,7 @@ var await; var f = (async function() { async function g(){let x = async function
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

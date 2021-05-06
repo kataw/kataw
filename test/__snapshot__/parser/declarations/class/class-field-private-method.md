@@ -7,6 +7,7 @@ class C { #aaa; f() { this.#aaa } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

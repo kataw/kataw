@@ -7,6 +7,7 @@ class Foo { constructor }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

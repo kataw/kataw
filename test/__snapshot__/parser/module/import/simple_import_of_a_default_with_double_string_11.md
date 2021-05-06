@@ -13,6 +13,7 @@ import {x, z as b} from "y"
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

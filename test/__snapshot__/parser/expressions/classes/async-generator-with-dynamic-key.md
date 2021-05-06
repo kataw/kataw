@@ -7,6 +7,7 @@ class x { async *[y](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

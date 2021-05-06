@@ -11,6 +11,7 @@ var A = class B {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

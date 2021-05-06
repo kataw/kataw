@@ -7,6 +7,7 @@ async function f(){ async(await x); }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ x = {[ a + b instanceof c ]: y}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static set throw(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

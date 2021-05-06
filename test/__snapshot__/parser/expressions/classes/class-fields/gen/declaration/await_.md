@@ -11,6 +11,7 @@ class C { await; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

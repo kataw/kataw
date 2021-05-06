@@ -13,6 +13,7 @@ class A {static set [foo](x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

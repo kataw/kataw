@@ -26,6 +26,7 @@ for (let.foo of x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

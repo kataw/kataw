@@ -7,6 +7,7 @@ try { } catch ([a] = []) { }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

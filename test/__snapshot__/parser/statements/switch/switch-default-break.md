@@ -15,6 +15,7 @@ switch(0) { default: function f(){ break; } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

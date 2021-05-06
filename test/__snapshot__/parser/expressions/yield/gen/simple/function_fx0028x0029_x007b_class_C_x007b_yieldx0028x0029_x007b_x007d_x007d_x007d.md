@@ -11,6 +11,7 @@ function f() { class C { yield() { } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

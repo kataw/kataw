@@ -11,6 +11,7 @@ new new x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

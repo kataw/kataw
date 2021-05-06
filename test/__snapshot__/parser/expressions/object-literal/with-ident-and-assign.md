@@ -7,6 +7,7 @@ let z = {...x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

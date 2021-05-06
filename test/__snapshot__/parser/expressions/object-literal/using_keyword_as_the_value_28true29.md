@@ -7,6 +7,7 @@ s = {s: true}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

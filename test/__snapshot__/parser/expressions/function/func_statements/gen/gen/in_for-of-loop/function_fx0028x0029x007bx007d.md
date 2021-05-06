@@ -11,6 +11,7 @@ for (a of b) function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

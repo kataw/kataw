@@ -11,6 +11,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

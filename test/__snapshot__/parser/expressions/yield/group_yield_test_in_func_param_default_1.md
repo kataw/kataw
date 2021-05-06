@@ -7,6 +7,7 @@ function f(x=(yield)=y){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

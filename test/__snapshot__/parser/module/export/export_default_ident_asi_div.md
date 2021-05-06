@@ -14,6 +14,7 @@ export default x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

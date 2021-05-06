@@ -7,6 +7,7 @@ x[super.foo]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

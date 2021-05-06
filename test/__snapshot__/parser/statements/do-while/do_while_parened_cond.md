@@ -7,6 +7,7 @@ do {} while ((""));
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

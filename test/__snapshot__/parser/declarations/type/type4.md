@@ -50,6 +50,7 @@ type T27 = ArgumentType<never>;  // any
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

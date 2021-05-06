@@ -7,6 +7,7 @@ s = {"foo": yield /x/}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

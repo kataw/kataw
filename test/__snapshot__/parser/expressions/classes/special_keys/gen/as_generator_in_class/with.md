@@ -11,6 +11,7 @@ class x {* with(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

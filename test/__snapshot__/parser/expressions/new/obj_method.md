@@ -7,6 +7,7 @@ foo({bar(){ new.target }})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -10,6 +10,7 @@ x; })
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

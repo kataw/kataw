@@ -13,6 +13,7 @@ import {'\uD800' as x} from 'foo'
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

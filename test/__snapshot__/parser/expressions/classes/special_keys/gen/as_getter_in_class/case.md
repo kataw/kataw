@@ -11,6 +11,7 @@ class x {get case(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

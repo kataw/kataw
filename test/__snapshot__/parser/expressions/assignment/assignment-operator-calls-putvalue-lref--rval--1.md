@@ -35,6 +35,7 @@ Object.defineProperty(this, "x", {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

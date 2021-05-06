@@ -11,6 +11,7 @@ a instanceof b > c
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

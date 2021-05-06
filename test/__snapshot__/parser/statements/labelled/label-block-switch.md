@@ -7,6 +7,7 @@ a: { b: switch(x) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static set switch(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

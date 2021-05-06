@@ -7,6 +7,7 @@ let y = async x => { await x; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ continue: x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

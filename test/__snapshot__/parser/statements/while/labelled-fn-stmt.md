@@ -7,6 +7,7 @@ while (false) label1: label2: function f() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

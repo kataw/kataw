@@ -13,6 +13,7 @@ for(x in(t&{}=y))x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

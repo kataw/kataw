@@ -12,6 +12,7 @@ declare function foo(): void
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

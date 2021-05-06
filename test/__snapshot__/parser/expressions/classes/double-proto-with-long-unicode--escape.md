@@ -7,6 +7,7 @@ class x { "construct\u{6f}r"(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

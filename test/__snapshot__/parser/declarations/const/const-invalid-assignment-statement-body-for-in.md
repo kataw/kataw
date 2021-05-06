@@ -7,6 +7,7 @@ for (const x in [1, 2, 3]) { x++ }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

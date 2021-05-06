@@ -26,6 +26,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

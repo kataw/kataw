@@ -7,6 +7,7 @@ while (x) continue
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

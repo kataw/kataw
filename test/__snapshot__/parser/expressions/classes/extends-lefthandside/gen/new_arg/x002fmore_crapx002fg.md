@@ -11,6 +11,7 @@ new /more crap/g
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

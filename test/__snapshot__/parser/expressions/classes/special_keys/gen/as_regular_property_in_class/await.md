@@ -11,6 +11,7 @@ class x {await: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

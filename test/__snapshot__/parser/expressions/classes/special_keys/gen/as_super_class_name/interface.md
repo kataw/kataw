@@ -11,6 +11,7 @@ class x extends interface {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

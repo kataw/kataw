@@ -7,6 +7,7 @@ new new A().foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

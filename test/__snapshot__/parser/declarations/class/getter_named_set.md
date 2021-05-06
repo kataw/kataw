@@ -26,6 +26,7 @@ class A {get set(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

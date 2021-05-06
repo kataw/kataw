@@ -15,6 +15,7 @@ type Foo<T> = Bar<T>
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

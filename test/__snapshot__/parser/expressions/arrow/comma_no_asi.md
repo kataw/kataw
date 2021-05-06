@@ -7,6 +7,7 @@ async x=>x, y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

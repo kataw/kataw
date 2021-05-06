@@ -7,6 +7,7 @@ async + 10;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

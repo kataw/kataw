@@ -11,6 +11,7 @@ x = {[ a / b + c ]: y}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

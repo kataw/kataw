@@ -13,6 +13,7 @@ class x { "prot\u{6f}type"(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

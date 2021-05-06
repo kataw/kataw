@@ -7,6 +7,7 @@ arr?.[i + 1]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

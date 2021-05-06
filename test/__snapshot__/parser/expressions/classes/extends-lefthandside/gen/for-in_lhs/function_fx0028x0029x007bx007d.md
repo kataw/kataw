@@ -11,6 +11,7 @@ for (function f(){} in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

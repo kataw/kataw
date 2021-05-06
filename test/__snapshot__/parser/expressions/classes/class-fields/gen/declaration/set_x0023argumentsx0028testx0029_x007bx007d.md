@@ -11,6 +11,7 @@ class C { set #arguments(test) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

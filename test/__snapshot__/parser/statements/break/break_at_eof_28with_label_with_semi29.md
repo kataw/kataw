@@ -7,6 +7,7 @@ foo: break foo;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

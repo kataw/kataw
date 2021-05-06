@@ -7,6 +7,7 @@ let async => async
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

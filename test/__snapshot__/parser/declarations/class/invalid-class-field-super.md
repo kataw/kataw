@@ -22,6 +22,7 @@ class C { [super.bbb] = 0 };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ class x {static *[y](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

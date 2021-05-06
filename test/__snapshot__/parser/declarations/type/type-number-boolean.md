@@ -15,6 +15,7 @@ type A = { [string | boolean]: number };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

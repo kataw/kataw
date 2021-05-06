@@ -15,6 +15,7 @@ class Foo<T> extends mixin(Bar) { }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

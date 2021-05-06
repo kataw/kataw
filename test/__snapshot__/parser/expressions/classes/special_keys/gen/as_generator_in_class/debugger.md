@@ -11,6 +11,7 @@ class x {* debugger(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

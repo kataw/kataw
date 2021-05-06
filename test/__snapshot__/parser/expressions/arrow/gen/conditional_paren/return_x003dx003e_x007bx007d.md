@@ -11,6 +11,7 @@ bar ? baz : ( return => {} );
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

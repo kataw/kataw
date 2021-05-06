@@ -15,6 +15,7 @@ class Foo { x = arguments }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

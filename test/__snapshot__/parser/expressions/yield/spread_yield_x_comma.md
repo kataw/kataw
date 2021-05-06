@@ -7,6 +7,7 @@ function *g() {x={     ...yield x,    };}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

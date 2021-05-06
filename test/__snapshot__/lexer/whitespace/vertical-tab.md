@@ -13,6 +13,7 @@ left|right
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

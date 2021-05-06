@@ -11,6 +11,7 @@ let x = function f(foo = await bar){
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ var x = { *test () { yield *v } };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

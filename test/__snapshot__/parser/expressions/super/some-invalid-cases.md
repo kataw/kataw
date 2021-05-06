@@ -26,6 +26,7 @@ let x = { foo(){ super(); } };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

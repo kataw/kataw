@@ -13,6 +13,7 @@ a *= b
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

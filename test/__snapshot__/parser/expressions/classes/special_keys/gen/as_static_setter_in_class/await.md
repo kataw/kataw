@@ -11,6 +11,7 @@ class x {static set await(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

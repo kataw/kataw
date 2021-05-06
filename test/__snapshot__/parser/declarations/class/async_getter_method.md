@@ -26,6 +26,7 @@ class A {async get 7(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

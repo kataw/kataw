@@ -8,6 +8,7 @@ var B = class extends A {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

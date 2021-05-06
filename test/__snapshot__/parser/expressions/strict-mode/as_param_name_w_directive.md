@@ -7,6 +7,7 @@ f = (interface) => { "use strict"; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -12,6 +12,7 @@ function* foo() {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

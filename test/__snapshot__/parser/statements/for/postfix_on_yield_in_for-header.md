@@ -26,6 +26,7 @@ for (yield[g]--;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

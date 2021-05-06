@@ -13,6 +13,7 @@ import {} from "foo";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

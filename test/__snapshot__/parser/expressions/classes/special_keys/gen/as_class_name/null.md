@@ -11,6 +11,7 @@ class null {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

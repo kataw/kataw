@@ -11,6 +11,7 @@ class if {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

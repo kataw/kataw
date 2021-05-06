@@ -17,6 +17,7 @@ let protecte\u0064;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

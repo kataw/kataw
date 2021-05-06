@@ -26,6 +26,7 @@ for ({a: b.c}[x] of d) e
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ new (a,b) => x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

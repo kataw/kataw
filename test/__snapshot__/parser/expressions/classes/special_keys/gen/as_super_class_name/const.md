@@ -11,6 +11,7 @@ class x extends const {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

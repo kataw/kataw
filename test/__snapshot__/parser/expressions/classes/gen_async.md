@@ -13,6 +13,7 @@ class x { async *prototype(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

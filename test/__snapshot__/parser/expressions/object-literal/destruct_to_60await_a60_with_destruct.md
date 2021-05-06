@@ -7,6 +7,7 @@ s = {"foo": await a = x} = x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

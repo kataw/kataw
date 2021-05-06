@@ -7,6 +7,7 @@ class A {a(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

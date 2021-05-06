@@ -11,6 +11,7 @@ new delete x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

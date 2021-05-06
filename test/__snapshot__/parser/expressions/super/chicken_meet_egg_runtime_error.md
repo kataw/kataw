@@ -7,6 +7,7 @@ class x extends y { constructor() { super(this); } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -19,6 +19,7 @@ class C { foo() { this.#a = 1; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

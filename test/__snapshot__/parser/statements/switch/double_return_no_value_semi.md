@@ -7,6 +7,7 @@ function f(){   return;return    };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

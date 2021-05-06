@@ -8,6 +8,7 @@ async function f(){ await foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

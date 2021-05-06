@@ -11,6 +11,7 @@ await => async.await[async / ((async) => foo.bar)]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

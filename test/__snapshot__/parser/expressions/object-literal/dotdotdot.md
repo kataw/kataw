@@ -7,6 +7,7 @@ var { ...{ x = 5 } } = {x : 1};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

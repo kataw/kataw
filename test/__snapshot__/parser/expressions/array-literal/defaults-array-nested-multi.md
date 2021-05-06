@@ -26,6 +26,7 @@ var [x = 10, [ z ]] = a;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

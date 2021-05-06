@@ -34,6 +34,7 @@ type B = Foo<
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

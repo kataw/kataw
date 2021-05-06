@@ -26,6 +26,7 @@ for (var a=1;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

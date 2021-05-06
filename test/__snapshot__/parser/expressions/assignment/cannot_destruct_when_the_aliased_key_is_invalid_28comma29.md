@@ -13,6 +13,7 @@ x, {a: 1} = [];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

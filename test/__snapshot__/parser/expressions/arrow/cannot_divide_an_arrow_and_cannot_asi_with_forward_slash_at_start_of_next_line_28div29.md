@@ -8,6 +8,7 @@ _ => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

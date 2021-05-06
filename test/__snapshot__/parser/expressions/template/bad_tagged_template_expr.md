@@ -7,6 +7,7 @@ x`foo ${a b} bar`
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

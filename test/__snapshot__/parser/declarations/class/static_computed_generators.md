@@ -26,6 +26,7 @@ class x { static *[expr](){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

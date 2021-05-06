@@ -11,6 +11,7 @@ function * gen() { (yield) ? yield : yield }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

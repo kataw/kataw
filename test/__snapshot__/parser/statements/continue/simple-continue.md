@@ -7,6 +7,7 @@ loop: while (x) { break loop; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

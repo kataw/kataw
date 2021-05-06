@@ -11,6 +11,7 @@ for (super.foo in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

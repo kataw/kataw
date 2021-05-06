@@ -13,6 +13,7 @@ xxx\A
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

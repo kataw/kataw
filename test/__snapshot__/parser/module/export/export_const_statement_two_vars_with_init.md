@@ -13,6 +13,7 @@ export const x = 10, y = 20
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

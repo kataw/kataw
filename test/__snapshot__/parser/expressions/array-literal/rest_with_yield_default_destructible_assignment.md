@@ -15,6 +15,7 @@ result = [...{ x = yield }] = y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

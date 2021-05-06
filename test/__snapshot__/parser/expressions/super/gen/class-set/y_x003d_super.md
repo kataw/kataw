@@ -11,6 +11,7 @@ class C { set x(_) { y = super } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

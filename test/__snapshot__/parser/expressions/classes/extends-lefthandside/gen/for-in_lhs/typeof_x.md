@@ -11,6 +11,7 @@ for (typeof x in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

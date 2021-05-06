@@ -11,6 +11,7 @@ class break {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

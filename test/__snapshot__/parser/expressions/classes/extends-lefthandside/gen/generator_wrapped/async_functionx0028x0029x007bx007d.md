@@ -13,6 +13,7 @@ function *P(){
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

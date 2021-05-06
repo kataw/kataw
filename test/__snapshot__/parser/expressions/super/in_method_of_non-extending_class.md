@@ -7,6 +7,7 @@ class x { fo(){ return function() { super.foo; } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

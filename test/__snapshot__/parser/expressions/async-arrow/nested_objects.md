@@ -7,6 +7,7 @@ async ({ident: {x: y}})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

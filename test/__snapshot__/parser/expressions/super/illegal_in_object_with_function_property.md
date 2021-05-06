@@ -7,6 +7,7 @@ x={ foo: function(){ super.foo; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

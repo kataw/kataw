@@ -7,6 +7,7 @@ class C { static set #aaa(x){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

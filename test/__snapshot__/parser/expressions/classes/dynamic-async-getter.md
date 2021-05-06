@@ -7,6 +7,7 @@ class A {async get [foo](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ class X {    async constructor() {}   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

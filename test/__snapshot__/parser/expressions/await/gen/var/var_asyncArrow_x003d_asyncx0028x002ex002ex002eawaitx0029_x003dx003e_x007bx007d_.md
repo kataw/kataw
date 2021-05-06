@@ -11,6 +11,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

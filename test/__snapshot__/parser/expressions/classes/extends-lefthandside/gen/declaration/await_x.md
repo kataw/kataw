@@ -11,6 +11,7 @@ class A extends await x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

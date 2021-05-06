@@ -7,6 +7,7 @@ async function f(){ return; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

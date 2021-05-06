@@ -11,6 +11,7 @@ class x {* public(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

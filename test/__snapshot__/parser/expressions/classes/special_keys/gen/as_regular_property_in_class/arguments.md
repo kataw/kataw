@@ -11,6 +11,7 @@ class x {arguments: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -27,6 +27,7 @@ type T1 = number;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

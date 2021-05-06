@@ -7,6 +7,7 @@ x={...true} = x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

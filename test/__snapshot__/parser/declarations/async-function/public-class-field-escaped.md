@@ -26,6 +26,7 @@ class C { \\u0041 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

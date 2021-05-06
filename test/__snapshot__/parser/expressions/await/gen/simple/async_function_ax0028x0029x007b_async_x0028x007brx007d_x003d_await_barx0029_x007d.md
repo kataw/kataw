@@ -11,6 +11,7 @@ async function a(){     async ({r} = await bar);     }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

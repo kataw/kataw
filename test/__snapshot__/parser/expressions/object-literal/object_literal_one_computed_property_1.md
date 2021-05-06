@@ -7,6 +7,7 @@ x({[a]:b}=obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

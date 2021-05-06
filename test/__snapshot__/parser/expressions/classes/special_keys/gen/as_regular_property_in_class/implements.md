@@ -11,6 +11,7 @@ class x {implements: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

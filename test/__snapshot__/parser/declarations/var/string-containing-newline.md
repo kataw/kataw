@@ -6,6 +6,7 @@
 var str = "\n";
 `````
 ## Output
+
 ### CST
 
 ```javascript

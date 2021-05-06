@@ -11,6 +11,7 @@ class x {static in(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

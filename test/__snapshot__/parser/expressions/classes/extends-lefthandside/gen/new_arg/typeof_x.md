@@ -11,6 +11,7 @@ new typeof x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

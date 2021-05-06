@@ -11,6 +11,7 @@ function f() { var await; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

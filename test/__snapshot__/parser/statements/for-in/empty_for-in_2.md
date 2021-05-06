@@ -15,6 +15,7 @@ for (var a in b);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

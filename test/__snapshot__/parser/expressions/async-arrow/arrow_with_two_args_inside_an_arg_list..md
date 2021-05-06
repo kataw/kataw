@@ -7,6 +7,7 @@ f((async (a, b) => a + b));
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ let p/
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {async this(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

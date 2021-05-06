@@ -7,6 +7,7 @@ x = {0xabc(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

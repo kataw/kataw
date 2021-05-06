@@ -10,6 +10,7 @@ fn = function() {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

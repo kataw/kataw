@@ -13,6 +13,7 @@ foo(async function(){})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

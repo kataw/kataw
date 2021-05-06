@@ -7,6 +7,7 @@ bar ? (=> 0) : baz;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

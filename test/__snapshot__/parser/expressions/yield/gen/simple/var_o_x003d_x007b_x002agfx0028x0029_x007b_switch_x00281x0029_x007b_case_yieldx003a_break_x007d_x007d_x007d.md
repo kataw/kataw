@@ -11,6 +11,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

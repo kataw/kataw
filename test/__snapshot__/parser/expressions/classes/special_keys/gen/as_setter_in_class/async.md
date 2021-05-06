@@ -11,6 +11,7 @@ class x {set async(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ async () => {  \u0069nstanceof = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

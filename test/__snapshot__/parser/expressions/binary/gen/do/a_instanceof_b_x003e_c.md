@@ -11,6 +11,7 @@ do a instanceof b > c while (x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

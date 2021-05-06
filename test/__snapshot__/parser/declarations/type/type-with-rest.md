@@ -15,6 +15,7 @@ type C = { ...A&B };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ x = {10(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

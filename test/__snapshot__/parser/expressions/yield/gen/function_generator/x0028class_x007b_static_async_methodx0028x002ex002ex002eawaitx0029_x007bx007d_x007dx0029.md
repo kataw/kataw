@@ -11,6 +11,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

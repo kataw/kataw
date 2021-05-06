@@ -7,6 +7,7 @@ throw {x} catch (x = y) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

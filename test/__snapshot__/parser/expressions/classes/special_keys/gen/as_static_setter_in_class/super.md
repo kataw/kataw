@@ -11,6 +11,7 @@ class x {static set super(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

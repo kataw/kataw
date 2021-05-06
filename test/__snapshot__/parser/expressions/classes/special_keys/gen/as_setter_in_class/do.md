@@ -11,6 +11,7 @@ class x {set do(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

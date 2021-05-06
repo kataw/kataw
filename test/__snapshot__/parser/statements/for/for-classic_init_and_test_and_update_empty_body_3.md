@@ -26,6 +26,7 @@ for (a * b + c * d;b;c);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

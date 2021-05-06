@@ -15,6 +15,7 @@ x; {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

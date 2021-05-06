@@ -11,6 +11,7 @@ class C { async *#arguments() {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

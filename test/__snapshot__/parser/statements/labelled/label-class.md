@@ -7,6 +7,7 @@ label: class x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

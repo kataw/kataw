@@ -11,6 +11,7 @@ class x {const: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

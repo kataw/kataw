@@ -7,6 +7,7 @@ yield ** x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

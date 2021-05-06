@@ -11,6 +11,7 @@ function *f(await){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

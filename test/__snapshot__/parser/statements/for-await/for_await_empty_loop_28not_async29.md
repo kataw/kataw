@@ -7,6 +7,7 @@ for await (;;) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

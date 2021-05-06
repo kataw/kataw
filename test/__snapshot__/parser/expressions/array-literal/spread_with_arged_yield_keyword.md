@@ -26,6 +26,7 @@ function *f(){ return [...yield x]; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ function f(x = await){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

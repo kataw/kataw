@@ -7,6 +7,7 @@ function f() { for await (x of y) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

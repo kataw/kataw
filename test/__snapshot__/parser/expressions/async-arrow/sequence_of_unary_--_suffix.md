@@ -7,6 +7,7 @@ async (x--, y) => x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

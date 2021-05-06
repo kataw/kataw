@@ -11,6 +11,7 @@ class C { constructor() { y = super } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

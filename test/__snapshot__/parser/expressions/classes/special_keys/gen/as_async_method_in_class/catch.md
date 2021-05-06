@@ -11,6 +11,7 @@ class x {async catch(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

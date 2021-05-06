@@ -11,6 +11,7 @@ x = {arrow: async (x, y) => ok}.y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -8,6 +8,7 @@ let gen = function*() {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

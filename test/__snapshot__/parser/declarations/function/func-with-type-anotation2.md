@@ -15,6 +15,7 @@ function foo(numVal: any, otherVal: mixed){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

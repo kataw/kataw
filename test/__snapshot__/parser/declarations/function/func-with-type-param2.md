@@ -15,6 +15,7 @@ a=function<T,S>() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

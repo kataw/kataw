@@ -11,6 +11,7 @@ function foo(yield) {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

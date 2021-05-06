@@ -7,6 +7,7 @@ wrap({async 'foo'(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

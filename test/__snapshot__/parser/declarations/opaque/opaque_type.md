@@ -26,6 +26,7 @@ opaque type ID = number;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

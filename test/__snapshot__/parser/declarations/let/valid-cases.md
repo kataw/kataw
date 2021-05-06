@@ -20,6 +20,7 @@ let {foo=3} = {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

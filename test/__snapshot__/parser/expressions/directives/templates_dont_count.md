@@ -7,6 +7,7 @@ function f(){ `use strict`; with (x) y; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

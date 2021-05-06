@@ -11,6 +11,7 @@ function* gf() { var yield; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

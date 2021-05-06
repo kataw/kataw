@@ -11,6 +11,7 @@ class package {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

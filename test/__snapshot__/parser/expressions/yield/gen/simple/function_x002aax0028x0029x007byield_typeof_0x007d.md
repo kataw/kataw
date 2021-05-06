@@ -11,6 +11,7 @@ function *a(){yield typeof 0}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

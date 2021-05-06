@@ -7,6 +7,7 @@ function x(){""[new.target]}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

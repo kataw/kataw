@@ -26,6 +26,7 @@ var ];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

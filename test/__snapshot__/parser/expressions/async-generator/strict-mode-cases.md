@@ -31,6 +31,7 @@ function * x() { "use strict";  yield: 34; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

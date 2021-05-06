@@ -7,6 +7,7 @@ f(new /z/)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

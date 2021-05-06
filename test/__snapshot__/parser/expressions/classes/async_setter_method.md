@@ -13,6 +13,7 @@ class A {async set 11(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

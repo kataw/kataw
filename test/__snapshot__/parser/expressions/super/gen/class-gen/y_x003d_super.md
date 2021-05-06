@@ -11,6 +11,7 @@ class C { *method() { y = super } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

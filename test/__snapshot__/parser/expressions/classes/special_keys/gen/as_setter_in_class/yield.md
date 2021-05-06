@@ -11,6 +11,7 @@ class x {set yield(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

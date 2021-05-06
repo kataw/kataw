@@ -11,6 +11,7 @@ function not_gen() { yield }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

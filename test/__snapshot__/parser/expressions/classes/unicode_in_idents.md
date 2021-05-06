@@ -14,6 +14,7 @@ class x { \u0063onstructor(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

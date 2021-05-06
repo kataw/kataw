@@ -13,6 +13,7 @@ export default class x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

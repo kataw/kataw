@@ -26,6 +26,7 @@ for (const [let] in obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

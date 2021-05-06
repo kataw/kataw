@@ -11,6 +11,7 @@ if (x) async function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

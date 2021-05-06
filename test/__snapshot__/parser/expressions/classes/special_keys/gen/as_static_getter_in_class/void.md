@@ -11,6 +11,7 @@ class x {static get void(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

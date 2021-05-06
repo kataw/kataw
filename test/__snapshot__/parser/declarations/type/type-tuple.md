@@ -15,6 +15,7 @@ type A = { [string]: number };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

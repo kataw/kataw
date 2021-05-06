@@ -7,6 +7,7 @@ for (const {...x} in y){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ a = async function() { g(await) }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

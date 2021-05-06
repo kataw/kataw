@@ -16,6 +16,7 @@ wrap({0o4432(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

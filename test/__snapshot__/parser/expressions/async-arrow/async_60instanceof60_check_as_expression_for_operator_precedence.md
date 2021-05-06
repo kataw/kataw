@@ -7,6 +7,7 @@ f(a + async instanceof b)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

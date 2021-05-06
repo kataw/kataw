@@ -26,6 +26,7 @@ class A {"x"){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

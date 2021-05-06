@@ -7,6 +7,7 @@ if (foo) a; if (bar) b; else c;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

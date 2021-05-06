@@ -7,6 +7,7 @@ let o = {await(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

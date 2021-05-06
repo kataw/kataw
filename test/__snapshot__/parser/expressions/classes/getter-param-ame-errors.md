@@ -29,6 +29,7 @@ class C { get name(private) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

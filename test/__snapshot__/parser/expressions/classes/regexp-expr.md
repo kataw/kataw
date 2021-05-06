@@ -8,6 +8,7 @@ typeof class{}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

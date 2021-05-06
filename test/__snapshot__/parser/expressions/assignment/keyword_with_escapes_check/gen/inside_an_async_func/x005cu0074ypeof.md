@@ -11,6 +11,7 @@ async () => {  \u0074ypeof = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

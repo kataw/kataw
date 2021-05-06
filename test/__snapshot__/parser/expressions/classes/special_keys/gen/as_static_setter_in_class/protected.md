@@ -11,6 +11,7 @@ class x {static set protected(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

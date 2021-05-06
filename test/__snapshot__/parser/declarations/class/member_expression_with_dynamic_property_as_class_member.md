@@ -26,6 +26,7 @@ class w {  t[x](){}  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

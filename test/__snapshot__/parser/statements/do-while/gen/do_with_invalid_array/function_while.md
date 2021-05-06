@@ -11,6 +11,7 @@ do while [catch] function while
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

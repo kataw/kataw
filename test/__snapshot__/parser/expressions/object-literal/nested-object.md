@@ -7,6 +7,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

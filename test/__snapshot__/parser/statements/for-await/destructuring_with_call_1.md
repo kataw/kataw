@@ -15,6 +15,7 @@ for ([a.b](foo) of c) d
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

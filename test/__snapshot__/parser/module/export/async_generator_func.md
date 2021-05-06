@@ -13,6 +13,7 @@ export default async function *f(){} foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

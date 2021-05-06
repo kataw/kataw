@@ -13,6 +13,7 @@ export function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

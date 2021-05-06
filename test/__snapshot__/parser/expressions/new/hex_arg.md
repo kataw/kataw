@@ -7,6 +7,7 @@ new 0x2.__proto__.constructor
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

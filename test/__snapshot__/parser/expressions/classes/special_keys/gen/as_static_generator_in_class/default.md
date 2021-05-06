@@ -11,6 +11,7 @@ class x {static * default(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

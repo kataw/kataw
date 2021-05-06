@@ -11,6 +11,7 @@ class x {static async switch(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

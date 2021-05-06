@@ -13,6 +13,7 @@ x[a
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

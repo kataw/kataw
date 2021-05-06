@@ -11,6 +11,7 @@ foo(async async => {})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

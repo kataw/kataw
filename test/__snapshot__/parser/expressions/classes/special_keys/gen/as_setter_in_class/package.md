@@ -11,6 +11,7 @@ class x {set package(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

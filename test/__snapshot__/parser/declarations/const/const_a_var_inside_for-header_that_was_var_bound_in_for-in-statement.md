@@ -26,6 +26,7 @@ for (const x in obj) { var x = 13 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

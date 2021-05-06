@@ -7,6 +7,7 @@ class x {async *f(await){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

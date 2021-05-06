@@ -26,6 +26,7 @@ class A {async foo(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x extends super {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

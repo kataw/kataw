@@ -11,6 +11,7 @@ class x {get const(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

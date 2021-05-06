@@ -36,6 +36,7 @@ class C { f(){ this.#a } #a; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

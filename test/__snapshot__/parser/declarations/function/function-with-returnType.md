@@ -26,6 +26,7 @@ function foo():number{}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

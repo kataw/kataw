@@ -11,6 +11,7 @@ class x {get typeof(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

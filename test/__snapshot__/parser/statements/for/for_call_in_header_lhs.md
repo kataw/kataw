@@ -26,6 +26,7 @@ for (x(x in t);;) x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

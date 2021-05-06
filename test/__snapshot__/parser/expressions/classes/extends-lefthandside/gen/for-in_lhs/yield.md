@@ -11,6 +11,7 @@ for (yield in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

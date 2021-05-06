@@ -26,6 +26,7 @@ for ({x,...x}=x in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

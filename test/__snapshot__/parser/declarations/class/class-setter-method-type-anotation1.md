@@ -15,6 +15,7 @@ class Foo {set fooProp(value:number):void{}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

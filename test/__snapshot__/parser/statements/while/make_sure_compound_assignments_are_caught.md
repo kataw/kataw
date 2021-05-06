@@ -7,6 +7,7 @@ while (function* () {} += x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ class default
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

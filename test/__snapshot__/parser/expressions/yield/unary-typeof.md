@@ -7,6 +7,7 @@ function *f() {  return typeof yield foo;  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ await = 16
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

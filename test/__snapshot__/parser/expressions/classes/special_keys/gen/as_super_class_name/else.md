@@ -11,6 +11,7 @@ class x extends else {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

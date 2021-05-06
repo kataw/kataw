@@ -26,6 +26,7 @@ let {x:y=z}, {a:b=c} = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

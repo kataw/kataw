@@ -7,6 +7,7 @@ class A {static a(x=new.target){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

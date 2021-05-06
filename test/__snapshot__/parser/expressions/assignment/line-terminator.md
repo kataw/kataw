@@ -12,6 +12,7 @@ true;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

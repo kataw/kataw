@@ -15,6 +15,7 @@ type foo<number> = string;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

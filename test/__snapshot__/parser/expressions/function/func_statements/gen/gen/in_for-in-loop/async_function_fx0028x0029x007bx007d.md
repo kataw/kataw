@@ -11,6 +11,7 @@ for (a in b) async function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

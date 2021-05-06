@@ -29,6 +29,7 @@ class C {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

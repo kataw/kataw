@@ -11,6 +11,7 @@ do( while try this and !foo while
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

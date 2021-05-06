@@ -13,6 +13,7 @@ class x {async foo(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

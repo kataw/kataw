@@ -7,6 +7,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

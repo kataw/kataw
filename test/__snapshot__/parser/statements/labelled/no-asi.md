@@ -7,6 +7,7 @@ debugger /foo/
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

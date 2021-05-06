@@ -21,6 +21,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

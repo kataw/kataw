@@ -11,6 +11,7 @@ new await x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -26,6 +26,7 @@ function* bar() { yield class {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

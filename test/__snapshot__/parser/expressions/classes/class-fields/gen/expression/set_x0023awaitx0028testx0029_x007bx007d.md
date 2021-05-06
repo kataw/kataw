@@ -11,6 +11,7 @@ class C extends Base { set #await(test) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

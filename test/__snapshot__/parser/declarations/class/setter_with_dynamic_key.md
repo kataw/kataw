@@ -26,6 +26,7 @@ class x { static set [y](z){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

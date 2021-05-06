@@ -7,6 +7,7 @@ while (true) { continue /* Multiline\nComment */there; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

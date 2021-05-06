@@ -11,6 +11,7 @@ class A extends typeof x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

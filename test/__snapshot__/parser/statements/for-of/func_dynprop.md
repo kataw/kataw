@@ -26,6 +26,7 @@ for (function(){ }[foo] of x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

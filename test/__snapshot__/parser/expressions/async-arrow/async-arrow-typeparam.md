@@ -18,6 +18,7 @@ async (): string => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

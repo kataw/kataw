@@ -37,6 +37,7 @@ var p10 = ([{ value, done }]) => { };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

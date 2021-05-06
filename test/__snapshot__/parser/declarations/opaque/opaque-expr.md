@@ -15,6 +15,7 @@ opaque += 4;
 { allowTypes : true }
 `````
 ## Output
+
 ### CST
 
 ```javascript

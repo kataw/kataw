@@ -26,6 +26,7 @@ for (/x/g + b in obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

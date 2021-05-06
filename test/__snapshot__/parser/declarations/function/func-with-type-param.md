@@ -15,6 +15,7 @@ function foo<T>() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

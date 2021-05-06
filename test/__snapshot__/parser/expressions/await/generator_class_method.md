@@ -7,6 +7,7 @@ class x {*f(await){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

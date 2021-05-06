@@ -7,6 +7,7 @@ obj?.a?.b
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

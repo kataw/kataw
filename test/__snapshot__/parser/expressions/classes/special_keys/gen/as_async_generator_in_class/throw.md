@@ -11,6 +11,7 @@ class x {async * throw(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

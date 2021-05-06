@@ -7,6 +7,7 @@ async function f(){   function fh([+ await x]) { }   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

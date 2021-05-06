@@ -13,6 +13,7 @@ x => y {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

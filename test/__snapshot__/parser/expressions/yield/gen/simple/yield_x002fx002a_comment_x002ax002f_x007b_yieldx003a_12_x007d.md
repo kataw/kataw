@@ -11,6 +11,7 @@ yield /* comment */ { yield: 12 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

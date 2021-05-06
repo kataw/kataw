@@ -11,6 +11,7 @@ class x extends yield {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

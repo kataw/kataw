@@ -7,6 +7,7 @@ foo: for (x of y) continue foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

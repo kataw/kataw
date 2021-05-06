@@ -7,6 +7,7 @@ function* g() { let x = yield 3; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

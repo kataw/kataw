@@ -11,6 +11,7 @@ async () => {  \u0064ebugger = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

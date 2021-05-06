@@ -7,6 +7,7 @@ await - 25
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

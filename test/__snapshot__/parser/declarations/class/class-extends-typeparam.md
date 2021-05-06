@@ -15,6 +15,7 @@ class Foo<T> extends Bar<T> { }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

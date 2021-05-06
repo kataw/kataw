@@ -15,6 +15,7 @@ _ => _
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

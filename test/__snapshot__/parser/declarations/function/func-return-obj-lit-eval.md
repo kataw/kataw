@@ -7,6 +7,7 @@ function foo() { return {eval} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

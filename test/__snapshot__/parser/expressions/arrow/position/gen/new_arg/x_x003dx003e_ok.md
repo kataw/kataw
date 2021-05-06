@@ -11,6 +11,7 @@ new x => ok
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

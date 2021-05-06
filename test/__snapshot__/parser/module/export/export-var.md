@@ -13,6 +13,7 @@ export var bar;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

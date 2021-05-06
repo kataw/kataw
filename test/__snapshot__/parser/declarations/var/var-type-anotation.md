@@ -15,6 +15,7 @@ var foo = ((): number => bar);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ while (false) const x = null;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

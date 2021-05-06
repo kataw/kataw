@@ -11,6 +11,7 @@ class C { set #await(test) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

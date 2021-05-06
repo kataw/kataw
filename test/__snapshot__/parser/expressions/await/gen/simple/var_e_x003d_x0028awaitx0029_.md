@@ -11,6 +11,7 @@ var e = (await);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

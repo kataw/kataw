@@ -7,6 +7,7 @@ async () => { \u{61}wait: x }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

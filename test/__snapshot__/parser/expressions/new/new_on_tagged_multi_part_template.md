@@ -7,6 +7,7 @@ new Foo`a${b}c${c}e`
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ x = { foo(){ [a = super.foo] = c; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

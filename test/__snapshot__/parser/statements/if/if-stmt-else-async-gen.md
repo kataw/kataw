@@ -7,6 +7,7 @@ if (false) ; else async function* f() {  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

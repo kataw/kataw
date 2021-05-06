@@ -7,6 +7,7 @@ delete (((((foo(await)))))).bar
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

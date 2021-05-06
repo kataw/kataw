@@ -15,6 +15,7 @@ async function foo({x}: { x: string; }) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

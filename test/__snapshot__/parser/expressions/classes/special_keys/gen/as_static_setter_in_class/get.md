@@ -11,6 +11,7 @@ class x {static set get(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

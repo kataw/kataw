@@ -7,6 +7,7 @@ a: { a: x }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static set void(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

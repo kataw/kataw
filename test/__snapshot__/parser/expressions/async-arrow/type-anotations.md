@@ -31,6 +31,7 @@ async (...[x]?: string, a?) => {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

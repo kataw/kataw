@@ -7,6 +7,7 @@ if (true) {} else const x = 1;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

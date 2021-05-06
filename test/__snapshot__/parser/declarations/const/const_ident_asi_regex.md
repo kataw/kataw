@@ -27,6 +27,7 @@ const q
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

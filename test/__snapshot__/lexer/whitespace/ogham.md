@@ -13,6 +13,7 @@ left@{x1680}@right
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

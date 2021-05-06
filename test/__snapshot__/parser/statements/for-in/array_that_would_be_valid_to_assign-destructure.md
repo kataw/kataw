@@ -26,6 +26,7 @@ for ([x.y] in obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

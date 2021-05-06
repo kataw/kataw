@@ -11,6 +11,7 @@ class x extends try {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

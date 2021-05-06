@@ -7,6 +7,7 @@ wrap({get(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

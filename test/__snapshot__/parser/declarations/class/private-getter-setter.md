@@ -42,6 +42,7 @@ class Foo {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

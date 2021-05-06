@@ -26,6 +26,7 @@ const [foo];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

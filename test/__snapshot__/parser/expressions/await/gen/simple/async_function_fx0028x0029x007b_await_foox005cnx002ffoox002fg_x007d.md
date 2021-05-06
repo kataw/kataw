@@ -11,6 +11,7 @@ async function f(){ await foo\n/foo/g }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

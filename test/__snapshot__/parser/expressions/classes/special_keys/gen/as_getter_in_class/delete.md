@@ -11,6 +11,7 @@ class x {get delete(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

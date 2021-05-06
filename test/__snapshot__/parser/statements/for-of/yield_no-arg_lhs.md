@@ -26,6 +26,7 @@ function *f(){   for (yield of y);   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

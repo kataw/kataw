@@ -11,6 +11,7 @@ x = {[ a instanceof b > c ]: y}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ var foo = (async (): number => bar);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

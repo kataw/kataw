@@ -11,6 +11,7 @@ inst\u0061nceof = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

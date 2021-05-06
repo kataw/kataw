@@ -11,6 +11,7 @@ class A extends void x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

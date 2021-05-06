@@ -26,6 +26,7 @@ opaque Ident: Type = SuperType;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

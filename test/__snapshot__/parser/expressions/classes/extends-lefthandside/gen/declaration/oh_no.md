@@ -11,6 +11,7 @@ class A extends oh,no {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

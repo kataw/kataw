@@ -26,6 +26,7 @@ var a: -z
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

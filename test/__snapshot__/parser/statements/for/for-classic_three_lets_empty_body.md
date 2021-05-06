@@ -6,6 +6,7 @@
 for (let a,b,c;;);
 `````
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ delete (((((foo(yield)))))).bar
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ result = {} = vals;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

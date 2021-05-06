@@ -16,6 +16,7 @@ obj.c\u0061se = 42;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

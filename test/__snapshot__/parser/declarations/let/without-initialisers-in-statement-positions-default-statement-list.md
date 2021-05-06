@@ -7,6 +7,7 @@ switch (true) { default: let x; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -10,6 +10,7 @@ x = { method(test: string) { } };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

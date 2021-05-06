@@ -15,6 +15,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

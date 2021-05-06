@@ -11,6 +11,7 @@ class x {static async finally(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

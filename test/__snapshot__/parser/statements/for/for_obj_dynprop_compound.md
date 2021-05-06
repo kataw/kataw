@@ -15,6 +15,7 @@ for ({}.u |= c;;) x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

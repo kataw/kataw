@@ -26,6 +26,7 @@ const [,,] = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

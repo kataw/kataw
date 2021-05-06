@@ -11,6 +11,7 @@ eval => { 'use strict'; 0 } , bar;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

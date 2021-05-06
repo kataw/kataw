@@ -7,6 +7,7 @@ switch (true) { case true: const x = 1; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

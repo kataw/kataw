@@ -15,6 +15,7 @@ class C { get; set; static; async }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

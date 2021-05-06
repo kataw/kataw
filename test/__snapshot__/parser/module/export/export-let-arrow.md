@@ -13,6 +13,7 @@ export let foo = async () => this
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

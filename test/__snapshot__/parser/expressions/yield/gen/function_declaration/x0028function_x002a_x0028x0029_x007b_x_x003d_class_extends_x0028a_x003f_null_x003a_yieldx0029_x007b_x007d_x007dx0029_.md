@@ -11,6 +11,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

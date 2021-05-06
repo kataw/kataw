@@ -15,6 +15,7 @@ var foo: null
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

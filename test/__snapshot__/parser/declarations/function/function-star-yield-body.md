@@ -7,6 +7,7 @@ function* bar() { yield /re/ }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

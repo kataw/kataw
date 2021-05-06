@@ -7,6 +7,7 @@ class x { async *prot\u006ftype(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {function: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

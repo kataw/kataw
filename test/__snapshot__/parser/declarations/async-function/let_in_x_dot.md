@@ -26,6 +26,7 @@ let.dot in x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

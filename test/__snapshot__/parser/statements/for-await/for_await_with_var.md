@@ -7,6 +7,7 @@ async function f() { for await (var x of y) {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

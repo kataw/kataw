@@ -11,6 +11,7 @@ for (fooo.bar in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

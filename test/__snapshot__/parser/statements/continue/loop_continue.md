@@ -7,6 +7,7 @@ while(z) continue foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

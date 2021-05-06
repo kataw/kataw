@@ -11,6 +11,7 @@ class x {* instanceof(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

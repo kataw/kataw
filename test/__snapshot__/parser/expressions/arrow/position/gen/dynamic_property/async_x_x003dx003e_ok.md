@@ -11,6 +11,7 @@ async x => ok[foo]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

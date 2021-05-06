@@ -11,6 +11,7 @@ for (arguments in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

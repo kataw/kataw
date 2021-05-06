@@ -11,6 +11,7 @@ call(await)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

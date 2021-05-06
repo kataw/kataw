@@ -7,6 +7,7 @@ class A {*=f(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

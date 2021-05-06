@@ -26,6 +26,7 @@ for ([].bar in obj);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

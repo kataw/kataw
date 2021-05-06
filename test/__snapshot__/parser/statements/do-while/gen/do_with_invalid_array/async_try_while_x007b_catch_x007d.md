@@ -11,6 +11,7 @@ do while [catch] async try while { catch }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

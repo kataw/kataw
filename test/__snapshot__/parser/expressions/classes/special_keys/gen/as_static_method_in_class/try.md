@@ -11,6 +11,7 @@ class x {static try(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

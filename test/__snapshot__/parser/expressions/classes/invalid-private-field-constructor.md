@@ -9,6 +9,7 @@ class C { static #constructor }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

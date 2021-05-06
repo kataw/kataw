@@ -51,6 +51,7 @@ for (;;) {}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

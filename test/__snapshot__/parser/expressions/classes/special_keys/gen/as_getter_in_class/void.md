@@ -11,6 +11,7 @@ class x {get void(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

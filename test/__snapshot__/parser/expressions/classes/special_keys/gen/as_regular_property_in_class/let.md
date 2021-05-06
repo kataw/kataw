@@ -11,6 +11,7 @@ class x {let: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

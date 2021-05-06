@@ -16,6 +16,7 @@ var [foo=a] = arr;
 
 
 ## Output
+
 ### CST
 
 ```javascript

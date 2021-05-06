@@ -13,6 +13,7 @@ export default null;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

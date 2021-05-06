@@ -15,6 +15,7 @@ function *f(){  class x{*[yield](a){}}  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

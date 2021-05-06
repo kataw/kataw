@@ -11,6 +11,7 @@ class x {async enum(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

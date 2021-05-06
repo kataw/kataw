@@ -7,6 +7,7 @@ interface: x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

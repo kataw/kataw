@@ -26,6 +26,7 @@ class x{   static async static(){}    }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

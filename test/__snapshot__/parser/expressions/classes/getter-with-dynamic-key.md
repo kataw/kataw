@@ -7,6 +7,7 @@ class x { static get [y](){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

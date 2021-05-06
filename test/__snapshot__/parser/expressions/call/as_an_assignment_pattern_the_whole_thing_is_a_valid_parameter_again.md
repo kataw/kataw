@@ -7,6 +7,7 @@ async({c=3} = {})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

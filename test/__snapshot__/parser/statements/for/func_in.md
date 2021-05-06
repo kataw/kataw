@@ -26,6 +26,7 @@ for (function(){ a in b; };;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

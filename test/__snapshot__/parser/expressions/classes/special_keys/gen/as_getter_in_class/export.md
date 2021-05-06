@@ -11,6 +11,7 @@ class x {get export(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

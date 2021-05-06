@@ -11,6 +11,7 @@ var [...await f] = [];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

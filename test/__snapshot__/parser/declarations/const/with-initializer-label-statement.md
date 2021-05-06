@@ -7,6 +7,7 @@ label: const x = 1;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

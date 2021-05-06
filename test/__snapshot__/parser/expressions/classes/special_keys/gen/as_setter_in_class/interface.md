@@ -11,6 +11,7 @@ class x {set interface(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

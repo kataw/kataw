@@ -7,6 +7,7 @@ function call(foo= 5 + (await bar())){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

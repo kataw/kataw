@@ -10,6 +10,7 @@ var x = {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

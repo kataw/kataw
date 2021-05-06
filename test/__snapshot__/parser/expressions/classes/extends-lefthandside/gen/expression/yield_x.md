@@ -13,6 +13,7 @@ x {})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

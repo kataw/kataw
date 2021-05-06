@@ -26,6 +26,7 @@ class x { static / foo(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

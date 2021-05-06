@@ -11,6 +11,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

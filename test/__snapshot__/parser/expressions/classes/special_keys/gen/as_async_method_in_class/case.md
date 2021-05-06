@@ -11,6 +11,7 @@ class x {async case(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

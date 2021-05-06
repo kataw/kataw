@@ -7,6 +7,7 @@ class A {get foo(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

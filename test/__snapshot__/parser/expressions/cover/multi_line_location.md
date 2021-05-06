@@ -10,6 +10,7 @@ a = (
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

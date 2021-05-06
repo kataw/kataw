@@ -7,6 +7,7 @@ result = {...rest} = 69;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

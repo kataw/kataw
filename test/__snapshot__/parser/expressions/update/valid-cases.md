@@ -15,6 +15,7 @@ new foo().bar++;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

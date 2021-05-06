@@ -17,6 +17,7 @@ var z = x + x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ y/[]=x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

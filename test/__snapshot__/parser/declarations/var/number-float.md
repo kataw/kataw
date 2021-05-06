@@ -15,6 +15,7 @@ var a: 123.0
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class A extends fooo`bar` {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

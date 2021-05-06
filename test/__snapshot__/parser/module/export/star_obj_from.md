@@ -13,6 +13,7 @@ export *, {bar} from 'bar';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

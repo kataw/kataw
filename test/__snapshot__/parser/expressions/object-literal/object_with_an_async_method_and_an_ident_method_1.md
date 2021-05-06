@@ -7,6 +7,7 @@ x({async foo(){}, bar(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

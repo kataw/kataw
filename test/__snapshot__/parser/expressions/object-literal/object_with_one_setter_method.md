@@ -7,6 +7,7 @@ wrap({set [foo](a){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

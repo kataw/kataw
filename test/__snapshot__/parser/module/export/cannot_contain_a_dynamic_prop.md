@@ -13,6 +13,7 @@ var foo; export {[foo]}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

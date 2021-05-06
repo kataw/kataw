@@ -11,6 +11,7 @@ class x extends protected {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

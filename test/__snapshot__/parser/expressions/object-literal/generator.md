@@ -7,6 +7,7 @@ x= { *prototype(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

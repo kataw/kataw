@@ -11,6 +11,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

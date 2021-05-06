@@ -26,6 +26,7 @@ for ("foo"[x] of c) d;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

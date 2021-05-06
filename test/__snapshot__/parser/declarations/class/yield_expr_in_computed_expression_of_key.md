@@ -26,6 +26,7 @@ class x{[yield](a){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

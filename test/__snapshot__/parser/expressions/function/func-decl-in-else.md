@@ -8,6 +8,7 @@ else function *f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

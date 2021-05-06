@@ -26,6 +26,7 @@ for ({x=y}=x of x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

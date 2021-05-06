@@ -7,6 +7,7 @@ class A {*foo(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

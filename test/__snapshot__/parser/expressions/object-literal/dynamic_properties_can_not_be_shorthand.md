@@ -7,6 +7,7 @@ call({[x]})
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

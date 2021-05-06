@@ -7,6 +7,7 @@ log({foo: [bar]});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

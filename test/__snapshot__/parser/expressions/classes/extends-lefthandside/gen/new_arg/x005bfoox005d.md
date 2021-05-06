@@ -11,6 +11,7 @@ new [foo]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

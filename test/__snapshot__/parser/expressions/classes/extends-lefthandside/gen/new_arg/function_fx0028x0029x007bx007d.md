@@ -11,6 +11,7 @@ new function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

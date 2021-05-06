@@ -11,6 +11,7 @@ class x {static catch(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

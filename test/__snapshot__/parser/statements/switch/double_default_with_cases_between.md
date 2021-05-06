@@ -7,6 +7,7 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

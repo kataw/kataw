@@ -11,6 +11,7 @@ class return {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

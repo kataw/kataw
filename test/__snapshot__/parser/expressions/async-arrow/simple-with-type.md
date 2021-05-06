@@ -15,6 +15,7 @@ async (s: any) => x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

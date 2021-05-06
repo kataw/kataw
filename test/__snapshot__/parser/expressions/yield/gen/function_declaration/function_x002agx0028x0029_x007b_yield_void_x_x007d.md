@@ -11,6 +11,7 @@ function not_gen() { function *g() { yield void x } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

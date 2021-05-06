@@ -11,6 +11,7 @@ class x {set default(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

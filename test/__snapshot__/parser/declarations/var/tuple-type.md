@@ -22,6 +22,7 @@ var x: [number, string] = [123, "aladdin"];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

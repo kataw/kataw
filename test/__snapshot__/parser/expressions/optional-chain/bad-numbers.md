@@ -7,6 +7,7 @@ a?.200
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

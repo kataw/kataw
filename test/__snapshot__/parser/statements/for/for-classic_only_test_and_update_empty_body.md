@@ -26,6 +26,7 @@ for (;b;c);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

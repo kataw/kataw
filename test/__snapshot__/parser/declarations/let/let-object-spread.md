@@ -13,6 +13,7 @@ let tests = [
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

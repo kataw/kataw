@@ -7,6 +7,7 @@ class x { constructor(){ return () => () => super.foo; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

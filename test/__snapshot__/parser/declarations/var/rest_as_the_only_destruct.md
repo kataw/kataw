@@ -26,6 +26,7 @@ var [...foo] = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

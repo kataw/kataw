@@ -11,6 +11,7 @@ function *g() { yield void x }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

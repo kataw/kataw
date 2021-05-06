@@ -50,6 +50,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ f(async => x)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

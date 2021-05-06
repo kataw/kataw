@@ -7,6 +7,7 @@ var af = (x, ...y) => { return [x, y.length]; };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

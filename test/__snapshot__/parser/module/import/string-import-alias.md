@@ -19,6 +19,7 @@ import {'' as x} from 'foo';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

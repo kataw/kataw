@@ -7,6 +7,7 @@ new false.__proto__.constructor
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

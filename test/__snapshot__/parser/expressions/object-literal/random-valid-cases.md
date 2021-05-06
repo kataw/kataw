@@ -89,6 +89,7 @@ a = { y: x = 1 } = b;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

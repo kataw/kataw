@@ -7,6 +7,7 @@ foo`x${a}y${b}z`
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

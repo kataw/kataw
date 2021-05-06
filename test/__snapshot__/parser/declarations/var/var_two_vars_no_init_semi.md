@@ -15,6 +15,7 @@ export var foo, bar;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

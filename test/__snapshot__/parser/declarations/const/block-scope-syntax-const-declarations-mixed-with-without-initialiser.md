@@ -7,6 +7,7 @@ const x = 1, y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

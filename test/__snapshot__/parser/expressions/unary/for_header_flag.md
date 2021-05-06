@@ -7,6 +7,7 @@ for(delete(x in y);;)x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

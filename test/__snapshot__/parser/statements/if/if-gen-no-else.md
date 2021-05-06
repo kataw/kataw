@@ -7,6 +7,7 @@ if (true) function* g() {  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

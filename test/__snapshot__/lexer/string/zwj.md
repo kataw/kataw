@@ -7,6 +7,7 @@ left@{x200d}@right
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ class Foo {get fooProp():number{}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

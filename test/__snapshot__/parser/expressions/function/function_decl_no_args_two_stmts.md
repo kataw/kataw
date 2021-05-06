@@ -7,6 +7,7 @@ function f(){foo;bar}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

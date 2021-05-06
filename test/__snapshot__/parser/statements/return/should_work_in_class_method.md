@@ -7,6 +7,7 @@ class x {foo(){ return }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

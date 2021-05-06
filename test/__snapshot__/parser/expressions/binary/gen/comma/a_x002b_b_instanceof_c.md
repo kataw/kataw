@@ -11,6 +11,7 @@ x, a + b instanceof c
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

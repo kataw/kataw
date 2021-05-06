@@ -11,6 +11,7 @@ x ** x => ok
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

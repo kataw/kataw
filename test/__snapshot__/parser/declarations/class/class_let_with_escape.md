@@ -26,6 +26,7 @@ class l\u0065t {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

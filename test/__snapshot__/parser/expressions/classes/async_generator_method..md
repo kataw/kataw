@@ -7,6 +7,7 @@ class A {async * 34(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ class x extends new A() {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

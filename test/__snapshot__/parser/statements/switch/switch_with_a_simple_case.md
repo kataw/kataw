@@ -7,6 +7,7 @@ switch (A) {case B: C;}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -13,6 +13,7 @@ export default function *f(){} foo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

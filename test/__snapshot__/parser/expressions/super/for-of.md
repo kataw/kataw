@@ -8,6 +8,7 @@ for (a?.b of c);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

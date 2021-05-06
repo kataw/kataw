@@ -7,6 +7,7 @@ class A {*yield() {}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

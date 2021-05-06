@@ -15,6 +15,7 @@ for (456[x] in c) d;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

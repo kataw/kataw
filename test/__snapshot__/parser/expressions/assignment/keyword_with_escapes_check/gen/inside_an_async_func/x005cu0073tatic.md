@@ -11,6 +11,7 @@ async () => {  \u0073tatic = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

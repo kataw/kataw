@@ -11,6 +11,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ yield * \n { yield: 12 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

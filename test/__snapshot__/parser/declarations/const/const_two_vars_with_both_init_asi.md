@@ -26,6 +26,7 @@ const foo = bar, zoo = boo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -13,6 +13,7 @@ export default = 42
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

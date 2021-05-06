@@ -26,6 +26,7 @@ let {[x]: y = z} = a;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

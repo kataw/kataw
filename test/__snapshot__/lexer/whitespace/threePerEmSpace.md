@@ -13,6 +13,7 @@ left@{x2004}@right
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

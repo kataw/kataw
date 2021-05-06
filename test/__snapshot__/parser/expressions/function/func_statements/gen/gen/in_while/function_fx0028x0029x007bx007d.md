@@ -11,6 +11,7 @@ while (x) function f(){}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

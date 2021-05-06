@@ -7,6 +7,7 @@ switch {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

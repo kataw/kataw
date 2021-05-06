@@ -11,6 +11,7 @@ class x extends throw {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

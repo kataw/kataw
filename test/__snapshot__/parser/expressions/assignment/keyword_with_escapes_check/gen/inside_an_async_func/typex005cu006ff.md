@@ -11,6 +11,7 @@ async () => {  type\u006ff = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

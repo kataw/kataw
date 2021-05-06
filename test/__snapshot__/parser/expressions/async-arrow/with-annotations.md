@@ -17,6 +17,7 @@ async ([a]:string)=>c;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

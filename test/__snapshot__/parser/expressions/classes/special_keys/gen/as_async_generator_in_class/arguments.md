@@ -11,6 +11,7 @@ class x {async * arguments(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

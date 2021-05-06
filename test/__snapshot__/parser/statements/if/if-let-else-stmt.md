@@ -7,6 +7,7 @@ if (true) let x; else ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

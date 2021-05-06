@@ -7,6 +7,7 @@ c?.(d)?.[e]
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

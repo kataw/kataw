@@ -11,6 +11,7 @@ class C extends Base { async = 0 }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

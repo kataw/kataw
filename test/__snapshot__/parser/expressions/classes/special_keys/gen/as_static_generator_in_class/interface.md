@@ -11,6 +11,7 @@ class x {static * interface(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

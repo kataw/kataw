@@ -11,6 +11,7 @@ class x {static * else(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

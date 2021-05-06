@@ -13,6 +13,7 @@ export default "foo";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

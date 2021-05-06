@@ -11,6 +11,7 @@ class C { *method() { var f = function() { super(); } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

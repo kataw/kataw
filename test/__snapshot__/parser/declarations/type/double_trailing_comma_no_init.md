@@ -26,6 +26,7 @@ var foo,,
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

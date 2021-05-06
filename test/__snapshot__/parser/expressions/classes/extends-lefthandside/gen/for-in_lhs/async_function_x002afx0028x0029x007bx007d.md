@@ -11,6 +11,7 @@ for (async function *f(){} in x) ;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

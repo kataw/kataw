@@ -7,6 +7,7 @@ function *f(){ async (x = yield) => {} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

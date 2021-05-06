@@ -11,6 +11,7 @@ class x {static protected(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

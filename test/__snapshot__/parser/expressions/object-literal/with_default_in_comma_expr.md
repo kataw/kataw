@@ -7,6 +7,7 @@ x, {foo = y, bar} = doo
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

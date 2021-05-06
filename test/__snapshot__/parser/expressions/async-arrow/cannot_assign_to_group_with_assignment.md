@@ -7,6 +7,7 @@ async (a=/i/) = /i/
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

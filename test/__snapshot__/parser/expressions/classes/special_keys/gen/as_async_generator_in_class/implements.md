@@ -11,6 +11,7 @@ class x {async * implements(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -15,6 +15,7 @@ a={id<T>(x: T): T {}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

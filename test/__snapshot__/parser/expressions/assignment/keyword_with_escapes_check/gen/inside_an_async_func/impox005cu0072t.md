@@ -11,6 +11,7 @@ async () => {  impo\u0072t = x  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

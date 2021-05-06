@@ -13,6 +13,7 @@ import *= from 'f';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

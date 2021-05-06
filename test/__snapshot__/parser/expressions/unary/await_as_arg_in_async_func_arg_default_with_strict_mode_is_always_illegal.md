@@ -7,6 +7,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

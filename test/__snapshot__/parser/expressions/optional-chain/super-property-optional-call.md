@@ -11,6 +11,7 @@ class Foo extends Base {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ f(((a) => a + b)(1, 4), 5);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ function f(){ foo + new.target }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {static while(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

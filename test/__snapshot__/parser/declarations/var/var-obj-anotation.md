@@ -15,6 +15,7 @@ var {x}: {x: string; } = { x: "hello" };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

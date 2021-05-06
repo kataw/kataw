@@ -26,6 +26,7 @@ import { a as b } from 'm.js';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class x {get throw(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

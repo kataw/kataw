@@ -7,6 +7,7 @@ delete.500
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

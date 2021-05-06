@@ -7,6 +7,7 @@ let [] = [];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

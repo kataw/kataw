@@ -7,6 +7,7 @@ class x{   static(){}   }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

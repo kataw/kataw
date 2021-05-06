@@ -11,6 +11,7 @@ new new.target
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

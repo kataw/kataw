@@ -7,6 +7,7 @@ class x extends y { f(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

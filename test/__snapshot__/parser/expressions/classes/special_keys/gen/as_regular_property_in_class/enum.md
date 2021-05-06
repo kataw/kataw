@@ -11,6 +11,7 @@ class x {enum: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

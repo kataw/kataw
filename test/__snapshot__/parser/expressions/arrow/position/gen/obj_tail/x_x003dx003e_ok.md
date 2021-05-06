@@ -11,6 +11,7 @@ x = {arrow: x => ok}.y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

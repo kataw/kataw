@@ -26,6 +26,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

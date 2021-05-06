@@ -7,6 +7,7 @@ x = { get() { } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ export default async (x) => y
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

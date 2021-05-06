@@ -7,6 +7,7 @@ switch (A) {default: B; break;}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

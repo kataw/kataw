@@ -26,6 +26,7 @@ let x = ...y;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

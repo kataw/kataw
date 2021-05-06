@@ -26,6 +26,7 @@ for ([] instanceof obj;;);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

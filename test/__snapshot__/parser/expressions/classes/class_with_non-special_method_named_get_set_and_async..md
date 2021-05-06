@@ -7,6 +7,7 @@ class A {set(){} get(){} async(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

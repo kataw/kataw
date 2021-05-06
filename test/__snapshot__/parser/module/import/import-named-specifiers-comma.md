@@ -13,6 +13,7 @@ import {bar, baz,} from "foo";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

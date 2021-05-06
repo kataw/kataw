@@ -11,6 +11,7 @@ class this {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

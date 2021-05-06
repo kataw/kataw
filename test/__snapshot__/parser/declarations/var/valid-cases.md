@@ -51,6 +51,7 @@ var {get} = obj;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

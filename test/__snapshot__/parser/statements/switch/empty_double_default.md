@@ -7,6 +7,7 @@ switch(x) { default: default: }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

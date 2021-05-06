@@ -13,6 +13,7 @@ export default yield x
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

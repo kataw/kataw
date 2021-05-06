@@ -7,6 +7,7 @@ function *f(){ delete ("x"[(yield)]) }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

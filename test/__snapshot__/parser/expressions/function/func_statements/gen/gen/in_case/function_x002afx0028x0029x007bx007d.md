@@ -14,6 +14,7 @@ switch (x) {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

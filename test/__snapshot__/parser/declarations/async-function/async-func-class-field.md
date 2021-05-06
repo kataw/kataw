@@ -26,6 +26,7 @@ async function f() { class C { aaa = await } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -69,6 +69,7 @@ function f({x:arg = (arg = 2)}) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

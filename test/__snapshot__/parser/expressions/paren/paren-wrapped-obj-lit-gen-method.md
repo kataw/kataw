@@ -23,6 +23,7 @@ x({*foo(){}});
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

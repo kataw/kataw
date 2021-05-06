@@ -7,6 +7,7 @@ try { } catch (x) { let x; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ class C { async#aaa(){} }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

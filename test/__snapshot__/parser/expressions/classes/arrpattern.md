@@ -14,6 +14,7 @@ class n extends ([] = x) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

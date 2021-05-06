@@ -11,6 +11,7 @@ function not_gen() { async function f(){ await await foo; } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

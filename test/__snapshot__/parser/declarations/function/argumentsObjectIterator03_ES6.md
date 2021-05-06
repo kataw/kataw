@@ -11,6 +11,7 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

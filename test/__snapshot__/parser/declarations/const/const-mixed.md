@@ -17,6 +17,7 @@ const map = {
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -7,6 +7,7 @@ result = { arrow = () => {} } = {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

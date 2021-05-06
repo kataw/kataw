@@ -11,6 +11,7 @@ class x {static get yield(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

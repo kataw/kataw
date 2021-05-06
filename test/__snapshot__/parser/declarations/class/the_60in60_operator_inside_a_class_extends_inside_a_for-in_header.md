@@ -26,6 +26,7 @@ for (class x extends a in b {} in c);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

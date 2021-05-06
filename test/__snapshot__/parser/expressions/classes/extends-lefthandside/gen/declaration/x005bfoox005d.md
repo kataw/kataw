@@ -11,6 +11,7 @@ class A extends [foo] {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

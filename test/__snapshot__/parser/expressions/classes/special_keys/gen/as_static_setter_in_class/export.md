@@ -11,6 +11,7 @@ class x {static set export(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

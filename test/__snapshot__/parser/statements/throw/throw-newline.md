@@ -9,6 +9,7 @@ throw /**/\n x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

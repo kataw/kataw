@@ -16,6 +16,7 @@ gen = function*() {};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

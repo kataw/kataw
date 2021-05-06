@@ -11,6 +11,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

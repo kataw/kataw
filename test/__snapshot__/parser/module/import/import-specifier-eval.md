@@ -23,6 +23,7 @@ import {eval as x} from 'foo';
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

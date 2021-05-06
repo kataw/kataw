@@ -13,6 +13,7 @@ result = { x: [y] } = { x: [321] };
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

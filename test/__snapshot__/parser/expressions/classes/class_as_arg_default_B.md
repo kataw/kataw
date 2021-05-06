@@ -7,6 +7,7 @@ f = ([xCls = class X {}]) => {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

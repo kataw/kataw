@@ -38,6 +38,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

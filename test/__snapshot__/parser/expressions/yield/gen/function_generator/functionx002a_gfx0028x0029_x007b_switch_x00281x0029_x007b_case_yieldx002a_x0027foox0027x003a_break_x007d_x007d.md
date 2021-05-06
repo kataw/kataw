@@ -11,6 +11,7 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

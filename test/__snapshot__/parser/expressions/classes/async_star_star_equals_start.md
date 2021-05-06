@@ -13,6 +13,7 @@ class A {async **=f(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

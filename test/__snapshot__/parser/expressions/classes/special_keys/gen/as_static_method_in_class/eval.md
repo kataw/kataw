@@ -11,6 +11,7 @@ class x {static eval(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ function not_gen() { class C extends yield { } }}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

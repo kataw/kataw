@@ -11,6 +11,7 @@ class x extends enum {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

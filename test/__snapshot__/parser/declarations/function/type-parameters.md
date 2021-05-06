@@ -67,6 +67,7 @@ type T = <
 
 
 ## Output
+
 ### CST
 
 ```javascript

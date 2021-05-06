@@ -11,6 +11,7 @@ do while [catch] class x {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

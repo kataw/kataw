@@ -11,6 +11,7 @@ class x {get for(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

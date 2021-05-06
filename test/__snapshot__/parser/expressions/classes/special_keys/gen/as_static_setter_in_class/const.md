@@ -11,6 +11,7 @@ class x {static set const(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

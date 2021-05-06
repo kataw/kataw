@@ -11,6 +11,7 @@ class x {static async interface(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class C extends Base { await = 0; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

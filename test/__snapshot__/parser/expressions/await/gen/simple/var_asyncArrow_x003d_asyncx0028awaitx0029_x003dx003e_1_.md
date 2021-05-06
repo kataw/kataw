@@ -11,6 +11,7 @@ var asyncArrow = async(await) => 1;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

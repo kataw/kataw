@@ -11,6 +11,7 @@ class C { set x(_) { class C { method() { super(); } } } }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

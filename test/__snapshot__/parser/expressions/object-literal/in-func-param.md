@@ -7,6 +7,7 @@ function test({...{}}) {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

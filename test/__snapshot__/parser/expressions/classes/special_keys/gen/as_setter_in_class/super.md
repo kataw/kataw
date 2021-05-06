@@ -11,6 +11,7 @@ class x {set super(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ function* g(){ x ? yield : y }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

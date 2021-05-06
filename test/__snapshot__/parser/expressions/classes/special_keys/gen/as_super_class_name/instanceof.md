@@ -11,6 +11,7 @@ class x extends instanceof {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

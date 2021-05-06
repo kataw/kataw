@@ -11,6 +11,7 @@ switch (/a/i {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

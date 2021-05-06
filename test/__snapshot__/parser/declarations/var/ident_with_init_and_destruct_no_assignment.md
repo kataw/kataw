@@ -15,6 +15,7 @@ var x = y, {z};
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

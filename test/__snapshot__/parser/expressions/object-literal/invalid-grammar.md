@@ -21,6 +21,7 @@ q = {"foo": super = x} = x;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

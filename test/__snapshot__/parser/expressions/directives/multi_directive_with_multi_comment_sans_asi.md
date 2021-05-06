@@ -8,6 +8,7 @@ xyz*/"bar";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

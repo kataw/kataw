@@ -11,6 +11,7 @@ x = { a: a instanceof b + c }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

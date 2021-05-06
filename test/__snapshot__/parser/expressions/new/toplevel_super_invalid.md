@@ -7,6 +7,7 @@ new super
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

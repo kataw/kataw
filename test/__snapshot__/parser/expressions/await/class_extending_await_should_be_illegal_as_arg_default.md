@@ -7,6 +7,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

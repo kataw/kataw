@@ -11,6 +11,7 @@ class x {static import(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

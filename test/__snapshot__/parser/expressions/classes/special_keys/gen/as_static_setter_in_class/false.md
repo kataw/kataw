@@ -11,6 +11,7 @@ class x {static set false(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

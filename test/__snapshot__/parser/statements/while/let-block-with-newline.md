@@ -8,6 +8,7 @@ while (false) let // ASI
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

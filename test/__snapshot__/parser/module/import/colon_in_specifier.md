@@ -13,6 +13,7 @@ import {a: b} from "bar";
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

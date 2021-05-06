@@ -13,6 +13,7 @@ foo[...x];
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

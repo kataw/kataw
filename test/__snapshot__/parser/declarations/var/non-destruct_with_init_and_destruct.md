@@ -26,6 +26,7 @@ var foo = arr, [bar] = arr2;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

@@ -11,6 +11,7 @@ class A extends true {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

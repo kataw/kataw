@@ -11,6 +11,7 @@ class x extends eval {}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

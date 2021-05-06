@@ -11,6 +11,7 @@ class x {interface: x}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

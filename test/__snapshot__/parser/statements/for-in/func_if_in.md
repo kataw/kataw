@@ -26,6 +26,7 @@ for (function(){ if (a in b); }.prop in x);
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

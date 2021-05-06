@@ -14,6 +14,7 @@ result = [...[x, y]] = vals;
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

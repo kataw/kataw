@@ -7,6 +7,7 @@ delete ((x) => x)
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

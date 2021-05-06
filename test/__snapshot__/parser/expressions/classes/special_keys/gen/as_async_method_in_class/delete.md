@@ -11,6 +11,7 @@ class x {async delete(){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

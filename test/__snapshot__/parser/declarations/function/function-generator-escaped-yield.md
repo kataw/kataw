@@ -7,6 +7,7 @@ function *foo() { (x = \u0079ield) }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

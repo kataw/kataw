@@ -9,6 +9,7 @@ switch (this.a) { c\u0061se 6: break; }
 `````
 
 ## Output
+
 ### CST
 
 ```javascript

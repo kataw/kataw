@@ -11,6 +11,7 @@ class x {set private(x){}}
 `````
 
 ## Output
+
 ### CST
 
 ```javascript
