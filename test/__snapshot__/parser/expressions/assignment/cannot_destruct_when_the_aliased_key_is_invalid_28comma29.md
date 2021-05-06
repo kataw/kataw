@@ -14,7 +14,7 @@ x, {a: 1} = [];
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

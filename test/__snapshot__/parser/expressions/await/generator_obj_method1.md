@@ -8,7 +8,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

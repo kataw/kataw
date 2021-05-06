@@ -164,7 +164,7 @@ try {} catch(e) { for(var e of 0); };
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

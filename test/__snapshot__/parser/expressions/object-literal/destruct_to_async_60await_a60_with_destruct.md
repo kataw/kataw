@@ -8,7 +8,7 @@ async function g() {   s = {"foo": await a = x} = x   }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

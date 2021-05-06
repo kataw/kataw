@@ -30,7 +30,7 @@ x({ x: x &&= 2 ] = { x: 2 });
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

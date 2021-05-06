@@ -8,7 +8,7 @@ x={ foo: function(){ super.foo; }}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

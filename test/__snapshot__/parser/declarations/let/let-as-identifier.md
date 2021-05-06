@@ -46,7 +46,7 @@ L: let
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

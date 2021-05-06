@@ -8,7 +8,7 @@ s = {"foo": null = x} = x
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

@@ -16,7 +16,7 @@ for ({a: x + y} = z in obj);
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

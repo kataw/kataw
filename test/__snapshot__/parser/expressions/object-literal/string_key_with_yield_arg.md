@@ -8,7 +8,7 @@ s = {"foo": yield /x/}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

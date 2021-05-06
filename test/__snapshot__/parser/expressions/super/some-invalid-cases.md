@@ -27,7 +27,7 @@ let x = { foo(){ super(); } };
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

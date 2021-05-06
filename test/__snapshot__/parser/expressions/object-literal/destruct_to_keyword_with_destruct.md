@@ -8,7 +8,7 @@ s = {s: true = x} = x
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

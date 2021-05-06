@@ -8,7 +8,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {

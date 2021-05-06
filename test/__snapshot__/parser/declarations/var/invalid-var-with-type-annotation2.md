@@ -17,7 +17,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
