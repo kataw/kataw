@@ -97,7 +97,7 @@ var af = ()
 
 ```javascript
 
-var af =  () => {};
+var af = () =>  {};
 ```
 
 ### Diagnostics

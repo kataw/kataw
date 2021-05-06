@@ -97,7 +97,7 @@ async () => new await x()
 
 ```javascript
 
-async () =>  await x()()
+async () =>   await x()()
 ```
 
 ### Diagnostics

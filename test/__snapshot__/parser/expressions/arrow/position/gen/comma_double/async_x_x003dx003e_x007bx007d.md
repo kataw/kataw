@@ -131,7 +131,7 @@ async x => {}, async x => {}
 
 ```javascript
 
-async x => {}, async x => {};
+async x =>  {}, async x =>  {};
 ```
 
 ### Diagnostics

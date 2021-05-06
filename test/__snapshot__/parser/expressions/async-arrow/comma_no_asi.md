@@ -87,7 +87,7 @@ async x=>x, y
 
 ```javascript
 
-async x => x, y;
+async x =>  x, y;
 ```
 
 ### Diagnostics

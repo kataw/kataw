@@ -96,7 +96,7 @@ x * (x => ok)
 
 ```javascript
 
-x * ( x => ok);
+x * (x =>  ok);
 ```
 
 ### Diagnostics

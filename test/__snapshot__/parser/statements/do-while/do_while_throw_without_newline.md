@@ -160,7 +160,7 @@ do throw function (v, h) {
 
 ```javascript
 
-do throw function(v, h) {};
+do throw  function(v, h) {};
 while (("\"\""));
 ```
 

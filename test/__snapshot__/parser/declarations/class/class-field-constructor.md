@@ -83,7 +83,7 @@ class Foo { constructor }
 ```javascript
 
 class {
-
+  constructor;
 }
 ```
 

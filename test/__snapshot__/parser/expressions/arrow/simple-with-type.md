@@ -97,7 +97,7 @@
 
 ```javascript
 
- (s) => x;
+(s) =>  x;
 ```
 
 ### Diagnostics

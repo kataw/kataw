@@ -114,7 +114,7 @@ for (() => { x in y };;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

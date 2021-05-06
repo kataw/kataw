@@ -88,7 +88,7 @@ f(async
 
 ```javascript
 
-f(async () => c);
+f(async () =>  c);
 ```
 
 ### Diagnostics

@@ -114,7 +114,7 @@ async () => {  d\u0065lete = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
    = x;
 }
 ```

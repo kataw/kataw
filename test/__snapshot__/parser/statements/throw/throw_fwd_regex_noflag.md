@@ -56,7 +56,7 @@ return
 
 ```javascript
 
-return;
+return ;
 /x/;
 ```
 

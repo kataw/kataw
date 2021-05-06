@@ -205,7 +205,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 ```javascript
 
 class {
-
+  ;
 
 
 }

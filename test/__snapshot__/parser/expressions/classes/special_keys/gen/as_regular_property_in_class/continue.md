@@ -101,7 +101,7 @@ class x {continue: x}
 ```javascript
 
 class {
-
+  continue;
 }
 x;
 ```

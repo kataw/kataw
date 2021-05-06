@@ -148,7 +148,7 @@ x => y {})
 ```javascript
 
 (class  {});
- x => y;
+x =>  y;
 {
 }
 ```

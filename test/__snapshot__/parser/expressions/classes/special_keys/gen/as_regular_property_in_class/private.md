@@ -101,7 +101,7 @@ class x {private: x}
 ```javascript
 
 class {
-
+  private;
 }
 x;
 ```

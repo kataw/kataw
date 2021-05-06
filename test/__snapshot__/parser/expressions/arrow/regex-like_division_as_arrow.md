@@ -161,7 +161,7 @@
 
 ```javascript
 
- ({ ident: [foo, bar] / x / g }) => x;
+({ ident: [foo, bar] / x / g }) =>  x;
 ```
 
 ### Diagnostics

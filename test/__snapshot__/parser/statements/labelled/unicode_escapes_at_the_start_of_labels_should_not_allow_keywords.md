@@ -119,7 +119,7 @@ async () => { \u{61}wait: x }
 
 ```javascript
 
-async () => {
+async () =>  {
   await : x;
 }
 ```

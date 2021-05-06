@@ -138,7 +138,7 @@ var foo = ((foo)): string => {};
 ```javascript
 
 var foo = (foo);
- string => {};
+string =>  {};
 ```
 
 ### Diagnostics

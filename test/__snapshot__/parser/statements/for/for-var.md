@@ -93,7 +93,7 @@ for(var i;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

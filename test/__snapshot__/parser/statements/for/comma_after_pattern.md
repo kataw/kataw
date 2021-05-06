@@ -87,7 +87,7 @@ for ([], x;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

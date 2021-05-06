@@ -637,19 +637,19 @@
 ```javascript
 
 (function f() {
-    ( yield => {});
+    (yield =>  {});
   });
 (function f() {
-    ( () => {});
+    (() =>  {});
   });
 (function f() {
-    ( ([yield]) => {});
+    (([yield]) =>  {});
   });
 (function f() {
-    ( ({ yield }) => {});
+    (({ yield }) =>  {});
   });
 (function f() {
-    ( (yield) => {});
+    ((yield) =>  {});
   });
 ```
 

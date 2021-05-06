@@ -1688,7 +1688,7 @@ class Foo {
 ```javascript
 
 class {
-
+  ;
 
 
 

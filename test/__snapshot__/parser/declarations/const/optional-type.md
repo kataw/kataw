@@ -124,7 +124,7 @@ const f = (...x?) => {}
 
 ```javascript
 
-const f =  (...x?) => {};
+const f = (...x?) =>  {};
 ```
 
 ### Diagnostics

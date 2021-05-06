@@ -72,7 +72,7 @@
 
 ```javascript
 
-return  = x;
+return   = x;
 ```
 
 ### Diagnostics

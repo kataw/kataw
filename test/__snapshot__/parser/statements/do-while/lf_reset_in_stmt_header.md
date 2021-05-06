@@ -114,7 +114,7 @@ while(y)
 
 ```javascript
 
-do if ( x => {});
+do if (x =>  {});
 while (y);
 ```
 

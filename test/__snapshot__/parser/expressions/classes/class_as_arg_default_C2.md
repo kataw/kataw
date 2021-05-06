@@ -201,9 +201,9 @@ f = ([xCls2 = class { static name() {} }]) => {}
 
 ```javascript
 
-f =  ([xCls2 = class {
+f = ([xCls2 = class {
     static
-  }]) => {};
+  }]) =>  {};
 ```
 
 ### Diagnostics

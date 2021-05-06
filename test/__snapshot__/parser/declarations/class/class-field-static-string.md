@@ -96,7 +96,7 @@ class C { static '0' }
 ```javascript
 
 class {
-
+  static "'0'";
 }
 ```
 

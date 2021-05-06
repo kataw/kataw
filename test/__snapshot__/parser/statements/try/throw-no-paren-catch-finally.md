@@ -104,7 +104,7 @@ throw {x} catch finally
 
 ```javascript
 
-throw { x };
+throw  { x };
  {
 } {
 }

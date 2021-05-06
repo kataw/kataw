@@ -99,7 +99,7 @@ class {
 ```javascript
 
 class {
-
+  static field = foo;
 
 }
 ```

@@ -84,7 +84,7 @@ x => ok`foo`
 
 ```javascript
 
- x => okfoo;
+x =>  okfoo;
 ```
 
 ### Diagnostics

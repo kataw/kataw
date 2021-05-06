@@ -110,7 +110,7 @@ for([]/=y;;)x
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
 ```
 

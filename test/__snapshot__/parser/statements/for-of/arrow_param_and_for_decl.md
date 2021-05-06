@@ -141,7 +141,7 @@ a => {
 
 ```javascript
 
- a => {
+a =>  {
   for ( of b)
     c;
 };

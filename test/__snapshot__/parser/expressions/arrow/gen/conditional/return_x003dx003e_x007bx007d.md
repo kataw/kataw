@@ -79,7 +79,7 @@ return => {} , bar;
 
 ```javascript
 
-return ;
+return  ;
 {
 }
 bar;

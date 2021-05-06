@@ -101,7 +101,7 @@ class x {this: x}
 ```javascript
 
 class {
-
+  this;
 }
 x;
 ```

@@ -85,7 +85,7 @@ async (a, ...b) => a;
 
 ```javascript
 
-async (a, ...) => a
+async (a, ...) =>  a
 
 ```
 

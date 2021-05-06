@@ -49,7 +49,7 @@ throw
 
 ```javascript
 
-throw /x/g;
+throw  /x/g;
 ```
 
 ### Diagnostics

@@ -184,10 +184,10 @@ x; })
 ```javascript
 
 (function() {
-    return/* Multiline\nComment */  x;
+    return /* Multiline\nComment */  x;
   });
 (function() {
-    return// Comment
+    return // Comment
     ;
     x;
   });

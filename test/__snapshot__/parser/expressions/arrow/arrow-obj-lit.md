@@ -145,7 +145,7 @@
 
 ```javascript
 
- ({ x = y }) => z;
+({ x = y }) =>  z;
 ();
 string;
 z;

@@ -200,13 +200,13 @@ class Foo { prototype = 1 }
 ```javascript
 
 class {
-
+  prototype;
 }
 class {
-
+  "'prototype'";
 }
 class {
-
+  prototype = 1;
 }
 ```
 

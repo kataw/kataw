@@ -188,8 +188,8 @@ var af = (x, ...y) => { return [x, y.length]; };
 
 ```javascript
 
-var af =  () => {
-  return [x, y.length];
+var af = () =>  {
+  return  [x, y.length];
 };
 ```
 

@@ -435,16 +435,16 @@ class C { [super.bbb] = 0 };
 ```javascript
 
 class {
-
+  aaa = .bbb;
 }
 class {
-
+  aaa = () =>  .bbb;
 }
 class {
-
+  aaa = () =>  () =>  .bbb;
 }
 class {
-
+   = 0;
 }
 
 ```

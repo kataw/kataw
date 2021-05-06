@@ -101,7 +101,7 @@ for ( a + b instanceof c ;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

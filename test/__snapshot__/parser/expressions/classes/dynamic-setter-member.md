@@ -140,7 +140,7 @@ class A {* get [x](){}}
 ```javascript
 
 class {
-
+  get;
 
 }
 ```

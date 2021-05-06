@@ -320,7 +320,7 @@
   this;
   parser;
   while (I) run;
-  for(; ; want)
+  for (; ; want)
     ;
 }
 ```

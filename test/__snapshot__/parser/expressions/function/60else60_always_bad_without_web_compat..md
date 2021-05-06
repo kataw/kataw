@@ -115,7 +115,7 @@ if (x) ; else function f(){}
 ```javascript
 
 if (x);
-else 
+else  
 ```
 
 ### Diagnostics

@@ -428,7 +428,7 @@ var C;
 class {}
 @decorator
 class {}
- ()  ;
+()  ;
 ```
 
 ### Diagnostics

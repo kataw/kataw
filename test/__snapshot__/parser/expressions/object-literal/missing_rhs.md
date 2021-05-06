@@ -171,7 +171,7 @@ wrap({async [foo""](){}});
 ```javascript
 
 wrap({ , "\"\"" });
- ()  ;
+()  ;
 
 ```
 

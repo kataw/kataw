@@ -112,7 +112,7 @@ do async ()
 
 ```javascript
 
-do async () => x
+do async () =>  x
  ();
 while (y) ;
 ```

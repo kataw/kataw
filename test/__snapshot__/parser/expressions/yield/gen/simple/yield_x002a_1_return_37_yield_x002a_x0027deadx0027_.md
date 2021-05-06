@@ -122,7 +122,7 @@ yield * 1; return 37; yield * 'dead';
 ```javascript
 
 yield * 1;
-return 37;
+return  37;
 yield * "'dead'";
 ```
 

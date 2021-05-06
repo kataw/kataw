@@ -107,7 +107,7 @@
 
 ```javascript
 
- await => async.awaitfoo;
+await =>  async.awaitfoo;
 ```
 
 ### Diagnostics

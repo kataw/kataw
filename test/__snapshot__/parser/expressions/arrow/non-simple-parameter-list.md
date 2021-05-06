@@ -175,7 +175,7 @@
 
 ```javascript
 
- (x = y) => {}({ x });
+(x = y) =>  {}({ x });
 {
   "'use strict'";
 }

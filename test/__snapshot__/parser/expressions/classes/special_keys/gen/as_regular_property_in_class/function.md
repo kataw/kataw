@@ -101,7 +101,7 @@ class x {function: x}
 ```javascript
 
 class {
-
+  function;
 }
 x;
 ```

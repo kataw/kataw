@@ -95,7 +95,7 @@ x * async => ok
 
 ```javascript
 
-x * async async => ok;
+x * async async =>  ok;
 ```
 
 ### Diagnostics

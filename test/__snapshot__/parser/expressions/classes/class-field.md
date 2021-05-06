@@ -4103,180 +4103,180 @@
 ```javascript
 
 (class {
-
+    a;
 
   })(class {
+    a = 0;
+
+  });
+(class {
+    a = 0;
+
+    b;
+  });
+(class {
+    a = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    a = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    a = 0;
 
 
   });
 (class {
+    a;
+
+  });
+(class {
+    a;
+
+    b;
+
+  });
+(class {
+    a;
 
 
   });
 (class {
-
-
-
-
-  });
-(class {
-
+    a;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    a;
 
 
   });
 (class {
+     = 0;
+
+  });
+(class {
+     = 0;
+
+    b;
+  });
+(class {
+     = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 0;
 
 
   });
 (class {
+    ;
+
+  });
+(class {
+    ;
+
+    b;
+
+  });
+(class {
+    ;
 
 
   });
 (class {
-
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-  });
-(class {
-
+    0 = 0;
 
   });
 (class {
-
-
-  });
-(class {
-
+    0;
 
   });
 (class {
+    "'a'" = 0;
 
   });
 (class {
-
-
-  });
-(class {
-
+    "'a'";
 
   });
 (class {
+    a = 0;
+  });
+(class {
+    a = 0;
+    b;
+  });
+(class {
+    a = 0;
 
   });
 (class {
-
+    a;
+  });
+(class {
+    a;
+    b;
+  });
+(class {
+    a;
 
   });
 (class {
-
-
-  });
-(class {
-
+    a;
 
   });
 (class {
-
-
-  });
-(class {
+    a;
 
   });
 (class {
-
+     = 0;
+  });
+(class {
+     = 0;
+    b;
+  });
+(class {
+     = 0;
 
   });
 (class {
-
+    ;
+  });
+(class {
+    ;
+    b;
+  });
+(class {
+    ;
 
   });
 (class {
+    ;
 
   });
 (class {
-
-
-  });
-(class {
-
-
-  });
-(class {
-
-
-  });
-(class {
-
+    ;
 
   });
 ```

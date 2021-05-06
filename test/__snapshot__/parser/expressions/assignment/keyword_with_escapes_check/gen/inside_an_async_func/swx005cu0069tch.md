@@ -115,7 +115,7 @@ async () => {  sw\u0069tch = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   switch( = x
 
 }

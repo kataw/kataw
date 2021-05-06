@@ -103,7 +103,7 @@ async () => {  \u0070rotected = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   protected = x;
 }
 ```

@@ -137,7 +137,7 @@ class x extends for {}
 ```javascript
 
 class  {}
-for(; ; )
+for (; ; )
   ;
 ```
 

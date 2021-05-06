@@ -125,7 +125,7 @@
 ```javascript
 
 (class {
-
+    yield;
   });
 n;
 a;

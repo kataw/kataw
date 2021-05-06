@@ -104,7 +104,7 @@ let f = async
 
 ```javascript
 
-let f = async (g) => g;
+let f = async (g) =>  g;
 ```
 
 ### Diagnostics

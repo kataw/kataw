@@ -473,7 +473,7 @@ var gen = async function* g() {
   callCount += 1;
    { ...  , ...(function(arg) {
         var yield = arg;
-        return { ...yield };
+        return  { ...yield };
       }( )), ...  };
 };
 ```

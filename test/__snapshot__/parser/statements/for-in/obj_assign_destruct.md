@@ -166,7 +166,7 @@ for ({x:a.b}=x in x) ;
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

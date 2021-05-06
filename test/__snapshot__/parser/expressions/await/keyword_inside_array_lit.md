@@ -124,7 +124,7 @@ async g => (x = [await y])
 
 ```javascript
 
-async g => (x = [await y]);
+async g =>  (x = [await y]);
 ```
 
 ### Diagnostics

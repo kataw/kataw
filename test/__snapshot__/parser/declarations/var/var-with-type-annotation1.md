@@ -157,7 +157,7 @@ var x = ({ a } : any = 'foo') => {}
 
 ```javascript
 
-var x =  ({ a } = "'foo'") => {};
+var x = ({ a } = "'foo'") =>  {};
 ```
 
 ### Diagnostics

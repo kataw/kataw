@@ -123,7 +123,7 @@
 
 ```javascript
 
- ({  }) => x;
+({  }) =>  x;
 ```
 
 ### Diagnostics

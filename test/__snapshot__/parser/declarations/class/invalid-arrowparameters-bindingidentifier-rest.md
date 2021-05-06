@@ -111,7 +111,7 @@ var af = ...x => x;
 ```javascript
 
 var af = ;
- x => x;
+x =>  x;
 ```
 
 ### Diagnostics

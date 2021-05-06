@@ -171,7 +171,7 @@ declare class A<T> extends B<T> { x: number }
 ```javascript
 
 class  {
-
+  x;
 }
 ```
 

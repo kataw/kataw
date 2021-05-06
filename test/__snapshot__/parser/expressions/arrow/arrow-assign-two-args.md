@@ -104,7 +104,7 @@ x = (a,b) =>{}
 
 ```javascript
 
-x =  () => {};
+x = () =>  {};
 ```
 
 ### Diagnostics

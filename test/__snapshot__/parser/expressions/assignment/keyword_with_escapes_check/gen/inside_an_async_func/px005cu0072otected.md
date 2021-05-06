@@ -103,7 +103,7 @@ async () => {  p\u0072otected = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   protected = x;
 }
 ```

@@ -123,7 +123,7 @@ switch(x
   case y:
 
   default
-    return;
+    return ;
  
 ```
 

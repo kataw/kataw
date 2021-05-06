@@ -118,7 +118,7 @@ bar, (interface) => { 'use strict'; 0 };
 
 ```javascript
 
-bar,  (interface) => {
+bar, (interface) =>  {
     0;
   };
 ```

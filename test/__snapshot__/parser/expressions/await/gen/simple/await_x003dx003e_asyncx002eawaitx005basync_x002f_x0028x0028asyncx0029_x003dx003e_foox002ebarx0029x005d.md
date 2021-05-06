@@ -163,7 +163,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
- await => async.awaitasync / ( (async) => foo.bar);
+await =>  async.awaitasync / ((async) =>  foo.bar);
 ```
 
 ### Diagnostics

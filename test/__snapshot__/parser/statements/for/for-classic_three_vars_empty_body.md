@@ -127,7 +127,7 @@ for (var a,b,c;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

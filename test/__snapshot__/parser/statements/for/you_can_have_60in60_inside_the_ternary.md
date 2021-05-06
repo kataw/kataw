@@ -141,7 +141,7 @@ for (true ? a in b : {}; false; ) ;
 
 ```javascript
 
-for(; ; false);
+for (; ; false);
 ```
 
 ### Diagnostics

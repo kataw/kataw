@@ -138,7 +138,7 @@ const x = 1
 
 ```javascript
 
-for(; ; );
+for (; ; );
 const x = 1;
 ```
 

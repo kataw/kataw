@@ -229,11 +229,11 @@ async( x = class { x = await });
 
 ```javascript
 
-async () => class {
-
+async () =>  class {
+    aaa = await ;
   }
 async(x = class {
-
+    x = await;
   })
 
 ```

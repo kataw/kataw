@@ -167,7 +167,7 @@ declare class A { static foo(): number; static x : string }
 
 class {
   static
-
+  static x;
 }
 ```
 

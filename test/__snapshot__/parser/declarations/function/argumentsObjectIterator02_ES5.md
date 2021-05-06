@@ -544,7 +544,7 @@ number;
   for ( of blah()) {
     result.push(arg + arg);
   }
-  return ();
+  return  ();
 }
 ```
 

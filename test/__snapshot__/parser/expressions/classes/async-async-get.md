@@ -164,7 +164,7 @@ class x {    async async get f(x){}    }
 ```javascript
 
 class {
-
+  async async;
 
 }
 ```

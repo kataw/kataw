@@ -137,8 +137,8 @@ bar ? (x => { return x; }) : baz;
 
 ```javascript
 
-bar ? ( x => {
-        return x;
+bar ? (x =>  {
+        return  x;
       }) : baz;
 ```
 

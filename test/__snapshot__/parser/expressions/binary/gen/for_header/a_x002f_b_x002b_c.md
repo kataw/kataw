@@ -101,7 +101,7 @@ for ( a / b + c ;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

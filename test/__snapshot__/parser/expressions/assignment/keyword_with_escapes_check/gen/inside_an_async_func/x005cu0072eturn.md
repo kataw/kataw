@@ -108,8 +108,8 @@ async () => {  \u0072eturn = x  }
 
 ```javascript
 
-async () => {
-  return  = x;
+async () =>  {
+  return   = x;
 }
 ```
 

@@ -98,7 +98,7 @@ async () => {  impo\u0072t = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   import ;
 }
 x;

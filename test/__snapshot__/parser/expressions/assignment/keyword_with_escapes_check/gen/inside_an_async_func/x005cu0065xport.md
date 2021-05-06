@@ -99,7 +99,7 @@ async () => {  \u0065xport = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
 
 }
 x;

@@ -101,7 +101,7 @@ class x {else: x}
 ```javascript
 
 class {
-
+  else;
 }
 x;
 ```

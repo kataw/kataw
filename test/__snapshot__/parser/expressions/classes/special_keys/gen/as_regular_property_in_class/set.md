@@ -101,7 +101,7 @@ class x {set: x}
 ```javascript
 
 class {
-
+  set;
 }
 x;
 ```

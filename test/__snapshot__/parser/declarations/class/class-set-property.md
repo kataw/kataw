@@ -160,7 +160,7 @@ class C {
 ```javascript
 
 class {
-
+  ;
 
 }
 ```

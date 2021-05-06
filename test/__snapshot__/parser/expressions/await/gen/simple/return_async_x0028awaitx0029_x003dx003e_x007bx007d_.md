@@ -89,7 +89,7 @@ return async (await) => {};
 
 ```javascript
 
-return async (await) => {};
+return  async (await) =>  {};
 ```
 
 ### Diagnostics

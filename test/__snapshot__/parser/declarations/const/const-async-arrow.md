@@ -145,7 +145,7 @@ const a = async (foo: string = "") => {}
 
 ```javascript
 
-const a = async (foo = "\"\"") => {};
+const a = async (foo = "\"\"") =>  {};
 ```
 
 ### Diagnostics

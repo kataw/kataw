@@ -242,7 +242,7 @@ let foo = function*() {
      42;
   } try{
      43;
-    return 13;
+    return  13;
   }
 };
 ```

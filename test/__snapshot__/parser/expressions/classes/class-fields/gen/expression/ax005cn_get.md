@@ -135,7 +135,7 @@ class C extends Base { a\n get }
 ```javascript
 
 class  {
-
+  a;
 }
 n;
 get;

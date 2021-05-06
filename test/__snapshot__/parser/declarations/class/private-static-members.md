@@ -478,7 +478,7 @@ class Foo {
 ```javascript
 
 class {
-
+  static ;
   static
   static
   static

@@ -115,7 +115,7 @@ for(t`${x in y}`;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

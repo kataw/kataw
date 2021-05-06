@@ -233,9 +233,9 @@ for ({x = y} ;;) {}
 
 ```javascript
 
-for(; ; );
-for(; 1; 1) {}
-for(; ; ) {}
+for (; ; );
+for (; 1; 1) {}
+for (; ; ) {}
 ```
 
 ### Diagnostics

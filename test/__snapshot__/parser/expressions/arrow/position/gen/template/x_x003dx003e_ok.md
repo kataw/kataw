@@ -94,7 +94,7 @@
 
 ```javascript
 
-`a ${ x => ok} b`;
+`a ${x =>  ok} b`;
 ```
 
 ### Diagnostics

@@ -139,7 +139,7 @@
 
 ```javascript
 
- ([...   inctanceof b > c]) => x;
+([...   inctanceof b > c]) =>  x;
 ```
 
 ### Diagnostics

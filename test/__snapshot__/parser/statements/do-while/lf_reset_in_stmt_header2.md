@@ -131,8 +131,8 @@ while(y
 
 ```javascript
 
-do if ( x => {});
-  else n;
+do if (x =>  {});
+  else  n;
 while (y);
 ```
 

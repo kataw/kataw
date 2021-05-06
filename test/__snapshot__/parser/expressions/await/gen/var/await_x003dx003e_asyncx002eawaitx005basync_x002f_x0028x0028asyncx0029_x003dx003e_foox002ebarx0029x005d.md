@@ -235,7 +235,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
 
 var await;
 var f = ();
-async.awaitasync / ( (async) => foo.bar);
+async.awaitasync / ((async) =>  foo.bar);
 
 ```
 

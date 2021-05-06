@@ -99,7 +99,7 @@ let y = () => new.target
 
 ```javascript
 
-let y =  () => ;
+let y = () =>  ;
 ```
 
 ### Diagnostics

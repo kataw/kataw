@@ -98,7 +98,7 @@ var af = yield => 1;
 
 ```javascript
 
-var af =  yield => 1;
+var af = yield =>  1;
 ```
 
 ### Diagnostics

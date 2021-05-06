@@ -101,7 +101,7 @@ bar, return => {};
 ```javascript
 
 bar, ;
-return ;
+return  ;
 {
 }
 

@@ -115,7 +115,7 @@ async () => {  \u0069nstanceof = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
      inctanceof ;
 }
 x;

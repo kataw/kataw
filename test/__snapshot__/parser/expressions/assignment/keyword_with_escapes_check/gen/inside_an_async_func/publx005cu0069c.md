@@ -103,7 +103,7 @@ async () => {  publ\u0069c = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   public = x;
 }
 ```

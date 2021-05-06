@@ -101,7 +101,7 @@ class x {catch: x}
 ```javascript
 
 class {
-
+  catch;
 }
 x;
 ```

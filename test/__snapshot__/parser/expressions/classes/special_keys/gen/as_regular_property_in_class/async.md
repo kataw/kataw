@@ -101,7 +101,7 @@ class x {async: x}
 ```javascript
 
 class {
-
+  async;
 }
 x;
 ```

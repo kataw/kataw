@@ -110,7 +110,7 @@ class x extends return {}
 ```javascript
 
 class  {}
-return {};
+return  {};
 ```
 
 ### Diagnostics

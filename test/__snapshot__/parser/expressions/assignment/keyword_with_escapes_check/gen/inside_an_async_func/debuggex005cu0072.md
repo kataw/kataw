@@ -95,7 +95,7 @@ async () => {  debugge\u0072 = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   debugger;
 }
 x;

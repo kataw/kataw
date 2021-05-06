@@ -395,7 +395,7 @@ boolean;
 [boolean, string, number];
 {
   let [x, y, z] = arguments;
-  return [z, y, x];
+  return  [z, y, x];
 }
 ```
 

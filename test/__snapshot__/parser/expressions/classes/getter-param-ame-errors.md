@@ -1020,7 +1020,7 @@ class {
 "'use strict'";
 class {
 
-
+  var;
 }
 {
 }

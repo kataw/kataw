@@ -103,7 +103,7 @@ async () => {  p\u0061ckage = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   package = x;
 }
 ```

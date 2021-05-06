@@ -71,7 +71,7 @@ return => {} ;
 
 ```javascript
 
-return ;
+return  ;
 {
 }
 

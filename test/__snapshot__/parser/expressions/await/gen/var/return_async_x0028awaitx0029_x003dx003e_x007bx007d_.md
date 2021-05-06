@@ -249,7 +249,7 @@ var await; var f = (async function() { return async (await) => {}; });
 
 var await;
 var f = (async function() {
-    return async async(await ) => {};
+    return  async async(await ) =>  {};
   });
 ```
 

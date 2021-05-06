@@ -101,7 +101,7 @@ class x {true: x}
 ```javascript
 
 class {
-
+  true;
 }
 x;
 ```

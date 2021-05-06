@@ -101,7 +101,7 @@ class x {interface: x}
 ```javascript
 
 class {
-
+  interface;
 }
 x;
 ```

@@ -103,7 +103,7 @@ async () => {  \u0069nterface = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   interface = x;
 }
 ```

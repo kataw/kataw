@@ -96,7 +96,7 @@
 
 ```javascript
 
- ({ 790: this }) => x;
+({ 790: this }) =>  x;
 ```
 
 ### Diagnostics

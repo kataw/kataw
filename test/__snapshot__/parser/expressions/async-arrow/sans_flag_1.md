@@ -117,7 +117,7 @@ async _ => _
 
 ```javascript
 
-async _ => _ / foo / ;
+async _ =>  _ / foo / ;
 ```
 
 ### Diagnostics

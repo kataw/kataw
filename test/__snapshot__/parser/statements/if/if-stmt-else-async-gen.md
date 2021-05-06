@@ -118,7 +118,7 @@ if (false) ; else async function* f() {  }
 ```javascript
 
 if (false);
-else 
+else  
 ```
 
 ### Diagnostics

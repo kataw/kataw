@@ -97,7 +97,7 @@ class C { [0] }
 ```javascript
 
 class {
-
+  ;
 }
 ```
 

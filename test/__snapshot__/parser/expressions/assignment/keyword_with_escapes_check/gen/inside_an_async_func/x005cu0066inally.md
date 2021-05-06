@@ -118,7 +118,7 @@ async () => {  \u0066inally = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
    {
   } {
   }

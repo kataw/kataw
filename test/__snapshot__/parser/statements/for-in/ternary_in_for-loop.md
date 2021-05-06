@@ -130,7 +130,7 @@ for (true ? 0 : 0 in {}; false; ) ;
 
 ```javascript
 
-for(; ; false);
+for (; ; false);
 ```
 
 ### Diagnostics

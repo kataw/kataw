@@ -3348,16 +3348,16 @@
 ```javascript
 
 (class {
-
+    ;
   } + aaa);
 (class {
-
+    ;
   });
 class {}
 class {}
 (class {
-
-
+    ;
+    aaa;
   });
 (class {
 
@@ -3375,7 +3375,7 @@ class {}
 {
 }
 (class {
-
+    ;
   });
 {
 }
@@ -3393,16 +3393,16 @@ class {}
 }
 (class {
 
-
+    ;
   });
 (class {
+    yield;
 
-
-
+    ;
   });
 (class {
-
-
+    yield;
+    ;
   });
 {
 }
@@ -3410,7 +3410,7 @@ class {}
 
   } = 0);
 (class {
-
+    async ;
   });
 {
 }
@@ -3421,32 +3421,32 @@ class {}
 
   });
 (class {
-
-
-  });
-(class {
-
+    ;
 
   });
 (class {
-
-
-  });
-(class {
-
+    ;
 
   });
 (class {
-
+    ;
 
   });
 (class {
+    ;
 
+  });
+(class {
+    async ;
 
+  });
+(class {
+    async ;
+    ;
 
   }(class {
 
-
+      ;
 
     }));
 (class {
@@ -3455,7 +3455,7 @@ class {}
   });
 (class {
 
-
+    ;
 
   });
 ```

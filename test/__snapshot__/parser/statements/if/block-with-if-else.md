@@ -89,7 +89,7 @@
 
 {
   if (false) {
-  } else;
+  } else ;
 }
 ```
 

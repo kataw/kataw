@@ -101,7 +101,7 @@ class x {import: x}
 ```javascript
 
 class {
-
+  import;
 }
 x;
 ```

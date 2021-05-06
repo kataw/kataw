@@ -125,7 +125,7 @@
 ```javascript
 
 (class {
-
+    async;
   });
 n;
 a;

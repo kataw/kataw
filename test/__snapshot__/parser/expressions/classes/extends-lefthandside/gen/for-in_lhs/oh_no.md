@@ -103,7 +103,7 @@ for (oh,no in x) ;
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

@@ -102,7 +102,7 @@ x
 
 ```javascript
 
-x * async x => {};
+x * async x =>  {};
 ```
 
 ### Diagnostics

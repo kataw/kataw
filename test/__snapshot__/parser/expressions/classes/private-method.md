@@ -10230,122 +10230,122 @@ class {
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 1;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 1;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 1;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 1;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+     = 1;
 
 
   });
 (class {
-
+     = 1;
 
 
   });
 (class {
+    a;
 
+
+  });
+(class {
+    a;
+
+
+  });
+(class {
+    a;
+
+
+  });
+(class {
+    a;
+
+
+  });
+(class {
+    a;
+
+
+  });
+(class {
+    a;
+
+
+  });
+(class {
+    a = 1;
+
+
+  });
+(class {
+    a = 1;
+
+
+  });
+(class {
+    a = 1;
+
+
+  });
+(class {
+    a = 1;
+
+
+  });
+(class {
+    a = 1;
+
+
+  });
+(class {
+    a = 1;
 
 
   });

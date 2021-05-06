@@ -113,7 +113,7 @@ async () => { await import(x) }
 
 ```javascript
 
-async () => {
+async () =>  {
   await ;
 }
 ```

@@ -156,7 +156,7 @@ for ((a * b + c) * d;b;c);
 
 ```javascript
 
-for(; c; b);
+for (; c; b);
 ```
 
 ### Diagnostics

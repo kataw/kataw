@@ -96,7 +96,7 @@ if (true) {} else let x;
 ```javascript
 
 if (true) {
-} else let;
+} else  let;
 x;
 ```
 

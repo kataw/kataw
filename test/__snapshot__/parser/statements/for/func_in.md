@@ -142,7 +142,7 @@ for (function(){ a in b; };;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

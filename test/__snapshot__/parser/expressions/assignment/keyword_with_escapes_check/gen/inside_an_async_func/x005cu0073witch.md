@@ -115,7 +115,7 @@ async () => {  \u0073witch = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   switch( = x
 
 }

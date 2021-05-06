@@ -97,9 +97,9 @@ throw /**/\n x;
 
 ```javascript
 
-throw ; //\n x;
+throw  ; //\n x;
 
-throw ; /**/
+throw  ; /**/
 n;
 x;
 ```

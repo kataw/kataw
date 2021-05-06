@@ -137,7 +137,7 @@ for (var [foo] = arr, bar);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

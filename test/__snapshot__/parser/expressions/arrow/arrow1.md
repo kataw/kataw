@@ -294,7 +294,7 @@
 
 ```javascript
 
- ({ y }?) => x;
+({ y }?) =>  x;
 ;
 ;
 Options;

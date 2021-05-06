@@ -1209,31 +1209,49 @@
 ```javascript
 
 (class {
-
+    a = class {
+         = 1;
+      };
   });
 (class {
-
+    a = class {
+         = () =>  {};
+      };
   });
 (class {
-
+    a = class {
+        ;
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 (class {
+    a = class {
 
+      };
   });
 ```
 

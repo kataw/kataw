@@ -1410,53 +1410,53 @@
 ```javascript
 
 (class {
-
-
-  });
-(class {
-
-  });
-(class {
-
-
-  });
-(class {
-
+    async;
 
   });
 (class {
 
   });
-0;
 (class {
+    async get;
 
+  });
+(class {
+    async set;
+
+  });
+(class {
+    async x;
   });
 0;
 (class {
-
+    async;
+  });
+0;
+(class {
+    async static;
 
   });
 (class {
-
+    static async;
 
   });
 (class {
     static
   });
 (class {
-
-
-  });
-(class {
-
+    static async get;
 
   });
 (class {
+    static async set;
 
+  });
+(class {
+    static async x;
   });
 0;
 (class {
-
+    static async;
   });
 0;
 

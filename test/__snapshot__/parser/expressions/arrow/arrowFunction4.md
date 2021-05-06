@@ -125,7 +125,7 @@ var v = (a, b) => {
 
 ```javascript
 
-var v =  () => {};
+var v = () =>  {};
 ```
 
 ### Diagnostics

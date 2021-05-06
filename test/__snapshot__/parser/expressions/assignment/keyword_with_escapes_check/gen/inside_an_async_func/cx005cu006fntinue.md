@@ -102,7 +102,7 @@ async () => {  c\u006fntinue = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   continue ;
 }
 x;

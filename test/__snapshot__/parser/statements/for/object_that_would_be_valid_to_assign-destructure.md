@@ -120,7 +120,7 @@ for ({x: a.b};;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

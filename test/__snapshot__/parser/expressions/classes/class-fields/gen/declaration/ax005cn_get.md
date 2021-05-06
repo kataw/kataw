@@ -115,7 +115,7 @@ class C { a\n get }
 ```javascript
 
 class {
-
+  a;
 }
 n;
 get;

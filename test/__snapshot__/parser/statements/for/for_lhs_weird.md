@@ -347,13 +347,13 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
-for(; ; )
+for (; ; )
   x;
-for(; ; )
+for (; ; )
   x;
-for(; ; )
+for (; ; )
   x;
 ```
 

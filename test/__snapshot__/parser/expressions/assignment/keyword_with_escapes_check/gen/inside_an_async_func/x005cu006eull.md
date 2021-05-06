@@ -102,7 +102,7 @@ async () => {  \u006eull = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   null = x;
 }
 ```

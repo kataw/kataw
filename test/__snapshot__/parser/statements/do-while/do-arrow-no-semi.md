@@ -99,7 +99,7 @@ while(y)
 
 ```javascript
 
-do  x => {};
+do x =>  {};
 while (y);
 ```
 

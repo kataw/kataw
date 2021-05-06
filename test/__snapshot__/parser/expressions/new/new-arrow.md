@@ -87,7 +87,7 @@ new (x)=>{}
 
 ```javascript
 
-  (x) => {}();
+ (x) =>  {}();
 ```
 
 ### Diagnostics

@@ -101,7 +101,7 @@ class x {delete: x}
 ```javascript
 
 class {
-
+  delete;
 }
 x;
 ```

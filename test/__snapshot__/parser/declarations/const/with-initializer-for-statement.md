@@ -107,7 +107,7 @@ for (;false;) const x = 1;
 
 ```javascript
 
-for(; ; false)
+for (; ; false)
   ;
 const x = 1;
 ```

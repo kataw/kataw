@@ -128,7 +128,7 @@
 
 ```javascript
 
- ({ ident: { x: y } }) => x;
+({ ident: { x: y } }) =>  x;
 ```
 
 ### Diagnostics

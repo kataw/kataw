@@ -145,7 +145,7 @@ class x { import {x} from "y"; }
 ```javascript
 
 class {
-
+  import;
 }
 {
   x;

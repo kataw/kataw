@@ -85,7 +85,7 @@
 
 ```javascript
 
-[ x => ok];
+[x =>  ok];
 ```
 
 ### Diagnostics

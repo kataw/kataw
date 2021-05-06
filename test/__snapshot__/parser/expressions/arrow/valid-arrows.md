@@ -949,21 +949,21 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
 ```javascript
 //a ? (b) : c => d; // a ? b : (c => d)
 
-a ?  (b) => d : e; // a ? ((b): c => d) : e
+a ? (b) =>  d : e; // a ? ((b): c => d) : e
 
-a ? (b) :  (c) => e; // a ? b : ((c): d => e)
+a ? (b) : (c) =>  e; // a ? b : ((c): d => e)
 
 //a ? (b = (c) => d) : e => f; // a ? (b = (c) => d) : (e => f)
-a ?  (b =  (c) => d) => f : g; // a ? ((b = (c) => d): e => f) : g
+a ? (b = (c) =>  d) =>  f : g; // a ? ((b = (c) => d): e => f) : g
 
-b ? c ?  (d) => (f) : g : h; // b ? (c ? ((d): e => f) : g) : h
+b ? c ? (d) =>  (f) : g : h; // b ? (c ? ((d): e => f) : g) : h
 
 //a ? b ? c ? (d) : e => (f) : g : h; // a ? (b ? (c ? d : (e => f)) : g) : h
-a ? b ? (c) :  (d)  g  // Multiple arrow functions
-  a ?  (b) => d :  (e) => g; // a ? ((b): c => d) : ((e): f => g)
+a ? b ? (c) : (d)  g  // Multiple arrow functions
+  a ? (b) =>  d : (e) =>  g; // a ? ((b): c => d) : ((e): f => g)
 
 // Multiple nested arrow functions (<T> is needed to avoid ambiguities)
-a ?  (b) =>  (d) => f : g; // a ? ((b): c => ((d): e => f)) : g
+a ? (b) =>  (d) =>  f : g; // a ? ((b): c => ((d): e => f)) : g
 
 ```
 

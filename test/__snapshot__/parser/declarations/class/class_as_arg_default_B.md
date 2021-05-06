@@ -170,7 +170,7 @@ f = ([xCls = class X {}]) => {}
 
 ```javascript
 
-f =  ([xCls = class {}]) => {};
+f = ([xCls = class {}]) =>  {};
 ```
 
 ### Diagnostics

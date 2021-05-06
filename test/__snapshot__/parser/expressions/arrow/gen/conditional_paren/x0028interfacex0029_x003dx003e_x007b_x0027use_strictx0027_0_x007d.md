@@ -142,7 +142,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : ( (interface) => {
+bar ? baz : ((interface) =>  {
         0;
       });
 ```

@@ -64,7 +64,7 @@ async ()=>x;
 
 ```javascript
 
-async () => x
+async () =>  x
 
 ```
 

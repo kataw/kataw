@@ -255,9 +255,9 @@ foo(y,(y) => ok);
 
 ```javascript
 
-foo( () => {});
-foo(x,  (y) => {});
-foo(y,  (y) => ok);
+foo(() =>  {});
+foo(x, (y) =>  {});
+foo(y, (y) =>  ok);
 ```
 
 ### Diagnostics

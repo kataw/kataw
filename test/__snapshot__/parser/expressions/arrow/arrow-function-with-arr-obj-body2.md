@@ -107,7 +107,7 @@ var v = a => <any><any>{}
 
 ```javascript
 
-var v =  a => ();
+var v = a =>  ();
 ```
 
 ### Diagnostics

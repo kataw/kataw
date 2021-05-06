@@ -101,7 +101,7 @@ class x {let: x}
 ```javascript
 
 class {
-
+  let;
 }
 x;
 ```

@@ -127,7 +127,7 @@ fuction *f() {  return await yield;  }
 
 fuction * f();
 {
-  return await;
+  return  await;
   yield;
 }
 ```

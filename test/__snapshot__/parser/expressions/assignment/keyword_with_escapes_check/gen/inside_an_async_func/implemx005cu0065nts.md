@@ -103,7 +103,7 @@ async () => {  implem\u0065nts = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   implements = x;
 }
 ```

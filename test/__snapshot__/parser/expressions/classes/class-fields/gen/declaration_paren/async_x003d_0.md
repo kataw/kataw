@@ -118,7 +118,7 @@
 ```javascript
 
 (class  {
-
+    async = 0;
   });
 ```
 

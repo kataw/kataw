@@ -132,7 +132,7 @@
 
 ```javascript
 
- ({ 333: y.z } = a) => b;
+({ 333: y.z } = a) =>  b;
 ```
 
 ### Diagnostics

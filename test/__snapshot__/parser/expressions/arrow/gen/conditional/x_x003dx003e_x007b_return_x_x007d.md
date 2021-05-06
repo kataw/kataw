@@ -113,8 +113,8 @@ x => { return x; } , bar;
 
 ```javascript
 
- x => {
-  return x;
+x =>  {
+  return  x;
 }, bar;
 ```
 

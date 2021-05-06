@@ -110,7 +110,7 @@ async x => {}[foo]
 
 ```javascript
 
-async x => {};
+async x =>  {};
 [foo];
 ```
 

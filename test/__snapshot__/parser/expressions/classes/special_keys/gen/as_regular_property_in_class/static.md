@@ -101,7 +101,7 @@ class x {static: x}
 ```javascript
 
 class {
-
+  static;
 }
 x;
 ```

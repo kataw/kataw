@@ -98,7 +98,7 @@
 ```javascript
 
 ();
-return  = x;
+return   = x;
 
 ```
 

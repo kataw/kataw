@@ -103,7 +103,7 @@ for(delete(x in y);;)x
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
 ```
 

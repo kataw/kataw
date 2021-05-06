@@ -245,7 +245,7 @@ for ((async) of x);
 
 for (async.x of y);
 for (async of x);
-for(; ; );
+for (; ; );
 for ((async) of x);
 ```
 

@@ -2588,13 +2588,13 @@ class  {}
 class  {}
 class {
 
-
+  super;
 }
 foo;
 {
 }
 class {
-
+  super;
 }
 foo();
 {
@@ -2603,10 +2603,10 @@ class {
 
 }
 class {
-
-
+  ;
+  y;
 }
- ()  ;
+()  ;
 class {
 
 }

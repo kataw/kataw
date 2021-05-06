@@ -115,7 +115,7 @@ async () => {  inst\u0061nceof = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
      inctanceof ;
 }
 x;

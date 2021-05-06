@@ -403,7 +403,7 @@ class C {
 ```javascript
 
 class {
-
+  ;
 
 
 

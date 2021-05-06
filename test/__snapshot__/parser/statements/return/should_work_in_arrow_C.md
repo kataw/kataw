@@ -98,8 +98,8 @@
 
 ```javascript
 
- () => {
-  return;
+() =>  {
+  return ;
 };
 ```
 

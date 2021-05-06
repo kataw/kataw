@@ -82,7 +82,7 @@ async () => {  def\u0061ult = x  }
 
 ```javascript
 
-async () => {}
+async () =>  {}
 x;
 ```
 

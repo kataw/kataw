@@ -132,8 +132,8 @@ var asserted1 = <any>((n) => { return n; });
 
 ```javascript
 
-var asserted1 = ( (n) => {
-    return n;
+var asserted1 = ((n) =>  {
+    return  n;
   });
 ```
 

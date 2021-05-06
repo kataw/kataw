@@ -100,7 +100,7 @@ class C { aaa = new.target }
 ```javascript
 
 class {
-
+  aaa = ;
 }
 ```
 

@@ -100,7 +100,7 @@ x => y
 ```javascript
 
  async();
- x => y;
+x =>  y;
 ```
 
 ### Diagnostics

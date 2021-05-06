@@ -4336,182 +4336,182 @@ a});
 ```javascript
 
 class {
-
+  static  = bar;
 }
 (class {
+    static a = 0;
+
+  });
+(class {
+    static a = 0;
+
+    b;
+  });
+(class {
+    static a = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static a = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static a = 0;
 
 
   });
 (class {
+    static a;
+
+  });
+(class {
+    static a;
+
+    b;
+
+  });
+(class {
+    static a;
 
 
   });
 (class {
-
-
-
-
-  });
-(class {
-
+    static a;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static a;
 
 
   });
 (class {
+    static  = 0;
+
+  });
+(class {
+    static  = 0;
+
+    b;
+  });
+(class {
+    static  = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static  = 0;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static  = 0;
 
 
   });
 (class {
+    static ;
+
+  });
+(class {
+    static ;
+
+    b;
+
+  });
+(class {
+    static ;
 
 
   });
 (class {
-
-
-
-
-  });
-(class {
-
+    static ;
 
 
   });
 (class {
-
-
-
-  });
-(class {
-
+    static ;
 
 
   });
 (class  {
-
-
-  });
-(class  {
-
+    static 0 = 0;
 
   });
 (class  {
-
+    static 0;
 
   });
 (class  {
+    static "'a'" = 0;
 
+  });
+(class  {
+    static "'a'";
 
   });
 (class {
+    static yield = 0;
+  });
+(class {
+    static yield;
+    a;
+  });
+(class {
+    static async;
 
   });
 (class {
-
-
-  });
-(class {
-
+    static async = 0;
 
   });
 (class {
-
-
+    static async;
   });
 (class {
-
-  });
-(class {
-
+    static async = 0;
   });
 (class {
     static
   }); // a field named async, and a method named a.
 
 (class {
+    static async a;
+  });
+(class {
+    static await;
 
   });
 (class {
-
-
-  });
-(class {
-
+    static await = 0;
 
   });
 (class {
-
+    static await;
+    a;
+  });
+(class {
+    static c = [c] = c;
+  });
+(class {
+    static a = 0;
+  });
+(class {
+    static a = 0;
+    b;
+  });
+(class {
+    static a = 0;
 
   });
 (class {
-
+    static a;
   });
 (class {
-
-  });
-(class {
-
-
-  });
-(class {
-
-
-  });
-(class {
-
-  });
-(class {
-
-
+    static a;
+    b;
   });
 ```
 

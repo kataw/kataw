@@ -101,7 +101,7 @@ class x {yield: x}
 ```javascript
 
 class {
-
+  yield;
 }
 x;
 ```

@@ -114,7 +114,7 @@ async () => {  \u0064elete = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
    = x;
 }
 ```

@@ -1080,7 +1080,7 @@ class Foo {
 ```javascript
 
 class {
-
+  ;
 
 
 }

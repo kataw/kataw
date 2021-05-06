@@ -107,7 +107,7 @@ throw {x} catch
 
 ```javascript
 
-throw { x };
+throw  { x };
  {
 } {
 }

@@ -99,7 +99,7 @@ async () => {  expo\u0072t = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
 
 }
 x;

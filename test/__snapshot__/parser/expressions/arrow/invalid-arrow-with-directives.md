@@ -3122,105 +3122,105 @@
 
 ```javascript
 
- (a = yield) => {};
+(a = yield) =>  {};
 "\"use strict\"";
- (a = yield / a / g) => {};
+(a = yield / a / g) =>  {};
 "\"use strict\"";
- yield => {};
+yield =>  {};
 "\"use strict\"";
- (yield) => {};
+(yield) =>  {};
 "\"use strict\"";
- (yield = 0) => {};
+(yield = 0) =>  {};
 "\"use strict\"";
- ([yield]) => {};
+([yield]) =>  {};
 "\"use strict\"";
- ([yield = 0]) => {};
+([yield = 0]) =>  {};
 "\"use strict\"";
- ([...yield]) => {};
+([...yield]) =>  {};
 "\"use strict\"";
- ({ a: yield }) => {};
+({ a: yield }) =>  {};
 "\"use strict\"";
- ({ yield }) => {};
+({ yield }) =>  {};
 "\"use strict\"";
- ({ yield = 0 }) => {};
+({ yield = 0 }) =>  {};
 "\"use strict\"";
- () => yield;
+() =>  yield;
 "\"use strict\"";
- () => yield / a / g;
+() =>  yield / a / g;
 "\"use strict\"";
- () => {
+() =>  {
   var x = yield;
 };
 "\"use strict\"";
- () => {
+() =>  {
   var x = yield / a / g;
 };
 "\"use strict\"";
- () => {
+() =>  {
   var yield;
 };
 "\"use strict\"";
- () => {
+() =>  {
   var yield = 0;
 };
 "\"use strict\"";
- () => {
+() =>  {
   var [yield] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   var [yield = 0] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   var [...yield] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   var {
     a:
   } = {};
 };
 "\"use strict\"";
- () => {
+() =>  {
   var {
     yield
   } = {};
 };
 "\"use strict\"";
- () => {
+() =>  {
   var {
     yield = 0
   } = {};
 };
 "\"use strict\"";
- () => {
+() =>  {
   let yield;
 };
 "\"use strict\"";
- () => {
+() =>  {
   let yield = 0;
 };
 "\"use strict\"";
- () => {
+() =>  {
   let [yield] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   let [yield = 0] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   let [...yield] = [];
 };
 "\"use strict\"";
- () => {
+() =>  {
   let {
     a:
   } = {};
 };
 "\"use strict\"";
- () => {
+() =>  {
   let {
     yield
   } = {};

@@ -85,7 +85,7 @@ export default async (x) => y
 
 ```javascript
 
- default async (x) => y;
+ default async (x) =>  y;
 ```
 
 ### Diagnostics

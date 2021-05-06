@@ -164,7 +164,7 @@ class A {async set 11(x){}}
 ```javascript
 
 class {
-
+  async set;
 
 }
 ```

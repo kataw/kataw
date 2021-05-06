@@ -142,8 +142,8 @@ class x {[x]z){}}
 ```javascript
 
 class {
-
-
+  ;
+  z;
 }
 {
 }

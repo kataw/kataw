@@ -390,7 +390,7 @@ declare function foo(): void
 
 declare;
 
- ()  ;
+()  ;
 declare;
 
 number, y;

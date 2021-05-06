@@ -101,7 +101,7 @@ class x {super: x}
 ```javascript
 
 class {
-
+  super;
 }
 x;
 ```

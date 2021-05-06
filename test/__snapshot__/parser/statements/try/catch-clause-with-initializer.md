@@ -146,7 +146,7 @@ throw {x} catch (x = y) {}
 
 ```javascript
 
-throw { x };
+throw  { x };
  {
 } {
 }

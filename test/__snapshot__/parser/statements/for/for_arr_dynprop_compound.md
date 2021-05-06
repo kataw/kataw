@@ -113,7 +113,7 @@ for ([][y] <<= p;;) x;
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
 ```
 

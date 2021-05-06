@@ -99,7 +99,7 @@ throw {x} finally
 
 ```javascript
 
-throw { x };
+throw  { x };
  {
 } {
 }

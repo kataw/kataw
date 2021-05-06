@@ -103,7 +103,7 @@ async () => {  \u0070rivate = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   private = x;
 }
 ```

@@ -111,7 +111,7 @@ for (x = y in z) ;
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

@@ -191,7 +191,7 @@ class K extends {} {;async\n async *1(){}}
 
 class  {
 
-
+  async;
 }
 n;
 async * 1();

@@ -91,7 +91,7 @@ async _ => {}
 
 ```javascript
 
-async _ => {};
+async _ =>  {};
 /foo;
 ```
 

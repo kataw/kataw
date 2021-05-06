@@ -165,7 +165,7 @@ class C { #aaa; f() { this.#aaa } }
 ```javascript
 
 class {
-
+  ;
 
 
 }

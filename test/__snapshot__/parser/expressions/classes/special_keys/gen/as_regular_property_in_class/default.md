@@ -101,7 +101,7 @@ class x {default: x}
 ```javascript
 
 class {
-
+  default;
 }
 x;
 ```

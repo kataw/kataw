@@ -198,11 +198,11 @@ declare class X {
 ```javascript
 
 class {
+  a;
 
+  static b;
 
-
-
-
+  c;
 
 }
 ```

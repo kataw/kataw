@@ -529,7 +529,7 @@ x = {async __proto__(){}, *__proto__(){}};
 x = { , __proto__: 2 };
 x = { ,  };
 x = { ,  };
- ({ __proto__: x, __proto__: y }) => {};
+({ __proto__: x, __proto__: y }) =>  {};
 ```
 
 ### Diagnostics

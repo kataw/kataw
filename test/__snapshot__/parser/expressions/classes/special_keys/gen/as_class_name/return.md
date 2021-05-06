@@ -90,7 +90,7 @@ class return {}
 ```javascript
 
 class {}
-return {};
+return  {};
 ```
 
 ### Diagnostics

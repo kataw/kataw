@@ -113,7 +113,7 @@ _ => _
 
 ```javascript
 
- _ => _ / foo / ;
+_ =>  _ / foo / ;
 ```
 
 ### Diagnostics

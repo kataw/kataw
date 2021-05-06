@@ -103,7 +103,7 @@ async () => {  inte\u0072face = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   interface = x;
 }
 ```

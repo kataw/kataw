@@ -100,7 +100,7 @@ class C { await = 0; }
 ```javascript
 
 class {
-
+  await = 0;
 
 }
 ```

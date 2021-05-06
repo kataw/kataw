@@ -120,7 +120,7 @@
 ```javascript
 
 ({ a: class {
-
+    ;
   } });
 ```
 

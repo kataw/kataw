@@ -114,7 +114,7 @@
 
 ```javascript
 
- (x = interface = 10) => {};
+(x = interface = 10) =>  {};
 ```
 
 ### Diagnostics

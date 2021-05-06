@@ -51,7 +51,7 @@ throw
 
 ```javascript
 
-throw 
+throw  
 ;
 ```
 

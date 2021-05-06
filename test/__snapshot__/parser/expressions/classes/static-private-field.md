@@ -167,11 +167,11 @@ class A {
 ```javascript
 
 class {
-
+  static ;
 
 }
 class {
-
+  static  = x;
 
 }
 ```

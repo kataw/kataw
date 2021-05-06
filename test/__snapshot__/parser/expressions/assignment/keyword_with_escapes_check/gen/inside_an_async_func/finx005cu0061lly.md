@@ -118,7 +118,7 @@ async () => {  fin\u0061lly = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
    {
   } {
   }

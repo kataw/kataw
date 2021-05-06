@@ -140,7 +140,7 @@ for ({x=y}=x in x) ;
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

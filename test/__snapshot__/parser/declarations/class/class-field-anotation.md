@@ -146,9 +146,9 @@ class Foo { prop1:string; prop2:number; }
 ```javascript
 
 class {
+  prop1;
 
-
-
+  prop2;
 
 }
 ```

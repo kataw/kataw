@@ -139,7 +139,7 @@ x = {arrow: async async => ok}.y
 
 ```javascript
 
-x = { arrow: async async => ok }.y;
+x = { arrow: async async =>  ok }.y;
 ```
 
 ### Diagnostics

@@ -136,7 +136,7 @@ for({}/=y in y)x
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
 ```
 

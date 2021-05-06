@@ -184,8 +184,8 @@ async ([a]:string)=>c;
 
 ```javascript
 
-async (a) => c
-async ([a]) => c
+async (a) =>  c
+async ([a]) =>  c
 
 ```
 

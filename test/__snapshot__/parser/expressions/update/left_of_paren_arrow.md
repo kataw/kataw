@@ -80,7 +80,7 @@
 
 ```javascript
 
- (x) => b;
+(x) =>  b;
 ```
 
 ### Diagnostics

@@ -3308,24 +3308,24 @@ for (;;) {}});
   });
 (function* gen() {
      1;
-    return;
+    return ;
   });
 (function* gen() {
      1;
-    return 37;
+    return  37;
   });
 (function* gen() {
      1;
-    return 37;
+    return  37;
   });
 (function* gen() {
      1;
-    return 37;
+    return  37;
      "'dead'";
   });
 (function* gen() {
      1;
-    return 37;
+    return  37;
      "'dead'";
   });
 (function* gen() {

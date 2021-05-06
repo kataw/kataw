@@ -6169,9 +6169,9 @@ a;
 if (0) label:
 if (0) labelA: labelB:
 if (0) label:
-else;
+else ;
 if (0);
-else label:
+else  label:
 // 14.2.1
 // It is a Syntax Error if ArrowParameters Contains YieldExpression is true.
 

@@ -102,7 +102,7 @@
 
 ```javascript
 
- (interface) => {
+(interface) =>  {
   0;
 };
 ```

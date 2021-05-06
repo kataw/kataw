@@ -118,7 +118,7 @@
 
 ```javascript
 
- (interface) => {
+(interface) =>  {
   0;
 }, bar;
 ```

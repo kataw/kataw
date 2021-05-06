@@ -98,7 +98,7 @@ async () => {  \u0069mport = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   import ;
 }
 x;

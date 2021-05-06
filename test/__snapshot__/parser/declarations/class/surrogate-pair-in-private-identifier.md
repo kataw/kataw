@@ -153,7 +153,7 @@ class C { #@{x29e3d}@ }
 ```javascript
 
 class {
-
+  ;
 }
 class {}
 class {}

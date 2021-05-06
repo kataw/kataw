@@ -129,7 +129,7 @@ async () => {  functi\u006fn = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
 
 }
 x;

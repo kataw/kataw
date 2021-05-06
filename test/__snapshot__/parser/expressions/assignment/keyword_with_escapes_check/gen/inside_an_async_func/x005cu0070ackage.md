@@ -103,7 +103,7 @@ async () => {  \u0070ackage = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   package = x;
 }
 ```

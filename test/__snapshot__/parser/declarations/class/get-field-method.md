@@ -139,7 +139,7 @@ class C { get; #aaa(){} }
 ```javascript
 
 class {
-
+  get;
 
 
 }

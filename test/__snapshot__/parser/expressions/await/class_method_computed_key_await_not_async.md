@@ -231,11 +231,11 @@
 
 ```javascript
 
- (fail = class {
+(fail = class {
 
 
 
-}) => {};
+}) =>  {};
 ```
 
 ### Diagnostics

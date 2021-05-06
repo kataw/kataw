@@ -113,7 +113,7 @@ for (var a=1, b=2;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

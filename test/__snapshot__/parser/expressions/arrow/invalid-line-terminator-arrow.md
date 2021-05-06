@@ -60,7 +60,7 @@
 
 ```javascript
 
- () => 42;
+() =>  42;
 ```
 
 ### Diagnostics

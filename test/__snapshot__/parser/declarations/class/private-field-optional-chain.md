@@ -315,7 +315,7 @@ class Foo {
 ```javascript
 
 class {
-
+  ;
 
 }
 ```

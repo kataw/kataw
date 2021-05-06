@@ -127,7 +127,7 @@ else async function f(){}
 ```javascript
 
 if (x) x;
-else 
+else  
 ```
 
 ### Diagnostics

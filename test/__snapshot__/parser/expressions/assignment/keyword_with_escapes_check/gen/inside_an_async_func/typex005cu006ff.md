@@ -114,7 +114,7 @@ async () => {  type\u006ff = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
    = x;
 }
 ```

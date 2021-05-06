@@ -101,7 +101,7 @@ class x {try: x}
 ```javascript
 
 class {
-
+  try;
 }
 x;
 ```

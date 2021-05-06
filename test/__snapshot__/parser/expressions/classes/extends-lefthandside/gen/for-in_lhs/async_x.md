@@ -90,7 +90,7 @@ x in x) ;
 
 ```javascript
 
-for(; ; x in x);
+for (; ; x in x);
 ```
 
 ### Diagnostics

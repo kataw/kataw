@@ -101,7 +101,7 @@ class x {for: x}
 ```javascript
 
 class {
-
+  for;
 }
 x;
 ```

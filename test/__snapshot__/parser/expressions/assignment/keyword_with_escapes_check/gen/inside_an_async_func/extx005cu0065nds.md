@@ -82,7 +82,7 @@ async () => {  ext\u0065nds = x  }
 
 ```javascript
 
-async () => {}
+async () =>  {}
 x;
 ```
 

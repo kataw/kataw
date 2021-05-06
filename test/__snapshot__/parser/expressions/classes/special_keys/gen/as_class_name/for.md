@@ -117,7 +117,7 @@ class for {}
 ```javascript
 
 class {}
-for(; ; )
+for (; ; )
   ;
 ```
 

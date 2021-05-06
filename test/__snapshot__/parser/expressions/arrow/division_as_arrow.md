@@ -133,7 +133,7 @@
 
 ```javascript
 
- ({ ident: { x } / x }) => x;
+({ ident: { x } / x }) =>  x;
 ```
 
 ### Diagnostics

@@ -194,7 +194,7 @@ let f = () => { const [...await f] = []; }
 
 ```javascript
 
-let f =  () => {
+let f = () =>  {
   const [...await, f] = [];
 };
 ```

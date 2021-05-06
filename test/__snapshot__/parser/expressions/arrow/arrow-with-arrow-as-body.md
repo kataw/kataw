@@ -173,7 +173,7 @@
 
 ```javascript
 
- () =>  () => x * u + y * v;
+() =>  () =>  x * u + y * v;
 ```
 
 ### Diagnostics

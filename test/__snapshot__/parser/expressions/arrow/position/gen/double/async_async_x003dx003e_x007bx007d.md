@@ -129,8 +129,8 @@ async async => {} async async => {}
 
 ```javascript
 
-async async => {};
-async async => {};
+async async =>  {};
+async async =>  {};
 ```
 
 ### Diagnostics

@@ -108,7 +108,7 @@
 
 ```javascript
 
- () => 0;
+() =>  0;
 ```
 
 ### Diagnostics

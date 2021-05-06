@@ -90,7 +90,7 @@ class throw {}
 ```javascript
 
 class {}
-throw {};
+throw  {};
 ```
 
 ### Diagnostics

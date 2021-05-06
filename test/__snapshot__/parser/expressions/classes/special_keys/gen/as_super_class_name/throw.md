@@ -110,7 +110,7 @@ class x extends throw {}
 ```javascript
 
 class  {}
-throw {};
+throw  {};
 ```
 
 ### Diagnostics

@@ -145,7 +145,7 @@
 ```javascript
 
 (class  {
-
+    await;
   });
 n;
 a;

@@ -1159,11 +1159,11 @@
 (c, a"'b'");
 {
 }
- (...a = b) => b;
+(...a = b) =>  b;
 () - a;
 b;
- ({ x: this }) => {};
- ({ x: y.z } = a) => b;
+({ x: this }) =>  {};
+({ x: y.z } = a) =>  b;
 ([x].length);
 y;
 (z, [x].length);
@@ -1176,12 +1176,12 @@ y;
 y;
 (z, { x: y }.length);
 y;
- ({  }) => 0;
+({  }) =>  0;
 ();
 5;
 {
 }
- ({ x: , const }) => null;
+({ x: , const }) =>  null;
 ```
 
 ### Diagnostics

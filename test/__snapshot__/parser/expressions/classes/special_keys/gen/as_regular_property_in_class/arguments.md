@@ -101,7 +101,7 @@ class x {arguments: x}
 ```javascript
 
 class {
-
+  arguments;
 }
 x;
 ```

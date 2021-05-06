@@ -124,7 +124,7 @@ for ([].w ^= s;;) x;
 
 ```javascript
 
-for(; ; )
+for (; ; )
   x;
 ```
 

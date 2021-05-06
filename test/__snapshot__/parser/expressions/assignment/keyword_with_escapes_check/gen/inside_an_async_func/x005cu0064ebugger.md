@@ -95,7 +95,7 @@ async () => {  \u0064ebugger = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   debugger;
 }
 x;

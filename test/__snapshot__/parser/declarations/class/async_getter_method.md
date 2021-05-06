@@ -158,7 +158,7 @@ class A {async get 7(){}}
 ```javascript
 
 class {
-
+  async get;
 
 }
 ```

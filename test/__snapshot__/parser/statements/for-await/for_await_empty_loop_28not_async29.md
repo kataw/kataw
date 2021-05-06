@@ -63,7 +63,7 @@ for await (;;) {}
 
 ```javascript
 
-for(; ; ) {}
+for (; ; ) {}
 ```
 
 ### Diagnostics

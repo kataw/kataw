@@ -101,7 +101,7 @@ class x {instanceof: x}
 ```javascript
 
 class {
-
+  instanceof;
 }
 x;
 ```

@@ -158,7 +158,7 @@
 
 ```javascript
 
- ({ ident: [foo, bar].join("\"\"") }) => x;
+({ ident: [foo, bar].join("\"\"") }) =>  x;
 ```
 
 ### Diagnostics

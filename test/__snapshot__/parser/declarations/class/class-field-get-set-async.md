@@ -172,13 +172,13 @@ class C { get; set; static; async }
 ```javascript
 
 class {
+  get;
 
+  set;
 
+  static;
 
-
-
-
-
+  async;
 }
 ```
 

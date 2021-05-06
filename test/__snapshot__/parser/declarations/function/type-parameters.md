@@ -975,7 +975,7 @@ const a;
 1;
     <  /* comment */ > ;
 
- ()  ;
+()  ;
 interface;
 Foo;
 {
@@ -983,7 +983,7 @@ Foo;
 }
 any;
 type;
-T =  (arg) => any;
+T = (arg) =>  any;
     < A // comment
  > ;
 const a;
@@ -991,7 +991,7 @@ const a;
 1;
     <  > ;
 
- ()  ;
+()  ;
 interface;
 Foo;
 {
@@ -999,7 +999,7 @@ Foo;
 }
 any;
 type;
-T =  (arg) => any;
+T = (arg) =>  any;
 ```
 
 ### Diagnostics

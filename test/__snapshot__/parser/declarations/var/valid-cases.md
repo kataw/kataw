@@ -1804,8 +1804,8 @@ try {
 } catch (x) {
   x = 5;
 }
-var f =  () => {};
-var f =  ({ x: arg = (arg = 2) }) => {};
+var f = () =>  {};
+var f = ({ x: arg = (arg = 2) }) =>  {};
 var foo;
 var foo = 0;
 var [foo] = [1];

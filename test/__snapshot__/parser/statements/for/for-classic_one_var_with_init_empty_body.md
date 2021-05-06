@@ -100,7 +100,7 @@ for (var a=1;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

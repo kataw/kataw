@@ -115,7 +115,7 @@
 
 ```javascript
 
- ([..."\"foo\"" = x]) => x;
+([..."\"foo\"" = x]) =>  x;
 ```
 
 ### Diagnostics

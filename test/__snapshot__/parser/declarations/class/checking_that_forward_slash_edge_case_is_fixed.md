@@ -162,7 +162,7 @@ class x { static / foo(){} }
 ```javascript
 
 class {
-
+  static;
 }
  / foo();
 {

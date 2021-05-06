@@ -267,7 +267,7 @@ var await; var f = (async function() { var asyncArrow = async(...await) => {}; }
 
 var await;
 var f = (async function() {
-    var asyncArrow = async async(...) => {};
+    var asyncArrow = async async(...) =>  {};
   });
 ```
 

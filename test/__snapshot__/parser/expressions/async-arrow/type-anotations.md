@@ -853,14 +853,14 @@ async (...[x]?: string, a?) => {};
 
 ```javascript
 
-async (x?) => {}
-async ([x], a) => {}
-async ([x], a) => {}
-async ([x], a) => {}
-async ([x]?, a) => {}
-async ([x]?, a?) => {}
-async (...) => {}
-async (...) => {}
+async (x?) =>  {}
+async ([x], a) =>  {}
+async ([x], a) =>  {}
+async ([x], a) =>  {}
+async ([x]?, a) =>  {}
+async ([x]?, a?) =>  {}
+async (...) =>  {}
+async (...) =>  {}
 async(...[x], )
 {
 }

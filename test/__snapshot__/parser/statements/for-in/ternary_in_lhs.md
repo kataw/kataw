@@ -136,7 +136,7 @@ for (a ? b : c in x);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

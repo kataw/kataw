@@ -117,7 +117,7 @@
 ```javascript
 
 (class  {
-
+    await;
 
   });
 ```

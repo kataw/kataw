@@ -91,7 +91,7 @@ class C { 1e2 }
 ```javascript
 
 class {
-
+  1e2;
 }
 ```
 

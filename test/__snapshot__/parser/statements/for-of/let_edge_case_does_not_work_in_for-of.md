@@ -124,7 +124,7 @@ for (let of x) y
 
 ```javascript
 
-for(; ; )
+for (; ; )
   y;
 ```
 

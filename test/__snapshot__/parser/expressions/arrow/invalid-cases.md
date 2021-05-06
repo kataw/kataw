@@ -3786,7 +3786,7 @@ a++ => {};
 ```javascript
 
 0;
- () => ;
+() =>  ;
 {
 }
 {
@@ -3796,10 +3796,10 @@ a++ => {};
 (, );
 {
 }
-return ;
+return  ;
 {
 }
- () => {
+() =>  {
   "'value'";
 };
 42;
@@ -3825,43 +3825,43 @@ foo;
 // which confusingly only implies that there are no duplicates.  Words
 // reserved in strict mode, and eval or arguments, are indeed valid in
 // sloppy mode.
- eval => {
+eval =>  {
   0;
 };
- arguments => {
+arguments =>  {
   0;
 };
- yield => {
+yield =>  {
   0;
 };
- interface => {
+interface =>  {
   0;
 };
- (eval) => {
+(eval) =>  {
   0;
 };
- (arguments) => {
+(arguments) =>  {
   0;
 };
- (yield) => {
+(yield) =>  {
   0;
 };
- (interface) => {
+(interface) =>  {
   0;
 };
- () => {
+() =>  {
   0;
 };
- () => {
+() =>  {
   0;
 };
- () => {
+() =>  {
   0;
 };
- () => {
+() =>  {
   0;
 };
- () => {
+() =>  {
   0;
 };
 // TODO(aperez): Detecting duplicates does not work in PreParser.
@@ -3888,7 +3888,7 @@ if () ;
 if () ;
 {
 }
-a +  b => {};
+a + b =>  {};
 (a + b);
 {
 }
@@ -3907,7 +3907,7 @@ a +  b => {};
 ("\"a; b) => {};"(a, "\"b\""));
 {
 }
- a => {};
+a =>  {};
 (a);
 {
 }
@@ -3957,7 +3957,7 @@ a;
 (c, a"'b'");
 {
 }
- (...a = b) => b;
+(...a = b) =>  b;
 () - a;
 b;
 (a, ) - 10;

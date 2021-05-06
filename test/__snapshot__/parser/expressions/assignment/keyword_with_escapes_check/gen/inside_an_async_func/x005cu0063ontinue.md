@@ -102,7 +102,7 @@ async () => {  \u0063ontinue = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   continue ;
 }
 x;

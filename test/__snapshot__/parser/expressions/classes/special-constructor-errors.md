@@ -802,7 +802,7 @@
 
   });
 (class {
-
+    c;
   });
 onstructor();
 {

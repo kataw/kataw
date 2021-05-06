@@ -102,7 +102,7 @@ async () => {  c\u006fnst = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
   const ;
 }
 x;

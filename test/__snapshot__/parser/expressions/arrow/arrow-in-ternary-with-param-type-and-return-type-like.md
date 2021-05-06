@@ -145,7 +145,7 @@ test
 
 ```javascript
 
-test ? () :  U => y;
+test ? () : U =>  y;
 ```
 
 ### Diagnostics

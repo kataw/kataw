@@ -113,7 +113,7 @@
 
 ```javascript
 
- ([{}.length]) => {};
+([{}.length]) =>  {};
 ```
 
 ### Diagnostics

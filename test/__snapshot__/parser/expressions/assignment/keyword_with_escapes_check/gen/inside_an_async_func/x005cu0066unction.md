@@ -129,7 +129,7 @@ async () => {  \u0066unction = x  }
 
 ```javascript
 
-async () => {
+async () =>  {
 
 }
 x;

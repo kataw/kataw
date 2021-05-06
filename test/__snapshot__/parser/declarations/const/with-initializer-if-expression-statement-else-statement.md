@@ -125,7 +125,7 @@ if (true) {} else const x = 1;
 ```javascript
 
 if (true) {
-} else ;
+} else  ;
 const x = 1;
 ```
 

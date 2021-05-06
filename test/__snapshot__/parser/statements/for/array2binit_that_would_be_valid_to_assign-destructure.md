@@ -125,7 +125,7 @@ for ([x.y] = z;;);
 
 ```javascript
 
-for(; ; );
+for (; ; );
 ```
 
 ### Diagnostics

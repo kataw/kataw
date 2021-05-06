@@ -105,7 +105,7 @@ x = return => {} ;
 ```javascript
 
 x = ;
-return ;
+return  ;
 {
 }
 
