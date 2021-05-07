@@ -6920,6 +6920,15 @@ export function parseClassElement(
               nodeFlags
             );
           }
+          parser.previousErrorPos = parser.pos;
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode._static_modifier_already_seen],
+            pos,
+            parser.pos
+          );
+
           break;
         case SyntaxKind.DeclareKeyword:
           if (context & Context.OptionsAllowTypes) {
@@ -7005,6 +7014,7 @@ export function parseClassElement(
           nodeFlags |= NodeFlags.Constructor;
         }
       } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
+        if (parser.previousErrorPos !== parser.pos){
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -7012,6 +7022,7 @@ export function parseClassElement(
           parser.curPos,
           parser.pos
         );
+      }
       }
     } else if (
       (staticKeyword || nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) &&
