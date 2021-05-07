@@ -483,9 +483,9 @@ class Foo {
   static set static #y(x) {}
   static static #z() {}
   foo() {
-    Foo. += 1;
-    Foo. += 1;
-    Foo.();
+    Foo.#x += 1;
+    Foo.#y += 1;
+    Foo.#z();
   }
 }
 ```

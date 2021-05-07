@@ -589,21 +589,21 @@ class C { foo() { this.#a = 1; }}
 
 (class  {
     set #b(val) {
-      this. = val;
+      this.#a = val;
     }
   })(class  {
     get #b() {
-      return  this.;
+      return  this.#a;
     }
   });
 class C  {
   foo() {
-    return  this.;
+    return  this.#a;
   }
 }
 class C {
   foo() {
-    this. = 1;
+    this.#a = 1;
   }
 }
 ```

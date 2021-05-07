@@ -836,25 +836,25 @@
 (class  {
     set #b(val) {}
     fn() {
-      return  this.;
+      return  this.#b;
     }
   });
 (class  {
     get #b() {}
     fn() {
-      this.++;
+      this.#b++;
     }
   });
 (class  {
     get #b() {}
     fn(obj) {
-      ({ y: this. } = obj);
+      ({ y: this.#b } = obj);
     }
   });
 (class  {
     #b() {}
     fn() {
-      this.++;
+      this.#b++;
     }
   });
 ```

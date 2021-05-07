@@ -317,9 +317,9 @@ class Foo {
 class Foo {
   #x;
   foo() {
-    this?..y;
-    this?.y.;
-    this.?.y;
+    this?.#x.y;
+    this?.y.#x;
+    this.#x?.y;
   }
 }
 ```

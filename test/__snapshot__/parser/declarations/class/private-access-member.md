@@ -208,7 +208,7 @@ class C {
   #aaa;
 
   f(obj) {
-    obj?.;
+    obj?.#aaa;
   }
 }
 ```

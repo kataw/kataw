@@ -1697,15 +1697,15 @@ class Foo {
      = ?.(x);
   }
   privateField() {
-    a().;
-    b().(x);
-    c()?.(x);
+    a().#field;
+    b().#field(x);
+    c()?.#field(x);
      = (x).bar();
   }
   privateMethod() {
-    a().;
-    b().(x);
-    c()?.(x);
+    a().#method;
+    b().#method(x);
+    c()?.#method(x);
      = (x).bar();
   }
 }

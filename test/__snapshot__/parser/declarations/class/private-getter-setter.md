@@ -2133,34 +2133,34 @@ class Foo {
     this.prop = val;
   }
   foo(fn) {
-    fn().;
-    fn(). = 1;
-    fn().;
-    fn(). = 2;
+    fn().#foo;
+    fn().#bar = 1;
+    fn().#prop;
+    fn().#prop = 2;
   }
   unary(fn) {
-    fn().++;
-    fn().--;
-    ++fn().;
-    --fn().;
+    fn().#prop++;
+    fn().#prop--;
+    ++fn().#prop;
+    --fn().#prop;
   }
   binary(fn) {
-    fn(). = 1;
-    fn(). += 1;
-    fn(). -= 1;
-    fn(). *= 1;
-    fn(). /= 1;
-    fn(). %= 1;
-    fn(). **= 1;
-    fn(). <<= 1;
-    fn(). >>= 1;
-    fn(). >>>= 1;
-    fn(). &= 1;
-    fn(). |= 1;
-    fn(). ^= 1;
-    fn(). &&= 1;
-    fn(). ||= 1;
-    fn(). => 1;
+    fn().#prop = 1;
+    fn().#prop += 1;
+    fn().#prop -= 1;
+    fn().#prop *= 1;
+    fn().#prop /= 1;
+    fn().#prop %= 1;
+    fn().#prop **= 1;
+    fn().#prop <<= 1;
+    fn().#prop >>= 1;
+    fn().#prop >>>= 1;
+    fn().#prop &= 1;
+    fn().#prop |= 1;
+    fn().#prop ^= 1;
+    fn().#prop &&= 1;
+    fn().#prop ||= 1;
+    fn().#prop => 1;
   }
 }
 ```

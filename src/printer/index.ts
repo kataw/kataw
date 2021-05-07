@@ -212,6 +212,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printMethodDefinition(node, printer);
     case SyntaxKind.Identifier:
       return node.text;
+     case SyntaxKind.PrivateIdentifier:
+        return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
     case SyntaxKind.PropertyDefinition:

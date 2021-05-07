@@ -1082,28 +1082,28 @@ class Foo {
 class Foo {
   #x;
   unary() {
-    this.++;
-    this.--;
-    ++this.;
-    --this.;
+    this.#x++;
+    this.#x--;
+    ++this.#x;
+    --this.#x;
   }
   binary() {
-    this. = 1;
-    this. += 1;
-    this. -= 1;
-    this. *= 1;
-    this. /= 1;
-    this. %= 1;
-    this. **= 1;
-    this. <<= 1;
-    this. >>= 1;
-    this. >>>= 1;
-    this. &= 1;
-    this. |= 1;
-    this. ^= 1;
-    this. &&= 1;
-    this. ||= 1;
-    this. => 1;
+    this.#x = 1;
+    this.#x += 1;
+    this.#x -= 1;
+    this.#x *= 1;
+    this.#x /= 1;
+    this.#x %= 1;
+    this.#x **= 1;
+    this.#x <<= 1;
+    this.#x >>= 1;
+    this.#x >>>= 1;
+    this.#x &= 1;
+    this.#x |= 1;
+    this.#x ^= 1;
+    this.#x &&= 1;
+    this.#x ||= 1;
+    this.#x => 1;
   }
 }
 ```

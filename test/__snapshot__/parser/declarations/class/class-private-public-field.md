@@ -741,11 +741,11 @@ class C { f(){ this.#a } #a; }
 class C {
   #a;
 
-  a = this.;
+  a = this.#a;
 
 }
 class C {
-  a = this.;
+  a = this.#a;
 
   #a;
 
@@ -753,11 +753,11 @@ class C {
 class C {
   #a;
 
-  [this.];
+  [this.#a];
 
 }
 class C {
-  [this.];
+  [this.#a];
 
   #a;
 
@@ -766,12 +766,12 @@ class C {
   #a;
 
   f() {
-    this.;
+    this.#a;
   }
 }
 class C {
   f() {
-    this.;
+    this.#a;
   }
   #a;
 
