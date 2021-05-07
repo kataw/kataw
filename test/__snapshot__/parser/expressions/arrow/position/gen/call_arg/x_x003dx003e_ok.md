@@ -71,7 +71,7 @@ foo(x => ok)
                     "start": 4,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 12
             },

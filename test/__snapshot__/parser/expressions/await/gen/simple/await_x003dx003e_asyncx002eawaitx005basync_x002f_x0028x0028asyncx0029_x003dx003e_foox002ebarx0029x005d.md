@@ -41,7 +41,7 @@ await => async.await[async / ((async) => foo.bar)]
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -60,7 +60,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "start": 15,
                             "end": 20
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 8,
                         "end": 20
                     },
@@ -121,7 +121,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "start": 45,
                                         "end": 48
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 40,
                                     "end": 48
                                 },
@@ -163,7 +163,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
-await =>  async.awaitasync / ((async) =>  foo.bar);
+await =>  ;
 ```
 
 ### Diagnostics

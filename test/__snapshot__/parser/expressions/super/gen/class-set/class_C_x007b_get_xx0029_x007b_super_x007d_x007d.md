@@ -208,7 +208,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "start": 45,
                                 "end": 45
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 39,
                             "end": 45
                         },

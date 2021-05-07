@@ -281,7 +281,7 @@ var callCount = 0;
                             "start": 91,
                             "end": 96
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 73,
                         "end": 96
                     },
@@ -404,7 +404,7 @@ var callCount = 0;
                         "start": 97,
                         "end": 123
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 73,
                     "end": 124
                 },

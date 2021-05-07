@@ -55,7 +55,7 @@ function not_gen() { await.b[c] => async }}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 129,
                                     "member": {
@@ -74,7 +74,7 @@ function not_gen() { await.b[c] => async }}
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 20,
                                     "end": 28
                                 },

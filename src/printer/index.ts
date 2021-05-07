@@ -1,4 +1,5 @@
 import { RootNode } from '../ast/rootNode';
+import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import {
   createPrinter,
   Printer,
@@ -21,7 +22,6 @@ import {
   chain,
   emitNode
 } from './common';
-import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 
 export interface PrinterOptions {
   // Specify the line length that the printer will wrap on
@@ -134,7 +134,6 @@ function printStatementsWorker(node: any, printer: Printer, parentNode: any): an
       return printContinueStatement(node, printer);
     case SyntaxKind.OptionalExpression:
       return printOptionalExpression(node, printer);
-
     case SyntaxKind.ReturnStatement:
       return printReturnStatement(node, printer);
     case SyntaxKind.WithStatement:
@@ -212,8 +211,8 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printMethodDefinition(node, printer);
     case SyntaxKind.Identifier:
       return node.text;
-     case SyntaxKind.PrivateIdentifier:
-        return node.text;
+    case SyntaxKind.PrivateIdentifier:
+      return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
     case SyntaxKind.PropertyDefinition:
@@ -228,8 +227,6 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return printElementList(node, printer);
     case SyntaxKind.ObjectLiteral:
       return printObjectLiteral(node, printer, parentNode);
-    case SyntaxKind.ImportMeta:
-      return 'import';
     case SyntaxKind.SpreadProperty:
       return printSpreadProperty(node, printer);
     case SyntaxKind.PropertyDefinitionList:
@@ -357,7 +354,6 @@ function printDelimitedList(
       elements.push(chain([delimiter, printer.space, x]));
     }
     // Print this child.
-    // elements.push(print(child, printer, parentNode));
     elements.push(
       child ? chain([emitTrailingCommentsOfPosition(printer, child.start), print(child, printer, parentNode)]) : ''
     );
@@ -436,14 +432,15 @@ function canBreakAssignment(left: any, right: any): boolean {
 
   if (
     left.kind & SyntaxKind.IsIdentifier ||
-    left.kind === SyntaxKind.StringLiteral /*||
-    left.kind & SyntaxKind.IsMemberExpression */
+    left.flags & NodeFlags.IsMemberExpression ||
+    left.kind === SyntaxKind.PrivateIdentifier ||
+    left.kind === SyntaxKind.StringLiteral
   ) {
     let node = right;
     while (node && node.kind === SyntaxKind.UnaryExpression) {
       node = node.operand;
     }
-    if (node && node.kind === SyntaxKind.StringKeyword /*|| node.kind & SyntaxKind.IsMemberExpression*/) {
+    if ((node && node.kind === SyntaxKind.StringKeyword) || node.flags & NodeFlags.IsMemberExpression) {
       return true;
     }
   }
@@ -1484,7 +1481,7 @@ function printBinaryExpression(node: any, printer: Printer, parentNode: any): an
     parentNode.kind === SyntaxKind.CallChain ||
     parentNode.kind === SyntaxKind.CallExpression ||
     parentNode.kind === SyntaxKind.UnaryExpression ||
-    //parentNode.kind & (SyntaxKind.IsCallExpression | SyntaxKind.IsMemberExpression) ||
+    parentNode.flags & (NodeFlags.IsCallExpression | NodeFlags.IsMemberExpression) ||
     parentNode.kind === SyntaxKind.OptionalExpression
   ) {
     return group(chain([indent(chain([softline, chain(parts)])), softline]));
@@ -1943,6 +1940,7 @@ function printFieldDefinition(node: any, printer: Printer): any {
         node.decorators &&
         node.decorators.node.decoratorList.length) ||
       node.key.kind & SyntaxKind.IsIdentifier ||
+      node.key.kind === SyntaxKind.PrivateIdentifier ||
       node.key.kind === SyntaxKind.StringLiteral ||
       (initializer.kind === SyntaxKind.ConditionalExpression &&
         initializer.shortCircuit.kind === SyntaxKind.BinaryExpression &&

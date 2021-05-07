@@ -48,7 +48,7 @@ foo(x,);
                     "start": 4,
                     "end": 6
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 7
             },

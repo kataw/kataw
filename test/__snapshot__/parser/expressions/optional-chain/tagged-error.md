@@ -12,7 +12,7 @@ a?.()``;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -42,7 +42,7 @@ a?.()``;
                     "member": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -113,7 +113,7 @@ a?.()``;
                                 "start": 13,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 12,
                             "end": 16
                         },
@@ -174,7 +174,7 @@ a?.()``;
                                 "start": 26,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 25,
                             "end": 27
                         },

@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -62,7 +62,7 @@
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 9,
                                         "end": 13
                                     },

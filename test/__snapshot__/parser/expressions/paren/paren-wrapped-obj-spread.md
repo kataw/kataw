@@ -20,7 +20,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -70,7 +70,7 @@
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -134,7 +134,7 @@
                                         "end": 22
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -221,7 +221,7 @@
                                         "end": 40
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -328,7 +328,7 @@
                                         "end": 62
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -441,7 +441,7 @@
                                         "end": 86
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -560,7 +560,7 @@
                                         "end": 112
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -647,7 +647,7 @@
                                         "end": 130
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -679,7 +679,7 @@
                                                 "end": 136
                                             },
                                             "right": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 121,
                                                     "expression": {
@@ -774,7 +774,7 @@
                                         "end": 157
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -798,7 +798,7 @@
                                                                                 "end": 163
                                                                             },
                                                                             "argument": {
-                                                                                "kind": 130,
+                                                                                "kind": 536871042,
                                                                                 "member": {
                                                                                     "kind": 220,
                                                                                     "propertyList": {
@@ -830,7 +830,7 @@
                                                                                         "end": 169
                                                                                     },
                                                                                     "right": {
-                                                                                        "kind": 130,
+                                                                                        "kind": 536871042,
                                                                                         "member": {
                                                                                             "kind": 121,
                                                                                             "expression": {
@@ -983,7 +983,7 @@
                                         "end": 200
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -1070,7 +1070,7 @@
                                         "end": 218
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -1204,7 +1204,7 @@
                                             "start": 243,
                                             "end": 244
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 236,
                                         "end": 244
                                     },
@@ -1274,7 +1274,7 @@
                                         "end": 258
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -1391,7 +1391,7 @@
                                         "end": 281
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {

@@ -98,7 +98,7 @@ function fn() { (() => {})().#x }
                                         "start": 27,
                                         "end": 27
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 15,
                                     "end": 28
                                 },
@@ -109,7 +109,7 @@ function fn() { (() => {})().#x }
                                     "start": 29,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 15,
                                 "end": 31
                             },

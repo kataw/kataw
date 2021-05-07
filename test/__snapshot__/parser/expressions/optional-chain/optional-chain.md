@@ -66,7 +66,7 @@ arr?.[i + 1]
                             "start": 6,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 5,
                         "end": 11
                     },

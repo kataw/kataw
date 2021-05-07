@@ -150,7 +150,7 @@ class C { constructor() { var f = function { super(); } } }
                                                                                     "start": 51,
                                                                                     "end": 51
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 44,
                                                                                 "end": 52
                                                                             },

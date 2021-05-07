@@ -152,7 +152,7 @@ x({foo(){}, async bar(){}});
                     "start": 2,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 27
             },

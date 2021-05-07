@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -104,7 +104,7 @@ async function p(){
                                         "start": 43,
                                         "end": 46
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 37,
                                     "end": 46
                                 },

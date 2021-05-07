@@ -108,7 +108,7 @@ x = {arrow: x => ok}.y
                         "start": 21,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 3,
                     "end": 22
                 },

@@ -48,7 +48,7 @@ call(await)
                     "start": 5,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 11
             },

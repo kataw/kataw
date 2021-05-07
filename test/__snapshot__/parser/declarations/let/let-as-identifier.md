@@ -46,7 +46,7 @@ L: let
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -933,7 +933,7 @@ L: let
                                                         "start": 267,
                                                         "end": 268
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 262,
                                                     "end": 269
                                                 },
@@ -947,7 +947,7 @@ L: let
                                         "start": 257,
                                         "end": 269
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 252,
                                     "end": 270
                                 },
@@ -1114,7 +1114,7 @@ L: let
                     "start": 290,
                     "end": 309
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 273,
                 "end": 310
             },
@@ -1151,7 +1151,7 @@ L: let
                     "start": 316,
                     "end": 319
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 310,
                 "end": 320
             },

@@ -8,7 +8,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -173,7 +173,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                                                 "start": 48,
                                                                                 "end": 57
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 45,
                                                                             "end": 58
                                                                         },
@@ -215,7 +215,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 19,
                             "end": 61
                         },

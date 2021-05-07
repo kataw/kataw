@@ -10,7 +10,7 @@ function f() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -75,7 +75,7 @@ function f() {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "arguments",
@@ -139,7 +139,7 @@ function f() {
 ```javascript
 
 function f() {
-  var x = arguments12;
+  var x = ;
 }
 ```
 

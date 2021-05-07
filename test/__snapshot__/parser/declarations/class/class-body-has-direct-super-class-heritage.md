@@ -153,7 +153,7 @@ class B extends A {
                                                     "start": 59,
                                                     "end": 59
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 48,
                                                 "end": 60
                                             },

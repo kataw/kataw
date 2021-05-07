@@ -8,7 +8,7 @@ a?.fn`hello`;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -38,7 +38,7 @@ a?.fn`hello`;
                     "member": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,

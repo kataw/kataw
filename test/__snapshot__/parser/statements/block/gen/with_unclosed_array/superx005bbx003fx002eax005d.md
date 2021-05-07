@@ -32,7 +32,7 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 225,
                                             "superKeyword": {
@@ -64,7 +64,7 @@
                                             "chain": {
                                                 "kind": 206,
                                                 "chain": {
-                                                    "kind": 202,
+                                                    "kind": 536871114,
                                                     "chain": null,
                                                     "expression": {
                                                         "kind": 134299649,

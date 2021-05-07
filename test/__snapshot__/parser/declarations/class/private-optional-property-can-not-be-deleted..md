@@ -150,7 +150,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67174651,

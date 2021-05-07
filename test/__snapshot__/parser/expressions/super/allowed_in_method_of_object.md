@@ -94,7 +94,7 @@ x={ foo(){ super.foo; }}
                                                             "start": 17,
                                                             "end": 20
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 10,
                                                         "end": 20
                                                     },

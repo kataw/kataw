@@ -52,7 +52,7 @@ new fooo.bar
                     "start": 9,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 12
             },

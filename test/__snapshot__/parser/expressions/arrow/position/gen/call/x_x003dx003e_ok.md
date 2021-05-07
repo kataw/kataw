@@ -58,7 +58,7 @@ x => ok()
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 4,
                     "end": 9
                 },

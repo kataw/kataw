@@ -8,7 +8,7 @@ async (++x, y) => x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -62,7 +62,7 @@ async (++x, y) => x;
                 "start": 0,
                 "end": 13
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 14
         },

@@ -8,7 +8,7 @@ x.foo++.bar
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -43,7 +43,7 @@ x.foo++.bar
                         "start": 2,
                         "end": 5
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 5
                 },

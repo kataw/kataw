@@ -79,7 +79,7 @@ x({a}=obj);
                     "start": 2,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 10
             },

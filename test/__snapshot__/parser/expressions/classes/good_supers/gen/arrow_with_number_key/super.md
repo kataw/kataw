@@ -16,7 +16,7 @@ class x extends y {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -150,7 +150,7 @@ class x extends y {
                                                                             "start": 54,
                                                                             "end": 54
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 48,
                                                                         "end": 54
                                                                     },

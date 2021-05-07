@@ -8,7 +8,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -86,7 +86,7 @@
                                                 "start": 20,
                                                 "end": 24
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 2,
                                             "end": 24
                                         },
@@ -107,7 +107,7 @@
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 2,
                                         "end": 28
                                     },

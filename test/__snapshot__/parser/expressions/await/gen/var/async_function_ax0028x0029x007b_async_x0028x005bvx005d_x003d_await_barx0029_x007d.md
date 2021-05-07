@@ -12,7 +12,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -225,7 +225,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                     "start": 58,
                                                                     "end": 58
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 58,
                                                                 "end": 86
                                                             },

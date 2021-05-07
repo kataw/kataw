@@ -124,7 +124,7 @@ class C { f(){ this.#a } #a; }
                                 "start": 23,
                                 "end": 25
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 17,
                             "end": 25
                         },
@@ -201,7 +201,7 @@ class C { f(){ this.#a } #a; }
                                 "start": 49,
                                 "end": 51
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 43,
                             "end": 51
                         },
@@ -322,7 +322,7 @@ class C { f(){ this.#a } #a; }
                                     "start": 80,
                                     "end": 82
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 75,
                                 "end": 82
                             },
@@ -398,7 +398,7 @@ class C { f(){ this.#a } #a; }
                                     "start": 104,
                                     "end": 106
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 99,
                                 "end": 106
                             },
@@ -555,7 +555,7 @@ class C { f(){ this.#a } #a; }
                                                     "start": 140,
                                                     "end": 142
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 134,
                                                 "end": 142
                                             },
@@ -664,7 +664,7 @@ class C { f(){ this.#a } #a; }
                                                     "start": 168,
                                                     "end": 170
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 162,
                                                 "end": 170
                                             },

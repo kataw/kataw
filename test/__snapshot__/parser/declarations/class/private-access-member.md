@@ -139,7 +139,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                 "chain": {
                                                     "kind": 206,
                                                     "chain": {
-                                                        "kind": 202,
+                                                        "kind": 536871114,
                                                         "chain": null,
                                                         "expression": {
                                                             "kind": 67174651,
@@ -208,7 +208,7 @@ class C {
   #aaa;
 
   f(obj) {
-    obj?.#aaa;
+    obj?.;
   }
 }
 ```

@@ -207,7 +207,7 @@ x({set [foo](b){}, set [bar](d){}});
                     "start": 2,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 35
             },

@@ -44,7 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 210,
                                     "newKeyword": {
@@ -131,7 +131,7 @@
 
 ```javascript
 
-[new  x()y] = z;
+[] = z;
 ```
 
 ### Diagnostics

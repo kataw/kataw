@@ -251,7 +251,7 @@
                                             "start": 58,
                                             "end": 59
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 51,
                                         "end": 59
                                     },
@@ -291,7 +291,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -367,7 +367,7 @@
                                                 "start": 89,
                                                 "end": 89
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 82,
                                             "end": 90
                                         },
@@ -379,7 +379,7 @@
                                             "start": 91,
                                             "end": 92
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 82,
                                         "end": 92
                                     },
@@ -419,7 +419,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -438,7 +438,7 @@
                                                 "start": 106,
                                                 "end": 106
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 99,
                                             "end": 107
                                         },
@@ -490,7 +490,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -517,7 +517,7 @@
                                                 "start": 126,
                                                 "end": 126
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 124,
                                             "end": 127
                                         },
@@ -561,7 +561,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -580,7 +580,7 @@
                                                 "start": 142,
                                                 "end": 142
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 135,
                                             "end": 143
                                         },
@@ -602,7 +602,7 @@
                                                 "start": 146,
                                                 "end": 146
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 144,
                                             "end": 147
                                         },
@@ -646,7 +646,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -703,7 +703,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -759,7 +759,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -815,7 +815,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -884,7 +884,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -941,7 +941,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -996,7 +996,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1052,7 +1052,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1115,7 +1115,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1178,7 +1178,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1257,7 +1257,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1368,22 +1368,22 @@
   1: (a ** b) ** c,
   2: a **= b,
   3: a.b **= c,
-  4: ab **= c,
+  4:  **= c,
   5: a().b **= c,
-  6: a()b **= c,
-  7: ab() **= c,
-  8: a()b() **= c,
-  9: a0 **= b,
-  10: afalse **= b,
-  11: anull **= b,
-  12: avoid 0 **= b,
-  13: a123 **= b,
-  14: athis **= b,
-  15: a/x/ **= b,
-  16: a{} **= b,
-  17: a[] **= b,
-  18: a() =>  {} **= b,
-  19: afunction () {} **= b
+  6:  **= c,
+  7:  **= c,
+  8:  **= c,
+  9:  **= b,
+  10:  **= b,
+  11:  **= b,
+  12:  **= b,
+  13:  **= b,
+  14:  **= b,
+  15:  **= b,
+  16:  **= b,
+  17:  **= b,
+  18:  **= b,
+  19:  **= b
 });
 ```
 

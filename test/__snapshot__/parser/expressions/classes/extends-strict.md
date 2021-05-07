@@ -196,7 +196,7 @@ class C extends (function B() {
                             "start": 67,
                             "end": 67
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 25,
                         "end": 68
                     },

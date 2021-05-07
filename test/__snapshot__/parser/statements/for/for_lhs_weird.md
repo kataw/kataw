@@ -63,7 +63,7 @@ for ({}[y] ^= x;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 9
                 },
@@ -116,7 +116,7 @@ for ({}[y] ^= x;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 119,
                         "elementList": {
@@ -215,7 +215,7 @@ for ({}[y] ^= x;;) x;
                         "start": 54,
                         "end": 55
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 44,
                     "end": 55
                 },
@@ -268,7 +268,7 @@ for ({}[y] ^= x;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 220,
                         "propertyList": {

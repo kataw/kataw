@@ -160,7 +160,7 @@ function targetKey() {
                                         "start": 44,
                                         "end": 48
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 35,
                                     "end": 48
                                 },
@@ -181,7 +181,7 @@ function targetKey() {
                                     "start": 49,
                                     "end": 57
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 35,
                                 "end": 58
                             },
@@ -261,7 +261,7 @@ function targetKey() {
                                                                             "start": 107,
                                                                             "end": 111
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 90,
                                                                         "end": 111
                                                                     },
@@ -282,7 +282,7 @@ function targetKey() {
                                                                         "start": 112,
                                                                         "end": 117
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 90,
                                                                     "end": 118
                                                                 },
@@ -391,7 +391,7 @@ function targetKey() {
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 158,
                                     "end": 171
                                 },
@@ -412,7 +412,7 @@ function targetKey() {
                                     "start": 172,
                                     "end": 180
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 158,
                                 "end": 181
                             },
@@ -511,7 +511,7 @@ function targetKey() {
                                                                             "start": 231,
                                                                             "end": 235
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 214,
                                                                         "end": 235
                                                                     },
@@ -532,7 +532,7 @@ function targetKey() {
                                                                         "start": 236,
                                                                         "end": 241
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 214,
                                                                     "end": 242
                                                                 },
@@ -641,7 +641,7 @@ function targetKey() {
                                         "start": 294,
                                         "end": 298
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 285,
                                     "end": 298
                                 },
@@ -662,7 +662,7 @@ function targetKey() {
                                     "start": 299,
                                     "end": 311
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 285,
                                 "end": 312
                             },
@@ -741,7 +741,7 @@ function targetKey() {
                                                                             "start": 374,
                                                                             "end": 378
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 357,
                                                                         "end": 378
                                                                     },
@@ -762,7 +762,7 @@ function targetKey() {
                                                                         "start": 379,
                                                                         "end": 400
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 357,
                                                                     "end": 401
                                                                 },
@@ -893,7 +893,7 @@ function targetKey() {
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 468,
                                     "end": 481
                                 },
@@ -914,7 +914,7 @@ function targetKey() {
                                     "start": 482,
                                     "end": 494
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 468,
                                 "end": 495
                             },
@@ -993,7 +993,7 @@ function targetKey() {
                                                                             "start": 557,
                                                                             "end": 561
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 540,
                                                                         "end": 561
                                                                     },
@@ -1014,7 +1014,7 @@ function targetKey() {
                                                                         "start": 562,
                                                                         "end": 583
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 540,
                                                                     "end": 584
                                                                 },
@@ -1124,7 +1124,7 @@ function targetKey() {
                                                 "start": 644,
                                                 "end": 644
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 634,
                                             "end": 645
                                         },
@@ -1133,7 +1133,7 @@ function targetKey() {
                                         "end": 646
                                     },
                                     "right": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -1152,7 +1152,7 @@ function targetKey() {
                                                 "start": 655,
                                                 "end": 655
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 633,
                                             "end": 656
                                         },
@@ -1174,7 +1174,7 @@ function targetKey() {
                                                 "start": 667,
                                                 "end": 667
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 657,
                                             "end": 668
                                         },
@@ -1220,7 +1220,7 @@ function targetKey() {
                             "start": 680,
                             "end": 680
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 672,
                         "end": 681
                     },
@@ -1277,7 +1277,7 @@ function targetKey() {
       return  "\"q\"";
     } };
 }
-({ [sourceKey()]: target()targetKey() } = source());
+({ [sourceKey()]:  } = source());
 ```
 
 ### Diagnostics

@@ -156,7 +156,7 @@
                                         "end": 27
                                     },
                                     "right": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -175,7 +175,7 @@
                                                 "start": 38,
                                                 "end": 38
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 25,
                                             "end": 39
                                         },
@@ -222,7 +222,7 @@
                                             "start": 51,
                                             "end": 52
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 43,
                                         "end": 52
                                     },
@@ -280,7 +280,7 @@
 
 ```javascript
 
-({ a, a: a, a: a = a, [a]: { a }, a: some_call()a, a: this.a } = 0);
+({ a, a: a, a: a = a, [a]: { a }, a: , a: this.a } = 0);
 ```
 
 ### Diagnostics

@@ -63,7 +63,7 @@ async x => ok()
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 10,
                     "end": 15
                 },

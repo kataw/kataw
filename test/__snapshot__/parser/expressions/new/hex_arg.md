@@ -50,7 +50,7 @@ new 0x2.__proto__.constructor
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 17
                 },
@@ -62,7 +62,7 @@ new 0x2.__proto__.constructor
                     "start": 18,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 29
             },

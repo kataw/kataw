@@ -27,7 +27,7 @@ let x = { foo(){ super(); } };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -83,7 +83,7 @@ let x = { foo(){ super(); } };
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 15,
                     "end": 25
                 },
@@ -158,7 +158,7 @@ let x = { foo(){ super(); } };
                         "start": 53,
                         "end": 56
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 46,
                     "end": 56
                 },
@@ -273,7 +273,7 @@ let x = { foo(){ super(); } };
                                     "start": 90,
                                     "end": 93
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 84,
                                 "end": 93
                             }
@@ -283,7 +283,7 @@ let x = { foo(){ super(); } };
                         "start": 84,
                         "end": 93
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 79,
                     "end": 94
                 },
@@ -371,7 +371,7 @@ let x = { foo(){ super(); } };
                                     "start": 126,
                                     "end": 129
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 120,
                                 "end": 129
                             },
@@ -389,7 +389,7 @@ let x = { foo(){ super(); } };
                         "start": 120,
                         "end": 131
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 115,
                     "end": 132
                 },
@@ -625,7 +625,7 @@ let x = { foo(){ super(); } };
                     "start": 188,
                     "end": 188
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 184,
                 "end": 189
             },
@@ -710,7 +710,7 @@ let x = { foo(){ super(); } };
                                         "start": 212,
                                         "end": 215
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 206,
                                     "end": 215
                                 },
@@ -818,7 +818,7 @@ let x = { foo(){ super(); } };
                                     "start": 241,
                                     "end": 244
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 235,
                                 "end": 244
                             },
@@ -1005,7 +1005,7 @@ let x = { foo(){ super(); } };
                                                     "start": 292,
                                                     "end": 295
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 285,
                                                 "end": 295
                                             },
@@ -1165,7 +1165,7 @@ let x = { foo(){ super(); } };
                                                         "start": 352,
                                                         "end": 355
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 345,
                                                     "end": 355
                                                 },
@@ -1364,7 +1364,7 @@ let x = { foo(){ super(); } };
                                                                     "start": 418,
                                                                     "end": 421
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 412,
                                                                 "end": 421
                                                             },
@@ -1382,7 +1382,7 @@ let x = { foo(){ super(); } };
                                                         "start": 412,
                                                         "end": 423
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 407,
                                                     "end": 424
                                                 },
@@ -1738,7 +1738,7 @@ let x = { foo(){ super(); } };
                                                             "start": 520,
                                                             "end": 523
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 513,
                                                         "end": 523
                                                     },
@@ -1857,7 +1857,7 @@ let x = { foo(){ super(); } };
                                         "start": 552,
                                         "end": 552
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 545,
                                     "end": 553
                                 },
@@ -1989,7 +1989,7 @@ let x = { foo(){ super(); } };
                                                             "start": 585,
                                                             "end": 585
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 578,
                                                         "end": 586
                                                     },
@@ -2119,7 +2119,7 @@ let x = { foo(){ super(); } };
                                                             "start": 615,
                                                             "end": 615
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 608,
                                                         "end": 616
                                                     },
@@ -2219,7 +2219,7 @@ let x = { foo(){ super(); } };
                                 "start": 643,
                                 "end": 643
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 636,
                             "end": 644
                         },
@@ -2316,7 +2316,7 @@ let x = { foo(){ super(); } };
                                     "start": 670,
                                     "end": 670
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 663,
                                 "end": 671
                             },
@@ -2406,7 +2406,7 @@ let x = { foo(){ super(); } };
                                     "start": 696,
                                     "end": 696
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 689,
                                 "end": 697
                             },
@@ -2517,7 +2517,7 @@ let x = { foo(){ super(); } };
                                                                     "start": 723,
                                                                     "end": 723
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 716,
                                                                 "end": 724
                                                             },

@@ -34,11 +34,11 @@ a?.b.b
                     "end": 1
                 },
                 "chain": {
-                    "kind": 202,
+                    "kind": 536871114,
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -90,7 +90,7 @@ a?.b.b
 
 ```javascript
 
-a?.b.b;
+a?.;
 ```
 
 ### Diagnostics

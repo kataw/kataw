@@ -97,7 +97,7 @@ class x { foo(){ super.foo; }}
                                                     "start": 23,
                                                     "end": 26
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 16,
                                                 "end": 26
                                             },

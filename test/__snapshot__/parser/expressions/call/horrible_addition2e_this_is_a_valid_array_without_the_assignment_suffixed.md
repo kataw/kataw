@@ -89,7 +89,7 @@ log({foo: [bar]});
                     "start": 4,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 17
             },

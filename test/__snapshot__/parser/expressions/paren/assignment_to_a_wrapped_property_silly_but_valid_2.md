@@ -22,7 +22,7 @@
                 "left": {
                     "kind": 121,
                     "expression": {
-                        "kind": 130,
+                        "kind": 536871042,
                         "member": {
                             "kind": 134299649,
                             "text": "a",
@@ -83,7 +83,7 @@
 
 ```javascript
 
-(ab) += 1;
+() += 1;
 ```
 
 ### Diagnostics

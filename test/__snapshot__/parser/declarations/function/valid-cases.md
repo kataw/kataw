@@ -70,7 +70,7 @@ function f({x:arg = (arg = 2)}) {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -191,7 +191,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "start": 34,
                                                     "end": 37
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 31,
                                                 "end": 38
                                             },
@@ -240,7 +240,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 44,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 41,
                                 "end": 45
                             },
@@ -351,7 +351,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 69,
                                     "end": 72
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 67,
                                 "end": 73
                             },
@@ -473,7 +473,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 106,
                                     "end": 109
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 104,
                                 "end": 110
                             },
@@ -486,7 +486,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -558,7 +558,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 133,
                                     "end": 136
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 130,
                                 "end": 137
                             },
@@ -667,7 +667,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 162,
                                     "end": 165
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 160,
                                 "end": 166
                             },
@@ -680,7 +680,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -752,7 +752,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 189,
                                     "end": 192
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 186,
                                 "end": 193
                             },
@@ -856,7 +856,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 215,
                                     "end": 218
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 213,
                                 "end": 219
                             },
@@ -927,7 +927,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 233,
                                     "end": 236
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 230,
                                 "end": 237
                             },
@@ -1031,7 +1031,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 259,
                                     "end": 262
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 257,
                                 "end": 263
                             },
@@ -1068,7 +1068,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 270,
                                     "end": 280
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 264,
                                 "end": 281
                             },
@@ -1105,7 +1105,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 285,
                                     "end": 288
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 282,
                                 "end": 289
                             },
@@ -1209,7 +1209,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 311,
                                     "end": 314
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 309,
                                 "end": 315
                             },
@@ -1291,7 +1291,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 333,
                                     "end": 336
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 330,
                                 "end": 337
                             },
@@ -1420,7 +1420,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 364,
                                     "end": 367
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 362,
                                 "end": 368
                             },
@@ -1491,7 +1491,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 382,
                                     "end": 385
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 379,
                                 "end": 386
                             },
@@ -1618,7 +1618,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 414,
                                     "end": 417
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 412,
                                 "end": 418
                             },
@@ -1689,7 +1689,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 432,
                                     "end": 435
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 429,
                                 "end": 436
                             },
@@ -1800,7 +1800,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 460,
                                     "end": 463
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 458,
                                 "end": 464
                             },
@@ -1871,7 +1871,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 478,
                                     "end": 481
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 475,
                                 "end": 482
                             },
@@ -1984,7 +1984,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 518,
                                     "end": 521
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 515,
                                 "end": 522
                             },
@@ -2055,7 +2055,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 536,
                                     "end": 539
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 533,
                                 "end": 540
                             },
@@ -2169,7 +2169,7 @@ function f({x:arg = (arg = 2)}) {}
                                                             "start": 565,
                                                             "end": 568
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 562,
                                                         "end": 569
                                                     },
@@ -2272,7 +2272,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 584,
                                     "end": 587
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 582,
                                 "end": 588
                             },
@@ -2376,7 +2376,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 610,
                                     "end": 613
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 608,
                                 "end": 614
                             },
@@ -2479,7 +2479,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 618,
                                     "end": 639
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 615,
                                 "end": 640
                             },
@@ -2516,7 +2516,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 644,
                                     "end": 647
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 641,
                                 "end": 648
                             },
@@ -2620,7 +2620,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 670,
                                     "end": 673
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 668,
                                 "end": 674
                             },
@@ -2693,7 +2693,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 678,
                                     "end": 692
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 675,
                                 "end": 693
                             },
@@ -2730,7 +2730,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 697,
                                     "end": 700
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 694,
                                 "end": 701
                             },
@@ -2834,7 +2834,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 723,
                                     "end": 726
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 721,
                                 "end": 727
                             },
@@ -2896,7 +2896,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "start": 742,
                                                     "end": 752
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 736,
                                                 "end": 753
                                             },
@@ -2910,7 +2910,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 731,
                                     "end": 753
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 728,
                                 "end": 754
                             },
@@ -2947,7 +2947,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 758,
                                     "end": 761
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 755,
                                 "end": 762
                             },
@@ -3056,7 +3056,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 787,
                                     "end": 790
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 785,
                                 "end": 791
                             },
@@ -3093,7 +3093,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 798,
                                     "end": 808
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 792,
                                 "end": 809
                             },
@@ -3130,7 +3130,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 813,
                                     "end": 816
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 810,
                                 "end": 817
                             },
@@ -3234,7 +3234,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 839,
                                     "end": 842
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 837,
                                 "end": 843
                             },
@@ -3247,7 +3247,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -3319,7 +3319,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 866,
                                     "end": 869
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 863,
                                 "end": 870
                             },
@@ -3423,7 +3423,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 892,
                                     "end": 895
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 890,
                                 "end": 896
                             },
@@ -3460,7 +3460,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 900,
                                     "end": 909
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 897,
                                 "end": 910
                             },
@@ -3497,7 +3497,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 914,
                                     "end": 917
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 911,
                                 "end": 918
                             },
@@ -3601,7 +3601,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 940,
                                     "end": 943
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 938,
                                 "end": 944
                             },
@@ -3638,7 +3638,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 951,
                                     "end": 970
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 945,
                                 "end": 971
                             },
@@ -3675,7 +3675,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 975,
                                     "end": 978
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 972,
                                 "end": 979
                             },
@@ -3779,7 +3779,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 1001,
                                     "end": 1004
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 999,
                                 "end": 1005
                             },
@@ -3817,7 +3817,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {
-                                                    "kind": 130,
+                                                    "kind": 536871042,
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "arguments",
@@ -3866,7 +3866,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 1009,
                                     "end": 1032
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 1006,
                                 "end": 1033
                             },
@@ -3903,7 +3903,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 1037,
                                     "end": 1040
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 1034,
                                 "end": 1041
                             },
@@ -4288,12 +4288,12 @@ function f(arg = 1) {
 }
 function f(arg, arguments) {
   g(arg);
-  arguments0 = 42;
+   = 42;
   g(arg);
 }
 function f(...arg) {
   g(arg);
-  arguments0 = 42;
+   = 42;
   g(arg);
 }
 function f(arg) {
@@ -4360,7 +4360,7 @@ function f(...arg) {
 }
 function f(arg) {
   g(arg);
-  arguments0 = 42;
+   = 42;
   g(arg);
 }
 function f(arg) {
@@ -4375,7 +4375,7 @@ function f(arg) {
 }
 function f(arg) {
   g(arg);
-  g(() =>  arguments0 = 42);
+  g(() =>   = 42);
   g(arg);
 }
 function f({

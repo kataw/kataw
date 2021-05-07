@@ -12,7 +12,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -210,7 +210,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                 "start": 69,
                                                                                                 "end": 78
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 268435488,
                                                                                             "start": 66,
                                                                                             "end": 79
                                                                                         },
@@ -252,7 +252,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                 "start": 40,
                                                 "end": 40
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 40,
                                             "end": 82
                                         }

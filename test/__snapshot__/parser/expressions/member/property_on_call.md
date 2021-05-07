@@ -43,7 +43,7 @@ a().b
                         "start": 2,
                         "end": 2
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 3
                 },
@@ -55,7 +55,7 @@ a().b
                     "start": 4,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 5
             },

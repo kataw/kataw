@@ -84,7 +84,7 @@ f(a + async instanceof b)
                     "start": 2,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 25
             },

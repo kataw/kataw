@@ -51,7 +51,7 @@ fuction *f() {  return await yield;  }
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 9,
                     "end": 12
                 },

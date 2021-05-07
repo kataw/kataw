@@ -51,7 +51,7 @@ for (fooo.bar in x) ;
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 13
             },

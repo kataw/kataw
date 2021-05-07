@@ -19,7 +19,7 @@ export function createIndexExpressionChain(
   end: number
 ): IndexExpressionChain {
   return {
-    kind: SyntaxKind.IndexExpressionChain,
+    kind: SyntaxKind.IndexExpressionChain | NodeFlags.IsMemberExpression,
     chain,
     expression,
     flags: NodeFlags.ExpressionNode,

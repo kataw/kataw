@@ -79,7 +79,7 @@ x = { foo(){ return x[super.foo]; }}
                                                         "end": 19
                                                     },
                                                     "expression": {
-                                                        "kind": 130,
+                                                        "kind": 536871042,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "x",
@@ -110,7 +110,7 @@ x = { foo(){ return x[super.foo]; }}
                                                                 "start": 28,
                                                                 "end": 31
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 22,
                                                             "end": 31
                                                         },
@@ -172,7 +172,7 @@ x = { foo(){ return x[super.foo]; }}
 ```javascript
 
 x = { foo() {
-    return  x.foo;
+    return  ;
   } };
 ```
 

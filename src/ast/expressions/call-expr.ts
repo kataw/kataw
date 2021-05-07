@@ -17,7 +17,7 @@ export function createCallExpression(
     kind: SyntaxKind.CallExpression,
     expression,
     argumentList,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
     start,
     end
   };

@@ -72,7 +72,7 @@ class super {}
                     "start": 11,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 11
             },

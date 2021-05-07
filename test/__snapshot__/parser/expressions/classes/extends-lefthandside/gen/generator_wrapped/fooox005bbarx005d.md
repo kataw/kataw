@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -87,7 +87,7 @@ function *P(){
                                     "end": 32
                                 },
                                 "expression": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "fooo",

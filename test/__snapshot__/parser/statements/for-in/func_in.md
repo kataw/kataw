@@ -132,7 +132,7 @@ for (function(){ a in b; }.prop in x);
                     "start": 27,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 31
             },

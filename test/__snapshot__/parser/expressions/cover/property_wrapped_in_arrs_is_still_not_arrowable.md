@@ -8,7 +8,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -144,7 +144,7 @@
                                                                                                                                                                                                                                                                                         "end": 23
                                                                                                                                                                                                                                                                                     },
                                                                                                                                                                                                                                                                                     "right": {
-                                                                                                                                                                                                                                                                                        "kind": 130,
+                                                                                                                                                                                                                                                                                        "kind": 536871042,
                                                                                                                                                                                                                                                                                         "member": {
                                                                                                                                                                                                                                                                                             "kind": 134299649,
                                                                                                                                                                                                                                                                                             "text": "b",

@@ -146,7 +146,7 @@ for (function(){ if (a in b); }.prop in x);
                     "start": 32,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 36
             },

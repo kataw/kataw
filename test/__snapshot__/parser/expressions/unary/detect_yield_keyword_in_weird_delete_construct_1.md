@@ -66,7 +66,7 @@ function *f(){ delete ("x"[(yield)]) }
                                 "operand": {
                                     "kind": 121,
                                     "expression": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
@@ -142,7 +142,7 @@ function *f(){ delete ("x"[(yield)]) }
 ```javascript
 
 function * f() {
-  delete ("\"x\""( ));
+  delete ();
 }
 ```
 

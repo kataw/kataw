@@ -64,7 +64,7 @@ delete (((((foo(yield)))))).bar
                                                 "start": 16,
                                                 "end": 21
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 11,
                                             "end": 22
                                         },
@@ -96,7 +96,7 @@ delete (((((foo(yield)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 6,
                     "end": 31
                 },

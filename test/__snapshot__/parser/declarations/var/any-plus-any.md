@@ -96,7 +96,7 @@ var z = x + x;
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 11,
                     "end": 18
                 },

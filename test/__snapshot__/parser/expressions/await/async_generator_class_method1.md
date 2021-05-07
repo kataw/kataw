@@ -190,7 +190,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "start": 53,
                                                                                             "end": 62
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 48,
                                                                                         "end": 63
                                                                                     },

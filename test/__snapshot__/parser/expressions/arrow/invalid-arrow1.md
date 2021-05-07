@@ -36,7 +36,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -72,7 +72,7 @@
                                         "end": 3
                                     },
                                     "right": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -179,7 +179,7 @@
                                                             "start": 26,
                                                             "end": 27
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 21,
                                                         "end": 27
                                                     },
@@ -295,7 +295,7 @@
                                                         "start": 50,
                                                         "end": 51
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 45,
                                                     "end": 51
                                                 },
@@ -395,7 +395,7 @@
                                                             "start": 70,
                                                             "end": 71
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 65,
                                                         "end": 71
                                                     },
@@ -513,7 +513,7 @@
                                                             "start": 98,
                                                             "end": 99
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 89,
                                                         "end": 99
                                                     },
@@ -626,7 +626,7 @@
                                                 "start": 125,
                                                 "end": 126
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 116,
                                             "end": 126
                                         },
@@ -732,7 +732,7 @@
                                                         "start": 152,
                                                         "end": 153
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 143,
                                                     "end": 153
                                                 },
@@ -832,7 +832,7 @@
                                                             "start": 176,
                                                             "end": 177
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 167,
                                                         "end": 177
                                                     },

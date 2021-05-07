@@ -66,7 +66,7 @@ class A {*=f(){}}
                     "start": 13,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 11,
                 "end": 14
             },

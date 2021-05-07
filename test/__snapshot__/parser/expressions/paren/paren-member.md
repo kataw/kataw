@@ -28,7 +28,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "a",
@@ -62,7 +62,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "a",
@@ -102,7 +102,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "a",
@@ -142,7 +142,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "a",
@@ -187,7 +187,7 @@
                             "end": 37
                         },
                         {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -237,7 +237,7 @@
                             "end": 48
                         },
                         {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -293,7 +293,7 @@
                             "end": 60
                         },
                         {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -349,7 +349,7 @@
                             "end": 72
                         },
                         {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -397,14 +397,14 @@
 
 ```javascript
 
-(ab);
-(a{});
-(a[]);
-(a1);
-(x, ab);
-(x, a{});
-(x, a[]);
-(x, a1);
+();
+();
+();
+();
+(x, );
+(x, );
+(x, );
+(x, );
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ x={ foo: function(){ super.foo; }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -98,7 +98,7 @@ x={ foo: function(){ super.foo; }}
                                                             "start": 27,
                                                             "end": 30
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 20,
                                                         "end": 30
                                                     },

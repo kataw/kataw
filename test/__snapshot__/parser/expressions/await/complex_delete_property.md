@@ -8,7 +8,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -110,7 +110,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                 "expression": {
                                                     "kind": 121,
                                                     "expression": {
-                                                        "kind": 130,
+                                                        "kind": 536871042,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "foo",
@@ -165,7 +165,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 19,
                             "end": 61
                         }

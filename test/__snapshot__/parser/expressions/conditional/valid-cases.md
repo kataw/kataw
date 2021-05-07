@@ -1147,7 +1147,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 251,
                     "end": 260
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 247,
                 "end": 261
             },
@@ -1242,7 +1242,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 265,
                     "end": 276
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 262,
                 "end": 277
             },
@@ -1325,7 +1325,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 281,
                     "end": 291
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 278,
                 "end": 292
             },
@@ -1408,7 +1408,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 296,
                     "end": 306
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 293,
                 "end": 307
             },
@@ -1572,7 +1572,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 341,
                         "end": 342
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 338,
                     "end": 342
                 },
@@ -1600,7 +1600,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 347,
                         "end": 348
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 344,
                     "end": 348
                 },
@@ -1649,7 +1649,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1696,7 +1696,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1745,7 +1745,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 370
                 },
                 "consequent": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1773,7 +1773,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 377
                 },
                 "alternate": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1838,7 +1838,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 390,
                         "end": 390
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 387,
                     "end": 391
                 },
@@ -1866,7 +1866,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 396,
                         "end": 396
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 393,
                     "end": 397
                 },
@@ -1925,7 +1925,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 407,
                                 "end": 407
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 406,
                             "end": 408
                         },
@@ -1972,7 +1972,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 415,
                                 "end": 415
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 414,
                             "end": 416
                         },
@@ -2039,7 +2039,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 426,
                                 "end": 427
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 425,
                             "end": 427
                         },
@@ -2086,7 +2086,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 435,
                                 "end": 436
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 434,
                             "end": 436
                         },
@@ -2232,7 +2232,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 466,
                             "end": 467
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 463,
                         "end": 467
                     },
@@ -2256,7 +2256,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 471
                                 },
                                 "right": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -2287,7 +2287,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 468,
                         "end": 476
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 463,
                     "end": 477
                 },
@@ -2317,7 +2317,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 482,
                             "end": 483
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 479,
                         "end": 483
                     },
@@ -2341,7 +2341,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 487
                                 },
                                 "right": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -2372,7 +2372,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 484,
                         "end": 492
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 479,
                     "end": 493
                 },
@@ -2492,7 +2492,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 515,
                         "end": 515
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 512,
                     "end": 516
                 },
@@ -2529,7 +2529,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 521,
                         "end": 522
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 518,
                     "end": 523
                 },
@@ -2586,7 +2586,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 531,
                         "end": 532
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 528,
                     "end": 533
                 },
@@ -2623,7 +2623,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 538,
                         "end": 539
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 535,
                     "end": 540
                 },
@@ -2672,7 +2672,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -2718,7 +2718,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 555,
                         "end": 556
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 552,
                     "end": 556
                 },
@@ -2777,7 +2777,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 566,
                                 "end": 566
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 565,
                             "end": 567
                         },
@@ -2813,7 +2813,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 572,
                         "end": 572
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 569,
                     "end": 573
                 },
@@ -2872,7 +2872,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 583,
                                 "end": 584
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 582,
                             "end": 584
                         },
@@ -2891,7 +2891,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 587
                 },
                 "alternate": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -3046,7 +3046,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 621,
                             "end": 622
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 618,
                         "end": 622
                     },
@@ -3070,7 +3070,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 626
                                 },
                                 "right": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -3101,7 +3101,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 623,
                         "end": 631
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 618,
                     "end": 632
                 },
@@ -3131,7 +3131,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 637,
                             "end": 638
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 634,
                         "end": 638
                     },
@@ -3155,7 +3155,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 642
                                 },
                                 "right": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -3186,7 +3186,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 639,
                         "end": 647
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 634,
                     "end": 648
                 },
@@ -3234,20 +3234,20 @@ a ? b : b;
 a ? -b : -b;
 a ? b.c : b.c;
 a ?  =  :  = ;
-a ? bc : bc;
+a ?  : ;
 a ? b() : b();
 a ?  =  :  = ;
 a ?  =  :  = ;
 a ? b == c : b == c;
-a ? b.c(d + ef) : b.c(d + ef);
+a ? b.c(d + ) : b.c(d + );
 a ? -b : !b;
 a ? b() : b(c);
 a ? b(c) : b(d);
 a ?  =  : b.c;
 a ?  =  : b();
-a ?  =  : bc;
+a ?  =  : ;
 a ? b == c : b != c;
-a ? b.c(d + ef) : b.c(d + eg);
+a ? b.c(d + ) : b.c(d + );
 ```
 
 ### Diagnostics

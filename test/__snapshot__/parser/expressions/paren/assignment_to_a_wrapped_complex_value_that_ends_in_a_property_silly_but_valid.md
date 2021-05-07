@@ -47,7 +47,7 @@
                                             "start": 3,
                                             "end": 4
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 0,
                                         "end": 4
                                     },
@@ -59,7 +59,7 @@
                                         "start": 5,
                                         "end": 5
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 0,
                                     "end": 6
                                 },
@@ -71,7 +71,7 @@
                                     "start": 7,
                                     "end": 8
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 0,
                                 "end": 8
                             },
@@ -83,7 +83,7 @@
                                 "start": 9,
                                 "end": 9
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 0,
                             "end": 10
                         },
@@ -95,7 +95,7 @@
                             "start": 11,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 0,
                         "end": 12
                     },

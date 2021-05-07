@@ -77,7 +77,7 @@ new foo().bar++;
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 6,
                     "end": 14
                 },
@@ -100,7 +100,7 @@ new foo().bar++;
                     "end": 28
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
@@ -140,7 +140,7 @@ new foo().bar++;
                     "end": 42
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 131,
                         "expression": {
@@ -159,7 +159,7 @@ new foo().bar++;
                             "start": 34,
                             "end": 34
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 29,
                         "end": 35
                     },
@@ -213,7 +213,7 @@ new foo().bar++;
                             "start": 48,
                             "end": 48
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 43,
                         "end": 49
                     },
@@ -225,7 +225,7 @@ new foo().bar++;
                         "start": 50,
                         "end": 53
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 43,
                     "end": 53
                 },
@@ -263,7 +263,7 @@ new foo().bar++;
                         "start": 62,
                         "end": 65
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 56,
                     "end": 65
                 },
@@ -286,7 +286,7 @@ new foo().bar++;
                     "end": 80
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 135,
                         "flags": 96,
@@ -324,7 +324,7 @@ new foo().bar++;
                     "end": 98
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 210,
                         "newKeyword": {
@@ -421,7 +421,7 @@ new foo().bar++;
                         "start": 110,
                         "end": 113
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 99,
                     "end": 113
                 },
@@ -449,12 +449,12 @@ new foo().bar++;
 
 foo++;
 foo.bar++;
-foobar++;
-foo()bar++;
+++;
+++;
 foo().bar++;
 this.foo++;
-thisfoo++;
-new  foo()bar++;
+++;
+++;
 new  foo().bar++;
 ```
 

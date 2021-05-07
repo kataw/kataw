@@ -54,7 +54,7 @@ async (x, y) => ok[foo]
             },
             "returnType": null,
             "contents": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 134299649,
                     "text": "ok",
@@ -93,7 +93,7 @@ async (x, y) => ok[foo]
 
 ```javascript
 
-async (x, y) =>  okfoo
+async (x, y) =>  
 ```
 
 ### Diagnostics

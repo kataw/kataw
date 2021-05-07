@@ -12,7 +12,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -220,7 +220,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                             "start": 81,
                                                                                                             "end": 90
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 268435488,
                                                                                                         "start": 76,
                                                                                                         "end": 91
                                                                                                     },

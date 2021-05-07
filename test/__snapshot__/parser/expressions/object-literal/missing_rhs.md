@@ -118,7 +118,7 @@ wrap({async [foo""](){}});
                     "start": 5,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 18
             },

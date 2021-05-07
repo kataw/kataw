@@ -60,7 +60,7 @@ foo(...a,);
                     "start": 4,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 10
             },

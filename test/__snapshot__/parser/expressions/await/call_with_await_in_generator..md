@@ -8,7 +8,7 @@ function *f(){  foo(await)  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -82,7 +82,7 @@ function *f(){  foo(await)  }
                                     "start": 20,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 14,
                                 "end": 26
                             },

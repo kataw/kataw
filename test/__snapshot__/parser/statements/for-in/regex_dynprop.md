@@ -49,7 +49,7 @@ for (/foo/[x] in c) d;
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 221,
                     "text": "/foo/",

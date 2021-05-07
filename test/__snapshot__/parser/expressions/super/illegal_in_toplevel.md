@@ -39,7 +39,7 @@ super.foo;
                     "start": 6,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 9
             },

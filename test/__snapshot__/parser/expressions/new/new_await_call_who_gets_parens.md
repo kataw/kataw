@@ -8,7 +8,7 @@ async () => new await x()
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -66,7 +66,7 @@ async () => new await x()
                             "start": 24,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 21,
                         "end": 25
                     },

@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -87,7 +87,7 @@ async function p(){
                                     "end": 37
                                 },
                                 "expression": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "fooo",

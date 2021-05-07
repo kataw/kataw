@@ -174,7 +174,7 @@ class C { set x(_) { var f = function { super(); } } }
                                                                                     "start": 46,
                                                                                     "end": 46
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 39,
                                                                                 "end": 47
                                                                             },

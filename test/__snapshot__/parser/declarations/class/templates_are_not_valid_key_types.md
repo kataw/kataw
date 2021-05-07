@@ -27,7 +27,7 @@ class x { `constructor`(){} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -85,7 +85,7 @@ class x { `constructor`(){} }
                     "start": 24,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 9,
                 "end": 25
             },

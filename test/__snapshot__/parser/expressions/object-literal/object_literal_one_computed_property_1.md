@@ -100,7 +100,7 @@ x({[a]:b}=obj);
                     "start": 2,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 14
             },

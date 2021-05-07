@@ -97,7 +97,7 @@ do h(function(){});while(x)
                         "start": 5,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 2,
                     "end": 18
                 },

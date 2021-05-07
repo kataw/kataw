@@ -124,7 +124,9 @@ ${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$cst : tob.cs
 ${Constants.Printed}
 ${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ${Constants.Diagnostics}
-${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${updateItems.includes('parser') ? tob.$diagnostics : tob.diagnostics}${
+    Constants.JavascriptEnd
+  }
 `;
 }
 

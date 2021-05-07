@@ -159,7 +159,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                                                     "start": 58,
                                                                                     "end": 58
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 51,
                                                                                 "end": 59
                                                                             },

@@ -8,7 +8,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -183,7 +183,7 @@ async function g(){let o = {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                             "start": 47,
                                                                                                             "end": 56
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 268435488,
                                                                                                         "start": 42,
                                                                                                         "end": 57
                                                                                                     },

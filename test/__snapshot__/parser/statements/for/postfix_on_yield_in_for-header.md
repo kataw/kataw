@@ -51,7 +51,7 @@ for (yield[g]--;;);
                     "end": 15
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "yield",

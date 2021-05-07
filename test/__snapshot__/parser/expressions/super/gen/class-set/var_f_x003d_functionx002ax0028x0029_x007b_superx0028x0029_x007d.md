@@ -179,7 +179,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                                     "start": 49,
                                                                                     "end": 49
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 42,
                                                                                 "end": 50
                                                                             },

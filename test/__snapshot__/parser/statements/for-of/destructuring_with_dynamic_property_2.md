@@ -49,7 +49,7 @@ for ({a: b.c}[x] of d) e
                 "end": 19
             },
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 220,
                     "propertyList": {
@@ -84,7 +84,7 @@ for ({a: b.c}[x] of d) e
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -155,7 +155,7 @@ for ({a: b.c}[x] of d) e
 
 ```javascript
 
-for ({ a: b.c }x of d)
+for ( of d)
   e;
 ```
 

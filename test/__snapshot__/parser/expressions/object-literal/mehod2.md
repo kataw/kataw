@@ -468,7 +468,7 @@ x = { method(test) { } }
                         "start": 87,
                         "end": 102
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 63,
                     "end": 103
                 },

@@ -8,7 +8,7 @@ x = {x: [{a = b}] + x}.x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -145,7 +145,7 @@ x = {x: [{a = b}] + x}.x
                         "start": 23,
                         "end": 24
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 3,
                     "end": 24
                 },

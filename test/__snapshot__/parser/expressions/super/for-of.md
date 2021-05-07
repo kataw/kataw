@@ -41,11 +41,11 @@ for (a?.b of c);
                     "end": 6
                 },
                 "chain": {
-                    "kind": 202,
+                    "kind": 536871114,
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,

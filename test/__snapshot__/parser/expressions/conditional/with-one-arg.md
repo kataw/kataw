@@ -53,7 +53,7 @@ z(x)?x:y;
                         "start": 2,
                         "end": 3
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 4
                 },

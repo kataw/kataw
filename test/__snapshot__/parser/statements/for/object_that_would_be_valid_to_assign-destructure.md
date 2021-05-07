@@ -76,7 +76,7 @@ for ({x: a.b};;);
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 6,
                                 "end": 12
                             },

@@ -8,7 +8,7 @@ async function f() { for await ("foo".x of y) {} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -85,7 +85,7 @@ async function f() { for await ("foo".x of y) {} }
                                     "start": 38,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 32,
                                 "end": 39
                             },

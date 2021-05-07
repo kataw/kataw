@@ -28,7 +28,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 121,
                         "expression": {
@@ -91,7 +91,7 @@
 
 ```javascript
 
-(let)x in x;
+ in x;
 ```
 
 ### Diagnostics

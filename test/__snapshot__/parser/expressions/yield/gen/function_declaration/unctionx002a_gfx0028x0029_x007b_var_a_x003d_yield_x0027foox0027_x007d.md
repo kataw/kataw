@@ -88,7 +88,7 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "start": 33,
                                         "end": 33
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 29,
                                     "end": 34
                                 },

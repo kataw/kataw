@@ -570,7 +570,7 @@ switch (answer) { case 0: let a; };
                                         "start": 180,
                                         "end": 180
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 177,
                                     "end": 181
                                 },
@@ -1013,7 +1013,7 @@ switch (answer) { case 0: let a; };
                                         "start": 343,
                                         "end": 346
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 340,
                                     "end": 347
                                 },
@@ -1156,7 +1156,7 @@ switch (answer) { case 0: let a; };
                     "end": 391
                 },
                 "right": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1260,7 +1260,7 @@ switch (answer) { case 0: let a; };
                     "end": 423
                 },
                 "right": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -3176,7 +3176,7 @@ switch (answer) { case 0: let a; };
                         "start": 1137,
                         "end": 1138
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 1135,
                     "end": 1139
                 },
@@ -5294,11 +5294,11 @@ switch(x
   case y:
     foo = b;
 
-switch(x / bc
+switch(x /
   case y:
     foo;
 
-switch(x / b(c)
+switch(x /
   case y:
     foo;
 

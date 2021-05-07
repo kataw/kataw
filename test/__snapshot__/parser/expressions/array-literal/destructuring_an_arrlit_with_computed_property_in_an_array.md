@@ -44,7 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 119,
                                     "elementList": {
@@ -117,7 +117,7 @@
 
 ```javascript
 
-[[]x] = y;
+[] = y;
 ```
 
 ### Diagnostics

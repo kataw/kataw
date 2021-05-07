@@ -38,7 +38,7 @@ this.#x
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 7
             },

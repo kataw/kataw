@@ -29,7 +29,7 @@ async function f() {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -89,7 +89,7 @@ async function f() {
                                 "end": 48
                             },
                             "initializer": {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -184,7 +184,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for await (xa in b of y);
+  for await ( of y);
 }
 ```
 

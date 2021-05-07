@@ -49,7 +49,7 @@ for ("foo"[x] of c) d;
                 "end": 16
             },
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
@@ -111,7 +111,7 @@ for ("foo"[x] of c) d;
 
 ```javascript
 
-for ("\"foo\""x of c)
+for ( of c)
   d;
 ```
 

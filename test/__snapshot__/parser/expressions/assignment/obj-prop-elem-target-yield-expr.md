@@ -135,7 +135,7 @@ result = { x: x[yield] } = vals;
                                         "end": 35
                                     },
                                     "right": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -211,7 +211,7 @@ result = { x: x[yield] } = vals;
 ```javascript
 
 var vals = { x: 23 };
-result = { x: xyield } = vals;
+result = { x:  } = vals;
 ```
 
 ### Diagnostics

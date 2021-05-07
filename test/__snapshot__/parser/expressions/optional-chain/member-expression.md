@@ -40,7 +40,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -94,14 +94,14 @@ f2`hello world`?.a;
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 11,
                     "end": 18
                 },
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -162,7 +162,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -202,9 +202,9 @@ f2`hello world`?.a;
 
 ```javascript
 
-"\"hello\""?.a;
-obj.a?.b;
-f2`hello world`?.a;
+"\"hello\""?.;
+obj.a?.;
+f2`hello world`?.;
 ```
 
 ### Diagnostics

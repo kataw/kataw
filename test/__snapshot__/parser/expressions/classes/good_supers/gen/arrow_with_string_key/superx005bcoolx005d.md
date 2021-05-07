@@ -16,7 +16,7 @@ class x extends y {
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -130,7 +130,7 @@ class x extends y {
                                                                         "end": 49
                                                                     },
                                                                     "right": {
-                                                                        "kind": 130,
+                                                                        "kind": 536871042,
                                                                         "member": {
                                                                             "kind": 225,
                                                                             "superKeyword": {

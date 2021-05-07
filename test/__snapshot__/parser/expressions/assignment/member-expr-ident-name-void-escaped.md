@@ -37,7 +37,7 @@ obj.voi\u0064 = 42;
                         "start": 4,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 13
                 },

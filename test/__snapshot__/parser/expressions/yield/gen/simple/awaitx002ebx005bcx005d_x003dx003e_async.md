@@ -22,7 +22,7 @@ await.b[c] => async
         {
             "kind": 120,
             "expression": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 129,
                     "member": {
@@ -41,7 +41,7 @@ await.b[c] => async
                         "start": 6,
                         "end": 7
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 7
                 },

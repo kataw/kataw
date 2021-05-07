@@ -129,7 +129,7 @@ class Foo extends Base {
                                                         "start": 52,
                                                         "end": 58
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 39,
                                                     "end": 58
                                                 },
@@ -146,7 +146,7 @@ class Foo extends Base {
                                                             "start": 61,
                                                             "end": 61
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 60,
                                                         "end": 62
                                                     },

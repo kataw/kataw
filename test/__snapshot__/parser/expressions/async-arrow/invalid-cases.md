@@ -60,7 +60,7 @@ async ([a]:string)=>c;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -106,7 +106,7 @@ async ([a]:string)=>c;
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 14
         },
@@ -429,7 +429,7 @@ async ([a]:string)=>c;
                 "start": 81,
                 "end": 81
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 81,
             "end": 106
         },
@@ -784,7 +784,7 @@ async ([a]:string)=>c;
                 "start": 241,
                 "end": 241
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 241,
             "end": 250
         },
@@ -1134,7 +1134,7 @@ async ([a]:string)=>c;
                     "start": 435,
                     "end": 436
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 433,
                 "end": 437
             },
@@ -1229,7 +1229,7 @@ async ([a]:string)=>c;
                     "start": 460,
                     "end": 461
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 458,
                 "end": 462
             },
@@ -1333,7 +1333,7 @@ async ([a]:string)=>c;
                     "start": 487,
                     "end": 491
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 485,
                 "end": 492
             },
@@ -1429,7 +1429,7 @@ async ([a]:string)=>c;
                 "start": 501,
                 "end": 523
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 501,
             "end": 524
         },
@@ -1601,7 +1601,7 @@ async ([a]:string)=>c;
                 "start": 562,
                 "end": 584
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 562,
             "end": 585
         },
@@ -2127,7 +2127,7 @@ async ([a]:string)=>c;
                 "start": 703,
                 "end": 703
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 703,
             "end": 747
         },

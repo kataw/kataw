@@ -9,7 +9,7 @@ function f(){ "use strict"
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -69,7 +69,7 @@ function f(){ "use strict"
                                     "start": 44,
                                     "end": 47
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 13,
                                 "end": 47
                             },

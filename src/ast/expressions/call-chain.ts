@@ -21,7 +21,7 @@ export function createCallChain(
     kind: SyntaxKind.CallChain,
     chain,
     argumentList,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
     start,
     end
   };

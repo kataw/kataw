@@ -50,7 +50,7 @@
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -69,7 +69,7 @@
                             "start": 29,
                             "end": 34
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 22,
                         "end": 34
                     },
@@ -107,7 +107,7 @@
 
 ```javascript
 
-await =>  async.awaitfoo;
+await =>  ;
 ```
 
 ### Diagnostics

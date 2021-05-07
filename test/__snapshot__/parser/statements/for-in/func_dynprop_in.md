@@ -49,7 +49,7 @@ for (function(){ }[x in y] in x);
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 177,
                     "asyncKeyword": null,

@@ -8,7 +8,7 @@ async function f(){ async(await x); }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -92,7 +92,7 @@ async function f(){ async(await x); }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 19,
                             "end": 34
                         },

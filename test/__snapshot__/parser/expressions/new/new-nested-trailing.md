@@ -47,7 +47,7 @@ new (x().y)();
                                 "start": 7,
                                 "end": 7
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 3,
                             "end": 8
                         },
@@ -59,7 +59,7 @@ new (x().y)();
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 3,
                         "end": 10
                     },

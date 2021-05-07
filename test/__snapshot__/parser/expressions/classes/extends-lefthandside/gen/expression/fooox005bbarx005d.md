@@ -50,7 +50,7 @@
                             "end": 16
                         },
                         "expression": {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "fooo",

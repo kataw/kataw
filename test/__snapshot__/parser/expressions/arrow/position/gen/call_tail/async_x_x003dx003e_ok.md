@@ -78,7 +78,7 @@ foo(async x => ok).bar
                         "start": 4,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 18
                 },
@@ -90,7 +90,7 @@ foo(async x => ok).bar
                     "start": 19,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 22
             },

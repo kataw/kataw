@@ -66,7 +66,7 @@ for (456..x of c) d;
                     "start": 10,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 11
             },

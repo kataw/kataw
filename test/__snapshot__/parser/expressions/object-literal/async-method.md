@@ -99,7 +99,7 @@
                                                 "initializer": {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 130,
+                                                        "kind": 536871042,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "g",
@@ -126,7 +126,7 @@
                                                                 "start": 32,
                                                                 "end": 40
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 25,
                                                             "end": 40
                                                         },
@@ -575,7 +575,7 @@
                                                                             "start": 159,
                                                                             "end": 159
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 150,
                                                                         "end": 160
                                                                     },
@@ -961,7 +961,7 @@
 
 ```javascript
 
-({ * async method([x] = gSymbol.iterator = function () {}) {} });
+({ * async method([x] =  = function () {}) {} });
 ({ * async method({
     w: [x, y, z] = [4, 5, 6]
   } = {}) {} });

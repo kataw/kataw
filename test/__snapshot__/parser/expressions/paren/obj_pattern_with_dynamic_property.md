@@ -8,7 +8,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -35,7 +35,7 @@
                                         "end": 5
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {

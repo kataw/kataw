@@ -160,7 +160,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                                     "start": 50,
                                                                                     "end": 50
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 43,
                                                                                 "end": 51
                                                                             },

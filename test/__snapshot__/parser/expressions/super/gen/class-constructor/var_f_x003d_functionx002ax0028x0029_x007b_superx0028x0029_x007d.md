@@ -155,7 +155,7 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                                     "start": 54,
                                                                                     "end": 54
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 47,
                                                                                 "end": 55
                                                                             },

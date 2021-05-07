@@ -7014,15 +7014,15 @@ export function parseClassElement(
           nodeFlags |= NodeFlags.Constructor;
         }
       } else if ((parser.token & SyntaxKind.IsLessThanOrLeftParen) === 0) {
-        if (parser.previousErrorPos !== parser.pos){
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Constructor_implementation_is_missing],
-          parser.curPos,
-          parser.pos
-        );
-      }
+        if (parser.previousErrorPos !== parser.pos) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Constructor_implementation_is_missing],
+            parser.curPos,
+            parser.pos
+          );
+        }
       }
     } else if (
       (staticKeyword || nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) &&

@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -104,7 +104,7 @@ function *P(){
                                         "start": 38,
                                         "end": 41
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 32,
                                     "end": 41
                                 },
