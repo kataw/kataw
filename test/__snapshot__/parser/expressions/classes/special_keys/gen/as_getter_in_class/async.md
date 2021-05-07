@@ -120,7 +120,10 @@ class x {get async(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get async() {}
+}
 ```
 
 ### Diagnostics

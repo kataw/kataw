@@ -49,7 +49,7 @@ for (function(){ }[foo] in x);
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 177,
                     "asyncKeyword": null,
@@ -132,7 +132,8 @@ for (function(){ }[foo] in x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in x);
 ```
 
 ### Diagnostics

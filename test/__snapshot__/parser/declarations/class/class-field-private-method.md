@@ -116,7 +116,7 @@ class C { #aaa; f() { this.#aaa } }
                                                     "start": 27,
                                                     "end": 31
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 21,
                                                 "end": 31
                                             },
@@ -163,7 +163,14 @@ class C { #aaa; f() { this.#aaa } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  #aaa;
+
+  f() {
+    this.#aaa;
+  }
+}
 ```
 
 ### Diagnostics

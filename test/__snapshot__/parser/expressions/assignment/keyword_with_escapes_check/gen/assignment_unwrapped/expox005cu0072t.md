@@ -62,7 +62,7 @@ expo\u0072t = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -120,7 +120,8 @@ x = {a, c:d}=obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { a, c: d } = obj;
 ```
 
 ### Diagnostics

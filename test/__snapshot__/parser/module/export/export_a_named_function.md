@@ -14,7 +14,7 @@ export function f(){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -96,7 +96,8 @@ export function f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ function f() {}
 ```
 
 ### Diagnostics

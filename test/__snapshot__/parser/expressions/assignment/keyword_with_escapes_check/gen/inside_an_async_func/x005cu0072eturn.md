@@ -107,7 +107,7 @@ async () => {  \u0072eturn = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

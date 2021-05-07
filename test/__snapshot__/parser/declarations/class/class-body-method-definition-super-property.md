@@ -106,7 +106,7 @@ class A {
                                                         "start": 38,
                                                         "end": 46
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 27,
                                                     "end": 46
                                                 },
@@ -118,7 +118,7 @@ class A {
                                                     "start": 47,
                                                     "end": 47
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 27,
                                                 "end": 48
                                             },
@@ -204,7 +204,7 @@ class A {
                                                         "start": 81,
                                                         "end": 89
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 70,
                                                     "end": 89
                                                 },
@@ -269,7 +269,15 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  constructor() {
+    .toString();
+  }
+  dontDoThis() {
+    .makeBugs = 1;
+  }
+}
 ```
 
 ### Diagnostics

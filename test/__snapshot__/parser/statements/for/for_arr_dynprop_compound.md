@@ -34,7 +34,7 @@ for ([][y] <<= p;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 119,
                         "elementList": {
@@ -112,7 +112,9 @@ for ([][y] <<= p;;) x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; )
+  x;
 ```
 
 ### Diagnostics

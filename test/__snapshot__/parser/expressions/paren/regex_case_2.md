@@ -51,7 +51,7 @@
                                         "start": 14,
                                         "end": 15
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 8,
                                     "end": 15
                                 },
@@ -114,7 +114,7 @@
                                                 "start": 34,
                                                 "end": 35
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -162,7 +162,7 @@
                                                 "start": 51,
                                                 "end": 52
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 45,
                                             "end": 52
                                         },
@@ -206,7 +206,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+([delete /a/g.x]);
+([delete /a/g.x], [delete /a/g.x]);
 ```
 
 ### Diagnostics

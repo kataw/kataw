@@ -99,7 +99,7 @@ class x {return: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

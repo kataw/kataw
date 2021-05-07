@@ -12,7 +12,7 @@ class typeof {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -94,7 +94,7 @@ class typeof {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

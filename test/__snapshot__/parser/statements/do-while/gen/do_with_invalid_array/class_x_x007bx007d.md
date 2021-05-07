@@ -127,7 +127,7 @@ do while [catch] class x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

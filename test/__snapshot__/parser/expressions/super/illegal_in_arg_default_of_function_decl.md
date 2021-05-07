@@ -73,7 +73,7 @@ function f(x=super.foo){ }
                                 "start": 19,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 13,
                             "end": 22
                         },
@@ -120,7 +120,7 @@ function f(x=super.foo){ }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

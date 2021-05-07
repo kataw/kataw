@@ -394,7 +394,7 @@ const {x}: string = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

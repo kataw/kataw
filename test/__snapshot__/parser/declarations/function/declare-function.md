@@ -13,7 +13,7 @@ declare function foo(): void
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -387,7 +387,7 @@ declare function foo(): void
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -117,7 +117,8 @@ export let x = 10, y = 20
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ let x = 10, y = 20;
 ```
 
 ### Diagnostics

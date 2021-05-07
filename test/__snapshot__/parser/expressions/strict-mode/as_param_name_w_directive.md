@@ -102,7 +102,8 @@ f = (interface) => { "use strict"; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f = (interface) =>  {};
 ```
 
 ### Diagnostics

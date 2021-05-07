@@ -168,7 +168,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  `foo ${a} and ${b} and ${`w ${d} x ${e} y ${f} z`} baz`;
+}
 ```
 
 ### Diagnostics

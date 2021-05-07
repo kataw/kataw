@@ -125,7 +125,10 @@ class x {static * do(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static do() {}
+}
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ do do do async funcion switch!! while while while
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -167,7 +167,7 @@ do do do async funcion switch!! while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

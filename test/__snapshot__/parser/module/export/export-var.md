@@ -87,7 +87,8 @@ export var bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ var bar;
 ```
 
 ### Diagnostics

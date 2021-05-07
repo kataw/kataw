@@ -104,7 +104,7 @@ wrap({*async(){}});
                     "start": 5,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 18
             },
@@ -125,7 +125,8 @@ wrap({*async(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ * async() {} });
 ```
 
 ### Diagnostics

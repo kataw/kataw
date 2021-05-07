@@ -31,7 +31,7 @@ foo(async[])
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 130,
+                            "kind": 536871042,
                             "member": {
                                 "kind": 134299649,
                                 "text": "async",
@@ -57,7 +57,7 @@ foo(async[])
                     "start": 4,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 12
             },
@@ -78,7 +78,7 @@ foo(async[])
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

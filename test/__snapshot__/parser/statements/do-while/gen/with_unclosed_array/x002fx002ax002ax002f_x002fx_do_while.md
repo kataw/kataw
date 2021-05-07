@@ -80,7 +80,7 @@ do[ /**/ /x do while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

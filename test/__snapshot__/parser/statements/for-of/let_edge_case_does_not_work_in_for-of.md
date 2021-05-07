@@ -123,7 +123,7 @@ for (let of x) y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

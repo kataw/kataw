@@ -113,7 +113,9 @@ foo: for (x of y) continue foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: for (x of y)
+  continue foo;
 ```
 
 ### Diagnostics

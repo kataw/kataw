@@ -144,7 +144,10 @@ class x {static set new(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static new(x) {}
+}
 ```
 
 ### Diagnostics

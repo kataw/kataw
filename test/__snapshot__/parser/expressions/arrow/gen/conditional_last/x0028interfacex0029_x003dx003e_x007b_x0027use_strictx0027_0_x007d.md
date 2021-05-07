@@ -117,7 +117,10 @@ bar, (interface) => { 'use strict'; 0 };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar, (interface) =>  {
+    0;
+  };
 ```
 
 ### Diagnostics

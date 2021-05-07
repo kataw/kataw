@@ -122,7 +122,7 @@ class x { static / foo(){} }
                         "start": 23,
                         "end": 23
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 18,
                     "end": 24
                 },
@@ -160,7 +160,7 @@ class x { static / foo(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

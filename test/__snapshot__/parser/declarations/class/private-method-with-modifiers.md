@@ -422,7 +422,15 @@ class Foo {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  #g() {}
+  async #a() {}
+  async #ag() {}
+  static static #sg() {}
+  async static static #sa() {}
+  async static static #sag() {}
+}
 ```
 
 ### Diagnostics

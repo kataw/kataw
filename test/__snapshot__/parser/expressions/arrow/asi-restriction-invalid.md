@@ -96,7 +96,7 @@ var af = ()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

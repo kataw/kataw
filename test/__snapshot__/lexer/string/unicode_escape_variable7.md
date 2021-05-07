@@ -128,7 +128,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\u{1}\"";
+"\"\u{12}\"";
+"\"\u{123}\"";
+"\"\u{1234}\"";
+"\"\u{12345}\"";
+"\"\u{103456}\"";
 ```
 
 ### Diagnostics

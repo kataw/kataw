@@ -93,7 +93,8 @@ new async x => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  async x =>  {}();
 ```
 
 ### Diagnostics

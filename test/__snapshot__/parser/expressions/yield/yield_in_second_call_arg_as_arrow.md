@@ -107,7 +107,7 @@
                                                 "start": 15,
                                                 "end": 25
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 10,
                                             "end": 26
                                         },
@@ -160,7 +160,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

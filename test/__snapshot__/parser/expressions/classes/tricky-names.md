@@ -875,7 +875,23 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  get() {}
+  set() {}
+  static() {}
+  async() {}
+  "'get'"() {}
+  "'set'"() {}
+  "'async'"() {}
+  static static get() {}
+  static static set() {}
+  static static static() {}
+  static static async() {}
+  static static a() {}
+  get async() {}
+  static get static static() {}
+}
 ```
 
 ### Diagnostics

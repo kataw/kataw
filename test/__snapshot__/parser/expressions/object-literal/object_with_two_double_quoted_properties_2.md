@@ -97,7 +97,7 @@ wrap({'a':b, 'c':d});
                     "start": 5,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 20
             },
@@ -118,7 +118,8 @@ wrap({'a':b, 'c':d});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ "'a'": b, "'c'": d });
 ```
 
 ### Diagnostics

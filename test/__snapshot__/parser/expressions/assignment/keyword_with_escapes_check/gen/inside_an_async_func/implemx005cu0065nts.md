@@ -102,7 +102,10 @@ async () => {  implem\u0065nts = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  implements = x;
+}
 ```
 
 ### Diagnostics

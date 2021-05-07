@@ -8,12 +8,18 @@ export interface TemplateTail extends SyntaxNode {
   readonly text: string;
 }
 
-export function createTemplateTail(rawText: string, text: string, start: number, end: number): TemplateTail {
+export function createTemplateTail(
+  rawText: string,
+  text: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): TemplateTail {
   return {
     kind: SyntaxKind.TemplateTail,
     text,
     rawText,
-    flags: NodeFlags.ExpressionNode | NodeFlags.ChildLess,
+    flags,
     start,
     end
   };

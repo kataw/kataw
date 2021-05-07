@@ -12,7 +12,7 @@ async () => {  type\u006ff = x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -113,7 +113,7 @@ async () => {  type\u006ff = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

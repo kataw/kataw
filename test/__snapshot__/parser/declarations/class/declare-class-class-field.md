@@ -196,7 +196,15 @@ declare class X {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+declare class X {
+  a;
+
+  static b;
+
+  c;
+
+}
 ```
 
 ### Diagnostics

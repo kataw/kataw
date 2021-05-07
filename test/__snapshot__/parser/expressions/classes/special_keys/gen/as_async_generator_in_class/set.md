@@ -125,7 +125,10 @@ class x {async * set(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async set() {}
+}
 ```
 
 ### Diagnostics

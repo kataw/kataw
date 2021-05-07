@@ -150,7 +150,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                                     "start": 53,
                                                                                     "end": 53
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 46,
                                                                                 "end": 54
                                                                             },
@@ -225,7 +225,7 @@ class C { constructor() { var f = function() { super(); } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

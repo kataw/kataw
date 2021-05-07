@@ -241,7 +241,7 @@ var await; var f = (async function() { class x {await(){}} });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

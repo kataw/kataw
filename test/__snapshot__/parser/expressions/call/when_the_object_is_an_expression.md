@@ -57,7 +57,7 @@ async({a})
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 10
         }
@@ -74,7 +74,8 @@ async({a})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async({ a })
 ```
 
 ### Diagnostics

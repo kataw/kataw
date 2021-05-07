@@ -135,7 +135,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class B  {});
 ```
 
 ### Diagnostics

@@ -177,7 +177,8 @@ export const enum DiagnosticCode {
   Property_definition_expected_Did_you_mean_to_use_a = 176,
   Expected_a_computed_property = 177,
   Object_literal_epected = 178,
-  The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer = 179
+  The_variable_declaration_of_a_for_of_in_statement_cannot_have_an_initializer = 179,
+  _static_modifier_already_seen = 180
 }
 
 export const diagnosticMap: { [key: number]: string } = {
@@ -356,5 +357,6 @@ export const diagnosticMap: { [key: number]: string } = {
   [176]: "Property definition expected. Did you mean to use a ':'?",
   [177]: 'Expected a computed property',
   [178]: 'Object literal epected',
-  [179]: "The variable declaration of a 'for...of ... in' statement cannot have an initializer."
+  [179]: "The variable declaration of a 'for...of ... in' statement cannot have an initializer.",
+  [180]: "'static' modifier already seen"
 };

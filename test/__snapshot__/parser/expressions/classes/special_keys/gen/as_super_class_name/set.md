@@ -83,7 +83,8 @@ class x extends set {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {}
 ```
 
 ### Diagnostics

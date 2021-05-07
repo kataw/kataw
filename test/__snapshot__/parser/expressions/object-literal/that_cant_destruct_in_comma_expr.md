@@ -8,7 +8,7 @@ x, {x: foo + y, bar} = doo
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -136,7 +136,7 @@ x, {x: foo + y, bar} = doo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

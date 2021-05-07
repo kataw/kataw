@@ -100,7 +100,15 @@ post"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\
+\"";
+"\"pre\
+\"";
+"\"\
+post\"";
+"\"pre\
+post\"";
 ```
 
 ### Diagnostics

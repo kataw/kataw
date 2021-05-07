@@ -68,7 +68,7 @@ new new A().foo
                     "start": 12,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 15
             },
@@ -89,7 +89,8 @@ new new A().foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  new  A()().foo;
 ```
 
 ### Diagnostics

@@ -165,7 +165,15 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  static #private;
+
+}
+class A {
+  static #private = x;
+
+}
 ```
 
 ### Diagnostics

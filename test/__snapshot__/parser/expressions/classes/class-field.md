@@ -226,7 +226,7 @@
                     "start": 19,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 35
             },
@@ -4101,7 +4101,184 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class X {
+    a;
+
+  })(class  {
+    a = 0;
+
+  });
+(class  {
+    a = 0;
+
+    b;
+  });
+(class  {
+    a = 0;
+
+    b() {}
+  });
+(class  {
+    a = 0;
+
+    b() {}
+  });
+(class  {
+    a = 0;
+
+    ["'b'"]() {}
+  });
+(class  {
+    a;
+
+  });
+(class  {
+    a;
+
+    b;
+
+  });
+(class  {
+    a;
+
+    b() {}
+  });
+(class  {
+    a;
+
+    b() {}
+  });
+(class  {
+    a;
+
+    ["'b'"]() {}
+  });
+(class  {
+    ["'a'"] = 0;
+
+  });
+(class  {
+    ["'a'"] = 0;
+
+    b;
+  });
+(class  {
+    ["'a'"] = 0;
+
+    b() {}
+  });
+(class  {
+    ["'a'"] = 0;
+
+    b() {}
+  });
+(class  {
+    ["'a'"] = 0;
+
+    ["'b'"]() {}
+  });
+(class  {
+    ["'a'"];
+
+  });
+(class  {
+    ["'a'"];
+
+    b;
+
+  });
+(class  {
+    ["'a'"];
+
+    b() {}
+  });
+(class  {
+    ["'a'"];
+
+    b() {}
+  });
+(class  {
+    ["'a'"];
+
+    ["'b'"]() {}
+  });
+(class  {
+    0 = 0;
+
+  });
+(class  {
+    0;
+
+  });
+(class  {
+    "'a'" = 0;
+
+  });
+(class  {
+    "'a'";
+
+  });
+(class  {
+    a = 0;
+  });
+(class  {
+    a = 0;
+    b;
+  });
+(class  {
+    a = 0;
+    b() {}
+  });
+(class  {
+    a;
+  });
+(class  {
+    a;
+    b;
+  });
+(class  {
+    a;
+    b() {}
+  });
+(class  {
+    a;
+    b() {}
+  });
+(class  {
+    a;
+    ["'b'"]() {}
+  });
+(class  {
+    ["'a'"] = 0;
+  });
+(class  {
+    ["'a'"] = 0;
+    b;
+  });
+(class  {
+    ["'a'"] = 0;
+    b() {}
+  });
+(class  {
+    ["'a'"];
+  });
+(class  {
+    ["'a'"];
+    b;
+  });
+(class  {
+    ["'a'"];
+    b() {}
+  });
+(class  {
+    ["'a'"];
+    b() {}
+  });
+(class  {
+    ["'a'"];
+    ["'b'"]() {}
+  });
 ```
 
 ### Diagnostics

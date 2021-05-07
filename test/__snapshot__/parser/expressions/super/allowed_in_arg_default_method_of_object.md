@@ -93,7 +93,7 @@ x={ foo(a = super.foo){ }}
                                                         "start": 18,
                                                         "end": 21
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 11,
                                                     "end": 21
                                                 },
@@ -161,7 +161,8 @@ x={ foo(a = super.foo){ }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { foo(a = .foo) {} };
 ```
 
 ### Diagnostics

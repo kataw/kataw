@@ -33,7 +33,7 @@
                             {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 210,
                                         "newKeyword": {
@@ -157,7 +157,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[ = a + b] = z;
 ```
 
 ### Diagnostics

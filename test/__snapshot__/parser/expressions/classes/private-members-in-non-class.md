@@ -271,7 +271,7 @@ class C { test() {get #a() { }}}
                                         "start": 68,
                                         "end": 68
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 64,
                                     "end": 69
                                 },
@@ -400,7 +400,7 @@ class C { test() {get #a() { }}}
                                                     "start": 101,
                                                     "end": 101
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 97,
                                                 "end": 102
                                             },
@@ -880,7 +880,7 @@ class C { test() {get #a() { }}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

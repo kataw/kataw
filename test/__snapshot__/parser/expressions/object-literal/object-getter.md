@@ -168,7 +168,7 @@ x({get 0o4567(){}});
                     "start": 2,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 23
             },
@@ -325,7 +325,7 @@ x({get 0o4567(){}});
                     "start": 27,
                     "end": 53
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 24,
                 "end": 54
             },
@@ -428,7 +428,7 @@ x({get 0o4567(){}});
                     "start": 58,
                     "end": 73
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 55,
                 "end": 74
             },
@@ -590,7 +590,7 @@ x({get 0o4567(){}});
                     "start": 78,
                     "end": 108
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 75,
                 "end": 109
             },
@@ -687,7 +687,7 @@ x({get 0o4567(){}});
                     "start": 113,
                     "end": 126
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 110,
                 "end": 127
             },
@@ -837,7 +837,7 @@ x({get 0o4567(){}});
                     "start": 131,
                     "end": 157
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 128,
                 "end": 158
             },
@@ -934,7 +934,7 @@ x({get 0o4567(){}});
                     "start": 162,
                     "end": 177
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 159,
                 "end": 178
             },
@@ -1031,7 +1031,7 @@ x({get 0o4567(){}});
                     "start": 182,
                     "end": 193
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 179,
                 "end": 194
             },
@@ -1128,7 +1128,7 @@ x({get 0o4567(){}});
                     "start": 198,
                     "end": 216
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 195,
                 "end": 217
             },
@@ -1225,7 +1225,7 @@ x({get 0o4567(){}});
                     "start": 221,
                     "end": 236
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 218,
                 "end": 237
             },
@@ -1322,7 +1322,7 @@ x({get 0o4567(){}});
                     "start": 241,
                     "end": 257
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 238,
                 "end": 258
             },
@@ -1343,7 +1343,18 @@ x({get 0o4567(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ * foo() {}, * bar() {} });
+x({ [foo]() {}, get [bar]() {} });
+x({ get [foo]() {} });
+x({ get [foo]() {}, get [bar]() {} });
+x({ get foo() {} });
+x({ get foo() {}, get bar() {} });
+x({ get "\"foo\""() {} });
+x({ get 1() {} });
+x({ get 0x234241() {} });
+x({ get 0b001() {} });
+x({ get 0o4567() {} });
 ```
 
 ### Diagnostics

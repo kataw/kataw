@@ -104,7 +104,7 @@ function *P(){
                                         "start": 38,
                                         "end": 41
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 32,
                                     "end": 41
                                 },
@@ -152,7 +152,10 @@ function *P(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * P() {
+  class D  {}
+}
 ```
 
 ### Diagnostics

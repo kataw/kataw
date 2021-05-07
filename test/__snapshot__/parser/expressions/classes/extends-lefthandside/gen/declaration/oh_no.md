@@ -110,7 +110,7 @@ class A extends oh,no {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

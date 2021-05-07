@@ -84,7 +84,7 @@ for ({a: b.c}.foo in d) e
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -110,7 +110,7 @@ for ({a: b.c}.foo in d) e
                     "start": 14,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 17
             },
@@ -153,7 +153,9 @@ for ({a: b.c}.foo in d) e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in d)
+  e;
 ```
 
 ### Diagnostics

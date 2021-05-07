@@ -116,7 +116,10 @@ class C { static delete() {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  static static delete() {}
+}
 ```
 
 ### Diagnostics

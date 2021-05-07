@@ -8,7 +8,7 @@ function test({...{}}) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -142,7 +142,7 @@ function test({...{}}) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

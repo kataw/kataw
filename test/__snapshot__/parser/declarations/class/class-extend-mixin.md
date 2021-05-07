@@ -99,7 +99,7 @@ class Foo<T> extends mixin(Bar) { }
                         "start": 27,
                         "end": 30
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 20,
                     "end": 31
                 },
@@ -132,7 +132,8 @@ class Foo<T> extends mixin(Bar) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo  {}
 ```
 
 ### Diagnostics

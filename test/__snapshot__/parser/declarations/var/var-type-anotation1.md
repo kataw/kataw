@@ -119,7 +119,8 @@ var foo = (async (): number => bar);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo = (async () =>  bar);
 ```
 
 ### Diagnostics

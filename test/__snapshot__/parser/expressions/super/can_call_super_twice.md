@@ -117,7 +117,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "start": 42,
                                                     "end": 45
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 35,
                                                 "end": 45
                                             },
@@ -149,7 +149,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                     "start": 53,
                                                     "end": 56
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 46,
                                                 "end": 56
                                             },
@@ -196,7 +196,13 @@ class x extends y { constructor() { super.mom; super.mom; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {
+  constructor() {
+    .mom;
+    .mom;
+  }
+}
 ```
 
 ### Diagnostics

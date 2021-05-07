@@ -164,7 +164,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                                             "start": 50,
                                                                             "end": 60
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 45,
                                                                         "end": 61
                                                                     },
@@ -250,7 +250,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

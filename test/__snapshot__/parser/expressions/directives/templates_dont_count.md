@@ -54,7 +54,7 @@ function f(){ `use strict`; with (x) y; }
                                 "kind": 458761,
                                 "text": "use strict",
                                 "rawText": "use strict",
-                                "flags": 96,
+                                "flags": 134217824,
                                 "start": 13,
                                 "end": 26
                             },
@@ -124,7 +124,12 @@ function f(){ `use strict`; with (x) y; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  `use strict`;
+  with (x
+    y;
+}
 ```
 
 ### Diagnostics

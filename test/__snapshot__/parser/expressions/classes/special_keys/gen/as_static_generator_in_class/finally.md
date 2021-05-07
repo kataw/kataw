@@ -125,7 +125,10 @@ class x {static * finally(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static finally() {}
+}
 ```
 
 ### Diagnostics

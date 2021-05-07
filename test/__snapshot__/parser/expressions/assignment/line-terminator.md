@@ -104,7 +104,9 @@ true;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
+x = true;
 ```
 
 ### Diagnostics

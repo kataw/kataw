@@ -115,7 +115,10 @@ class x {null(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  null() {}
+}
 ```
 
 ### Diagnostics

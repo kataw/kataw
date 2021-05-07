@@ -12,7 +12,7 @@ class A extends a + b {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -122,7 +122,7 @@ class A extends a + b {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

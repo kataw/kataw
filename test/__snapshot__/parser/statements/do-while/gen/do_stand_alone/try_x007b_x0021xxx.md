@@ -12,7 +12,7 @@ do try { !xxx
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -119,7 +119,7 @@ do try { !xxx
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

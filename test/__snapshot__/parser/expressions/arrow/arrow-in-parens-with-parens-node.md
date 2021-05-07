@@ -131,7 +131,10 @@ var asserted1 = <any>((n) => { return n; });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var asserted1 = ((n) =>  {
+    return  n;
+  });
 ```
 
 ### Diagnostics

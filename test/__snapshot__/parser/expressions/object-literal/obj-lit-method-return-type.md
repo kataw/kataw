@@ -183,7 +183,7 @@ x = { method(test: string): number { } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

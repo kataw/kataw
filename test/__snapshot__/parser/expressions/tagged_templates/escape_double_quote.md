@@ -31,7 +31,7 @@ tag`some \" quote`;
                     "kind": 458761,
                     "text": "some \" quote",
                     "rawText": "some \\\" quote",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 3,
                     "end": 18
                 },
@@ -56,7 +56,8 @@ tag`some \" quote`;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+tag`some " quote`;
 ```
 
 ### Diagnostics

@@ -125,7 +125,10 @@ class x {async * return(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async return() {}
+}
 ```
 
 ### Diagnostics

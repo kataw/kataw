@@ -139,7 +139,7 @@ switch(0) { default: function f(){ break; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

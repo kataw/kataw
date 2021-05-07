@@ -75,7 +75,7 @@ function f() {
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "arguments",
@@ -137,7 +137,10 @@ function f() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  var x = ;
+}
 ```
 
 ### Diagnostics

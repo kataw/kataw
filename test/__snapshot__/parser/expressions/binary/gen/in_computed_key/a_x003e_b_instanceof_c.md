@@ -142,7 +142,8 @@ x = {[ a > b instanceof c ]: y}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { [a > b inctanceof c]: y };
 ```
 
 ### Diagnostics

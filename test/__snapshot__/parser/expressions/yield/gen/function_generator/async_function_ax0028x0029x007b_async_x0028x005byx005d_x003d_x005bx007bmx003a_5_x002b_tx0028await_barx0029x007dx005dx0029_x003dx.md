@@ -248,7 +248,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                                                 "start": 88,
                                                                                                                 "end": 97
                                                                                                             },
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 268435488,
                                                                                                             "start": 85,
                                                                                                             "end": 98
                                                                                                         },
@@ -290,7 +290,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                 "start": 59,
                                                                 "end": 59
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 268435488,
                                                             "start": 59,
                                                             "end": 101
                                                         }
@@ -365,7 +365,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

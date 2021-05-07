@@ -196,7 +196,7 @@
                                                                                             "start": 74,
                                                                                             "end": 83
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 69,
                                                                                         "end": 84
                                                                                     },
@@ -295,7 +295,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function g() {
+  let x = async function f(foo = [h, { m: t(await bar) }]) {};
+}
 ```
 
 ### Diagnostics

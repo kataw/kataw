@@ -95,7 +95,7 @@ class x extends else {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

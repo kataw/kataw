@@ -480,7 +480,20 @@ f ^= 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class f {}
+f += "''";
+f += 1;
+f -= 1;
+f *= 1;
+f /= 1;
+f %= 1;
+f &= 1;
+f |= 1;
+f <<= 1;
+f >>= 1;
+f >>>= 1;
+f ^= 1;
 ```
 
 ### Diagnostics

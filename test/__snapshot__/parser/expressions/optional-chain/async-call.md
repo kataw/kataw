@@ -55,7 +55,7 @@ async?.(foo)
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 7,
                         "end": 12
                     },
@@ -84,7 +84,8 @@ async?.(foo)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async?.(foo);
 ```
 
 ### Diagnostics

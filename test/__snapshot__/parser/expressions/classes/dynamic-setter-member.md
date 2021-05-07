@@ -138,7 +138,11 @@ class A {* get [x](){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  get;
+  [x]() {}
+}
 ```
 
 ### Diagnostics

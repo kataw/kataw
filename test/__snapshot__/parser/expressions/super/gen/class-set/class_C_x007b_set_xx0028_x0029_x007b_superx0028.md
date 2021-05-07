@@ -207,7 +207,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                                                     "start": 48,
                                                                                     "end": 48
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 41,
                                                                                 "end": 48
                                                                             },
@@ -280,7 +280,7 @@ class C { set x(_) { class C { set x(_) { super( } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

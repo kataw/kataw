@@ -57,7 +57,8 @@ new this
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  this();
 ```
 
 ### Diagnostics

@@ -106,7 +106,8 @@ import { for } from "iteration"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  for }  ;
 ```
 
 ### Diagnostics

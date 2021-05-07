@@ -146,7 +146,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                                     "start": 29,
                                                     "end": 39
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 24,
                                                 "end": 40
                                             },
@@ -205,7 +205,10 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * g() {
+  (x = x + foo(a,  y)) =>  x;
+}
 ```
 
 ### Diagnostics

@@ -119,7 +119,7 @@ for (a of b) async function f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

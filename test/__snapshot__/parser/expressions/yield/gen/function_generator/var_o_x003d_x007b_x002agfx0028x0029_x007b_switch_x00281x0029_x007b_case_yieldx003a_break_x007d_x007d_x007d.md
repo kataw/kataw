@@ -309,7 +309,17 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gen() {
+  function not_gen() {
+    var o = { * gf() {
+        switch(1
+          case  :
+            break;
+
+      } };
+  }
+}
 ```
 
 ### Diagnostics

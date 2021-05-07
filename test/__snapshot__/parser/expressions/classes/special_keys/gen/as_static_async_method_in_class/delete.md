@@ -125,7 +125,10 @@ class x {static async delete(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async static static delete() {}
+}
 ```
 
 ### Diagnostics

@@ -105,7 +105,7 @@ class C { *method() { super; } }
                                                     "start": 27,
                                                     "end": 27
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 21,
                                                 "end": 27
                                             },
@@ -152,7 +152,7 @@ class C { *method() { super; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

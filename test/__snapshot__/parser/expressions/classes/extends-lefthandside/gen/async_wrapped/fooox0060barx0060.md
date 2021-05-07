@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -100,7 +100,7 @@ async function p(){
                                         "kind": 458761,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 96,
+                                        "flags": 134217824,
                                         "start": 42,
                                         "end": 47
                                     },
@@ -152,7 +152,10 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics

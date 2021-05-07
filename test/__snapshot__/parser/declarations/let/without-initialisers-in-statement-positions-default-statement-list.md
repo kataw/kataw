@@ -106,7 +106,11 @@ switch (true) { default: let x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(true
+  default
+    let x;
+ 
 ```
 
 ### Diagnostics

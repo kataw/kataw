@@ -104,7 +104,7 @@ wrap({*foo(){}});
                     "start": 5,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 16
             },
@@ -125,7 +125,8 @@ wrap({*foo(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ * foo() {} });
 ```
 
 ### Diagnostics

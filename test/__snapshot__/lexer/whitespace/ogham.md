@@ -126,7 +126,7 @@ left@{x1680}@right
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

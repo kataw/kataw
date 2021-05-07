@@ -152,7 +152,17 @@ switch(x) { case y: break; case z: break; default: default: }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case y:
+    break;
+  case z:
+    break;
+  default
+
+  default
+
+ 
 ```
 
 ### Diagnostics

@@ -120,7 +120,10 @@ class x {get else(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get else() {}
+}
 ```
 
 ### Diagnostics

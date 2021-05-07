@@ -155,7 +155,7 @@ class C { *method() { var f = function { super(); } } }
                                                                                     "start": 47,
                                                                                     "end": 47
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 40,
                                                                                 "end": 48
                                                                             },
@@ -230,7 +230,7 @@ class C { *method() { var f = function { super(); } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

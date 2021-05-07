@@ -72,7 +72,7 @@ foo(a, b, ...c)
                     "start": 4,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 15
             },
@@ -93,7 +93,8 @@ foo(a, b, ...c)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a, b, ...c);
 ```
 
 ### Diagnostics

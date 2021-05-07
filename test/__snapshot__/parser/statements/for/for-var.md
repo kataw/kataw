@@ -92,7 +92,8 @@ for(var i;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; );
 ```
 
 ### Diagnostics

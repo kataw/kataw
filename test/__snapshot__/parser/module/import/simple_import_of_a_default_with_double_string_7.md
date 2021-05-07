@@ -118,7 +118,8 @@ import {x as z,} from "y"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  x asz }  ;
 ```
 
 ### Diagnostics

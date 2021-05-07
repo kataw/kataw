@@ -8,7 +8,7 @@ function f(x, y){"use strict";}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -121,7 +121,8 @@ function f(x, y){"use strict";}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f(x, y) {}
 ```
 
 ### Diagnostics

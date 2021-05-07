@@ -170,7 +170,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                         "start": 54,
                                                                         "end": 54
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 48,
                                                                     "end": 55
                                                                 },
@@ -258,7 +258,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

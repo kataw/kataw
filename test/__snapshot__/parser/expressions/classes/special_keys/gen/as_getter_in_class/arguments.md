@@ -120,7 +120,10 @@ class x {get arguments(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get arguments() {}
+}
 ```
 
 ### Diagnostics

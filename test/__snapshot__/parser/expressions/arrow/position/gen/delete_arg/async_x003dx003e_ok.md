@@ -86,7 +86,8 @@ delete async => ok
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete async async =>  ok;
 ```
 
 ### Diagnostics

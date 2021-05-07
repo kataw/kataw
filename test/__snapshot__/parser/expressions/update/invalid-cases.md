@@ -57,7 +57,7 @@ new new foo().bar++;
                         "start": 4,
                         "end": 4
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 5
                 },
@@ -106,7 +106,7 @@ new new foo().bar++;
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 8,
                     "end": 18
                 },
@@ -131,7 +131,7 @@ new new foo().bar++;
                 "operand": {
                     "kind": 131,
                     "expression": {
-                        "kind": 130,
+                        "kind": 536871042,
                         "member": {
                             "kind": 134299649,
                             "text": "foo",
@@ -160,7 +160,7 @@ new new foo().bar++;
                         "start": 32,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 21,
                     "end": 33
                 },
@@ -202,7 +202,7 @@ new new foo().bar++;
                             "start": 42,
                             "end": 45
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 36,
                         "end": 45
                     },
@@ -214,7 +214,7 @@ new new foo().bar++;
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 36,
                     "end": 47
                 },
@@ -239,7 +239,7 @@ new new foo().bar++;
                 "operand": {
                     "kind": 131,
                     "expression": {
-                        "kind": 130,
+                        "kind": 536871042,
                         "member": {
                             "kind": 131,
                             "expression": {
@@ -247,7 +247,7 @@ new new foo().bar++;
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 129,
                                             "member": {
@@ -264,7 +264,7 @@ new new foo().bar++;
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 50,
                                             "end": 60
                                         },
@@ -288,7 +288,7 @@ new new foo().bar++;
                                         "start": 66,
                                         "end": 69
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 50,
                                     "end": 69
                                 },
@@ -307,7 +307,7 @@ new new foo().bar++;
                                     "start": 70,
                                     "end": 74
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 50,
                                 "end": 75
                             },
@@ -328,7 +328,7 @@ new new foo().bar++;
                                 "start": 76,
                                 "end": 79
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 50,
                             "end": 80
                         },
@@ -352,7 +352,7 @@ new new foo().bar++;
                         "start": 86,
                         "end": 86
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 50,
                     "end": 87
                 },
@@ -471,7 +471,7 @@ new new foo().bar++;
                         "start": 120,
                         "end": 123
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 104,
                     "end": 123
                 },
@@ -579,7 +579,7 @@ new new foo().bar++;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

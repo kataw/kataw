@@ -117,7 +117,7 @@ x({a:b, c:d}=obj);
                     "start": 2,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 17
             },
@@ -138,7 +138,8 @@ x({a:b, c:d}=obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ a: b, c: d } = obj);
 ```
 
 ### Diagnostics

@@ -87,7 +87,8 @@ var a: 123
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
 ```
 
 ### Diagnostics

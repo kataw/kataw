@@ -182,7 +182,13 @@ class x { constructor(){}; "constructor"(){}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  constructor() {}
+
+  "\"constructor\""() {}
+
+}
 ```
 
 ### Diagnostics

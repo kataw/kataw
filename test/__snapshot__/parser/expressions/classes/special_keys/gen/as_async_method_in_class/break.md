@@ -120,7 +120,10 @@ class x {async break(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async break() {}
+}
 ```
 
 ### Diagnostics

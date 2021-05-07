@@ -136,7 +136,10 @@ bar ? (x => { return x; }) : baz;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar ? (x =>  {
+        return  x;
+      }) : baz;
 ```
 
 ### Diagnostics

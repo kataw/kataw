@@ -317,3 +317,15 @@ export function hasNewLine(node: SyntaxNode): boolean {
 export function hasDuplicateLabels(node: SyntaxNode): boolean {
   return (node.flags & NodeFlags.DuplicateLabels) === NodeFlags.DuplicateLabels;
 }
+
+export function isTemplateLiteral(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.TemplateLiteral) === NodeFlags.TemplateLiteral;
+}
+
+export function isCallExpression(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IsCallExpression) === NodeFlags.IsCallExpression;
+}
+
+export function isMemberExpression(node: SyntaxNode): boolean {
+  return (node.flags & NodeFlags.IsMemberExpression) === NodeFlags.IsMemberExpression;
+}

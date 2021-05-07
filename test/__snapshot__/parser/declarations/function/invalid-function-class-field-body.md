@@ -13,7 +13,7 @@ function* foo() {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -179,7 +179,14 @@ function* foo() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * foo() {
+  class C {
+    // here yield is an identifier reference
+    p =   + 42;
+
+  }
+}
 ```
 
 ### Diagnostics

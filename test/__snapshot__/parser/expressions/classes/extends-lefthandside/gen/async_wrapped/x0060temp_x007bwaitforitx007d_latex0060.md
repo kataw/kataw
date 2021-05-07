@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -90,7 +90,7 @@ async function p(){
                                     "kind": 458761,
                                     "text": "temp {waitforit} late",
                                     "rawText": "temp {waitforit} late",
-                                    "flags": 96,
+                                    "flags": 134217824,
                                     "start": 37,
                                     "end": 61
                                 },
@@ -138,7 +138,10 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics

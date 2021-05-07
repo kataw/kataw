@@ -258,7 +258,7 @@
                                             "start": 47,
                                             "end": 48
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 45,
                                         "end": 48
                                     },
@@ -454,7 +454,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ ...x = y });
+({ ...x + y });
+({ ...x, ...y });
+({ ...x.y } = z);
+({ ...x, y });
+([{ x = y }] = z);
 ```
 
 ### Diagnostics

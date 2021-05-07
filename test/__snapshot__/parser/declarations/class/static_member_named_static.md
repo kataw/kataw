@@ -135,7 +135,10 @@ class x{   static static(){}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static static() {}
+}
 ```
 
 ### Diagnostics

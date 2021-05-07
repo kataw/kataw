@@ -12,7 +12,7 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -266,7 +266,11 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function () {
+    async function af(a, b = await a) {}
+  });
 ```
 
 ### Diagnostics

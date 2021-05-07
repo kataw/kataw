@@ -16,7 +16,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -209,7 +209,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function foo(callback) {}
 ```
 
 ### Diagnostics

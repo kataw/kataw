@@ -90,7 +90,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"\r\n\"";
+"\"prefix\r\n\"";
+"\"\r\nsuffix\"";
+"\"\rinfix\nsuffix\"";
 ```
 
 ### Diagnostics

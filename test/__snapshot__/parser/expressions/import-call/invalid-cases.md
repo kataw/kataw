@@ -798,7 +798,7 @@ new import(x);
                             "start": 232,
                             "end": 232
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 230,
                         "end": 232
                     }
@@ -1925,7 +1925,7 @@ new import(x);
                             "start": 575,
                             "end": 575
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 573,
                         "end": 575
                     }
@@ -1996,7 +1996,7 @@ new import(x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

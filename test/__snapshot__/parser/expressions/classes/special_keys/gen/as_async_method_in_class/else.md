@@ -120,7 +120,10 @@ class x {async else(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async else() {}
+}
 ```
 
 ### Diagnostics

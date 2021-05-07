@@ -8,7 +8,7 @@ function eval() { }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -75,7 +75,8 @@ function eval() { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function eval() {}
 ```
 
 ### Diagnostics

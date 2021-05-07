@@ -10,7 +10,7 @@ function *f() { yield
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -157,7 +157,10 @@ function *f() { yield
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+   {} / 1 / g;
+}
 ```
 
 ### Diagnostics

@@ -192,7 +192,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ get [x]() {}, set [x](v) {} });
 ```
 
 ### Diagnostics

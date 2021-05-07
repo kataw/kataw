@@ -75,7 +75,11 @@ while (false) let // ASI
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (false) let; // ASI
+
+{
+}
 ```
 
 ### Diagnostics

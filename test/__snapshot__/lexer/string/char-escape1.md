@@ -176,7 +176,16 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"'\"";
+'"""';
+"\"\\\"";
+"\"\b\"";
+"\"\f\"";
+"\"\n\"";
+"\"\r\"";
+"\"\t\"";
+"\"\v\"";
 ```
 
 ### Diagnostics

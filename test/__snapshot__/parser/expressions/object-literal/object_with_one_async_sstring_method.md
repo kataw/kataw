@@ -104,7 +104,7 @@ wrap({async 'foo'(){}});
                     "start": 5,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 23
             },
@@ -125,7 +125,8 @@ wrap({async 'foo'(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ async "'foo'"() {} });
 ```
 
 ### Diagnostics

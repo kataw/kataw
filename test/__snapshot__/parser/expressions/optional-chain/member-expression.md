@@ -40,7 +40,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -94,14 +94,14 @@ f2`hello world`?.a;
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 11,
                     "end": 18
                 },
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -151,7 +151,7 @@ f2`hello world`?.a;
                         "kind": 458761,
                         "text": "hello world",
                         "rawText": "hello world",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 26,
                         "end": 39
                     },
@@ -162,7 +162,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -201,7 +201,10 @@ f2`hello world`?.a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+"\"hello\""?.;
+obj.a?.;
+f2`hello world`?.;
 ```
 
 ### Diagnostics

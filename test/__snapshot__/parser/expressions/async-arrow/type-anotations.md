@@ -816,7 +816,7 @@ async (...[x]?: string, a?) => {};
                 "start": 250,
                 "end": 250
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 250,
             "end": 279
         },
@@ -852,7 +852,7 @@ async (...[x]?: string, a?) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

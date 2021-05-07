@@ -24,7 +24,7 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -1307,7 +1307,63 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch {
+}
+try {
+} catch {
+} try{
+}
+try {
+  let e;
+} catch {
+  let e;
+}
+try {
+  let e;
+} catch {
+  let e;
+} try{
+  let e;
+}
+"\"use strict\"";
+try {
+} catch {
+}
+try {
+  try {
+  } catch {
+  } try{
+  }
+} catch (e) {
+}
+try {
+  let e;
+} catch {
+  let e;
+}
+try {
+} catch ({
+  e
+}) {
+  try {
+    let e;
+  } catch {
+    let e;
+  } try{
+    let e;
+  }
+}
+function f() {
+  try {
+    let e;
+  } catch {
+    let e;
+  } try{
+    let e;
+  }
+}
 ```
 
 ### Diagnostics

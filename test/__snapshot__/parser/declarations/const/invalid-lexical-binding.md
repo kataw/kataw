@@ -112,7 +112,7 @@ for(const a = 1, let = 2;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

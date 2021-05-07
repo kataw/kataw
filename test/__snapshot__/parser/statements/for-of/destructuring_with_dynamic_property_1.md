@@ -38,7 +38,7 @@ for ([a.b][foo] of c) d
                 "end": 18
             },
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 119,
                     "elementList": {
@@ -62,7 +62,7 @@ for ([a.b][foo] of c) d
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 6,
                                 "end": 9
                             }
@@ -128,7 +128,9 @@ for ([a.b][foo] of c) d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( of c)
+  d;
 ```
 
 ### Diagnostics

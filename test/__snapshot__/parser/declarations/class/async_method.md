@@ -135,7 +135,10 @@ class A {async foo(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  async foo() {}
+}
 ```
 
 ### Diagnostics

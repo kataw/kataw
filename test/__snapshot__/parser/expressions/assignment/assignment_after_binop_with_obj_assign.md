@@ -134,7 +134,9 @@ for(x in(t&{}=y))x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in (t => {} = y))
+  x;
 ```
 
 ### Diagnostics

@@ -93,7 +93,7 @@ foo(function* f(){})
                     "start": 4,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 20
             },
@@ -114,7 +114,8 @@ foo(function* f(){})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(function * f() {});
 ```
 
 ### Diagnostics

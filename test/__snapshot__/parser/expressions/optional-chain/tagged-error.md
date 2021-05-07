@@ -42,7 +42,7 @@ a?.()``;
                     "member": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -64,7 +64,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 4,
                         "end": 6
                     },
@@ -113,7 +113,7 @@ a?.()``;
                                 "start": 13,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 12,
                             "end": 16
                         },
@@ -125,7 +125,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 17,
                         "end": 19
                     },
@@ -174,7 +174,7 @@ a?.()``;
                                 "start": 26,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 25,
                             "end": 27
                         },
@@ -186,7 +186,7 @@ a?.()``;
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 27,
                         "end": 29
                     },
@@ -215,7 +215,7 @@ a?.()``;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

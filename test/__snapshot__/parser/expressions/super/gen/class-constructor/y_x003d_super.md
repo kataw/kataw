@@ -116,7 +116,7 @@ class C { constructor() { y = super } }
                                                         "start": 35,
                                                         "end": 35
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 29,
                                                     "end": 35
                                                 },
@@ -167,7 +167,7 @@ class C { constructor() { y = super } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

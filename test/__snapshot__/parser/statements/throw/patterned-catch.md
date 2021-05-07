@@ -277,7 +277,15 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch ([a, b, {
+    c,
+    d: e = 0,
+    [f]: g = 0,
+    h = i
+  }]) {
+}
 ```
 
 ### Diagnostics

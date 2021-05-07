@@ -62,7 +62,7 @@ for ([a.b].foo of c) d
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 6,
                                 "end": 9
                             }
@@ -84,7 +84,7 @@ for ([a.b].foo of c) d
                     "start": 11,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 14
             },
@@ -128,7 +128,9 @@ for ([a.b].foo of c) d
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ([a.b].foo of c)
+  d;
 ```
 
 ### Diagnostics

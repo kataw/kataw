@@ -59,7 +59,8 @@ while (false) debugger;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (false) debugger;
 ```
 
 ### Diagnostics

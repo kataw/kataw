@@ -116,7 +116,7 @@ f(((a) => a + b)(1, 4), 5);
                                 "start": 17,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 2,
                             "end": 22
                         },
@@ -134,7 +134,7 @@ f(((a) => a + b)(1, 4), 5);
                     "start": 2,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 26
             },
@@ -155,7 +155,8 @@ f(((a) => a + b)(1, 4), 5);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f(((a) =>  a + b)(1, 4), 5);
 ```
 
 ### Diagnostics

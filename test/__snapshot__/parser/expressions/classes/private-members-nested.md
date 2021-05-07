@@ -913,7 +913,37 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+    get #a() {
+      class C {
+        #a() {}
+      }
+    }
+  });
+(class  {
+    get #a() {
+      class C {
+        get #a() {}
+      }
+    }
+  });
+(class  {
+    set #a(val) {}
+    get #a() {
+      class C {
+        get #a() {}
+        set #a(val) {}
+      }
+    }
+  });
+(class  {
+    #a() {
+      class C {
+        set #a(val) {}
+      }
+    }
+  });
 ```
 
 ### Diagnostics

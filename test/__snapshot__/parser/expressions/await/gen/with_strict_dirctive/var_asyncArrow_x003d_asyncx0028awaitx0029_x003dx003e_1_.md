@@ -116,7 +116,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var asyncArrow = async (await) =>  1;
 ```
 
 ### Diagnostics

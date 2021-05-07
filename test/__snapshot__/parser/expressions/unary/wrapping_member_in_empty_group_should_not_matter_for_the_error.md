@@ -45,7 +45,7 @@ delete (foo.bar);
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 6,
                         "end": 15
                     },
@@ -74,7 +74,8 @@ delete (foo.bar);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete (foo.bar);
 ```
 
 ### Diagnostics

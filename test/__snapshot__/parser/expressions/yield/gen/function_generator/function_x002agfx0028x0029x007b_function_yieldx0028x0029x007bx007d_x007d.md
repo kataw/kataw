@@ -239,7 +239,7 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

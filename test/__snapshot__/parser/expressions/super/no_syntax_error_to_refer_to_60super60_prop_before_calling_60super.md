@@ -130,7 +130,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                                 "start": 46,
                                                                 "end": 49
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 40,
                                                             "end": 49
                                                         }
@@ -140,7 +140,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "start": 40,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 35,
                                                 "end": 50
                                             },
@@ -172,7 +172,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                     "start": 58,
                                                     "end": 61
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 51,
                                                 "end": 61
                                             },
@@ -219,7 +219,13 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {
+  constructor() {
+    log(.foo);
+    .mom;
+  }
+}
 ```
 
 ### Diagnostics

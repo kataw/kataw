@@ -99,7 +99,7 @@ class x {interface: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

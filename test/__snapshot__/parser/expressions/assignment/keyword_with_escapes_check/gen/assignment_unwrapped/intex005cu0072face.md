@@ -66,7 +66,8 @@ inte\u0072face = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+interface = x;
 ```
 
 ### Diagnostics

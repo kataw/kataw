@@ -115,7 +115,10 @@ class x {for(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  for() {}
+}
 ```
 
 ### Diagnostics

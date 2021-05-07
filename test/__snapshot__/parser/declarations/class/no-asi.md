@@ -122,7 +122,10 @@ class C { static
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  static static #aaa() {}
+}
 ```
 
 ### Diagnostics

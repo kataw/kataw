@@ -86,7 +86,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  if (false) {
+  } else ;
+}
 ```
 
 ### Diagnostics

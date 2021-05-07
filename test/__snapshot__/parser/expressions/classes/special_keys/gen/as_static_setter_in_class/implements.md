@@ -144,7 +144,10 @@ class x {static set implements(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static implements(x) {}
+}
 ```
 
 ### Diagnostics

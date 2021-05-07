@@ -112,7 +112,11 @@ if (x) { "use strict"; with (x) y; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (x) {
+  "\"use strict\"";
+  with (x y;
+}
 ```
 
 ### Diagnostics

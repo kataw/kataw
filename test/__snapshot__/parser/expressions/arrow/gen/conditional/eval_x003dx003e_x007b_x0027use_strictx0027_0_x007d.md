@@ -115,7 +115,10 @@ eval => { 'use strict'; 0 } , bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+eval =>  {
+  0;
+}, bar;
 ```
 
 ### Diagnostics

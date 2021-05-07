@@ -120,7 +120,10 @@ class x {* catch(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  catch() {}
+}
 ```
 
 ### Diagnostics

@@ -126,7 +126,9 @@ export { \u0061bc }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var abc = 5;
+  abc };
 ```
 
 ### Diagnostics

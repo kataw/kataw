@@ -17,7 +17,7 @@ function* f() { class C { aaa = yield } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -157,7 +157,12 @@ function* f() { class C { aaa = yield } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  class C {
+    aaa =  ;
+  }
+}
 ```
 
 ### Diagnostics

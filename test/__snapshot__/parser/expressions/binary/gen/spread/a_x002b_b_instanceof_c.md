@@ -113,7 +113,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...a + b inctanceof c];
 ```
 
 ### Diagnostics

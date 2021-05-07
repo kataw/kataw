@@ -183,7 +183,10 @@ function *g(){ (x = {[yield]: 1}) => z }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * g() {
+  (x = { [ ]: 1 }) =>  z;
+}
 ```
 
 ### Diagnostics

@@ -73,7 +73,7 @@ x({a=b});
                     "start": 2,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 8
             },
@@ -94,7 +94,7 @@ x({a=b});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

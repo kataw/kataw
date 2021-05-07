@@ -2539,7 +2539,7 @@ try {} catch(e) { for(var e of 0); };
                                                             "start": 3177,
                                                             "end": 3177
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 3170,
                                                         "end": 3178
                                                     },
@@ -2677,7 +2677,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                                 "start": 3212,
                                                                                                 "end": 3212
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 268435488,
                                                                                             "start": 3205,
                                                                                             "end": 3213
                                                                                         },
@@ -2901,7 +2901,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3287,
                                                                                             "end": 3287
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 3280,
                                                                                         "end": 3288
                                                                                     },
@@ -3124,7 +3124,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3359,
                                                                                             "end": 3359
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 3352,
                                                                                         "end": 3360
                                                                                     },
@@ -3347,7 +3347,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3434,
                                                                                             "end": 3434
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 3427,
                                                                                         "end": 3435
                                                                                     },
@@ -3589,7 +3589,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3510,
                                                                                             "end": 3510
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 3503,
                                                                                         "end": 3511
                                                                                     },
@@ -5170,7 +5170,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "start": 4835,
                                                     "end": 4840
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 4832,
                                                 "end": 4841
                                             },
@@ -6047,7 +6047,7 @@ try {} catch(e) { for(var e of 0); };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

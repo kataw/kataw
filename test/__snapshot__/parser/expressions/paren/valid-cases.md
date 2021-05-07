@@ -234,7 +234,7 @@
                                             "start": 44,
                                             "end": 45
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 39,
                                         "end": 45
                                     },
@@ -353,7 +353,7 @@
                                             "start": 69,
                                             "end": 70
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 56,
                                         "end": 70
                                     },
@@ -472,7 +472,7 @@
                                             "start": 94,
                                             "end": 95
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 81,
                                         "end": 95
                                     },
@@ -819,7 +819,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ b, ...c } = d);
+({ a: b = c } = d);
+({ a: b.c } = d);
+({ x: [...a, b].x } = c);
+({ x: { ...a, b }.x } = c);
+({ x = { ...a, b } } = c);
+({ x = [...a, b] } = c);
+([[]] = [[]]);
 ```
 
 ### Diagnostics

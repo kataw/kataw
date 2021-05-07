@@ -134,7 +134,7 @@ for (x of 3) continue/x/
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

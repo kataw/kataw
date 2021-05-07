@@ -94,7 +94,7 @@ do let x; while (false)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

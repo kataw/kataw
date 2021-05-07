@@ -89,7 +89,10 @@ class C { 1e2 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  1e2;
+}
 ```
 
 ### Diagnostics

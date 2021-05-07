@@ -189,7 +189,7 @@ class C { *method() { class C { get x) { super; } } } }
                                 "start": 46,
                                 "end": 46
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 40,
                             "end": 46
                         },
@@ -219,7 +219,7 @@ class C { *method() { class C { get x) { super; } } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -27,7 +27,7 @@ const {[x]};
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -127,7 +127,7 @@ const {[x]};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

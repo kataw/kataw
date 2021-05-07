@@ -27,7 +27,7 @@ function* bar() { yield class {} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -143,7 +143,10 @@ function* bar() { yield class {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * bar() {
+   class  {};
+}
 ```
 
 ### Diagnostics

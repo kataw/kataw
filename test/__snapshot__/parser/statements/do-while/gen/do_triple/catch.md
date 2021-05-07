@@ -137,7 +137,7 @@ do do do catch while while while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

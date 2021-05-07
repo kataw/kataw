@@ -12,7 +12,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -241,7 +241,12 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gen() {
+  function not_gen() {
+    x = class   {};
+  }
+}
 ```
 
 ### Diagnostics

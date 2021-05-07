@@ -8,7 +8,7 @@ function *f(){ async (x = (yield)) => {} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -158,7 +158,10 @@ function *f(){ async (x = (yield)) => {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  async (x = ( )) =>  {}
+}
 ```
 
 ### Diagnostics

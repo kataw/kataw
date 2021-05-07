@@ -120,7 +120,10 @@ class x {* finally(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  finally() {}
+}
 ```
 
 ### Diagnostics

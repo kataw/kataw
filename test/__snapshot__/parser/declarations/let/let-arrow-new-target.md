@@ -8,7 +8,7 @@ let y = () => new.target
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -98,7 +98,7 @@ let y = () => new.target
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

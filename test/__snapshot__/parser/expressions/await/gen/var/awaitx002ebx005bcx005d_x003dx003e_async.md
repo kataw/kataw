@@ -139,7 +139,7 @@ var await; var f = (async function() { await.b[c] => async });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

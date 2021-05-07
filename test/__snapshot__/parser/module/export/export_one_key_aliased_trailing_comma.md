@@ -130,7 +130,9 @@ var x; export {x as a,}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
+  x  a };
 ```
 
 ### Diagnostics

@@ -108,7 +108,7 @@ export {foo as default};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

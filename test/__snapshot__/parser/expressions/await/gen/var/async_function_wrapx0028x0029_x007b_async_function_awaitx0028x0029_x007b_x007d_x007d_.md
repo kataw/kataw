@@ -269,7 +269,7 @@ var await; var f = (async function() { async function wrap() { async function aw
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

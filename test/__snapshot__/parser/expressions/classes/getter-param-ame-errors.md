@@ -999,7 +999,7 @@ class C { get name(private) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

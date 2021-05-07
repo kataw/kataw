@@ -120,7 +120,10 @@ class x {static await(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static await() {}
+}
 ```
 
 ### Diagnostics

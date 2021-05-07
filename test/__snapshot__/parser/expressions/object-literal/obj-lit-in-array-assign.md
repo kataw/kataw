@@ -275,7 +275,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[{ x: x = 1, y: y = 2 }, [a = 3, b = 4, c = 5]] = {};
 ```
 
 ### Diagnostics

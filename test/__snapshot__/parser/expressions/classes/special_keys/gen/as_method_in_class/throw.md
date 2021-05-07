@@ -115,7 +115,10 @@ class x {throw(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  throw() {}
+}
 ```
 
 ### Diagnostics

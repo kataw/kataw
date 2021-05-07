@@ -135,7 +135,10 @@ class A {get set(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  get set() {}
+}
 ```
 
 ### Diagnostics

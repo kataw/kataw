@@ -73,7 +73,7 @@ class x { `constructor`(){} }
                     "kind": 458761,
                     "text": "constructor",
                     "rawText": "constructor",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 9,
                     "end": 23
                 },
@@ -85,7 +85,7 @@ class x { `constructor`(){} }
                     "start": 24,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 9,
                 "end": 25
             },
@@ -119,7 +119,7 @@ class x { `constructor`(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

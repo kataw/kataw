@@ -44,7 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -71,7 +71,7 @@
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 3,
                                     "end": 6
                                 },
@@ -124,7 +124,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[] = z;
 ```
 
 ### Diagnostics

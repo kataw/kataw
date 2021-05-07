@@ -24,7 +24,7 @@
                     "kind": 458761,
                     "text": "\n",
                     "rawText": "\n",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 1,
                     "end": 4
                 },
@@ -49,7 +49,9 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(`
+`);
 ```
 
 ### Diagnostics

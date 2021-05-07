@@ -120,7 +120,10 @@ class x {static new(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static new() {}
+}
 ```
 
 ### Diagnostics

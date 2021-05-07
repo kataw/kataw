@@ -243,7 +243,7 @@ var callCount = 0;
                                                         "start": 80,
                                                         "end": 89
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 70,
                                                     "end": 89
                                                 },
@@ -268,7 +268,7 @@ var callCount = 0;
                                                                 "start": 100,
                                                                 "end": 106
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 90,
                                                             "end": 106
                                                         },
@@ -286,7 +286,7 @@ var callCount = 0;
                                                     "start": 90,
                                                     "end": 109
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 70,
                                                 "end": 110
                                             },
@@ -316,7 +316,7 @@ var callCount = 0;
                                                         "start": 121,
                                                         "end": 130
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 111,
                                                     "end": 130
                                                 },
@@ -324,7 +324,7 @@ var callCount = 0;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 130,
+                                                            "kind": 536871042,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
@@ -359,7 +359,7 @@ var callCount = 0;
                                                     "start": 131,
                                                     "end": 146
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 111,
                                                 "end": 147
                                             },
@@ -389,7 +389,7 @@ var callCount = 0;
                                                         "start": 158,
                                                         "end": 167
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 148,
                                                     "end": 167
                                                 },
@@ -397,7 +397,7 @@ var callCount = 0;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 130,
+                                                            "kind": 536871042,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
@@ -432,7 +432,7 @@ var callCount = 0;
                                                     "start": 168,
                                                     "end": 183
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 148,
                                                 "end": 184
                                             },
@@ -462,7 +462,7 @@ var callCount = 0;
                                                         "start": 195,
                                                         "end": 204
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 185,
                                                     "end": 204
                                                 },
@@ -470,7 +470,7 @@ var callCount = 0;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 130,
+                                                            "kind": 536871042,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
@@ -505,7 +505,7 @@ var callCount = 0;
                                                     "start": 205,
                                                     "end": 220
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 185,
                                                 "end": 221
                                             },
@@ -535,7 +535,7 @@ var callCount = 0;
                                                         "start": 232,
                                                         "end": 241
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 222,
                                                     "end": 241
                                                 },
@@ -543,7 +543,7 @@ var callCount = 0;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 130,
+                                                            "kind": 536871042,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
@@ -578,7 +578,7 @@ var callCount = 0;
                                                     "start": 242,
                                                     "end": 257
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 222,
                                                 "end": 258
                                             },
@@ -608,7 +608,7 @@ var callCount = 0;
                                                         "start": 269,
                                                         "end": 278
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 259,
                                                     "end": 278
                                                 },
@@ -616,7 +616,7 @@ var callCount = 0;
                                                     "kind": 256,
                                                     "elements": [
                                                         {
-                                                            "kind": 130,
+                                                            "kind": 536871042,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
@@ -651,7 +651,7 @@ var callCount = 0;
                                                     "start": 279,
                                                     "end": 294
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 259,
                                                 "end": 295
                                             },
@@ -681,7 +681,7 @@ var callCount = 0;
                                                         "start": 306,
                                                         "end": 315
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 296,
                                                     "end": 315
                                                 },
@@ -710,7 +710,7 @@ var callCount = 0;
                                                     "start": 316,
                                                     "end": 330
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 296,
                                                 "end": 331
                                             },
@@ -775,7 +775,7 @@ var callCount = 0;
                             "start": 353,
                             "end": 358
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 58,
                         "end": 358
                     },
@@ -866,7 +866,7 @@ var callCount = 0;
                         "start": 359,
                         "end": 391
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 58,
                     "end": 392
                 },
@@ -891,7 +891,20 @@ var callCount = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var source = [3, 4, 5];
+var target;
+var callCount = 0;
+(function () {
+    assert.sameValue(arguments.length, 5);
+    assert.sameValue(, 1);
+    assert.sameValue(, 2);
+    assert.sameValue(, 3);
+    assert.sameValue(, 4);
+    assert.sameValue(, 5);
+    assert.sameValue(target, source);
+    callCount += 1;
+  }.apply(null, [1, 2, ...target = source]));
 ```
 
 ### Diagnostics

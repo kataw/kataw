@@ -55,7 +55,7 @@ a?.(x)
                             "start": 4,
                             "end": 5
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 3,
                         "end": 6
                     },
@@ -84,7 +84,8 @@ a?.(x)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a?.(x);
 ```
 
 ### Diagnostics

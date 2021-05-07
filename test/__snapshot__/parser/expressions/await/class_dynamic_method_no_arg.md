@@ -143,7 +143,10 @@ class x{[x](a=await){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  [x](a = await) {}
+}
 ```
 
 ### Diagnostics

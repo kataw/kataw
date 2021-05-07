@@ -83,7 +83,8 @@ new x()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  x() / y;
 ```
 
 ### Diagnostics

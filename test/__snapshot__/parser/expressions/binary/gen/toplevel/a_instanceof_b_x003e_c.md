@@ -86,7 +86,8 @@ a instanceof b > c
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a inctanceof b > c;
 ```
 
 ### Diagnostics

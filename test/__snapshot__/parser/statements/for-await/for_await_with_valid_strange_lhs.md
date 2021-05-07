@@ -85,7 +85,7 @@ async function f() { for await ("foo".x of y) {} }
                                     "start": 38,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 32,
                                 "end": 39
                             },
@@ -148,7 +148,11 @@ async function f() { for await ("foo".x of y) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  for await ("\"foo\"".x of y) {
+  }
+}
 ```
 
 ### Diagnostics

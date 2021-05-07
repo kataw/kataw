@@ -41,7 +41,7 @@ await => async.await[foo]
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -60,7 +60,7 @@ await => async.await[foo]
                             "start": 15,
                             "end": 20
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 8,
                         "end": 20
                     },
@@ -97,7 +97,8 @@ await => async.await[foo]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await =>  ;
 ```
 
 ### Diagnostics

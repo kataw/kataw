@@ -87,7 +87,8 @@ delete (x => ok)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete (x =>  ok);
 ```
 
 ### Diagnostics

@@ -149,7 +149,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                                 "start": 51,
                                                                 "end": 54
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 45,
                                                             "end": 54
                                                         },
@@ -215,7 +215,12 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {
+  constructor() {
+    return  (a = .foo) =>  a;
+  }
+}
 ```
 
 ### Diagnostics

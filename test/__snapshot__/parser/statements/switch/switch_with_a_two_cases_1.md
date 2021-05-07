@@ -128,7 +128,13 @@ switch (A) {case B: C; case D: E;}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(A
+  case B:
+    C;
+  case D:
+    E;
+ 
 ```
 
 ### Diagnostics

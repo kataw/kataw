@@ -153,7 +153,7 @@ Object.defineProperty(this, "x", {
                         "start": 42,
                         "end": 56
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 33,
                     "end": 56
                 },
@@ -240,7 +240,7 @@ Object.defineProperty(this, "x", {
                     "start": 57,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 33,
                 "end": 105
             },
@@ -310,7 +310,7 @@ Object.defineProperty(this, "x", {
                                                     "start": 147,
                                                     "end": 153
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 137,
                                                 "end": 153
                                             },
@@ -418,7 +418,7 @@ Object.defineProperty(this, "x", {
                                                                                                     "start": 214,
                                                                                                     "end": 215
                                                                                                 },
-                                                                                                "flags": 32,
+                                                                                                "flags": 536870944,
                                                                                                 "start": 206,
                                                                                                 "end": 215
                                                                                             },
@@ -496,7 +496,7 @@ Object.defineProperty(this, "x", {
                                                 "start": 154,
                                                 "end": 237
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 137,
                                             "end": 238
                                         },
@@ -557,7 +557,7 @@ Object.defineProperty(this, "x", {
                     "start": 254,
                     "end": 254
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 106,
                 "end": 255
             },
@@ -578,7 +578,18 @@ Object.defineProperty(this, "x", {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var count = 0;
+var global = this;
+Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
+(function () {
+    assert.throws(ReferenceError, () =>  {
+        count++;
+        x = (delete global.x, 2);
+        count++;
+      });
+    count++;
+  })();
 ```
 
 ### Diagnostics

@@ -94,7 +94,7 @@ yield 3 + yield 4;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

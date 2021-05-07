@@ -143,7 +143,8 @@ result = [ x = 'x' in {} ] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [x = "'x'" in {}] = vals;
 ```
 
 ### Diagnostics

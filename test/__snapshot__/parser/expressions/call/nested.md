@@ -61,7 +61,7 @@ z(z(z()));
                                             "start": 6,
                                             "end": 6
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 4,
                                         "end": 7
                                     }
@@ -71,7 +71,7 @@ z(z(z()));
                                 "start": 4,
                                 "end": 7
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 2,
                             "end": 8
                         }
@@ -81,7 +81,7 @@ z(z(z()));
                     "start": 2,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 9
             },
@@ -102,7 +102,8 @@ z(z(z()));
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+z(z(z()));
 ```
 
 ### Diagnostics

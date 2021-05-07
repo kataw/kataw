@@ -139,7 +139,10 @@ class x {set static(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set static(x) {}
+}
 ```
 
 ### Diagnostics

@@ -256,7 +256,7 @@
                                                 "start": 45,
                                                 "end": 46
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 28,
                                             "end": 46
                                         },
@@ -425,7 +425,7 @@
                                                     "start": 80,
                                                     "end": 81
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 64,
                                                 "end": 81
                                             },
@@ -741,7 +741,7 @@
                             "start": 160,
                             "end": 161
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 148,
                         "end": 161
                     },
@@ -978,7 +978,7 @@
                         "start": 212,
                         "end": 213
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 197,
                     "end": 213
                 },
@@ -1554,7 +1554,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

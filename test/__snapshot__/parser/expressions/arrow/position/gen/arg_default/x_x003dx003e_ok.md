@@ -12,7 +12,7 @@ function f(a = x => ok) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -128,7 +128,8 @@ function f(a = x => ok) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f(a = x =>  ok) {}
 ```
 
 ### Diagnostics

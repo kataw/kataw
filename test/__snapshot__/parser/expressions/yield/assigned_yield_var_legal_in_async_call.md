@@ -82,7 +82,7 @@ async (x = z = yield)
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 21
         }
@@ -99,7 +99,8 @@ async (x = z = yield)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(x = z = yield)
 ```
 
 ### Diagnostics

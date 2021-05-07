@@ -12,7 +12,7 @@ async function f(){ await await foo; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -123,7 +123,10 @@ async function f(){ await await foo; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  await await foo;
+}
 ```
 
 ### Diagnostics

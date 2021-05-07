@@ -48,7 +48,7 @@ call(await)
                     "start": 5,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 11
             },
@@ -69,7 +69,8 @@ call(await)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+call(await);
 ```
 
 ### Diagnostics

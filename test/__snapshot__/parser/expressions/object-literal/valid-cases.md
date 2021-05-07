@@ -2455,7 +2455,34 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ foo: 1, get foo() {} });
+({ foo: 1, set foo(v) {} });
+({ "\"foo\"": 1, get "\"foo\""() {} });
+({ "\"foo\"": 1, set "\"foo\""(v) {} });
+({ 1: 1, get 1() {} });
+({ 1: 1, set 1(v) {} });
+({ get foo() {}, get foo() {} });
+({ set foo(_) {}, set foo(v) {} });
+({ foo: 1, get "\"foo\""() {} });
+({ foo: 1, set "\"foo\""(v) {} });
+({ get() {} });
+({ set: 0 });
+({ if: 4 });
+({ async 0() {} });
+({ interface: 5 });
+({ async set() {} });
+({ async: 0 });
+"\"use strict\"";
+({ * async() {} });
+"\"use strict\"";
+({ get 1() {} });
+"\"use strict\"";
+({ foo: 1, set bar(v) {} });
+({ 1: 1, set 2(v) {} });
+({ get: 1, get foo() {} });
+({ set: 1, set foo(_) {} });
+({ 1: 1, 2: 2 });
 ```
 
 ### Diagnostics

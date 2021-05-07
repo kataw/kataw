@@ -89,7 +89,8 @@ x = {...a,}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { ...a };
 ```
 
 ### Diagnostics

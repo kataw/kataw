@@ -85,7 +85,8 @@ a, x => ok
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a, x =>  ok;
 ```
 
 ### Diagnostics

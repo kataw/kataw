@@ -635,7 +635,22 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function f() {
+    (yield =>  {});
+  });
+(function f() {
+    (() =>  {});
+  });
+(function f() {
+    (([yield]) =>  {});
+  });
+(function f() {
+    (({ yield }) =>  {});
+  });
+(function f() {
+    ((yield) =>  {});
+  });
 ```
 
 ### Diagnostics

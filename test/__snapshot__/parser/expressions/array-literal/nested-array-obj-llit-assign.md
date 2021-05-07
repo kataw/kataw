@@ -212,7 +212,7 @@
                                                         "start": 43,
                                                         "end": 43
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 38,
                                                     "end": 44
                                                 },
@@ -356,7 +356,7 @@
                                                         "start": 80,
                                                         "end": 80
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 76,
                                                     "end": 81
                                                 },
@@ -630,7 +630,7 @@
                                                         "start": 158,
                                                         "end": 158
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 153,
                                                     "end": 159
                                                 },
@@ -774,7 +774,7 @@
                                                         "start": 199,
                                                         "end": 199
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 195,
                                                     "end": 200
                                                 },
@@ -1322,7 +1322,7 @@
                                     "end": 342
                                 },
                                 "argument": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -1398,7 +1398,19 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
+[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
+[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [(1 + {})]: bar4 }] = [{ bar: "\"bar\"" }];
+[...x] = it;
+[[x]] = [null];
+[x] = [];
+[...x] = [];
+[...] = [];
 ```
 
 ### Diagnostics

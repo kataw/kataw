@@ -84,7 +84,7 @@ foo(async x => {}).bar
                         "start": 4,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 18
                 },
@@ -96,7 +96,7 @@ foo(async x => {}).bar
                     "start": 19,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 22
             },
@@ -117,7 +117,8 @@ foo(async x => {}).bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async x =>  {}).bar;
 ```
 
 ### Diagnostics

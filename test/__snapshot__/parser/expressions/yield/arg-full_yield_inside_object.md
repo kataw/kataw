@@ -173,7 +173,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ * g1() {
+    return  { x:  1 };
+  } });
 ```
 
 ### Diagnostics

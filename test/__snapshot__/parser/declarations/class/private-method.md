@@ -191,7 +191,7 @@ class Foo {
                                                         "start": 52,
                                                         "end": 52
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 47,
                                                     "end": 53
                                                 },
@@ -203,7 +203,7 @@ class Foo {
                                                     "start": 54,
                                                     "end": 57
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 47,
                                                 "end": 57
                                             },
@@ -235,7 +235,7 @@ class Foo {
                                                             "start": 62,
                                                             "end": 62
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 57,
                                                         "end": 63
                                                     },
@@ -247,7 +247,7 @@ class Foo {
                                                         "start": 64,
                                                         "end": 67
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 57,
                                                     "end": 67
                                                 },
@@ -268,7 +268,7 @@ class Foo {
                                                     "start": 68,
                                                     "end": 69
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 57,
                                                 "end": 70
                                             },
@@ -304,7 +304,7 @@ class Foo {
                                                         "start": 75,
                                                         "end": 75
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 70,
                                                     "end": 76
                                                 },
@@ -313,7 +313,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 134299649,
@@ -348,7 +348,7 @@ class Foo {
                                                         "start": 82,
                                                         "end": 83
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 81,
                                                     "end": 84
                                                 },
@@ -408,7 +408,7 @@ class Foo {
                                                                         "start": 89,
                                                                         "end": 89
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 84,
                                                                     "end": 90
                                                                 },
@@ -420,12 +420,12 @@ class Foo {
                                                                     "start": 91,
                                                                     "end": 94
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 84,
                                                                 "end": 94
                                                             },
                                                             "chain": {
-                                                                "kind": 202,
+                                                                "kind": 536871114,
                                                                 "chain": {
                                                                     "kind": 206,
                                                                     "chain": {
@@ -448,7 +448,7 @@ class Foo {
                                                                             "start": 97,
                                                                             "end": 98
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 96,
                                                                         "end": 99
                                                                     },
@@ -480,14 +480,14 @@ class Foo {
                                                             "start": 104,
                                                             "end": 104
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 84,
                                                         "end": 105
                                                     },
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 134299649,
@@ -531,7 +531,7 @@ class Foo {
                                                             "start": 113,
                                                             "end": 114
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 112,
                                                         "end": 115
                                                     },
@@ -621,7 +621,7 @@ class Foo {
                                                         "start": 141,
                                                         "end": 141
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 136,
                                                     "end": 142
                                                 },
@@ -632,7 +632,7 @@ class Foo {
                                                     "start": 143,
                                                     "end": 149
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 136,
                                                 "end": 149
                                             },
@@ -664,7 +664,7 @@ class Foo {
                                                             "start": 154,
                                                             "end": 154
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 149,
                                                         "end": 155
                                                     },
@@ -675,7 +675,7 @@ class Foo {
                                                         "start": 156,
                                                         "end": 162
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 149,
                                                     "end": 162
                                                 },
@@ -696,7 +696,7 @@ class Foo {
                                                     "start": 163,
                                                     "end": 164
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 149,
                                                 "end": 165
                                             },
@@ -732,7 +732,7 @@ class Foo {
                                                         "start": 170,
                                                         "end": 170
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 165,
                                                     "end": 171
                                                 },
@@ -741,7 +741,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67174651,
@@ -775,7 +775,7 @@ class Foo {
                                                         "start": 180,
                                                         "end": 181
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 179,
                                                     "end": 182
                                                 },
@@ -851,7 +851,7 @@ class Foo {
                                                                                             "start": 187,
                                                                                             "end": 187
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 182,
                                                                                         "end": 188
                                                                                     },
@@ -862,12 +862,12 @@ class Foo {
                                                                                         "start": 189,
                                                                                         "end": 195
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 536870944,
                                                                                     "start": 182,
                                                                                     "end": 195
                                                                                 },
                                                                                 "chain": {
-                                                                                    "kind": 202,
+                                                                                    "kind": 536871114,
                                                                                     "chain": {
                                                                                         "kind": 206,
                                                                                         "chain": {
@@ -890,7 +890,7 @@ class Foo {
                                                                                                 "start": 198,
                                                                                                 "end": 199
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 268435488,
                                                                                             "start": 197,
                                                                                             "end": 200
                                                                                         },
@@ -922,14 +922,14 @@ class Foo {
                                                                                 "start": 205,
                                                                                 "end": 205
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 182,
                                                                             "end": 206
                                                                         },
                                                                         "chain": {
                                                                             "kind": 206,
                                                                             "chain": {
-                                                                                "kind": 202,
+                                                                                "kind": 536871114,
                                                                                 "chain": null,
                                                                                 "expression": {
                                                                                     "kind": 67174651,
@@ -951,7 +951,7 @@ class Foo {
                                                                         "end": 214
                                                                     },
                                                                     "chain": {
-                                                                        "kind": 202,
+                                                                        "kind": 536871114,
                                                                         "chain": {
                                                                             "kind": 206,
                                                                             "chain": {
@@ -974,7 +974,7 @@ class Foo {
                                                                                     "start": 217,
                                                                                     "end": 218
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 216,
                                                                                 "end": 219
                                                                             },
@@ -1006,16 +1006,16 @@ class Foo {
                                                                     "start": 224,
                                                                     "end": 224
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 182,
                                                                 "end": 225
                                                             },
                                                             "chain": {
-                                                                "kind": 202,
+                                                                "kind": 536871114,
                                                                 "chain": {
                                                                     "kind": 206,
                                                                     "chain": {
-                                                                        "kind": 202,
+                                                                        "kind": 536871114,
                                                                         "chain": null,
                                                                         "expression": {
                                                                             "kind": 134299649,
@@ -1065,7 +1065,7 @@ class Foo {
                                                             "start": 238,
                                                             "end": 239
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 182,
                                                         "end": 240
                                                     },
@@ -1077,7 +1077,7 @@ class Foo {
                                                         "start": 241,
                                                         "end": 244
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 182,
                                                     "end": 244
                                                 },
@@ -1089,7 +1089,7 @@ class Foo {
                                                     "start": 245,
                                                     "end": 245
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 182,
                                                 "end": 246
                                             },
@@ -1171,7 +1171,7 @@ class Foo {
                                                         "start": 273,
                                                         "end": 273
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 268,
                                                     "end": 274
                                                 },
@@ -1182,7 +1182,7 @@ class Foo {
                                                     "start": 275,
                                                     "end": 282
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 268,
                                                 "end": 282
                                             },
@@ -1214,7 +1214,7 @@ class Foo {
                                                             "start": 287,
                                                             "end": 287
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 282,
                                                         "end": 288
                                                     },
@@ -1225,7 +1225,7 @@ class Foo {
                                                         "start": 289,
                                                         "end": 296
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 282,
                                                     "end": 296
                                                 },
@@ -1246,7 +1246,7 @@ class Foo {
                                                     "start": 297,
                                                     "end": 298
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 282,
                                                 "end": 299
                                             },
@@ -1282,7 +1282,7 @@ class Foo {
                                                         "start": 304,
                                                         "end": 304
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 299,
                                                     "end": 305
                                                 },
@@ -1291,7 +1291,7 @@ class Foo {
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67174651,
@@ -1325,7 +1325,7 @@ class Foo {
                                                         "start": 315,
                                                         "end": 316
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 314,
                                                     "end": 317
                                                 },
@@ -1401,7 +1401,7 @@ class Foo {
                                                                                             "start": 322,
                                                                                             "end": 322
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 317,
                                                                                         "end": 323
                                                                                     },
@@ -1412,12 +1412,12 @@ class Foo {
                                                                                         "start": 324,
                                                                                         "end": 331
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 536870944,
                                                                                     "start": 317,
                                                                                     "end": 331
                                                                                 },
                                                                                 "chain": {
-                                                                                    "kind": 202,
+                                                                                    "kind": 536871114,
                                                                                     "chain": {
                                                                                         "kind": 206,
                                                                                         "chain": {
@@ -1440,7 +1440,7 @@ class Foo {
                                                                                                 "start": 334,
                                                                                                 "end": 335
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 268435488,
                                                                                             "start": 333,
                                                                                             "end": 336
                                                                                         },
@@ -1472,14 +1472,14 @@ class Foo {
                                                                                 "start": 341,
                                                                                 "end": 341
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 317,
                                                                             "end": 342
                                                                         },
                                                                         "chain": {
                                                                             "kind": 206,
                                                                             "chain": {
-                                                                                "kind": 202,
+                                                                                "kind": 536871114,
                                                                                 "chain": null,
                                                                                 "expression": {
                                                                                     "kind": 67174651,
@@ -1501,7 +1501,7 @@ class Foo {
                                                                         "end": 351
                                                                     },
                                                                     "chain": {
-                                                                        "kind": 202,
+                                                                        "kind": 536871114,
                                                                         "chain": {
                                                                             "kind": 206,
                                                                             "chain": {
@@ -1524,7 +1524,7 @@ class Foo {
                                                                                     "start": 354,
                                                                                     "end": 355
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 353,
                                                                                 "end": 356
                                                                             },
@@ -1556,16 +1556,16 @@ class Foo {
                                                                     "start": 361,
                                                                     "end": 361
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 317,
                                                                 "end": 362
                                                             },
                                                             "chain": {
-                                                                "kind": 202,
+                                                                "kind": 536871114,
                                                                 "chain": {
                                                                     "kind": 206,
                                                                     "chain": {
-                                                                        "kind": 202,
+                                                                        "kind": 536871114,
                                                                         "chain": null,
                                                                         "expression": {
                                                                             "kind": 134299649,
@@ -1615,7 +1615,7 @@ class Foo {
                                                             "start": 376,
                                                             "end": 377
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 317,
                                                         "end": 378
                                                     },
@@ -1627,7 +1627,7 @@ class Foo {
                                                         "start": 379,
                                                         "end": 382
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 317,
                                                     "end": 382
                                                 },
@@ -1639,7 +1639,7 @@ class Foo {
                                                     "start": 383,
                                                     "end": 383
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 317,
                                                 "end": 384
                                             },
@@ -1686,7 +1686,29 @@ class Foo {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  #field;
+  #method() {}
+  baseline() {
+    a().foo;
+    b().foo(x);
+    c()?.(x);
+     = ?.(x);
+  }
+  privateField() {
+    a().#field;
+    b().#field(x);
+    c()?.(x);
+     = (x).bar();
+  }
+  privateMethod() {
+    a().#method;
+    b().#method(x);
+    c()?.(x);
+     = (x).bar();
+  }
+}
 ```
 
 ### Diagnostics

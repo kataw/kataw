@@ -601,7 +601,14 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ * set() {} });
+({ * get() {} });
+({ * private() {} });
+({ * readonly() {} });
+({ * async() {} });
+({ * function() {} });
+({ * declare() {} });
 ```
 
 ### Diagnostics

@@ -69,7 +69,8 @@ a);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (--a);
 ```
 
 ### Diagnostics

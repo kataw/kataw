@@ -116,7 +116,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class   {
+    async = 0;
+  });
 ```
 
 ### Diagnostics

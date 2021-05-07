@@ -120,7 +120,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`X${async a =>  b + {}}Y`;
 ```
 
 ### Diagnostics

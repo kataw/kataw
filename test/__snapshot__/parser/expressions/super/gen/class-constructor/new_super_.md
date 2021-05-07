@@ -108,7 +108,7 @@ class C { constructor() { new super; } }
                                                         "start": 35,
                                                         "end": 35
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 29,
                                                     "end": 35
                                                 },
@@ -160,7 +160,7 @@ class C { constructor() { new super; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -177,7 +177,10 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  ( 1) ?  2 :  3;
+}
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -120,7 +120,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  await 3;
+}
 ```
 
 ### Diagnostics

@@ -49,7 +49,7 @@ x?.['y z']();
                             "start": 4,
                             "end": 9
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 3,
                         "end": 9
                     },
@@ -98,7 +98,7 @@ x?.['y z']();
                                 "start": 16,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 15,
                             "end": 19
                         },
@@ -114,7 +114,7 @@ x?.['y z']();
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 20,
                     "end": 22
                 },
@@ -159,7 +159,7 @@ x?.['y z']();
                                 "start": 28,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 27,
                             "end": 33
                         },
@@ -175,7 +175,7 @@ x?.['y z']();
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 34,
                     "end": 36
                 },
@@ -200,7 +200,10 @@ x?.['y z']();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x?.["'y z'"];
+x?.["'y'"]();
+x?.["'y z'"]();
 ```
 
 ### Diagnostics

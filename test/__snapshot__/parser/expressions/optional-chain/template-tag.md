@@ -8,7 +8,7 @@ a?.`x`
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -42,7 +42,7 @@ a?.`x`
                             "kind": 458761,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 3,
                             "end": 6
                         },
@@ -75,7 +75,7 @@ a?.`x`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -120,7 +120,10 @@ class x {static break(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static break() {}
+}
 ```
 
 ### Diagnostics

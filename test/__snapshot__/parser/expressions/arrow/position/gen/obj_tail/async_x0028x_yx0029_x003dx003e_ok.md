@@ -123,7 +123,7 @@ x = {arrow: async (x, y) => ok}.y
                         "start": 32,
                         "end": 33
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 3,
                     "end": 33
                 },
@@ -148,7 +148,8 @@ x = {arrow: async (x, y) => ok}.y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow: async (x, y) =>  ok }.y;
 ```
 
 ### Diagnostics

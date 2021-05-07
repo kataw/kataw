@@ -139,7 +139,10 @@ class x {set protected(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set protected(x) {}
+}
 ```
 
 ### Diagnostics

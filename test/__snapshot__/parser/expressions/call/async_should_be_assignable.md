@@ -82,7 +82,8 @@ async = 5 + 5;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async = 5 + 5;
 ```
 
 ### Diagnostics

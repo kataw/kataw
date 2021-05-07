@@ -115,7 +115,7 @@ do async function *f(){} while (x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

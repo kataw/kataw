@@ -141,7 +141,10 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+bar ? ((interface) =>  {
+        0;
+      }) : baz;
 ```
 
 ### Diagnostics

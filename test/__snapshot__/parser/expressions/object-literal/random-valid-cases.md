@@ -354,7 +354,7 @@ a = { y: x = 1 } = b;
                                             "start": 53,
                                             "end": 54
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 46,
                                         "end": 54
                                     },
@@ -482,7 +482,7 @@ a = { y: x = 1 } = b;
                                             "start": 83,
                                             "end": 87
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 69,
                                         "end": 87
                                     },
@@ -1655,7 +1655,7 @@ a = { y: x = 1 } = b;
                     "start": 333,
                     "end": 352
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 329,
                 "end": 353
             },
@@ -1703,7 +1703,7 @@ a = { y: x = 1 } = b;
                                             "start": 365,
                                             "end": 368
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 360,
                                         "end": 368
                                     },
@@ -2120,7 +2120,7 @@ a = { y: x = 1 } = b;
                     "start": 444,
                     "end": 460
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 440,
                 "end": 461
             },
@@ -2196,7 +2196,7 @@ a = { y: x = 1 } = b;
                                             "start": 482,
                                             "end": 483
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 474,
                                         "end": 483
                                     },
@@ -2377,7 +2377,7 @@ a = { y: x = 1 } = b;
                     "start": 495,
                     "end": 514
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 491,
                 "end": 515
             },
@@ -2651,7 +2651,7 @@ a = { y: x = 1 } = b;
                     "start": 562,
                     "end": 580
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 558,
                 "end": 581
             },
@@ -2748,7 +2748,7 @@ a = { y: x = 1 } = b;
                     "start": 586,
                     "end": 597
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 582,
                 "end": 598
             },
@@ -2790,7 +2790,7 @@ a = { y: x = 1 } = b;
                                                 "start": 610,
                                                 "end": 610
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 605,
                                             "end": 611
                                         },
@@ -2864,7 +2864,7 @@ a = { y: x = 1 } = b;
                             "start": 631,
                             "end": 631
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 624,
                         "end": 632
                     },
@@ -3211,7 +3211,7 @@ a = { y: x = 1 } = b;
                                                                 "start": 731,
                                                                 "end": 732
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 724,
                                                             "end": 732
                                                         },
@@ -3240,7 +3240,7 @@ a = { y: x = 1 } = b;
                                                             "start": 733,
                                                             "end": 739
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 724,
                                                         "end": 740
                                                     },
@@ -3437,7 +3437,7 @@ a = { y: x = 1 } = b;
                         "start": 764,
                         "end": 779
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 751,
                     "end": 780
                 },
@@ -4411,7 +4411,7 @@ a = { y: x = 1 } = b;
                                                 "start": 999,
                                                 "end": 1000
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 995,
                                             "end": 1000
                                         },
@@ -4423,7 +4423,7 @@ a = { y: x = 1 } = b;
                                             "start": 1001,
                                             "end": 1002
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 995,
                                         "end": 1002
                                     },
@@ -4584,7 +4584,57 @@ a = { y: x = 1 } = b;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ key: {} });
+({ key: { a } = x });
+({ a: b } = obj);
+({ 1: {}.b ? c : d });
+({ a: { prop: 1 }.prop } = {});
+({ 1: +b });
+({ [a]: +b });
+({ a: +b });
+({ async: (await) ? yield : foo });
+({ async 100() {} });
+({ key: bar = x });
+({ typeof(x, y) {} });
+({ x() {}, x: 1 });
+({ * x() {}, get x() {} });
+({ "\"x\"": y + z });
+({ "\"x\"": [y] }) =>  x;
+({ "\"x\"": { y: z } });
+x({ [a]: b, [15]: d } = obj);
+({ l: 50.foo } = x);
+a = { "\"b\"": c = d };
+({ x: let });
+({ x: let } = null);
+s = { "\"foo\"": this };
+x({ set "\"foo\""(a) {} });
+({ a = 42, [b]: c.d } = e);
+x({ foo() {}, * bar() {} });
+({ ...[a, b] });
+x = { a: 1, ...y, b: 1 };
+x({ get 0x234241() {} });
+x({ get 1() {} });
+({ [left()]: y, ...x } = right());
+({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
+({ y });
+({ set [0](x) {
+    .m("\"1\"", v);
+  } });
+x = { async: b }({ set foo(v) {} });
+({ * set() {} });
+({ * static() {} });
+({ * async() {} });
+({ get: 0 });
+({ if: 4 });
+({ * await() {} });
+x = { * "\"foo\""() {} };
+x = { set get(a) {} };
+x = { foo: typeof x };
+x = { "\"x\"": { a: y + x } };
+a = { w, a: x } = b;
+a = { ...src.y.x } = b;
+a = { y: x = 1 } = b;
 ```
 
 ### Diagnostics

@@ -124,7 +124,8 @@ let y = typeof async x => await x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let y = typeof async x =>  await x;
 ```
 
 ### Diagnostics

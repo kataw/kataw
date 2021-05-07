@@ -108,7 +108,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ get 5.2322341234123() {} });
 ```
 
 ### Diagnostics

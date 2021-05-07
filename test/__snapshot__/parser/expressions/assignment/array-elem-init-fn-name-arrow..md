@@ -146,7 +146,8 @@ result = [ arrow = () => {} ] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [arrow = () =>  {}] = vals;
 ```
 
 ### Diagnostics

@@ -117,7 +117,7 @@ async () => {  \u0066inally = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

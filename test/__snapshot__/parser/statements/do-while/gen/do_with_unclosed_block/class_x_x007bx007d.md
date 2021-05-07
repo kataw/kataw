@@ -116,7 +116,7 @@ do {} while (x) { class x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

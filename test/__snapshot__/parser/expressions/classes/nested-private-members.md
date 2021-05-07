@@ -1207,7 +1207,52 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+    a = class  {
+        #a = 1;
+      };
+  });
+(class  {
+    a = class  {
+        #a = () =>  {};
+      };
+  });
+(class  {
+    a = class  {
+        #a;
+      };
+  });
+(class  {
+    a = class  {
+        #a() {}
+      };
+  });
+(class  {
+    a = class  {
+        get #a() {}
+      };
+  });
+(class  {
+    a = class  {
+        set #a(foo) {}
+      };
+  });
+(class  {
+    a = class  {
+        #a() {}
+      };
+  });
+(class  {
+    a = class  {
+        async #a() {}
+      };
+  });
+(class  {
+    a = class  {
+        async #a() {}
+      };
+  });
 ```
 
 ### Diagnostics

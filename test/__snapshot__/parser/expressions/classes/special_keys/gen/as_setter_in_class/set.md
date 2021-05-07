@@ -139,7 +139,10 @@ class x {set set(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set set(x) {}
+}
 ```
 
 ### Diagnostics

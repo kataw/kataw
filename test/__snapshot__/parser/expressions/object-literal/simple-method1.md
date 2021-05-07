@@ -120,7 +120,8 @@ x = {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { method() {} };
 ```
 
 ### Diagnostics

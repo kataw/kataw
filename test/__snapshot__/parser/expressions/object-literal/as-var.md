@@ -8,7 +8,7 @@ var {...[]} = {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -126,7 +126,7 @@ var {...[]} = {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -592,7 +592,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ throw(x, y) {} });
+({ package(x, y) {} });
+({ package(x, y) {} });
+({ this(x, y) {} });
+({ switch(x, y) {} });
 ```
 
 ### Diagnostics

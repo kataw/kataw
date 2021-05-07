@@ -165,14 +165,14 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                         "start": 25,
                                                         "end": 25
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 22,
                                                     "end": 26
                                                 },
                                                 "chain": {
                                                     "kind": 206,
                                                     "chain": {
-                                                        "kind": 202,
+                                                        "kind": 536871114,
                                                         "chain": null,
                                                         "expression": {
                                                             "kind": 67174651,
@@ -236,7 +236,14 @@ class C { #aaa; f(f) { f()?.#aaa } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  #aaa;
+
+  f(f) {
+    f()?.;
+  }
+}
 ```
 
 ### Diagnostics

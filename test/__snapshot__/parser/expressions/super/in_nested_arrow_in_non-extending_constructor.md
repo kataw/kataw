@@ -127,7 +127,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                             "start": 50,
                                                             "end": 53
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 43,
                                                         "end": 53
                                                     },
@@ -182,7 +182,12 @@ class x { constructor(){ return () => () => super.foo; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  constructor() {
+    return  () =>  () =>  .foo;
+  }
+}
 ```
 
 ### Diagnostics

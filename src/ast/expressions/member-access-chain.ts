@@ -23,7 +23,7 @@ export function createMemberAccessChain(
     kind: SyntaxKind.MemberAccessChain,
     chain,
     expression,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
     start,
     end
   };

@@ -213,7 +213,12 @@ class A {set(){} get(){} async(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  set() {}
+  get() {}
+  async() {}
+}
 ```
 
 ### Diagnostics

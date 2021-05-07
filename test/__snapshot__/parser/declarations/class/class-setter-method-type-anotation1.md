@@ -165,7 +165,10 @@ class Foo {set fooProp(value:number):void{}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  set fooProp(value) {}
+}
 ```
 
 ### Diagnostics

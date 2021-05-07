@@ -12,7 +12,7 @@ class x extends void {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -101,7 +101,7 @@ class x extends void {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,7 @@ function* bar() { yield /re/ }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

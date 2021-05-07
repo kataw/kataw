@@ -145,7 +145,11 @@ a: { b: switch(x) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a: {
+  b: switch(x
+
+}
 ```
 
 ### Diagnostics

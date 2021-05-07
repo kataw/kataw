@@ -62,7 +62,8 @@ while (foo) bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (foo) bar;
 ```
 
 ### Diagnostics

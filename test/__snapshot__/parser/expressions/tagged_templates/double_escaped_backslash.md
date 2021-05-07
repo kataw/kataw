@@ -32,7 +32,7 @@ tag`\\\ `;
                     "kind": 458761,
                     "text": " \\",
                     "rawText": "\\ \\\\",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 3,
                     "end": 9
                 },
@@ -60,7 +60,7 @@ tag`\\\ `;
                     "kind": 458761,
                     "text": "\\ ",
                     "rawText": "\\\\\\ ",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 14,
                     "end": 20
                 },
@@ -85,7 +85,9 @@ tag`\\\ `;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+tag` \`;
+tag`\ `;
 ```
 
 ### Diagnostics

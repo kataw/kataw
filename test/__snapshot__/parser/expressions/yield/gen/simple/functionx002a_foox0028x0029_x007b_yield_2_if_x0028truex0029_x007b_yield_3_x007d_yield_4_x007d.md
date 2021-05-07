@@ -12,7 +12,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -210,7 +210,14 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * foo() {
+   2;
+  if (true) {
+     3;
+  }
+   4;
+}
 ```
 
 ### Diagnostics

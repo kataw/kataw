@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -219,7 +219,14 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * foo() {
+   2;
+  if (true) {
+     3;
+  }
+   4;
+}
 ```
 
 ### Diagnostics

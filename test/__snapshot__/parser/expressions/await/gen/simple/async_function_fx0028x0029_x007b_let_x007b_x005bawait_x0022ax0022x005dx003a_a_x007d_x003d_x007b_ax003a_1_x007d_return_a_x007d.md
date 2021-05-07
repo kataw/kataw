@@ -241,7 +241,13 @@ async function f() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  let {
+    [await "\"a\""]: a
+  } = { a: 1 };
+  return  a;
+}
 ```
 
 ### Diagnostics

@@ -126,7 +126,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                         "start": 52,
                                                         "end": 52
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 48,
                                                     "end": 53
                                                 },
@@ -254,7 +254,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -15,7 +15,7 @@ class A {a(x=new.target){}}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -154,7 +154,7 @@ class A {a(x=new.target){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -122,7 +122,8 @@ var [...foo] = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var [...foo] = obj;
 ```
 
 ### Diagnostics

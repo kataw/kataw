@@ -62,7 +62,8 @@ new eval()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  eval();
 ```
 
 ### Diagnostics

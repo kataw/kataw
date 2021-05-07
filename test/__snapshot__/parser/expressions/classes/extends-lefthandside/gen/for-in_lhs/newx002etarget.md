@@ -12,7 +12,7 @@ for (new.target in x) ;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -82,7 +82,7 @@ for (new.target in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

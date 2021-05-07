@@ -73,7 +73,8 @@ var _\u{104A6} = 10;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var _A¦ = 10;
 ```
 
 ### Diagnostics

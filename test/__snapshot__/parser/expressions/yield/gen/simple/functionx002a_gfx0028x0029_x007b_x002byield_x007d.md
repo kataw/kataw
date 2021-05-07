@@ -118,7 +118,10 @@ function* gf() { +yield; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gf() {
+  + ;
+}
 ```
 
 ### Diagnostics

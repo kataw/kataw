@@ -8,7 +8,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -166,7 +166,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function x() {
+  {
+    var f;
+    var f;
+  }
+}
 ```
 
 ### Diagnostics

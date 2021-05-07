@@ -73,7 +73,7 @@ foo(x => ok).bar
                         "start": 4,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 12
                 },
@@ -85,7 +85,7 @@ foo(x => ok).bar
                     "start": 13,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 16
             },
@@ -106,7 +106,8 @@ foo(x => ok).bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(x =>  ok).bar;
 ```
 
 ### Diagnostics

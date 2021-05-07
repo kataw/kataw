@@ -70,7 +70,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -130,7 +130,7 @@
                                             "start": 23,
                                             "end": 44
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 17,
                                         "end": 44
                                     },
@@ -211,7 +211,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -271,7 +271,7 @@
                                             "start": 78,
                                             "end": 99
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 72,
                                         "end": 99
                                     },
@@ -453,7 +453,7 @@
                             "start": 288,
                             "end": 288
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 278,
                         "end": 289
                     },
@@ -564,7 +564,7 @@
                         "start": 354,
                         "end": 354
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 344,
                     "end": 355
                 },
@@ -671,7 +671,7 @@
                         "start": 422,
                         "end": 422
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 412,
                     "end": 423
                 },
@@ -778,7 +778,7 @@
                         "start": 490,
                         "end": 490
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 480,
                     "end": 491
                 },
@@ -841,7 +841,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -1000,7 +1000,7 @@
                                                                                     "start": 556,
                                                                                     "end": 556
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 546,
                                                                                 "end": 557
                                                                             },
@@ -1038,7 +1038,7 @@
                                             "start": 525,
                                             "end": 562
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 519,
                                         "end": 563
                                     },
@@ -1115,7 +1115,7 @@
                                         "right": {
                                             "kind": 131,
                                             "expression": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1188,7 +1188,7 @@
                                                                                                 "start": 604,
                                                                                                 "end": 605
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 536870944,
                                                                                             "start": 602,
                                                                                             "end": 605
                                                                                         }
@@ -1263,7 +1263,7 @@
                                                                                         "start": 619,
                                                                                         "end": 619
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 268435488,
                                                                                     "start": 609,
                                                                                     "end": 620
                                                                                 },
@@ -1301,7 +1301,7 @@
                                                 "start": 592,
                                                 "end": 625
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 586,
                                             "end": 626
                                         },
@@ -1400,7 +1400,7 @@
                                                 "right": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 130,
+                                                        "kind": 536871042,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -1473,7 +1473,7 @@
                                                                                                         "start": 673,
                                                                                                         "end": 674
                                                                                                     },
-                                                                                                    "flags": 32,
+                                                                                                    "flags": 536870944,
                                                                                                     "start": 671,
                                                                                                     "end": 674
                                                                                                 }
@@ -1548,7 +1548,7 @@
                                                                                                 "start": 688,
                                                                                                 "end": 688
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 268435488,
                                                                                             "start": 678,
                                                                                             "end": 689
                                                                                         },
@@ -1586,7 +1586,7 @@
                                                         "start": 661,
                                                         "end": 694
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 655,
                                                     "end": 695
                                                 },
@@ -1655,7 +1655,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ async () => {  \u0074ypeof = x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -113,7 +113,7 @@ async () => {  \u0074ypeof = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

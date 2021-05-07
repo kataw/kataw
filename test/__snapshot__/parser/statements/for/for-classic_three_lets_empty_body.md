@@ -106,7 +106,8 @@ for (let a,b,c;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; );
 ```
 
 ### Diagnostics

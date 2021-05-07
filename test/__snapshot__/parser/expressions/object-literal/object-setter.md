@@ -325,7 +325,7 @@
                                                                 "start": 61,
                                                                 "end": 62
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 54,
                                                             "end": 62
                                                         },
@@ -354,7 +354,7 @@
                                                             "start": 63,
                                                             "end": 69
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 54,
                                                         "end": 70
                                                     },
@@ -494,7 +494,7 @@
                                                                 "start": 98,
                                                                 "end": 99
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 91,
                                                             "end": 99
                                                         },
@@ -523,7 +523,7 @@
                                                             "start": 100,
                                                             "end": 106
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 268435488,
                                                         "start": 91,
                                                         "end": 107
                                                     },
@@ -579,7 +579,15 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ set ["\"a\""](x) {} });
+({ set [0](x) {} });
+({ set [0](x) {
+    .m("\"b\"", v);
+  } });
+({ set [0](x) {
+    .m("\"1\"", v);
+  } });
 ```
 
 ### Diagnostics

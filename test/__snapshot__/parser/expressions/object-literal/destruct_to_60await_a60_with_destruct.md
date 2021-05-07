@@ -8,7 +8,7 @@ s = {"foo": await a = x} = x
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -134,7 +134,7 @@ s = {"foo": await a = x} = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -114,7 +114,11 @@ var x; "use strict"; with (x) y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
+"\"use strict\"";
+with (x
+  y;
 ```
 
 ### Diagnostics

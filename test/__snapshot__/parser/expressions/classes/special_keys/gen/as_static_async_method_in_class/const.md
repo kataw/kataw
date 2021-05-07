@@ -125,7 +125,10 @@ class x {static async const(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async static static const() {}
+}
 ```
 
 ### Diagnostics

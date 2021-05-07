@@ -120,7 +120,10 @@ class x {* with(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  with() {}
+}
 ```
 
 ### Diagnostics

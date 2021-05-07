@@ -230,7 +230,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(fail = class A {
+  [await]() {}
+
+  "\"x\""() {}
+}) =>  {};
 ```
 
 ### Diagnostics

@@ -73,7 +73,7 @@ async => {}.x
                     "start": 12,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 13
             },
@@ -94,7 +94,7 @@ async => {}.x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

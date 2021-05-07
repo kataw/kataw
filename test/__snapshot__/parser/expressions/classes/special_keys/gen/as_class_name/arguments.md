@@ -63,7 +63,8 @@ class arguments {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class arguments {}
 ```
 
 ### Diagnostics

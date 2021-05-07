@@ -113,7 +113,7 @@ class C { a\n get }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -180,7 +180,17 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  default
+    break;
+  case y:
+    break;
+  case z:
+    break;
+  default
+    break;
+ 
 ```
 
 ### Diagnostics

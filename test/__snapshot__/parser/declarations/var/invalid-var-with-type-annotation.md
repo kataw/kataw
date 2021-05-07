@@ -155,7 +155,7 @@ var f: >x:int) => string;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

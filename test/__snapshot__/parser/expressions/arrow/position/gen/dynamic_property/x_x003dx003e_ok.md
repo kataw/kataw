@@ -41,7 +41,7 @@ x => ok[foo]
                 "asyncKeyword": null,
                 "returnType": null,
                 "contents": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
@@ -83,7 +83,8 @@ x => ok[foo]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x =>  ;
 ```
 
 ### Diagnostics

@@ -340,7 +340,13 @@ let {x}: string = y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let x;
+let [x] = y;
+let [x] = y;
+let {
+  x
+} = y;
 ```
 
 ### Diagnostics

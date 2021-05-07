@@ -115,7 +115,10 @@ class x {await(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  await() {}
+}
 ```
 
 ### Diagnostics

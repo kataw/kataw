@@ -92,7 +92,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var e = (await);
 ```
 
 ### Diagnostics

@@ -53,7 +53,7 @@
                             "kind": 458761,
                             "text": "temp {waitforit} late",
                             "rawText": "temp {waitforit} late",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 16,
                             "end": 40
                         },
@@ -94,7 +94,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class B  {});
 ```
 
 ### Diagnostics

@@ -105,7 +105,8 @@ class C extends (
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C  {}
 ```
 
 ### Diagnostics

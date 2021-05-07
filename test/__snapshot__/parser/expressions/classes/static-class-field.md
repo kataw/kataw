@@ -4334,7 +4334,185 @@ a});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static #foo = bar;
+}
+(class C {
+    static a = 0;
+
+  });
+(class C {
+    static a = 0;
+
+    b;
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static a;
+
+  });
+(class C {
+    static a;
+
+    b;
+
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b;
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"];
+
+  });
+(class C {
+    static ["'a'"];
+
+    b;
+
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    ["'b'"]() {}
+  });
+(class   {
+    static 0 = 0;
+
+  });
+(class   {
+    static 0;
+
+  });
+(class   {
+    static "'a'" = 0;
+
+  });
+(class   {
+    static "'a'";
+
+  });
+(class C {
+    static yield = 0;
+  });
+(class C {
+    static yield;
+    a;
+  });
+(class C {
+    static async;
+
+  });
+(class C {
+    static async = 0;
+
+  });
+(class C {
+    static async;
+  });
+(class C {
+    static async = 0;
+  });
+(class C {
+    async static static a() {}
+  }); // a field named async, and a method named a.
+
+(class C {
+    static async a;
+  });
+(class C {
+    static await;
+
+  });
+(class C {
+    static await = 0;
+
+  });
+(class C {
+    static await;
+    a;
+  });
+(class C {
+    static c = [c] = c;
+  });
+(class  {
+    static a = 0;
+  });
+(class  {
+    static a = 0;
+    b;
+  });
+(class  {
+    static a = 0;
+    b() {}
+  });
+(class  {
+    static a;
+  });
+(class  {
+    static a;
+    b;
+  });
 ```
 
 ### Diagnostics

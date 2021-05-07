@@ -183,7 +183,7 @@ wrap({[foo](){}, set [bar](e){}});
                     "start": 5,
                     "end": 32
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 33
             },
@@ -204,7 +204,8 @@ wrap({[foo](){}, set [bar](e){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ [foo]() {}, set [bar](e) {} });
 ```
 
 ### Diagnostics

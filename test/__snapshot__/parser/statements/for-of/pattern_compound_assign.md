@@ -122,7 +122,7 @@ for({}/=y of a)x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ async function x() {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -80,7 +80,8 @@ async function x() {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function x() {}
 ```
 
 ### Diagnostics

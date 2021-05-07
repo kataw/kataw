@@ -68,7 +68,8 @@ while(z) continue foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (z) continue foo;
 ```
 
 ### Diagnostics

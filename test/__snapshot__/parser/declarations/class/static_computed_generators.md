@@ -146,7 +146,10 @@ class x { static *[expr](){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static [expr]() {}
+}
 ```
 
 ### Diagnostics

@@ -153,7 +153,7 @@ var await; var f = (async function() { call(await) });
                                                         "start": 44,
                                                         "end": 49
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 38,
                                                     "end": 50
                                                 },
@@ -206,7 +206,7 @@ var await; var f = (async function() { call(await) });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

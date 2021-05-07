@@ -125,7 +125,10 @@ class x {static * implements(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static implements() {}
+}
 ```
 
 ### Diagnostics

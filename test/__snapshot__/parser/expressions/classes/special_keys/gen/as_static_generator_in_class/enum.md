@@ -125,7 +125,10 @@ class x {static * enum(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static enum() {}
+}
 ```
 
 ### Diagnostics

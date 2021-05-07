@@ -115,7 +115,10 @@ class x {private(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  private() {}
+}
 ```
 
 ### Diagnostics

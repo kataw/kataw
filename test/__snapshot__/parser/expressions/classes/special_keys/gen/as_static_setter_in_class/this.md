@@ -144,7 +144,10 @@ class x {static set this(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static this(x) {}
+}
 ```
 
 ### Diagnostics

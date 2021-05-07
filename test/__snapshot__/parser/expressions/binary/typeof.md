@@ -54,7 +54,8 @@ typeof x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+typeof x;
 ```
 
 ### Diagnostics

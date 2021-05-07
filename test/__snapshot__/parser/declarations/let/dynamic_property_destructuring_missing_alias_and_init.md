@@ -27,7 +27,7 @@ let {[x]};
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -127,7 +127,7 @@ let {[x]};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

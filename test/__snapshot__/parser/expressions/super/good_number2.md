@@ -526,7 +526,17 @@ a?.9:b
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? 0 : b;
+a ? 1 : b;
+a ? 2 : b;
+a ? 3 : b;
+a ? 4 : b;
+a ? 5 : b;
+a ? 6 : b;
+a ? 7 : b;
+a ? 8 : b;
+a ? 9 : b;
 ```
 
 ### Diagnostics

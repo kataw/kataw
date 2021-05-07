@@ -82,7 +82,13 @@ switch(x) { default: default: }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  default
+
+  default
+
+ 
 ```
 
 ### Diagnostics

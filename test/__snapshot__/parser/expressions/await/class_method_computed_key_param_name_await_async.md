@@ -10,7 +10,7 @@ async function f(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -304,7 +304,14 @@ async function f(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  (fail = class A {
+    [x](await) {}
+
+    "\"x\""() {}
+  }) =>  {};
+}
 ```
 
 ### Diagnostics

@@ -120,7 +120,9 @@ let a, b = 42, c;b;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let a, b = 42, c;
+b;
 ```
 
 ### Diagnostics

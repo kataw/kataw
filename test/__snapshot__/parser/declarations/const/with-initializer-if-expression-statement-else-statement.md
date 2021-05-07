@@ -123,7 +123,7 @@ if (true) {} else const x = 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

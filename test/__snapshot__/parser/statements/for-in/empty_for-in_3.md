@@ -93,7 +93,8 @@ for (let a in b);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in b);
 ```
 
 ### Diagnostics

@@ -14,7 +14,7 @@ import.meta = 0;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -78,7 +78,7 @@ import.meta = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

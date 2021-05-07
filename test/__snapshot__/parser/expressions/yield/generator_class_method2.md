@@ -181,7 +181,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "start": 47,
                                                                                             "end": 56
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 268435488,
                                                                                         "start": 42,
                                                                                         "end": 57
                                                                                     },
@@ -279,7 +279,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

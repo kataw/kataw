@@ -117,7 +117,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                                 "start": 24,
                                                                                 "end": 27
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 536870944,
                                                                             "start": 17,
                                                                             "end": 27
                                                                         },
@@ -205,7 +205,10 @@ x = { foo(){ [a = super.foo] = c; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { foo() {
+    [a = .foo] = c;
+  } };
 ```
 
 ### Diagnostics

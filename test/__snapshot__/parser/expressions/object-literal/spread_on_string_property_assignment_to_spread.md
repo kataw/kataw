@@ -67,7 +67,7 @@ x={..."foo".foo=x}
                                             "start": 12,
                                             "end": 15
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 6,
                                         "end": 15
                                     },
@@ -124,7 +124,8 @@ x={..."foo".foo=x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { ..."\"foo\"".foo = x };
 ```
 
 ### Diagnostics

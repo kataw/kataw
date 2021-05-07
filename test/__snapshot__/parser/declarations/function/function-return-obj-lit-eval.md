@@ -8,7 +8,7 @@ function foo() { return {eval} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -111,7 +111,10 @@ function foo() { return {eval} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function foo() {
+  return  { eval };
+}
 ```
 
 ### Diagnostics

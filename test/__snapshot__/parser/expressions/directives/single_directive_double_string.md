@@ -10,7 +10,7 @@ function f(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -92,7 +92,10 @@ function f(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  "\"foo\"";
+}
 ```
 
 ### Diagnostics

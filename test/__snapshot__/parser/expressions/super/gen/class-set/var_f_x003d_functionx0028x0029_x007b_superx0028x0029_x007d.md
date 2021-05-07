@@ -174,7 +174,7 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                                     "start": 48,
                                                                                     "end": 48
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 41,
                                                                                 "end": 49
                                                                             },
@@ -249,7 +249,7 @@ class C { set x(_) { var f = function() { super(); } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

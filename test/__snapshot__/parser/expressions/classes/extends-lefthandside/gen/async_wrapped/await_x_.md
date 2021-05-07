@@ -16,7 +16,7 @@ x; {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -171,7 +171,12 @@ x; {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function p() {
+  class C  {}
+  {
+  }
+}
 ```
 
 ### Diagnostics

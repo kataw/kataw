@@ -120,7 +120,10 @@ class x {* in(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  in() {}
+}
 ```
 
 ### Diagnostics

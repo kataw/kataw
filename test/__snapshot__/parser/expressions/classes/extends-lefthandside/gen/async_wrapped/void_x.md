@@ -14,7 +14,7 @@ async function p(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -150,7 +150,7 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

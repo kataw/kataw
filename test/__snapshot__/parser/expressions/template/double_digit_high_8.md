@@ -21,7 +21,7 @@
                 "kind": 458761,
                 "text": "408",
                 "rawText": "\\408",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 0,
                 "end": 6
             },
@@ -42,7 +42,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`408`;
 ```
 
 ### Diagnostics

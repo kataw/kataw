@@ -86,7 +86,7 @@ foo(async function(){})
                     "start": 4,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 23
             },
@@ -107,7 +107,8 @@ foo(async function(){})
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async function () {});
 ```
 
 ### Diagnostics

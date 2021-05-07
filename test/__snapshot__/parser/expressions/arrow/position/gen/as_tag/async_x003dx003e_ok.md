@@ -59,7 +59,7 @@ async => ok`foo`
                         "kind": 458761,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 11,
                         "end": 16
                     },
@@ -88,7 +88,8 @@ async => ok`foo`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async async =>  ok`foo`;
 ```
 
 ### Diagnostics

@@ -71,7 +71,8 @@ new typeof x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  typeof x();
 ```
 
 ### Diagnostics

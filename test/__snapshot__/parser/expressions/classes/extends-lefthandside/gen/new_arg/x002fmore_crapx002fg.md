@@ -58,7 +58,8 @@ new /more crap/g
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  /more crap/g();
 ```
 
 ### Diagnostics

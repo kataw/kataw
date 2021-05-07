@@ -12,7 +12,7 @@ async x => {} + x
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -106,7 +106,7 @@ async x => {} + x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -79,7 +79,8 @@ new x in y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  x() in y;
 ```
 
 ### Diagnostics

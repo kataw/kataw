@@ -577,7 +577,7 @@
                                                 "start": 131,
                                                 "end": 132
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 126,
                                             "end": 132
                                         },
@@ -605,7 +605,7 @@
                                                 "start": 140,
                                                 "end": 141
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 134,
                                             "end": 141
                                         },
@@ -991,7 +991,7 @@
                                                             "start": 211,
                                                             "end": 212
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 209,
                                                         "end": 212
                                                     },
@@ -1186,7 +1186,7 @@
                                                         "kind": 270,
                                                         "elements": [
                                                             {
-                                                                "kind": 130,
+                                                                "kind": 536871042,
                                                                 "member": {
                                                                     "kind": 134299649,
                                                                     "text": "a",
@@ -1630,7 +1630,7 @@
                             "start": 347,
                             "end": 347
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 343,
                         "end": 347
                     },
@@ -1642,7 +1642,7 @@
                         "start": 348,
                         "end": 348
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 343,
                     "end": 349
                 },
@@ -2313,7 +2313,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

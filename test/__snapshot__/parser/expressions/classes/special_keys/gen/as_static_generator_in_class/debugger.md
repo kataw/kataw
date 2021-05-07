@@ -125,7 +125,10 @@ class x {static * debugger(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static debugger() {}
+}
 ```
 
 ### Diagnostics

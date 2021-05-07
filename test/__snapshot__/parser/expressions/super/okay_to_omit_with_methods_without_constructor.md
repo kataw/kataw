@@ -131,7 +131,10 @@ class x extends y { f(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {
+  f() {}
+}
 ```
 
 ### Diagnostics

@@ -144,7 +144,8 @@ const a = async (foo: string = "") => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const a = async (foo = "\"\"") =>  {};
 ```
 
 ### Diagnostics

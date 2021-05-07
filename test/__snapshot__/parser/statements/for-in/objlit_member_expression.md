@@ -72,7 +72,7 @@ for ({}.b in c) d;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 9
             },
@@ -115,7 +115,9 @@ for ({}.b in c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c)
+  d;
 ```
 
 ### Diagnostics

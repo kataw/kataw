@@ -62,7 +62,7 @@ async (++x, y) => x;
                 "start": 0,
                 "end": 13
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 14
         },
@@ -93,7 +93,7 @@ async (++x, y) => x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

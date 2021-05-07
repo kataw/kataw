@@ -70,7 +70,7 @@ async x=>{}
                 "kind": 458761,
                 "text": "x",
                 "rawText": "x",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 11,
                 "end": 15
             },
@@ -91,7 +91,9 @@ async x=>{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async x =>  {};
+`x`;
 ```
 
 ### Diagnostics

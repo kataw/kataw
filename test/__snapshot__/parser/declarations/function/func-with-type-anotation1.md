@@ -16,7 +16,7 @@ function g(a:number=1, e:number=1) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -156,7 +156,8 @@ function g(a:number=1, e:number=1) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function g(a = 1, e = 1) {}
 ```
 
 ### Diagnostics

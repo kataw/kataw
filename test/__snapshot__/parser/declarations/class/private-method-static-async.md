@@ -120,7 +120,10 @@ class C { static async#aaa(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  async static static #aaa() {}
+}
 ```
 
 ### Diagnostics

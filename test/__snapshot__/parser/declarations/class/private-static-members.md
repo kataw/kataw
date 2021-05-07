@@ -323,7 +323,7 @@ class Foo {
                                                         "start": 97,
                                                         "end": 99
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 88,
                                                     "end": 99
                                                 },
@@ -370,7 +370,7 @@ class Foo {
                                                         "start": 112,
                                                         "end": 114
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 104,
                                                     "end": 114
                                                 },
@@ -417,7 +417,7 @@ class Foo {
                                                         "start": 127,
                                                         "end": 129
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 119,
                                                     "end": 129
                                                 },
@@ -429,7 +429,7 @@ class Foo {
                                                     "start": 130,
                                                     "end": 130
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 119,
                                                 "end": 131
                                             },
@@ -476,7 +476,18 @@ class Foo {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  static #x;
+  static get static #y() {}
+  static set static #y(x) {}
+  static static #z() {}
+  foo() {
+    Foo.#x += 1;
+    Foo.#y += 1;
+    Foo.#z();
+  }
+}
 ```
 
 ### Diagnostics

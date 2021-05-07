@@ -69,7 +69,7 @@
                                                                     "start": 13,
                                                                     "end": 13
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 7,
                                                                 "end": 14
                                                             },
@@ -81,7 +81,7 @@
                                                                 "start": 15,
                                                                 "end": 16
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 7,
                                                             "end": 16
                                                         },
@@ -120,7 +120,7 @@
                                                                     "start": 24,
                                                                     "end": 24
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 17,
                                                                 "end": 25
                                                             },
@@ -132,7 +132,7 @@
                                                                 "start": 26,
                                                                 "end": 27
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 17,
                                                             "end": 27
                                                         },
@@ -304,7 +304,7 @@
                                                                             "start": 67,
                                                                             "end": 67
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 61,
                                                                         "end": 68
                                                                     },
@@ -316,7 +316,7 @@
                                                                         "start": 69,
                                                                         "end": 70
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 536870944,
                                                                     "start": 61,
                                                                     "end": 70
                                                                 },
@@ -355,7 +355,7 @@
                                                                             "start": 78,
                                                                             "end": 78
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 71,
                                                                         "end": 79
                                                                     },
@@ -367,7 +367,7 @@
                                                                         "start": 80,
                                                                         "end": 81
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 536870944,
                                                                     "start": 71,
                                                                     "end": 81
                                                                 },
@@ -526,7 +526,7 @@
                                                                                 "start": 119,
                                                                                 "end": 119
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 113,
                                                                             "end": 120
                                                                         },
@@ -538,7 +538,7 @@
                                                                             "start": 121,
                                                                             "end": 122
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 113,
                                                                         "end": 122
                                                                     },
@@ -577,7 +577,7 @@
                                                                                 "start": 130,
                                                                                 "end": 130
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 123,
                                                                             "end": 131
                                                                         },
@@ -589,7 +589,7 @@
                                                                             "start": 132,
                                                                             "end": 133
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 123,
                                                                         "end": 133
                                                                     },
@@ -728,7 +728,12 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ x: foo().x, y: foo().y } = { x: 201, y: 301 });
+(
+  ({ x: foo().x, y: foo().y } = { x: 201, y: 301 }),
+  ({ x: foo().x, y: foo().y } = { x: 201, y: 301 })
+);
 ```
 
 ### Diagnostics

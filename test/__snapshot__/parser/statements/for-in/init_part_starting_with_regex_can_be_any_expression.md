@@ -120,7 +120,7 @@ for (/x/g + b in obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

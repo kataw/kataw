@@ -370,7 +370,7 @@ var gen = async function *g() {
                                                                             "start": 175,
                                                                             "end": 180
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 94,
                                                                         "end": 181
                                                                     },
@@ -468,7 +468,14 @@ var gen = async function *g() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var gen = async function * g() {
+  callCount += 1;
+   { ...  , ...(function (arg) {
+        var yield = arg;
+        return  { ...yield };
+      }( )), ...  };
+};
 ```
 
 ### Diagnostics

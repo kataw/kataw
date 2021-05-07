@@ -106,7 +106,7 @@ export var foo, bar;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

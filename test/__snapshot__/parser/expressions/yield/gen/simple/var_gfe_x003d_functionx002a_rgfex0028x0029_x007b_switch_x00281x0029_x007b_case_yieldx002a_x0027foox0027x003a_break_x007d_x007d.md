@@ -203,7 +203,13 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var gfe = function * rgfe() {
+  switch(1
+    case  "'foo'":
+      break;
+
+};
 ```
 
 ### Diagnostics

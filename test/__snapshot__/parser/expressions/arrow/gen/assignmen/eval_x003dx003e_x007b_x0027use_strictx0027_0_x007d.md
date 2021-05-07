@@ -119,7 +119,10 @@ x = eval => { 'use strict'; 0 } ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = eval =>  {
+  0;
+};
 ```
 
 ### Diagnostics

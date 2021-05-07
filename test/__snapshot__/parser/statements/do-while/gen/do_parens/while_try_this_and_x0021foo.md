@@ -12,7 +12,7 @@ do( while try this and !foo while
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -188,7 +188,7 @@ do( while try this and !foo while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

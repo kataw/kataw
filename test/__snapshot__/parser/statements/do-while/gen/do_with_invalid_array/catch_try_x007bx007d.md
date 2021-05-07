@@ -153,7 +153,7 @@ do while [catch] catch try {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

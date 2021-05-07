@@ -88,7 +88,7 @@
                                             "start": 7,
                                             "end": 8
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -160,7 +160,7 @@
                                         "start": 22,
                                         "end": 23
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 20,
                                     "end": 23
                                 }
@@ -494,7 +494,7 @@
                                         "end": 118
                                     },
                                     "right": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -603,7 +603,7 @@
                                                 "start": 143,
                                                 "end": 144
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 138,
                                             "end": 144
                                         },
@@ -685,7 +685,7 @@
                                             "start": 161,
                                             "end": 162
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 159,
                                         "end": 162
                                     }
@@ -1069,7 +1069,7 @@
                                             "end": 272
                                         },
                                         "right": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "b",
@@ -1137,7 +1137,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -45,7 +45,7 @@ for ({}[y] ^= x;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 220,
                         "propertyList": {
@@ -123,7 +123,9 @@ for ({}[y] ^= x;;) x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; )
+  x;
 ```
 
 ### Diagnostics

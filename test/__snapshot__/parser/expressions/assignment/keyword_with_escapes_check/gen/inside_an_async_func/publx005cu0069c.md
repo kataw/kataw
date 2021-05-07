@@ -102,7 +102,10 @@ async () => {  publ\u0069c = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  public = x;
+}
 ```
 
 ### Diagnostics

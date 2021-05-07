@@ -505,7 +505,7 @@
                                 "start": 127,
                                 "end": 127
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 121,
                             "end": 127
                         },
@@ -517,7 +517,7 @@
                             "start": 128,
                             "end": 132
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 121,
                         "end": 132
                     },
@@ -570,7 +570,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

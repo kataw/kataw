@@ -53,7 +53,8 @@ delete true
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete true;
 ```
 
 ### Diagnostics

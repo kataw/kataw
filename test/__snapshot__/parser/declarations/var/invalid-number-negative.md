@@ -27,7 +27,7 @@ var a: -z
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -111,7 +111,7 @@ var a: -z
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

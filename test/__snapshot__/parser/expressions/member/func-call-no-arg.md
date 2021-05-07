@@ -41,7 +41,7 @@ foo.bar
                     "start": 4,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 7
             },
@@ -62,7 +62,8 @@ foo.bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo.bar;
 ```
 
 ### Diagnostics

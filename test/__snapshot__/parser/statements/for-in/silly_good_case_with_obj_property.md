@@ -72,7 +72,7 @@ for ({}.bar in obj);
                     "start": 8,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 11
             },
@@ -107,7 +107,8 @@ for ({}.bar in obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in obj);
 ```
 
 ### Diagnostics

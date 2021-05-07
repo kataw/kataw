@@ -46,7 +46,7 @@ ext\u0065nds = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

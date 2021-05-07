@@ -63,7 +63,7 @@ c?.(d)?.[e]
                                 "start": 4,
                                 "end": 5
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 3,
                             "end": 6
                         },
@@ -88,7 +88,7 @@ c?.(d)?.[e]
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 8,
                         "end": 10
                     },
@@ -117,7 +117,8 @@ c?.(d)?.[e]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ?.[e];
 ```
 
 ### Diagnostics

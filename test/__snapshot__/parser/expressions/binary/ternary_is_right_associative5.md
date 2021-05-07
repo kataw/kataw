@@ -158,7 +158,9 @@ typeof x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a ? b : c ? d : e * x;
+typeof x;
 ```
 
 ### Diagnostics

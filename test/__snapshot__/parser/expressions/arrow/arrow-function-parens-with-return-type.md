@@ -136,7 +136,7 @@ var foo = ((foo)): string => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

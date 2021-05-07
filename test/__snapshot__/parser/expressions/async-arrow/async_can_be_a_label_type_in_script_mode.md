@@ -72,7 +72,8 @@ async: foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async: foo;
 ```
 
 ### Diagnostics

@@ -79,7 +79,7 @@ wrap({set} = x);
                     "start": 5,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 15
             },
@@ -100,7 +100,8 @@ wrap({set} = x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ set } = x);
 ```
 
 ### Diagnostics

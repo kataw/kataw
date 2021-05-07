@@ -140,7 +140,10 @@ class C extends Base { async async(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C  {
+  async async() {}
+}
 ```
 
 ### Diagnostics

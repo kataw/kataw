@@ -21,7 +21,7 @@
                 "kind": 458761,
                 "text": "some \" quote",
                 "rawText": "some \\\" quote",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 0,
                 "end": 15
             },
@@ -42,7 +42,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`some " quote`;
 ```
 
 ### Diagnostics

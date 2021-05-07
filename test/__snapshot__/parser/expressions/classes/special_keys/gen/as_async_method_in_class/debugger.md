@@ -120,7 +120,10 @@ class x {async debugger(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async debugger() {}
+}
 ```
 
 ### Diagnostics

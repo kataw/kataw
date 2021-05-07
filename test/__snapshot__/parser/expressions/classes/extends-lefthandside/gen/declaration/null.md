@@ -82,7 +82,8 @@ class A extends null {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A  {}
 ```
 
 ### Diagnostics

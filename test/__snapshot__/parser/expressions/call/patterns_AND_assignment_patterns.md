@@ -74,7 +74,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                             "start": 12,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 6,
                         "end": 12
                     },
@@ -184,7 +184,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 31
         }
@@ -201,7 +201,7 @@ async({a=1}. {b=2}, {c=3} = {}))
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

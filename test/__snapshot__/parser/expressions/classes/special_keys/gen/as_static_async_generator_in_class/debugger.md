@@ -130,7 +130,10 @@ class x {static async * debugger(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async static static debugger() {}
+}
 ```
 
 ### Diagnostics

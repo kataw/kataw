@@ -120,7 +120,10 @@ class x {static typeof(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static typeof() {}
+}
 ```
 
 ### Diagnostics

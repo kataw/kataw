@@ -468,7 +468,7 @@ x = { method(test) { } }
                         "start": 87,
                         "end": 102
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 63,
                     "end": 103
                 },
@@ -696,7 +696,13 @@ x = { method(test) { } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { method() {} };
+x = { get() {} };
+x = { set() {} };
+x = { method(test) {} }({ function() {} });
+x = ({ declare() {} });
+x = { method(test) {} };
 ```
 
 ### Diagnostics

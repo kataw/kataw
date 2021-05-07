@@ -115,7 +115,7 @@ x = { "a": {x} = y.z };
                                             "start": 19,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 16,
                                         "end": 20
                                     },
@@ -158,7 +158,8 @@ x = { "a": {x} = y.z };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { "\"a\"": { x } = y.z };
 ```
 
 ### Diagnostics

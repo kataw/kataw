@@ -8,7 +8,7 @@ for(delete((1)?y:x in y) in z)x
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -154,7 +154,7 @@ for(delete((1)?y:x in y) in z)x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

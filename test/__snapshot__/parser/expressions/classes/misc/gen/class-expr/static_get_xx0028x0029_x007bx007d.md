@@ -129,7 +129,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+    static get static x() {}
+  });
 ```
 
 ### Diagnostics

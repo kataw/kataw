@@ -199,7 +199,7 @@ function * gen() { function not_gen() { function foo(yield) { }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

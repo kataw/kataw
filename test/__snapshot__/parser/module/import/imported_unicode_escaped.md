@@ -111,7 +111,8 @@ export {a \u0061s b} from "x";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  a  b } from ;
 ```
 
 ### Diagnostics

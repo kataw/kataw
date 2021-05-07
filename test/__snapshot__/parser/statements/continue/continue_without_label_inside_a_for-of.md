@@ -76,7 +76,9 @@ for (x of y) continue
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (x of y)
+  continue;
 ```
 
 ### Diagnostics

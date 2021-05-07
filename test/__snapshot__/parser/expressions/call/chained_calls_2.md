@@ -52,7 +52,7 @@ foo(a)(b)(c)(d)(e)
                                     "start": 4,
                                     "end": 5
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 0,
                                 "end": 6
                             },
@@ -73,7 +73,7 @@ foo(a)(b)(c)(d)(e)
                                 "start": 7,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 0,
                             "end": 9
                         },
@@ -94,7 +94,7 @@ foo(a)(b)(c)(d)(e)
                             "start": 10,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 0,
                         "end": 12
                     },
@@ -115,7 +115,7 @@ foo(a)(b)(c)(d)(e)
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 15
                 },
@@ -136,7 +136,7 @@ foo(a)(b)(c)(d)(e)
                     "start": 16,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 18
             },
@@ -157,7 +157,8 @@ foo(a)(b)(c)(d)(e)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a)(b)(c)(d)(e);
 ```
 
 ### Diagnostics

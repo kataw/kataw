@@ -242,7 +242,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                                                                 "start": 70,
                                                                                                                 "end": 79
                                                                                                             },
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 268435488,
                                                                                                             "start": 65,
                                                                                                             "end": 80
                                                                                                         },
@@ -357,7 +357,13 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function () {
+    class x {
+      async f(foo = [{ m: t(await bar) }]) {}
+    }
+  });
 ```
 
 ### Diagnostics

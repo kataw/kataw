@@ -144,7 +144,7 @@ class x {static set yield(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

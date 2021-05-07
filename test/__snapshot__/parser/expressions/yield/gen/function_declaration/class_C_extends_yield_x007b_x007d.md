@@ -131,7 +131,7 @@ function not_gen() { class C extends yield { } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

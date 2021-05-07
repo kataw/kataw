@@ -142,7 +142,10 @@ class C { set #aaa(x){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  set #aaa(x) {}
+}
 ```
 
 ### Diagnostics

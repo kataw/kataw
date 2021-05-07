@@ -141,7 +141,8 @@ let [foo=a, bar] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [foo = a, bar] = arr;
 ```
 
 ### Diagnostics

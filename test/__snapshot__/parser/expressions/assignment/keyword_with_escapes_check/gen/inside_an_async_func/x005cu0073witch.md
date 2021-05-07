@@ -114,7 +114,7 @@ async () => {  \u0073witch = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

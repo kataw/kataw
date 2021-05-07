@@ -51,7 +51,7 @@ x = z();
                         "start": 6,
                         "end": 6
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 3,
                     "end": 7
                 },
@@ -76,7 +76,8 @@ x = z();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = z();
 ```
 
 ### Diagnostics

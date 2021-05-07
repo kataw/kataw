@@ -152,7 +152,10 @@ function *f(){   s = {"foo": yield}   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  s = { "\"foo\"":   };
+}
 ```
 
 ### Diagnostics

@@ -87,7 +87,7 @@ async function p(){
                                     "end": 37
                                 },
                                 "expression": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "fooo",
@@ -152,7 +152,10 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics

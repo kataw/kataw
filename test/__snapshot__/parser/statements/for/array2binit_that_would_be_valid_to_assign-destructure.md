@@ -67,7 +67,7 @@ for ([x.y] = z;;);
                                     "start": 8,
                                     "end": 9
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 6,
                                 "end": 9
                             }
@@ -124,7 +124,8 @@ for ([x.y] = z;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; );
 ```
 
 ### Diagnostics

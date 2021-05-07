@@ -147,7 +147,7 @@ function *f(){   for (yield in y);   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

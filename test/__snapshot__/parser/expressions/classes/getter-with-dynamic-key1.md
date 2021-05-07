@@ -133,7 +133,10 @@ class x {static *[y](){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static [y]() {}
+}
 ```
 
 ### Diagnostics

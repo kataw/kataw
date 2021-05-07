@@ -104,7 +104,7 @@ x({async foo(){}});
                     "start": 2,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 18
             },
@@ -125,7 +125,8 @@ x({async foo(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ async foo() {} });
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ function f(){ new.target + foo }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -120,7 +120,10 @@ function f(){ new.target + foo }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+   + foo;
+}
 ```
 
 ### Diagnostics

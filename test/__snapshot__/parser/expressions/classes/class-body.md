@@ -6129,7 +6129,202 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+
+  });
+(class  {
+
+
+  });
+(class  {
+    m() {}
+  });
+(class  {
+    m() {}
+
+  });
+(class  {
+
+    m() {}
+  });
+(class  {
+    m() {}
+
+    n(x) {}
+  });
+(class  {
+    get x() {}
+  });
+(class  {
+    set x(v) {}
+  });
+(class  {
+    get() {}
+  });
+(class  {
+    set() {}
+  });
+(class  {
+    g() {}
+  });
+(class  {
+    g() {}
+
+  });
+(class  {
+
+    g() {}
+  });
+(class  {
+    g() {}
+
+    h(x) {}
+  });
+(class  {
+    async x() {}
+  });
+(class  {
+    static() {}
+  });
+(class  {
+    get static() {}
+  });
+(class  {
+    set static(v) {}
+  });
+(class  {
+    static static m() {}
+  });
+(class  {
+    static get static x() {}
+  });
+(class  {
+    static set static x(v) {}
+  });
+(class  {
+    static static get() {}
+  });
+(class  {
+    static static set() {}
+  });
+(class  {
+    static static static() {}
+  });
+(class  {
+    static get static static() {}
+  });
+(class  {
+    static set static static(v) {}
+  });
+(class  {
+    static() {}
+  });
+(class  {
+    static static static() {}
+  });
+(class  {
+    get() {}
+  });
+(class  {
+    set() {}
+  });
+(class  {
+    static static g() {}
+  });
+(class  {
+    async() {}
+  });
+(class  {
+    async() {}
+  });
+(class  {
+    static static async() {}
+  });
+(class  {
+    static static async() {}
+  });
+(class  {
+    async static static x() {}
+  });
+(class  {
+    async static static x() {}
+  });
+(class  {
+    static static async() {}
+  });
+(class  {
+    static static async() {}
+  });
+(class  {
+    async x() {}
+  });
+(class  {
+    async 0() {}
+  });
+(class  {
+    async get() {}
+  });
+(class  {
+    async set() {}
+  });
+(class  {
+    async static() {}
+  });
+(class  {
+    async async() {}
+  });
+(class  {
+    async() {}
+  });
+(class  {
+    async() {}
+  });
+(class  {
+    get 42.5() {}
+  });
+(class  {
+    set static(v) {}
+  });
+(class  {
+    static static this() {}
+  });
+(class  {
+    static get static class() {}
+  });
+(class  {
+    static set static 42.5(v) {}
+  });
+(class  {
+    const() {}
+  });
+(class  {
+    static static "\"str\""() {}
+  });
+(class C {
+    true() {}
+  });
+(class C {
+    get false() {}
+  });
+(class C {
+    set function(v) {}
+  });
+(class C {
+    static static if() {}
+  });
+(class C {
+    static get static let() {}
+  });
+(class C {
+    static set static get(v) {}
+  });
+(class C {
+    set() {}
+  });
+(class C {
+    static static static() {}
+  });
 ```
 
 ### Diagnostics

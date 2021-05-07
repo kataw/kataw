@@ -63,7 +63,7 @@ async x => ok.x
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 10,
                     "end": 15
                 },
@@ -88,7 +88,8 @@ async x => ok.x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async x =>  ok.x;
 ```
 
 ### Diagnostics

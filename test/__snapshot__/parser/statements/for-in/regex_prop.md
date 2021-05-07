@@ -65,7 +65,7 @@ for (/foo/.x in c) d;
                     "start": 11,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 12
             },
@@ -108,7 +108,9 @@ for (/foo/.x in c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c)
+  d;
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ function *f(){  (await) => x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -120,7 +120,10 @@ function *f(){  (await) => x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  (await) =>  x;
+}
 ```
 
 ### Diagnostics

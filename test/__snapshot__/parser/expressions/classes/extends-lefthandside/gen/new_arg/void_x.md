@@ -71,7 +71,8 @@ new void x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  void x();
 ```
 
 ### Diagnostics

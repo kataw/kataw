@@ -125,7 +125,10 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  [1]() {}
+}
 ```
 
 ### Diagnostics

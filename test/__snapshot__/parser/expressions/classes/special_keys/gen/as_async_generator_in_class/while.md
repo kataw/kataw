@@ -125,7 +125,10 @@ class x {async * while(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async while() {}
+}
 ```
 
 ### Diagnostics

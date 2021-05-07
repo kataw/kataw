@@ -65,7 +65,7 @@ c\u006fntinue = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

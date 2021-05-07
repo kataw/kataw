@@ -46,7 +46,7 @@ foo(,);
                     "start": 4,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 6
             },
@@ -67,7 +67,8 @@ foo(,);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo();
 ```
 
 ### Diagnostics

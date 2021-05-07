@@ -112,7 +112,8 @@ x => y in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; x =>  y in x);
 ```
 
 ### Diagnostics

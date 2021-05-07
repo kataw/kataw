@@ -120,7 +120,10 @@ class x {async public(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async public() {}
+}
 ```
 
 ### Diagnostics

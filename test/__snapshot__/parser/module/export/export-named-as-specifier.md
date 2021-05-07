@@ -92,7 +92,8 @@ export {foo as bar};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  foo  bar };
 ```
 
 ### Diagnostics

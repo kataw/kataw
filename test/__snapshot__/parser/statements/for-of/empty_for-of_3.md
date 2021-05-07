@@ -105,7 +105,8 @@ for (let a of b);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( of b);
 ```
 
 ### Diagnostics

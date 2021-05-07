@@ -14,7 +14,7 @@ export default function () {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -92,7 +92,8 @@ export default function () {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default function () {};
 ```
 
 ### Diagnostics

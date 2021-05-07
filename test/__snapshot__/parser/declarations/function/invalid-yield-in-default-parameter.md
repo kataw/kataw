@@ -192,7 +192,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

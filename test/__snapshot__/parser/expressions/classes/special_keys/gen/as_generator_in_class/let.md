@@ -120,7 +120,10 @@ class x {* let(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  let() {}
+}
 ```
 
 ### Diagnostics

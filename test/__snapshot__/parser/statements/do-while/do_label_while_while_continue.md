@@ -138,7 +138,7 @@ do wow: while (x) while (x) continue wow;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

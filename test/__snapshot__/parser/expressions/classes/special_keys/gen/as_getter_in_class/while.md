@@ -120,7 +120,10 @@ class x {get while(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get while() {}
+}
 ```
 
 ### Diagnostics

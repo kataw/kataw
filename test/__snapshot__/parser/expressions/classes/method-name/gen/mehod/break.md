@@ -144,7 +144,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ break(x, y) {} });
 ```
 
 ### Diagnostics

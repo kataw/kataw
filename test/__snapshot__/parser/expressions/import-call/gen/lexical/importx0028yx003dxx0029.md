@@ -78,7 +78,8 @@ import(y=x)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+import(y = x);
 ```
 
 ### Diagnostics

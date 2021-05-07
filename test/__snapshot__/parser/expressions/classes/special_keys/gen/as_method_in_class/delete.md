@@ -115,7 +115,10 @@ class x {delete(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  delete() {}
+}
 ```
 
 ### Diagnostics

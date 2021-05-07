@@ -125,7 +125,10 @@ class x {static * extends(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static extends() {}
+}
 ```
 
 ### Diagnostics

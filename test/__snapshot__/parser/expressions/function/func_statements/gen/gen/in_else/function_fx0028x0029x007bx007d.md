@@ -13,7 +13,7 @@ else function f(){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -120,7 +120,9 @@ else function f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (x) x;
+else  function f() {}
 ```
 
 ### Diagnostics

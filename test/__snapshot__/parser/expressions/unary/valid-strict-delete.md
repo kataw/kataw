@@ -150,7 +150,7 @@
                         "start": 79,
                         "end": 79
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 74,
                     "end": 80
                 },
@@ -264,7 +264,7 @@
                         "start": 137,
                         "end": 140
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 132,
                     "end": 140
                 },
@@ -301,7 +301,7 @@
                     "end": 163
                 },
                 "operand": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
@@ -576,7 +576,26 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete this;
+"\"use strict\"";
+delete 1;
+"\"use strict\"";
+delete foo();
+"\"use strict\"";
+delete 1 + 2;
+"\"use strict\"";
+delete foo.bar;
+"\"use strict\"";
+delete ;
+"\"use strict\"";
+delete foo--;
+"\"use strict\"";
+delete --foo;
+"\"use strict\"";
+delete new  foo();
+"\"use strict\"";
+delete new  foo(bar);
 ```
 
 ### Diagnostics

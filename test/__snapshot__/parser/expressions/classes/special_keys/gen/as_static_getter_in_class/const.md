@@ -125,7 +125,10 @@ class x {static get const(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static get static const() {}
+}
 ```
 
 ### Diagnostics

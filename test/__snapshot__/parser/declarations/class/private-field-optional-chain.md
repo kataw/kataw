@@ -117,11 +117,11 @@ class Foo {
                                                     "end": 31
                                                 },
                                                 "chain": {
-                                                    "kind": 202,
+                                                    "kind": 536871114,
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67174651,
@@ -175,11 +175,11 @@ class Foo {
                                                     "end": 44
                                                 },
                                                 "chain": {
-                                                    "kind": 202,
+                                                    "kind": 536871114,
                                                     "chain": {
                                                         "kind": 206,
                                                         "chain": {
-                                                            "kind": 202,
+                                                            "kind": 536871114,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 134299649,
@@ -241,14 +241,14 @@ class Foo {
                                                         "start": 58,
                                                         "end": 60
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 50,
                                                     "end": 60
                                                 },
                                                 "chain": {
                                                     "kind": 206,
                                                     "chain": {
-                                                        "kind": 202,
+                                                        "kind": 536871114,
                                                         "chain": null,
                                                         "expression": {
                                                             "kind": 134299649,
@@ -313,7 +313,15 @@ class Foo {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  #x;
+  foo() {
+    this?.;
+    this?.;
+    this.#x?.;
+  }
+}
 ```
 
 ### Diagnostics

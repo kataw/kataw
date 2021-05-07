@@ -151,7 +151,7 @@ class x extends y {
                                                                             "start": 57,
                                                                             "end": 61
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 44,
                                                                         "end": 61
                                                                     },
@@ -227,7 +227,7 @@ class x extends y {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -135,7 +135,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ async a() {
+    await 0;
+  } });
 ```
 
 ### Diagnostics

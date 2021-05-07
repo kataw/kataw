@@ -173,7 +173,10 @@ var {[2]: y = 1} = {2:3}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  [2]: y = 1
+} = { 2: 3 };
 ```
 
 ### Diagnostics

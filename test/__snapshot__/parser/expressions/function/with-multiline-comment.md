@@ -182,7 +182,15 @@ x; })
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function () {
+    return /* Multiline\nComment */  x;
+  });
+(function () {
+    return // Comment
+    ;
+    x;
+  });
 ```
 
 ### Diagnostics

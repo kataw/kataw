@@ -294,7 +294,19 @@ class Foo { static ['constructor'] = 1 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class Foo {
+  ["'constructor'"];
+}
+class Foo {
+  ["'constructor'"] = 1;
+}
+class Foo {
+  static ["'constructor'"];
+}
+class Foo {
+  static ["'constructor'"] = 1;
+}
 ```
 
 ### Diagnostics

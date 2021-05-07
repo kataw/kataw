@@ -142,7 +142,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                     "end": 29
                                                                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                                                                 "right": {
-                                                                                                                                                                                                                                                                                    "kind": 130,
+                                                                                                                                                                                                                                                                                    "kind": 536871042,
                                                                                                                                                                                                                                                                                     "member": {
                                                                                                                                                                                                                                                                                         "kind": 134299649,
                                                                                                                                                                                                                                                                                         "text": "b",
@@ -416,7 +416,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

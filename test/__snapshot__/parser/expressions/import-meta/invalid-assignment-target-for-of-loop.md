@@ -14,7 +14,7 @@ for (import.meta of null) ;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -90,7 +90,7 @@ for (import.meta of null) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

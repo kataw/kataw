@@ -38,7 +38,7 @@ foo?.bar = x
                     "chain": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -95,7 +95,7 @@ foo?.bar = x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

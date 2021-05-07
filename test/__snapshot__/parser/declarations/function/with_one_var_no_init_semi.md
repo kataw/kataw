@@ -116,7 +116,8 @@ let [foo] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [foo] = arr;
 ```
 
 ### Diagnostics

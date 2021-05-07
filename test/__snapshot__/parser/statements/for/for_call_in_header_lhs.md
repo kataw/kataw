@@ -89,7 +89,7 @@ for (x(x in t);;) x
                     "start": 7,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 5,
                 "end": 14
             },
@@ -126,7 +126,9 @@ for (x(x in t);;) x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; )
+  x;
 ```
 
 ### Diagnostics

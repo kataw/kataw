@@ -104,7 +104,7 @@ var foob\\u{c481}r = 0;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

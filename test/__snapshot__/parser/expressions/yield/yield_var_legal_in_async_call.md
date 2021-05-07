@@ -42,7 +42,7 @@ async (yield)
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 13
         }
@@ -59,7 +59,8 @@ async (yield)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(yield)
 ```
 
 ### Diagnostics

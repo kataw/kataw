@@ -157,7 +157,11 @@ class w {  t[x](){}  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class w {
+  t;
+  [x]() {}
+}
 ```
 
 ### Diagnostics

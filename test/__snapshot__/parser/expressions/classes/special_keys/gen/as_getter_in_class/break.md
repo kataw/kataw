@@ -120,7 +120,10 @@ class x {get break(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get break() {}
+}
 ```
 
 ### Diagnostics

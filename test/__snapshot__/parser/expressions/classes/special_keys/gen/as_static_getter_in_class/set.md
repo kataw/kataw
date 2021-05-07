@@ -125,7 +125,10 @@ class x {static get set(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static get static set() {}
+}
 ```
 
 ### Diagnostics

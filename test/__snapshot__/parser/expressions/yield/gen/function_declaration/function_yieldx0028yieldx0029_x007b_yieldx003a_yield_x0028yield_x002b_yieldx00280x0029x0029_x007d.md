@@ -188,7 +188,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                                         "start": 73,
                                                                         "end": 74
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 268435488,
                                                                     "start": 66,
                                                                     "end": 75
                                                                 },
@@ -202,7 +202,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                         "start": 59,
                                                         "end": 75
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 51,
                                                     "end": 76
                                                 },
@@ -257,7 +257,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

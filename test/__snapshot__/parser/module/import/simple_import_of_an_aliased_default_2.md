@@ -108,7 +108,8 @@ import x, * as a from "y"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ x, * as   ;
 ```
 
 ### Diagnostics

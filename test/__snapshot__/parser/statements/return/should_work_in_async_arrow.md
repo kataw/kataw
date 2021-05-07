@@ -77,7 +77,10 @@ async () => {return}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  return ;
+}
 ```
 
 ### Diagnostics

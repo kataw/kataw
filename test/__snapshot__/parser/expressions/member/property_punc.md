@@ -40,7 +40,7 @@ y.)
                     "start": 2,
                     "end": 2
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 2
             },
@@ -61,7 +61,7 @@ y.)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

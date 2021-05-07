@@ -129,7 +129,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+1 ? 0 : a =>  {}, 17, 42;
 ```
 
 ### Diagnostics

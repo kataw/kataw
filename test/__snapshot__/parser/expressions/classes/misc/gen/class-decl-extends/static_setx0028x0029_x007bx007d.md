@@ -140,7 +140,10 @@ class C extends Base { static set() {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C  {
+  static static set() {}
+}
 ```
 
 ### Diagnostics

@@ -138,7 +138,7 @@ hello();
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 54,
                                                     "end": 68
                                                 },
@@ -179,7 +179,7 @@ hello();
                                                     "start": 69,
                                                     "end": 87
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 54,
                                                 "end": 88
                                             },
@@ -233,7 +233,7 @@ hello();
                     "start": 100,
                     "end": 100
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 92,
                 "end": 101
             },
@@ -254,7 +254,11 @@ hello();
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let hello = (greeting = "' world'") =>  {
+  console.log("'hello'" + greeting);
+};
+hello();
 ```
 
 ### Diagnostics

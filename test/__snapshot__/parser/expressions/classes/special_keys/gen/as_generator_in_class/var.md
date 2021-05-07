@@ -120,7 +120,10 @@ class x {* var(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  var() {}
+}
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ async function f() { for await ([x] of y) {} }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -149,7 +149,11 @@ async function f() { for await ([x] of y) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  for await ([x] of y) {
+  }
+}
 ```
 
 ### Diagnostics

@@ -63,7 +63,8 @@ class enum {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class enum {}
 ```
 
 ### Diagnostics

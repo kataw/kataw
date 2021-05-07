@@ -8,7 +8,7 @@ async () => { \u{61}wait: x }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -118,7 +118,7 @@ async () => { \u{61}wait: x }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

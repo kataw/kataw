@@ -12,7 +12,7 @@ class A extends delete x {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -95,7 +95,7 @@ class A extends delete x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

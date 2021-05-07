@@ -12,7 +12,7 @@ function f(a = async async => ok) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -133,7 +133,8 @@ function f(a = async async => ok) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f(a = async async =>  ok) {}
 ```
 
 ### Diagnostics

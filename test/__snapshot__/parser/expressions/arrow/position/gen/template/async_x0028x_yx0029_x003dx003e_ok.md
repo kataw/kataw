@@ -108,7 +108,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`a ${async (x, y) =>  ok} b`;
 ```
 
 ### Diagnostics

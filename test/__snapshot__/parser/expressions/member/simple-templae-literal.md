@@ -36,7 +36,7 @@
                                     "kind": 458761,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 134217824,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -48,7 +48,7 @@
                                     "start": 5,
                                     "end": 11
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 1,
                                 "end": 11
                             }
@@ -97,7 +97,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[`x`.length] = x;
 ```
 
 ### Diagnostics

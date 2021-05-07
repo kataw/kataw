@@ -102,7 +102,10 @@ async () => {  p\u0061ckage = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  package = x;
+}
 ```
 
 ### Diagnostics

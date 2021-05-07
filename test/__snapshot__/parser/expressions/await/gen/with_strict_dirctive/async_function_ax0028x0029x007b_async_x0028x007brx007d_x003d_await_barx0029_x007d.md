@@ -140,7 +140,7 @@
                                 "start": 33,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 33,
                             "end": 61
                         },
@@ -178,7 +178,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function a() {
+  async({ r } = await bar)
+
+}
 ```
 
 ### Diagnostics

@@ -72,7 +72,8 @@ eval: x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+eval: x;
 ```
 
 ### Diagnostics

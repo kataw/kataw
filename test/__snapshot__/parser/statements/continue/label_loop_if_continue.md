@@ -120,7 +120,8 @@ foo: while(z) if (x) continue foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo: while (z) if (x) continue foo;
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ function f() { class C { await() { } } }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -163,7 +163,12 @@ function f() { class C { await() { } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  class C {
+    await() {}
+  }
+}
 ```
 
 ### Diagnostics

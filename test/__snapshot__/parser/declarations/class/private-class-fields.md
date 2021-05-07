@@ -181,7 +181,16 @@ class C { #aaa
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  #aaa;
+
+  #bbb;
+}
+class C {
+  #aaa;
+  #bbb;
+}
 ```
 
 ### Diagnostics

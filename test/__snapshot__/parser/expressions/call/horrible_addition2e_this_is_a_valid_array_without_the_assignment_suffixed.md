@@ -89,7 +89,7 @@ log({foo: [bar]});
                     "start": 4,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 17
             },
@@ -110,7 +110,8 @@ log({foo: [bar]});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+log({ foo: [bar] });
 ```
 
 ### Diagnostics

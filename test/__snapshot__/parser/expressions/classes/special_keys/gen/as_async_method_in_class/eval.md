@@ -120,7 +120,10 @@ class x {async eval(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async eval() {}
+}
 ```
 
 ### Diagnostics

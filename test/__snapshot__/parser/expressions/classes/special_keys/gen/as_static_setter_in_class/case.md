@@ -144,7 +144,10 @@ class x {static set case(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static case(x) {}
+}
 ```
 
 ### Diagnostics

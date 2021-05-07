@@ -139,7 +139,10 @@ class x {set typeof(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set typeof(x) {}
+}
 ```
 
 ### Diagnostics

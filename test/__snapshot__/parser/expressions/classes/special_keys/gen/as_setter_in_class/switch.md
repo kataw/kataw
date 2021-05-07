@@ -139,7 +139,10 @@ class x {set switch(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set switch(x) {}
+}
 ```
 
 ### Diagnostics

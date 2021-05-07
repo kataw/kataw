@@ -123,7 +123,8 @@ async g => (x = [await y])
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async g =>  (x = [await y]);
 ```
 
 ### Diagnostics

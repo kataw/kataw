@@ -125,7 +125,10 @@ class x {async * null(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async null() {}
+}
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ function f() { var await; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -118,7 +118,10 @@ function f() { var await; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  var await;
+}
 ```
 
 ### Diagnostics

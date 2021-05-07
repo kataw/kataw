@@ -16,7 +16,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -103,7 +103,7 @@
                             "kind": 458761,
                             "text": "",
                             "rawText": "",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 18,
                             "end": 21
                         },
@@ -115,7 +115,7 @@
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 21,
                         "end": 23
                     },
@@ -244,7 +244,7 @@
                             "kind": 458761,
                             "text": "",
                             "rawText": "",
-                            "flags": 96,
+                            "flags": 134217824,
                             "start": 54,
                             "end": 58
                         },
@@ -256,7 +256,7 @@
                         "kind": 458761,
                         "text": "",
                         "rawText": "",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 58,
                         "end": 60
                     },
@@ -268,7 +268,7 @@
                     "kind": 458761,
                     "text": "js\n{ allowTypes : true }",
                     "rawText": "",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 60,
                     "end": 85
                 },
@@ -293,7 +293,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

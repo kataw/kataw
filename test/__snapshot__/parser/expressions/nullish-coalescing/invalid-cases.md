@@ -705,7 +705,7 @@ a+1 ?? b+1 && c;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

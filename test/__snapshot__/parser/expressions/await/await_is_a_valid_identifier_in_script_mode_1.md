@@ -42,7 +42,8 @@ await
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+await;
 ```
 
 ### Diagnostics

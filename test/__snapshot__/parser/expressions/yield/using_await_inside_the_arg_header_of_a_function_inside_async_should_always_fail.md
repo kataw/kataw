@@ -123,7 +123,7 @@ let f = () => (y=await foo) => y;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -161,7 +161,7 @@ function not_gen() { function *a(){yield 2e308} }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

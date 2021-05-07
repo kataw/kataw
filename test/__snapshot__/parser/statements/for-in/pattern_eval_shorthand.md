@@ -137,7 +137,8 @@ for ({ eval = 0 } in [{}]) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in [{}]);
 ```
 
 ### Diagnostics

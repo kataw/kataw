@@ -97,7 +97,7 @@ do h(function(){});while(x)
                         "start": 5,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 2,
                     "end": 18
                 },
@@ -122,7 +122,9 @@ do h(function(){});while(x)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do h(function () {});
+while (x);
 ```
 
 ### Diagnostics

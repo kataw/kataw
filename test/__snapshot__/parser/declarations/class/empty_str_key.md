@@ -132,7 +132,10 @@ class X {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class X {
+  "''"() {}
+}
 ```
 
 ### Diagnostics

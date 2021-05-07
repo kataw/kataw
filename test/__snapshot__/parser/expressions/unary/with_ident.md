@@ -8,7 +8,7 @@ new +
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -66,7 +66,7 @@ new +
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

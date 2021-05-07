@@ -90,7 +90,8 @@ declare var x: symbol;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x;
 ```
 
 ### Diagnostics

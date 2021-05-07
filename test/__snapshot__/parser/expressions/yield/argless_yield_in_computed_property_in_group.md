@@ -118,7 +118,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  (x = { [yield]: 1 });
+}
 ```
 
 ### Diagnostics

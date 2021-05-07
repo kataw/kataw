@@ -52,7 +52,7 @@ call(await.foo)
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 5,
                             "end": 14
                         }
@@ -62,7 +62,7 @@ call(await.foo)
                     "start": 5,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 15
             },
@@ -83,7 +83,8 @@ call(await.foo)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+call(await.foo);
 ```
 
 ### Diagnostics

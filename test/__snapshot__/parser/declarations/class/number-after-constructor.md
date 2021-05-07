@@ -181,7 +181,11 @@ class x{ constructor(){} 9(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  constructor() {}
+  9() {}
+}
 ```
 
 ### Diagnostics

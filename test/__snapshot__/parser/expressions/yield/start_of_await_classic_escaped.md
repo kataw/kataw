@@ -102,7 +102,7 @@ async () => { var \u0061wait; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

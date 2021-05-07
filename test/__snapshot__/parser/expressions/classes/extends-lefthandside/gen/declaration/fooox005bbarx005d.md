@@ -47,7 +47,7 @@ class A extends fooo[bar] {}
                     "end": 15
                 },
                 "expression": {
-                    "kind": 130,
+                    "kind": 536871042,
                     "member": {
                         "kind": 134299649,
                         "text": "fooo",
@@ -97,7 +97,8 @@ class A extends fooo[bar] {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A  {}
 ```
 
 ### Diagnostics

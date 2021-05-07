@@ -12,7 +12,7 @@ async async => {}`foo`
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -73,7 +73,7 @@ async async => {}`foo`
                 "kind": 458761,
                 "text": "foo",
                 "rawText": "foo",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 17,
                 "end": 22
             },
@@ -94,7 +94,7 @@ async async => {}`foo`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -143,7 +143,7 @@ async function wrap() { async function await() { } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -433,7 +433,14 @@ var a: (?number)[];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var a;
+var a;
+var a;
+var a;
+var a;
+[];
+var a;
 ```
 
 ### Diagnostics

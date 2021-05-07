@@ -125,7 +125,10 @@ class x {async * continue(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async continue() {}
+}
 ```
 
 ### Diagnostics

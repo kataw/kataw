@@ -67,7 +67,7 @@ class x extends super {}
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 15,
                     "end": 21
                 },
@@ -100,7 +100,7 @@ class x extends super {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

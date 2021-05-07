@@ -172,7 +172,10 @@ function *f(){   s = {"foo": yield / x}   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  s = { "\"foo\"":   / x };
+}
 ```
 
 ### Diagnostics

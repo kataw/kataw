@@ -62,7 +62,7 @@ xxx\x61
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

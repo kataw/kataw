@@ -12,7 +12,7 @@ do while [catch] =! class function try while with foo!
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -272,7 +272,7 @@ do while [catch] =! class function try while with foo!
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

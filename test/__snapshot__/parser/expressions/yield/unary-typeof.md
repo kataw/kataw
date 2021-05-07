@@ -127,7 +127,10 @@ function *f() {  return typeof yield foo;  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  return  typeof  foo;
+}
 ```
 
 ### Diagnostics

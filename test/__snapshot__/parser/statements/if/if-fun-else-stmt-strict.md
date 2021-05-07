@@ -112,7 +112,7 @@ if (true) function f() {} else ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

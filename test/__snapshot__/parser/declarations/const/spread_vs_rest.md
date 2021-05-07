@@ -173,7 +173,8 @@ const [a=[...b], ...c] = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const [a = [...b], ...c] = obj;
 ```
 
 ### Diagnostics

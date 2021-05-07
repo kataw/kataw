@@ -128,7 +128,10 @@ try { } catch ([a = 0]) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} catch ([a = 0]) {
+}
 ```
 
 ### Diagnostics

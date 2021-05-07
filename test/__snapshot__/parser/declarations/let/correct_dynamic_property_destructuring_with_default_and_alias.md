@@ -142,7 +142,10 @@ let {[x]: y = z} = a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let {
+  [x]: y = z
+} = a;
 ```
 
 ### Diagnostics

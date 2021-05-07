@@ -155,7 +155,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                         "start": 52,
                                                         "end": 53
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 45,
                                                     "end": 54
                                                 },
@@ -169,7 +169,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                         "start": 38,
                                         "end": 54
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 30,
                                     "end": 55
                                 },
@@ -209,7 +209,10 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function yield(yield) {
+  yield: yield(yield + yield(0));
+}
 ```
 
 ### Diagnostics

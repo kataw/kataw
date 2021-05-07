@@ -91,7 +91,11 @@ switch (x) { case y: break; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case y:
+    break;
+ 
 ```
 
 ### Diagnostics

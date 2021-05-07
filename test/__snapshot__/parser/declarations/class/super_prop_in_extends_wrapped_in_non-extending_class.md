@@ -141,7 +141,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "start": 44,
                                                         "end": 47
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 37,
                                                     "end": 47
                                                 },
@@ -200,7 +200,12 @@ class a { foo(){      class x extends super.foo {}    }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class a {
+  foo() {
+    class x  {}
+  }
+}
 ```
 
 ### Diagnostics

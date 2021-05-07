@@ -155,7 +155,8 @@ for ((a * b + c) * d;b;c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; c; b);
 ```
 
 ### Diagnostics

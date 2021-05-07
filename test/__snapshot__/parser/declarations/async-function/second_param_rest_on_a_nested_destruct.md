@@ -182,7 +182,8 @@ let [x, ...[foo, bar]] = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let [x, ...[foo, bar]] = obj;
 ```
 
 ### Diagnostics

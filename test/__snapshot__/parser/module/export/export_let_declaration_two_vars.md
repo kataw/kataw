@@ -103,7 +103,8 @@ export let x, y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ let x, y;
 ```
 
 ### Diagnostics

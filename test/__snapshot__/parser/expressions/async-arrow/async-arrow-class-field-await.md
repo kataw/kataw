@@ -205,7 +205,7 @@ async( x = class { x = await });
                 "start": 36,
                 "end": 36
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 36,
             "end": 69
         },
@@ -228,7 +228,7 @@ async( x = class { x = await });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

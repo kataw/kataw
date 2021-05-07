@@ -119,7 +119,7 @@ x = {arrow: async async => {}}.y
                         "start": 31,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 3,
                     "end": 32
                 },
@@ -144,7 +144,8 @@ x = {arrow: async async => {}}.y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { arrow: async async =>  {} }.y;
 ```
 
 ### Diagnostics

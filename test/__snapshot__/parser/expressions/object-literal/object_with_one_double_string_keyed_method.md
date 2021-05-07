@@ -99,7 +99,7 @@ wrap({"foo"(){}});
                     "start": 5,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 17
             },
@@ -120,7 +120,8 @@ wrap({"foo"(){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ "\"foo\""() {} });
 ```
 
 ### Diagnostics

@@ -154,7 +154,7 @@ class C { constructor() { new super(); } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -118,7 +118,7 @@ switch (x) { case y: break; default: return; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

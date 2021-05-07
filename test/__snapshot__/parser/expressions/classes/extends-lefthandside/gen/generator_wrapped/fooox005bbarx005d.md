@@ -87,7 +87,7 @@ function *P(){
                                     "end": 32
                                 },
                                 "expression": {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "fooo",
@@ -152,7 +152,10 @@ function *P(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * P() {
+  class D  {}
+}
 ```
 
 ### Diagnostics

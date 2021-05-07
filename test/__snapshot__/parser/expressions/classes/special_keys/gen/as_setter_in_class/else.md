@@ -139,7 +139,10 @@ class x {set else(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set else(x) {}
+}
 ```
 
 ### Diagnostics

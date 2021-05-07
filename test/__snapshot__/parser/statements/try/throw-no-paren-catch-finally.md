@@ -103,7 +103,7 @@ throw {x} catch finally
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

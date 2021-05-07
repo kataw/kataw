@@ -38,7 +38,7 @@ for (456[x] in c) d;
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 201392130,
                     "text": 456,
@@ -98,7 +98,9 @@ for (456[x] in c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c)
+  d;
 ```
 
 ### Diagnostics

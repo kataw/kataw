@@ -72,7 +72,8 @@ for (yield in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in x);
 ```
 
 ### Diagnostics

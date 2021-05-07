@@ -281,7 +281,7 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                                                                 "start": 99,
                                                                                                                                 "end": 108
                                                                                                                             },
-                                                                                                                            "flags": 32,
+                                                                                                                            "flags": 268435488,
                                                                                                                             "start": 94,
                                                                                                                             "end": 109
                                                                                                                         },
@@ -412,7 +412,13 @@ var await; var f = (async function() { async function g(){let x = async function
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function () {
+    async function g() {
+      let x = async function f(foo = [h, { m: t(await bar) }]) {};
+    }
+  });
 ```
 
 ### Diagnostics

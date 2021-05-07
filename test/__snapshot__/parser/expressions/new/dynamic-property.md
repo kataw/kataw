@@ -51,7 +51,7 @@ function x(){""[new.target]}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 201392131,
                                     "text": "",
@@ -114,7 +114,10 @@ function x(){""[new.target]}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function x() {
+  ;
+}
 ```
 
 ### Diagnostics

@@ -140,7 +140,8 @@ x = class extends (a ? null : yield) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = class   {};
 ```
 
 ### Diagnostics

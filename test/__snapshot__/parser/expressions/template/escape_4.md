@@ -21,7 +21,7 @@
                 "kind": 458761,
                 "text": "a 4 b",
                 "rawText": "a \\4 b",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 0,
                 "end": 8
             },
@@ -42,7 +42,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`a 4 b`;
 ```
 
 ### Diagnostics

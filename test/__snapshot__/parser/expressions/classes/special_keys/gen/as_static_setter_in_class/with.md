@@ -144,7 +144,10 @@ class x {static set with(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static with(x) {}
+}
 ```
 
 ### Diagnostics

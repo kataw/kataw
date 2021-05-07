@@ -117,7 +117,8 @@ var asyncArrow = async(...await) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var asyncArrow = async (...) =>  {};
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ class C { aaa = new.target }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -98,7 +98,7 @@ class C { aaa = new.target }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

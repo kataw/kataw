@@ -198,7 +198,7 @@ let {x:y=z}, {a:b=c} = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

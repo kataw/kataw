@@ -59,7 +59,8 @@ new yield
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  yield();
 ```
 
 ### Diagnostics

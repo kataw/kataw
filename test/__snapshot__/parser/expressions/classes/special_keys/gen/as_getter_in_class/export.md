@@ -120,7 +120,10 @@ class x {get export(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get export() {}
+}
 ```
 
 ### Diagnostics

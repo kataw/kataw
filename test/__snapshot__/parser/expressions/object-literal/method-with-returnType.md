@@ -141,7 +141,8 @@ a={get fooProp():number{}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a = { get fooProp() {} };
 ```
 
 ### Diagnostics

@@ -121,7 +121,8 @@ const [...foo,] = obj;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const [...foo,] = obj;
 ```
 
 ### Diagnostics

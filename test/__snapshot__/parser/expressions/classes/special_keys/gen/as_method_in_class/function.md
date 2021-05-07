@@ -115,7 +115,10 @@ class x {function(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  function() {}
+}
 ```
 
 ### Diagnostics

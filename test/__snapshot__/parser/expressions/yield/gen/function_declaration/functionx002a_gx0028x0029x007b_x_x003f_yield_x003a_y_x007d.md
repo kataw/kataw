@@ -188,7 +188,7 @@ function not_gen() { function* g(){ x ? yield : y } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

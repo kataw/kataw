@@ -60,7 +60,7 @@ for ("foo".bar;;);
                     "start": 11,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 14
             },
@@ -89,7 +89,8 @@ for ("foo".bar;;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; );
 ```
 
 ### Diagnostics

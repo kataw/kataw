@@ -256,7 +256,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

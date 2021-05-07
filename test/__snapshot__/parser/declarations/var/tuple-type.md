@@ -392,7 +392,11 @@ var x: [number, string] = [123, "aladdin"];
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = [];
+var x = [123,];
+var x = [foo];
+var x = [123, "\"aladdin\""];
 ```
 
 ### Diagnostics

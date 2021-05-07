@@ -148,7 +148,7 @@ function *f(){ for (yield of obj); }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

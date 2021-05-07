@@ -142,7 +142,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                             "start": 51,
                                                                             "end": 51
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 45,
                                                                         "end": 51
                                                                     },
@@ -218,7 +218,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

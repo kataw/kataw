@@ -8,7 +8,7 @@ function f(){   return 15;    }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -96,7 +96,10 @@ function f(){   return 15;    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  return  15;
+}
 ```
 
 ### Diagnostics

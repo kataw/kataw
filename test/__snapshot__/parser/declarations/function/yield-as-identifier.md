@@ -464,7 +464,7 @@ function *foo() { let x = {yield} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -113,7 +113,7 @@ class C { yield\n a }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

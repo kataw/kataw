@@ -12,7 +12,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -241,7 +241,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function g() {
+  let o = { * async f(foo = await bar) {} };
+}
 ```
 
 ### Diagnostics

@@ -125,7 +125,10 @@ class x {async * protected(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async protected() {}
+}
 ```
 
 ### Diagnostics

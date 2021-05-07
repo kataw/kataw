@@ -244,7 +244,7 @@ function * gen() { function not_gen() { async function wrap() { async function a
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

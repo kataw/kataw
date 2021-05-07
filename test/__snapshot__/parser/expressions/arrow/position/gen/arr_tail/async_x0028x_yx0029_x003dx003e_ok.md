@@ -92,7 +92,7 @@
                     "start": 21,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 22
             },
@@ -113,7 +113,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[async (x, y) =>  ok].x;
 ```
 
 ### Diagnostics

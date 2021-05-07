@@ -118,7 +118,8 @@ import {'\uD800' as x} from 'foo'
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  "'\uD800'" x }  ;
 ```
 
 ### Diagnostics

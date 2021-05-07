@@ -37,7 +37,7 @@
                                         "end": 5
                                     },
                                     "argument": {
-                                        "kind": 130,
+                                        "kind": 536871042,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -135,7 +135,7 @@
                                                 "end": 27
                                             },
                                             "argument": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 220,
                                                     "propertyList": {
@@ -220,7 +220,7 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

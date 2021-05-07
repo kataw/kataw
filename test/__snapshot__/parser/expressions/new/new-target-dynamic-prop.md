@@ -123,7 +123,7 @@ function f(){ x({[new.target]:y}) }
                                     "start": 16,
                                     "end": 32
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 13,
                                 "end": 33
                             },
@@ -159,7 +159,10 @@ function f(){ x({[new.target]:y}) }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  x({ []: y });
+}
 ```
 
 ### Diagnostics

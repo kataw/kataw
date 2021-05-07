@@ -12,7 +12,7 @@ function f(x = await){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -105,7 +105,8 @@ function f(x = await){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f(x = await) {}
 ```
 
 ### Diagnostics

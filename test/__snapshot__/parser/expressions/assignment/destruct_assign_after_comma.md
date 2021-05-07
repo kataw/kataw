@@ -107,7 +107,8 @@ x, [foo, bar] = doo;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x, [foo, bar] = doo;
 ```
 
 ### Diagnostics

@@ -8,7 +8,7 @@ let x = async function f(foo = await){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -152,7 +152,7 @@ let x = async function f(foo = await){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

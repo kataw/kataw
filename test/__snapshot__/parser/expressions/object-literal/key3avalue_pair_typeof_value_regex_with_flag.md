@@ -89,7 +89,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ foo: typeof /x/g });
 ```
 
 ### Diagnostics

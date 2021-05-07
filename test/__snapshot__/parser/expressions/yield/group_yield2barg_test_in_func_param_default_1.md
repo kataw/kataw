@@ -150,7 +150,7 @@ function f(x=(yield z)=y){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

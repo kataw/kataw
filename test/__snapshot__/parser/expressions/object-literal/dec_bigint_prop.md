@@ -92,7 +92,8 @@ x = {10n: y}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { 10: y };
 ```
 
 ### Diagnostics

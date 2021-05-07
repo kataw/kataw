@@ -16,7 +16,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -214,7 +214,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

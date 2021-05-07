@@ -59,7 +59,8 @@ export default null;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default null;
 ```
 
 ### Diagnostics

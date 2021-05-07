@@ -120,7 +120,10 @@ class C { static get #aaa(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  static get static #aaa() {}
+}
 ```
 
 ### Diagnostics

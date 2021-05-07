@@ -181,7 +181,7 @@ export var [foo] = arr, [bar] = arr2;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

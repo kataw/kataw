@@ -92,7 +92,7 @@ async function f(){ async(await x); }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 19,
                             "end": 34
                         },
@@ -130,7 +130,11 @@ async function f(){ async(await x); }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  async(await x)
+
+}
 ```
 
 ### Diagnostics

@@ -223,7 +223,20 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+07;
+08;
+00008;
+065;
+02;
+076;
+000;
+{
+}
+(01);
+00008;
+032;
+0x8;
 ```
 
 ### Diagnostics

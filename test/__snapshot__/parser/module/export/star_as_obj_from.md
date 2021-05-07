@@ -133,7 +133,7 @@ export * as foo, {bar} from 'bar';
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

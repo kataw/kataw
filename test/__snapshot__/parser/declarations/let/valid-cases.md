@@ -383,7 +383,16 @@ let {foo=3} = {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let foo;
+let foo = 0;
+let [foo] = [1];
+let {
+  foo
+} = { foo: 2 };
+let {
+  foo = 3
+} = {};
 ```
 
 ### Diagnostics

@@ -115,7 +115,10 @@ class x {break(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  break() {}
+}
 ```
 
 ### Diagnostics

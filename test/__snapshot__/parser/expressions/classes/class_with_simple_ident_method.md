@@ -111,7 +111,10 @@ class A {a(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  a() {}
+}
 ```
 
 ### Diagnostics

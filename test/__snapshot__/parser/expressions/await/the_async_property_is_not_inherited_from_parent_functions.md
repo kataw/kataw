@@ -165,7 +165,7 @@ async function f(){ let y = x => await x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -123,7 +123,7 @@ wrap({set foo(a){}});
                     "start": 5,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 20
             },
@@ -144,7 +144,8 @@ wrap({set foo(a){}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ set foo(a) {} });
 ```
 
 ### Diagnostics

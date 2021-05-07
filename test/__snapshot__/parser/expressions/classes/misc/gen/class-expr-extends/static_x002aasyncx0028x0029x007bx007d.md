@@ -149,7 +149,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class   {
+    static static async() {}
+  });
 ```
 
 ### Diagnostics

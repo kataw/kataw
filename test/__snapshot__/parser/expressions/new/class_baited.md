@@ -96,7 +96,8 @@ new class extends{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  class   {}();
 ```
 
 ### Diagnostics

@@ -46,7 +46,7 @@ for (true.x in c) d;
                     "start": 10,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 11
             },
@@ -89,7 +89,9 @@ for (true.x in c) d;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c)
+  d;
 ```
 
 ### Diagnostics

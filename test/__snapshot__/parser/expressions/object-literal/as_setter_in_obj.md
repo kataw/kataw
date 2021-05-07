@@ -127,7 +127,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ set async(x) {} });
 ```
 
 ### Diagnostics

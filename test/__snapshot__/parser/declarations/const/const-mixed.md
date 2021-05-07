@@ -138,7 +138,8 @@ const map = {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const map = { [age <= 17]: "'Too young'" };
 ```
 
 ### Diagnostics

@@ -544,7 +544,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ set(...a) {} });
+({ set(a, ...b) {} });
+({ set([a], ...b) {} });
+({ set({
+      a: A
+    }, ...b) {} });
 ```
 
 ### Diagnostics

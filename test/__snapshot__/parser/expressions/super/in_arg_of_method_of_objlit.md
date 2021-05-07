@@ -132,7 +132,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                             "start": 42,
                                                                             "end": 45
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 36,
                                                                         "end": 45
                                                                     },
@@ -218,7 +218,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

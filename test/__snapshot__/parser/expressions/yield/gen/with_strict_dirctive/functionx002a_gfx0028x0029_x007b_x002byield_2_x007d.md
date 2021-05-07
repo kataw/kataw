@@ -134,7 +134,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gf() {
+  + 2;
+}
 ```
 
 ### Diagnostics

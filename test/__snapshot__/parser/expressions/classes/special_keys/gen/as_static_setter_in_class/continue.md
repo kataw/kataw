@@ -144,7 +144,10 @@ class x {static set continue(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static set static continue(x) {}
+}
 ```
 
 ### Diagnostics

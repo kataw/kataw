@@ -120,7 +120,10 @@ class x {static null(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static null() {}
+}
 ```
 
 ### Diagnostics

@@ -16,7 +16,7 @@ export function createIndexExpression(
     kind: SyntaxKind.IndexExpression,
     member,
     expression,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
     start,
     end
   };

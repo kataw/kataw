@@ -58,7 +58,8 @@ new null
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  null();
 ```
 
 ### Diagnostics

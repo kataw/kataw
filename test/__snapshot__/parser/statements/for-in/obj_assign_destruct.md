@@ -78,7 +78,7 @@ for ({x:a.b}=x in x) ;
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 6,
                                     "end": 11
                                 },
@@ -165,7 +165,7 @@ for ({x:a.b}=x in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

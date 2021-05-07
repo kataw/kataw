@@ -60,7 +60,8 @@ export default "foo";
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default "\"foo\"";
 ```
 
 ### Diagnostics

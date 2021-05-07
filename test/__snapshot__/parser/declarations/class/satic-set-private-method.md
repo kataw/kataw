@@ -139,7 +139,10 @@ class C { static set #aaa(x){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  static set static #aaa(x) {}
+}
 ```
 
 ### Diagnostics

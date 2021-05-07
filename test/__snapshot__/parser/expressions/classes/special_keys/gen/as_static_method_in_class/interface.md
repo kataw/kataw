@@ -120,7 +120,10 @@ class x {static interface(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static interface() {}
+}
 ```
 
 ### Diagnostics

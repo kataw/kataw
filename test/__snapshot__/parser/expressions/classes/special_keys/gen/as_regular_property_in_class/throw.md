@@ -99,7 +99,7 @@ class x {throw: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

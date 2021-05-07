@@ -117,7 +117,8 @@ x = {0o730(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { 0o730() {} };
 ```
 
 ### Diagnostics

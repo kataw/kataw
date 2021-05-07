@@ -70,7 +70,7 @@ async function f(){
                                 "end": 57
                             },
                             "initializer": {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 177,
                                     "asyncKeyword": null,
@@ -194,7 +194,10 @@ async function f(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  for await ( of x);
+}
 ```
 
 ### Diagnostics

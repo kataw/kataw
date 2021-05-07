@@ -22,7 +22,7 @@ async => {}[foo]
         {
             "kind": 120,
             "expression": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 271,
                     "arrowToken": {
@@ -94,7 +94,7 @@ async => {}[foo]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

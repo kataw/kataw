@@ -124,7 +124,7 @@ class x extends y {
                                                                         "end": 49
                                                                     },
                                                                     "right": {
-                                                                        "kind": 130,
+                                                                        "kind": 536871042,
                                                                         "member": {
                                                                             "kind": 225,
                                                                             "superKeyword": {
@@ -228,7 +228,12 @@ class x extends y {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {
+  constructor() {
+    ({ "\"foo\"":  } = x);
+  }
+}
 ```
 
 ### Diagnostics

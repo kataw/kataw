@@ -802,7 +802,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 196,
                     "end": 208
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 192,
                 "end": 208
             },
@@ -903,7 +903,7 @@ x({ x: x &&= 2 ] = { x: 2 });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

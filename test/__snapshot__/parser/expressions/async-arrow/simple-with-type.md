@@ -95,7 +95,8 @@ async (s: any) => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (s) =>  x
 ```
 
 ### Diagnostics

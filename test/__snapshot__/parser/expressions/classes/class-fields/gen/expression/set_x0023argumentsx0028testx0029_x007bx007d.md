@@ -158,7 +158,10 @@ class C extends Base { set #arguments(test) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C  {
+  set #arguments(test) {}
+}
 ```
 
 ### Diagnostics

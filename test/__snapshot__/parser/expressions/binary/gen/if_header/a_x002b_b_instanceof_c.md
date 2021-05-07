@@ -100,7 +100,8 @@ if ( a + b instanceof c ) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (a + b inctanceof c);
 ```
 
 ### Diagnostics

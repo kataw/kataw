@@ -69,7 +69,7 @@ function f(){ "use strict"
                                     "start": 44,
                                     "end": 47
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 13,
                                 "end": 47
                             },
@@ -139,7 +139,11 @@ function f(){ "use strict"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  "\"use strict\"".foo;
+  eval = 1;
+}
 ```
 
 ### Diagnostics

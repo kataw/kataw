@@ -87,7 +87,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "start": 26,
                                                 "end": 30
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 8,
                                             "end": 30
                                         },
@@ -108,7 +108,7 @@ async ({ident: [foo, bar].join("")}) => x
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 8,
                                         "end": 34
                                     },
@@ -132,7 +132,7 @@ async ({ident: [foo, bar].join("")}) => x
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 36
         },
@@ -163,7 +163,7 @@ async ({ident: [foo, bar].join("")}) => x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

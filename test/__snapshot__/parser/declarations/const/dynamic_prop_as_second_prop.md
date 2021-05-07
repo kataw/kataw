@@ -151,7 +151,11 @@ const {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const {
+  a,
+  [x]: y
+} = a;
 ```
 
 ### Diagnostics

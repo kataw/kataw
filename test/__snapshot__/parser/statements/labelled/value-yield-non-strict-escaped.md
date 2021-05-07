@@ -78,7 +78,8 @@ yi\u0065ld: 1;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+yield: 1;
 ```
 
 ### Diagnostics

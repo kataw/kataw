@@ -120,7 +120,10 @@ class x {get package(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get package() {}
+}
 ```
 
 ### Diagnostics

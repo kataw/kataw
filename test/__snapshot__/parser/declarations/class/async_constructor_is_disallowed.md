@@ -124,7 +124,7 @@ class X {    async constructor() {}   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

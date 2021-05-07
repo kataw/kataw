@@ -166,7 +166,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                     "start": 5,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 44
             },
@@ -187,7 +187,8 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+wrap({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
 ```
 
 ### Diagnostics

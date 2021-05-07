@@ -568,7 +568,22 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class C {
+    constructor() {}
+  });
+(class C {
+    static static constructor() {}
+  });
+(class C {
+    static get static constructor() {}
+  });
+(class C {
+    static set static constructor(_) {}
+  });
+(class C {
+    static static constructor() {}
+  });
 ```
 
 ### Diagnostics

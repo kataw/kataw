@@ -120,7 +120,10 @@ class x {get delete(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get delete() {}
+}
 ```
 
 ### Diagnostics

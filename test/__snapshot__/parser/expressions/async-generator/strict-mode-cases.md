@@ -32,7 +32,7 @@ function * x() { "use strict";  yield: 34; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -1751,7 +1751,7 @@ function * x() { "use strict";  yield: 34; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -130,7 +130,7 @@ class x {static async * yield(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

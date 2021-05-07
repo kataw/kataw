@@ -102,7 +102,10 @@ async () => {  st\u0061tic = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  static = x;
+}
 ```
 
 ### Diagnostics

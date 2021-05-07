@@ -96,7 +96,8 @@ class A extends new x {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A  {}
 ```
 
 ### Diagnostics

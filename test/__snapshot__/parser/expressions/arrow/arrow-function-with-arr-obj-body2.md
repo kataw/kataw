@@ -106,7 +106,7 @@ var v = a => <any><any>{}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -132,7 +132,7 @@ for (function(){ a in b; }.prop in x);
                     "start": 27,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 31
             },
@@ -167,7 +167,8 @@ for (function(){ a in b; }.prop in x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in x);
 ```
 
 ### Diagnostics

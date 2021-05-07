@@ -160,7 +160,7 @@
                                                                             "start": 34,
                                                                             "end": 34
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 268435488,
                                                                         "start": 34,
                                                                         "end": 41
                                                                     }
@@ -170,7 +170,7 @@
                                                                 "start": 28,
                                                                 "end": 28
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 268435488,
                                                             "start": 28,
                                                             "end": 42
                                                         }
@@ -180,7 +180,7 @@
                                                     "start": 22,
                                                     "end": 22
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 22,
                                                 "end": 43
                                             }
@@ -190,7 +190,7 @@
                                         "start": 16,
                                         "end": 16
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 16,
                                     "end": 44
                                 }
@@ -200,7 +200,7 @@
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 10,
                         "end": 45
                     }
@@ -210,7 +210,7 @@
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 46
         },
@@ -238,7 +238,7 @@
                 "start": 47,
                 "end": 47
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 47,
             "end": 59
         },
@@ -316,7 +316,7 @@
                 "start": 75,
                 "end": 75
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 75,
             "end": 88
         },
@@ -359,7 +359,7 @@
                             "start": 92,
                             "end": 93
                         },
-                        "flags": 32,
+                        "flags": 268435488,
                         "start": 88,
                         "end": 94
                     },
@@ -380,7 +380,7 @@
                         "start": 95,
                         "end": 96
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 88,
                     "end": 97
                 },
@@ -401,7 +401,7 @@
                     "start": 98,
                     "end": 99
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 88,
                 "end": 100
             },
@@ -412,7 +412,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 134299649,
                     "text": "x",
@@ -1136,7 +1136,7 @@
                 "start": 362,
                 "end": 362
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 362,
             "end": 385
         },
@@ -1839,7 +1839,7 @@
                 "start": 654,
                 "end": 654
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 654,
             "end": 668
         },
@@ -1900,7 +1900,7 @@
                                 "start": 682,
                                 "end": 682
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 682,
                             "end": 691
                         },
@@ -2713,7 +2713,7 @@
                     "start": 949,
                     "end": 970
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 941,
                 "end": 971
             },
@@ -3690,7 +3690,7 @@
                             "start": 1372,
                             "end": 1373
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 1335,
                         "end": 1373
                     },
@@ -3702,7 +3702,7 @@
                         "start": 1374,
                         "end": 1374
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 1335,
                     "end": 1375
                 },
@@ -4605,7 +4605,7 @@
                                                         "start": 1739,
                                                         "end": 1742
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 1737,
                                                     "end": 1742
                                                 },
@@ -4842,7 +4842,83 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async(async(async(async(async(async())))))
+async()
+(async () =>  {});
+async(a)
+(s)(y)(n)(c);
+;
+({ async foo() {} });
+({ async() {} });
+async () =>  {}
+async () =>  {
+  return  42;
+}
+(async x =>  y);
+(async (x, z) =>  y);
+({ x: async (y, w) =>  z });
+async ({ x = yield }) =>  1
+async (icefapper = bad) =>  {}
+async({ a: b = c })
+async ({ a = b }) =>  a
+async (a, b) =>  a
+async () =>  a
+asyncFn = async ({ foo = 1 }) =>  foo;
+asyncFn = async ({ foo = 1 } = {}) =>  foo;
+foo = ({ async = true }) =>  {};
+foo = async ({ async: bar }) =>  {
+  await baz;
+};
+async ({}) =>  0
+async(a)
+var x = async(x);
+var x = async (a, b) =>  await a + b;
+var x = async (a, b, c, d, e, f, g) =>  await a + await b + c + d + e + f + g;
+async (a) =>  b
+[async (x, y) =>  z];
+[async x =>  z];
+id = async x =>  x, square = async (y) =>  {
+    y * y;
+  };
+f(a, async b =>  await b);
+async (x, y) =>  {
+  x * y;
+}
+async (x, y) =>  y
+async a =>  {
+  await a;
+};
+async (y) =>  y
+async (x, ...) =>  x
+async (x, y) =>  x
+async ({ a = b }) =>  a
+(async (x) =>  {}) + 1;
+(async (x) =>  {}) / 1;
+async a =>  a;
+async function foo(a = async () =>  await b) {}
+({ async: 1 });
+async yield =>  1;
+() =>  ({ async f() {
+      return  "\"test4\"";
+    } }).f();
+async ({ x = yield }) =>  1
+async (async) =>  1
+async ([a]) =>  1
+async ([a, b]) =>  1
+async ({ a }) =>  1
+async ({ a, b }) =>  1
+async a =>  async b =>  c;
+async a =>  async function () {};
+async a =>  async function b() {};
+async a =>  await 1;
+async x =>  x =>  x;
+async x =>  {
+  return  () =>  x;
+};
+var f = cond ? x =>  {
+      x.foo;
+    } : x =>  x + x + x + x + x + x + (x =>  x);
 ```
 
 ### Diagnostics

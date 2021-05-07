@@ -107,7 +107,8 @@ for (a in b=c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in b = c);
 ```
 
 ### Diagnostics

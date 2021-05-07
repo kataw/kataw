@@ -56,7 +56,7 @@ for ((async) of x);
                     "start": 12,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 6,
                 "end": 13
             },
@@ -242,7 +242,11 @@ for ((async) of x);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (async.x of y);
+for (async of x);
+for (; ; );
+for ((async) of x);
 ```
 
 ### Diagnostics

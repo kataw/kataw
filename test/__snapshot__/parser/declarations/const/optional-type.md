@@ -123,7 +123,8 @@ const f = (...x?) => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const f = (...x?) =>  {};
 ```
 
 ### Diagnostics

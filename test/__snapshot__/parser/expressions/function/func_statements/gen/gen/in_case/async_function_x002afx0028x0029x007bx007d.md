@@ -15,7 +15,7 @@ switch (x) {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -142,7 +142,11 @@ switch (x) {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(x
+  case foo:
+    async function * f() {}
+ 
 ```
 
 ### Diagnostics

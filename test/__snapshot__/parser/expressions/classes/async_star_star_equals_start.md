@@ -94,7 +94,7 @@ class A {async **=f(){}}
                     "start": 20,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 18,
                 "end": 21
             },
@@ -128,7 +128,7 @@ class A {async **=f(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

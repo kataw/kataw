@@ -118,7 +118,10 @@ class x { \u0063onstructor(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  constructor() {}
+}
 ```
 
 ### Diagnostics

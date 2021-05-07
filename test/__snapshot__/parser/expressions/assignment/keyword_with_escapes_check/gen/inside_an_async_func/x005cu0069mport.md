@@ -97,7 +97,7 @@ async () => {  \u0069mport = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

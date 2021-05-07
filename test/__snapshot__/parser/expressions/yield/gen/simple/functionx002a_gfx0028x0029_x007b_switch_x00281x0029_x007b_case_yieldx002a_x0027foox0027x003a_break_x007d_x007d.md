@@ -167,7 +167,13 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gf() {
+  switch(1
+    case  "'foo'":
+      break;
+
+}
 ```
 
 ### Diagnostics

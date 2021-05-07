@@ -1,2 +1,4 @@
-# Convert text file line endings to lf
-* text=auto eol=lf
+# disable text translations
+# refs: https://github.com/actions/checkout/issues/135#issuecomment-613329879
+* -text
+

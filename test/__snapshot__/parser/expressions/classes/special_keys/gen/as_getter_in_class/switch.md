@@ -120,7 +120,10 @@ class x {get switch(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get switch() {}
+}
 ```
 
 ### Diagnostics

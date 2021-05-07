@@ -61,7 +61,8 @@ while (x) continue
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+while (x) continue;
 ```
 
 ### Diagnostics

@@ -120,7 +120,7 @@ class x {get yield(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

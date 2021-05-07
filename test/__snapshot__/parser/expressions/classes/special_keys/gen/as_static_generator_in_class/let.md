@@ -125,7 +125,10 @@ class x {static * let(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static let() {}
+}
 ```
 
 ### Diagnostics

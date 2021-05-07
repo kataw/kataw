@@ -243,7 +243,7 @@ for (;;) {}});
                     "start": 31,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 61
             },
@@ -2881,7 +2881,7 @@ for (;;) {}});
                                                         "start": 1056,
                                                         "end": 1061
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 1053,
                                                     "end": 1062
                                                 },
@@ -3285,7 +3285,99 @@ for (;;) {}});
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function * gen() {
+     2;
+  })(function * gen() {
+   2;
+});
+(function * gen() {
+     2;
+  });
+(function * gen() {
+      1;
+  });
+(function * gen() {
+      1;
+  });
+(function * gen() {
+     3 + ( 4);
+  });
+(function * gen() {
+     3 + ( 4);
+  });
+(function * gen() {
+     1;
+    return ;
+  });
+(function * gen() {
+     1;
+    return  37;
+  });
+(function * gen() {
+     1;
+    return  37;
+  });
+(function * gen() {
+     1;
+    return  37;
+     "'dead'";
+  });
+(function * gen() {
+     1;
+    return  37;
+     "'dead'";
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+    ( );
+  });
+(function * gen() {
+    [ ];
+  });
+(function * gen() {
+    {
+       ;
+    }
+  });
+(function * gen() {
+     ,  ;
+  });
+(function * gen() {
+     ;
+     ;
+  });
+(function * gen() {
+    ( ) ?   :  ;
+  });
+(function * gen() {
+    ( ) ?   :  ;
+  });
+// If there is a newline before the next token, we don't look for RHS.
+(function * gen() {
+     ;
+    for (;;) {}
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
 ```
 
 ### Diagnostics

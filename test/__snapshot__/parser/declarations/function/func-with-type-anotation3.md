@@ -27,7 +27,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -193,7 +193,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function foo(callback) {}
 ```
 
 ### Diagnostics

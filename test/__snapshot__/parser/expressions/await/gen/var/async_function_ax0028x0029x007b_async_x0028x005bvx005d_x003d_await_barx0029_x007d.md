@@ -225,7 +225,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                     "start": 58,
                                                                     "end": 58
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 268435488,
                                                                 "start": 58,
                                                                 "end": 86
                                                             },
@@ -295,7 +295,14 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function () {
+    async function a() {
+      async([v] = await bar)
+
+    }
+  });
 ```
 
 ### Diagnostics

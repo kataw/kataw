@@ -125,7 +125,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "start": 28,
                                                                     "end": 30
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 22,
                                                                 "end": 30
                                                             },
@@ -261,7 +261,7 @@ class C { foo() { this.#a = 1; }}
                                                                     "start": 75,
                                                                     "end": 77
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 69,
                                                                 "end": 77
                                                             },
@@ -301,7 +301,7 @@ class C { foo() { this.#a = 1; }}
                     "start": 44,
                     "end": 81
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 82
             },
@@ -410,7 +410,7 @@ class C { foo() { this.#a = 1; }}
                                                     "start": 126,
                                                     "end": 128
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 120,
                                                 "end": 128
                                             },
@@ -521,7 +521,7 @@ class C { foo() { this.#a = 1; }}
                                                         "start": 157,
                                                         "end": 159
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 151,
                                                     "end": 159
                                                 },
@@ -586,7 +586,26 @@ class C { foo() { this.#a = 1; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+    set #b(val) {
+      this.#a = val;
+    }
+  })(class  {
+    get #b() {
+      return  this.#a;
+    }
+  });
+class C  {
+  foo() {
+    return  this.#a;
+  }
+}
+class C {
+  foo() {
+    this.#a = 1;
+  }
+}
 ```
 
 ### Diagnostics

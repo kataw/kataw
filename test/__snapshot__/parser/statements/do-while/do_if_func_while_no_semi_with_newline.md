@@ -9,7 +9,7 @@ while(y)
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -124,7 +124,9 @@ while(y)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+do if (8) function s() {}
+while (y);
 ```
 
 ### Diagnostics

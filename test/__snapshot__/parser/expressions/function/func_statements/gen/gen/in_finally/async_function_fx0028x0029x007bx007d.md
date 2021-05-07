@@ -15,7 +15,7 @@ try {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -133,7 +133,11 @@ try {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+try {
+} try{
+  async function f() {}
+}
 ```
 
 ### Diagnostics

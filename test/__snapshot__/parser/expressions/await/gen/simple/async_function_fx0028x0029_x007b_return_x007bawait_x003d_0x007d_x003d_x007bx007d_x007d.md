@@ -160,7 +160,7 @@ async function f() { return {await = 0} = {}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

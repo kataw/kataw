@@ -120,7 +120,10 @@ class x {get implements(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get implements() {}
+}
 ```
 
 ### Diagnostics

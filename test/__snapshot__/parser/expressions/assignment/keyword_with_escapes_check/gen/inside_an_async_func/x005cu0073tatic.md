@@ -102,7 +102,10 @@ async () => {  \u0073tatic = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async () =>  {
+  static = x;
+}
 ```
 
 ### Diagnostics

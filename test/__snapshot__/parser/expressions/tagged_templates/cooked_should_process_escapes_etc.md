@@ -31,7 +31,7 @@ foo`H\x45Y`
                     "kind": 458761,
                     "text": "HEY",
                     "rawText": "H\\x45Y",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 3,
                     "end": 11
                 },
@@ -56,7 +56,8 @@ foo`H\x45Y`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo`HEY`;
 ```
 
 ### Diagnostics

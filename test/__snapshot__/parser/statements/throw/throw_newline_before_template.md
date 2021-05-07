@@ -10,7 +10,7 @@ throw
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -29,7 +29,7 @@ throw
                 "kind": 458761,
                 "text": "\n",
                 "rawText": "\n",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 5,
                 "end": 9
             },
@@ -50,7 +50,7 @@ throw
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

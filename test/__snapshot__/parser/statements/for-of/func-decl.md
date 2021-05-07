@@ -27,7 +27,7 @@ function x(a, [x]) {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -156,7 +156,8 @@ function x(a, [x]) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function x(a, [x]) {}
 ```
 
 ### Diagnostics

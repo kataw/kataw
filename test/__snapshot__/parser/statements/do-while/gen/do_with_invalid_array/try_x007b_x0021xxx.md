@@ -12,7 +12,7 @@ do while [catch] try { !xxx
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -146,7 +146,7 @@ do while [catch] try { !xxx
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

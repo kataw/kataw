@@ -16,7 +16,7 @@ function foo<T,S>() {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -120,7 +120,8 @@ function foo<T,S>() {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function foo() {}
 ```
 
 ### Diagnostics

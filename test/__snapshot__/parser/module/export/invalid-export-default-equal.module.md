@@ -79,7 +79,7 @@ export default = 42
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

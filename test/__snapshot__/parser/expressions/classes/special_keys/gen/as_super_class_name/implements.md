@@ -83,7 +83,7 @@ class x extends implements {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

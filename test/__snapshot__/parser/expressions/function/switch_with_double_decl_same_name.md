@@ -13,7 +13,7 @@ switch (0) {
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -191,7 +191,13 @@ switch (0) {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(0
+  case 1:
+    function f() {}
+  default
+    function f() {}
+ 
 ```
 
 ### Diagnostics

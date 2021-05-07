@@ -164,7 +164,13 @@ var {x = 10, y: { z = 10}} = a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x = 10,
+  y: {
+    z = 10
+  }
+} = a;
 ```
 
 ### Diagnostics

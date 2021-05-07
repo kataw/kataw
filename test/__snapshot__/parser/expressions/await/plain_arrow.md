@@ -157,7 +157,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                                                 "start": 42,
                                                                                 "end": 51
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 268435488,
                                                                             "start": 39,
                                                                             "end": 52
                                                                         },
@@ -246,7 +246,10 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function a() {
+  (foo = [{ m: 5 + t(await bar) }]) =>  {};
+}
 ```
 
 ### Diagnostics

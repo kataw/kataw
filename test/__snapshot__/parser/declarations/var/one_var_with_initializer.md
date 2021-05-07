@@ -114,7 +114,8 @@ var [foo=a] = arr;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var [foo = a] = arr;
 ```
 
 ### Diagnostics

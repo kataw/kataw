@@ -398,7 +398,7 @@ async function f(){}
                                                         "start": 108,
                                                         "end": 108
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 268435488,
                                                     "start": 106,
                                                     "end": 109
                                                 },
@@ -966,7 +966,7 @@ async function f(){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

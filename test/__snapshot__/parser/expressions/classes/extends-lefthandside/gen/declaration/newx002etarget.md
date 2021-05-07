@@ -12,7 +12,7 @@ class A extends new.target {}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -93,7 +93,7 @@ class A extends new.target {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

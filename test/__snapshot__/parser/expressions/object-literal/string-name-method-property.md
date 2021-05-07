@@ -154,7 +154,10 @@ var x = {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var x = { "\"foo\""() {
+    return  bar;
+  } };
 ```
 
 ### Diagnostics

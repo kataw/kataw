@@ -158,7 +158,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ * class(x, y) {} });
 ```
 
 ### Diagnostics

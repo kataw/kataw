@@ -56,7 +56,7 @@ async ([...x.y]) => z
                                         "start": 13,
                                         "end": 14
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 11,
                                     "end": 14
                                 },
@@ -107,7 +107,7 @@ async ([...x.y]) => z
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

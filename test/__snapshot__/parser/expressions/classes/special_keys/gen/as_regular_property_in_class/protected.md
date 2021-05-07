@@ -99,7 +99,7 @@ class x {protected: x}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

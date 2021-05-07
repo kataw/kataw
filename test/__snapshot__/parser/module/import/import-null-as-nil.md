@@ -118,7 +118,8 @@ import { null as nil } from "bar"
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+  null asnil }  ;
 ```
 
 ### Diagnostics

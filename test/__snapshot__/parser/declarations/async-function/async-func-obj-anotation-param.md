@@ -168,7 +168,10 @@ async function foo({x}: { x: string; }) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function foo({
+  x
+}) {}
 ```
 
 ### Diagnostics

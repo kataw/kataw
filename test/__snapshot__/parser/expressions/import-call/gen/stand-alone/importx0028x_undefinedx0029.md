@@ -74,7 +74,7 @@ import(x,undefined)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -88,7 +88,7 @@ foo( a > b instanceof c )
                     "start": 4,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 25
             },
@@ -109,7 +109,8 @@ foo( a > b instanceof c )
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(a > b inctanceof c);
 ```
 
 ### Diagnostics

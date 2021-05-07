@@ -12,7 +12,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -232,7 +232,10 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function g() {
+  let o = { * async f(foo = await bar) {} };
+}
 ```
 
 ### Diagnostics

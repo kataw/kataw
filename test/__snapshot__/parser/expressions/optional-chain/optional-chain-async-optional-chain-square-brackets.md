@@ -131,7 +131,7 @@ async function x() {
                                         "chain": {
                                             "kind": 206,
                                             "chain": {
-                                                "kind": 202,
+                                                "kind": 536871114,
                                                 "chain": null,
                                                 "expression": {
                                                     "kind": 134299649,
@@ -157,7 +157,7 @@ async function x() {
                                             "start": 42,
                                             "end": 43
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 41,
                                         "end": 43
                                     },
@@ -201,7 +201,10 @@ async function x() {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function x() {
+  await  = ;
+}
 ```
 
 ### Diagnostics

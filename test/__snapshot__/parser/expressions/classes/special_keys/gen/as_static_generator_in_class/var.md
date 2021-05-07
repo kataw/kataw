@@ -125,7 +125,10 @@ class x {static * var(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static var() {}
+}
 ```
 
 ### Diagnostics

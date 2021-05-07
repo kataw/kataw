@@ -217,7 +217,13 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var o = { * gf() {
+    switch(1
+      case  :
+        break;
+
+  } };
 ```
 
 ### Diagnostics

@@ -125,7 +125,12 @@ class x {foo(){ return }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  foo() {
+    return ;
+  }
+}
 ```
 
 ### Diagnostics

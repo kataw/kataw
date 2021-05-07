@@ -92,7 +92,8 @@ x = {15:b}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { 15: b };
 ```
 
 ### Diagnostics

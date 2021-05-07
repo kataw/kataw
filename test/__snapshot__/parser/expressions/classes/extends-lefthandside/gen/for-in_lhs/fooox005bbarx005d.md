@@ -34,7 +34,7 @@ for (fooo[bar] in x) ;
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 134299649,
                     "text": "fooo",
@@ -86,7 +86,8 @@ for (fooo[bar] in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in x);
 ```
 
 ### Diagnostics

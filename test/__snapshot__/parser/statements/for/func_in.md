@@ -141,7 +141,8 @@ for (function(){ a in b; };;);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for (; ; );
 ```
 
 ### Diagnostics

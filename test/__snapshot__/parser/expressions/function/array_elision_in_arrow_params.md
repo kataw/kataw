@@ -101,7 +101,7 @@ f = ([[,] = g()]) => {};
                                                 "start": 14,
                                                 "end": 14
                                             },
-                                            "flags": 32,
+                                            "flags": 268435488,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -161,7 +161,8 @@ f = ([[,] = g()]) => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+f = ([[,] = g()]) =>  {};
 ```
 
 ### Diagnostics

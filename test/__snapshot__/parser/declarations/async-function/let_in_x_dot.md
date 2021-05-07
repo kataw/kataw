@@ -56,7 +56,7 @@ let.dot in x
                         "start": 4,
                         "end": 7
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 7
                 },
@@ -95,7 +95,8 @@ let.dot in x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let.dot in x;
 ```
 
 ### Diagnostics

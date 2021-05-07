@@ -8,7 +8,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -194,7 +194,10 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  (fail = class A  {}) =>  fail;
+}
 ```
 
 ### Diagnostics

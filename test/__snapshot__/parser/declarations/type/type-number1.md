@@ -79,7 +79,8 @@ type foo<number> = string;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

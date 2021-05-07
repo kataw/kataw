@@ -175,7 +175,8 @@ const fn = async (a?: any): Promise<void> => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+const fn = async (a?) =>  {};
 ```
 
 ### Diagnostics

@@ -125,7 +125,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function call(foo = await) {});
 ```
 
 ### Diagnostics

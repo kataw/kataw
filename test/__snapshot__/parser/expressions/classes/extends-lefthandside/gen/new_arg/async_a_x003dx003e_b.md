@@ -87,7 +87,8 @@ new async a => b
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+new  async a =>  b();
 ```
 
 ### Diagnostics

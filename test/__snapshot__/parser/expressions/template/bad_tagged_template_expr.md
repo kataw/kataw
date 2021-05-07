@@ -80,7 +80,8 @@ x`foo ${a b} bar`
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x`foo ${a}} bar`;
 ```
 
 ### Diagnostics

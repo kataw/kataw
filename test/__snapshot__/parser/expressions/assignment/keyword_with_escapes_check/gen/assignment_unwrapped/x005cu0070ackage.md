@@ -66,7 +66,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+package = x;
 ```
 
 ### Diagnostics

@@ -12,7 +12,7 @@ async function af(a, b = await a) { }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -140,7 +140,8 @@ async function af(a, b = await a) { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function af(a, b = await a) {}
 ```
 
 ### Diagnostics

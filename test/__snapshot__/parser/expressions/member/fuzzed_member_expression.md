@@ -31,7 +31,7 @@
                         "kind": 132,
                         "expressions": [
                             {
-                                "kind": 130,
+                                "kind": 536871042,
                                 "member": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -120,7 +120,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(, x) > x;
 ```
 
 ### Diagnostics

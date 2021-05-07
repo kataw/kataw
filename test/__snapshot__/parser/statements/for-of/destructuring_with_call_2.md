@@ -73,7 +73,7 @@ for ({a: b.c}() of d) e
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -99,7 +99,7 @@ for ({a: b.c}() of d) e
                     "start": 14,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 15
             },
@@ -143,7 +143,7 @@ for ({a: b.c}() of d) e
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

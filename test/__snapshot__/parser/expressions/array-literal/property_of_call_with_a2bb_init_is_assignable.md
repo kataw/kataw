@@ -54,7 +54,7 @@
                                             "start": 3,
                                             "end": 3
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 1,
                                         "end": 4
                                     },
@@ -66,7 +66,7 @@
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 1,
                                     "end": 6
                                 },
@@ -153,7 +153,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[x().y = a + b] = z;
 ```
 
 ### Diagnostics

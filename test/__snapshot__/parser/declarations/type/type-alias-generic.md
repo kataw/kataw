@@ -108,7 +108,8 @@ type T<U> = U;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

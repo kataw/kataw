@@ -65,7 +65,7 @@ foo(async () => foo)
                     "start": 4,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 20
             },
@@ -86,7 +86,8 @@ foo(async () => foo)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+foo(async () =>  foo);
 ```
 
 ### Diagnostics

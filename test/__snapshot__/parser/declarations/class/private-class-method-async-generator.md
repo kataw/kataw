@@ -120,7 +120,10 @@ class C { async*#aaa(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  async #aaa() {}
+}
 ```
 
 ### Diagnostics

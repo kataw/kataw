@@ -8,7 +8,7 @@ function* f(){ yield x + y; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -129,7 +129,10 @@ function* f(){ yield x + y; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+   x + y;
+}
 ```
 
 ### Diagnostics

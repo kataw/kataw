@@ -1,6 +1,7 @@
 import { parse, Options } from './parser/parser';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
+import { printSourceFile } from './printer';
 export {
   isStatementNode,
   isExpressionNode,
@@ -34,7 +35,10 @@ export {
   isLexical,
   isFutureReserved,
   isStartOfType,
-  isSemicolon
+  isSemicolon,
+  isCallExpression,
+  isMemberExpression,
+  isTemplateLiteral
 } from './parser/common';
 export { getTrailingComments, getLeadingComment } from './parser/scanner/comments';
 
@@ -53,4 +57,12 @@ export function parseModule(source: string, options?: Options, onError?: OnError
     options,
     onError
   );
+}
+
+export function prettifyScript(source: string, options?: Options, onError?: OnError): string {
+  return printSourceFile(parseScript(source, options, onError), options as any);
+}
+
+export function prettifyModule(source: string, options?: Options, onError?: OnError): string {
+  return printSourceFile(parseModule(source, options, onError), options as any);
 }

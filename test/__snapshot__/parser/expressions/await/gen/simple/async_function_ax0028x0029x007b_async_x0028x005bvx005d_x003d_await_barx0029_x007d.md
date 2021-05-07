@@ -131,7 +131,7 @@ async function a(){     async ([v] = await bar);     }
                                 "start": 19,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 268435488,
                             "start": 19,
                             "end": 47
                         },
@@ -169,7 +169,11 @@ async function a(){     async ([v] = await bar);     }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function a() {
+  async([v] = await bar)
+
+}
 ```
 
 ### Diagnostics

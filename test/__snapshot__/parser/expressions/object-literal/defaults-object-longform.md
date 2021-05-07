@@ -118,7 +118,10 @@ var { x: x = 10 } = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x: x = 10
+} = x;
 ```
 
 ### Diagnostics

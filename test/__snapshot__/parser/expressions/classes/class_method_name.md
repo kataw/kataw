@@ -117,7 +117,10 @@ class x {async(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async() {}
+}
 ```
 
 ### Diagnostics

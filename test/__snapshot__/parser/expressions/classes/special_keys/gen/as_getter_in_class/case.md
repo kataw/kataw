@@ -120,7 +120,10 @@ class x {get case(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get case() {}
+}
 ```
 
 ### Diagnostics

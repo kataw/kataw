@@ -185,7 +185,9 @@ var x = {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo, get, set;
+var x = { foo, get, set };
 ```
 
 ### Diagnostics

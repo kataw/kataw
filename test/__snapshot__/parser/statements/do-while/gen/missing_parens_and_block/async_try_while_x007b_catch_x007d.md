@@ -133,7 +133,7 @@ do async try while { catch } while
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

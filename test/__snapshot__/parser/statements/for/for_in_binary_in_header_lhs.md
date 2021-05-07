@@ -127,7 +127,7 @@ for (x in a>c;;) x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

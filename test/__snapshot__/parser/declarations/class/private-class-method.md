@@ -129,7 +129,10 @@ class C { #aaa(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  #aaa() {}
+}
 ```
 
 ### Diagnostics

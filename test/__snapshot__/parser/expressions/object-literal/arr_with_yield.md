@@ -41,7 +41,7 @@ result = [x[yield]] = vals;
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 130,
+                                    "kind": 536871042,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -111,7 +111,8 @@ result = [x[yield]] = vals;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+result = [] = vals;
 ```
 
 ### Diagnostics

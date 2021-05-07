@@ -120,7 +120,10 @@ class x {get for(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get for() {}
+}
 ```
 
 ### Diagnostics

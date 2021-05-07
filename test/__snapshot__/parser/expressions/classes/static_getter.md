@@ -121,7 +121,10 @@ class A {static get foo(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  static get static foo() {}
+}
 ```
 
 ### Diagnostics

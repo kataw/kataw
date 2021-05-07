@@ -125,7 +125,10 @@ class x {static * super(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static super() {}
+}
 ```
 
 ### Diagnostics

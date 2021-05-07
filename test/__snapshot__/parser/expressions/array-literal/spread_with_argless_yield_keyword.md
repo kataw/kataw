@@ -14,7 +14,7 @@ function *f(){ return [...yield]; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -141,7 +141,10 @@ function *f(){ return [...yield]; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  return  [... ];
+}
 ```
 
 ### Diagnostics

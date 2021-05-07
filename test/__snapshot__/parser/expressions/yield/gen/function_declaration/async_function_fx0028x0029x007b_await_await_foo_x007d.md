@@ -12,7 +12,7 @@ function not_gen() { async function f(){ await await foo; } }}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -171,7 +171,7 @@ function not_gen() { async function f(){ await await foo; } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

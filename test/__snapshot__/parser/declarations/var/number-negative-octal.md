@@ -16,7 +16,7 @@ var a: -0x7B
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -119,7 +119,7 @@ var a: -0x7B
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

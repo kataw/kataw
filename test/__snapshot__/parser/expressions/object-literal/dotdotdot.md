@@ -8,7 +8,7 @@ var { ...{ x = 5 } } = {x : 1};
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -175,7 +175,7 @@ var { ...{ x = 5 } } = {x : 1};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

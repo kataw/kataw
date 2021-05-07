@@ -120,7 +120,10 @@ class x {get default(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  get default() {}
+}
 ```
 
 ### Diagnostics

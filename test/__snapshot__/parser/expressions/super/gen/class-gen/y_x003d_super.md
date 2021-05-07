@@ -121,7 +121,7 @@ class C { *method() { y = super } }
                                                         "start": 31,
                                                         "end": 31
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 25,
                                                     "end": 31
                                                 },
@@ -172,7 +172,7 @@ class C { *method() { y = super } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

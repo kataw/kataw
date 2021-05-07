@@ -130,7 +130,10 @@ class x {static async * set(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async static static set() {}
+}
 ```
 
 ### Diagnostics

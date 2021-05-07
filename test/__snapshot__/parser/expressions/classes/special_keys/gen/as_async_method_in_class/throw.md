@@ -120,7 +120,10 @@ class x {async throw(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async throw() {}
+}
 ```
 
 ### Diagnostics

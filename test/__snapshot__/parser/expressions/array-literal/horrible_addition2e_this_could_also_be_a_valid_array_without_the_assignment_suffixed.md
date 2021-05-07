@@ -129,7 +129,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[please, { [make]: it }, stop] = bwahahahaha;
 ```
 
 ### Diagnostics

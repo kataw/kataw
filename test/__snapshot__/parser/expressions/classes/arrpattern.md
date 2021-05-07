@@ -118,7 +118,8 @@ class n extends ([] = x) {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class n  {}
 ```
 
 ### Diagnostics

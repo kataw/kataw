@@ -13,7 +13,7 @@ export function createMemberAccessExpression(
   end: number
 ): MemberAccessExpression {
   return {
-    kind: SyntaxKind.MemberAccessExpression,
+    kind: SyntaxKind.MemberAccessExpression | NodeFlags.IsMemberExpression,
     member,
     expression,
     flags: NodeFlags.ExpressionNode,

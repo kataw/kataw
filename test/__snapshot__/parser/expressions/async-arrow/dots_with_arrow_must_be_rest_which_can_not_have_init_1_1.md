@@ -54,7 +54,7 @@ async (a, ...b+b=c) => a;
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 16
         },
@@ -99,7 +99,7 @@ async (a, ...b+b=c) => a;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

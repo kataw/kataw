@@ -82,7 +82,7 @@ function *f(){  foo(await)  }
                                     "start": 20,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 14,
                                 "end": 26
                             },
@@ -118,7 +118,10 @@ function *f(){  foo(await)  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * f() {
+  foo(await);
+}
 ```
 
 ### Diagnostics

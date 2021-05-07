@@ -95,7 +95,10 @@ class C { [0] }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  [0];
+}
 ```
 
 ### Diagnostics

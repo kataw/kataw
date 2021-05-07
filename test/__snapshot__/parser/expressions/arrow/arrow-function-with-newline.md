@@ -101,7 +101,8 @@ async (f)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (f) =>  {}
 ```
 
 ### Diagnostics

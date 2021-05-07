@@ -98,7 +98,8 @@ typeof a instanceof b > c
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+typeof a inctanceof b > c;
 ```
 
 ### Diagnostics

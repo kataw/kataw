@@ -82,7 +82,8 @@ declare type bool = any;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

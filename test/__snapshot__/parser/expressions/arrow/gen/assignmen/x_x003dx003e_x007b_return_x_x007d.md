@@ -116,7 +116,10 @@ x = x => { return x; } ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = x =>  {
+  return  x;
+};
 ```
 
 ### Diagnostics

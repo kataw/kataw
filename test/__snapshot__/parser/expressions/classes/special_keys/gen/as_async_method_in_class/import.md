@@ -120,7 +120,10 @@ class x {async import(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async import() {}
+}
 ```
 
 ### Diagnostics

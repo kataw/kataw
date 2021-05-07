@@ -86,7 +86,8 @@ export default (1 + 2);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default (1 + 2);
 ```
 
 ### Diagnostics

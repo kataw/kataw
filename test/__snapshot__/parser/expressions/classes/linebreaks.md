@@ -704,7 +704,19 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  get a() {}
+  set a(a) {}
+  constructor() {}
+  a() {}
+  a() {}
+  static get static a() {}
+  static set static a(a) {}
+  static static constructor() {}
+  static static a() {}
+  static static a() {}
+}
 ```
 
 ### Diagnostics

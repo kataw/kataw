@@ -98,7 +98,11 @@ class C { await = 0; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  await = 0;
+
+}
 ```
 
 ### Diagnostics

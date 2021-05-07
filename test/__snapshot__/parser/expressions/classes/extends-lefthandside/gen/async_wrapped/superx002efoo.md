@@ -108,7 +108,7 @@ async function p(){
                                         "start": 44,
                                         "end": 47
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 37,
                                     "end": 47
                                 },
@@ -156,7 +156,7 @@ async function p(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

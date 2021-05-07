@@ -40,7 +40,7 @@ something.#x
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 12
             },
@@ -61,7 +61,7 @@ something.#x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

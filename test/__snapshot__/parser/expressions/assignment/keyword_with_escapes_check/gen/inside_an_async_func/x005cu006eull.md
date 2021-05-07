@@ -101,7 +101,7 @@ async () => {  \u006eull = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

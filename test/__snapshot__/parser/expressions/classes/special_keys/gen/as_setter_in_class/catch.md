@@ -139,7 +139,10 @@ class x {set catch(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set catch(x) {}
+}
 ```
 
 ### Diagnostics

@@ -140,7 +140,11 @@ a => {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a =>  {
+  for ( of b)
+    c;
+};
 ```
 
 ### Diagnostics

@@ -116,7 +116,10 @@ class X { ge\u0074 x() {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class X {
+  get x() {}
+}
 ```
 
 ### Diagnostics

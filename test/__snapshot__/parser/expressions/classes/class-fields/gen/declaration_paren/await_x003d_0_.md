@@ -122,7 +122,11 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class   {
+    await = 0;
+
+  });
 ```
 
 ### Diagnostics

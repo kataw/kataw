@@ -136,7 +136,8 @@ x = { method(test) { } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { method(test) {} };
 ```
 
 ### Diagnostics

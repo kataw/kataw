@@ -50,7 +50,7 @@
                                         "start": 6,
                                         "end": 7
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 4,
                                     "end": 7
                                 },
@@ -103,7 +103,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+[...a.b] = c;
 ```
 
 ### Diagnostics

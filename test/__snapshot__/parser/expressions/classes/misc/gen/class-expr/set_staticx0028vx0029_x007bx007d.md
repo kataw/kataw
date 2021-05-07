@@ -143,7 +143,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(class  {
+    set static(v) {}
+  });
 ```
 
 ### Diagnostics

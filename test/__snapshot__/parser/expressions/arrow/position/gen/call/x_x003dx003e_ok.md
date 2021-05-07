@@ -58,7 +58,7 @@ x => ok()
                         "start": 8,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 268435488,
                     "start": 4,
                     "end": 9
                 },
@@ -83,7 +83,8 @@ x => ok()
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x =>  ok();
 ```
 
 ### Diagnostics

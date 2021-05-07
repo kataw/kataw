@@ -134,7 +134,7 @@ function not_gen() { (yield) ? yield : yield }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

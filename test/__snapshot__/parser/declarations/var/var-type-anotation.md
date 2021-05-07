@@ -114,7 +114,8 @@ var foo = ((): number => bar);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var foo = (() =>  bar);
 ```
 
 ### Diagnostics

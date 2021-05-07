@@ -8,7 +8,7 @@
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -165,7 +165,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+{
+  foo: bar: function f() {}
+}
 ```
 
 ### Diagnostics

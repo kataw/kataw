@@ -138,7 +138,10 @@ class C { set #await(test) {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  set #await(test) {}
+}
 ```
 
 ### Diagnostics

@@ -139,7 +139,10 @@ class x {set debugger(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set debugger(x) {}
+}
 ```
 
 ### Diagnostics

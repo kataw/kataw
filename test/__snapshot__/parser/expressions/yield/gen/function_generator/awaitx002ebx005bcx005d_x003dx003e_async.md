@@ -93,7 +93,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 129,
                                                     "member": {
@@ -112,7 +112,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                         "start": 46,
                                                         "end": 47
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 39,
                                                     "end": 47
                                                 },
@@ -189,7 +189,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

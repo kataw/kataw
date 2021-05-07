@@ -121,7 +121,7 @@ class x { async *prot\u006ftype(){} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

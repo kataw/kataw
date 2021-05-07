@@ -21,7 +21,7 @@
                 "kind": 458761,
                 "text": "1239",
                 "rawText": "\\1239",
-                "flags": 96,
+                "flags": 134217824,
                 "start": 0,
                 "end": 7
             },
@@ -42,7 +42,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+`1239`;
 ```
 
 ### Diagnostics

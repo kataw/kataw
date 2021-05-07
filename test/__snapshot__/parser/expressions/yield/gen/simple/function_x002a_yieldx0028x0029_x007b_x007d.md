@@ -12,7 +12,7 @@ function * yield() { }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -84,7 +84,8 @@ function * yield() { }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * yield() {}
 ```
 
 ### Diagnostics

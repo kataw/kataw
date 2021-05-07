@@ -12,7 +12,7 @@ function * gen() { function not_gen() { function *a(){yield 2e308} }}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -214,7 +214,14 @@ function * gen() { function not_gen() { function *a(){yield 2e308} }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gen() {
+  function not_gen() {
+    function * a() {
+       2e308;
+    }
+  }
+}
 ```
 
 ### Diagnostics

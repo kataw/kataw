@@ -147,7 +147,7 @@ class A {
                                         "start": 49,
                                         "end": 55
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 41,
                                     "end": 55
                                 },
@@ -285,7 +285,7 @@ class A {
                                     "start": 56,
                                     "end": 111
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 41,
                                 "end": 112
                             },
@@ -422,7 +422,7 @@ class A {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

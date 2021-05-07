@@ -12,7 +12,7 @@ for (void x in x) ;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -84,7 +84,7 @@ for (void x in x) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

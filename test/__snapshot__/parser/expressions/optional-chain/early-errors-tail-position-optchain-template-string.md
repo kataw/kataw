@@ -38,7 +38,7 @@ a?.fn`hello`;
                     "member": {
                         "kind": 206,
                         "chain": {
-                            "kind": 202,
+                            "kind": 536871114,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -60,7 +60,7 @@ a?.fn`hello`;
                         "kind": 458761,
                         "text": "hello",
                         "rawText": "hello",
-                        "flags": 96,
+                        "flags": 134217824,
                         "start": 5,
                         "end": 12
                     },
@@ -89,7 +89,7 @@ a?.fn`hello`;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -130,7 +130,10 @@ class x {static async * with(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  async static static with() {}
+}
 ```
 
 ### Diagnostics

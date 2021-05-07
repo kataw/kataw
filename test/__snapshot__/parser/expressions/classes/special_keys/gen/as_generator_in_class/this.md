@@ -120,7 +120,10 @@ class x {* this(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  this() {}
+}
 ```
 
 ### Diagnostics

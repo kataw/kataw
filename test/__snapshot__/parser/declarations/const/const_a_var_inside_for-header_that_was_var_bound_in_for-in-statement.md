@@ -157,7 +157,8 @@ for (const x in obj) { var x = 13 }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in obj) {}
 ```
 
 ### Diagnostics

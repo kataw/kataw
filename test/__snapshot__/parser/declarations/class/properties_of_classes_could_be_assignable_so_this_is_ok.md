@@ -146,7 +146,7 @@ for (class x { [a](){} }.x in c);
                     "start": 25,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 26
             },
@@ -181,7 +181,8 @@ for (class x { [a](){} }.x in c);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in c);
 ```
 
 ### Diagnostics

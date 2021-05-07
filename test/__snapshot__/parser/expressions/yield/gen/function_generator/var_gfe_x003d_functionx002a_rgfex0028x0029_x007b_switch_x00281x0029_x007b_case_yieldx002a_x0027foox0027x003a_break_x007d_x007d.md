@@ -304,7 +304,17 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gen() {
+  function not_gen() {
+    var gfe = function * rgfe() {
+      switch(1
+        case  "'foo'":
+          break;
+
+    };
+  }
+}
 ```
 
 ### Diagnostics

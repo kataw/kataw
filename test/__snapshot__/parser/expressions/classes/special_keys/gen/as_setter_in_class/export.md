@@ -139,7 +139,10 @@ class x {set export(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set export(x) {}
+}
 ```
 
 ### Diagnostics

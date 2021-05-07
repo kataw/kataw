@@ -116,7 +116,8 @@ a === b ? c : d % e;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a === b ? c : d % e;
 ```
 
 ### Diagnostics

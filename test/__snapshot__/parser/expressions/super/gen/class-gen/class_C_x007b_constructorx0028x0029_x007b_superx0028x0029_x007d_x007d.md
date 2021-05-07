@@ -164,7 +164,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                                     "start": 54,
                                                                                     "end": 54
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 268435488,
                                                                                 "start": 47,
                                                                                 "end": 55
                                                                             },
@@ -237,7 +237,7 @@ class C { *method() { class C { constructor() { super(); } } } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

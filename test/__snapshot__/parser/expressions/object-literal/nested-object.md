@@ -263,7 +263,13 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var {
+  x: y,
+  z: {
+    a: b
+  }
+} = { x: "\"3\"", z: { a: "\"b\"" } };
 ```
 
 ### Diagnostics

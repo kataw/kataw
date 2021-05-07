@@ -43,7 +43,7 @@ x.foo++.bar
                         "start": 2,
                         "end": 5
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 5
                 },
@@ -82,7 +82,7 @@ x.foo++.bar
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

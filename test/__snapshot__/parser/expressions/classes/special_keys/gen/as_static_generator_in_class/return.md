@@ -125,7 +125,10 @@ class x {static * return(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  static static return() {}
+}
 ```
 
 ### Diagnostics

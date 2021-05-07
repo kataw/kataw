@@ -8,7 +8,7 @@ function f(x=(yield)=y){}
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -127,7 +127,8 @@ function f(x=(yield)=y){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f(x = (yield) = y) {}
 ```
 
 ### Diagnostics

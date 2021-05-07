@@ -98,7 +98,7 @@ x={ foo: function(){ super.foo; }}
                                                             "start": 27,
                                                             "end": 30
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 20,
                                                         "end": 30
                                                     },
@@ -156,7 +156,7 @@ x={ foo: function(){ super.foo; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

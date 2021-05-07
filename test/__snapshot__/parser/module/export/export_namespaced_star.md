@@ -109,7 +109,7 @@ export * as x from "x" foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -9,7 +9,7 @@ return   }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -103,7 +103,11 @@ return   }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function f() {
+  return ;
+  return ;
+}
 ```
 
 ### Diagnostics

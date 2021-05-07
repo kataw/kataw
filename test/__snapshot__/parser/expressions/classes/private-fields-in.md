@@ -401,7 +401,16 @@ class C {
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C {
+  #brand;
+
+  #method() {}
+  get #getter() {}
+  static static isC(obj) {
+    return  #brand in obj && #method in obj && #getter in obj;
+  }
+}
 ```
 
 ### Diagnostics

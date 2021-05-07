@@ -27,7 +27,7 @@ let {[x]} = z;
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -134,7 +134,7 @@ let {[x]} = z;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -202,7 +202,8 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+({ __proto__: null, get __proto__() {}, set __proto__(x) {} });
 ```
 
 ### Diagnostics

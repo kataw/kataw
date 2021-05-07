@@ -119,7 +119,8 @@ type Foo<T> = Bar<T>
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+
 ```
 
 ### Diagnostics

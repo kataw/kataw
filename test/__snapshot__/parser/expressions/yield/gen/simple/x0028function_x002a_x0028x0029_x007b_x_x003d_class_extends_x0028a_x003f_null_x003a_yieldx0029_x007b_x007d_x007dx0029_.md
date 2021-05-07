@@ -204,7 +204,10 @@
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+(function * () {
+    x = class   {};
+  });
 ```
 
 ### Diagnostics

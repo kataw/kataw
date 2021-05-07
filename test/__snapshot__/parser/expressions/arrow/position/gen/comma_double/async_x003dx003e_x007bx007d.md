@@ -130,7 +130,8 @@ async => {}, async => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async async =>  {}, async async =>  {};
 ```
 
 ### Diagnostics

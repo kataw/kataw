@@ -120,7 +120,10 @@ class x {* try(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  try() {}
+}
 ```
 
 ### Diagnostics

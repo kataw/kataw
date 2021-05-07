@@ -139,7 +139,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                     "start": 43,
                                                                                     "end": 46
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 536870944,
                                                                                 "start": 36,
                                                                                 "end": 46
                                                                             },
@@ -218,7 +218,7 @@ x={ foo(){ return () => function() { super.foo; } }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

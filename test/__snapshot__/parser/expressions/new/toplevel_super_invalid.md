@@ -46,7 +46,7 @@ new super
                         "start": 9,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 3,
                     "end": 9
                 },
@@ -72,7 +72,7 @@ new super
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

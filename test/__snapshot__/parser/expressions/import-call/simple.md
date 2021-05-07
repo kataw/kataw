@@ -8,7 +8,7 @@ import.call
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -47,7 +47,7 @@ import.call
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

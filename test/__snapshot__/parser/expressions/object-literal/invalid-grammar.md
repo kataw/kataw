@@ -1826,7 +1826,7 @@ q = {"foo": super = x} = x;
                                                 "start": 412,
                                                 "end": 412
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 406,
                                             "end": 412
                                         },
@@ -1901,7 +1901,7 @@ q = {"foo": super = x} = x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -50,7 +50,7 @@ class A extends `temp {waitforit} late` {}
                     "kind": 458761,
                     "text": "temp {waitforit} late",
                     "rawText": "temp {waitforit} late",
-                    "flags": 96,
+                    "flags": 134217824,
                     "start": 15,
                     "end": 39
                 },
@@ -83,7 +83,8 @@ class A extends `temp {waitforit} late` {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A  {}
 ```
 
 ### Diagnostics

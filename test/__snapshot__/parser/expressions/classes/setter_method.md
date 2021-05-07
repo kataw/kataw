@@ -141,7 +141,10 @@ class A {set 9(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  set 9(x) {}
+}
 ```
 
 ### Diagnostics

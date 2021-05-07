@@ -86,7 +86,7 @@ async function f(){
                                     "start": 40,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 33,
                                 "end": 41
                             },
@@ -150,7 +150,11 @@ async function f(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async function f() {
+  for await (/foo/g.x of c)
+    d;
+}
 ```
 
 ### Diagnostics

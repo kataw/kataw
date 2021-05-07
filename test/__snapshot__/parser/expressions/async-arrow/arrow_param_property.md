@@ -46,7 +46,7 @@ async (a.b) => x;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 7,
                         "end": 10
                     }
@@ -56,7 +56,7 @@ async (a.b) => x;
                 "start": 0,
                 "end": 0
             },
-            "flags": 32,
+            "flags": 268435488,
             "start": 0,
             "end": 11
         },
@@ -87,7 +87,7 @@ async (a.b) => x;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

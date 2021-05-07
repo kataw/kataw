@@ -77,7 +77,11 @@ if (false) let // ASI
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+if (false) let; // ASI
+
+{
+}
 ```
 
 ### Diagnostics

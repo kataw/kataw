@@ -12,7 +12,7 @@ async () => {  v\u006fid = x  }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -113,7 +113,7 @@ async () => {  v\u006fid = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

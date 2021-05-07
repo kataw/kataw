@@ -258,7 +258,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                             "start": 100,
                                                                                                                             "end": 109
                                                                                                                         },
-                                                                                                                        "flags": 32,
+                                                                                                                        "flags": 268435488,
                                                                                                                         "start": 95,
                                                                                                                         "end": 110
                                                                                                                     },
@@ -387,7 +387,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * gen() {
+  function not_gen() {
+    async function g() {
+      let x = async function f(foo = [h, { m: t(await bar) }]) {};
+    }
+  }
+}
 ```
 
 ### Diagnostics

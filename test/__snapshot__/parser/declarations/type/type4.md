@@ -1240,7 +1240,7 @@ type T27 = ArgumentType<never>;  // any
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

@@ -94,7 +94,8 @@ let arrow = () => {};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let arrow = () =>  {};
 ```
 
 ### Diagnostics

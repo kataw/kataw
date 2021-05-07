@@ -525,7 +525,11 @@ x = {async __proto__(){}, *__proto__(){}};
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { __proto__() {}, __proto__: 2 };
+x = { __proto__() {}, __proto__() {} };
+x = { async __proto__() {}, * __proto__() {} };
+({ __proto__: x, __proto__: y }) =>  {};
 ```
 
 ### Diagnostics

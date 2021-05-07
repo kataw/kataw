@@ -228,7 +228,7 @@ async function g(){let o = {f(foo = await bar){}}    }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

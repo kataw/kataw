@@ -232,7 +232,11 @@ var await; var f = (async function() { y = async x => await x });
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+var await;
+var f = (async function () {
+    y = async x =>  await x;
+  });
 ```
 
 ### Diagnostics

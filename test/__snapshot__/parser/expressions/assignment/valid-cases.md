@@ -1262,7 +1262,22 @@ a = !!b;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+a = !!(b + c);
+a = !!(b == c);
+a = !!(b != c);
+a = !!(b === c);
+a = !!(b !== c);
+a = !!(b  < c);
+a = !!(b > c);
+a = !!(b <= c);
+a = !!(b >= c);
+a = !!(b in c);
+a = !!(b && !c);
+a = !!(b, c);
+a = !!!b;
+a = !!void b;
+a = !!b;
 ```
 
 ### Diagnostics

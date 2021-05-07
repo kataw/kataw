@@ -69,7 +69,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "chain": {
                                     "kind": 206,
                                     "chain": {
-                                        "kind": 202,
+                                        "kind": 536871114,
                                         "chain": null,
                                         "expression": {
                                             "kind": 134299649,
@@ -94,7 +94,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "chain": {
                                 "kind": 206,
                                 "chain": {
-                                    "kind": 202,
+                                    "kind": 536871114,
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
@@ -138,7 +138,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "start": 10,
                                     "end": 11
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 9,
                                 "end": 12
                             },
@@ -151,7 +151,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         "end": 12
                     },
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": {
                             "kind": 206,
                             "chain": {
@@ -165,7 +165,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                     "start": 15,
                                     "end": 16
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 14,
                                 "end": 16
                             },
@@ -192,7 +192,7 @@ a?.b?.c?.(d)?.[e].f?.g
                 "chain": {
                     "kind": 206,
                     "chain": {
-                        "kind": 202,
+                        "kind": 536871114,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -231,7 +231,8 @@ a?.b?.c?.(d)?.[e].f?.g
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ = ?.;
 ```
 
 ### Diagnostics

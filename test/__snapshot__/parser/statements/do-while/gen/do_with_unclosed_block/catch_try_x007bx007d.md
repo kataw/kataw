@@ -120,7 +120,7 @@ do {} while (x) { catch try {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

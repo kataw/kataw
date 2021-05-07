@@ -132,7 +132,7 @@ class C { set x(_) { new super; } }
                                                         "start": 30,
                                                         "end": 30
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 24,
                                                     "end": 30
                                                 },
@@ -184,7 +184,7 @@ class C { set x(_) { new super; } }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

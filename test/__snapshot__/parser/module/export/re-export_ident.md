@@ -83,7 +83,8 @@ export * from x
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ * from ;
 ```
 
 ### Diagnostics

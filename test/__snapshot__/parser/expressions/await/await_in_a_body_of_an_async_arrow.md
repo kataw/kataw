@@ -133,7 +133,10 @@ let y = async x => { await x; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+let y = async x =>  {
+  await x;
+};
 ```
 
 ### Diagnostics

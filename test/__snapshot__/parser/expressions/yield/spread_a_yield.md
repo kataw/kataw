@@ -8,7 +8,7 @@ function *g() { [...yield]; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -129,7 +129,10 @@ function *g() { [...yield]; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * g() {
+  [... ];
+}
 ```
 
 ### Diagnostics

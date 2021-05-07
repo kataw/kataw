@@ -135,7 +135,10 @@ class A {static constructor(){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class A {
+  static static constructor() {}
+}
 ```
 
 ### Diagnostics

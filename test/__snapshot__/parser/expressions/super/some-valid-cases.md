@@ -302,7 +302,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 94,
                                                     "end": 94
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 87,
                                                 "end": 95
                                             },
@@ -418,7 +418,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 133,
                                                     "end": 136
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 126,
                                                 "end": 136
                                             },
@@ -534,7 +534,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 165,
                                                     "end": 168
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 158,
                                                 "end": 168
                                             },
@@ -649,7 +649,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "start": 196,
                                                 "end": 199
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 190,
                                             "end": 199
                                         },
@@ -773,7 +773,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "start": 224,
                                                         "end": 227
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 217,
                                                     "end": 227
                                                 },
@@ -889,7 +889,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
@@ -1005,7 +1005,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 130,
+                                                "kind": 536871042,
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
@@ -1120,7 +1120,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "optionalToken": null,
                                         "type": null,
                                         "initializer": {
-                                            "kind": 130,
+                                            "kind": 536871042,
                                             "member": {
                                                 "kind": 225,
                                                 "superKeyword": {
@@ -1245,7 +1245,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 {
                                                     "kind": 120,
                                                     "expression": {
-                                                        "kind": 130,
+                                                        "kind": 536871042,
                                                         "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
@@ -1366,7 +1366,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "initializer": {
-                                                    "kind": 130,
+                                                    "kind": 536871042,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -1576,7 +1576,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "start": 448,
                                                                 "end": 448
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 268435488,
                                                             "start": 442,
                                                             "end": 449
                                                         },
@@ -1728,7 +1728,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "asyncKeyword": null,
                                                 "returnType": null,
                                                 "contents": {
-                                                    "kind": 130,
+                                                    "kind": 536871042,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -1887,7 +1887,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "start": 560,
                                                         "end": 563
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 553,
                                                     "end": 563
                                                 },
@@ -2039,7 +2039,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "start": 603,
                                                                 "end": 606
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 597,
                                                             "end": 606
                                                         },
@@ -2105,7 +2105,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

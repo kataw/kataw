@@ -49,7 +49,7 @@ for (x[a in b] in y);
             },
             "kind": 166,
             "initializer": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 134299649,
                     "text": "x",
@@ -121,7 +121,8 @@ for (x[a in b] in y);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+for ( in y);
 ```
 
 ### Diagnostics

@@ -112,7 +112,8 @@ async (x = z = yield) => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (x = z = yield) =>  {}
 ```
 
 ### Diagnostics

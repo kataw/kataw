@@ -14,7 +14,7 @@ export default async function *f(){} foo
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -123,7 +123,9 @@ export default async function *f(){} foo
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+ default async function * f() {};
+foo;
 ```
 
 ### Diagnostics

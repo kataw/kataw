@@ -14,7 +14,7 @@ function *P(){
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -177,7 +177,7 @@ function *P(){
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

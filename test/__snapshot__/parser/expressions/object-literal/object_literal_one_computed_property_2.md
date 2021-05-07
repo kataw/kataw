@@ -129,7 +129,7 @@ x({[a]:b, [15]:d}=obj);
                     "start": 2,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 0,
                 "end": 22
             },
@@ -150,7 +150,8 @@ x({[a]:b, [15]:d}=obj);
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x({ [a]: b, [15]: d } = obj);
 ```
 
 ### Diagnostics

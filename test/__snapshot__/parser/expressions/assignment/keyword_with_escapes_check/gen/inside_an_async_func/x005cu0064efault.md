@@ -81,7 +81,7 @@ async () => {  \u0064efault = x  }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics

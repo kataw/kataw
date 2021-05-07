@@ -54,7 +54,7 @@ async (x, y) => ok[foo]
             },
             "returnType": null,
             "contents": {
-                "kind": 130,
+                "kind": 536871042,
                 "member": {
                     "kind": 134299649,
                     "text": "ok",
@@ -92,7 +92,8 @@ async (x, y) => ok[foo]
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+async (x, y) =>  
 ```
 
 ### Diagnostics

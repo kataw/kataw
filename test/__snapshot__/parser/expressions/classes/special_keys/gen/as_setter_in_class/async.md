@@ -139,7 +139,10 @@ class x {set async(x){}}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x {
+  set async(x) {}
+}
 ```
 
 ### Diagnostics

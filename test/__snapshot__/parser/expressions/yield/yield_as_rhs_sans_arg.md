@@ -8,7 +8,7 @@ function *g() { function f(x = x + yield) {}; }
 
 ## Output
 
-### CST
+### Hybrid CST
 
 ```javascript
 {
@@ -180,7 +180,11 @@ function *g() { function f(x = x + yield) {}; }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+function * g() {
+  function f(x = x + yield) {}
+
+}
 ```
 
 ### Diagnostics

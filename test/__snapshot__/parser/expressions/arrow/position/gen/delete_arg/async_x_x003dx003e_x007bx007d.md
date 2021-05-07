@@ -92,7 +92,8 @@ delete async x => {}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+delete async x =>  {};
 ```
 
 ### Diagnostics

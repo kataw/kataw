@@ -118,7 +118,9 @@ class x extends y{}(09)
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class x  {}
+(09);
 ```
 
 ### Diagnostics

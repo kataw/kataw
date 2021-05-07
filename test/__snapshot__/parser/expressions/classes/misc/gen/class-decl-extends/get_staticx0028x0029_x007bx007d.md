@@ -140,7 +140,10 @@ class C extends Base { get static() {} }
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+class C  {
+  get static() {}
+}
 ```
 
 ### Diagnostics

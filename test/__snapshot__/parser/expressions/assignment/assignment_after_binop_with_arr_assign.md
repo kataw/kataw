@@ -101,7 +101,9 @@ switch(y&[]=y){}
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+switch(y => [] = y
+ 
 ```
 
 ### Diagnostics

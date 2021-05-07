@@ -105,7 +105,8 @@ x = {a, b} = y
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
+x = { a, b } = y;
 ```
 
 ### Diagnostics

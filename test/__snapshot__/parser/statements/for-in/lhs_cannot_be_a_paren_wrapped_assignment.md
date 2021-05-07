@@ -102,7 +102,7 @@ for ((x = y) in z) ;
 ### Printed
 
 ```javascript
-✖ Soon to be open sourced
+
 ```
 
 ### Diagnostics
