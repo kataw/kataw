@@ -288,7 +288,7 @@ function emitTrailingComments(printer: Printer, pos: number) {
   const trailingComments = getTrailingCommentsToEmit(printer, pos);
 
   if (trailingComments && trailingComments.length > 0) {
-    let parts: any = [' '];
+    const parts: any = [' '];
     let emitInterveningSeparator = false;
     for (const comment of trailingComments) {
       if (emitInterveningSeparator) {
@@ -337,7 +337,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
   }
 
   if (leadingComments && leadingComments.length > 0) {
-    let parts: any = [];
+    const parts: any = [];
     for (const comment of leadingComments) {
       if (comment.kind === SyntaxKind.MultiLineComment) {
         parts.push(
@@ -394,7 +394,7 @@ export function chain(parts: any) {
   return { type: 'chain', kind: FormatterKind.Chain, parts };
 }
 
-export function indent(contents: any, force: boolean = false) {
+export function indent(contents: any, force = false) {
   if (contents === '') {
     return '';
   }
@@ -404,7 +404,7 @@ export function indent(contents: any, force: boolean = false) {
   return { type: 'indent', kind: FormatterKind.Indent, contents };
 }
 
-export function group(contents: any, shouldBreak: boolean = false) {
+export function group(contents: any, shouldBreak = false) {
   return {
     type: 'group',
     kind: FormatterKind.Group,
@@ -653,7 +653,7 @@ export function toString(doc: any, printer: Printer, newLine: string): any {
     } else if (doc) {
       switch (doc.type) {
         case 'chain':
-          for (var i = doc.parts.length - 1; i >= 0; i--) {
+          for (let i = doc.parts.length - 1; i >= 0; i--) {
             cmds.push([ind, mode, doc.parts[i]]);
           }
 
@@ -802,7 +802,7 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
   let collecting = trailing || pos === 0;
 
   while (true) {
-    let ch = text.charCodeAt(pos);
+    const ch = text.charCodeAt(pos);
     switch (ch) {
       case Char.CarriageReturn:
         if (text.charCodeAt(pos + 1) === Char.LineFeed) {
@@ -825,11 +825,11 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
         pos++;
         continue;
       case Char.Slash:
-        let nextChar = text.charCodeAt(pos + 1);
+        const nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          let kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
-          let startPos = pos;
+          const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
+          const startPos = pos;
           pos += 2;
           if (nextChar === Char.Slash) {
             while (pos < text.length) {
@@ -880,7 +880,7 @@ export function emitTrailingCommentsOfPosition(printer: Printer, pos: number) {
 }
 
 export function emitComments(text: any, comments: any[], leadingSeparator: boolean, trailingSeparator: boolean) {
-  let parts = [];
+  const parts = [];
 
   if (comments && comments.length > 0) {
     if (leadingSeparator) {
@@ -952,7 +952,7 @@ export function printTokenWithComment(
   const startPos = pos;
   pos = skipWhitespace(printer.source, pos);
 
-  let text = tokenToString(token);
+  const text = tokenToString(token);
 
   if (parentNode.start !== startPos) {
     return chain([text, leadingspace ? printer.space : '', printLeadingCommentsOfPosition(printer, startPos)]);
@@ -966,6 +966,34 @@ export function printTokenWithComment(
 
   return leadingspace ? chain([printer.space, text]) : text;
 }
+
+export const PRECEDENCE: any = {
+  '||': 2,
+  '&&': 3,
+  '??': 1,
+  '|': 4,
+  '^': 5,
+  '&': 6,
+  '==': 5,
+  '===': 7,
+  '!=': 7,
+  '!==': 7,
+  '<': 8,
+  '>': 8,
+  '<=': 8,
+  '>=': 8,
+  in: 8,
+  instanceof: 8,
+  '>>': 9,
+  '<<': 9,
+  '>>>': 9,
+  '+': 10,
+  '-': 10,
+  '*': 11,
+  '/': 11,
+  '%': 11,
+  '**': 12
+};
 
 const equalityOperators: any = {
   '==': true,
@@ -1018,31 +1046,3 @@ export function shouldFlatten(parentOp: any, nodeOp: any) {
 
   return true;
 }
-
-export const PRECEDENCE: any = {
-  '||': 2,
-  '&&': 3,
-  '??': 1,
-  '|': 4,
-  '^': 5,
-  '&': 6,
-  '==': 5,
-  '===': 7,
-  '!=': 7,
-  '!==': 7,
-  '<': 8,
-  '>': 8,
-  '<=': 8,
-  '>=': 8,
-  in: 8,
-  instanceof: 8,
-  '>>': 9,
-  '<<': 9,
-  '>>>': 9,
-  '+': 10,
-  '-': 10,
-  '*': 11,
-  '/': 11,
-  '%': 11,
-  '**': 12
-};

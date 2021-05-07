@@ -344,7 +344,7 @@ function printDelimitedList(
   const isEmpty = children === undefined || 0 >= children.length || count === 0;
   // Emit each child
   let previousSibling: Node | undefined;
-  let x = hard ? hardline : softline;
+  const x = hard ? hardline : softline;
 
   for (let i = 0; i < count; i++) {
     const child = children[i];
@@ -758,7 +758,7 @@ function printLabelledStatement(node: any, printer: Printer): any {
 }
 
 function printContinueStatement(node: any, printer: Printer): any {
-  let parts = [printKeyword(node.continueKeyword, printer, node.start, node, /* separator */ false)];
+  const parts = [printKeyword(node.continueKeyword, printer, node.start, node, /* separator */ false)];
 
   if (node.label) {
     parts.push(printer.space, printStatements(node.label, printer, node));
@@ -770,7 +770,7 @@ function printContinueStatement(node: any, printer: Printer): any {
 }
 
 function printBreakStatement(node: any, printer: Printer): any {
-  let parts = [printKeyword(node.breakKeyword, printer, node.start, node, /* separator */ false)];
+  const parts = [printKeyword(node.breakKeyword, printer, node.start, node, /* separator */ false)];
 
   if (node.label) {
     parts.push(printer.space, printStatements(node.label, printer, node));
@@ -809,7 +809,7 @@ function printParametersForArrow(parameters: any, printer: Printer, parentNode: 
 function printDecorators(node: any, printer: Printer): any {
   if (node.decoratorList) {
     const children = node.decoratorList;
-    let elements: any[] = [];
+    const elements: any[] = [];
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
       elements.push(printDecorator(child, printer));
@@ -873,7 +873,7 @@ function printTaggedTemplate(node: any, printer: Printer): any {
 }
 
 function printTemplateExpression(node: any, printer: Printer, parentNode: any): any {
-  let elements: any[] = [];
+  const elements: any[] = [];
 
   for (let i = 0; i < node.spans.length; i++) {
     const child = node.spans[i];
@@ -1259,7 +1259,7 @@ function printObjectLiteral(node: any, printer: Printer, parentNode: any): any {
 }
 
 function printPropertyDefinitionList(node: any, printer: Printer, parentNode: any): any {
-  let children = node.properties;
+  const children = node.properties;
   return children.length === 0
     ? '{}'
     : group(
@@ -1888,7 +1888,7 @@ function printFieldDefinition(node: any, printer: Printer): any {
     ]);
   }
 
-  let parts: any = [
+  const parts: any = [
     node.decorators ? printDecorators(node.decorators, printer) : '',
     node.declaredToken
       ? printKeyword(
@@ -1965,7 +1965,7 @@ function printComputedPropertyName(node: any, printer: Printer): any {
 }
 
 function printMethodDefinition(node: any, printer: Printer): any {
-  let parts: any = [node.decorators ? printDecorators(node.decorators, printer) : ''];
+  const parts: any = [node.decorators ? printDecorators(node.decorators, printer) : ''];
   parts.push(
     printStatements(node.name, printer, node),
     //printTypeParameters(node.typeParameters, printer, node),

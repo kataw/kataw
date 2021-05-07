@@ -3,7 +3,7 @@ import { SyntaxKind } from '../../ast/syntax-node';
 import { isWhiteSpaceSlow, isLineTerminator } from './common';
 
 export function extractComments(text: string, pos: number, trailing: boolean): any[] {
-  let result: any[] = [];
+  const result: any[] = [];
   let collecting = trailing || pos === 0;
   while (pos < text.length) {
     const ch = text.charCodeAt(pos);
@@ -26,7 +26,7 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
         pos++;
         continue;
       case Char.Slash:
-        let nextChar = text.charCodeAt(pos + 1);
+        const nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
           const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;

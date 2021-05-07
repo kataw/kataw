@@ -850,7 +850,7 @@ export function parseLabelledStatement(
       }
   }
 
-  let labelledIdentfier = expr.text;
+  const labelledIdentfier = expr.text;
 
   for (let i = 0; i < parser.labels.length; i++) {
     if (parser.labels[i].label === labelledIdentfier) {
@@ -2534,7 +2534,7 @@ function parsePropertyDefinition(
         left = parseAssignmentExpression(parser, context, left, pos);
       }
     } else {
-      let token = parser.token;
+      const token = parser.token;
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightBrace) {
@@ -5290,7 +5290,7 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
   const asteriskToken = consumeToken(parser, context, SyntaxKind.Multiply);
   let moduleExportName: StringLiteral | null = null;
   let namedBinding: Identifier | DummyIdentifier | null = null;
-  let flags = parser.nodeFlags;
+  const flags = parser.nodeFlags;
   const asKeyword = consumeOptToken(parser, context, SyntaxKind.AsKeyword);
   if (asKeyword) {
     if (parser.token === SyntaxKind.StringLiteral) {
