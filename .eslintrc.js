@@ -16,7 +16,7 @@ module.exports = {
         'plugin:import/typescript'
       ],
       rules: {
-        '@typescript-eslint/no-use-before-define': [2, { functions: false }], // https://github.com/eslint/eslint/issues/11903
+        '@typescript-eslint/no-use-before-define': 0,
         '@typescript-eslint/indent': 0,
         'prefer-const': ['error', { destructuring: 'all' }],
 
