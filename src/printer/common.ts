@@ -60,7 +60,7 @@ export function createPrinter(source: string, printWidth: number, tabWidth: numb
   };
 }
 
-export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
+export function shouldprintWhitespaceBeforeOperand (node: any): boolean {
   const { operand, operandToken } = node;
   return (
     operandToken.kind === SyntaxKind.VoidKeyword ||

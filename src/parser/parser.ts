@@ -6920,6 +6920,7 @@ export function parseClassElement(
               nodeFlags
             );
           }
+          break;
         case SyntaxKind.DeclareKeyword:
           if (context & Context.OptionsAllowTypes) {
             if (!declareKeyword) {
@@ -6936,6 +6937,7 @@ export function parseClassElement(
             }
             break;
           }
+          break;
         case SyntaxKind.AsyncKeyword:
           nodeFlags |= NodeFlags.Async;
           asyncKeyword = createToken(SyntaxKind.AsyncKeyword, NodeFlags.ChildLess, pos, parser.curPos);
