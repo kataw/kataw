@@ -1,4 +1,4 @@
-import { ParserState, Context } from '../common';
+import { ParserState } from '../common';
 import { Char } from './char';
 import { SyntaxKind } from '../../ast/syntax-node';
 import { isIdentifierStart, isIdentifierPart } from './common';
@@ -6,26 +6,27 @@ import { DiagnosticCode, diagnosticMap } from '../../diagnostic/diagnostic-code'
 import { DiagnosticSource, DiagnosticKind } from '../../diagnostic/diagnostic';
 import { scanIdentifierParts } from './identifiers';
 
-export function scanPrivateIdentifier(parser: ParserState, context: Context, cp: number, source: string): SyntaxKind {
-  if (parser.pos !== 0 && source.charCodeAt(parser.pos + 1) === Char.Exclamation) {
+export function scanPrivateIdentifier(parser: ParserState, cp: number, source: string): SyntaxKind {
+  parser.pos++;
+
+  // '!'
+  if (source.charCodeAt(parser.pos) === Char.Exclamation) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
       diagnosticMap[DiagnosticCode.Unexpected_token],
-      parser.curPos,
+      parser.tokenPos,
       parser.pos
     );
-    parser.pos++;
     return SyntaxKind.UnknownToken;
   }
 
-  parser.pos++;
-
   if (isIdentifierStart(source.charCodeAt(parser.pos))) {
     let pos = parser.pos + 1;
+    let tokenValue = '';
     while (pos < parser.end && isIdentifierPart((cp = source.charCodeAt(pos)))) ++pos;
-    parser.tokenValue = source.substring(parser.tokenPos, pos);
-    if (parser.tokenValue === '#constructor') {
+    tokenValue = source.substring(parser.tokenPos, pos);
+    if (tokenValue === '#constructor') {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -34,20 +35,23 @@ export function scanPrivateIdentifier(parser: ParserState, context: Context, cp:
         parser.pos
       );
     }
-    if (cp === Char.Backslash) {
-      parser.tokenValue += scanIdentifierParts(parser, source);
-    }
+
+    if (cp === Char.Backslash) tokenValue += scanIdentifierParts(parser, source);
+
     parser.tokenRaw = source.substring(parser.tokenPos, pos);
     parser.pos = pos;
-  } else {
-    parser.tokenValue = '#';
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error,
-      diagnosticMap[DiagnosticCode.Invalid_character],
-      parser.curPos,
-      parser.pos
-    );
+    parser.tokenValue = tokenValue;
+    return SyntaxKind.PrivateIdentifier;
   }
+
+  parser.onError(
+    DiagnosticSource.Parser,
+    DiagnosticKind.Error,
+    diagnosticMap[DiagnosticCode.Invalid_character],
+    parser.tokenPos,
+    parser.pos
+  );
+
+  parser.tokenValue = '#';
   return SyntaxKind.PrivateIdentifier;
 }

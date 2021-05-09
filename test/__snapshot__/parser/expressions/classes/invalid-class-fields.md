@@ -3352,15 +3352,15 @@
 ### Diagnostics
 
 ```javascript
-✖ Invalid character - start: 11, end: 13
+✖ Invalid character - start: 12, end: 13
 ✖ The parser expected to find a '}' to match the '{' token here - start: 13, end: 14
 ✖ Expected a ')' to match the '(' token here - start: 17, end: 19
 ✖ Declaration or statement expected - start: 19, end: 20
-✖ Invalid character - start: 33, end: 35
+✖ Invalid character - start: 34, end: 35
 ✖ The parser expected to find a '}' to match the '{' token here - start: 35, end: 36
 ✖ Declaration or statement expected - start: 43, end: 44
 ✖ Binding identifier expected - start: 47, end: 48
-✖ Invalid character - start: 61, end: 63
+✖ Invalid character - start: 62, end: 63
 ✖ Unexpected token. - start: 106, end: 108
 ✖ The parser expected to find a '}' to match the '{' token here - start: 106, end: 108
 ✖ Declaration or statement expected - start: 110, end: 111
@@ -3414,17 +3414,17 @@
 ✖ Declaration or statement expected - start: 360, end: 361
 ✖ Declaration or statement expected - start: 361, end: 362
 ✖ Invalid character - start: 433, end: 434
-✖ Invalid character - start: 460, end: 462
-✖ Invalid character - start: 488, end: 490
+✖ Invalid character - start: 461, end: 462
+✖ Invalid character - start: 489, end: 490
 ✖ Invalid character - start: 517, end: 518
-✖ Invalid character - start: 546, end: 548
+✖ Invalid character - start: 547, end: 548
 ✖ Invalid character - start: 578, end: 579
 ✖ Unterminated string literal - start: 580, end: 592
 ✖ Expected a computed property - start: 579, end: 628
 ✖ The parser expected to find a '}' to match the '{' token here - start: 628, end: 630
-✖ Invalid character - start: 652, end: 654
+✖ Invalid character - start: 653, end: 654
 ✖ Expected a ')' to match the '(' token here - start: 666, end: 667
-✖ Invalid character - start: 735, end: 737
+✖ Invalid character - start: 736, end: 737
 
 ```
 

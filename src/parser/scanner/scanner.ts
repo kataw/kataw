@@ -517,7 +517,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
         return SyntaxKind.BitwiseXor;
 
       case SyntaxKind.PrivateIdentifier:
-        return scanPrivateIdentifier(parser, context, cp, source);
+        return scanPrivateIdentifier(parser, cp, source);
 
       case SyntaxKind.EscapedKeyword:
         const cooked = scanIdentifierEscape(parser);
