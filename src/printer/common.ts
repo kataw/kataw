@@ -1,7 +1,7 @@
 import { Char } from '../parser/scanner/char';
 import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
 import { SyntaxKind, tokenToString } from '../ast/syntax-node';
-import { skipWhitespace } from './comments';
+import { skipWhitespace } from '../parser/scanner/whitespace';
 import { SyntaxToken, TokenSyntaxKind } from '../ast/token';
 
 export const enum FormatterKind {
@@ -73,69 +73,6 @@ export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
         (node.operandToken.kind === SyntaxKind.Subtract &&
           (operand.operandToken.kind === SyntaxKind.Subtract || operand.operandToken.kind === SyntaxKind.Decrement))))
   );
-}
-
-export function getPreferredQuote(raw: any, preferredQuote: any) {
-  // `rawContent` is the string exactly like it appeared in the input source
-  // code, without its enclosing quotes.
-  const rawContent = raw.slice(1, -1);
-
-  /** @type {{ quote: '"', regex: RegExp }} */
-  const double = { quote: '"', regex: /"/g };
-  /** @type {{ quote: "'", regex: RegExp }} */
-  const single = { quote: "'", regex: /'/g };
-
-  const preferred = preferredQuote === "'" ? single : double;
-  const alternate = preferred === single ? double : single;
-
-  let result = preferred.quote;
-
-  // If `rawContent` contains at least one of the quote preferred for enclosing
-  // the string, we might want to enclose with the alternate quote instead, to
-  // minimize the number of escaped quotes.
-  if (rawContent.includes(preferred.quote) || rawContent.includes(alternate.quote)) {
-    const numPreferredQuotes = (rawContent.match(preferred.regex) || []).length;
-    const numAlternateQuotes = (rawContent.match(alternate.regex) || []).length;
-
-    result = numPreferredQuotes > numAlternateQuotes ? alternate.quote : preferred.quote;
-  }
-
-  return result;
-}
-
-export function makeString(rawContent: any, enclosingQuote: any): any {
-  const otherQuote = enclosingQuote === '"' ? "'" : '"';
-
-  // Matches _any_ escape and unescaped quotes (both single and double).
-  const regex = /\\([\S\s])|(["'])/g;
-
-  // Escape and unescape single and double quotes as needed to be able to
-  // enclose `rawContent` with `enclosingQuote`.
-  const newContent = rawContent.replace(regex, (_match: any, escaped: any, quote: any) => {
-    // If we matched an escape, and the escaped character is a quote of the
-    // other type than we intend to enclose the string with, there's no need for
-    // it to be escaped, so return it _without_ the backslash.
-    if (escaped === otherQuote) {
-      return escaped;
-    }
-
-    // If we matched an unescaped quote and it is of the _same_ type as we
-    // intend to enclose the string with, it must be escaped, so return it with
-    // a backslash.
-    if (quote === enclosingQuote) {
-      return '\\' + quote;
-    }
-
-    if (quote) {
-      return quote;
-    }
-
-    // Unescape any unnecessarily escaped character.
-    // Adapted from https://github.com/eslint/eslint/blob/de0b4ad7bd820ade41b1f606008bea68683dc11a/lib/rules/no-useless-escape.js#L27
-    return /^[^\n\r"'0-7\\bfnrt-vx\u2028\u2029]$/.test(escaped) ? escaped : '\\' + escaped;
-  });
-
-  return enclosingQuote + newContent + enclosingQuote;
 }
 
 export function lastOrUndefined<T>(array: readonly T[]): any {
@@ -249,8 +186,6 @@ export function emitNode(
       if (!skipTrailingComments) {
         printer.containerEnd = end;
 
-        // To avoid invalid comment emit in a down-level binding pattern, we
-        // keep track of the last declaration list container's end
         if (node.kind === SyntaxKind.VariableDeclarationList) {
           printer.declarationListContainerEnd = end;
         }
@@ -258,13 +193,10 @@ export function emitNode(
 
       const x = emitCallback(node, printer, parentNode);
 
-      // Restore previous container state.
       printer.containerPos = savedContainerPos;
       printer.containerEnd = savedContainerEnd;
       printer.declarationListContainerEnd = savedDeclarationListContainerEnd;
 
-      // Emit trailing comments if the position is not synthesized and the node
-      // has not opted out from emitting leading comments and is an emitted node.
       if (!skipTrailingComments) {
         printedTrailingComments = emitTrailingComments(printer, end);
       }
@@ -274,7 +206,6 @@ export function emitNode(
   }
 }
 function getTrailingCommentsToEmit(printer: Printer, end: number): any {
-  // Emit the trailing comments only if the container's end doesn't match because the container should take care of emitting these comments
   if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
     return getTrailingCommentRanges(printer.source, end);
   }
@@ -353,8 +284,6 @@ export function printLeadingComments(printer: Printer, pos: number) {
 }
 
 export function positionIsSynthesized(pos: number): boolean {
-  // This is a fast way of testing the following conditions:
-  //  pos === undefined || pos === null || isNaN(pos) || pos < 0;
   return !(pos >= 0);
 }
 export const lineSuffixBoundary = { type: 'line-suffix-boundary', kind: FormatterKind.LineSuffix };
@@ -1045,4 +974,50 @@ export function shouldFlatten(parentOp: any, nodeOp: any) {
   }
 
   return true;
+}
+
+export function getPreferredQuote(raw: any, preferredQuote: any) {
+  // `rawContent` is the string exactly like it appeared in the input source
+  // code, without its enclosing quotes.
+  const rawContent = raw.slice(1, -1);
+
+  /** @type {{ quote: '"', regex: RegExp }} */
+  const double = { quote: '"', regex: /"/g };
+  /** @type {{ quote: "'", regex: RegExp }} */
+  const single = { quote: "'", regex: /'/g };
+
+  const preferred = preferredQuote === "'" ? single : double;
+  const alternate = preferred === single ? double : single;
+
+  let result = preferred.quote;
+
+  if (rawContent.includes(preferred.quote) || rawContent.includes(alternate.quote)) {
+    const numPreferredQuotes = (rawContent.match(preferred.regex) || []).length;
+    const numAlternateQuotes = (rawContent.match(alternate.regex) || []).length;
+
+    result = numPreferredQuotes > numAlternateQuotes ? alternate.quote : preferred.quote;
+  }
+
+  return result;
+}
+
+export function makeString(rawContent: any, enclosingQuote: any): any {
+  const otherQuote = enclosingQuote === '"' ? "'" : '"';
+  const regex = /\\([\S\s])|(["'])/g;
+  const newContent = rawContent.replace(regex, (_match: any, escaped: any, quote: any) => {
+    if (escaped === otherQuote) {
+      return escaped;
+    }
+
+    if (quote === enclosingQuote) {
+      return '\\' + quote;
+    }
+
+    if (quote) {
+      return quote;
+    }
+    return /^[^\n\r"'0-7\\bfnrt-vx\u2028\u2029]$/.test(escaped) ? escaped : '\\' + escaped;
+  });
+
+  return enclosingQuote + newContent + enclosingQuote;
 }

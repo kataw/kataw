@@ -1,5 +1,5 @@
-import { Char } from '../parser/scanner/char';
-import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
+import { Char } from './char';
+import { isLineTerminator, isWhiteSpaceSlow } from './common';
 
 export function skipWhitespace(
   text: string,
@@ -11,7 +11,6 @@ export function skipWhitespace(
     return pos;
   }
 
-  // Keep in sync with couldStartTrivia
   while (true) {
     const ch = text.charCodeAt(pos);
     switch (ch) {
@@ -58,23 +57,6 @@ export function skipWhitespace(
           continue;
         }
         break;
-      /*
-          case Char.LessThan:
-          case Char.Bar:
-          case Char.Assign:
-          case Char.greaterThan:
-              if (isConflictMarkerTrivia(text, pos)) {
-                  pos = scanConflictMarkerTrivia(text, pos);
-                  continue;
-              }
-              break;
-          case Char.hash:
-              if (pos === 0 && isShebangTrivia(text, pos)) {
-                  pos = scanShebangTrivia(text, pos);
-                  continue;
-              }
-              break;
-*/
       default:
         if (ch > 127 && isWhiteSpaceSlow(ch)) {
           pos++;

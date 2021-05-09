@@ -2,6 +2,7 @@ import { parse, Options } from './parser/parser';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
 import { printSourceFile } from './printer';
+export { forEachChild } from './forEachChild';
 export {
   isStatementNode,
   isExpressionNode,
@@ -40,23 +41,19 @@ export {
   isMemberExpression,
   isTemplateLiteral
 } from './parser/common';
-export { getTrailingComments, getLeadingComment } from './parser/scanner/comments';
 
-export { forEachChild } from './forEachChild';
-
+/**
+ * Parse a script, optionally with various options.
+ */
 export function parseScript(source: string, options?: Options, onError?: OnError): RootNode {
   return parse(source, /* filename */ '__root__', Context.None, /* isModule */ false, options, onError);
 }
 
+/**
+ * Parse a module, optionally with various options.
+ */
 export function parseModule(source: string, options?: Options, onError?: OnError): RootNode {
-  return parse(
-    source,
-    /* filename */ '__root__',
-    Context.Module | Context.Strict | Context.AllowImportMeta,
-    /* isModule */ true,
-    options,
-    onError
-  );
+  return parse(source, '__root__', Context.Module | Context.Strict | Context.AllowImportMeta, true, options, onError);
 }
 
 export function prettifyScript(source: string, options?: Options, onError?: OnError): string {
