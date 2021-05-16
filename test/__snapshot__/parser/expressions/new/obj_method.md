@@ -114,7 +114,7 @@ foo({bar(){ new.target }})
                                 "start": 5,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 4,
                             "end": 25
                         }

@@ -198,7 +198,7 @@
                         "condition": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 67,
                             "end": 67
                         },
@@ -215,7 +215,7 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 67,
                                 "end": 67
                             },

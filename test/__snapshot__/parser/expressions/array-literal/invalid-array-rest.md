@@ -501,7 +501,7 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 127,
                                 "end": 127
                             },
@@ -524,7 +524,7 @@
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 133,
                         "end": 133
                     }

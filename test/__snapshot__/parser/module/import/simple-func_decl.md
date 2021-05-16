@@ -81,7 +81,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 8,
                 "end": 8
             },
@@ -159,7 +159,7 @@ x@{x9}@+@{x9}@y
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 15,
                 "end": 15
             },

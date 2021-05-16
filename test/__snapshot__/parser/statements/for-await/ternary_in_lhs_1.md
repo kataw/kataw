@@ -74,7 +74,7 @@ async function f(){
                             "condition": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 38,
                                 "end": 38
                             },
@@ -91,7 +91,7 @@ async function f(){
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 38,
                                     "end": 38
                                 },

@@ -63,7 +63,7 @@ x({a=b});
                                 "start": 3,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 2,
                             "end": 7
                         }

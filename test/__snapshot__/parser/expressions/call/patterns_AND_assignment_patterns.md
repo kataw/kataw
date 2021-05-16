@@ -63,14 +63,14 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 6,
                             "end": 11
                         },
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 12,
                             "end": 12
                         },
@@ -111,7 +111,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                             "start": 14,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 12,
                         "end": 18
                     },
@@ -150,7 +150,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "start": 21,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 19,
                             "end": 25
                         },
@@ -170,7 +170,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "start": 29,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 27,
                             "end": 30
                         },

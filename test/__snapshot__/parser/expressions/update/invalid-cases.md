@@ -554,7 +554,7 @@ new new foo().bar++;
                 "operand": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 136,
                     "end": 136
                 },

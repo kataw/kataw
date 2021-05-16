@@ -65,7 +65,7 @@ class A extends {bar} {}
                         "start": 17,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 15,
                     "end": 21
                 },

@@ -46,7 +46,7 @@ do while [catch] catch { try
                     "start": 24,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 22,
                 "end": 28
             },

@@ -63,7 +63,7 @@ async({c=3} = {})
                                 "start": 7,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 6,
                             "end": 11
                         },
@@ -83,7 +83,7 @@ async({c=3} = {})
                                 "start": 15,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 13,
                             "end": 16
                         },

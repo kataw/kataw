@@ -205,7 +205,7 @@ var await; var f = (async function() { let { f: ...await f } = {}; });
                                                                     "start": 64,
                                                                     "end": 64
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 48,
                                                                 "start": 62,
                                                                 "end": 65
                                                             },

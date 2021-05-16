@@ -32,7 +32,7 @@ class in {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -56,7 +56,7 @@ class in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 5,
                     "end": 5
                 },
@@ -76,7 +76,7 @@ class in {}
                         "start": 10,
                         "end": 10
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 8,
                     "end": 11
                 },

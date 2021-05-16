@@ -8,7 +8,7 @@ x, {x: foo + y, bar} = doo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -92,7 +92,7 @@ x, {x: foo + y, bar} = doo
                                 "start": 4,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 2,
                             "end": 20
                         },

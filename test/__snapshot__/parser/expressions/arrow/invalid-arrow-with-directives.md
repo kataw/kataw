@@ -37,7 +37,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -746,7 +746,7 @@
                             "start": 276,
                             "end": 284
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 275,
                         "end": 285
                     }
@@ -820,7 +820,7 @@
                             "start": 310,
                             "end": 315
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 309,
                         "end": 316
                     }
@@ -908,7 +908,7 @@
                             "start": 341,
                             "end": 350
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 340,
                         "end": 351
                     }
@@ -1981,7 +1981,7 @@
                                                     "start": 756,
                                                     "end": 756
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 754,
                                                 "end": 757
                                             },
@@ -2106,7 +2106,7 @@
                                                     "start": 799,
                                                     "end": 799
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 797,
                                                 "end": 800
                                             },
@@ -2238,7 +2238,7 @@
                                                     "start": 846,
                                                     "end": 846
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 844,
                                                 "end": 847
                                             },
@@ -2950,7 +2950,7 @@
                                                     "start": 1104,
                                                     "end": 1104
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 1102,
                                                 "end": 1105
                                             },
@@ -3074,7 +3074,7 @@
                                                     "start": 1147,
                                                     "end": 1147
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 1145,
                                                 "end": 1148
                                             },

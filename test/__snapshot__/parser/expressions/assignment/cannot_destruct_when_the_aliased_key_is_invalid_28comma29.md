@@ -14,7 +14,7 @@ x, {a: 1} = [];
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -70,7 +70,7 @@ x, {a: 1} = [];
                                 "start": 4,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 2,
                             "end": 9
                         },

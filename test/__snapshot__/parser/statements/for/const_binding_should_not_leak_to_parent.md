@@ -103,7 +103,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "start": 21,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 19,
                             "end": 29
                         },
@@ -248,7 +248,7 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                                 "start": 65,
                                 "end": 71
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 63,
                             "end": 73
                         },

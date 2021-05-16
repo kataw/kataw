@@ -114,7 +114,7 @@ const obj = {
                                 "start": 13,
                                 "end": 49
                             },
-                            "flags": 32,
+                            "flags": 49,
                             "start": 11,
                             "end": 51
                         },

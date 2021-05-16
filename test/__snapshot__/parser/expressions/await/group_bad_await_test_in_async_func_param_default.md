@@ -8,7 +8,7 @@ async function f(x=(await)=y){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -70,7 +70,7 @@ async function f(x=(await)=y){}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 25,
                                         "end": 25
                                     },

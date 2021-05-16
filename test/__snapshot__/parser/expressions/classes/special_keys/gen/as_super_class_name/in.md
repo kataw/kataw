@@ -49,7 +49,7 @@ class x extends in {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -76,7 +76,7 @@ class x extends in {}
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -96,7 +96,7 @@ class x extends in {}
                         "start": 20,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 18,
                     "end": 21
                 },

@@ -95,7 +95,7 @@
                                                             "expression": {
                                                                 "kind": 16637,
                                                                 "text": "",
-                                                                "flags": 68,
+                                                                "flags": 64,
                                                                 "start": 23,
                                                                 "end": 23
                                                             },
@@ -134,7 +134,7 @@
                         "start": 2,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 1,
                     "end": 27
                 },

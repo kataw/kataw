@@ -32,7 +32,7 @@ class class {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },

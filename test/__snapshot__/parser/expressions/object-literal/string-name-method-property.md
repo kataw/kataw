@@ -124,7 +124,7 @@ var x = {
                                 "start": 9,
                                 "end": 49
                             },
-                            "flags": 32,
+                            "flags": 49,
                             "start": 7,
                             "end": 51
                         },

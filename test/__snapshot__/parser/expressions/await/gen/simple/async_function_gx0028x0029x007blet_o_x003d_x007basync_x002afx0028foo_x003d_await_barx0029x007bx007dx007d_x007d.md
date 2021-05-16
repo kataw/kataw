@@ -12,7 +12,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -187,7 +187,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "start": 28,
                                                 "end": 55
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 26,
                                             "end": 56
                                         },

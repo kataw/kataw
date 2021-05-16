@@ -106,7 +106,7 @@ const { f: await f } = {};
                                 "start": 24,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 22,
                             "end": 25
                         },

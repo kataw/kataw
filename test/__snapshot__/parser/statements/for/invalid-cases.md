@@ -61,7 +61,7 @@ for ({x = y} ;;) {}
                     "start": 6,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 5,
                 "end": 10
             },
@@ -118,7 +118,7 @@ for ({x = y} ;;) {}
                     "start": 22,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 21,
                 "end": 28
             },
@@ -196,7 +196,7 @@ for ({x = y} ;;) {}
                     "start": 46,
                     "end": 51
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 45,
                 "end": 52
             },

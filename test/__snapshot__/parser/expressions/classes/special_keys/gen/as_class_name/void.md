@@ -12,7 +12,7 @@ class void {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -32,7 +32,7 @@ class void {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -69,7 +69,7 @@ class void {}
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 10,
                     "end": 13
                 },

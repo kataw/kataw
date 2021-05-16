@@ -49,7 +49,7 @@ async ({x} = y);
                                 "start": 8,
                                 "end": 9
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 7,
                             "end": 10
                         },

@@ -92,7 +92,7 @@ x= { prototype(){} }
                         "start": 4,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 2,
                     "end": 20
                 },

@@ -116,7 +116,7 @@ let o = {f(await){}}
                                 "start": 9,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 7,
                             "end": 20
                         },

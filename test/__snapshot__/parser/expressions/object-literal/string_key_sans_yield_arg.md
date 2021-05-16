@@ -112,7 +112,7 @@ function *f(){   s = {"foo": yield}   }
                                         "start": 22,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 20,
                                     "end": 35
                                 },

@@ -39,7 +39,8 @@ export const enum DestructibleKind {
   Assignable = 1 << 2,
   Destructible = 1 << 3,
   DisallowTrailing = 1 << 4,
-  CoverInitializedName = 1 << 5
+  CoverInitializedName = 1 << 5,
+  SeenPrototype = 1 << 6
 }
 
 export const enum BindingType {
@@ -186,10 +187,6 @@ export function isIterationStatement(t: SyntaxKind): boolean {
 
 export function isCaseOrDefaultClause(t: SyntaxKind): boolean {
   return t === SyntaxKind.DefaultKeyword || t === SyntaxKind.CaseKeyword;
-}
-
-export function hasErrors(node: SyntaxNode): boolean {
-  return (node.flags & NodeFlags.HasErrors) === NodeFlags.HasErrors;
 }
 
 export function isStatementNode(node: SyntaxNode): boolean {

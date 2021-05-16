@@ -69,7 +69,7 @@ export default { foo: 1 };
                     "start": 16,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 14,
                 "end": 25
             },

@@ -17,7 +17,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -79,7 +79,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 68,
+                                            "flags": 64,
                                             "start": 19,
                                             "end": 19
                                         },
@@ -191,7 +191,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                 "start": 38,
                                 "end": 53
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 36,
                             "end": 55
                         },

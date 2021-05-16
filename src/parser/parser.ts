@@ -1004,6 +1004,15 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         parser.token === SyntaxKind.LeftBrace
           ? parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.Literal)
           : parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
+      if (initializer.flags & NodeFlags.DuplicatePrototypeField) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+          parser.curPos,
+          parser.pos
+        );
+      }
 
       destructible = parser.destructible;
 
@@ -1676,7 +1685,10 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
 
   chain = createOptionalChain(chain, pos, parser.curPos);
 
-  while (parser.token & (SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsPropertyOrCall)) {
+  while (
+    parser.token &
+    (SyntaxKind.IsKeyword | SyntaxKind.IsFutureReserved | SyntaxKind.IsIdentifier | SyntaxKind.IsPropertyOrCall)
+  ) {
     pos = parser.curPos;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Period)) {
       chain = createIndexExpressionChain(
@@ -1736,28 +1748,27 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         pos,
         parser.curPos
       );
-    } else
-      if (parser.token === SyntaxKind.TemplateCont || parser.token === SyntaxKind.TemplateTail) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error | DiagnosticKind.EarlyError,
-          diagnosticMap[DiagnosticCode.Tagged_template_expressions_are_not_permitted_in_an_optional_chain],
-          parser.curPos,
-          parser.pos
-        );
-        chain = createTaggedTemplate(
-          chain,
-          parser.token === SyntaxKind.TemplateTail
-            ? parseTemplateTail(
-                parser,
-                context,
-                NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
-              )
-            : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
-          pos,
-          parser.curPos
-        );
-      }
+    } else if (parser.token === SyntaxKind.TemplateCont || parser.token === SyntaxKind.TemplateTail) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error | DiagnosticKind.EarlyError,
+        diagnosticMap[DiagnosticCode.Tagged_template_expressions_are_not_permitted_in_an_optional_chain],
+        parser.curPos,
+        parser.pos
+      );
+      chain = createTaggedTemplate(
+        chain,
+        parser.token === SyntaxKind.TemplateTail
+          ? parseTemplateTail(
+              parser,
+              context,
+              NodeFlags.ExpressionNode | NodeFlags.ChildLess | NodeFlags.TemplateLiteral
+            )
+          : parseTemplateExpression(parser, context, /*isTaggedTemplate*/ true),
+        pos,
+        parser.curPos
+      );
+    }
 
     return chain;
   }
@@ -2115,6 +2126,8 @@ function parseIdentifierReference(
   return createDummyIdentifier(curPos, curPos) as any;
 }
 
+// PrimaryExpression :
+//   ...
 function parsePrimaryExpression(
   parser: ParserState,
   context: Context,
@@ -2247,8 +2260,21 @@ function parsePrimaryExpression(
   return parseIdentifier(parser, context);
 }
 
+// ObjectLiteral :
+//   `{` `}`
+//   `{` PropertyDefinitionList `}`
+//   `{` PropertyDefinitionList `,` `}`
 function parseObjectLiteral(parser: ParserState, context: Context): ObjectLiteral | AssignmentExpression {
   const expr = parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
+  if (expr.flags & NodeFlags.DuplicatePrototypeField) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+      parser.curPos,
+      parser.pos
+    );
+  }
   if (parser.destructible & DestructibleKind.MustDestruct) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -2274,7 +2300,13 @@ function parseObjectLiteralOrAssignmentExpression(
   nextToken(parser, context | Context.AllowRegExp);
   const propertyDefinitionList = parsePropertyDefinitionList(parser, context, type);
   parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
-  const node = createObjectLiteral(propertyDefinitionList, pos, parser.curPos);
+  const node = createObjectLiteral(
+    propertyDefinitionList,
+    propertyDefinitionList.flags | NodeFlags.ExpressionNode,
+    pos,
+    parser.curPos
+  );
+
   if (parser.token & SyntaxKind.IsAssignOp) {
     if (parser.token !== SyntaxKind.Assign) {
       parser.onError(
@@ -2308,16 +2340,19 @@ function parseObjectLiteralOrAssignmentExpression(
 function parsePropertyDefinitionList(parser: ParserState, context: Context, type: BindingType): PropertyDefinitionList {
   const pos = parser.curPos;
   const properties = [];
-  const flags = parser.nodeFlags;
+  let flags = parser.nodeFlags;
   let trailingComma = false;
   let destructible = DestructibleKind.None;
-  const prototypeCount = 0;
+  let prototypeCount = 0;
 
   // Allow "in" inside object literals
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   while (parser.token & 0b00000100110010000100000000000000) {
     properties.push(parsePropertyDefinition(parser, context, type));
+    if (parser.destructible & DestructibleKind.SeenPrototype) {
+      prototypeCount++;
+    }
     destructible |= parser.destructible;
     if (parser.token === SyntaxKind.RightBrace) break;
     if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Comma)) {
@@ -2327,7 +2362,6 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
       }
       continue;
     }
-
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -2335,6 +2369,9 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
       parser.curPos,
       parser.pos
     );
+  }
+  if (prototypeCount > 1) {
+    flags |= NodeFlags.DuplicatePrototypeField;
   }
   parser.destructible = destructible;
   return createPropertyDefinitionList(properties, trailingComma, flags | NodeFlags.IsStatement, pos, parser.curPos);
@@ -2402,9 +2439,14 @@ function parsePropertyDefinition(
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
   let nodeFlags = generatorToken ? NodeFlags.ExpressionNode | NodeFlags.Generator : NodeFlags.ExpressionNode;
+  let destructible = DestructibleKind.None;
 
   if (parser.token & 0b00000000100000000100000000000000) {
     const token = parser.token;
+    if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
+      parser.destructible = destructible;
+      destructible |= DestructibleKind.SeenPrototype;
+    }
     key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
 
     // Check for a modifier keyword
@@ -2497,7 +2539,6 @@ function parsePropertyDefinition(
       case SyntaxKind.Assign:
       case SyntaxKind.Comma:
       case SyntaxKind.RightBrace:
-        let destructible = DestructibleKind.None;
         if (
           context & Context.Strict &&
           (token === SyntaxKind.EvalIdentifier || token === SyntaxKind.ArgumentsIdentifier)
@@ -2532,8 +2573,6 @@ function parsePropertyDefinition(
       parser.curPos
     );
   }
-
-  let destructible = DestructibleKind.None;
 
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.Colon)) {
     let left: any;
@@ -2589,6 +2628,10 @@ function parsePropertyDefinition(
       }
     } else {
       const token = parser.token;
+      // Check for '__proto__' property and eventually set the 'Destructible.HasProto' bit
+      if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
+        destructible |= DestructibleKind.SeenPrototype;
+      }
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
       if (parser.token === SyntaxKind.Comma || parser.token === SyntaxKind.RightBrace) {
@@ -2871,6 +2914,7 @@ function parseRegularExpression(parser: ParserState, context: Context): RegularE
   return createRegularExpressionLiteral(tokenValue, curPos, parser.curPos);
 }
 
+// NumericLiteral
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
   const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
@@ -2891,6 +2935,7 @@ function parseBigIntLiteral(parser: ParserState, context: Context): BigIntLitera
   return createBigIntLiteral(tokenValue, tokenRaw, curPos, parser.curPos);
 }
 
+// StringLiteral
 function parseStringLiteral(parser: ParserState, context: Context): StringLiteral {
   const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
@@ -2904,6 +2949,7 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
   );
 }
 
+// NewExpression
 function parseNewExpression(parser: ParserState, context: Context): NewTarget | NewExpression {
   const pos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode;
@@ -2991,6 +3037,9 @@ function parseThisExpression(parser: ParserState, context: Context): ThisExpress
   return createThisExpression(curPos, parser.curPos);
 }
 
+// BooleanLiteral :
+//   `true`
+//   `false`
 function parseBooleanLiteral(parser: ParserState, context: Context, isTruthy: boolean): BooleanLiteral {
   const curPos = parser.curPos;
   const flags = parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.ChildLess;
@@ -3168,8 +3217,23 @@ function parseUnaryExpression(
   return createUnaryExpression(operandToken, expression, curPos, parser.curPos);
 }
 
+// ArrayLiteral :
+//   `[` `]`
+//   `[` Elision `]`
+//   `[` ElementList `]`
+//   `[` ElementList `,` `]`
+//   `[` ElementList `,` Elision `]`
 function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral {
   const expr = parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
+  if (expr.flags & NodeFlags.DuplicatePrototypeField) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+      parser.curPos,
+      parser.pos
+    );
+  }
   if ((parser.destructible & DestructibleKind.MustDestruct) === DestructibleKind.MustDestruct) {
     parser.onError(
       DiagnosticSource.Parser,
@@ -3677,6 +3741,15 @@ function parseParentheizedExpression(
         ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
         : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
+    if (expression.flags & NodeFlags.DuplicatePrototypeField) {
+      parser.onError(
+        DiagnosticSource.Parser,
+        DiagnosticKind.Error,
+        diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+        parser.curPos,
+        parser.pos
+      );
+    }
     flags |= NodeFlags.NoneSimpleParamList;
 
     if (parser.token === SyntaxKind.QuestionMark) {
@@ -3987,6 +4060,17 @@ function parseParentheizedExpression(
             parser.token === SyntaxKind.LeftBracket
               ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
               : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
+
+          if (expression.flags & NodeFlags.DuplicatePrototypeField) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.An_object_literal_cannot_have_multiple_properties_with_the_name___proto],
+              parser.curPos,
+              parser.pos
+            );
+          }
+
           flags |= NodeFlags.NoneSimpleParamList;
 
           if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.QuestionMark) {
@@ -4472,6 +4556,7 @@ function parseFunctionExpression(
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
+    // `async` [no LineTerminator here] `function`
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
       if ((flags & NodeFlags.NewLine) === 0) {
@@ -5750,7 +5835,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
       const arrowToken = consumeOptToken(parser, context, SyntaxKind.Arrow);
 
-      let returnType = parseType(parser, context);
+      const returnType = parseType(parser, context);
 
       return createArrowFunctionType(arrowToken, params, returnType, typeParameters, pos, parser.curPos);
     }
@@ -5766,7 +5851,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
   const arrowToken = consumeOptToken(parser, context, SyntaxKind.Arrow);
 
-  let returnType = parseType(parser, context);
+  const returnType = parseType(parser, context);
 
   return createArrowFunctionType(arrowToken, params, returnType, typeParameters, pos, parser.curPos);
 }

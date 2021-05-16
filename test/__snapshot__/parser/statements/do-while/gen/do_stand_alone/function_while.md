@@ -30,7 +30,7 @@ do function while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 17,
                 "end": 17
             },
@@ -54,7 +54,7 @@ do function while
                 "name": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 11,
                     "end": 11
                 },

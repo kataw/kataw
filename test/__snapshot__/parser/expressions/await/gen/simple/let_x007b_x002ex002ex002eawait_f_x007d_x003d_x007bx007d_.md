@@ -96,7 +96,7 @@ let { ...await f } = {};
                                 "start": 22,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 20,
                             "end": 23
                         },

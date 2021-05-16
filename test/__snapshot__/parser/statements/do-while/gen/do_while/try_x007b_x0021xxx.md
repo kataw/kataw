@@ -12,7 +12,7 @@ do try { !xxx while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do try { !xxx while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 19,
                 "end": 19
             },
@@ -85,7 +85,7 @@ do try { !xxx while
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 19,
                                     "end": 19
                                 },
@@ -94,7 +94,7 @@ do try { !xxx while
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 19,
                                         "end": 19
                                     },

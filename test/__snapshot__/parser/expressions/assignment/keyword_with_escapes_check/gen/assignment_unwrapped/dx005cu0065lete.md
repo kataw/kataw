@@ -12,7 +12,7 @@ d\u0065lete = x;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -34,7 +34,7 @@ d\u0065lete = x;
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 11,
                         "end": 11
                     },

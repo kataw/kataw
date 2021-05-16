@@ -112,7 +112,7 @@
                         "start": 2,
                         "end": 37
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 1,
                     "end": 39
                 },
@@ -209,7 +209,7 @@
                         "start": 44,
                         "end": 76
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 43,
                     "end": 78
                 },
@@ -330,7 +330,7 @@
                         "start": 83,
                         "end": 119
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 82,
                     "end": 121
                 },
@@ -504,7 +504,7 @@
                         "start": 126,
                         "end": 183
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 125,
                     "end": 185
                 },
@@ -601,7 +601,7 @@
                         "start": 190,
                         "end": 224
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 189,
                     "end": 226
                 },
@@ -722,7 +722,7 @@
                         "start": 231,
                         "end": 269
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 230,
                     "end": 271
                 },
@@ -779,7 +779,7 @@
                         "start": 276,
                         "end": 305
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 275,
                     "end": 307
                 },
@@ -818,11 +818,11 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 16,
+                        "flags": 20,
                         "start": 312,
                         "end": 333
                     },
-                    "flags": 32,
+                    "flags": 52,
                     "start": 311,
                     "end": 335
                 },
@@ -848,19 +848,12 @@
 
 ```javascript
 
-({ __proto__: null, get __proto__() {} });
-({ __proto__: null, __proto__() {} });
-({ __proto__: null, set __proto__(x) {} });
-({ "\"__proto__\"": null, get __proto__() {}, set __proto__(x) {} });
-({ "\"__proto__\"": null, __proto__() {} });
-({ "\"__proto__\"": null, set __proto__(x) {} });
-({ "\"__proto__\"": null, __proto__ });
-({ __proto__, __proto__ });
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ An object literal cannot have multiple properties with the name '__proto__' - start: 335, end: 336
+
 ```
 

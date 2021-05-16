@@ -13,7 +13,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -76,7 +76,7 @@
                                             "start": 8,
                                             "end": 11
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 6,
                                         "end": 12
                                     },
@@ -108,7 +108,7 @@
                         "start": 2,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 1,
                     "end": 18
                 },
@@ -160,7 +160,7 @@
                             "start": 24,
                             "end": 27
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 23,
                         "end": 28
                     },
@@ -232,7 +232,7 @@
                                 "start": 39,
                                 "end": 42
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 38,
                             "end": 43
                         },
@@ -374,7 +374,7 @@
                                             "start": 71,
                                             "end": 74
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 69,
                                         "end": 75
                                     },
@@ -406,7 +406,7 @@
                         "start": 65,
                         "end": 80
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 64,
                     "end": 81
                 },

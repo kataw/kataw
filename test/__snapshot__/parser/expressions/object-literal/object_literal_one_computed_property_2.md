@@ -101,7 +101,7 @@ x({[a]:b, [15]:d}=obj);
                                     "start": 3,
                                     "end": 16
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 2,
                                 "end": 17
                             },

@@ -9,7 +9,7 @@ async function f(){ await foo
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -107,7 +107,7 @@ async function f(){ await foo
                                 "right": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 35,
                                     "end": 35
                                 },

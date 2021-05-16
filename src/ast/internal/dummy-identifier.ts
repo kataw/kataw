@@ -13,7 +13,7 @@ export function createDummyIdentifier(start: number, end: number): DummyIdentifi
   return {
     kind: SyntaxKind.DummyIdentifier,
     text: '',
-    flags: NodeFlags.HasErrors | NodeFlags.ChildLess,
+    flags: NodeFlags.ChildLess,
     start,
     end
   };

@@ -148,7 +148,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                 "start": 19,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 17,
                             "end": 38
                         },

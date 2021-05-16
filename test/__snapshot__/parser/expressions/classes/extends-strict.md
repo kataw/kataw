@@ -139,7 +139,7 @@ class C extends (function B() {
                                                     "start": 49,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 48,
                                                 "start": 48,
                                                 "end": 50
                                             },

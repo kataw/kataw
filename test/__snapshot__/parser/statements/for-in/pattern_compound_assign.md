@@ -54,7 +54,7 @@ for({}/=y in y)x
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 4,
                     "end": 6
                 },
@@ -100,7 +100,7 @@ for({}/=y in y)x
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 14,
                 "end": 14
             },

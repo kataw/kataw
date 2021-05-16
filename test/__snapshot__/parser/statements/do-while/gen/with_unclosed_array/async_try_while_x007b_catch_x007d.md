@@ -30,7 +30,7 @@ do[ async try while { catch }
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 13,
                 "end": 13
             },
@@ -95,7 +95,7 @@ do[ async try while { catch }
                     "start": 21,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 19,
                 "end": 29
             },
@@ -104,7 +104,7 @@ do[ async try while { catch }
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 29,
                     "end": 29
                 },

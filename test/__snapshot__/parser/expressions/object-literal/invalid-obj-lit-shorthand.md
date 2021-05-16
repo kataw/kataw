@@ -68,7 +68,7 @@ f({x = 0});
                         "start": 7,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 5,
                     "end": 13
                 },
@@ -128,7 +128,7 @@ f({x = 0});
                                 "start": 19,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 18,
                             "end": 25
                         }

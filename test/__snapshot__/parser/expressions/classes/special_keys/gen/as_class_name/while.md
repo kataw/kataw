@@ -32,7 +32,7 @@ class while {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -67,7 +67,7 @@ class while {}
                     "start": 13,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 11,
                 "end": 14
             },
@@ -76,7 +76,7 @@ class while {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 14,
                     "end": 14
                 },

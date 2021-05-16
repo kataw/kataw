@@ -89,7 +89,7 @@ x({a:b, c:d}=obj);
                                     "start": 3,
                                     "end": 11
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 2,
                                 "end": 12
                             },

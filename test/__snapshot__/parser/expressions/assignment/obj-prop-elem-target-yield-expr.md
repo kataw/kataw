@@ -81,7 +81,7 @@ result = { x: x[yield] } = vals;
                                 "start": 12,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 10,
                             "end": 20
                         },
@@ -166,7 +166,7 @@ result = { x: x[yield] } = vals;
                             "start": 33,
                             "end": 45
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 31,
                         "end": 47
                     },

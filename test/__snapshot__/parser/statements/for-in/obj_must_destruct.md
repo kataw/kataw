@@ -66,7 +66,7 @@ for ({x=y}=x in x) ;
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 5,
                     "end": 10
                 },
@@ -112,7 +112,7 @@ for ({x=y}=x in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 17,
                 "end": 17
             },

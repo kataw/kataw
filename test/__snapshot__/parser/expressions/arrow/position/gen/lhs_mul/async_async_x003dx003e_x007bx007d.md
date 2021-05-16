@@ -74,7 +74,7 @@ async async => {} * x
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 17,
                     "end": 17
                 },

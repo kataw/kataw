@@ -204,7 +204,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 45,
                                 "end": 45
                             },

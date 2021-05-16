@@ -17,11 +17,16 @@ export interface ObjectLiteral extends SyntaxNode {
   readonly propertyList: PropertyDefinitionList;
 }
 
-export function createObjectLiteral(propertyList: PropertyDefinitionList, start: number, end: number): ObjectLiteral {
+export function createObjectLiteral(
+  propertyList: PropertyDefinitionList,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ObjectLiteral {
   return {
     kind: SyntaxKind.ObjectLiteral,
     propertyList,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

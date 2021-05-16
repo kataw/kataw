@@ -13,7 +13,7 @@ declare function foo(): void
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -123,7 +123,7 @@ declare function foo(): void
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 31,
                         "end": 31
                     },
@@ -276,7 +276,7 @@ declare function foo(): void
                 "operand": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 82,
                     "end": 82
                 },
@@ -362,7 +362,7 @@ declare function foo(): void
                 "operand": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 113,
                     "end": 113
                 },

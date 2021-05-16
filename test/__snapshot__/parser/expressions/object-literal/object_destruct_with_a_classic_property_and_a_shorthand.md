@@ -77,7 +77,7 @@ x = {a:b, c} = obj;
                             "start": 5,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 3,
                         "end": 12
                     },

@@ -90,7 +90,7 @@ result = { x: [y] } = { x: [321] };
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 19
                     },
@@ -149,7 +149,7 @@ result = { x: [y] } = { x: [321] };
                             "start": 23,
                             "end": 32
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 21,
                         "end": 34
                     },

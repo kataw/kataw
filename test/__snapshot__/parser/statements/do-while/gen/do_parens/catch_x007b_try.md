@@ -54,7 +54,7 @@ do( catch { try while
                     "start": 11,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 9,
                 "end": 21
             },
@@ -66,7 +66,7 @@ do( catch { try while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 3,
                         "end": 3
                     },

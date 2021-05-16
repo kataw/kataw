@@ -79,7 +79,7 @@ function *foo() { let x = {yield} }
                                             "start": 19,
                                             "end": 24
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 18,
                                         "end": 25
                                     },
@@ -199,7 +199,7 @@ function *foo() { let x = {yield} }
                                                 "start": 60,
                                                 "end": 65
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 58,
                                             "end": 66
                                         },
@@ -294,7 +294,7 @@ function *foo() { let x = {yield} }
                                             "start": 90,
                                             "end": 95
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 89,
                                         "end": 96
                                     },
@@ -419,7 +419,7 @@ function *foo() { let x = {yield} }
                                                 "start": 132,
                                                 "end": 137
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 130,
                                             "end": 138
                                         },

@@ -137,7 +137,7 @@ var await; var f = (async function() { async(await); });
                                                             "expression": {
                                                                 "kind": 16637,
                                                                 "text": "",
-                                                                "flags": 68,
+                                                                "flags": 64,
                                                                 "start": 50,
                                                                 "end": 50
                                                             },

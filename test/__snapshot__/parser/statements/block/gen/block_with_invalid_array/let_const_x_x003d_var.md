@@ -119,7 +119,7 @@
                                     "initializer": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 23,
                                         "end": 23
                                     },

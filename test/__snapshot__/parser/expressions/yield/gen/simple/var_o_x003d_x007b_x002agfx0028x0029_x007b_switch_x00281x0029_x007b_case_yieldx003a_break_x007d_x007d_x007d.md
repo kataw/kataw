@@ -178,7 +178,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                 "start": 9,
                                 "end": 53
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 7,
                             "end": 55
                         },

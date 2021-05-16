@@ -125,7 +125,7 @@ var {[2]: y} = {2:3}
                                 "start": 16,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 14,
                             "end": 20
                         },

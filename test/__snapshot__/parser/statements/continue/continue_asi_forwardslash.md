@@ -71,7 +71,7 @@ for (x of 3) continue
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 21,
                     "end": 21
                 },
@@ -84,7 +84,7 @@ for (x of 3) continue
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 23,
                     "end": 23
                 },

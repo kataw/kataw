@@ -270,7 +270,7 @@ var await; var f = (async function() { async function f() {
                                                                                     "start": 88,
                                                                                     "end": 93
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 48,
                                                                                 "start": 86,
                                                                                 "end": 95
                                                                             },

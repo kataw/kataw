@@ -87,7 +87,7 @@ wrap({1:b, 0:d});
                                 "start": 6,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 15
                         }

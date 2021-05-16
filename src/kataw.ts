@@ -10,7 +10,6 @@ export {
   isSingleQuote,
   containsSeparator,
   hasUnicodeEscape,
-  hasErrors,
   isConstructor,
   isGenerator,
   isAsync,

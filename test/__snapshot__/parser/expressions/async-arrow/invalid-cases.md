@@ -236,7 +236,7 @@ async ([a]:string)=>c;
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 53,
                         "end": 53
                     },
@@ -326,7 +326,7 @@ async ([a]:string)=>c;
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 74,
                 "end": 74
             },
@@ -335,7 +335,7 @@ async ([a]:string)=>c;
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 74,
                     "end": 74
                 },
@@ -611,7 +611,7 @@ async ([a]:string)=>c;
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 177,
                     "end": 177
                 },
@@ -1488,7 +1488,7 @@ async ([a]:string)=>c;
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 551,
                                     "end": 551
                                 },
@@ -1638,7 +1638,7 @@ async ([a]:string)=>c;
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 601,
                 "end": 601
             },
@@ -1991,7 +1991,7 @@ async ([a]:string)=>c;
                             "start": 712,
                             "end": 717
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 711,
                         "end": 718
                     },
@@ -2030,7 +2030,7 @@ async ([a]:string)=>c;
                                 "start": 721,
                                 "end": 726
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 719,
                             "end": 727
                         },
@@ -2050,7 +2050,7 @@ async ([a]:string)=>c;
                                 "start": 731,
                                 "end": 731
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 729,
                             "end": 732
                         },
@@ -2093,7 +2093,7 @@ async ([a]:string)=>c;
                                 "start": 735,
                                 "end": 740
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 733,
                             "end": 741
                         },
@@ -2113,7 +2113,7 @@ async ([a]:string)=>c;
                                 "start": 745,
                                 "end": 745
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 743,
                             "end": 746
                         },

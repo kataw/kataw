@@ -279,7 +279,7 @@ for ({}[y] ^= x;;) x;
                             "start": 74,
                             "end": 74
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 73,
                         "end": 75
                     },

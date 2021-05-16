@@ -111,7 +111,7 @@ x = { method(test) { } }
                         "start": 5,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 24
                 },

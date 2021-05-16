@@ -49,7 +49,7 @@ class x extends instanceof {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -76,7 +76,7 @@ class x extends instanceof {}
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -96,7 +96,7 @@ class x extends instanceof {}
                         "start": 28,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 26,
                     "end": 29
                 },

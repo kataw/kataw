@@ -92,7 +92,7 @@ x = {0xabc(){}}
                         "start": 5,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 1048624,
                     "start": 3,
                     "end": 15
                 },

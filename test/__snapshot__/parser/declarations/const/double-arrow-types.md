@@ -127,7 +127,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 37,
                         "end": 37
                     },
@@ -295,7 +295,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 97,
                         "end": 97
                     },

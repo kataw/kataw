@@ -12,7 +12,7 @@ function * gen() { function not_gen() { function* gf() { yield++; } }}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -151,7 +151,7 @@ function * gen() { function not_gen() { function* gf() { yield++; } }}
                                                                     "operand": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "flags": 68,
+                                                                        "flags": 64,
                                                                         "start": 64,
                                                                         "end": 64
                                                                     },

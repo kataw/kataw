@@ -8,7 +8,7 @@ var {...[]} = {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -47,7 +47,7 @@ var {...[]} = {}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 9,
                                                 "end": 9
                                             },
@@ -61,7 +61,7 @@ var {...[]} = {}
                                             "binding": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 10,
                                                 "end": 10
                                             },
@@ -96,7 +96,7 @@ var {...[]} = {}
                                 "start": 15,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 13,
                             "end": 16
                         },

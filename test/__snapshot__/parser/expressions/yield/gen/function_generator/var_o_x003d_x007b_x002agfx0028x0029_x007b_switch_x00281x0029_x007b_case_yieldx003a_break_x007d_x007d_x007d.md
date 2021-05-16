@@ -249,7 +249,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "start": 49,
                                                                 "end": 93
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 48,
                                                             "start": 47,
                                                             "end": 95
                                                         },

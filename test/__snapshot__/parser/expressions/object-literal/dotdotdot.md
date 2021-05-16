@@ -8,7 +8,7 @@ var { ...{ x = 5 } } = {x : 1};
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -45,7 +45,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 68,
+                                            "flags": 64,
                                             "start": 9,
                                             "end": 9
                                         },
@@ -145,7 +145,7 @@ var { ...{ x = 5 } } = {x : 1};
                                 "start": 24,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 22,
                             "end": 30
                         },

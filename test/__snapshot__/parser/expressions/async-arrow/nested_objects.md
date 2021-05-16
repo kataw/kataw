@@ -78,7 +78,7 @@ async ({ident: {x: y}})
                                             "start": 16,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 14,
                                         "end": 21
                                     },
@@ -92,7 +92,7 @@ async ({ident: {x: y}})
                             "start": 8,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 7,
                         "end": 22
                     }

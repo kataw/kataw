@@ -87,7 +87,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                 "start": 32,
                                                 "end": 33
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 31,
                                             "end": 34
                                         },
@@ -191,7 +191,7 @@ async function a(){     async ({g} = [{m: 5 + t(await bar)}]);     }
                                                             "start": 39,
                                                             "end": 58
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 48,
                                                         "start": 38,
                                                         "end": 59
                                                     }

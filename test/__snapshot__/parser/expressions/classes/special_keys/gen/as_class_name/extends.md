@@ -49,7 +49,7 @@ class extends {}
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 13,
                     "end": 16
                 },

@@ -32,7 +32,7 @@ class new {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -69,7 +69,7 @@ class new {}
                         "start": 11,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 9,
                     "end": 12
                 },

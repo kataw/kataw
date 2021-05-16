@@ -88,7 +88,7 @@ x: for(;;) continue x
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 21,
                     "end": 21
                 },

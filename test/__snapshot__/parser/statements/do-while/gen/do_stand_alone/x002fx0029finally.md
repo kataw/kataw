@@ -30,7 +30,7 @@ do /)finally
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 12,
                 "end": 12
             },

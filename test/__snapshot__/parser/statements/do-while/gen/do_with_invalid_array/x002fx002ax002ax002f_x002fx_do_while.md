@@ -30,7 +30,7 @@ do while [catch] /**/ /x do while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 33,
                 "end": 33
             },

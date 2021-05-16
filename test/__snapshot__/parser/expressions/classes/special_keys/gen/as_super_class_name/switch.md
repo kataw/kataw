@@ -49,7 +49,7 @@ class x extends switch {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -87,7 +87,7 @@ class x extends switch {}
                     "start": 24,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 22,
                 "end": 25
             },

@@ -12,7 +12,7 @@ class delete {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -32,7 +32,7 @@ class delete {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -69,7 +69,7 @@ class delete {}
                         "start": 14,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 12,
                     "end": 15
                 },

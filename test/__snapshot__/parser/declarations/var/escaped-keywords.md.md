@@ -50,7 +50,7 @@ var \u0062\u0072\u0065\u0061\u006b = 123;
             "label": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 35,
                 "end": 35
             },

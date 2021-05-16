@@ -30,7 +30,7 @@ do function while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 17,
                 "end": 17
             },
@@ -54,7 +54,7 @@ do function while while
                 "name": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 11,
                     "end": 11
                 },
@@ -101,7 +101,7 @@ do function while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 23,
                 "end": 23
             },
@@ -110,7 +110,7 @@ do function while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 23,
                     "end": 23
                 },

@@ -78,7 +78,7 @@ function *f(){  ({yield} = x)  }
                                             "start": 18,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 17,
                                         "end": 24
                                     },

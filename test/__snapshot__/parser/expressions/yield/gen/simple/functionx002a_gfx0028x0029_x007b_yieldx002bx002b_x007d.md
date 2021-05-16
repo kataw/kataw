@@ -12,7 +12,7 @@ function* gf() { yield++; }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -80,7 +80,7 @@ function* gf() { yield++; }
                                     "operand": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 24
                                     },

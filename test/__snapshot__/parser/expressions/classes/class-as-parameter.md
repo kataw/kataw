@@ -275,7 +275,7 @@ class A {
                                                 "start": 61,
                                                 "end": 107
                                             },
-                                            "flags": 32,
+                                            "flags": 49,
                                             "start": 59,
                                             "end": 111
                                         }
@@ -368,7 +368,7 @@ class A {
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 145,
                 "end": 145
             },
@@ -397,7 +397,7 @@ class A {
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 149,
                     "end": 149
                 },

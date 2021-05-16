@@ -100,7 +100,7 @@ let tests = [
                                             "start": 17,
                                             "end": 27
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 13,
                                         "end": 28
                                     },
@@ -151,7 +151,7 @@ let tests = [
                                             "start": 32,
                                             "end": 42
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 29,
                                         "end": 43
                                     },
@@ -202,7 +202,7 @@ let tests = [
                                             "start": 47,
                                             "end": 57
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 44,
                                         "end": 58
                                     },
@@ -253,7 +253,7 @@ let tests = [
                                             "start": 62,
                                             "end": 72
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 59,
                                         "end": 73
                                     },
@@ -396,7 +396,7 @@ let tests = [
                                             "start": 77,
                                             "end": 117
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 74,
                                         "end": 118
                                     }

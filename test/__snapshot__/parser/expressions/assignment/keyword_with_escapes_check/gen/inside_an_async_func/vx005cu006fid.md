@@ -12,7 +12,7 @@ async () => {  v\u006fid = x  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -57,7 +57,7 @@ async () => {  v\u006fid = x  }
                                     "operand": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 24,
                                         "end": 24
                                     },

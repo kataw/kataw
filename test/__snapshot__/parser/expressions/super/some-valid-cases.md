@@ -816,7 +816,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "start": 209,
                         "end": 231
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 208,
                     "end": 232
                 },
@@ -1297,7 +1297,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "start": 344,
                         "end": 365
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 343,
                     "end": 366
                 },
@@ -1430,7 +1430,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "start": 371,
                         "end": 394
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 370,
                     "end": 395
                 },

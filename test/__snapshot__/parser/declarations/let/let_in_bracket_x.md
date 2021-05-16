@@ -103,7 +103,7 @@ let[x] in x;
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 6,
                     "end": 6
                 },

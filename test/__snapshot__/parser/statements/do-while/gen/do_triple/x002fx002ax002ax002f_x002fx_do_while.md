@@ -30,7 +30,7 @@ do do do /**/ /x do while while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 43,
                 "end": 43
             },
@@ -46,7 +46,7 @@ do do do /**/ /x do while while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 43,
                     "end": 43
                 },
@@ -62,7 +62,7 @@ do do do /**/ /x do while while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 43,
                         "end": 43
                     },

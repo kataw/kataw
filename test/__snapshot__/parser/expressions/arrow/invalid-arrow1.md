@@ -103,7 +103,7 @@
                             "start": 2,
                             "end": 8
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 1,
                         "end": 9
                     }
@@ -193,7 +193,7 @@
                                             "start": 21,
                                             "end": 27
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 20,
                                         "end": 28
                                     },
@@ -309,7 +309,7 @@
                                         "start": 45,
                                         "end": 51
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 44,
                                     "end": 52
                                 }
@@ -409,7 +409,7 @@
                                             "start": 65,
                                             "end": 71
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 64,
                                         "end": 72
                                     }
@@ -527,7 +527,7 @@
                                             "start": 89,
                                             "end": 99
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 88,
                                         "end": 100
                                     },
@@ -640,7 +640,7 @@
                                 "start": 116,
                                 "end": 126
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 115,
                             "end": 127
                         },
@@ -746,7 +746,7 @@
                                         "start": 143,
                                         "end": 153
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 142,
                                     "end": 154
                                 }
@@ -846,7 +846,7 @@
                                             "start": 167,
                                             "end": 177
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 166,
                                         "end": 178
                                     }
@@ -980,7 +980,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 232,
                     "end": 232
                 },
@@ -1003,7 +1003,7 @@
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 234,
                 "end": 234
             },
@@ -1012,7 +1012,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 235,
                     "end": 235
                 },
@@ -1084,7 +1084,7 @@
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 250,
                 "end": 250
             },
@@ -1093,7 +1093,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 251,
                     "end": 251
                 },

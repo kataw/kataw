@@ -42,7 +42,7 @@ new super
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 9,
                         "end": 9
                     },

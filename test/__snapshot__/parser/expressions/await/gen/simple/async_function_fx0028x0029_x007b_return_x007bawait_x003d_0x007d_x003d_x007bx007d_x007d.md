@@ -100,7 +100,7 @@ async function f() { return {await = 0} = {}; }
                                         "start": 29,
                                         "end": 38
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 27,
                                     "end": 39
                                 },
@@ -120,7 +120,7 @@ async function f() { return {await = 0} = {}; }
                                         "start": 43,
                                         "end": 43
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 41,
                                     "end": 44
                                 },

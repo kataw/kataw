@@ -116,7 +116,7 @@ x({*foo(){}});
                                 "start": 3,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 2,
                             "end": 14
                         }
@@ -213,7 +213,7 @@ x({*foo(){}});
                                 "start": 21,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 20,
                             "end": 30
                         }
@@ -310,7 +310,7 @@ x({*foo(){}});
                                 "start": 37,
                                 "end": 45
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 36,
                             "end": 46
                         }
@@ -455,7 +455,7 @@ x({*foo(){}});
                                 "start": 53,
                                 "end": 75
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 52,
                             "end": 76
                         }
@@ -600,7 +600,7 @@ x({*foo(){}});
                                 "start": 83,
                                 "end": 105
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 82,
                             "end": 106
                         }
@@ -697,7 +697,7 @@ x({*foo(){}});
                                 "start": 113,
                                 "end": 128
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 112,
                             "end": 129
                         }
@@ -800,7 +800,7 @@ x({*foo(){}});
                                 "start": 136,
                                 "end": 151
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 135,
                             "end": 152
                         }
@@ -945,7 +945,7 @@ x({*foo(){}});
                                 "start": 159,
                                 "end": 176
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 158,
                             "end": 177
                         }
@@ -1042,7 +1042,7 @@ x({*foo(){}});
                                 "start": 184,
                                 "end": 192
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 183,
                             "end": 193
                         }

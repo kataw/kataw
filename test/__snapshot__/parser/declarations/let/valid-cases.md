@@ -273,7 +273,7 @@ let {foo=3} = {};
                                 "start": 52,
                                 "end": 58
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 50,
                             "end": 59
                         },
@@ -353,7 +353,7 @@ let {foo=3} = {};
                                 "start": 76,
                                 "end": 76
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 74,
                             "end": 77
                         },

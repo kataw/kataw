@@ -8,7 +8,7 @@ let x = async function f(foo = await){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -88,7 +88,7 @@ let x = async function f(foo = await){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 36,
                                                 "end": 36
                                             },

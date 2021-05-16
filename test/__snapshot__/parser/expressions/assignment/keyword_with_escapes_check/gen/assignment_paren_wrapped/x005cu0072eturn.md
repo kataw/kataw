@@ -26,7 +26,7 @@
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 1,
                     "end": 1
                 },
@@ -51,7 +51,7 @@
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 12,
                     "end": 12
                 },

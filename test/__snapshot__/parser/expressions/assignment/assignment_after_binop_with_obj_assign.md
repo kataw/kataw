@@ -73,7 +73,7 @@ for(x in(t&{}=y))x
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 11,
                             "end": 13
                         },

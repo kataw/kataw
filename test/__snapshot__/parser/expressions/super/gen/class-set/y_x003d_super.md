@@ -136,7 +136,7 @@ class C { set x(_) { y = super } }
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 68,
+                                                        "flags": 64,
                                                         "start": 30,
                                                         "end": 30
                                                     },

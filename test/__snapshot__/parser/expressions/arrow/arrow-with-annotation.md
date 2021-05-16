@@ -270,7 +270,7 @@
                                 "start": 64,
                                 "end": 65
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 63,
                             "end": 66
                         },

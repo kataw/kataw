@@ -87,7 +87,7 @@ for (async a => b in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 22,
                 "end": 22
             },

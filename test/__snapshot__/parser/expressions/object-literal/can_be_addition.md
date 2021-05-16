@@ -84,7 +84,7 @@ x = {...a + b}
                         "start": 5,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 14
                 },

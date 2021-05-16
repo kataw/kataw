@@ -90,7 +90,7 @@ result = { arrow = () => {} } = {}
                             "start": 10,
                             "end": 27
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 29
                     },
@@ -110,7 +110,7 @@ result = { arrow = () => {} } = {}
                             "start": 33,
                             "end": 33
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 31,
                         "end": 34
                     },

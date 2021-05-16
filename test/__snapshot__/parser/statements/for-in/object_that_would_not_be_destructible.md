@@ -27,7 +27,7 @@ for ({a: x + y} in obj);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -102,7 +102,7 @@ for ({a: x + y} in obj);
                     "start": 6,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 5,
                 "end": 15
             },

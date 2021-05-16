@@ -234,7 +234,7 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                             "start": 76,
                                                                                             "end": 91
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 48,
                                                                                         "start": 74,
                                                                                         "end": 92
                                                                                     }

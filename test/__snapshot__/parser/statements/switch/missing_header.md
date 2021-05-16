@@ -33,7 +33,7 @@ switch {}
                     "start": 8,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 6,
                 "end": 9
             },

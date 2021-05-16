@@ -219,7 +219,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "start": 41,
                                                 "end": 48
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 39,
                                             "end": 50
                                         },
@@ -233,7 +233,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "start": 28,
                                 "end": 50
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 26,
                             "end": 52
                         },

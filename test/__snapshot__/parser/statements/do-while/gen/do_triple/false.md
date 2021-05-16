@@ -30,7 +30,7 @@ do do do false while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 32,
                 "end": 32
             },
@@ -51,7 +51,7 @@ do do do false while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 26,
                     "end": 26
                 },
@@ -72,7 +72,7 @@ do do do false while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 20,
                         "end": 20
                     },

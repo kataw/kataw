@@ -121,7 +121,7 @@
                                     "start": 2,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 1,
                                 "end": 19
                             },
@@ -250,7 +250,7 @@
                         "start": 47,
                         "end": 47
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 45,
                     "end": 48
                 },

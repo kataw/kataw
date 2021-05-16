@@ -8,7 +8,7 @@ s = {"foo": yield /x/}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -88,7 +88,7 @@ s = {"foo": yield /x/}
                                     "right": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 21,
                                         "end": 21
                                     },
@@ -106,7 +106,7 @@ s = {"foo": yield /x/}
                         "start": 5,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 22
                 },

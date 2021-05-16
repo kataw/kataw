@@ -173,7 +173,7 @@ wrap({[foo](){}, set [bar](e){}});
                                 "start": 6,
                                 "end": 31
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 32
                         }

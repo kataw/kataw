@@ -92,7 +92,7 @@ x = {0xeban(){}}
                         "start": 5,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 1048624,
                     "start": 3,
                     "end": 16
                 },

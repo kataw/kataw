@@ -111,7 +111,7 @@ x = { a: a + b / c }
                         "start": 5,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 20
                 },

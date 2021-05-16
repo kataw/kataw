@@ -56,7 +56,7 @@ for (x of 3) continue/x/
                 "label": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 21,
                     "end": 21
                 },
@@ -78,7 +78,7 @@ for (x of 3) continue/x/
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 21,
                         "end": 21
                     },
@@ -109,7 +109,7 @@ for (x of 3) continue/x/
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 24,
                     "end": 24
                 },

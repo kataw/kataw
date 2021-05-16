@@ -79,7 +79,7 @@ log({foo: [bar]});
                                 "start": 5,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 4,
                             "end": 16
                         }

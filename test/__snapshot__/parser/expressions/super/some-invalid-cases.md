@@ -875,7 +875,7 @@ let x = { foo(){ super(); } };
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 250,
                     "end": 250
                 },
@@ -964,7 +964,7 @@ let x = { foo(){ super(); } };
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 285,
                                                 "end": 285
                                             },
@@ -1771,7 +1771,7 @@ let x = { foo(){ super(); } };
                         "start": 496,
                         "end": 526
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 495,
                     "end": 527
                 },
@@ -2022,7 +2022,7 @@ let x = { foo(){ super(); } };
                         "start": 562,
                         "end": 588
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 561,
                     "end": 588
                 },
@@ -2150,7 +2150,7 @@ let x = { foo(){ super(); } };
                         "start": 594,
                         "end": 619
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 593,
                     "end": 620
                 },
@@ -2548,7 +2548,7 @@ let x = { foo(){ super(); } };
                                 "start": 709,
                                 "end": 727
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 707,
                             "end": 729
                         },

@@ -12,7 +12,7 @@ class x extends typeof {}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -64,7 +64,7 @@ class x extends typeof {}
                             "start": 24,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 22,
                         "end": 25
                     },

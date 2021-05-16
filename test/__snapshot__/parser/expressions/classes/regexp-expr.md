@@ -9,7 +9,7 @@ typeof class{}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -84,7 +84,7 @@ typeof class{}
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 20,
                     "end": 20
                 },

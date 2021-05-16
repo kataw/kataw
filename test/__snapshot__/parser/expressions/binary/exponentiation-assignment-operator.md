@@ -1071,7 +1071,7 @@
                                                 "start": 302,
                                                 "end": 302
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 301,
                                             "end": 303
                                         },
@@ -1337,7 +1337,7 @@
                         "start": 2,
                         "end": 382
                     },
-                    "flags": 32,
+                    "flags": 49,
                     "start": 1,
                     "end": 384
                 },

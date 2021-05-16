@@ -8,7 +8,7 @@ s = {s: true = x} = x
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -88,7 +88,7 @@ s = {s: true = x} = x
                             "start": 5,
                             "end": 16
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 3,
                         "end": 17
                     },

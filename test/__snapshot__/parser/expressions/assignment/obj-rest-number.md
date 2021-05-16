@@ -66,7 +66,7 @@ result = {...rest} = 69;
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 18
                     },

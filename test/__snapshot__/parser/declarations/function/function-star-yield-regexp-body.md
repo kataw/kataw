@@ -10,7 +10,7 @@ function *f() { yield
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -81,7 +81,7 @@ function *f() { yield
                                                 "start": 23,
                                                 "end": 23
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 21,
                                             "end": 24
                                         },

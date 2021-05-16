@@ -57,7 +57,7 @@ x={...new}
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 9,
                                         "end": 9
                                     },
@@ -76,7 +76,7 @@ x={...new}
                         "start": 3,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 2,
                     "end": 10
                 },

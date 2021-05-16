@@ -45,7 +45,7 @@ result = {} = vals;
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 11
                     },

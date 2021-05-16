@@ -87,7 +87,7 @@ wrap({'a':b, 'c':d});
                                 "start": 6,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 4194352,
                             "start": 5,
                             "end": 19
                         }

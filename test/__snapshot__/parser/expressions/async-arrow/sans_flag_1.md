@@ -87,7 +87,7 @@ async _ => _
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 18,
                         "end": 18
                     },

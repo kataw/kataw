@@ -71,7 +71,7 @@ x, {foo = y, bar} = doo
                                 "start": 4,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 2,
                             "end": 17
                         },

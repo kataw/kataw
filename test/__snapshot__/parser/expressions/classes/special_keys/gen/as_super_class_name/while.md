@@ -49,7 +49,7 @@ class x extends while {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -87,7 +87,7 @@ class x extends while {}
                     "start": 23,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 21,
                 "end": 24
             },
@@ -96,7 +96,7 @@ class x extends while {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 24,
                     "end": 24
                 },

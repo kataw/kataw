@@ -313,7 +313,7 @@ function targetKey() {
                                     "start": 72,
                                     "end": 129
                                 },
-                                "flags": 32,
+                                "flags": 49,
                                 "start": 70,
                                 "end": 135
                             },
@@ -563,7 +563,7 @@ function targetKey() {
                                     "start": 195,
                                     "end": 253
                                 },
-                                "flags": 32,
+                                "flags": 49,
                                 "start": 193,
                                 "end": 259
                             },
@@ -815,7 +815,7 @@ function targetKey() {
                                     "start": 326,
                                     "end": 436
                                 },
-                                "flags": 32,
+                                "flags": 49,
                                 "start": 324,
                                 "end": 442
                             },
@@ -1067,7 +1067,7 @@ function targetKey() {
                                     "start": 509,
                                     "end": 619
                                 },
-                                "flags": 32,
+                                "flags": 49,
                                 "start": 507,
                                 "end": 625
                             },
@@ -1192,7 +1192,7 @@ function targetKey() {
                             "start": 633,
                             "end": 669
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 632,
                         "end": 670
                     },

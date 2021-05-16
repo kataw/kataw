@@ -69,7 +69,7 @@ let z = {...x}
                                 "start": 9,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 7,
                             "end": 14
                         },

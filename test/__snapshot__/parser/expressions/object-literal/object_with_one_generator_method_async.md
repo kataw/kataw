@@ -94,7 +94,7 @@ wrap({*async(){}});
                                 "start": 6,
                                 "end": 16
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 17
                         }

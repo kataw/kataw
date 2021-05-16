@@ -91,7 +91,7 @@ async function a(){     async ({r} = await bar);     }
                                                 "start": 32,
                                                 "end": 33
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 31,
                                             "end": 34
                                         },

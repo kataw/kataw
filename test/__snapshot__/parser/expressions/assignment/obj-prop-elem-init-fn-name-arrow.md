@@ -111,7 +111,7 @@ result = { x: arrow = () => {} } = {};
                             "start": 10,
                             "end": 30
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 32
                     },
@@ -131,7 +131,7 @@ result = { x: arrow = () => {} } = {};
                             "start": 36,
                             "end": 36
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 34,
                         "end": 37
                     },

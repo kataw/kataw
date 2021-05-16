@@ -118,7 +118,7 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 5,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 33
                 },
@@ -255,7 +255,7 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 40,
                         "end": 68
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 38,
                     "end": 69
                 },
@@ -402,7 +402,7 @@ x = {async __proto__(){}, *__proto__(){}};
                         "start": 76,
                         "end": 111
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 74,
                     "end": 112
                 },
@@ -479,11 +479,11 @@ x = {async __proto__(){}, *__proto__(){}};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 20,
                             "start": 116,
                             "end": 143
                         },
-                        "flags": 32,
+                        "flags": 52,
                         "start": 115,
                         "end": 145
                     }
@@ -526,15 +526,12 @@ x = {async __proto__(){}, *__proto__(){}};
 
 ```javascript
 
-x = { __proto__() {}, __proto__: 2 };
-x = { __proto__() {}, __proto__() {} };
-x = { async __proto__() {}, * __proto__() {} };
-({ __proto__: x, __proto__: y }) =>  {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ An object literal cannot have multiple properties with the name '__proto__' - start: 145, end: 146
+
 ```
 

@@ -46,7 +46,7 @@ do[ catch { try
                     "start": 11,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 9,
                 "end": 15
             },

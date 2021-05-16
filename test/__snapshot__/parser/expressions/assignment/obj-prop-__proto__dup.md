@@ -90,11 +90,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 16,
+                            "flags": 20,
                             "start": 10,
                             "end": 37
                         },
-                        "flags": 32,
+                        "flags": 52,
                         "start": 8,
                         "end": 39
                     },
@@ -199,11 +199,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 16,
+                                "flags": 20,
                                 "start": 61,
                                 "end": 88
                             },
-                            "flags": 32,
+                            "flags": 52,
                             "start": 60,
                             "end": 90
                         },

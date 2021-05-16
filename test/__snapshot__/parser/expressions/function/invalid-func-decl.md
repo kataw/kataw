@@ -338,7 +338,7 @@ async function f(){}
                                             "name": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 104,
                                                 "end": 104
                                             },
@@ -490,7 +490,7 @@ async function f(){}
                                                         "start": 128,
                                                         "end": 128
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 48,
                                                     "start": 127,
                                                     "end": 129
                                                 },
@@ -666,7 +666,7 @@ async function f(){}
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 172,
                                                 "end": 172
                                             },
@@ -694,7 +694,7 @@ async function f(){}
                                                 "operand": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 68,
+                                                    "flags": 64,
                                                     "start": 175,
                                                     "end": 175
                                                 },

@@ -32,7 +32,7 @@ class for {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -67,21 +67,21 @@ class for {}
                     "start": 11,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 9,
                 "end": 12
             },
             "condition": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 12,
                 "end": 12
             },
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 12,
                 "end": 12
             },
@@ -90,7 +90,7 @@ class for {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 12,
                     "end": 12
                 },

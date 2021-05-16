@@ -12,7 +12,7 @@
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -127,7 +127,7 @@
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 32,
                             "end": 32
                         },
@@ -158,7 +158,7 @@
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 41,
                             "end": 41
                         },
@@ -211,7 +211,7 @@
                                 "operand": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 44,
                                     "end": 44
                                 },

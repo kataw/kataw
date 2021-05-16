@@ -266,7 +266,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                                             "start": 79,
                                                                                             "end": 98
                                                                                         },
-                                                                                        "flags": 32,
+                                                                                        "flags": 48,
                                                                                         "start": 78,
                                                                                         "end": 99
                                                                                     }

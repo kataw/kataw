@@ -211,7 +211,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                 "start": 30,
                                                 "end": 74
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 28,
                                             "end": 76
                                         },

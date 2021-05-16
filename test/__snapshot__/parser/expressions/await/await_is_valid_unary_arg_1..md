@@ -178,7 +178,7 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                                             "start": 45,
                                                             "end": 61
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 48,
                                                         "start": 43,
                                                         "end": 62
                                                     }

@@ -36,7 +36,7 @@ y.)
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 2,
                     "end": 2
                 },

@@ -12,7 +12,7 @@ do do do try { !xxx while while while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do do do try { !xxx while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 37,
                 "end": 37
             },
@@ -46,7 +46,7 @@ do do do try { !xxx while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 37,
                     "end": 37
                 },
@@ -62,7 +62,7 @@ do do do try { !xxx while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 37,
                         "end": 37
                     },
@@ -117,7 +117,7 @@ do do do try { !xxx while while while
                                         "expression": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 68,
+                                            "flags": 64,
                                             "start": 25,
                                             "end": 25
                                         },
@@ -132,7 +132,7 @@ do do do try { !xxx while while while
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 31,
                                                 "end": 31
                                             },
@@ -147,7 +147,7 @@ do do do try { !xxx while while while
                                                 "expression": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 68,
+                                                    "flags": 64,
                                                     "start": 37,
                                                     "end": 37
                                                 },
@@ -156,7 +156,7 @@ do do do try { !xxx while while while
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 68,
+                                                        "flags": 64,
                                                         "start": 37,
                                                         "end": 37
                                                     },

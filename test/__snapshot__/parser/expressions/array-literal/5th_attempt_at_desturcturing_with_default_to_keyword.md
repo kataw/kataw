@@ -64,7 +64,7 @@
                                                     "left": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 68,
+                                                        "flags": 64,
                                                         "start": 9,
                                                         "end": 9
                                                     },
@@ -96,7 +96,7 @@
                                         "start": 5,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 4,
                                     "end": 12
                                 },

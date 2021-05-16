@@ -87,7 +87,7 @@ x = { "a": {x} = y.z };
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 10,
                                         "end": 14
                                     },
@@ -133,7 +133,7 @@ x = { "a": {x} = y.z };
                         "start": 5,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 22
                 },

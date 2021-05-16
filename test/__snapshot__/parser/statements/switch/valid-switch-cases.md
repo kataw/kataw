@@ -2225,7 +2225,7 @@ switch (answer) { case 0: let a; };
                                             "start": 835,
                                             "end": 839
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 833,
                                         "end": 840
                                     },
@@ -2893,7 +2893,7 @@ switch (answer) { case 0: let a; };
                     "start": 1062,
                     "end": 1065
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 1061,
                 "end": 1066
             },
@@ -3020,7 +3020,7 @@ switch (answer) { case 0: let a; };
                     "start": 1096,
                     "end": 1099
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 1095,
                 "end": 1100
             },

@@ -108,7 +108,7 @@ wrap({async [foo""](){}});
                                 "start": 6,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 18
                         }
@@ -138,7 +138,7 @@ wrap({async [foo""](){}});
                 "contents": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 22,
                     "end": 22
                 },

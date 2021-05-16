@@ -93,7 +93,7 @@ async (x, y) => ok
                 "right": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 22,
                     "end": 22
                 },

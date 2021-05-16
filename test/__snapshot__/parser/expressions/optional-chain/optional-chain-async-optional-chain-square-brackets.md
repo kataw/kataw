@@ -122,7 +122,7 @@ async function x() {
                                             "start": 30,
                                             "end": 37
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 28,
                                         "end": 38
                                     },

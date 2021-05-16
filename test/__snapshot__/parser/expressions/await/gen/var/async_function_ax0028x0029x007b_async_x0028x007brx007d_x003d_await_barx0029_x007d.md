@@ -185,7 +185,7 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                                                                     "start": 71,
                                                                                     "end": 72
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 48,
                                                                                 "start": 70,
                                                                                 "end": 73
                                                                             },

@@ -87,7 +87,7 @@ a={"b":c=d}
                         "start": 3,
                         "end": 10
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 2,
                     "end": 11
                 },

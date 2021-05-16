@@ -27,7 +27,7 @@ const {[x]} = z;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -75,7 +75,7 @@ const {[x]} = z;
                                             "binding": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 10,
                                                 "end": 10
                                             },

@@ -58,7 +58,7 @@ async ({await = x}) => x
                         "start": 8,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 7,
                     "end": 18
                 }

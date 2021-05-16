@@ -30,7 +30,7 @@ do /**/ /x do while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 25,
                 "end": 25
             },

@@ -32,7 +32,7 @@ class if {}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 5,
                 "end": 5
             },
@@ -67,7 +67,7 @@ class if {}
                     "start": 10,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 8,
                 "end": 11
             },
@@ -76,7 +76,7 @@ class if {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 11,
                     "end": 11
                 },

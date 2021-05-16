@@ -1014,7 +1014,7 @@ L: let
                             "start": 277,
                             "end": 284
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 276,
                         "end": 286
                     },
@@ -1104,7 +1104,7 @@ L: let
                                 "start": 291,
                                 "end": 307
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 290,
                             "end": 309
                         }

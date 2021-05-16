@@ -128,7 +128,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                                 "start": 21,
                                                 "end": 31
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 19,
                                             "end": 32
                                         },

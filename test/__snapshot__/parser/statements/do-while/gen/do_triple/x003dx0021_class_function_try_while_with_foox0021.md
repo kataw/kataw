@@ -12,7 +12,7 @@ do do do =! class function try while with foo! while while while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do do do =! class function try while with foo! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 36,
                 "end": 36
             },
@@ -51,7 +51,7 @@ do do do =! class function try while with foo! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 30,
                     "end": 30
                 },
@@ -67,7 +67,7 @@ do do do =! class function try while with foo! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 26,
                         "end": 26
                     },
@@ -79,7 +79,7 @@ do do do =! class function try while with foo! while while while
                             "left": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 8,
                                 "end": 8
                             },
@@ -173,7 +173,7 @@ do do do =! class function try while with foo! while while while
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 46,
                         "end": 46
                     },
@@ -200,7 +200,7 @@ do do do =! class function try while with foo! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 52,
                 "end": 52
             },
@@ -215,7 +215,7 @@ do do do =! class function try while with foo! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 58,
                     "end": 58
                 },
@@ -230,7 +230,7 @@ do do do =! class function try while with foo! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 64,
                         "end": 64
                     },
@@ -239,7 +239,7 @@ do do do =! class function try while with foo! while while while
                         "expression": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 64,
                             "end": 64
                         },

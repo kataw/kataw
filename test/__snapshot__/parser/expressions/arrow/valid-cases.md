@@ -1125,7 +1125,7 @@ foo ? bar : baz => {};
                             "start": 282,
                             "end": 293
                         },
-                        "flags": 32,
+                        "flags": 4194352,
                         "start": 281,
                         "end": 294
                     },
@@ -2340,7 +2340,7 @@ foo ? bar : baz => {};
                             "start": 841,
                             "end": 841
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 840,
                         "end": 842
                     }
@@ -2400,7 +2400,7 @@ foo ? bar : baz => {};
                                 "start": 856,
                                 "end": 856
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 854,
                             "end": 857
                         }
@@ -2453,7 +2453,7 @@ foo ? bar : baz => {};
                                 "start": 868,
                                 "end": 868
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 867,
                             "end": 869
                         },
@@ -2910,7 +2910,7 @@ foo ? bar : baz => {};
                             "start": 976,
                             "end": 977
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 975,
                         "end": 978
                     }
@@ -3726,7 +3726,7 @@ foo ? bar : baz => {};
                                 "start": 1172,
                                 "end": 1173
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 1170,
                             "end": 1174
                         },
@@ -3840,7 +3840,7 @@ foo ? bar : baz => {};
                                 "start": 1198,
                                 "end": 1199
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 1197,
                             "end": 1200
                         },
@@ -3860,7 +3860,7 @@ foo ? bar : baz => {};
                                 "start": 1204,
                                 "end": 1204
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 1202,
                             "end": 1205
                         },
@@ -4024,7 +4024,7 @@ foo ? bar : baz => {};
                             "start": 1234,
                             "end": 1240
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 1233,
                         "end": 1241
                     }

@@ -98,7 +98,7 @@ wrap({0o4432(){}});
                                 "start": 6,
                                 "end": 11
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 12
                         }
@@ -190,7 +190,7 @@ wrap({0o4432(){}});
                                 "start": 22,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 21,
                             "end": 28
                         }
@@ -282,7 +282,7 @@ wrap({0o4432(){}});
                                 "start": 38,
                                 "end": 50
                             },
-                            "flags": 32,
+                            "flags": 1048624,
                             "start": 37,
                             "end": 51
                         }
@@ -374,7 +374,7 @@ wrap({0o4432(){}});
                                 "start": 61,
                                 "end": 72
                             },
-                            "flags": 32,
+                            "flags": 524336,
                             "start": 60,
                             "end": 73
                         }
@@ -466,7 +466,7 @@ wrap({0o4432(){}});
                                 "start": 83,
                                 "end": 93
                             },
-                            "flags": 32,
+                            "flags": 262192,
                             "start": 82,
                             "end": 94
                         }

@@ -83,7 +83,7 @@ for ({x,...x}=x in x) ;
                         "start": 6,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 5,
                     "end": 13
                 },
@@ -129,7 +129,7 @@ for ({x,...x}=x in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 20,
                 "end": 20
             },

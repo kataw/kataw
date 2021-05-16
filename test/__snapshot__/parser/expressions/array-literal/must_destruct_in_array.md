@@ -91,7 +91,7 @@ x = {x: [{a = b}] + x}.x
                                                             "start": 10,
                                                             "end": 15
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 48,
                                                         "start": 9,
                                                         "end": 16
                                                     }
@@ -133,7 +133,7 @@ x = {x: [{a = b}] + x}.x
                             "start": 5,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 3,
                         "end": 22
                     },

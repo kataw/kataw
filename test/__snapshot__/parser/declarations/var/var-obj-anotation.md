@@ -142,7 +142,7 @@ var {x}: {x: string; } = { x: "hello" };
                                 "start": 26,
                                 "end": 37
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 24,
                             "end": 39
                         },

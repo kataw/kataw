@@ -12,7 +12,7 @@ do =! class function try while with foo!
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do =! class function try while with foo!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 20,
                 "end": 20
             },
@@ -42,7 +42,7 @@ do =! class function try while with foo!
                     "left": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 2,
                         "end": 2
                     },
@@ -168,7 +168,7 @@ do =! class function try while with foo!
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 40,
                         "end": 40
                     },

@@ -49,7 +49,7 @@ class x extends if {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -87,7 +87,7 @@ class x extends if {}
                     "start": 20,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 18,
                 "end": 21
             },
@@ -96,7 +96,7 @@ class x extends if {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 21,
                     "end": 21
                 },

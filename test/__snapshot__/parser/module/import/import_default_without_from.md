@@ -35,7 +35,7 @@ import foo;
                 "from": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 11,
                     "end": 11
                 },

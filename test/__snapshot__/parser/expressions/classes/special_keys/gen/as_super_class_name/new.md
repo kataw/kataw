@@ -64,7 +64,7 @@ class x extends new {}
                             "start": 21,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 19,
                         "end": 22
                     },

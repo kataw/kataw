@@ -12,7 +12,7 @@ do do do async funcion switch!! while while while
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do do do async funcion switch!! while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 49,
                 "end": 49
             },
@@ -51,7 +51,7 @@ do do do async funcion switch!! while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 43,
                     "end": 43
                 },
@@ -72,7 +72,7 @@ do do do async funcion switch!! while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 37,
                         "end": 37
                     },
@@ -122,7 +122,7 @@ do do do async funcion switch!! while while while
                                     "operand": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 31,
                                         "end": 31
                                     },

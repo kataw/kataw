@@ -94,7 +94,7 @@ x = {arrow: (x, y) => ok};
                         "start": 5,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 22
                 },
@@ -193,7 +193,7 @@ x = {arrow: (x, y) => ok};
                         "start": 30,
                         "end": 49
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 28,
                     "end": 50
                 },

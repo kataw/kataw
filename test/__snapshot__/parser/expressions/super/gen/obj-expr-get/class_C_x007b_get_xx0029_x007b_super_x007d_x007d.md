@@ -141,7 +141,7 @@
                         "start": 2,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 1,
                     "end": 28
                 },
@@ -177,7 +177,7 @@
                             "expression": {
                                 "kind": 16637,
                                 "text": "",
-                                "flags": 68,
+                                "flags": 64,
                                 "start": 37,
                                 "end": 37
                             },

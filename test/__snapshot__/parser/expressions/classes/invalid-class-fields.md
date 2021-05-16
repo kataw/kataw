@@ -254,7 +254,7 @@
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 47,
                 "end": 47
             },
@@ -642,7 +642,7 @@
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 128,
                         "end": 128
                     },
@@ -1267,7 +1267,7 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 257,
                                         "end": 257
                                     },
@@ -1400,7 +1400,7 @@
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 281,
                                         "end": 281
                                     },

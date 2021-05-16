@@ -154,7 +154,7 @@ var await; var f = (async function() { return async (await) => {}; });
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "flags": 68,
+                                                                        "flags": 64,
                                                                         "start": 58,
                                                                         "end": 58
                                                                     },

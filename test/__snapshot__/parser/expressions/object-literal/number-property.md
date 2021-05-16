@@ -67,7 +67,7 @@ x = {15:b}
                         "start": 5,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 3,
                     "end": 10
                 },

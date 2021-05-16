@@ -111,7 +111,7 @@ function * gen() { function not_gen() { yield * \n { yield: 12 } }}
                                                 "right": {
                                                     "kind": 16637,
                                                     "text": "",
-                                                    "flags": 68,
+                                                    "flags": 64,
                                                     "start": 47,
                                                     "end": 47
                                                 },

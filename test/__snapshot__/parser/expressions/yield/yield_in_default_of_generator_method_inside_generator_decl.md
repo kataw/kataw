@@ -8,7 +8,7 @@ function *f(){  ({*g(x=yield){}})  }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -154,7 +154,7 @@ function *f(){  ({*g(x=yield){}})  }
                                         "start": 18,
                                         "end": 31
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 17,
                                     "end": 32
                                 },

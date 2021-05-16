@@ -12,7 +12,7 @@ do while [catch] try { !xxx
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -37,7 +37,7 @@ do while [catch] try { !xxx
                     "start": 22,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 20,
                 "end": 22
             },

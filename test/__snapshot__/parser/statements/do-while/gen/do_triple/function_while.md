@@ -30,7 +30,7 @@ do do do function while while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 35,
                 "end": 35
             },
@@ -51,7 +51,7 @@ do do do function while while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 29,
                     "end": 29
                 },
@@ -72,7 +72,7 @@ do do do function while while while while
                     "expression": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 23,
                         "end": 23
                     },
@@ -96,7 +96,7 @@ do do do function while while while while
                         "name": {
                             "kind": 16637,
                             "text": "",
-                            "flags": 68,
+                            "flags": 64,
                             "start": 17,
                             "end": 17
                         },
@@ -151,7 +151,7 @@ do do do function while while while while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 41,
                 "end": 41
             },
@@ -160,7 +160,7 @@ do do do function while while while while
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 41,
                     "end": 41
                 },

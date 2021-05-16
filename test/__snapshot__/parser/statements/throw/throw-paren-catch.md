@@ -50,7 +50,7 @@ throw {x} catch
                     "start": 7,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 48,
                 "start": 5,
                 "end": 9
             },

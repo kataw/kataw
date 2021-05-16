@@ -175,7 +175,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                                             "start": 33,
                                                             "end": 52
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 48,
                                                         "start": 32,
                                                         "end": 53
                                                     }

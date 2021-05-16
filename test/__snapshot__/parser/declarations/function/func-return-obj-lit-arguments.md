@@ -8,7 +8,7 @@ function foo() { return {arguments} }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -75,7 +75,7 @@ function foo() { return {arguments} }
                                     "start": 25,
                                     "end": 34
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 23,
                                 "end": 35
                             },

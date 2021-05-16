@@ -12,7 +12,7 @@ do[ async funcion switch!!
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -30,7 +30,7 @@ do[ async funcion switch!!
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 26,
                 "end": 26
             },
@@ -80,7 +80,7 @@ do[ async funcion switch!!
                                         "operand": {
                                             "kind": 16637,
                                             "text": "",
-                                            "flags": 68,
+                                            "flags": 64,
                                             "start": 26,
                                             "end": 26
                                         },

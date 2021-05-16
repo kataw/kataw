@@ -186,7 +186,7 @@ a={*id<T>(x: T): T {}}
                         "start": 3,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 2,
                     "end": 22
                 },

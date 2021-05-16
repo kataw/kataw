@@ -75,7 +75,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "start": 9,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 16432,
                                 "start": 7,
                                 "end": 27
                             },
@@ -119,7 +119,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                     "start": 31,
                                     "end": 43
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 29,
                                 "end": 45
                             },

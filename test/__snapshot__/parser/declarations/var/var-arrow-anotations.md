@@ -1672,7 +1672,7 @@ class Array { concat(items:number | string) {}; }
                                 "start": 583,
                                 "end": 594
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 581,
                             "end": 596
                         },
@@ -1808,7 +1808,7 @@ class Array { concat(items:number | string) {}; }
                                 "start": 625,
                                 "end": 636
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 623,
                             "end": 638
                         },

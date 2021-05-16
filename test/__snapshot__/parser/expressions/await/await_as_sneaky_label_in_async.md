@@ -8,7 +8,7 @@ async () => { aw\u{61}it: x }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -51,7 +51,7 @@ async () => { aw\u{61}it: x }
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 24,
                                     "end": 24
                                 },

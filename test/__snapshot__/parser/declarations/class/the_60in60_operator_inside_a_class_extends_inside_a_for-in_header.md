@@ -130,7 +130,7 @@ for (class x extends a in b {} in c);
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 30,
                     "end": 30
                 },

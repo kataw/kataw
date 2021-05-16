@@ -381,7 +381,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 127,
                         "end": 127
                     }
@@ -461,7 +461,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                     "right": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 148,
                         "end": 148
                     },

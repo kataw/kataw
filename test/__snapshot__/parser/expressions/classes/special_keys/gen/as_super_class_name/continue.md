@@ -49,7 +49,7 @@ class x extends continue {}
                 "expression": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 15,
                     "end": 15
                 },
@@ -80,7 +80,7 @@ class x extends continue {}
             "label": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 24,
                 "end": 24
             },

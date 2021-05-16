@@ -102,7 +102,7 @@ var callCount = 0;
                                 "start": 9,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 7,
                             "end": 20
                         },
@@ -384,7 +384,7 @@ var callCount = 0;
                                                 "start": 105,
                                                 "end": 121
                                             },
-                                            "flags": 32,
+                                            "flags": 48,
                                             "start": 104,
                                             "end": 122
                                         }

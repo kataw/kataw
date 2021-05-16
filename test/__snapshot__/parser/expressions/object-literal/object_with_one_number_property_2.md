@@ -156,7 +156,7 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                 "start": 6,
                                 "end": 42
                             },
-                            "flags": 32,
+                            "flags": 32816,
                             "start": 5,
                             "end": 43
                         }

@@ -92,7 +92,7 @@ for ({x:a.b}=x in x) ;
                         "start": 6,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 5,
                     "end": 12
                 },
@@ -138,7 +138,7 @@ for ({x:a.b}=x in x) ;
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 19,
                 "end": 19
             },

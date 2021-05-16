@@ -112,7 +112,7 @@ class C { constructor() { y = super } }
                                                     "expression": {
                                                         "kind": 16637,
                                                         "text": "",
-                                                        "flags": 68,
+                                                        "flags": 64,
                                                         "start": 35,
                                                         "end": 35
                                                     },

@@ -16,7 +16,7 @@ for ({a: x + y} = z in obj);
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -87,7 +87,7 @@ for ({a: x + y} = z in obj);
                         "start": 6,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 5,
                     "end": 15
                 },
@@ -133,7 +133,7 @@ for ({a: x + y} = z in obj);
             "incrementor": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 26,
                 "end": 26
             },

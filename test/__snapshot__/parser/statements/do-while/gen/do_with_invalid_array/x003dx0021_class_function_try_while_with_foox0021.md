@@ -12,7 +12,7 @@ do while [catch] =! class function try while with foo!
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -142,7 +142,7 @@ do while [catch] =! class function try while with foo!
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 34,
                 "end": 34
             },
@@ -243,7 +243,7 @@ do while [catch] =! class function try while with foo!
                     "operand": {
                         "kind": 16637,
                         "text": "",
-                        "flags": 68,
+                        "flags": 64,
                         "start": 54,
                         "end": 54
                     },

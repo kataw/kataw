@@ -323,7 +323,7 @@ var gen = async function *g() {
                                                                                                     "start": 155,
                                                                                                     "end": 163
                                                                                                 },
-                                                                                                "flags": 32,
+                                                                                                "flags": 48,
                                                                                                 "start": 153,
                                                                                                 "end": 164
                                                                                             },
@@ -415,7 +415,7 @@ var gen = async function *g() {
                                                         "start": 59,
                                                         "end": 200
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 49,
                                                     "start": 57,
                                                     "end": 206
                                                 },

@@ -137,7 +137,7 @@ wrap({foo(){}, bar(){}});
                                 "start": 6,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 5,
                             "end": 23
                         }

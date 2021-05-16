@@ -8,7 +8,7 @@ function* g() {   [...{ x = yield }] = y   }
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -110,7 +110,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                         "start": 23,
                                                         "end": 33
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 48,
                                                     "start": 22,
                                                     "end": 35
                                                 },

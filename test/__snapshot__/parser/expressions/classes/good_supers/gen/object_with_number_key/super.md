@@ -138,7 +138,7 @@ class x extends y {
                                                                     "expression": {
                                                                         "kind": 16637,
                                                                         "text": "",
-                                                                        "flags": 68,
+                                                                        "flags": 64,
                                                                         "start": 54,
                                                                         "end": 54
                                                                     },
@@ -156,7 +156,7 @@ class x extends y {
                                                         "start": 44,
                                                         "end": 54
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 48,
                                                     "start": 43,
                                                     "end": 55
                                                 },

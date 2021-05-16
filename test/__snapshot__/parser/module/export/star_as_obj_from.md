@@ -80,7 +80,7 @@ export * as foo, {bar} from 'bar';
                         "start": 18,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 16,
                     "end": 22
                 },

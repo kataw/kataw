@@ -120,7 +120,7 @@ q = {"foo": super = x} = x;
                             "start": 5,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 3,
                         "end": 19
                     },
@@ -170,7 +170,7 @@ q = {"foo": super = x} = x;
                             "start": 23,
                             "end": 29
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 21,
                         "end": 31
                     },
@@ -277,7 +277,7 @@ q = {"foo": super = x} = x;
                             "start": 38,
                             "end": 50
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 36,
                         "end": 52
                     },
@@ -297,7 +297,7 @@ q = {"foo": super = x} = x;
                             "start": 56,
                             "end": 56
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 54,
                         "end": 57
                     },
@@ -404,7 +404,7 @@ q = {"foo": super = x} = x;
                             "start": 64,
                             "end": 76
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 62,
                         "end": 78
                     },
@@ -515,7 +515,7 @@ q = {"foo": super = x} = x;
                             "start": 82,
                             "end": 99
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 80,
                         "end": 101
                     },
@@ -622,7 +622,7 @@ q = {"foo": super = x} = x;
                             "start": 108,
                             "end": 120
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 106,
                         "end": 122
                     },
@@ -743,7 +743,7 @@ q = {"foo": super = x} = x;
                             "start": 141,
                             "end": 153
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 139,
                         "end": 155
                     },
@@ -863,7 +863,7 @@ q = {"foo": super = x} = x;
                             "start": 169,
                             "end": 181
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 167,
                         "end": 183
                     },
@@ -984,7 +984,7 @@ q = {"foo": super = x} = x;
                             "start": 195,
                             "end": 207
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 193,
                         "end": 209
                     },
@@ -1104,7 +1104,7 @@ q = {"foo": super = x} = x;
                             "start": 224,
                             "end": 236
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 222,
                         "end": 238
                     },
@@ -1225,7 +1225,7 @@ q = {"foo": super = x} = x;
                             "start": 249,
                             "end": 261
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 247,
                         "end": 263
                     },
@@ -1268,7 +1268,7 @@ q = {"foo": super = x} = x;
                             "start": 267,
                             "end": 275
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 265,
                         "end": 277
                     },
@@ -1336,7 +1336,7 @@ q = {"foo": super = x} = x;
                                             "start": 291,
                                             "end": 291
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 289,
                                         "end": 292
                                     },
@@ -1368,7 +1368,7 @@ q = {"foo": super = x} = x;
                         "start": 284,
                         "end": 297
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 282,
                     "end": 299
                 },
@@ -1426,7 +1426,7 @@ q = {"foo": super = x} = x;
                                             "start": 311,
                                             "end": 311
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 309,
                                         "end": 312
                                     },
@@ -1458,7 +1458,7 @@ q = {"foo": super = x} = x;
                         "start": 306,
                         "end": 317
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 304,
                     "end": 319
                 },
@@ -1522,7 +1522,7 @@ q = {"foo": super = x} = x;
                                             "start": 331,
                                             "end": 331
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 329,
                                         "end": 332
                                     },
@@ -1548,7 +1548,7 @@ q = {"foo": super = x} = x;
                         "start": 326,
                         "end": 336
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 324,
                     "end": 338
                 },
@@ -1634,7 +1634,7 @@ q = {"foo": super = x} = x;
                             "start": 345,
                             "end": 361
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 343,
                         "end": 362
                     },
@@ -1737,7 +1737,7 @@ q = {"foo": super = x} = x;
                             "start": 373,
                             "end": 388
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 371,
                         "end": 389
                     },
@@ -1822,7 +1822,7 @@ q = {"foo": super = x} = x;
                                             "expression": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 412,
                                                 "end": 412
                                             },
@@ -1858,7 +1858,7 @@ q = {"foo": super = x} = x;
                             "start": 400,
                             "end": 416
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 398,
                         "end": 417
                     },

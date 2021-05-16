@@ -58,7 +58,7 @@ let {a:=c} = z;
                                             "binding": {
                                                 "kind": 16637,
                                                 "text": "",
-                                                "flags": 68,
+                                                "flags": 64,
                                                 "start": 7,
                                                 "end": 7
                                             },

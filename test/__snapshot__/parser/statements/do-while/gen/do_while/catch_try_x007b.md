@@ -30,7 +30,7 @@ do catch try { while
             "expression": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 20,
                 "end": 20
             },
@@ -69,7 +69,7 @@ do catch try { while
                                 "expression": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 20,
                                     "end": 20
                                 },
@@ -78,7 +78,7 @@ do catch try { while
                                     "expression": {
                                         "kind": 16637,
                                         "text": "",
-                                        "flags": 68,
+                                        "flags": 64,
                                         "start": 20,
                                         "end": 20
                                     },

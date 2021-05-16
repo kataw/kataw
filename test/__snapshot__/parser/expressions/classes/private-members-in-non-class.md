@@ -84,7 +84,7 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 18,
                 "end": 18
             },
@@ -186,7 +186,7 @@ class C { test() {get #a() { }}}
             "name": {
                 "kind": 16637,
                 "text": "",
-                "flags": 68,
+                "flags": 64,
                 "start": 47,
                 "end": 47
             },
@@ -547,7 +547,7 @@ class C { test() {get #a() { }}}
                         "start": 126,
                         "end": 141
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 125,
                     "end": 142
                 },
@@ -640,7 +640,7 @@ class C { test() {get #a() { }}}
                         "start": 162,
                         "end": 171
                     },
-                    "flags": 32,
+                    "flags": 48,
                     "start": 161,
                     "end": 172
                 },
@@ -721,7 +721,7 @@ class C { test() {get #a() { }}}
                             "start": 178,
                             "end": 192
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 177,
                         "end": 193
                     },
@@ -741,7 +741,7 @@ class C { test() {get #a() { }}}
                             "start": 197,
                             "end": 197
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 195,
                         "end": 198
                     },
@@ -831,7 +831,7 @@ class C { test() {get #a() { }}}
                             "start": 204,
                             "end": 219
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 203,
                         "end": 220
                     },
@@ -851,7 +851,7 @@ class C { test() {get #a() { }}}
                             "start": 224,
                             "end": 224
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 222,
                         "end": 225
                     },

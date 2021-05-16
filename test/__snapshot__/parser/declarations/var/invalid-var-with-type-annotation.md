@@ -54,7 +54,7 @@ var f: >x:int) => string;
                                 "id": {
                                     "kind": 16637,
                                     "text": "",
-                                    "flags": 68,
+                                    "flags": 64,
                                     "start": 6,
                                     "end": 6
                                 },
@@ -88,7 +88,7 @@ var f: >x:int) => string;
                 "left": {
                     "kind": 16637,
                     "text": "",
-                    "flags": 68,
+                    "flags": 64,
                     "start": 6,
                     "end": 6
                 },

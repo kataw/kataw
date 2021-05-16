@@ -76,7 +76,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "start": 15,
                                             "end": 17
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 13,
                                         "end": 19
                                     },
@@ -90,7 +90,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "start": 10,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 8,
                         "end": 21
                     },
@@ -150,7 +150,7 @@ result = { x: { y } } = { x: { y: 2 } };
                                             "start": 30,
                                             "end": 35
                                         },
-                                        "flags": 32,
+                                        "flags": 48,
                                         "start": 28,
                                         "end": 37
                                     },
@@ -164,7 +164,7 @@ result = { x: { y } } = { x: { y: 2 } };
                             "start": 25,
                             "end": 37
                         },
-                        "flags": 32,
+                        "flags": 48,
                         "start": 23,
                         "end": 39
                     },
