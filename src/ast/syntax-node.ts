@@ -12,7 +12,7 @@ export const enum NodeFlags {
   None = 0,
   NewLine = 1 << 0,
   NoneSimpleParamList = 1 << 1,
-  DuplicatePrototypeField = 1 << 2, // If the parser encountered an error when parsing the code that created this node
+  PrototypeField = 1 << 2, // If the parser encountered an error when parsing the code that created this node
   DisallowIn = 1 << 3, // If node was parsed in a context where 'in-expressions' are not allowed
   IsStatement = 1 << 4, // Node is an valid start of an statement
   ExpressionNode = 1 << 5, // Node is an valid start of an expression

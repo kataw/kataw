@@ -24,6 +24,7 @@ export function createPropertyDefinition(
   generatorToken: SyntaxToken<TokenSyntaxKind> | null,
   left: Identifier | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: ExpressionNode | BindingElement | Identifier,
+  flags: NodeFlags,
   start: number,
   end: number
 ): PropertyDefinition {
@@ -32,7 +33,7 @@ export function createPropertyDefinition(
     generatorToken,
     left,
     right,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

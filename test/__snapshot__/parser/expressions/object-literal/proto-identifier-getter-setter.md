@@ -42,7 +42,7 @@
                                     "start": 13,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 2,
                                 "end": 18
                             },

@@ -49,7 +49,7 @@
                                     "start": 13,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 2,
                                 "end": 18
                             },
@@ -151,7 +151,7 @@
                                     "start": 55,
                                     "end": 60
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 44,
                                 "end": 60
                             },
@@ -176,7 +176,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 72,
                                         "end": 73
                                     },
@@ -195,7 +195,7 @@
                                         "start": 73,
                                         "end": 75
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 71,
                                     "end": 75
                                 },
@@ -248,7 +248,7 @@
                                     "start": 94,
                                     "end": 99
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 83,
                                 "end": 99
                             },
@@ -568,7 +568,7 @@
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 220,
                                         "end": 221
                                     },
@@ -587,7 +587,7 @@
                                         "start": 221,
                                         "end": 223
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 219,
                                     "end": 223
                                 },
@@ -818,11 +818,11 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 20,
+                        "flags": 16,
                         "start": 312,
                         "end": 333
                     },
-                    "flags": 52,
+                    "flags": 48,
                     "start": 311,
                     "end": 335
                 },
@@ -848,12 +848,19 @@
 
 ```javascript
 
+({ __proto__: null, get __proto__() {} });
+({ __proto__: null, __proto__() {} });
+({ __proto__: null, set __proto__(x) {} });
+({ "\"__proto__\"": null, get __proto__() {}, set __proto__(x) {} });
+({ "\"__proto__\"": null, __proto__() {} });
+({ "\"__proto__\"": null, set __proto__(x) {} });
+({ "\"__proto__\"": null, __proto__ });
+({ __proto__, __proto__ });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ An object literal cannot have multiple properties with the name '__proto__' - start: 335, end: 336
-
+✔ No errors
 ```
 

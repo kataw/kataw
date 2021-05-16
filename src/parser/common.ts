@@ -39,8 +39,7 @@ export const enum DestructibleKind {
   Assignable = 1 << 2,
   Destructible = 1 << 3,
   DisallowTrailing = 1 << 4,
-  CoverInitializedName = 1 << 5,
-  SeenPrototype = 1 << 6
+  CoverInitializedName = 1 << 5
 }
 
 export const enum BindingType {

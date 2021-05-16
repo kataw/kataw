@@ -61,7 +61,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "start": 21,
                                         "end": 23
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 10,
                                     "end": 23
                                 },
@@ -84,7 +84,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                         "start": 35,
                                         "end": 37
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 24,
                                     "end": 37
                                 }
@@ -170,7 +170,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "start": 72,
                                             "end": 74
                                         },
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 61,
                                         "end": 74
                                     },
@@ -193,7 +193,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                                             "start": 86,
                                             "end": 88
                                         },
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 75,
                                         "end": 88
                                     }

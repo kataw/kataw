@@ -62,7 +62,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -81,7 +81,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 16,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 14,
                                     "end": 18
                                 },
@@ -108,7 +108,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                     "start": 30,
                                     "end": 32
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 19,
                                 "end": 32
                             }
@@ -174,7 +174,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 50,
                                         "end": 51
                                     },
@@ -193,7 +193,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 51,
                                         "end": 53
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 49,
                                     "end": 53
                                 },
@@ -222,7 +222,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 36,
                                         "start": 65,
                                         "end": 66
                                     },
@@ -241,7 +241,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 66,
                                         "end": 68
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 64,
                                     "end": 68
                                 },
@@ -369,7 +369,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "kind": 214,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 160,
+                                        "flags": 164,
                                         "start": 108,
                                         "end": 109
                                     },
@@ -388,7 +388,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 109,
                                         "end": 111
                                     },
-                                    "flags": 160,
+                                    "flags": 164,
                                     "start": 107,
                                     "end": 111
                                 },
@@ -450,7 +450,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 127,
                                         "end": 129
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 116,
                                     "end": 129
                                 },
@@ -473,7 +473,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "start": 141,
                                         "end": 143
                                     },
-                                    "flags": 32,
+                                    "flags": 36,
                                     "start": 130,
                                     "end": 143
                                 }

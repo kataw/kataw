@@ -1004,7 +1004,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         parser.token === SyntaxKind.LeftBrace
           ? parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.Literal)
           : parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
-      if (initializer.flags & NodeFlags.DuplicatePrototypeField) {
+      if (initializer.flags & NodeFlags.PrototypeField) {
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -2266,7 +2266,7 @@ function parsePrimaryExpression(
 //   `{` PropertyDefinitionList `,` `}`
 function parseObjectLiteral(parser: ParserState, context: Context): ObjectLiteral | AssignmentExpression {
   const expr = parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
-  if (expr.flags & NodeFlags.DuplicatePrototypeField) {
+  if (expr.flags & NodeFlags.PrototypeField) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -2349,8 +2349,9 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   while (parser.token & 0b00000100110010000100000000000000) {
-    properties.push(parsePropertyDefinition(parser, context, type));
-    if (parser.destructible & DestructibleKind.SeenPrototype) {
+    const propertyDefinition = parsePropertyDefinition(parser, context, type);
+    properties.push(propertyDefinition);
+    if (propertyDefinition.flags & NodeFlags.PrototypeField) {
       prototypeCount++;
     }
     destructible |= parser.destructible;
@@ -2371,7 +2372,7 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context, type
     );
   }
   if (prototypeCount > 1) {
-    flags |= NodeFlags.DuplicatePrototypeField;
+    flags |= NodeFlags.PrototypeField;
   }
   parser.destructible = destructible;
   return createPropertyDefinitionList(properties, trailingComma, flags | NodeFlags.IsStatement, pos, parser.curPos);
@@ -2444,8 +2445,7 @@ function parsePropertyDefinition(
   if (parser.token & 0b00000000100000000100000000000000) {
     const token = parser.token;
     if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
-      parser.destructible = destructible;
-      destructible |= DestructibleKind.SeenPrototype;
+      nodeFlags |= NodeFlags.PrototypeField;
     }
     key = parseIdentifier(parser, context, DiagnosticCode.Identifier_expected, true);
 
@@ -2630,7 +2630,7 @@ function parsePropertyDefinition(
       const token = parser.token;
       // Check for '__proto__' property and eventually set the 'Destructible.HasProto' bit
       if ((context & Context.OptionsDisableWebCompat) === 0 && parser.tokenValue === '__proto__') {
-        destructible |= DestructibleKind.SeenPrototype;
+        nodeFlags |= NodeFlags.PrototypeField;
       }
       left = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
@@ -2652,7 +2652,14 @@ function parsePropertyDefinition(
     }
     parser.destructible = destructible;
 
-    return createPropertyDefinition(generatorToken, key as any, left, pos, parser.curPos);
+    return createPropertyDefinition(
+      generatorToken,
+      key as any,
+      left,
+      nodeFlags | NodeFlags.ExpressionNode,
+      pos,
+      parser.curPos
+    );
   }
 
   parser.onError(
@@ -3225,7 +3232,7 @@ function parseUnaryExpression(
 //   `[` ElementList `,` Elision `]`
 function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral {
   const expr = parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.Literal);
-  if (expr.flags & NodeFlags.DuplicatePrototypeField) {
+  if (expr.flags & NodeFlags.PrototypeField) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error,
@@ -3741,7 +3748,7 @@ function parseParentheizedExpression(
         ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
         : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
-    if (expression.flags & NodeFlags.DuplicatePrototypeField) {
+    if (expression.flags & NodeFlags.PrototypeField) {
       parser.onError(
         DiagnosticSource.Parser,
         DiagnosticKind.Error,
@@ -4061,7 +4068,7 @@ function parseParentheizedExpression(
               ? parseArrayLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList)
               : parseObjectLiteralOrAssignmentExpression(parser, context, BindingType.ArgumentList);
 
-          if (expression.flags & NodeFlags.DuplicatePrototypeField) {
+          if (expression.flags & NodeFlags.PrototypeField) {
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,

@@ -50,17 +50,17 @@
                                     "start": 24,
                                     "end": 29
                                 },
-                                "flags": 32,
+                                "flags": 36,
                                 "start": 13,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 20,
+                        "flags": 16,
                         "start": 2,
                         "end": 29
                     },
-                    "flags": 52,
+                    "flags": 48,
                     "start": 1,
                     "end": 31
                 },
@@ -86,12 +86,12 @@
 
 ```javascript
 
+({ __proto__, __proto__: null });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ An object literal cannot have multiple properties with the name '__proto__' - start: 31, end: 32
-
+✔ No errors
 ```
 
