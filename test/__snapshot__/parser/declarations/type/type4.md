@@ -92,7 +92,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 24,
+                                "end": 27
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [],
@@ -159,7 +165,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 81,
+                                "end": 84
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [
@@ -249,113 +261,80 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
-                            "parameters": {
-                                "kind": 208,
-                                "functionTypeParameterList": [],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 128,
-                                "end": 128
-                            },
-                            "returnType": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "flags": 68,
+                            "kind": 260,
+                            "type": {
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
                                     "start": 129,
-                                    "end": 129
+                                    "end": 132
                                 },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 129,
-                                "end": 129
-                            },
-                            "typeParameters": {
-                                "kind": 146,
-                                "types": [
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                                "parameters": {
+                                    "kind": 208,
+                                    "functionTypeParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 128,
+                                    "end": 128
+                                },
+                                "returnType": {
+                                    "kind": 144,
+                                    "id": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 132,
+                                        "end": 134
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "start": 132,
+                                    "end": 134
+                                },
+                                "typeParameters": {
+                                    "kind": 146,
+                                    "types": [
+                                        {
+                                            "kind": 144,
+                                            "id": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 125,
+                                                "end": 126
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 0,
                                             "start": 125,
                                             "end": 126
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 125,
-                                        "end": 126
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 0,
+                                    "start": 124,
+                                    "end": 127
+                                },
                                 "flags": 0,
                                 "start": 124,
-                                "end": 127
+                                "end": 134
                             },
                             "flags": 0,
-                            "start": 124,
-                            "end": 129
+                            "start": 123,
+                            "end": 135
                         }
                     ],
                     "flags": 0,
                     "start": 122,
-                    "end": 129
+                    "end": 136
                 },
                 "flags": 0,
                 "start": 111,
-                "end": 129
-            },
-            "flags": 16,
-            "start": 91,
-            "end": 129
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "T",
-                "rawText": "T",
-                "flags": 96,
-                "start": 132,
-                "end": 134
-            },
-            "flags": 16,
-            "start": 132,
-            "end": 134
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 135,
-                    "end": 135
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 135,
-                    "end": 136
-                },
-                "right": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 68,
-                    "start": 136,
-                    "end": 136
-                },
-                "flags": 32,
-                "start": 135,
                 "end": 136
             },
             "flags": 16,
-            "start": 135,
+            "start": 91,
             "end": 137
         },
         {
@@ -743,7 +722,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 516,
+                                "end": 519
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [],
@@ -810,7 +795,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 572,
+                                "end": 575
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [
@@ -900,7 +891,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 632,
+                                "end": 635
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [
@@ -995,7 +992,13 @@ type T27 = ArgumentType<never>;  // any
                     "kind": 146,
                     "types": [
                         {
-                            "kind": 148,
+                            "kind": 261,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 711,
+                                "end": 714
+                            },
                             "parameters": {
                                 "kind": 208,
                                 "functionTypeParameterList": [
@@ -1241,15 +1244,45 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 
+ // string
+
+ // void
+
+ // {}
+
+//type T13 = ReturnType<(<T extends U, U extends number[]>() => T)>;  // number[]
+ // { a: number, b: string }
+
+ // C
+
+ // any
+
+ // any
+
+ // Error
+
+ // any
+
+ // never
+
+ // string
+
+ // string | undefined
+
+ // string
+
+//type T24 = ArgumentType<(x: string, y: string) => number>;  // Error
+ // Error
+
+ // any
+
+ // any
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Identifier expected - start: 129, end: 132
-✖ Expected a `;` - start: 134, end: 135
-✖ Expression expected - start: 135, end: 136
-✖ Expression expected - start: 136, end: 137
-
+✔ No errors
 ```
 

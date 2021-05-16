@@ -727,7 +727,13 @@ var p10 = ([{ value, done }]) => { };
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 210,
+                                    "end": 213
+                                },
                                 "parameters": {
                                     "kind": 208,
                                     "functionTypeParameterList": [

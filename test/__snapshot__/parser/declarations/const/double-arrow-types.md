@@ -17,7 +17,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -49,7 +49,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
+                                "kind": 261,
+                                "arrowToken": null,
                                 "parameters": [
                                     {
                                         "kind": 144,
@@ -216,7 +217,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
+                                "kind": 261,
+                                "arrowToken": null,
                                 "parameters": [
                                     {
                                         "kind": 144,

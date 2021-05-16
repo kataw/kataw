@@ -27,7 +27,7 @@ function foo(callback: (_1:bool, _2:string) => number){}
 
 ## Output
 
-### Hybrid CST
+### CST
 
 ```javascript
 {
@@ -71,7 +71,13 @@ function foo(callback: (_1:bool, _2:string) => number){}
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 43,
+                                    "end": 46
+                                },
                                 "parameters": {
                                     "kind": 208,
                                     "functionTypeParameterList": [

@@ -581,7 +581,12 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                     },
                     "alternate": {
                         "kind": 271,
-                        "arrowToken": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 440,
+                            "end": 443
+                        },
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -597,203 +602,204 @@ a ? (b) : c => (d) : e => f : g; // a ? ((b): c => ((d): e => f)) : g
                         "returnType": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
-                                "parameters": [
-                                    {
-                                        "kind": 144,
-                                        "id": {
-                                            "kind": 134299649,
-                                            "text": "e",
-                                            "rawText": "e",
-                                            "flags": 96,
-                                            "start": 438,
-                                            "end": 439
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 0,
-                                        "start": 438,
-                                        "end": 439
-                                    }
-                                ],
-                                "returnType": {
+                                "kind": 260,
+                                "type": {
                                     "kind": 144,
                                     "id": {
                                         "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
+                                        "text": "e",
+                                        "rawText": "e",
                                         "flags": 96,
-                                        "start": 443,
-                                        "end": 445
+                                        "start": 438,
+                                        "end": 439
                                     },
                                     "typeParameters": null,
                                     "flags": 0,
-                                    "start": 443,
-                                    "end": 445
+                                    "start": 438,
+                                    "end": 439
                                 },
-                                "typeParameters": null,
                                 "flags": 0,
                                 "start": 436,
-                                "end": 445
+                                "end": 440
                             },
                             "flags": 0,
                             "start": 434,
-                            "end": 445
+                            "end": 440
                         },
                         "contents": {
                             "kind": 134299649,
-                            "text": "g",
-                            "rawText": "g",
+                            "text": "f",
+                            "rawText": "f",
                             "flags": 96,
-                            "start": 447,
-                            "end": 449
+                            "start": 443,
+                            "end": 445
                         },
                         "flags": 32,
                         "start": 430,
-                        "end": 449
+                        "end": 445
                     },
                     "flags": 32,
                     "start": 420,
-                    "end": 449
+                    "end": 445
                 },
-                "colonToken": null,
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 445,
+                    "end": 447
+                },
                 "alternate": {
-                    "kind": 197,
-                    "shortCircuit": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 450,
-                        "end": 516
-                    },
-                    "questionToken": {
-                        "kind": 134217750,
-                        "flags": 0,
-                        "start": 516,
-                        "end": 518
-                    },
-                    "consequent": {
-                        "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 0,
-                            "start": 526,
-                            "end": 529
-                        },
-                        "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 520,
-                                "end": 521
-                            }
-                        ],
-                        "asyncKeyword": null,
-                        "returnType": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 524,
-                                    "end": 526
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 524,
-                                "end": 526
-                            },
-                            "flags": 0,
-                            "start": 522,
-                            "end": 526
-                        },
-                        "contents": {
-                            "kind": 134299649,
-                            "text": "d",
-                            "rawText": "d",
-                            "flags": 96,
-                            "start": 529,
-                            "end": 531
-                        },
-                        "flags": 32,
-                        "start": 518,
-                        "end": 531
-                    },
-                    "colonToken": {
-                        "kind": 21,
-                        "flags": 0,
-                        "start": 531,
-                        "end": 533
-                    },
-                    "alternate": {
-                        "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 0,
-                            "start": 541,
-                            "end": 544
-                        },
-                        "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "e",
-                                "rawText": "e",
-                                "flags": 96,
-                                "start": 535,
-                                "end": 536
-                            }
-                        ],
-                        "asyncKeyword": null,
-                        "returnType": {
-                            "kind": 139,
-                            "type": {
-                                "kind": 144,
-                                "id": {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 539,
-                                    "end": 541
-                                },
-                                "typeParameters": null,
-                                "flags": 0,
-                                "start": 539,
-                                "end": 541
-                            },
-                            "flags": 0,
-                            "start": 537,
-                            "end": 541
-                        },
-                        "contents": {
-                            "kind": 134299649,
-                            "text": "g",
-                            "rawText": "g",
-                            "flags": 96,
-                            "start": 544,
-                            "end": 546
-                        },
-                        "flags": 32,
-                        "start": 533,
-                        "end": 546
-                    },
-                    "flags": 32,
-                    "start": 450,
-                    "end": 546
+                    "kind": 134299649,
+                    "text": "g",
+                    "rawText": "g",
+                    "flags": 96,
+                    "start": 447,
+                    "end": 449
                 },
                 "flags": 32,
                 "start": 302,
-                "end": 546
+                "end": 449
             },
             "flags": 16,
             "start": 302,
+            "end": 450
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 197,
+                "shortCircuit": {
+                    "kind": 134299649,
+                    "text": "a",
+                    "rawText": "a",
+                    "flags": 96,
+                    "start": 450,
+                    "end": 516
+                },
+                "questionToken": {
+                    "kind": 134217750,
+                    "flags": 0,
+                    "start": 516,
+                    "end": 518
+                },
+                "consequent": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 0,
+                        "start": 526,
+                        "end": 529
+                    },
+                    "typeParameters": null,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 520,
+                            "end": 521
+                        }
+                    ],
+                    "asyncKeyword": null,
+                    "returnType": {
+                        "kind": 139,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
+                                "start": 524,
+                                "end": 526
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 524,
+                            "end": 526
+                        },
+                        "flags": 0,
+                        "start": 522,
+                        "end": 526
+                    },
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "d",
+                        "rawText": "d",
+                        "flags": 96,
+                        "start": 529,
+                        "end": 531
+                    },
+                    "flags": 32,
+                    "start": 518,
+                    "end": 531
+                },
+                "colonToken": {
+                    "kind": 21,
+                    "flags": 0,
+                    "start": 531,
+                    "end": 533
+                },
+                "alternate": {
+                    "kind": 271,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 0,
+                        "start": 541,
+                        "end": 544
+                    },
+                    "typeParameters": null,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "e",
+                            "rawText": "e",
+                            "flags": 96,
+                            "start": 535,
+                            "end": 536
+                        }
+                    ],
+                    "asyncKeyword": null,
+                    "returnType": {
+                        "kind": 139,
+                        "type": {
+                            "kind": 144,
+                            "id": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 539,
+                                "end": 541
+                            },
+                            "typeParameters": null,
+                            "flags": 0,
+                            "start": 539,
+                            "end": 541
+                        },
+                        "flags": 0,
+                        "start": 537,
+                        "end": 541
+                    },
+                    "contents": {
+                        "kind": 134299649,
+                        "text": "g",
+                        "rawText": "g",
+                        "flags": 96,
+                        "start": 544,
+                        "end": 546
+                    },
+                    "flags": 32,
+                    "start": 533,
+                    "end": 546
+                },
+                "flags": 32,
+                "start": 450,
+                "end": 546
+            },
+            "flags": 16,
+            "start": 450,
             "end": 547
         },
         {
@@ -959,8 +965,10 @@ a ? (b = (c) =>  d) =>  f : g; // a ? ((b = (c) => d): e => f) : g
 b ? c ? (d) =>  (f) : g : h; // b ? (c ? ((d): e => f) : g) : h
 
 //a ? b ? c ? (d) : e => (f) : g : h; // a ? (b ? (c ? d : (e => f)) : g) : h
-a ? b ? (c) : (d)  g  // Multiple arrow functions
-  a ? (b) =>  d : (e) =>  g; // a ? ((b): c => d) : ((e): f => g)
+a ? b ? (c) : (d) =>  f : g; // a ? (b ? c : ((d): e => f)) : g
+
+// Multiple arrow functions
+a ? (b) =>  d : (e) =>  g; // a ? ((b): c => d) : ((e): f => g)
 
 // Multiple nested arrow functions (<T> is needed to avoid ambiguities)
 a ? (b) =>  (d) =>  f : g; // a ? ((b): c => ((d): e => f)) : g

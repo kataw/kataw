@@ -175,103 +175,141 @@ type overloads2 = {
             "opaqueType": null,
             "typeParameters": null,
             "type": {
-                "kind": 138,
-                "types": [
-                    {
-                        "kind": 148,
-                        "parameters": {
-                            "kind": 208,
-                            "functionTypeParameterList": [
-                                {
-                                    "kind": 149,
-                                    "ellipsisToken": null,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 69,
-                                        "end": 70
-                                    },
-                                    "optionalToken": null,
-                                    "typeAnnotation": {
-                                        "kind": 134234347,
-                                        "flags": 64,
-                                        "start": 71,
-                                        "end": 78
-                                    },
-                                    "flags": 0,
-                                    "start": 69,
-                                    "end": 78
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 69,
-                            "end": 78
-                        },
-                        "returnType": {
-                            "kind": 134234345,
-                            "flags": 64,
-                            "start": 82,
-                            "end": 89
+                "kind": 260,
+                "type": {
+                    "kind": 144,
+                    "id": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 69,
+                        "end": 70
+                    },
+                    "typeParameters": null,
+                    "flags": 0,
+                    "start": 69,
+                    "end": 70
+                },
+                "flags": 0,
+                "start": 66,
+                "end": 70
+            },
+            "flags": 16,
+            "start": 44,
+            "end": 70
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "string",
+                "rawText": "string",
+                "flags": 96,
+                "start": 71,
+                "end": 78
+            },
+            "flags": 16,
+            "start": 71,
+            "end": 78
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "number",
+                "rawText": "number",
+                "flags": 96,
+                "start": 82,
+                "end": 89
+            },
+            "flags": 16,
+            "start": 82,
+            "end": 89
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 68,
+                    "start": 90,
+                    "end": 90
+                },
+                "operatorToken": {
+                    "kind": 34375,
+                    "flags": 65,
+                    "start": 90,
+                    "end": 94
+                },
+                "right": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 107,
+                            "end": 110
                         },
                         "typeParameters": null,
-                        "flags": 0,
-                        "start": 68,
-                        "end": 89
-                    },
-                    {
-                        "kind": 148,
-                        "parameters": {
-                            "kind": 208,
-                            "functionTypeParameterList": [
-                                {
-                                    "kind": 149,
-                                    "ellipsisToken": null,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 97,
-                                        "end": 98
-                                    },
-                                    "optionalToken": null,
-                                    "typeAnnotation": {
+                        "parameters": [
+                            {
+                                "kind": 215,
+                                "ellipsisToken": null,
+                                "binding": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 97,
+                                    "end": 98
+                                },
+                                "optionalToken": null,
+                                "type": {
+                                    "kind": 139,
+                                    "type": {
                                         "kind": 134234345,
                                         "flags": 64,
                                         "start": 99,
                                         "end": 106
                                     },
                                     "flags": 0,
-                                    "start": 97,
+                                    "start": 98,
                                     "end": 106
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 97,
-                            "end": 106
-                        },
-                        "returnType": {
-                            "kind": 134234347,
-                            "flags": 64,
+                                },
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 96,
+                                "end": 106
+                            }
+                        ],
+                        "asyncKeyword": null,
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "string",
+                            "rawText": "string",
+                            "flags": 96,
                             "start": 110,
                             "end": 117
                         },
-                        "typeParameters": null,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 96,
                         "end": 117
-                    }
-                ],
-                "flags": 0,
+                    },
+                    "flags": 32,
+                    "start": 94,
+                    "end": 118
+                },
+                "flags": 32,
                 "start": 90,
                 "end": 118
             },
             "flags": 16,
-            "start": 44,
+            "start": 90,
             "end": 120
         },
         {
@@ -542,15 +580,16 @@ type overloads2 = {
 
 ```javascript
 
-
-
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 70, end: 71
+✖ Expected a `;` - start: 78, end: 79
+✖ Declaration or statement expected - start: 79, end: 82
+✖ Expected a `;` - start: 89, end: 90
+✖ Expression expected - start: 90, end: 94
+
 ```
 

@@ -415,7 +415,13 @@ class Array { concat(items:number | string) {}; }
                         "type": {
                             "kind": 139,
                             "type": {
-                                "kind": 148,
+                                "kind": 261,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 123,
+                                    "end": 126
+                                },
                                 "parameters": {
                                     "kind": 208,
                                     "functionTypeParameterList": [],
@@ -434,7 +440,13 @@ class Array { concat(items:number | string) {}; }
                                             "end": 133
                                         },
                                         {
-                                            "kind": 148,
+                                            "kind": 261,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 138,
+                                                "end": 141
+                                            },
                                             "parameters": {
                                                 "kind": 208,
                                                 "functionTypeParameterList": [],

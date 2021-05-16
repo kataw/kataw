@@ -1,21 +1,18 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { ExpressionNode } from '.';
-import { CallChain } from './call-chain';
-import { PrivateIdentifier } from './private-identifier';
-import { Identifier } from './identifier-expr';
-import { IndexExpressionChain } from './index-expr-chain';
+import { OptionalChain } from './optional-chain';
 
 /**
  * MemberAccessChain expression.
  */
 export interface MemberAccessChain extends SyntaxNode {
-  readonly chain: MemberAccessChain | IndexExpressionChain | CallChain | null;
-  readonly expression: ExpressionNode | Identifier | PrivateIdentifier | null;
+  chain: OptionalChain | null;
+  readonly expression: ExpressionNode | null;
 }
 
 export function createMemberAccessChain(
-  chain: MemberAccessChain | IndexExpressionChain | CallChain | null,
-  expression: ExpressionNode | Identifier | PrivateIdentifier | null,
+  chain: OptionalChain | null,
+  expression: ExpressionNode | null,
   start: number,
   end: number
 ): MemberAccessChain {

@@ -31,7 +31,7 @@
   "The left hand side of the arrow is not destructible ": 31,
   "Trailing comma not allowed.": 32,
   "A return statement can only be used within a function_body": 33,
-  "An element access expression should take an argument.": 34,
+  "An member access expression should take an argument.": 34,
   "A rest parameter or binding pattern may not have a trailing comma.": 35,
   "Parameter cannot have question mark and initializer.": 36,
   "An index signature cannot have a rest parameter.": 37,
