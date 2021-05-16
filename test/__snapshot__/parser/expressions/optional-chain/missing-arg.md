@@ -131,9 +131,6 @@ x?.y?.[]
 
 ```javascript
 
-"\"hello\""?.;
-obj.a?.;
-f2`hello world`?.;
 ```
 
 ### Diagnostics

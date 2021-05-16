@@ -1195,13 +1195,7 @@
                                                                     "start": 256,
                                                                     "end": 257
                                                                 },
-                                                                "expression": {
-                                                                    "kind": 16637,
-                                                                    "text": "",
-                                                                    "flags": 68,
-                                                                    "start": 258,
-                                                                    "end": 258
-                                                                },
+                                                                "expression": null,
                                                                 "flags": 32,
                                                                 "start": 256,
                                                                 "end": 259
@@ -2331,8 +2325,7 @@
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 186, end: 188
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 197, end: 199
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 236, end: 238
-✖ An element access expression should take an argument. - start: 258, end: 259
-✖ Expression expected - start: 258, end: 259
+✖ An member access expression should take an argument. - start: 258, end: 259
 ✖ Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring - start: 283, end: 284
 ✖ The parser expected to find a '}' to match the '{' token here - start: 287, end: 288
 ✖ Declaration or statement expected - start: 290, end: 291

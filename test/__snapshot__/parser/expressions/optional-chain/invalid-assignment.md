@@ -171,6 +171,7 @@ x?.y = 0;
 
 ```javascript
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 3, end: 8
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 6, end: 8
 ✖ The left-hand side of an assignment expression may not be an optional property access - start: 16, end: 19
 
 ```
