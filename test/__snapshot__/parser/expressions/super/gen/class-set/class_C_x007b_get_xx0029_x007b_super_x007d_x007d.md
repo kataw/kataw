@@ -147,7 +147,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 30,
+                                                "start": 28,
                                                 "end": 36
                                             },
                                             "flags": 16,
@@ -173,7 +173,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 36
             },
             "flags": 16,

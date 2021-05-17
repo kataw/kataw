@@ -138,7 +138,7 @@ a});
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 29
             },
             "flags": 16,
@@ -212,7 +212,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 41,
+                        "start": 39,
                         "end": 56
                     },
                     "flags": 32,
@@ -315,7 +315,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 69,
+                        "start": 67,
                         "end": 86
                     },
                     "flags": 32,
@@ -448,7 +448,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 99,
+                        "start": 97,
                         "end": 120
                     },
                     "flags": 32,
@@ -586,7 +586,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 133,
+                        "start": 131,
                         "end": 155
                     },
                     "flags": 32,
@@ -725,7 +725,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 168,
+                        "start": 166,
                         "end": 193
                     },
                     "flags": 32,
@@ -800,7 +800,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 206,
+                        "start": 204,
                         "end": 217
                     },
                     "flags": 32,
@@ -902,7 +902,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 230,
+                        "start": 228,
                         "end": 244
                     },
                     "flags": 32,
@@ -1028,7 +1028,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 257,
+                        "start": 255,
                         "end": 274
                     },
                     "flags": 32,
@@ -1159,7 +1159,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 287,
+                        "start": 285,
                         "end": 305
                     },
                     "flags": 32,
@@ -1291,7 +1291,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 318,
+                        "start": 316,
                         "end": 339
                     },
                     "flags": 32,
@@ -1379,7 +1379,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 352,
+                        "start": 350,
                         "end": 371
                     },
                     "flags": 32,
@@ -1488,7 +1488,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 384,
+                        "start": 382,
                         "end": 405
                     },
                     "flags": 32,
@@ -1627,7 +1627,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 418,
+                        "start": 416,
                         "end": 443
                     },
                     "flags": 32,
@@ -1771,7 +1771,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 456,
+                        "start": 454,
                         "end": 482
                     },
                     "flags": 32,
@@ -1916,7 +1916,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 495,
+                        "start": 493,
                         "end": 524
                     },
                     "flags": 32,
@@ -1997,7 +1997,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 537,
+                        "start": 535,
                         "end": 552
                     },
                     "flags": 32,
@@ -2105,7 +2105,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 565,
+                        "start": 563,
                         "end": 583
                     },
                     "flags": 32,
@@ -2237,7 +2237,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 596,
+                        "start": 594,
                         "end": 617
                     },
                     "flags": 32,
@@ -2374,7 +2374,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 630,
+                        "start": 628,
                         "end": 652
                     },
                     "flags": 32,
@@ -2512,7 +2512,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 665,
+                        "start": 663,
                         "end": 690
                     },
                     "flags": 32,
@@ -2544,104 +2544,82 @@ a});
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 700,
+                                "end": 708
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 708,
+                                "end": 710
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 708,
+                            "end": 710
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": {
+                                    "kind": 8388716,
+                                    "flags": 64,
+                                    "start": 712,
+                                    "end": 719
+                                },
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 719,
+                                    "end": 721
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 723,
+                                    "end": 725
+                                },
+                                "flags": 32,
+                                "start": 719,
+                                "end": 725
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 96,
+                                "start": 725,
+                                "end": 726
+                            }
+                        ],
                         "flags": 32,
-                        "start": 695,
-                        "end": 695
+                        "start": 700,
+                        "end": 727
                     },
                     "flags": 32,
                     "start": 695,
-                    "end": 700
+                    "end": 727
                 },
                 "flags": 32,
                 "start": 692,
-                "end": 700
+                "end": 728
             },
             "flags": 16,
             "start": 692,
-            "end": 700
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 708,
-                "end": 710
-            },
-            "flags": 16,
-            "start": 708,
-            "end": 710
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
-                            "flags": 96,
-                            "start": 712,
-                            "end": 719
-                        },
-                        "flags": 16,
-                        "start": 712,
-                        "end": 719
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 719,
-                                "end": 721
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 721,
-                                "end": 723
-                            },
-                            "right": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 723,
-                                "end": 725
-                            },
-                            "flags": 32,
-                            "start": 719,
-                            "end": 725
-                        },
-                        "flags": 16,
-                        "start": 719,
-                        "end": 726
-                    }
-                ],
-                "flags": 16,
-                "start": 712,
-                "end": 726
-            },
-            "flags": 16,
-            "start": 710,
-            "end": 727
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 728,
             "end": 729
         },
         {
@@ -2661,84 +2639,75 @@ a});
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 736,
+                                "end": 744
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 744,
+                                "end": 746
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 744,
+                            "end": 746
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": {
+                                    "kind": 8388716,
+                                    "flags": 64,
+                                    "start": 748,
+                                    "end": 755
+                                },
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 755,
+                                    "end": 757
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 755,
+                                "end": 757
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 96,
+                                "start": 757,
+                                "end": 758
+                            }
+                        ],
                         "flags": 32,
-                        "start": 731,
-                        "end": 731
+                        "start": 736,
+                        "end": 759
                     },
                     "flags": 32,
                     "start": 731,
-                    "end": 736
+                    "end": 759
                 },
                 "flags": 32,
                 "start": 729,
-                "end": 736
+                "end": 760
             },
             "flags": 16,
             "start": 729,
-            "end": 736
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 744,
-                "end": 746
-            },
-            "flags": 16,
-            "start": 744,
-            "end": 746
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
-                            "flags": 96,
-                            "start": 748,
-                            "end": 755
-                        },
-                        "flags": 16,
-                        "start": 748,
-                        "end": 755
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 755,
-                            "end": 757
-                        },
-                        "flags": 16,
-                        "start": 755,
-                        "end": 758
-                    }
-                ],
-                "flags": 16,
-                "start": 748,
-                "end": 758
-            },
-            "flags": 16,
-            "start": 746,
-            "end": 759
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 760,
             "end": 761
         },
         {
@@ -2758,104 +2727,82 @@ a});
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 768,
+                                "end": 776
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 776,
+                                "end": 778
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 776,
+                            "end": 778
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": {
+                                    "kind": 8388716,
+                                    "flags": 64,
+                                    "start": 780,
+                                    "end": 787
+                                },
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 201392131,
+                                    "text": "a",
+                                    "rawText": "'a'",
+                                    "flags": 4194400,
+                                    "start": 787,
+                                    "end": 791
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 793,
+                                    "end": 795
+                                },
+                                "flags": 32,
+                                "start": 787,
+                                "end": 795
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 96,
+                                "start": 795,
+                                "end": 796
+                            }
+                        ],
                         "flags": 32,
-                        "start": 763,
-                        "end": 763
+                        "start": 768,
+                        "end": 797
                     },
                     "flags": 32,
                     "start": 763,
-                    "end": 768
+                    "end": 797
                 },
                 "flags": 32,
                 "start": 761,
-                "end": 768
+                "end": 798
             },
             "flags": 16,
             "start": 761,
-            "end": 768
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 776,
-                "end": 778
-            },
-            "flags": 16,
-            "start": 776,
-            "end": 778
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
-                            "flags": 96,
-                            "start": 780,
-                            "end": 787
-                        },
-                        "flags": 16,
-                        "start": 780,
-                        "end": 787
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 201392131,
-                                "text": "a",
-                                "rawText": "'a'",
-                                "flags": 4194400,
-                                "start": 787,
-                                "end": 791
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 791,
-                                "end": 793
-                            },
-                            "right": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 793,
-                                "end": 795
-                            },
-                            "flags": 32,
-                            "start": 787,
-                            "end": 795
-                        },
-                        "flags": 16,
-                        "start": 787,
-                        "end": 796
-                    }
-                ],
-                "flags": 16,
-                "start": 780,
-                "end": 796
-            },
-            "flags": 16,
-            "start": 778,
-            "end": 797
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 798,
             "end": 799
         },
         {
@@ -2875,84 +2822,75 @@ a});
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 806,
+                                "end": 814
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 814,
+                                "end": 816
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 814,
+                            "end": 816
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": {
+                                    "kind": 8388716,
+                                    "flags": 64,
+                                    "start": 818,
+                                    "end": 825
+                                },
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 201392131,
+                                    "text": "a",
+                                    "rawText": "'a'",
+                                    "flags": 4194400,
+                                    "start": 825,
+                                    "end": 829
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 825,
+                                "end": 829
+                            },
+                            {
+                                "kind": 281,
+                                "flags": 96,
+                                "start": 829,
+                                "end": 830
+                            }
+                        ],
                         "flags": 32,
-                        "start": 801,
-                        "end": 801
+                        "start": 806,
+                        "end": 831
                     },
                     "flags": 32,
                     "start": 801,
-                    "end": 806
+                    "end": 831
                 },
                 "flags": 32,
                 "start": 799,
-                "end": 806
+                "end": 832
             },
             "flags": 16,
             "start": 799,
-            "end": 806
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 814,
-                "end": 816
-            },
-            "flags": 16,
-            "start": 814,
-            "end": 816
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "static",
-                            "rawText": "static",
-                            "flags": 96,
-                            "start": 818,
-                            "end": 825
-                        },
-                        "flags": 16,
-                        "start": 818,
-                        "end": 825
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 201392131,
-                            "text": "a",
-                            "rawText": "'a'",
-                            "flags": 4194400,
-                            "start": 825,
-                            "end": 829
-                        },
-                        "flags": 16,
-                        "start": 825,
-                        "end": 830
-                    }
-                ],
-                "flags": 16,
-                "start": 818,
-                "end": 830
-            },
-            "flags": 16,
-            "start": 816,
-            "end": 831
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 832,
             "end": 833
         },
         {
@@ -3016,7 +2954,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 845,
+                        "start": 843,
                         "end": 863
                     },
                     "flags": 32,
@@ -3106,7 +3044,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 877,
+                        "start": 875,
                         "end": 894
                     },
                     "flags": 32,
@@ -3181,7 +3119,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 908,
+                        "start": 906,
                         "end": 923
                     },
                     "flags": 32,
@@ -3263,7 +3201,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 936,
+                        "start": 934,
                         "end": 955
                     },
                     "flags": 32,
@@ -3332,7 +3270,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 968,
+                        "start": 966,
                         "end": 982
                     },
                     "flags": 32,
@@ -3408,7 +3346,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 995,
+                        "start": 993,
                         "end": 1013
                     },
                     "flags": 32,
@@ -3512,7 +3450,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1027,
+                        "start": 1025,
                         "end": 1048
                     },
                     "flags": 32,
@@ -3586,7 +3524,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1109,
+                        "start": 1107,
                         "end": 1125
                     },
                     "flags": 32,
@@ -3661,7 +3599,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1139,
+                        "start": 1137,
                         "end": 1154
                     },
                     "flags": 32,
@@ -3743,7 +3681,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1167,
+                        "start": 1165,
                         "end": 1186
                     },
                     "flags": 32,
@@ -3833,7 +3771,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1200,
+                        "start": 1198,
                         "end": 1217
                     },
                     "flags": 32,
@@ -3944,7 +3882,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1231,
+                        "start": 1229,
                         "end": 1251
                     },
                     "flags": 32,
@@ -4013,7 +3951,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1264,
+                        "start": 1261,
                         "end": 1279
                     },
                     "flags": 32,
@@ -4103,7 +4041,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1292,
+                        "start": 1289,
                         "end": 1309
                     },
                     "flags": 32,
@@ -4223,7 +4161,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1322,
+                        "start": 1319,
                         "end": 1343
                     },
                     "flags": 32,
@@ -4285,7 +4223,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1356,
+                        "start": 1353,
                         "end": 1367
                     },
                     "flags": 32,
@@ -4368,7 +4306,7 @@ a});
                             }
                         ],
                         "flags": 32,
-                        "start": 1380,
+                        "start": 1377,
                         "end": 1394
                     },
                     "flags": 32,
@@ -4397,29 +4335,189 @@ a});
 
 ```javascript
 
+class x {
+  static #foo = bar;
+}
+(class C {
+    static a = 0;
+
+  });
+(class C {
+    static a = 0;
+
+    b;
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    b() {}
+  });
+(class C {
+    static a = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static a;
+
+  });
+(class C {
+    static a;
+
+    b;
+
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    b() {}
+  });
+(class C {
+    static a;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b;
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    b() {}
+  });
+(class C {
+    static ["'a'"] = 0;
+
+    ["'b'"]() {}
+  });
+(class C {
+    static ["'a'"];
+
+  });
+(class C {
+    static ["'a'"];
+
+    b;
+
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    b() {}
+  });
+(class C {
+    static ["'a'"];
+
+    ["'b'"]() {}
+  });
+(class   {
+    static 0 = 0;
+
+  });
+(class   {
+    static 0;
+
+  });
+(class   {
+    static "'a'" = 0;
+
+  });
+(class   {
+    static "'a'";
+
+  });
+(class C {
+    static yield = 0;
+  });
+(class C {
+    static yield;
+    a;
+  });
+(class C {
+    static async;
+
+  });
+(class C {
+    static async = 0;
+
+  });
+(class C {
+    static async;
+  });
+(class C {
+    static async = 0;
+  });
+(class C {
+    async static static a() {}
+  }); // a field named async, and a method named a.
+
+(class C {
+    static async a;
+  });
+(class C {
+    static await;
+
+  });
+(class C {
+    static await = 0;
+
+  });
+(class C {
+    static await;
+    a;
+  });
+(class C {
+    static c = [c] = c;
+  });
+(class  {
+    static a = 0;
+  });
+(class  {
+    static a = 0;
+    b;
+  });
+(class  {
+    static a = 0;
+    b() {}
+  });
+(class  {
+    static a;
+  });
+(class  {
+    static a;
+    b;
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 700, end: 708
-✖ Expected a `;` - start: 710, end: 712
-✖ Expected a `;` - start: 719, end: 721
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 721, end: 723
-✖ Declaration or statement expected - start: 727, end: 728
-✖ Expected a ')' to match the '(' token here - start: 736, end: 744
-✖ Expected a `;` - start: 746, end: 748
-✖ Expected a `;` - start: 755, end: 757
-✖ Declaration or statement expected - start: 759, end: 760
-✖ Expected a ')' to match the '(' token here - start: 768, end: 776
-✖ Expected a `;` - start: 778, end: 780
-✖ Expected a `;` - start: 787, end: 791
-✖ The left-hand side of an assignment expression must be a variable or a property access - start: 791, end: 793
-✖ Declaration or statement expected - start: 797, end: 798
-✖ Expected a ')' to match the '(' token here - start: 806, end: 814
-✖ Expected a `;` - start: 816, end: 818
-✖ Expected a `;` - start: 825, end: 829
-✖ Declaration or statement expected - start: 831, end: 832
-
+✔ No errors
 ```
 

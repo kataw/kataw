@@ -61,7 +61,7 @@ class Foo { constructor }
                     }
                 ],
                 "flags": 32,
-                "start": 11,
+                "start": 9,
                 "end": 25
             },
             "flags": 16,

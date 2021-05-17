@@ -47,7 +47,7 @@ class C { \\u0041 }
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 9
             },
             "flags": 16,

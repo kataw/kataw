@@ -440,7 +440,7 @@ class C { test() {get #a() { }}}
                     }
                 ],
                 "flags": 32,
-                "start": 85,
+                "start": 83,
                 "end": 108
             },
             "flags": 16,

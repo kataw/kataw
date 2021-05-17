@@ -170,7 +170,7 @@ class C { foo() { this.#a = 1; }}
                                 }
                             ],
                             "flags": 32,
-                            "start": 8,
+                            "start": 6,
                             "end": 40
                         },
                         "flags": 32,
@@ -288,7 +288,7 @@ class C { foo() { this.#a = 1; }}
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 51,
+                                "start": 49,
                                 "end": 81
                             },
                             "flags": 32,
@@ -330,40 +330,40 @@ class C { foo() { this.#a = 1; }}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 82,
-                "end": 82
-            },
-            "flags": 16,
-            "start": 82,
-            "end": 91
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 99,
-                "end": 104
-            },
-            "flags": 16,
-            "start": 99,
-            "end": 104
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 91,
+                        "end": 99
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "Base",
+                        "rawText": "Base",
+                        "flags": 96,
+                        "start": 99,
+                        "end": 104
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 99,
+                    "end": 104
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 131,
-                            "expression": {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
@@ -371,74 +371,77 @@ class C { foo() { this.#a = 1; }}
                                 "start": 106,
                                 "end": 109
                             },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [],
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 110,
-                                "end": 110
+                                "end": 111
                             },
-                            "flags": 268435488,
-                            "start": 106,
-                            "end": 111
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 161,
+                                            "returnKeyword": {
+                                                "kind": 37757022,
+                                                "flags": 0,
+                                                "start": 113,
+                                                "end": 120
+                                            },
+                                            "expression": {
+                                                "kind": 129,
+                                                "member": {
+                                                    "kind": 135,
+                                                    "flags": 96,
+                                                    "start": 120,
+                                                    "end": 125
+                                                },
+                                                "expression": {
+                                                    "kind": 67174651,
+                                                    "text": "#a",
+                                                    "flags": 96,
+                                                    "start": 126,
+                                                    "end": 128
+                                                },
+                                                "flags": 536870944,
+                                                "start": 120,
+                                                "end": 128
+                                            },
+                                            "flags": 16,
+                                            "start": 0,
+                                            "end": 113
+                                        }
+                                    ],
+                                    "flags": 32,
+                                    "start": 113,
+                                    "end": 129
+                                },
+                                "flags": 32,
+                                "start": 111,
+                                "end": 131
+                            },
+                            "flags": 0,
+                            "start": 109,
+                            "end": 131
                         },
-                        "flags": 16,
+                        "flags": 0,
                         "start": 106,
-                        "end": 111
-                    },
-                    {
-                        "kind": 249,
-                        "block": {
-                            "kind": 124,
-                            "statements": [
-                                {
-                                    "kind": 161,
-                                    "returnKeyword": {
-                                        "kind": 37757022,
-                                        "flags": 0,
-                                        "start": 113,
-                                        "end": 120
-                                    },
-                                    "expression": {
-                                        "kind": 129,
-                                        "member": {
-                                            "kind": 135,
-                                            "flags": 96,
-                                            "start": 120,
-                                            "end": 125
-                                        },
-                                        "expression": {
-                                            "kind": 67174651,
-                                            "text": "#a",
-                                            "flags": 96,
-                                            "start": 126,
-                                            "end": 128
-                                        },
-                                        "flags": 536870944,
-                                        "start": 120,
-                                        "end": 128
-                                    },
-                                    "flags": 16,
-                                    "start": 0,
-                                    "end": 113
-                                }
-                            ],
-                            "flags": 16,
-                            "start": 113,
-                            "end": 129
-                        },
-                        "flags": 16,
-                        "start": 111,
                         "end": 131
                     }
                 ],
-                "flags": 16,
-                "start": 106,
-                "end": 131
+                "flags": 32,
+                "start": 91,
+                "end": 132
             },
             "flags": 16,
-            "start": 104,
+            "start": 82,
             "end": 132
         },
         {
@@ -563,7 +566,7 @@ class C { foo() { this.#a = 1; }}
                     }
                 ],
                 "flags": 32,
-                "start": 143,
+                "start": 141,
                 "end": 167
             },
             "flags": 16,
@@ -584,16 +587,30 @@ class C { foo() { this.#a = 1; }}
 
 ```javascript
 
+(class  {
+    set #b(val) {
+      this.#a = val;
+    }
+  })(class  {
+    get #b() {
+      return  this.#a;
+    }
+  });
+class C  {
+  foo() {
+    return  this.#a;
+  }
+}
+class C {
+  foo() {
+    this.#a = 1;
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 91, end: 99
-✖ Expected a `;` - start: 104, end: 106
-✖ Expected a `;` - start: 111, end: 113
-✖ A return statement can only be used within a function_body - start: 113, end: 120
-✖ Private identifiers are not allowed outside class_bodies - start: 126, end: 128
-
+✔ No errors
 ```
 

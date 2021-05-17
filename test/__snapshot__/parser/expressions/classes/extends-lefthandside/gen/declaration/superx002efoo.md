@@ -40,59 +40,52 @@ class A extends super.foo {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 129,
+                        "member": {
+                            "kind": 225,
+                            "superKeyword": {
+                                "kind": 4259935,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 21
+                            },
+                            "flags": 96,
+                            "start": 15,
+                            "end": 21
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 22,
+                            "end": 25
+                        },
+                        "flags": 536870944,
+                        "start": 15,
+                        "end": 25
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 25
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 28
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
-                        "flags": 0,
-                        "start": 15,
-                        "end": 21
-                    },
-                    "flags": 96,
-                    "start": 15,
-                    "end": 21
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 22,
-                    "end": 25
-                },
-                "flags": 536870944,
-                "start": 15,
-                "end": 25
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 25
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 27,
-                "end": 27
-            },
-            "flags": 16,
-            "start": 25,
             "end": 28
         }
     ],
@@ -114,9 +107,7 @@ class A extends super.foo {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 21, end: 22
-✖ Expected a `;` - start: 25, end: 27
 
 ```
 

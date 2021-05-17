@@ -36,64 +36,64 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 6,
+                                "end": 14
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "Base",
+                                "rawText": "Base",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 14,
+                            "end": 19
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "yield",
+                                    "rawText": "yield",
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 27
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": null,
+                                "flags": 32,
+                                "start": 21,
+                                "end": 27
+                            }
+                        ],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 6,
+                        "end": 27
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 6
+                    "end": 27
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 6
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 14,
-                "end": 19
-            },
-            "flags": 16,
-            "start": 14,
-            "end": 19
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 27
-                        },
-                        "flags": 16,
-                        "start": 21,
-                        "end": 27
-                    }
-                ],
-                "flags": 16,
-                "start": 21,
                 "end": 27
             },
             "flags": 16,
-            "start": 19,
+            "start": 0,
             "end": 27
         },
         {
@@ -149,11 +149,9 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 6, end: 14
-✖ Expected a `;` - start: 19, end: 21
 ✖ Invalid hexadecimal escape sequence - start: 21, end: 27
 ✖ Invalid hexadecimal escape sequence - start: 27, end: 27
-✖ Expected a `;` - start: 27, end: 28
+✖ The parser expected to find a '}' to match the '{' token here - start: 27, end: 28
 ✖ Expected a `;` - start: 29, end: 31
 ✖ Declaration or statement expected - start: 31, end: 33
 ✖ Declaration or statement expected - start: 33, end: 34

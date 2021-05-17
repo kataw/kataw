@@ -59,7 +59,7 @@ export default class Foo {}++x
                     "classHeritage": null,
                     "elements": [],
                     "flags": 32,
-                    "start": 26,
+                    "start": 24,
                     "end": 27
                 },
                 "flags": 16,

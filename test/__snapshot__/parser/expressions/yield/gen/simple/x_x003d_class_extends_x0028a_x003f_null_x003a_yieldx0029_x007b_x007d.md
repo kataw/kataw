@@ -50,88 +50,81 @@ x = class extends (a ? null : yield) { }
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 17
+                            },
+                            "expression": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 197,
+                                    "shortCircuit": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    "questionToken": {
+                                        "kind": 134217750,
+                                        "flags": 64,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "consequent": {
+                                        "kind": 269,
+                                        "text": null,
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 27
+                                    },
+                                    "colonToken": {
+                                        "kind": 21,
+                                        "flags": 0,
+                                        "start": 27,
+                                        "end": 29
+                                    },
+                                    "alternate": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 29,
+                                        "end": 35
+                                    },
+                                    "flags": 32,
+                                    "start": 17,
+                                    "end": 35
+                                },
+                                "flags": 32,
+                                "start": 17,
+                                "end": 36
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 17,
+                            "end": 36
+                        },
                         "elements": [],
                         "flags": 32,
-                        "start": 3,
-                        "end": 3
+                        "start": 9,
+                        "end": 40
                     },
                     "flags": 32,
                     "start": 3,
-                    "end": 9
+                    "end": 40
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 9
+                "end": 40
             },
             "flags": 16,
             "start": 0,
-            "end": 9
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 197,
-                    "shortCircuit": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 19,
-                        "end": 20
-                    },
-                    "questionToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 20,
-                        "end": 22
-                    },
-                    "consequent": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
-                        "start": 22,
-                        "end": 27
-                    },
-                    "colonToken": {
-                        "kind": 21,
-                        "flags": 0,
-                        "start": 27,
-                        "end": 29
-                    },
-                    "alternate": {
-                        "kind": 134299649,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 96,
-                        "start": 29,
-                        "end": 35
-                    },
-                    "flags": 32,
-                    "start": 17,
-                    "end": 35
-                },
-                "flags": 32,
-                "start": 17,
-                "end": 36
-            },
-            "flags": 16,
-            "start": 17,
-            "end": 36
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 38,
-                "end": 38
-            },
-            "flags": 16,
-            "start": 36,
             "end": 40
         }
     ],
@@ -148,13 +141,12 @@ x = class extends (a ? null : yield) { }
 
 ```javascript
 
+x = class   {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 9, end: 17
-✖ Expected a `;` - start: 36, end: 38
-
+✔ No errors
 ```
 

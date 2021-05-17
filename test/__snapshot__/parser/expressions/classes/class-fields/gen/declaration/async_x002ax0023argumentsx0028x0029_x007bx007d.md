@@ -104,7 +104,7 @@ class C { async *#arguments() {} }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 34
             },
             "flags": 16,

@@ -137,7 +137,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 10,
+                "start": 8,
                 "end": 35
             },
             "flags": 16,
@@ -244,7 +244,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 46,
+                "start": 44,
                 "end": 68
             },
             "flags": 16,
@@ -351,7 +351,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 79,
+                "start": 77,
                 "end": 102
             },
             "flags": 16,
@@ -472,7 +472,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 127,
+                "start": 125,
                 "end": 153
             },
             "flags": 16,
@@ -593,7 +593,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 178,
+                "start": 176,
                 "end": 199
             },
             "flags": 16,
@@ -716,7 +716,7 @@ class C { get name(private) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 224,
+                "start": 222,
                 "end": 237
             },
             "flags": 16,
@@ -846,7 +846,7 @@ class C { get name(private) {} }
                             }
                         ],
                         "flags": 32,
-                        "start": 267,
+                        "start": 265,
                         "end": 290
                     },
                     "flags": 32,
@@ -971,7 +971,7 @@ class C { get name(private) {} }
                             }
                         ],
                         "flags": 32,
-                        "start": 315,
+                        "start": 313,
                         "end": 337
                     },
                     "flags": 32,

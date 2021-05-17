@@ -626,7 +626,7 @@ x((y ?? z) ?? 1);
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 117,
+                                    "start": 115,
                                     "end": 118
                                 },
                                 "flags": 32,

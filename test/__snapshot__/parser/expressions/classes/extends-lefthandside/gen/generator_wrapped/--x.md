@@ -80,69 +80,62 @@ function *P(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 32
+                                    },
+                                    "expression": {
+                                        "kind": 128,
+                                        "operandToken": {
+                                            "kind": 196636,
+                                            "flags": 64,
+                                            "start": 32,
+                                            "end": 35
+                                        },
+                                        "operand": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 35,
+                                            "end": 36
+                                        },
+                                        "flags": 32,
+                                        "start": 32,
+                                        "end": 36
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 32,
+                                    "end": 36
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 14,
-                                "end": 14
+                                "start": 24,
+                                "end": 39
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 24
+                            "end": 39
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 24
+                    "end": 39
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 24
+                "end": 41
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 128,
-                "operandToken": {
-                    "kind": 196636,
-                    "flags": 64,
-                    "start": 32,
-                    "end": 35
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 35,
-                    "end": 36
-                },
-                "flags": 32,
-                "start": 32,
-                "end": 36
-            },
-            "flags": 16,
-            "start": 32,
-            "end": 36
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 38,
-                "end": 38
-            },
-            "flags": 16,
-            "start": 36,
-            "end": 39
+            "end": 41
         }
     ],
     "isModule": false,
@@ -163,9 +156,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
 ✖ Expected a `;` - start: 36, end: 38
-✖ Declaration or statement expected - start: 39, end: 41
 
 ```
 

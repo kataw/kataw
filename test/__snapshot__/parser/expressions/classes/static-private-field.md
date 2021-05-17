@@ -75,7 +75,7 @@ class A {
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 30
             },
             "flags": 16,
@@ -145,7 +145,7 @@ class A {
                     }
                 ],
                 "flags": 32,
-                "start": 43,
+                "start": 41,
                 "end": 68
             },
             "flags": 16,

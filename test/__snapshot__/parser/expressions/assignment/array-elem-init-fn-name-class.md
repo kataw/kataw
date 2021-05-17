@@ -79,7 +79,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "classHeritage": null,
                                             "elements": [],
                                             "flags": 32,
-                                            "start": 27,
+                                            "start": 25,
                                             "end": 28
                                         },
                                         "flags": 32,
@@ -122,7 +122,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "classHeritage": null,
                                             "elements": [],
                                             "flags": 32,
-                                            "start": 43,
+                                            "start": 41,
                                             "end": 44
                                         },
                                         "flags": 32,
@@ -222,7 +222,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 }
                                             ],
                                             "flags": 32,
-                                            "start": 61,
+                                            "start": 59,
                                             "end": 80
                                         },
                                         "flags": 32,

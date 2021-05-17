@@ -176,7 +176,7 @@ declare class X {
                     }
                 ],
                 "flags": 32,
-                "start": 17,
+                "start": 15,
                 "end": 65
             },
             "flags": 16,

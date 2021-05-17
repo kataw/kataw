@@ -40,38 +40,35 @@ class C extends Base { await; }
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 15,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 20
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "Base",
+                        "rawText": "Base",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 20
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 20
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
                             "kind": 134299649,
                             "text": "await",
                             "rawText": "await",
@@ -79,17 +76,26 @@ class C extends Base { await; }
                             "start": 22,
                             "end": 28
                         },
-                        "flags": 16,
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": null,
+                        "flags": 32,
                         "start": 22,
+                        "end": 28
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 96,
+                        "start": 28,
                         "end": 29
                     }
                 ],
-                "flags": 16,
-                "start": 22,
-                "end": 29
+                "flags": 32,
+                "start": 7,
+                "end": 31
             },
             "flags": 16,
-            "start": 20,
+            "start": 0,
             "end": 31
         }
     ],
@@ -106,13 +112,15 @@ class C extends Base { await; }
 
 ```javascript
 
+class C  {
+  await;
+
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 20, end: 22
-
+✔ No errors
 ```
 

@@ -98,7 +98,7 @@ class x { \u0063onstructor(){} }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 32
             },
             "flags": 16,

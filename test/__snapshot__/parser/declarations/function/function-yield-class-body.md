@@ -100,7 +100,7 @@ function* bar() { yield class {} }
                                         "classHeritage": null,
                                         "elements": [],
                                         "flags": 32,
-                                        "start": 31,
+                                        "start": 29,
                                         "end": 32
                                     },
                                     "flags": 32,

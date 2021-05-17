@@ -186,7 +186,7 @@ class C { constructor() { class C { method() { super(); } } } }
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 35,
+                                                "start": 33,
                                                 "end": 59
                                             },
                                             "flags": 16,
@@ -212,7 +212,7 @@ class C { constructor() { class C { method() { super(); } } } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 63
             },
             "flags": 16,

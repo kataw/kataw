@@ -106,7 +106,7 @@ do do do class x {} while while while
                             "classHeritage": null,
                             "elements": [],
                             "flags": 32,
-                            "start": 18,
+                            "start": 16,
                             "end": 19
                         },
                         "flags": 16,

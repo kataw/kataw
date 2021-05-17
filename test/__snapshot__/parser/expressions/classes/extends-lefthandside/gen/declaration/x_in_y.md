@@ -40,26 +40,45 @@ class A extends x in y {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 17
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 17
             },
             "flags": 16,
             "start": 0,
-            "end": 7
+            "end": 17
         },
         {
             "kind": 120,
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 15,
+                    "kind": 16637,
+                    "text": "",
+                    "flags": 64,
+                    "start": 17,
                     "end": 17
                 },
                 "operatorToken": {
@@ -77,11 +96,11 @@ class A extends x in y {}
                     "end": 22
                 },
                 "flags": 32,
-                "start": 15,
+                "start": 17,
                 "end": 22
             },
             "flags": 16,
-            "start": 15,
+            "start": 17,
             "end": 22
         },
         {
@@ -116,7 +135,7 @@ class A extends x in y {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
+✖ Expression expected - start: 17, end: 20
 ✖ Expected a `;` - start: 22, end: 24
 
 ```

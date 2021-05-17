@@ -95,7 +95,7 @@ class x {interface(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 23
             },
             "flags": 16,

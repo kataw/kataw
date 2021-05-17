@@ -101,7 +101,7 @@ class C { [super.bbb] = 0 };
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 27
             },
             "flags": 16,
@@ -201,7 +201,7 @@ class C { [super.bbb] = 0 };
                     }
                 ],
                 "flags": 32,
-                "start": 39,
+                "start": 37,
                 "end": 63
             },
             "flags": 16,
@@ -317,7 +317,7 @@ class C { [super.bbb] = 0 };
                     }
                 ],
                 "flags": 32,
-                "start": 75,
+                "start": 73,
                 "end": 105
             },
             "flags": 16,
@@ -407,7 +407,7 @@ class C { [super.bbb] = 0 };
                     }
                 ],
                 "flags": 32,
-                "start": 117,
+                "start": 115,
                 "end": 135
             },
             "flags": 16,

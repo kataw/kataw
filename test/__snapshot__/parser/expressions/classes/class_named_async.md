@@ -45,7 +45,7 @@ class async {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 13,
+                "start": 11,
                 "end": 14
             },
             "flags": 16,

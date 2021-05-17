@@ -104,7 +104,7 @@ class X {    async constructor() {}   }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 39
             },
             "flags": 16,

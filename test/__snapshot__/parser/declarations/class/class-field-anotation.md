@@ -124,7 +124,7 @@ class Foo { prop1:string; prop2:number; }
                     }
                 ],
                 "flags": 32,
-                "start": 11,
+                "start": 9,
                 "end": 41
             },
             "flags": 16,

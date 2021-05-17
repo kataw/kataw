@@ -40,54 +40,47 @@ class A extends new x {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 210,
+                        "newKeyword": {
+                            "kind": 138477661,
+                            "flags": 0,
+                            "start": 15,
+                            "end": 19
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 19,
+                            "end": 21
+                        },
+                        "argumentList": null,
+                        "flags": 32,
+                        "start": 15,
+                        "end": 21
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 21
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 24
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 210,
-                "newKeyword": {
-                    "kind": 138477661,
-                    "flags": 0,
-                    "start": 15,
-                    "end": 19
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 19,
-                    "end": 21
-                },
-                "argumentList": null,
-                "flags": 32,
-                "start": 15,
-                "end": 21
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 21
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 23,
-                "end": 23
-            },
-            "flags": 16,
-            "start": 21,
             "end": 24
         }
     ],
@@ -104,13 +97,12 @@ class A extends new x {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 21, end: 23
-
+✔ No errors
 ```
 

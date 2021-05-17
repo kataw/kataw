@@ -95,7 +95,7 @@ class x {get(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 17
             },
             "flags": 16,

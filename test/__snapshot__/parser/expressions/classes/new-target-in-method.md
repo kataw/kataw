@@ -134,7 +134,7 @@ class A {a(x=new.target){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 27
             },
             "flags": 16,

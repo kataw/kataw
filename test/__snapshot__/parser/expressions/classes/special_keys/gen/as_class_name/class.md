@@ -42,8 +42,8 @@ class class {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 5,
+                "end": 5
             },
             "flags": 16,
             "start": 0,
@@ -66,7 +66,7 @@ class class {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 13,
+                "start": 11,
                 "end": 14
             },
             "flags": 16,

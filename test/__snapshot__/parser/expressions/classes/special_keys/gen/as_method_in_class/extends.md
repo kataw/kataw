@@ -40,45 +40,67 @@ class x {extends(){}}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": {
-                    "kind": 279,
-                    "extendsKeyword": {
-                        "kind": 4194391,
+                "classHeritage": null,
+                "elements": [
+                    {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
+                                "kind": 134299649,
+                                "text": "extends",
+                                "rawText": "extends",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 16
+                            },
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 17,
+                                "end": 18
+                            },
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 19,
+                                    "end": 19
+                                },
+                                "flags": 32,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "flags": 0,
+                            "start": 16,
+                            "end": 20
+                        },
                         "flags": 0,
                         "start": 9,
-                        "end": 16
-                    },
-                    "expression": {
-                        "kind": 271,
-                        "arrowToken": null,
-                        "typeParameters": null,
-                        "parameters": [],
-                        "asyncKeyword": null,
-                        "returnType": null,
-                        "contents": {
-                            "kind": 16637,
-                            "text": "",
-                            "flags": 64,
-                            "start": 19,
-                            "end": 19
-                        },
-                        "flags": 32,
-                        "start": 16,
-                        "end": 19
-                    },
-                    "typeParameter": null,
-                    "flags": 16,
-                    "start": 16,
-                    "end": 19
-                },
-                "elements": [],
+                        "end": 20
+                    }
+                ],
                 "flags": 32,
-                "start": 9,
-                "end": 20
+                "start": 7,
+                "end": 21
             },
             "flags": 16,
             "start": 0,
-            "end": 20
+            "end": 21
         }
     ],
     "isModule": false,
@@ -94,14 +116,14 @@ class x {extends(){}}
 
 ```javascript
 
+class x {
+  extends() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 18, end: 19
-✖ Expression expected - start: 19, end: 20
-✖ Declaration or statement expected - start: 20, end: 21
-
+✔ No errors
 ```
 

@@ -196,7 +196,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "start": 48,
+                                                        "start": 46,
                                                         "end": 83
                                                     },
                                                     "flags": 32,

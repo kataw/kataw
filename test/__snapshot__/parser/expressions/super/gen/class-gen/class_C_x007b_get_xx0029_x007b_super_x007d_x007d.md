@@ -128,7 +128,7 @@ class C { *method() { class C { get x) { super; } } } }
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 31,
+                                                "start": 29,
                                                 "end": 37
                                             },
                                             "flags": 16,
@@ -154,7 +154,7 @@ class C { *method() { class C { get x) { super; } } } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 37
             },
             "flags": 16,

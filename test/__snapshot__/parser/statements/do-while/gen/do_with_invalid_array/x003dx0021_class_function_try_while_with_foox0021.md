@@ -51,8 +51,8 @@ do while [catch] =! class function try while with foo!
                         "classHeritage": null,
                         "elements": [],
                         "flags": 32,
-                        "start": 19,
-                        "end": 19
+                        "start": 25,
+                        "end": 25
                     },
                     "flags": 32,
                     "start": 19,

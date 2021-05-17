@@ -73,57 +73,50 @@ function not_gen() { class C extends yield { } }}
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 28,
+                                        "end": 36
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 36,
+                                        "end": 42
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 36,
+                                    "end": 42
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 20,
-                                "end": 20
+                                "start": 28,
+                                "end": 46
                             },
                             "flags": 16,
                             "start": 20,
-                            "end": 28
+                            "end": 46
                         }
                     ],
                     "flags": 32,
                     "start": 20,
-                    "end": 28
+                    "end": 46
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 28
+                "end": 48
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 16,
             "start": 0,
-            "end": 28
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "yield",
-                "rawText": "yield",
-                "flags": 96,
-                "start": 36,
-                "end": 42
-            },
-            "flags": 16,
-            "start": 36,
-            "end": 42
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 44,
-                "end": 44
-            },
-            "flags": 16,
-            "start": 42,
-            "end": 46
+            "end": 48
         }
     ],
     "isModule": false,
@@ -144,9 +137,7 @@ function not_gen() { class C extends yield { } }}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 28, end: 36
-✖ Expected a `;` - start: 42, end: 44
-✖ Declaration or statement expected - start: 46, end: 48
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 36, end: 42
 ✖ Declaration or statement expected - start: 48, end: 49
 
 ```

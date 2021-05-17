@@ -135,7 +135,7 @@ class x{[yield](a){}}
                     }
                 ],
                 "flags": 32,
-                "start": 8,
+                "start": 7,
                 "end": 21
             },
             "flags": 16,

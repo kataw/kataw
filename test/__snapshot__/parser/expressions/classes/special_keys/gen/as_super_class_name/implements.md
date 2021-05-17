@@ -40,41 +40,34 @@ class x extends implements {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "implements",
+                        "rawText": "implements",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 26
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 26
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "implements",
-                "rawText": "implements",
-                "flags": 96,
-                "start": 15,
-                "end": 26
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 26
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 28,
-                "end": 28
-            },
-            "flags": 16,
-            "start": 26,
             "end": 29
         }
     ],
@@ -96,8 +89,7 @@ class x extends implements {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 26, end: 28
+✖ Identifier expected. Reserved word in strict mode - start: 15, end: 26
 
 ```
 

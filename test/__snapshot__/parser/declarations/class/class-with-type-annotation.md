@@ -140,7 +140,7 @@ class Foo { bar():this { return this; }}
                     }
                 ],
                 "flags": 32,
-                "start": 11,
+                "start": 9,
                 "end": 40
             },
             "flags": 16,

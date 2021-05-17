@@ -332,7 +332,7 @@ class A {
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 126,
+                "start": 124,
                 "end": 126
             },
             "flags": 16,
@@ -378,8 +378,8 @@ class A {
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 126,
-                "end": 126
+                "start": 145,
+                "end": 145
             },
             "flags": 16,
             "start": 126,

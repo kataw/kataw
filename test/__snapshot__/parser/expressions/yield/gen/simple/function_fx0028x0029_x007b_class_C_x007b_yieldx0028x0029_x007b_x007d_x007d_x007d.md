@@ -128,7 +128,7 @@ function f() { class C { yield() { } } }
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 24,
+                                "start": 22,
                                 "end": 38
                             },
                             "flags": 16,

@@ -212,7 +212,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 41
             },
             "flags": 16,

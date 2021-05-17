@@ -6901,10 +6901,7 @@ function parseClassDeclaration(
 
   const typeParameters = parseTypeParameters(parser, context);
 
-  const classTail = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true)
-    : // Empty list
-      createClassTail(null, [], pos, pos);
+  const classTail = parseClassTail(parser, context | Context.InClassBody, declareKeyword ? true : false, true);
 
   parser.assignable = false;
 
@@ -6948,10 +6945,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
 
   const typeParameters = parseTypeParameters(parser, context);
 
-  const classTail = consume(parser, context, SyntaxKind.LeftBrace)
-    ? parseClassTail(parser, context | Context.InClassBody, false, true)
-    : // Empty list
-      createClassTail(null, [], pos, pos);
+  const classTail = parseClassTail(parser, context | Context.InClassBody, false, true);
 
   parser.assignable = false;
 
@@ -6992,32 +6986,32 @@ function parseClassTail(parser: ParserState, context: Context, isDeclared: boole
     inheritedContext = (inheritedContext | Context.SuperCall) ^ Context.SuperCall;
   }
 
-  // ClassTail[Yield,Await] : (Modified) See 14.5
-  //      ClassHeritage[?Yield,?Await]opt { ClassBody[?Yield,?Await]opt }
-  while (parser.token & 0b01000100110000000100000000000000) {
-    const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
+  if (consume(parser, context, SyntaxKind.LeftBrace)) {
+    while (parser.token & 0b01000100110000000100000000000000) {
+      const element = parseClassElement(parser, context, inheritedContext, null, isDeclared, null, null, NodeFlags.None);
 
-    if (element.flags & NodeFlags.Constructor) {
-      if (hasConstructor) {
-        parser.onError(
-          DiagnosticSource.Parser,
-          DiagnosticKind.Error,
-          diagnosticMap[DiagnosticCode.Multiple_constructor_implementations_are_not_allowed],
-          parser.curPos,
-          parser.pos
-        );
+      if (element.flags & NodeFlags.Constructor) {
+        if (hasConstructor) {
+          parser.onError(
+            DiagnosticSource.Parser,
+            DiagnosticKind.Error,
+            diagnosticMap[DiagnosticCode.Multiple_constructor_implementations_are_not_allowed],
+            parser.curPos,
+            parser.pos
+          );
+        }
+        hasConstructor = true;
       }
-      hasConstructor = true;
+
+      elements.push(element);
+
+      if (parser.token === SyntaxKind.RightBrace) break;
     }
 
-    elements.push(element);
-
-    if (parser.token === SyntaxKind.RightBrace) break;
+    if (isDecl) context | Context.AllowRegExp;
+    parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
   }
 
-  if (isDecl) context | Context.AllowRegExp;
-
-  parseExpectedMatchingBracket(parser, context, SyntaxKind.RightBrace);
   return createClassTail(classHeritage, elements, pos, parser.curPos);
 }
 

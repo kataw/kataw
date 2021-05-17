@@ -189,7 +189,7 @@ var await; var f = (async function() { class x {await(){}} });
                                                         }
                                                     ],
                                                     "flags": 32,
-                                                    "start": 48,
+                                                    "start": 46,
                                                     "end": 58
                                                 },
                                                 "flags": 16,

@@ -36,119 +36,117 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 6,
+                                "end": 14
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "Base",
+                                "rawText": "Base",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 14,
+                            "end": 19
+                        },
+                        "elements": [
+                            {
+                                "kind": 278,
+                                "declareToken": null,
+                                "decorators": null,
+                                "generatorToken": null,
+                                "staticKeyword": null,
+                                "asyncKeyword": null,
+                                "setKeyword": null,
+                                "getKeyword": {
+                                    "kind": 16499,
+                                    "flags": 64,
+                                    "start": 21,
+                                    "end": 25
+                                },
+                                "method": {
+                                    "kind": 209,
+                                    "name": {
+                                        "kind": 67174651,
+                                        "text": "#await",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 32
+                                    },
+                                    "typeParameters": null,
+                                    "formalParameters": {
+                                        "kind": 214,
+                                        "formalParameterList": [
+                                            {
+                                                "kind": 215,
+                                                "ellipsisToken": null,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "test",
+                                                    "rawText": "test",
+                                                    "flags": 96,
+                                                    "start": 33,
+                                                    "end": 37
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 32,
+                                                "start": 33,
+                                                "end": 37
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 544,
+                                        "start": 33,
+                                        "end": 38
+                                    },
+                                    "type": null,
+                                    "contents": {
+                                        "kind": 216,
+                                        "functionStatementList": {
+                                            "kind": 217,
+                                            "directives": [],
+                                            "statements": [],
+                                            "flags": 32,
+                                            "start": 40,
+                                            "end": 40
+                                        },
+                                        "flags": 32,
+                                        "start": 38,
+                                        "end": 41
+                                    },
+                                    "flags": 512,
+                                    "start": 32,
+                                    "end": 41
+                                },
+                                "flags": 512,
+                                "start": 21,
+                                "end": 41
+                            }
+                        ],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 6,
+                        "end": 43
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 6
+                    "end": 43
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 6
+                "end": 44
             },
             "flags": 16,
             "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 14,
-                "end": 19
-            },
-            "flags": 16,
-            "start": 14,
-            "end": 19
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "set",
-                            "rawText": "set",
-                            "flags": 96,
-                            "start": 21,
-                            "end": 25
-                        },
-                        "flags": 16,
-                        "start": 21,
-                        "end": 25
-                    },
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 131,
-                            "expression": {
-                                "kind": 67174651,
-                                "text": "#await",
-                                "flags": 96,
-                                "start": 25,
-                                "end": 32
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "test",
-                                        "rawText": "test",
-                                        "flags": 96,
-                                        "start": 33,
-                                        "end": 37
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 33,
-                                "end": 37
-                            },
-                            "flags": 268435488,
-                            "start": 25,
-                            "end": 38
-                        },
-                        "flags": 16,
-                        "start": 25,
-                        "end": 38
-                    },
-                    {
-                        "kind": 249,
-                        "block": {
-                            "kind": 124,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 40,
-                            "end": 40
-                        },
-                        "flags": 16,
-                        "start": 38,
-                        "end": 41
-                    }
-                ],
-                "flags": 16,
-                "start": 21,
-                "end": 41
-            },
-            "flags": 16,
-            "start": 19,
-            "end": 43
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 44,
             "end": 45
         }
     ],
@@ -165,17 +163,14 @@
 
 ```javascript
 
+(class   {
+    set #await(test) {}
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 6, end: 14
-✖ Expected a `;` - start: 19, end: 21
-✖ Expected a `;` - start: 25, end: 32
-✖ Private identifiers are not allowed outside class_bodies - start: 25, end: 32
-✖ Expected a `;` - start: 38, end: 40
-✖ Declaration or statement expected - start: 43, end: 44
-
+✔ No errors
 ```
 

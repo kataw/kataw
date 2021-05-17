@@ -40,63 +40,52 @@ class x extends import {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 206,
+                            "importKeyword": {
+                                "kind": 37814364,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 22
+                            },
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "flags": 64,
+                                "start": 24,
+                                "end": 24
+                            },
+                            "flags": 32,
+                            "start": 22,
+                            "end": 24
+                        },
+                        "flags": 16,
+                        "start": 22,
+                        "end": 24
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 24
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 24
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 263,
-            "importKeyword": {
-                "kind": 37814364,
-                "flags": 0,
-                "start": 15,
-                "end": 22
-            },
-            "fromClause": {
-                "kind": 256,
-                "fromKeyword": null,
-                "from": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 25,
-                    "end": 25
-                },
-                "flags": 0,
-                "start": 25,
-                "end": 25
-            },
-            "moduleSpecifier": null,
-            "importClause": {
-                "kind": 262,
-                "defaultBinding": null,
-                "nameSpaceImport": null,
-                "namedImports": {
-                    "kind": 267,
-                    "importsList": {
-                        "kind": 265,
-                        "specifiers": [],
-                        "flags": 0,
-                        "start": 24,
-                        "end": 24
-                    },
-                    "flags": 16,
-                    "start": 22,
-                    "end": 25
-                },
-                "flags": 16,
-                "start": 22,
-                "end": 25
-            },
-            "flags": 16,
-            "start": 22,
-            "end": 25
+            "end": 24
         }
     ],
     "isModule": false,
@@ -117,9 +106,7 @@ class x extends import {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expression expected - start: 25, end: 25
-✖ The `import` keyword can only be used with the module goal - start: 25, end: 25
+✖ Expression expected - start: 24, end: 25
 
 ```
 

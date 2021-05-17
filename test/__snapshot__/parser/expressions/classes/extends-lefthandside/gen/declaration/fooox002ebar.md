@@ -40,55 +40,48 @@ class A extends fooo.bar {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 129,
+                        "member": {
+                            "kind": 134299649,
+                            "text": "fooo",
+                            "rawText": "fooo",
+                            "flags": 96,
+                            "start": 15,
+                            "end": 20
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 24
+                        },
+                        "flags": 536870944,
+                        "start": 15,
+                        "end": 24
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 24
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 27
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 134299649,
-                    "text": "fooo",
-                    "rawText": "fooo",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 20
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 24
-                },
-                "flags": 536870944,
-                "start": 15,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 24
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 26,
-                "end": 26
-            },
-            "flags": 16,
-            "start": 24,
             "end": 27
         }
     ],
@@ -105,13 +98,12 @@ class A extends fooo.bar {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 24, end: 26
-
+✔ No errors
 ```
 

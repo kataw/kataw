@@ -148,7 +148,7 @@ class x{ constructor(){} 9(){} }
                     }
                 ],
                 "flags": 32,
-                "start": 8,
+                "start": 7,
                 "end": 32
             },
             "flags": 16,

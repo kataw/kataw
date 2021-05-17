@@ -64,7 +64,7 @@ do class x {} while
                     "classHeritage": null,
                     "elements": [],
                     "flags": 32,
-                    "start": 12,
+                    "start": 10,
                     "end": 13
                 },
                 "flags": 16,

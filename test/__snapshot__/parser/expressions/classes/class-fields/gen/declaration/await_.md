@@ -71,7 +71,7 @@ class C { await; }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 18
             },
             "flags": 16,

@@ -80,67 +80,60 @@ function *P(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 32
+                                    },
+                                    "expression": {
+                                        "kind": 211,
+                                        "newKeyword": {
+                                            "kind": 138477661,
+                                            "flags": 0,
+                                            "start": 32,
+                                            "end": 36
+                                        },
+                                        "targetIdentifier": {
+                                            "kind": 16594,
+                                            "flags": 0,
+                                            "start": 37,
+                                            "end": 43
+                                        },
+                                        "flags": 96,
+                                        "start": 32,
+                                        "end": 43
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 32,
+                                    "end": 43
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 14,
-                                "end": 14
+                                "start": 24,
+                                "end": 46
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 24
+                            "end": 46
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 24
+                    "end": 46
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 24
+                "end": 48
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 211,
-                "newKeyword": {
-                    "kind": 138477661,
-                    "flags": 0,
-                    "start": 32,
-                    "end": 36
-                },
-                "targetIdentifier": {
-                    "kind": 16594,
-                    "flags": 0,
-                    "start": 37,
-                    "end": 43
-                },
-                "flags": 96,
-                "start": 32,
-                "end": 43
-            },
-            "flags": 16,
-            "start": 32,
-            "end": 43
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 45,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 43,
-            "end": 46
+            "end": 48
         }
     ],
     "isModule": false,
@@ -156,15 +149,14 @@ function *P(){
 
 ```javascript
 
+function * P() {
+  class D  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
-✖ 'new.target' only allowed within functions - start: 43, end: 45
-✖ Expected a `;` - start: 43, end: 45
-✖ Declaration or statement expected - start: 46, end: 48
-
+✔ No errors
 ```
 

@@ -40,69 +40,62 @@ class A extends async => ok {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 21,
+                            "end": 24
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 96,
+                            "start": 15,
+                            "end": 21
+                        },
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 21
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "ok",
+                            "rawText": "ok",
+                            "flags": 96,
+                            "start": 24,
+                            "end": 27
+                        },
+                        "flags": 32,
+                        "start": 15,
+                        "end": 27
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 27
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 30
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 21,
-                    "end": 24
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 21
-                },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 21
-                },
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "ok",
-                    "rawText": "ok",
-                    "flags": 96,
-                    "start": 24,
-                    "end": 27
-                },
-                "flags": 288,
-                "start": 15,
-                "end": 27
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 27
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 29,
-                "end": 29
-            },
-            "flags": 16,
-            "start": 27,
             "end": 30
         }
     ],
@@ -119,13 +112,12 @@ class A extends async => ok {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 27, end: 29
-
+✔ No errors
 ```
 

@@ -80,91 +80,84 @@ function *P(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 32
+                                    },
+                                    "expression": {
+                                        "kind": 271,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 0,
+                                            "start": 40,
+                                            "end": 43
+                                        },
+                                        "typeParameters": null,
+                                        "parameters": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 38,
+                                            "end": 40
+                                        },
+                                        "asyncKeyword": {
+                                            "kind": 82031,
+                                            "flags": 64,
+                                            "start": 32,
+                                            "end": 38
+                                        },
+                                        "returnType": null,
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 45,
+                                                "end": 45
+                                            },
+                                            "flags": 32,
+                                            "start": 43,
+                                            "end": 46
+                                        },
+                                        "flags": 288,
+                                        "start": 32,
+                                        "end": 46
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 32,
+                                    "end": 46
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 14,
-                                "end": 14
+                                "start": 24,
+                                "end": 49
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 24
+                            "end": 49
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 24
+                    "end": 49
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 24
+                "end": 51
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 40,
-                    "end": 43
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 96,
-                    "start": 38,
-                    "end": 40
-                },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 32,
-                    "end": 38
-                },
-                "returnType": null,
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 45,
-                        "end": 45
-                    },
-                    "flags": 32,
-                    "start": 43,
-                    "end": 46
-                },
-                "flags": 288,
-                "start": 32,
-                "end": 46
-            },
-            "flags": 16,
-            "start": 32,
-            "end": 46
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 48,
-                "end": 48
-            },
-            "flags": 16,
-            "start": 46,
-            "end": 49
+            "end": 51
         }
     ],
     "isModule": false,
@@ -185,9 +178,7 @@ function *P(){
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
-✖ Expected a `;` - start: 46, end: 48
-✖ Declaration or statement expected - start: 49, end: 51
+✖ Expected a `;` - start: 38, end: 40
 
 ```
 

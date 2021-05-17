@@ -59,7 +59,7 @@ class x{}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 8,
+                "start": 7,
                 "end": 9
             },
             "flags": 16,

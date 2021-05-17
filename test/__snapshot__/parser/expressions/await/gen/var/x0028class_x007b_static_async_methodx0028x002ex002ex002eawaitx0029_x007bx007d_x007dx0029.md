@@ -219,7 +219,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                 }
                                                             ],
                                                             "flags": 32,
-                                                            "start": 47,
+                                                            "start": 45,
                                                             "end": 82
                                                         },
                                                         "flags": 32,

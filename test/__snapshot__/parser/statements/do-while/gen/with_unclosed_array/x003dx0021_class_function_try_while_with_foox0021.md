@@ -83,8 +83,8 @@ do[ =! class function try while with foo!
                                 "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 6,
-                                "end": 6
+                                "start": 12,
+                                "end": 12
                             },
                             "flags": 32,
                             "start": 6,

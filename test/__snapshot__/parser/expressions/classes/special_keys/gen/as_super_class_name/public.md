@@ -40,41 +40,34 @@ class x extends public {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "public",
+                        "rawText": "public",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 22
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 22
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 25
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "public",
-                "rawText": "public",
-                "flags": 96,
-                "start": 15,
-                "end": 22
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 22
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 24,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 22,
             "end": 25
         }
     ],
@@ -96,8 +89,7 @@ class x extends public {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 22, end: 24
+✖ Identifier expected. Reserved word in strict mode - start: 15, end: 22
 
 ```
 

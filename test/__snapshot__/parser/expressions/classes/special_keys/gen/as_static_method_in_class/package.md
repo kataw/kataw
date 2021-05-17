@@ -100,7 +100,7 @@ class x {static package(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 28
             },
             "flags": 16,

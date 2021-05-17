@@ -132,7 +132,7 @@ class A {static a(x=new.target){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 34
             },
             "flags": 16,

@@ -77,7 +77,7 @@ class {
                     }
                 ],
                 "flags": 32,
-                "start": 7,
+                "start": 5,
                 "end": 38
             },
             "flags": 16,

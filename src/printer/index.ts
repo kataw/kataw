@@ -1022,27 +1022,22 @@ function printClassDeclarationOrExpression(node: any, printer: Printer): any {
     node.name ? printStatements(node.name, printer, node) : ''
   ];
 
-  const partsGroup: any = [];
-
-  if (node.classHeritage) {
-    parts.push(chain([' ', printStatements(node.classHeritage, printer, node)]));
-  }
-
-  if (partsGroup.length > 0) {
-    parts.push(group(indent(chain(partsGroup))));
-  }
-  //ifBreak(hardline),
   parts.push(printer.space, printClassTail(node.members, printer, node));
 
   return chain(parts);
 }
 
 function printClassTail(node: any, printer: Printer, parentNode: any): any {
+
   if (node.elements.length === 0) {
-    return '{}';
+    return chain([
+      node.classHeritage ? chain([' ', printStatements(node.classHeritage, printer, node)]) : '',
+      '{}'
+    ]);
   }
 
   return chain([
+    node.classHeritage ? chain([' ', printStatements(node.classHeritage, printer, node)]) : '',
     '{',
     indent(chain([hardline, printList(node.elements, printer, parentNode, printStatements)])),
     hardline,

@@ -43,7 +43,7 @@ class protected {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 17,
+                "start": 15,
                 "end": 18
             },
             "flags": 16,

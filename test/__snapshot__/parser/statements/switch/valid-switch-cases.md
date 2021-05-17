@@ -4147,7 +4147,7 @@ switch (answer) { case 0: let a; };
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1511,
+                                    "start": 1509,
                                     "end": 1513
                                 },
                                 "flags": 16,
@@ -4354,7 +4354,7 @@ switch (answer) { case 0: let a; };
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1605,
+                                    "start": 1603,
                                     "end": 1606
                                 },
                                 "flags": 16,
@@ -4468,7 +4468,7 @@ switch (answer) { case 0: let a; };
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1660,
+                                    "start": 1658,
                                     "end": 1661
                                 },
                                 "flags": 16,
@@ -4632,56 +4632,49 @@ switch (answer) { case 0: let a; };
                                 "typeParameters": null,
                                 "members": {
                                     "kind": 277,
-                                    "classHeritage": null,
+                                    "classHeritage": {
+                                        "kind": 279,
+                                        "extendsKeyword": {
+                                            "kind": 4194391,
+                                            "flags": 0,
+                                            "start": 1730,
+                                            "end": 1738
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "Q",
+                                            "rawText": "Q",
+                                            "flags": 96,
+                                            "start": 1738,
+                                            "end": 1740
+                                        },
+                                        "typeParameter": null,
+                                        "flags": 16,
+                                        "start": 1738,
+                                        "end": 1740
+                                    },
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1723,
-                                    "end": 1723
+                                    "start": 1730,
+                                    "end": 1743
                                 },
                                 "flags": 16,
                                 "start": 1723,
-                                "end": 1730
+                                "end": 1743
                             }
                         ],
                         "flags": 16,
                         "start": 1714,
-                        "end": 1730
+                        "end": 1743
                     }
                 ],
                 "flags": 16,
                 "start": 1704,
-                "end": 1730
+                "end": 1744
             },
             "flags": 16,
             "start": 1694,
-            "end": 1730
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Q",
-                "rawText": "Q",
-                "flags": 96,
-                "start": 1738,
-                "end": 1740
-            },
-            "flags": 16,
-            "start": 1738,
-            "end": 1740
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 1742,
-                "end": 1742
-            },
-            "flags": 16,
-            "start": 1740,
-            "end": 1743
+            "end": 1744
         },
         {
             "kind": 168,
@@ -4823,7 +4816,7 @@ switch (answer) { case 0: let a; };
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1814,
+                                    "start": 1812,
                                     "end": 1815
                                 },
                                 "flags": 16,
@@ -4937,7 +4930,7 @@ switch (answer) { case 0: let a; };
                                     "classHeritage": null,
                                     "elements": [],
                                     "flags": 32,
-                                    "start": 1869,
+                                    "start": 1867,
                                     "end": 1871
                                 },
                                 "flags": 16,
@@ -5251,14 +5244,233 @@ switch (answer) { case 0: let a; };
 
 ```javascript
 
+switch(x
+  case 194:
+    switch(y
+      default
+        1;
+
+  default
+    2;
+
+switch([/a/]
+  case y:
+    !x;
+
+switch(x
+  case y: {
+    x = b;
+  }
+
+switch(x
+  case y:
+    [a / b];
+
+switch(x
+  case 42:
+    y();
+    break;
+  default
+    break;
+
+switch(answer
+  case 42:
+    let t = 42;
+    break;
+
+switch(x
+  case y:
+    [a / b, c, (d)];
+
+switch(x
+  case y:
+    a;
+
+switch(x
+  case y:
+    x(foo);
+
+switch(x
+  case y:
+    foo = b;
+
+switch(x /
+  case y:
+    foo;
+
+switch(x /
+  case y:
+    foo;
+
+switch(x
+  case foo:
+    function * f() {}
+
+switch(x
+  case y:
+    (foo);
+
+switch(x
+  case y:
+    (foo, bar);
+
+switch(x
+  case y:
+    (foo) = (foo) /* comment */ - b;
+
+switch(x
+  case y:
+    foo;
+  // comment;
+
+// should be ignored - switch(x) { case y: foo };
+switch(x / a
+  case y:
+    foo;
+
+switch(a + b
+  case y:
+    foo;
+
+switch(x
+  case y:
+    /a/;
+
+switch(x
+  case y: {
+    x;
+  }
+
+switch(x
+  case y:
+    x = { ...x };
+
+switch(x
+  case y:
+    foo / bar ? 1 : (x);
+
+switch(x
+  case y:
+    foo / bar ? 1 : (x) =>  {};
+
+switch(0
+  case 1:
+    async function f() {}
+  default
+    async function f() {}
+
+switch(x
+  case y:
+    foo ? 1 : (x) =>  {};
+
+switch({ x: y }
+  case y:
+    [...a];
+
+switch({ x: y }
+  case y:
+    [...a] = b;
+
+switch(x / b(c)
+  case y:
+    foo;
+
+switch(x
+  case c:
+    function f() {}
+    function f() {}
+
+switch(x
+  case c:
+    async function * f() {}
+    async function * f() {}
+
+switch(0
+  case 1:
+    var f;
+  default
+    var f;
+
+switch(0
+  case 1:
+    var f;
+  default
+    var f;
+
+switch(x
+  case x:
+    function * f() {}
+
+switch(x
+  case x:
+    function * f() {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class C {}
+
+switch(x
+
+/foo/;
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    function f() {}
+    class C {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class C {}
+    function f() {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class C  {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    function f() {}
+    class C {}
+
+"\"use strict\"";
+switch(x
+  case 1:
+
+  default
+    class C {}
+
+switch(a
+  case 1:
+
+
+switch(a
+  case b:
+    let [x] = y;
+
+switch(answer
+  case 0:
+    let a;
+
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 1730, end: 1738
-✖ Expected a `;` - start: 1740, end: 1742
-✖ Declaration or statement expected - start: 1743, end: 1744
-
+✔ No errors
 ```
 

@@ -162,7 +162,7 @@ class x { constructor(){ return () => () => super.foo; }}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 57
             },
             "flags": 16,

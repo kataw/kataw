@@ -105,7 +105,7 @@ class x {static * return(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 29
             },
             "flags": 16,

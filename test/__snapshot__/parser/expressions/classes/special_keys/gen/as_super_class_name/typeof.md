@@ -40,46 +40,52 @@ class x extends typeof {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 138477613,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 22
-                },
-                "operand": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [],
-                        "trailingComma": false,
-                        "flags": 16,
-                        "start": 24,
-                        "end": 24
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
                     },
-                    "flags": 48,
-                    "start": 22,
+                    "expression": {
+                        "kind": 126,
+                        "operandToken": {
+                            "kind": 138477613,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 22
+                        },
+                        "operand": {
+                            "kind": 220,
+                            "propertyList": {
+                                "kind": 218,
+                                "properties": [],
+                                "trailingComma": false,
+                                "flags": 16,
+                                "start": 24,
+                                "end": 24
+                            },
+                            "flags": 48,
+                            "start": 22,
+                            "end": 25
+                        },
+                        "flags": 32,
+                        "start": 15,
+                        "end": 25
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
                     "end": 25
                 },
+                "elements": [],
                 "flags": 32,
-                "start": 15,
+                "start": 7,
                 "end": 25
             },
             "flags": 16,
-            "start": 15,
+            "start": 0,
             "end": 25
         }
     ],
@@ -101,7 +107,7 @@ class x extends typeof {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
+✖ Expression expected - start: 22, end: 24
 
 ```
 

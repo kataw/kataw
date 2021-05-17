@@ -144,7 +144,7 @@ declare class A { static foo(): number; static x : string }
                     }
                 ],
                 "flags": 32,
-                "start": 17,
+                "start": 15,
                 "end": 59
             },
             "flags": 16,

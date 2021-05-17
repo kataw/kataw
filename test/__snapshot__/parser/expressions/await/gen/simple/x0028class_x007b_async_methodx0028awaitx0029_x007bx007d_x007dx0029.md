@@ -115,7 +115,7 @@
                             }
                         ],
                         "flags": 32,
-                        "start": 8,
+                        "start": 6,
                         "end": 33
                     },
                     "flags": 32,

@@ -43,64 +43,57 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 16
+                            },
+                            "expression": {
+                                "kind": 129,
+                                "member": {
+                                    "kind": 134299649,
+                                    "text": "fooo",
+                                    "rawText": "fooo",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 21
+                                },
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "bar",
+                                    "rawText": "bar",
+                                    "flags": 96,
+                                    "start": 22,
+                                    "end": 25
+                                },
+                                "flags": 536870944,
+                                "start": 16,
+                                "end": 25
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 16,
+                            "end": 25
+                        },
                         "elements": [],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 8,
+                        "end": 28
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 8
+                    "end": 28
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 8
+                "end": 29
             },
             "flags": 16,
             "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 134299649,
-                    "text": "fooo",
-                    "rawText": "fooo",
-                    "flags": 96,
-                    "start": 16,
-                    "end": 21
-                },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "bar",
-                    "rawText": "bar",
-                    "flags": 96,
-                    "start": 22,
-                    "end": 25
-                },
-                "flags": 536870944,
-                "start": 16,
-                "end": 25
-            },
-            "flags": 16,
-            "start": 16,
-            "end": 25
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 27,
-                "end": 27
-            },
-            "flags": 16,
-            "start": 25,
-            "end": 28
+            "end": 29
         }
     ],
     "isModule": false,
@@ -116,14 +109,12 @@
 
 ```javascript
 
+(class B  {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 8, end: 16
-✖ Expected a `;` - start: 25, end: 27
-✖ Declaration or statement expected - start: 28, end: 29
-
+✔ No errors
 ```
 

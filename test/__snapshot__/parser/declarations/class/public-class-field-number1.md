@@ -69,7 +69,7 @@ class C { 1e2 }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 15
             },
             "flags": 16,

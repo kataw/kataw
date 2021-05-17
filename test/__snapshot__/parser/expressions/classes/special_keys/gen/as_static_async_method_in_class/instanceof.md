@@ -105,7 +105,7 @@ class x {static async instanceof(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 37
             },
             "flags": 16,

@@ -110,7 +110,7 @@ class x {static async * protected(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 38
             },
             "flags": 16,

@@ -96,7 +96,7 @@ class A {static a(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 22
             },
             "flags": 16,

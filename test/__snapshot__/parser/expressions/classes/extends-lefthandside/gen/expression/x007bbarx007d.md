@@ -43,64 +43,58 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 16
+                            },
+                            "expression": {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "bar",
+                                            "rawText": "bar",
+                                            "flags": 96,
+                                            "start": 18,
+                                            "end": 21
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 18,
+                                    "end": 21
+                                },
+                                "flags": 48,
+                                "start": 16,
+                                "end": 22
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 16,
+                            "end": 22
+                        },
                         "elements": [],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 8,
+                        "end": 25
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 8
+                    "end": 25
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 8
+                "end": 26
             },
             "flags": 16,
             "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 18,
-                            "end": 21
-                        },
-                        "flags": 16,
-                        "start": 18,
-                        "end": 21
-                    }
-                ],
-                "flags": 16,
-                "start": 18,
-                "end": 21
-            },
-            "flags": 16,
-            "start": 16,
-            "end": 22
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 24,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 22,
-            "end": 25
+            "end": 26
         }
     ],
     "isModule": false,
@@ -116,13 +110,12 @@
 
 ```javascript
 
+(class B  {});
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 8, end: 16
-✖ Declaration or statement expected - start: 25, end: 26
-
+✔ No errors
 ```
 

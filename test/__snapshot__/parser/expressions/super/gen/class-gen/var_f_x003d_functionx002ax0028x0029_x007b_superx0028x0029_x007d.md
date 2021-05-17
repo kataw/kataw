@@ -215,7 +215,7 @@ class C { *method() { var f = function*() { super(); } } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 58
             },
             "flags": 16,

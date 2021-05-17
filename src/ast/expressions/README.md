@@ -257,8 +257,7 @@ interface ClassExpression <: ExpressionNode {
   decorators: DecoratorList | null;
   name: Identifier | null;
   typeParameters: TypeParameter | null;
-  classHeritage: ExpressionNode | null;
-  members: ClassElementList;
+  members: ClassTail;
 }
 ```
 
@@ -276,11 +275,12 @@ interface ClassHeritage <: ExpressionNode {
 ```
 
 
-### ClassElementList
+### ClassTail
 
 ```js
-interface ClassElementList <: ExpressionNode {
-  kind: NodeKind.ClassElementList;
+interface ClassTail <: ExpressionNode {
+  kind: NodeKind.ClassTail;
+  classHeritage: ExpressionNode | null;
   elements: [ClassElements]
 }
 ```

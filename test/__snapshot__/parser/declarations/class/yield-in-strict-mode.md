@@ -122,7 +122,7 @@ function* f() { class C { aaa = yield } }
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 25,
+                                "start": 23,
                                 "end": 39
                             },
                             "flags": 16,

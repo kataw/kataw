@@ -402,7 +402,7 @@ class Foo {
                     }
                 ],
                 "flags": 32,
-                "start": 11,
+                "start": 9,
                 "end": 121
             },
             "flags": 16,

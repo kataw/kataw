@@ -80,56 +80,49 @@ async function p(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 29,
+                                        "end": 37
+                                    },
+                                    "expression": {
+                                        "kind": 221,
+                                        "text": "/more crap/g",
+                                        "flags": 96,
+                                        "start": 37,
+                                        "end": 50
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 37,
+                                    "end": 50
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 19,
-                                "end": 19
+                                "start": 29,
+                                "end": 53
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 29
+                            "end": 53
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 29
+                    "end": 53
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 29
+                "end": 55
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 221,
-                "text": "/more crap/g",
-                "flags": 96,
-                "start": 37,
-                "end": 50
-            },
-            "flags": 16,
-            "start": 37,
-            "end": 50
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 52,
-                "end": 52
-            },
-            "flags": 16,
-            "start": 50,
-            "end": 53
+            "end": 55
         }
     ],
     "isModule": false,
@@ -145,14 +138,14 @@ async function p(){
 
 ```javascript
 
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
-✖ Expected a `;` - start: 50, end: 52
-✖ Declaration or statement expected - start: 53, end: 55
-
+✔ No errors
 ```
 

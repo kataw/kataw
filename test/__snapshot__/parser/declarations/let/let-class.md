@@ -68,7 +68,7 @@ let[{}=class{}]=null
                                                 "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 13,
+                                                "start": 12,
                                                 "end": 14
                                             },
                                             "flags": 32,

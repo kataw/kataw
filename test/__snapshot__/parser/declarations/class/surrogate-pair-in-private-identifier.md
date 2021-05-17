@@ -68,7 +68,7 @@ class C { #@{x29e3d}@ }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 11
             },
             "flags": 16,
@@ -100,8 +100,8 @@ class C { #@{x29e3d}@ }
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 19,
+                "end": 19
             },
             "flags": 16,
             "start": 11,
@@ -131,8 +131,8 @@ class C { #@{x29e3d}@ }
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 20,
-                "end": 20
+                "start": 23,
+                "end": 23
             },
             "flags": 16,
             "start": 20,

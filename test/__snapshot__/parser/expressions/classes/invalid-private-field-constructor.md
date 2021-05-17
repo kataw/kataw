@@ -62,7 +62,7 @@ class C { static #constructor }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 24
             },
             "flags": 16,
@@ -119,7 +119,7 @@ class C { static #constructor }
                     }
                 ],
                 "flags": 32,
-                "start": 35,
+                "start": 33,
                 "end": 57
             },
             "flags": 16,

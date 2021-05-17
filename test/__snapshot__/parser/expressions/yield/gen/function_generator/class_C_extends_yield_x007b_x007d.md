@@ -111,72 +111,65 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                             "typeParameters": null,
                                             "members": {
                                                 "kind": 277,
-                                                "classHeritage": null,
+                                                "classHeritage": {
+                                                    "kind": 279,
+                                                    "extendsKeyword": {
+                                                        "kind": 4194391,
+                                                        "flags": 0,
+                                                        "start": 47,
+                                                        "end": 55
+                                                    },
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "yield",
+                                                        "rawText": "yield",
+                                                        "flags": 96,
+                                                        "start": 55,
+                                                        "end": 61
+                                                    },
+                                                    "typeParameter": null,
+                                                    "flags": 16,
+                                                    "start": 55,
+                                                    "end": 61
+                                                },
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 39,
-                                                "end": 39
+                                                "start": 47,
+                                                "end": 65
                                             },
                                             "flags": 16,
                                             "start": 39,
-                                            "end": 47
+                                            "end": 65
                                         }
                                     ],
                                     "flags": 32,
                                     "start": 39,
-                                    "end": 47
+                                    "end": 65
                                 },
                                 "flags": 32,
                                 "start": 37,
-                                "end": 47
+                                "end": 67
                             },
                             "typeParameters": null,
                             "returnType": null,
                             "flags": 16,
                             "start": 18,
-                            "end": 47
+                            "end": 67
                         }
                     ],
                     "flags": 32,
                     "start": 18,
-                    "end": 47
+                    "end": 67
                 },
                 "flags": 32,
                 "start": 16,
-                "end": 47
+                "end": 68
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 47
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "yield",
-                "rawText": "yield",
-                "flags": 96,
-                "start": 55,
-                "end": 61
-            },
-            "flags": 16,
-            "start": 55,
-            "end": 61
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 63,
-                "end": 63
-            },
-            "flags": 16,
-            "start": 61,
-            "end": 65
+            "end": 68
         }
     ],
     "isModule": false,
@@ -197,10 +190,7 @@ function * gen() { function not_gen() { class C extends yield { } }}
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 47, end: 55
-✖ Expected a `;` - start: 61, end: 63
-✖ Declaration or statement expected - start: 65, end: 67
-✖ Declaration or statement expected - start: 67, end: 68
+✖ Identifier expected. 'yield' is a reserved word in strict mode - start: 55, end: 61
 
 ```
 

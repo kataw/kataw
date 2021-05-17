@@ -100,7 +100,7 @@ class x {async void(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 24
             },
             "flags": 16,

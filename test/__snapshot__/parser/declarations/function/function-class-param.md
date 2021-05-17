@@ -157,7 +157,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 25,
+                                "start": 23,
                                 "end": 44
                             },
                             "flags": 32,

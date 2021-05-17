@@ -191,7 +191,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 31,
+                                                "start": 29,
                                                 "end": 60
                                             },
                                             "flags": 16,
@@ -217,7 +217,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 64
             },
             "flags": 16,

@@ -60,8 +60,8 @@ left@{xa0}@right
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 4,
-                "end": 4
+                "start": 9,
+                "end": 9
             },
             "flags": 16,
             "start": 4,
@@ -106,8 +106,8 @@ left@{xa0}@right
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 16,
+                "end": 16
             },
             "flags": 16,
             "start": 10,

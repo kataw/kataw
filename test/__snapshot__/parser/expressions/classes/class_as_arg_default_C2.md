@@ -137,7 +137,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 21,
+                                                "start": 19,
                                                 "end": 40
                                             },
                                             "flags": 32,

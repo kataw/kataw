@@ -40,40 +40,33 @@ class A extends /more crap/g {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 221,
+                        "text": "/more crap/g",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 28
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 28
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 31
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 221,
-                "text": "/more crap/g",
-                "flags": 96,
-                "start": 15,
-                "end": 28
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 28
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 30,
-                "end": 30
-            },
-            "flags": 16,
-            "start": 28,
             "end": 31
         }
     ],
@@ -90,13 +83,12 @@ class A extends /more crap/g {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 28, end: 30
-
+✔ No errors
 ```
 

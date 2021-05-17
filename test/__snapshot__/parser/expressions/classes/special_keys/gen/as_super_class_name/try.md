@@ -40,15 +40,34 @@ class x extends try {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "flags": 64,
+                        "start": 15,
+                        "end": 15
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 15
             },
             "flags": 16,
             "start": 0,
-            "end": 7
+            "end": 15
         },
         {
             "kind": 159,
@@ -109,7 +128,7 @@ class x extends try {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
+✖ Expression expected - start: 15, end: 19
 
 ```
 

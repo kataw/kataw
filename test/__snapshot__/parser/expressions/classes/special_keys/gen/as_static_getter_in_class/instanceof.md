@@ -105,7 +105,7 @@ class x {static get instanceof(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 35
             },
             "flags": 16,

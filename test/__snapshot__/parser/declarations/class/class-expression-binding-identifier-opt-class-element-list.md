@@ -180,7 +180,7 @@ var A = class B {
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 17,
+                                "start": 15,
                                 "end": 58
                             },
                             "flags": 32,

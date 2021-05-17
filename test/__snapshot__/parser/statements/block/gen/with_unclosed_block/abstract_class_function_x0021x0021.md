@@ -137,8 +137,8 @@
                             "classHeritage": null,
                             "elements": [],
                             "flags": 32,
-                            "start": 26,
-                            "end": 26
+                            "start": 32,
+                            "end": 32
                         },
                         "flags": 16,
                         "start": 26,

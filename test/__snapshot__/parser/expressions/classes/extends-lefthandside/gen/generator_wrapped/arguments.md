@@ -80,57 +80,50 @@ function *P(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 32
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "arguments",
+                                        "rawText": "arguments",
+                                        "flags": 96,
+                                        "start": 32,
+                                        "end": 42
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 32,
+                                    "end": 42
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 14,
-                                "end": 14
+                                "start": 24,
+                                "end": 45
                             },
                             "flags": 16,
                             "start": 14,
-                            "end": 24
+                            "end": 45
                         }
                     ],
                     "flags": 33,
                     "start": 14,
-                    "end": 24
+                    "end": 45
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 24
+                "end": 47
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 272,
             "start": 0,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "arguments",
-                "rawText": "arguments",
-                "flags": 96,
-                "start": 32,
-                "end": 42
-            },
-            "flags": 16,
-            "start": 32,
-            "end": 42
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 44,
-                "end": 44
-            },
-            "flags": 16,
-            "start": 42,
-            "end": 45
+            "end": 47
         }
     ],
     "isModule": false,
@@ -146,14 +139,14 @@ function *P(){
 
 ```javascript
 
+function * P() {
+  class D  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 24, end: 32
-✖ Expected a `;` - start: 42, end: 44
-✖ Declaration or statement expected - start: 45, end: 47
-
+✔ No errors
 ```
 

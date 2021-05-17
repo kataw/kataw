@@ -56,7 +56,7 @@ type T2 = number;
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 18,
+                "start": 16,
                 "end": 19
             },
             "flags": 16,

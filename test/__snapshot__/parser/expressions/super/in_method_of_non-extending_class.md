@@ -176,7 +176,7 @@ class x { fo(){ return function() { super.foo; } }}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 51
             },
             "flags": 16,

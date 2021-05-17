@@ -110,7 +110,7 @@ class x {static async * this(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 33
             },
             "flags": 16,

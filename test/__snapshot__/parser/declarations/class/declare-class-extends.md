@@ -71,23 +71,15 @@ declare class A<T> extends B<T> { x: number }
             },
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 7,
-                "end": 7
-            },
-            "flags": 16,
-            "start": 7,
-            "end": 18
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 198,
-                    "left": {
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 18,
+                        "end": 26
+                    },
+                    "expression": {
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
@@ -95,74 +87,73 @@ declare class A<T> extends B<T> { x: number }
                         "start": 26,
                         "end": 28
                     },
-                    "operatorToken": {
-                        "kind": 536971330,
-                        "flags": 64,
-                        "start": 28,
-                        "end": 29
-                    },
-                    "right": {
-                        "kind": 134299649,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 96,
-                        "start": 29,
-                        "end": 30
-                    },
-                    "flags": 32,
-                    "start": 26,
-                    "end": 30
-                },
-                "operatorToken": {
-                    "kind": 34883,
-                    "flags": 64,
-                    "start": 30,
-                    "end": 31
-                },
-                "right": {
-                    "kind": 220,
-                    "propertyList": {
-                        "kind": 218,
-                        "properties": [
+                    "typeParameter": {
+                        "kind": 146,
+                        "types": [
                             {
-                                "kind": 219,
-                                "generatorToken": null,
-                                "left": {
+                                "kind": 144,
+                                "id": {
                                     "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
+                                    "text": "T",
+                                    "rawText": "T",
                                     "flags": 96,
-                                    "start": 33,
-                                    "end": 35
+                                    "start": 29,
+                                    "end": 30
                                 },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "number",
-                                    "rawText": "number",
-                                    "flags": 96,
-                                    "start": 36,
-                                    "end": 43
-                                },
-                                "flags": 32,
-                                "start": 33,
-                                "end": 43
+                                "typeParameters": null,
+                                "flags": 0,
+                                "start": 29,
+                                "end": 30
                             }
                         ],
-                        "trailingComma": false,
-                        "flags": 16,
+                        "flags": 0,
+                        "start": 28,
+                        "end": 31
+                    },
+                    "flags": 16,
+                    "start": 26,
+                    "end": 31
+                },
+                "elements": [
+                    {
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 33,
+                            "end": 35
+                        },
+                        "optionalToken": null,
+                        "type": {
+                            "kind": 139,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 43
+                            },
+                            "flags": 0,
+                            "start": 35,
+                            "end": 43
+                        },
+                        "initializer": null,
+                        "flags": 32,
                         "start": 33,
                         "end": 43
-                    },
-                    "flags": 48,
-                    "start": 31,
-                    "end": 45
-                },
+                    }
+                ],
                 "flags": 32,
-                "start": 26,
+                "start": 18,
                 "end": 45
             },
             "flags": 16,
-            "start": 26,
+            "start": 7,
             "end": 45
         }
     ],
@@ -179,12 +170,14 @@ declare class A<T> extends B<T> { x: number }
 
 ```javascript
 
+declare class A  {
+  x;
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 18, end: 26
-
+✔ No errors
 ```
 

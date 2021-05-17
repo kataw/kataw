@@ -67,7 +67,7 @@ class x { import {x} from "y"; }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 16
             },
             "flags": 16,

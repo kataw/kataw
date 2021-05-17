@@ -40,76 +40,69 @@ class C extends Base { await = 0; }
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 15,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 20
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "Base",
+                        "rawText": "Base",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 20
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 20
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 96,
-                                "start": 22,
-                                "end": 28
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 28,
-                                "end": 30
-                            },
-                            "right": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 30,
-                                "end": 32
-                            },
-                            "flags": 32,
+                        "kind": 280,
+                        "decorators": null,
+                        "declaredToken": null,
+                        "staticToken": null,
+                        "asyncKeyword": null,
+                        "key": {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
                             "start": 22,
+                            "end": 28
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "initializer": {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 30,
                             "end": 32
                         },
-                        "flags": 16,
+                        "flags": 32,
                         "start": 22,
+                        "end": 32
+                    },
+                    {
+                        "kind": 281,
+                        "flags": 96,
+                        "start": 32,
                         "end": 33
                     }
                 ],
-                "flags": 16,
-                "start": 22,
-                "end": 33
+                "flags": 32,
+                "start": 7,
+                "end": 35
             },
             "flags": 16,
-            "start": 20,
+            "start": 0,
             "end": 35
         }
     ],
@@ -126,13 +119,15 @@ class C extends Base { await = 0; }
 
 ```javascript
 
+class C  {
+  await = 0;
+
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 20, end: 22
-
+✔ No errors
 ```
 

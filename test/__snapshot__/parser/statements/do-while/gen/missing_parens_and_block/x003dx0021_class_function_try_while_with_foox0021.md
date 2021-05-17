@@ -76,8 +76,8 @@ do =! class function try while with foo! while
                                 "classHeritage": null,
                                 "elements": [],
                                 "flags": 32,
-                                "start": 5,
-                                "end": 5
+                                "start": 11,
+                                "end": 11
                             },
                             "flags": 32,
                             "start": 5,

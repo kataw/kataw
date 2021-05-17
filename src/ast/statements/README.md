@@ -327,7 +327,6 @@ interface ClassDeclaration <: Statements {
   classKeyword: SyntaxToken<TokenSyntaxKind>;
   name: Identifier | null;
   typeParameters: TypeParameter | null;
-  classHeritage: ExpressionNode | null;
   members: ClassElementList;
 }
 ```

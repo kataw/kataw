@@ -33,27 +33,40 @@ class extends {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 5,
+                        "end": 13
+                    },
+                    "expression": {
+                        "kind": 220,
+                        "propertyList": {
+                            "kind": 218,
+                            "properties": [],
+                            "trailingComma": false,
+                            "flags": 16,
+                            "start": 15,
+                            "end": 15
+                        },
+                        "flags": 48,
+                        "start": 13,
+                        "end": 16
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 13,
+                    "end": 16
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 5,
+                "end": 16
             },
             "flags": 16,
             "start": 0,
-            "end": 5
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 15,
-                "end": 15
-            },
-            "flags": 16,
-            "start": 13,
             "end": 16
         }
     ],
@@ -70,12 +83,12 @@ class extends {}
 
 ```javascript
 
+class   {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 5, end: 13
-
+✔ No errors
 ```
 

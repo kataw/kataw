@@ -44,40 +44,40 @@ class x extends y {
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 15,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 17
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 131,
-                            "expression": {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
@@ -85,131 +85,134 @@ class x extends y {
                                 "start": 19,
                                 "end": 33
                             },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [],
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2048,
                                 "start": 34,
-                                "end": 34
+                                "end": 35
                             },
-                            "flags": 268435488,
-                            "start": 19,
-                            "end": 35
-                        },
-                        "flags": 16,
-                        "start": 19,
-                        "end": 35
-                    },
-                    {
-                        "kind": 249,
-                        "block": {
-                            "kind": 124,
-                            "statements": [
-                                {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 121,
-                                        "expression": {
-                                            "kind": 125,
-                                            "left": {
-                                                "kind": 220,
-                                                "propertyList": {
-                                                    "kind": 218,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 219,
-                                                            "generatorToken": null,
-                                                            "left": {
-                                                                "kind": 201392131,
-                                                                "text": "foo",
-                                                                "rawText": "\"foo\"",
-                                                                "flags": 96,
-                                                                "start": 44,
-                                                                "end": 49
-                                                            },
-                                                            "right": {
-                                                                "kind": 536871042,
-                                                                "member": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
-                                                                        "flags": 0,
-                                                                        "start": 50,
-                                                                        "end": 56
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 121,
+                                                "expression": {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 220,
+                                                        "propertyList": {
+                                                            "kind": 218,
+                                                            "properties": [
+                                                                {
+                                                                    "kind": 219,
+                                                                    "generatorToken": null,
+                                                                    "left": {
+                                                                        "kind": 201392131,
+                                                                        "text": "foo",
+                                                                        "rawText": "\"foo\"",
+                                                                        "flags": 96,
+                                                                        "start": 44,
+                                                                        "end": 49
                                                                     },
-                                                                    "flags": 96,
-                                                                    "start": 50,
-                                                                    "end": 56
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "cool",
-                                                                    "rawText": "cool",
-                                                                    "flags": 96,
-                                                                    "start": 57,
-                                                                    "end": 61
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 44,
-                                                                "end": 62
-                                                            },
-                                                            "flags": 32,
+                                                                    "right": {
+                                                                        "kind": 536871042,
+                                                                        "member": {
+                                                                            "kind": 225,
+                                                                            "superKeyword": {
+                                                                                "kind": 4259935,
+                                                                                "flags": 0,
+                                                                                "start": 50,
+                                                                                "end": 56
+                                                                            },
+                                                                            "flags": 96,
+                                                                            "start": 50,
+                                                                            "end": 56
+                                                                        },
+                                                                        "expression": {
+                                                                            "kind": 134299649,
+                                                                            "text": "cool",
+                                                                            "rawText": "cool",
+                                                                            "flags": 96,
+                                                                            "start": 57,
+                                                                            "end": 61
+                                                                        },
+                                                                        "flags": 32,
+                                                                        "start": 44,
+                                                                        "end": 62
+                                                                    },
+                                                                    "flags": 32,
+                                                                    "start": 44,
+                                                                    "end": 62
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 16,
                                                             "start": 44,
                                                             "end": 62
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 16,
-                                                    "start": 44,
-                                                    "end": 62
+                                                        },
+                                                        "flags": 48,
+                                                        "start": 43,
+                                                        "end": 63
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 4125,
+                                                        "flags": 64,
+                                                        "start": 63,
+                                                        "end": 65
+                                                    },
+                                                    "right": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 65,
+                                                        "end": 67
+                                                    },
+                                                    "flags": 32,
+                                                    "start": 43,
+                                                    "end": 67
                                                 },
-                                                "flags": 48,
-                                                "start": 43,
-                                                "end": 63
+                                                "flags": 32,
+                                                "start": 37,
+                                                "end": 68
                                             },
-                                            "operatorToken": {
-                                                "kind": 4125,
-                                                "flags": 64,
-                                                "start": 63,
-                                                "end": 65
-                                            },
-                                            "right": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 65,
-                                                "end": 67
-                                            },
-                                            "flags": 32,
-                                            "start": 43,
-                                            "end": 67
-                                        },
-                                        "flags": 32,
-                                        "start": 37,
-                                        "end": 68
-                                    },
-                                    "flags": 16,
+                                            "flags": 16,
+                                            "start": 37,
+                                            "end": 68
+                                        }
+                                    ],
+                                    "flags": 33,
                                     "start": 37,
                                     "end": 68
-                                }
-                            ],
-                            "flags": 17,
-                            "start": 37,
-                            "end": 68
+                                },
+                                "flags": 32,
+                                "start": 35,
+                                "end": 72
+                            },
+                            "flags": 2048,
+                            "start": 33,
+                            "end": 72
                         },
-                        "flags": 16,
-                        "start": 35,
+                        "flags": 2048,
+                        "start": 19,
                         "end": 72
                     }
                 ],
-                "flags": 17,
-                "start": 19,
-                "end": 72
+                "flags": 32,
+                "start": 7,
+                "end": 74
             },
             "flags": 16,
-            "start": 17,
+            "start": 0,
             "end": 74
         }
     ],
@@ -226,15 +229,16 @@ class x extends y {
 
 ```javascript
 
+class x  {
+  constructor() {
+    ({ "\"foo\"":  } = x);
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 17, end: 19
-✖ Expected a `;` - start: 35, end: 37
-✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 56, end: 57
-
+✔ No errors
 ```
 

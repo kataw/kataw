@@ -119,7 +119,7 @@ class x {set interface(x){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 28
             },
             "flags": 16,

@@ -40,69 +40,62 @@ class A extends async a => b {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 271,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 0,
+                            "start": 23,
+                            "end": 26
+                        },
+                        "typeParameters": null,
+                        "parameters": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 23
+                        },
+                        "asyncKeyword": {
+                            "kind": 82031,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 21
+                        },
+                        "returnType": null,
+                        "contents": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 26,
+                            "end": 28
+                        },
+                        "flags": 288,
+                        "start": 15,
+                        "end": 28
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 28
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 31
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 0,
-                    "start": 23,
-                    "end": 26
-                },
-                "typeParameters": null,
-                "parameters": {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 96,
-                    "start": 21,
-                    "end": 23
-                },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 21
-                },
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "b",
-                    "rawText": "b",
-                    "flags": 96,
-                    "start": 26,
-                    "end": 28
-                },
-                "flags": 288,
-                "start": 15,
-                "end": 28
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 28
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 30,
-                "end": 30
-            },
-            "flags": 16,
-            "start": 28,
             "end": 31
         }
     ],
@@ -124,8 +117,7 @@ class A extends async a => b {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 28, end: 30
+✖ Expected a `;` - start: 21, end: 23
 
 ```
 

@@ -151,7 +151,7 @@ class C { set x(_) { super; } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 31
             },
             "flags": 16,

@@ -80,90 +80,88 @@ async function p(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 29,
+                                        "end": 37
+                                    },
+                                    "expression": {
+                                        "kind": 177,
+                                        "asyncKeyword": null,
+                                        "functionKeyword": {
+                                            "kind": 37822554,
+                                            "flags": 0,
+                                            "start": 37,
+                                            "end": 46
+                                        },
+                                        "generatorToken": null,
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
+                                            "start": 46,
+                                            "end": 48
+                                        },
+                                        "formalParameters": {
+                                            "kind": 214,
+                                            "formalParameterList": [],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 48,
+                                            "end": 50
+                                        },
+                                        "contents": {
+                                            "kind": 216,
+                                            "functionStatementList": {
+                                                "kind": 217,
+                                                "directives": [],
+                                                "statements": [],
+                                                "flags": 32,
+                                                "start": 51,
+                                                "end": 51
+                                            },
+                                            "flags": 32,
+                                            "start": 50,
+                                            "end": 52
+                                        },
+                                        "typeParameters": null,
+                                        "returnType": null,
+                                        "flags": 32,
+                                        "start": 37,
+                                        "end": 52
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 37,
+                                    "end": 52
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 19,
-                                "end": 19
+                                "start": 29,
+                                "end": 55
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 29
+                            "end": 55
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 29
+                    "end": 55
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 29
+                "end": 57
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 176,
-            "declareKeyword": null,
-            "asyncKeyword": null,
-            "functionKeyword": {
-                "kind": 37822554,
-                "flags": 0,
-                "start": 37,
-                "end": 46
-            },
-            "generatorToken": null,
-            "name": {
-                "kind": 134299649,
-                "text": "f",
-                "rawText": "f",
-                "flags": 96,
-                "start": 46,
-                "end": 48
-            },
-            "formalParameters": {
-                "kind": 214,
-                "formalParameterList": [],
-                "trailingComma": false,
-                "flags": 32,
-                "start": 48,
-                "end": 50
-            },
-            "contents": {
-                "kind": 216,
-                "functionStatementList": {
-                    "kind": 217,
-                    "directives": [],
-                    "statements": [],
-                    "flags": 32,
-                    "start": 51,
-                    "end": 51
-                },
-                "flags": 32,
-                "start": 50,
-                "end": 52
-            },
-            "typeParameters": null,
-            "returnType": null,
-            "flags": 16,
-            "start": 37,
-            "end": 52
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 54,
-                "end": 54
-            },
-            "flags": 16,
-            "start": 52,
-            "end": 55
+            "end": 57
         }
     ],
     "isModule": false,
@@ -179,13 +177,14 @@ async function p(){
 
 ```javascript
 
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
-✖ Declaration or statement expected - start: 55, end: 57
-
+✔ No errors
 ```
 

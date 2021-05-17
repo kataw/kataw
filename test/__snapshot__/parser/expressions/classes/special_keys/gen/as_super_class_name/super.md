@@ -40,58 +40,51 @@ class x extends super {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 203,
-                "chain": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
                         "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 203,
+                        "chain": {
+                            "kind": 225,
+                            "superKeyword": {
+                                "kind": 4259935,
+                                "flags": 0,
+                                "start": 15,
+                                "end": 21
+                            },
+                            "flags": 96,
+                            "start": 15,
+                            "end": 21
+                        },
+                        "expression": {
+                            "kind": 16637,
+                            "text": "",
+                            "flags": 64,
+                            "start": 21,
+                            "end": 21
+                        },
+                        "flags": 536870944,
                         "start": 15,
                         "end": 21
                     },
-                    "flags": 96,
+                    "typeParameter": null,
+                    "flags": 16,
                     "start": 15,
                     "end": 21
                 },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "flags": 64,
-                    "start": 21,
-                    "end": 21
-                },
-                "flags": 536870944,
-                "start": 15,
-                "end": 21
+                "elements": [],
+                "flags": 32,
+                "start": 7,
+                "end": 24
             },
             "flags": 16,
-            "start": 15,
-            "end": 21
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 23,
-                "end": 23
-            },
-            "flags": 16,
-            "start": 21,
+            "start": 0,
             "end": 24
         }
     ],
@@ -113,10 +106,8 @@ class x extends super {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
 ✖ 'super' must be followed by an argument list or member access. - start: 21, end: 23
 ✖ Dot property must be an identifier - start: 21, end: 23
-✖ Expected a `;` - start: 21, end: 23
 
 ```
 

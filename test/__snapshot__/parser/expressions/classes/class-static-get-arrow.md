@@ -120,7 +120,7 @@
                                 }
                             ],
                             "flags": 32,
-                            "start": 7,
+                            "start": 6,
                             "end": 32
                         },
                         "flags": 32,

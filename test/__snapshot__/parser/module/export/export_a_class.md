@@ -53,7 +53,7 @@ export class x {}
                     "classHeritage": null,
                     "elements": [],
                     "flags": 32,
-                    "start": 16,
+                    "start": 14,
                     "end": 17
                 },
                 "flags": 16,

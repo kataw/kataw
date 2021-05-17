@@ -52,7 +52,7 @@ export default class {}
                     "classHeritage": null,
                     "elements": [],
                     "flags": 32,
-                    "start": 22,
+                    "start": 20,
                     "end": 23
                 },
                 "flags": 16,

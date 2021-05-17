@@ -65,7 +65,7 @@ class x {true: x}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 13
             },
             "flags": 16,

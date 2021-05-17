@@ -163,7 +163,7 @@ async function f() {
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 31,
+                                "start": 30,
                                 "end": 46
                             },
                             "flags": 16,

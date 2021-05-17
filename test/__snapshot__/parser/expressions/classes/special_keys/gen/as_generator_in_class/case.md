@@ -100,7 +100,7 @@ class x {* case(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 20
             },
             "flags": 16,

@@ -88,7 +88,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 19,
+                                                "start": 17,
                                                 "end": 20
                                             },
                                             "flags": 32,
@@ -138,7 +138,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                 "classHeritage": null,
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 38,
+                                                "start": 36,
                                                 "end": 39
                                             },
                                             "flags": 32,
@@ -238,7 +238,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 56,
+                                                "start": 54,
                                                 "end": 75
                                             },
                                             "flags": 32,

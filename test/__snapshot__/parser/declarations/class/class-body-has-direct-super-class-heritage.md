@@ -44,7 +44,7 @@ class B extends A {
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 10
             },
             "flags": 16,
@@ -72,40 +72,40 @@ class B extends A {
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 10,
-                "end": 10
-            },
-            "flags": 16,
-            "start": 10,
-            "end": 18
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "A",
-                "rawText": "A",
-                "flags": 96,
-                "start": 26,
-                "end": 28
-            },
-            "flags": 16,
-            "start": 26,
-            "end": 28
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 18,
+                        "end": 26
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "A",
+                        "rawText": "A",
+                        "flags": 96,
+                        "start": 26,
+                        "end": 28
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 26,
+                    "end": 28
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 131,
-                            "expression": {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
@@ -113,75 +113,78 @@ class B extends A {
                                 "start": 30,
                                 "end": 44
                             },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [],
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 2048,
                                 "start": 45,
-                                "end": 45
+                                "end": 46
                             },
-                            "flags": 268435488,
-                            "start": 30,
-                            "end": 46
-                        },
-                        "flags": 16,
-                        "start": 30,
-                        "end": 46
-                    },
-                    {
-                        "kind": 249,
-                        "block": {
-                            "kind": 124,
-                            "statements": [
-                                {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 131,
-                                        "expression": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 1,
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [
+                                        {
+                                            "kind": 120,
+                                            "expression": {
+                                                "kind": 131,
+                                                "expression": {
+                                                    "kind": 225,
+                                                    "superKeyword": {
+                                                        "kind": 4259935,
+                                                        "flags": 1,
+                                                        "start": 48,
+                                                        "end": 58
+                                                    },
+                                                    "flags": 96,
+                                                    "start": 48,
+                                                    "end": 58
+                                                },
+                                                "argumentList": {
+                                                    "kind": 256,
+                                                    "elements": [],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 59,
+                                                    "end": 59
+                                                },
+                                                "flags": 268435488,
                                                 "start": 48,
-                                                "end": 58
+                                                "end": 60
                                             },
-                                            "flags": 96,
+                                            "flags": 16,
                                             "start": 48,
-                                            "end": 58
-                                        },
-                                        "argumentList": {
-                                            "kind": 256,
-                                            "elements": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 59,
-                                            "end": 59
-                                        },
-                                        "flags": 268435488,
-                                        "start": 48,
-                                        "end": 60
-                                    },
-                                    "flags": 16,
+                                            "end": 61
+                                        }
+                                    ],
+                                    "flags": 33,
                                     "start": 48,
                                     "end": 61
-                                }
-                            ],
-                            "flags": 17,
-                            "start": 48,
-                            "end": 61
+                                },
+                                "flags": 32,
+                                "start": 46,
+                                "end": 65
+                            },
+                            "flags": 2048,
+                            "start": 44,
+                            "end": 65
                         },
-                        "flags": 16,
-                        "start": 46,
+                        "flags": 2048,
+                        "start": 30,
                         "end": 65
                     }
                 ],
-                "flags": 17,
-                "start": 30,
-                "end": 65
+                "flags": 32,
+                "start": 18,
+                "end": 67
             },
             "flags": 16,
-            "start": 28,
+            "start": 10,
             "end": 67
         }
     ],
@@ -203,9 +206,6 @@ class B extends A {
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 18, end: 26
-✖ Expected a `;` - start: 28, end: 30
-✖ Expected a `;` - start: 46, end: 48
 ✖ 'super' can only be referenced in members of derived classes or object literal expressions - start: 58, end: 59
 
 ```

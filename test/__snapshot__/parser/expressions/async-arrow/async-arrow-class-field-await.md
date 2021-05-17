@@ -97,7 +97,7 @@ async( x = class { x = await });
                         }
                     ],
                     "flags": 32,
-                    "start": 21,
+                    "start": 19,
                     "end": 35
                 },
                 "flags": 32,
@@ -188,7 +188,7 @@ async( x = class { x = await });
                                     }
                                 ],
                                 "flags": 32,
-                                "start": 56,
+                                "start": 54,
                                 "end": 68
                             },
                             "flags": 32,

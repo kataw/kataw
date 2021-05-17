@@ -76,7 +76,7 @@ class Foo { x = arguments }
                     }
                 ],
                 "flags": 32,
-                "start": 11,
+                "start": 9,
                 "end": 27
             },
             "flags": 16,

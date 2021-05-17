@@ -40,41 +40,34 @@ class A extends `temp {waitforit} late` {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 458761,
+                        "text": "temp {waitforit} late",
+                        "rawText": "temp {waitforit} late",
+                        "flags": 134217824,
+                        "start": 15,
+                        "end": 39
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 39
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 42
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 458761,
-                "text": "temp {waitforit} late",
-                "rawText": "temp {waitforit} late",
-                "flags": 134217824,
-                "start": 15,
-                "end": 39
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 39
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 41,
-                "end": 41
-            },
-            "flags": 16,
-            "start": 39,
             "end": 42
         }
     ],
@@ -91,13 +84,12 @@ class A extends `temp {waitforit} late` {}
 
 ```javascript
 
+class A  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 39, end: 41
-
+✔ No errors
 ```
 

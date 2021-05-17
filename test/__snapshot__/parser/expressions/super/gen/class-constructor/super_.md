@@ -127,7 +127,7 @@ class C { constructor() { super; } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 36
             },
             "flags": 16,

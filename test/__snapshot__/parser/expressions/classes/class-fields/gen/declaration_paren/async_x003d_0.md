@@ -36,90 +36,71 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
-                        "elements": [],
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 6,
+                                "end": 14
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "Base",
+                                "rawText": "Base",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 19
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 14,
+                            "end": 19
+                        },
+                        "elements": [
+                            {
+                                "kind": 280,
+                                "decorators": null,
+                                "declaredToken": null,
+                                "staticToken": null,
+                                "asyncKeyword": null,
+                                "key": {
+                                    "kind": 134299649,
+                                    "text": "async",
+                                    "rawText": "async",
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 27
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 201392130,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 96,
+                                    "start": 29,
+                                    "end": 31
+                                },
+                                "flags": 32,
+                                "start": 21,
+                                "end": 31
+                            }
+                        ],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 6,
+                        "end": 33
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 6
+                    "end": 33
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 6
+                "end": 34
             },
             "flags": 16,
             "start": 0,
-            "end": 6
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "Base",
-                "rawText": "Base",
-                "flags": 96,
-                "start": 14,
-                "end": 19
-            },
-            "flags": 16,
-            "start": 14,
-            "end": 19
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
-                    {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "async",
-                                "rawText": "async",
-                                "flags": 96,
-                                "start": 21,
-                                "end": 27
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 64,
-                                "start": 27,
-                                "end": 29
-                            },
-                            "right": {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 29,
-                                "end": 31
-                            },
-                            "flags": 32,
-                            "start": 21,
-                            "end": 31
-                        },
-                        "flags": 16,
-                        "start": 21,
-                        "end": 31
-                    }
-                ],
-                "flags": 16,
-                "start": 21,
-                "end": 31
-            },
-            "flags": 16,
-            "start": 19,
-            "end": 33
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 34,
             "end": 35
         }
     ],
@@ -136,14 +117,14 @@
 
 ```javascript
 
+(class   {
+    async = 0;
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 6, end: 14
-✖ Expected a `;` - start: 19, end: 21
-✖ Declaration or statement expected - start: 33, end: 34
-
+✔ No errors
 ```
 

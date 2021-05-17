@@ -75,7 +75,7 @@ class C { [0] }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 15
             },
             "flags": 16,

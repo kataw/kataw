@@ -52,7 +52,7 @@ f ^= 1;
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 11
             },
             "flags": 16,

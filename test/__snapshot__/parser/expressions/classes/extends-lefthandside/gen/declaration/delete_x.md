@@ -40,53 +40,46 @@ class A extends delete x {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 126,
+                        "operandToken": {
+                            "kind": 4259886,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 22
+                        },
+                        "operand": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 22,
+                            "end": 24
+                        },
+                        "flags": 32,
+                        "start": 15,
+                        "end": 24
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 24
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 27
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 4259886,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 22
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 22,
-                    "end": 24
-                },
-                "flags": 32,
-                "start": 15,
-                "end": 24
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 24
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 26,
-                "end": 26
-            },
-            "flags": 16,
-            "start": 24,
             "end": 27
         }
     ],
@@ -108,8 +101,8 @@ class A extends delete x {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 24, end: 26
+✖ Expression expected - start: 22, end: 24
+✖ 'delete' cannot be called on an identifier in strict mode. - start: 24, end: 26
 
 ```
 

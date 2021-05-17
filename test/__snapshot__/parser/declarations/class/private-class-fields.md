@@ -89,7 +89,7 @@ class C { #aaa
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 22
             },
             "flags": 16,
@@ -161,7 +161,7 @@ class C { #aaa
                     }
                 ],
                 "flags": 32,
-                "start": 33,
+                "start": 31,
                 "end": 46
             },
             "flags": 16,

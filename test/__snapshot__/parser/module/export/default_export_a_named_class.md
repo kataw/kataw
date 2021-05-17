@@ -59,7 +59,7 @@ export default class x {}
                     "classHeritage": null,
                     "elements": [],
                     "flags": 32,
-                    "start": 24,
+                    "start": 22,
                     "end": 25
                 },
                 "flags": 16,

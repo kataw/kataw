@@ -40,7 +40,7 @@ var B = class extends A {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 10
             },
             "flags": 16,
@@ -84,54 +84,47 @@ var B = class extends A {}
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 24,
+                                        "end": 32
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "A",
+                                        "rawText": "A",
+                                        "flags": 96,
+                                        "start": 32,
+                                        "end": 34
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 32,
+                                    "end": 34
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 18,
-                                "end": 18
+                                "start": 24,
+                                "end": 37
                             },
                             "flags": 32,
                             "start": 18,
-                            "end": 24
+                            "end": 37
                         },
                         "flags": 16,
                         "start": 14,
-                        "end": 24
+                        "end": 37
                     }
                 ],
                 "flags": 16,
                 "start": 14,
-                "end": 24
+                "end": 37
             },
             "flags": 16,
             "start": 10,
-            "end": 24
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "A",
-                "rawText": "A",
-                "flags": 96,
-                "start": 32,
-                "end": 34
-            },
-            "flags": 16,
-            "start": 32,
-            "end": 34
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 36,
-                "end": 36
-            },
-            "flags": 16,
-            "start": 34,
             "end": 37
         }
     ],
@@ -148,14 +141,13 @@ var B = class extends A {}
 
 ```javascript
 
+class A {}
+var B = class   {};
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Variable declaration expected. - start: 24, end: 32
-✖ Expected a `;` - start: 24, end: 32
-✖ Expected a `;` - start: 34, end: 36
-
+✔ No errors
 ```
 

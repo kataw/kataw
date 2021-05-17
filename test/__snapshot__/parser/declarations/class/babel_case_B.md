@@ -70,7 +70,7 @@ x = class{} / x
                             "classHeritage": null,
                             "elements": [],
                             "flags": 32,
-                            "start": 10,
+                            "start": 9,
                             "end": 11
                         },
                         "flags": 32,

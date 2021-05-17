@@ -140,7 +140,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 28
             },
             "flags": 16,
@@ -243,7 +243,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 39,
+                "start": 37,
                 "end": 58
             },
             "flags": 16,
@@ -345,7 +345,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 69,
+                "start": 67,
                 "end": 86
             },
             "flags": 16,
@@ -447,7 +447,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 97,
+                "start": 95,
                 "end": 114
             },
             "flags": 16,
@@ -582,7 +582,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 125,
+                "start": 123,
                 "end": 146
             },
             "flags": 16,
@@ -717,7 +717,7 @@ class C { f(){ this.#a } #a; }
                     }
                 ],
                 "flags": 32,
-                "start": 157,
+                "start": 155,
                 "end": 178
             },
             "flags": 16,

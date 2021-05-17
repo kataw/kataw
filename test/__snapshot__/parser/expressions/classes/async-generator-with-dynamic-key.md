@@ -107,7 +107,7 @@ class x { async *[y](){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 25
             },
             "flags": 16,

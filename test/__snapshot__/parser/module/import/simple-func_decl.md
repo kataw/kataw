@@ -60,8 +60,8 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 1,
-                "end": 1
+                "start": 5,
+                "end": 5
             },
             "flags": 16,
             "start": 1,
@@ -91,8 +91,8 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 6,
-                "end": 6
+                "start": 8,
+                "end": 8
             },
             "flags": 16,
             "start": 6,
@@ -123,8 +123,8 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 8,
-                "end": 8
+                "start": 12,
+                "end": 12
             },
             "flags": 16,
             "start": 8,
@@ -169,8 +169,8 @@ x@{x9}@+@{x9}@y
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 13,
-                "end": 13
+                "start": 15,
+                "end": 15
             },
             "flags": 16,
             "start": 13,

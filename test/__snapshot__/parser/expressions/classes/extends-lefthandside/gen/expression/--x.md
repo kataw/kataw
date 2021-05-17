@@ -43,62 +43,55 @@
                     "typeParameters": null,
                     "members": {
                         "kind": 277,
-                        "classHeritage": null,
+                        "classHeritage": {
+                            "kind": 279,
+                            "extendsKeyword": {
+                                "kind": 4194391,
+                                "flags": 0,
+                                "start": 8,
+                                "end": 16
+                            },
+                            "expression": {
+                                "kind": 128,
+                                "operandToken": {
+                                    "kind": 196636,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
+                                "operand": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 19,
+                                    "end": 20
+                                },
+                                "flags": 32,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "typeParameter": null,
+                            "flags": 16,
+                            "start": 16,
+                            "end": 20
+                        },
                         "elements": [],
                         "flags": 32,
-                        "start": 1,
-                        "end": 1
+                        "start": 8,
+                        "end": 23
                     },
                     "flags": 32,
                     "start": 1,
-                    "end": 8
+                    "end": 23
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 8
+                "end": 24
             },
             "flags": 16,
             "start": 0,
-            "end": 8
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 128,
-                "operandToken": {
-                    "kind": 196636,
-                    "flags": 64,
-                    "start": 16,
-                    "end": 19
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 19,
-                    "end": 20
-                },
-                "flags": 32,
-                "start": 16,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 16,
-            "end": 20
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 22,
-                "end": 22
-            },
-            "flags": 16,
-            "start": 20,
-            "end": 23
+            "end": 24
         }
     ],
     "isModule": false,
@@ -119,9 +112,7 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 8, end: 16
 ✖ Expected a `;` - start: 20, end: 22
-✖ Declaration or statement expected - start: 23, end: 24
 
 ```
 

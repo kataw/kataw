@@ -210,7 +210,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "start": 35,
+                                                "start": 33,
                                                 "end": 57
                                             },
                                             "flags": 16,
@@ -236,7 +236,7 @@ class C { constructor() { class C { set x(_) { super( } }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 57
             },
             "flags": 16,

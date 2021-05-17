@@ -2695,84 +2695,78 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "members": {
                                                 "kind": 277,
-                                                "classHeritage": null,
+                                                "classHeritage": {
+                                                    "kind": 279,
+                                                    "extendsKeyword": {
+                                                        "kind": 4194391,
+                                                        "flags": 0,
+                                                        "start": 994,
+                                                        "end": 1002
+                                                    },
+                                                    "expression": {
+                                                        "kind": 121,
+                                                        "expression": {
+                                                            "kind": 229,
+                                                            "yieldKeyword": {
+                                                                "kind": 8454253,
+                                                                "flags": 0,
+                                                                "start": 1004,
+                                                                "end": 1009
+                                                            },
+                                                            "delegate": false,
+                                                            "asteriskToken": null,
+                                                            "expression": null,
+                                                            "flags": 32,
+                                                            "start": 1004,
+                                                            "end": 1009
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 1002,
+                                                        "end": 1010
+                                                    },
+                                                    "typeParameter": null,
+                                                    "flags": 16,
+                                                    "start": 1002,
+                                                    "end": 1010
+                                                },
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 988,
-                                                "end": 988
+                                                "start": 994,
+                                                "end": 1013
                                             },
                                             "flags": 32,
                                             "start": 988,
-                                            "end": 994
+                                            "end": 1013
                                         },
                                         "flags": 32,
                                         "start": 985,
-                                        "end": 994
+                                        "end": 1013
                                     },
                                     "flags": 16,
                                     "start": 985,
-                                    "end": 994
+                                    "end": 1013
                                 }
                             ],
                             "flags": 32,
                             "start": 985,
-                            "end": 994
+                            "end": 1013
                         },
                         "flags": 32,
                         "start": 983,
-                        "end": 994
+                        "end": 1014
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 967,
-                    "end": 994
+                    "end": 1014
                 },
                 "flags": 32,
                 "start": 964,
-                "end": 994
+                "end": 1015
             },
             "flags": 16,
             "start": 964,
-            "end": 994
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "yield",
-                    "rawText": "yield",
-                    "flags": 96,
-                    "start": 1004,
-                    "end": 1009
-                },
-                "flags": 32,
-                "start": 1002,
-                "end": 1010
-            },
-            "flags": 16,
-            "start": 1002,
-            "end": 1010
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 1012,
-                "end": 1012
-            },
-            "flags": 16,
-            "start": 1010,
-            "end": 1013
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 1015,
             "end": 1016
         },
         {
@@ -2847,101 +2841,95 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "members": {
                                                 "kind": 277,
-                                                "classHeritage": null,
+                                                "classHeritage": {
+                                                    "kind": 279,
+                                                    "extendsKeyword": {
+                                                        "kind": 4194391,
+                                                        "flags": 0,
+                                                        "start": 1045,
+                                                        "end": 1053
+                                                    },
+                                                    "expression": {
+                                                        "kind": 131,
+                                                        "expression": {
+                                                            "kind": 134299649,
+                                                            "text": "f",
+                                                            "rawText": "f",
+                                                            "flags": 96,
+                                                            "start": 1053,
+                                                            "end": 1055
+                                                        },
+                                                        "argumentList": {
+                                                            "kind": 256,
+                                                            "elements": [
+                                                                {
+                                                                    "kind": 229,
+                                                                    "yieldKeyword": {
+                                                                        "kind": 8454253,
+                                                                        "flags": 0,
+                                                                        "start": 1056,
+                                                                        "end": 1061
+                                                                    },
+                                                                    "delegate": false,
+                                                                    "asteriskToken": null,
+                                                                    "expression": null,
+                                                                    "flags": 32,
+                                                                    "start": 1056,
+                                                                    "end": 1061
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 32,
+                                                            "start": 1056,
+                                                            "end": 1061
+                                                        },
+                                                        "flags": 268435488,
+                                                        "start": 1053,
+                                                        "end": 1062
+                                                    },
+                                                    "typeParameter": null,
+                                                    "flags": 16,
+                                                    "start": 1053,
+                                                    "end": 1062
+                                                },
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 1039,
-                                                "end": 1039
+                                                "start": 1045,
+                                                "end": 1065
                                             },
                                             "flags": 32,
                                             "start": 1039,
-                                            "end": 1045
+                                            "end": 1065
                                         },
                                         "flags": 32,
                                         "start": 1036,
-                                        "end": 1045
+                                        "end": 1065
                                     },
                                     "flags": 16,
                                     "start": 1036,
-                                    "end": 1045
+                                    "end": 1065
                                 }
                             ],
                             "flags": 32,
                             "start": 1036,
-                            "end": 1045
+                            "end": 1065
                         },
                         "flags": 32,
                         "start": 1034,
-                        "end": 1045
+                        "end": 1066
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 1018,
-                    "end": 1045
+                    "end": 1066
                 },
                 "flags": 32,
                 "start": 1016,
-                "end": 1045
+                "end": 1067
             },
             "flags": 16,
             "start": 1016,
-            "end": 1045
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 96,
-                    "start": 1053,
-                    "end": 1055
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 134299649,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 96,
-                            "start": 1056,
-                            "end": 1061
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 1056,
-                    "end": 1061
-                },
-                "flags": 268435488,
-                "start": 1053,
-                "end": 1062
-            },
-            "flags": 16,
-            "start": 1053,
-            "end": 1062
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 1064,
-                "end": 1064
-            },
-            "flags": 16,
-            "start": 1062,
-            "end": 1065
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 1067,
             "end": 1068
         },
         {
@@ -3016,99 +3004,93 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "members": {
                                                 "kind": 277,
-                                                "classHeritage": null,
+                                                "classHeritage": {
+                                                    "kind": 279,
+                                                    "extendsKeyword": {
+                                                        "kind": 4194391,
+                                                        "flags": 0,
+                                                        "start": 1097,
+                                                        "end": 1105
+                                                    },
+                                                    "expression": {
+                                                        "kind": 121,
+                                                        "expression": {
+                                                            "kind": 132,
+                                                            "expressions": [
+                                                                {
+                                                                    "kind": 269,
+                                                                    "text": null,
+                                                                    "flags": 96,
+                                                                    "start": 1107,
+                                                                    "end": 1111
+                                                                },
+                                                                {
+                                                                    "kind": 229,
+                                                                    "yieldKeyword": {
+                                                                        "kind": 8454253,
+                                                                        "flags": 0,
+                                                                        "start": 1112,
+                                                                        "end": 1118
+                                                                    },
+                                                                    "delegate": false,
+                                                                    "asteriskToken": null,
+                                                                    "expression": null,
+                                                                    "flags": 32,
+                                                                    "start": 1112,
+                                                                    "end": 1118
+                                                                }
+                                                            ],
+                                                            "flags": 32,
+                                                            "start": 1105,
+                                                            "end": 1118
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 1105,
+                                                        "end": 1119
+                                                    },
+                                                    "typeParameter": null,
+                                                    "flags": 16,
+                                                    "start": 1105,
+                                                    "end": 1119
+                                                },
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 1091,
-                                                "end": 1091
+                                                "start": 1097,
+                                                "end": 1123
                                             },
                                             "flags": 32,
                                             "start": 1091,
-                                            "end": 1097
+                                            "end": 1123
                                         },
                                         "flags": 32,
                                         "start": 1088,
-                                        "end": 1097
+                                        "end": 1123
                                     },
                                     "flags": 16,
                                     "start": 1088,
-                                    "end": 1097
+                                    "end": 1123
                                 }
                             ],
                             "flags": 32,
                             "start": 1088,
-                            "end": 1097
+                            "end": 1123
                         },
                         "flags": 32,
                         "start": 1086,
-                        "end": 1097
+                        "end": 1124
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 1070,
-                    "end": 1097
+                    "end": 1124
                 },
                 "flags": 32,
                 "start": 1068,
-                "end": 1097
+                "end": 1125
             },
             "flags": 16,
             "start": 1068,
-            "end": 1097
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 132,
-                    "expressions": [
-                        {
-                            "kind": 269,
-                            "text": null,
-                            "flags": 96,
-                            "start": 1107,
-                            "end": 1111
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 96,
-                            "start": 1112,
-                            "end": 1118
-                        }
-                    ],
-                    "flags": 32,
-                    "start": 1105,
-                    "end": 1118
-                },
-                "flags": 32,
-                "start": 1105,
-                "end": 1119
-            },
-            "flags": 16,
-            "start": 1105,
-            "end": 1119
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 1121,
-                "end": 1121
-            },
-            "flags": 16,
-            "start": 1119,
-            "end": 1123
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 1125,
             "end": 1126
         },
         {
@@ -3183,117 +3165,111 @@ for (;;) {}});
                                             "typeParameters": null,
                                             "members": {
                                                 "kind": 277,
-                                                "classHeritage": null,
+                                                "classHeritage": {
+                                                    "kind": 279,
+                                                    "extendsKeyword": {
+                                                        "kind": 4194391,
+                                                        "flags": 0,
+                                                        "start": 1155,
+                                                        "end": 1163
+                                                    },
+                                                    "expression": {
+                                                        "kind": 121,
+                                                        "expression": {
+                                                            "kind": 197,
+                                                            "shortCircuit": {
+                                                                "kind": 134299649,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 96,
+                                                                "start": 1165,
+                                                                "end": 1166
+                                                            },
+                                                            "questionToken": {
+                                                                "kind": 134217750,
+                                                                "flags": 64,
+                                                                "start": 1166,
+                                                                "end": 1168
+                                                            },
+                                                            "consequent": {
+                                                                "kind": 269,
+                                                                "text": null,
+                                                                "flags": 96,
+                                                                "start": 1168,
+                                                                "end": 1173
+                                                            },
+                                                            "colonToken": {
+                                                                "kind": 21,
+                                                                "flags": 0,
+                                                                "start": 1173,
+                                                                "end": 1175
+                                                            },
+                                                            "alternate": {
+                                                                "kind": 229,
+                                                                "yieldKeyword": {
+                                                                    "kind": 8454253,
+                                                                    "flags": 0,
+                                                                    "start": 1175,
+                                                                    "end": 1181
+                                                                },
+                                                                "delegate": false,
+                                                                "asteriskToken": null,
+                                                                "expression": null,
+                                                                "flags": 32,
+                                                                "start": 1175,
+                                                                "end": 1181
+                                                            },
+                                                            "flags": 32,
+                                                            "start": 1163,
+                                                            "end": 1181
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 1163,
+                                                        "end": 1182
+                                                    },
+                                                    "typeParameter": null,
+                                                    "flags": 16,
+                                                    "start": 1163,
+                                                    "end": 1182
+                                                },
                                                 "elements": [],
                                                 "flags": 32,
-                                                "start": 1149,
-                                                "end": 1149
+                                                "start": 1155,
+                                                "end": 1186
                                             },
                                             "flags": 32,
                                             "start": 1149,
-                                            "end": 1155
+                                            "end": 1186
                                         },
                                         "flags": 32,
                                         "start": 1146,
-                                        "end": 1155
+                                        "end": 1186
                                     },
                                     "flags": 16,
                                     "start": 1146,
-                                    "end": 1155
+                                    "end": 1186
                                 }
                             ],
                             "flags": 32,
                             "start": 1146,
-                            "end": 1155
+                            "end": 1186
                         },
                         "flags": 32,
                         "start": 1144,
-                        "end": 1155
+                        "end": 1187
                     },
                     "typeParameters": null,
                     "returnType": null,
                     "flags": 288,
                     "start": 1128,
-                    "end": 1155
+                    "end": 1187
                 },
                 "flags": 32,
                 "start": 1126,
-                "end": 1155
+                "end": 1188
             },
             "flags": 16,
             "start": 1126,
-            "end": 1155
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 197,
-                    "shortCircuit": {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 1165,
-                        "end": 1166
-                    },
-                    "questionToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 1166,
-                        "end": 1168
-                    },
-                    "consequent": {
-                        "kind": 269,
-                        "text": null,
-                        "flags": 96,
-                        "start": 1168,
-                        "end": 1173
-                    },
-                    "colonToken": {
-                        "kind": 21,
-                        "flags": 0,
-                        "start": 1173,
-                        "end": 1175
-                    },
-                    "alternate": {
-                        "kind": 134299649,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 96,
-                        "start": 1175,
-                        "end": 1181
-                    },
-                    "flags": 32,
-                    "start": 1163,
-                    "end": 1181
-                },
-                "flags": 32,
-                "start": 1163,
-                "end": 1182
-            },
-            "flags": 16,
-            "start": 1163,
-            "end": 1182
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 1184,
-                "end": 1184
-            },
-            "flags": 16,
-            "start": 1182,
-            "end": 1186
-        },
-        {
-            "kind": 168,
-            "flags": 16,
-            "start": 1188,
             "end": 1189
         }
     ],
@@ -3310,27 +3286,103 @@ for (;;) {}});
 
 ```javascript
 
+(function * gen() {
+     2;
+  })(function * gen() {
+   2;
+});
+(function * gen() {
+     2;
+  });
+(function * gen() {
+      1;
+  });
+(function * gen() {
+      1;
+  });
+(function * gen() {
+     3 + ( 4);
+  });
+(function * gen() {
+     3 + ( 4);
+  });
+(function * gen() {
+     1;
+    return ;
+  });
+(function * gen() {
+     1;
+    return  37;
+  });
+(function * gen() {
+     1;
+    return  37;
+  });
+(function * gen() {
+     1;
+    return  37;
+     "'dead'";
+  });
+(function * gen() {
+     1;
+    return  37;
+     "'dead'";
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+     ;
+  });
+(function * gen() {
+    ( );
+  });
+(function * gen() {
+    [ ];
+  });
+(function * gen() {
+    {
+       ;
+    }
+  });
+(function * gen() {
+     ,  ;
+  });
+(function * gen() {
+     ;
+     ;
+  });
+(function * gen() {
+    ( ) ?   :  ;
+  });
+(function * gen() {
+    ( ) ?   :  ;
+  });
+// If there is a newline before the next token, we don't look for RHS.
+(function * gen() {
+     ;
+    for (;;) {}
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
+(function * gen() {
+    x = class   {};
+  });
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 994, end: 1002
-✖ Expected a `;` - start: 1010, end: 1012
-✖ Declaration or statement expected - start: 1013, end: 1014
-✖ Declaration or statement expected - start: 1014, end: 1015
-✖ Expected a `;` - start: 1045, end: 1053
-✖ Expected a `;` - start: 1062, end: 1064
-✖ Declaration or statement expected - start: 1065, end: 1066
-✖ Declaration or statement expected - start: 1066, end: 1067
-✖ Expected a `;` - start: 1097, end: 1105
-✖ Expected a `;` - start: 1119, end: 1121
-✖ Declaration or statement expected - start: 1123, end: 1124
-✖ Declaration or statement expected - start: 1124, end: 1125
-✖ Expected a `;` - start: 1155, end: 1163
-✖ Expected a `;` - start: 1182, end: 1184
-✖ Declaration or statement expected - start: 1186, end: 1187
-✖ Declaration or statement expected - start: 1187, end: 1188
-
+✔ No errors
 ```
 

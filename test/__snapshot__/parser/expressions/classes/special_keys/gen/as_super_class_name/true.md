@@ -40,40 +40,33 @@ class x extends true {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134,
+                        "text": true,
+                        "flags": 96,
+                        "start": 15,
+                        "end": 20
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 20
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 23
             },
             "flags": 16,
             "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134,
-                "text": true,
-                "flags": 96,
-                "start": 15,
-                "end": 20
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 20
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 22,
-                "end": 22
-            },
-            "flags": 16,
-            "start": 20,
             "end": 23
         }
     ],
@@ -90,13 +83,12 @@ class x extends true {}
 
 ```javascript
 
+class x  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 20, end: 22
-
+✔ No errors
 ```
 

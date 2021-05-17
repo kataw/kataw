@@ -95,7 +95,7 @@ class x {throw(){}}
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 19
             },
             "flags": 16,

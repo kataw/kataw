@@ -40,35 +40,47 @@ class A extends a + b {}
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 17
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 7,
+                "end": 17
             },
             "flags": 16,
             "start": 0,
-            "end": 7
+            "end": 17
         },
         {
             "kind": 120,
             "expression": {
-                "kind": 198,
-                "left": {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 96,
-                    "start": 15,
-                    "end": 17
-                },
-                "operatorToken": {
+                "kind": 126,
+                "operandToken": {
                     "kind": 34098,
                     "flags": 64,
                     "start": 17,
                     "end": 19
                 },
-                "right": {
+                "operand": {
                     "kind": 134299649,
                     "text": "b",
                     "rawText": "b",
@@ -77,11 +89,11 @@ class A extends a + b {}
                     "end": 21
                 },
                 "flags": 32,
-                "start": 15,
+                "start": 17,
                 "end": 21
             },
             "flags": 16,
-            "start": 15,
+            "start": 17,
             "end": 21
         },
         {
@@ -116,7 +128,6 @@ class A extends a + b {}
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
 ✖ Expected a `;` - start: 21, end: 23
 
 ```

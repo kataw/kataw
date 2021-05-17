@@ -36,40 +36,40 @@ class x extends y { f(){} }
             "typeParameters": null,
             "members": {
                 "kind": 277,
-                "classHeritage": null,
-                "elements": [],
-                "flags": 32,
-                "start": 0,
-                "end": 0
-            },
-            "flags": 16,
-            "start": 0,
-            "end": 7
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 15,
-                "end": 17
-            },
-            "flags": 16,
-            "start": 15,
-            "end": 17
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 7,
+                        "end": 15
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 15,
+                    "end": 17
+                },
+                "elements": [
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 131,
-                            "expression": {
+                        "kind": 278,
+                        "declareToken": null,
+                        "decorators": null,
+                        "generatorToken": null,
+                        "staticKeyword": null,
+                        "asyncKeyword": null,
+                        "setKeyword": null,
+                        "getKeyword": null,
+                        "method": {
+                            "kind": 209,
+                            "name": {
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
@@ -77,42 +77,45 @@ class x extends y { f(){} }
                                 "start": 19,
                                 "end": 21
                             },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [],
+                            "typeParameters": null,
+                            "formalParameters": {
+                                "kind": 214,
+                                "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 22,
-                                "end": 22
+                                "end": 23
                             },
-                            "flags": 268435488,
-                            "start": 19,
-                            "end": 23
+                            "type": null,
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 24
+                                },
+                                "flags": 32,
+                                "start": 23,
+                                "end": 25
+                            },
+                            "flags": 0,
+                            "start": 21,
+                            "end": 25
                         },
-                        "flags": 16,
+                        "flags": 0,
                         "start": 19,
-                        "end": 23
-                    },
-                    {
-                        "kind": 249,
-                        "block": {
-                            "kind": 124,
-                            "statements": [],
-                            "flags": 16,
-                            "start": 24,
-                            "end": 24
-                        },
-                        "flags": 16,
-                        "start": 23,
                         "end": 25
                     }
                 ],
-                "flags": 16,
-                "start": 19,
-                "end": 25
+                "flags": 32,
+                "start": 7,
+                "end": 27
             },
             "flags": 16,
-            "start": 17,
+            "start": 0,
             "end": 27
         }
     ],
@@ -129,14 +132,14 @@ class x extends y { f(){} }
 
 ```javascript
 
+class x  {
+  f() {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 7, end: 15
-✖ Expected a `;` - start: 17, end: 19
-✖ Expected a `;` - start: 23, end: 24
-
+✔ No errors
 ```
 

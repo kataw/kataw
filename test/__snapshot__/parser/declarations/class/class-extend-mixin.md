@@ -66,64 +66,57 @@ class Foo<T> extends mixin(Bar) { }
             },
             "members": {
                 "kind": 277,
-                "classHeritage": null,
+                "classHeritage": {
+                    "kind": 279,
+                    "extendsKeyword": {
+                        "kind": 4194391,
+                        "flags": 0,
+                        "start": 12,
+                        "end": 20
+                    },
+                    "expression": {
+                        "kind": 131,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "mixin",
+                            "rawText": "mixin",
+                            "flags": 96,
+                            "start": 20,
+                            "end": 26
+                        },
+                        "argumentList": {
+                            "kind": 256,
+                            "elements": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "Bar",
+                                    "rawText": "Bar",
+                                    "flags": 96,
+                                    "start": 27,
+                                    "end": 30
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 27,
+                            "end": 30
+                        },
+                        "flags": 268435488,
+                        "start": 20,
+                        "end": 31
+                    },
+                    "typeParameter": null,
+                    "flags": 16,
+                    "start": 20,
+                    "end": 31
+                },
                 "elements": [],
                 "flags": 32,
-                "start": 0,
-                "end": 0
+                "start": 12,
+                "end": 35
             },
             "flags": 16,
             "start": 0,
-            "end": 12
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 131,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "mixin",
-                    "rawText": "mixin",
-                    "flags": 96,
-                    "start": 20,
-                    "end": 26
-                },
-                "argumentList": {
-                    "kind": 256,
-                    "elements": [
-                        {
-                            "kind": 134299649,
-                            "text": "Bar",
-                            "rawText": "Bar",
-                            "flags": 96,
-                            "start": 27,
-                            "end": 30
-                        }
-                    ],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 27,
-                    "end": 30
-                },
-                "flags": 268435488,
-                "start": 20,
-                "end": 31
-            },
-            "flags": 16,
-            "start": 20,
-            "end": 31
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 33,
-                "end": 33
-            },
-            "flags": 16,
-            "start": 31,
             "end": 35
         }
     ],
@@ -140,13 +133,12 @@ class Foo<T> extends mixin(Bar) { }
 
 ```javascript
 
+class Foo  {}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Declaration or statement expected - start: 12, end: 20
-✖ Expected a `;` - start: 31, end: 33
-
+✔ No errors
 ```
 

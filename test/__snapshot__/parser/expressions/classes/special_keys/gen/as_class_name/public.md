@@ -43,7 +43,7 @@ class public {}
                 "classHeritage": null,
                 "elements": [],
                 "flags": 32,
-                "start": 14,
+                "start": 12,
                 "end": 15
             },
             "flags": 16,

@@ -80,57 +80,68 @@ async function p(){
                             "typeParameters": null,
                             "members": {
                                 "kind": 277,
-                                "classHeritage": null,
+                                "classHeritage": {
+                                    "kind": 279,
+                                    "extendsKeyword": {
+                                        "kind": 4194391,
+                                        "flags": 0,
+                                        "start": 29,
+                                        "end": 37
+                                    },
+                                    "expression": {
+                                        "kind": 208,
+                                        "awaitKeyword": {
+                                            "kind": 82032,
+                                            "flags": 0,
+                                            "start": 37,
+                                            "end": 43
+                                        },
+                                        "expression": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 45,
+                                                "end": 45
+                                            },
+                                            "flags": 48,
+                                            "start": 43,
+                                            "end": 46
+                                        },
+                                        "flags": 32,
+                                        "start": 37,
+                                        "end": 46
+                                    },
+                                    "typeParameter": null,
+                                    "flags": 16,
+                                    "start": 37,
+                                    "end": 46
+                                },
                                 "elements": [],
                                 "flags": 32,
-                                "start": 19,
-                                "end": 19
+                                "start": 29,
+                                "end": 46
                             },
                             "flags": 16,
                             "start": 19,
-                            "end": 29
+                            "end": 46
                         }
                     ],
                     "flags": 33,
                     "start": 19,
-                    "end": 29
+                    "end": 46
                 },
                 "flags": 32,
                 "start": 18,
-                "end": 29
+                "end": 48
             },
             "typeParameters": null,
             "returnType": null,
             "flags": 144,
             "start": 0,
-            "end": 29
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "await",
-                "rawText": "await",
-                "flags": 96,
-                "start": 37,
-                "end": 43
-            },
-            "flags": 16,
-            "start": 37,
-            "end": 43
-        },
-        {
-            "kind": 249,
-            "block": {
-                "kind": 124,
-                "statements": [],
-                "flags": 16,
-                "start": 45,
-                "end": 45
-            },
-            "flags": 16,
-            "start": 43,
-            "end": 46
+            "end": 48
         }
     ],
     "isModule": false,
@@ -146,14 +157,14 @@ async function p(){
 
 ```javascript
 
+async function p() {
+  class C  {}
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 29, end: 37
-✖ Expected a `;` - start: 43, end: 45
-✖ Declaration or statement expected - start: 46, end: 48
-
+✔ No errors
 ```
 

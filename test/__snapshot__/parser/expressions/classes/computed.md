@@ -136,7 +136,7 @@ class A { [x=y](foo) {} }
                     }
                 ],
                 "flags": 32,
-                "start": 9,
+                "start": 7,
                 "end": 25
             },
             "flags": 16,
